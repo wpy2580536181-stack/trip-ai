@@ -1,0 +1,102 @@
+export const mockTripData = {
+  success: true,
+  data: {
+    city: '北京',
+    days: 3,
+    totalBudget: 3000,
+    dailyItinerary: [
+      {
+        day: 1,
+        date: '第1天',
+        morning: {
+          spot: '天安门广场',
+          duration: '2小时',
+          ticket: 0,
+          transportation: '地铁1号线天安门东站',
+          description: '世界上最大的城市广场之一，是中国的象征。',
+        },
+        afternoon: {
+          spot: '故宫博物院',
+          duration: '3小时',
+          ticket: 60,
+          transportation: '从天安门步行即可',
+          description: '明清两代的皇家宫殿，世界上现存规模最大的宫殿建筑群。',
+        },
+        evening: {
+          spot: '王府井小吃街',
+          duration: '2小时',
+          ticket: 0,
+          transportation: '步行',
+          description: '品尝北京特色小吃，感受老北京风情。',
+        },
+      },
+      {
+        day: 2,
+        date: '第2天',
+        morning: {
+          spot: '八达岭长城',
+          duration: '4小时',
+          ticket: 45,
+          transportation: '乘坐877路公交车',
+          description: '万里长城的代表段落，是明长城最具代表性的部分。',
+        },
+        afternoon: {
+          spot: '颐和园',
+          duration: '3小时',
+          ticket: 30,
+          transportation: '公交或地铁',
+          description: '中国现存规模最大的皇家园林，被誉为皇家园林博物馆。',
+        },
+        evening: {
+          spot: '南锣鼓巷',
+          duration: '2小时',
+          ticket: 0,
+          transportation: '地铁',
+          description: '北京最古老的街区之一，汇集了各种特色小店和美食。',
+        },
+      },
+      {
+        day: 3,
+        date: '第3天',
+        morning: {
+          spot: '天坛公园',
+          duration: '2小时',
+          ticket: 15,
+          transportation: '地铁5号线',
+          description: '明清两代皇帝祭天祈谷的圣地，建筑精美独特。',
+        },
+        afternoon: {
+          spot: '鸟巢/水立方',
+          duration: '2小时',
+          ticket: 0,
+          transportation: '地铁8号线',
+          description: '2008年北京奥运会主场馆，外观独特，适合拍照打卡。',
+        },
+        evening: {
+          spot: '返程',
+          duration: '-',
+          ticket: 0,
+          transportation: '根据返程方式',
+          description: '整理行李，准备返程。',
+        },
+      },
+    ],
+    budgetBreakdown: {
+      accommodation: 600,
+      food: 450,
+      transportation: 300,
+      tickets: 150,
+      other: 500,
+    },
+    tips: [
+      '北京景点门票建议提前在官方公众号或美团预约，避免排队',
+      '春秋季节是最佳旅游时间，天气舒适',
+      '建议下载北京一卡通，方便乘坐地铁和公交',
+    ],
+    warnings: [
+      '故宫周一闭馆（法定节假日除外），请合理安排行程',
+      '长城景区坡陡路滑，建议穿防滑鞋',
+      '夏季注意防晒，随身携带饮用水',
+    ],
+  },
+}

@@ -1,0 +1,169 @@
+<template>
+  <div class="page-container">
+    <div class="page-header">
+      <van-nav-bar title="首页" />
+    </div>
+    <div class="page-content">
+      <van-notice-bar text="基于 AI 的智能景点介绍与行程规划系统。" style="text-align: center" />
+    </div>
+    <div class="card search-card">
+      <div class="section-title">规划您的行程</div>
+      <van-field @click="showCityPicker = true" readonly is-link v-model="formData.city" label="目的地" placeholder="请选择城市" />
+      <van-field type="number" v-model="formData.budget" label="预算（元）" placeholder="请输入您的预算" />
+      <van-field v-model="formData.days" label="天数" placeholder="请输入旅行天数" type="digit" />
+      <!--确认按钮-->
+      <van-button type="primary" round size="large" :loading="isloading" @click="handleSubmit">确认</van-button>
+    </div>
+
+    <div class="card quick-actions">
+      <div class="section-title">快速操作</div>
+      <van-grid :column-num="2" :gutter="16">
+        <van-grid-item icon="chat-o" text="开始对话" @click="$router.push('/chat')" />
+        <van-grid-item icon="user-o" text="个人中心" @click="$router.push('/profile')" />
+      </van-grid>
+    </div>
+    <div class="card popular-destinations">
+      <div class="section-title">热门目的地</div>
+      <van-grid :column-num="4" :gutter="16">
+        <van-grid-item v-for="(city, index) in popularDestinations" :key="index" :text="city" @click="selectCity(city)">
+          <div class="city-tag" :class="{ active: formData.city === city }">{{ city }}</div>
+        </van-grid-item>
+      </van-grid>
+    </div>
+    <van-popup v-model:show="showCityPicker" position="bottom" :close-on-click-modal="false">
+      <van-picker title="请选择城市" :columns="cityColumns" @confirm="handleConfirm" @cancel="showCityPicker = false" />
+    </van-popup>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { reactive, ref } from 'vue'
+import { showToast } from 'vant'
+import router from '../router'
+
+interface FormData {
+  city: string
+  budget: string
+  days: string
+}
+
+// 表单数据
+const formData = reactive<FormData>({
+  city: '',
+  budget: '',
+  days: '',
+})
+//城市选择器
+const showCityPicker = ref(false)
+// prettier-ignore
+const allCities = [
+  '北京', '上海', '广州', '深圳', '成都', '杭州', '西安', '重庆',
+  '南京', '武汉', '苏州', '长沙', '天津', '郑州', '济南', '青岛',
+  '大连', '沈阳', '哈尔滨', '长春', '福州', '厦门', '南昌', '合肥',
+  '昆明', '贵阳', '南宁', '桂林', '海口', '三亚', '丽江', '大理',
+  '西安', '兰州', '乌鲁木齐', '拉萨', '呼和浩特', '太原', '石家庄',
+]
+const popularDestinations = ['北京', '上海', '广州', '深圳', '成都', '杭州', '西安', '重庆']
+// cityColumns 是一个数组，每个元素是一个对象，包含 text 和 value 属性
+const cityColumns = allCities.map(item => ({
+  text: item,
+  value: item,
+}))
+// 选择城市（热门目的地）
+const selectCity = (city: string) => {
+  formData.city = city
+}
+
+// 处理确认选择
+const handleConfirm = (result: any) => {
+  formData.city = result.selectedValues[0]
+  showCityPicker.value = false
+}
+
+//加载状态
+const isloading = ref(false)
+
+// 表单校验
+const validateForm = () => {
+  if (!formData.city) {
+    showToast('请选择目的地')
+    return false
+  }
+  if (!formData.budget || Number(formData.budget) <= 0) {
+    showToast('请输入有效的预算')
+    return false
+  }
+  if (!formData.days || Number(formData.days) < 1 || Number(formData.days) > 30) {
+    showToast('请输入有效的旅行天数（1-30天）')
+    return false
+  }
+  //校验通过则跳转到详情页
+  router.push({
+    path: '/detail',
+    query: {
+      city: formData.city,
+      budget: formData.budget,
+      days: formData.days,
+    }
+  })
+}
+
+// 提交表单
+const handleSubmit = async () => {
+  if (!validateForm()) {
+    return
+  }
+
+  isloading.value = true
+  try {
+    // TODO: 调用后端 API
+    await new Promise((resolve) => setTimeout(resolve, 1000))
+    showToast('提交成功')
+  } catch (error) {
+    showToast('提交失败，请重试')
+  } finally {
+    isloading.value = false
+  }
+}
+</script>
+
+<style scoped>
+.search-card {
+  margin-bottom: 16px;
+}
+.city-tag {
+  padding: 8px 20px;
+  border-radius: 16px;
+  font-size: 14px;
+  color: #666;
+  background-color: #f7f8fa;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.city-tag:hover {
+  background-color: #e8e8e8;
+  color: #333;
+}
+
+.city-tag.active {
+  background-color: #1989fa;
+  color: #fff;
+}
+
+:deep(.van-grid-item__content) {
+  border: none !important;
+  background: transparent !important;
+}
+
+:deep(.van-notice-bar__content) {
+  text-align: center;
+}
+
+:deep(.van-field) {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+</style>

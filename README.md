@@ -1,0 +1,150 @@
+# Trip — AI 智能旅行规划系统
+
+基于 AI 的景点介绍与行程规划系统，用户可输入目的地、预算和天数，AI 自动生成完整的旅行计划，并支持对话式交互。
+
+## 技术栈
+
+| 层 | 技术 |
+|---|---|
+| 前端 | Vue 3 + TypeScript + Vite + Vant 4 |
+| 后端 | Express 5 + TypeScript |
+| 数据库 | MySQL + Prisma ORM |
+| AI | LangChain + DeepSeek/Kimi API |
+
+## 项目结构
+
+```
+trip/
+├── trip-front/                  # 前端
+│   └── src/
+│       ├── api/                 # API 调用层（request.ts + 业务接口）
+│       ├── components/          # 通用组件
+│       ├── router/              # 路由配置 + 导航守卫
+│       ├── views/               # 页面组件
+│       ├── styles/              # 全局样式
+│       └── utils/               # 工具函数
+│
+└── trip-server/                 # 后端
+    └── src/
+        ├── config/              # 配置（JWT、数据库）
+        ├── controllers/         # 控制器（请求处理、参数校验、响应格式化）
+        ├── middleware/           # 中间件（认证、鉴权）
+        ├── routes/              # 路由定义（中间件编排 + 派发到 controller）
+        ├── services/            # 业务逻辑层
+        └── utils/               # 工具函数
+```
+
+## 前置条件
+
+- Node.js >= 18
+- MySQL >= 8.0
+- 一个兼容 OpenAI 的 LLM API Key（DeepSeek / Kimi）
+
+## 快速开始
+
+### 1. 克隆并安装依赖
+
+```bash
+cd trip-server && npm install
+cd ../trip-front && npm install
+```
+
+### 2. 配置环境变量
+
+```bash
+cp trip-server/.env.example trip-server/.env
+```
+
+编辑 `trip-server/.env`，填写实际的数据库连接和 API Key。
+
+### 3. 初始化数据库
+
+```bash
+cd trip-server
+npx prisma db push          # 创建数据库表
+npm run seed                 # 初始化角色数据（ADMIN/USER）
+```
+
+### 4. 启动服务
+
+```bash
+# 终端 1 — 后端（端口 3000）
+cd trip-server && npm run dev
+
+# 终端 2 — 前端（端口 5173）
+cd trip-front && npm run dev
+```
+
+访问 http://localhost:5173
+
+## 环境变量
+
+| 变量 | 说明 | 默认值 |
+|---|---|---|
+| `DATABASE_URL` | MySQL 连接字符串 | — |
+| `JWT_SECRET` | JWT 签名密钥 | —（必填） |
+| `JWT_EXPIRES_IN` | Token 过期时间 | `7d` |
+| `PORT` | 服务端口 | `3000` |
+| `CORS_ORIGIN` | 允许的前端域名 | `http://localhost:5173` |
+| `MODEL_PROVIDER` | AI 模型提供商 | `DEEPSEEK` |
+| `DEEPSEEK_API_KEY` | DeepSeek API Key | — |
+| `DEEPSEEK_BASE_URL` | DeepSeek API 地址 | `https://api.deepseek.com/v1` |
+| `DEEPSEEK_MODEL` | DeepSeek 模型名 | `deepseek-chat` |
+| `KIMI_API_KEY` | Kimi API Key | — |
+| `KIMI_BASE_URL` | Kimi API 地址 | `https://api.kimi.cn/v1` |
+| `KIMI_MODEL` | Kimi 模型名 | `kimi-for-coding` |
+
+## API 接口
+
+### 健康检查
+
+```
+GET /api/test
+```
+
+### 用户
+
+| 方法 | 路径 | 说明 | 认证 |
+|---|---|---|---|
+| POST | `/api/user/register` | 注册 | — |
+| POST | `/api/user/login` | 登录（支持用户名或邮箱） | — |
+| GET  | `/api/user/info` | 获取用户信息 | 需 token |
+| PUT  | `/api/user/info` | 更新用户资料 | 需 token |
+| PUT  | `/api/user/password` | 修改密码 | 需 token |
+| POST | `/api/user/forgot-password` | 获取密码重置验证码 | — |
+| POST | `/api/user/reset-password` | 重置密码（需验证码） | — |
+
+### 行程
+
+| 方法 | 路径 | 说明 |
+|---|---|---|
+| POST | `/api/trip/recommend` | AI 生成行程规划 |
+| POST | `/api/trip/chat` | AI 对话（SSE 流式响应） |
+
+## 脚本
+
+### trip-server
+
+| 命令 | 说明 |
+|---|---|
+| `npm run dev` | 开发模式（nodemon + ts-node） |
+| `npm run build` | 编译 TypeScript |
+| `npm start` | 启动编译后的代码 |
+| `npm run seed` | 初始化角色数据 |
+| `npm run migrate` | 同步数据库表结构 |
+
+### trip-front
+
+| 命令 | 说明 |
+|---|---|
+| `npm run dev` | 启动 Vite 开发服务器 |
+| `npm run build` | 构建生产版本 |
+| `npm run preview` | 预览生产构建 |
+| `npm run format` | 格式化代码 |
+
+## 安全说明
+
+- JWT Secret 必须通过 `JWT_SECRET` 环境变量设置，无硬编码 fallback
+- 密码重置使用 UUID token，30 分钟有效，单次使用
+- 登录、注册、密码重置接口均有频率限制（15 分钟 10 次）
+- `.env` 文件已被 `.gitignore` 排除，请勿提交真实密钥

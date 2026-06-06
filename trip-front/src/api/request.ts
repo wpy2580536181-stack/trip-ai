@@ -1,0 +1,106 @@
+import axios from 'axios'
+
+const request = axios.create({
+  baseURL: '/api',
+  timeout: 60000,
+  headers: {
+    'Content-Type': 'application/json',
+  },
+})
+
+request.interceptors.request.use(
+  (config) => {
+    const token = localStorage.getItem('token')
+    if (token) {
+      config.headers.Authorization = `Bearer ${token}`
+    }
+    return config
+  },
+  (error) => {
+    return Promise.reject(error)
+  }
+)
+
+request.interceptors.response.use(
+  (response) => {
+    return response.data
+  },
+  (error) => {
+    if (error.response?.status === 401) {
+      localStorage.removeItem('token')
+      localStorage.removeItem('userInfo')
+      window.location.href = '/login'
+    }
+    return Promise.reject(error)
+  }
+)
+
+export interface ApiResponse<T = any> {
+  success: boolean
+  data?: T
+  error?: string
+}
+
+export function post<T = any>(url: string, params?: any): Promise<ApiResponse<T>> {
+  return request.post(url, params)
+}
+
+export function get<T = any>(url: string, params?: any): Promise<ApiResponse<T>> {
+  return request.get(url, { params })
+}
+
+export function put<T = any>(url: string, params?: any): Promise<ApiResponse<T>> {
+  return request.put(url, params)
+}
+
+export async function fetchStream(url: string, data?: any, onChunk?: (chunk: string) => void, onComplete?: () => void, onError?: (error: any) => void): Promise<void> {
+    const controller = new AbortController()
+    const token = localStorage.getItem('token')
+    const headers: Record<string, string> = {
+      'Content-Type': 'application/json',
+    }
+    if (token) {
+      headers['Authorization'] = `Bearer ${token}`
+    }
+    try{
+        const response = await fetch(`/api/${url}`, {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers,
+        signal: controller.signal,
+      })
+      if (!response.body) {
+        throw new Error('Response body is null')
+      }
+      const reader = response.body.getReader()
+      const decoder = new TextDecoder()
+      while(true){
+        const {done,value} = await reader.read()
+        if(done){
+          break
+        }
+        const chunk = decoder.decode(value)
+        const lines = chunk.split('\n').filter(line => line.trim() !== '')
+        for(const line of lines){
+          if(line.startsWith('data:')){
+            const jsonStr = line.substring(6)
+            const jsonData = JSON.parse(jsonStr)
+            if(jsonData.type === 'chunk'){
+              onChunk?.(jsonData.content)
+            }
+            else if(jsonData.type === 'complete'){
+              onComplete?.()
+            }
+            else if(jsonData.error){
+              onError?.('流式数据解析异常')
+            }
+          }
+        }
+      }
+
+      controller.abort()
+
+    }catch(error: any){
+      onError?.(error.message)
+    }
+}
