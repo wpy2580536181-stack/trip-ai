@@ -3,7 +3,6 @@ import { useRouter } from 'vue-router'
 import { ref, watch, nextTick } from 'vue'
 import { showToast } from 'vant'
 import { fetchStream } from '@/api/request'
-// @ts-ignore
 import ChatBubble from '@/components/ChatBubble.vue'
 
 const router = useRouter()

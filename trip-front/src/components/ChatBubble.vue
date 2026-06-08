@@ -8,22 +8,24 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { computed } from 'vue'
 import { marked } from 'marked'
 
-// 配置 marked
 marked.setOptions({
   breaks: true,
   gfm: true,
 })
 
-const props = defineProps({
-  message: {
-    type: Object,
-    required: true
-  }
-})
+interface Message {
+  role: 'user' | 'ai'
+  content: string
+  timestamp?: string
+}
+
+const props = defineProps<{
+  message: Message
+}>()
 
 const messageClass = computed(() => {
   return props.message.role === 'user' ? 'user-message' : 'ai-message'
@@ -31,7 +33,7 @@ const messageClass = computed(() => {
 
 const renderedContent = computed(() => {
   if (!props.message.content) return ''
-  return marked.parse(props.message.content)
+  return marked.parse(props.message.content) as string
 })
 
 const showTime = computed(() => {

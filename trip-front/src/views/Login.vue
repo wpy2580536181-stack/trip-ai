@@ -59,9 +59,9 @@ const goToResetPassword = () => {
       <van-cell-group inset>
         <van-field
           v-model="username"
-          label="用户名"
-          placeholder="请输入用户名/邮箱"
-          :rules="[{ required: true, message: '请输入用户名' }]"
+          label="用户名/邮箱"
+          placeholder="请输入用户名或邮箱"
+          :rules="[{ required: true, message: '请输入用户名或邮箱' }]"
         />
         <van-field
           v-model="password"

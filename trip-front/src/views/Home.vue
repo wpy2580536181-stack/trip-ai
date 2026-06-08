@@ -40,6 +40,7 @@
 import { reactive, ref } from 'vue'
 import { showToast } from 'vant'
 import router from '../router'
+import { ALL_CITIES, POPULAR_CITIES } from '../config/cities'
 
 interface FormData {
   city: string
@@ -47,23 +48,14 @@ interface FormData {
   days: string
 }
 
-// 表单数据
 const formData = reactive<FormData>({
   city: '',
   budget: '',
   days: '',
 })
-//城市选择器
 const showCityPicker = ref(false)
-// prettier-ignore
-const allCities = [
-  '北京', '上海', '广州', '深圳', '成都', '杭州', '西安', '重庆',
-  '南京', '武汉', '苏州', '长沙', '天津', '郑州', '济南', '青岛',
-  '大连', '沈阳', '哈尔滨', '长春', '福州', '厦门', '南昌', '合肥',
-  '昆明', '贵阳', '南宁', '桂林', '海口', '三亚', '丽江', '大理',
-  '西安', '兰州', '乌鲁木齐', '拉萨', '呼和浩特', '太原', '石家庄',
-]
-const popularDestinations = ['北京', '上海', '广州', '深圳', '成都', '杭州', '西安', '重庆']
+const allCities = ALL_CITIES
+const popularDestinations = POPULAR_CITIES
 // cityColumns 是一个数组，每个元素是一个对象，包含 text 和 value 属性
 const cityColumns = allCities.map(item => ({
   text: item,

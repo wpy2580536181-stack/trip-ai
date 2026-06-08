@@ -18,6 +18,10 @@ const sendResetCode = async () => {
     showToast('请输入邮箱')
     return
   }
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value.trim())) {
+    showToast('邮箱格式不正确')
+    return
+  }
   loading.value = true
   try {
     const res: any = await forgotPassword(email.value.trim())

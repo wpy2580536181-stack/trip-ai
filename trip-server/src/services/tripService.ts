@@ -1,6 +1,6 @@
 import { ChatOpenAI } from '@langchain/openai'
 import { HumanMessage , SystemMessage } from '@langchain/core/messages'
-
+import { buildTripPrompt } from '../prompts/trip.prompt'
 
 class TripService {
   private llm: ChatOpenAI | null = null
@@ -8,7 +8,7 @@ class TripService {
   constructor() {
     this.initLLM()
   }
-  //初始化大模型
+
   initLLM() {
     const modelProvider = process.env.MODEL_PROVIDER
     let apikey,baseURL,model;
@@ -30,15 +30,13 @@ class TripService {
         temperature: 0.7,
         streaming: true,
     })
-
   }
 
   async recommend(city: string, budget: number, days: number) {
     if(budget<50||days<1||days>30){
       throw new Error('预算过低或天数不符合要求')
     }
-    const messages = this.getTripPrompt(city, budget, days)
-    // 调用大模型
+    const messages = [new HumanMessage(buildTripPrompt(city, budget, days))]
     if (!this.llm) {
       throw new Error('LLM未初始化')
     }
@@ -67,72 +65,8 @@ class TripService {
       throw new Error('大模型调用失败，请稍后重试')
     }
   }
-  getTripPrompt(city: string, budget: number, days: number){
-    return [
-      new HumanMessage(`你是一个专业的旅游规划师，擅长根据用户的需求生成详细的旅行行程。
- 
-请根据以下信息为用户生成一份详细的旅游规划：
-- 目的地城市：${city}
-- 预算：${budget}元
-- 旅行天数：${days}天
- 
-要求：
-1. 每天的行程安排（上午、下午、晚上）
-2. 每个景点的详细介绍
-3. 交通建议
-4. 预算分配明细
-5. 注意事项
- 
-请以JSON格式输出，结构如下：
-{
-  "success": true,
-  "city": "城市名",
-  "days": 天数,
-  "totalBudget": 总预算,
-  "dailyItinerary": [
-    {
-      "day": 1,
-      "date": "第1天",
-      "morning": {
-        "spot": "景点名称",
-        "duration": "游览时长",
-        "ticket": "门票价格",
-        "transportation": "交通方式",
-        "description": "景点介绍"
-      },
-      "afternoon": {
-        "spot": "景点名称",
-        "duration": "游览时长",
-        "ticket": "门票价格",
-        "transportation": "交通方式",
-        "description": "景点介绍"
-      },
-      "evening": {
-        "spot": "活动名称",
-        "duration": "活动时长",
-        "ticket": "费用",
-        "transportation": "交通方式",
-        "description": "活动介绍"
-      }
-    }
-  ],
-  "budgetBreakdown": {
-    "accommodation": 住宿费用,
-    "food": 餐饮费用,
-    "transportation": 交通费用,
-    "tickets": 门票费用,
-    "other": 其他费用
-  },
-  "tips": ["提示1", "提示2", "提示3"],
-  "warnings": ["注意事项1", "注意事项2"]
-}
- 
-请确保JSON格式正确，可以被解析。`),
-    ]
-  }
-  //流式对话
-  async chat(message:string,streamCallback:any){
-    // 构建消息
+
+  async chat(message:string, streamCallback: (chunk: string) => void) {
     const messages = [
       new SystemMessage('你是一个专业的旅游规划师，擅长根据用户的需求生成详细的旅行行程。'),
       new HumanMessage(message)
@@ -140,32 +74,28 @@ class TripService {
     if (!this.llm) {
       throw new Error('LLM未初始化')
     }
-    try{
+    try {
       const stream = await this.llm.stream(messages)
-
-    let fullResponse = ''
-    // 处理流式响应
-    for await (const chunk of stream) {
-      const content = chunk.content as string
-      if (!content || content.trim() === '') {
-        continue
-      }
-      fullResponse += content
-      if (streamCallback) {
+      let fullResponse = ''
+      for await (const chunk of stream) {
+        const content = chunk.content as string
+        if (!content || content.trim() === '') {
+          continue
+        }
+        fullResponse += content
         streamCallback(content)
       }
-    }
-    return{
-      success: true,
-      reply: fullResponse,
-    }
-    }catch(error){
-      return{
+      return {
+        success: true,
+        reply: fullResponse,
+      }
+    } catch (error) {
+      const message = error instanceof Error ? error.message : '未知错误'
+      return {
         success: false,
-        error: '缺少参数或参数错误'
+        error: `AI 响应异常：${message}`,
       }
     }
-
   }
 }
-export default  new TripService()
+export default new TripService()

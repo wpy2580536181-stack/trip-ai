@@ -20,6 +20,10 @@ const onRegister = async () => {
     showToast('请输入邮箱')
     return
   }
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value.trim())) {
+    showToast('邮箱格式不正确')
+    return
+  }
   if (!password.value || password.value.length < 6) {
     showToast('密码不能少于6位')
     return
