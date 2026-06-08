@@ -19,6 +19,7 @@ trip/
 │   └── src/
 │       ├── api/                 # API 调用层（request.ts + 业务接口）
 │       ├── components/          # 通用组件
+│       ├── config/              # 前端配置（城市列表等）
 │       ├── router/              # 路由配置 + 导航守卫
 │       ├── views/               # 页面组件
 │       ├── styles/              # 全局样式
@@ -29,6 +30,7 @@ trip/
         ├── config/              # 配置（JWT、数据库）
         ├── controllers/         # 控制器（请求处理、参数校验、响应格式化）
         ├── middleware/           # 中间件（认证、鉴权）
+        ├── prompts/             # AI Prompt 模板
         ├── routes/              # 路由定义（中间件编排 + 派发到 controller）
         ├── services/            # 业务逻辑层
         └── utils/               # 工具函数
@@ -79,6 +81,8 @@ cd trip-front && npm run dev
 
 ## 环境变量
 
+### 后端（trip-server/.env）
+
 | 变量 | 说明 | 默认值 |
 |---|---|---|
 | `DATABASE_URL` | MySQL 连接字符串 | — |
@@ -93,6 +97,12 @@ cd trip-front && npm run dev
 | `KIMI_API_KEY` | Kimi API Key | — |
 | `KIMI_BASE_URL` | Kimi API 地址 | `https://api.kimi.cn/v1` |
 | `KIMI_MODEL` | Kimi 模型名 | `kimi-for-coding` |
+
+### 前端（trip-front/.env — 可选）
+
+| 变量 | 说明 | 默认值 |
+|---|---|---|
+| `VITE_API_TARGET` | API 代理目标地址 | `http://localhost:3000` |
 
 ## API 接口
 
