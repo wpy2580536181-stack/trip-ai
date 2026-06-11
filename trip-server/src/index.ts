@@ -3,6 +3,8 @@ import express, { Request, Response } from 'express'
 import cors from 'cors'
 import tripRouter from './routes/trip.routes'
 import userRouter from './routes/user.routes'
+import conversationRouter from './routes/conversation.routes'
+import historyRouter from './routes/history.routes'
 
 const app = express()
 const PORT = process.env.PORT || 3000
@@ -27,6 +29,8 @@ app.get('/api/test', (req: Request, res: Response) => {
 
 app.use('/api/trip', tripRouter)
 app.use('/api/user', userRouter)
+app.use('/api/conversations', conversationRouter)
+app.use('/api/history', historyRouter)
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`)
