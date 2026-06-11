@@ -59,16 +59,23 @@ const fetchAiResponse = (userMsg: string) => {
 
   let fullResponse = ''
 
-  fetchStream('trip/chat', { message: userMsg }, (chunk) => {
-    fullResponse += chunk
-    const lastMessage = messages.value[messages.value.length - 1]
-    if(lastMessage && lastMessage.role === 'ai'){
-      lastMessage.content = fullResponse
-    }
-  },()=>{
-    //AI返回完成
-    isStreaming.value = false
-  },(errMsg)=>{
+  fetchStream(
+    'trip/chat',
+    { message: userMsg, conversationId: currentConversationId.value },
+    (chunk) => {
+      fullResponse += chunk
+      const lastMessage = messages.value[messages.value.length - 1]
+      if(lastMessage && lastMessage.role === 'ai'){
+        lastMessage.content = fullResponse
+      }
+    },
+    (data) => {
+      isStreaming.value = false
+      if (data?.conversationId) {
+        currentConversationId.value = data.conversationId
+      }
+    },
+    (errMsg) => {
     const lastMessage = messages.value[messages.value.length - 1]
     if(lastMessage && lastMessage.role === 'ai'){
       lastMessage.content = `AI处理发生错误:${errMsg}`
@@ -82,6 +89,9 @@ const fetchAiResponse = (userMsg: string) => {
 
 //AI处理中的状态
 const isStreaming = ref(false)
+
+//当前会话ID（首次响应后由后端返回）
+const currentConversationId = ref<number | null>(null)
 
 //消息列表容器引用
 const messageListRef = ref<HTMLElement | null>(null)

@@ -53,7 +53,7 @@ export function put<T = any>(url: string, params?: any): Promise<ApiResponse<T>>
   return request.put(url, params)
 }
 
-export async function fetchStream(url: string, data?: any, onChunk?: (chunk: string) => void, onComplete?: () => void, onError?: (error: any) => void): Promise<void> {
+export async function fetchStream(url: string, data?: any, onChunk?: (chunk: string) => void, onComplete?: (data?: any) => void, onError?: (error: any) => void): Promise<void> {
     const controller = new AbortController()
     const token = localStorage.getItem('token')
     const headers: Record<string, string> = {
@@ -89,7 +89,7 @@ export async function fetchStream(url: string, data?: any, onChunk?: (chunk: str
               onChunk?.(jsonData.content)
             }
             else if(jsonData.type === 'complete'){
-              onComplete?.()
+              onComplete?.(jsonData.data)
             }
             else if(jsonData.error){
               onError?.('流式数据解析异常')
