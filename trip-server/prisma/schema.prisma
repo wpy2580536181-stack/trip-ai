@@ -22,19 +22,22 @@ model Role {
 }
 
 model User {
-  id        Int      @id @default(autoincrement())
-  username  String   @unique @db.VarChar(50)
-  email     String   @unique @db.VarChar(100)
-  password  String   @db.VarChar(255)
-  nickname  String?  @db.VarChar(50)
-  avatar    String?  @db.VarChar(255)
-  phone     String?  @db.VarChar(20)
-  bio       String?  @db.VarChar(255)
-  roleId    Int      @default(2) @map("role_id")
-  role      Role     @relation(fields: [roleId], references: [id])
-  status    Int      @default(1) @map("status") // 1:正常 0:禁用
-  createdAt DateTime @default(now()) @map("created_at")
-  updatedAt DateTime @updatedAt @map("updated_at")
+  id            Int            @id @default(autoincrement())
+  username      String         @unique @db.VarChar(50)
+  email         String         @unique @db.VarChar(100)
+  password      String         @db.VarChar(255)
+  nickname      String?        @db.VarChar(50)
+  avatar        String?        @db.VarChar(255)
+  phone         String?        @db.VarChar(20)
+  bio           String?        @db.VarChar(255)
+  roleId        Int            @default(2) @map("role_id")
+  role          Role           @relation(fields: [roleId], references: [id])
+  status        Int            @default(1) @map("status")
+  preferences   Json?
+  createdAt     DateTime       @default(now()) @map("created_at")
+  updatedAt     DateTime       @updatedAt @map("updated_at")
+  trips         Trip[]
+  conversations Conversation[]
 
   @@map("users")
 }
@@ -48,4 +51,68 @@ model PasswordReset {
   createdAt DateTime @default(now()) @map("created_at")
 
   @@map("password_resets")
+}
+
+model Trip {
+  id             Int      @id @default(autoincrement())
+  userId         Int      @map("user_id")
+  city           String   @db.VarChar(50)
+  days           Int
+  budget         Int
+  content        Json
+  status         String   @default("completed") @db.VarChar(20)
+  parentTripId   Int?     @map("parent_trip_id")
+  createdAt      DateTime @default(now()) @map("created_at")
+  user           User     @relation(fields: [userId], references: [id])
+  parent         Trip?    @relation("TripVersions", fields: [parentTripId], references: [id])
+  versions       Trip[]   @relation("TripVersions")
+
+  @@index([userId])
+  @@map("trips")
+}
+
+model Conversation {
+  id        Int       @id @default(autoincrement())
+  userId    Int       @map("user_id")
+  title     String?   @db.VarChar(100)
+  summary   String?   @db.Text
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  user      User      @relation(fields: [userId], references: [id])
+  messages  Message[]
+
+  @@index([userId])
+  @@map("conversations")
+}
+
+model Message {
+  id             Int          @id @default(autoincrement())
+  conversationId Int          @map("conversation_id")
+  role           String       @db.VarChar(20)
+  content        String       @db.Text
+  metadata       Json?
+  createdAt      DateTime     @default(now()) @map("created_at")
+  conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+
+  @@index([conversationId, createdAt])
+  @@map("messages")
+}
+
+model Spot {
+  id          Int      @id @default(autoincrement())
+  name        String   @db.VarChar(100)
+  city        String   @db.VarChar(50)
+  category    String   @db.VarChar(20)
+  description String   @db.Text
+  tags        Json
+  avgCost     Float?   @map("avg_cost")
+  duration    String?  @db.VarChar(50)
+  openTime    String?  @map("open_time") @db.VarChar(100)
+  rating      Float?
+  vectorId    String?  @unique @map("vector_id") @db.VarChar(100)
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  @@index([city, category])
+  @@map("spots")
 }
