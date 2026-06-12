@@ -66,13 +66,14 @@ export async function searchSpots(params: {
     try {
       const collection = await getSpotsCollection()
       const queryEmbedding = await embedText(query)
-      const where: Record<string, unknown> = { city }
-      if (category) where.category = category
+      const where: Record<string, unknown> = category
+        ? { $and: [{ city }, { category }] }
+        : { city }
 
       const results = await collection.query({
         queryEmbeddings: [queryEmbedding],
         nResults: limit,
-        where,
+        where: where as any,
       })
 
       const docs = results.documents?.[0] || []

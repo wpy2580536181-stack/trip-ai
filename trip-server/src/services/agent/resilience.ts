@@ -1,4 +1,4 @@
-import { DynamicStructuredTool } from '@langchain/community/dist/tools/dynamic'
+import { DynamicStructuredTool } from '@langchain/community/tools/dynamic'
 
 export interface ResilienceConfig {
   timeout?: number

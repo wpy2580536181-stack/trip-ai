@@ -1,5 +1,5 @@
 import { ChatOpenAI } from '@langchain/openai'
-import { AgentExecutor, createReactAgent } from '@langchain/classic/agents'
+import { AgentExecutor, createToolCallingAgent } from '@langchain/classic/agents'
 import { ChatPromptTemplate } from '@langchain/core/prompts'
 import { BaseMessage, HumanMessage, AIMessage, SystemMessage } from '@langchain/core/messages'
 import { retrieveKnowledgeTool } from './tools/retrieveKnowledge'
@@ -64,7 +64,7 @@ class AgentEngine {
       ['human', '{input}'],
       ['placeholder', '{agent_scratchpad}'],
     ])
-    const agent = await createReactAgent({
+    const agent = await createToolCallingAgent({
       llm: this.llm,
       tools: this.tools,
       prompt,
@@ -106,11 +106,17 @@ class AgentEngine {
 
     let fullResponse = ''
     try {
-      const result = await executor.invoke({
+      const stream = await executor.stream({
         input: message,
         chat_history: historyMessages,
       })
-      fullResponse = result.output as string
+
+      for await (const chunk of stream as any) {
+        if (chunk.output != null) {
+          fullResponse += String(chunk.output)
+          await onEvent({ type: 'chunk', content: String(chunk.output) })
+        }
+      }
       await onEvent({ type: 'complete', content: fullResponse })
     } catch (e) {
       const errMsg = e instanceof Error ? e.message : '未知错误'
@@ -123,7 +129,8 @@ class AgentEngine {
   }
 
   async recommend(params: RecommendParams) {
-    const { userId, message, conversationId, onEvent } = params
+    const { userId, city, budget, days, conversationId, onEvent } = params
+    void userId; void city; void budget; void days; void conversationId; void onEvent
     throw new Error('recommend 方法将在 Phase 1b 实现')
   }
 }

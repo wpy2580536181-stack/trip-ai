@@ -1,5 +1,5 @@
 import { z } from 'zod'
-import { DynamicStructuredTool } from '@langchain/community/dist/tools/dynamic'
+import { DynamicStructuredTool } from '@langchain/community/tools/dynamic'
 import { searchSpots } from '../../knowledgeService'
 import { withResilience } from '../resilience'
 
