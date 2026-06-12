@@ -45,9 +45,9 @@ export const getInfo = async (req: Request, res: Response) => {
 }
 
 export const updateInfo = async (req: Request, res: Response) => {
-  const { nickname, avatar, phone, bio } = req.body
+  const { nickname, avatar, phone, bio, preferences } = req.body
   try {
-    const user = await userService.updateUserInfo(req.user!.userId, { nickname, avatar, phone, bio })
+    const user = await userService.updateUserInfo(req.user!.userId, { nickname, avatar, phone, bio, preferences })
     return res.json({ code: 200, message: '更新成功', data: user })
   } catch (error: any) {
     return res.status(400).json({ code: 400, error: error.message })

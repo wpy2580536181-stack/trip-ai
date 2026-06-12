@@ -102,6 +102,7 @@ export async function getUserInfo(userId: number) {
       roleId: true,
       status: true,
       createdAt: true,
+      preferences: true,
     },
   })
   if (!user) {
@@ -113,11 +114,14 @@ export async function getUserInfo(userId: number) {
 // 更新用户信息
 export async function updateUserInfo(
   userId: number,
-  data: { nickname?: string; avatar?: string; phone?: string; bio?: string }
+  data: { nickname?: string; avatar?: string; phone?: string; bio?: string; preferences?: Record<string, any> | null }
 ) {
   const user = await prisma.user.update({
     where: { id: userId },
-    data,
+    data: {
+      ...data,
+      preferences: data.preferences ?? undefined,
+    },
     select: {
       id: true,
       username: true,
@@ -127,6 +131,7 @@ export async function updateUserInfo(
       phone: true,
       bio: true,
       roleId: true,
+      preferences: true,
     },
   })
   return user

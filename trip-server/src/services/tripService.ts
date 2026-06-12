@@ -1,5 +1,5 @@
 import agentEngine from './agent/agentEngine'
-import { getOrCreateConversation, saveMessage } from './conversationService'
+import { getOrCreateConversation, saveMessage, autoTitle } from './conversationService'
 import { TripContentSchema } from '../types/agent'
 import { createLLM } from '../config/llm'
 import { HumanMessage } from '@langchain/core/messages'
@@ -27,6 +27,9 @@ class TripService {
     const { onChunk, onToolStart, onToolEnd, isClientConnected } = callbacks
 
     const conversation = await getOrCreateConversation(userId, conversationId)
+    if (!conversation.title || conversation.title === '新对话') {
+      await autoTitle(conversation.id, message)
+    }
     await saveMessage(conversation.id, 'user', message)
 
     let fullReply = ''
@@ -92,9 +95,26 @@ class TripService {
       const response = await llm.invoke([new HumanMessage(buildTripPrompt(city, budget, days))])
       const rawContent = response.content as string
       const parsed = TripContentSchema.parse(extractJson(rawContent))
+      let savedTripId: number | null = null
+      try {
+        const created = await prisma.trip.create({
+          data: {
+            userId: 0,
+            city: parsed.city,
+            days: parsed.days,
+            budget,
+            content: parsed as any,
+            status: 'completed',
+          },
+        })
+        savedTripId = created.id
+      } catch (e) {
+        console.error('[TripService] recommend persist failed:', e)
+      }
       return {
         success: true,
         data: {
+          id: savedTripId,
           city: parsed.city,
           days: parsed.days,
           totalBudget: parsed.totalBudget,
