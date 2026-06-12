@@ -22,6 +22,14 @@
         <van-grid-item icon="user-o" text="个人中心" @click="$router.push('/profile')" />
       </van-grid>
     </div>
+    <div class="card my-trips-entry">
+      <van-cell
+        title="我的行程"
+        icon="records-o"
+        is-link
+        to="/history"
+      />
+    </div>
     <div class="card popular-destinations">
       <div class="section-title">热门目的地</div>
       <van-grid :column-num="4" :gutter="16">

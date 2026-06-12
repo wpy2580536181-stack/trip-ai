@@ -4,6 +4,7 @@ import { reactive, ref } from 'vue'
 import { onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { post } from '@/api/request'
+import { getTrip } from '@/api/history'
 
 const router = useRouter()
 const route = useRoute()
@@ -54,7 +55,31 @@ const fetchTripData = async () => {
   }
 }
 
-onMounted(() => {
+onMounted(async () => {
+  const tripId = route.query.id ? Number(route.query.id) : null
+  if (tripId) {
+    isloading.value = true
+    errorMsg.value = ''
+    try {
+      const res = await getTrip(tripId)
+      const trip = res.data
+      if (trip) {
+        formData.city = trip.city
+        formData.budget = trip.budget
+        formData.days = trip.days
+        tripData.value = trip.content as TripData
+      } else {
+        errorMsg.value = '行程不存在'
+      }
+    } catch (e) {
+      console.error('加载行程失败:', e)
+      errorMsg.value = '加载行程失败'
+    } finally {
+      isloading.value = false
+    }
+    return
+  }
+
   formData.city = route.query.city as string || ''
   formData.budget = Number(route.query.budget) || null
   formData.days = Number(route.query.days) || null
