@@ -11,11 +11,20 @@ export interface RegisterData {
   password: string
 }
 
+export interface UserPreferences {
+  travelStyle?: 'cultural' | 'nature' | 'food' | 'shopping' | 'leisure'
+  budgetLevel?: 'economy' | 'standard' | 'comfort' | 'luxury'
+  pace?: 'compact' | 'moderate' | 'relaxed'
+  avoidCrowds?: boolean
+  interests?: string[]
+}
+
 export interface UpdateProfileData {
   nickname?: string
   avatar?: string
   phone?: string
   bio?: string
+  preferences?: UserPreferences | null
 }
 
 export function login(data: LoginData) {

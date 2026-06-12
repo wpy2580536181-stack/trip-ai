@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { showToast, showConfirmDialog } from 'vant'
 import { getUserInfo, updateUserInfo, changePassword } from '@/api/user'
+import type { UserPreferences } from '@/api/user'
 
 const router = useRouter()
 const isEdit = ref(false)
@@ -17,6 +18,7 @@ interface UserInfo {
   phone: string | null
   bio: string | null
   roleId: number
+  preferences?: UserPreferences | null
   createdAt: string
 }
 
@@ -31,6 +33,9 @@ const userInfo = ref<UserInfo>({
   roleId: 2,
   createdAt: '',
 })
+
+const preferences = ref<UserPreferences>({})
+const originalPreferences = ref<UserPreferences>({})
 
 // 编辑表单
 const editForm = ref({
@@ -53,9 +58,31 @@ const fetchUserInfo = async () => {
     if (res.code === 200) {
       userInfo.value = res.data
       localStorage.setItem('userInfo', JSON.stringify(res.data))
+      preferences.value = (res.data?.preferences as UserPreferences) ?? {}
+      originalPreferences.value = { ...preferences.value }
     }
   } catch {
     showToast('获取用户信息失败')
+  }
+}
+
+const preferencesDirty = computed(
+  () => JSON.stringify(preferences.value) !== JSON.stringify(originalPreferences.value),
+)
+
+const onSavePreferences = async () => {
+  try {
+    const res: any = await updateUserInfo({ preferences: preferences.value })
+    if (res.code === 200) {
+      originalPreferences.value = { ...preferences.value }
+      userInfo.value = res.data
+      localStorage.setItem('userInfo', JSON.stringify(res.data))
+      showToast('偏好已保存')
+    } else {
+      showToast(res.error || '保存失败')
+    }
+  } catch {
+    showToast('保存失败')
   }
 }
 
@@ -173,7 +200,47 @@ onMounted(() => {
         <van-cell title="注册时间" :value="userInfo.createdAt?.split('T')[0]" />
       </van-cell-group>
 
+      <van-cell-group inset title="旅行偏好" class="preferences-section">
+        <van-cell title="旅行风格">
+          <template #value>
+            <van-radio-group v-model="preferences.travelStyle" direction="horizontal">
+              <van-radio name="cultural">文化</van-radio>
+              <van-radio name="nature">自然</van-radio>
+              <van-radio name="food">美食</van-radio>
+              <van-radio name="leisure">休闲</van-radio>
+            </van-radio-group>
+          </template>
+        </van-cell>
+        <van-cell title="预算档次">
+          <template #value>
+            <van-radio-group v-model="preferences.budgetLevel" direction="horizontal">
+              <van-radio name="economy">经济</van-radio>
+              <van-radio name="standard">标准</van-radio>
+              <van-radio name="comfort">舒适</van-radio>
+              <van-radio name="luxury">豪华</van-radio>
+            </van-radio-group>
+          </template>
+        </van-cell>
+        <van-cell title="节奏">
+          <template #value>
+            <van-radio-group v-model="preferences.pace" direction="horizontal">
+              <van-radio name="compact">紧凑</van-radio>
+              <van-radio name="moderate">适中</van-radio>
+              <van-radio name="relaxed">轻松</van-radio>
+            </van-radio-group>
+          </template>
+        </van-cell>
+        <van-cell title="避开高峰" center>
+          <template #right-icon>
+            <van-switch v-model="preferences.avoidCrowds" />
+          </template>
+        </van-cell>
+      </van-cell-group>
+
       <div class="action-buttons">
+        <van-button type="primary" block round :disabled="!preferencesDirty" @click="onSavePreferences">
+          保存偏好
+        </van-button>
         <van-button type="primary" block round @click="startEdit">编辑资料</van-button>
         <van-button plain block round @click="showPasswordDialog = true">修改密码</van-button>
         <van-button plain block round type="danger" @click="onLogout">退出登录</van-button>
