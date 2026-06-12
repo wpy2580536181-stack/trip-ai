@@ -61,7 +61,7 @@ export function buildRecommendSystemPrompt(ctx: SystemPromptContext = {}): strin
 
 # 当前任务：生成行程规划
 用户请求生成行程规划，你需要：
-1. 必须调用 retrieve_knowledge 获取 ${'{city}'} 的真实景点数据
+1. 必须调用 retrieve_knowledge 工具，把用户提到的城市名作为 city 参数传入
 2. 严格按以下 JSON 格式输出最终回复（不要加 markdown 代码块标记）：
 
 {

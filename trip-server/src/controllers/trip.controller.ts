@@ -25,6 +25,13 @@ export const chat = async (req: Request, res: Response) => {
   }
 
   const stream = createStreamResponse(res)
+  const isClientConnected = () => !res.writableEnded && !res.destroyed
+
+  req.on('close', () => {
+    if (!isClientConnected()) {
+      console.log('[TripController] 客户端断开，标记流结束')
+    }
+  })
 
   try {
     const { conversationId: newConvId } = await tripService.chatStream({
@@ -32,14 +39,21 @@ export const chat = async (req: Request, res: Response) => {
       message,
       conversationId,
       onChunk: (chunk) => {
-        stream.send({ type: 'chunk', content: chunk })
+        if (isClientConnected()) {
+          stream.send({ type: 'chunk', content: chunk })
+        }
       },
+      isClientConnected,
     })
 
-    stream.send({ type: 'complete', data: { conversationId: newConvId } })
-    stream.end()
+    if (isClientConnected()) {
+      stream.send({ type: 'complete', data: { conversationId: newConvId } })
+      stream.end()
+    }
   } catch (error) {
     const errMsg = error instanceof Error ? error.message : '未知错误'
-    stream.error(errMsg)
+    if (isClientConnected()) {
+      stream.error(errMsg)
+    }
   }
 }

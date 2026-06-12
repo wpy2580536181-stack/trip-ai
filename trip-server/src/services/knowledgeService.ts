@@ -26,6 +26,7 @@ export async function createSpot(input: SpotInput) {
     },
   })
 
+  let chromaError: unknown
   try {
     const collection = await getSpotsCollection()
     const embedding = await embedText(validated.description)
@@ -42,8 +43,25 @@ export async function createSpot(input: SpotInput) {
       }],
     })
   } catch (e) {
-    await prisma.spot.delete({ where: { id: spot.id } })
-    console.error('[Knowledge] Chroma 同步失败，已回滚:', e)
+    chromaError = e
+  }
+
+  if (chromaError) {
+    let rollbackError: unknown
+    try {
+      await prisma.spot.delete({ where: { id: spot.id } })
+    } catch (e) {
+      rollbackError = e
+    }
+    if (rollbackError) {
+      console.error('[Knowledge] 双重失败：Chroma 同步失败 + MySQL 回滚失败', {
+        chromaError,
+        rollbackError,
+        orphanSpotId: spot.id,
+      })
+      throw new Error('知识库同步失败，且无法回滚，请联系管理员清理孤立数据')
+    }
+    console.error('[Knowledge] Chroma 同步失败，已回滚:', chromaError)
     throw new Error('知识库同步失败，请稍后重试')
   }
 

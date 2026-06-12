@@ -26,10 +26,13 @@ export function withResilience<T extends DynamicStructuredTool>(tool: T, config:
     func: async (input) => {
       let lastError: unknown
       for (let attempt = 0; attempt <= retries; attempt++) {
+        let timer: ReturnType<typeof setTimeout> | undefined
         try {
           const result = await Promise.race([
             tool.call(input),
-            new Promise((_, reject) => setTimeout(() => reject(new Error('Tool timeout')), timeout)),
+            new Promise<never>((_, reject) => {
+              timer = setTimeout(() => reject(new Error('Tool timeout')), timeout)
+            }),
           ])
           return result
         } catch (e) {
@@ -39,6 +42,8 @@ export function withResilience<T extends DynamicStructuredTool>(tool: T, config:
           if (attempt < retries) {
             await sleep(Math.min(1000 * (attempt + 1), 3000))
           }
+        } finally {
+          if (timer) clearTimeout(timer)
         }
       }
       console.error(`[Resilience] 工具 ${toolName} 全部重试失败，降级返回: ${lastError instanceof Error ? lastError.message : lastError}`)

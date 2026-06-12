@@ -1,105 +1,86 @@
 import agentEngine from './agent/agentEngine'
 import { getOrCreateConversation, saveMessage } from './conversationService'
-import { AgentStreamEvent } from '../types/agent'
+import { TripContentSchema } from '../types/agent'
+import { createLLM } from '../config/llm'
+import { HumanMessage } from '@langchain/core/messages'
+import { buildTripPrompt } from '../prompts/trip.prompt'
+import { extractJson } from '../utils/jsonExtractor'
+import prisma from '../config/database'
+
+const ASSISTANT_PERSIST_FLUSH_INTERVAL_MS = 3000
 
 class TripService {
-  async chat(params: {
-    userId: number
-    message: string
-    conversationId?: number
-  }) {
-    const { userId, message, conversationId } = params
-
-    const conversation = await getOrCreateConversation(userId, conversationId)
-    await saveMessage(conversation.id, 'user', message)
-
-    const events: AgentStreamEvent[] = []
-    let fullReply = ''
-
-    await agentEngine.chat({
-      userId,
-      message,
-      conversationId: conversation.id,
-      onEvent: async (event) => {
-        events.push(event)
-        if (event.type === 'complete') {
-          fullReply = event.content
-        }
-      },
-    })
-
-    if (fullReply) {
-      await saveMessage(conversation.id, 'assistant', fullReply)
-    }
-
-    return {
-      success: true,
-      conversationId: conversation.id,
-      reply: fullReply,
-      events,
-    }
-  }
-
   async chatStream(params: {
     userId: number
     message: string
     conversationId?: number
     onChunk: (chunk: string) => void
+    isClientConnected?: () => boolean
   }) {
-    const { userId, message, conversationId, onChunk } = params
+    const { userId, message, conversationId, onChunk, isClientConnected } = params
 
     const conversation = await getOrCreateConversation(userId, conversationId)
     await saveMessage(conversation.id, 'user', message)
 
     let fullReply = ''
+    let lastPersistAt = Date.now()
+    let persisted = false
 
-    await agentEngine.chat({
-      userId,
-      message,
-      conversationId: conversation.id,
-      onEvent: async (event) => {
-        if (event.type === 'chunk') {
-          fullReply += event.content
-          onChunk(event.content)
-        } else if (event.type === 'complete') {
-          fullReply = event.content
-        }
-      },
-    })
+    const tryPersist = async (force = false) => {
+      if (persisted) return
+      if (!force && Date.now() - lastPersistAt < ASSISTANT_PERSIST_FLUSH_INTERVAL_MS) return
+      if (!fullReply) return
+      lastPersistAt = Date.now()
+      try {
+        await prisma.message.create({
+          data: { conversationId: conversation.id, role: 'assistant', content: fullReply },
+        })
+      } catch (e) {
+        console.error('[TripService] 增量持久化失败:', e)
+      }
+    }
 
-    if (fullReply) {
-      await saveMessage(conversation.id, 'assistant', fullReply)
+    try {
+      await agentEngine.chat({
+        userId,
+        message,
+        conversationId: conversation.id,
+        onEvent: async (event) => {
+          if (event.type === 'chunk') {
+            fullReply += event.content
+            onChunk(event.content)
+            await tryPersist(false)
+          } else if (event.type === 'complete') {
+            fullReply = event.content
+            persisted = true
+            await tryPersist(true)
+          } else if (event.type === 'error') {
+            await tryPersist(true)
+          }
+        },
+      })
+    } catch (e) {
+      if (isClientConnected && !isClientConnected()) {
+        console.warn('[TripService] 客户端已断开，强制持久化当前回复')
+        await tryPersist(true)
+      }
+      throw e
     }
 
     return { conversationId: conversation.id, reply: fullReply }
   }
 
   async recommend(city: string, budget: number, days: number) {
-    const { buildTripPrompt } = await import('../prompts/trip.prompt')
-    const { ChatOpenAI } = await import('@langchain/openai')
-    const { HumanMessage } = await import('@langchain/core/messages')
-    const { extractJson } = await import('../utils/jsonExtractor')
-
     if (budget < 50 || days < 1 || days > 30) {
       throw new Error('预算过低或天数不符合要求')
     }
 
-    const modelProvider = process.env.MODEL_PROVIDER || 'DEEPSEEK'
-    const apiKey = modelProvider === 'KIMI' ? process.env.KIMI_API_KEY : process.env.DEEPSEEK_API_KEY
-    const baseURL = modelProvider === 'KIMI' ? process.env.KIMI_BASE_URL : process.env.DEEPSEEK_BASE_URL
-    const model = modelProvider === 'KIMI' ? process.env.KIMI_MODEL : process.env.DEEPSEEK_MODEL
-
-    const llm = new ChatOpenAI({
-      configuration: { apiKey, baseURL },
-      model,
-      temperature: 0.7,
-      streaming: false,
-    })
+    const llm = createLLM({ streaming: false })
 
     try {
       const response = await llm.invoke([new HumanMessage(buildTripPrompt(city, budget, days))])
       const rawContent = response.content as string
-      const parsed = extractJson(rawContent) as any
+      const parsed = TripContentSchema.parse(extractJson(rawContent))
       return {
         success: true,
         data: {

@@ -73,6 +73,7 @@ const fetchAiResponse = (userMsg: string) => {
       isStreaming.value = false
       if (data?.conversationId) {
         currentConversationId.value = data.conversationId
+        localStorage.setItem(CONVERSATION_ID_KEY, String(data.conversationId))
       }
     },
     (errMsg) => {
@@ -90,8 +91,15 @@ const fetchAiResponse = (userMsg: string) => {
 //AI处理中的状态
 const isStreaming = ref(false)
 
-//当前会话ID（首次响应后由后端返回）
-const currentConversationId = ref<number | null>(null)
+//当前会话ID（首次响应后由后端返回；持久化到 localStorage 以防刷新丢失）
+// TODO(phase-1.5): 替换为会话列表侧边栏，支持多会话切换
+const CONVERSATION_ID_KEY = 'trip_chat_conversation_id'
+const stored = typeof window !== 'undefined' ? localStorage.getItem(CONVERSATION_ID_KEY) : null
+const currentConversationId = ref<number | null>(stored ? Number(stored) : null)
+if (currentConversationId.value && !Number.isInteger(currentConversationId.value)) {
+  currentConversationId.value = null
+  if (typeof window !== 'undefined') localStorage.removeItem(CONVERSATION_ID_KEY)
+}
 
 //消息列表容器引用
 const messageListRef = ref<HTMLElement | null>(null)

@@ -5,7 +5,9 @@ import { BaseMessage, HumanMessage, AIMessage, SystemMessage } from '@langchain/
 import { retrieveKnowledgeTool } from './tools/retrieveKnowledge'
 import { buildSystemPrompt } from './systemPrompt'
 import { AgentStreamEvent } from '../../types/agent'
+import { createLLM } from '../../config/llm'
 import prisma from '../../config/database'
+import { loadContext } from '../conversationService'
 
 export interface ChatParams {
   userId: number
@@ -23,32 +25,19 @@ export interface RecommendParams {
   onEvent: (event: AgentStreamEvent) => Promise<void>
 }
 
+type AgentStep = {
+  intermediateSteps?: Array<{ action: { tool: string }; observation: string }>
+  returnValues?: Record<string, unknown>
+  output?: string
+  [key: string]: unknown
+}
+
 class AgentEngine {
   private llm: ChatOpenAI | null = null
   private tools = [retrieveKnowledgeTool]
 
   constructor() {
-    this.initLLM()
-  }
-
-  private initLLM() {
-    const modelProvider = process.env.MODEL_PROVIDER || 'DEEPSEEK'
-    let apiKey, baseURL, model
-    if (modelProvider === 'KIMI') {
-      apiKey = process.env.KIMI_API_KEY
-      baseURL = process.env.KIMI_BASE_URL
-      model = process.env.KIMI_MODEL
-    } else {
-      apiKey = process.env.DEEPSEEK_API_KEY
-      baseURL = process.env.DEEPSEEK_BASE_URL
-      model = process.env.DEEPSEEK_MODEL
-    }
-    this.llm = new ChatOpenAI({
-      configuration: { apiKey, baseURL },
-      model,
-      temperature: 0.7,
-      streaming: true,
-    })
+    this.llm = createLLM({ streaming: true })
   }
 
   private async loadUserPreferences(userId: number): Promise<Record<string, any> | null> {
@@ -56,7 +45,7 @@ class AgentEngine {
     return (user?.preferences as Record<string, any> | null) ?? null
   }
 
-  private async buildAgent(systemPrompt: string) {
+  private async buildAgent(systemPrompt: string): Promise<AgentExecutor> {
     if (!this.llm) throw new Error('LLM 未初始化')
     const prompt = ChatPromptTemplate.fromMessages([
       ['system', systemPrompt],
@@ -77,6 +66,14 @@ class AgentEngine {
     })
   }
 
+  private dbMessagesToLangChain(messages: { role: string; content: string }[]): BaseMessage[] {
+    return messages.map(m => {
+      if (m.role === 'user') return new HumanMessage(m.content)
+      if (m.role === 'assistant') return new AIMessage(m.content)
+      return new SystemMessage(m.content)
+    })
+  }
+
   async chat(params: ChatParams) {
     const { userId, message, conversationId, onEvent } = params
 
@@ -84,17 +81,11 @@ class AgentEngine {
 
     let systemSummary: string | null = null
     let historyMessages: BaseMessage[] = []
-    let currentConversationId = conversationId
 
-    if (currentConversationId) {
-      const { loadContext } = await import('../conversationService')
-      const ctx = await loadContext(currentConversationId)
+    if (conversationId) {
+      const ctx = await loadContext(conversationId)
       systemSummary = ctx.systemSummary
-      historyMessages = ctx.recentMessages.map(m => {
-        if (m.role === 'user') return new HumanMessage(m.content)
-        if (m.role === 'assistant') return new AIMessage(m.content)
-        return new SystemMessage(m.content)
-      })
+      historyMessages = this.dbMessagesToLangChain(ctx.recentMessages)
     }
 
     const systemPrompt = buildSystemPrompt({
@@ -104,33 +95,33 @@ class AgentEngine {
 
     const executor = await this.buildAgent(systemPrompt)
 
-    let fullResponse = ''
-    try {
-      const stream = await executor.stream({
-        input: message,
-        chat_history: historyMessages,
-      })
+    const stream = await executor.stream({
+      input: message,
+      chat_history: historyMessages,
+    })
 
-      for await (const chunk of stream as any) {
-        if (chunk.output != null) {
-          fullResponse += String(chunk.output)
-          await onEvent({ type: 'chunk', content: String(chunk.output) })
+      let fullResponse = ''
+      try {
+        for await (const chunk of stream as AsyncIterable<AgentStep>) {
+          if (chunk.output != null) {
+            const piece = String(chunk.output)
+            fullResponse += piece
+            await onEvent({ type: 'chunk', content: piece })
+          }
         }
+        await onEvent({ type: 'complete', content: fullResponse })
+      } catch (e) {
+        const errMsg = e instanceof Error ? e.message : '未知错误'
+        console.error('[Agent] chat 失败:', errMsg)
+        await onEvent({ type: 'error', error: errMsg })
+        throw e
       }
-      await onEvent({ type: 'complete', content: fullResponse })
-    } catch (e) {
-      const errMsg = e instanceof Error ? e.message : '未知错误'
-      console.error('[Agent] chat 失败:', errMsg)
-      await onEvent({ type: 'error', error: errMsg })
-      throw e
+
+      return { reply: fullResponse, conversationId }
     }
 
-    return { reply: fullResponse, conversationId: currentConversationId }
-  }
-
-  async recommend(params: RecommendParams) {
-    const { userId, city, budget, days, conversationId, onEvent } = params
-    void userId; void city; void budget; void days; void conversationId; void onEvent
+  async recommend(params: RecommendParams): Promise<never> {
+    void params
     throw new Error('recommend 方法将在 Phase 1b 实现')
   }
 }
