@@ -1,7 +1,8 @@
 import { Response } from 'express'
 
 interface StreamPayload {
-  type: 'chunk' | 'complete'
+  type: 'chunk' | 'complete' | 'tool_start' | 'tool_end' | 'error'
+  name?: string
   content?: string
   data?: unknown
 }
@@ -28,7 +29,7 @@ export const createStreamResponse = (res: Response) => {
         },
         error: (message: string) => {
             try {
-                res.write(`event: error\ndata: ${JSON.stringify(message)}\n\n`)
+                res.write(`event: error\ndata: ${JSON.stringify({ type: 'error', error: message })}\n\n`)
                 res.end()
             } catch (error) {
                 console.error('流式错误错误', error)

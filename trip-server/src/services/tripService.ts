@@ -9,15 +9,22 @@ import prisma from '../config/database'
 
 const ASSISTANT_PERSIST_FLUSH_INTERVAL_MS = 3000
 
+export interface ChatStreamCallbacks {
+  onChunk: (chunk: string) => void
+  onToolStart?: (name: string) => void
+  onToolEnd?: (name: string) => void
+  isClientConnected?: () => boolean
+}
+
 class TripService {
   async chatStream(params: {
     userId: number
     message: string
     conversationId?: number
-    onChunk: (chunk: string) => void
-    isClientConnected?: () => boolean
+    callbacks: ChatStreamCallbacks
   }) {
-    const { userId, message, conversationId, onChunk, isClientConnected } = params
+    const { userId, message, conversationId, callbacks } = params
+    const { onChunk, onToolStart, onToolEnd, isClientConnected } = callbacks
 
     const conversation = await getOrCreateConversation(userId, conversationId)
     await saveMessage(conversation.id, 'user', message)
@@ -50,6 +57,10 @@ class TripService {
             fullReply += event.content
             onChunk(event.content)
             await tryPersist(false)
+          } else if (event.type === 'tool_start') {
+            onToolStart?.(event.name)
+          } else if (event.type === 'tool_end') {
+            onToolEnd?.(event.name)
           } else if (event.type === 'complete') {
             fullReply = event.content
             persisted = true

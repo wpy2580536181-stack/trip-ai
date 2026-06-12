@@ -74,25 +74,33 @@ export async function fetchStream(url: string, data?: any, onChunk?: (chunk: str
       }
       const reader = response.body.getReader()
       const decoder = new TextDecoder()
+      let buffer = ''
       while(true){
         const {done,value} = await reader.read()
         if(done){
           break
         }
-        const chunk = decoder.decode(value)
-        const lines = chunk.split('\n').filter(line => line.trim() !== '')
-        for(const line of lines){
-          if(line.startsWith('data:')){
-            const jsonStr = line.substring(6)
-            const jsonData = JSON.parse(jsonStr)
-            if(jsonData.type === 'chunk'){
+        buffer += decoder.decode(value, { stream: true })
+        let sepIdx
+        while ((sepIdx = buffer.indexOf('\n\n')) !== -1) {
+          const rawEvent = buffer.slice(0, sepIdx)
+          buffer = buffer.slice(sepIdx + 2)
+          for (const line of rawEvent.split('\n')) {
+            if (!line.startsWith('data:')) continue
+            const jsonStr = line.substring(5).trimStart()
+            if (!jsonStr) continue
+            let jsonData: any
+            try {
+              jsonData = JSON.parse(jsonStr)
+            } catch {
+              continue
+            }
+            if (jsonData.type === 'chunk') {
               onChunk?.(jsonData.content)
-            }
-            else if(jsonData.type === 'complete'){
+            } else if (jsonData.type === 'complete') {
               onComplete?.(jsonData.data)
-            }
-            else if(jsonData.error){
-              onError?.('流式数据解析异常')
+            } else if (jsonData.type === 'error') {
+              onError?.(jsonData.error || '流式数据解析异常')
             }
           }
         }
@@ -101,6 +109,6 @@ export async function fetchStream(url: string, data?: any, onChunk?: (chunk: str
       controller.abort()
 
     }catch(error: any){
-      onError?.(error.message)
+      onError?.(error.message || '请求失败')
     }
 }

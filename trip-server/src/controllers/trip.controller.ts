@@ -38,12 +38,24 @@ export const chat = async (req: Request, res: Response) => {
       userId: req.user.userId,
       message,
       conversationId,
-      onChunk: (chunk) => {
-        if (isClientConnected()) {
-          stream.send({ type: 'chunk', content: chunk })
-        }
+      callbacks: {
+        onChunk: (chunk) => {
+          if (isClientConnected()) {
+            stream.send({ type: 'chunk', content: chunk })
+          }
+        },
+        onToolStart: (name) => {
+          if (isClientConnected()) {
+            stream.send({ type: 'tool_start', name })
+          }
+        },
+        onToolEnd: (name) => {
+          if (isClientConnected()) {
+            stream.send({ type: 'tool_end', name })
+          }
+        },
+        isClientConnected,
       },
-      isClientConnected,
     })
 
     if (isClientConnected()) {

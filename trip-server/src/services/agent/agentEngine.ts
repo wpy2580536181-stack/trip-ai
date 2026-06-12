@@ -2,6 +2,7 @@ import { ChatOpenAI } from '@langchain/openai'
 import { AgentExecutor, createToolCallingAgent } from '@langchain/classic/agents'
 import { ChatPromptTemplate } from '@langchain/core/prompts'
 import { BaseMessage, HumanMessage, AIMessage, SystemMessage } from '@langchain/core/messages'
+import type { StreamEvent } from '@langchain/core/tracers/log_stream'
 import { retrieveKnowledgeTool } from './tools/retrieveKnowledge'
 import { buildSystemPrompt } from './systemPrompt'
 import { AgentStreamEvent } from '../../types/agent'
@@ -23,13 +24,6 @@ export interface RecommendParams {
   days: number
   conversationId?: number
   onEvent: (event: AgentStreamEvent) => Promise<void>
-}
-
-type AgentStep = {
-  intermediateSteps?: Array<{ action: { tool: string }; observation: string }>
-  returnValues?: Record<string, unknown>
-  output?: string
-  [key: string]: unknown
 }
 
 class AgentEngine {
@@ -74,6 +68,21 @@ class AgentEngine {
     })
   }
 
+  private extractTokenText(event: StreamEvent): string | null {
+    const data = event.data
+    if (!data || typeof data !== 'object') return null
+    const chunk = (data as { chunk?: unknown }).chunk
+    if (!chunk || typeof chunk !== 'object') return null
+    const text = (chunk as { content?: unknown }).content
+    if (typeof text === 'string') return text
+    if (Array.isArray(text)) {
+      return text
+        .map(part => (typeof part === 'string' ? part : (part as { text?: string })?.text ?? ''))
+        .join('')
+    }
+    return null
+  }
+
   async chat(params: ChatParams) {
     const { userId, message, conversationId, onEvent } = params
 
@@ -95,30 +104,35 @@ class AgentEngine {
 
     const executor = await this.buildAgent(systemPrompt)
 
-    const stream = await executor.stream({
-      input: message,
-      chat_history: historyMessages,
-    })
+    const eventStream = executor.streamEvents(
+      { input: message, chat_history: historyMessages },
+      { version: 'v2' },
+    )
 
       let fullResponse = ''
       try {
-        for await (const chunk of stream as AsyncIterable<AgentStep>) {
-          if (chunk.output != null) {
-            const piece = String(chunk.output)
-            fullResponse += piece
-            await onEvent({ type: 'chunk', content: piece })
+        for await (const event of eventStream as AsyncIterable<StreamEvent>) {
+          if (event.event === 'on_tool_start') {
+            const name = event.name || 'unknown'
+            await onEvent({ type: 'tool_start', name })
+          } else if (event.event === 'on_chat_model_stream') {
+            const piece = this.extractTokenText(event)
+            if (piece) {
+              fullResponse += piece
+              await onEvent({ type: 'chunk', content: piece })
+            }
           }
         }
         await onEvent({ type: 'complete', content: fullResponse })
-      } catch (e) {
-        const errMsg = e instanceof Error ? e.message : '未知错误'
-        console.error('[Agent] chat 失败:', errMsg)
-        await onEvent({ type: 'error', error: errMsg })
-        throw e
-      }
-
-      return { reply: fullResponse, conversationId }
+    } catch (e) {
+      const errMsg = e instanceof Error ? e.message : '未知错误'
+      console.error('[Agent] chat 失败:', errMsg)
+      await onEvent({ type: 'error', error: errMsg })
+      throw e
     }
+
+    return { reply: fullResponse, conversationId }
+  }
 
   async recommend(params: RecommendParams): Promise<never> {
     void params
