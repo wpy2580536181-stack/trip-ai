@@ -2,7 +2,12 @@
   <div class="chat-bubble" :class="messageClass">
     <div class="bubble-content">
       <div class="message-text" v-if="message.role === 'user'">{{ message.content }}</div>
-      <div class="message-text ai-message markdown-body" v-else v-html="renderedContent"></div>
+      <div
+        class="message-text ai-message markdown-body"
+        v-else
+        :class="{ 'streaming-raw': streaming }"
+        v-html="renderedContent"
+      ></div>
     </div>
     <div class="message-time" v-if="showTime">{{ formatTime }}</div>
   </div>
@@ -25,14 +30,28 @@ interface Message {
 
 const props = defineProps<{
   message: Message
+  streaming?: boolean
 }>()
 
 const messageClass = computed(() => {
   return props.message.role === 'user' ? 'user-message' : 'ai-message'
 })
 
+const escapeHtml = (s: string) =>
+  s.replace(/[&<>"']/g, c => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;',
+  }[c]!))
+
 const renderedContent = computed(() => {
   if (!props.message.content) return ''
+  if (props.streaming) {
+    const tail = escapeHtml(props.message.content)
+    return `${tail}<span class="streaming-cursor">▍</span>`
+  }
   return marked.parse(props.message.content) as string
 })
 
@@ -84,6 +103,22 @@ const formatTime = computed(() => {
   background: #f5f5f5;
   color: #323233;
   border-bottom-left-radius: 4px;
+}
+
+.streaming-raw {
+  white-space: pre-wrap;
+  font-family: inherit;
+}
+
+.streaming-cursor {
+  display: inline-block;
+  margin-left: 1px;
+  animation: blink 1s steps(2) infinite;
+  color: #1989fa;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
 }
 
 .message-time {
