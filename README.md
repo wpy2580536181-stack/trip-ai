@@ -158,3 +158,82 @@ GET /api/test
 - 密码重置使用 UUID token，30 分钟有效，单次使用
 - 登录、注册、密码重置接口均有频率限制（15 分钟 10 次）
 - `.env` 文件已被 `.gitignore` 排除，请勿提交真实密钥
+
+## Phase 1a：AI Agent + RAG + 对话记忆
+
+Phase 1a 在原有基础上引入了 RAG 知识库、对话记忆、Agent 工具调用和容错降级。
+
+### 新增能力
+
+- **RAG 知识库**：基于 Chroma 向量数据库 + bge-small-zh 中文 embedding 模型
+- **Agent 编排**：LangChain Tool Calling Agent，自主决定调用 `retrieve_knowledge` 工具
+- **对话记忆**：所有对话持久化到 MySQL，Agent 自动加载历史上下文（最近 10 轮）
+- **Tool 容错**：超时、重试、降级——Chroma 不可用时自动降级到 MySQL
+- **对话 / 行程历史接口**：列出、查看、删除用户的对话和行程
+
+### 新增数据表
+
+- `trips` — 用户行程历史（含 `parent_trip_id` 自引用，支持 Phase 2 行程优化版本链）
+- `conversations` — 对话会话（含 `summary` 字段，Phase 1b 用于滑动窗口摘要压缩）
+- `messages` — 对话消息（`onDelete: Cascade` 关联 conversations）
+- `spots` — 景点知识库（`vector_id` 关联 Chroma）
+
+### 新增 API
+
+| 方法 | 路径 | 说明 | 认证 |
+|---|---|---|---|
+| POST | `/api/trip/chat` | AI 对话（流式，需登录，持久化） | 需 |
+| GET | `/api/conversations` | 对话列表 | 需 |
+| GET | `/api/conversations/:id` | 对话详情 | 需 |
+| DELETE | `/api/conversations/:id` | 删除对话 | 需 |
+| GET | `/api/history/trips` | 行程历史 | 需 |
+| GET | `/api/history/trips/:id` | 行程详情 | 需 |
+
+### 启动 Chroma（必需）
+
+Chroma 是 RAG 的核心依赖，必须先启动：
+
+```bash
+# 方式 1：pip 安装
+pip install chromadb
+chroma run --path ./trip-server/chroma_data --host 127.0.0.1 --port 8000
+
+# 方式 2：Docker
+docker run -d --name chroma -p 8000:8000 \
+  -v $(pwd)/trip-server/chroma_data:/chroma/.chroma \
+  chromadb/chroma
+```
+
+### 导入知识库
+
+```bash
+cd trip-server
+npm run seed:knowledge
+```
+
+首次运行会下载 bge-small-zh 模型（约 100MB），需要 1-2 分钟。导入成功后输出类似：
+
+```
+>>> 导入 chengdu.json (10 个景点)...
+   成功: 10, 失败: 0
+```
+
+### 新增环境变量
+
+在 `trip-server/.env` 中追加：
+
+```bash
+# Chroma 向量数据库
+CHROMA_URL=http://localhost:8000
+
+# HuggingFace 模型下载镜像（默认走国内镜像；海外可改为 https://huggingface.co/）
+HF_ENDPOINT=https://hf-mirror.com/
+```
+
+### 数据同步机制
+
+知识库采用 **MySQL 为权威源 + Chroma 事务性同步** 模式：
+
+- 创建景点：先写 MySQL，成功后再写 Chroma；Chroma 失败则回滚 MySQL
+- 检索景点：优先 Chroma 相似度搜索；Chroma 不可用或为空时降级到 MySQL `findMany`（按 `rating` 降序）
+- `retrieve_knowledge` 工具对 RAG 调用有 8s 超时 + 1 次重试 + 降级提示
