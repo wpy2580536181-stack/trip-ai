@@ -71,21 +71,20 @@ const sendMessage = () => {
 
 const fetchAiResponse = (userMsg: string) => {
   isStreaming.value = true
-  const aiMessage = ref<Message>({
+  const aiMessage: Message = {
     role: 'ai',
     content: '',
     timestamp: new Date().toISOString(),
-  })
-  messages.value.push(aiMessage.value)
+  }
+  messages.value.push(aiMessage)
 
   fetchStream(
     'trip/chat',
     { message: userMsg, conversationId: currentConversationId.value },
     (chunk) => {
-      aiMessage.value = { ...aiMessage.value, content: aiMessage.value.content + chunk }
+      aiMessage.content += chunk
     },
     (data) => {
-      aiMessage.value = { ...aiMessage.value, content: aiMessage.value.content }
       isStreaming.value = false
       if (data?.conversationId) {
         currentConversationId.value = data.conversationId
@@ -93,7 +92,7 @@ const fetchAiResponse = (userMsg: string) => {
       }
     },
     (errMsg) => {
-      aiMessage.value = { ...aiMessage.value, content: `AI处理发生错误: ${errMsg}` }
+      aiMessage.content = `AI处理发生错误: ${errMsg}`
       isStreaming.value = false
       showToast('AI处理发生错误')
     },
