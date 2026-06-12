@@ -49,6 +49,7 @@ import { reactive, ref } from 'vue'
 import { showToast } from 'vant'
 import router from '../router'
 import { ALL_CITIES, POPULAR_CITIES } from '../config/cities'
+import { post } from '@/api/request'
 
 interface FormData {
   city: string
@@ -97,15 +98,7 @@ const validateForm = () => {
     showToast('请输入有效的旅行天数（1-30天）')
     return false
   }
-  //校验通过则跳转到详情页
-  router.push({
-    path: '/detail',
-    query: {
-      city: formData.city,
-      budget: formData.budget,
-      days: formData.days,
-    }
-  })
+  return true
 }
 
 // 提交表单
@@ -116,11 +109,30 @@ const handleSubmit = async () => {
 
   isloading.value = true
   try {
-    // TODO: 调用后端 API
-    await new Promise((resolve) => setTimeout(resolve, 1000))
-    showToast('提交成功')
+    const res = await post('/trip/recommend', {
+      city: formData.city,
+      budget: Number(formData.budget),
+      days: Number(formData.days),
+    })
+    if (res.success && res.data) {
+      const tripId = (res.data as { id?: number }).id
+      if (tripId) {
+        router.push({ path: '/detail', query: { id: tripId } })
+      } else {
+        router.push({
+          path: '/detail',
+          query: {
+            city: formData.city,
+            budget: formData.budget,
+            days: formData.days,
+          },
+        })
+      }
+    } else {
+      showToast(res.error || '生成失败，请重试')
+    }
   } catch (error) {
-    showToast('提交失败，请重试')
+    showToast('网络错误，请稍后重试')
   } finally {
     isloading.value = false
   }

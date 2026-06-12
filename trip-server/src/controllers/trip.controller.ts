@@ -7,8 +7,9 @@ export const recommend = async (req: Request, res: Response) => {
   if (!city || !budget || !days) {
     return res.status(400).json({ code: 400, error: '参数错误' })
   }
+  const userId = req.user?.userId ?? null
   try {
-    const result = await tripService.recommend(city, budget, days)
+    const result = await tripService.recommend(city, budget, days, userId)
     return res.json(result)
   } catch (error) {
     return res.status(500).json({ code: 500, error: '推荐失败' })

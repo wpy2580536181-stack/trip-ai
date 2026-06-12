@@ -84,7 +84,7 @@ class TripService {
     return { conversationId: conversation.id, reply: fullReply }
   }
 
-  async recommend(city: string, budget: number, days: number) {
+  async recommend(city: string, budget: number, days: number, userId: number | null = null) {
     if (budget < 50 || days < 1 || days > 30) {
       throw new Error('预算过低或天数不符合要求')
     }
@@ -99,7 +99,7 @@ class TripService {
       try {
         const created = await prisma.trip.create({
           data: {
-            userId: null,
+            userId,
             city: parsed.city,
             days: parsed.days,
             budget,

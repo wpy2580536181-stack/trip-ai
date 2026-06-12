@@ -13,7 +13,7 @@ const chatLimiter = rateLimit({
   legacyHeaders: false,
 })
 
-router.post('/recommend', tripController.recommend)
+router.post('/recommend', authMiddleware, tripController.recommend)
 router.post('/chat', authMiddleware, chatLimiter, tripController.chat)
 
 export default router
