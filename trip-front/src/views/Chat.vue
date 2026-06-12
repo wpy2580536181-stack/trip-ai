@@ -4,6 +4,8 @@ import { ref, watch, nextTick } from 'vue'
 import { showToast } from 'vant'
 import { fetchStream } from '@/api/request'
 import ChatBubble from '@/components/ChatBubble.vue'
+import ConversationDrawer from '@/components/ConversationDrawer.vue'
+import { getConversation } from '@/api/conversation'
 
 const router = useRouter()
 
@@ -98,6 +100,31 @@ const fetchAiResponse = (userMsg: string) => {
     },
   )
 }
+
+const showDrawer = ref(false)
+
+const onSelectConversation = async (id: number) => {
+  try {
+    const res = await getConversation(id)
+    const conv = res.data
+    if (!conv) return
+    currentConversationId.value = id
+    localStorage.setItem(CONVERSATION_ID_KEY, String(id))
+    messages.value = (conv.messages || []).map(m => ({
+      role: m.role === 'user' ? 'user' : 'ai',
+      content: m.content,
+      timestamp: m.createdAt,
+    }))
+  } catch (e) {
+    showToast('加载对话失败')
+  }
+}
+
+const onNewConversation = () => {
+  currentConversationId.value = null
+  localStorage.removeItem(CONVERSATION_ID_KEY)
+  messages.value = []
+}
 </script>
 
 <template>
@@ -108,7 +135,11 @@ const fetchAiResponse = (userMsg: string) => {
         left-text="返回"
         @click-left="onBack"
         title="AI 旅游助手"
-      />
+      >
+        <template #right>
+          <van-icon name="bars" size="20" @click="showDrawer = true" />
+        </template>
+      </van-nav-bar>
     </div>
     <div class="chat-container" ref="messageListRef">
       <div class="chat-empty" v-if="messages.length === 0">
@@ -158,6 +189,7 @@ const fetchAiResponse = (userMsg: string) => {
         </template>
       </van-field>
     </div>
+    <ConversationDrawer v-model:show="showDrawer" @select="onSelectConversation" @new="onNewConversation" />
   </div>
 </template>
 

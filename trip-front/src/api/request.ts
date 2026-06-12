@@ -53,6 +53,10 @@ export function put<T = any>(url: string, params?: any): Promise<ApiResponse<T>>
   return request.put(url, params)
 }
 
+export function del<T = any>(url: string, params?: any): Promise<ApiResponse<T>> {
+  return request.delete(url, { params })
+}
+
 export async function fetchStream(url: string, data?: any, onChunk?: (chunk: string) => void, onComplete?: (data?: any) => void, onError?: (error: any) => void): Promise<void> {
     const controller = new AbortController()
     const token = localStorage.getItem('token')
