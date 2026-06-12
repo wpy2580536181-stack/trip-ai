@@ -99,7 +99,7 @@ class TripService {
       try {
         const created = await prisma.trip.create({
           data: {
-            userId: 0,
+            userId: null,
             city: parsed.city,
             days: parsed.days,
             budget,

@@ -55,7 +55,7 @@ model PasswordReset {
 
 model Trip {
   id             Int      @id @default(autoincrement())
-  userId         Int      @map("user_id")
+  userId         Int?     @map("user_id")
   city           String   @db.VarChar(50)
   days           Int
   budget         Int
@@ -63,7 +63,7 @@ model Trip {
   status         String   @default("completed") @db.VarChar(20)
   parentTripId   Int?     @map("parent_trip_id")
   createdAt      DateTime @default(now()) @map("created_at")
-  user           User     @relation(fields: [userId], references: [id])
+  user           User?    @relation(fields: [userId], references: [id])
   parent         Trip?    @relation("TripVersions", fields: [parentTripId], references: [id])
   versions       Trip[]   @relation("TripVersions")
 
