@@ -8,8 +8,9 @@
 |---|---|
 | 前端 | Vue 3 + TypeScript + Vite + Vant 4 |
 | 后端 | Express 5 + TypeScript |
-| 数据库 | MySQL + Prisma ORM |
-| AI | LangChain + DeepSeek/Kimi API |
+| 数据库 | MySQL + Prisma ORM + ChromaDB (向量) |
+| AI 生成 | LangChain + DeepSeek/Kimi API |
+| AI 检索 | bge-small-zh-v1.5 embedding + bge-reranker-base Cross-Encoder (本地) |
 
 ## 项目结构
 
@@ -26,13 +27,15 @@ trip/
 │       └── utils/               # 工具函数
 │
 └── trip-server/                 # 后端
+    ├── prisma/                  # 数据库 schema + seed 脚本
+    ├── scripts/                 # 数据 pipeline 脚本（POI 抓取、转换、重 embedding）
     └── src/
-        ├── config/              # 配置（JWT、数据库）
+        ├── config/              # 配置（JWT、数据库、embedding、LLM）
         ├── controllers/         # 控制器（请求处理、参数校验、响应格式化）
-        ├── middleware/           # 中间件（认证、鉴权）
+        ├── middleware/          # 中间件（认证、鉴权）
         ├── prompts/             # AI Prompt 模板
         ├── routes/              # 路由定义（中间件编排 + 派发到 controller）
-        ├── services/            # 业务逻辑层
+        ├── services/            # 业务逻辑层（含 Agent、RAG、reranker）
         └── utils/               # 工具函数
 ```
 
@@ -40,7 +43,9 @@ trip/
 
 - Node.js >= 18
 - MySQL >= 8.0
+- ChromaDB（独立进程，见下方）
 - 一个兼容 OpenAI 的 LLM API Key（DeepSeek / Kimi）
+- 网络连通 HuggingFace（首次启动需下载本地模型约 1.7GB）
 
 ## 快速开始
 
@@ -59,7 +64,22 @@ cp trip-server/.env.example trip-server/.env
 
 编辑 `trip-server/.env`，填写实际的数据库连接和 API Key。
 
-### 3. 初始化数据库
+### 3. 启动 Chroma
+
+Chroma 是 RAG 向量检索的核心依赖：
+
+```bash
+# 方式 1：pip 安装
+pip install chromadb
+chroma run --path ./trip-server/chroma_data --host 127.0.0.1 --port 8000
+
+# 方式 2：Docker
+docker run -d --name chroma -p 8000:8000 \
+  -v $(pwd)/trip-server/chroma_data:/chroma/.chroma \
+  chromadb/chroma
+```
+
+### 4. 初始化数据库
 
 ```bash
 cd trip-server
@@ -67,7 +87,28 @@ npx prisma db push          # 创建数据库表
 npm run seed                 # 初始化角色数据（ADMIN/USER）
 ```
 
-### 4. 启动服务
+### 5. 导入知识库数据
+
+```bash
+cd trip-server
+npm run seed:knowledge
+```
+
+首次运行会：
+1. 下载 bge-small-zh-v1.5 embedding 模型（约 100MB）
+2. 从 `data/spots/*.json` 导入 30 个城市的 ~750+ 景点/美食/酒店数据
+3. 生成向量存入 ChromaDB
+
+导入成功后输出类似：
+
+```
+>>> 导入 chengdu.json (252 个景点)...
+   成功: 252, 失败: 0
+...
+总成功: 754, 总失败: 0
+```
+
+### 6. 启动服务
 
 ```bash
 # 终端 1 — 后端（端口 3000）
@@ -78,6 +119,8 @@ cd trip-front && npm run dev
 ```
 
 访问 http://localhost:5173
+
+> **首次启动提示**：后端首次启动时会下载 embedding 和 reranker 本地模型，合计约 1.7GB，需要 2-5 分钟（取决于网络）。后续启动自动复用。
 
 ## 环境变量
 
@@ -97,6 +140,9 @@ cd trip-front && npm run dev
 | `KIMI_API_KEY` | Kimi API Key | — |
 | `KIMI_BASE_URL` | Kimi API 地址 | `https://api.kimi.cn/v1` |
 | `KIMI_MODEL` | Kimi 模型名 | `kimi-for-coding` |
+| `CHROMA_URL` | Chroma 向量数据库地址 | `http://localhost:8000` |
+| `CHROMA_PERSIST_DIR` | Chroma 数据持久化目录 | `./chroma_data` |
+| `HF_ENDPOINT` | HuggingFace 模型下载镜像 | `https://hf-mirror.com/` |
 
 ### 前端（trip-front/.env — 可选）
 
@@ -131,6 +177,16 @@ GET /api/test
 | POST | `/api/trip/recommend` | AI 生成行程规划 |
 | POST | `/api/trip/chat` | AI 对话（SSE 流式响应） |
 
+### 对话 & 历史
+
+| 方法 | 路径 | 说明 | 认证 |
+|---|---|---|---|
+| GET | `/api/conversations` | 对话列表 | 需 |
+| GET | `/api/conversations/:id` | 对话详情 | 需 |
+| DELETE | `/api/conversations/:id` | 删除对话 | 需 |
+| GET | `/api/history/trips` | 行程历史 | 需 |
+| GET | `/api/history/trips/:id` | 行程详情 | 需 |
+
 ## 脚本
 
 ### trip-server
@@ -142,15 +198,66 @@ GET /api/test
 | `npm start` | 启动编译后的代码 |
 | `npm run seed` | 初始化角色数据 |
 | `npm run migrate` | 同步数据库表结构 |
+| `npm run seed:knowledge` | 导入知识库数据（30 城 ~750+ 景点） |
+| `npx ts-node scripts/re-embed-spreads.ts` | 重 embedding 迁移（更新已有数据的向量） |
 
-### trip-front
+### 数据 Pipeline 脚本
 
-| 命令 | 说明 |
+| 脚本 | 说明 |
 |---|---|
-| `npm run dev` | 启动 Vite 开发服务器 |
-| `npm run build` | 构建生产版本 |
-| `npm run preview` | 预览生产构建 |
-| `npm run format` | 格式化代码 |
+| `scripts/fetch-gaode-poi.ts` | 高德 POI 搜索脚本（30 城 × 3 类，生成原始 POI 数据） |
+| `scripts/convert-poi.py` | LLM 转换脚本（POI → Spot，DeepSeek 生成 description/tags/rating） |
+| `scripts/convert-poi-to-spots.ts` | TypeScript 版 POI 转换工具 |
+
+## 知识库 RAG
+
+### 知识库概况
+
+- **数据规模**：754 条景点数据，覆盖 30 个一二线城市
+- **分类**：景点（attraction）、美食（food）、住宿（hotel）、交通（transport）
+- **向量存储**：ChromaDB v1.4.4，cosine similarity，HNSW 索引
+- **Embedding 模型**：`bge-small-zh-v1.5`，512 维，本地运行
+- **本地模型路径**：`~/.cache/huggingface/hub/`（首次启动自动下载）
+
+### 四层检索链路
+
+```
+用户 query → LLM 改写 → 三路并行召回 → RRF 融合 → Cross-Encoder 精排 → 返回 top-K
+```
+
+| 层级 | 方案 | 延迟 | 说明 |
+|------|------|------|------|
+| 1. 查询改写 | DeepSeek/Kimi LLM | 200-400ms | 将自然语言转为检索关键词 |
+| 2. 向量召回 | Chroma 向量检索（top-20） | 50-100ms | 语义理解，找到相关景点 |
+| 3. 关键词召回 | MySQL LIKE 关键词（top-10） | 5-10ms | 精确名称匹配 |
+| 4. 热度召回 | MySQL rating 排序（top-10） | 5-10ms | 补充高评分景点 |
+| 5. RRF 融合 | Reciprocal Rank Fusion | <1ms | 三路去重融合，候选送入精排 |
+| 6. Cross-Encoder | bge-reranker-base | 200-500ms | 对 top-20 候选做精细重排序 |
+| **总计** | | **~500-1000ms** | |
+
+### RRF 融合算法
+
+```
+score(doc) = Σ 1 / (rank + K)
+```
+
+K = 60，对多路召回结果按排名累加融合得分，排名越高得分越高。一个文档在多路中出现时得分叠加。
+
+### Cross-Encoder 重排序
+
+对 RRF 融合后的 top-20 候选，使用 `bge-reranker-base` Cross-Encoder 模型逐对计算 query-doc 相关性得分（sigmoid → [0,1]），取 top-K 返回。
+
+### 降级链路
+
+```
+Chroma 不可用  → 仅用 MySQL LIKE + rating 双路
+reranker 失败  → 使用 RRF 排序结果
+LLM 改写失败   → 使用原始 query
+```
+
+### 详细文档
+
+完整的四层优化实施文档（索引层、查询改写、多路召回、重排序）见：[RAG_OPTIMIZATION.md](trip-server/RAG_OPTIMIZATION.md)
 
 ## 安全说明
 
@@ -158,82 +265,3 @@ GET /api/test
 - 密码重置使用 UUID token，30 分钟有效，单次使用
 - 登录、注册、密码重置接口均有频率限制（15 分钟 10 次）
 - `.env` 文件已被 `.gitignore` 排除，请勿提交真实密钥
-
-## Phase 1a：AI Agent + RAG + 对话记忆
-
-Phase 1a 在原有基础上引入了 RAG 知识库、对话记忆、Agent 工具调用和容错降级。
-
-### 新增能力
-
-- **RAG 知识库**：基于 Chroma 向量数据库 + bge-small-zh 中文 embedding 模型
-- **Agent 编排**：LangChain Tool Calling Agent，自主决定调用 `retrieve_knowledge` 工具
-- **对话记忆**：所有对话持久化到 MySQL，Agent 自动加载历史上下文（最近 10 轮）
-- **Tool 容错**：超时、重试、降级——Chroma 不可用时自动降级到 MySQL
-- **对话 / 行程历史接口**：列出、查看、删除用户的对话和行程
-
-### 新增数据表
-
-- `trips` — 用户行程历史（含 `parent_trip_id` 自引用，支持 Phase 2 行程优化版本链）
-- `conversations` — 对话会话（含 `summary` 字段，Phase 1b 用于滑动窗口摘要压缩）
-- `messages` — 对话消息（`onDelete: Cascade` 关联 conversations）
-- `spots` — 景点知识库（`vector_id` 关联 Chroma）
-
-### 新增 API
-
-| 方法 | 路径 | 说明 | 认证 |
-|---|---|---|---|
-| POST | `/api/trip/chat` | AI 对话（流式，需登录，持久化） | 需 |
-| GET | `/api/conversations` | 对话列表 | 需 |
-| GET | `/api/conversations/:id` | 对话详情 | 需 |
-| DELETE | `/api/conversations/:id` | 删除对话 | 需 |
-| GET | `/api/history/trips` | 行程历史 | 需 |
-| GET | `/api/history/trips/:id` | 行程详情 | 需 |
-
-### 启动 Chroma（必需）
-
-Chroma 是 RAG 的核心依赖，必须先启动：
-
-```bash
-# 方式 1：pip 安装
-pip install chromadb
-chroma run --path ./trip-server/chroma_data --host 127.0.0.1 --port 8000
-
-# 方式 2：Docker
-docker run -d --name chroma -p 8000:8000 \
-  -v $(pwd)/trip-server/chroma_data:/chroma/.chroma \
-  chromadb/chroma
-```
-
-### 导入知识库
-
-```bash
-cd trip-server
-npm run seed:knowledge
-```
-
-首次运行会下载 bge-small-zh 模型（约 100MB），需要 1-2 分钟。导入成功后输出类似：
-
-```
->>> 导入 chengdu.json (10 个景点)...
-   成功: 10, 失败: 0
-```
-
-### 新增环境变量
-
-在 `trip-server/.env` 中追加：
-
-```bash
-# Chroma 向量数据库
-CHROMA_URL=http://localhost:8000
-
-# HuggingFace 模型下载镜像（默认走国内镜像；海外可改为 https://huggingface.co/）
-HF_ENDPOINT=https://hf-mirror.com/
-```
-
-### 数据同步机制
-
-知识库采用 **MySQL 为权威源 + Chroma 事务性同步** 模式：
-
-- 创建景点：先写 MySQL，成功后再写 Chroma；Chroma 失败则回滚 MySQL
-- 检索景点：优先 Chroma 相似度搜索；Chroma 不可用或为空时降级到 MySQL `findMany`（按 `rating` 降序）
-- `retrieve_knowledge` 工具对 RAG 调用有 8s 超时 + 1 次重试 + 降级提示
