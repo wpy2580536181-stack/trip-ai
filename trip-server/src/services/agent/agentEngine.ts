@@ -4,9 +4,10 @@ import { ChatPromptTemplate } from '@langchain/core/prompts'
 import { BaseMessage, HumanMessage, AIMessage, SystemMessage } from '@langchain/core/messages'
 import type { StreamEvent } from '@langchain/core/tracers/log_stream'
 import { retrieveKnowledgeTool } from './tools/retrieveKnowledge'
-import { buildSystemPrompt } from './systemPrompt'
-import { AgentStreamEvent } from '../../types/agent'
+import { buildSystemPrompt, buildRecommendSystemPrompt } from './systemPrompt'
+import { AgentStreamEvent, TripContentSchema, type TripContent } from '../../types/agent'
 import { createLLM } from '../../config/llm'
+import { extractJson } from '../../utils/jsonExtractor'
 import prisma from '../../config/database'
 import { loadContext } from '../conversationService'
 
@@ -134,9 +135,60 @@ class AgentEngine {
     return { reply: fullResponse, conversationId }
   }
 
-  async recommend(params: RecommendParams): Promise<never> {
-    void params
-    throw new Error('recommend 方法将在 Phase 1b 实现')
+  async recommend(params: RecommendParams): Promise<{ reply: string; parsed: TripContent }> {
+    const { userId, city, budget, days, onEvent } = params
+
+    const preferences = await this.loadUserPreferences(userId)
+
+    const systemPrompt = buildRecommendSystemPrompt({
+      userPreferences: preferences,
+    })
+
+    const executor = await this.buildAgent(systemPrompt)
+
+    const inputMessage = `请为我规划${city}${days}日游行程，预算${budget}元。`
+
+    let rawOutput: string
+    try {
+      const result = await executor.invoke({
+        input: inputMessage,
+        chat_history: [],
+      })
+      rawOutput = result.output as string
+    } catch (e) {
+      const errMsg = e instanceof Error ? e.message : '未知错误'
+      console.error('[Agent] recommend 执行失败:', errMsg)
+      await onEvent({ type: 'error', error: errMsg })
+      throw e
+    }
+
+    const parseAndValidate = (text: string): TripContent => {
+      return TripContentSchema.parse(extractJson(text))
+    }
+
+    let parsed: TripContent
+    try {
+      parsed = parseAndValidate(rawOutput)
+    } catch (parseErr) {
+      console.warn('[Agent] recommend JSON 解析失败，提示 agent 重试...')
+      try {
+        const retryResult = await executor.invoke({
+          input: `你上次的输出格式有误，请严格按照JSON格式重新输出，不要添加任何markdown代码块标记。\n用户请求：${inputMessage}`,
+          chat_history: [],
+        })
+        rawOutput = retryResult.output as string
+        parsed = parseAndValidate(rawOutput)
+      } catch (retryErr) {
+        const errMsg = 'Agent 多次输出无效 JSON，请稍后重试'
+        console.error('[Agent] recommend JSON 重试仍失败:', retryErr)
+        await onEvent({ type: 'error', error: errMsg })
+        throw new Error(errMsg)
+      }
+    }
+
+    await onEvent({ type: 'complete', content: rawOutput })
+
+    return { reply: rawOutput, parsed }
   }
 }
 

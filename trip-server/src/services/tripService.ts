@@ -1,10 +1,6 @@
 import agentEngine from './agent/agentEngine'
 import { getOrCreateConversation, saveMessage, autoTitle } from './conversationService'
-import { TripContentSchema } from '../types/agent'
-import { createLLM } from '../config/llm'
-import { HumanMessage } from '@langchain/core/messages'
-import { buildTripPrompt } from '../prompts/trip.prompt'
-import { extractJson } from '../utils/jsonExtractor'
+import { compressConversation } from './summaryService'
 import prisma from '../config/database'
 
 const ASSISTANT_PERSIST_FLUSH_INTERVAL_MS = 3000
@@ -68,8 +64,14 @@ class TripService {
             fullReply = event.content
             persisted = true
             await tryPersist(true)
+            compressConversation(conversation.id).catch(e => {
+              console.error('[TripService] 摘要压缩失败:', e instanceof Error ? e.message : e)
+            })
           } else if (event.type === 'error') {
             await tryPersist(true)
+            compressConversation(conversation.id).catch(e => {
+              console.error('[TripService] 摘要压缩失败:', e instanceof Error ? e.message : e)
+            })
           }
         },
       })
@@ -89,12 +91,15 @@ class TripService {
       throw new Error('预算过低或天数不符合要求')
     }
 
-    const llm = createLLM({ streaming: false })
-
     try {
-      const response = await llm.invoke([new HumanMessage(buildTripPrompt(city, budget, days))])
-      const rawContent = response.content as string
-      const parsed = TripContentSchema.parse(extractJson(rawContent))
+      const { parsed } = await agentEngine.recommend({
+        userId: userId ?? 0,
+        city,
+        budget,
+        days,
+        onEvent: async () => {},
+      })
+
       let savedTripId: number | null = null
       try {
         const created = await prisma.trip.create({
@@ -125,8 +130,8 @@ class TripService {
         },
       }
     } catch (error) {
-      console.error('大模型调用失败:', error)
-      throw new Error('大模型调用失败，请稍后重试')
+      console.error('行程推荐失败:', error)
+      throw new Error('行程推荐失败，请稍后重试')
     }
   }
 }
