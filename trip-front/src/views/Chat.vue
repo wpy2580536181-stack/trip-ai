@@ -20,6 +20,14 @@ const CONVERSATION_ID_KEY = 'trip_chat_conversation_id'
 const messages = ref<Message[]>([])
 const isStreaming = ref(false)
 const inputMessage = ref('')
+const toolStatus = ref<string | null>(null)
+
+const toolLabels: Record<string, string> = {
+  retrieve_knowledge: '检索知识库',
+  get_weather: '查询天气',
+  calculate_distance: '计算距离',
+  search_hotels: '查询酒店',
+}
 
 const stored = typeof window !== 'undefined' ? localStorage.getItem(CONVERSATION_ID_KEY) : null
 const parsedStored = stored ? Number(stored) : NaN
@@ -87,6 +95,7 @@ const fetchAiResponse = (userMsg: string) => {
     },
     (data) => {
       isStreaming.value = false
+      toolStatus.value = null
       if (data?.conversationId) {
         currentConversationId.value = data.conversationId
         localStorage.setItem(CONVERSATION_ID_KEY, String(data.conversationId))
@@ -96,8 +105,12 @@ const fetchAiResponse = (userMsg: string) => {
     (errMsg) => {
       messages.value[messages.value.length - 1].content = `AI处理发生错误: ${errMsg}`
       isStreaming.value = false
+      toolStatus.value = null
       showToast('AI处理发生错误')
       refreshSidebar()
+    },
+    (type, name) => {
+      toolStatus.value = type === 'tool_start' ? (toolLabels[name] || name) : null
     },
   )
 }
@@ -177,7 +190,8 @@ const onNewConversation = () => {
         />
         <div class="streaming-indicator" v-if="isStreaming">
           <van-loading type="spinner" size="20px" />
-          <span>AI正在思考中</span>
+          <span v-if="toolStatus">🔍 {{ toolStatus }}...</span>
+          <span v-else>AI正在思考中</span>
         </div>
       </div>
     </div>

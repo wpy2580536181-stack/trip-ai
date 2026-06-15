@@ -1,5 +1,6 @@
 import { Request, Response } from 'express'
 import tripService from '../services/tripService'
+import { optimizeTrip } from '../services/optimizeService'
 import { createStreamResponse } from '../utils/stream'
 
 export const recommend = async (req: Request, res: Response) => {
@@ -73,5 +74,20 @@ export const chat = async (req: Request, res: Response) => {
     if (isClientConnected()) {
       stream.error(errMsg)
     }
+  }
+}
+
+export const optimize = async (req: Request, res: Response) => {
+  const { tripId, instruction } = req.body as { tripId: number; instruction?: string }
+  if (!tripId) {
+    return res.status(400).json({ code: 400, error: '参数错误：缺少 tripId' })
+  }
+  const userId = req.user?.userId ?? null
+  try {
+    const result = await optimizeTrip(tripId, instruction ?? '', userId)
+    return res.json(result)
+  } catch (error) {
+    const msg = error instanceof Error ? error.message : '优化失败'
+    return res.status(500).json({ code: 500, error: msg })
   }
 }

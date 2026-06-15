@@ -3,6 +3,7 @@ import { useRoute } from 'vue-router'
 import { reactive, ref } from 'vue'
 import { onMounted } from 'vue'
 import { useRouter } from 'vue-router'
+import { showToast } from 'vant'
 import { post } from '@/api/request'
 import { getTrip } from '@/api/history'
 
@@ -24,6 +25,8 @@ interface TripData {
 
 const tripData = ref<TripData | null>(null)
 const errorMsg = ref('')
+const optimizing = ref(false)
+const currentTripMeta = ref<{ id: number; parentTripId: number | null } | null>(null)
 
 const formData = reactive({
   city: '',
@@ -70,6 +73,7 @@ onMounted(async () => {
         formData.budget = trip.budget
         formData.days = trip.days
         formData.fromCity = trip.fromCity ?? null
+        currentTripMeta.value = { id: trip.id, parentTripId: trip.parentTripId }
         tripData.value = trip.content as TripData
       } else {
         errorMsg.value = '行程不存在'
@@ -111,6 +115,26 @@ const goToChat = () => {
       city: formData.city,
     }
   })
+}
+
+const onOptimize = async () => {
+  if (!currentTripMeta.value?.id) return
+  optimizing.value = true
+  try {
+    const res = await post('/trip/optimize', { tripId: currentTripMeta.value.id, instruction: '' })
+    if (res.success && res.data) {
+      const newId = (res.data as { id?: number }).id
+      if (newId) {
+        router.push({ path: '/detail', query: { id: newId } })
+      }
+    } else {
+      showToast(res.error || '优化失败')
+    }
+  } catch {
+    showToast('网络错误')
+  } finally {
+    optimizing.value = false
+  }
 }
 </script>
 
@@ -185,6 +209,7 @@ const goToChat = () => {
     </div>
     <div class="detail-footer" v-if="tripData">
       <van-button type="primary" size="large" @click="goToChat" class="primary-button">与 AI 聊天</van-button>
+      <van-button v-if="currentTripMeta?.id" type="warning" size="large" :loading="optimizing" @click="onOptimize" class="optimize-button" plain>AI 优化此行程</van-button>
     </div>
   </div>
 </template>

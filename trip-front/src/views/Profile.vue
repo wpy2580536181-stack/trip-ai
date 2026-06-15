@@ -235,6 +235,20 @@ onMounted(() => {
             <van-switch v-model="preferences.avoidCrowds" />
           </template>
         </van-cell>
+        <van-cell title="兴趣标签">
+          <template #value>
+            <van-checkbox-group v-model="preferences.interests" direction="horizontal" class="interests-group">
+              <van-checkbox name="摄影">📷 摄影</van-checkbox>
+              <van-checkbox name="美食">🍜 美食</van-checkbox>
+              <van-checkbox name="历史">🏛️ 历史</van-checkbox>
+              <van-checkbox name="自然">🏞️ 自然</van-checkbox>
+              <van-checkbox name="购物">🛍️ 购物</van-checkbox>
+              <van-checkbox name="冒险">🧗 冒险</van-checkbox>
+              <van-checkbox name="亲子">👨‍👩‍👧 亲子</van-checkbox>
+              <van-checkbox name="夜生活">🌙 夜生活</van-checkbox>
+            </van-checkbox-group>
+          </template>
+        </van-cell>
       </van-cell-group>
 
       <div class="action-buttons">
@@ -312,5 +326,9 @@ onMounted(() => {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+.interests-group {
+  flex-wrap: wrap;
+  gap: 8px;
 }
 </style>

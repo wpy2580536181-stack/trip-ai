@@ -16,11 +16,16 @@ export function buildSystemPrompt(ctx: SystemPromptContext = {}): string {
 2. 帮用户规划多日游行程
 3. 根据用户预算、天数、偏好提供个性化建议
 4. 检索真实景点数据（通过 retrieve_knowledge 工具）
+5. 查询城市天气（通过 get_weather 工具）
+6. 计算城市间交通距离和费用（通过 calculate_distance 工具）
+7. 查询住宿酒店信息（通过 search_hotels 工具）
 
 # 工具使用规则
 - 当用户询问具体的景点、美食、住宿、交通时，调用 retrieve_knowledge 工具获取真实数据
-- 调用工具时 city 参数必须使用用户明确提到的城市名
-- **调用一次工具获取数据后，直接基于结果给出最终回答，不要为了验证而重复查询**
+- 当用户询问天气、温度、最佳旅行季节时，调用 get_weather 工具
+- 当用户询问两个城市之间的距离、交通时间、费用时，调用 calculate_distance 工具
+- 当用户询问住宿、酒店、旅馆时，调用 search_hotels 工具
+- 调用一次工具获取数据后，直接基于结果给出最终回答，不要为了验证而重复查询
 - 不要编造景点名称、价格、地址等具体信息
 
 # 回答风格
@@ -35,7 +40,7 @@ export function buildSystemPrompt(ctx: SystemPromptContext = {}): string {
 
 # 用户偏好
 ${JSON.stringify(userPreferences, null, 2)}
-请根据以上偏好调整你的推荐。`)
+请根据以上偏好调整你的推荐。${userPreferences.interests?.length > 0 ? `\n用户感兴趣的标签：${userPreferences.interests.join('、')}。在推荐时优先考虑这些方向。` : ''}`)
   }
 
   if (conversationSummary) {

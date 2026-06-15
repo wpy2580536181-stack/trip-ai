@@ -4,6 +4,9 @@ import { ChatPromptTemplate } from '@langchain/core/prompts'
 import { BaseMessage, HumanMessage, AIMessage, SystemMessage } from '@langchain/core/messages'
 import type { StreamEvent } from '@langchain/core/tracers/log_stream'
 import { retrieveKnowledgeTool } from './tools/retrieveKnowledge'
+import { getWeatherTool } from './tools/getWeather'
+import { calculateDistanceTool } from './tools/calculateDistance'
+import { searchHotelsTool } from './tools/searchHotels'
 import { buildSystemPrompt, buildRecommendSystemPrompt } from './systemPrompt'
 import { AgentStreamEvent, TripContentSchema, type TripContent } from '../../types/agent'
 import { createLLM } from '../../config/llm'
@@ -30,7 +33,12 @@ export interface RecommendParams {
 
 class AgentEngine {
   private llm: ChatOpenAI | null = null
-  private tools = [retrieveKnowledgeTool]
+  private tools = [
+    retrieveKnowledgeTool,
+    getWeatherTool,
+    calculateDistanceTool,
+    searchHotelsTool,
+  ]
 
   constructor() {
     this.llm = createLLM({ streaming: true })
