@@ -39,8 +39,8 @@
         </van-grid-item>
       </van-grid>
     </div>
-    <van-popup v-model:show="showDepaturePicker" position="bottom" :close-on-click-modal="false">
-      <van-picker title="请选择出发城市" :columns="cityColumns" @confirm="handleDepartureConfirm" @cancel="showDepaturePicker = false" />
+    <van-popup v-model:show="showDeparturePicker" position="bottom" :close-on-click-modal="false">
+      <van-picker title="请选择出发城市" :columns="cityColumns" @confirm="handleDepartureConfirm" @cancel="showDeparturePicker = false" />
     </van-popup>
     <van-popup v-model:show="showCityPicker" position="bottom" :close-on-click-modal="false">
       <van-picker title="请选择城市" :columns="cityColumns" @confirm="handleConfirm" @cancel="showCityPicker = false" />
@@ -68,7 +68,7 @@ const formData = reactive<FormData>({
   budget: '',
   days: '',
 })
-const showDepaturePicker = ref(false)
+const showDeparturePicker = ref(false)
 const showCityPicker = ref(false)
 const allCities = ALL_CITIES
 const popularDestinations = POPULAR_CITIES
@@ -90,7 +90,7 @@ const handleConfirm = (result: any) => {
 
 const handleDepartureConfirm = (result: any) => {
   formData.departureCity = result.selectedValues[0]
-  showDepaturePicker.value = false
+  showDeparturePicker.value = false
 }
 
 //加载状态
