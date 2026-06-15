@@ -60,7 +60,8 @@ class AgentEngine {
       tools: this.tools,
       verbose: false,
       handleParsingErrors: true,
-      maxIterations: 5,
+      maxIterations: 8,
+      earlyStoppingMethod: 'generate',
     })
   }
 
@@ -114,18 +115,23 @@ class AgentEngine {
     )
 
       let fullResponse = ''
+      let toolCalled = false
+      let streamEnabled = true
       try {
         for await (const event of eventStream as AsyncIterable<StreamEvent>) {
           if (event.event === 'on_tool_start') {
+            toolCalled = true
+            streamEnabled = false
             const name = event.name || 'unknown'
             await onEvent({ type: 'tool_start', name })
           } else if (event.event === 'on_tool_end') {
             fullResponse = ''
+            streamEnabled = true
             const name = event.name || 'unknown'
             await onEvent({ type: 'tool_end', name })
           } else if (event.event === 'on_chat_model_stream') {
             const piece = this.extractTokenText(event)
-            if (piece) {
+            if (piece && streamEnabled) {
               fullResponse += piece
               await onEvent({ type: 'chunk', content: piece })
             }

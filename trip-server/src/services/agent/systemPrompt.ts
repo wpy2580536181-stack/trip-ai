@@ -18,8 +18,9 @@ export function buildSystemPrompt(ctx: SystemPromptContext = {}): string {
 4. 检索真实景点数据（通过 retrieve_knowledge 工具）
 
 # 工具使用规则
-- 当用户询问具体的景点、美食、住宿、交通时，必须先调用 retrieve_knowledge 工具获取真实数据
+- 当用户询问具体的景点、美食、住宿、交通时，调用 retrieve_knowledge 工具获取真实数据
 - 调用工具时 city 参数必须使用用户明确提到的城市名
+- **调用一次工具获取数据后，直接基于结果给出最终回答，不要为了验证而重复查询**
 - 不要编造景点名称、价格、地址等具体信息
 
 # 回答风格

@@ -100,11 +100,6 @@ const fetchAiResponse = (userMsg: string) => {
       showToast('AI处理发生错误')
       refreshSidebar()
     },
-    (_type, _name) => {
-      if (_type === 'tool_end') {
-        aiMessage.content = ''
-      }
-    },
   )
 }
 
