@@ -7,7 +7,11 @@
   >
     <div class="drawer">
       <div class="drawer-header">
-        <van-button type="primary" block @click="onNew">新建对话</van-button>
+        <span class="drawer-title">对话历史</span>
+        <van-icon name="cross" size="18" @click="emit('update:show', false)" />
+      </div>
+      <div class="drawer-new">
+        <van-button type="primary" block size="small" @click="onNew">新建对话</van-button>
       </div>
       <div class="drawer-body">
         <van-empty v-if="!loading && items.length === 0" description="暂无历史对话" />
@@ -16,12 +20,12 @@
             v-for="item in items"
             :key="item.id"
             :title="item.title || '新对话'"
-            :label="formatTime(item.updatedAt)"
-            is-link
+            :label="`${item._count.messages} 条消息 · ${formatTime(item.updatedAt)}`"
+            :class="{ 'active-item': item.id === activeConversationId }"
             @click="onSelect(item.id)"
           >
             <template #right-icon>
-              <van-icon name="cross" @click.stop="onDelete(item.id)" />
+              <van-icon name="delete-o" @click.stop="onDelete(item.id)" />
             </template>
           </van-cell>
         </van-cell-group>
@@ -35,7 +39,11 @@ import { ref, watch } from 'vue'
 import { showConfirmDialog, showToast } from 'vant'
 import { listConversations, deleteConversation, type ConversationListItem } from '@/api/conversation'
 
-const props = defineProps<{ show: boolean }>()
+const props = defineProps<{
+  show: boolean
+  activeConversationId?: number | null
+}>()
+
 const emit = defineEmits<{
   'update:show': [v: boolean]
   select: [id: number]
@@ -61,12 +69,10 @@ watch(() => props.show, (v) => { if (v) load() })
 
 const onSelect = (id: number) => {
   emit('select', id)
-  emit('update:show', false)
 }
 
 const onNew = () => {
   emit('new')
-  emit('update:show', false)
 }
 
 const onDelete = async (id: number) => {
@@ -86,10 +92,41 @@ const formatTime = (iso: string) => {
   const d = new Date(iso)
   return `${d.getMonth() + 1}/${d.getDate()} ${d.getHours().toString().padStart(2, '0')}:${d.getMinutes().toString().padStart(2, '0')}`
 }
+
+defineExpose({ refresh: load })
 </script>
 
 <style scoped>
-.drawer { display: flex; flex-direction: column; height: 100%; background: #fff; }
-.drawer-header { padding: 16px; border-bottom: 1px solid #f0f0f0; }
-.drawer-body { flex: 1; overflow-y: auto; padding: 12px 0; }
+.drawer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #fff;
+}
+.drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.drawer-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.drawer-new {
+  padding: 12px 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.drawer-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px 0;
+}
+.active-item {
+  background: #ecf5ff;
+}
+.active-item :deep(.van-cell__title) {
+  font-weight: 600;
+}
 </style>

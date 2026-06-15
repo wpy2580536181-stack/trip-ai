@@ -92,16 +92,25 @@ const fetchAiResponse = (userMsg: string) => {
         currentConversationId.value = data.conversationId
         localStorage.setItem(CONVERSATION_ID_KEY, String(data.conversationId))
       }
+      refreshSidebar()
     },
     (errMsg) => {
       aiMessage.content = `AI处理发生错误: ${errMsg}`
       isStreaming.value = false
       showToast('AI处理发生错误')
+      refreshSidebar()
     },
   )
 }
 
 const showDrawer = ref(false)
+const sidebarRef = ref<InstanceType<typeof ConversationDrawer> | null>(null)
+
+const refreshSidebar = () => {
+  if (sidebarRef.value) {
+    sidebarRef.value.refresh()
+  }
+}
 
 const onSelectConversation = async (id: number) => {
   try {
@@ -115,6 +124,7 @@ const onSelectConversation = async (id: number) => {
       content: m.content,
       timestamp: m.createdAt,
     }))
+    refreshSidebar()
   } catch (e) {
     showToast('加载对话失败')
   }
@@ -124,6 +134,7 @@ const onNewConversation = () => {
   currentConversationId.value = null
   localStorage.removeItem(CONVERSATION_ID_KEY)
   messages.value = []
+  refreshSidebar()
 }
 </script>
 
@@ -189,7 +200,13 @@ const onNewConversation = () => {
         </template>
       </van-field>
     </div>
-    <ConversationDrawer v-model:show="showDrawer" @select="onSelectConversation" @new="onNewConversation" />
+    <ConversationDrawer
+      ref="sidebarRef"
+      v-model:show="showDrawer"
+      :active-conversation-id="currentConversationId"
+      @select="onSelectConversation"
+      @new="onNewConversation"
+    />
   </div>
 </template>
 
