@@ -35,7 +35,7 @@ export const retrieveKnowledgeTool = withResilience(
     },
   }),
   {
-    timeout: 8000,
+    timeout: 15000,
     retries: 1,
     fallback: '知识库暂时不可用，请基于通用旅行知识回答。',
   }

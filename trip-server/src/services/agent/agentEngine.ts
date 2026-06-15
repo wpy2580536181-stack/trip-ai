@@ -157,10 +157,16 @@ class AgentEngine {
 
     let rawOutput: string
     try {
-      const result = await executor.invoke({
-        input: inputMessage,
-        chat_history: [],
-      })
+      const maxTime = 60_000
+      const result = await Promise.race([
+        executor.invoke({
+          input: inputMessage,
+          chat_history: [],
+        }),
+        new Promise<never>((_, reject) =>
+          setTimeout(() => reject(new Error(`Agent 执行超时（${maxTime / 1000}s）`)), maxTime),
+        ),
+      ])
       rawOutput = result.output as string
     } catch (e) {
       const errMsg = e instanceof Error ? e.message : '未知错误'
@@ -182,10 +188,15 @@ class AgentEngine {
       console.warn('[Agent] parse error:', zodMsg)
       console.warn('[Agent] raw output (first 500 chars):', rawOutput.slice(0, 500))
       try {
-        const retryResult = await executor.invoke({
-          input: `你上次的输出格式有误，请严格按照JSON格式重新输出，不要添加任何markdown代码块标记。\n用户请求：${inputMessage}`,
-          chat_history: [],
-        })
+        const retryResult = await Promise.race([
+          executor.invoke({
+            input: `你上次的输出格式有误，请严格按照JSON格式重新输出，不要添加任何markdown代码块标记。\n用户请求：${inputMessage}`,
+            chat_history: [],
+          }),
+          new Promise<never>((_, reject) =>
+            setTimeout(() => reject(new Error('Agent 重试超时（30s）')), 30_000),
+          ),
+        ])
         rawOutput = retryResult.output as string
         parsed = parseAndValidate(rawOutput)
       } catch (retryErr) {

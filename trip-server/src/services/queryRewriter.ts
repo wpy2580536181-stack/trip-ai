@@ -72,6 +72,8 @@ export async function rewriteQuery(query: string): Promise<string> {
   const userPrompt = `将以下查询改写为检索关键词：\n"${query}"`
 
   try {
+    const controller = new AbortController()
+    const timeoutId = setTimeout(() => controller.abort(), 3000)
     const url = `${cfg.baseURL}/chat/completions`
     const res = await fetch(url, {
       method: 'POST',
@@ -88,7 +90,9 @@ export async function rewriteQuery(query: string): Promise<string> {
         temperature: 0,
         max_tokens: 100,
       }),
+      signal: controller.signal,
     })
+    clearTimeout(timeoutId)
 
     if (!res.ok) {
       console.warn(`[QueryRewrite] LLM 请求失败 (${res.status})，使用原始 query`)
