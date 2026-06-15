@@ -23,6 +23,7 @@ export interface RecommendParams {
   city: string
   budget: number
   days: number
+  departureCity?: string
   conversationId?: number
   onEvent: (event: AgentStreamEvent) => Promise<void>
 }
@@ -138,7 +139,7 @@ class AgentEngine {
   }
 
   async recommend(params: RecommendParams): Promise<{ reply: string; parsed: TripContent }> {
-    const { userId, city, budget, days, onEvent } = params
+    const { userId, city, budget, days, departureCity, onEvent } = params
 
     const preferences = await this.loadUserPreferences(userId)
 
@@ -148,7 +149,11 @@ class AgentEngine {
 
     const executor = await this.buildAgent(systemPrompt)
 
-    const inputMessage = `请为我规划${city}${days}日游行程，预算${budget}元。`
+    const transportHint = departureCity
+      ? `（含从${departureCity}到${city}的往返交通费用）`
+      : ''
+
+    const inputMessage = `请为我规划${departureCity ? `从${departureCity}出发到` : ''}${city}${days}日游行程，预算${budget}元${transportHint}。`
 
     let rawOutput: string
     try {

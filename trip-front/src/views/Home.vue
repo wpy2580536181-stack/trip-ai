@@ -8,6 +8,7 @@
     </div>
     <div class="card search-card">
       <div class="section-title">规划您的行程</div>
+      <van-field @click="showDeparturePicker = true" readonly is-link v-model="formData.departureCity" label="出发城市" placeholder="请选择出发城市" />
       <van-field @click="showCityPicker = true" readonly is-link v-model="formData.city" label="目的地" placeholder="请选择城市" />
       <van-field type="number" v-model="formData.budget" label="预算（元）" placeholder="请输入您的预算" />
       <van-field v-model="formData.days" label="天数" placeholder="请输入旅行天数" type="digit" />
@@ -38,6 +39,9 @@
         </van-grid-item>
       </van-grid>
     </div>
+    <van-popup v-model:show="showDepaturePicker" position="bottom" :close-on-click-modal="false">
+      <van-picker title="请选择出发城市" :columns="cityColumns" @confirm="handleDepartureConfirm" @cancel="showDepaturePicker = false" />
+    </van-popup>
     <van-popup v-model:show="showCityPicker" position="bottom" :close-on-click-modal="false">
       <van-picker title="请选择城市" :columns="cityColumns" @confirm="handleConfirm" @cancel="showCityPicker = false" />
     </van-popup>
@@ -52,16 +56,19 @@ import { ALL_CITIES, POPULAR_CITIES } from '../config/cities'
 import { post } from '@/api/request'
 
 interface FormData {
+  departureCity: string
   city: string
   budget: string
   days: string
 }
 
 const formData = reactive<FormData>({
+  departureCity: '',
   city: '',
   budget: '',
   days: '',
 })
+const showDepaturePicker = ref(false)
 const showCityPicker = ref(false)
 const allCities = ALL_CITIES
 const popularDestinations = POPULAR_CITIES
@@ -81,6 +88,11 @@ const handleConfirm = (result: any) => {
   showCityPicker.value = false
 }
 
+const handleDepartureConfirm = (result: any) => {
+  formData.departureCity = result.selectedValues[0]
+  showDepaturePicker.value = false
+}
+
 //加载状态
 const isloading = ref(false)
 
@@ -88,6 +100,10 @@ const isloading = ref(false)
 const validateForm = () => {
   if (!formData.city) {
     showToast('请选择目的地')
+    return false
+  }
+  if (formData.departureCity && formData.departureCity === formData.city) {
+    showToast('出发城市不能与目的地相同')
     return false
   }
   if (!formData.budget || Number(formData.budget) <= 0) {
@@ -113,6 +129,7 @@ const handleSubmit = async () => {
       city: formData.city,
       budget: Number(formData.budget),
       days: Number(formData.days),
+      departureCity: formData.departureCity || undefined,
     })
     if (res.success && res.data) {
       const tripId = (res.data as { id?: number }).id
@@ -125,6 +142,7 @@ const handleSubmit = async () => {
             city: formData.city,
             budget: formData.budget,
             days: formData.days,
+            departureCity: formData.departureCity || undefined,
           },
         })
       }

@@ -3,13 +3,18 @@ import tripService from '../services/tripService'
 import { createStreamResponse } from '../utils/stream'
 
 export const recommend = async (req: Request, res: Response) => {
-  const { city, budget, days } = req.body as { city: string; budget: number; days: number }
+  const { city, budget, days, departureCity } = req.body as {
+    city: string
+    budget: number
+    days: number
+    departureCity?: string
+  }
   if (!city || !budget || !days) {
     return res.status(400).json({ code: 400, error: '参数错误' })
   }
   const userId = req.user?.userId ?? null
   try {
-    const result = await tripService.recommend(city, budget, days, userId)
+    const result = await tripService.recommend(city, budget, days, userId, departureCity)
     return res.json(result)
   } catch (error) {
     return res.status(500).json({ code: 500, error: '推荐失败' })

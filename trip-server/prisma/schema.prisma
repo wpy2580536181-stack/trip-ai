@@ -56,6 +56,7 @@ model PasswordReset {
 model Trip {
   id             Int      @id @default(autoincrement())
   userId         Int?     @map("user_id")
+  fromCity       String?  @map("from_city") @db.VarChar(50)
   city           String   @db.VarChar(50)
   days           Int
   budget         Int

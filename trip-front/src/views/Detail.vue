@@ -28,7 +28,8 @@ const errorMsg = ref('')
 const formData = reactive({
   city: '',
   budget: null as number | null,
-  days: null as number | null
+  days: null as number | null,
+  fromCity: null as string | null,
 })
 
 // 获取行程规划数据
@@ -40,6 +41,7 @@ const fetchTripData = async () => {
       city: formData.city,
       budget: formData.budget,
       days: formData.days,
+      departureCity: formData.fromCity || undefined,
     })
     isloading.value = false
     if (res.success && res.data) {
@@ -67,6 +69,7 @@ onMounted(async () => {
         formData.city = trip.city
         formData.budget = trip.budget
         formData.days = trip.days
+        formData.fromCity = trip.fromCity ?? null
         tripData.value = trip.content as TripData
       } else {
         errorMsg.value = '行程不存在'
@@ -83,6 +86,7 @@ onMounted(async () => {
   formData.city = route.query.city as string || ''
   formData.budget = Number(route.query.budget) || null
   formData.days = Number(route.query.days) || null
+  formData.fromCity = (route.query.departureCity as string) || null
 
   // 接口校验
   if (formData.city && formData.budget && formData.days) {
@@ -117,7 +121,7 @@ const goToChat = () => {
         fixed
         left-text="返回"
         left-arrow
-        :title="formData.city + '旅行计划'"
+        :title="(formData.fromCity ? formData.fromCity + ' → ' : '') + formData.city + '旅行计划'"
         @click-left="onBack"
       />
     </div>
@@ -134,7 +138,7 @@ const goToChat = () => {
       <template v-else-if="tripData">
         <div class ="card overview-card">
           <div class="trip-header">
-            <h2>{{ tripData.city }} · {{ tripData.days }}天行程</h2>
+            <h2>{{ formData.fromCity ? formData.fromCity + ' → ' : '' }}{{ tripData.city }} · {{ tripData.days }}天行程</h2>
             <div class="trip-budget">预算：{{ tripData.totalBudget }}元</div>
           </div>
         </div>

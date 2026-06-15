@@ -3,6 +3,7 @@ import { get } from './request'
 export interface TripListItem {
   id: number
   userId: number | null
+  fromCity: string | null
   city: string
   days: number
   budget: number

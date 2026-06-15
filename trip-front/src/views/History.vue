@@ -9,7 +9,7 @@
         <van-cell
           v-for="t in items"
           :key="t.id"
-          :title="t.city + ' · ' + t.days + '天'"
+          :title="(t.fromCity ? t.fromCity + ' → ' : '') + t.city + ' · ' + t.days + '天'"
           :label="formatTime(t.createdAt) + ' · 预算 ' + t.budget + '元'"
           is-link
           :to="{ name: 'Detail', query: { id: t.id } }"
