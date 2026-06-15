@@ -6,9 +6,28 @@ const COLLECTION_NAME = 'travel_spots'
 let client: ChromaClient | null = null
 let collection: Collection | null = null
 
+function parseChromaUrl(url: string) {
+  const parsed = new URL(url)
+  return {
+    host: parsed.hostname,
+    port: parseInt(parsed.port || '8000', 10),
+    ssl: parsed.protocol === 'https:',
+  }
+}
+
+const dummyEmbedding = {
+  name: 'local-bge',
+  generate: async () => [[]] as number[][],
+}
+
 export function getChromaClient(): ChromaClient {
   if (!client) {
-    client = new ChromaClient({ path: CHROMA_URL })
+    const conn = parseChromaUrl(CHROMA_URL)
+    client = new ChromaClient({
+      host: conn.host,
+      port: conn.port,
+      ssl: conn.ssl,
+    })
   }
   return client
 }
@@ -20,6 +39,7 @@ export async function getSpotsCollection(): Promise<Collection> {
   collection = await cli.getOrCreateCollection({
     name: COLLECTION_NAME,
     metadata: { 'hnsw:space': 'cosine' },
+    embeddingFunction: dummyEmbedding,
   })
   return collection
 }
