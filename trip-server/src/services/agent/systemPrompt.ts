@@ -60,33 +60,13 @@ export function buildRecommendSystemPrompt(ctx: SystemPromptContext = {}): strin
   return base + `
 
 # 当前任务：生成行程规划
-用户请求生成行程规划，你需要：
-1. 必须调用 retrieve_knowledge 工具，把用户提到的城市名作为 city 参数传入
-2. 严格按以下 JSON 格式输出最终回复（不要加 markdown 代码块标记）：
 
-{
-  "city": "城市名",
-  "days": 天数,
-  "totalBudget": 总预算,
-  "dailyItinerary": [
-    {
-      "day": 1,
-      "date": "第1天",
-      "morning": { "spot": "景点名", "duration": "时长", "ticket": "门票", "transportation": "交通", "description": "介绍" },
-      "afternoon": { "spot": "景点名", "duration": "时长", "ticket": "门票", "transportation": "交通", "description": "介绍" },
-      "evening": { "spot": "活动名", "duration": "时长", "ticket": "费用", "transportation": "交通", "description": "介绍" }
-    }
-  ],
-  "budgetBreakdown": {
-    "accommodation": 住宿费用,
-    "food": 餐饮费用,
-    "transportation": 交通费用,
-    "tickets": 门票费用,
-    "other": 其他费用
-  },
-  "tips": ["提示1", "提示2"],
-  "warnings": ["注意事项1"]
-}
+你需要：
+1. 调用 retrieve_knowledge 最多 3 次：景点1次、美食1次、交通住宿1次。每次用综合性的关键词搜索。
+2. 即使知识库返回"未找到"，也要基于通用知识完成规划。
+3. 完成所有工具调用后，立即以纯 JSON 格式输出最终行程（**不要**加 markdown 代码块）：
 
-**重要**：在调用 retrieve_knowledge 之前不要输出 JSON；完成所有工具调用后再输出。`
+{"city":"","days":0,"totalBudget":0,"dailyItinerary":[{"day":1,"date":"","morning":{"spot":"","duration":"","ticket":"","transportation":"","description":""},"afternoon":{"spot":"","duration":"","ticket":"","transportation":"","description":""},"evening":{"spot":"","duration":"","ticket":"","transportation":"","description":""}}],"budgetBreakdown":{"accommodation":0,"food":0,"transportation":0,"tickets":0,"other":0},"tips":[""],"warnings":[""]}
+
+**重要**：days、totalBudget、accommodation、food、transportation、tickets、other 必须用数字，不要加引号。`
 }

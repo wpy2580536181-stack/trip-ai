@@ -31,15 +31,15 @@ export interface SpotVectorDoc {
 
 export const TripContentSchema = z.object({
   city: z.string(),
-  days: z.number(),
-  totalBudget: z.number(),
+  days: z.coerce.number(),
+  totalBudget: z.coerce.number(),
   dailyItinerary: z.array(z.any()),
   budgetBreakdown: z.object({
-    accommodation: z.number(),
-    food: z.number(),
-    transportation: z.number(),
-    tickets: z.number(),
-    other: z.number(),
+    accommodation: z.coerce.number(),
+    food: z.coerce.number(),
+    transportation: z.coerce.number(),
+    tickets: z.coerce.number(),
+    other: z.coerce.number(),
   }),
   tips: z.array(z.string()),
   warnings: z.array(z.string()).optional(),

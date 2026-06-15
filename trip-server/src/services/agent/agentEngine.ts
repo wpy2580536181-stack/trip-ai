@@ -59,6 +59,7 @@ class AgentEngine {
       tools: this.tools,
       verbose: false,
       handleParsingErrors: true,
+      maxIterations: 5,
     })
   }
 
@@ -171,7 +172,10 @@ class AgentEngine {
     try {
       parsed = parseAndValidate(rawOutput)
     } catch (parseErr) {
+      const zodMsg = parseErr instanceof Error ? parseErr.message : String(parseErr)
       console.warn('[Agent] recommend JSON 解析失败，提示 agent 重试...')
+      console.warn('[Agent] parse error:', zodMsg)
+      console.warn('[Agent] raw output (first 500 chars):', rawOutput.slice(0, 500))
       try {
         const retryResult = await executor.invoke({
           input: `你上次的输出格式有误，请严格按照JSON格式重新输出，不要添加任何markdown代码块标记。\n用户请求：${inputMessage}`,
