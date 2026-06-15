@@ -42,8 +42,9 @@ class AgentEngine {
 
   private async buildAgent(systemPrompt: string): Promise<AgentExecutor> {
     if (!this.llm) throw new Error('LLM 未初始化')
+    const escaped = systemPrompt.replace(/\{/g, '{{').replace(/\}/g, '}}')
     const prompt = ChatPromptTemplate.fromMessages([
-      ['system', systemPrompt],
+      ['system', escaped],
       ['placeholder', '{chat_history}'],
       ['human', '{input}'],
       ['placeholder', '{agent_scratchpad}'],
