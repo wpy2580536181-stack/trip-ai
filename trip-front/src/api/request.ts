@@ -57,7 +57,14 @@ export function del<T = any>(url: string, params?: any): Promise<ApiResponse<T>>
   return request.delete(url, { params })
 }
 
-export async function fetchStream(url: string, data?: any, onChunk?: (chunk: string) => void, onComplete?: (data?: any) => void, onError?: (error: any) => void): Promise<void> {
+export async function fetchStream(
+  url: string,
+  data?: any,
+  onChunk?: (chunk: string) => void,
+  onComplete?: (data?: any) => void,
+  onError?: (error: any) => void,
+  onToolEvent?: (type: string, name: string) => void,
+): Promise<void> {
     const controller = new AbortController()
     const token = localStorage.getItem('token')
     const headers: Record<string, string> = {
@@ -105,6 +112,8 @@ export async function fetchStream(url: string, data?: any, onChunk?: (chunk: str
               onComplete?.(jsonData.data)
             } else if (jsonData.type === 'error') {
               onError?.(jsonData.error || '流式数据解析异常')
+            } else if (jsonData.type === 'tool_start' || jsonData.type === 'tool_end') {
+              onToolEvent?.(jsonData.type, jsonData.name || '')
             }
           }
         }

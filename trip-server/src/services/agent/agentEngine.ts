@@ -119,6 +119,10 @@ class AgentEngine {
           if (event.event === 'on_tool_start') {
             const name = event.name || 'unknown'
             await onEvent({ type: 'tool_start', name })
+          } else if (event.event === 'on_tool_end') {
+            fullResponse = ''
+            const name = event.name || 'unknown'
+            await onEvent({ type: 'tool_end', name })
           } else if (event.event === 'on_chat_model_stream') {
             const piece = this.extractTokenText(event)
             if (piece) {
