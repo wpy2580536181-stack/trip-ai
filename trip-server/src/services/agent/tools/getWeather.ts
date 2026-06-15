@@ -40,7 +40,7 @@ export const getWeatherTool = withResilience(
       if (!res.ok) {
         return `暂时无法获取 ${input.city} 的天气信息。`
       }
-      const data: WttrResponse = await res.json()
+      const data = (await res.json()) as WttrResponse
       const parts: string[] = []
 
       const now = data.current_condition?.[0]
