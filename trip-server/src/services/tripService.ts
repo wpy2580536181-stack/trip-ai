@@ -29,17 +29,27 @@ class TripService {
     await saveMessage(conversation.id, 'user', message)
 
     let fullReply = ''
+    let assistantMsgId: number | null = null
     let lastPersistAt = Date.now()
     let persisted = false
 
-    const tryPersist = async (force = false) => {
+    const persistAssistant = async (content: string, force = false) => {
       if (persisted) return
+      if (!content) return
+      if (!assistantMsgId) {
+        const msg = await prisma.message.create({
+          data: { conversationId: conversation.id, role: 'assistant', content },
+        })
+        assistantMsgId = msg.id
+        lastPersistAt = Date.now()
+        return
+      }
       if (!force && Date.now() - lastPersistAt < ASSISTANT_PERSIST_FLUSH_INTERVAL_MS) return
-      if (!fullReply) return
       lastPersistAt = Date.now()
       try {
-        await prisma.message.create({
-          data: { conversationId: conversation.id, role: 'assistant', content: fullReply },
+        await prisma.message.update({
+          where: { id: assistantMsgId },
+          data: { content },
         })
       } catch (e) {
         console.error('[TripService] 增量持久化失败:', e)
@@ -55,20 +65,20 @@ class TripService {
           if (event.type === 'chunk') {
             fullReply += event.content
             onChunk(event.content)
-            await tryPersist(false)
+            await persistAssistant(fullReply, false)
           } else if (event.type === 'tool_start') {
             onToolStart?.(event.name)
           } else if (event.type === 'tool_end') {
             onToolEnd?.(event.name)
           } else if (event.type === 'complete') {
             fullReply = event.content
+            await persistAssistant(fullReply, true)
             persisted = true
-            await tryPersist(true)
             compressConversation(conversation.id).catch(e => {
               console.error('[TripService] 摘要压缩失败:', e instanceof Error ? e.message : e)
             })
           } else if (event.type === 'error') {
-            await tryPersist(true)
+            await persistAssistant(fullReply, true)
             compressConversation(conversation.id).catch(e => {
               console.error('[TripService] 摘要压缩失败:', e instanceof Error ? e.message : e)
             })
@@ -78,7 +88,7 @@ class TripService {
     } catch (e) {
       if (isClientConnected && !isClientConnected()) {
         console.warn('[TripService] 客户端已断开，强制持久化当前回复')
-        await tryPersist(true)
+        await persistAssistant(fullReply, true)
       }
       throw e
     }
