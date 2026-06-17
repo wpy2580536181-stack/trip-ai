@@ -8,24 +8,38 @@ export interface LLMConfig {
   model: string
 }
 
+export function loadLLMConfigForProvider(provider: string): LLMConfig | null {
+  const upper = provider.toUpperCase()
+  const apiKey = process.env[`${upper}_API_KEY`]
+  const baseURL = process.env[`${upper}_BASE_URL`]
+  const model = process.env[`${upper}_MODEL`]
+  if (!apiKey || !baseURL || !model) return null
+  return { apiKey, baseURL, model }
+}
+
 export function loadLLMConfig(): LLMConfig {
   const provider = (process.env.MODEL_PROVIDER as ModelProvider) || 'DEEPSEEK'
-  if (provider === 'KIMI') {
-    const apiKey = process.env.KIMI_API_KEY
-    const baseURL = process.env.KIMI_BASE_URL
-    const model = process.env.KIMI_MODEL
-    if (!apiKey || !baseURL || !model) {
-      throw new Error('KIMI 配置缺失：KIMI_API_KEY / KIMI_BASE_URL / KIMI_MODEL')
-    }
-    return { apiKey, baseURL, model }
+  const cfg = loadLLMConfigForProvider(provider)
+  if (!cfg) {
+    throw new Error(`${provider} 配置缺失`)
   }
-  const apiKey = process.env.DEEPSEEK_API_KEY
-  const baseURL = process.env.DEEPSEEK_BASE_URL
-  const model = process.env.DEEPSEEK_MODEL
-  if (!apiKey || !baseURL || !model) {
-    throw new Error('DEEPSEEK 配置缺失：DEEPSEEK_API_KEY / DEEPSEEK_BASE_URL / DEEPSEEK_MODEL')
-  }
-  return { apiKey, baseURL, model }
+  return cfg
+}
+
+export function loadFallbackLLMConfig(): LLMConfig | null {
+  const fallback = process.env.MODEL_PROVIDER_FALLBACK
+  if (!fallback) return null
+  return loadLLMConfigForProvider(fallback)
+}
+
+export function createLLMFromConfig(cfg: LLMConfig, opts: { streaming?: boolean; temperature?: number } = {}): ChatOpenAI {
+  const { streaming = true, temperature = 0.7 } = opts
+  return new ChatOpenAI({
+    configuration: { apiKey: cfg.apiKey, baseURL: cfg.baseURL },
+    model: cfg.model,
+    temperature,
+    streaming,
+  })
 }
 
 export function createLLM(opts: { streaming?: boolean; temperature?: number } = {}): ChatOpenAI {
