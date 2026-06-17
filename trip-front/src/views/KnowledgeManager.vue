@@ -28,6 +28,16 @@ const form = ref<SpotInput>({
   rating: undefined,
 })
 const tagInput = ref('')
+const jumpPage = ref('')
+
+const jumpToPage = () => {
+  const p = Number(jumpPage.value)
+  if (p >= 1 && p <= totalPages.value && p !== page.value) {
+    page.value = p
+    load()
+  }
+  jumpPage.value = ''
+}
 
 const load = async () => {
   loading.value = true
@@ -172,7 +182,9 @@ onMounted(load)
 
     <div class="pagination" v-if="total > pageSize">
       <van-button size="small" :disabled="page <= 1" @click="page--; load()">上一页</van-button>
-      <span class="page-info">第 {{ page }}/{{ totalPages }} 页，共 {{ total }} 条</span>
+      <span class="page-info">第</span>
+      <van-field v-model="jumpPage" type="digit" class="jump-input" placeholder="" @keyup.enter="jumpToPage" />
+      <span class="page-info">/ {{ totalPages }} 页，共 {{ total }} 条</span>
       <van-button size="small" :disabled="page >= totalPages" @click="page++; load()">下一页</van-button>
     </div>
 
@@ -258,6 +270,17 @@ onMounted(load)
 .page-info {
   font-size: 13px;
   color: #666;
+}
+.jump-input {
+  width: 50px;
+  padding: 0 4px;
+  text-align: center;
+}
+.jump-input :deep(.van-field__body) {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 2px 4px;
+  text-align: center;
 }
 .form-body {
   padding: 16px;
