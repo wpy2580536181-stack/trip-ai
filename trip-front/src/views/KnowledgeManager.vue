@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 import { showToast, showConfirmDialog, showDialog } from 'vant'
 import { listSpots, createSpot, updateSpot, deleteSpot, type SpotItem, type SpotInput } from '@/api/knowledge'
 
@@ -8,6 +8,8 @@ const loading = ref(false)
 const total = ref(0)
 const page = ref(1)
 const pageSize = 20
+
+const totalPages = computed(() => Math.ceil(total.value / pageSize))
 
 const filterCity = ref('')
 const filterCategory = ref('')
@@ -168,6 +170,12 @@ onMounted(load)
       </van-cell-group>
     </div>
 
+    <div class="pagination" v-if="total > pageSize">
+      <van-button size="small" :disabled="page <= 1" @click="page--; load()">上一页</van-button>
+      <span class="page-info">第 {{ page }}/{{ totalPages }} 页，共 {{ total }} 条</span>
+      <van-button size="small" :disabled="page >= totalPages" @click="page++; load()">下一页</van-button>
+    </div>
+
     <van-dialog v-model:show="showForm" :title="editingId ? '编辑景点' : '新增景点'" show-confirm-button show-cancel-button @confirm="submitForm" @cancel="showForm=false" confirm-button-text="保存">
       <div class="form-body">
         <van-field v-model="form.name" label="名称" placeholder="必填" />
@@ -239,6 +247,17 @@ onMounted(load)
 .spot-city {
   font-size: 12px;
   color: #999;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
+}
+.page-info {
+  font-size: 13px;
+  color: #666;
 }
 .form-body {
   padding: 16px;

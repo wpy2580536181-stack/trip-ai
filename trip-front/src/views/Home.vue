@@ -31,6 +31,14 @@
         to="/history"
       />
     </div>
+    <div class="card my-trips-entry" v-if="isAdmin">
+      <van-cell
+        title="知识库管理"
+        icon="manager-o"
+        is-link
+        to="/knowledge"
+      />
+    </div>
     <div class="card popular-destinations">
       <div class="section-title">热门目的地</div>
       <van-grid :column-num="4" :gutter="16">
@@ -49,10 +57,20 @@
 </template>
 
 <script setup lang="ts">
-import { reactive, ref } from 'vue'
+import { reactive, ref, computed } from 'vue'
 import { showToast } from 'vant'
 import router from '../router'
 import { ALL_CITIES, POPULAR_CITIES } from '../config/cities'
+
+const isAdmin = computed(() => {
+  const stored = typeof window !== 'undefined' ? localStorage.getItem('userInfo') : null
+  if (!stored) return false
+  try {
+    return JSON.parse(stored).roleId === 1
+  } catch {
+    return false
+  }
+})
 import { post } from '@/api/request'
 
 interface FormData {
