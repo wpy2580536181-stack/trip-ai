@@ -314,3 +314,72 @@ export async function bulkImportSpots(spots: SpotInput[]) {
   }
   return { success, failed, total: spots.length }
 }
+
+/**
+ * 更新景点
+ */
+export async function updateSpot(id: number, input: Partial<SpotInput>) {
+  const existing = await prisma.spot.findUnique({ where: { id } })
+  if (!existing) throw new Error('景点不存在')
+
+  const data: any = {}
+  if (input.name !== undefined) data.name = input.name
+  if (input.city !== undefined) data.city = input.city
+  if (input.category !== undefined) data.category = input.category
+  if (input.description !== undefined) data.description = input.description
+  if (input.tags !== undefined) data.tags = input.tags
+  if (input.avgCost !== undefined) data.avgCost = input.avgCost
+  if (input.duration !== undefined) data.duration = input.duration
+  if (input.openTime !== undefined) data.openTime = input.openTime
+  if (input.rating !== undefined) data.rating = input.rating
+
+  const updated = await prisma.spot.update({ where: { id }, data })
+
+  // 同步 Chroma
+  try {
+    const collection = await getSpotsCollection()
+    if (existing.vectorId) {
+      await collection.delete({ ids: [existing.vectorId] })
+    }
+    const embedding = await embedText(updated.description)
+    const vectorId = existing.vectorId || `spot_${id}`
+    await collection.add({
+      ids: [vectorId],
+      embeddings: [embedding],
+      documents: [updated.description],
+      metadatas: [{
+        city: updated.city,
+        name: updated.name,
+        category: updated.category,
+        tags: JSON.stringify(updated.tags),
+        rating: updated.rating ?? 0,
+      }],
+    })
+    if (!existing.vectorId) {
+      await prisma.spot.update({ where: { id }, data: { vectorId } })
+    }
+  } catch (e) {
+    console.warn('[Knowledge] Chroma 同步失败（MySQL 已更新）:', e instanceof Error ? e.message : e)
+  }
+
+  return updated
+}
+
+/**
+ * 删除景点
+ */
+export async function deleteSpot(id: number) {
+  const existing = await prisma.spot.findUnique({ where: { id } })
+  if (!existing) throw new Error('景点不存在')
+
+  await prisma.spot.delete({ where: { id } })
+
+  try {
+    if (existing.vectorId) {
+      const collection = await getSpotsCollection()
+      await collection.delete({ ids: [existing.vectorId] })
+    }
+  } catch (e) {
+    console.warn('[Knowledge] Chroma 删除同步失败（MySQL 已删除）:', e instanceof Error ? e.message : e)
+  }
+}

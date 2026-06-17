@@ -10,6 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "ts-node prisma/seed.ts",
     "seed:knowledge": "ts-node prisma/seed-knowledge.ts",
+    "seed:poi": "ts-node prisma/seed-poi.ts",
     "migrate": "npx prisma db push"
   },
   "keywords": [],

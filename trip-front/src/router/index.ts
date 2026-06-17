@@ -38,6 +38,12 @@ const routes = [
     meta: { requiresAuth: true },
   },
   {
+    path: '/knowledge',
+    name: 'KnowledgeManager',
+    component: () => import('../views/KnowledgeManager.vue'),
+    meta: { requiresAuth: true },
+  },
+  {
     path: '/login',
     name: 'Login',
     component: () => import('../views/Login.vue'),
