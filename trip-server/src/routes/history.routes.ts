@@ -7,5 +7,6 @@ router.use(authMiddleware)
 
 router.get('/trips', controller.listTrips)
 router.get('/trips/:id', controller.getTrip)
+router.delete('/trips/:id', controller.deleteTrip)
 
 export default router

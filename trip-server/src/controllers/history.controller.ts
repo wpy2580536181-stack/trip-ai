@@ -36,3 +36,17 @@ export const getTrip = async (req: Request, res: Response) => {
     return res.status(500).json({ code: 500, error: '获取行程详情失败' })
   }
 }
+
+export const deleteTrip = async (req: Request, res: Response) => {
+  if (!req.user) return res.status(401).json({ code: 401, error: '未登录' })
+  try {
+    const id = parseIntParam(req.params.id, 'id')!
+    const trip = await prisma.trip.findFirst({ where: { id, userId: req.user.userId } })
+    if (!trip) return res.status(404).json({ code: 404, error: '行程不存在' })
+    await prisma.trip.delete({ where: { id } })
+    return res.json({ code: 200, message: '删除成功' })
+  } catch (e) {
+    if (isInvalidParamError(e)) return res.status(400).json({ code: 400, error: e.message })
+    return res.status(500).json({ code: 500, error: '删除失败' })
+  }
+}

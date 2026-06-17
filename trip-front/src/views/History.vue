@@ -13,7 +13,11 @@
           :label="formatTime(t.createdAt) + ' · 预算 ' + t.budget + '元'"
           is-link
           :to="{ name: 'Detail', query: { id: t.id } }"
-        />
+        >
+          <template #right-icon>
+            <van-icon name="delete-o" @click.stop="onDelete(t.id)" />
+          </template>
+        </van-cell>
       </van-cell-group>
     </div>
   </div>
@@ -22,13 +26,27 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { listTrips, type TripListItem } from '@/api/history'
+import { showConfirmDialog, showToast } from 'vant'
+import { listTrips, deleteTrip, type TripListItem } from '@/api/history'
 
 const router = useRouter()
 const items = ref<TripListItem[]>([])
 const loading = ref(false)
 
 const onBack = () => router.back()
+
+const onDelete = async (id: number) => {
+  try {
+    await showConfirmDialog({ title: '确认删除', message: '删除后无法恢复' })
+  } catch { return }
+  try {
+    await deleteTrip(id)
+    items.value = items.value.filter(i => i.id !== id)
+    showToast('已删除')
+  } catch {
+    showToast('删除失败')
+  }
+}
 
 const load = async () => {
   loading.value = true
