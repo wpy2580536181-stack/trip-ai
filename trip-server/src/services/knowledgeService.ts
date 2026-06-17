@@ -83,7 +83,7 @@ function extractKeywords(query: string): string[] {
 }
 
 /**
- * MySQL LIKE 关键词检索
+ * MySQL LIKE 关键词检索（参数化查询，防 SQL 注入）
  */
 async function mysqlKeywordSearch(params: {
   city: string
@@ -94,15 +94,30 @@ async function mysqlKeywordSearch(params: {
   const { city, keywords, category, limit } = params
   if (keywords.length === 0) return []
 
-  // 用 OR 匹配任意关键词
-  const conditions = keywords.map(kw => `name LIKE "%${kw}%" OR description LIKE "%${kw}%"`).join(' OR ')
-  const whereClause = category
-    ? `city = '${city.replace(/'/g, "''")}' AND category = '${category.replace(/'/g, "''")}' AND (${conditions})`
-    : `city = '${city.replace(/'/g, "''")}' AND (${conditions})`
+  // 用 OR 匹配任意关键词，所有值通过 $queryRaw 参数绑定
+  const whereParts: string[] = []
+  const allArgs: string[] = []
 
-  const results: Array<{ name: string; description: string; category: string; rating: number | null }> = await prisma.$queryRawUnsafe(
-    `SELECT name, description, category, rating FROM spots WHERE ${whereClause} ORDER BY rating DESC LIMIT ${limit}`,
-  )
+  for (const kw of keywords) {
+    whereParts.push('(name LIKE CONCAT("%", ?, "%") OR description LIKE CONCAT("%", ?, "%"))')
+    allArgs.push(kw, kw)
+  }
+
+  let whereClause = `(${whereParts.join(' OR ')})`
+  let params: string[] = [...allArgs]
+
+  if (category) {
+    whereClause = `city = ? AND category = ? AND ${whereClause}`
+    params = [city, category, ...params]
+  } else {
+    whereClause = `city = ? AND ${whereClause}`
+    params = [city, ...params]
+  }
+
+  const sql = `SELECT name, description, category, rating FROM spots WHERE ${whereClause} ORDER BY rating DESC LIMIT ?`
+  const args = [...params, String(limit)]
+
+  const results: Array<{ name: string; description: string; category: string; rating: number | null }> = await prisma.$queryRawUnsafe(sql, ...args) as any
   return results.map(r => ({ desc: r.description, name: r.name, category: r.category, rating: r.rating }))
 }
 
@@ -142,7 +157,7 @@ function rrfFuse(path1: ResultItem[], path2: ResultItem[], path3: ResultItem[]):
 }
 
 /**
- * MySQL 分类 + rating 排序检索（路径 3）
+ * MySQL 分类 + rating 排序检索（参数化查询，防 SQL 注入）
  */
 async function mysqlRatingSearch(params: {
   city: string
@@ -150,13 +165,18 @@ async function mysqlRatingSearch(params: {
   limit: number
 }): Promise<ResultItem[]> {
   const { city, category, limit } = params
-  const whereClause = category
-    ? `city = '${city.replace(/'/g, "''")}' AND category = '${category.replace(/'/g, "''")}'`
-    : `city = '${city.replace(/'/g, "''")}'`
+  let sql: string
+  let args: string[]
 
-  const results: Array<{ name: string; description: string; category: string; rating: number | null }> = await prisma.$queryRawUnsafe(
-    `SELECT name, description, category, rating FROM spots WHERE ${whereClause} ORDER BY rating DESC LIMIT ${limit}`,
-  )
+  if (category) {
+    sql = 'SELECT name, description, category, rating FROM spots WHERE city = ? AND category = ? ORDER BY rating DESC LIMIT ?'
+    args = [city, category, String(limit)]
+  } else {
+    sql = 'SELECT name, description, category, rating FROM spots WHERE city = ? ORDER BY rating DESC LIMIT ?'
+    args = [city, String(limit)]
+  }
+
+  const results: Array<{ name: string; description: string; category: string; rating: number | null }> = await prisma.$queryRawUnsafe(sql, ...args) as any
   return results.map(r => ({ name: r.name, desc: r.description, category: r.category, rating: r.rating }))
 }
 
