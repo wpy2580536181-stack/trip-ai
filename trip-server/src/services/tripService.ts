@@ -1,6 +1,7 @@
 import agentEngine from './agent/agentEngine'
 import { getOrCreateConversation, saveMessage, autoTitle } from './conversationService'
 import { compressConversation } from './summaryService'
+import { recommendCache } from './llmGuard/cache'
 import prisma from '../config/database'
 
 const ASSISTANT_PERSIST_FLUSH_INTERVAL_MS = 3000
@@ -101,14 +102,19 @@ class TripService {
       throw new Error('预算过低或天数不符合要求')
     }
 
+    const cacheKey = `recommend:${city}:${budget}:${days}:${departureCity ?? 'none'}`
+
     try {
-      const { parsed } = await agentEngine.recommend({
-        userId: userId ?? 0,
-        city,
-        budget,
-        days,
-        departureCity,
-        onEvent: async () => {},
+      const { parsed } = await recommendCache.getOrCompute(cacheKey, async () => {
+        const result = await agentEngine.recommend({
+          userId: userId ?? 0,
+          city,
+          budget,
+          days,
+          departureCity,
+          onEvent: async () => {},
+        })
+        return result.parsed
       })
 
       let savedTripId: number | null = null

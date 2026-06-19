@@ -1,4 +1,5 @@
 import { Request, Response, NextFunction } from 'express'
+import { tokenBudget } from '../services/llmGuard/tokenBudget'
 
 const CLEANUP_INTERVAL_MS = 60_000
 
@@ -86,20 +87,27 @@ export function createLimiter(config: LimiterConfig) {
   }
 }
 
-export function createTokenBudgetGuard(config: {
-  maxPerUser?: number
-  maxGlobal?: number
-  windowMs?: number
-  message?: string
-}): { middleware: ReturnType<typeof createLimiter>; store: MemoryStore } {
-  const store = new MemoryStore()
-  return {
-    middleware: createLimiter({
-      windowMs: config.windowMs ?? 3_600_000,
-      max: config.maxPerUser ?? 50_000,
-      message: config.message ?? 'Token 额度已用尽，请稍后再试',
-      store,
-    }),
-    store,
+export function createTokenBudgetGuard(config?: {
+  userMessage?: string
+  globalMessage?: string
+}) {
+  const userMsg = config?.userMessage ?? 'Token 额度已用尽，请稍后再试'
+  const globalMsg = config?.globalMessage ?? '系统 Token 配额已满，请稍后再试'
+
+  return async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    const userId = (req as any).user?.userId ?? 'anonymous'
+    const userBudget = tokenBudget.checkUserBudget(userId)
+    if (!userBudget.allowed) {
+      res.status(429).json({ code: 429, error: userMsg })
+      return
+    }
+
+    const globalBudget = tokenBudget.checkGlobalBudget()
+    if (!globalBudget.allowed) {
+      res.status(429).json({ code: 429, error: globalMsg })
+      return
+    }
+
+    next()
   }
 }

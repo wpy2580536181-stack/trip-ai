@@ -1,7 +1,7 @@
 import { Router } from 'express'
 import * as tripController from '../controllers/trip.controller'
 import { authMiddleware } from '../middleware/auth'
-import { createLimiter } from '../middleware/rateLimiter'
+import { createLimiter, createTokenBudgetGuard } from '../middleware/rateLimiter'
 import { concurrencyGuard } from '../middleware/concurrencyGuard'
 
 const router = Router()
@@ -24,8 +24,10 @@ const optimizeLimiter = createLimiter({
   message: '行程优化请求过于频繁，请稍后再试',
 })
 
-router.post('/recommend', authMiddleware, recommendLimiter, concurrencyGuard, tripController.recommend)
-router.post('/optimize', authMiddleware, optimizeLimiter, concurrencyGuard, tripController.optimize)
-router.post('/chat', authMiddleware, chatLimiter, concurrencyGuard, tripController.chat)
+const tokenBudgetGuard = createTokenBudgetGuard()
+
+router.post('/recommend', authMiddleware, recommendLimiter, tokenBudgetGuard, concurrencyGuard, tripController.recommend)
+router.post('/optimize', authMiddleware, optimizeLimiter, tokenBudgetGuard, concurrencyGuard, tripController.optimize)
+router.post('/chat', authMiddleware, chatLimiter, tokenBudgetGuard, concurrencyGuard, tripController.chat)
 
 export default router

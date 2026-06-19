@@ -1,5 +1,6 @@
 import { Request, Response, NextFunction } from 'express'
 import { ConcurrencyGuard } from '../services/llmGuard/semaphore'
+import { llmContext } from '../services/llmGuard/tokenTracker'
 
 const LLM_GLOBAL_CONCURRENCY = Number(process.env.LLM_GLOBAL_CONCURRENCY) || 10
 const LLM_USER_CONCURRENCY = Number(process.env.LLM_USER_CONCURRENCY) || 1
@@ -7,8 +8,8 @@ const LLM_USER_CONCURRENCY = Number(process.env.LLM_USER_CONCURRENCY) || 1
 const guard = new ConcurrencyGuard(LLM_GLOBAL_CONCURRENCY, LLM_USER_CONCURRENCY)
 
 export function concurrencyGuard(req: Request, res: Response, next: NextFunction): void {
-  const userId = (req as any).user?.userId ?? null
-  const { success, release } = guard.tryAcquire(userId)
+  const userId = (req as any).user?.userId ?? 0
+  const { success, release } = guard.tryAcquire(userId || 0)
 
   if (!success) {
     res.status(429).json({ code: 429, error: '系统繁忙，请稍后再试' })
@@ -24,7 +25,8 @@ export function concurrencyGuard(req: Request, res: Response, next: NextFunction
 
   res.on('finish', doRelease)
   res.on('close', doRelease)
-  next()
+
+  llmContext.run({ userId }, next)
 }
 
 export function getConcurrencyStats(): { globalAvailable: number; activeUsers: number } {

@@ -1,4 +1,5 @@
 import { ChatOpenAI } from '@langchain/openai'
+import { tokenTracker } from '../services/llmGuard/tokenTracker'
 
 export type ModelProvider = 'KIMI' | 'DEEPSEEK'
 
@@ -39,6 +40,7 @@ export function createLLMFromConfig(cfg: LLMConfig, opts: { streaming?: boolean;
     model: cfg.model,
     temperature,
     streaming,
+    callbacks: [tokenTracker],
   })
 }
 
@@ -50,5 +52,6 @@ export function createLLM(opts: { streaming?: boolean; temperature?: number } = 
     model: cfg.model,
     temperature,
     streaming,
+    callbacks: [tokenTracker],
   })
 }

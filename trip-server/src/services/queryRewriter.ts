@@ -1,3 +1,5 @@
+import { recordFetchTokenUsage } from './llmGuard/tokenTracker'
+
 /**
  * 查询改写服务：将用户的自然语言 query 改写为适合检索的关键词组合。
  *
@@ -100,6 +102,7 @@ export async function rewriteQuery(query: string): Promise<string> {
     }
 
     const data: any = await res.json()
+    recordFetchTokenUsage(data)
     const content = data.choices?.[0]?.message?.content?.trim() || ''
 
     // 清理可能的 markdown 代码块
