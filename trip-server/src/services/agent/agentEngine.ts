@@ -19,6 +19,7 @@ export interface ChatParams {
   message: string
   conversationId?: number
   onEvent: (event: AgentStreamEvent) => Promise<void>
+  signal?: AbortSignal
 }
 
 export interface RecommendParams {
@@ -102,12 +103,14 @@ class AgentEngine {
     executor: AgentExecutor,
     input: Record<string, unknown>,
     onEvent: (event: AgentStreamEvent) => Promise<void>,
+    signal?: AbortSignal,
   ): Promise<string> {
-    const eventStream = executor.streamEvents(input, { version: 'v2' })
+    const eventStream = executor.streamEvents(input, { version: 'v2', signal })
     let fullResponse = ''
     let streamEnabled = true
 
     for await (const event of eventStream as AsyncIterable<StreamEvent>) {
+      if (signal?.aborted) break
       if (event.event === 'on_tool_start') {
         streamEnabled = false
         const name = event.name || 'unknown'
@@ -159,7 +162,7 @@ class AgentEngine {
   }
 
   async chat(params: ChatParams) {
-    const { userId, message, conversationId, onEvent } = params
+    const { userId, message, conversationId, onEvent, signal } = params
 
     const preferences = await this.loadUserPreferences(userId)
 
@@ -182,14 +185,14 @@ class AgentEngine {
 
     let fullResponse: string
     try {
-      fullResponse = await this.processStream(executor, invokeInput, onEvent)
+      fullResponse = await this.processStream(executor, invokeInput, onEvent, signal)
     } catch (e) {
       if (this.fallbackLLMConfig) {
         console.warn('[Agent] 主 LLM 失败，切换到备用模型重试:', e instanceof Error ? e.message : e)
         const fallbackLLM = createLLMFromConfig(this.fallbackLLMConfig, { streaming: true })
         const fallbackExecutor = await this.buildAgent(fallbackLLM, systemPrompt)
         try {
-          fullResponse = await this.processStream(fallbackExecutor, invokeInput, onEvent)
+          fullResponse = await this.processStream(fallbackExecutor, invokeInput, onEvent, signal)
         } catch (retryErr) {
           const errMsg = retryErr instanceof Error ? retryErr.message : '未知错误'
           console.error('[Agent] 备用模型也失败:', errMsg)

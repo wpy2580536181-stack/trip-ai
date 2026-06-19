@@ -52,5 +52,6 @@ export type AgentStreamEvent =
   | { type: 'chunk'; content: string }
   | { type: 'complete'; content: string }
   | { type: 'error'; error: string }
+  | { type: 'heartbeat' }
 
 export const SUPPORTED_STREAM_EVENTS = ['chunk', 'complete', 'error'] as const

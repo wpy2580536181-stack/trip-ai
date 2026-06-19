@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useRouter } from 'vue-router'
-import { ref, watch, nextTick } from 'vue'
+import { ref, watch, nextTick, onBeforeUnmount } from 'vue'
 import { showToast } from 'vant'
 import { fetchStream } from '@/api/request'
 import ChatBubble from '@/components/ChatBubble.vue'
@@ -21,6 +21,7 @@ const messages = ref<Message[]>([])
 const isStreaming = ref(false)
 const inputMessage = ref('')
 const toolStatus = ref<string | null>(null)
+const currentAbortController = ref<AbortController | null>(null)
 
 const toolLabels: Record<string, string> = {
   retrieve_knowledge: '检索知识库',
@@ -79,8 +80,21 @@ const sendMessage = () => {
   fetchAiResponse(message)
 }
 
+const stopStreaming = () => {
+  currentAbortController.value?.abort()
+  currentAbortController.value = null
+  isStreaming.value = false
+  toolStatus.value = null
+}
+
+onBeforeUnmount(() => {
+  currentAbortController.value?.abort()
+  currentAbortController.value = null
+})
+
 const fetchAiResponse = (userMsg: string) => {
   isStreaming.value = true
+  toolStatus.value = null
   messages.value.push({
     role: 'ai',
     content: '',
@@ -96,6 +110,7 @@ const fetchAiResponse = (userMsg: string) => {
     (data) => {
       isStreaming.value = false
       toolStatus.value = null
+      currentAbortController.value = null
       if (data?.conversationId) {
         currentConversationId.value = data.conversationId
         localStorage.setItem(CONVERSATION_ID_KEY, String(data.conversationId))
@@ -106,13 +121,16 @@ const fetchAiResponse = (userMsg: string) => {
       messages.value[messages.value.length - 1].content = `AI处理发生错误: ${errMsg}`
       isStreaming.value = false
       toolStatus.value = null
+      currentAbortController.value = null
       showToast('AI处理发生错误')
       refreshSidebar()
     },
     (type, name) => {
       toolStatus.value = type === 'tool_start' ? (toolLabels[name] || name) : null
     },
-  )
+  ).then(controller => {
+    currentAbortController.value = controller
+  })
 }
 
 const showDrawer = ref(false)
@@ -192,6 +210,7 @@ const onNewConversation = () => {
           <van-loading type="spinner" size="20px" />
           <span v-if="toolStatus">🔍 {{ toolStatus }}...</span>
           <span v-else>AI正在思考中</span>
+          <van-button size="mini" plain type="danger" @click="stopStreaming" class="stop-btn">停止</van-button>
         </div>
       </div>
     </div>
@@ -280,6 +299,10 @@ const onNewConversation = () => {
   padding: 8px 16px;
   color: #999;
   font-size: 14px;
+}
+
+.stop-btn {
+  margin-left: auto;
 }
 
 .chat-input-area {

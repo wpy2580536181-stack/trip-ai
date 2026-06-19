@@ -64,7 +64,8 @@ export async function fetchStream(
   onComplete?: (data?: any) => void,
   onError?: (error: any) => void,
   onToolEvent?: (type: string, name: string) => void,
-): Promise<void> {
+  onHeartbeat?: () => void,
+): Promise<AbortController> {
     const controller = new AbortController()
     const token = localStorage.getItem('token')
     const headers: Record<string, string> = {
@@ -114,6 +115,8 @@ export async function fetchStream(
               onError?.(jsonData.error || '流式数据解析异常')
             } else if (jsonData.type === 'tool_start' || jsonData.type === 'tool_end') {
               onToolEvent?.(jsonData.type, jsonData.name || '')
+            } else if (jsonData.type === 'heartbeat') {
+              onHeartbeat?.()
             }
           }
         }
@@ -122,6 +125,8 @@ export async function fetchStream(
       controller.abort()
 
     }catch(error: any){
+      if (error.name === 'AbortError') return controller
       onError?.(error.message || '请求失败')
     }
+    return controller
 }

@@ -31,20 +31,29 @@ export const chat = async (req: Request, res: Response) => {
     return res.status(401).json({ code: 401, error: '未登录' })
   }
 
+  const abortController = new AbortController()
   const stream = createStreamResponse(res)
   const isClientConnected = () => !res.writableEnded && !res.destroyed
 
   req.on('close', () => {
+    abortController.abort()
     if (!isClientConnected()) {
-      console.log('[TripController] 客户端断开，标记流结束')
+      console.log('[TripController] 客户端断开，已中止 Agent')
     }
   })
+
+  const heartbeatTimer = setInterval(() => {
+    if (isClientConnected()) {
+      stream.send({ type: 'heartbeat' })
+    }
+  }, 5000)
 
   try {
     const { conversationId: newConvId } = await tripService.chatStream({
       userId: req.user.userId,
       message,
       conversationId,
+      signal: abortController.signal,
       callbacks: {
         onChunk: (chunk) => {
           if (isClientConnected()) {
@@ -70,10 +79,16 @@ export const chat = async (req: Request, res: Response) => {
       stream.end()
     }
   } catch (error) {
+    if (abortController.signal.aborted) {
+      console.log('[TripController] Agent 已中止，忽略错误')
+      return
+    }
     const errMsg = error instanceof Error ? error.message : '未知错误'
     if (isClientConnected()) {
       stream.error(errMsg)
     }
+  } finally {
+    clearInterval(heartbeatTimer)
   }
 }
 

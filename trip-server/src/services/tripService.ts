@@ -19,8 +19,9 @@ class TripService {
     message: string
     conversationId?: number
     callbacks: ChatStreamCallbacks
+    signal?: AbortSignal
   }) {
-    const { userId, message, conversationId, callbacks } = params
+    const { userId, message, conversationId, callbacks, signal } = params
     const { onChunk, onToolStart, onToolEnd, isClientConnected } = callbacks
 
     const conversation = await getOrCreateConversation(userId, conversationId)
@@ -62,6 +63,7 @@ class TripService {
         userId,
         message,
         conversationId: conversation.id,
+        signal,
         onEvent: async (event) => {
           if (event.type === 'chunk') {
             fullReply += event.content
