@@ -1,5 +1,5 @@
 import 'dotenv/config'
-import express, { Request, Response } from 'express'
+import express, { Request, Response, NextFunction } from 'express'
 import cors from 'cors'
 import { createLimiter } from './middleware/rateLimiter'
 import tripRouter from './routes/trip.routes'
@@ -39,6 +39,15 @@ app.use('/api/user', userRouter)
 app.use('/api/conversations', conversationRouter)
 app.use('/api/history', historyRouter)
 app.use('/api/knowledge', knowledgeRouter)
+
+app.use((err: Error, req: Request, res: Response, _next: NextFunction) => {
+  console.error('[GlobalError]', err.message)
+  const isProduction = process.env.NODE_ENV === 'production'
+  res.status(500).json({
+    code: 500,
+    error: isProduction ? '服务器内部错误' : err.message,
+  })
+})
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`)

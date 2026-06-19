@@ -21,7 +21,34 @@ const messages = ref<Message[]>([])
 const isStreaming = ref(false)
 const inputMessage = ref('')
 const toolStatus = ref<string | null>(null)
+const connectionWarning = ref<string | null>(null)
 const currentAbortController = ref<AbortController | null>(null)
+let lastEventTime = 0
+let connectionCheckTimer: ReturnType<typeof setInterval> | null = null
+
+const onEventReceived = () => {
+  lastEventTime = Date.now()
+  connectionWarning.value = null
+}
+
+const startConnectionCheck = () => {
+  lastEventTime = Date.now()
+  connectionWarning.value = null
+  connectionCheckTimer = setInterval(() => {
+    if (!isStreaming.value) return
+    if (Date.now() - lastEventTime > 10000) {
+      connectionWarning.value = '服务器响应较慢，请耐心等待...'
+    }
+  }, 2000)
+}
+
+const stopConnectionCheck = () => {
+  if (connectionCheckTimer) {
+    clearInterval(connectionCheckTimer)
+    connectionCheckTimer = null
+  }
+  connectionWarning.value = null
+}
 
 const toolLabels: Record<string, string> = {
   retrieve_knowledge: '检索知识库',
@@ -85,11 +112,13 @@ const stopStreaming = () => {
   currentAbortController.value = null
   isStreaming.value = false
   toolStatus.value = null
+  stopConnectionCheck()
 }
 
 onBeforeUnmount(() => {
   currentAbortController.value?.abort()
   currentAbortController.value = null
+  stopConnectionCheck()
 })
 
 const fetchAiResponse = (userMsg: string) => {
@@ -100,16 +129,19 @@ const fetchAiResponse = (userMsg: string) => {
     content: '',
     timestamp: new Date().toISOString(),
   })
+  startConnectionCheck()
 
   fetchStream(
     'trip/chat',
     { message: userMsg, conversationId: currentConversationId.value },
     (chunk) => {
+      onEventReceived()
       messages.value[messages.value.length - 1].content += chunk
     },
     (data) => {
       isStreaming.value = false
       toolStatus.value = null
+      stopConnectionCheck()
       currentAbortController.value = null
       if (data?.conversationId) {
         currentConversationId.value = data.conversationId
@@ -121,12 +153,17 @@ const fetchAiResponse = (userMsg: string) => {
       messages.value[messages.value.length - 1].content = `AI处理发生错误: ${errMsg}`
       isStreaming.value = false
       toolStatus.value = null
+      stopConnectionCheck()
       currentAbortController.value = null
       showToast('AI处理发生错误')
       refreshSidebar()
     },
     (type, name) => {
+      onEventReceived()
       toolStatus.value = type === 'tool_start' ? (toolLabels[name] || name) : null
+    },
+    () => {
+      onEventReceived()
     },
   ).then(controller => {
     currentAbortController.value = controller
@@ -209,6 +246,7 @@ const onNewConversation = () => {
         <div class="streaming-indicator" v-if="isStreaming">
           <van-loading type="spinner" size="20px" />
           <span v-if="toolStatus">🔍 {{ toolStatus }}...</span>
+          <span v-else-if="connectionWarning">{{ connectionWarning }}</span>
           <span v-else>AI正在思考中</span>
           <van-button size="mini" plain type="danger" @click="stopStreaming" class="stop-btn">停止</van-button>
         </div>

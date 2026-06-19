@@ -1,13 +1,13 @@
 import { Response } from 'express'
 
 interface StreamPayload {
-  type: 'chunk' | 'complete' | 'tool_start' | 'tool_end' | 'error'
+  type: 'chunk' | 'complete' | 'tool_start' | 'tool_end' | 'error' | 'heartbeat'
   name?: string
   content?: string
   data?: unknown
 }
 
-export const createStreamResponse = (res: Response) => {
+export const createStreamResponse = (res: Response, onWriteError?: () => void) => {
     res.setHeader('Content-Type', 'text/event-stream')
     res.setHeader('Cache-Control', 'no-cache')
     res.setHeader('Connection', 'keep-alive')
@@ -17,6 +17,7 @@ export const createStreamResponse = (res: Response) => {
                 res.write(`data: ${JSON.stringify(data)}\n\n`)
             } catch (error) {
                 console.error('流式发送错误', error)
+                onWriteError?.()
             }
         },
         end: () => {

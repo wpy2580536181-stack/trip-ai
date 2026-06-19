@@ -48,13 +48,20 @@ class TripService {
       }
       if (!force && Date.now() - lastPersistAt < ASSISTANT_PERSIST_FLUSH_INTERVAL_MS) return
       lastPersistAt = Date.now()
-      try {
-        await prisma.message.update({
-          where: { id: assistantMsgId },
-          data: { content },
-        })
-      } catch (e) {
-        console.error('[TripService] 增量持久化失败:', e)
+      for (let attempt = 0; attempt < 2; attempt++) {
+        try {
+          await prisma.message.update({
+            where: { id: assistantMsgId },
+            data: { content },
+          })
+          return
+        } catch (e) {
+          if (attempt === 0) {
+            await new Promise(r => setTimeout(r, 200))
+            continue
+          }
+          console.error(`[TripService] 增量持久化失败（重试已耗尽）:`, e instanceof Error ? e.message : e)
+        }
       }
     }
 

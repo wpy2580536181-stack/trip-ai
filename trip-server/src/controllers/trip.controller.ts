@@ -32,20 +32,29 @@ export const chat = async (req: Request, res: Response) => {
   }
 
   const abortController = new AbortController()
-  const stream = createStreamResponse(res)
+  const abortAndLog = () => {
+    if (!abortController.signal.aborted) {
+      abortController.abort()
+      console.log('[TripController] 写入失败，已中止 Agent')
+    }
+  }
+  const stream = createStreamResponse(res, abortAndLog)
   const isClientConnected = () => !res.writableEnded && !res.destroyed
 
   req.on('close', () => {
-    abortController.abort()
-    if (!isClientConnected()) {
+    if (!abortController.signal.aborted) {
+      abortController.abort()
       console.log('[TripController] 客户端断开，已中止 Agent')
     }
   })
 
   const heartbeatTimer = setInterval(() => {
-    if (isClientConnected()) {
-      stream.send({ type: 'heartbeat' })
+    if (!isClientConnected()) {
+      abortAndLog()
+      clearInterval(heartbeatTimer)
+      return
     }
+    stream.send({ type: 'heartbeat' })
   }, 5000)
 
   try {
