@@ -3,6 +3,7 @@ import * as tripController from '../controllers/trip.controller'
 import { authMiddleware } from '../middleware/auth'
 import { createLimiter, createTokenBudgetGuard } from '../middleware/rateLimiter'
 import { concurrencyGuard } from '../middleware/concurrencyGuard'
+import { createIdempotencyMiddleware } from '../middleware/idempotency'
 
 const router = Router()
 
@@ -26,8 +27,10 @@ const optimizeLimiter = createLimiter({
 
 const tokenBudgetGuard = createTokenBudgetGuard()
 
-router.post('/recommend', authMiddleware, recommendLimiter, tokenBudgetGuard, concurrencyGuard, tripController.recommend)
-router.post('/optimize', authMiddleware, optimizeLimiter, tokenBudgetGuard, concurrencyGuard, tripController.optimize)
+const idempotency = createIdempotencyMiddleware()
+
+router.post('/recommend', authMiddleware, idempotency, recommendLimiter, tokenBudgetGuard, concurrencyGuard, tripController.recommend)
+router.post('/optimize', authMiddleware, idempotency, optimizeLimiter, tokenBudgetGuard, concurrencyGuard, tripController.optimize)
 router.post('/chat', authMiddleware, chatLimiter, tokenBudgetGuard, concurrencyGuard, tripController.chat)
 
 export default router
