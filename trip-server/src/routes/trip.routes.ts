@@ -1,20 +1,31 @@
 import { Router } from 'express'
-import rateLimit from 'express-rate-limit'
 import * as tripController from '../controllers/trip.controller'
 import { authMiddleware } from '../middleware/auth'
+import { createLimiter } from '../middleware/rateLimiter'
+import { concurrencyGuard } from '../middleware/concurrencyGuard'
 
 const router = Router()
 
-const chatLimiter = rateLimit({
-  windowMs: 60 * 1000,
+const chatLimiter = createLimiter({
+  windowMs: 60_000,
   max: 20,
-  message: { code: 429, error: '对话请求过于频繁，请稍后再试' },
-  standardHeaders: true,
-  legacyHeaders: false,
+  message: '对话请求过于频繁，请稍后再试',
 })
 
-router.post('/recommend', authMiddleware, tripController.recommend)
-router.post('/optimize', authMiddleware, tripController.optimize)
-router.post('/chat', authMiddleware, chatLimiter, tripController.chat)
+const recommendLimiter = createLimiter({
+  windowMs: 60_000,
+  max: 5,
+  message: '行程推荐请求过于频繁，请稍后再试',
+})
+
+const optimizeLimiter = createLimiter({
+  windowMs: 60_000,
+  max: 5,
+  message: '行程优化请求过于频繁，请稍后再试',
+})
+
+router.post('/recommend', authMiddleware, recommendLimiter, concurrencyGuard, tripController.recommend)
+router.post('/optimize', authMiddleware, optimizeLimiter, concurrencyGuard, tripController.optimize)
+router.post('/chat', authMiddleware, chatLimiter, concurrencyGuard, tripController.chat)
 
 export default router

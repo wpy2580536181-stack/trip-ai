@@ -1,6 +1,7 @@
 import 'dotenv/config'
 import express, { Request, Response } from 'express'
 import cors from 'cors'
+import { createLimiter } from './middleware/rateLimiter'
 import tripRouter from './routes/trip.routes'
 import userRouter from './routes/user.routes'
 import conversationRouter from './routes/conversation.routes'
@@ -28,6 +29,11 @@ app.get('/api/test', (req: Request, res: Response) => {
   })
 })
 
+app.use('/api', createLimiter({
+  windowMs: 60_000,
+  max: 200,
+  message: '系统繁忙，请稍后再试',
+}))
 app.use('/api/trip', tripRouter)
 app.use('/api/user', userRouter)
 app.use('/api/conversations', conversationRouter)

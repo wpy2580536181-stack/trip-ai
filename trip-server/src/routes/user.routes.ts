@@ -1,16 +1,14 @@
 import { Router } from 'express'
-import rateLimit from 'express-rate-limit'
 import { authMiddleware } from '../middleware/auth'
+import { createLimiter } from '../middleware/rateLimiter'
 import * as userController from '../controllers/user.controller'
 
 const router = Router()
 
-const authLimiter = rateLimit({
+const authLimiter = createLimiter({
   windowMs: 15 * 60 * 1000,
   max: 10,
-  message: { code: 429, error: '请求过于频繁，请稍后再试' },
-  standardHeaders: true,
-  legacyHeaders: false,
+  message: '请求过于频繁，请稍后再试',
 })
 
 router.post('/register', authLimiter, userController.register)
