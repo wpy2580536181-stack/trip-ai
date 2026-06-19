@@ -158,30 +158,30 @@ Task 1 → Task 2 → Task 3
 
 ## 分 Phase 实施
 
-### Phase 1（P0）：补齐基础限流 + 存储抽象 + key 改造
-- [ ] 新建 `middleware/rateLimiter.ts`：RateLimitStore 接口 + MemoryStore + createLimiter(config) 工厂
-- [ ] `routes/trip.routes.ts`：recommend/optimize 加 5/min 限流，chat 改用新工厂
-- [ ] `routes/knowledge.routes.ts`：加 100/min 限流
-- [ ] `routes/user.routes.ts`：改用新工厂
-- [ ] `index.ts`：加全局兜底 200/min
+### Phase 1（P0）：补齐基础限流 + 存储抽象 + key 改造 `[DONE]`
+- [x] 新建 `middleware/rateLimiter.ts`：RateLimitStore 接口 + MemoryStore + createLimiter(config) 工厂
+- [x] `routes/trip.routes.ts`：recommend/optimize 加 5/min 限流，chat 改用新工厂
+- [x] `routes/knowledge.routes.ts`：加 100/min 限流
+- [x] `routes/user.routes.ts`：改用新工厂
+- [x] `index.ts`：加全局兜底 200/min
 
-### Phase 2（P1）：并发控制
-- [ ] 新建 `services/llmGuard/semaphore.ts`：Semaphore + ConcurrencyGuard
-- [ ] 新建 `middleware/concurrencyGuard.ts`：per-user 1 + global 10 信号量中间件
-- [ ] 接入 /chat /recommend /optimize 三个 LLM 接口
+### Phase 2（P1）：并发控制 `[DONE]`
+- [x] 新建 `services/llmGuard/semaphore.ts`：Semaphore + ConcurrencyGuard
+- [x] 新建 `middleware/concurrencyGuard.ts`：per-user 1 + global 10 信号量中间件
+- [x] 接入 /chat /recommend /optimize 三个 LLM 接口
 
-### Phase 3（P1）：Token 追踪 + 预算限流
-- [ ] 新建 `services/llmGuard/tokenBudget.ts`：TokenBudgetStore + MemoryTokenBudget
-- [ ] 新建 `services/llmGuard/tokenTracker.ts`：TokenTrackingCallback + wrapRawFetch()
-- [ ] 修改 `config/llm.ts`：注入 callbacks
-- [ ] 修改 `services/queryRewriter.ts`：用 wrapRawFetch 包装
-- [ ] `middleware/rateLimiter.ts` 增 createTokenBudgetGuard()
-- [ ] 接入三个 LLM 接口
+### Phase 3（P1）：Token 追踪 + 预算限流 `[DONE]`
+- [x] 新建 `services/llmGuard/tokenBudget.ts`：TokenBudgetStore + MemoryTokenBudget
+- [x] 新建 `services/llmGuard/tokenTracker.ts`：TokenTrackingCallback + recordFetchTokenUsage()
+- [x] 修改 `config/llm.ts`：注入 callbacks
+- [x] 修改 `services/queryRewriter.ts`：调用 recordFetchTokenUsage()
+- [x] `middleware/rateLimiter.ts` 增 createTokenBudgetGuard()
+- [x] 接入三个 LLM 接口
 
-### Phase 4（P2）：差异化配置 + recommend 缓存
-- [ ] 新建 `services/llmGuard/cache.ts`：LRU+TTL
-- [ ] 修改 `services/tripService.ts`：recommend() 加缓存
-- [ ] 集中配置各端点限流参数表
+### Phase 4（P2）：差异化配置 + recommend 缓存 `[DONE]`
+- [x] 新建 `services/llmGuard/cache.ts`：LRU+TTL
+- [x] 修改 `services/tripService.ts`：recommend() 加缓存
+- [x] 集中配置各端点限流参数表
 
 ### Phase 5（P3，可选）：优先级队列
 - [ ] chat 高优先 / recommend+optimize 低 / 后台任务最低
@@ -211,6 +211,20 @@ Task 1 → Task 2 → Task 3
 - queryRewriter 失败已有兜底返回原 query，token 追踪失败不应影响主流程
 - 进程重启后内存计数清零（Redis 阶段解决）
 
-## 评审（待填写）
+## 评审（已实施 2026-06-19）
 
-_实施完成后在此记录：实际改动文件数、是否如期完成、遇到的问题、与计划的偏差、性能数据_
+**实际改动**：5 个新文件 + 6 个修改文件 = 11 个文件
+- 新文件：rateLimiter.ts, concurrencyGuard.ts, semaphore.ts, tokenBudget.ts, tokenTracker.ts, cache.ts
+- 修改文件：config/llm.ts, queryRewriter.ts, tripService.ts, trip.routes.ts, user.routes.ts, knowledge.routes.ts, index.ts
+
+**是否如期**：是。Phase 1-4 一次完成，编译通过（仅 pre-existing moduleResolution 废弃警告）。
+
+**与原计划的偏差**：
+- `createTokenBudgetGuard()` 替代了原计划中复用 MemoryStore 的版本，改为直接使用 `tokenBudget.checkUserBudget/checkGlobalBudget`
+- `llmContext`（AsyncLocalStorage）通过 `concurrencyGuard` 注入，未使用独立中间件
+- `queryRewriter.ts` 改用直接调用 `recordFetchTokenUsage(data)` 而非 `wrapRawFetch()` 包装 fetch（避免 response body 重复消费问题）
+
+**待改进**：
+- 进程重启后内存计数清零（Redis 阶段解决）
+- compressConversation 等后台任务无 userId 上下文，暂时只记录 global 用量
+- Phase 5（优先级队列）未实施，复杂度较高可暂缓
