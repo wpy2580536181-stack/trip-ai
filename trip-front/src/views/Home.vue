@@ -21,6 +21,7 @@
       <van-grid :column-num="2" :gutter="16">
         <van-grid-item icon="chat-o" text="开始对话" @click="$router.push('/chat')" />
         <van-grid-item icon="user-o" text="个人中心" @click="$router.push('/profile')" />
+        <van-grid-item icon="chart-trending-o" text="Token 用量" @click="$router.push('/token-usage')" />
       </van-grid>
     </div>
     <div class="card my-trips-entry">
