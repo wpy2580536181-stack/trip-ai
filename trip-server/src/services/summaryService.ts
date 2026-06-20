@@ -5,17 +5,21 @@ import { estimateTokens, getHistoryMaxTokens } from '../utils/tokens'
 
 const MAX_RETRIES = 2
 const RETRY_BASE_MS = 1000
+const APPEND_MARKER = '### 追加于'
 
 function sleep(ms: number) {
   return new Promise(resolve => setTimeout(resolve, ms))
 }
 
-async function commitSummary(conversationId: number, summary: string, recap: string, previousSummary: string | null) {
+async function commitAppendSummary(conversationId: number, newChunk: string, previousSummary: string | null) {
+  const merged = previousSummary
+    ? `${previousSummary}\n\n${APPEND_MARKER} ${new Date().toISOString().slice(0, 10)}\n${newChunk}`
+    : newChunk
   await prisma.conversation.update({
     where: { id: conversationId },
-    data: { summary, recap, summaryError: false, summaryAt: new Date() },
+    data: { summary: merged, summaryError: false, summaryAt: new Date() },
   })
-  console.log(`[Summary] 对话 ${conversationId} 摘要${previousSummary ? '已追加更新' : '已生成'} (决策${summary.length}字, 脉络${recap.length}字)`)
+  console.log(`[Summary] 对话 ${conversationId} ${previousSummary ? '已追加摘要段' : '已生成摘要'} (${newChunk.length}字)`)
 }
 
 async function markSummaryFailed(conversationId: number) {
@@ -37,15 +41,15 @@ export async function compressConversation(conversationId: number): Promise<void
 
     // 从最新消息往前累计 token，找出超出预算的旧消息
     let tokenSum = 0
-    let cutIdx = messages.length  // 默认：全部消息都在预算内
+    let cutIdx = messages.length
     for (let i = messages.length - 1; i >= 0; i--) {
       tokenSum += estimateTokens(messages[i].content)
       if (tokenSum > maxTokens) {
-        cutIdx = i + 1  // 索引 0 ~ i 是超出预算的旧消息
+        cutIdx = i + 1
         break
       }
     }
-    if (cutIdx === messages.length) return  // 全部消息都在预算内，无需压缩
+    if (cutIdx === messages.length) return
 
     const oldMessages = messages.slice(0, cutIdx)
     if (oldMessages.length === 0) return
@@ -60,20 +64,12 @@ export async function compressConversation(conversationId: number): Promise<void
       .map(m => `${m.role === 'user' ? '用户' : '助手'}: ${m.content}`)
       .join('\n')
 
-    let prompt: string
-    let systemMsg: string
+    // append 模式：只对新增的旧消息生成新段，LLM 不再看到旧摘要
+    // 旧摘要完整保留在 DB（hash 不变），新段追加到末尾
+    const systemMsg = '你是一个对话摘要助手。请分析以下对话，生成一段 100-200 字的摘要，重点记录关键决策（目的地/预算/偏好/行程安排）和新发现的方向。摘要会追加到已有摘要末尾，所以请只关注本次对话的新信息，不要重复已有内容。直接输出摘要文本，不要加任何前缀或标题。'
+    const prompt = `对话：\n${dialogText}\n\n请生成 100-200 字的摘要：`
 
-    if (previousSummary) {
-      systemMsg = '你是一个对话摘要助手。请分析新对话和已有摘要，输出更新后的两层摘要。严格按格式输出。'
-      prompt = `已有摘要：\n${previousSummary}\n\n新对话：\n${dialogText}\n\n请输出两层摘要（按以下格式，不要加任何前缀）：\n### 关键决策\n（2-3句话：目的地、预算、偏好、行程安排、已做出的决定）\n### 对话脉络\n（2-3句话：讨论了哪些话题、用户感兴趣的方向、关注重点）`
-    } else {
-      systemMsg = '你是一个对话摘要助手。请分析以下对话，输出两层摘要。严格按格式输出。'
-      prompt = `对话：\n${dialogText}\n\n请输出两层摘要（按以下格式，不要加任何前缀）：\n### 关键决策\n（2-3句话：目的地、预算、偏好、行程安排、已做出的决定）\n### 对话脉络\n（2-3句话：讨论了哪些话题、用户感兴趣的方向、关注重点）`
-    }
-
-    let summary: string | null = null
-    let recap: string | null = null
-    let lastError: unknown
+    let newChunk: string | null = null
 
     for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
       try {
@@ -83,15 +79,11 @@ export async function compressConversation(conversationId: number): Promise<void
           new HumanMessage(prompt),
         ])
         const text = (response.content as string).trim()
-        const decisionMatch = text.match(/###\s*关键决策\s*\n([\s\S]*?)(?=###\s*对话脉络|$)/)
-        const flowMatch = text.match(/###\s*对话脉络\s*\n([\s\S]*)/)
-        summary = decisionMatch?.[1]?.trim() || null
-        recap = flowMatch?.[1]?.trim() || null
-        if (summary && recap) break
-        summary = null
-        recap = null
+        if (text && text.length >= 20) {
+          newChunk = text
+          break
+        }
       } catch (e) {
-        lastError = e
         console.warn(`[Summary] 第 ${attempt + 1} 次压缩失败:`, e instanceof Error ? e.message : e)
         if (attempt < MAX_RETRIES) {
           await sleep(RETRY_BASE_MS * (attempt + 1))
@@ -99,16 +91,11 @@ export async function compressConversation(conversationId: number): Promise<void
       }
     }
 
-    if (summary && recap) {
-      await commitSummary(conversationId, summary, recap, previousSummary)
+    if (newChunk) {
+      await commitAppendSummary(conversationId, newChunk, previousSummary)
     } else {
-      // 降级：如果分层解析失败，至少保存决策摘要
-      if (summary) {
-        await commitSummary(conversationId, summary, '', previousSummary)
-      } else {
-        console.error(`[Summary] ${MAX_RETRIES + 1} 次重试全部失败，标记 summary_error`)
-        await markSummaryFailed(conversationId)
-      }
+      console.error(`[Summary] ${MAX_RETRIES + 1} 次重试全部失败，标记 summary_error`)
+      await markSummaryFailed(conversationId)
     }
   } catch (e) {
     console.error('[Summary] 压缩流程异常:', e instanceof Error ? e.message : e)
