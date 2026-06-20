@@ -26,7 +26,8 @@ export function concurrencyGuard(req: Request, res: Response, next: NextFunction
   res.on('finish', doRelease)
   res.on('close', doRelease)
 
-  llmContext.run({ userId }, next)
+  const endpoint = req.path.split('/').pop() || req.path
+  llmContext.run({ userId, endpoint }, next)
 }
 
 export function getConcurrencyStats(): { globalAvailable: number; activeUsers: number } {
