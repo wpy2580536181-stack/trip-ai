@@ -7,6 +7,7 @@ import userRouter from './routes/user.routes'
 import conversationRouter from './routes/conversation.routes'
 import historyRouter from './routes/history.routes'
 import knowledgeRouter from './routes/knowledge.routes'
+import statsRouter from './routes/stats.routes'
 
 const app = express()
 const PORT = process.env.PORT || 3000
@@ -39,6 +40,7 @@ app.use('/api/user', userRouter)
 app.use('/api/conversations', conversationRouter)
 app.use('/api/history', historyRouter)
 app.use('/api/knowledge', knowledgeRouter)
+app.use('/api/stats', statsRouter)
 
 app.use((err: Error, req: Request, res: Response, _next: NextFunction) => {
   console.error('[GlobalError]', err.message)
