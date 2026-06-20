@@ -114,7 +114,7 @@ class TripService {
     const cacheKey = `recommend:${city}:${budget}:${days}:${departureCity ?? 'none'}`
 
     try {
-      const { parsed } = await recommendCache.getOrCompute(cacheKey, async () => {
+      const recommendResult = await recommendCache.getOrCompute(cacheKey, async () => {
         const result = await agentEngine.recommend({
           userId: userId ?? 0,
           city,
@@ -125,6 +125,7 @@ class TripService {
         })
         return result.parsed
       })
+      const parsed = recommendResult as { city: string; days: number; [key: string]: unknown }
 
       let savedTripId: number | null = null
       try {
