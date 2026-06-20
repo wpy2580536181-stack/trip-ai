@@ -1,9 +1,8 @@
 import prisma from '../config/database'
 import { createLLM } from '../config/llm'
 import { HumanMessage, SystemMessage } from '@langchain/core/messages'
+import { estimateTokens, getHistoryMaxTokens } from '../utils/tokens'
 
-const SLIDING_WINDOW = 10
-const COMPRESS_THRESHOLD = SLIDING_WINDOW * 2
 const MAX_RETRIES = 2
 const RETRY_BASE_MS = 1000
 
@@ -28,22 +27,34 @@ async function markSummaryFailed(conversationId: number) {
 
 export async function compressConversation(conversationId: number): Promise<void> {
   try {
-    const totalCount = await prisma.message.count({ where: { conversationId } })
-    if (totalCount <= COMPRESS_THRESHOLD) return
+    const maxTokens = getHistoryMaxTokens()
+
+    const messages = await prisma.message.findMany({
+      where: { conversationId },
+      orderBy: { createdAt: 'asc' },
+    })
+    if (messages.length === 0) return
+
+    // 从最新消息往前累计 token，找出超出预算的旧消息
+    let tokenSum = 0
+    let cutIdx = messages.length  // 默认：全部消息都在预算内
+    for (let i = messages.length - 1; i >= 0; i--) {
+      tokenSum += estimateTokens(messages[i].content)
+      if (tokenSum > maxTokens) {
+        cutIdx = i + 1  // 索引 0 ~ i 是超出预算的旧消息
+        break
+      }
+    }
+    if (cutIdx === messages.length) return  // 全部消息都在预算内，无需压缩
+
+    const oldMessages = messages.slice(0, cutIdx)
+    if (oldMessages.length === 0) return
 
     const conversation = await prisma.conversation.findUnique({
       where: { id: conversationId },
       select: { summary: true },
     })
     const previousSummary = conversation?.summary ?? null
-
-    const oldCount = totalCount - COMPRESS_THRESHOLD
-    const oldMessages = await prisma.message.findMany({
-      where: { conversationId },
-      orderBy: { createdAt: 'asc' },
-      take: oldCount,
-    })
-    if (oldMessages.length === 0) return
 
     const dialogText = oldMessages
       .map(m => `${m.role === 'user' ? '用户' : '助手'}: ${m.content}`)
