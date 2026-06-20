@@ -104,18 +104,18 @@ async function mysqlKeywordSearch(params: {
   }
 
   let whereClause = `(${whereParts.join(' OR ')})`
-  let params: string[] = [...allArgs]
+  let sqlArgs: string[] = [...allArgs]
 
   if (category) {
     whereClause = `city = ? AND category = ? AND ${whereClause}`
-    params = [city, category, ...params]
+    sqlArgs = [city, category, ...sqlArgs]
   } else {
     whereClause = `city = ? AND ${whereClause}`
-    params = [city, ...params]
+    sqlArgs = [city, ...sqlArgs]
   }
 
   const sql = `SELECT name, description, category, rating FROM spots WHERE ${whereClause} ORDER BY rating DESC LIMIT ?`
-  const args = [...params, String(limit)]
+  const args = [...sqlArgs, String(limit)]
 
   const results: Array<{ name: string; description: string; category: string; rating: number | null }> = await prisma.$queryRawUnsafe(sql, ...args) as any
   return results.map(r => ({ desc: r.description, name: r.name, category: r.category, rating: r.rating }))
