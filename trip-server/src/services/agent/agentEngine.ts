@@ -58,7 +58,6 @@ class AgentEngine {
     const prompt = ChatPromptTemplate.fromMessages([
       ['system', escaped],
       ['placeholder', '{chat_history}'],
-      ['human', '{input}'],
       ['placeholder', '{agent_scratchpad}'],
     ])
     const agent = await createToolCallingAgent({
@@ -184,7 +183,7 @@ class AgentEngine {
     })
 
     const executor = await this.buildAgent(this.llm!, systemPrompt)
-    const invokeInput = { input: message, chat_history: historyMessages }
+    const invokeInput = { chat_history: [...historyMessages, new HumanMessage(message)] }
 
     let fullResponse: string
     try {
@@ -235,7 +234,7 @@ class AgentEngine {
     try {
       rawOutput = await this.invokeWithFallback(
         executor, systemPrompt,
-        { input: inputMessage, chat_history: [] },
+        { chat_history: [new HumanMessage(inputMessage)] },
         60_000,
       )
     } catch (e) {
@@ -258,9 +257,10 @@ class AgentEngine {
       console.warn('[Agent] parse error:', zodMsg)
       console.warn('[Agent] raw output (first 500 chars):', rawOutput.slice(0, 500))
       try {
+        const retryMessage = `你上次的输出格式有误，请严格按照JSON格式重新输出，不要添加任何markdown代码块标记。\n用户请求：${inputMessage}`
         rawOutput = await this.invokeWithFallback(
           executor, systemPrompt,
-          { input: `你上次的输出格式有误，请严格按照JSON格式重新输出，不要添加任何markdown代码块标记。\n用户请求：${inputMessage}`, chat_history: [] },
+          { chat_history: [new HumanMessage(retryMessage)] },
           30_000,
         )
         parsed = parseAndValidate(rawOutput)

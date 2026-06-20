@@ -5,6 +5,23 @@ export interface SystemPromptContext {
   isFirstMessage?: boolean
 }
 
+const PREF_KEYS = ['travelStyle', 'budgetLevel', 'pace', 'avoidCrowds', 'interests'] as const
+
+function buildFixedPreferences(userPreferences?: Record<string, any> | null) {
+  return PREF_KEYS.reduce<Record<string, any>>((acc, k) => {
+    acc[k] = userPreferences?.[k] ?? null
+    return acc
+  }, {} as Record<string, any>)
+}
+
+function buildInterestsLine(userPreferences?: Record<string, any> | null) {
+  const interests = userPreferences?.interests
+  if (Array.isArray(interests) && interests.length > 0) {
+    return `用户感兴趣的标签：${interests.join('、')}。在推荐时优先考虑这些方向。`
+  }
+  return '用户当前没有设置具体兴趣标签。'
+}
+
 export function buildSystemPrompt(ctx: SystemPromptContext = {}): string {
   const { userPreferences, conversationSummary, conversationRecap, isFirstMessage = false } = ctx
 
@@ -34,38 +51,23 @@ export function buildSystemPrompt(ctx: SystemPromptContext = {}): string {
 - 使用 Markdown 格式：标题、列表、加粗等
 - 行程规划使用清晰的每日结构
 - 信息要基于工具返回的真实数据，不要凭空捏造
-- 长度适中，关键信息突出`)
+- 长度适中，关键信息突出
 
-  if (userPreferences && Object.keys(userPreferences).length > 0) {
-    parts.push(`
+# 用户偏好（固定字段，未设置时为 null）
+${JSON.stringify(buildFixedPreferences(userPreferences), null, 2)}
+请根据以上偏好调整你的推荐。
+${buildInterestsLine(userPreferences)}
 
-# 用户偏好
-${JSON.stringify(userPreferences, null, 2)}
-请根据以上偏好调整你的推荐。${userPreferences.interests?.length > 0 ? `\n用户感兴趣的标签：${userPreferences.interests.join('、')}。在推荐时优先考虑这些方向。` : ''}`)
-  }
-
-  if (conversationSummary) {
-    parts.push(`
-
-# 对话历史摘要（关键决策）
-${conversationSummary}
-请结合以上决策信息回答用户。`)
-  }
-
-  if (conversationRecap) {
-    parts.push(`
+# 对话历史摘要
+${conversationSummary ?? '（暂无）'}
 
 # 对话脉络
-${conversationRecap}
-了解以上讨论脉络，有助于理解用户的完整意图。`)
-  }
-
-  if (isFirstMessage) {
-    parts.push(`
+${conversationRecap ?? '（暂无）'}
 
 # 当前对话
-这是用户的第一条消息，请主动询问他们的旅行目的地、预算、天数、偏好等信息。`)
-  }
+${isFirstMessage
+  ? '这是用户的第一条消息，请主动询问他们的旅行目的地、预算、天数、偏好等信息。'
+  : '这是对话中的一条新消息。'}`)
 
   return parts.join('\n')
 }
