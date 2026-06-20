@@ -1,10 +1,30 @@
 import prisma from '../config/database'
 import { createLLM } from '../config/llm'
 import { HumanMessage, SystemMessage } from '@langchain/core/messages'
-import { updateSummary } from './conversationService'
 
 const SLIDING_WINDOW = 10
 const COMPRESS_THRESHOLD = SLIDING_WINDOW * 2
+const MAX_RETRIES = 2
+const RETRY_BASE_MS = 1000
+
+function sleep(ms: number) {
+  return new Promise(resolve => setTimeout(resolve, ms))
+}
+
+async function commitSummary(conversationId: number, summary: string, previousSummary: string | null) {
+  await prisma.conversation.update({
+    where: { id: conversationId },
+    data: { summary, summaryError: false, summaryAt: new Date() },
+  })
+  console.log(`[Summary] 对话 ${conversationId} 摘要${previousSummary ? '已追加更新' : '已生成'} (${summary.length} 字)`)
+}
+
+async function markSummaryFailed(conversationId: number) {
+  await prisma.conversation.update({
+    where: { id: conversationId },
+    data: { summaryError: true },
+  })
+}
 
 export async function compressConversation(conversationId: number): Promise<void> {
   try {
@@ -29,8 +49,6 @@ export async function compressConversation(conversationId: number): Promise<void
       .map(m => `${m.role === 'user' ? '用户' : '助手'}: ${m.content}`)
       .join('\n')
 
-    const llm = createLLM({ streaming: false, temperature: 0.3 })
-
     let prompt: string
     let systemMsg: string
 
@@ -42,17 +60,35 @@ export async function compressConversation(conversationId: number): Promise<void
       prompt = `请概括以下对话：\n${dialogText}`
     }
 
-    const response = await llm.invoke([
-      new SystemMessage(systemMsg),
-      new HumanMessage(prompt),
-    ])
+    let summary: string | null = null
+    let lastError: unknown
 
-    const summary = (response.content as string).trim()
+    for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+      try {
+        const llm = createLLM({ streaming: false, temperature: 0.3 })
+        const response = await llm.invoke([
+          new SystemMessage(systemMsg),
+          new HumanMessage(prompt),
+        ])
+        summary = (response.content as string).trim()
+        if (summary) break
+      } catch (e) {
+        lastError = e
+        console.warn(`[Summary] 第 ${attempt + 1} 次压缩失败:`, e instanceof Error ? e.message : e)
+        if (attempt < MAX_RETRIES) {
+          await sleep(RETRY_BASE_MS * (attempt + 1))
+        }
+      }
+    }
+
     if (summary) {
-      await updateSummary(conversationId, summary)
-      console.log(`[Summary] 对话 ${conversationId} 摘要${previousSummary ? '已追加更新' : '已生成'} (${summary.length} 字)`)
+      await commitSummary(conversationId, summary, previousSummary)
+    } else {
+      console.error(`[Summary] ${MAX_RETRIES + 1} 次重试全部失败，标记 summary_error`)
+      await markSummaryFailed(conversationId)
     }
   } catch (e) {
-    console.error('[Summary] 压缩失败:', e instanceof Error ? e.message : e)
+    console.error('[Summary] 压缩流程异常:', e instanceof Error ? e.message : e)
+    await markSummaryFailed(conversationId).catch(() => {})
   }
 }

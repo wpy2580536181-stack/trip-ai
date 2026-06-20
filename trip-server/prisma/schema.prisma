@@ -73,14 +73,17 @@ model Trip {
 }
 
 model Conversation {
-  id        Int       @id @default(autoincrement())
-  userId    Int       @map("user_id")
-  title     String?   @db.VarChar(100)
-  summary   String?   @db.Text
-  createdAt DateTime  @default(now()) @map("created_at")
-  updatedAt DateTime  @updatedAt @map("updated_at")
-  user      User      @relation(fields: [userId], references: [id])
-  messages  Message[]
+  id           Int       @id @default(autoincrement())
+  userId       Int       @map("user_id")
+  title        String?   @db.VarChar(100)
+  summary      String?   @db.Text
+  recap        String?   @db.Text
+  summaryError Boolean?  @default(false) @map("summary_error")
+  summaryAt    DateTime? @map("summary_at")
+  createdAt    DateTime  @default(now()) @map("created_at")
+  updatedAt    DateTime  @updatedAt @map("updated_at")
+  user         User      @relation(fields: [userId], references: [id])
+  messages     Message[]
 
   @@index([userId])
   @@map("conversations")
