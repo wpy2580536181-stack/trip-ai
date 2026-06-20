@@ -18,6 +18,8 @@ interface BudgetEntry {
 export class TokenBudgetManager {
   private userData = new Map<string | number, BudgetEntry>()
   private globalData: BudgetEntry = { total: 0, resetAt: 0 }
+  private globalTotalSinceStart = 0
+  private userTotalSinceStart = new Map<string | number, number>()
   private cleanupTimer: ReturnType<typeof setInterval>
 
   readonly userLimit: number
@@ -71,6 +73,7 @@ export class TokenBudgetManager {
     } else {
       entry.total += tokens
     }
+    this.userTotalSinceStart.set(userId, (this.userTotalSinceStart.get(userId) ?? 0) + tokens)
   }
 
   async recordGlobalUsage(tokens: number): Promise<void> {
@@ -81,12 +84,50 @@ export class TokenBudgetManager {
     } else {
       this.globalData.total += tokens
     }
+    this.globalTotalSinceStart += tokens
+  }
+
+  getGlobalStats(): { window: { current: number; limit: number; resetAt: number }; totalSinceStart: number } {
+    const now = Date.now()
+    let current: number
+    let resetAt: number
+    if (now >= this.globalData.resetAt) {
+      current = 0
+      resetAt = now + this.globalWindowMs
+    } else {
+      current = this.globalData.total
+      resetAt = this.globalData.resetAt
+    }
+    return {
+      window: { current, limit: this.globalLimit, resetAt },
+      totalSinceStart: this.globalTotalSinceStart,
+    }
+  }
+
+  getUserStats(userId: string | number): { window: { current: number; limit: number; resetAt: number }; totalSinceStart: number } {
+    const now = Date.now()
+    const entry = this.userData.get(userId)
+    let current: number
+    let resetAt: number
+    if (!entry || now >= entry.resetAt) {
+      current = 0
+      resetAt = now + this.userWindowMs
+    } else {
+      current = entry.total
+      resetAt = entry.resetAt
+    }
+    return {
+      window: { current, limit: this.userLimit, resetAt },
+      totalSinceStart: this.userTotalSinceStart.get(userId) ?? 0,
+    }
   }
 
   shutdown(): void {
     clearInterval(this.cleanupTimer)
     this.userData.clear()
     this.globalData = { total: 0, resetAt: 0 }
+    this.globalTotalSinceStart = 0
+    this.userTotalSinceStart.clear()
   }
 
   private cleanup(): void {
