@@ -60,15 +60,16 @@ export async function getRecentMessages(conversationId: number, limit = SLIDING_
 }
 
 /**
- * 加载上下文：摘要 + 最近消息（token 限制）
+ * 加载上下文：摘要 + 脉络 + 最近消息（token 限制）
  */
 export async function loadContext(conversationId: number) {
   const maxTokens = getHistoryMaxTokens()
   const conversation = await prisma.conversation.findUnique({ where: { id: conversationId } })
   const systemSummary = conversation?.summary ?? null
+  const conversationRecap = conversation?.recap ?? null
   const recentMessages = await getRecentMessagesByTokens(conversationId, maxTokens)
 
-  return { systemSummary, recentMessages }
+  return { systemSummary, conversationRecap, recentMessages }
 }
 
 /**

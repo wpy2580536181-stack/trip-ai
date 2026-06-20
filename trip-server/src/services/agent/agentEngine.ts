@@ -167,17 +167,20 @@ class AgentEngine {
     const preferences = await this.loadUserPreferences(userId)
 
     let systemSummary: string | null = null
+    let conversationRecap: string | null = null
     let historyMessages: BaseMessage[] = []
 
     if (conversationId) {
       const ctx = await loadContext(conversationId)
       systemSummary = ctx.systemSummary
+      conversationRecap = ctx.conversationRecap
       historyMessages = this.dbMessagesToLangChain(ctx.recentMessages)
     }
 
     const systemPrompt = buildSystemPrompt({
       userPreferences: preferences,
       conversationSummary: systemSummary,
+      conversationRecap,
     })
 
     const executor = await this.buildAgent(this.llm!, systemPrompt)

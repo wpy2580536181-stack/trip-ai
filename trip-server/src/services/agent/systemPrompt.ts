@@ -1,11 +1,12 @@
 export interface SystemPromptContext {
   userPreferences?: Record<string, any> | null
   conversationSummary?: string | null
+  conversationRecap?: string | null
   isFirstMessage?: boolean
 }
 
 export function buildSystemPrompt(ctx: SystemPromptContext = {}): string {
-  const { userPreferences, conversationSummary, isFirstMessage = false } = ctx
+  const { userPreferences, conversationSummary, conversationRecap, isFirstMessage = false } = ctx
 
   const parts: string[] = []
 
@@ -46,9 +47,17 @@ ${JSON.stringify(userPreferences, null, 2)}
   if (conversationSummary) {
     parts.push(`
 
-# 对话历史摘要
+# 对话历史摘要（关键决策）
 ${conversationSummary}
-请结合以上历史上下文回答用户。`)
+请结合以上决策信息回答用户。`)
+  }
+
+  if (conversationRecap) {
+    parts.push(`
+
+# 对话脉络
+${conversationRecap}
+了解以上讨论脉络，有助于理解用户的完整意图。`)
   }
 
   if (isFirstMessage) {
