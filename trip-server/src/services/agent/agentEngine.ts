@@ -257,7 +257,14 @@ class AgentEngine {
       console.warn('[Agent] parse error:', zodMsg)
       console.warn('[Agent] raw output (first 500 chars):', rawOutput.slice(0, 500))
       try {
-        const retryMessage = `你上次的输出格式有误，请严格按照JSON格式重新输出，不要添加任何markdown代码块标记。\n用户请求：${inputMessage}`
+        const retryMessage =
+          `你上次的输出无法通过校验：\n${zodMsg}\n\n` +
+          `请严格按 system prompt 中的字段定义重新输出纯 JSON：\n` +
+          `- 数字字段不加引号（city/days/totalBudget/day/budgetBreakdown.*）\n` +
+          `- dailyItinerary 必须是对象数组，每天对象含 day/date/morning/afternoon/evening\n` +
+          `- budgetBreakdown 必须含 accommodation/food/transportation/tickets/other 5 个数字\n` +
+          `- 禁止 markdown 代码块、禁止前后缀文字\n\n` +
+          `用户请求：${inputMessage}`
         rawOutput = await this.invokeWithFallback(
           executor, systemPrompt,
           { chat_history: [new HumanMessage(retryMessage)] },

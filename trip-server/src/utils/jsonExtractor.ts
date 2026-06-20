@@ -1,9 +1,10 @@
 /**
  * 从 LLM 输出中提取 JSON 对象。
- * 策略：
- * 1. 优先匹配 markdown ```json 代码块（多块取第一个）
- * 2. 尝试用 JSON.parse 解析整段文本
- * 3. 用括号配对算法从首字符起扫描，匹配最深完整 {...} 顶层对象
+ * 策略（按优先级）：
+ * 1. 匹配 markdown ```json 代码块（多块取第一个能 parse 的）
+ * 2. 整段 JSON.parse（处理 LLM 干净输出的常见情形）
+ * 3. 括号配对扫描找所有候选顶层 {...}，挑最长的（避免截断+多对象边界）
+ * 4. 失败时抛带诊断信息的错误
  */
 export function extractJson(text: string): unknown {
   const codeBlockRe = /```(?:json)?\s*(\{[\s\S]*?\})\s*```/g
@@ -22,22 +23,51 @@ export function extractJson(text: string): unknown {
     // fall through to brace scan
   }
 
-  const firstBrace = text.indexOf('{')
-  if (firstBrace === -1) {
-    throw new Error('无法从 LLM 输出中提取 JSON')
+  const candidates = findAllBalancedObjects(text)
+  if (candidates.length === 0) {
+    const snippet = text.slice(0, 120).replace(/\n/g, ' ')
+    throw new Error(`无法从 LLM 输出中提取 JSON（首 120 字符：${snippet}）`)
   }
-  const candidate = extractBalancedBraces(text, firstBrace)
-  if (!candidate) {
-    throw new Error('无法从 LLM 输出中提取 JSON')
+
+  // 挑最长的候选对象（避免被空对象 {} 抢在前面）
+  let longest = candidates[0]
+  for (const c of candidates) {
+    if (c.length > longest.length) longest = c
   }
-  return JSON.parse(candidate)
+
+  try {
+    return JSON.parse(longest)
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e)
+    const snippet = longest.slice(0, 120).replace(/\n/g, ' ')
+    throw new Error(`JSON 解析失败：${msg}（首 120 字符：${snippet}）`)
+  }
 }
 
 /**
- * 从 startIdx 位置的 '{' 起扫描，用括号配对找出匹配的 '}'，
- * 字符串内 '}' 会被忽略。返回匹配的子串，找不到返回 null。
+ * 扫描 text 中所有顶层 {...} 候选（按出现顺序）。
+ * 字符串内 '}' 会被忽略，'\\' 转义正确处理。
+ * 如果有未闭合的 '{'（截断），抛"输出被截断"错误。
  */
-function extractBalancedBraces(text: string, startIdx: number): string | null {
+function findAllBalancedObjects(text: string): string[] {
+  const results: string[] = []
+  let i = 0
+  while (i < text.length) {
+    const idx = text.indexOf('{', i)
+    if (idx === -1) break
+    const candidate = extractBalancedObjectAt(text, idx)
+    if (candidate === null) {
+      // 截断或不平衡：诊断 + 终止
+      const tail = text.slice(idx, idx + 120).replace(/\n/g, ' ')
+      throw new Error(`LLM 输出被截断或括号不平衡：从位置 ${idx} 起 ${tail}`)
+    }
+    results.push(candidate)
+    i = idx + candidate.length
+  }
+  return results
+}
+
+function extractBalancedObjectAt(text: string, startIdx: number): string | null {
   let depth = 0
   let inString = false
   let escape = false
@@ -47,7 +77,7 @@ function extractBalancedBraces(text: string, startIdx: number): string | null {
       escape = false
       continue
     }
-    if (ch === '\\' && inString) {
+    if (inString && ch === '\\') {
       escape = true
       continue
     }

@@ -29,20 +29,36 @@ export interface SpotVectorDoc {
   }
 }
 
+const TripSlotSchema = z.object({
+  spot: z.string(),
+  duration: z.string().optional().default(''),
+  ticket: z.string().optional().default(''),
+  transportation: z.string().optional().default(''),
+  description: z.string().optional().default(''),
+})
+
+const TripDaySchema = z.object({
+  day: z.coerce.number().int().positive(),
+  date: z.string().optional().default(''),
+  morning: TripSlotSchema,
+  afternoon: TripSlotSchema,
+  evening: TripSlotSchema,
+})
+
 export const TripContentSchema = z.object({
-  city: z.string(),
-  days: z.coerce.number(),
-  totalBudget: z.coerce.number(),
-  dailyItinerary: z.array(z.any()),
+  city: z.string().min(1),
+  days: z.coerce.number().int().positive(),
+  totalBudget: z.coerce.number().nonnegative(),
+  dailyItinerary: z.array(TripDaySchema).min(1),
   budgetBreakdown: z.object({
-    accommodation: z.coerce.number(),
-    food: z.coerce.number(),
-    transportation: z.coerce.number(),
-    tickets: z.coerce.number(),
-    other: z.coerce.number(),
+    accommodation: z.coerce.number().nonnegative(),
+    food: z.coerce.number().nonnegative(),
+    transportation: z.coerce.number().nonnegative(),
+    tickets: z.coerce.number().nonnegative(),
+    other: z.coerce.number().nonnegative(),
   }),
   tips: z.array(z.string()),
-  warnings: z.array(z.string()).optional(),
+  warnings: z.array(z.string()).optional().default([]),
 })
 export type TripContent = z.infer<typeof TripContentSchema>
 
