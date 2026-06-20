@@ -2,8 +2,20 @@ import { AsyncLocalStorage } from 'async_hooks'
 import { BaseCallbackHandler } from '@langchain/core/callbacks/base'
 import type { LLMResult } from '@langchain/core/outputs'
 import { tokenBudget } from './tokenBudget'
+import { tokenUsageLog } from './tokenUsageLog'
 
-export const llmContext = new AsyncLocalStorage<{ userId: string | number }>()
+export const llmContext = new AsyncLocalStorage<{ userId: string | number; endpoint?: string }>()
+
+function recordUsage(tokens: number): void {
+  const ctx = llmContext.getStore()
+  const userId = ctx?.userId ?? 0
+  const endpoint = ctx?.endpoint ?? 'background'
+  tokenUsageLog.recordLog({ userId, endpoint, tokens, timestamp: Date.now() })
+  if (ctx) {
+    void tokenBudget.recordUserUsage(ctx.userId, tokens)
+  }
+  void tokenBudget.recordGlobalUsage(tokens)
+}
 
 export class TokenTrackingCallback extends BaseCallbackHandler {
   name = 'token_tracking'
@@ -13,12 +25,7 @@ export class TokenTrackingCallback extends BaseCallbackHandler {
     if (!tokenUsage) return
     const total = (tokenUsage.totalTokens ?? 0) as number
     if (total <= 0) return
-
-    const ctx = llmContext.getStore()
-    if (ctx) {
-      await tokenBudget.recordUserUsage(ctx.userId, total)
-    }
-    await tokenBudget.recordGlobalUsage(total)
+    recordUsage(total)
   }
 }
 
@@ -27,9 +34,5 @@ export const tokenTracker = new TokenTrackingCallback()
 export function recordFetchTokenUsage(data: { usage?: { total_tokens?: number } }): void {
   const total = data?.usage?.total_tokens
   if (!total || total <= 0) return
-  const ctx = llmContext.getStore()
-  if (ctx) {
-    tokenBudget.recordUserUsage(ctx.userId, total)
-  }
-  tokenBudget.recordGlobalUsage(total)
+  recordUsage(total)
 }
