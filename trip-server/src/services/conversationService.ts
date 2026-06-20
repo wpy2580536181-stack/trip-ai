@@ -1,6 +1,27 @@
 import prisma from '../config/database'
+import { estimateTokens, getHistoryMaxTokens } from '../utils/tokens'
 
 const SLIDING_WINDOW = 10
+
+/**
+ * 获取最近消息，按 token 总量限制（从最新往前取，不超 maxTokens）
+ */
+export async function getRecentMessagesByTokens(conversationId: number, maxTokens: number) {
+  const messages = await prisma.message.findMany({
+    where: { conversationId },
+    orderBy: { createdAt: 'desc' },
+  })
+
+  let tokenCount = 0
+  const result: typeof messages = []
+  for (const msg of messages) {
+    const tokens = estimateTokens(msg.content)
+    if (tokenCount + tokens > maxTokens) break
+    tokenCount += tokens
+    result.unshift(msg)
+  }
+  return result
+}
 
 /**
  * 获取或创建对话会话
@@ -39,23 +60,15 @@ export async function getRecentMessages(conversationId: number, limit = SLIDING_
 }
 
 /**
- * 加载上下文：摘要 + 最近 N 轮消息
+ * 加载上下文：摘要 + 最近消息（token 限制）
  */
 export async function loadContext(conversationId: number) {
-  const totalCount = await prisma.message.count({ where: { conversationId } })
-
-  if (totalCount <= SLIDING_WINDOW * 2) {
-    const recent = await getRecentMessages(conversationId, totalCount)
-    return { systemSummary: null, recentMessages: recent }
-  }
-
-  const recent = await getRecentMessages(conversationId, SLIDING_WINDOW * 2)
+  const maxTokens = getHistoryMaxTokens()
   const conversation = await prisma.conversation.findUnique({ where: { id: conversationId } })
+  const systemSummary = conversation?.summary ?? null
+  const recentMessages = await getRecentMessagesByTokens(conversationId, maxTokens)
 
-  return {
-    systemSummary: conversation?.summary ?? null,
-    recentMessages: recent,
-  }
+  return { systemSummary, recentMessages }
 }
 
 /**
