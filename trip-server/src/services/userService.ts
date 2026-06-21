@@ -2,6 +2,7 @@ import crypto from 'crypto'
 import prisma from '../config/database'
 import bcrypt from 'bcryptjs'
 import { generateToken, JwtPayload } from '../config/jwt'
+import { authLog as log } from '../utils/logger'
 
 const SALT_ROUNDS = 12
 
@@ -164,7 +165,7 @@ export async function changePassword(userId: number, oldPassword: string, newPas
 export async function createPasswordResetToken(email: string) {
   const user = await prisma.user.findUnique({ where: { email } })
   if (!user) {
-    console.warn(`[Auth] 重置密码请求但邮箱不存在：${email}`)
+    log.warn({ email }, '重置密码请求但邮箱不存在')
     return { success: true }
   }
 
@@ -175,7 +176,7 @@ export async function createPasswordResetToken(email: string) {
     data: { email, token, expiresAt },
   })
 
-  console.log(`[Auth] 重置令牌已生成（仅记录，勿返回前端）：email=${email} token=${token}`)
+  log.info({ email, token }, '重置令牌已生成（仅记录，勿返回前端）')
   return { success: true }
 }
 

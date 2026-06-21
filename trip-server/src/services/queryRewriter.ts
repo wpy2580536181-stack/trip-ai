@@ -1,4 +1,5 @@
 import { recordFetchTokenUsage } from './llmGuard/tokenTracker'
+import { queryRewriteLog as log } from '../utils/logger'
 
 /**
  * 查询改写服务：将用户的自然语言 query 改写为适合检索的关键词组合。
@@ -41,11 +42,11 @@ export async function rewriteQuery(query: string): Promise<string> {
       }
     }
     if (!cfg.apiKey || !cfg.baseURL || !cfg.model) {
-      console.warn('[QueryRewrite] LLM 配置缺失，跳过改写')
+      log.warn('LLM 配置缺失，跳过改写')
       return query
     }
   } catch (e) {
-    console.warn('[QueryRewrite] LLM 配置错误:', e)
+    log.warn({ err: e }, 'LLM 配置错误')
     return query
   }
 
@@ -97,7 +98,7 @@ export async function rewriteQuery(query: string): Promise<string> {
     clearTimeout(timeoutId)
 
     if (!res.ok) {
-      console.warn(`[QueryRewrite] LLM 请求失败 (${res.status})，使用原始 query`)
+      log.warn({ status: res.status }, 'LLM 请求失败，使用原始 query')
       return query
     }
 
@@ -109,7 +110,7 @@ export async function rewriteQuery(query: string): Promise<string> {
     const cleaned = content.replace(/```[\w]*\n?/g, '').replace(/```/g, '').trim()
     return cleaned || query
   } catch (e) {
-    console.warn('[QueryRewrite] LLM 调用异常，使用原始 query:', e instanceof Error ? e.message : e)
+    log.warn({ err: e }, 'LLM 调用异常，使用原始 query')
     return query
   }
 }

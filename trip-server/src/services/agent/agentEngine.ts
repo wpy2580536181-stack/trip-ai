@@ -13,6 +13,7 @@ import { createLLM, createLLMFromConfig, loadFallbackLLMConfig, type LLMConfig }
 import { extractJson } from '../../utils/jsonExtractor'
 import prisma from '../../config/database'
 import { loadContext } from '../conversationService'
+import { agentLog as log } from '../../utils/logger'
 
 // 修复 P3-2：超时时间从环境变量读取，移除硬编码
 const RECOMMEND_TIMEOUT_MS = Number(process.env.AGENT_RECOMMEND_TIMEOUT_MS) || 60_000
@@ -155,7 +156,7 @@ class AgentEngine {
       return await doInvoke(executor)
     } catch (e) {
       if (this.fallbackLLMConfig) {
-        console.warn('[Agent] 主 LLM 失败，切换到备用模型重试:', e instanceof Error ? e.message : e)
+        log.warn({ err: e, fallback: 'AGNES' }, '主 LLM 失败，切换到备用模型重试')
         const fallbackLLM = createLLMFromConfig(this.fallbackLLMConfig, { streaming: false })
         const fallbackExecutor = await this.buildAgent(fallbackLLM, systemPrompt)
         return await doInvoke(fallbackExecutor)
@@ -194,20 +195,20 @@ class AgentEngine {
       fullResponse = await this.processStream(executor, invokeInput, onEvent, signal)
     } catch (e) {
       if (this.fallbackLLMConfig) {
-        console.warn('[Agent] 主 LLM 失败，切换到备用模型重试:', e instanceof Error ? e.message : e)
+        log.warn({ err: e, fallback: 'AGNES' }, '主 LLM 失败，切换到备用模型重试')
         const fallbackLLM = createLLMFromConfig(this.fallbackLLMConfig, { streaming: true })
         const fallbackExecutor = await this.buildAgent(fallbackLLM, systemPrompt)
         try {
           fullResponse = await this.processStream(fallbackExecutor, invokeInput, onEvent, signal)
         } catch (retryErr) {
           const errMsg = retryErr instanceof Error ? retryErr.message : '未知错误'
-          console.error('[Agent] 备用模型也失败:', errMsg)
+          log.error({ err: retryErr }, '备用模型也失败')
           await onEvent({ type: 'error', error: errMsg })
           throw retryErr
         }
       } else {
         const errMsg = e instanceof Error ? e.message : '未知错误'
-        console.error('[Agent] chat 失败:', errMsg)
+        log.error({ err: e }, 'chat 失败')
         await onEvent({ type: 'error', error: errMsg })
         throw e
       }
@@ -243,7 +244,7 @@ class AgentEngine {
       )
     } catch (e) {
       const errMsg = e instanceof Error ? e.message : '未知错误'
-      console.error('[Agent] recommend 执行失败:', errMsg)
+      log.error({ err: e }, 'recommend 执行失败')
       await onEvent({ type: 'error', error: errMsg })
       throw e
     }
@@ -257,9 +258,7 @@ class AgentEngine {
       parsed = parseAndValidate(rawOutput)
     } catch (parseErr) {
       const zodMsg = parseErr instanceof Error ? parseErr.message : String(parseErr)
-      console.warn('[Agent] recommend JSON 解析失败，提示 agent 重试...')
-      console.warn('[Agent] parse error:', zodMsg)
-      console.warn('[Agent] raw output (first 500 chars):', rawOutput.slice(0, 500))
+      log.warn({ err: parseErr, rawPreview: rawOutput.slice(0, 500) }, 'recommend JSON 解析失败，提示 agent 重试')
       try {
         const retryMessage =
           `你上次的输出无法通过校验：\n${zodMsg}\n\n` +
@@ -277,7 +276,7 @@ class AgentEngine {
         parsed = parseAndValidate(rawOutput)
       } catch (retryErr) {
         const errMsg = 'Agent 多次输出无效 JSON，请稍后重试'
-        console.error('[Agent] recommend JSON 重试仍失败:', retryErr)
+        log.error({ err: retryErr }, 'recommend JSON 重试仍失败')
         await onEvent({ type: 'error', error: errMsg })
         throw new Error(errMsg)
       }

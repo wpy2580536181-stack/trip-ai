@@ -5,6 +5,7 @@ import { embedText } from '../config/embeddings'
 import { rewriteQuery } from './queryRewriter'
 import { rerankTopK } from './reranker'
 import { SpotInput, SpotInputSchema, SpotCategory } from '../types/agent'
+import { knowledgeLog as log } from '../utils/logger'
 
 /**
  * 构建 embedding 文档：拼接多字段以提升检索质量。
@@ -56,7 +57,7 @@ export async function createSpot(input: SpotInput) {
       }],
     })
   } catch (e) {
-    console.warn('[Knowledge] Chroma 写入失败（MySQL 数据已保存）:', e instanceof Error ? e.message : e)
+    log.warn({ err: e }, 'Chroma 写入失败（MySQL 数据已保存）')
   }
 
   return spot
@@ -139,7 +140,7 @@ async function mysqlKeywordSearch(params: {
         await prisma.$queryRawUnsafe(sql, ...sqlArgs) as any
       return results.map(r => ({ desc: r.description, name: r.name, category: r.category, rating: r.rating }))
     } catch (e) {
-      console.warn('[Knowledge] FULLTEXT 查询失败，回退 LIKE:', e instanceof Error ? e.message : e)
+      log.warn({ err: e }, 'FULLTEXT 查询失败，回退 LIKE')
     }
   }
 
@@ -245,7 +246,7 @@ export async function searchSpots(params: {
   // === 查询改写：LLM 将自然语言转为检索关键词 ===
   const rewrittenQuery = await rewriteQuery(query)
   if (rewrittenQuery !== query) {
-    console.log(`[QueryRewrite] "${query}" → "${rewrittenQuery}"`)
+    log.debug({ original: query, rewritten: rewrittenQuery }, 'query rewritten')
   }
 
   // === 三路并行召回 ===
@@ -282,10 +283,10 @@ export async function searchSpots(params: {
         })
       }
     } catch (e) {
-      console.warn('[Knowledge] Chroma 检索失败，降级到 MySQL:', e)
+      log.warn({ err: e }, 'Chroma 检索失败，降级到 MySQL')
     }
   } else {
-    console.warn('[Knowledge] Chroma 不可用，降级到 MySQL')
+    log.warn('Chroma 不可用，降级到 MySQL')
   }
 
   // --- 路径 2: MySQL LIKE 关键词检索 ---
@@ -294,14 +295,14 @@ export async function searchSpots(params: {
     const kwResults = await mysqlKeywordSearch({ city, keywords, category, limit: 10 })
     path2 = kwResults.map(r => ({ name: r.name, desc: r.desc, category: r.category, rating: r.rating }))
   } catch (e) {
-    console.warn('[Knowledge] MySQL 关键词检索失败:', e)
+    log.warn({ err: e }, 'MySQL 关键词检索失败')
   }
 
   // --- 路径 3: MySQL rating 排序 ---
   try {
     path3 = await mysqlRatingSearch({ city, category, limit: 10 })
   } catch (e) {
-    console.warn('[Knowledge] MySQL rating 检索失败:', e)
+    log.warn({ err: e }, 'MySQL rating 检索失败')
   }
 
   // === RRF 融合 ===
@@ -330,7 +331,7 @@ export async function searchSpots(params: {
         return `${idx + 1}. ${item.name} ${categoryStr} ${ratingStr}\n${item.desc}`
       }).join('\n---\n')
     } catch (e) {
-      console.warn('[Knowledge] Reranker 失败，使用 RRF 排序:', e instanceof Error ? e.message : e)
+      log.warn({ err: e }, 'Reranker 失败，使用 RRF 排序')
       // 降级：使用 RRF 排序结果
     }
   }
@@ -375,7 +376,7 @@ export async function bulkImportSpots(spots: SpotInput[]) {
       await createSpot(spot)
       success++
     } catch (e) {
-      console.error(`[Knowledge] 导入失败: ${spot.name}`, e instanceof Error ? e.message : e)
+      log.error({ err: e, spotName: spot.name }, '导入失败')
       failed++
     }
   }
@@ -426,7 +427,7 @@ export async function updateSpot(id: number, input: Partial<SpotInput>) {
       await prisma.spot.update({ where: { id }, data: { vectorId } })
     }
   } catch (e) {
-    console.warn('[Knowledge] Chroma 同步失败（MySQL 已更新）:', e instanceof Error ? e.message : e)
+    log.warn({ err: e }, 'Chroma 同步失败（MySQL 已更新）')
   }
 
   return updated
@@ -447,6 +448,6 @@ export async function deleteSpot(id: number) {
       await collection.delete({ ids: [existing.vectorId] })
     }
   } catch (e) {
-    console.warn('[Knowledge] Chroma 删除同步失败（MySQL 已删除）:', e instanceof Error ? e.message : e)
+    log.warn({ err: e }, 'Chroma 删除同步失败（MySQL 已删除）')
   }
 }

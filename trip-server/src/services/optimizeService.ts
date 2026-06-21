@@ -3,6 +3,7 @@ import { TripContentSchema } from '../types/agent'
 import { createLLM } from '../config/llm'
 import { HumanMessage, SystemMessage } from '@langchain/core/messages'
 import { extractJson } from '../utils/jsonExtractor'
+import { tripLog as log } from '../utils/logger'
 
 const MAX_OPTIMIZE_RETRIES = 2
 
@@ -45,7 +46,7 @@ export async function optimizeTrip(tripId: number, instruction: string, userId: 
       break
     } catch (e) {
       lastError = e
-      console.warn(`[Optimize] 第 ${attempt + 1} 次解析失败:`, e instanceof Error ? e.message : e)
+      log.warn({ err: e, attempt: attempt + 1 }, '解析失败，准备重试')
       if (attempt < MAX_OPTIMIZE_RETRIES) {
         await sleep(800 * (attempt + 1))
       }

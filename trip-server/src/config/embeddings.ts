@@ -1,9 +1,10 @@
 import { env, pipeline, FeatureExtractionPipeline } from '@xenova/transformers'
+import { embeddingLog as log } from '../utils/logger'
 
 const HF_MIRROR = process.env.HF_ENDPOINT || 'https://hf-mirror.com/'
 env.remoteHost = HF_MIRROR
 env.remotePathTemplate = '{model}/resolve/{revision}/'
-console.log(`[Embedding] 使用 HF endpoint: ${HF_MIRROR}`)
+log.info({ endpoint: HF_MIRROR }, '使用 HF endpoint')
 
 const MODEL_NAME = 'Xenova/bge-small-zh-v1.5'
 const EMBEDDING_DIM = 512
@@ -12,12 +13,12 @@ let extractorPromise: Promise<FeatureExtractionPipeline> | null = null
 
 export function getEmbedder(): Promise<FeatureExtractionPipeline> {
   if (!extractorPromise) {
-    console.log(`[Embedding] 正在加载模型 ${MODEL_NAME}...`)
+    log.info({ model: MODEL_NAME }, '正在加载模型')
     extractorPromise = pipeline('feature-extraction', MODEL_NAME) as Promise<FeatureExtractionPipeline>
     extractorPromise.then(() => {
-      console.log(`[Embedding] 模型加载完成`)
+      log.info('模型加载完成')
     }).catch((e) => {
-      console.error(`[Embedding] 模型加载失败:`, e)
+      log.error({ err: e }, '模型加载失败')
       extractorPromise = null
     })
   }

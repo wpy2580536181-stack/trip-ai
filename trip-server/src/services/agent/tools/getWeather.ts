@@ -1,6 +1,7 @@
 import { z } from 'zod'
 import { DynamicStructuredTool } from '@langchain/community/tools/dynamic'
 import { withResilience } from '../resilience'
+import { agentLog as log } from '../../../utils/logger'
 
 const GetWeatherInputSchema = z.object({
   city: z.string().describe('城市名，中文或拼音'),
@@ -56,11 +57,11 @@ export const getWeatherTool = withResilience(
         return '仅支持 HTTPS 协议访问天气服务。'
       }
       if (parsed.hostname !== ALLOWED_HOST) {
-        console.warn(`[SSRF] getWeather 拒绝非白名单域名：${parsed.hostname}`)
+        log.warn({ hostname: parsed.hostname }, 'SSRF 防护：拒绝非白名单域名')
         return '天气服务域名未授权。'
       }
       if (isPrivateHost(parsed.hostname)) {
-        console.warn(`[SSRF] getWeather 拒绝内网地址：${parsed.hostname}`)
+        log.warn({ hostname: parsed.hostname }, 'SSRF 防护：拒绝内网地址')
         return '天气服务地址无效。'
       }
 

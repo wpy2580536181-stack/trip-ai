@@ -1,4 +1,5 @@
 import { ChromaClient, Collection } from 'chromadb'
+import { chromaLog as log } from '../utils/logger'
 
 const CHROMA_URL = process.env.CHROMA_URL || 'http://localhost:8000'
 const COLLECTION_NAME = 'travel_spots'
@@ -50,7 +51,7 @@ export async function checkChromaHealth(): Promise<boolean> {
     await cli.heartbeat()
     return true
   } catch (e) {
-    console.error('[Chroma] 健康检查失败:', e instanceof Error ? e.message : e)
+    log.error({ err: e }, '健康检查失败')
     return false
   }
 }

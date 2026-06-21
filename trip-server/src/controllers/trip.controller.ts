@@ -2,6 +2,7 @@ import { Request, Response } from 'express'
 import tripService from '../services/tripService'
 import { optimizeTrip } from '../services/optimizeService'
 import { createStreamResponse } from '../utils/stream'
+import { tripLog as log } from '../utils/logger'
 
 export const recommend = async (req: Request, res: Response) => {
   const { city, budget, days, departureCity } = req.body as {
@@ -35,7 +36,7 @@ export const chat = async (req: Request, res: Response) => {
   const abortAndLog = () => {
     if (!abortController.signal.aborted) {
       abortController.abort()
-      console.log('[TripController] 写入失败，已中止 Agent')
+      log.warn('写入失败，已中止 Agent')
     }
   }
   const stream = createStreamResponse(res, abortAndLog)
@@ -44,7 +45,7 @@ export const chat = async (req: Request, res: Response) => {
   req.on('close', () => {
     if (!abortController.signal.aborted) {
       abortController.abort()
-      console.log('[TripController] 客户端断开，已中止 Agent')
+      log.warn('客户端断开，已中止 Agent')
     }
   })
 
@@ -89,7 +90,7 @@ export const chat = async (req: Request, res: Response) => {
     }
   } catch (error) {
     if (abortController.signal.aborted) {
-      console.log('[TripController] Agent 已中止，忽略错误')
+      log.warn('Agent 已中止，忽略错误')
       return
     }
     const errMsg = error instanceof Error ? error.message : '未知错误'

@@ -1,7 +1,10 @@
 import 'dotenv/config'
 import express, { Request, Response, NextFunction } from 'express'
 import cors from 'cors'
+import pinoHttp from 'pino-http'
+import { randomUUID } from 'crypto'
 import { createLimiter } from './middleware/rateLimiter'
+import { logger, httpLog } from './utils/logger'
 import tripRouter from './routes/trip.routes'
 import userRouter from './routes/user.routes'
 import conversationRouter from './routes/conversation.routes'
@@ -17,6 +20,33 @@ app.use(cors({
   origin: CORS_ORIGIN,
   credentials: true,
 }))
+
+// pino-http：注入 req.log + 自动 access log
+app.use(pinoHttp({
+  logger: httpLog,
+  genReqId: (req, res) => {
+    const existing = req.headers['x-request-id']
+    const id = (typeof existing === 'string' && existing) || randomUUID()
+    res.setHeader('x-request-id', id)
+    return id
+  },
+  customLogLevel: (_req, res, err) => {
+    if (err || res.statusCode >= 500) return 'error'
+    if (res.statusCode >= 400) return 'warn'
+    return 'info'
+  },
+  customSuccessMessage: (req, res) => `${req.method} ${req.url} → ${res.statusCode}`,
+  customErrorMessage: (req, res, err) => `${req.method} ${req.url} → ${res.statusCode} (${err.message})`,
+  // 不记录 /api/test 健康检查
+  autoLogging: {
+    ignore: (req) => req.url === '/api/test',
+  },
+  serializers: {
+    req: (req) => ({ method: req.method, url: req.url, id: req.id }),
+    res: (res) => ({ statusCode: res.statusCode }),
+  },
+}))
+
 app.use(express.json())
 
 // 修复 P2-5：/api/test 仅在非生产环境暴露
@@ -46,7 +76,7 @@ app.use('/api/knowledge', knowledgeRouter)
 app.use('/api/stats', statsRouter)
 
 app.use((err: Error, req: Request, res: Response, _next: NextFunction) => {
-  console.error('[GlobalError]', err.message)
+  req.log?.error({ err }, '未捕获异常')
   const isProduction = process.env.NODE_ENV === 'production'
   res.status(500).json({
     code: 500,
@@ -55,5 +85,5 @@ app.use((err: Error, req: Request, res: Response, _next: NextFunction) => {
 })
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`)
+  logger.info({ port: PORT }, `Server running on http://localhost:${PORT}`)
 })

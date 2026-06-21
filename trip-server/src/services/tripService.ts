@@ -3,6 +3,7 @@ import { getOrCreateConversation, saveMessage, autoTitle } from './conversationS
 import { compressConversation } from './summaryService'
 import { recommendCache } from './llmGuard/cache'
 import prisma from '../config/database'
+import { tripLog as log } from '../utils/logger'
 
 const ASSISTANT_PERSIST_FLUSH_INTERVAL_MS = 3000
 
@@ -60,7 +61,7 @@ class TripService {
             await new Promise(r => setTimeout(r, 200))
             continue
           }
-          console.error(`[TripService] 增量持久化失败（重试已耗尽）:`, e instanceof Error ? e.message : e)
+          log.error({ err: e }, '增量持久化失败（重试已耗尽）')
         }
       }
     }
@@ -85,19 +86,19 @@ class TripService {
             await persistAssistant(fullReply, true)
             persisted = true
             compressConversation(conversation.id).catch(e => {
-              console.error('[TripService] 摘要压缩失败:', e instanceof Error ? e.message : e)
+              log.error({ err: e, conversationId: conversation.id }, '摘要压缩失败')
             })
           } else if (event.type === 'error') {
             await persistAssistant(fullReply, true)
             compressConversation(conversation.id).catch(e => {
-              console.error('[TripService] 摘要压缩失败:', e instanceof Error ? e.message : e)
+              log.error({ err: e, conversationId: conversation.id }, '摘要压缩失败')
             })
           }
         },
       })
     } catch (e) {
       if (isClientConnected && !isClientConnected()) {
-        console.warn('[TripService] 客户端已断开，强制持久化当前回复')
+        log.warn('客户端已断开，强制持久化当前回复')
         await persistAssistant(fullReply, true)
       }
       throw e
@@ -142,7 +143,7 @@ class TripService {
         })
         savedTripId = created.id
       } catch (e) {
-        console.error('[TripService] recommend persist failed:', e)
+        log.error({ err: e }, 'recommend persist failed')
       }
       return {
         success: true,
@@ -158,7 +159,7 @@ class TripService {
         },
       }
     } catch (error) {
-      console.error('行程推荐失败:', error)
+      log.error({ err: error }, '行程推荐失败')
       throw new Error('行程推荐失败，请稍后重试')
     }
   }

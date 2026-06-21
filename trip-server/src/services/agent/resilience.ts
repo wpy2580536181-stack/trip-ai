@@ -1,4 +1,5 @@
 import { DynamicStructuredTool } from '@langchain/community/tools/dynamic'
+import { agentLog as log } from '../../utils/logger'
 
 export interface ResilienceConfig {
   timeout?: number
@@ -38,7 +39,7 @@ export function withResilience<T extends DynamicStructuredTool>(tool: T, config:
         } catch (e) {
           lastError = e
           const errMsg = e instanceof Error ? e.message : String(e)
-          console.warn(`[Resilience] 工具 ${toolName} 第 ${attempt + 1} 次失败: ${errMsg}`)
+          log.warn({ toolName, attempt: attempt + 1, err: e }, '工具调用失败，准备重试')
           if (attempt < retries) {
             await sleep(Math.min(1000 * (attempt + 1), 3000))
           }
@@ -46,7 +47,7 @@ export function withResilience<T extends DynamicStructuredTool>(tool: T, config:
           if (timer) clearTimeout(timer)
         }
       }
-      console.error(`[Resilience] 工具 ${toolName} 全部重试失败，降级返回: ${lastError instanceof Error ? lastError.message : lastError}`)
+      log.error({ toolName, err: lastError }, '全部重试失败，降级返回')
       return fallback
     },
   }) as T

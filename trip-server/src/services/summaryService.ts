@@ -2,6 +2,7 @@ import prisma from '../config/database'
 import { createLLM } from '../config/llm'
 import { HumanMessage, SystemMessage } from '@langchain/core/messages'
 import { estimateTokens, getHistoryMaxTokens } from '../utils/tokens'
+import { summaryLog as log } from '../utils/logger'
 
 const MAX_RETRIES = 2
 const RETRY_BASE_MS = 1000
@@ -19,7 +20,7 @@ async function commitAppendSummary(conversationId: number, newChunk: string, pre
     where: { id: conversationId },
     data: { summary: merged, summaryError: false, summaryAt: new Date() },
   })
-  console.log(`[Summary] 对话 ${conversationId} ${previousSummary ? '已追加摘要段' : '已生成摘要'} (${newChunk.length}字)`)
+  log.info({ conversationId, chunkLen: newChunk.length, mode: previousSummary ? 'append' : 'new' }, '摘要更新')
 }
 
 async function markSummaryFailed(conversationId: number) {
@@ -84,7 +85,7 @@ export async function compressConversation(conversationId: number): Promise<void
           break
         }
       } catch (e) {
-        console.warn(`[Summary] 第 ${attempt + 1} 次压缩失败:`, e instanceof Error ? e.message : e)
+        log.warn({ err: e, attempt: attempt + 1 }, '压缩失败')
         if (attempt < MAX_RETRIES) {
           await sleep(RETRY_BASE_MS * (attempt + 1))
         }
@@ -94,11 +95,11 @@ export async function compressConversation(conversationId: number): Promise<void
     if (newChunk) {
       await commitAppendSummary(conversationId, newChunk, previousSummary)
     } else {
-      console.error(`[Summary] ${MAX_RETRIES + 1} 次重试全部失败，标记 summary_error`)
+      log.error({ attempts: MAX_RETRIES + 1 }, '重试全部失败，标记 summary_error')
       await markSummaryFailed(conversationId)
     }
   } catch (e) {
-    console.error('[Summary] 压缩流程异常:', e instanceof Error ? e.message : e)
+    log.error({ err: e }, '压缩流程异常')
     await markSummaryFailed(conversationId).catch(() => {})
   }
 }

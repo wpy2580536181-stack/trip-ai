@@ -15,24 +15,25 @@ env.remoteHost = HF_MIRROR
 env.remotePathTemplate = '{model}/resolve/{revision}/'
 
 const RERANKER_MODEL = 'Xenova/bge-reranker-base'
+import { rerankerLog as log } from '../utils/logger'
 
 let tokenizerInstance: Awaited<ReturnType<typeof AutoTokenizer.from_pretrained>> | null = null
 let modelInstance: Awaited<ReturnType<typeof AutoModelForSequenceClassification.from_pretrained>> | null = null
 
 async function getTokenizer() {
   if (!tokenizerInstance) {
-    console.log(`[Reranker] 正在加载 tokenizer ${RERANKER_MODEL}...`)
+    log.info({ model: RERANKER_MODEL }, '正在加载 tokenizer')
     tokenizerInstance = await AutoTokenizer.from_pretrained(RERANKER_MODEL)
-    console.log(`[Reranker] tokenizer 加载完成`)
+    log.info('tokenizer 加载完成')
   }
   return tokenizerInstance
 }
 
 async function getModel() {
   if (!modelInstance) {
-    console.log(`[Reranker] 正在加载模型 ${RERANKER_MODEL}...`)
+    log.info({ model: RERANKER_MODEL }, '正在加载模型')
     modelInstance = await AutoModelForSequenceClassification.from_pretrained(RERANKER_MODEL)
-    console.log(`[Reranker] 模型加载完成`)
+    log.info('模型加载完成')
   }
   return modelInstance
 }
@@ -77,7 +78,7 @@ export async function rerank(
 
     return scores.sort((a, b) => b.score - a.score)
   } catch (e) {
-    console.warn('[Reranker] 重排序失败，使用原始排序:', e instanceof Error ? e.message : e)
+    log.warn({ err: e }, '重排序失败，使用原始排序')
     return documents.map(doc => ({ text: doc, score: 0 }))
   }
 }
