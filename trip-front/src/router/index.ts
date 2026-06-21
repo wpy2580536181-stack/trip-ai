@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { isTokenExpired, clearAuth } from '../utils/auth'
 
 const routes = [
   {
@@ -77,18 +78,23 @@ const router = createRouter({
 // 路由守卫
 router.beforeEach((to, _from, next) => {
   const token = localStorage.getItem('token')
+  const valid = !!token && !isTokenExpired(token)
 
-  // 需要登录的页面
-  if (to.meta.requiresAuth && !token) {
+  // 需要登录的页面 + token 无效 → 跳登录
+  if (to.meta.requiresAuth && !valid) {
+    if (token) {
+      console.warn('[Auth] Token 已过期或无效，清除并跳登录')
+      clearAuth()
+    }
     next({ name: 'Login', query: { redirect: to.fullPath } })
+    return
   }
   // 已登录用户访问游客页面（登录/注册/重置密码），重定向到首页
-  else if (to.meta.guestOnly && token) {
+  if (to.meta.guestOnly && valid) {
     next({ name: 'Home' })
+    return
   }
-  else {
-    next()
-  }
+  next()
 })
 
 export default router
