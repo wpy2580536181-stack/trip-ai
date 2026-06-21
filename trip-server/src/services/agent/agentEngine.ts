@@ -14,6 +14,10 @@ import { extractJson } from '../../utils/jsonExtractor'
 import prisma from '../../config/database'
 import { loadContext } from '../conversationService'
 
+// 修复 P3-2：超时时间从环境变量读取，移除硬编码
+const RECOMMEND_TIMEOUT_MS = Number(process.env.AGENT_RECOMMEND_TIMEOUT_MS) || 60_000
+const RECOMMEND_RETRY_TIMEOUT_MS = Number(process.env.AGENT_RETRY_TIMEOUT_MS) || 30_000
+
 export interface ChatParams {
   userId: number
   message: string
@@ -235,7 +239,7 @@ class AgentEngine {
       rawOutput = await this.invokeWithFallback(
         executor, systemPrompt,
         { chat_history: [new HumanMessage(inputMessage)] },
-        60_000,
+        RECOMMEND_TIMEOUT_MS,
       )
     } catch (e) {
       const errMsg = e instanceof Error ? e.message : '未知错误'
@@ -268,7 +272,7 @@ class AgentEngine {
         rawOutput = await this.invokeWithFallback(
           executor, systemPrompt,
           { chat_history: [new HumanMessage(retryMessage)] },
-          30_000,
+          RECOMMEND_RETRY_TIMEOUT_MS,
         )
         parsed = parseAndValidate(rawOutput)
       } catch (retryErr) {

@@ -1,6 +1,21 @@
 import { Request, Response } from 'express'
 import * as knowledgeService from '../services/knowledgeService'
 import prisma from '../config/database'
+import type { SpotInput } from '../types/agent'
+
+// 修复 P1-3：白名单字段过滤，防止用户注入额外字段
+const SPOT_WRITE_FIELDS = [
+  'name', 'city', 'category', 'description', 'tags',
+  'avgCost', 'duration', 'openTime', 'rating',
+] as const
+
+function pickSpotFields(body: Record<string, unknown>): SpotInput {
+  const out: Record<string, unknown> = {}
+  for (const k of SPOT_WRITE_FIELDS) {
+    if (k in body) out[k] = body[k]
+  }
+  return out as unknown as SpotInput
+}
 
 export const list = async (req: Request, res: Response) => {
   const city = req.query.city as string | undefined
@@ -28,7 +43,7 @@ export const detail = async (req: Request, res: Response) => {
 
 export const create = async (req: Request, res: Response) => {
   try {
-    const spot = await knowledgeService.createSpot(req.body)
+    const spot = await knowledgeService.createSpot(pickSpotFields(req.body))
     return res.json({ code: 200, data: spot })
   } catch (e) {
     const msg = e instanceof Error ? e.message : '创建失败'
@@ -39,7 +54,7 @@ export const create = async (req: Request, res: Response) => {
 export const update = async (req: Request, res: Response) => {
   const id = Number(req.params.id)
   try {
-    const spot = await knowledgeService.updateSpot(id, req.body)
+    const spot = await knowledgeService.updateSpot(id, pickSpotFields(req.body))
     return res.json({ code: 200, data: spot })
   } catch (e) {
     const msg = e instanceof Error ? e.message : '更新失败'

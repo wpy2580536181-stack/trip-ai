@@ -83,7 +83,26 @@ function extractKeywords(query: string): string[] {
 }
 
 /**
- * MySQL LIKE 关键词检索（参数化查询，防 SQL 注入）
+ * 修复 P2-8：检查 spots 表是否存在 FULLTEXT 索引，结果缓存
+ */
+let fulltextCache: boolean | null = null
+async function hasFulltextIndex(): Promise<boolean> {
+  if (fulltextCache !== null) return fulltextCache
+  try {
+    const rows: Array<{ count: number }> = await prisma.$queryRawUnsafe(
+      `SELECT COUNT(*) AS count FROM information_schema.STATISTICS
+       WHERE table_schema = DATABASE() AND table_name = 'spots' AND index_name = 'ft_name_desc'`,
+    ) as any
+    fulltextCache = (rows[0]?.count ?? 0) > 0
+  } catch {
+    fulltextCache = false
+  }
+  return fulltextCache
+}
+
+/**
+ * MySQL 关键词检索（参数化查询，防 SQL 注入）
+ * 修复 P2-8：优先用 FULLTEXT 索引，索引不存在时回退 LIKE
  */
 async function mysqlKeywordSearch(params: {
   city: string
@@ -94,7 +113,37 @@ async function mysqlKeywordSearch(params: {
   const { city, keywords, category, limit } = params
   if (keywords.length === 0) return []
 
-  // 用 OR 匹配任意关键词，所有值通过 $queryRaw 参数绑定
+  const useFulltext = await hasFulltextIndex()
+
+  if (useFulltext) {
+    // 修复 P2-8：MATCH AGAINST 走 FULLTEXT 索引，性能远超 LIKE
+    const fulltextExpr = keywords
+      .map(() => 'MATCH(name, description) AGAINST (? IN NATURAL LANGUAGE MODE)')
+      .join(' OR ')
+    const fulltextArgs = [...keywords]
+
+    let whereClause = `(${fulltextExpr})`
+    const sqlArgs: string[] = [...fulltextArgs]
+
+    if (category) {
+      whereClause = `city = ? AND category = ? AND ${whereClause}`
+      sqlArgs.unshift(category)
+    }
+    sqlArgs.unshift(city)
+
+    const sql = `SELECT name, description, category, rating FROM spots WHERE city = ? AND ${whereClause} ORDER BY rating DESC LIMIT ?`
+    sqlArgs.push(String(limit))
+
+    try {
+      const results: Array<{ name: string; description: string; category: string; rating: number | null }> =
+        await prisma.$queryRawUnsafe(sql, ...sqlArgs) as any
+      return results.map(r => ({ desc: r.description, name: r.name, category: r.category, rating: r.rating }))
+    } catch (e) {
+      console.warn('[Knowledge] FULLTEXT 查询失败，回退 LIKE:', e instanceof Error ? e.message : e)
+    }
+  }
+
+  // LIKE 回退路径
   const whereParts: string[] = []
   const allArgs: string[] = []
 
@@ -113,10 +162,8 @@ async function mysqlKeywordSearch(params: {
     whereClause = `city = ? AND ${whereClause}`
     sqlArgs = [city, ...sqlArgs]
   }
-
   const sql = `SELECT name, description, category, rating FROM spots WHERE ${whereClause} ORDER BY rating DESC LIMIT ?`
   const args = [...sqlArgs, String(limit)]
-
   const results: Array<{ name: string; description: string; category: string; rating: number | null }> = await prisma.$queryRawUnsafe(sql, ...args) as any
   return results.map(r => ({ desc: r.description, name: r.name, category: r.category, rating: r.rating }))
 }

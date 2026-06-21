@@ -19,16 +19,19 @@ app.use(cors({
 }))
 app.use(express.json())
 
-app.get('/api/test', (req: Request, res: Response) => {
-  res.json({
-    code: 200,
-    message: '后端服务运行正常',
-    data: {
-      time: new Date().toISOString(),
-      env: 'development',
-    },
+// 修复 P2-5：/api/test 仅在非生产环境暴露
+if (process.env.NODE_ENV !== 'production') {
+  app.get('/api/test', (req: Request, res: Response) => {
+    res.json({
+      code: 200,
+      message: '后端服务运行正常',
+      data: {
+        time: new Date().toISOString(),
+        env: process.env.NODE_ENV || 'development',
+      },
+    })
   })
-})
+}
 
 app.use('/api', createLimiter({
   windowMs: 60_000,

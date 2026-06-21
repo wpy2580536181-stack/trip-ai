@@ -107,8 +107,8 @@ class TripService {
   }
 
   async recommend(city: string, budget: number, days: number, userId: number | null = null, departureCity?: string) {
-    if (budget < 50 || days < 1 || days > 30) {
-      throw new Error('预算过低或天数不符合要求')
+    if (budget < 50 || budget > 1_000_000 || days < 1 || days > 30) {
+      throw new Error('预算或天数不符合要求（预算范围 50-1,000,000，天数 1-30）')
     }
 
     const cacheKey = `recommend:${city}:${budget}:${days}:${departureCity ?? 'none'}`

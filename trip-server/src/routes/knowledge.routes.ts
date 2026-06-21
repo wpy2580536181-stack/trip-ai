@@ -1,6 +1,6 @@
 import { Router } from 'express'
 import * as controller from '../controllers/knowledge.controller'
-import { authMiddleware } from '../middleware/auth'
+import { authMiddleware, roleMiddleware } from '../middleware/auth'
 import { createLimiter } from '../middleware/rateLimiter'
 
 const router = Router()
@@ -13,8 +13,9 @@ router.use(createLimiter({
 
 router.get('/spots', controller.list)
 router.get('/spots/:id', controller.detail)
-router.post('/spots', controller.create)
-router.put('/spots/:id', controller.update)
-router.delete('/spots/:id', controller.remove)
+// 修复 P1-3：写操作需要 admin（roleId=1）权限
+router.post('/spots', roleMiddleware(1), controller.create)
+router.put('/spots/:id', roleMiddleware(1), controller.update)
+router.delete('/spots/:id', roleMiddleware(1), controller.remove)
 
 export default router

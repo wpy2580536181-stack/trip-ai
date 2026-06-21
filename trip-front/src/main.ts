@@ -5,6 +5,9 @@ import 'vant/lib/index.css'
 import './style.css'
 import './styles/common.css'
 import App from './App.vue'
+import { checkAndCleanExpiredToken } from './utils/auth'
+
+checkAndCleanExpiredToken()
 
 const app = createApp(App)
 app.use(Vant)

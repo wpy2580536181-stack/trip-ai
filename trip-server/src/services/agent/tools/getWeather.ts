@@ -27,6 +27,14 @@ interface WttrResponse {
   weather: WttrDay[]
 }
 
+// 修复 P2-6：SSRF 防护 — 域名白名单 + 内网地址拒绝
+const ALLOWED_HOST = 'wttr.in'
+const PRIVATE_IP_RE = /^(10\.|172\.(1[6-9]|2\d|3[01])\.|192\.168\.|127\.|0\.0\.0\.0|169\.254\.)/
+
+function isPrivateHost(host: string): boolean {
+  return PRIVATE_IP_RE.test(host) || host === 'localhost'
+}
+
 export const getWeatherTool = withResilience(
   new DynamicStructuredTool({
     name: 'get_weather',
@@ -36,6 +44,26 @@ export const getWeatherTool = withResilience(
     schema: GetWeatherInputSchema,
     func: async (input: z.infer<typeof GetWeatherInputSchema>) => {
       const url = `https://wttr.in/${encodeURIComponent(input.city)}?format=j1`
+
+      // SSRF 防护：先解析 URL 检查 host
+      let parsed: URL
+      try {
+        parsed = new URL(url)
+      } catch {
+        return `${input.city} 的城市名格式无效。`
+      }
+      if (parsed.protocol !== 'https:') {
+        return '仅支持 HTTPS 协议访问天气服务。'
+      }
+      if (parsed.hostname !== ALLOWED_HOST) {
+        console.warn(`[SSRF] getWeather 拒绝非白名单域名：${parsed.hostname}`)
+        return '天气服务域名未授权。'
+      }
+      if (isPrivateHost(parsed.hostname)) {
+        console.warn(`[SSRF] getWeather 拒绝内网地址：${parsed.hostname}`)
+        return '天气服务地址无效。'
+      }
+
       const res = await fetch(url)
       if (!res.ok) {
         return `暂时无法获取 ${input.city} 的天气信息。`

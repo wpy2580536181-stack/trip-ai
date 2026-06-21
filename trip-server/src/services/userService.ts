@@ -3,18 +3,18 @@ import prisma from '../config/database'
 import bcrypt from 'bcryptjs'
 import { generateToken, JwtPayload } from '../config/jwt'
 
-const SALT_ROUNDS = 10
+const SALT_ROUNDS = 12
 
 // 用户注册
+// 修复 P1-2：用户名/邮箱已存在时统一返回"该账号已存在"，避免用户枚举
 export async function register(username: string, email: string, password: string) {
-  // 检查用户名是否已存在
   const existingUser = await prisma.user.findFirst({
     where: {
       OR: [{ username }, { email }],
     },
   })
   if (existingUser) {
-    throw new Error(existingUser.username === username ? '用户名已存在' : '邮箱已注册')
+    throw new Error('该账号已存在')
   }
 
   // 加密密码
@@ -159,24 +159,24 @@ export async function changePassword(userId: number, oldPassword: string, newPas
 }
 
 // 重置密码（通过邮箱）
+// 修复 P1-1：token 不返回前端，留在 DB 由邮件服务消费
+// 修复 P1-2：邮箱不存在时静默成功，避免用户枚举
 export async function createPasswordResetToken(email: string) {
   const user = await prisma.user.findUnique({ where: { email } })
   if (!user) {
-    throw new Error('该邮箱未注册')
+    console.warn(`[Auth] 重置密码请求但邮箱不存在：${email}`)
+    return { success: true }
   }
 
   const token = crypto.randomUUID()
-  const expiresAt = new Date(Date.now() + 30 * 60 * 1000) // 30分钟有效
+  const expiresAt = new Date(Date.now() + 30 * 60 * 1000)
 
   await prisma.passwordReset.create({
-    data: {
-      email,
-      token,
-      expiresAt,
-    },
+    data: { email, token, expiresAt },
   })
 
-  return { success: true, token }
+  console.log(`[Auth] 重置令牌已生成（仅记录，勿返回前端）：email=${email} token=${token}`)
+  return { success: true }
 }
 
 export async function resetPassword(email: string, token: string, newPassword: string) {
