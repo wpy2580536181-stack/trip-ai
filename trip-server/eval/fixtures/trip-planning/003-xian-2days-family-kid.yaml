@@ -1,0 +1,39 @@
+id: xian-2days-family-kid
+description: 西安 2 天带 6 岁小孩，验证短行程 + 亲子适配 + 体力约束
+tags: [xian, family, kid-friendly, short-trip]
+
+input:
+  message: "带 6 岁小孩去西安玩 2 天，想看兵马俑但是怕他累"
+  preferences:
+    travelStyle: family
+    pace: slow
+    interests: [历史, 博物馆]
+    avoidCrowds: true
+  history: []
+
+expected:
+  # 必含：兵马俑是核心
+  must_contain_pois:
+    - { name_contains: "兵马俑", city: "西安" }
+
+  # 关键词：亲子场景常见关切
+  must_contain_keywords: [儿童, 休息, 午休]
+
+  # 反向：不适合小孩的
+  must_not_contain_keywords: [徒步, 登山, 通宵, 夜店]
+
+  days: 2
+  json_valid: true
+
+  # 体力约束：短行程活动数不能太多
+  max_activities_per_day: 3
+
+  tool_calls:
+    - { name: "retrieve_knowledge", min_calls: 1 }
+
+evaluators:
+  - schema_check
+  - poi_city_match
+  - keyword_coverage
+  - pace_consistency
+  - tool_call_audit

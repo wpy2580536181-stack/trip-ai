@@ -1,0 +1,35 @@
+id: multi-turn-detail-question
+description: 多轮对话：第一轮生成行程，第二轮用户问 Day 2 某景点详情
+tags: [multi-turn, context, follow-up]
+
+input:
+  message: "你刚才 Day 2 推荐的西湖游船具体是哪个码头出发？船票多少钱？"
+  history:
+    - { role: user, content: "杭州 2 天行程", timestamp: "2026-06-21T09:00:00Z" }
+    - { role: assistant, content: "Day 1: ..., Day 2: 西湖游船 ...", timestamp: "2026-06-21T09:00:10Z" }
+  preferences:
+    travelStyle: relaxed
+    interests: [自然, 文化]
+
+expected:
+  # 关键：Agent 记得"西湖游船"这个上下文
+  must_contain_keywords: [西湖, 游船, 码头]
+
+  # 细节：船票价格应该有具体数字
+  contains_price_number: true
+
+  # 反向：不该忽略用户问题去重新生成完整行程
+  must_not_contain_keywords: [第1天, 第2天, Day 3, 4天行程, 5天行程]
+
+  # json_valid 可为 false（这是细节问答不是新行程）
+  json_valid: false
+  is_detail_answer: true
+
+  tool_calls:
+    - { name: "retrieve_knowledge", min_calls: 1, max_calls: 2 }
+
+evaluators:
+  - keyword_coverage
+  - context_memory
+  - no_forced_itinerary
+  - tool_call_audit

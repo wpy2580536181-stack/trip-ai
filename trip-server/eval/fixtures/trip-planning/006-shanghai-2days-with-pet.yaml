@@ -1,0 +1,48 @@
+id: shanghai-2days-with-pet
+description: 上海 2 天带中型犬（金毛/柯基），验证 Agent 主动规避宠物禁入场所
+tags: [shanghai, pet-friendly, constraint, edge-case]
+
+input:
+  message: "我带了一只金毛去上海玩 2 天，住在人民广场附近，帮我安排一下"
+  preferences:
+    travelStyle: relaxed
+    pace: slow
+    interests: [自然, 美食]
+  history: []
+
+expected:
+  # 必含 POI：上海宠物友好地标
+  # 模糊匹配 + city 允许省略：可能推荐"外滩"或"外滩源"
+  # 不强制在人民广场（Agent 可能推荐黄浦滨江等更合适宠物的地方）
+  must_contain_pois:
+    - { name_contains: "外滩" }                    # 外滩可带宠物
+    - { name_contains: "滨江", city: "上海" }        # 黄浦/徐汇滨江是宠物聚集地
+
+  # 关键词：用户没明说但 Agent 应该主动提醒
+  must_contain_keywords: [宠物, 牵引绳, 防疫]      # 至少提到宠物相关注意事项
+
+  # 反向：宠物禁入场所
+  must_not_contain_keywords:
+    - 动物园                                # 宠物禁入
+    - 野生动物园
+    - 博物馆                                # 多数博物馆禁宠
+    - 海洋馆
+    - 餐厅                                  # 多数餐厅禁宠（除非宠物友好餐厅）
+    - 酒店                                  # 除非明确宠物酒店
+
+  days: 2
+  json_valid: true
+
+  # 体力约束：金毛需散步，每天应有遛狗时段
+  max_activities_per_day: 4
+
+  tool_calls:
+    - { name: "retrieve_knowledge", min_calls: 1 }
+
+evaluators:
+  - schema_check
+  - poi_city_match
+  - keyword_coverage
+  - pet_constraint_check     # 关键：宠物相关反向断言
+  - pace_consistency
+  - tool_call_audit

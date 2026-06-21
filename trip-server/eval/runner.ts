@@ -1,0 +1,201 @@
+/**
+ * Eval Runner
+ * 加载 fixture → 调 Agent → 跑所有 evaluator → 收集结果
+ *
+ * 阶段：
+ * 1) loadFixtures(): 解析所有 YAML
+ * 2) runAgent(fixture): 调真实 Agent 拿 AgentOutput
+ *    这里是 mock 实现，需要替换为实际 tripService 调用
+ * 3) runFixture(fixture): 跑一个 fixture 的所有 evaluator
+ * 4) runAll(): 跑全部 fixture + 生成报告
+ */
+
+import { readFileSync, readdirSync, statSync } from 'node:fs'
+import { join } from 'node:path'
+import yaml from 'js-yaml'
+
+import type {
+  AgentOutput,
+  EvalResult,
+  Fixture,
+  FixtureResult,
+  ReportSummary,
+} from './types'
+import { getEvaluator } from './registry'
+
+const log = {
+  info: (msg: string, extra?: any) => console.log(`[eval] ${msg}`, extra ?? ''),
+  warn: (msg: string, extra?: any) => console.warn(`[eval] ${msg}`, extra ?? ''),
+  error: (msg: string, extra?: any) => console.error(`[eval] ${msg}`, extra ?? ''),
+}
+
+/* ============================================================
+ * 1. Fixture 加载
+ * ============================================================ */
+
+export function loadFixtures(fixturesDir: string): Fixture[] {
+  const files = readdirSync(fixturesDir).filter((f) => f.endsWith('.yaml') || f.endsWith('.yml'))
+  const fixtures: Fixture[] = []
+
+  for (const file of files) {
+    const fullPath = join(fixturesDir, file)
+    const stat = statSync(fullPath)
+    if (!stat.isFile()) continue
+
+    try {
+      const content = readFileSync(fullPath, 'utf-8')
+      const parsed = yaml.load(content) as Fixture
+      if (!parsed.id || !parsed.input || !parsed.expected) {
+        log.warn(`fixture ${file} 缺少必要字段（id/input/expected），跳过`)
+        continue
+      }
+      fixtures.push(parsed)
+    } catch (e) {
+      log.error(`fixture ${file} 解析失败:`, e)
+    }
+  }
+
+  log.info(`加载了 ${fixtures.length} 个 fixture`)
+  return fixtures
+}
+
+/* ============================================================
+ * 2. 跑单个 fixture
+ * ============================================================ */
+
+export interface RunFixtureOptions {
+  /** mock agent：测试 evaluator 时用，不调真实 LLM */
+  mockAgent?: (fixture: Fixture) => AgentOutput
+  /** 真实 agent：生产 eval 用 */
+  agentFn?: (fixture: Fixture) => Promise<AgentOutput>
+}
+
+export async function runFixture(
+  fixture: Fixture,
+  options: RunFixtureOptions = {},
+): Promise<FixtureResult> {
+  const start = Date.now()
+  const evaluatorResults: Record<string, EvalResult> = {}
+
+  // 1) 拿 Agent 输出
+  let output: AgentOutput | undefined
+  let error: string | undefined
+
+  try {
+    if (options.agentFn) {
+      output = await options.agentFn(fixture)
+    } else if (options.mockAgent) {
+      output = options.mockAgent(fixture)
+    } else {
+      throw new Error('必须提供 mockAgent 或 agentFn')
+    }
+  } catch (e) {
+    error = e instanceof Error ? e.message : String(e)
+    log.error(`fixture ${fixture.id} Agent 调用失败: ${error}`)
+  }
+
+  // 2) 跑每个 evaluator
+  if (output) {
+    for (const name of fixture.evaluators) {
+      const evaluator = getEvaluator(name)
+      if (!evaluator) {
+        evaluatorResults[name] = {
+          pass: false,
+          reason: `evaluator "${name}" 未注册`,
+        }
+        continue
+      }
+      try {
+        evaluatorResults[name] = evaluator(output, fixture)
+      } catch (e) {
+        evaluatorResults[name] = {
+          pass: false,
+          reason: `evaluator "${name}" 抛错: ${e instanceof Error ? e.message : String(e)}`,
+        }
+      }
+    }
+  }
+
+  // 3) 整体 pass = 所有 evaluator 都 pass
+  const pass = Object.values(evaluatorResults).every((r) => r.pass)
+
+  return {
+    fixtureId: fixture.id,
+    description: fixture.description,
+    tags: fixture.tags || [],
+    agentOutput: output,
+    evaluatorResults,
+    pass,
+    durationMs: Date.now() - start,
+    error,
+  }
+}
+
+/* ============================================================
+ * 3. 跑全部 fixture
+ * ============================================================ */
+
+export async function runAll(
+  fixtures: Fixture[],
+  options: RunFixtureOptions = {},
+): Promise<FixtureResult[]> {
+  const results: FixtureResult[] = []
+  for (const f of fixtures) {
+    log.info(`[${f.id}] ${f.description}`)
+    const r = await runFixture(f, options)
+    results.push(r)
+    const status = r.pass ? '✓' : '✗'
+    const failed = Object.entries(r.evaluatorResults)
+      .filter(([, v]) => !v.pass)
+      .map(([k, v]) => `${k}: ${v.reason}`)
+      .join(' | ')
+    log.info(`  ${status} ${r.durationMs}ms${failed ? ` 失败: ${failed}` : ''}`)
+  }
+  return results
+}
+
+/* ============================================================
+ * 4. 报告汇总
+ * ============================================================ */
+
+export function summarize(results: FixtureResult[]): ReportSummary {
+  const total = results.length
+  const passed = results.filter((r) => r.pass).length
+  const totalDuration = results.reduce((s, r) => s + r.durationMs, 0)
+
+  // 按 tag
+  const byTag: ReportSummary['byTag'] = {}
+  for (const r of results) {
+    for (const tag of r.tags.length ? r.tags : ['(untagged)']) {
+      if (!byTag[tag]) byTag[tag] = { total: 0, passed: 0, passRate: 0 }
+      byTag[tag].total += 1
+      if (r.pass) byTag[tag].passed += 1
+    }
+  }
+  for (const tag of Object.keys(byTag)) {
+    byTag[tag].passRate = byTag[tag].total ? byTag[tag].passed / byTag[tag].total : 0
+  }
+
+  // 按 evaluator
+  const byEvaluator: ReportSummary['byEvaluator'] = {}
+  for (const r of results) {
+    for (const [name, evalResult] of Object.entries(r.evaluatorResults)) {
+      if (!byEvaluator[name]) byEvaluator[name] = { total: 0, passed: 0, passRate: 0 }
+      byEvaluator[name].total += 1
+      if (evalResult.pass) byEvaluator[name].passed += 1
+    }
+  }
+  for (const name of Object.keys(byEvaluator)) {
+    byEvaluator[name].passRate = byEvaluator[name].total ? byEvaluator[name].passed / byEvaluator[name].total : 0
+  }
+
+  return {
+    totalFixtures: total,
+    passedFixtures: passed,
+    failedFixtures: total - passed,
+    passRate: total ? passed / total : 0,
+    totalDurationMs: totalDuration,
+    byTag,
+    byEvaluator,
+  }
+}

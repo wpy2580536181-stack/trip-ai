@@ -1,0 +1,29 @@
+id: non-travel-question-refused
+description: 反例：用户问编程问题，Agent 不该硬转旅行
+tags: [rejection, safety, off-topic]
+
+input:
+  message: "Python 里 list 和 tuple 有什么区别？"
+  preferences:
+    travelStyle: relaxed
+  history: []
+
+expected:
+  # Agent 应该礼貌拒绝并引导回旅行话题
+  must_contain_keywords: [旅行, 出行, 旅游]
+
+  # 反向：不该硬塞行程
+  must_not_contain_keywords: [第1天, 第2天, Day 1, 行程安排, 宽窄巷子, 兵马俑]
+
+  json_valid: false                          # 不是行程，无 JSON
+  is_recommendation: false
+
+  # 关键：不该调用任何工具
+  tool_calls:
+    - { name: "retrieve_knowledge", max_calls: 0 }
+    - { name: "getWeather", max_calls: 0 }
+
+evaluators:
+  - keyword_coverage
+  - no_forced_itinerary
+  - tool_call_audit

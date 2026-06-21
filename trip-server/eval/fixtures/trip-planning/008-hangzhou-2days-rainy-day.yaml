@@ -1,0 +1,42 @@
+id: hangzhou-2days-rainy-day
+description: 杭州 2 天突遇持续降雨，验证 Agent 主动调整方案为室内活动
+tags: [hangzhou, weather-adaptation, edge-case]
+
+input:
+  message: "我下周去杭州 2 天，看了天气预报一直下雨，帮我调整成室内为主的方案"
+  preferences:
+    travelStyle: relaxed
+    pace: slow
+    interests: [文化, 美食, 博物馆]
+    avoidCrowds: true
+  history: []
+
+expected:
+  # 必含 POI：杭州室内为主
+  must_contain_pois:
+    - { name_contains: "博物馆" }                    # 浙江省博物馆 / 良渚博物院等
+    - { name_contains: "灵隐寺", city: "杭州" }       # 雨天可去，屋檐下避雨
+
+  # 关键词：Agent 应该主动提到天气应对
+  must_contain_keywords: [雨, 室内, 备选]
+
+  # 反向：露天为主的活动不该是核心
+  # 注意：西湖虽然可雨中游船/漫步，但 Agent 不应把"环湖骑行"作为重点
+  must_not_contain_keywords:
+    - 骑行环湖
+    - 露天
+    - 草坪野餐
+
+  days: 2
+  json_valid: true
+
+  tool_calls:
+    - { name: "getWeather", min_calls: 1 }       # 关键：Agent 应主动查询天气
+    - { name: "retrieve_knowledge", min_calls: 1 }
+
+evaluators:
+  - schema_check
+  - poi_city_match
+  - keyword_coverage
+  - weather_adaptation_check  # 关键：验证天气查询 + 室内调整
+  - tool_call_audit
