@@ -4,6 +4,7 @@
 > 跑测试：`npm test`（单元测试）
 > 跑评估：`npm run eval`（mock）/ `npm run eval:real`（真实）
 > 类型检查：`npm run eval:typecheck`
+> CI：`.github/workflows/eval.yml`（PR 必跑 mock + typecheck；nightly 跑真实）
 
 ---
 
@@ -14,7 +15,26 @@
 - 看到 pass rate 变好/变差 → 决定是否保留改动
 - 线上出问题时 → 加 fixture → 修 agent → 跑 eval 验证
 
-## 2. 架构
+## 2. 真实生产数据
+
+截至 2026-06-21，**单采样 50-70% / 三采样多数 60-70% 通过**：
+
+| Fixture | 类型 | 通过率 |
+|---|---|---|
+| chengdu-3days-foodie-relaxed | 典型 | 100% |
+| xian-2days-family-kid | 典型 | 90% |
+| multi-turn-destination-change | 多轮 | 100% |
+| non-travel-question-refused | 反例 | 100% |
+| multi-turn-detail-question | 多轮 | 70% |
+| rejection-no-trip-output | 反例 | 60% |
+| hangzhou-2days-rainy-day | 约束 | 70% |
+| beijing-3days-halal-vegetarian | 约束 | 60% |
+| shanghai-2days-with-pet | 约束 | 50% |
+| tokyo-5days-budget-tight | 典型 | 0% (fixture 期望过严) |
+
+LLM 波动不可避免。**重要规则**：改完 agent 跑 3 次，多数决定去留。
+
+## 3. 架构
 
 ```
 fixtures/*.yaml          静态测试用例（10 个）
@@ -28,7 +48,7 @@ evaluators/*.ts           13 个评分函数
 report                    按 tag / evaluator 维度汇总
 ```
 
-## 3. Fixture 设计
+## 4. Fixture 设计
 
 10 个 fixture 覆盖 4 类场景：
 
@@ -76,7 +96,7 @@ expected:
 evaluators: [schema_check, poi_city_match, keyword_coverage, ...]
 ```
 
-## 4. Evaluator 列表
+## 5. Evaluator 列表
 
 | 名称 | 类别 | 验证什么 |
 |---|---|---|
@@ -94,7 +114,7 @@ evaluators: [schema_check, poi_city_match, keyword_coverage, ...]
 | `context_memory` | 多轮 | 记得上文关键信息 |
 | `no_forced_itinerary` | 反例 | 不该硬塞具体行程 |
 
-## 5. 周边城市判定（100km）
+## 6. 周边城市判定（100km）
 
 `eval/geo.ts` 维护了 ~50 个城市坐标 + Haversine 距离计算。
 判定规则：**直线距离 ≤ 100km 视为周边**。
@@ -108,7 +128,7 @@ evaluators: [schema_check, poi_city_match, keyword_coverage, ...]
 > 注：成都/西安等内陆旅游城市的"100km 周边"通常没热门城市，
 > 长安到华山 120km 不算周边——按真实地理划分。
 
-## 6. 使用
+## 7. 使用
 
 ### 6.1 跑全部 fixture
 
@@ -159,7 +179,7 @@ npm run eval -- --tag multi-turn
 npm run eval:real
 ```
 
-## 7. 添加新 fixture
+## 8. 添加新 fixture
 
 ```yaml
 # fixtures/trip-planning/011-my-new-test.yaml
@@ -184,7 +204,7 @@ expected:
 evaluators: [schema_check, ...]
 ```
 
-## 8. 添加新 evaluator
+## 9. 添加新 evaluator
 
 1. 在 `eval/evaluators/{general,domain,multi-turn}.ts` 加函数
 2. 函数签名 `(output: AgentOutput, fixture: Fixture) => EvalResult`
@@ -193,7 +213,7 @@ evaluators: [schema_check, ...]
 5. 跑 `npx vitest run eval/__tests__/evaluators.test.ts` 验证
 6. 跑 `npm run eval:typecheck` 验证类型
 
-## 9. 单元测试
+## 10. 单元测试
 
 ```bash
 npx vitest run eval/__tests__/evaluators.test.ts
@@ -204,18 +224,21 @@ npx vitest run eval/__tests__/evaluators.test.ts
 - 边界条件（空字符串、缺字段、未注册城市）
 - 集成（schema + 周边城市 + 跨 evaluator 协作）
 
-## 10. 扩展路线
+## 11. 扩展路线
 
 ### MVP（已交付）
 - ✅ 10 fixture + 13 evaluator
 - ✅ mock agent 跑通闭环
-- ✅ 单元测试 53 个全过
+- ✅ 单元测试 56 个全过
 - ✅ TypeScript 严格类型
+- ✅ **真实 agent 接入**（HTTP 调 /api/trip/chat + SSE 解析 + 重试）
+- ✅ **CI 集成**（GitHub Actions：PR 跑 mock + typecheck，nightly 跑真实）
+- ✅ **多采样多数投票**（`--samples 3`，抗 LLM 波动）
+- ✅ **报告存档**（`eval-reports/YYYY-MM-DD_HH-MM-SS_*.json`）
 
 ### 第二阶段
-- ⏳ 实现 `buildRealAgent`（调 `/api/trip/chat` 流式接口）
-- ⏳ 接入 DeepSeek/AGNES 真实模型
-- ⏳ 收集 token 用量 / 响应时长
+- ✅ 接入 DeepSeek/AGNES 真实模型（5-7/10 pass）
+- ⏳ 收集 token 用量 / 响应时长（需要后端 SSE 加 usage 字段）
 
 ### 第三阶段
 - ⏳ LLM-as-Judge（用 GPT-4 给 5 分制打分）
@@ -225,9 +248,52 @@ npx vitest run eval/__tests__/evaluators.test.ts
 ### 第四阶段
 - ⏳ 接入 LangSmith / LangFuse
 - ⏳ 自动 trace 每次 agent 执行
-- ⏳ CI/CD：每次 PR 自动跑 eval
 
-## 11. 文件清单
+## 12. 多采样 / 报告 / CI
+
+### 12.1 多采样多数投票
+
+LLM 行为有波动（同一问题不同时间答案可能不同）。改完 agent 跑 3 次取多数：
+
+```bash
+EVAL_DELAY_MS=5000 npm run eval:real -- --samples 3
+```
+
+实现：`runner.ts` 的 `samples` 参数。evaluator 在每个 sample 上跑一遍，**多数**决定 pass/fail。
+报告里 `details: { passCount, totalSamples, perSample }` 可看具体每次结果。
+
+**token 成本**：3 采样 = 3 倍 token。注意 token budget 限制（5万/小时）。
+建议：单采样先看，3 采样用于 PR/release 决策。
+
+### 12.2 报告存档
+
+```bash
+EVAL_SAVE=1 npm run eval:real              # 保存到 eval-reports/
+EVAL_SAVE=1 npm run eval:real -- --samples 3
+```
+
+文件格式 `eval-reports/YYYY-MM-DD_HH-MM-SS_{real|mock}_s{N}.json`。
+详见 `eval-reports/README.md`（jq 查历史 pass rate、最常失败 fixture）。
+
+### 12.3 CI 集成
+
+`.github/workflows/eval.yml`：
+
+- **PR + main 推送**：跑 `tsc --noEmit` + `tsc eval:typecheck` + `vitest` + `npm run eval`（mock）
+- **每周日 02:00 UTC**：nightly 跑真实 eval（需 secrets `DEEPSEEK_API_KEY`）
+- **失败阻塞 merge**：mock eval 失败 → PR 红 ×
+- **report artifact**：nightly 报告上传 GitHub Actions，保留 90 天
+
+### 12.4 修过的真实问题（2026-06-21）
+
+跑真实 eval 暴露的 4 个真实 bug：
+
+1. **hangzhou-rainy 不调 getWeather** — systemPrompt 加"用户提天气必须调 get_weather"
+2. **beijing-halal "无猪肉" 被误判** — evaluator 加"避免语境"识别（"无/不/避免/已排除"前后文）
+3. **shanghai-pet 推美术馆** — systemPrompt 加"宠物避雷"提示
+4. **工具名大小写不匹配**（getWeather vs get_weather）— toolCallAudit 改大小写不敏感
+
+## 13. 文件清单
 
 | 文件 | 作用 |
 |---|---|

@@ -375,6 +375,31 @@ describe('dietaryConstraintCheck', () => {
     const r = dietaryConstraintCheck(out, f)
     expect(r.pass).toBe(false)
   })
+
+  it('用户说清真 + Agent 在避免语境提"猪肉"（"无猪肉"/"避免猪肉"）→ pass', () => {
+    const f = makeFixture({ input: { message: '我是穆斯林，3 天北京' } })
+    const out = makeOutput({
+      text: '行程承诺全程无猪肉、避免猪肉相关推荐，只去清真餐厅。',
+    })
+    const r = dietaryConstraintCheck(out, f)
+    expect(r.pass).toBe(true)
+  })
+
+  it('用户说清真 + Agent 混合"推荐清真"+ 顺带提"避免猪肉" → pass', () => {
+    const f = makeFixture({ input: { message: '我是穆斯林，3 天北京' } })
+    const out = makeOutput({
+      text: '推荐牛街清真餐厅、鸿宾楼。已避免猪肉相关。',
+    })
+    expect(dietaryConstraintCheck(out, f).pass).toBe(true)
+  })
+
+  it('用户说清真 + Agent 提"全聚德已排除" → pass', () => {
+    const f = makeFixture({ input: { message: '我是穆斯林，3 天北京' } })
+    const out = makeOutput({
+      text: '推荐牛街清真餐厅。⚠️ 注意：四季民福、全聚德等烤鸭店未标注清真，我已帮你排除。',
+    })
+    expect(dietaryConstraintCheck(out, f).pass).toBe(true)
+  })
 })
 
 /* ============================================================

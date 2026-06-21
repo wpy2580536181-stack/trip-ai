@@ -22,6 +22,7 @@
  */
 
 import { join } from 'node:path'
+import { writeFileSync, mkdirSync } from 'node:fs'
 import chalk from 'chalk'
 
 import { loadFixtures, runAll, runFixture, summarize } from './runner'
@@ -31,11 +32,12 @@ import type { AgentOutput, Fixture } from './types'
 
 const FIXTURES_DIR = join(__dirname, 'fixtures', 'trip-planning')
 
-function parseArgs(): { ids: string[]; tags: string[]; realMode: boolean } {
+function parseArgs(): { ids: string[]; tags: string[]; realMode: boolean; samples: number } {
   const args = process.argv.slice(2)
   const ids: string[] = []
   const tags: string[] = []
   let realMode = false
+  let samples = 1
 
   for (let i = 0; i < args.length; i++) {
     const a = args[i]
@@ -45,12 +47,14 @@ function parseArgs(): { ids: string[]; tags: string[]; realMode: boolean } {
       ids.push(args[++i])
     } else if (a === '--tag' && args[i + 1]) {
       tags.push(args[++i])
+    } else if (a === '--samples' && args[i + 1]) {
+      samples = Math.max(1, Number(args[++i]) || 1)
     } else if (a === '--help' || a === '-h') {
       printHelp()
       process.exit(0)
     }
   }
-  return { ids, tags, realMode }
+  return { ids, tags, realMode, samples }
 }
 
 function printHelp() {
@@ -58,10 +62,19 @@ function printHelp() {
 Usage: npm run eval [options]
 
 Options:
-  --real               Run against real agent (requires backend running)
-  --id <fixture-id>    Run a specific fixture
-  --tag <tag>          Run fixtures with specific tag (can repeat)
-  -h, --help           Show this help
+  --real                  Run against real agent (requires backend running)
+  --id <fixture-id>       Run a specific fixture
+  --tag <tag>             Run fixtures with specific tag (can repeat)
+  --samples <N>           Run N samples per fixture, take majority (default 1)
+  -h, --help              Show this help
+
+Environment:
+  EVAL_BASE_URL           Default http://127.0.0.1:3000
+  EVAL_USERNAME           Default eval-test
+  EVAL_PASSWORD           Default EvalTest@2026
+  EVAL_TIMEOUT_MS         Default 90000
+  EVAL_DELAY_MS           Default 2000
+  EVAL_DEBUG=1            Print raw agent output
 `)
 }
 
@@ -74,11 +87,12 @@ function filterFixtures(fixtures: Fixture[], ids: string[], tags: string[]): Fix
 }
 
 async function main() {
-  const { ids, tags, realMode } = parseArgs()
+  const { ids, tags, realMode, samples } = parseArgs()
 
   console.log(chalk.bold.cyan('\n=== Trip Agent Eval ===\n'))
   console.log(chalk.gray(`fixtures: ${FIXTURES_DIR}`))
   console.log(chalk.gray(`mode: ${realMode ? 'REAL agent' : 'MOCK agent'}`))
+  console.log(chalk.gray(`samples: ${samples} (${samples > 1 ? 'majority vote' : 'single'})`))
   console.log(chalk.gray(`registered evaluators: ${listEvaluators().length} (${listEvaluators().join(', ')})\n`))
 
   let fixtures: Fixture[]
@@ -103,6 +117,7 @@ async function main() {
     mockAgent: realMode ? undefined : buildMockAgent(),
     agentFn: realMode && realAgent ? (f) => realAgent.run(f) : undefined,
     onAfterFixture: realAgent ? () => realAgent.delay() : undefined,
+    samples,
   })
 
   // Debug 模式：打印原始 agent 输出
@@ -176,8 +191,47 @@ async function main() {
     }
   }
 
+  // 保存报告
+  if (process.env.EVAL_SAVE === '1' || process.argv.includes('--save')) {
+    saveReport(summary, results, { realMode, samples })
+  }
+
   console.log()
   process.exit(summary.failedFixtures === 0 ? 0 : 1)
+}
+
+function saveReport(
+  summary: import('./runner').ReportSummary,
+  results: import('./runner').FixtureResult[],
+  meta: { realMode: boolean; samples: number },
+) {
+  const dir = join(__dirname, '..', 'eval-reports')
+  mkdirSync(dir, { recursive: true })
+  const now = new Date()
+  const date = now.toISOString().slice(0, 10)
+  const time = now.toISOString().slice(11, 19).replace(/:/g, '-')
+  const filename = `${date}_${time}_${meta.realMode ? 'real' : 'mock'}_s${meta.samples}.json`
+  const filepath = join(dir, filename)
+
+  const report = {
+    timestamp: now.toISOString(),
+    mode: meta.realMode ? 'real' : 'mock',
+    samples: meta.samples,
+    summary,
+    fixtures: results.map((r) => ({
+      id: r.fixtureId,
+      description: r.description,
+      tags: r.tags,
+      pass: r.pass,
+      durationMs: r.durationMs,
+      error: r.error,
+      evaluators: Object.fromEntries(
+        Object.entries(r.evaluatorResults).map(([k, v]) => [k, { pass: v.pass, reason: v.reason }]),
+      ),
+    })),
+  }
+  writeFileSync(filepath, JSON.stringify(report, null, 2), 'utf-8')
+  console.log(chalk.gray(`\n报告已保存: eval-reports/${filename}`))
 }
 
 /* ============================================================

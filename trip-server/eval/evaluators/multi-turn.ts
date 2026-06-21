@@ -111,17 +111,15 @@ export function contextMemory(output: AgentOutput, fixture: Fixture): EvalResult
  *
  * 检测：
  * 1) output.json 是 null 或 days 为空（不是硬塞的行程）
- * 2) output.text 不含"Day 1" / "第1天" / "Day 2" 等结构化行程词
+ * 2) output.text 不含"Day 1" / "第1天" 等**带数字**的行程词
+ *    （裸"上午/晚上"不算硬塞——可能是描述景点特色）
  * 3) 必不含 must_not_contain_keywords 里的硬塞关键词
  * ============================================================ */
 const ITINERARY_HARDCODE_PATTERNS = [
   /第\s*\d+\s*天/,
   /Day\s*\d+/i,
+  /D\d+/i,
   /行程安排[:：]/,
-  /早上[:：]?\s*[\u4e00-\u9fa5]/,
-  /上午[:：]?\s*[\u4e00-\u9fa5]/,
-  /下午[:：]?\s*[\u4e00-\u9fa5]/,
-  /晚上[:：]?\s*[\u4e00-\u9fa5]/,
 ]
 
 export function noForcedItinerary(output: AgentOutput, fixture: Fixture): EvalResult {

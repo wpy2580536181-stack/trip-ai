@@ -70,6 +70,13 @@ export interface RunFixtureOptions {
   agentFn?: (fixture: Fixture) => Promise<AgentOutput>
   /** fixture 完成后调用（用来加间隔） */
   onAfterFixture?: (fixture: Fixture) => Promise<void> | void
+  /**
+   * 多采样：跑 N 次取多数
+   * mock 模式无效（每次结果相同）
+   * 真实模式：能降低 LLM 波动，但耗 token ×N
+   * 默认 1（单次），建议真实模式用 3
+   */
+  samples?: number
 }
 
 export async function runFixture(
@@ -77,51 +84,95 @@ export async function runFixture(
   options: RunFixtureOptions = {},
 ): Promise<FixtureResult> {
   const start = Date.now()
+  const samples = Math.max(1, options.samples ?? 1)
   const evaluatorResults: Record<string, EvalResult> = {}
+  const allOutputs: AgentOutput[] = []
+  let lastError: string | undefined
 
-  // 1) 拿 Agent 输出
-  let output: AgentOutput | undefined
-  let error: string | undefined
+  // 1) 拿 Agent 输出（多采样）
+  for (let s = 0; s < samples; s++) {
+    let output: AgentOutput | undefined
+    let error: string | undefined
 
-  try {
-    if (options.agentFn) {
-      output = await options.agentFn(fixture)
-    } else if (options.mockAgent) {
-      output = options.mockAgent(fixture)
-    } else {
-      throw new Error('必须提供 mockAgent 或 agentFn')
-    }
-  } catch (e) {
-    error = e instanceof Error ? e.message : String(e)
-    log.error(`fixture ${fixture.id} Agent 调用失败: ${error}`)
-  }
-
-  // 1.5) fixture 完成后钩子（RealAgent 用它做间隔）
-  if (options.onAfterFixture) {
     try {
-      await options.onAfterFixture(fixture)
+      if (options.agentFn) {
+        output = await options.agentFn(fixture)
+      } else if (options.mockAgent) {
+        output = options.mockAgent(fixture)
+      } else {
+        throw new Error('必须提供 mockAgent 或 agentFn')
+      }
     } catch (e) {
-      log.warn(`onAfterFixture 钩子失败: ${e instanceof Error ? e.message : e}`)
+      error = e instanceof Error ? e.message : String(e)
+      log.error(`fixture ${fixture.id} 第 ${s + 1} 次 Agent 调用失败: ${error}`)
     }
+
+    if (output) allOutputs.push(output)
+    if (error) lastError = error
+
+    // 1.5) fixture 完成后钩子（RealAgent 用它做间隔）
+    if (options.onAfterFixture) {
+      try {
+        await options.onAfterFixture(fixture)
+      } catch (e) {
+        log.warn(`onAfterFixture 钩子失败: ${e instanceof Error ? e.message : e}`)
+      }
+    }
+
+    if (samples > 1) log.info(`  [${fixture.id}] sample ${s + 1}/${samples} 完成`)
   }
 
-  // 2) 跑每个 evaluator
-  if (output) {
+  const output = allOutputs[0]  // 主输出（用于 report）
+  const error = lastError
+
+  // 多采样：每个 evaluator 跑 N 次，**多数**决定 pass/fail
+  if (samples > 1 && allOutputs.length > 0) {
     for (const name of fixture.evaluators) {
       const evaluator = getEvaluator(name)
       if (!evaluator) {
-        evaluatorResults[name] = {
-          pass: false,
-          reason: `evaluator "${name}" 未注册`,
-        }
+        evaluatorResults[name] = { pass: false, reason: `evaluator "${name}" 未注册` }
         continue
       }
-      try {
-        evaluatorResults[name] = evaluator(output, fixture)
-      } catch (e) {
-        evaluatorResults[name] = {
-          pass: false,
-          reason: `evaluator "${name}" 抛错: ${e instanceof Error ? e.message : String(e)}`,
+      const perSample: EvalResult[] = []
+      for (const o of allOutputs) {
+        try {
+          perSample.push(evaluator(o, fixture))
+        } catch (e) {
+          perSample.push({
+            pass: false,
+            reason: `evaluator "${name}" 抛错: ${e instanceof Error ? e.message : String(e)}`,
+          })
+        }
+      }
+      const passCount = perSample.filter((r) => r.pass).length
+      const majority = passCount > perSample.length / 2
+      evaluatorResults[name] = {
+        pass: majority,
+        reason: majority
+          ? undefined
+          : perSample.find((r) => !r.pass)?.reason || `${passCount}/${perSample.length} 样本失败`,
+        details: { passCount, totalSamples: perSample.length, perSample },
+      }
+    }
+  } else {
+    // 2) 跑每个 evaluator（单采样）
+    if (output) {
+      for (const name of fixture.evaluators) {
+        const evaluator = getEvaluator(name)
+        if (!evaluator) {
+          evaluatorResults[name] = {
+            pass: false,
+            reason: `evaluator "${name}" 未注册`,
+          }
+          continue
+        }
+        try {
+          evaluatorResults[name] = evaluator(output, fixture)
+        } catch (e) {
+          evaluatorResults[name] = {
+            pass: false,
+            reason: `evaluator "${name}" 抛错: ${e instanceof Error ? e.message : String(e)}`,
+          }
         }
       }
     }

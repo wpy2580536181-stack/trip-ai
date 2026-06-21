@@ -229,7 +229,14 @@ export function keywordCoverage(output: AgentOutput, fixture: Fixture): EvalResu
 /* ============================================================
  * 4. tool_call_audit
  * 验证工具调用 min_calls / max_calls 合规
+ *
+ * 工具名匹配：大小写不敏感 + 容许下划线/驼峰互换
+ * （fixture 写 "getWeather" 实际工具名可能是 "get_weather"）
  * ============================================================ */
+function normalizeToolName(name: string): string {
+  return name.toLowerCase().replace(/[_-]/g, '')
+}
+
 export function toolCallAudit(output: AgentOutput, fixture: Fixture): EvalResult {
   const rules = fixture.expected.tool_calls
   if (!rules || rules.length === 0) {
@@ -240,7 +247,8 @@ export function toolCallAudit(output: AgentOutput, fixture: Fixture): EvalResult
   const violations: string[] = []
 
   for (const rule of rules) {
-    const count = calls.filter((c) => c.name === rule.name).length
+    const ruleName = normalizeToolName(rule.name)
+    const count = calls.filter((c) => normalizeToolName(c.name) === ruleName).length
     if (rule.min_calls !== undefined && count < rule.min_calls) {
       violations.push(`${rule.name} 调用 ${count} 次 < 至少 ${rule.min_calls} 次`)
     }

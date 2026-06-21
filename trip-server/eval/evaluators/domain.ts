@@ -134,13 +134,36 @@ export function dietaryConstraintCheck(output: AgentOutput, fixture: Fixture): E
   const text = output.text
   const violations: string[] = []
 
+  /**
+   * 检查某个 banned 关键词是否在"避免/无/不"语境中出现
+   * （"无猪肉"、"不推荐猪肉"、"避免猪肉"、"全聚德已排除" 都是合规的）
+   * 算法：找该词在 text 里所有出现位置，每个位置前后 16 个字内
+   *       出现 [无, 不, 没, 避免, 拒绝, 排除, 慎, 已帮你排除, 已排除] 视为"避免语境"
+   */
+  function isInAvoidanceContext(keyword: string): boolean {
+    const negationWords = ['无', '不', '没', '避免', '拒绝', '排除', '慎', '禁', '已帮你排除', '已排除', '未标注', '未推荐']
+    let idx = 0
+    while ((idx = text.indexOf(keyword, idx)) !== -1) {
+      // 向后多看 16 字（兼容"全聚德等烤鸭店已帮你排除"）
+      const ctx = text.slice(Math.max(0, idx - 8), idx + keyword.length + 24)
+      if (negationWords.some((neg) => ctx.includes(neg))) {
+        return true
+      }
+      idx += keyword.length
+    }
+    return false
+  }
+
   for (const key of detected) {
     const rule = DIETARY_RULES[key]
     const hasRequired = rule.required.some((kw) => text.includes(kw))
     if (!hasRequired) {
       violations.push(`未明确提到"${rule.label}"相关（缺少：${rule.required.join('/')}）`)
     }
-    const bannedHit = rule.banned.filter((kw) => text.includes(kw))
+    // 排除"避免"语境（"无猪肉" "避免猪肉" 都不是推荐猪肉）
+    const bannedHit = rule.banned.filter(
+      (kw) => text.includes(kw) && !isInAvoidanceContext(kw),
+    )
     if (bannedHit.length > 0) {
       violations.push(`行程含 ${rule.label} 禁忌食材：${bannedHit.join(', ')}`)
     }
@@ -192,9 +215,12 @@ export function weatherAdaptationCheck(output: AgentOutput, fixture: Fixture): E
     violations.push(`推荐了露天活动（与天气不符）：${badHit.join(', ')}`)
   }
 
-  // 3. 应调用 getWeather 工具
+  // 3. 应调用 getWeather 工具（容许 get_weather / getWeather 大小写差异）
   const calls = output.toolCalls || []
-  const weatherCall = calls.find((c) => c.name === 'getWeather')
+  const weatherCall = calls.find((c) => {
+    const n = c.name.toLowerCase().replace(/[_-]/g, '')
+    return n === 'getweather'
+  })
   if (!weatherCall) {
     violations.push('未调用 getWeather 工具查询实际天气')
   }
