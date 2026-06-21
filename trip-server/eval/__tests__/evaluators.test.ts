@@ -342,15 +342,15 @@ describe('petConstraintCheck', () => {
     expect(r.reason).toContain('动物园')
   })
 
-  it('JSON 里推荐了博物馆 → fail', () => {
+  it('JSON 里推荐了美术馆 → fail', () => {
     const f = makeFixture({ input: { message: '我带金毛去上海 2 天' } })
     const out = makeOutput({
       text: '请牵好牵引绳',
-      json: { city: '上海', dailyItinerary: [{ day: 1, morning: { spot: '上海博物馆' } }] },
+      json: { city: '上海', dailyItinerary: [{ day: 1, morning: { spot: '上海美术馆' } }] },
     })
     const r = petConstraintCheck(out, f)
     expect(r.pass).toBe(false)
-    expect(r.reason).toContain('博物馆')
+    expect(r.reason).toContain('美术馆')
   })
 })
 

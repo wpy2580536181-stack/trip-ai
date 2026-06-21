@@ -15,6 +15,7 @@
     "migrate": "npx prisma db push",
     "eval": "ts-node --project tsconfig.eval.json eval/run.ts",
     "eval:real": "ts-node --project tsconfig.eval.json eval/run.ts --real",
+    "eval:cleanup": "ts-node --project tsconfig.eval.json eval/cleanup.ts",
     "eval:typecheck": "tsc --project tsconfig.eval.json --noEmit"
   },
   "keywords": [],

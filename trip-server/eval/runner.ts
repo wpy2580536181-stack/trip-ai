@@ -68,6 +68,8 @@ export interface RunFixtureOptions {
   mockAgent?: (fixture: Fixture) => AgentOutput
   /** 真实 agent：生产 eval 用 */
   agentFn?: (fixture: Fixture) => Promise<AgentOutput>
+  /** fixture 完成后调用（用来加间隔） */
+  onAfterFixture?: (fixture: Fixture) => Promise<void> | void
 }
 
 export async function runFixture(
@@ -92,6 +94,15 @@ export async function runFixture(
   } catch (e) {
     error = e instanceof Error ? e.message : String(e)
     log.error(`fixture ${fixture.id} Agent 调用失败: ${error}`)
+  }
+
+  // 1.5) fixture 完成后钩子（RealAgent 用它做间隔）
+  if (options.onAfterFixture) {
+    try {
+      await options.onAfterFixture(fixture)
+    } catch (e) {
+      log.warn(`onAfterFixture 钩子失败: ${e instanceof Error ? e.message : e}`)
+    }
   }
 
   // 2) 跑每个 evaluator

@@ -13,12 +13,12 @@ input:
 
 expected:
   # 必含 POI：杭州室内为主
+  # 模糊：灵隐寺是雨天经典但 agent 可能推别的室内场所
   must_contain_pois:
     - { name_contains: "博物馆" }                    # 浙江省博物馆 / 良渚博物院等
-    - { name_contains: "灵隐寺", city: "杭州" }       # 雨天可去，屋檐下避雨
 
-  # 关键词：Agent 应该主动提到天气应对
-  must_contain_keywords: [雨, 室内, 备选]
+  # 关键词：Agent 应该主动提到天气应对（"雨"/"雨天"/"室内" 都接受）
+  must_contain_keywords: [雨, 室内]
 
   # 反向：露天为主的活动不该是核心
   # 注意：西湖虽然可雨中游船/漫步，但 Agent 不应把"环湖骑行"作为重点

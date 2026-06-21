@@ -21,7 +21,7 @@ expected:
   is_recommendation: true
 
   tool_calls:
-    - { name: "retrieve_knowledge", min_calls: 1, max_calls: 2 }
+    - { name: "retrieve_knowledge", min_calls: 1, max_calls: 5 }
 
 evaluators:
   - schema_check

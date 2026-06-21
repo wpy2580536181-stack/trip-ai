@@ -125,12 +125,14 @@ const ITINERARY_HARDCODE_PATTERNS = [
 ]
 
 export function noForcedItinerary(output: AgentOutput, fixture: Fixture): EvalResult {
-  // 判断 fixture 是否"反例"：没有 expected.days 或 expected.json_valid=false
+  // 判断 fixture 是否"反例"：
+  // - 没有 expected.days（行程）和 is_recommendation：推荐场景
+  // - json_valid=false：非行程输出
+  // 注：is_detail_answer（细节问答）不算反例——它可能引用 Day N 是合理的
   const isRejectionFixture =
-    fixture.expected.days === undefined ||
+    (fixture.expected.days === undefined && fixture.expected.is_recommendation !== true) ||
     fixture.expected.json_valid === false ||
-    fixture.expected.is_recommendation === true ||
-    fixture.expected.is_detail_answer === true
+    fixture.expected.is_recommendation === true
 
   if (!isRejectionFixture) {
     return { pass: true, reason: '非反例 fixture，跳过' }

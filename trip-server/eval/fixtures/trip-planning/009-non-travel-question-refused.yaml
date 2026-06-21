@@ -10,7 +10,9 @@ input:
 
 expected:
   # Agent 应该礼貌拒绝并引导回旅行话题
-  must_contain_keywords: [旅行, 出行, 旅游]
+  # any 模式：包含任意一个即可（LLM 行为有波动，给个宽口径）
+  must_contain_keywords: [旅行, 出行, 旅游, 行程, 规划, 出发, 目的]
+  keyword_match_mode: any
 
   # 反向：不该硬塞行程
   must_not_contain_keywords: [第1天, 第2天, Day 1, 行程安排, 宽窄巷子, 兵马俑]

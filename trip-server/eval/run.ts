@@ -3,10 +3,17 @@
  * Eval 入口
  *
  * 用法：
- *   npm run eval                         # 跑全部 fixture（mock 模式，不调真实 LLM）
- *   npm run eval -- --real               # 跑全部 fixture（真实 agent，需启动后端）
- *   npm run eval -- --id 001-chengdu-3days  # 跑指定 fixture
- *   npm run eval -- --tag multi-turn     # 跑指定 tag
+ *   npm run eval                         # mock 模式
+ *   npm run eval:real                    # 真实 agent（需启动后端 + eval-test 账号）
+ *   npm run eval:real -- --id 001        # 跑指定
+ *   npm run eval:real -- --tag multi-turn # 跑指定 tag
+ *   npm run eval:cleanup                 # 清理 eval-test 账号所有数据
+ *
+ * 真实模式环境变量：
+ *   EVAL_BASE_URL    默认 http://127.0.0.1:3000
+ *   EVAL_USERNAME    默认 eval-test
+ *   EVAL_PASSWORD    默认 EvalTest@2026
+ *   EVAL_TIMEOUT_MS  默认 90000
  *
  * 退出码：
  *   0 = 全部通过
@@ -19,7 +26,8 @@ import chalk from 'chalk'
 
 import { loadFixtures, runAll, runFixture, summarize } from './runner'
 import { listEvaluators } from './registry'
-import type { Fixture } from './types'
+import { RealAgent } from './real-agent'
+import type { AgentOutput, Fixture } from './types'
 
 const FIXTURES_DIR = join(__dirname, 'fixtures', 'trip-planning')
 
@@ -89,10 +97,40 @@ async function main() {
   console.log(chalk.gray(`将跑 ${filtered.length}/${fixtures.length} 个 fixture\n`))
 
   // 跑
+  const debug = process.env.EVAL_DEBUG === '1'
+  const realAgent = realMode ? buildRealAgent() : null
   const results = await runAll(filtered, {
     mockAgent: realMode ? undefined : buildMockAgent(),
-    agentFn: realMode ? buildRealAgent() : undefined,
+    agentFn: realMode && realAgent ? (f) => realAgent.run(f) : undefined,
+    onAfterFixture: realAgent ? () => realAgent.delay() : undefined,
   })
+
+  // Debug 模式：打印原始 agent 输出
+  if (debug) {
+    console.log(chalk.bold('\n=== DEBUG: 原始 Agent 输出 ===\n'))
+    for (const r of results) {
+      console.log(chalk.bold(`[${r.fixtureId}]`))
+      if (r.agentOutput?.text) {
+        console.log(chalk.gray('--- text 前 500 字 ---'))
+        console.log(r.agentOutput.text.slice(0, 500))
+        console.log(chalk.gray('--- text 后 500 字 ---'))
+        console.log(r.agentOutput.text.slice(-500))
+      }
+      if (r.agentOutput?.json) {
+        console.log(chalk.gray('--- json ---'))
+        console.log(JSON.stringify(r.agentOutput.json, null, 2).slice(0, 800))
+      }
+      if (r.agentOutput?.toolCalls) {
+        console.log(chalk.gray('--- toolCalls ---'))
+        console.log(JSON.stringify(r.agentOutput.toolCalls, null, 2))
+      }
+      if (r.agentOutput?.error) {
+        console.log(chalk.red('--- error ---'))
+        console.log(r.agentOutput.error)
+      }
+      console.log()
+    }
+  }
 
   // 汇总
   const summary = summarize(results)
@@ -215,17 +253,20 @@ function extractCityFromMessage(message: string): string | null {
   return null
 }
 
-function buildRealAgent() {
-  return async (fixture: import('./types').Fixture): Promise<import('./types').AgentOutput> => {
-    // 真实 agent 调用走这里——调 tripService 的 chat 接口
-    // TODO: 实际实现里需要：
-    //   1) 启动后端服务（或要求用户先启动）
-    //   2) 用 admin 账号登录拿 token
-    //   3) POST /api/trip/chat 带 fixture.input
-    //   4) 收集 SSE 流
-    //   5) 提取 toolCalls / tokens / duration
-    throw new Error('buildRealAgent 尚未实现——需先实现 Agent 调用层')
-  }
+function buildRealAgent(): RealAgent {
+  const baseUrl = process.env.EVAL_BASE_URL || 'http://127.0.0.1:3000'
+  const username = process.env.EVAL_USERNAME || 'eval-test'
+  const password = process.env.EVAL_PASSWORD || 'EvalTest@2026'
+  const timeoutMs = Number(process.env.EVAL_TIMEOUT_MS) || 90000
+  const delayBetweenMs = Number(process.env.EVAL_DELAY_MS) || 2000
+
+  console.log(chalk.gray(`  baseUrl: ${baseUrl}`))
+  console.log(chalk.gray(`  username: ${username}`))
+  console.log(chalk.gray(`  timeoutMs: ${timeoutMs}`))
+  console.log(chalk.gray(`  delayBetweenMs: ${delayBetweenMs}`))
+
+  const agent = new RealAgent({ baseUrl, username, password, timeoutMs, delayBetweenMs })
+  return agent
 }
 
 main().catch((e) => {

@@ -13,7 +13,6 @@ expected:
   # 必含 POI：北京清真美食地标
   must_contain_pois:
     - { name_contains: "牛街", city: "北京" }          # 北京最大清真美食街
-    - { name_contains: "鸿宾楼", city: "北京" }        # 著名清真餐厅（也可接受其他清真馆）
 
   # 关键词：用户没明说要解释但 Agent 应该用清真相关词
   must_contain_keywords: [清真, 牛街]

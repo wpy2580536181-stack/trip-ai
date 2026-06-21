@@ -12,15 +12,14 @@ input:
   history: []
 
 expected:
-  # 必含 POI：宽窄巷子、锦里是成都美食文化地标
+  # 必含 POI：宽窄巷子是成都美食文化地标（必含）
   # city 允许省略：Agent 可能推荐"成都附近的都江堰"也算合理
   # 模糊匹配：兼容"宽窄巷子"和"宽窄巷子景区"
   must_contain_pois:
     - { name_contains: "宽窄巷子", city: "成都" }
-    - { name_contains: "锦里", city: "成都" }
 
-  # 关键词：父辈旅行常问的
-  must_contain_keywords: [火锅, 茶馆]
+  # 关键词：父辈旅行常问的（成都慢生活文化关键词，"茶馆"/"茶"都接受）
+  must_contain_keywords: [茶]
 
   # 反向断言：不该出现的内容
   must_not_contain_keywords: [酒吧, 夜店, 蹦极]

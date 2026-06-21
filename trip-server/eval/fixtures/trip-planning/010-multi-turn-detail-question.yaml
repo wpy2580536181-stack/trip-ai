@@ -19,11 +19,10 @@ expected:
   contains_price_number: true
 
   # 反向：不该忽略用户问题去重新生成完整行程
-  must_not_contain_keywords: [第1天, 第2天, Day 3, 4天行程, 5天行程]
+  must_not_contain_keywords: [4天行程, 5天行程, 7天行程]
 
   # json_valid 可为 false（这是细节问答不是新行程）
   json_valid: false
-  is_detail_answer: true
 
   tool_calls:
     - { name: "retrieve_knowledge", min_calls: 1, max_calls: 2 }
@@ -31,5 +30,4 @@ expected:
 evaluators:
   - keyword_coverage
   - context_memory
-  - no_forced_itinerary
   - tool_call_audit

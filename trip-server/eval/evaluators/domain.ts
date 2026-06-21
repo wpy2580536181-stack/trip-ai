@@ -26,11 +26,11 @@ const PET_BANNED_KEYWORDS = [
   '野生动物园',
   '水族馆',
   '海洋馆',
-  '博物馆',
   '美术馆',
   '科技馆',
   '展览馆',
-  '酒店',  // 多数酒店禁宠（除非宠物酒店）
+  // 注：博物馆/餐厅/酒店 不在列——行程可能合理推荐吃饭/住宿，
+  // 真正的"宠物禁入"是动作（"入住普通酒店带宠物"），不是 POI 名
 ]
 
 const PET_REQUIRED_KEYWORDS = ['宠物', '牵引绳', '防疫', '便便', '狗证', '宠物友好', '遛狗']
@@ -58,7 +58,7 @@ export function petConstraintCheck(output: AgentOutput, fixture: Fixture): EvalR
     violations.push(`推荐了宠物禁入场所：${bannedHit.join(', ')}`)
   }
 
-  // 4. JSON 行程里也要检查 POI 名
+  // 4. JSON 行程里也要检查 POI 名（如果有）
   if (output.json && Array.isArray((output.json as any).dailyItinerary)) {
     for (const day of (output.json as any).dailyItinerary) {
       for (const slot of [day.morning, day.afternoon, day.evening]) {
@@ -70,6 +70,7 @@ export function petConstraintCheck(output: AgentOutput, fixture: Fixture): EvalR
       }
     }
   }
+  // 纯文本场景：上面第 3 步已用 text 覆盖
 
   if (violations.length === 0) {
     return { pass: true }

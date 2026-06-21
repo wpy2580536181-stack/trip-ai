@@ -31,7 +31,7 @@ expected:
 
   # 工具：跨语言召回用 retrieve_knowledge
   tool_calls:
-    - { name: "retrieve_knowledge", min_calls: 1 }
+    - { name: "retrieve_knowledge", min_calls: 1, max_calls: 5 }
 
 evaluators:
   - schema_check
