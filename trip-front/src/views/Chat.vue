@@ -187,6 +187,7 @@ const onSelectConversation = async (id: number) => {
     currentConversationId.value = id
     localStorage.setItem(CONVERSATION_ID_KEY, String(id))
     messages.value = (conv.messages || []).map(m => ({
+      id: m.id,
       role: m.role === 'user' ? 'user' : 'ai',
       content: m.content,
       timestamp: m.createdAt,
@@ -242,6 +243,7 @@ const onNewConversation = () => {
           :key="message.timestamp + '-' + index"
           :message="message"
           :streaming="isStreaming && index === messages.length - 1 && message.role === 'ai'"
+          :conversation-id="currentConversationId"
         />
         <div class="streaming-indicator" v-if="isStreaming">
           <van-loading type="spinner" size="20px" />

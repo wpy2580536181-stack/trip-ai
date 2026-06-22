@@ -11,6 +11,7 @@ import conversationRouter from './routes/conversation.routes'
 import historyRouter from './routes/history.routes'
 import knowledgeRouter from './routes/knowledge.routes'
 import statsRouter from './routes/stats.routes'
+import feedbackRouter from './routes/feedback.routes'
 
 const app = express()
 const PORT = process.env.PORT || 3000
@@ -74,6 +75,7 @@ app.use('/api/conversations', conversationRouter)
 app.use('/api/history', historyRouter)
 app.use('/api/knowledge', knowledgeRouter)
 app.use('/api/stats', statsRouter)
+app.use('/api/feedback', feedbackRouter)
 
 app.use((err: Error, req: Request, res: Response, _next: NextFunction) => {
   req.log?.error({ err }, '未捕获异常')

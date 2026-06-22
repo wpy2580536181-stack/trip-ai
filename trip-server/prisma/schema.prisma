@@ -38,6 +38,7 @@ model User {
   updatedAt     DateTime       @updatedAt @map("updated_at")
   trips         Trip[]
   conversations Conversation[]
+  feedbacks     Feedback[]
 
   @@map("users")
 }
@@ -54,19 +55,19 @@ model PasswordReset {
 }
 
 model Trip {
-  id             Int      @id @default(autoincrement())
-  userId         Int?     @map("user_id")
-  fromCity       String?  @map("from_city") @db.VarChar(50)
-  city           String   @db.VarChar(50)
-  days           Int
-  budget         Int
-  content        Json
-  status         String   @default("completed") @db.VarChar(20)
-  parentTripId   Int?     @map("parent_trip_id")
-  createdAt      DateTime @default(now()) @map("created_at")
-  user           User?    @relation(fields: [userId], references: [id])
-  parent         Trip?    @relation("TripVersions", fields: [parentTripId], references: [id])
-  versions       Trip[]   @relation("TripVersions")
+  id           Int      @id @default(autoincrement())
+  userId       Int?     @map("user_id")
+  fromCity     String?  @map("from_city") @db.VarChar(50)
+  city         String   @db.VarChar(50)
+  days         Int
+  budget       Int
+  content      Json
+  status       String   @default("completed") @db.VarChar(20)
+  parentTripId Int?     @map("parent_trip_id")
+  createdAt    DateTime @default(now()) @map("created_at")
+  user         User?    @relation(fields: [userId], references: [id])
+  parent       Trip?    @relation("TripVersions", fields: [parentTripId], references: [id])
+  versions     Trip[]   @relation("TripVersions")
 
   @@index([userId])
   @@map("trips")
@@ -97,6 +98,7 @@ model Message {
   metadata       Json?
   createdAt      DateTime     @default(now()) @map("created_at")
   conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  feedbacks      Feedback[]
 
   @@index([conversationId, createdAt])
   @@map("messages")
@@ -119,4 +121,29 @@ model Spot {
 
   @@index([city, category])
   @@map("spots")
+}
+
+/// 用户对单条 agent 消息的反馈（在线评估）
+/// 一个用户对一条 message 只能评一次（unique 约束）
+/// rating=1: 👍 点赞；rating=-1: 👎 点踩
+/// tags: 自由 JSON 数组（如 ["幻觉", "不准确", "推荐不相关"]），前端 👎 时弹窗收集
+model Feedback {
+  id             Int      @id @default(autoincrement())
+  userId         Int      @map("user_id")
+  messageId      Int      @map("message_id")
+  conversationId Int      @map("conversation_id")
+  rating         Int                                  // 1 / -1
+  comment        String?  @db.VarChar(500)
+  tags           Json?
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  user    User @relation(fields: [userId], references: [id])
+  message Message @relation(fields: [messageId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, messageId])
+  @@index([messageId])
+  @@index([rating, createdAt])
+  @@index([userId, createdAt])
+  @@map("feedbacks")
 }

@@ -9,13 +9,30 @@
         v-html="renderedContent"
       ></div>
     </div>
+    <div class="bubble-footer" v-if="message.role === 'ai' && message.id && !streaming">
+      <button
+        v-for="btn in feedbackButtons"
+        :key="btn.value"
+        class="feedback-btn"
+        :class="{ active: currentRating === btn.value }"
+        :title="btn.title"
+        :disabled="submitting"
+        @click="onFeedback(btn.value)"
+      >
+        <span class="emoji">{{ btn.emoji }}</span>
+        <span v-if="currentRating === btn.value" class="rating-label">{{ btn.label }}</span>
+      </button>
+      <span v-if="submitted" class="feedback-thanks">已收到反馈</span>
+    </div>
     <div class="message-time" v-if="showTime">{{ formatTime }}</div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { marked } from 'marked'
+import { showToast } from 'vant'
+import { submitFeedback, type FeedbackRating } from '@/api/feedback'
 
 marked.setOptions({
   breaks: true,
@@ -23,6 +40,7 @@ marked.setOptions({
 })
 
 interface Message {
+  id?: number
   role: 'user' | 'ai'
   content: string
   timestamp?: string
@@ -31,7 +49,17 @@ interface Message {
 const props = defineProps<{
   message: Message
   streaming?: boolean
+  conversationId?: number
 }>()
+
+const submitting = ref(false)
+const submitted = ref(false)
+const currentRating = ref<FeedbackRating | null>(null)
+
+const feedbackButtons = [
+  { value: 1 as FeedbackRating, emoji: '👍', label: '有用', title: '这条回复对我有帮助' },
+  { value: -1 as FeedbackRating, emoji: '👎', label: '没用', title: '这条回复对我没帮助' },
+]
 
 const messageClass = computed(() => {
   return props.message.role === 'user' ? 'user-message' : 'ai-message'
@@ -64,6 +92,41 @@ const formatTime = computed(() => {
   const date = new Date(props.message.timestamp)
   return `${date.getHours().toString().padStart(2, '0')}:${date.getMinutes().toString().padStart(2, '0')}`
 })
+
+const onFeedback = async (rating: FeedbackRating) => {
+  if (!props.message.id || !props.conversationId) {
+    showToast('消息未保存，无法反馈')
+    return
+  }
+  // 切换：再点同一按钮取消（可选优化，先做单次提交）
+  if (submitting.value) return
+
+  submitting.value = true
+  try {
+    await submitFeedback({
+      messageId: props.message.id,
+      conversationId: props.conversationId,
+      rating,
+    })
+    currentRating.value = rating
+    submitted.value = true
+    if (rating === -1) {
+      // 负反馈：3 秒后弹"为什么不满意"轻量提示
+      setTimeout(() => {
+        if (currentRating.value === -1) {
+          showToast({
+            message: '抱歉没能帮到你，可联系 admin@trip.local 详细反馈',
+            duration: 4000,
+          })
+        }
+      }, 1000)
+    }
+  } catch (e: any) {
+    showToast(e?.message || '反馈提交失败')
+  } finally {
+    submitting.value = false
+  }
+}
 </script>
 
 <style scoped>
@@ -126,6 +189,59 @@ const formatTime = computed(() => {
   color: #999;
   margin-top: 4px;
   padding: 0 4px;
+}
+
+.bubble-footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  padding: 0 4px;
+}
+
+.feedback-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  background: transparent;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  font-size: 13px;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.feedback-btn:hover:not(:disabled) {
+  background: #f5f5f5;
+  border-color: #1989fa;
+  color: #1989fa;
+}
+
+.feedback-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.feedback-btn.active {
+  background: #e8f3ff;
+  border-color: #1989fa;
+  color: #1989fa;
+}
+
+.feedback-btn .emoji {
+  font-size: 14px;
+}
+
+.feedback-btn .rating-label {
+  font-size: 12px;
+}
+
+.feedback-thanks {
+  font-size: 11px;
+  color: #999;
+  margin-left: 4px;
 }
 </style>
 
