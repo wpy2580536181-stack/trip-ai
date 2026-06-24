@@ -51,8 +51,6 @@ function pickInputMessage(
   msgs: ConvertInput['conversationMessages'],
   targetId: number
 ): string {
-  const target = msgs.find((m) => m.id === targetId)
-  if (target && target.role === 'user') return target.content
   const earlier = msgs.filter((m) => m.id < targetId)
   const lastUser = [...earlier].reverse().find((m) => m.role === 'user')
   return lastUser?.content ?? ''
@@ -63,7 +61,7 @@ function pickHistory(
   targetId: number
 ): Array<{ role: 'user' | 'assistant'; content: string }> {
   return msgs
-    .filter((m) => m.id <= targetId)
+    .filter((m) => m.id < targetId)
     .map((m) => ({ role: m.role, content: truncate(m.content, MAX_CONTENT_LENGTH) }))
 }
 

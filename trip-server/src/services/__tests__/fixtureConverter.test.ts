@@ -7,7 +7,7 @@ const baseInput: ConvertInput = {
   feedbackComment: '推荐不准',
   feedbackTags: ['recommend'],
   feedbackCreatedAt: new Date('2026-06-24T10:00:00Z'),
-  messageId: 847,
+  messageId: 848,
   messageContent: 'agent 的回复...',
   userId: 5,
   username: 'eval-test',
@@ -61,7 +61,7 @@ describe('toYAML - history 过滤', () => {
     expect(parsed.input.history).toHaveLength(3)
   })
 
-  it('history 排除 target message 本身 (id=848)', () => {
+  it('history 排除 target message (assistant response, id=848)', () => {
     const parsed = yaml.load(toYAML(baseInput)) as any
     expect(parsed.input.history.find((h: any) => h.content === 'agent 这次回复')).toBeUndefined()
   })
@@ -71,7 +71,7 @@ describe('toYAML - 元数据', () => {
   it('source 含 feedback_id + message_id + user + created_at', () => {
     const parsed = yaml.load(toYAML(baseInput)) as any
     expect(parsed.source.feedback_id).toBe(113)
-    expect(parsed.source.message_id).toBe(847)
+    expect(parsed.source.message_id).toBe(848)
     expect(parsed.source.user).toBe('eval-test')
     expect(parsed.source.original_comment).toBe('推荐不准')
   })
