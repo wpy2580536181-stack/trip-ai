@@ -91,7 +91,8 @@ Code review 标记的 P3 项，Phase 1 全部完成后再做：
 - [ ] 流结束主动 `deleteStream`（缩短 Redis 占用）
 
 #### 1. 反馈系统扩展（`docs/online-feedback.md` 后续）
-- ⏳ **admin dashboard 页面**：可视化 stats + recentDownComments（前端 + 路由）
+- ✅ **admin dashboard 页面**：可视化 stats + recentDownComments + 趋势图 + 高 token 案例
+  - 详见 `docs/feedback-dashboard.md`（commit `6586425`）
 - ⏳ **自动告警**：连续 1 小时 satisfactionRate < 0.5 触发飞书/Slack
 - ⏳ **反馈 → fixture**：把负反馈自动转成 eval fixture（防止同类问题回归）
 - **价值**：把"在线反馈"从纯统计变成质量改进闭环
@@ -108,11 +109,13 @@ Code review 标记的 P3 项，Phase 1 全部完成后再做：
 
 ### 🟢 低价值（可延后）
 
-#### 4. 真实 LLM token 用量统计
-- ⏳ 后端 SSE 加 usage 字段（prompt/completion/total）
-- ⏳ eval 输出 AgentOutput.tokens 真实数据
-- ⏳ 前端 TokenUsage.vue 关联 feedback 显示"高 token + 低满意度"案例
+#### 4. 真实 LLM token 用量统计（✅ 完成，2026-06-25）
+- ✅ 后端 SSE 加 usage 字段（prompt/completion/total/**cached**）
+- ✅ eval 输出 AgentOutput.tokens 真实数据
+- ✅ 前端 TokenUsage.vue 关联 feedback 显示"高 token + 低满意度"案例
+- ✅ admin dashboard 展示全局缓存命中率（DeepSeek prompt cache）
 - **价值**：识别哪些 case 烧 token 多但质量低（优化 ROI）
+- 详见 `docs/feedback-dashboard.md`（commit `0841296` + `a688cbd`）
 
 #### 5. LangGraph 重构（`docs/agent-improvements.md:3.1`）
 - ⏳ 把 AgentExecutor 换成 LangGraph StateGraph

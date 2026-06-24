@@ -194,10 +194,11 @@ mock eval      离线     10 fixture →  PR 必跑
 
 2026-06-22，单人半日。
 
-## 后续可做
+## 后续进度（2026-06-25 更新）
 
-1. **前端批量管理 UI**：admin 页面展示 stats + recentDownComments
-2. **自动告警**：连续 1 小时 satisfactionRate < 0.5 触发飞书/Slack 告警
-3. **反馈进入 fixture**：把 "推荐不准" 之类的负反馈转成 fixture
-4. **A/B 测试**：同 fixture 在新旧 agent 上的反馈差异
-5. **点赞数据反哺 RAG**：点赞多的 POI 提升召回权重
+- ✅ **前端批量管理 UI**：admin dashboard 页面（`/admin/feedback`）—— 详见 `docs/feedback-dashboard.md`
+- ✅ **LLM token 统计 + 缓存命中率**：feedback 关联 message.usage，dashboard 显示"高 token + 低满意度案例"——详见 `docs/feedback-dashboard.md`
+- ⏳ **自动告警**：连续 1 小时 satisfactionRate < 0.5 触发飞书/Slack 告警（暂未做）
+- ⏳ **反馈进入 fixture**：把 "推荐不准" 之类的负反馈转成 fixture（最大价值 ROI，Task 3 待开始）
+- ⏳ **A/B 测试**：同 fixture 在新旧 agent 上的反馈差异
+- ⏳ **点赞数据反哺 RAG**：点赞多的 POI 提升召回权重
