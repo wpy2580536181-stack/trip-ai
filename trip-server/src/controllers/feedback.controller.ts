@@ -149,3 +149,40 @@ export const getDailyStats = async (req: Request, res: Response) => {
     res.status(500).json({ code: 500, error: '查询失败' })
   }
 }
+
+/**
+ * admin: 批量转 feedback → fixture YAML 文件
+ * POST /api/feedback/admin/convert-to-fixture
+ * body: { feedbackIds: number[] }
+ *
+ * 单条失败不阻断整批，错误汇总在 skipped[]
+ */
+export const convertToFixture = async (req: Request, res: Response) => {
+  try {
+    if (!req.user || req.user.roleId !== 1) {
+      return res.status(403).json({ code: 403, error: '仅管理员可访问' })
+    }
+    const { feedbackIds } = req.body as { feedbackIds?: number[] }
+    if (!Array.isArray(feedbackIds) || feedbackIds.length === 0) {
+      return res.status(400).json({ code: 400, error: 'feedbackIds 必填且为非空数组' })
+    }
+    if (feedbackIds.length > 50) {
+      return res.status(400).json({ code: 400, error: '最多 50 条' })
+    }
+
+    const files: string[] = []
+    const skipped: Array<{ id: number; reason: string }> = []
+    for (const id of feedbackIds) {
+      try {
+        const file = await feedbackService.convertToFixture(id)
+        files.push(file)
+      } catch (e) {
+        skipped.push({ id, reason: e instanceof Error ? e.message : String(e) })
+      }
+    }
+    res.json({ code: 200, data: { files, skipped } })
+  } catch (e) {
+    log.error({ err: e }, 'convert to fixture failed')
+    res.status(500).json({ code: 500, error: '转换失败' })
+  }
+}

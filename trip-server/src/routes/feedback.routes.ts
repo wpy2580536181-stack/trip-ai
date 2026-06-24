@@ -37,4 +37,7 @@ router.get('/admin/high-token-low-satisfaction', authMiddleware, feedbackControl
 // admin 日维度统计（用于 dashboard 趋势图）
 router.get('/admin/daily-stats', authMiddleware, feedbackController.getDailyStats)
 
+// admin 批量转 feedback → fixture YAML
+router.post('/admin/convert-to-fixture', authMiddleware, feedbackController.convertToFixture)
+
 export default router
