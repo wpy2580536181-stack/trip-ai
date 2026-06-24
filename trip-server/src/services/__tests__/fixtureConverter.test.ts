@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { toYAML, slugify, type ConvertInput } from '../fixtureConverter'
+import { toYAML, slugify, type ConvertInput, MAX_CONTENT_LENGTH } from '../fixtureConverter'
 import * as yaml from 'js-yaml'
 
 const baseInput: ConvertInput = {
@@ -86,6 +86,20 @@ describe('toYAML - 元数据', () => {
     expect(parsed.description).toContain('#113')
     expect(parsed.description).toContain('推荐不准')
   })
+
+  it('source 含 bad_response 字段（admin 看到的坏回复）', () => {
+    const parsed = yaml.load(toYAML(baseInput)) as any
+    expect(parsed.source.bad_response).toBe('agent 的回复...')
+  })
+
+  it('bad_response 超 500 字符截断', () => {
+    const input = {
+      ...baseInput,
+      messageContent: 'a'.repeat(800),
+    }
+    const parsed = yaml.load(toYAML(input)) as any
+    expect(parsed.source.bad_response).toContain('[已截断]')
+  })
 })
 
 describe('toYAML - 截断', () => {
@@ -100,7 +114,7 @@ describe('toYAML - 截断', () => {
     }
     const parsed = yaml.load(toYAML(input)) as any
     expect(parsed.input.message).toContain('[已截断]')
-    expect(parsed.input.message.length).toBeLessThanOrEqual(15000)
+    expect(parsed.input.message.length).toBe(MAX_CONTENT_LENGTH + '...[已截断]'.length)
   })
 })
 

@@ -13,7 +13,7 @@
 
 import * as yaml from 'js-yaml'
 
-const MAX_CONTENT_LENGTH = 10000
+export const MAX_CONTENT_LENGTH = 10000
 
 export interface ConvertInput {
   feedbackId: number
@@ -81,6 +81,7 @@ export function toYAML(input: ConvertInput): string {
       user: input.username,
       created_at: input.feedbackCreatedAt.toISOString(),
       original_comment: input.feedbackComment || null,
+      bad_response: truncate(input.messageContent, 500),
     },
     input: {
       message: inputMessage,
