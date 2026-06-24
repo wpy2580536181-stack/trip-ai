@@ -22,6 +22,12 @@
         <van-grid-item icon="chat-o" text="开始对话" @click="$router.push('/chat')" />
         <van-grid-item icon="user-o" text="个人中心" @click="$router.push('/profile')" />
         <van-grid-item icon="gold-coin-o" text="Token 用量" @click="$router.push('/token-usage')" />
+        <van-grid-item
+          v-if="isAdmin"
+          icon="chart-trending-o"
+          text="反馈 Dashboard"
+          @click="$router.push('/admin/feedback')"
+        />
       </van-grid>
     </div>
     <div class="card my-trips-entry">

@@ -15,6 +15,7 @@ const mockUpsert = vi.fn()
 const mockCount = vi.fn()
 const mockFindMany = vi.fn()
 const mockMessageFindMany = vi.fn()
+const mockQueryRaw = vi.fn()
 
 vi.mock('../../config/database', () => ({
   default: {
@@ -26,6 +27,7 @@ vi.mock('../../config/database', () => ({
     message: {
       findMany: (...args: any[]) => mockMessageFindMany(...args),
     },
+    $queryRaw: (...args: any[]) => mockQueryRaw(...args),
   },
 }))
 
@@ -298,5 +300,57 @@ describe('FeedbackService.getHighTokenLowSatisfaction', () => {
 
     const cases = await feedbackService.getHighTokenLowSatisfaction(7, 20)
     expect(cases).toHaveLength(0)
+  })
+})
+
+describe('FeedbackService.getDailyStats', () => {
+  beforeEach(() => {
+    vi.clearAllMocks()
+  })
+
+  it('返回 N 天每日数据（缺失日期补 0）', async () => {
+    // 模拟只有 2 天有数据
+    const today = new Date()
+    today.setHours(0, 0, 0, 0)
+    const yyyy = today.getFullYear()
+    const mm = String(today.getMonth() + 1).padStart(2, '0')
+    const dd = String(today.getDate()).padStart(2, '0')
+    const yesterday = new Date(today)
+    yesterday.setDate(today.getDate() - 1)
+    const yy = yesterday.getFullYear()
+    const ym = String(yesterday.getMonth() + 1).padStart(2, '0')
+    const yd = String(yesterday.getDate()).padStart(2, '0')
+
+    mockQueryRaw.mockResolvedValueOnce([
+      { date: `${yyyy}-${mm}-${dd}`, up: BigInt(5), down: BigInt(2) },
+      { date: `${yy}-${ym}-${yd}`, up: BigInt(3), down: BigInt(0) },
+    ])
+
+    const days = await feedbackService.getDailyStats(7)
+
+    expect(days).toHaveLength(7)
+    // 今天
+    expect(days[6].date).toBe(`${yyyy}-${mm}-${dd}`)
+    expect(days[6].up).toBe(5)
+    expect(days[6].down).toBe(2)
+    expect(days[6].total).toBe(7)
+    expect(days[6].satisfactionRate).toBeCloseTo(5 / 7, 5)
+    // 昨天
+    expect(days[5].up).toBe(3)
+    expect(days[5].down).toBe(0)
+    expect(days[5].satisfactionRate).toBe(1)
+    // 缺失日期（前 5 天）补 0
+    for (let i = 0; i < 5; i++) {
+      expect(days[i].up).toBe(0)
+      expect(days[i].down).toBe(0)
+      expect(days[i].satisfactionRate).toBe(0)
+    }
+  })
+
+  it('空数据返回 N 个全 0 的日期', async () => {
+    mockQueryRaw.mockResolvedValueOnce([])
+    const days = await feedbackService.getDailyStats(30)
+    expect(days).toHaveLength(30)
+    expect(days.every((d) => d.up === 0 && d.down === 0)).toBe(true)
   })
 })

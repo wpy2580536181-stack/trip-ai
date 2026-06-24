@@ -129,3 +129,23 @@ export const getHighTokenLowSatisfaction = async (req: Request, res: Response) =
     res.status(500).json({ code: 500, error: '查询失败' })
   }
 }
+
+/**
+ * 日维度统计（admin dashboard 趋势图）
+ * GET /api/feedback/admin/daily-stats?days=30
+ */
+export const getDailyStats = async (req: Request, res: Response) => {
+  try {
+    if (!req.user || req.user.roleId !== 1) {
+      return res.status(403).json({ code: 403, error: '仅管理员可访问' })
+    }
+    const days = Number(req.query.days) || 30
+    const data = await feedbackService.getDailyStats(
+      Math.min(Math.max(days, 1), 90)
+    )
+    res.json({ code: 200, data })
+  } catch (e) {
+    log.error({ err: e }, 'get daily stats failed')
+    res.status(500).json({ code: 500, error: '查询失败' })
+  }
+}

@@ -204,6 +204,60 @@ class FeedbackService {
       })),
     }
   }
+
+  /**
+   * 日维度统计（admin dashboard 趋势图）
+   * 返回 N 天内每天的 up/down/total
+   * 用 GROUP BY DATE(createdAt) — 一次查询
+   */
+  async getDailyStats(days = 30): Promise<Array<{ date: string; up: number; down: number; total: number; satisfactionRate: number }>> {
+    // 算时间窗口（含今天）
+    const startDate = new Date()
+    startDate.setHours(0, 0, 0, 0)
+    startDate.setDate(startDate.getDate() - (days - 1))
+
+    // Prisma 不支持 DATE() 函数，用 raw query
+    // 兼容 MySQL
+    const rows = await prisma.$queryRaw<Array<{ date: string; up: bigint; down: bigint }>>`
+      SELECT
+        DATE(created_at) as date,
+        SUM(CASE WHEN rating = 1 THEN 1 ELSE 0 END) as up,
+        SUM(CASE WHEN rating = -1 THEN 1 ELSE 0 END) as down
+      FROM feedbacks
+      WHERE created_at >= ${startDate}
+      GROUP BY DATE(created_at)
+      ORDER BY date ASC
+    `
+
+    // 填充缺失日期
+    const result: Array<{ date: string; up: number; down: number; total: number; satisfactionRate: number }> = []
+    const map = new Map(rows.map((r) => [this.formatDateKey(r.date), r]))
+    for (let i = 0; i < days; i++) {
+      const d = new Date(startDate)
+      d.setDate(startDate.getDate() + i)
+      const key = this.formatDateKey(d)
+      const r = map.get(key)
+      const up = r ? Number(r.up) : 0
+      const down = r ? Number(r.down) : 0
+      const total = up + down
+      result.push({
+        date: key,
+        up,
+        down,
+        total,
+        satisfactionRate: total > 0 ? up / total : 0,
+      })
+    }
+    return result
+  }
+
+  private formatDateKey(d: Date | string): string {
+    const date = typeof d === 'string' ? new Date(d) : d
+    const yyyy = date.getFullYear()
+    const mm = String(date.getMonth() + 1).padStart(2, '0')
+    const dd = String(date.getDate()).padStart(2, '0')
+    return `${yyyy}-${mm}-${dd}`
+  }
 }
 
 export const feedbackService = new FeedbackService()

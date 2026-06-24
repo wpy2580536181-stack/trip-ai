@@ -51,6 +51,12 @@ const routes = [
     meta: { requiresAuth: true },
   },
   {
+    path: '/admin/feedback',
+    name: 'AdminFeedback',
+    component: () => import('../views/AdminFeedbackDashboard.vue'),
+    meta: { requiresAuth: true, requiresAdmin: true },
+  },
+  {
     path: '/login',
     name: 'Login',
     component: () => import('../views/Login.vue'),
@@ -88,6 +94,19 @@ router.beforeEach((to, _from, next) => {
     }
     next({ name: 'Login', query: { redirect: to.fullPath } })
     return
+  }
+  // 需要 admin 角色（roleId=1）
+  if (to.meta.requiresAdmin) {
+    const userInfo = localStorage.getItem('userInfo')
+    let roleId = 0
+    if (userInfo) {
+      try { roleId = JSON.parse(userInfo).roleId ?? 0 } catch { /* ignore */ }
+    }
+    if (roleId !== 1) {
+      console.warn('[Auth] 非 admin 用户访问', to.fullPath)
+      next({ name: 'Home' })
+      return
+    }
   }
   // 已登录用户访问游客页面（登录/注册/重置密码），重定向到首页
   if (to.meta.guestOnly && valid) {
