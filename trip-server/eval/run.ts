@@ -30,7 +30,7 @@ import { listEvaluators } from './registry'
 import { RealAgent } from './real-agent'
 import type { AgentOutput, Fixture } from './types'
 
-const FIXTURES_DIR = join(__dirname, 'fixtures', 'trip-planning')
+const FIXTURES_DIR = join(__dirname, 'fixtures')
 
 function parseArgs(): { ids: string[]; tags: string[]; realMode: boolean; samples: number } {
   const args = process.argv.slice(2)

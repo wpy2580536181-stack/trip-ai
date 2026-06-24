@@ -10,7 +10,7 @@
  * 4) runAll(): 跑全部 fixture + 生成报告
  */
 
-import { readFileSync, readdirSync, statSync } from 'node:fs'
+import { readFileSync, readdirSync, statSync, type Dirent } from 'node:fs'
 import { join } from 'node:path'
 import yaml from 'js-yaml'
 
@@ -33,15 +33,33 @@ const log = {
  * 1. Fixture 加载
  * ============================================================ */
 
+/** 递归扫 fixturesDir 下所有 .yaml/.yml 文件（跳过 .gitkeep） */
+function findFixtureFiles(fixturesDir: string): string[] {
+  const out: string[] = []
+  let entries: Dirent<string>[]
+  try {
+    entries = readdirSync(fixturesDir, { withFileTypes: true }) as Dirent<string>[]
+  } catch (e) {
+    log.error(`读取 fixtures 目录失败: ${fixturesDir}`, e)
+    return out
+  }
+  for (const e of entries) {
+    const full = join(fixturesDir, e.name)
+    if (e.isDirectory()) {
+      out.push(...findFixtureFiles(full))
+    } else if ((e.name.endsWith('.yaml') || e.name.endsWith('.yml')) && e.name !== '.gitkeep') {
+      out.push(full)
+    }
+  }
+  return out
+}
+
 export function loadFixtures(fixturesDir: string): Fixture[] {
-  const files = readdirSync(fixturesDir).filter((f) => f.endsWith('.yaml') || f.endsWith('.yml'))
+  const files = findFixtureFiles(fixturesDir)
   const fixtures: Fixture[] = []
 
-  for (const file of files) {
-    const fullPath = join(fixturesDir, file)
-    const stat = statSync(fullPath)
-    if (!stat.isFile()) continue
-
+  for (const fullPath of files) {
+    const file = fullPath.slice(fixturesDir.length + 1)
     try {
       const content = readFileSync(fullPath, 'utf-8')
       const parsed = yaml.load(content) as Fixture
