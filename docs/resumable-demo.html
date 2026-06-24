@@ -247,7 +247,7 @@ async function fetchStreamDemo({ message, isResume }) {
   }
 
   const fetchOnce = async () => {
-    const res = await fetch('/api/trip/chat', {
+    const res = await fetch('http://localhost:3000/api/trip/chat', {
       method: 'POST',
       headers,
       body: JSON.stringify({ message, conversationId: null }),
@@ -353,7 +353,7 @@ document.getElementById('loginBtn').onclick = async () => {
   status.textContent = '登录中...'
   status.className = 'status idle'
   try {
-    const res = await fetch('/api/user/login', {
+    const res = await fetch('http://localhost:3000/api/user/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ username, password }),

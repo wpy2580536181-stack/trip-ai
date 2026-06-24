@@ -19,26 +19,40 @@ npx ts-node src/index.ts
 
 ### 2. 启动 demo 静态服务
 
-任选一种：
+**重要**：demo HTML 内部用**绝对 URL** `http://localhost:3000/api/...`，所以后端 CORS 已支持以下 origin 之一即可：
+
+| 端口 | 来源 | 启动方式 |
+|---|---|---|
+| 8080 | 任意静态 server | `cd docs && python3 -m http.server 8080` |
+| 5173 | trip-front Vite | `cd trip-front && npm run dev` + 把 HTML 放 `public/` |
+| 3000 | 直接放 trip-server public | 需加 `express.static`（暂未配） |
+
+**最简单方案**：
 
 ```bash
-# A) Python 简单 http server
-cd docs
-python3 -m python -m http.server 8080
+# 终端 1：后端
+cd trip-server && npx ts-node src/index.ts
 
-# B) Node 静态 server（无依赖）
-npx serve docs -l 8080
+# 终端 2：静态服务 demo
+cd docs && python3 -m http.server 8080
 
-# C) 直接用 trip-front 的 vite（开发体验最佳）
-cd trip-front
-npm run dev
-# 然后访问 http://localhost:5173/（注意是 vite 默认页）
-# 如果要 demo HTML，放到 trip-front/public/ 然后访问 /resumable-demo.html
+# 浏览器
+open http://localhost:8080/resumable-demo.html
 ```
+
+> **CORS 已配置**：trip-server/src/index.ts 的 CORS allowlist 默认包含
+> 5173（Vite）、8080（demo）、3000（同源）。生产环境务必设置
+> `CORS_ORIGIN` 环境变量为具体域名。
 
 ### 3. 打开 demo
 
 浏览器访问 `http://localhost:8080/resumable-demo.html`
+
+**账号**：`eval-test` / `EvalTest@2026`（首字母大写 E T 0，密码中间是大写 T）
+**如果登录失败**：先打开 DevTools → Network 标签，看 `/api/user/login` 请求状态码
+- 404 → 后端没启或端口不对
+- CORS error → 端口不在 allowlist，看上面配置
+- 401 → 密码错，**注意是 `EvalTest@2026` 不是 `Evaltest@2026`**
 
 ## 测试场景
 

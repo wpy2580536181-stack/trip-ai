@@ -93,6 +93,11 @@ export async function createResumableStream(
     log.debug('Redis 不可用，跳过 stream 存储')
   }
 
+  // 立即 flush header：让 client 端能立即拿到 X-Stream-Id
+  // （setHeader 只是 mutate，flushHeaders 才会真正发送）
+  // 这样 client 断网重连时已有 streamId，能立即续传
+  res.flushHeaders()
+
   // 本地 seq 计数器（与 Redis INCR 同步）
   // 单线程串行 send 调用保证一致性，send 是 LLM token 级回调，本身串行
   // Redis 端可能因 INCR 失败跳号，但 LRANGE 自动跳过空位，客户端无感

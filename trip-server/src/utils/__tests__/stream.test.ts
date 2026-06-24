@@ -58,6 +58,7 @@ function makeMockRes() {
     setHeader: vi.fn((name: string, value: string) => {
       headers[name] = value
     }),
+    flushHeaders: vi.fn(),
     write: vi.fn((data: string) => {
       writes.push(data)
       return true
@@ -192,6 +193,15 @@ describe('createResumableStream', () => {
 
     rs.send({ type: 'chunk', content: 'x' })
     expect(onWriteError).toHaveBeenCalled()
+  })
+
+  it('setHeader 完成后立即 flushHeaders（让 client 立即拿到 X-Stream-Id）', async () => {
+    const res = makeMockRes()
+    await createResumableStream({ res, userId: 'u1', conversationId: 'c1' })
+
+    // flushHeaders 必须在第一次 write 之前调用
+    // 关键：客户端断网重连场景依赖此——abort 前能拿到 streamId
+    expect(res.flushHeaders).toHaveBeenCalledTimes(1)
   })
 })
 

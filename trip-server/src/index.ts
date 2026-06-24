@@ -16,9 +16,19 @@ import feedbackRouter from './routes/feedback.routes'
 const app = express()
 const PORT = process.env.PORT || 3000
 
-const CORS_ORIGIN = process.env.CORS_ORIGIN || 'http://localhost:5173'
+// CORS：支持开发常用 origin（Vite 5173、demo 8080、demo 3000）
+// 生产环境请设置 CORS_ORIGIN 环境变量为具体域名
+const CORS_ALLOWED_ORIGINS = [
+  'http://localhost:5173', // trip-front Vite dev
+  'http://localhost:8080', // demo HTML 静态服务
+  'http://localhost:3000', // demo HTML 直接放 trip-server public
+  'http://127.0.0.1:5173',
+  'http://127.0.0.1:8080',
+  'http://127.0.0.1:3000',
+]
+const CORS_ORIGIN = process.env.CORS_ORIGIN || CORS_ALLOWED_ORIGINS.join(',')
 app.use(cors({
-  origin: CORS_ORIGIN,
+  origin: CORS_ORIGIN.split(',').map(s => s.trim()),
   credentials: true,
 }))
 
