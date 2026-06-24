@@ -296,7 +296,12 @@ class FeedbackService {
       userId: fb.userId,
       username: fb.user.username,
       userPreferences: (fb.user.preferences as Record<string, any> | null) ?? null,
-      conversationMessages: conversation.messages as any,
+      conversationMessages: conversation.messages.map((m) => ({
+        id: m.id,
+        role: m.role as 'user' | 'assistant',
+        content: m.content,
+        createdAt: m.createdAt,
+      })),
     }
 
     const yamlStr = convertFeedbackToYAML(converterInput)

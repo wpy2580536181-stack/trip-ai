@@ -383,7 +383,7 @@ describe('FeedbackService.convertToFixture', () => {
     vi.clearAllMocks()
   })
 
-  it('写入 YAML 文件到 generated 目录', async () => {
+  function setupHappyPathMocks() {
     const now = new Date('2026-06-24T10:00:00Z')
     mockFeedbackFindUnique.mockResolvedValueOnce({
       id: 1,
@@ -410,9 +410,13 @@ describe('FeedbackService.convertToFixture', () => {
         { id: 848, role: 'assistant', content: 'agent 这次回复', createdAt: now },
       ],
     })
-    mockAccess.mockRejectedValue(new Error('not exists'))
     mockMkdir.mockResolvedValueOnce(undefined)
     mockWriteFile.mockResolvedValueOnce(undefined)
+  }
+
+  it('写入 YAML 文件到 generated 目录', async () => {
+    setupHappyPathMocks()
+    mockAccess.mockRejectedValue(new Error('not exists'))
 
     const filePath = await feedbackService.convertToFixture(1)
 
@@ -423,6 +427,38 @@ describe('FeedbackService.convertToFixture', () => {
     const writtenContent = mockWriteFile.mock.calls[0][1]
     expect(writtenContent).toContain('id: feedback-1-eval-test-')
     expect(writtenContent).toContain('source:')
+  })
+
+  it('文件不存在时直接用 {id}-user.yaml', async () => {
+    setupHappyPathMocks()
+    mockAccess.mockRejectedValue(new Error('not exists'))
+
+    const filePath = await feedbackService.convertToFixture(1)
+
+    expect(filePath).toMatch(/\/1-eval-test\.yaml$/)
+  })
+
+  it('文件已存在时追加 -1 后缀', async () => {
+    setupHappyPathMocks()
+    mockAccess
+      .mockResolvedValueOnce(undefined)
+      .mockRejectedValueOnce(new Error('not exists'))
+
+    const filePath = await feedbackService.convertToFixture(1)
+
+    expect(filePath).toMatch(/\/1-eval-test-1\.yaml$/)
+  })
+
+  it('文件 -1.yaml 也存在时追加 -2 后缀', async () => {
+    setupHappyPathMocks()
+    mockAccess
+      .mockResolvedValueOnce(undefined)
+      .mockResolvedValueOnce(undefined)
+      .mockRejectedValueOnce(new Error('not exists'))
+
+    const filePath = await feedbackService.convertToFixture(1)
+
+    expect(filePath).toMatch(/\/1-eval-test-2\.yaml$/)
   })
 
   it('feedback 不存在抛错', async () => {
