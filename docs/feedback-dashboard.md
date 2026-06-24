@@ -356,3 +356,10 @@ curl -s "http://localhost:3000/api/feedback/admin/high-token-low-satisfaction?da
 | `trip-front/src/views/Home.vue` | 加"反馈 Dashboard"菜单 |
 | `trip-front/src/router/index.ts` | /admin/feedback 路由 + 守卫 |
 | `docs/online-feedback.md` | 在线反馈系统基础文档（前置） |
+| `docs/feedback-to-fixture.md` | 反馈 → Fixture 自动化（进阶） |
+
+---
+
+## 进阶用法
+
+- **反馈 → Fixture 自动化**：见 `docs/feedback-to-fixture.md`（点击 dashboard 案例行 "📋 转 fixture" 按钮即可生成）
