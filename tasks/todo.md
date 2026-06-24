@@ -94,7 +94,10 @@ Code review 标记的 P3 项，Phase 1 全部完成后再做：
 - ✅ **admin dashboard 页面**：可视化 stats + recentDownComments + 趋势图 + 高 token 案例
   - 详见 `docs/feedback-dashboard.md`（commit `6586425`）
 - ⏳ **自动告警**：连续 1 小时 satisfactionRate < 0.5 触发飞书/Slack
-- ⏳ **反馈 → fixture**：把负反馈自动转成 eval fixture（防止同类问题回归）
+- ✅ **反馈 → fixture**：把负反馈自动转成 eval fixture（防止同类问题回归）
+  - 详见 `docs/feedback-to-fixture.md`（commits `82c6fbd`+`32dfd94`+`f514649`+`6665fd5`+`ebf8fb1`+`63549dc`+`ccf8382`）
+  - 3 入口：dashboard 按钮、CLI `pnpm feedback:to-fixture`、API `/admin/convert-to-fixture`
+  - 已导入 1 个真实 case 作为回归 fixture（feedback #1，"改了不好"）
 - **价值**：把"在线反馈"从纯统计变成质量改进闭环
 
 #### 2. 缓存 P2（`docs/cache-optimization.md` 第三阶段）
