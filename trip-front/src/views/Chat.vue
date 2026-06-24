@@ -136,11 +136,14 @@ const fetchAiResponse = (userMsg: string) => {
     { message: userMsg, conversationId: currentConversationId.value },
     (chunk) => {
       onEventReceived()
+      // 重连恢复后清掉重连提示
+      connectionWarning.value = null
       messages.value[messages.value.length - 1].content += chunk
     },
     (data) => {
       isStreaming.value = false
       toolStatus.value = null
+      connectionWarning.value = null
       stopConnectionCheck()
       currentAbortController.value = null
       if (data?.conversationId) {
@@ -153,6 +156,7 @@ const fetchAiResponse = (userMsg: string) => {
       messages.value[messages.value.length - 1].content = `AI处理发生错误: ${errMsg}`
       isStreaming.value = false
       toolStatus.value = null
+      connectionWarning.value = null
       stopConnectionCheck()
       currentAbortController.value = null
       showToast('AI处理发生错误')
@@ -164,6 +168,10 @@ const fetchAiResponse = (userMsg: string) => {
     },
     () => {
       onEventReceived()
+    },
+    // 续传回调：断网后正在重试
+    (attempt, maxRetries) => {
+      connectionWarning.value = `网络中断，正在重连（第 ${attempt}/${maxRetries} 次）...`
     },
   ).then(controller => {
     currentAbortController.value = controller

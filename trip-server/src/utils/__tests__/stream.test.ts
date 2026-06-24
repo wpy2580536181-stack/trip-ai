@@ -128,6 +128,19 @@ describe('createResumableStream', () => {
     })
   })
 
+  it('send → SSE 写 id: 字段（客户端用作 Last-Event-ID）', async () => {
+    const res = makeMockRes()
+    const rs = await createResumableStream({ res, userId: 'u1', conversationId: 'c1' })
+
+    rs.send({ type: 'chunk', content: 'A' })
+    rs.send({ type: 'chunk', content: 'B' })
+    rs.send({ type: 'chunk', content: 'C' })
+
+    expect(res.write).toHaveBeenNthCalledWith(1, expect.stringContaining('id: 1\n'))
+    expect(res.write).toHaveBeenNthCalledWith(2, expect.stringContaining('id: 2\n'))
+    expect(res.write).toHaveBeenNthCalledWith(3, expect.stringContaining('id: 3\n'))
+  })
+
   it('end → 写 SSE end event + markComplete', async () => {
     const res = makeMockRes()
     const rs = await createResumableStream({ res, userId: 'u1', conversationId: 'c1' })
