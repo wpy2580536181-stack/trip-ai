@@ -1,7 +1,13 @@
 import { Request, Response } from 'express'
 import tripService from '../services/tripService'
 import { optimizeTrip } from '../services/optimizeService'
-import { createStreamResponse } from '../utils/stream'
+import {
+  createResumableStream,
+  resumeStream,
+  StreamNotFoundError,
+  StreamForbiddenError,
+  StreamBadRequestError,
+} from '../utils/stream'
 import { tripLog as log } from '../utils/logger'
 
 export const recommend = async (req: Request, res: Response) => {
@@ -25,6 +31,43 @@ export const recommend = async (req: Request, res: Response) => {
 
 export const chat = async (req: Request, res: Response) => {
   const { message, conversationId } = req.body as { message: string; conversationId?: number }
+  const streamId = req.header('X-Stream-Id') || undefined
+  const lastEventIdHeader = req.header('Last-Event-ID')
+  const lastSeq = lastEventIdHeader ? Number(lastEventIdHeader) : 0
+
+  // 续传路径：有 X-Stream-Id + Last-Event-ID → 从 Redis 重发
+  if (streamId && lastEventIdHeader) {
+    if (!req.user) {
+      return res.status(401).json({ code: 401, error: '未登录' })
+    }
+    if (Number.isNaN(lastSeq) || lastSeq < 0) {
+      return res.status(400).json({ code: 400, error: 'Last-Event-ID 必须是非负整数' })
+    }
+
+    try {
+      await resumeStream({
+        res,
+        streamId,
+        lastSeq,
+        userId: String(req.user.userId),
+      })
+    } catch (err) {
+      if (err instanceof StreamNotFoundError) {
+        return res.status(404).json({ code: 404, error: 'stream 不存在或已过期' })
+      }
+      if (err instanceof StreamForbiddenError) {
+        return res.status(403).json({ code: 403, error: '无权访问此 stream' })
+      }
+      if (err instanceof StreamBadRequestError) {
+        return res.status(400).json({ code: 400, error: err.message })
+      }
+      log.error({ err: (err as Error).message, streamId }, '续传失败')
+      return res.status(500).json({ code: 500, error: '续传失败' })
+    }
+    return
+  }
+
+  // 正常流式路径
   if (!message) {
     return res.status(400).json({ code: 400, error: '参数错误' })
   }
@@ -39,7 +82,12 @@ export const chat = async (req: Request, res: Response) => {
       log.warn('写入失败，已中止 Agent')
     }
   }
-  const stream = createStreamResponse(res, abortAndLog)
+  const stream = await createResumableStream({
+    res,
+    userId: String(req.user.userId),
+    conversationId: conversationId ? String(conversationId) : 'pending',
+    onWriteError: abortAndLog,
+  })
   const isClientConnected = () => !res.writableEnded && !res.destroyed
 
   req.on('close', () => {
