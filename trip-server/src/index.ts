@@ -1,6 +1,5 @@
 import 'dotenv/config'
 import express, { Request, Response, NextFunction } from 'express'
-import cors from 'cors'
 import pinoHttp from 'pino-http'
 import { randomUUID } from 'crypto'
 import { createLimiter } from './middleware/rateLimiter'
@@ -16,21 +15,51 @@ import feedbackRouter from './routes/feedback.routes'
 const app = express()
 const PORT = process.env.PORT || 3000
 
-// CORS：支持开发常用 origin（Vite 5173、demo 8080、demo 3000）
-// 生产环境请设置 CORS_ORIGIN 环境变量为具体域名
-const CORS_ALLOWED_ORIGINS = [
+// CORS：支持开发常用 origin + file:// 双击打开 demo HTML
+// 自实现：处理 file:// origin（'null'）特殊场景
+// 'null' origin + Access-Control-Allow-Credentials: true 浏览器会拒绝
+// demo 用 Authorization: Bearer 头（不是 cookie），不需要 credentials
+//
+// CORS 配置策略：
+// - CORS_ORIGIN 环境变量 + 默认 demo origin 合并（merge）
+// - 生产部署设 CORS_DEMO=0 可禁用 demo 默认 origin
+const CORS_DEMO_ORIGINS = [
   'http://localhost:5173', // trip-front Vite dev
   'http://localhost:8080', // demo HTML 静态服务
   'http://localhost:3000', // demo HTML 直接放 trip-server public
   'http://127.0.0.1:5173',
   'http://127.0.0.1:8080',
   'http://127.0.0.1:3000',
+  'null', // file:// 双击打开 demo
 ]
-const CORS_ORIGIN = process.env.CORS_ORIGIN || CORS_ALLOWED_ORIGINS.join(',')
-app.use(cors({
-  origin: CORS_ORIGIN.split(',').map(s => s.trim()),
-  credentials: true,
-}))
+const CORS_DEMO = process.env.CORS_DEMO !== '0' // 默认开启 demo origin
+const demoOrigins = CORS_DEMO ? CORS_DEMO_ORIGINS : []
+const envOrigins = (process.env.CORS_ORIGIN || '').split(',').map(s => s.trim()).filter(Boolean)
+const allowedOrigins = Array.from(new Set([...envOrigins, ...demoOrigins]))
+
+app.use((req, res, next) => {
+  const origin = req.headers.origin
+  // 无 origin（curl / server-to-server）跳过
+  if (!origin) return next()
+  if (!allowedOrigins.includes(origin)) {
+    return res.status(403).json({ error: `Origin ${origin} not allowed` })
+  }
+  // 设置 CORS 头
+  res.setHeader('Access-Control-Allow-Origin', origin)
+  res.setHeader('Vary', 'Origin')
+  // file:// origin 不发 credentials（浏览器会拒绝组合）
+  if (origin !== 'null') {
+    res.setHeader('Access-Control-Allow-Credentials', 'true')
+  }
+  res.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE,OPTIONS,PATCH')
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type,Authorization,X-Stream-Id,Last-Event-ID,x-request-id')
+  res.setHeader('Access-Control-Max-Age', '86400')
+  // 处理 preflight
+  if (req.method === 'OPTIONS') {
+    return res.status(204).end()
+  }
+  next()
+})
 
 // pino-http：注入 req.log + 自动 access log
 app.use(pinoHttp({

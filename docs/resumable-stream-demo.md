@@ -19,30 +19,32 @@ npx ts-node src/index.ts
 
 ### 2. 启动 demo 静态服务
 
-**重要**：demo HTML 内部用**绝对 URL** `http://localhost:3000/api/...`，所以后端 CORS 已支持以下 origin 之一即可：
+**重要**：demo HTML 内部用**绝对 URL** `http://localhost:3000/api/...`，后端 CORS allowlist 已 merge 以下 origin（不需要任何配置）：
 
-| 端口 | 来源 | 启动方式 |
+| Origin | 场景 | 启动方式 |
 |---|---|---|
-| 8080 | 任意静态 server | `cd docs && python3 -m http.server 8080` |
-| 5173 | trip-front Vite | `cd trip-front && npm run dev` + 把 HTML 放 `public/` |
-| 3000 | 直接放 trip-server public | 需加 `express.static`（暂未配） |
+| `http://localhost:5173` | trip-front Vite dev | `cd trip-front && npm run dev` + 放 `public/` |
+| `http://localhost:8080` | 任意静态 server | `cd docs && python3 -m http.server 8080` |
+| `http://localhost:3000` | 后端同源 | 需 `express.static` 配（暂未） |
+| `null` | **双击 file:// 打开** | 浏览器直接打开 `docs/resumable-demo.html` |
 
-**最简单方案**：
+**最简单（推荐）**：
 
 ```bash
 # 终端 1：后端
 cd trip-server && npx ts-node src/index.ts
 
-# 终端 2：静态服务 demo
-cd docs && python3 -m http.server 8080
-
-# 浏览器
-open http://localhost:8080/resumable-demo.html
+# 浏览器（直接双击或拖到浏览器）：
+open docs/resumable-demo.html
+# file:// 协议下 Origin 是 'null'，后端 CORS allowlist 已含 'null'
 ```
 
-> **CORS 已配置**：trip-server/src/index.ts 的 CORS allowlist 默认包含
-> 5173（Vite）、8080（demo）、3000（同源）。生产环境务必设置
-> `CORS_ORIGIN` 环境变量为具体域名。
+> **生产环境安全**：设 `CORS_DEMO=0` 禁用 demo 默认 origin，只用 `CORS_ORIGIN` env 配。
+> 例如 `.env` 里：
+> ```
+> CORS_ORIGIN=https://your-production-domain.com
+> CORS_DEMO=0
+> ```
 
 ### 3. 打开 demo
 
@@ -189,12 +191,12 @@ function getBackoffMs(attempt) {
 
 | 问题 | 原因 | 解决 |
 |---|---|---|
+| **登录失败 CORS（Origin null）** | 用 file:// 双击打开，旧 .env 覆盖了 CORS 默认值 | 升级到最新代码：`CORS_ORIGIN` 现在 **merge** 默认值，不再被 .env 覆盖 |
 | 登录失败 401 | 密码错 | 确认用 `EvalTest@2026`（首字母大写 E T 0） |
 | 发送没反应 | Redis 没起 | `docker ps` 看 trip-redis，没起就 `docker start trip-redis` |
 | 续传 404 | streamId 错误或已过期 | 10 分钟 TTL，检查 stream 是否还在 Redis |
 | 续传 403 | IDOR — stream 不属于当前用户 | 用同一个 eval-test 账号 |
-| CORS 错误 | 端口不一致 | demo HTML 和后端同源（都用 3000 端口静态服务） |
-| chunks 数为 0 | abort 太早，streamId 没下发 | 至少等 3s 再 abort |
+| chunks 数为 0 | abort 太早，streamId 没下发 | 至少等 3s 再 abort（TTFB ~50ms 后 X-Stream-Id 立即下发） |
 
 ## 相关文件
 
