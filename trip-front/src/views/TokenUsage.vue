@@ -18,7 +18,7 @@ interface HighTokenCase {
   tags: string[] | null
   user: { id: number; username: string; nickname: string | null }
   messagePreview: string
-  usage: { prompt: number; completion: number; total: number } | null
+  usage: { prompt: number; completion: number; total: number; cached: number; cacheHitRate: number } | null
   createdAt: string
 }
 
@@ -37,6 +37,26 @@ const loading = ref(false)
 const stats = ref<TokenUsageStats | null>(null)
 const logs = ref<TokenUsageLogEntry[]>([])
 const highTokenCases = ref<HighTokenCase[]>([])
+
+// 本次 chat 的 prompt cache 命中率（来自 SSE complete event 的 usage.cached）
+// 这里只展示 "近 N 次累计"（从 logs 聚合）
+const cacheStats = computed(() => {
+  let total = 0
+  let cached = 0
+  let withCached = 0
+  for (const l of logs) {
+    // 老 entries 没 cached 字段（undefined），新 entries 有
+    if ((l as any).cached !== undefined) withCached++
+    total += l.tokens
+    cached += (l as any).cached ?? 0
+  }
+  return {
+    total,
+    cached,
+    hitRate: total > 0 ? cached / total : 0,
+    withCached,
+  }
+})
 
 const windowPercent = computed(() => {
   if (!stats.value) return 0
@@ -145,6 +165,28 @@ onMounted(() => {
         </div>
       </div>
 
+      <!-- LLM Prompt Cache 命中率（DeepSeek 自动缓存 system prompt + tools） -->
+      <div class="cache-card">
+        <div class="cache-header">
+          <span class="cache-title">LLM Prompt 缓存命中率</span>
+          <span class="cache-sub">DeepSeek 自动缓存（系统提示 + 工具）</span>
+        </div>
+        <div class="cache-rate">
+          <span class="cache-rate-num">{{ (cacheStats.hitRate * 100).toFixed(1) }}%</span>
+          <span class="cache-rate-detail">
+            命中 {{ formatNum(cacheStats.cached) }} / {{ formatNum(cacheStats.total) }} tokens
+          </span>
+        </div>
+        <van-progress
+          :percentage="cacheStats.hitRate * 100"
+          :show-pivot="false"
+          :color="cacheStats.hitRate > 0.7 ? '#07c160' : cacheStats.hitRate > 0.4 ? '#ff976a' : '#ee0a24'"
+        />
+        <div class="cache-hint">
+          命中率越高越省 token 钱。{{ cacheStats.withCached }} 次调用有 cached 数据。
+        </div>
+      </div>
+
       <div class="logs-section">
         <div class="section-title">最近调用</div>
         <van-empty v-if="logs.length === 0" description="暂无调用记录" />
@@ -177,6 +219,16 @@ onMounted(() => {
                     {{ formatNum(c.usage.total) }}
                   </span>
                   <span v-else class="case-tokens no-usage">无 usage</span>
+                </div>
+                <div v-if="c.usage" class="case-meta">
+                  <span class="case-meta-item">prompt {{ formatNum(c.usage.prompt) }}</span>
+                  <span class="case-meta-item">completion {{ formatNum(c.usage.completion) }}</span>
+                  <span
+                    class="case-meta-item"
+                    :class="c.usage.cacheHitRate > 0.7 ? 'cache-good' : c.usage.cacheHitRate > 0.3 ? 'cache-mid' : 'cache-low'"
+                  >
+                    cache {{ (c.usage.cacheHitRate * 100).toFixed(0) }}%
+                  </span>
                 </div>
                 <div class="case-preview">{{ c.messagePreview }}</div>
                 <div v-if="c.comment" class="case-comment">用户原话：{{ c.comment }}</div>
@@ -271,6 +323,50 @@ onMounted(() => {
 .cases-section {
   margin-top: 16px;
 }
+.cache-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-left: 3px solid #07c160;
+}
+.cache-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.cache-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+.cache-sub {
+  font-size: 11px;
+  color: #999;
+}
+.cache-rate {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.cache-rate-num {
+  font-size: 24px;
+  font-weight: 700;
+  color: #07c160;
+  font-family: 'SF Mono', Consolas, monospace;
+}
+.cache-rate-detail {
+  font-size: 12px;
+  color: #666;
+  font-family: 'SF Mono', Consolas, monospace;
+}
+.cache-hint {
+  font-size: 11px;
+  color: #999;
+  margin-top: 8px;
+}
 .case-row {
   width: 100%;
 }
@@ -318,6 +414,31 @@ onMounted(() => {
   font-size: 12px;
   font-style: italic;
   margin: 4px 0;
+}
+.case-meta {
+  display: flex;
+  gap: 8px;
+  font-size: 11px;
+  font-family: 'SF Mono', Consolas, monospace;
+  margin: 4px 0;
+}
+.case-meta-item {
+  background: #f5f5f5;
+  padding: 1px 6px;
+  border-radius: 3px;
+  color: #666;
+}
+.case-meta-item.cache-good {
+  background: #d5f4e6;
+  color: #186a3b;
+}
+.case-meta-item.cache-mid {
+  background: #fef5e7;
+  color: #9a7d0a;
+}
+.case-meta-item.cache-low {
+  background: #fadbd8;
+  color: #922b21;
 }
 .case-tags {
   display: flex;

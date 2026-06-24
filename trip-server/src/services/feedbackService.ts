@@ -138,7 +138,7 @@ class FeedbackService {
       tags: string[] | null
       user: { id: number; username: string; nickname: string | null }
       messagePreview: string
-      usage: { prompt: number; completion: number; total: number } | null
+      usage: { prompt: number; completion: number; total: number; cached: number; cacheHitRate: number } | null
       createdAt: string
     }
 
@@ -146,8 +146,16 @@ class FeedbackService {
     for (const d of downs) {
       const msg = msgMap.get(d.messageId)
       if (!msg) continue
-      const meta = msg.metadata as { usage?: { prompt: number; completion: number; total: number } } | null
-      const usage = meta?.usage
+      const meta = msg.metadata as {
+        usage?: { prompt: number; completion: number; total: number; cached: number }
+      } | null
+      const u = meta?.usage
+      const usage = u
+        ? {
+            ...u,
+            cacheHitRate: u.prompt > 0 ? u.cached / u.prompt : 0,
+          }
+        : null
       cases.push({
         feedbackId: d.id,
         messageId: d.messageId,
@@ -156,7 +164,7 @@ class FeedbackService {
         tags: Array.isArray(d.tags) ? (d.tags as string[]) : null,
         user: { id: d.user.id, username: d.user.username, nickname: d.user.nickname },
         messagePreview: msg.content.slice(0, 200),
-        usage: usage || null,
+        usage,
         createdAt: d.createdAt.toISOString(),
       })
     }

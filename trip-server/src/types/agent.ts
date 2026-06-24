@@ -68,11 +68,15 @@ export type TripContent = z.infer<typeof TripContentSchema>
  * prompt = 输入 token（含 system + history + user）
  * completion = 输出 token（agent 回复 + 工具调用 thought）
  * total = prompt + completion
+ * cached = prompt 中命中 DeepSeek prompt cache 的 token 数（系统提示 + 工具定义等复用）
+ *   - 命中率 = cached / prompt（越高越省 token 钱）
+ *   - DeepSeek 自动启用 cache，无需配置
  */
 export interface TokenUsage {
   prompt: number
   completion: number
   total: number
+  cached: number
 }
 
 export type AgentStreamEvent =

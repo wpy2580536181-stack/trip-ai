@@ -4,6 +4,8 @@ export interface TokenUsageLogEntry {
   userId: string | number
   endpoint: string
   tokens: number
+  /** DeepSeek prompt cache 命中的 token 数（系统提示等复用） */
+  cached: number
   timestamp: number
 }
 
@@ -30,6 +32,27 @@ export class TokenUsageLog {
       result = result.filter(l => l.userId === filterUserId)
     }
     return result.slice(-limit).reverse()
+  }
+
+  /**
+   * 累计 token 统计（prompt/completion/cached）
+   * 用于 dashboard 展示"整体缓存命中率"
+   */
+  getAggregate(opts?: { userId?: string | number }): {
+    prompt: number
+    completion: number
+    cached: number
+    callCount: number
+  } {
+    const filterUserId = opts?.userId
+    const result = { prompt: 0, completion: 0, cached: 0, callCount: 0 }
+    for (const l of this.logs) {
+      if (filterUserId !== undefined && l.userId !== filterUserId) continue
+      result.prompt += l.tokens // 旧 entries 只有 tokens，没有拆分
+      result.cached += l.cached ?? 0
+      result.callCount++
+    }
+    return result
   }
 
   clear(): void {

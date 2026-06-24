@@ -109,7 +109,7 @@ class AgentEngine {
     onEvent: (event: AgentStreamEvent) => Promise<void>,
     signal?: AbortSignal,
   ): Promise<{ content: string; usage: TokenUsage }> {
-    const usage: TokenUsage = { prompt: 0, completion: 0, total: 0 }
+    const usage: TokenUsage = { prompt: 0, completion: 0, total: 0, cached: 0 }
 
     const eventStream = executor.streamEvents(input, { version: 'v2', signal })
     let fullResponse = ''
@@ -137,8 +137,21 @@ class AgentEngine {
         // 必须用 toJSON().kwargs（LangChain 内部约定）
         const msg = event.data?.output as { toJSON?: () => { kwargs?: any } } | undefined
         const kwargs = msg?.toJSON?.()?.kwargs as {
-          usage_metadata?: { input_tokens: number; output_tokens: number; total_tokens: number }
-          response_metadata?: { usage?: { prompt_tokens: number; completion_tokens: number; total_tokens: number } }
+          usage_metadata?: {
+            input_tokens: number
+            output_tokens: number
+            total_tokens: number
+            input_token_details?: { cache_read?: number; cache_creation?: number }
+          }
+          response_metadata?: {
+            usage?: {
+              prompt_tokens: number
+              completion_tokens: number
+              total_tokens: number
+              prompt_tokens_details?: { cached_tokens?: number }
+              prompt_cache_hit_tokens?: number
+            }
+          }
         } | undefined
         const um = kwargs?.usage_metadata
         const respUsage = kwargs?.response_metadata?.usage
@@ -146,10 +159,17 @@ class AgentEngine {
           usage.prompt += um.input_tokens ?? 0
           usage.completion += um.output_tokens ?? 0
           usage.total += um.total_tokens ?? (usage.prompt + usage.completion)
+          // LangChain usage_metadata 里 cache_read = 命中数（Anthropic 风格）
+          usage.cached += um.input_token_details?.cache_read ?? 0
         } else if (respUsage) {
           usage.prompt += respUsage.prompt_tokens ?? 0
           usage.completion += respUsage.completion_tokens ?? 0
           usage.total += respUsage.total_tokens ?? (usage.prompt + usage.completion)
+          // DeepSeek prompt cache：cached_tokens 或 prompt_cache_hit_tokens
+          const cached = respUsage.prompt_tokens_details?.cached_tokens
+            ?? respUsage.prompt_cache_hit_tokens
+            ?? 0
+          usage.cached += cached
         }
       }
     }

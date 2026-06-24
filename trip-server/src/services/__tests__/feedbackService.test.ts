@@ -258,8 +258,8 @@ describe('FeedbackService.getHighTokenLowSatisfaction', () => {
       },
     ])
     mockMessageFindMany.mockResolvedValueOnce([
-      { id: 100, content: 'case 1 content', metadata: { usage: { prompt: 1000, completion: 500, total: 1500 } } },
-      { id: 101, content: 'case 2 content', metadata: { usage: { prompt: 3000, completion: 1000, total: 4000 } } },
+      { id: 100, content: 'case 1 content', metadata: { usage: { prompt: 1000, completion: 500, total: 1500, cached: 800 } } },
+      { id: 101, content: 'case 2 content', metadata: { usage: { prompt: 3000, completion: 1000, total: 4000, cached: 0 } } },
     ])
 
     const cases = await feedbackService.getHighTokenLowSatisfaction(7, 20)
@@ -268,7 +268,9 @@ describe('FeedbackService.getHighTokenLowSatisfaction', () => {
     // 按 token total 降序
     expect(cases[0].messageId).toBe(101) // 4000
     expect(cases[0].usage?.total).toBe(4000)
+    expect(cases[0].usage?.cacheHitRate).toBe(0) // 没命中
     expect(cases[1].messageId).toBe(100) // 1500
+    expect(cases[1].usage?.cacheHitRate).toBe(0.8) // 800/1000
   })
 
   it('无 usage 的 case 排最后（null 排尾部）', async () => {
