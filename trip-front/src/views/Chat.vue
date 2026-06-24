@@ -9,10 +9,18 @@ import { getConversation } from '@/api/conversation'
 
 const router = useRouter()
 
+interface TokenUsage {
+  prompt: number
+  completion: number
+  total: number
+}
+
 interface Message {
   role: 'user' | 'ai'
   content: string
   timestamp: string
+  /** LLM token usage（仅 ai 消息有） */
+  usage?: TokenUsage
 }
 
 const CONVERSATION_ID_KEY = 'trip_chat_conversation_id'
@@ -146,6 +154,10 @@ const fetchAiResponse = (userMsg: string) => {
       connectionWarning.value = null
       stopConnectionCheck()
       currentAbortController.value = null
+      // 存 LLM token usage（用于 TokenUsage.vue 关联 feedback）
+      if (data?.usage && messages.value.length > 0) {
+        messages.value[messages.value.length - 1].usage = data.usage
+      }
       if (data?.conversationId) {
         currentConversationId.value = data.conversationId
         localStorage.setItem(CONVERSATION_ID_KEY, String(data.conversationId))

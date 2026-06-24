@@ -107,3 +107,25 @@ export const listForMessage = async (req: Request, res: Response) => {
     res.status(500).json({ code: 500, error: '查询失败' })
   }
 }
+
+/**
+ * 高 token + 低满意度案例（admin dashboard）
+ * 找出负反馈 + 关联 token 数，按 token 降序排 top 20
+ */
+export const getHighTokenLowSatisfaction = async (req: Request, res: Response) => {
+  try {
+    if (!req.user || req.user.roleId !== 1) {
+      return res.status(403).json({ code: 403, error: '仅管理员可访问' })
+    }
+    const days = Number(req.query.days) || 7
+    const limit = Number(req.query.limit) || 20
+    const cases = await feedbackService.getHighTokenLowSatisfaction(
+      Math.min(Math.max(days, 1), 90),
+      Math.min(Math.max(limit, 1), 100)
+    )
+    res.json({ code: 200, data: cases })
+  } catch (e) {
+    log.error({ err: e }, 'get high-token-low-satisfaction failed')
+    res.status(500).json({ code: 500, error: '查询失败' })
+  }
+}

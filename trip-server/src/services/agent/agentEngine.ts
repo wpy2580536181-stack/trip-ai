@@ -8,7 +8,7 @@ import { getWeatherTool } from './tools/getWeather'
 import { calculateDistanceTool } from './tools/calculateDistance'
 import { searchHotelsTool } from './tools/searchHotels'
 import { buildSystemPrompt, buildRecommendSystemPrompt } from './systemPrompt'
-import { AgentStreamEvent, TripContentSchema, type TripContent } from '../../types/agent'
+import { AgentStreamEvent, TripContentSchema, type TripContent, type TokenUsage } from '../../types/agent'
 import { createLLM, createLLMFromConfig, loadFallbackLLMConfig, type LLMConfig } from '../../config/llm'
 import { extractJson } from '../../utils/jsonExtractor'
 import prisma from '../../config/database'
@@ -108,12 +108,14 @@ class AgentEngine {
     input: Record<string, unknown>,
     onEvent: (event: AgentStreamEvent) => Promise<void>,
     signal?: AbortSignal,
-  ): Promise<string> {
+  ): Promise<{ content: string; usage: TokenUsage }> {
+    const usage: TokenUsage = { prompt: 0, completion: 0, total: 0 }
+
     const eventStream = executor.streamEvents(input, { version: 'v2', signal })
     let fullResponse = ''
     let streamEnabled = true
 
-    for await (const event of eventStream as AsyncIterable<StreamEvent>) {
+    for await (const event of eventStream as AsyncIterable<StreamEvent & { data?: any }>) {
       if (signal?.aborted) break
       if (event.event === 'on_tool_start') {
         streamEnabled = false
@@ -130,10 +132,29 @@ class AgentEngine {
           fullResponse += piece
           await onEvent({ type: 'chunk', content: piece })
         }
+      } else if (event.event === 'on_chat_model_end') {
+        // AIMessageChunk 的数据访问：直接属性 output.kwargs 是 private，
+        // 必须用 toJSON().kwargs（LangChain 内部约定）
+        const msg = event.data?.output as { toJSON?: () => { kwargs?: any } } | undefined
+        const kwargs = msg?.toJSON?.()?.kwargs as {
+          usage_metadata?: { input_tokens: number; output_tokens: number; total_tokens: number }
+          response_metadata?: { usage?: { prompt_tokens: number; completion_tokens: number; total_tokens: number } }
+        } | undefined
+        const um = kwargs?.usage_metadata
+        const respUsage = kwargs?.response_metadata?.usage
+        if (um) {
+          usage.prompt += um.input_tokens ?? 0
+          usage.completion += um.output_tokens ?? 0
+          usage.total += um.total_tokens ?? (usage.prompt + usage.completion)
+        } else if (respUsage) {
+          usage.prompt += respUsage.prompt_tokens ?? 0
+          usage.completion += respUsage.completion_tokens ?? 0
+          usage.total += respUsage.total_tokens ?? (usage.prompt + usage.completion)
+        }
       }
     }
 
-    return fullResponse
+    return { content: fullResponse, usage }
   }
 
   private async invokeWithFallback(
@@ -190,16 +211,16 @@ class AgentEngine {
     const executor = await this.buildAgent(this.llm!, systemPrompt)
     const invokeInput = { chat_history: [...historyMessages, new HumanMessage(message)] }
 
-    let fullResponse: string
+    let result: { content: string; usage: TokenUsage }
     try {
-      fullResponse = await this.processStream(executor, invokeInput, onEvent, signal)
+      result = await this.processStream(executor, invokeInput, onEvent, signal)
     } catch (e) {
       if (this.fallbackLLMConfig) {
         log.warn({ err: e, fallback: 'AGNES' }, '主 LLM 失败，切换到备用模型重试')
         const fallbackLLM = createLLMFromConfig(this.fallbackLLMConfig, { streaming: true })
         const fallbackExecutor = await this.buildAgent(fallbackLLM, systemPrompt)
         try {
-          fullResponse = await this.processStream(fallbackExecutor, invokeInput, onEvent, signal)
+          result = await this.processStream(fallbackExecutor, invokeInput, onEvent, signal)
         } catch (retryErr) {
           const errMsg = retryErr instanceof Error ? retryErr.message : '未知错误'
           log.error({ err: retryErr }, '备用模型也失败')
@@ -214,8 +235,11 @@ class AgentEngine {
       }
     }
 
-    await onEvent({ type: 'complete', content: fullResponse })
-    return { reply: fullResponse, conversationId }
+    // 累计 fallback 的 usage：主失败 + fallback 成功 = fallback 的 usage
+    // 当前实现：主失败时 result 是 fallback 的，OK
+    // 主成功：result 是主模型的 usage，OK
+    await onEvent({ type: 'complete', content: result.content, usage: result.usage })
+    return { reply: result.content, conversationId }
   }
 
   async recommend(params: RecommendParams): Promise<{ reply: string; parsed: TripContent }> {

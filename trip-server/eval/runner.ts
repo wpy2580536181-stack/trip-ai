@@ -225,6 +225,20 @@ export function summarize(results: FixtureResult[]): ReportSummary {
   const passed = results.filter((r) => r.pass).length
   const totalDuration = results.reduce((s, r) => s + r.durationMs, 0)
 
+  // Token 累计（取主输出的 tokens）
+  let totalTokens: ReportSummary['totalTokens']
+  let hasTokens = false
+  const tokensAgg = { prompt: 0, completion: 0, total: 0 }
+  for (const r of results) {
+    if (r.agentOutput?.tokens) {
+      tokensAgg.prompt += r.agentOutput.tokens.prompt
+      tokensAgg.completion += r.agentOutput.tokens.completion
+      tokensAgg.total += r.agentOutput.tokens.total
+      hasTokens = true
+    }
+  }
+  if (hasTokens) totalTokens = tokensAgg
+
   // 按 tag
   const byTag: ReportSummary['byTag'] = {}
   for (const r of results) {
@@ -259,5 +273,6 @@ export function summarize(results: FixtureResult[]): ReportSummary {
     totalDurationMs: totalDuration,
     byTag,
     byEvaluator,
+    totalTokens,
   }
 }

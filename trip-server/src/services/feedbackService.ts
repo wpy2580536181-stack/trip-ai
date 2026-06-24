@@ -104,6 +104,69 @@ class FeedbackService {
   }
 
   /**
+   * 高 token + 低满意度案例（admin dashboard 用）
+   *
+   * 找出负反馈（rating=-1）的 message，关联 message.metadata.usage，
+   * 按 token 总数降序返回 top N。
+   *
+   * 用于评估"哪个 case 又慢又差"——优化 ROI 最高
+   */
+  async getHighTokenLowSatisfaction(sinceDays = 7, limit = 20) {
+    const since = new Date(Date.now() - sinceDays * 24 * 60 * 60 * 1000)
+    const downs = await prisma.feedback.findMany({
+      where: { createdAt: { gte: since }, rating: -1 },
+      orderBy: { createdAt: 'desc' },
+      take: 200, // 多取一些，filter 后再排序
+      include: {
+        user: { select: { id: true, username: true, nickname: true } },
+      },
+    })
+
+    // 关联 message 的 metadata.usage
+    const messageIds = [...new Set(downs.map((d) => d.messageId))]
+    const messages = await prisma.message.findMany({
+      where: { id: { in: messageIds } },
+      select: { id: true, content: true, metadata: true, createdAt: true },
+    })
+    const msgMap = new Map(messages.map((m) => [m.id, m]))
+
+    type Case = {
+      feedbackId: number
+      messageId: number
+      rating: number
+      comment: string | null
+      tags: string[] | null
+      user: { id: number; username: string; nickname: string | null }
+      messagePreview: string
+      usage: { prompt: number; completion: number; total: number } | null
+      createdAt: string
+    }
+
+    const cases: Case[] = []
+    for (const d of downs) {
+      const msg = msgMap.get(d.messageId)
+      if (!msg) continue
+      const meta = msg.metadata as { usage?: { prompt: number; completion: number; total: number } } | null
+      const usage = meta?.usage
+      cases.push({
+        feedbackId: d.id,
+        messageId: d.messageId,
+        rating: d.rating,
+        comment: d.comment,
+        tags: Array.isArray(d.tags) ? (d.tags as string[]) : null,
+        user: { id: d.user.id, username: d.user.username, nickname: d.user.nickname },
+        messagePreview: msg.content.slice(0, 200),
+        usage: usage || null,
+        createdAt: d.createdAt.toISOString(),
+      })
+    }
+
+    // 按 token 总数降序，无 usage 的排最后
+    cases.sort((a, b) => (b.usage?.total ?? -1) - (a.usage?.total ?? -1))
+    return cases.slice(0, limit)
+  }
+
+  /**
    * 全局统计（admin dashboard 用）
    */
   async getGlobalStats(sinceDays = 7): Promise<FeedbackStats> {

@@ -173,6 +173,16 @@ async function main() {
     `${totalColor(`${summary.passedFixtures}/${summary.totalFixtures} 通过`)} (${pct}%)  ${chalk.gray(`${summary.totalDurationMs}ms`)}`,
   )
 
+  // Token 汇总（仅真实模式有 tokens）
+  if (summary.totalTokens !== undefined) {
+    const t = summary.totalTokens
+    console.log(
+      chalk.gray(
+        `  Token: prompt=${t.prompt.toLocaleString()}  completion=${t.completion.toLocaleString()}  total=${t.total.toLocaleString()}`,
+      ),
+    )
+  }
+
   if (Object.keys(summary.byTag).length > 0) {
     console.log(chalk.bold('\n按 tag:'))
     for (const [tag, s] of Object.entries(summary.byTag)) {

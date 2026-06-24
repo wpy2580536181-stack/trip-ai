@@ -31,4 +31,7 @@ router.get('/stats', authMiddleware, feedbackController.getGlobalStats)
 // admin 列出某消息所有反馈
 router.get('/list/:msgId', authMiddleware, feedbackController.listForMessage)
 
+// admin 高 token + 低满意度案例（用于 ROI 优化）
+router.get('/admin/high-token-low-satisfaction', authMiddleware, feedbackController.getHighTokenLowSatisfaction)
+
 export default router

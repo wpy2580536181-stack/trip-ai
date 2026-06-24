@@ -62,11 +62,24 @@ export const TripContentSchema = z.object({
 })
 export type TripContent = z.infer<typeof TripContentSchema>
 
+/**
+ * LLM token usage（per-request 累计）
+ *
+ * prompt = 输入 token（含 system + history + user）
+ * completion = 输出 token（agent 回复 + 工具调用 thought）
+ * total = prompt + completion
+ */
+export interface TokenUsage {
+  prompt: number
+  completion: number
+  total: number
+}
+
 export type AgentStreamEvent =
   | { type: 'tool_start'; name: string }
   | { type: 'tool_end'; name: string; output?: string }
   | { type: 'chunk'; content: string }
-  | { type: 'complete'; content: string }
+  | { type: 'complete'; content: string; usage?: TokenUsage }
   | { type: 'error'; error: string }
   | { type: 'heartbeat' }
 

@@ -34,6 +34,12 @@ interface SSEEvent {
   error?: string
 }
 
+interface TokenUsage {
+  prompt: number
+  completion: number
+  total: number
+}
+
 const log = {
   info: (msg: string, extra?: any) => console.log(`[real-agent] ${msg}`, extra ?? ''),
   warn: (msg: string, extra?: any) => console.warn(`[real-agent] ${msg}`, extra ?? ''),
@@ -157,13 +163,13 @@ export class RealAgent {
     }
 
     // 解析 SSE 流
-    const { text, toolCalls, error, returnedConvId } = await parseSSE(res.body)
+    const { text, toolCalls, error, returnedConvId, usage } = await parseSSE(res.body)
     clearTimeout(timer)
     const durationMs = Date.now() - start
 
     if (error) {
       return {
-        output: { text, json: extractJson(text) as any, toolCalls, error, durationMs },
+        output: { text, json: extractJson(text) as any, toolCalls, error, durationMs, tokens: usage },
         conversationId: returnedConvId,
       }
     }
@@ -178,7 +184,7 @@ export class RealAgent {
     }
 
     return {
-      output: { text, json, toolCalls, durationMs },
+      output: { text, json, toolCalls, durationMs, tokens: usage },
       conversationId: returnedConvId,
     }
   }
@@ -220,6 +226,7 @@ export class RealAgent {
         toolCalls: [],
         error: msg,
         durationMs: 0,
+        tokens: undefined,
       }
     }
   }
@@ -234,6 +241,7 @@ async function parseSSE(body: ReadableStream<Uint8Array>): Promise<{
   toolCalls: ToolCall[]
   error?: string
   returnedConvId?: number
+  usage?: TokenUsage
 }> {
   const reader = body.getReader()
   const decoder = new TextDecoder()
@@ -242,6 +250,7 @@ async function parseSSE(body: ReadableStream<Uint8Array>): Promise<{
   const toolCalls: ToolCall[] = []
   let error: string | undefined
   let returnedConvId: number | undefined
+  let usage: TokenUsage | undefined
   const openToolNames: string[] = []  // 维护 tool_start 到 tool_end 的栈
 
   try {
@@ -275,6 +284,9 @@ async function parseSSE(body: ReadableStream<Uint8Array>): Promise<{
             if (event.data?.conversationId) {
               returnedConvId = event.data.conversationId
             }
+            if (event.data?.usage) {
+              usage = event.data.usage as TokenUsage
+            }
             break
           case 'error':
             error = event.error || '未知错误'
@@ -289,7 +301,7 @@ async function parseSSE(body: ReadableStream<Uint8Array>): Promise<{
     reader.releaseLock()
   }
 
-  return { text, toolCalls, error, returnedConvId }
+  return { text, toolCalls, error, returnedConvId, usage }
 }
 
 /** 解析一条 SSE 事件（多行 data: 拼接） */

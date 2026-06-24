@@ -14,6 +14,7 @@ import { describe, it, expect, vi, beforeEach } from 'vitest'
 const mockUpsert = vi.fn()
 const mockCount = vi.fn()
 const mockFindMany = vi.fn()
+const mockMessageFindMany = vi.fn()
 
 vi.mock('../../config/database', () => ({
   default: {
@@ -21,6 +22,9 @@ vi.mock('../../config/database', () => ({
       upsert: (...args: any[]) => mockUpsert(...args),
       count: (...args: any[]) => mockCount(...args),
       findMany: (...args: any[]) => mockFindMany(...args),
+    },
+    message: {
+      findMany: (...args: any[]) => mockMessageFindMany(...args),
     },
   },
 }))
@@ -222,5 +226,75 @@ describe('FeedbackService.getGlobalStats', () => {
     const stats = await feedbackService.getGlobalStats(7)
 
     expect(stats.satisfactionRate).toBe(0)
+  })
+})
+
+describe('FeedbackService.getHighTokenLowSatisfaction', () => {
+  beforeEach(() => {
+    vi.clearAllMocks()
+  })
+
+  it('返回关联 message usage 的负反馈 case', async () => {
+    const now = new Date()
+    mockFindMany.mockResolvedValueOnce([
+      // feedback.findMany（带 user include）
+      {
+        id: 1,
+        messageId: 100,
+        rating: -1,
+        comment: '推荐不准',
+        tags: ['推荐不准'],
+        createdAt: now,
+        user: { id: 10, username: 'eval-test', nickname: 'eval' },
+      },
+      {
+        id: 2,
+        messageId: 101,
+        rating: -1,
+        comment: '答非所问',
+        tags: null,
+        createdAt: now,
+        user: { id: 10, username: 'eval-test', nickname: 'eval' },
+      },
+    ])
+    mockMessageFindMany.mockResolvedValueOnce([
+      { id: 100, content: 'case 1 content', metadata: { usage: { prompt: 1000, completion: 500, total: 1500 } } },
+      { id: 101, content: 'case 2 content', metadata: { usage: { prompt: 3000, completion: 1000, total: 4000 } } },
+    ])
+
+    const cases = await feedbackService.getHighTokenLowSatisfaction(7, 20)
+
+    expect(cases).toHaveLength(2)
+    // 按 token total 降序
+    expect(cases[0].messageId).toBe(101) // 4000
+    expect(cases[0].usage?.total).toBe(4000)
+    expect(cases[1].messageId).toBe(100) // 1500
+  })
+
+  it('无 usage 的 case 排最后（null 排尾部）', async () => {
+    const now = new Date()
+    mockFindMany.mockResolvedValueOnce([
+      { id: 1, messageId: 100, rating: -1, comment: null, tags: null, createdAt: now, user: { id: 10, username: 'u', nickname: null } },
+      { id: 2, messageId: 101, rating: -1, comment: null, tags: null, createdAt: now, user: { id: 10, username: 'u', nickname: null } },
+    ])
+    mockMessageFindMany.mockResolvedValueOnce([
+      { id: 100, content: 'has usage', metadata: { usage: { prompt: 100, completion: 50, total: 150 } } },
+      { id: 101, content: 'no usage', metadata: null },
+    ])
+
+    const cases = await feedbackService.getHighTokenLowSatisfaction(7, 20)
+    expect(cases[0].messageId).toBe(100) // 有 usage 排前
+    expect(cases[1].usage).toBeNull()
+  })
+
+  it('message 不存在则跳过该 case', async () => {
+    const now = new Date()
+    mockFindMany.mockResolvedValueOnce([
+      { id: 1, messageId: 999, rating: -1, comment: null, tags: null, createdAt: now, user: { id: 10, username: 'u', nickname: null } },
+    ])
+    mockMessageFindMany.mockResolvedValueOnce([]) // 找不到 message
+
+    const cases = await feedbackService.getHighTokenLowSatisfaction(7, 20)
+    expect(cases).toHaveLength(0)
   })
 })

@@ -136,4 +136,6 @@ export interface ReportSummary {
   totalDurationMs: number
   byTag: Record<string, { total: number; passed: number; passRate: number }>
   byEvaluator: Record<string, { total: number; passed: number; passRate: number }>
+  /** Token 累计（仅真实模式有值，mock 模式 undefined） */
+  totalTokens?: { prompt: number; completion: number; total: number }
 }

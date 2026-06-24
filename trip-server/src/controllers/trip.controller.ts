@@ -107,6 +107,9 @@ export const chat = async (req: Request, res: Response) => {
   }, 5000)
 
   try {
+    // 收集 LLM token usage（SSE complete event 时下发）
+    let lastUsage: { prompt: number; completion: number; total: number } | null = null
+
     const { conversationId: newConvId } = await tripService.chatStream({
       userId: req.user.userId,
       message,
@@ -128,12 +131,15 @@ export const chat = async (req: Request, res: Response) => {
             stream.send({ type: 'tool_end', name })
           }
         },
+        onUsage: (usage) => {
+          lastUsage = usage
+        },
         isClientConnected,
       },
     })
 
     if (isClientConnected()) {
-      stream.send({ type: 'complete', data: { conversationId: newConvId } })
+      stream.send({ type: 'complete', data: { conversationId: newConvId, usage: lastUsage } })
       stream.end()
     }
   } catch (error) {

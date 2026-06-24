@@ -3,7 +3,9 @@ import { getOrCreateConversation, saveMessage, autoTitle } from './conversationS
 import { compressConversation } from './summaryService'
 import { recommendCache } from './llmGuard/cache'
 import prisma from '../config/database'
+import { Prisma } from '@prisma/client'
 import { tripLog as log } from '../utils/logger'
+import type { TokenUsage } from '../types/agent'
 
 const ASSISTANT_PERSIST_FLUSH_INTERVAL_MS = 3000
 
@@ -12,6 +14,8 @@ export interface ChatStreamCallbacks {
   onToolStart?: (name: string) => void
   onToolEnd?: (name: string) => void
   isClientConnected?: () => boolean
+  /** complete event 携带的 LLM token usage（per-request 累计） */
+  onUsage?: (usage: TokenUsage) => void
 }
 
 class TripService {
@@ -23,7 +27,7 @@ class TripService {
     signal?: AbortSignal
   }) {
     const { userId, message, conversationId, callbacks, signal } = params
-    const { onChunk, onToolStart, onToolEnd, isClientConnected } = callbacks
+    const { onChunk, onToolStart, onToolEnd, isClientConnected, onUsage } = callbacks
 
     const conversation = await getOrCreateConversation(userId, conversationId)
     if (!conversation.title || conversation.title === '新对话') {
@@ -36,12 +40,20 @@ class TripService {
     let lastPersistAt = Date.now()
     let persisted = false
 
-    const persistAssistant = async (content: string, force = false) => {
+    const persistAssistant = async (content: string, force = false, usage?: TokenUsage) => {
       if (persisted) return
       if (!content) return
+      const metadata: Prisma.InputJsonValue | undefined = usage
+        ? { usage: usage as unknown as Prisma.InputJsonValue }
+        : undefined
       if (!assistantMsgId) {
         const msg = await prisma.message.create({
-          data: { conversationId: conversation.id, role: 'assistant', content },
+          data: {
+            conversationId: conversation.id,
+            role: 'assistant',
+            content,
+            metadata,
+          },
         })
         assistantMsgId = msg.id
         lastPersistAt = Date.now()
@@ -53,7 +65,10 @@ class TripService {
         try {
           await prisma.message.update({
             where: { id: assistantMsgId },
-            data: { content },
+            data: {
+              content,
+              metadata,
+            },
           })
           return
         } catch (e) {
@@ -66,36 +81,38 @@ class TripService {
       }
     }
 
-    try {
-      await agentEngine.chat({
-        userId,
-        message,
-        conversationId: conversation.id,
-        signal,
-        onEvent: async (event) => {
-          if (event.type === 'chunk') {
-            fullReply += event.content
-            onChunk(event.content)
-            await persistAssistant(fullReply, false)
-          } else if (event.type === 'tool_start') {
-            onToolStart?.(event.name)
-          } else if (event.type === 'tool_end') {
-            onToolEnd?.(event.name)
-          } else if (event.type === 'complete') {
-            fullReply = event.content
-            await persistAssistant(fullReply, true)
-            persisted = true
-            compressConversation(conversation.id).catch(e => {
-              log.error({ err: e, conversationId: conversation.id }, '摘要压缩失败')
-            })
-          } else if (event.type === 'error') {
-            await persistAssistant(fullReply, true)
-            compressConversation(conversation.id).catch(e => {
-              log.error({ err: e, conversationId: conversation.id }, '摘要压缩失败')
-            })
-          }
-        },
-      })
+  try {
+    await agentEngine.chat({
+      userId,
+      message,
+      conversationId: conversation.id,
+      signal,
+      onEvent: async (event) => {
+        if (event.type === 'chunk') {
+          fullReply += event.content
+          onChunk(event.content)
+          await persistAssistant(fullReply, false)
+        } else if (event.type === 'tool_start') {
+          onToolStart?.(event.name)
+        } else if (event.type === 'tool_end') {
+          onToolEnd?.(event.name)
+        } else if (event.type === 'complete') {
+          fullReply = event.content
+          await persistAssistant(fullReply, true, event.usage)
+          persisted = true
+          // 转发 LLM token usage 给 controller（前端 SSE 透传）
+          if (event.usage) onUsage?.(event.usage)
+          compressConversation(conversation.id).catch(e => {
+            log.error({ err: e, conversationId: conversation.id }, '摘要压缩失败')
+          })
+        } else if (event.type === 'error') {
+          await persistAssistant(fullReply, true)
+          compressConversation(conversation.id).catch(e => {
+            log.error({ err: e, conversationId: conversation.id }, '摘要压缩失败')
+          })
+        }
+      },
+    })
     } catch (e) {
       if (isClientConnected && !isClientConnected()) {
         log.warn('客户端已断开，强制持久化当前回复')

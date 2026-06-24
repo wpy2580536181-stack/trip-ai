@@ -8,6 +8,19 @@ import {
   getGlobalTokenLogs,
 } from '@/api/tokenUsage'
 import type { TokenUsageStats, TokenUsageLogEntry } from '@/api/tokenUsage'
+import { get } from '@/api/request'
+
+interface HighTokenCase {
+  feedbackId: number
+  messageId: number
+  rating: number
+  comment: string | null
+  tags: string[] | null
+  user: { id: number; username: string; nickname: string | null }
+  messagePreview: string
+  usage: { prompt: number; completion: number; total: number } | null
+  createdAt: string
+}
 
 const activeTab = ref<'user' | 'global'>('user')
 const isAdmin = computed(() => {
@@ -23,6 +36,7 @@ const isAdmin = computed(() => {
 const loading = ref(false)
 const stats = ref<TokenUsageStats | null>(null)
 const logs = ref<TokenUsageLogEntry[]>([])
+const highTokenCases = ref<HighTokenCase[]>([])
 
 const windowPercent = computed(() => {
   if (!stats.value) return 0
@@ -61,6 +75,17 @@ const onTabChange = () => {
   fetchData()
 }
 
+const fetchHighTokenCases = async () => {
+  if (!isAdmin.value) return
+  try {
+    const res: any = await get('/feedback/admin/high-token-low-satisfaction', { days: 7, limit: 20 })
+    if (res?.code === 200) highTokenCases.value = res.data
+  } catch (e) {
+    // silent — admin 视角，非阻塞
+    console.warn('fetch high token cases failed', e)
+  }
+}
+
 const formatTime = (ts: number) => {
   const d = new Date(ts)
   const hh = String(d.getHours()).padStart(2, '0')
@@ -78,7 +103,10 @@ const endpointLabels: Record<string, string> = {
   background: '后台任务',
 }
 
-onMounted(fetchData)
+onMounted(() => {
+  fetchData()
+  fetchHighTokenCases()
+})
 </script>
 
 <template>
@@ -132,6 +160,41 @@ onMounted(fetchData)
           </van-cell>
         </van-cell-group>
         <div class="hint">仅展示最近调用记录，服务重启后清零</div>
+      </div>
+
+      <!-- Admin 视角：高 token + 低满意度案例 -->
+      <div v-if="isAdmin" class="cases-section">
+        <div class="section-title">高 token + 低满意度案例（7 天）</div>
+        <van-empty v-if="highTokenCases.length === 0" description="暂无负反馈 + token 数据" />
+        <van-cell-group v-else inset>
+          <van-cell v-for="(c, i) in highTokenCases" :key="c.feedbackId" :border="i < highTokenCases.length - 1">
+            <template #title>
+              <div class="case-row">
+                <div class="case-header">
+                  <span class="case-user">{{ c.user.nickname || c.user.username }}</span>
+                  <span class="case-time">{{ formatTime(Date.parse(c.createdAt)) }}</span>
+                  <span v-if="c.usage" class="case-tokens">
+                    {{ formatNum(c.usage.total) }}
+                  </span>
+                  <span v-else class="case-tokens no-usage">无 usage</span>
+                </div>
+                <div class="case-preview">{{ c.messagePreview }}</div>
+                <div v-if="c.comment" class="case-comment">用户原话：{{ c.comment }}</div>
+                <div v-if="c.tags && c.tags.length" class="case-tags">
+                  <van-tag
+                    v-for="t in c.tags"
+                    :key="t"
+                    type="danger"
+                    plain
+                    size="mini"
+                    class="case-tag"
+                  >{{ t }}</van-tag>
+                </div>
+              </div>
+            </template>
+          </van-cell>
+        </van-cell-group>
+        <div class="hint">按 token 降序排前 20 — 优化 ROI 最高的 case</div>
       </div>
     </div>
   </div>
@@ -204,5 +267,65 @@ onMounted(fetchData)
   color: #1989fa;
   font-size: 14px;
   font-weight: 500;
+}
+.cases-section {
+  margin-top: 16px;
+}
+.case-row {
+  width: 100%;
+}
+.case-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+.case-user {
+  color: #333;
+  font-weight: 500;
+}
+.case-time {
+  color: #999;
+  font-size: 12px;
+  flex: 1;
+}
+.case-tokens {
+  color: #ee0a24;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: 'SF Mono', Consolas, monospace;
+}
+.case-tokens.no-usage {
+  color: #c8c9cc;
+  font-size: 12px;
+  font-weight: 400;
+}
+.case-preview {
+  color: #666;
+  font-size: 12px;
+  line-height: 1.4;
+  max-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin: 4px 0;
+}
+.case-comment {
+  color: #c0392b;
+  font-size: 12px;
+  font-style: italic;
+  margin: 4px 0;
+}
+.case-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px;
+}
+.case-tag {
+  font-size: 11px;
 }
 </style>

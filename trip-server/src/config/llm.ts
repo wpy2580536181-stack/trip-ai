@@ -41,6 +41,9 @@ export function createLLMFromConfig(cfg: LLMConfig, opts: { streaming?: boolean;
     temperature,
     streaming,
     callbacks: [tokenTracker],
+    // OpenAI 兼容 API：streaming 模式下请求 usage 字段
+    // DeepSeek / Moonshot / OpenAI 全部支持 stream_options.include_usage
+    modelKwargs: streaming ? { stream_options: { include_usage: true } } : undefined,
   })
 }
 
@@ -53,5 +56,6 @@ export function createLLM(opts: { streaming?: boolean; temperature?: number } = 
     temperature,
     streaming,
     callbacks: [tokenTracker],
+    modelKwargs: streaming ? { stream_options: { include_usage: true } } : undefined,
   })
 }
