@@ -26,6 +26,7 @@ import redis, { isRedisAvailable } from '../config/redis'
 import { streamLog as log } from '../utils/logger'
 
 const TTL_SECONDS = 600 // 10 分钟
+const MAX_EVENT_SIZE = 64 * 1024 // 64KB，单 event 上限（防 DoS / OOM）
 
 export type StreamStatus = 'active' | 'completed' | 'error'
 
@@ -53,14 +54,10 @@ export interface CreateStreamResult {
 
 /**
  * 内部 key 派生。streamId 已经是完整 Redis key（`stream:{uuid}`），
- * 内部用 key() / eventsKey() / seqKey() 加后缀派生。
+ * 内部用 eventsKey() / seqKey() 加后缀派生。
  *
  * 设计选择：streamId 包含 namespace，避免重复前缀。
  */
-function key(streamId: string): string {
-  return streamId
-}
-
 function eventsKey(streamId: string): string {
   return `${streamId}:events`
 }
@@ -87,7 +84,7 @@ export async function createStream(
   const now = Date.now()
 
   const pipe = redis.pipeline()
-  pipe.hset(key(streamId), {
+  pipe.hset(streamId, {
     userId,
     conversationId,
     status: 'active',
@@ -96,15 +93,12 @@ export async function createStream(
   })
   // 初始化 seq 计数器为 0
   pipe.set(seqKey(streamId), 0)
-  pipe.expire(key(streamId), TTL_SECONDS)
+  pipe.expire(streamId, TTL_SECONDS)
   pipe.expire(seqKey(streamId), TTL_SECONDS)
 
   await pipe.exec()
 
   // eventsKey 暂不存在，等第一个 appendEvent 时创建
-  // 这里记下 streamId，返回给调用方
-  log.debug({ streamId, userId, conversationId }, 'Stream created')
-
   log.debug({ streamId, userId, conversationId }, 'Stream created')
 
   return { streamId, seq: 0 }
@@ -124,6 +118,15 @@ export async function appendEvent(
     throw new Error('Redis unavailable, cannot append event')
   }
 
+  // Size check 在 INCR 之前：避免超限 event 跳号
+  // （先 INCR 后失败会导致后续 seq 跳号，影响客户端续传）
+  const serialized = JSON.stringify({ type: event.type, data: event.data })
+  if (serialized.length > MAX_EVENT_SIZE) {
+    throw new Error(
+      `Event too large: ${serialized.length} bytes (max ${MAX_EVENT_SIZE})`
+    )
+  }
+
   // 原子自增 seq
   const seq = await redis.incr(seqKey(streamId))
   const now = Date.now()
@@ -137,9 +140,9 @@ export async function appendEvent(
 
   const pipe = redis.pipeline()
   pipe.rpush(eventsKey(streamId), JSON.stringify(fullEvent))
-  pipe.hset(key(streamId), { lastEventAt: now.toString() })
+  pipe.hset(streamId, { lastEventAt: now.toString() })
   // 每次追加都续期 TTL（流活跃则不过期）
-  pipe.expire(key(streamId), TTL_SECONDS)
+  pipe.expire(streamId, TTL_SECONDS)
   pipe.expire(eventsKey(streamId), TTL_SECONDS)
   pipe.expire(seqKey(streamId), TTL_SECONDS)
 
@@ -185,7 +188,20 @@ export async function getEventsSince(
   const endIdx = -1
   const raw = await redis.lrange(eventsKey(streamId), startIdx, endIdx)
 
-  return raw.map((s) => JSON.parse(s) as StreamEvent)
+  // 损坏 event 跳过（不致命，log warn 即可）
+  // 场景：Redis 数据被手动改、版本不兼容、序列化截断
+  const events: StreamEvent[] = []
+  for (const s of raw) {
+    try {
+      events.push(JSON.parse(s) as StreamEvent)
+    } catch (err) {
+      log.warn(
+        { streamId, err: (err as Error).message, raw: s.slice(0, 100) },
+        '损坏 event 跳过'
+      )
+    }
+  }
+  return events
 }
 
 /**
@@ -200,7 +216,7 @@ export async function getStreamState(streamId: string): Promise<StreamState> {
     throw new Error('Redis unavailable, cannot get stream state')
   }
 
-  const hash = await redis.hgetall(key(streamId))
+  const hash = await redis.hgetall(streamId)
 
   if (!hash || !hash.userId) {
     throw new Error(`Stream not found: ${streamId}`)
@@ -232,7 +248,7 @@ export async function markComplete(streamId: string): Promise<void> {
     throw new Error('Redis unavailable, cannot mark complete')
   }
 
-  await redis.hset(key(streamId), { status: 'completed' })
+  await redis.hset(streamId, { status: 'completed' })
   log.debug({ streamId }, 'Stream marked completed')
 }
 
@@ -245,7 +261,7 @@ export async function deleteStream(streamId: string): Promise<void> {
   }
 
   const pipe = redis.pipeline()
-  pipe.del(key(streamId))
+  pipe.del(streamId)
   pipe.del(eventsKey(streamId))
   pipe.del(seqKey(streamId))
   await pipe.exec()

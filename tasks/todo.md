@@ -9,6 +9,7 @@
 > - JSON 健壮性：`docs/llm-json-robustness.md`（**9 个失败模式已全部修复**）
 > - 日志：`docs/pino-logging.md`（**已交付**，58 → 1 console 调用）
 > - 反馈系统：`docs/online-feedback.md`（**已交付**，11 单元测试 + e2e 通过）
+> - 断点续传流式 Agent：`docs/streamable-agent-resumable.md`（**Phase 1 Day 1-2 已交付**：Redis + streamStore）
 
 ---
 
@@ -36,11 +37,56 @@
 - ✅ 4 个真实 bug 修复：getWeather 强制、避免语境、宠物避雷、工具名大小写
 - ✅ 真实 pass rate：单采样 50-70%，三采样多数 60-70%
 
+### 断点续传流式 Agent（2026-06-24 开始）
+- ✅ Redis 基础设施：`config/redis.ts`（ioredis + 退避重连 + 降级守卫）
+- ✅ streamStore 服务：6 个 API + 原子 INCR + 10min TTL + 并发安全
+- ✅ 17 单元测试（含损坏 event 跳过、event size 限制、并发）
+- ✅ CI Redis service container（`redis:7-alpine` + health check）
+- ✅ Code review P2 修复（5/5 + 顺手删 1 个 P3 死代码）
+- ⏳ **Phase 1 Day 3-4**：ResumableStream helper + controller 接 Last-Event-ID
+- ⏳ **Phase 1 Day 5-6**：前端 fetchStream 重连
+- ⏳ **Phase 1 Day 7**：e2e + demo 视频 + 文档
+
+### Code Review 改进（2026-06-24）
+- ✅ P2-1: 删重复 `log.debug` 行
+- ✅ P2-2: `getEventsSince` JSON.parse 加 try-catch（损坏 event 跳过）
+- ✅ P2-3: `appendEvent` 加 64KB event 大小限制（防 DoS）
+- ✅ P2-4: 测试 `afterEach` 自动 SCAN + DEL 清理残留 key
+- ✅ P2-5: CI workflow 加 Redis service container
+- ✅ P3-6: 删 `key()` identity function 死代码
+- ⏳ P3 后续：自定义错误类型 + INCR/RPUSH Lua 原子化 + status 验证（见下方"待完成"）
+
 ---
 
 ## 待完成（按价值排序）
 
 ### 🟡 中价值（按需）
+
+#### 0. 断点续传 Phase 1 Day 3-4 必做（**P0 IDOR 防护**）
+
+`docs/streamable-agent-resumable.md` 实施期间必须包含：
+
+- [ ] **P0 IDOR 防护**（不实现就是高危漏洞）
+  - 续传前 controller 必须检查 `state.userId === req.user.userId`
+  - 否则任意用户可读他人 stream events
+  - 单元测试：用户 A 拿不到用户 B 的 stream
+- [ ] **`X-Stream-Id` 响应头**：新建 stream 时下发，客户端存到 localStorage
+- [ ] **Redis 降级路径测试**：mock `isRedisAvailable=false` → controller 返回普通流式响应（不报 500）
+- [ ] **`getEventsSince` 错误分类**：
+  - `Stream not found` → 400（客户端传错 streamId）
+  - `Seq exceeds totalSeq` → 400（客户端 bug，重置为 0 重试）
+  - `Redis unavailable` → 503（降级）
+- [ ] **事件大小校验前置**（已做）：避免超限 event 跳号
+- [ ] **流结束后清理**：客户端收到 end event 后应主动 `deleteStream`（缩短 Redis 占用）
+
+#### 0.5 P3 改进（`docs/streamable-agent-resumable.md` Phase 2）
+
+Code review 标记的 P3 项，可延后到 Phase 2：
+
+- [ ] 自定义错误类型（`StreamNotFoundError` / `SeqExceedsError` / `RedisUnavailableError`）
+- [ ] INCR + RPUSH + HSET + EXPIRE 用 Lua 脚本原子化（避免崩溃跳号）
+- [ ] `status` 字段运行时验证（`if (!['active','completed','error'].includes(...)) throw`）
+- [ ] `appendEvent` 验证 streamId 存在性（`EXISTS` 检查，防孤儿 key）
 
 #### 1. 反馈系统扩展（`docs/online-feedback.md` 后续）
 - ⏳ **admin dashboard 页面**：可视化 stats + recentDownComments（前端 + 路由）

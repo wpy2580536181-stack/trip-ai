@@ -42,9 +42,13 @@ describe('streamStore', () => {
   })
 
   afterEach(async () => {
-    // 清理：通过扫所有 stream:test:* 的 key 来删（用 SCAN）
-    // 简化：每个测试用随机 userId，结束后 deleteStream
-    // 这里用 afterAll 一次清更安全，但 afterEach 隔离更好
+    // 测试失败时 deleteStream 不会执行，需要兜底清理
+    // streamId 是随机 UUID，不会与其他测试冲突
+    if (!isRedisAvailable()) return
+    const keys = await redis.keys('stream:*')
+    if (keys.length > 0) {
+      await redis.del(...keys)
+    }
   })
 
   describe('createStream', () => {
@@ -160,6 +164,23 @@ describe('streamStore', () => {
 
       await deleteStream(streamId)
     })
+
+    it('损坏 event 跳过并继续返回后续合法 events', async () => {
+      const { streamId } = await createStream('u1', 'c1')
+
+      // 注入损坏 event（模拟 Redis 数据损坏或版本不兼容）
+      await appendEvent(streamId, { type: 'a', data: { i: 1 } })
+      await redis.rpush(`${streamId}:events`, '{{{garbage json') // 损坏
+      await appendEvent(streamId, { type: 'c', data: { i: 3 } })
+
+      const events = await getEventsSince(streamId, 0)
+      // 损坏 event 跳过，合法 events 仍能拿到
+      expect(events).toHaveLength(2)
+      expect(events[0].type).toBe('a')
+      expect(events[1].type).toBe('c')
+
+      await deleteStream(streamId)
+    })
   })
 
   describe('getStreamState', () => {
@@ -238,6 +259,36 @@ describe('streamStore', () => {
 
       const state = await getStreamState(streamId)
       expect(state.totalSeq).toBe(20)
+
+      await deleteStream(streamId)
+    })
+  })
+
+  describe('event size 限制', () => {
+    it('超限 event 抛错（防 DoS / OOM）', async () => {
+      const { streamId } = await createStream('u1', 'c1')
+
+      // 100KB 字符串（默认限制 64KB）
+      const huge = 'x'.repeat(100 * 1024)
+
+      await expect(
+        appendEvent(streamId, { type: 'huge', data: { payload: huge } })
+      ).rejects.toThrow(/too large|exceed/i)
+
+      // 验证没写入（seq 不增）
+      const state = await getStreamState(streamId)
+      expect(state.totalSeq).toBe(0)
+
+      await deleteStream(streamId)
+    })
+
+    it('正常大小 event 通过', async () => {
+      const { streamId } = await createStream('u1', 'c1')
+
+      // 1KB 字符串（远低于限制）
+      const normal = 'y'.repeat(1024)
+      const r = await appendEvent(streamId, { type: 'normal', data: { payload: normal } })
+      expect(r.seq).toBe(1)
 
       await deleteStream(streamId)
     })
