@@ -15,6 +15,13 @@
 import prisma from '../config/database'
 import { Prisma } from '@prisma/client'
 import { feedbackLog as log } from '../utils/logger'
+import { toYAML as convertFeedbackToYAML, type ConvertInput as ConverterInput } from './fixtureConverter'
+import * as fs from 'fs/promises'
+import * as path from 'path'
+
+function slugifyFilename(text: string): string {
+  return text.replace(/[^\w\u4e00-\u9fa5-]+/g, '-').toLowerCase() || 'user'
+}
 
 export interface SubmitFeedbackParams {
   userId: number
@@ -249,6 +256,67 @@ class FeedbackService {
       })
     }
     return result
+  }
+
+  /**
+   * 把单条负反馈转 fixture YAML 字符串 + 写到 generated/ 目录
+   * @returns 写入的文件绝对路径
+   */
+  async convertToFixture(feedbackId: number): Promise<string> {
+    const fb = await prisma.feedback.findUnique({
+      where: { id: feedbackId },
+      include: {
+        user: { select: { username: true, preferences: true } },
+      },
+    })
+    if (!fb) throw new Error(`feedback #${feedbackId} 不存在`)
+
+    const [message, conversation] = await Promise.all([
+      prisma.message.findUnique({ where: { id: fb.messageId } }),
+      prisma.conversation.findUnique({
+        where: { id: fb.conversationId },
+        include: {
+          messages: {
+            orderBy: { createdAt: 'asc' },
+            select: { id: true, role: true, content: true, createdAt: true },
+          },
+        },
+      }),
+    ])
+    if (!message) throw new Error(`feedback #${feedbackId} 关联的 message #${fb.messageId} 不存在`)
+    if (!conversation) throw new Error(`feedback #${feedbackId} 关联的 conversation #${fb.conversationId} 不存在`)
+
+    const converterInput: ConverterInput = {
+      feedbackId: fb.id,
+      feedbackComment: fb.comment,
+      feedbackTags: Array.isArray(fb.tags) ? (fb.tags as string[]) : null,
+      feedbackCreatedAt: fb.createdAt,
+      messageId: message.id,
+      messageContent: message.content,
+      userId: fb.userId,
+      username: fb.user.username,
+      userPreferences: (fb.user.preferences as Record<string, any> | null) ?? null,
+      conversationMessages: conversation.messages as any,
+    }
+
+    const yamlStr = convertFeedbackToYAML(converterInput)
+
+    const dir = path.resolve(__dirname, '../../eval/fixtures/generated')
+    await fs.mkdir(dir, { recursive: true })
+    let filePath = path.join(dir, `${converterInput.feedbackId}-${slugifyFilename(converterInput.username)}.yaml`)
+    let counter = 1
+    while (true) {
+      try {
+        await fs.access(filePath)
+        filePath = path.join(dir, `${converterInput.feedbackId}-${slugifyFilename(converterInput.username)}-${counter}.yaml`)
+        counter++
+      } catch {
+        break
+      }
+    }
+    await fs.writeFile(filePath, yamlStr, 'utf8')
+    log.info({ feedbackId, filePath }, 'fixture 骨架已生成')
+    return filePath
   }
 
   private formatDateKey(d: Date | string): string {

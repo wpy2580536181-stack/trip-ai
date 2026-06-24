@@ -15,6 +15,9 @@ const mockUpsert = vi.fn()
 const mockCount = vi.fn()
 const mockFindMany = vi.fn()
 const mockMessageFindMany = vi.fn()
+const mockFeedbackFindUnique = vi.fn()
+const mockMessageFindUnique = vi.fn()
+const mockConversationFindUnique = vi.fn()
 const mockQueryRaw = vi.fn()
 
 vi.mock('../../config/database', () => ({
@@ -23,12 +26,32 @@ vi.mock('../../config/database', () => ({
       upsert: (...args: any[]) => mockUpsert(...args),
       count: (...args: any[]) => mockCount(...args),
       findMany: (...args: any[]) => mockFindMany(...args),
+      findUnique: (...args: any[]) => mockFeedbackFindUnique(...args),
     },
     message: {
       findMany: (...args: any[]) => mockMessageFindMany(...args),
+      findUnique: (...args: any[]) => mockMessageFindUnique(...args),
+    },
+    conversation: {
+      findUnique: (...args: any[]) => mockConversationFindUnique(...args),
     },
     $queryRaw: (...args: any[]) => mockQueryRaw(...args),
   },
+}))
+
+// Mock fs (file writing)
+const mockMkdir = vi.fn()
+const mockAccess = vi.fn()
+const mockWriteFile = vi.fn()
+vi.mock('fs/promises', () => ({
+  default: {
+    mkdir: (...args: any[]) => mockMkdir(...args),
+    access: (...args: any[]) => mockAccess(...args),
+    writeFile: (...args: any[]) => mockWriteFile(...args),
+  },
+  mkdir: (...args: any[]) => mockMkdir(...args),
+  access: (...args: any[]) => mockAccess(...args),
+  writeFile: (...args: any[]) => mockWriteFile(...args),
 }))
 
 import { feedbackService } from '../feedbackService'
@@ -352,5 +375,59 @@ describe('FeedbackService.getDailyStats', () => {
     const days = await feedbackService.getDailyStats(30)
     expect(days).toHaveLength(30)
     expect(days.every((d) => d.up === 0 && d.down === 0)).toBe(true)
+  })
+})
+
+describe('FeedbackService.convertToFixture', () => {
+  beforeEach(() => {
+    vi.clearAllMocks()
+  })
+
+  it('写入 YAML 文件到 generated 目录', async () => {
+    const now = new Date('2026-06-24T10:00:00Z')
+    mockFeedbackFindUnique.mockResolvedValueOnce({
+      id: 1,
+      userId: 5,
+      messageId: 848,
+      conversationId: 100,
+      rating: -1,
+      comment: '推荐不准',
+      tags: ['recommend'],
+      createdAt: now,
+      user: { username: 'eval-test', preferences: { travelStyle: 'relaxed' } },
+    })
+    mockMessageFindUnique.mockResolvedValueOnce({
+      id: 848,
+      content: 'agent 这次回复',
+      createdAt: now,
+    })
+    mockConversationFindUnique.mockResolvedValueOnce({
+      id: 100,
+      messages: [
+        { id: 845, role: 'user', content: '上海 2 天', createdAt: now },
+        { id: 846, role: 'assistant', content: '好的', createdAt: now },
+        { id: 847, role: 'user', content: '加点辣的', createdAt: now },
+        { id: 848, role: 'assistant', content: 'agent 这次回复', createdAt: now },
+      ],
+    })
+    mockAccess.mockRejectedValue(new Error('not exists'))
+    mockMkdir.mockResolvedValueOnce(undefined)
+    mockWriteFile.mockResolvedValueOnce(undefined)
+
+    const filePath = await feedbackService.convertToFixture(1)
+
+    expect(filePath).toContain('eval/fixtures/generated/')
+    expect(filePath).toMatch(/\.yaml$/)
+    expect(mockMkdir).toHaveBeenCalled()
+    expect(mockWriteFile).toHaveBeenCalledTimes(1)
+    const writtenContent = mockWriteFile.mock.calls[0][1]
+    expect(writtenContent).toContain('id: feedback-1-eval-test-')
+    expect(writtenContent).toContain('source:')
+  })
+
+  it('feedback 不存在抛错', async () => {
+    mockFeedbackFindUnique.mockResolvedValueOnce(null)
+
+    await expect(feedbackService.convertToFixture(99999)).rejects.toThrow('不存在')
   })
 })
