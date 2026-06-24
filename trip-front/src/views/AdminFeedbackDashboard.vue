@@ -14,6 +14,7 @@ import { ref, computed, onMounted, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { showToast } from 'vant'
 import { get } from '@/api/request'
+import { convertFeedbackToFixture, type ConvertToFixtureResponse } from '@/api/feedback'
 
 interface GlobalStats {
   totalCount: number
@@ -124,6 +125,55 @@ const formatDate = (d: string) => {
 }
 
 const onBack = () => router.back()
+
+// === fixture 转换 ===
+const showConvertModal = ref(false)
+const convertResult = ref<ConvertToFixtureResponse>({ files: [], skipped: [] })
+const converting = ref(false)
+
+async function convertOne(feedbackId: number) {
+  if (converting.value) return
+  converting.value = true
+  try {
+    const res: any = await convertFeedbackToFixture([feedbackId])
+    if (res?.code === 200) {
+      convertResult.value = res.data
+      showConvertModal.value = true
+      if (res.data.files.length > 0) showToast(`已生成 ${res.data.files.length} 个 fixture`)
+      else showToast('未生成任何 fixture（可能 feedback 不存在）')
+    } else {
+      showToast('转换失败：' + (res?.error || res?.message || '未知错误'))
+    }
+  } catch (e) {
+    showToast('转换失败：' + ((e as Error).message || '未知错误'))
+  } finally {
+    converting.value = false
+  }
+}
+
+async function convertBatch() {
+  const allIds = (highTokenCases.value || []).map((c) => c.feedbackId)
+  if (allIds.length === 0) {
+    showToast('当前没有负反馈案例')
+    return
+  }
+  if (converting.value) return
+  converting.value = true
+  try {
+    const res: any = await convertFeedbackToFixture(allIds)
+    if (res?.code === 200) {
+      convertResult.value = res.data
+      showConvertModal.value = true
+      showToast(`已生成 ${res.data.files.length} 个 fixture${res.data.skipped.length > 0 ? `（跳过 ${res.data.skipped.length}）` : ''}`)
+    } else {
+      showToast('批量转换失败：' + (res?.error || res?.message || '未知错误'))
+    }
+  } catch (e) {
+    showToast('批量转换失败：' + ((e as Error).message || '未知错误'))
+  } finally {
+    converting.value = false
+  }
+}
 </script>
 
 <template>
@@ -224,6 +274,17 @@ const onBack = () => router.back()
           高 token + 低满意度案例
           <span class="section-sub">（{{ caseAggregate.caseCount }} 个 / 总 {{ formatNum(caseAggregate.totalTokens) }} tokens / 平均 cache {{ (caseAggregate.avgCacheRate * 100).toFixed(0) }}%）</span>
         </div>
+        <van-button
+          block
+          type="primary"
+          plain
+          :loading="converting"
+          :disabled="converting"
+          @click="convertBatch"
+          style="margin-bottom: 12px"
+        >
+          批量转最近 {{ days }} 天负反馈为 fixture
+        </van-button>
         <div class="case-list">
           <div
             v-for="c in highTokenCases"
@@ -247,6 +308,18 @@ const onBack = () => router.back()
             </div>
             <div class="case-preview">{{ c.messagePreview }}</div>
             <div v-if="c.comment" class="case-comment">用户：{{ c.comment }}</div>
+            <div class="case-actions">
+              <van-button
+                size="mini"
+                type="primary"
+                plain
+                :loading="converting"
+                :disabled="converting"
+                @click="convertOne(c.feedbackId)"
+              >
+                📋 转 fixture
+              </van-button>
+            </div>
           </div>
         </div>
       </div>
@@ -256,6 +329,43 @@ const onBack = () => router.back()
         description="近 {{ days }} 天还没有反馈"
       />
     </div>
+
+    <van-dialog
+      v-model:show="showConvertModal"
+      title="Fixture 骨架已生成"
+      :show-confirm-button="false"
+    >
+      <div style="padding: 16px">
+        <p>已生成 <strong>{{ convertResult.files.length }}</strong> 个文件：</p>
+        <ul v-if="convertResult.files.length" style="padding-left: 20px; margin: 8px 0">
+          <li
+            v-for="f in convertResult.files"
+            :key="f"
+            style="font-family: monospace; font-size: 12px; word-break: break-all; margin-bottom: 4px; color: #555"
+          >
+            {{ f }}
+          </li>
+        </ul>
+        <p v-if="convertResult.skipped.length" style="color: #ee0a24; margin-top: 12px; font-size: 13px">
+          跳过 {{ convertResult.skipped.length }} 条：
+          <ul style="padding-left: 20px; margin: 4px 0">
+            <li
+              v-for="s in convertResult.skipped"
+              :key="s.id"
+              style="font-size: 12px; margin-bottom: 2px"
+            >
+              feedback #{{ s.id }}: {{ s.reason }}
+            </li>
+          </ul>
+        </p>
+        <p style="color: #999; font-size: 12px; margin-top: 12px">
+          请到 IDE 编辑文件，补 expected 段后 commit。
+        </p>
+      </div>
+      <template #footer>
+        <van-button block @click="showConvertModal = false">完成</van-button>
+      </template>
+    </van-dialog>
   </div>
 </template>
 
@@ -469,5 +579,10 @@ const onBack = () => router.back()
   font-size: 12px;
   font-style: italic;
   margin-top: 4px;
+}
+.case-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
 }
 </style>

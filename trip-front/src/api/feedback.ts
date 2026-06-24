@@ -44,3 +44,11 @@ export const getMessageStats = (messageId: number) =>
 
 export const getGlobalStats = (days = 7) =>
   request.get<GlobalFeedbackStats>(`/api/feedback/stats?days=${days}`)
+
+export interface ConvertToFixtureResponse {
+  files: string[]
+  skipped: Array<{ id: number; reason: string }>
+}
+
+export const convertFeedbackToFixture = (feedbackIds: number[]) =>
+  request.post<ConvertToFixtureResponse>('/api/feedback/admin/convert-to-fixture', { feedbackIds })
