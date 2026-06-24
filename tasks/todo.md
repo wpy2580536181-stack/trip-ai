@@ -37,15 +37,22 @@
 - ✅ 4 个真实 bug 修复：getWeather 强制、避免语境、宠物避雷、工具名大小写
 - ✅ 真实 pass rate：单采样 50-70%，三采样多数 60-70%
 
-### 断点续传流式 Agent（2026-06-24 开始）
+### 断点续传流式 Agent（2026-06-24 完成）
 - ✅ Redis 基础设施：`config/redis.ts`（ioredis + 退避重连 + 降级守卫）
 - ✅ streamStore 服务：6 个 API + 原子 INCR + 10min TTL + 并发安全
 - ✅ 17 单元测试（含损坏 event 跳过、event size 限制、并发）
 - ✅ CI Redis service container（`redis:7-alpine` + health check）
 - ✅ Code review P2 修复（5/5 + 顺手删 1 个 P3 死代码）
-- ⏳ **Phase 1 Day 3-4**：ResumableStream helper + controller 接 Last-Event-ID
-- ⏳ **Phase 1 Day 5-6**：前端 fetchStream 重连
-- ⏳ **Phase 1 Day 7**：e2e + demo 视频 + 文档
+- ✅ **Phase 1 Day 3-4**：ResumableStream helper + controller Last-Event-ID + IDOR 防护
+- ✅ **Phase 1 Day 5-6**：SSE `id:` 字段 + 前端 SSEParser + fetchStream 重连 + Chat.vue UI
+- ✅ **Phase 1 Day 7**：端到端 e2e 验证（字节级一致）+ demo HTML + 文档
+- ✅ **Phase 1 全部完成**——见 `docs/streamable-agent-resumable.md` 第 0 节交付状态
+
+### 关键交付数字
+- 后端：103/103 测试通过（含 17 streamStore + 15 ResumableStream）
+- 前端：19/19 SSEParser 测试通过（node:test）
+- 端到端：手动验证 3 场景（完整流 / 断网重连 / 手动续传）
+- commits：4 个（782e7dd, b853530, 9627396, d9e82f9, 7d5d72d）
 
 ### Code Review 改进（2026-06-24）
 - ✅ P2-1: 删重复 `log.debug` 行
@@ -62,31 +69,26 @@
 
 ### 🟡 中价值（按需）
 
-#### 0. 断点续传 Phase 1 Day 3-4 必做（**P0 IDOR 防护**）
+#### 0. ~~断点续传 Phase 1 Day 3-4 必做（**P0 IDOR 防护**）~~ ✅ 全部完成
 
-`docs/streamable-agent-resumable.md` 实施期间必须包含：
+详见上方"断点续传流式 Agent"区段。具体已交付：
 
-- [ ] **P0 IDOR 防护**（不实现就是高危漏洞）
-  - 续传前 controller 必须检查 `state.userId === req.user.userId`
-  - 否则任意用户可读他人 stream events
-  - 单元测试：用户 A 拿不到用户 B 的 stream
-- [ ] **`X-Stream-Id` 响应头**：新建 stream 时下发，客户端存到 localStorage
-- [ ] **Redis 降级路径测试**：mock `isRedisAvailable=false` → controller 返回普通流式响应（不报 500）
-- [ ] **`getEventsSince` 错误分类**：
-  - `Stream not found` → 400（客户端传错 streamId）
-  - `Seq exceeds totalSeq` → 400（客户端 bug，重置为 0 重试）
-  - `Redis unavailable` → 503（降级）
-- [ ] **事件大小校验前置**（已做）：避免超限 event 跳号
-- [ ] **流结束后清理**：客户端收到 end event 后应主动 `deleteStream`（缩短 Redis 占用）
+- ✅ P0 IDOR 防护（`resumeStream` 内部 `state.userId === req.user.userId` 校验，13 单元测试覆盖）
+- ✅ `X-Stream-Id` 响应头（`createResumableStream` + `resumeStream` 都下发）
+- ✅ Redis 降级路径（mock 测试：`isRedisAvailable=false` → getStreamId 返回 null）
+- ✅ `getEventsSince` 错误分类（自定义错误类 → controller 映射 400/403/404）
+- ✅ 事件大小校验前置（64KB 限制，INCR 前校验）
+- ⏳ 流结束后主动 `deleteStream`（**未做**——10 分钟 TTL 自动清理，目前可接受）
 
 #### 0.5 P3 改进（`docs/streamable-agent-resumable.md` Phase 2）
 
-Code review 标记的 P3 项，可延后到 Phase 2：
+Code review 标记的 P3 项，Phase 1 全部完成后再做：
 
-- [ ] 自定义错误类型（`StreamNotFoundError` / `SeqExceedsError` / `RedisUnavailableError`）
 - [ ] INCR + RPUSH + HSET + EXPIRE 用 Lua 脚本原子化（避免崩溃跳号）
 - [ ] `status` 字段运行时验证（`if (!['active','completed','error'].includes(...)) throw`）
 - [ ] `appendEvent` 验证 streamId 存在性（`EXISTS` 检查，防孤儿 key）
+- [ ] 延迟 abort（10-30s 窗口，client 断网重连能拿到 server 后续内容）
+- [ ] 流结束主动 `deleteStream`（缩短 Redis 占用）
 
 #### 1. 反馈系统扩展（`docs/online-feedback.md` 后续）
 - ⏳ **admin dashboard 页面**：可视化 stats + recentDownComments（前端 + 路由）

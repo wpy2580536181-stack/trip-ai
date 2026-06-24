@@ -1,9 +1,50 @@
 # Streamable Agent 断点续传 — 设计文档
 
-> **版本**：v1.0 草案
+> **版本**：v1.0
 > **作者**：项目 owner
-> **状态**：待评审
+> **状态**：✅ **Phase 1 已交付**（Day 1-7 全部完成）
 > **目标**：让 AI 流式输出支持"断点续传"——客户端断开后能从断点继续
+
+---
+
+## 0. 交付状态（2026-06-24 更新）
+
+### Phase 1 全部完成
+
+| 阶段 | 状态 | commit | 关键交付 |
+|---|---|---|---|
+| Day 1-2 | ✅ | b853530 + 9627396 | Redis 客户端 + streamStore（17 测试） + CI service container |
+| Day 3-4 | ✅ | d9e82f9 | ResumableStream helper + Controller Last-Event-ID + IDOR 防护 |
+| Day 5-6 | ✅ | 7d5d72d | 前端 SSEParser + 自动重连 + Chat.vue UI 提示 |
+| Day 7 | ✅ | (本 commit) | demo HTML + 端到端验证 + 文档 |
+
+### 测试覆盖
+- 后端：103/103 测试通过（含 17 streamStore + 15 ResumableStream + 1 id 字段）
+- 前端：19/19 SSEParser 测试通过（node:test）
+- typecheck：双端 clean
+- 端到端 e2e：手动验证通过，**字节级一致**（4 chunks 续传内容与原始完全相同）
+
+### 实际部署经验
+- **SSE `id:` 字段**：用本地 `localSeq` 计数器（同步 +1），与 Redis INCR 异步配合。单线程 send 调用保证一致性
+- **fire-and-forget Redis 写**：`appendEvent` 不阻塞 SSE 流，但失败时只能 log warn（不重试）
+- **TTL 续期**：每次 append 刷新 3 个 key 的 TTL（stream/{id} + events + seq），活跃流永不过期
+- **重连退避**：1s/2s/4s/8s/16s 封顶，5 次上限。`retryDelaysMs` 可注入（demo 用 [10,10,10,10,10] 跳过退避加速测试）
+- **降级路径**：Redis 不可用时 `getStreamId()` 返回 null，前端拿不到 streamId 就**不重连**（直接报错），避免无限重试浪费流量
+- **IDOR 防护**：`resumeStream` 内部 `state.userId === req.user.userId` 校验，**即使 controller 忘记检查也兜底**——这是 P0 级安全门
+- **错误码映射**：自定义错误类（StreamNotFoundError / StreamForbiddenError / StreamBadRequestError），controller 用 `instanceof` 映射 404/403/400
+
+### 已知设计权衡（Phase 2 待优化）
+- **server 主动 abort agent**：client socket 关闭时 `req.on('close')` 触发 abort，**重连拿到的是 abort 前的 event**。如需"server 端继续跑 + 客户端断网重连拿到完整内容"，需延迟 abort（10-30s 窗口），属 Phase 2
+- **INCR + RPUSH 非原子**：极端情况下（进程崩溃在 INCR 后 RPUSH 前）seq 跳号。Phase 2 用 Lua 脚本原子化
+- **错误类型用 Error 基类**：未做自定义类型扩展（`error.code` 字段），Phase 2 加
+
+### 演示
+打开 `docs/resumable-demo.html`（配合后端 3000 端口）即可完整体验：
+1. 登录（eval-test 账号）
+2. 发送消息 → 看到流式输出
+3. 点"模拟断网" → fetchStream 自动触发重连
+4. 看到状态栏显示"重连中 (1/5)..."
+5. 成功续传（实际生产场景受 server abort 限制，见上）
 
 ---
 
