@@ -198,7 +198,7 @@ mock eval      离线     10 fixture →  PR 必跑
 
 - ✅ **前端批量管理 UI**：admin dashboard 页面（`/admin/feedback`）—— 详见 `docs/feedback-dashboard.md`
 - ✅ **LLM token 统计 + 缓存命中率**：feedback 关联 message.usage，dashboard 显示"高 token + 低满意度案例"——详见 `docs/feedback-dashboard.md`
-- ⏳ **自动告警**：连续 1 小时 satisfactionRate < 0.5 触发飞书/Slack 告警（暂未做）
+- ✅ **自动告警**：完整告警系统（2026-06-25 完成）—— 详见 `docs/alert-system.md`
 - ✅ **反馈进入 fixture**：见 `docs/feedback-to-fixture.md`（Task 3 完成，2026-06-25）—— 3 入口（dashboard 按钮、CLI、API），已导入 1 个真实 case
 - ⏳ **A/B 测试**：同 fixture 在新旧 agent 上的反馈差异
 - ⏳ **点赞数据反哺 RAG**：点赞多的 POI 提升召回权重

@@ -93,7 +93,7 @@ Code review 标记的 P3 项，Phase 1 全部完成后再做：
 #### 1. 反馈系统扩展（`docs/online-feedback.md` 后续）
 - ✅ **admin dashboard 页面**：可视化 stats + recentDownComments + 趋势图 + 高 token 案例
   - 详见 `docs/feedback-dashboard.md`（commit `6586425`）
-- ⏳ **自动告警**：连续 1 小时 satisfactionRate < 0.5 触发飞书/Slack
+- ✅ **自动告警**：完整告警系统已交付（detector + 4 种 webhook + Redis 去重 + cron）—— 详见 `docs/alert-system.md`
 - ✅ **反馈 → fixture**：把负反馈自动转成 eval fixture（防止同类问题回归）
   - 详见 `docs/feedback-to-fixture.md`（commits `82c6fbd`+`32dfd94`+`f514649`+`6665fd5`+`ebf8fb1`+`63549dc`+`ccf8382`）
   - 3 入口：dashboard 按钮、CLI `pnpm feedback:to-fixture`、API `/admin/convert-to-fixture`
