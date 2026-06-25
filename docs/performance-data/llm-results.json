@@ -1,0 +1,90 @@
+{
+  "scenario": "llm",
+  "env": {
+    "node": "v26.0.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpus": 10,
+    "totalMemMB": 16384,
+    "freeMemMB": 688,
+    "timestamp": "2026-06-25T09:13:27.298Z"
+  },
+  "totalRequests": 10,
+  "successCount": 10,
+  "durationP50": 29106,
+  "durationP95": 38922,
+  "durationP99": 38922,
+  "durationMax": 44225,
+  "results": [
+    {
+      "city": "北京",
+      "days": 2,
+      "budget": 3000,
+      "durationMs": 21503,
+      "success": true
+    },
+    {
+      "city": "北京",
+      "days": 3,
+      "budget": 5000,
+      "durationMs": 27380,
+      "success": true
+    },
+    {
+      "city": "上海",
+      "days": 2,
+      "budget": 3000,
+      "durationMs": 34047,
+      "success": true
+    },
+    {
+      "city": "上海",
+      "days": 3,
+      "budget": 5000,
+      "durationMs": 38922,
+      "success": true
+    },
+    {
+      "city": "成都",
+      "days": 3,
+      "budget": 3000,
+      "durationMs": 25719,
+      "success": true
+    },
+    {
+      "city": "西安",
+      "days": 2,
+      "budget": 3000,
+      "durationMs": 31873,
+      "success": true
+    },
+    {
+      "city": "杭州",
+      "days": 2,
+      "budget": 3000,
+      "durationMs": 23886,
+      "success": true
+    },
+    {
+      "city": "广州",
+      "days": 3,
+      "budget": 5000,
+      "durationMs": 31234,
+      "success": true
+    },
+    {
+      "city": "深圳",
+      "days": 2,
+      "budget": 3000,
+      "durationMs": 29106,
+      "success": true
+    },
+    {
+      "city": "重庆",
+      "days": 3,
+      "budget": 5000,
+      "durationMs": 44225,
+      "success": true
+    }
+  ]
+}
