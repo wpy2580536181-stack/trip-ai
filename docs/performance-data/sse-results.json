@@ -1,0 +1,467 @@
+{
+  "scenario": "sse",
+  "env": {
+    "node": "v26.0.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpus": 10,
+    "totalMemMB": 16384,
+    "freeMemMB": 423,
+    "timestamp": "2026-06-25T09:00:20.536Z"
+  },
+  "results": [
+    {
+      "concurrency": 1,
+      "totalStreams": 20,
+      "successStreams": 20,
+      "streamDurationsMs": [
+        32265,
+        22022,
+        34784,
+        29673,
+        17469,
+        31402,
+        31961,
+        31159,
+        27194,
+        17555,
+        36314,
+        24609,
+        16666,
+        31564,
+        34539,
+        28514,
+        23029,
+        23686,
+        39983,
+        28447
+      ],
+      "chunkCounts": [
+        1106,
+        836,
+        1318,
+        1088,
+        822,
+        1171,
+        731,
+        1225,
+        1025,
+        728,
+        1041,
+        1068,
+        785,
+        963,
+        1008,
+        1121,
+        1064,
+        761,
+        936,
+        1053
+      ],
+      "tokenCounts": [
+        {
+          "prompt": 6363,
+          "completion": 1618,
+          "total": 7981,
+          "cached": 5120
+        },
+        {
+          "prompt": 4025,
+          "completion": 1301,
+          "total": 5326,
+          "cached": 3072
+        },
+        {
+          "prompt": 7433,
+          "completion": 2101,
+          "total": 9534,
+          "cached": 6016
+        },
+        {
+          "prompt": 7223,
+          "completion": 1801,
+          "total": 9024,
+          "cached": 5888
+        },
+        {
+          "prompt": 3687,
+          "completion": 1170,
+          "total": 4857,
+          "cached": 3072
+        },
+        {
+          "prompt": 6800,
+          "completion": 2039,
+          "total": 8839,
+          "cached": 5376
+        },
+        {
+          "prompt": 10429,
+          "completion": 1618,
+          "total": 12047,
+          "cached": 8832
+        },
+        {
+          "prompt": 7401,
+          "completion": 1910,
+          "total": 9311,
+          "cached": 5888
+        },
+        {
+          "prompt": 9185,
+          "completion": 1588,
+          "total": 10773,
+          "cached": 7552
+        },
+        {
+          "prompt": 4152,
+          "completion": 1121,
+          "total": 5273,
+          "cached": 3072
+        },
+        {
+          "prompt": 7961,
+          "completion": 1834,
+          "total": 9795,
+          "cached": 5888
+        },
+        {
+          "prompt": 4131,
+          "completion": 1710,
+          "total": 5841,
+          "cached": 3072
+        },
+        {
+          "prompt": 3592,
+          "completion": 1139,
+          "total": 4731,
+          "cached": 3072
+        },
+        {
+          "prompt": 6967,
+          "completion": 1682,
+          "total": 8649,
+          "cached": 5504
+        },
+        {
+          "prompt": 9998,
+          "completion": 1754,
+          "total": 11752,
+          "cached": 8448
+        },
+        {
+          "prompt": 7376,
+          "completion": 1789,
+          "total": 9165,
+          "cached": 5888
+        },
+        {
+          "prompt": 6511,
+          "completion": 1422,
+          "total": 7933,
+          "cached": 5376
+        },
+        {
+          "prompt": 4283,
+          "completion": 1292,
+          "total": 5575,
+          "cached": 3200
+        },
+        {
+          "prompt": 8262,
+          "completion": 2059,
+          "total": 10321,
+          "cached": 6144
+        },
+        {
+          "prompt": 7063,
+          "completion": 1766,
+          "total": 8829,
+          "cached": 5760
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "concurrency": 5,
+      "totalStreams": 20,
+      "successStreams": 20,
+      "streamDurationsMs": [
+        20965,
+        22671,
+        23183,
+        27803,
+        32418,
+        26429,
+        28873,
+        30129,
+        20992,
+        25722,
+        18359,
+        30198,
+        28493,
+        27763,
+        28460,
+        20403,
+        31659,
+        26846,
+        26185,
+        40883
+      ],
+      "chunkCounts": [
+        824,
+        873,
+        1036,
+        1157,
+        927,
+        1035,
+        773,
+        845,
+        710,
+        1112,
+        679,
+        994,
+        1079,
+        883,
+        960,
+        646,
+        887,
+        1002,
+        1074,
+        896
+      ],
+      "tokenCounts": [
+        {
+          "prompt": 4133,
+          "completion": 1238,
+          "total": 5371,
+          "cached": 3072
+        },
+        {
+          "prompt": 4204,
+          "completion": 1547,
+          "total": 5751,
+          "cached": 3200
+        },
+        {
+          "prompt": 6496,
+          "completion": 1437,
+          "total": 7933,
+          "cached": 5376
+        },
+        {
+          "prompt": 7331,
+          "completion": 1744,
+          "total": 9075,
+          "cached": 5760
+        },
+        {
+          "prompt": 8553,
+          "completion": 2000,
+          "total": 10553,
+          "cached": 6528
+        },
+        {
+          "prompt": 6886,
+          "completion": 1701,
+          "total": 8587,
+          "cached": 5632
+        },
+        {
+          "prompt": 7986,
+          "completion": 1584,
+          "total": 9570,
+          "cached": 5760
+        },
+        {
+          "prompt": 7174,
+          "completion": 1725,
+          "total": 8899,
+          "cached": 5888
+        },
+        {
+          "prompt": 4077,
+          "completion": 1290,
+          "total": 5367,
+          "cached": 3072
+        },
+        {
+          "prompt": 9240,
+          "completion": 1557,
+          "total": 10797,
+          "cached": 7808
+        },
+        {
+          "prompt": 4035,
+          "completion": 1185,
+          "total": 5220,
+          "cached": 3072
+        },
+        {
+          "prompt": 7510,
+          "completion": 1859,
+          "total": 9369,
+          "cached": 5888
+        },
+        {
+          "prompt": 7238,
+          "completion": 1785,
+          "total": 9023,
+          "cached": 5760
+        },
+        {
+          "prompt": 6611,
+          "completion": 1704,
+          "total": 8315,
+          "cached": 5376
+        },
+        {
+          "prompt": 7415,
+          "completion": 1674,
+          "total": 9089,
+          "cached": 5632
+        },
+        {
+          "prompt": 4194,
+          "completion": 1022,
+          "total": 5216,
+          "cached": 3072
+        },
+        {
+          "prompt": 7374,
+          "completion": 1664,
+          "total": 9038,
+          "cached": 5888
+        },
+        {
+          "prompt": 7523,
+          "completion": 1692,
+          "total": 9215,
+          "cached": 5760
+        },
+        {
+          "prompt": 7541,
+          "completion": 1641,
+          "total": 9182,
+          "cached": 6016
+        },
+        {
+          "prompt": 11154,
+          "completion": 2125,
+          "total": 13279,
+          "cached": 9216
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "concurrency": 10,
+      "totalStreams": 20,
+      "successStreams": 11,
+      "streamDurationsMs": [
+        22285,
+        25705,
+        26668,
+        30034,
+        32034,
+        32462,
+        33573,
+        37715,
+        47003,
+        51439,
+        35941
+      ],
+      "chunkCounts": [
+        881,
+        803,
+        926,
+        1075,
+        1054,
+        949,
+        1427,
+        969,
+        905,
+        1110,
+        1059
+      ],
+      "tokenCounts": [
+        {
+          "prompt": 4044,
+          "completion": 1332,
+          "total": 5376,
+          "cached": 3072
+        },
+        {
+          "prompt": 4110,
+          "completion": 1395,
+          "total": 5505,
+          "cached": 3072
+        },
+        {
+          "prompt": 4019,
+          "completion": 1315,
+          "total": 5334,
+          "cached": 3072
+        },
+        {
+          "prompt": 6947,
+          "completion": 1587,
+          "total": 8534,
+          "cached": 5504
+        },
+        {
+          "prompt": 6880,
+          "completion": 1597,
+          "total": 8477,
+          "cached": 5376
+        },
+        {
+          "prompt": 7131,
+          "completion": 1701,
+          "total": 8832,
+          "cached": 5760
+        },
+        {
+          "prompt": 7484,
+          "completion": 1956,
+          "total": 9440,
+          "cached": 6016
+        },
+        {
+          "prompt": 10395,
+          "completion": 1744,
+          "total": 12139,
+          "cached": 8576
+        },
+        {
+          "prompt": 12189,
+          "completion": 1945,
+          "total": 14134,
+          "cached": 9984
+        },
+        {
+          "prompt": 16632,
+          "completion": 2596,
+          "total": 19228,
+          "cached": 13952
+        },
+        {
+          "prompt": 8201,
+          "completion": 2046,
+          "total": 10247,
+          "cached": 5888
+        }
+      ],
+      "errors": 9
+    },
+    {
+      "concurrency": 20,
+      "totalStreams": 20,
+      "successStreams": 0,
+      "streamDurationsMs": [],
+      "chunkCounts": [],
+      "tokenCounts": [],
+      "errors": 20
+    }
+  ]
+}
