@@ -44,7 +44,7 @@ const cacheStats = computed(() => {
   let total = 0
   let cached = 0
   let withCached = 0
-  for (const l of logs) {
+  for (const l of logs.value) {
     // 老 entries 没 cached 字段（undefined），新 entries 有
     if ((l as any).cached !== undefined) withCached++
     total += l.tokens

@@ -225,3 +225,5 @@ export async function fetchStream(
 
   return controller
 }
+
+export default request
