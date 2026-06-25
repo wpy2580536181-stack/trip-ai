@@ -99,6 +99,7 @@ model Message {
   createdAt      DateTime     @default(now()) @map("created_at")
   conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
   feedbacks      Feedback[]
+  steps          AgentStep[]
 
   @@index([conversationId, createdAt])
   @@map("messages")
@@ -146,4 +147,22 @@ model Feedback {
   @@index([rating, createdAt])
   @@index([userId, createdAt])
   @@map("feedbacks")
+}
+
+model AgentStep {
+  id         Int      @id @default(autoincrement())
+  messageId  Int      @map("message_id")
+  step       Int
+  type       String   @db.VarChar(20)
+  name       String?  @db.VarChar(100)
+  args       Json?
+  output     String?  @db.Text
+  durationMs Int?     @map("duration_ms")
+  error      String?  @db.Text
+  createdAt  DateTime @default(now()) @map("created_at")
+
+  message Message @relation(fields: [messageId], references: [id], onDelete: Cascade)
+
+  @@index([messageId, step])
+  @@map("agent_steps")
 }
