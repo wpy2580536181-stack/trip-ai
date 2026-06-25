@@ -132,7 +132,7 @@ cd trip-front && npm run dev
 | 指标 | 数值 | 条件 |
 |---|---|---|
 | 单实例历史 QPS | **6.67** | 10 并发 / GET /api/history/trips |
-| SSE 流式 P99 (10 并发) | **47.0s** | 含真实 LLM 调用 + 40% 缓存命中 |
+| SSE 流式 P99 (10 并发) | **47.0s** | 含真实 LLM 调用 + 60% 缓存命中 |
 | LLM 缓存命中率 | **40.2%** | 49 个相似 /recommend 请求 |
 | LLM /recommend P50 | **29.1s** | 10 个不同 city/days/budgets |
 | 单流平均 chunk 数 | **1000+** | 8-50 段 itinerary JSON |
