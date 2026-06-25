@@ -14,6 +14,8 @@
 
 export type WebhookType = 'feishu' | 'slack' | 'dingtalk' | 'wecom'
 
+const VALID_WEBHOOK_TYPES: readonly WebhookType[] = ['feishu', 'slack', 'dingtalk', 'wecom']
+
 export interface AlertConfig {
   enabled: boolean
   webhookUrl: string
@@ -27,11 +29,15 @@ export interface AlertConfig {
 
 export function loadAlertConfig(): AlertConfig {
   const threshold = Number(process.env.ALERT_THRESHOLD) || 0.5
+  const rawType = process.env.ALERT_WEBHOOK_TYPE
+  const webhookType: WebhookType = VALID_WEBHOOK_TYPES.includes(rawType as WebhookType)
+    ? (rawType as WebhookType)
+    : 'feishu'  // 非法值降级到默认（生产应通过启动校验）
   return {
     enabled: process.env.ALERT_ENABLED === 'true',
     webhookUrl: process.env.ALERT_WEBHOOK_URL || '',
-    webhookType: (process.env.ALERT_WEBHOOK_TYPE as WebhookType) || 'feishu',
-    threshold: Math.max(0, Math.min(1, threshold)),
+    webhookType,
+    threshold: Math.max(0, Math.min(1, threshold)),  // clamp 0-1
     minFeedbacks: Math.max(1, parseInt(process.env.ALERT_MIN_FEEDBACKS || '5', 10)),
     intervalCron: process.env.ALERT_INTERVAL_CRON || '*/5 * * * *',
     windowMinutes: Math.max(1, parseInt(process.env.ALERT_WINDOW_MINUTES || '60', 10)),
