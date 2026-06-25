@@ -4,6 +4,7 @@ import pinoHttp from 'pino-http'
 import { randomUUID } from 'crypto'
 import { createLimiter } from './middleware/rateLimiter'
 import { logger, httpLog } from './utils/logger'
+import { alertScheduler } from './services/alert/alertScheduler'
 import tripRouter from './routes/trip.routes'
 import userRouter from './routes/user.routes'
 import conversationRouter from './routes/conversation.routes'
@@ -127,6 +128,22 @@ app.use((err: Error, req: Request, res: Response, _next: NextFunction) => {
   })
 })
 
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
   logger.info({ port: PORT }, `Server running on http://localhost:${PORT}`)
+
+  // 启动告警调度（仅 ALERT_ENABLED=true）
+  if (process.env.ALERT_ENABLED === 'true') {
+    alertScheduler.start()
+  }
 })
+
+const shutdown = (signal: string) => {
+  logger.info({ signal }, '收到关闭信号，开始清理')
+  alertScheduler.stop()
+  server.close(() => {
+    logger.info('HTTP server closed')
+    process.exit(0)
+  })
+}
+process.on('SIGTERM', () => shutdown('SIGTERM'))
+process.on('SIGINT', () => shutdown('SIGINT'))
