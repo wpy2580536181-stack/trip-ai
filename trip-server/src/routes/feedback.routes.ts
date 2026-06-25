@@ -40,4 +40,18 @@ router.get('/admin/daily-stats', authMiddleware, feedbackController.getDailyStat
 // admin 批量转 feedback → fixture YAML
 router.post('/admin/convert-to-fixture', authMiddleware, feedbackController.convertToFixture)
 
+// admin 手动触发告警检查（E2E 验证用，生产不应暴露）
+router.post('/admin/test-alert', authMiddleware, async (req, res, next) => {
+  try {
+    if (req.user!.roleId !== 1) {
+      return res.status(403).json({ code: 403, error: '仅管理员可访问' })
+    }
+    const { alertScheduler } = await import('../services/alert/alertScheduler')
+    const result = await alertScheduler.tick()
+    res.json({ code: 200, data: result })
+  } catch (e) {
+    next(e)
+  }
+})
+
 export default router
