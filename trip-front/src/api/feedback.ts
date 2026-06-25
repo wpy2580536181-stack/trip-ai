@@ -37,13 +37,13 @@ export interface GlobalFeedbackStats {
 }
 
 export const submitFeedback = (params: SubmitFeedbackParams) =>
-  request.post<{ id: number; rating: FeedbackRating }>('/api/feedback', params)
+  request.post<{ id: number; rating: FeedbackRating }>('/feedback', params)
 
 export const getMessageStats = (messageId: number) =>
-  request.get<MessageFeedbackStats>(`/api/feedback/message/${messageId}`)
+  request.get<MessageFeedbackStats>(`/feedback/message/${messageId}`)
 
 export const getGlobalStats = (days = 7) =>
-  request.get<GlobalFeedbackStats>(`/api/feedback/stats?days=${days}`)
+  request.get<GlobalFeedbackStats>(`/feedback/stats?days=${days}`)
 
 export interface ConvertToFixtureResponse {
   files: string[]
@@ -51,4 +51,4 @@ export interface ConvertToFixtureResponse {
 }
 
 export const convertFeedbackToFixture = (feedbackIds: number[]) =>
-  request.post<ConvertToFixtureResponse>('/api/feedback/admin/convert-to-fixture', { feedbackIds })
+  request.post<ConvertToFixtureResponse>('/feedback/admin/convert-to-fixture', { feedbackIds })

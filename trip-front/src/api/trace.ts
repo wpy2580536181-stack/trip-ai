@@ -40,7 +40,7 @@ interface GetTraceResp {
 }
 
 export async function fetchAgentTrace(messageId: number): Promise<{ message: TraceMessage; steps: TraceStep[] }> {
-  const res = await request.get<GetTraceResp>(`/api/admin/agent-trace/${messageId}`)
+  const res = await request.get<GetTraceResp>(`/admin/agent-trace/${messageId}`)
   return res.data
 }
 
@@ -62,7 +62,7 @@ export async function fetchAgentTraceSummary(
   limit = 20,
 ): Promise<TraceSummary[]> {
   const res = await request.get<GetSummaryResp>(
-    `/api/admin/agent-trace?conversationId=${conversationId}&limit=${limit}`,
+    `/admin/agent-trace?conversationId=${conversationId}&limit=${limit}`,
   )
   return res.data.summaries
 }
