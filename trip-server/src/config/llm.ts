@@ -39,6 +39,7 @@ export function createLLMFromConfig(cfg: LLMConfig, opts: { streaming?: boolean;
     configuration: { apiKey: cfg.apiKey, baseURL: cfg.baseURL },
     model: cfg.model,
     temperature,
+    maxTokens: 8000,  // 提高上限，避免 recommend 行程被截断导致 JSON 不完整
     streaming,
     callbacks: [tokenTracker],
     // OpenAI 兼容 API：streaming 模式下请求 usage 字段

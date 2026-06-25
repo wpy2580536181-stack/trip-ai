@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
-import { reactive, ref } from 'vue'
+import { reactive, ref, watch } from 'vue'
 import { onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { showToast } from 'vant'
@@ -60,30 +60,34 @@ const fetchTripData = async () => {
   }
 }
 
+const loadTripById = async (tripId: number) => {
+  isloading.value = true
+  errorMsg.value = ''
+  try {
+    const res = await getTrip(tripId)
+    const trip = res.data
+    if (trip) {
+      formData.city = trip.city
+      formData.budget = trip.budget
+      formData.days = trip.days
+      formData.fromCity = trip.fromCity ?? null
+      currentTripMeta.value = { id: trip.id, parentTripId: trip.parentTripId }
+      tripData.value = trip.content as TripData
+    } else {
+      errorMsg.value = '行程不存在'
+    }
+  } catch (e) {
+    console.error('加载行程失败:', e)
+    errorMsg.value = '加载行程失败'
+  } finally {
+    isloading.value = false
+  }
+}
+
 onMounted(async () => {
   const tripId = route.query.id ? Number(route.query.id) : null
   if (tripId) {
-    isloading.value = true
-    errorMsg.value = ''
-    try {
-      const res = await getTrip(tripId)
-      const trip = res.data
-      if (trip) {
-        formData.city = trip.city
-        formData.budget = trip.budget
-        formData.days = trip.days
-        formData.fromCity = trip.fromCity ?? null
-        currentTripMeta.value = { id: trip.id, parentTripId: trip.parentTripId }
-        tripData.value = trip.content as TripData
-      } else {
-        errorMsg.value = '行程不存在'
-      }
-    } catch (e) {
-      console.error('加载行程失败:', e)
-      errorMsg.value = '加载行程失败'
-    } finally {
-      isloading.value = false
-    }
+    await loadTripById(tripId)
     return
   }
 
@@ -95,11 +99,18 @@ onMounted(async () => {
   // 接口校验
   if (formData.city && formData.budget && formData.days) {
     fetchTripData()
-  } else {
-    isloading.value = false
-    errorMsg.value = '参数错误，缺少必要的查询信息'
   }
 })
+
+// 监听 ?id= 变化（optimize 后 push 到 /detail?id=newId 需要重载）
+watch(
+  () => route.query.id,
+  (newId, oldId) => {
+    if (newId && newId !== oldId) {
+      loadTripById(Number(newId))
+    }
+  },
+)
 
 // 返回上一页
 const onBack = () => {
