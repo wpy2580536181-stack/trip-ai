@@ -122,6 +122,37 @@ cd trip-front && npm run dev
 
 > **首次启动提示**：后端首次启动时会下载 embedding 和 reranker 本地模型，合计约 1.7GB，需要 2-5 分钟（取决于网络）。后续启动自动复用。
 
+## Performance
+
+> 详细报告：[`docs/performance-benchmark.md`](docs/performance-benchmark.md)
+> 原始数据：[`docs/performance-data/`](docs/performance-data/)
+
+### 关键数字（5 个）
+
+| 指标 | 数值 | 条件 |
+|---|---|---|
+| 单实例历史 QPS | **6.67** | 10 并发 / GET /api/history/trips |
+| SSE 流式 P99 (10 并发) | **47.0s** | 含真实 LLM 调用 + 40% 缓存命中 |
+| LLM 缓存命中率 | **40.2%** | 49 个相似 /recommend 请求 |
+| LLM /recommend P50 | **29.1s** | 10 个不同 city/days/budgets |
+| 单流平均 chunk 数 | **1000+** | 8-50 段 itinerary JSON |
+
+### 压测环境
+
+- 机器：Apple Silicon 10 核 / 16 GB
+- Node.js：v26.0.0
+- LLM：DeepSeek deepseek-v4-flash
+- 压测工具：autocannon + chartjs-node-canvas
+
+### 关键发现
+
+1. **生产 rate limit 工作正常**——登录接口撞 20/min/user 是预期
+2. **DeepSeek 上游是容量上限**——conc=20 全失败
+3. **Chroma 检索是头号瓶颈**（60% 延迟）—— 加 Redis 缓存 ROI 最高
+4. **Cache 命中率 40%**（DeepSeek 自动 prompt cache）—— 可继续优化到 60-70%
+
+> **面试话术**："我的服务在 10 并发下普通 API QPS 达 6.7，SSE 流式 P99 是 47 秒，LLM 缓存命中率 40% 节省约 ¥2/天。瓶颈是 Chroma 向量检索，下一步是加 Redis 缓存层。"
+
 ## 环境变量
 
 ### 后端（trip-server/.env）
