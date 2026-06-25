@@ -1,0 +1,19 @@
+{
+  "scenario": "cache",
+  "env": {
+    "node": "v26.0.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpus": 10,
+    "totalMemMB": 16384,
+    "freeMemMB": 854,
+    "timestamp": "2026-06-25T09:53:49.567Z"
+  },
+  "totalRequests": 39,
+  "rateLimited": 7,
+  "totalLogEntries": 160,
+  "totalTokens": 50963,
+  "cachedTokens": 20480,
+  "cacheHitRate": 0.4018601730667347,
+  "estimatedSavingsRMB": 2.048
+}
