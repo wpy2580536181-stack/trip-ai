@@ -14,6 +14,7 @@ import { extractJson } from '../../utils/jsonExtractor'
 import prisma from '../../config/database'
 import { loadContext } from '../conversationService'
 import { agentLog as log } from '../../utils/logger'
+import { TraceRecorder } from './traceRecorder'
 
 // 修复 P3-2：超时时间从环境变量读取，移除硬编码
 const RECOMMEND_TIMEOUT_MS = Number(process.env.AGENT_RECOMMEND_TIMEOUT_MS) || 60_000
@@ -25,6 +26,8 @@ export interface ChatParams {
   conversationId?: number
   onEvent: (event: AgentStreamEvent) => Promise<void>
   signal?: AbortSignal
+  /** 助手消息的 DB id，用于 AgentStep 落表。缺省时不录制 trace（用于测试/内部调用）。 */
+  messageId?: number
 }
 
 export interface RecommendParams {
@@ -35,6 +38,8 @@ export interface RecommendParams {
   departureCity?: string
   conversationId?: number
   onEvent: (event: AgentStreamEvent) => Promise<void>
+  /** Trip id（推荐场景下 message 概念弱，但若未来挂 message 可用） */
+  messageId?: number
 }
 
 class AgentEngine {
@@ -107,9 +112,13 @@ class AgentEngine {
     executor: AgentExecutor,
     input: Record<string, unknown>,
     onEvent: (event: AgentStreamEvent) => Promise<void>,
-    signal?: AbortSignal,
-  ): Promise<{ content: string; usage: TokenUsage }> {
+    signal: AbortSignal | undefined,
+    traceRecorder: TraceRecorder,
+    stepCounter: { value: number },
+    toolStartTimes: Map<string, number>,
+  ): Promise<{ content: string; usage: TokenUsage; streamStartTime: number }> {
     const usage: TokenUsage = { prompt: 0, completion: 0, total: 0, cached: 0 }
+    const streamStartTime = Date.now()
 
     const eventStream = executor.streamEvents(input, { version: 'v2', signal })
     let fullResponse = ''
@@ -120,11 +129,31 @@ class AgentEngine {
       if (event.event === 'on_tool_start') {
         streamEnabled = false
         const name = event.name || 'unknown'
+        toolStartTimes.set(name, Date.now())
+        traceRecorder.add({
+          step: stepCounter.value++,
+          type: 'tool_start',
+          name,
+          args: event.data?.input as Record<string, any> | undefined,
+        })
         await onEvent({ type: 'tool_start', name })
       } else if (event.event === 'on_tool_end') {
         fullResponse = ''
         streamEnabled = true
         const name = event.name || 'unknown'
+        const startTime = toolStartTimes.get(name)
+        const durationMs = startTime ? Date.now() - startTime : undefined
+        toolStartTimes.delete(name)
+        const output = event.data?.output !== undefined
+          ? JSON.stringify(event.data.output).slice(0, 10000)
+          : undefined
+        traceRecorder.add({
+          step: stepCounter.value++,
+          type: 'tool_end',
+          name,
+          output,
+          durationMs,
+        })
         await onEvent({ type: 'tool_end', name })
       } else if (event.event === 'on_chat_model_stream') {
         const piece = this.extractTokenText(event)
@@ -174,7 +203,7 @@ class AgentEngine {
       }
     }
 
-    return { content: fullResponse, usage }
+    return { content: fullResponse, usage, streamStartTime }
   }
 
   private async invokeWithFallback(
@@ -207,7 +236,7 @@ class AgentEngine {
   }
 
   async chat(params: ChatParams) {
-    const { userId, message, conversationId, onEvent, signal } = params
+    const { userId, message, conversationId, onEvent, signal, messageId } = params
 
     const preferences = await this.loadUserPreferences(userId)
 
@@ -231,25 +260,34 @@ class AgentEngine {
     const executor = await this.buildAgent(this.llm!, systemPrompt)
     const invokeInput = { chat_history: [...historyMessages, new HumanMessage(message)] }
 
-    let result: { content: string; usage: TokenUsage }
+    // 跨主备 stream 共享的 step 计数和 tool 时长
+    const traceRecorder = new TraceRecorder(messageId ?? 0)
+    const stepCounter = { value: 1 }
+    const toolStartTimes = new Map<string, number>()
+
+    let result: { content: string; usage: TokenUsage; streamStartTime: number }
     try {
-      result = await this.processStream(executor, invokeInput, onEvent, signal)
+      result = await this.processStream(executor, invokeInput, onEvent, signal, traceRecorder, stepCounter, toolStartTimes)
     } catch (e) {
       if (this.fallbackLLMConfig) {
         log.warn({ err: e, fallback: 'AGNES' }, '主 LLM 失败，切换到备用模型重试')
         const fallbackLLM = createLLMFromConfig(this.fallbackLLMConfig, { streaming: true })
         const fallbackExecutor = await this.buildAgent(fallbackLLM, systemPrompt)
         try {
-          result = await this.processStream(fallbackExecutor, invokeInput, onEvent, signal)
+          result = await this.processStream(fallbackExecutor, invokeInput, onEvent, signal, traceRecorder, stepCounter, toolStartTimes)
         } catch (retryErr) {
           const errMsg = retryErr instanceof Error ? retryErr.message : '未知错误'
           log.error({ err: retryErr }, '备用模型也失败')
+          traceRecorder.add({ step: stepCounter.value++, type: 'error', error: errMsg })
+          await traceRecorder.flush()
           await onEvent({ type: 'error', error: errMsg })
           throw retryErr
         }
       } else {
         const errMsg = e instanceof Error ? e.message : '未知错误'
         log.error({ err: e }, 'chat 失败')
+        traceRecorder.add({ step: stepCounter.value++, type: 'error', error: errMsg })
+        await traceRecorder.flush()
         await onEvent({ type: 'error', error: errMsg })
         throw e
       }
@@ -258,12 +296,18 @@ class AgentEngine {
     // 累计 fallback 的 usage：主失败 + fallback 成功 = fallback 的 usage
     // 当前实现：主失败时 result 是 fallback 的，OK
     // 主成功：result 是主模型的 usage，OK
+    traceRecorder.add({
+      step: stepCounter.value++,
+      type: 'complete',
+      durationMs: Date.now() - result.streamStartTime,
+    })
+    await traceRecorder.flush()
     await onEvent({ type: 'complete', content: result.content, usage: result.usage })
     return { reply: result.content, conversationId }
   }
 
   async recommend(params: RecommendParams): Promise<{ reply: string; parsed: TripContent }> {
-    const { userId, city, budget, days, departureCity, onEvent } = params
+    const { userId, city, budget, days, departureCity, onEvent, messageId } = params
 
     const preferences = await this.loadUserPreferences(userId)
 
@@ -279,6 +323,12 @@ class AgentEngine {
 
     const inputMessage = `请为我规划${departureCity ? `从${departureCity}出发到` : ''}${city}${days}日游行程，预算${budget}元${transportHint}。`
 
+    // recommend 走 invoke()（非 streamEvents），看不到 tool_start/tool_end 事件，
+    // 所以只记 complete/error + duration。messageId 缺省时退化为 0（FK 失效但不影响主流程）。
+    const traceRecorder = new TraceRecorder(messageId ?? 0)
+    const recommendStartTime = Date.now()
+    let stepCounter = 1
+
     let rawOutput: string
     try {
       rawOutput = await this.invokeWithFallback(
@@ -289,6 +339,8 @@ class AgentEngine {
     } catch (e) {
       const errMsg = e instanceof Error ? e.message : '未知错误'
       log.error({ err: e }, 'recommend 执行失败')
+      traceRecorder.add({ step: stepCounter++, type: 'error', error: errMsg, durationMs: Date.now() - recommendStartTime })
+      await traceRecorder.flush()
       await onEvent({ type: 'error', error: errMsg })
       throw e
     }
@@ -321,11 +373,15 @@ class AgentEngine {
       } catch (retryErr) {
         const errMsg = 'Agent 多次输出无效 JSON，请稍后重试'
         log.error({ err: retryErr }, 'recommend JSON 重试仍失败')
+        traceRecorder.add({ step: stepCounter++, type: 'error', error: errMsg, durationMs: Date.now() - recommendStartTime })
+        await traceRecorder.flush()
         await onEvent({ type: 'error', error: errMsg })
         throw new Error(errMsg)
       }
     }
 
+    traceRecorder.add({ step: stepCounter++, type: 'complete', durationMs: Date.now() - recommendStartTime })
+    await traceRecorder.flush()
     await onEvent({ type: 'complete', content: rawOutput })
 
     return { reply: rawOutput, parsed }
