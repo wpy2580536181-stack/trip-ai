@@ -26,8 +26,8 @@ export interface ChatParams {
   conversationId?: number
   onEvent: (event: AgentStreamEvent) => Promise<void>
   signal?: AbortSignal
-  /** 助手消息的 DB id，用于 AgentStep 落表。缺省时不录制 trace（用于测试/内部调用）。 */
-  messageId?: number
+  /** 助手消息的 DB id，用于 AgentStep 落表 FK。tripService 预创建消息后传入。 */
+  messageId: number
 }
 
 export interface RecommendParams {
@@ -261,7 +261,7 @@ class AgentEngine {
     const invokeInput = { chat_history: [...historyMessages, new HumanMessage(message)] }
 
     // 跨主备 stream 共享的 step 计数和 tool 时长
-    const traceRecorder = new TraceRecorder(messageId ?? 0)
+    const traceRecorder = new TraceRecorder(messageId)
     const stepCounter = { value: 1 }
     const toolStartTimes = new Map<string, number>()
 

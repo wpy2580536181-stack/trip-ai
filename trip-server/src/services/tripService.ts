@@ -35,8 +35,19 @@ class TripService {
     }
     await saveMessage(conversation.id, 'user', message)
 
+    // 预创建空 assistant 消息，以便 agentEngine 拿到真实 messageId 写 AgentStep FK。
+    // 真实内容在流式过程中增量 update。
+    const initialMsg = await prisma.message.create({
+      data: {
+        conversationId: conversation.id,
+        role: 'assistant',
+        content: '',
+      },
+      select: { id: true },
+    })
+    const assistantMsgId = initialMsg.id
+
     let fullReply = ''
-    let assistantMsgId: number | null = null
     let lastPersistAt = Date.now()
     let persisted = false
 
@@ -46,19 +57,6 @@ class TripService {
       const metadata: Prisma.InputJsonValue | undefined = usage
         ? { usage: usage as unknown as Prisma.InputJsonValue }
         : undefined
-      if (!assistantMsgId) {
-        const msg = await prisma.message.create({
-          data: {
-            conversationId: conversation.id,
-            role: 'assistant',
-            content,
-            metadata,
-          },
-        })
-        assistantMsgId = msg.id
-        lastPersistAt = Date.now()
-        return
-      }
       if (!force && Date.now() - lastPersistAt < ASSISTANT_PERSIST_FLUSH_INTERVAL_MS) return
       lastPersistAt = Date.now()
       for (let attempt = 0; attempt < 2; attempt++) {
@@ -86,6 +84,7 @@ class TripService {
       userId,
       message,
       conversationId: conversation.id,
+      messageId: assistantMsgId,
       signal,
       onEvent: async (event) => {
         if (event.type === 'chunk') {
