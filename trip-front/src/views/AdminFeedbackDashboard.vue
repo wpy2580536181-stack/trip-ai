@@ -126,6 +126,10 @@ const formatDate = (d: string) => {
 
 const onBack = () => router.back()
 
+function goTrace(messageId: number) {
+  router.push(`/admin/trace?messageId=${messageId}`)
+}
+
 // === fixture 转换 ===
 const showConvertModal = ref(false)
 const convertResult = ref<ConvertToFixtureResponse>({ files: [], skipped: [] })
@@ -318,6 +322,13 @@ async function convertBatch() {
                 @click="convertOne(c.feedbackId)"
               >
                 📋 转 fixture
+              </van-button>
+              <van-button
+                size="mini"
+                plain
+                @click="goTrace(c.messageId)"
+              >
+                🔍 Trace
               </van-button>
             </div>
           </div>
