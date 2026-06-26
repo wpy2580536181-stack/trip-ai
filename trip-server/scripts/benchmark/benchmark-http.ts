@@ -8,6 +8,7 @@
 // @ts-ignore — autocannon 没有官方 .d.ts，用 require interop
 import autocannon from 'autocannon'
 import { saveResult, getEnv } from './lib/result-store'
+import { getAuthToken, EVAL_CREDENTIALS } from './lib/auth'
 
 const BASE_URL = process.env.BASE_URL || 'http://localhost:3000'
 const DURATION = 30  // seconds
@@ -16,13 +17,7 @@ async function main() {
   console.log('[http] 启动普通 HTTP 压测...')
 
   // 0) 先拿 token（避免 autocannon 登录压测触发限流后取不到 token）
-  const loginRes = await fetch(`${BASE_URL}/api/user/login`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ username: 'eval-test', password: 'EvalTest@2026' }),
-  })
-  const loginData = (await loginRes.json()) as { data: { token: string } }
-  const token = loginData.data.token
+  const token = await getAuthToken(BASE_URL)
   console.log(`[http] 拿到 token，长度=${token.length}`)
 
   // 1) 登录接口压测
@@ -30,7 +25,7 @@ async function main() {
     url: `${BASE_URL}/api/user/login`,
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ username: 'eval-test', password: 'EvalTest@2026' }),
+    body: JSON.stringify(EVAL_CREDENTIALS),
     connections: 10,
     duration: DURATION,
   })

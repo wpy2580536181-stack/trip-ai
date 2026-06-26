@@ -6,18 +6,10 @@
  */
 
 import { saveResult, percentile, getEnv } from './lib/result-store'
+import { getAuthToken } from './lib/auth'
+import { RECOMMEND_RATE_LIMIT_PER_MIN } from '../../src/routes/trip.routes'
 
 const BASE_URL = process.env.BASE_URL || 'http://localhost:3000'
-
-async function getToken(): Promise<string> {
-  const res = await fetch(`${BASE_URL}/api/user/login`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ username: 'eval-test', password: 'EvalTest@2026' }),
-  })
-  const data = (await res.json()) as { data: { token: string } }
-  return data.data.token
-}
 
 interface LlmMetric {
   city: string
@@ -52,7 +44,7 @@ async function runRecommend(token: string, city: string, days: number, budget: n
 
 async function main() {
   console.log('[llm] 启动 LLM 路由压测...')
-  const token = await getToken()
+  const token = await getAuthToken(BASE_URL)
 
   const queries = [
     { city: '北京', days: 2, budget: 3000 },
@@ -67,7 +59,7 @@ async function main() {
     { city: '重庆', days: 3, budget: 5000 },
   ]
 
-  const INTER_CALL_DELAY_MS = 13_000  // 5/min rate limit on /recommend
+  const INTER_CALL_DELAY_MS = Math.ceil(60_000 / RECOMMEND_RATE_LIMIT_PER_MIN) + 1_000  // /recommend rate limit (src/routes/trip.routes.ts) + 1s safety margin
   const results: LlmMetric[] = []
   for (let i = 0; i < queries.length; i++) {
     const q = queries[i]

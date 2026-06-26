@@ -6,6 +6,7 @@
  */
 
 import { saveResult, percentile, getEnv } from './lib/result-store'
+import { getAuthToken } from './lib/auth'
 
 const BASE_URL = process.env.BASE_URL || 'http://localhost:3000'
 
@@ -17,16 +18,6 @@ interface SseMetric {
   chunkCounts: number[]
   tokenCounts: { prompt: number; completion: number; total: number }[]
   errors: number
-}
-
-async function getToken(): Promise<string> {
-  const res = await fetch(`${BASE_URL}/api/user/login`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ username: 'eval-test', password: 'EvalTest@2026' }),
-  })
-  const data = (await res.json()) as { data: { token: string } }
-  return data.data.token
 }
 
 async function runSseStream(token: string, message: string): Promise<{
@@ -101,7 +92,7 @@ async function runConcurrency(concurrency: number, totalStreams: number, token: 
 
 async function main() {
   console.log('[sse] 启动 SSE 流式压测...')
-  const token = await getToken()
+  const token = await getAuthToken(BASE_URL)
 
   const results: SseMetric[] = []
   for (const conc of [1, 5, 10, 20]) {

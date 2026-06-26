@@ -11,24 +11,18 @@
  */
 
 import { saveResult, getEnv } from './lib/result-store'
+import { getAuthToken } from './lib/auth'
+import { RECOMMEND_RATE_LIMIT_PER_MIN } from '../../src/routes/trip.routes'
 
 const BASE_URL = process.env.BASE_URL || 'http://localhost:3000'
-const REQUEST_INTERVAL_MS = 13_000  // 5/min 限流 → 12s 间隔 + 1s 安全余量
-
-async function getToken(): Promise<string> {
-  const res = await fetch(`${BASE_URL}/api/user/login`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ username: 'eval-test', password: 'EvalTest@2026' }),
-  })
-  const data = (await res.json()) as { data: { token: string } }
-  return data.data.token
-}
+// Source of truth: src/routes/trip.routes.ts:RECOMMEND_RATE_LIMIT_PER_MIN
+// 60s / max = minimum interval, +1s safety margin
+const REQUEST_INTERVAL_MS = Math.ceil(60_000 / RECOMMEND_RATE_LIMIT_PER_MIN) + 1_000
 
 async function main() {
   console.log('[cache] 启动缓存效果压测...')
   console.log(`[cache] 预计耗时: ~${Math.ceil(50 * REQUEST_INTERVAL_MS / 60_000)} 分钟`)
-  const token = await getToken()
+  const token = await getAuthToken(BASE_URL)
 
   const cities = ['北京', '上海', '成都', '西安', '杭州', '广州', '深圳', '重庆', '厦门', '青岛',
                   '苏州', '南京', '武汉', '长沙', '天津', '哈尔滨', '大连', '三亚', '丽江', '拉萨',
