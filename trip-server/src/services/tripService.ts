@@ -79,39 +79,39 @@ class TripService {
       }
     }
 
-  try {
-    await agentEngine.chat({
-      userId,
-      message,
-      conversationId: conversation.id,
-      messageId: assistantMsgId,
-      signal,
-      onEvent: async (event) => {
-        if (event.type === 'chunk') {
-          fullReply += event.content
-          onChunk(event.content)
-          await persistAssistant(fullReply, false)
-        } else if (event.type === 'tool_start') {
-          onToolStart?.(event.name)
-        } else if (event.type === 'tool_end') {
-          onToolEnd?.(event.name)
-        } else if (event.type === 'complete') {
-          fullReply = event.content
-          await persistAssistant(fullReply, true, event.usage)
-          persisted = true
-          // 转发 LLM token usage 给 controller（前端 SSE 透传）
-          if (event.usage) onUsage?.(event.usage)
-          compressConversation(conversation.id).catch(e => {
-            log.error({ err: e, conversationId: conversation.id }, '摘要压缩失败')
-          })
-        } else if (event.type === 'error') {
-          await persistAssistant(fullReply, true)
-          compressConversation(conversation.id).catch(e => {
-            log.error({ err: e, conversationId: conversation.id }, '摘要压缩失败')
-          })
-        }
-      },
-    })
+    try {
+      await agentEngine.chat({
+        userId,
+        message,
+        conversationId: conversation.id,
+        messageId: assistantMsgId,
+        signal,
+        onEvent: async (event) => {
+          if (event.type === 'chunk') {
+            fullReply += event.content
+            onChunk(event.content)
+            await persistAssistant(fullReply, false)
+          } else if (event.type === 'tool_start') {
+            onToolStart?.(event.name)
+          } else if (event.type === 'tool_end') {
+            onToolEnd?.(event.name)
+          } else if (event.type === 'complete') {
+            fullReply = event.content
+            await persistAssistant(fullReply, true, event.usage)
+            persisted = true
+            // 转发 LLM token usage 给 controller（前端 SSE 透传）
+            if (event.usage) onUsage?.(event.usage)
+            compressConversation(conversation.id).catch(e => {
+              log.error({ err: e, conversationId: conversation.id }, '摘要压缩失败')
+            })
+          } else if (event.type === 'error') {
+            await persistAssistant(fullReply, true)
+            compressConversation(conversation.id).catch(e => {
+              log.error({ err: e, conversationId: conversation.id }, '摘要压缩失败')
+            })
+          }
+        },
+      })
     } catch (e) {
       if (isClientConnected && !isClientConnected()) {
         log.warn('客户端已断开，强制持久化当前回复')
