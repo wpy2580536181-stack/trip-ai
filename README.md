@@ -153,6 +153,60 @@ cd trip-front && npm run dev
 
 > **面试话术**："我的服务在 10 并发下普通 API QPS 达 6.7，SSE 流式 P99 是 47 秒，LLM 缓存命中率 40% 节省约 ¥2/天。瓶颈是 Chroma 向量检索，下一步是加 Redis 缓存层。"
 
+## Architecture
+
+> 详细架构图：[`docs/architecture-diagrams.md`](docs/architecture-diagrams.md)
+
+```
+┌──────────────────┐
+│   Vue 3 Frontend  │
+│   (Vite + Pinia)  │
+└────────┬─────────┘
+         │ REST + SSE
+┌────────▼─────────┐
+│  Express 5 API   │
+│  (Prisma + Pino) │
+└─┬────┬────┬────┬──┘
+  │    │    │    │
+  ▼    ▼    ▼    ▼
+ MySQL Redis Chroma DeepSeek
+```
+
+- **前端**：Vue 3 + Vite + Pinia + Element Plus（3055 行）
+- **后端**：Express 5 + Prisma + Pino + LangChain（5720 行）
+- **存储**：MySQL 8（业务数据）+ Redis 7（缓存/限流/stream）+ Chroma（向量）
+- **LLM**：DeepSeek deepseek-v4-flash + bge-small-zh embedding
+
+### 4 大核心能力
+1. **AI Agent**：4 工具链（天气/距离/酒店/POI）+ function calling
+2. **RAG**：Chroma 向量检索 + 知识库增强 prompt
+3. **流式 chat**：SSE + Last-Event-ID 断点续传
+4. **评估体系**：10 fixture + 13 evaluator + mock/真实/CI/多采样
+
+## Highlights
+
+4 个面试亮点（4 周前没有的）：
+
+### 1. 断点续传流式 Agent
+SSE `Last-Event-ID` 头 + Redis streamStore + 客户端 SSEParser 按 eventId dedup。解决"流到一半断了重传浪费 token"。
+详细：[`docs/streamable-agent-resumable.md`](docs/streamable-agent-resumable.md)
+
+### 2. 可视化 Agent 调试
+Prisma `AgentStep` 表 + TraceRecorder + admin 三层鉴权 + AdminTrace.vue 时间轴。类似 LangSmith。
+详细：[`docs/agent-trace.md`](docs/agent-trace.md)
+
+### 3. 反馈→fixture 自动化闭环
+fixtureConverter 纯函数（15 测试）+ feedbackService 3 冲突分支 + Dashboard 按钮 + CLI。用户 👍/👎 直接转评估用例。
+详细：[`docs/feedback-to-fixture.md`](docs/feedback-to-fixture.md)
+
+### 4. 生产压测报告
+4 场景（HTTP/SSE/LLM/Cache）+ 5 数字 + 6 图表 + Mermaid 架构图。
+详细：[`docs/performance-benchmark.md`](docs/performance-benchmark.md)
+
+### 项目讲解文档
+4 周亮点组装成面试可讲解文档：1.5-2 小时讲完整个项目，10 个高频问题预演答案。
+详细：[`docs/interview-guide.md`](docs/interview-guide.md)
+
 ## 环境变量
 
 ### 后端（trip-server/.env）
