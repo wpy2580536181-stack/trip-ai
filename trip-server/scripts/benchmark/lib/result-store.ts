@@ -1,7 +1,7 @@
 /**
  * 压测结果存储
  *
- * 统一写 docs/performance-data/*.json
+ * 统一写 trip-server/docs/performance-data/*.json
  * 自动生成时间戳 + 环境快照
  */
 
@@ -9,7 +9,7 @@ import { writeFileSync, mkdirSync, existsSync } from 'fs'
 import { join } from 'path'
 import * as os from 'os'
 
-const DATA_DIR = join(__dirname, '..', '..', '..', '..', 'docs', 'performance-data')
+const DATA_DIR = join(__dirname, '..', '..', '..', 'docs', 'performance-data')
 
 export interface BenchEnv {
   node: string

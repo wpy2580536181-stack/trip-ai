@@ -2,8 +2,8 @@
 
 > Week 3 交付（2026-07-08）
 > 配套 `docs/interview-plan.md` 亮点 3
-> 原始数据：`docs/performance-data/*.json`
-> 6 张图表：`docs/performance-data/charts/`
+> 原始数据：`trip-server/docs/performance-data/*.json`
+> 6 张图表：`trip-server/docs/performance-data/charts/`
 
 ## 关键数字（5 个 — 面试引用）
 
@@ -40,7 +40,7 @@
 
 > **发现**：登录接口有 20/min/user rate limit（生产配置正确），10 并发下 95% 请求被 429 拒绝。这是预期的限流行为，**不是性能问题**。历史接口未装 user 级限流，是真实吞吐。
 
-![QPS-P99](performance-data/charts/qps-p99.png)
+![QPS-P99](../trip-server/docs/performance-data/charts/qps-p99.png)
 
 ## 场景 2：SSE 流式 chat
 
@@ -58,7 +58,7 @@
 > 2. **conc=5 比 conc=1 略快**——这是暖身后 LLM 推理缓存命中（DeepSeek prompt cache）
 > 3. **Cache 命中率 63-66%**（含 prompt cache 折扣）—— 实际值远高于初始 35% 假设
 
-![SSE 并发](performance-data/charts/sse-concurrency.png)
+![SSE 并发](../trip-server/docs/performance-data/charts/sse-concurrency.png)
 
 ## 场景 3：LLM 路由
 
@@ -81,7 +81,7 @@
 >
 > **优化建议**：Chroma 检索加 Redis 缓存层可减半耗时
 
-![LLM 耗时](performance-data/charts/llm-tokens.png)
+![LLM 耗时](../trip-server/docs/performance-data/charts/llm-tokens.png)
 
 ## 场景 4：缓存效果
 
@@ -100,15 +100,15 @@
 > 1. 把 user 偏好也压入 cache 范围 → 命中率 60-70%
 > 2. 加 Redis 缓存（最近 1000 个 POI 检索结果）→ LLM 步骤减半
 
-![缓存命中率](performance-data/charts/cache-hitrate.png)
+![缓存命中率](../trip-server/docs/performance-data/charts/cache-hitrate.png)
 
 ## P50/P95/P99 对比
 
-![分位数](performance-data/charts/p-percentiles.png)
+![分位数](../trip-server/docs/performance-data/charts/p-percentiles.png)
 
 ## 资源
 
-![资源](performance-data/charts/resources.png)
+![资源](../trip-server/docs/performance-data/charts/resources.png)
 
 ## 瓶颈分析
 

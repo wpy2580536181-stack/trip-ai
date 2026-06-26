@@ -1,7 +1,7 @@
 /**
  * 图表生成
  *
- * 从 docs/performance-data/*.json 生成 6 张 PNG
+ * 从 trip-server/docs/performance-data/*.json 生成 6 张 PNG
  * 用 chartjs-node-canvas
  */
 
@@ -10,7 +10,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs'
 import { join } from 'path'
 import { percentile } from './lib/result-store'
 
-const DATA_DIR = join(__dirname, '..', '..', '..', 'docs', 'performance-data')
+const DATA_DIR = join(__dirname, '..', '..', 'docs', 'performance-data')
 const CHARTS_DIR = join(DATA_DIR, 'charts')
 const WIDTH = 800
 const HEIGHT = 400

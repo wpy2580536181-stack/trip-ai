@@ -125,7 +125,7 @@ cd trip-front && npm run dev
 ## Performance
 
 > 详细报告：[`docs/performance-benchmark.md`](docs/performance-benchmark.md)
-> 原始数据：[`docs/performance-data/`](docs/performance-data/)
+> 原始数据：[`trip-server/docs/performance-data/`](trip-server/docs/performance-data/)
 
 ### 关键数字（5 个）
 
