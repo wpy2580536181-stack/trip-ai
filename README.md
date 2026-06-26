@@ -342,7 +342,7 @@ LLM 改写失败   → 使用原始 query
 
 ### 详细文档
 
-完整的四层优化实施文档（索引层、查询改写、多路召回、重排序）见：[RAG_OPTIMIZATION.md](trip-server/RAG_OPTIMIZATION.md)
+完整的四层优化实施文档（索引层、查询改写、多路召回、重排序）见：[RAG_OPTIMIZATION.md](docs/RAG_OPTIMIZATION.md)
 
 ## 安全说明
 
