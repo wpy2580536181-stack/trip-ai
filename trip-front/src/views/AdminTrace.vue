@@ -91,7 +91,11 @@ function formatTime(iso: string): string {
 
 <template>
   <div class="page-container admin-trace-page">
-    <van-nav-bar title="Agent Trace" left-arrow @click-left="$router.back()" />
+    <van-nav-bar title="Agent Trace" left-arrow @click-left="$router.back()">
+      <template #right>
+        <van-icon name="cluster-o" size="20" @click="$router.push('/admin/architecture')" />
+      </template>
+    </van-nav-bar>
 
     <div class="search-bar">
       <van-field

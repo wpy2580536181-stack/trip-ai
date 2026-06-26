@@ -184,7 +184,8 @@ async function convertBatch() {
   <div class="page-container admin-page">
     <van-nav-bar title="反馈 Dashboard" left-arrow @click-left="onBack">
       <template #right>
-        <van-icon name="replay" size="20" @click="fetchAll" />
+        <van-icon name="replay" size="20" @click="fetchAll" style="margin-right: 12px" />
+        <van-icon name="cluster-o" size="20" @click="$router.push('/admin/architecture')" />
       </template>
     </van-nav-bar>
 
