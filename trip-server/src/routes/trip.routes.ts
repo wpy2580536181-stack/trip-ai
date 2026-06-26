@@ -5,6 +5,8 @@ import { createLimiter, createTokenBudgetGuard } from '../middleware/rateLimiter
 import { concurrencyGuard } from '../middleware/concurrencyGuard'
 import { createIdempotencyMiddleware } from '../middleware/idempotency'
 
+export const RECOMMEND_RATE_LIMIT_PER_MIN = 5
+
 const router = Router()
 
 const chatLimiter = createLimiter({
@@ -15,7 +17,7 @@ const chatLimiter = createLimiter({
 
 const recommendLimiter = createLimiter({
   windowMs: 60_000,
-  max: 5,
+  max: RECOMMEND_RATE_LIMIT_PER_MIN,
   message: '行程推荐请求过于频繁，请稍后再试',
 })
 
