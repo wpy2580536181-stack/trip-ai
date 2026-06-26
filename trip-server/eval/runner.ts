@@ -21,6 +21,8 @@ import type {
   FixtureResult,
   ReportSummary,
 } from './types'
+
+export type { FixtureResult, ReportSummary }
 import { getEvaluator } from './registry'
 
 const log = {
