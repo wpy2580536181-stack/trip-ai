@@ -207,6 +207,88 @@ fixtureConverter 纯函数（15 测试）+ feedbackService 3 冲突分支 + Dash
 4 周亮点组装成面试可讲解文档：1.5-2 小时讲完整个项目，10 个高频问题预演答案。
 详细：[`docs/interview-guide.md`](docs/interview-guide.md)
 
+## 上下文管理 & Prompt Cache 设计
+
+> 详细设计文档：[`docs/context-management-improvements.md`](docs/context-management-improvements.md)
+> 增量追加 / 分层摘要 / 滑动窗口重构
+
+### 设计动机
+
+DeepSeek / OpenAI / Anthropic 的 **prompt cache 按前缀 token 序列匹配**——前缀任何一字符变化，后面的缓存全废。旧版「滑动窗口」设计每轮都让窗口边界前移，cache 命中率接近 0%，相当于 LLM 每次都全量 prefill。
+
+本项目的目标：**让 prefix 稳定，cache 命中整段历史 + system prompt + summary**。
+
+### 四层上下文结构
+
+```
+请求结构（每轮 chat 拼装）：
+┌──────────────────────────────────────────────────────────────┐
+│ PREFIX（cache 命中区）                                         │
+│   ├─ System Prompt            ~500 token，固定不变            │
+│   ├─ Conversation.summary     关键决策，append 模式           │
+│   └─ Conversation.recap       对话脉络，append 模式           │
+├──────────────────────────────────────────────────────────────┤
+│ TAIL（cache 必 miss 区，每轮末尾新增 1-2 条）                 │
+│   ├─ 所有未压缩的原始消息     单调追加，永不删除              │
+│   ├─ Human Message (本轮)                                    │
+│   └─ Agent Scratchpad         LangChain 自动管理              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+### 关键设计：滑动窗口 → 单调追加
+
+| 维度 | 旧版（滑动窗口） | 新版（单调追加） |
+|---|---|---|
+| 窗口行为 | 取最新 N token，老的掉出 | 所有未压缩消息按时间正序，**不 shift** |
+| Cache 命中 | 每轮 prefix 边界前移，~0% 命中 | 每轮只在 TAIL 末尾新增，前面 prefix **继续命中** |
+| 旧消息去留 | 从窗口物理消失 | 标 `excludedFromContext=true`，DB 保留 |
+| 触发压缩 | 累计 > 8K | 累计 > 16K，**压到 12K** 留 25% buffer |
+
+### 压缩策略
+
+- **触发**：`compressConversation()` 在每轮 `complete`/`error` 事件后**异步**触发
+- **判定**：`getContextMessages` 返回 `needsCompaction: boolean`（累计 > 16K 才进 LLM）
+- **算法**：`selectCompactionRange` 纯函数（已被 vitest 覆盖）—— 从最老贪心累加 token，凑够需释放量（4K）即停
+- **写回**：先 LLM 摘要成功 → 再标 `excludedFromContext=true`（**failure-safe**，LLM 失败时旧消息仍保留在 TAIL，下次重试）
+- **频率**：~80 轮一次（窗口 16K 时），cache miss 率 ≈ 1.2%
+
+### 分层摘要（Summary + Recap）
+
+一次 LLM 调用输出两段（`parseLayeredSummary` 解析 + 容错）：
+
+| 字段 | 含义 | 更新策略 |
+|---|---|---|
+| `Conversation.summary` | 关键决策（目的地/预算/偏好/行程） | append 模式，每次压缩加 `### 追加于 YYYY-MM-DD` 段 |
+| `Conversation.recap` | 对话脉络（讨论方向/兴趣演变/未问事项） | append 模式，独立追加 |
+
+降级策略：recap 段解析失败时仍写 summary；summary 段失败时整轮重试，最多 2 次 + 1s/2s 退避；全部失败设 `summaryError=true`，下轮重试。
+
+### DB Schema 变更（本次重构）
+
+```prisma
+model Message {
+  // ... 原有字段
+  excludedFromContext Boolean? @default(false) @map("excluded_from_context")
+  @@index([conversationId, excludedFromContext])  // 加速过滤查询
+}
+```
+
+旧的「滑动窗口 + 全量覆盖摘要」行为已完全移除。
+
+### 调参
+
+| 环境变量 | 默认值 | 说明 |
+|---|---|---|
+| `HISTORY_MAX_TOKENS` | `16000` | TAIL 上限。超过触发压缩；可按 LLM 上下文大小调 |
+| （内置常量） | `12000` | 压缩目标 token 数。16K 压到 12K 留 25% buffer |
+
+### 验证
+
+- `tsc --noEmit` 0 错误
+- `vitest run src/services/__tests__` 90/90 通过
+  - `conversationService.test.ts`（10 个）：覆盖 `getContextMessages` 过滤 excluded、累计 token、needsCompaction 边界
+  - `summaryService.test.ts`（7 个）：覆盖 `selectCompactionRange` 贪心算法 + 边界（单条超 target / 整除 / 空数组）
+
 ## 环境变量
 
 ### 后端（trip-server/.env）
@@ -228,6 +310,7 @@ fixtureConverter 纯函数（15 测试）+ feedbackService 3 冲突分支 + Dash
 | `CHROMA_URL` | Chroma 向量数据库地址 | `http://localhost:8000` |
 | `CHROMA_PERSIST_DIR` | Chroma 数据持久化目录 | `./chroma_data` |
 | `HF_ENDPOINT` | HuggingFace 模型下载镜像 | `https://hf-mirror.com/` |
+| `HISTORY_MAX_TOKENS` | 对话历史 token 上限（超此值触发压缩） | `16000` |
 
 ### 前端（trip-front/.env — 可选）
 
