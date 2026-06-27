@@ -17,6 +17,8 @@ import { buildPlannerGraph } from './plannerGraph'
 import { buildChatGraph } from './chatGraph'
 import { validateOutput } from './nodes/validate'
 import { emptyUsage } from './types'
+import { ToolCache } from '../llmGuard/toolCache'
+import { withToolCache } from './toolCache'
 
 export interface ChatParams {
   userId: number
@@ -43,11 +45,35 @@ export interface RecommendParams {
 class AgentEngine {
   private llm: ChatOpenAI | null = null
   private fallbackLLMConfig: LLMConfig | null = null
+
+  /**
+   * Tool 结果缓存（per-tool 独立 TTL + size）
+   * - get_weather: 30 分钟，字面归一化（城市名稳定）
+   * - retrieve_knowledge: 6 小时，**embedding 归一化**（query 字面多变但语义同）
+   * - search_hotels / calculate_distance: 不加（计算成本低/组合爆炸）
+   *
+   * embedding 归一化用 bge-small-zh-v1.5（本地，~50ms/query）。
+   * 阈值 0.85：同义改写通常 > 0.85，跨主题 < 0.7。
+   */
+  private toolCache = new ToolCache({
+    get_weather: { ttlMs: 30 * 60 * 1000, maxSize: 1000 },
+    retrieve_knowledge: {
+      ttlMs: 6 * 60 * 60 * 1000,
+      maxSize: 500,
+      embeddingKey: {
+        // 把 city + category + query 拼成"语义字符串"再 embedding
+        // 这样"成都美食 food"和"北京美食 food"不会被误命中
+        extractor: (args) => `${args.city ?? ''} ${args.category ?? ''} ${args.query ?? ''}`.trim(),
+        threshold: 0.85,
+      },
+    },
+  })
+
   private tools = [
-    retrieveKnowledgeTool,
-    getWeatherTool,
-    calculateDistanceTool,
+    withToolCache(retrieveKnowledgeTool, { cache: this.toolCache, toolName: 'retrieve_knowledge' }),
+    withToolCache(getWeatherTool, { cache: this.toolCache, toolName: 'get_weather' }),
     searchHotelsTool,
+    calculateDistanceTool,
   ]
 
   constructor() {
