@@ -91,17 +91,20 @@ model Conversation {
 }
 
 model Message {
-  id             Int          @id @default(autoincrement())
-  conversationId Int          @map("conversation_id")
-  role           String       @db.VarChar(20)
-  content        String       @db.Text
-  metadata       Json?
-  createdAt      DateTime     @default(now()) @map("created_at")
-  conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
-  feedbacks      Feedback[]
-  steps          AgentStep[]
+  id                  Int          @id @default(autoincrement())
+  conversationId      Int          @map("conversation_id")
+  role                String       @db.VarChar(20)
+  content             String       @db.Text
+  metadata            Json?
+  /// 已被摘要压缩、不再送入 LLM 上下文的旧消息。DB 仍保留（审计/历史回看）。
+  excludedFromContext Boolean?     @default(false) @map("excluded_from_context")
+  createdAt           DateTime     @default(now()) @map("created_at")
+  conversation        Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  feedbacks           Feedback[]
+  steps               AgentStep[]
 
   @@index([conversationId, createdAt])
+  @@index([conversationId, excludedFromContext])
   @@map("messages")
 }
 
