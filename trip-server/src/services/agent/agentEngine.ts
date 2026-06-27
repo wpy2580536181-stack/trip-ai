@@ -94,6 +94,7 @@ class AgentEngine {
   async chat(params: ChatParams) {
     const { userId, message, conversationId, onEvent, signal, messageId } = params
 
+    const startTime = Date.now()
     const preferences = await this.loadUserPreferences(userId)
 
     let systemSummary: string | null = null
@@ -152,7 +153,7 @@ class AgentEngine {
 
     try {
       const result = await graph.invoke(initialState, config)
-      traceRecorder.add({ step: stepCounter.value++, type: 'complete' })
+      traceRecorder.add({ step: stepCounter.value++, type: 'complete', durationMs: Date.now() - startTime })
       await traceRecorder.flush()
       await onEvent({
         type: 'complete',
@@ -173,6 +174,7 @@ class AgentEngine {
   async recommend(params: RecommendParams): Promise<{ reply: string; parsed: TripContent }> {
     const { userId, city, budget, days, departureCity, onEvent, messageId } = params
 
+    const startTime = Date.now()
     const preferences = await this.loadUserPreferences(userId)
 
     const traceRecorder = new TraceRecorder(messageId ?? 0)
@@ -214,7 +216,7 @@ class AgentEngine {
       // plannerGraph 的 retry_planner 后直接 END，未再跑 validate 节点，
       // 故在此对最终 rawOutput 做一次校验，拿到解析结果或抛错。
       if (result.parsed) {
-        traceRecorder.add({ step: stepCounter.value++, type: 'complete' })
+        traceRecorder.add({ step: stepCounter.value++, type: 'complete', durationMs: Date.now() - startTime })
         await traceRecorder.flush()
         await onEvent({ type: 'complete', content: result.rawOutput ?? '' })
         return { reply: result.rawOutput ?? '', parsed: result.parsed }
@@ -222,7 +224,7 @@ class AgentEngine {
       // retry 后 rawOutput 仍可能未过校验，二次校验一次
       try {
         const { parsed } = validateOutput(result.rawOutput!)
-        traceRecorder.add({ step: stepCounter.value++, type: 'complete' })
+        traceRecorder.add({ step: stepCounter.value++, type: 'complete', durationMs: Date.now() - startTime })
         await traceRecorder.flush()
         await onEvent({ type: 'complete', content: result.rawOutput ?? '' })
         return { reply: result.rawOutput ?? '', parsed }

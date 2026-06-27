@@ -11,12 +11,16 @@ import { chatPlannerNode } from './nodes/chatPlanner'
 import type { PlannerConfig } from './types'
 import type { TokenUsage } from '../../types/agent'
 
-/** 从 city 提取（简单：取消息里的城市关键词，或默认） */
+/** 从消息文本中提取城市关键词；未命中则返回空串（由 router 决定回退到 general） */
 function extractCityFromMessage(message: string): string {
   const cities = ['北京', '上海', '广州', '深圳', '成都', '杭州', '武汉', '西安', '重庆', '南京',
     '天津', '长沙', '苏州', '厦门', '青岛', '大连', '昆明', '三亚', '哈尔滨', '桂林',
-    '拉萨', '乌鲁木齐', '贵阳', '南宁', '南昌', '福州', '合肥', '郑州', '济南', '太原', '兰州']
-  return cities.find(c => message.includes(c)) ?? '北京'
+    '拉萨', '乌鲁木齐', '贵阳', '南宁', '南昌', '福州', '合肥', '郑州', '济南', '太原', '兰州',
+    // 常见旅游目的地
+    '丽江', '大理', '西双版纳', '张家界', '九寨沟', '黄山', '鼓浪屿', '凤凰', '平遥', '敦煌',
+    '婺源', '稻城', '林芝', '纳木错', '喀纳斯', '伊犁', '阿尔山', '雪乡', '漠河', '北海',
+    '涠洲岛', '舟山', '普陀山', '嵊泗', '千岛湖', '乌镇', '西塘', '周庄', '香格里拉']
+  return cities.find(c => message.includes(c)) ?? ''
 }
 
 /** legacy agent 节点：用现有 AgentExecutor 跑 streamEvents */
@@ -24,13 +28,11 @@ async function legacyAgentNode(
   state: typeof PlannerState.State,
   config: RunnableConfig,
 ): Promise<Partial<typeof PlannerState.State>> {
-  const { onEvent, signal, buildAgent, systemPrompt, conversationHistory } = config.configurable as PlannerConfig & {
+  const { onEvent, signal, buildAgent, conversationHistory, traceRecorder, stepCounter } = config.configurable as PlannerConfig & {
     buildAgent: () => Promise<{ streamEvents: (input: any, opts: any) => AsyncIterable<any> }>
-    systemPrompt: string
     conversationHistory: BaseMessage[]
   }
   const executor = await buildAgent()
-  void systemPrompt
   const input = { chat_history: [...(conversationHistory ?? []), new HumanMessage(state.message)] }
   const usage: TokenUsage = { prompt: 0, completion: 0, total: 0, cached: 0 }
   let fullResponse = ''
@@ -42,11 +44,13 @@ async function legacyAgentNode(
     if (event.event === 'on_tool_start') {
       streamEnabled = false
       const name = event.name || 'unknown'
+      traceRecorder.add({ step: stepCounter.value++, type: 'tool_start', name })
       await onEvent({ type: 'tool_start', name })
     } else if (event.event === 'on_tool_end') {
       fullResponse = ''
       streamEnabled = true
       const name = event.name || 'unknown'
+      traceRecorder.add({ step: stepCounter.value++, type: 'tool_end', name, durationMs: undefined })
       await onEvent({ type: 'tool_end', name })
     } else if (event.event === 'on_chat_model_stream') {
       const data = event.data
@@ -86,8 +90,12 @@ async function legacyAgentNode(
 export function buildChatGraph() {
   const graph = new StateGraph(PlannerState)
     .addNode('router', async (state: typeof PlannerState.State) => {
-      const route = isPlanningRequest(state.message) ? 'planning' : 'general'
+      let route = isPlanningRequest(state.message) ? 'planning' : 'general'
       const city = route === 'planning' ? extractCityFromMessage(state.message) : state.city
+      // 未识别出城市时，planning 流程缺少关键参数，回退到 general 由 legacy agent 处理
+      if (route === 'planning' && !city) {
+        route = 'general'
+      }
       return { route, city }
     })
     .addNode('research', researchNode)

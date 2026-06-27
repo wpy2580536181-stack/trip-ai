@@ -1,9 +1,6 @@
 // trip-server/src/services/agent/nodes/validate.ts
-import type { RunnableConfig } from '@langchain/core/runnables'
 import { TripContentSchema, type TripContent } from '../../../types/agent'
 import { extractJson } from '../../../utils/jsonExtractor'
-import type { PlannerState } from '../state'
-import type { PlannerConfig } from '../types'
 
 export function validateOutput(raw: string): { parsed: TripContent } {
   const parsed = TripContentSchema.parse(extractJson(raw))

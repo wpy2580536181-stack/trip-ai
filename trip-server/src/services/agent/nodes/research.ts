@@ -59,8 +59,12 @@ export async function researchNode(
     })
   }
 
+  // 记录每个 task 的起始时间，供 tool_end 计算 durationMs
+  const startTimes: number[] = new Array(tasks.length).fill(0)
+
   // emit tool_start（逐个 emit，便于前端展示）
   for (const t of tasks) {
+    startTimes[tasks.indexOf(t)] = Date.now()
     traceRecorder.add({ step: stepCounter.value++, type: 'tool_start', name: t.name })
     await onEvent({ type: 'tool_start', name: t.name })
   }
@@ -83,7 +87,7 @@ export async function researchNode(
     } else {
       bundle[t.key] = fallbacks[t.key]
     }
-    traceRecorder.add({ step: stepCounter.value++, type: 'tool_end', name: t.name })
+    traceRecorder.add({ step: stepCounter.value++, type: 'tool_end', name: t.name, durationMs: Date.now() - startTimes[i] })
   })
 
   // emit tool_end
