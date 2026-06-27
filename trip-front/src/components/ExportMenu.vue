@@ -10,7 +10,7 @@
  * 懒加载: html-to-image + jspdf 仅在用户点击导出时才 dynamic import
  */
 
-import { ref, computed } from 'vue'
+import { ref, computed, nextTick } from 'vue'
 import { showToast } from 'vant'
 import ItineraryPrintView from './ItineraryPrintView.vue'
 
@@ -54,6 +54,7 @@ const props = defineProps<{
 
 const showMenu = ref(false)
 const loading = ref(false)
+const showPrintView = ref(false)
 const printWrapper = ref<HTMLElement | null>(null)
 
 const actions = [
@@ -70,10 +71,30 @@ async function onSelect(action: { name: string; key: string }) {
     showToast('请先加载行程')
     return
   }
+
+  // 关键：临时显示 print view 让 html-to-image 抓到正确尺寸
+  // (position: absolute + left: -9999px 在部分浏览器返回 0 尺寸)
+  showPrintView.value = true
+  await nextTick()
+  // 再等一帧确保浏览器完成布局
+  await new Promise(r => requestAnimationFrame(r))
+
   const el = printWrapper.value
   if (!el) {
     showToast('导出组件未就绪')
+    showPrintView.value = false
     return
+  }
+
+  // 诊断日志：导出前打印实际尺寸（如果还是 0 就能立刻看出问题）
+  const rect = el.getBoundingClientRect()
+  console.log('[Export] print view dimensions:', {
+    width: rect.width,
+    height: rect.height,
+    childCount: el.children.length,
+  })
+  if (rect.width < 100 || rect.height < 100) {
+    console.warn('[Export] print view 尺寸异常，可能渲染失败')
   }
 
   // 懒加载导出工具（html-to-image + jspdf 仅在此刻下载）
@@ -95,8 +116,10 @@ async function onSelect(action: { name: string; key: string }) {
     }
   } catch (e) {
     showToast('导出失败：' + ((e as Error).message || '未知错误'))
+    console.error('[Export] 失败:', e)
   } finally {
     loading.value = false
+    showPrintView.value = false
   }
 }
 </script>
@@ -128,8 +151,8 @@ async function onSelect(action: { name: string; key: string }) {
       </div>
     </van-overlay>
 
-    <!-- 离屏渲染：html-to-image 可捕获，用户不可见 -->
-    <div ref="printWrapper" class="offscreen-wrapper">
+    <!-- 临时显示：导出时显示让 html-to-image 抓到正确尺寸 -->
+    <div v-show="showPrintView" ref="printWrapper" class="print-wrapper">
       <ItineraryPrintView :trip-data="tripData" />
     </div>
   </div>
@@ -154,11 +177,16 @@ async function onSelect(action: { name: string; key: string }) {
   font-size: 14px;
 }
 
-.offscreen-wrapper {
-  position: absolute;
-  left: -9999px;
+.offscreen-wrapper,
+.print-wrapper {
+  /* 导出时短暂显示在 viewport 左上角（被 van-overlay 遮挡用户不可见），
+     让 html-to-image 抓到正确尺寸后立刻隐藏。
+     不用 opacity:0 避免 html-to-image 抓到透明背景 */
+  position: fixed;
   top: 0;
-  z-index: -1;
+  left: 0;
+  z-index: 9998;
   pointer-events: none;
+  background: #fff;
 }
 </style>

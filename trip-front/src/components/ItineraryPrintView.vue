@@ -152,7 +152,7 @@ const budgetSum = computed(() => {
 })
 </script>
 
-<style scoped>
+<style>
 .print-view {
   width: 794px;
   min-height: 1123px;
