@@ -221,6 +221,7 @@ const onOptimize = async () => {
     <div class="detail-footer" v-if="tripData">
       <van-button type="primary" size="large" @click="goToChat" class="primary-button">与 AI 聊天</van-button>
       <van-button v-if="currentTripMeta?.id" type="warning" size="large" :loading="optimizing" @click="onOptimize" class="optimize-button" plain>AI 优化此行程</van-button>
+      <ExportMenu :trip-data="tripData" />
     </div>
   </div>
 </template>
@@ -333,5 +334,15 @@ const onOptimize = async () => {
 .error-card {
   text-align: center;
   padding: 40px 16px;
+}
+
+@media print {
+  .page-header,
+  .detail-footer {
+    display: none !important;
+  }
+  body {
+    background: white;
+  }
 }
 </style>
