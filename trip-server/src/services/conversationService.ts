@@ -3,24 +3,39 @@ import { estimateTokens, getHistoryMaxTokens } from '../utils/tokens'
 
 const SLIDING_WINDOW = 10
 
+export interface ContextMessages {
+  /** 按时间正序的所有未压缩消息（excludedFromContext=false） */
+  messages: Awaited<ReturnType<typeof prisma.message.findMany>>
+  /** 当前 TAIL 累计 token 数 */
+  totalTokens: number
+  /** 累计 token 是否超过 maxTokens。true → 调用方应触发压缩 */
+  needsCompaction: boolean
+}
+
 /**
- * 获取最近消息，按 token 总量限制（从最新往前取，不超 maxTokens）
+ * 获取对话上下文消息（单调追加模式，不 shift）。
+ *
+ * 设计动机：保持 prefix 稳定以命中 LLM prompt cache。
+ * - 返回所有未压缩的原始消息（按时间正序），让 LLM 看到完整 TAIL
+ * - 仅返回 needsCompaction 标志告诉调用方"该压缩了"，由调用方决定压缩多少
+ * - 已压缩的旧消息（excludedFromContext=true）从结果中过滤掉
  */
-export async function getRecentMessagesByTokens(conversationId: number, maxTokens: number) {
+export async function getContextMessages(conversationId: number, maxTokens: number): Promise<ContextMessages> {
   const messages = await prisma.message.findMany({
-    where: { conversationId },
-    orderBy: { createdAt: 'desc' },
+    where: { conversationId, excludedFromContext: { not: true } },
+    orderBy: { createdAt: 'asc' },
   })
 
-  let tokenCount = 0
-  const result: typeof messages = []
+  let totalTokens = 0
   for (const msg of messages) {
-    const tokens = estimateTokens(msg.content)
-    if (tokenCount + tokens > maxTokens) break
-    tokenCount += tokens
-    result.unshift(msg)
+    totalTokens += estimateTokens(msg.content)
   }
-  return result
+
+  return {
+    messages,
+    totalTokens,
+    needsCompaction: totalTokens > maxTokens,
+  }
 }
 
 /**
@@ -67,9 +82,9 @@ export async function loadContext(conversationId: number) {
   const conversation = await prisma.conversation.findUnique({ where: { id: conversationId } })
   const systemSummary = conversation?.summary ?? null
   const conversationRecap = conversation?.recap ?? null
-  const recentMessages = await getRecentMessagesByTokens(conversationId, maxTokens)
+  const ctx = await getContextMessages(conversationId, maxTokens)
 
-  return { systemSummary, conversationRecap, recentMessages }
+  return { systemSummary, conversationRecap, recentMessages: ctx.messages }
 }
 
 /**

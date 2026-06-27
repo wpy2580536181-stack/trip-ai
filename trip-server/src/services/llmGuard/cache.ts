@@ -52,6 +52,27 @@ export class TTLCache<V = unknown> {
     this.cache.delete(key)
   }
 
+  /**
+   * 返回所有未过期 entry 的值。遍历过程中顺手清理过期条目。
+   * 用法：embedding 归一化路径需要扫所有 entry 找最相似的 vector。
+   */
+  values(): V[] {
+    const now = Date.now()
+    const result: V[] = []
+    for (const [key, entry] of this.cache) {
+      if (now >= entry.expiresAt) {
+        this.cache.delete(key)
+        continue
+      }
+      result.push(entry.value)
+    }
+    return result
+  }
+
+  size(): number {
+    return this.cache.size
+  }
+
   clear(): void {
     this.cache.clear()
   }
