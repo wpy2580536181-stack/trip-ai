@@ -18,6 +18,8 @@ export interface StreamEvent {
   type: 'chunk' | 'complete' | 'error' | 'tool_start' | 'tool_end' | 'heartbeat'
   name?: string
   content?: string
+  /** error 事件的错误消息（后端字段名是 error，不是 content） */
+  error?: string
   data?: unknown
   /** SSE id 字段（数字），undefined 表示该事件没带 id */
   id?: number
@@ -78,6 +80,7 @@ export function parseSSEEvent(raw: string): StreamEvent | null {
     type: json.type,
     name: json.name,
     content: json.content,
+    error: json.error,
     data: json.data,
     id,
     isEnd: eventName === 'end',

@@ -57,6 +57,14 @@ describe('parseSSEEvent', () => {
     assert.equal(a?.type, 'tool_start')
     assert.equal(a?.name, 'get_weather')
   })
+
+  test('error 事件解析（后端用 "error" 字段，不是 "content"）', () => {
+    const ev = parseSSEEvent('data: {"type":"error","error":"推荐失败：budget 非法"}')
+    assert.equal(ev?.type, 'error')
+    assert.equal(ev?.error, '推荐失败：budget 非法')
+    // 旧 fallback 路径：消费者从 ev.error 读取，不能用 ev.content（undefined）
+    assert.equal(ev?.content, undefined)
+  })
 })
 
 describe('SSEParser', () => {

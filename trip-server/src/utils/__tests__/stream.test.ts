@@ -142,6 +142,17 @@ describe('createResumableStream', () => {
     expect(res.write).toHaveBeenNthCalledWith(3, expect.stringContaining('id: 3\n'))
   })
 
+  it('error() → 写 SSE error event，字段名是 "error" 不是 "content"（前端契约）', async () => {
+    const res = makeMockRes()
+    const rs = await createResumableStream({ res, userId: 'u1', conversationId: 'c1' })
+
+    rs.error('推荐失败：budget 非法')
+
+    // 契约：前端 stream-parser 从 json.error 读取（不是 json.content）
+    expect(res.write).toHaveBeenCalledWith(expect.stringContaining('"type":"error"'))
+    expect(res.write).toHaveBeenCalledWith(expect.stringContaining('"error":"推荐失败：budget 非法"'))
+  })
+
   it('end → 写 SSE end event + markComplete', async () => {
     const res = makeMockRes()
     const rs = await createResumableStream({ res, userId: 'u1', conversationId: 'c1' })

@@ -118,7 +118,7 @@ export async function fetchStream(
       completed = true
       return true
     } else if (ev.type === 'error') {
-      onError?.(ev.content || '流式数据解析异常')
+      onError?.(ev.error || '流式数据解析异常')
       completed = true
       return true
     } else if (ev.type === 'tool_start' || ev.type === 'tool_end') {
