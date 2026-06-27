@@ -29,7 +29,13 @@ export function estimateTokens(text: string): number {
   return Math.max(1, Math.ceil(cjkCount / 1.5 + otherCount / 4))
 }
 
-export const DEFAULT_HISTORY_MAX_TOKENS = 8000
+export const DEFAULT_HISTORY_MAX_TOKENS = 16000
+
+/**
+ * 压缩后目标 token 数。压缩时把 TAIL 从 maxTokens 压到该值，
+ * 留出 ~25% buffer 避免下一两轮立刻又触发压缩。
+ */
+export const DEFAULT_COMPACTION_TARGET_TOKENS = 12000
 
 export function getHistoryMaxTokens(): number {
   const env = process.env.HISTORY_MAX_TOKENS
