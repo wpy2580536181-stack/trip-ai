@@ -359,7 +359,83 @@ EVAL_PROGRESS_LOG=/tmp/eval-progress.log npm run eval:real -- --samples 1
 tail -f /tmp/eval-progress.log   # 实时看每个 fixture 的 hitRate
 ```
 
-## 13. 文件清单
+### 12.6 多轮 cache 验证（踩坑记录）
+
+DeepSeek prefix cache 在多轮场景下的真实收益验证困难，原因有 3 个产品代码问题需要先修。本节记录 2026-06-28 一次实验踩的坑，避免下次重复。
+
+#### 实验目标
+验证 Reasonix 风格的改造（system prompt 纯静态 + RAG 走 tool messages + 多轮不重调 RAG）能否在多轮下提升 cache hit rate。
+
+#### 实验结果（2026-06-28，未保留）
+5 fixture × 3 turn 的多轮 smoke test 显示 hitRate 70-80%，跟 baseline 几乎一样。**A+B 改造看不出明显收益**——但实验设计本身有缺陷，导致结论不可信。
+
+#### 3 个产品代码坑（按"修复 ROI"排序）
+
+**坑 1：`tripService.ts:40-47` 预创建空 assistant 消息（最严重）**
+
+```ts
+// chatStream() 在调 agent 之前先 create 一条空 assistant 消息
+const initialMsg = await prisma.message.create({
+  data: { conversationId, role: 'assistant', content: '' },
+})
+```
+
+turn 1 调 agent 时 `loadContext` 从 DB 读历史 → 返回 `[user1, asst1(空)]` 长度=2。
+任何"hasHistory = `conversationHistory.length > 0`"的判断都错误地认为"已经是多轮"。
+
+**修复方向**：`getContextMessages` 过滤 `content === ''` 的消息，或 chatPlannerNode 过滤空 content 的 BaseMessage。
+
+**坑 2：`router.ts:2` `DAYS_PATTERN` 太严**
+
+```ts
+const DAYS_PATTERN = /[\d一二三四五六七八九十两]+\s*日|几日|几天|多少天/
+```
+
+只匹配 `3日`（无空格），不匹配 `3 天`、`3天`、`2days` 等日常表述。"3 天"是中文用户最高频的措辞，**router 把 90% 的真实规划请求判为 general → 走 legacy agent**。
+
+**修复方向**：把 pattern 改为 `/[\d一二三四五六七八九十两]+\s*(?:日|天)/` 兼容两种空格。
+
+**坑 3：multi-turn fixture 措辞不触发 planning**
+
+当前 fixture `004-multi-turn-destination-change` 用"改成去重庆"措辞——不含"规划+几日"模式，router 走 general，**从未进入 chatPlannerNode 路径**。
+
+**修复方向**：把 fixture turn 措辞改成含"规划"+"几日"以触发 planning 路径，或在 router 中放宽判定。
+
+#### 多轮 smoke test 工具
+
+`eval/multi-turn-smoke.ts`：独立脚本，不动 eval 框架。3 scenario × 3 turn，跑一次打印每轮 hitRate。
+
+```bash
+npx ts-node --project tsconfig.eval.json eval/multi-turn-smoke.ts
+```
+
+输出示例：
+```
+━━━ chengdu-3days ━━━
+  turn 1  🟢 hitRate=71.3%  prompt=4,485  cached=3,200  (28s)
+  turn 2  🟢 hitRate=72.2%  prompt=6,031  cached=4,352  (20s)
+  turn 3  🟢 hitRate=77.7%  prompt=8,570  cached=6,656  (28s)
+```
+
+#### 为什么多轮 cache 收益难验证
+
+1. 现有 12 fixture 大部分是单轮（multi-turn 占 2 个），单轮 eval 跑不出多轮收益
+2. 上面 3 个坑叠加导致 chatPlannerNode 路径"几乎从未被真实多轮触发"
+3. 真实多轮需要在生产环境观测（admin trace + token usage 看板），不是 eval 框架
+
+#### 推荐路径：先修 3 个坑再做实验
+
+```bash
+# 1) 修坑 1：getContextMessages 过滤空消息
+# 2) 修坑 2：DAYS_PATTERN 兼容 "3 天"
+# 3) 修坑 3：multi-turn fixture 措辞含 "规划+几日"
+# 4) 跑 5 fixture × 3 sample 干净的多轮 smoke test
+# 5) baseline vs A+B 对比，看 turn 2/3 hitRate 提升
+```
+
+**预估工作量**：3-4 小时（含测试 + 验证）。**预估价值**：唯一能可靠回答"A+B 在真实多轮下有没有收益"的方式。
+
+
 
 | 文件 | 作用 |
 |---|---|
