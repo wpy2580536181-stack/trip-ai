@@ -3,7 +3,6 @@ import { AgentExecutor, createToolCallingAgent } from '@langchain/classic/agents
 import { ChatPromptTemplate } from '@langchain/core/prompts'
 import { BaseMessage, HumanMessage, AIMessage, SystemMessage } from '@langchain/core/messages'
 import { retrieveKnowledgeTool } from './tools/retrieveKnowledge'
-import { getWeatherTool } from './tools/getWeather'
 import { calculateDistanceTool } from './tools/calculateDistance'
 import { searchHotelsTool } from './tools/searchHotels'
 import { DynamicTool } from '@langchain/core/tools'
@@ -58,7 +57,6 @@ class AgentEngine {
    * 阈值 0.85：同义改写通常 > 0.85，跨主题 < 0.7。
    */
   private toolCache = new ToolCache({
-    get_weather: { ttlMs: 30 * 60 * 1000, maxSize: 1000 },
     retrieve_knowledge: {
       ttlMs: 6 * 60 * 60 * 1000,
       maxSize: 500,
@@ -77,14 +75,13 @@ class AgentEngine {
   get tools() {
     return [
       withToolCache(retrieveKnowledgeTool, { cache: this.toolCache, toolName: 'retrieve_knowledge' }),
-      withToolCache(getWeatherTool, { cache: this.toolCache, toolName: 'get_weather' }),
       searchHotelsTool,
       calculateDistanceTool,
       ...this.amapTools,
     ]
   }
 
-  private async ensureAmapTools(): Promise<void> {
+  async ensureAmapTools(): Promise<void> {
     if (!this.amapToolsInitPromise) {
       this.amapToolsInitPromise = (async () => {
         this.amapTools = await loadAmapTools()
@@ -287,4 +284,6 @@ class AgentEngine {
   }
 }
 
-export default new AgentEngine()
+const agentEngine = new AgentEngine()
+export default agentEngine
+export const ensureAmapTools = agentEngine.ensureAmapTools.bind(agentEngine)

@@ -14,6 +14,9 @@ import statsRouter from './routes/stats.routes'
 import feedbackRouter from './routes/feedback.routes'
 import traceRouter from './routes/trace.routes'
 import mcpRouter from './routes/mcp.routes'
+import * as amapMcpProcess from './services/mcp/amapMcpProcess'
+import * as amapMcpClient from './services/mcp/amapMcpClient'
+import { ensureAmapTools } from './services/agent/agentEngine'
 
 const app = express()
 const PORT = process.env.PORT || 3000
@@ -142,10 +145,25 @@ const server = app.listen(PORT, () => {
 const shutdown = (signal: string) => {
   logger.info({ signal }, '收到关闭信号，开始清理')
   alertScheduler.stop()
+  amapMcpClient.close()
+  amapMcpProcess.stop()
   server.close(() => {
     logger.info('HTTP server closed')
     process.exit(0)
   })
 }
+
+async function initMcp(): Promise<void> {
+  await amapMcpProcess.start()
+  if (amapMcpProcess.isAlive()) {
+    await amapMcpClient.connect()
+    await ensureAmapTools()
+  }
+}
+
+initMcp().catch(err => {
+  logger.warn({ err }, '[App] Amap MCP init failed, continuing without it')
+})
+
 process.on('SIGTERM', () => shutdown('SIGTERM'))
 process.on('SIGINT', () => shutdown('SIGINT'))
