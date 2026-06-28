@@ -74,13 +74,15 @@ class AgentEngine {
   private amapTools: DynamicTool[] = []
   private amapToolsInitPromise: Promise<void> | null = null
 
-  private tools = [
-    withToolCache(retrieveKnowledgeTool, { cache: this.toolCache, toolName: 'retrieve_knowledge' }),
-    withToolCache(getWeatherTool, { cache: this.toolCache, toolName: 'get_weather' }),
-    searchHotelsTool,
-    calculateDistanceTool,
-    ...this.amapTools,
-  ]
+  get tools() {
+    return [
+      withToolCache(retrieveKnowledgeTool, { cache: this.toolCache, toolName: 'retrieve_knowledge' }),
+      withToolCache(getWeatherTool, { cache: this.toolCache, toolName: 'get_weather' }),
+      searchHotelsTool,
+      calculateDistanceTool,
+      ...this.amapTools,
+    ]
+  }
 
   private async ensureAmapTools(): Promise<void> {
     if (!this.amapToolsInitPromise) {
