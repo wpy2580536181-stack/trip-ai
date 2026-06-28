@@ -13,6 +13,7 @@ let requestId = 0
 const pending = new Map<number, { resolve: (v: unknown) => void; reject: (e: Error) => void; timer: NodeJS.Timeout }>()
 let rl: ReturnType<typeof createInterface> | null = null
 let initialized = false
+let connectPromise: Promise<void> | null = null
 
 function sendRequest(method: string, params?: unknown): Promise<unknown> {
   return new Promise((resolve, reject) => {
@@ -51,26 +52,38 @@ function handleResponse(line: string) {
 
 export async function connect(): Promise<void> {
   if (initialized) return
-  const stdout = amapMcpProcess.getStdout()
-  if (!stdout) throw new Error('MCP process stdout not available')
+  if (connectPromise) { await connectPromise; return }
 
-  rl = createInterface({ input: stdout, crlfDelay: Infinity })
-  rl.on('line', handleResponse)
-  rl.on('close', () => { rl = null })
+  connectPromise = (async () => {
+    const stdout = amapMcpProcess.getStdout()
+    if (!stdout) throw new Error('MCP process stdout not available')
 
-  // MCP initialize handshake
-  const result = await sendRequest('initialize', {
-    protocolVersion: '2024-11-05',
-    capabilities: {},
-    clientInfo: { name: 'trip-server', version: '1.0.0' },
-  })
-  initialized = true
-  logger.info({ result }, '[AmapMcp] initialized')
+    rl = createInterface({ input: stdout, crlfDelay: Infinity })
+    rl.on('line', handleResponse)
+    rl.on('close', () => { rl = null })
 
-  // 发送 initialized notification (无 response)
-  const stdin = amapMcpProcess.getStdin()
-  if (stdin) {
-    stdin.write(JSON.stringify({ jsonrpc: '2.0', method: 'notifications/initialized' }) + '\n')
+    // MCP initialize handshake
+    const result = await sendRequest('initialize', {
+      protocolVersion: '2024-11-05',
+      capabilities: {},
+      clientInfo: { name: 'trip-server', version: '1.0.0' },
+    })
+    initialized = true
+    connectPromise = null
+    logger.info({ result }, '[AmapMcp] initialized')
+
+    // 发送 initialized notification (无 response)
+    const stdin = amapMcpProcess.getStdin()
+    if (stdin) {
+      stdin.write(JSON.stringify({ jsonrpc: '2.0', method: 'notifications/initialized' }) + '\n')
+    }
+  })()
+
+  try {
+    await connectPromise
+  } catch (err) {
+    connectPromise = null
+    throw err
   }
 }
 
