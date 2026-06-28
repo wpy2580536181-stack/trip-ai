@@ -42,7 +42,7 @@ export async function start(): Promise<void> {
   return new Promise((resolve, reject) => {
     const proc = spawn('npx', ['-y', '@amap/amap-maps-mcp-server'], {
       stdio: ['pipe', 'pipe', 'pipe'],
-      env: { ...process.env, AMAP_KEY: AMAP_CONFIG.apiKey },
+      env: { ...process.env, AMAP_MAPS_API_KEY: AMAP_CONFIG.apiKey },
     })
     mcpProcess = proc
 

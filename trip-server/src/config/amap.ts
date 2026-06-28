@@ -1,6 +1,6 @@
 export const AMAP_CONFIG = {
-  apiKey: process.env.AMAP_API_KEY || '',
-  enabled: !!process.env.AMAP_API_KEY,
+  apiKey: process.env.AMAP_MAPS_API_KEY || '',
+  enabled: !!process.env.AMAP_MAPS_API_KEY,
   rateLimit: {
     maxPerSecond: 3,
     maxPerHour: 100,
