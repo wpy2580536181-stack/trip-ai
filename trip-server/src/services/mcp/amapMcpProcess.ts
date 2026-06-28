@@ -58,6 +58,7 @@ export async function start(): Promise<void> {
 
     proc.on('error', (err) => {
       logger.error({ err }, '[AmapMcp] spawn failed')
+      mcpProcess = null
       reject(err)
     })
 
@@ -72,10 +73,11 @@ export async function start(): Promise<void> {
 
 export function stop(): void {
   resetTimers()
-  if (mcpProcess && !mcpProcess.killed) {
-    mcpProcess.kill('SIGTERM')
+  const oldProcess = mcpProcess
+  if (oldProcess && !oldProcess.killed) {
+    oldProcess.kill('SIGTERM')
     setTimeout(() => {
-      if (mcpProcess && !mcpProcess.killed) mcpProcess.kill('SIGKILL')
+      if (oldProcess && !oldProcess.killed) oldProcess.kill('SIGKILL')
     }, 5000)
   }
   mcpProcess = null
