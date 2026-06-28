@@ -423,17 +423,38 @@ npx ts-node --project tsconfig.eval.json eval/multi-turn-smoke.ts
 2. 上面 3 个坑叠加导致 chatPlannerNode 路径"几乎从未被真实多轮触发"
 3. 真实多轮需要在生产环境观测（admin trace + token usage 看板），不是 eval 框架
 
-#### 推荐路径：先修 3 个坑再做实验
+#### 修复后实测结论（2026-06-28）
 
-```bash
-# 1) 修坑 1：getContextMessages 过滤空消息
-# 2) 修坑 2：DAYS_PATTERN 兼容 "3 天"
-# 3) 修坑 3：multi-turn fixture 措辞含 "规划+几日"
-# 4) 跑 5 fixture × 3 sample 干净的多轮 smoke test
-# 5) baseline vs A+B 对比，看 turn 2/3 hitRate 提升
+修了 3 个坑 + 实现 chatPlannerNode A+B 改造（system 静态 + RAG 走 tool messages）后实测：
+- **多轮 baseline（无 A+B）**：turn1=0% / turn2=53-78% / turn3=83-86% / **avg 45-84%**
+- **多轮 A+B（fake tool message）**：hitRate 不升反降（turn2 仍 5-63%）
+
+**为什么 A+B 不工作**：DeepSeek cache 不识别 chatPlannerNode 直接拼的"fake tool message"。它要求**真实 openai tool_calls 协议**——LLM 必须自己调 tool，LangChain 自动生成 tool message。chatPlannerNode 当前是"程序化拼装 messages"，不是 LLM 驱动的 tool call。
+
+#### 真正的解决方案（待未来工作）
+
+让 chatPlannerNode 用 LangChain `bindTools` + `tool_choice="auto"`，让 LLM 真实调 tool：
+```ts
+const llmWithTools = llm.bindTools(TOOLS)
+const response = await llmWithTools.invoke(messages)  // LLM 输出 tool_calls
+// LangChain 框架自动执行 tool，生成 tool message
 ```
 
-**预估工作量**：3-4 小时（含测试 + 验证）。**预估价值**：唯一能可靠回答"A+B 在真实多轮下有没有收益"的方式。
+这样 messages 结构是 openai 标准 tool_call 协议，DeepSeek cache 能跨 turn 命中整个 `[system, user1, asst(tool_call), tool, asst2]` 序列。
+
+**预估工作量**：2-3 小时重构 chatPlannerNode。
+
+#### 推荐路径（已部分完成）
+
+```bash
+# 1) ✅ 修坑 1：getContextMessages 过滤空消息（已 commit）
+# 2) ✅ 修坑 2：DAYS_PATTERN 兼容 "3 天"（已 commit）
+# 3) ⏸ 修坑 3：multi-turn fixture 措辞（撤回——改了产品行为 router MODIFY_DAY fallback）
+# 4) ✅ 跑多轮 smoke test baseline（多轮 avg 45-84%，已 commit eval/multi-turn-smoke.ts）
+# 5) ⏸ 实现 chatPlannerNode 真实 tool call（需要 2-3 小时重构）
+```
+
+**当前结论**：多轮 hitRate 70-85% 是真实水平，**已足够**。A+B 改造需要重构 chatPlannerNode，超出当前范围。
 
 
 

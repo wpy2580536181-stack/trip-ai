@@ -113,12 +113,27 @@ async function main() {
   // 跑
   const debug = process.env.EVAL_DEBUG === '1'
   const realAgent = realMode ? buildRealAgent() : null
+  const progressLog = process.env.EVAL_PROGRESS_LOG
+  const logProgress = (msg: string) => {
+    if (progressLog) {
+      try { writeFileSync(progressLog, msg + '\n', { flag: 'a' }) } catch {}
+    }
+  }
+  logProgress(`start ${new Date().toISOString()} mode=${realMode ? 'real' : 'mock'} samples=${samples} n=${filtered.length}`)
   const results = await runAll(filtered, {
     mockAgent: realMode ? undefined : buildMockAgent(),
     agentFn: realMode && realAgent ? (f) => realAgent.run(f) : undefined,
     onAfterFixture: realAgent ? () => realAgent.delay() : undefined,
     samples,
+    onProgress: realMode ? (r) => {
+      const tok = r.agentOutput?.tokens
+      const cached = tok?.cached ?? 0
+      const prompt = tok?.prompt ?? 0
+      const rate = prompt > 0 ? (cached / prompt * 100).toFixed(1) : '0.0'
+      logProgress(`done ${r.fixtureId} pass=${r.pass} dur=${r.durationMs}ms prompt=${prompt} cached=${cached} hitRate=${rate}%`)
+    } : undefined,
   })
+  logProgress(`end ${new Date().toISOString()}`)
 
   // Debug 模式：打印原始 agent 输出
   if (debug) {

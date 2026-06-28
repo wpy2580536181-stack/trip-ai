@@ -90,6 +90,8 @@ export interface RunFixtureOptions {
   agentFn?: (fixture: Fixture) => Promise<AgentOutput>
   /** fixture 完成后调用（用来加间隔） */
   onAfterFixture?: (fixture: Fixture) => Promise<void> | void
+  /** fixture 完成后回调（实时进度上报） */
+  onProgress?: (result: FixtureResult) => void
   /**
    * 多采样：跑 N 次取多数
    * mock 模式无效（每次结果相同）
@@ -232,6 +234,7 @@ export async function runAll(
       .map(([k, v]) => `${k}: ${v.reason}`)
       .join(' | ')
     log.info(`  ${status} ${r.durationMs}ms${failed ? ` 失败: ${failed}` : ''}`)
+    if (options.onProgress) options.onProgress(r)
   }
   return results
 }

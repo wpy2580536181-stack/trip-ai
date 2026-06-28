@@ -31,4 +31,9 @@ describe('isPlanningRequest', () => {
   it('"几天" 也算天数表达', () => {
     expect(isPlanningRequest('帮我规划北京几天游行程')).toBe(true)
   })
+
+  it('"3 天" 中间有空格也匹配', () => {
+    expect(isPlanningRequest('帮我规划北京 3 天行程')).toBe(true)
+    expect(isPlanningRequest('帮我规划北京3天行程')).toBe(true)
+  })
 })

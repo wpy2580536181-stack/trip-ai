@@ -26,13 +26,19 @@ export async function getContextMessages(conversationId: number, maxTokens: numb
     orderBy: { createdAt: 'asc' },
   })
 
+  // 过滤掉 tripService 预创建的空 assistant 消息（content === ''）
+  // 原因：tripService.chatStream() 在 agent 调用前先 create 一条空 assistant 消息占位
+  // （给 AgentStep 拿 messageId），如果不过滤，turn 1 的 conversationHistory 就会
+  // 包含这条空消息，chatPlannerNode 等"hasHistory = length > 0"判断会误判为多轮
+  const realMessages = messages.filter((m) => m.content !== '')
+
   let totalTokens = 0
-  for (const msg of messages) {
+  for (const msg of realMessages) {
     totalTokens += estimateTokens(msg.content)
   }
 
   return {
-    messages,
+    messages: realMessages,
     totalTokens,
     needsCompaction: totalTokens > maxTokens,
   }
