@@ -1,5 +1,7 @@
 <template>
   <div class="spot-item" v-if="data">
+    <img v-if="data.imageUrl" :src="data.imageUrl" :alt="data.spot || data.name" class="spot-image"
+      @error="onImageError($event)" />
     <div class="spot-name">{{ data.spot || data.name || '待定' }}</div>
     <div class="spot-details" v-if="data.duration || data.ticket || data.transportation">
       <div class="detail-row" v-if="data.duration">
@@ -22,16 +24,29 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 defineProps({
   data: {
     type: Object,
     default: () => ({})
   }
 })
+
+const onImageError = (e: Event) => {
+  (e.target as HTMLImageElement).style.display = 'none'
+}
 </script>
 
 <style scoped>
+.spot-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  background: #f0f0f0;
+}
+
 .spot-item {
   padding: 8px 0;
 }

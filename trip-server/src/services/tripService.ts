@@ -5,6 +5,7 @@ import { recommendCache } from './llmGuard/cache'
 import prisma from '../config/database'
 import { Prisma } from '@prisma/client'
 import { tripLog as log } from '../utils/logger'
+import { fetchImages } from './unsplash/imageFetcher'
 import type { TokenUsage } from '../types/agent'
 
 const ASSISTANT_PERSIST_FLUSH_INTERVAL_MS = 3000
@@ -143,6 +144,16 @@ class TripService {
         return result.parsed
       })
       const parsed = recommendResult as { city: string; days: number; [key: string]: unknown }
+
+      // fetchImages mutates spot objects in-place via shared reference
+      await fetchImages({
+        city: parsed.city,
+        days: ((parsed as any).dailyItinerary || []).map((d: any) => ({
+          spots: ['morning', 'afternoon', 'evening']
+            .filter((k: string) => d[k])
+            .map((k: string) => d[k]),
+        })),
+      })
 
       let savedTripId: number | null = null
       try {

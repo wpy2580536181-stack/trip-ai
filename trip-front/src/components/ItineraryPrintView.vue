@@ -23,6 +23,7 @@
       <div class="slot morning">
         <div class="slot-label">上午</div>
         <div class="slot-content">
+          <img v-if="day.morning.imageUrl" :src="day.morning.imageUrl" :alt="day.morning.spot" class="print-spot-image" />
           <h3 class="spot-name">{{ day.morning.spot || '待定' }}</h3>
           <div class="slot-meta">
             <span v-if="day.morning.duration">⏱ {{ day.morning.duration }}</span>
@@ -36,6 +37,7 @@
       <div class="slot afternoon">
         <div class="slot-label">下午</div>
         <div class="slot-content">
+          <img v-if="day.afternoon.imageUrl" :src="day.afternoon.imageUrl" :alt="day.afternoon.spot" class="print-spot-image" />
           <h3 class="spot-name">{{ day.afternoon.spot || '待定' }}</h3>
           <div class="slot-meta">
             <span v-if="day.afternoon.duration">⏱ {{ day.afternoon.duration }}</span>
@@ -49,6 +51,7 @@
       <div class="slot evening">
         <div class="slot-label">晚上</div>
         <div class="slot-content">
+          <img v-if="day.evening.imageUrl" :src="day.evening.imageUrl" :alt="day.evening.spot" class="print-spot-image" />
           <h3 class="spot-name">{{ day.evening.spot || '待定' }}</h3>
           <div class="slot-meta">
             <span v-if="day.evening.duration">⏱ {{ day.evening.duration }}</span>
@@ -107,6 +110,7 @@ interface TripSlot {
   ticket?: string
   transportation?: string
   description?: string
+  imageUrl?: string
 }
 
 interface TripDay {
@@ -248,6 +252,14 @@ const budgetSum = computed(() => {
   font-size: 12px;
   color: #555;
   margin: 4px 0 0 0;
+}
+
+.print-spot-image {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 6px;
 }
 
 .budget-section {
