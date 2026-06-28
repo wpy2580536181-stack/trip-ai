@@ -2,12 +2,48 @@
 import type { RunnableConfig } from '@langchain/core/runnables'
 import type { StreamEvent } from '@langchain/core/tracers/log_stream'
 import { ChatOpenAI } from '@langchain/openai'
-import { ChatPromptTemplate } from '@langchain/core/prompts'
-import { buildChatPlannerPrompt } from '../plannerPrompt'
+import { SystemMessage, HumanMessage, AIMessage, ToolMessage, type BaseMessage } from '@langchain/core/messages'
+import { buildChatPlannerStaticPrompt } from '../plannerPrompt'
 import { createLLMFromConfig, loadFallbackLLMConfig } from '../../../config/llm'
 import type { PlannerState } from '../state'
 import type { PlannerConfig } from '../types'
 import type { TokenUsage } from '../../../types/agent'
+import type { ResearchBundle } from '../types'
+
+const TOOL_NAMES: Record<string, string> = {
+  attractions: 'retrieve_knowledge',
+  food: 'retrieve_knowledge',
+  hotels: 'search_hotels',
+  weather: 'get_weather',
+  distance: 'calculate_distance',
+}
+
+/** 把 researchNode 的 bundle 转成标准 tool call 协议消息（AIMessage.tool_calls + ToolMessage） */
+function buildToolCallMessages(bundle: ResearchBundle): BaseMessage[] {
+  const entries = Object.entries(bundle).filter(([, v]) => v && typeof v === 'string') as [string, string][]
+  if (entries.length === 0) return []
+
+  const callIdBase = `call_research_${Date.now()}_`
+
+  // 一条 AIMessage 携带多个 tool_calls（LLM 真实调工具时也一个 message 包含所有并行调用）
+  const toolCallMsg = new AIMessage({
+    content: '',
+    tool_calls: entries.map(([key], i) => ({
+      id: `${callIdBase}${i}_${key}`,
+      name: TOOL_NAMES[key] || 'retrieve_knowledge',
+      args: {},
+    })),
+  })
+
+  // 每条工具结果对应一条 ToolMessage
+  const toolMsgs = entries.map(([key, value], i) => new ToolMessage({
+    tool_call_id: `${callIdBase}${i}_${key}`,
+    name: TOOL_NAMES[key] || 'retrieve_knowledge',
+    content: value,
+  }))
+
+  return [toolCallMsg, ...toolMsgs]
+}
 
 function extractTokenText(event: StreamEvent): string | null {
   const data = event.data
@@ -53,27 +89,25 @@ export async function chatPlannerNode(
     fallbackLLMConfig: ReturnType<typeof loadFallbackLLMConfig>
   }
 
-  const systemPrompt = buildChatPlannerPrompt({
-    city: state.city,
-    budget: state.budget,
-    days: state.days,
-    departureCity: state.departureCity,
-    userPreferences: state.userPreferences,
-    researchBundle: state.researchBundle,
-  })
-
+  // system prompt 纯静态（不依赖 RAG/用户输入），跨轮字节稳定
+  const systemPrompt = buildChatPlannerStaticPrompt()
   const escaped = systemPrompt.replace(/\{/g, '{{').replace(/\}/g, '}}')
-  const prompt = ChatPromptTemplate.fromMessages([
-    ['system', escaped],
-    ['human', '{input}'],
-  ])
+
+  // research bundle → 标准 tool call 协议消息
+  const toolMessages = buildToolCallMessages(state.researchBundle)
+
+  const fullMessages: BaseMessage[] = [
+    new SystemMessage(escaped),
+    ...(state.conversationHistory ?? []),
+    ...toolMessages,
+    new HumanMessage(state.message),
+  ]
 
   const usage: TokenUsage = { prompt: 0, completion: 0, total: 0, cached: 0 }
   let fullResponse = ''
 
   async function runStream(currentLlm: ChatOpenAI): Promise<void> {
-    const messages = await prompt.formatMessages({ input: state.message })
-    const eventStream = currentLlm.streamEvents(messages, { version: 'v2', signal })
+    const eventStream = currentLlm.streamEvents(fullMessages, { version: 'v2', signal })
     for await (const event of eventStream as AsyncIterable<StreamEvent & { data?: any }>) {
       if (signal?.aborted) break
       if (event.event === 'on_chat_model_stream') {
