@@ -1,12 +1,12 @@
-import { describe, it, afterAll, expect, vi } from 'vitest'
+import { describe, it, beforeEach, expect, vi } from 'vitest'
 import * as amapGuards from '../amapGuards'
 import * as amapMcpClient from '../amapMcpClient'
 
 describe('amapGuards', () => {
-  afterAll(() => {
+  beforeEach(() => {
+    vi.restoreAllMocks()
     amapGuards.resetCircuit()
     amapGuards.clearCache()
-    vi.restoreAllMocks()
   })
 
   it('should return cached result on repeated call', async () => {
@@ -28,7 +28,7 @@ describe('amapGuards', () => {
   it('should throw RATE_LIMITED when bucket empty', async () => {
     const promises = []
     for (let i = 0; i < 10; i++) {
-      promises.push(amapGuards.call(`amap_weather_${i}`, { city: '北京' }, { cacheTtlMs: 0 }))
+      promises.push(amapGuards.call('amap_weather', { city: '北京' }, { cacheTtlMs: 0 }))
     }
     const results = await Promise.allSettled(promises)
     const rejected = results.filter(r => r.status === 'rejected')
@@ -40,14 +40,17 @@ describe('amapGuards', () => {
   it('should throw CIRCUIT_OPEN after repeated failures', async () => {
     vi.spyOn(amapMcpClient, 'callTool').mockImplementation(() => Promise.reject(new Error('mcp error')))
 
-    const promises = []
-    for (let i = 0; i < 15; i++) {
-      promises.push(
-        amapGuards.call(`fail_test_${i}`, {}, { cacheTtlMs: 0 }).catch(e => e.message)
-      )
+    let gotCircuitOpen = false
+    for (let i = 0; i < 30; i++) {
+      try {
+        await amapGuards.call(`fail_test_${i}`, {}, { cacheTtlMs: 0 })
+      } catch (e) {
+        if ((e as Error).message === 'AMAP_MCP_CIRCUIT_OPEN') {
+          gotCircuitOpen = true
+          break
+        }
+      }
     }
-    const results = await Promise.all(promises)
-    const circuitOpenCalls = results.filter(m => m === 'AMAP_MCP_CIRCUIT_OPEN')
-    expect(circuitOpenCalls.length).toBeGreaterThan(0)
+    expect(gotCircuitOpen).toBeTruthy()
   })
 })

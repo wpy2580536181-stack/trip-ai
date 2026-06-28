@@ -33,7 +33,8 @@ const circuitBreaker = new CircuitBreaker(
     return await amapMcpClient.callTool(toolName, args)
   },
   {
-    errorThresholdPercentage: AMAP_CONFIG.circuitBreaker.maxFailures * 10,
+    errorThresholdPercentage: 50,
+    volumeThreshold: AMAP_CONFIG.circuitBreaker.maxFailures,
     resetTimeout: AMAP_CONFIG.circuitBreaker.resetTimeoutMs,
     name: 'amap-mcp',
   }
