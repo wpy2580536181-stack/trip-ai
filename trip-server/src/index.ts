@@ -13,6 +13,7 @@ import knowledgeRouter from './routes/knowledge.routes'
 import statsRouter from './routes/stats.routes'
 import feedbackRouter from './routes/feedback.routes'
 import traceRouter from './routes/trace.routes'
+import mcpRouter from './routes/mcp.routes'
 
 const app = express()
 const PORT = process.env.PORT || 3000
@@ -118,6 +119,7 @@ app.use('/api/knowledge', knowledgeRouter)
 app.use('/api/stats', statsRouter)
 app.use('/api/feedback', feedbackRouter)
 app.use('/api/admin/agent-trace', traceRouter)
+app.use('/api/admin', mcpRouter)
 
 app.use((err: Error, req: Request, res: Response, _next: NextFunction) => {
   req.log?.error({ err }, '未捕获异常')

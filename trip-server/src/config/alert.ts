@@ -14,6 +14,9 @@
 
 export type WebhookType = 'feishu' | 'slack' | 'dingtalk' | 'wecom'
 
+// MCP 告警事件类型（非 webhook 类型，而是告警事件分类）
+export type McpAlertType = 'mcp_down' | 'mcp_degraded' | 'mcp_slow'
+
 const VALID_WEBHOOK_TYPES: readonly WebhookType[] = ['feishu', 'slack', 'dingtalk', 'wecom']
 
 export interface AlertConfig {
