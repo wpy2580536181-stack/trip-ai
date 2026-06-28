@@ -14,7 +14,6 @@ const TOOL_NAMES: Record<string, string> = {
   attractions: 'retrieve_knowledge',
   food: 'retrieve_knowledge',
   hotels: 'search_hotels',
-  weather: 'get_weather',
   distance: 'calculate_distance',
 }
 

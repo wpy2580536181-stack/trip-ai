@@ -49,7 +49,7 @@ class AgentEngine {
 
   /**
    * Tool 结果缓存（per-tool 独立 TTL + size）
-   * - get_weather: 30 分钟，字面归一化（城市名稳定）
+   * - amap_weather: 30 分钟，字面归一化（城市名稳定）
    * - retrieve_knowledge: 6 小时，**embedding 归一化**（query 字面多变但语义同）
    * - search_hotels / calculate_distance: 不加（计算成本低/组合爆炸）
    *
