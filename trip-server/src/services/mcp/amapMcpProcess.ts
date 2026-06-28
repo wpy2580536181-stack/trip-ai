@@ -9,6 +9,11 @@ let restartAttempts = 0
 let restartTimer: NodeJS.Timeout | null = null
 let lastRestartMinute = 0
 let restartCountThisMinute = 0
+let healthCheckProbe: (() => Promise<boolean>) | null = null
+
+export function setHealthCheckProbe(fn: () => Promise<boolean>): void {
+  healthCheckProbe = fn
+}
 
 export function getStdin(): Writable | null {
   return mcpProcess?.stdin ?? null
@@ -84,10 +89,23 @@ export function stop(): void {
 }
 
 function startHealthCheck() {
-  healthTimer = setInterval(() => {
+  healthTimer = setInterval(async () => {
     if (!isAlive()) {
-      logger.warn('[AmapMcp] health check failed')
+      logger.warn('[AmapMcp] health check failed: process dead')
       scheduleRestart()
+      return
+    }
+    if (healthCheckProbe) {
+      try {
+        const ok = await healthCheckProbe()
+        if (!ok) {
+          logger.warn('[AmapMcp] health check failed: probe rejected')
+          scheduleRestart()
+        }
+      } catch (err) {
+        logger.warn({ err }, '[AmapMcp] health check probe failed')
+        scheduleRestart()
+      }
     }
   }, AMAP_CONFIG.process.healthCheckIntervalMs)
 }

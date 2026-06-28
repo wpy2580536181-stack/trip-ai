@@ -69,6 +69,7 @@ export async function researchNode(
     attractions: '景点信息暂时不可用，请基于通用旅行知识回答。',
     food: '美食信息暂时不可用，请基于通用旅行知识回答。',
     hotels: HOTEL_FALLBACK,
+    weather: '天气服务暂时不可用，请根据季节常识判断。',
     distance: DISTANCE_FALLBACK,
   }
 

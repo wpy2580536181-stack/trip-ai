@@ -18,7 +18,8 @@
     "eval:real": "ts-node --project tsconfig.eval.json eval/run.ts --real",
     "eval:cleanup": "ts-node --project tsconfig.eval.json eval/cleanup.ts",
     "eval:typecheck": "tsc --project tsconfig.eval.json --noEmit",
-    "feedback:to-fixture": "ts-node scripts/feedback-to-fixture.ts"
+    "feedback:to-fixture": "ts-node scripts/feedback-to-fixture.ts",
+    "mcp:smoke": "npx tsx scripts/mcp-smoke.ts"
   },
   "keywords": [],
   "author": "",

@@ -3,6 +3,8 @@ import { logger } from '../../utils/logger'
 import { AMAP_CONFIG } from '../../config/amap'
 import * as amapMcpClient from './amapMcpClient'
 
+const CACHE_ENABLED_TOOLS = new Set(['amap_weather', 'amap_geocode'])
+
 const buckets = new Map<string, { tokens: number; lastRefill: number }>()
 
 function getBucket(key: string): { tokens: number; lastRefill: number } {
@@ -33,8 +35,8 @@ const circuitBreaker = new CircuitBreaker(
     return await amapMcpClient.callTool(toolName, args)
   },
   {
-    errorThresholdPercentage: 50,
-    volumeThreshold: AMAP_CONFIG.circuitBreaker.maxFailures,
+    errorThresholdPercentage: 91,
+    volumeThreshold: 10,
     resetTimeout: AMAP_CONFIG.circuitBreaker.resetTimeoutMs,
     name: 'amap-mcp',
   }
@@ -57,6 +59,7 @@ export interface AmapGuardMetrics {
 }
 const metrics: AmapGuardMetrics = { calls: 0, successes: 0, failures: 0, cacheHits: 0, circuitOpenCount: 0, avgDurationMs: 0 }
 let totalDurationMs = 0
+let actualCalls = 0
 
 export function getMetrics(): AmapGuardMetrics {
   return { ...metrics }
@@ -69,14 +72,9 @@ export async function call(
 ): Promise<string> {
   metrics.calls++
   const cacheKey = `${toolName}:${JSON.stringify(args)}`
+  const shouldCache = options?.cacheTtlMs !== 0 && CACHE_ENABLED_TOOLS.has(toolName)
 
-  if (!tryConsume(getBucket(toolName))) {
-    metrics.failures++
-    logger.warn({ toolName }, '[AmapGuards] rate limited')
-    throw new Error('AMAP_MCP_RATE_LIMITED')
-  }
-
-  if (options?.cacheTtlMs !== 0) {
+  if (shouldCache) {
     const ttl = options?.cacheTtlMs ?? AMAP_CONFIG.cacheTtlMs
     const cached = cache.get(cacheKey)
     if (cached && cached.expiresAt > Date.now()) {
@@ -85,15 +83,24 @@ export async function call(
     }
   }
 
+  if (!tryConsume(getBucket(toolName))) {
+    metrics.failures++
+    logger.warn({ toolName }, '[AmapGuards] rate limited')
+    throw new Error('AMAP_MCP_RATE_LIMITED')
+  }
+
   const start = Date.now()
+  let duration = 0
+  let errorOccurred = false
   try {
     const result = await circuitBreaker.fire(toolName, args)
-    const duration = Date.now() - start
+    duration = Date.now() - start
+    actualCalls++
     totalDurationMs += duration
-    metrics.avgDurationMs = Math.round(totalDurationMs / metrics.calls)
+    metrics.avgDurationMs = Math.round(totalDurationMs / actualCalls)
     metrics.successes++
 
-    if (options?.cacheTtlMs !== 0) {
+    if (shouldCache) {
       const ttl = options?.cacheTtlMs ?? AMAP_CONFIG.cacheTtlMs
       if (cache.size >= CACHE_MAX) {
         const firstKey = cache.keys().next().value
@@ -104,6 +111,8 @@ export async function call(
 
     return result
   } catch (err) {
+    duration = Date.now() - start
+    errorOccurred = true
     metrics.failures++
     if (circuitBreaker.opened) metrics.circuitOpenCount++
 
@@ -112,6 +121,15 @@ export async function call(
       throw new Error('AMAP_MCP_CIRCUIT_OPEN')
     }
     throw err
+  } finally {
+    logger.info({
+      toolName,
+      durationMs: duration,
+      cacheHit: false,
+      circuitState: circuitBreaker.opened ? 'open' : circuitBreaker.halfOpen ? 'half-open' : 'closed',
+      rateLimitRemaining: getBucket(toolName).tokens,
+      success: !errorOccurred,
+    }, 'amap mcp call')
   }
 }
 

@@ -157,6 +157,10 @@ async function initMcp(): Promise<void> {
   await amapMcpProcess.start()
   if (amapMcpProcess.isAlive()) {
     await amapMcpClient.connect()
+    amapMcpProcess.setHealthCheckProbe(async () => {
+      const tools = await amapMcpClient.listTools()
+      return tools.length > 0
+    })
     await ensureAmapTools()
   }
 }
