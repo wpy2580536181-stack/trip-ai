@@ -6,6 +6,8 @@ import { retrieveKnowledgeTool } from './tools/retrieveKnowledge'
 import { getWeatherTool } from './tools/getWeather'
 import { calculateDistanceTool } from './tools/calculateDistance'
 import { searchHotelsTool } from './tools/searchHotels'
+import { DynamicTool } from '@langchain/core/tools'
+import { loadAmapTools } from '../mcp/amapMcpToolLoader'
 import { buildSystemPrompt } from './systemPrompt'
 import { AgentStreamEvent, type TripContent } from '../../types/agent'
 import { createLLM, loadFallbackLLMConfig, type LLMConfig } from '../../config/llm'
@@ -69,12 +71,25 @@ class AgentEngine {
     },
   })
 
+  private amapTools: DynamicTool[] = []
+  private amapToolsInitPromise: Promise<void> | null = null
+
   private tools = [
     withToolCache(retrieveKnowledgeTool, { cache: this.toolCache, toolName: 'retrieve_knowledge' }),
     withToolCache(getWeatherTool, { cache: this.toolCache, toolName: 'get_weather' }),
     searchHotelsTool,
     calculateDistanceTool,
+    ...this.amapTools,
   ]
+
+  private async ensureAmapTools(): Promise<void> {
+    if (!this.amapToolsInitPromise) {
+      this.amapToolsInitPromise = (async () => {
+        this.amapTools = await loadAmapTools()
+      })()
+    }
+    return this.amapToolsInitPromise
+  }
 
   constructor() {
     this.llm = createLLM({ streaming: true })
@@ -118,6 +133,7 @@ class AgentEngine {
   }
 
   async chat(params: ChatParams) {
+    await this.ensureAmapTools()
     const { userId, message, conversationId, onEvent, signal, messageId } = params
 
     const startTime = Date.now()
@@ -198,6 +214,7 @@ class AgentEngine {
   }
 
   async recommend(params: RecommendParams): Promise<{ reply: string; parsed: TripContent }> {
+    await this.ensureAmapTools()
     const { userId, city, budget, days, departureCity, onEvent, messageId } = params
 
     const startTime = Date.now()
