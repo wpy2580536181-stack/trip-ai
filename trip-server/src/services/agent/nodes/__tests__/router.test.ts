@@ -36,4 +36,15 @@ describe('isPlanningRequest', () => {
     expect(isPlanningRequest('帮我规划北京 3 天行程')).toBe(true)
     expect(isPlanningRequest('帮我规划北京3天行程')).toBe(true)
   })
+
+  it('多轮修改：含"第N天"+ 修改意图词 → true', () => {
+    expect(isPlanningRequest('第二天能加个火锅吗')).toBe(true)
+    expect(isPlanningRequest('第三天改成去博物馆')).toBe(true)
+    expect(isPlanningRequest('第一天去掉那个景点')).toBe(true)
+  })
+
+  it('多轮修改：含"第N天"但无修改意图 → false', () => {
+    expect(isPlanningRequest('第二天天气怎么样')).toBe(false)
+    expect(isPlanningRequest('第三天有什么好吃的')).toBe(false)
+  })
 })

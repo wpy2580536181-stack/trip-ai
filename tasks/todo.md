@@ -131,7 +131,8 @@ Code review 标记的 P3 项，Phase 1 全部完成后再做：
 - ⏳ 自动部署（需 server 配合）
 
 #### 7. 产品功能（`docs/agent-improvements.md` 一）
-- ⏳ 1.1 行程导出（PDF / Markdown）
+- ✅ 1.0 行程导出（PDF / 图片）— 2026-06-28 交付 (361a13d + c0787aa)
+- ⏳ 1.1 Unsplash 景点图片（待 MCP 完成后提醒）— 2026-06-28 讨论确定方案: 后端 tripService pipeline 末尾自动取图,不对 LLM 暴露,纯 Unsplash URL 不存
 - ⏳ 1.2 多模态识别（图片景点）
 - ⏳ 1.3 行程协作
 - ⏳ 1.4 推送通知

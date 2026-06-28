@@ -23,6 +23,22 @@ function extractCityFromMessage(message: string): string {
   return cities.find(c => message.includes(c)) ?? ''
 }
 
+/** 从对话历史中提取城市关键词（多轮修改场景 message 可能不包含城市名） */
+function extractCityFromHistory(history: import('@langchain/core/messages').BaseMessage[]): string {
+  const cities = ['北京', '上海', '广州', '深圳', '成都', '杭州', '武汉', '西安', '重庆', '南京',
+    '天津', '长沙', '苏州', '厦门', '青岛', '大连', '昆明', '三亚', '哈尔滨', '桂林',
+    '拉萨', '乌鲁木齐', '贵阳', '南宁', '南昌', '福州', '合肥', '郑州', '济南', '太原', '兰州',
+    '丽江', '大理', '西双版纳', '张家界', '九寨沟', '黄山', '鼓浪屿', '凤凰', '平遥', '敦煌',
+    '婺源', '稻城', '林芝', '纳木错', '喀纳斯', '伊犁', '阿尔山', '雪乡', '漠河', '北海',
+    '涠洲岛', '舟山', '普陀山', '嵊泗', '千岛湖', '乌镇', '西塘', '周庄', '香格里拉']
+  for (const m of history) {
+    const content = typeof m.content === 'string' ? m.content : ''
+    const found = cities.find(c => content.includes(c))
+    if (found) return found
+  }
+  return ''
+}
+
 /** legacy agent 节点：用现有 AgentExecutor 跑 streamEvents */
 async function legacyAgentNode(
   state: typeof PlannerState.State,
@@ -91,10 +107,13 @@ export function buildChatGraph() {
   const graph = new StateGraph(PlannerState)
     .addNode('router', async (state: typeof PlannerState.State) => {
       let route = isPlanningRequest(state.message) ? 'planning' : 'general'
-      const city = route === 'planning' ? extractCityFromMessage(state.message) : state.city
-      // 未识别出城市时，planning 流程缺少关键参数，回退到 general 由 legacy agent 处理
+      let city = route === 'planning' ? extractCityFromMessage(state.message) : state.city
       if (route === 'planning' && !city) {
-        route = 'general'
+        // 多轮修改场景 message 可能不包含城市名（"第二天能加个火锅吗"）
+        // 从对话历史里找（turn 1 user 消息含"成都"）
+        city = extractCityFromHistory(state.conversationHistory ?? [])
+        // 还找不到：回退到 general 由 legacy agent 处理
+        if (!city) route = 'general'
       }
       return { route, city }
     })
