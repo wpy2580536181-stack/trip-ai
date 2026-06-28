@@ -32,6 +32,8 @@
 | shanghai-2days-with-pet | 约束 | 50% |
 | tokyo-5days-budget-tight | 典型 | 0% (fixture 期望过严) |
 
+截至 2026-06-28，**DeepSeek prompt cache 命中率 82-89%，累计 85.1%**（5 fixture 抽样，详见 §12.5）。
+
 LLM 波动不可避免。**重要规则**：改完 agent 跑 3 次，多数决定去留。
 
 ## 3. 架构
@@ -238,7 +240,8 @@ npx vitest run eval/__tests__/evaluators.test.ts
 
 ### 第二阶段
 - ✅ 接入 DeepSeek/AGNES 真实模型（5-7/10 pass）
-- ⏳ 收集 token 用量 / 响应时长（需要后端 SSE 加 usage 字段）
+- ✅ 收集 token 用量 / 响应时长（chat path `complete.usage` 字段 + recommend path 同步补齐）
+- ✅ 缓存命中率（cache_read 在 tokenTracker / SSE / eval 3 处埋点全部贯通，见 §12.5）
 
 ### 第三阶段
 - ⏳ LLM-as-Judge（用 GPT-4 给 5 分制打分）
@@ -292,6 +295,69 @@ EVAL_SAVE=1 npm run eval:real -- --samples 3
 2. **beijing-halal "无猪肉" 被误判** — evaluator 加"避免语境"识别（"无/不/避免/已排除"前后文）
 3. **shanghai-pet 推美术馆** — systemPrompt 加"宠物避雷"提示
 4. **工具名大小写不匹配**（getWeather vs get_weather）— toolCallAudit 改大小写不敏感
+
+### 12.5 缓存命中率（Cache Hit Rate）
+
+**指标**：`hitRate = prompt_cache_hit_tokens / prompt_tokens`，反映 DeepSeek prompt cache 复用率。直
+接影响单次请求成本（缓存命中的 token 按 DeepSeek 折扣价计费）。
+
+**基线**（2026-06-28，5 fixture 抽样，sample=1）：
+
+| Fixture | prompt | cached | hitRate |
+|---|---|---|---|
+| chengdu-3days-foodie-relaxed | 7,635 | 6,272 | 82.1% |
+| tokyo-5days-budget-tight | 3,753 | 3,328 | 88.7% |
+| xian-2days-family-kid | 15,436 | 13,184 | 85.4% |
+| beijing-3days-halal-vegetarian | 18,087 | 15,104 | 83.5% |
+| hangzhou-2days-rainy-day | 16,295 | 14,208 | 87.2% |
+| **累计** | **61,206** | **52,096** | **85.1%** |
+
+**完整数据流**（修过 3 个 bug 后贯通）：
+
+```
+LLM response
+  ↓ usage_metadata.input_token_details.cache_read
+    或 response_metadata.usage.prompt_tokens_details.cached_tokens
+planner.ts / chatGraph.ts / chatPlanner.ts: extractUsageFromResult
+  ↓ usage.cached 累加
+AgentEngine: onEvent({ type: 'complete', content, usage })
+  ↓ 序列化 SSE
+前端 + eval real-agent.ts: parseSSE
+  ↓ AgentOutput.tokens.cached
+runner.ts: tokensAgg.cached 累加 → summary.totalTokens.hitRate
+  ↓ 打印
+run.ts: 'Cache: cached=X hitRate=Y%' (≥50% 绿 / ≥30% 黄 / <30% 红)
+```
+
+**修过的 3 个 bug**（commit `062955e`，2026-06-28）：
+
+1. `tokenTracker.onLLMEnd` 没读 `promptTokensDetails.cachedTokens` → `tokenUsageLog.cached` 永远 0，
+   admin dashboard "缓存命中率"看板失效
+2. recommend 路径的 SSE `complete` 事件漏 `usage` 字段（chat 路径有）→ `message.metadata.usage.cached`
+   永远 0
+3. eval 框架：
+   - `types.ts` `AgentOutput.tokens` / `ReportSummary.totalTokens` 缺 `cached` 字段
+   - `real-agent.ts parseSSE` 从 `event.data.usage` 读，但 SSE 序列化在 `event.usage` 顶层（兼容双路径）
+   - `run.ts` 不打印 hitRate
+
+**怎么读**：
+
+- 改 prompt 结构（增减 system 字段、调整顺序）→ 跑 eval 看 hitRate 变没变
+- 改 system prompt 加动态内容 → hitRate 应该下降（动态部分无法被 prefix 缓存）
+- 同 fixture 重复跑 → 第 2 次起 hitRate 应该 > 首次（warm cache）
+- hitRate 长期 < 50% → 考虑把动态内容挪到 user message 或加 cache breakpoint
+
+**怎么跑**：
+
+```bash
+# 单采样
+npm run eval:real -- --id chengdu-3days-foodie-relaxed
+# 多 fixture 对比
+npm run eval:real -- --tag smoke --tag chengdu --tag tokyo
+# 看完整 hitRate 分布
+EVAL_PROGRESS_LOG=/tmp/eval-progress.log npm run eval:real -- --samples 1
+tail -f /tmp/eval-progress.log   # 实时看每个 fixture 的 hitRate
+```
 
 ## 13. 文件清单
 
