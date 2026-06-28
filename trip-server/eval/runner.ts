@@ -248,16 +248,20 @@ export function summarize(results: FixtureResult[]): ReportSummary {
   // Token 累计（取主输出的 tokens）
   let totalTokens: ReportSummary['totalTokens']
   let hasTokens = false
-  const tokensAgg = { prompt: 0, completion: 0, total: 0 }
+  const tokensAgg = { prompt: 0, completion: 0, total: 0, cached: 0 }
   for (const r of results) {
     if (r.agentOutput?.tokens) {
       tokensAgg.prompt += r.agentOutput.tokens.prompt
       tokensAgg.completion += r.agentOutput.tokens.completion
       tokensAgg.total += r.agentOutput.tokens.total
+      tokensAgg.cached += r.agentOutput.tokens.cached ?? 0
       hasTokens = true
     }
   }
-  if (hasTokens) totalTokens = tokensAgg
+  if (hasTokens) {
+    const hitRate = tokensAgg.prompt > 0 ? tokensAgg.cached / tokensAgg.prompt : 0
+    totalTokens = { ...tokensAgg, hitRate }
+  }
 
   // 按 tag
   const byTag: ReportSummary['byTag'] = {}

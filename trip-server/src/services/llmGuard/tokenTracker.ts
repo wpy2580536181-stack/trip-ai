@@ -35,7 +35,10 @@ export class TokenTrackingCallback extends BaseCallbackHandler {
     const prompt = (tokenUsage.promptTokens ?? 0) as number
     const completion = (tokenUsage.completionTokens ?? 0) as number
     if (prompt + completion <= 0) return
-    recordUsage({ prompt, completion })
+    const cached = (tokenUsage as { promptTokensDetails?: { cachedTokens?: number }; promptCacheHitTokens?: number }).promptTokensDetails?.cachedTokens
+      ?? (tokenUsage as { promptCacheHitTokens?: number }).promptCacheHitTokens
+      ?? 0
+    recordUsage({ prompt, completion, cached })
   }
 }
 

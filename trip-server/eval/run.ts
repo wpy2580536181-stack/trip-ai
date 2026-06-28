@@ -176,10 +176,15 @@ async function main() {
   // Token 汇总（仅真实模式有 tokens）
   if (summary.totalTokens !== undefined) {
     const t = summary.totalTokens
+    const hitPct = (t.hitRate * 100).toFixed(1)
+    const hitColor = t.hitRate >= 0.5 ? chalk.green : t.hitRate >= 0.3 ? chalk.yellow : chalk.red
     console.log(
       chalk.gray(
         `  Token: prompt=${t.prompt.toLocaleString()}  completion=${t.completion.toLocaleString()}  total=${t.total.toLocaleString()}`,
       ),
+    )
+    console.log(
+      `  Cache: cached=${t.cached.toLocaleString()}  ${hitColor(`hitRate=${hitPct}%`)}`,
     )
   }
 

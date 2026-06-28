@@ -38,6 +38,7 @@ interface TokenUsage {
   prompt: number
   completion: number
   total: number
+  cached?: number
 }
 
 const log = {
@@ -284,7 +285,9 @@ async function parseSSE(body: ReadableStream<Uint8Array>): Promise<{
             if (event.data?.conversationId) {
               returnedConvId = event.data.conversationId
             }
-            if (event.data?.usage) {
+            if ((event as any).usage) {
+              usage = (event as any).usage as TokenUsage
+            } else if (event.data?.usage) {
               usage = event.data.usage as TokenUsage
             }
             break

@@ -29,6 +29,7 @@ export interface AgentOutput {
     prompt: number
     completion: number
     total: number
+    cached?: number
   }
   /** 响应耗时 ms */
   durationMs?: number
@@ -137,5 +138,5 @@ export interface ReportSummary {
   byTag: Record<string, { total: number; passed: number; passRate: number }>
   byEvaluator: Record<string, { total: number; passed: number; passRate: number }>
   /** Token 累计（仅真实模式有值，mock 模式 undefined） */
-  totalTokens?: { prompt: number; completion: number; total: number }
+  totalTokens?: { prompt: number; completion: number; total: number; cached: number; hitRate: number }
 }

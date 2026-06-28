@@ -244,7 +244,7 @@ class AgentEngine {
       if (result.parsed) {
         traceRecorder.add({ step: stepCounter.value++, type: 'complete', durationMs: Date.now() - startTime })
         await traceRecorder.flush()
-        await onEvent({ type: 'complete', content: result.rawOutput ?? '' })
+        await onEvent({ type: 'complete', content: result.rawOutput ?? '', usage: result.usage })
         return { reply: result.rawOutput ?? '', parsed: result.parsed }
       }
       // retry 后 rawOutput 仍可能未过校验，二次校验一次
@@ -252,7 +252,7 @@ class AgentEngine {
         const { parsed } = validateOutput(result.rawOutput!)
         traceRecorder.add({ step: stepCounter.value++, type: 'complete', durationMs: Date.now() - startTime })
         await traceRecorder.flush()
-        await onEvent({ type: 'complete', content: result.rawOutput ?? '' })
+        await onEvent({ type: 'complete', content: result.rawOutput ?? '', usage: result.usage })
         return { reply: result.rawOutput ?? '', parsed }
       } catch {
         throw new Error('Agent 多次输出无效 JSON，请稍后重试')
