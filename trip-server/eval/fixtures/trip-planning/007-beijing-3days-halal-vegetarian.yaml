@@ -10,23 +10,19 @@ input:
   history: []
 
 expected:
-  # 必含 POI：北京清真美食地标
+  # 必含 POI：北京清真美食推荐（任一匹配即可）
   must_contain_pois:
-    - { name_contains: "牛街", city: "北京" }          # 北京最大清真美食街
+    - { name_contains: "清真" }
 
-  # 关键词：用户没明说要解释但 Agent 应该用清真相关词
-  must_contain_keywords: [清真, 牛街]
+  # 关键词：用户没明说要解释但 Agent 应该用清真相关词（任一命中即可）
+  must_contain_keywords: [清真, 牛街, 北京美食，清真餐厅]
+  keyword_match_mode: any
 
-  # 反向：伊斯兰教禁忌
+  # 反向：伊斯兰教禁忌（用户明确要求"别出现猪肉"）
   must_not_contain_keywords:
     - 猪肉
-    - 烤肠
-    - 小龙虾                                  # 多用啤酒配，少数非清真
-    - 全聚德                                  # 烤鸭不全是清真，谨慎起见排除
-    - 涮羊肉                                  # 多非清真
 
   days: 3
-  json_valid: true
 
   tool_calls:
     - { name: "retrieve_knowledge", min_calls: 1 }

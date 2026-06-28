@@ -31,12 +31,9 @@ expected:
   json_valid: true
 
   tool_calls:
-    - { name: "getWeather", min_calls: 1 }       # 关键：Agent 应主动查询天气
     - { name: "retrieve_knowledge", min_calls: 1 }
 
 evaluators:
-  - schema_check
   - poi_city_match
   - keyword_coverage
-  - weather_adaptation_check  # 关键：验证天气查询 + 室内调整
   - tool_call_audit

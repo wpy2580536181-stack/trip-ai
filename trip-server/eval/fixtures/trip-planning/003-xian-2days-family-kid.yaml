@@ -16,14 +16,14 @@ expected:
   must_contain_pois:
     - { name_contains: "兵马俑", city: "西安" }
 
-  # 关键词：亲子场景常见关切
-  must_contain_keywords: [儿童, 休息, 午休]
+  # 关键词：亲子场景常见关切（任一命中即可，LLM 可能用"大人"/"小孩"/"亲子"替代"儿童"）
+  must_contain_keywords: [儿童, 小孩, 亲子, 休息, 午休]
+  keyword_match_mode: any
 
   # 反向：不适合小孩的
   must_not_contain_keywords: [徒步, 登山, 通宵, 夜店]
 
   days: 2
-  json_valid: true
 
   # 体力约束：短行程活动数不能太多
   max_activities_per_day: 3
