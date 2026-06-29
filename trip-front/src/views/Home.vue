@@ -21,15 +21,15 @@ const isAdmin = computed(() => {
 interface FormData {
   departureCity: string
   city: string
-  budget: string
-  days: string
+  budget: number | null
+  days: number | null
 }
 
 const formData = reactive<FormData>({
   departureCity: '',
   city: '',
-  budget: '',
-  days: '',
+  budget: null,
+  days: null,
 })
 
 const cityOptions = ALL_CITIES.map(c => ({ label: c, value: c }))
@@ -49,11 +49,11 @@ const validateForm = () => {
     message.warning('出发城市不能与目的地相同')
     return false
   }
-  if (!formData.budget || Number(formData.budget) <= 0) {
+  if (!formData.budget || formData.budget <= 0) {
     message.warning('请输入有效的预算')
     return false
   }
-  if (!formData.days || Number(formData.days) < 1 || Number(formData.days) > 30) {
+  if (!formData.days || formData.days < 1 || formData.days > 30) {
     message.warning('请输入有效的旅行天数（1-30天）')
     return false
   }
@@ -66,8 +66,8 @@ const handleSubmit = async () => {
   try {
     const res = await post('/trip/recommend', {
       city: formData.city,
-      budget: Number(formData.budget),
-      days: Number(formData.days),
+      budget: formData.budget,
+      days: formData.days,
       departureCity: formData.departureCity || undefined,
     })
     if (res.success && res.data) {
@@ -105,7 +105,7 @@ const handleSubmit = async () => {
 
     <div class="card search-card">
       <div class="section-title">行程信息</div>
-      <n-form>
+      <n-form :model="formData">
         <n-form-item label="出发城市" path="departureCity">
           <n-select
             v-model:value="formData.departureCity"
@@ -124,10 +124,10 @@ const handleSubmit = async () => {
           />
         </n-form-item>
         <n-form-item label="预算（元）" path="budget">
-          <n-input v-model:value="formData.budget" placeholder="请输入预算" />
+          <n-input-number v-model:value="formData.budget" placeholder="请输入预算" :min="1" style="width: 100%" />
         </n-form-item>
         <n-form-item label="天数" path="days">
-          <n-input v-model:value="formData.days" placeholder="请输入旅行天数（1-30天）" />
+          <n-input-number v-model:value="formData.days" placeholder="请输入旅行天数（1-30天）" :min="1" :max="30" style="width: 100%" />
         </n-form-item>
       </n-form>
       <n-button type="primary" block strong :loading="isloading" @click="handleSubmit" size="large">
