@@ -263,6 +263,7 @@ onMounted(() => {
   padding: 16px 20px;
   background: var(--bg-secondary, #fff);
   border-bottom: 1px solid var(--border-color, #EAE5E0);
+  border-radius: 12px 12px 0 0;
 }
 
 .page-header h2 {

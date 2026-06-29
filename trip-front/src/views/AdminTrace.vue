@@ -193,6 +193,7 @@ function formatTime(iso: string): string {
   padding: 16px 20px;
   background: var(--bg-secondary);
   border-bottom: 1px solid var(--border-color);
+  border-radius: 12px 12px 0 0;
 }
 .page-header h2 {
   margin: 0;
