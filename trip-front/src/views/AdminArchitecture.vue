@@ -7,30 +7,25 @@
  */
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { showToast } from 'vant'
+import { useMessage } from 'naive-ui'
 import SystemArchitecture from '@/components/architecture/SystemArchitecture.vue'
 import AgentSequence from '@/components/architecture/AgentSequence.vue'
 import ContextDataFlow from '@/components/architecture/ContextDataFlow.vue'
 import EvaluationSystem from '@/components/architecture/EvaluationSystem.vue'
 
-interface Tab {
-  name: number
-  title: string
-}
-
 const router = useRouter()
+const message = useMessage()
 const activeTab = ref<number>(0)
 
-const tabs: Tab[] = [
+const tabs = [
   { name: 0, title: '系统架构' },
   { name: 1, title: 'Agent 时序' },
   { name: 2, title: '上下文流' },
   { name: 3, title: '评估体系' },
 ]
 
-function onTabClick(tab: { name: number | string }) {
-  activeTab.value = Number(tab.name)
-  showToast(`切换到: ${tabs[activeTab.value]?.title}`)
+function onTabClick() {
+  message.info(`切换到: ${tabs[activeTab.value]?.title}`)
 }
 
 function onBack() {
@@ -40,26 +35,52 @@ function onBack() {
 
 <template>
   <div class="arch-view">
-    <van-nav-bar title="🏗 系统架构图" left-arrow @click-left="onBack" />
-    <van-tabs v-model:active="activeTab" sticky animated swipeable @click-tab="onTabClick">
-      <van-tab v-for="t in tabs" :key="t.name" :title="t.title" :name="t.name">
+    <div class="page-header">
+      <button class="back-btn" @click="onBack">←</button>
+      <h2>🏗 系统架构图</h2>
+    </div>
+    <n-tabs v-model:value="activeTab" animated @update:value="onTabClick">
+      <n-tab v-for="t in tabs" :key="t.name" :name="t.name" :tab="t.title">
         <div class="diagram-container">
           <SystemArchitecture v-if="t.name === 0" />
           <AgentSequence v-else-if="t.name === 1" />
           <ContextDataFlow v-else-if="t.name === 2" />
           <EvaluationSystem v-else-if="t.name === 3" />
         </div>
-      </van-tab>
-    </van-tabs>
+      </n-tab>
+    </n-tabs>
   </div>
 </template>
 
 <style scoped>
 .arch-view {
   min-height: 100vh;
-  background: #fafafa;
+  background: var(--bg-primary);
   display: flex;
   flex-direction: column;
+}
+.page-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+}
+.page-header h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0;
+  color: var(--text-primary);
+  line-height: 1;
 }
 .diagram-container {
   width: 100%;

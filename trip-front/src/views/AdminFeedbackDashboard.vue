@@ -12,9 +12,11 @@
 
 import { ref, computed, onMounted, watch } from 'vue'
 import { useRouter } from 'vue-router'
-import { showToast } from 'vant'
+import { useMessage } from 'naive-ui'
 import { get } from '@/api/request'
 import { convertFeedbackToFixture, type ConvertToFixtureResponse } from '@/api/feedback'
+
+const message = useMessage()
 
 interface GlobalStats {
   totalCount: number
@@ -64,7 +66,7 @@ const fetchAll = async () => {
     if (dailyRes?.code === 200) dailyStats.value = dailyRes.data
     if (casesRes?.code === 200) highTokenCases.value = casesRes.data
   } catch (e) {
-    showToast('加载失败：' + ((e as Error).message || '未知错误'))
+    message.error('加载失败：' + ((e as Error).message || '未知错误'))
   } finally {
     loading.value = false
   }
@@ -143,13 +145,13 @@ async function convertOne(feedbackId: number) {
     if (res?.code === 200) {
       convertResult.value = res.data
       showConvertModal.value = true
-      if (res.data.files.length > 0) showToast(`已生成 ${res.data.files.length} 个 fixture`)
-      else showToast('未生成任何 fixture（可能 feedback 不存在）')
+      if (res.data.files.length > 0) message.success(`已生成 ${res.data.files.length} 个 fixture`)
+      else message.warning('未生成任何 fixture（可能 feedback 不存在）')
     } else {
-      showToast('转换失败：' + (res?.error || res?.message || '未知错误'))
+      message.error('转换失败：' + (res?.error || res?.message || '未知错误'))
     }
   } catch (e) {
-    showToast('转换失败：' + ((e as Error).message || '未知错误'))
+    message.error('转换失败：' + ((e as Error).message || '未知错误'))
   } finally {
     converting.value = false
   }
@@ -158,7 +160,7 @@ async function convertOne(feedbackId: number) {
 async function convertBatch() {
   const allIds = (highTokenCases.value || []).map((c) => c.feedbackId)
   if (allIds.length === 0) {
-    showToast('当前没有负反馈案例')
+    message.warning('当前没有负反馈案例')
     return
   }
   if (converting.value) return
@@ -168,12 +170,12 @@ async function convertBatch() {
     if (res?.code === 200) {
       convertResult.value = res.data
       showConvertModal.value = true
-      showToast(`已生成 ${res.data.files.length} 个 fixture${res.data.skipped.length > 0 ? `（跳过 ${res.data.skipped.length}）` : ''}`)
+      message.success(`已生成 ${res.data.files.length} 个 fixture${res.data.skipped.length > 0 ? `（跳过 ${res.data.skipped.length}）` : ''}`)
     } else {
-      showToast('批量转换失败：' + (res?.error || res?.message || '未知错误'))
+      message.error('批量转换失败：' + (res?.error || res?.message || '未知错误'))
     }
   } catch (e) {
-    showToast('批量转换失败：' + ((e as Error).message || '未知错误'))
+    message.error('批量转换失败：' + ((e as Error).message || '未知错误'))
   } finally {
     converting.value = false
   }
@@ -181,45 +183,51 @@ async function convertBatch() {
 </script>
 
 <template>
-  <div class="page-container admin-page">
-    <van-nav-bar title="反馈 Dashboard" left-arrow @click-left="onBack">
-      <template #right>
-        <van-icon name="replay" size="20" @click="fetchAll" style="margin-right: 12px" />
-        <van-icon name="cluster-o" size="20" @click="$router.push('/admin/architecture')" />
-      </template>
-    </van-nav-bar>
+  <div class="admin-page">
+    <div class="page-header">
+      <button class="back-btn" @click="onBack">←</button>
+      <h2>反馈 Dashboard</h2>
+      <div class="header-right">
+        <n-button quaternary circle @click="fetchAll" title="刷新">
+          <template #icon><span>🔄</span></template>
+        </n-button>
+        <n-button quaternary circle @click="$router.push('/admin/architecture')" title="架构图">
+          <template #icon><span>🏗</span></template>
+        </n-button>
+      </div>
+    </div>
 
     <div class="content">
       <!-- 时间窗口选择 -->
-      <van-tabs v-model:active="days" :swipeable="false" @change="fetchAll" sticky>
-        <van-tab :title="'近 7 天'" :name="7" />
-        <van-tab :title="'近 30 天'" :name="30" />
-      </van-tabs>
+      <n-tabs v-model:value="days" @update:value="fetchAll">
+        <n-tab name="7" tab="近 7 天" />
+        <n-tab name="30" tab="近 30 天" />
+      </n-tabs>
 
       <!-- 4 个数字卡片 -->
       <div v-if="globalStats" class="stats-grid">
-        <div class="stat-card">
+        <n-card class="stat-card" size="small" :bordered="true">
           <div class="stat-label">总反馈</div>
           <div class="stat-value">{{ formatNum(globalStats.totalCount) }}</div>
-        </div>
-        <div class="stat-card" :style="{ borderLeftColor: satisfactionColor }">
+        </n-card>
+        <n-card class="stat-card" size="small" :style="{ borderLeft: `3px solid ${satisfactionColor}` }">
           <div class="stat-label">满意率</div>
           <div class="stat-value" :style="{ color: satisfactionColor }">
             {{ (globalStats.satisfactionRate * 100).toFixed(1) }}%
           </div>
-        </div>
-        <div class="stat-card">
+        </n-card>
+        <n-card class="stat-card" size="small">
           <div class="stat-label">👍</div>
           <div class="stat-value up">{{ formatNum(globalStats.upCount) }}</div>
-        </div>
-        <div class="stat-card">
+        </n-card>
+        <n-card class="stat-card" size="small">
           <div class="stat-label">👎</div>
           <div class="stat-value down">{{ formatNum(globalStats.downCount) }}</div>
-        </div>
+        </n-card>
       </div>
 
       <!-- 趋势图 -->
-      <div class="section">
+      <div class="section-card">
         <div class="section-title">每日反馈趋势（{{ days }} 天）</div>
         <div v-if="dailyChart" class="chart">
           <div class="chart-row">
@@ -250,7 +258,7 @@ async function convertBatch() {
       </div>
 
       <!-- 最近负反馈评论 -->
-      <div v-if="globalStats && globalStats.recentDownComments.length" class="section">
+      <div v-if="globalStats && globalStats.recentDownComments.length" class="section-card">
         <div class="section-title">最近负反馈评论</div>
         <div class="comment-list">
           <div
@@ -260,13 +268,13 @@ async function convertBatch() {
           >
             <div class="comment-meta">
               <span class="comment-time">{{ formatTime(Date.parse(c.createdAt)) }}</span>
-              <van-tag
+              <n-tag
                 v-for="t in (c.tags || []).slice(0, 3)"
                 :key="t"
-                type="danger"
-                plain
-                size="mini"
-              >{{ t }}</van-tag>
+                type="error"
+                size="small"
+                :bordered="false"
+              >{{ t }}</n-tag>
             </div>
             <div class="comment-text">{{ c.comment }}</div>
           </div>
@@ -274,22 +282,21 @@ async function convertBatch() {
       </div>
 
       <!-- 高 token + 低满意度案例 -->
-      <div v-if="highTokenCases.length" class="section">
+      <div v-if="highTokenCases.length" class="section-card">
         <div class="section-title">
           高 token + 低满意度案例
           <span class="section-sub">（{{ caseAggregate.caseCount }} 个 / 总 {{ formatNum(caseAggregate.totalTokens) }} tokens / 平均 cache {{ (caseAggregate.avgCacheRate * 100).toFixed(0) }}%）</span>
         </div>
-        <van-button
+        <n-button
           block
-          type="primary"
-          plain
+          secondary
           :loading="converting"
           :disabled="converting"
           @click="convertBatch"
           style="margin-bottom: 12px"
         >
           批量转最近 {{ days }} 天负反馈为 fixture
-        </van-button>
+        </n-button>
         <div class="case-list">
           <div
             v-for="c in highTokenCases"
@@ -314,70 +321,73 @@ async function convertBatch() {
             <div class="case-preview">{{ c.messagePreview }}</div>
             <div v-if="c.comment" class="case-comment">用户：{{ c.comment }}</div>
             <div class="case-actions">
-              <van-button
-                size="mini"
-                type="primary"
-                plain
+              <n-button
+                size="tiny"
+                secondary
                 :loading="converting"
                 :disabled="converting"
                 @click="convertOne(c.feedbackId)"
               >
                 📋 转 fixture
-              </van-button>
-              <van-button
-                size="mini"
-                plain
+              </n-button>
+              <n-button
+                size="tiny"
+                quaternary
                 @click="goTrace(c.messageId)"
               >
                 🔍 Trace
-              </van-button>
+              </n-button>
             </div>
           </div>
         </div>
       </div>
 
-      <van-empty
+      <div
         v-if="!loading && globalStats && globalStats.totalCount === 0"
-        description="近 {{ days }} 天还没有反馈"
-      />
+        class="empty-state"
+      >
+        <p>近 {{ days }} 天还没有反馈</p>
+      </div>
     </div>
 
-    <van-dialog
+    <n-modal
       v-model:show="showConvertModal"
       title="Fixture 骨架已生成"
-      :show-confirm-button="false"
+      preset="card"
+      style="width: 600px; max-width: 90vw;"
+      :mask-closable="false"
     >
-      <div style="padding: 16px">
+      <div>
         <p>已生成 <strong>{{ convertResult.files.length }}</strong> 个文件：</p>
         <ul v-if="convertResult.files.length" style="padding-left: 20px; margin: 8px 0">
           <li
             v-for="f in convertResult.files"
             :key="f"
-            style="font-family: monospace; font-size: 12px; word-break: break-all; margin-bottom: 4px; color: #555"
+            style="font-family: monospace; font-size: 12px; word-break: break-all; margin-bottom: 4px; color: var(--text-secondary)"
           >
             {{ f }}
           </li>
         </ul>
-        <p v-if="convertResult.skipped.length" style="color: #ee0a24; margin-top: 12px; font-size: 13px">
+        <p v-if="convertResult.skipped.length" style="color: #d03050; margin-top: 12px; font-size: 13px">
           跳过 {{ convertResult.skipped.length }} 条：
-          <ul style="padding-left: 20px; margin: 4px 0">
-            <li
-              v-for="s in convertResult.skipped"
-              :key="s.id"
-              style="font-size: 12px; margin-bottom: 2px"
-            >
-              feedback #{{ s.id }}: {{ s.reason }}
-            </li>
-          </ul>
         </p>
-        <p style="color: #999; font-size: 12px; margin-top: 12px">
+        <ul v-if="convertResult.skipped.length" style="padding-left: 20px; margin: 4px 0">
+          <li
+            v-for="s in convertResult.skipped"
+            :key="s.id"
+            style="font-size: 12px; margin-bottom: 2px"
+          >
+            feedback #{{ s.id }}: {{ s.reason }}
+          </li>
+        </ul>
+        <p style="color: var(--text-secondary); font-size: 12px; margin-top: 12px">
           请到 IDE 编辑文件，补 expected 段后 commit。
         </p>
       </div>
       <template #footer>
-        <van-button block @click="showConvertModal = false">完成</van-button>
+        <n-button @click="showConvertModal = false">完成</n-button>
       </template>
-    </van-dialog>
+    </n-modal>
   </div>
 </template>
 

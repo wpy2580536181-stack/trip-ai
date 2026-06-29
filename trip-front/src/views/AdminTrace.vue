@@ -12,7 +12,7 @@
 
 import { ref } from 'vue'
 import { useRoute } from 'vue-router'
-import { showToast } from 'vant'
+import { useMessage } from 'naive-ui'
 import {
   fetchAgentTrace,
   fetchAgentTraceSummary,
@@ -20,6 +20,8 @@ import {
   type TraceMessage,
   type TraceSummary,
 } from '@/api/trace'
+
+const message = useMessage()
 
 const searchMessageId = ref<number | null>(null)
 const searchConvId = ref<number | null>(null)
@@ -30,7 +32,7 @@ const loading = ref(false)
 
 async function loadTrace() {
   if (!searchMessageId.value) {
-    showToast('请输入 messageId')
+    message.warning('请输入 messageId')
     return
   }
   loading.value = true
@@ -40,7 +42,7 @@ async function loadTrace() {
     traceSteps.value = result.steps
     traceSummary.value = []
   } catch (e) {
-    showToast('加载 trace 失败：' + ((e as Error).message || '未知错误'))
+    message.error('加载 trace 失败：' + ((e as Error).message || '未知错误'))
   } finally {
     loading.value = false
   }
@@ -48,7 +50,7 @@ async function loadTrace() {
 
 async function loadSummary() {
   if (!searchConvId.value) {
-    showToast('请输入 conversationId')
+    message.warning('请输入 conversationId')
     return
   }
   loading.value = true
@@ -57,10 +59,10 @@ async function loadSummary() {
     traceSteps.value = []
     traceSummary.value = await fetchAgentTraceSummary(searchConvId.value)
     if (traceSummary.value.length === 0) {
-      showToast('该会话暂无 assistant 消息')
+      message.warning('该会话暂无 assistant 消息')
     }
   } catch (e) {
-    showToast('加载摘要失败：' + ((e as Error).message || '未知错误'))
+    message.error('加载摘要失败：' + ((e as Error).message || '未知错误'))
   } finally {
     loading.value = false
   }
@@ -90,121 +92,186 @@ function formatTime(iso: string): string {
 </script>
 
 <template>
-  <div class="page-container admin-trace-page">
-    <van-nav-bar title="Agent Trace" left-arrow @click-left="$router.back()">
-      <template #right>
-        <van-icon name="cluster-o" size="20" @click="$router.push('/admin/architecture')" />
-      </template>
-    </van-nav-bar>
-
-    <div class="search-bar">
-      <van-field
-        v-model.number="searchMessageId"
-        label="Message ID"
-        type="number"
-        placeholder="输入 messageId"
-        clearable
-      />
-      <van-button type="primary" size="small" :loading="loading" @click="loadTrace">查看</van-button>
+  <div class="admin-trace-page">
+    <div class="page-header">
+      <button class="back-btn" @click="$router.back()">←</button>
+      <h2>Agent Trace</h2>
+      <div class="header-right">
+        <n-button quaternary circle @click="$router.push('/admin/architecture')" title="架构图">
+          <template #icon><span>🏗</span></template>
+        </n-button>
+      </div>
     </div>
 
-    <div class="search-bar">
-      <van-field
-        v-model.number="searchConvId"
-        label="Conv ID"
-        type="number"
-        placeholder="输入 conversationId 查列表"
-        clearable
-      />
-      <van-button type="primary" size="small" :loading="loading" @click="loadSummary">查列表</van-button>
-    </div>
+    <div class="content">
+      <div class="search-row">
+        <n-input v-model:value="searchMessageId" type="number" placeholder="输入 messageId" clearable />
+        <n-button type="primary" size="small" :loading="loading" @click="loadTrace">查看</n-button>
+      </div>
 
-    <div v-if="traceMessage" class="trace-detail">
-      <van-cell-group inset>
-        <van-cell title="Message ID" :value="String(traceMessage.id)" />
-        <van-cell title="Role" :value="traceMessage.role" />
-        <van-cell title="Steps" :value="String(traceMessage._count.steps)" />
-        <van-cell title="Created" :value="formatTime(traceMessage.createdAt)" />
-        <van-cell title="Content">
-          <template #value>
+      <div class="search-row">
+        <n-input v-model:value="searchConvId" type="number" placeholder="输入 conversationId 查列表" clearable />
+        <n-button type="primary" size="small" :loading="loading" @click="loadSummary">查列表</n-button>
+      </div>
+
+      <div v-if="traceMessage" class="trace-detail">
+        <div class="info-card">
+          <div class="info-row">
+            <span class="info-label">Message ID</span>
+            <span class="info-value">{{ traceMessage.id }}</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Role</span>
+            <span class="info-value">{{ traceMessage.role }}</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Steps</span>
+            <span class="info-value">{{ traceMessage._count.steps }}</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Created</span>
+            <span class="info-value">{{ formatTime(traceMessage.createdAt) }}</span>
+          </div>
+          <div class="info-row content-row">
+            <span class="info-label">Content</span>
             <div class="content-preview">{{ traceMessage.content.slice(0, 300) }}</div>
-          </template>
-        </van-cell>
-      </van-cell-group>
+          </div>
+        </div>
 
-      <h3 class="section-title">Step 时间轴（{{ traceSteps.length }}）</h3>
-      <div v-if="traceSteps.length === 0" class="empty">该 message 暂无步骤记录</div>
-      <van-steps v-else direction="vertical" :active="traceSteps.length - 1">
-        <van-step v-for="step in traceSteps" :key="step.id">
-          <h4 class="step-title">
-            #{{ step.step }} · {{ step.type }}<span v-if="step.name">: {{ step.name }}</span>
-          </h4>
-          <div v-if="step.durationMs !== null" class="meta">耗时：{{ step.durationMs }}ms</div>
-          <div v-if="step.error" class="error">Error: {{ step.error }}</div>
-          <van-collapse v-if="step.args || step.output" class="step-collapse">
-            <van-collapse-item v-if="step.args" :title="`args`" :name="`args-${step.id}`">
-              <pre class="json">{{ JSON.stringify(step.args, null, 2) }}</pre>
-            </van-collapse-item>
-            <van-collapse-item v-if="step.output" :title="`output`" :name="`output-${step.id}`">
-              <pre class="json">{{ step.output }}</pre>
-            </van-collapse-item>
-          </van-collapse>
-        </van-step>
-      </van-steps>
-    </div>
+        <h3 class="section-title">Step 时间轴（{{ traceSteps.length }}）</h3>
+        <div v-if="traceSteps.length === 0" class="empty">该 message 暂无步骤记录</div>
+        <n-steps v-else :current="traceSteps.length - 1" direction="vertical">
+          <n-step
+            v-for="step in traceSteps"
+            :key="step.id"
+            :title="`#${step.step} · ${step.type}${step.name ? ': ' + step.name : ''}`"
+            :description="step.durationMs !== null ? `耗时：${step.durationMs}ms` : undefined"
+            :status="step.error ? 'error' : 'finish'"
+          >
+            <div v-if="step.error" class="error">Error: {{ step.error }}</div>
+            <n-collapse v-if="step.args || step.output" class="step-collapse">
+              <n-collapse-item v-if="step.args" title="args" :name="`args-${step.id}`">
+                <pre class="json">{{ JSON.stringify(step.args, null, 2) }}</pre>
+              </n-collapse-item>
+              <n-collapse-item v-if="step.output" title="output" :name="`output-${step.id}`">
+                <pre class="json">{{ step.output }}</pre>
+              </n-collapse-item>
+            </n-collapse>
+          </n-step>
+        </n-steps>
+      </div>
 
-    <div v-else-if="traceSummary.length > 0" class="summary-list">
-      <h3 class="section-title">会话 #{{ searchConvId }} 最近消息（{{ traceSummary.length }}）</h3>
-      <van-cell-group inset>
-        <van-cell
-          v-for="s in traceSummary"
-          :key="s.messageId"
-          :title="`#${s.messageId} · ${s.stepCount} steps`"
-          :label="s.preview"
-          is-link
-          @click="openFromSummary(s)"
-        />
-      </van-cell-group>
+      <div v-else-if="traceSummary.length > 0" class="summary-list">
+        <h3 class="section-title">会话 #{{ searchConvId }} 最近消息（{{ traceSummary.length }}）</h3>
+        <div class="summary-cards">
+          <div
+            v-for="s in traceSummary"
+            :key="s.messageId"
+            class="summary-item"
+            @click="openFromSummary(s)"
+          >
+            <div class="summary-title">#{{ s.messageId }} · {{ s.stepCount }} steps</div>
+            <div class="summary-preview">{{ s.preview }}</div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.admin-trace-page { padding: 16px; }
-.search-bar {
+.admin-trace-page {
+  min-height: 100vh;
+  background: var(--bg-primary);
+}
+.page-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+}
+.page-header h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+  flex: 1;
+}
+.header-right {
+  margin-left: auto;
+}
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0;
+  color: var(--text-primary);
+  line-height: 1;
+}
+.content {
+  padding: 16px;
+  max-width: 800px;
+}
+.search-row {
   display: flex;
   gap: 8px;
   align-items: center;
   margin-bottom: 12px;
-  background: #fff;
-  border-radius: 8px;
-  padding: 4px 8px;
 }
-.search-bar :deep(.van-field) { flex: 1; }
+.search-row .n-input {
+  flex: 1;
+}
 .section-title {
-  margin: 16px 4px 8px;
+  margin: 20px 0 12px;
   font-size: 15px;
   font-weight: 600;
-  color: #323233;
+  color: var(--text-primary);
+}
+.info-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.info-row {
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  gap: 12px;
+}
+.info-row + .info-row {
+  border-top: 1px solid var(--border-color);
+}
+.info-label {
+  font-size: 13px;
+  color: var(--text-secondary);
+  min-width: 100px;
+  flex-shrink: 0;
+}
+.info-value {
+  font-size: 13px;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+.content-row {
+  flex-direction: column;
+  align-items: flex-start;
 }
 .content-preview {
   font-size: 12px;
-  color: #666;
-  max-width: 220px;
+  color: var(--text-secondary);
   word-break: break-all;
   white-space: pre-wrap;
   text-align: left;
+  margin-top: 4px;
 }
-.step-title {
-  margin: 0 0 4px;
-  font-size: 14px;
-  font-weight: 500;
-}
-.meta { color: #999; font-size: 12px; margin-top: 2px; }
-.error { color: #ee0a24; font-size: 12px; margin-top: 2px; word-break: break-all; }
+.error { color: #d03050; font-size: 12px; margin-top: 2px; word-break: break-all; }
 .step-collapse { margin-top: 6px; }
 .json {
-  background: #f7f8fa;
+  background: var(--bg-primary);
   padding: 8px;
   border-radius: 4px;
   font-size: 12px;
@@ -215,8 +282,37 @@ function formatTime(iso: string): string {
 }
 .empty {
   text-align: center;
-  color: #999;
+  color: var(--text-secondary);
   padding: 24px 0;
   font-size: 13px;
+}
+.summary-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.summary-item {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 12px 14px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.summary-item:hover {
+  background: var(--border-color);
+}
+.summary-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+.summary-preview {
+  font-size: 12px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 </style>
