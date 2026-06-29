@@ -1,13 +1,11 @@
 <script setup lang="ts">
-import { useRouter } from 'vue-router'
-import { ref, watch, nextTick, onBeforeUnmount } from 'vue'
-import { showToast } from 'vant'
+import { ref, watch, nextTick, onBeforeUnmount, onMounted } from 'vue'
+import { useMessage } from 'naive-ui'
 import { fetchStream } from '@/api/request'
 import ChatBubble from '@/components/ChatBubble.vue'
-import ConversationDrawer from '@/components/ConversationDrawer.vue'
-import { getConversation } from '@/api/conversation'
+import { getConversation, listConversations, deleteConversation, type ConversationListItem } from '@/api/conversation'
 
-const router = useRouter()
+const message = useMessage()
 
 interface TokenUsage {
   prompt: number
@@ -19,7 +17,6 @@ interface Message {
   role: 'user' | 'ai'
   content: string
   timestamp: string
-  /** LLM token usage（仅 ai 消息有） */
   usage?: TokenUsage
 }
 
@@ -33,6 +30,9 @@ const connectionWarning = ref<string | null>(null)
 const currentAbortController = ref<AbortController | null>(null)
 let lastEventTime = 0
 let connectionCheckTimer: ReturnType<typeof setInterval> | null = null
+
+const conversationItems = ref<ConversationListItem[]>([])
+const loadingConversations = ref(false)
 
 const onEventReceived = () => {
   lastEventTime = Date.now()
@@ -92,27 +92,25 @@ const scrollToBottom = () => {
 watch(() => messages.value[messages.value.length - 1]?.content, scrollToBottom)
 watch(() => messages.value.length, scrollToBottom)
 
-const onBack = () => router.back()
-
 const handleClick = (question: string) => {
   inputMessage.value = question
   sendMessage()
 }
 
-const addUserMessage = (message: string) => {
+const addUserMessage = (msg: string) => {
   messages.value.push({
     role: 'user',
-    content: message,
+    content: msg,
     timestamp: new Date().toISOString(),
   })
 }
 
 const sendMessage = () => {
-  const message = inputMessage.value.trim()
-  if (!message || isStreaming.value) return
-  addUserMessage(message)
+  const msg = inputMessage.value.trim()
+  if (!msg || isStreaming.value) return
+  addUserMessage(msg)
   inputMessage.value = ''
-  fetchAiResponse(message)
+  fetchAiResponse(msg)
 }
 
 const stopStreaming = () => {
@@ -144,7 +142,6 @@ const fetchAiResponse = (userMsg: string) => {
     { message: userMsg, conversationId: currentConversationId.value },
     (chunk) => {
       onEventReceived()
-      // 重连恢复后清掉重连提示
       connectionWarning.value = null
       messages.value[messages.value.length - 1].content += chunk
     },
@@ -154,7 +151,6 @@ const fetchAiResponse = (userMsg: string) => {
       connectionWarning.value = null
       stopConnectionCheck()
       currentAbortController.value = null
-      // 存 LLM token usage（用于 TokenUsage.vue 关联 feedback）
       if (data?.usage && messages.value.length > 0) {
         messages.value[messages.value.length - 1].usage = data.usage
       }
@@ -162,7 +158,7 @@ const fetchAiResponse = (userMsg: string) => {
         currentConversationId.value = data.conversationId
         localStorage.setItem(CONVERSATION_ID_KEY, String(data.conversationId))
       }
-      refreshSidebar()
+      loadConversations()
     },
     (errMsg) => {
       messages.value[messages.value.length - 1].content = `AI处理发生错误: ${errMsg}`
@@ -171,8 +167,8 @@ const fetchAiResponse = (userMsg: string) => {
       connectionWarning.value = null
       stopConnectionCheck()
       currentAbortController.value = null
-      showToast('AI处理发生错误')
-      refreshSidebar()
+      message.error('AI处理发生错误')
+      loadConversations()
     },
     (type, name) => {
       onEventReceived()
@@ -181,7 +177,6 @@ const fetchAiResponse = (userMsg: string) => {
     () => {
       onEventReceived()
     },
-    // 续传回调：断网后正在重试
     (attempt, maxRetries) => {
       connectionWarning.value = `网络中断，正在重连（第 ${attempt}/${maxRetries} 次）...`
     },
@@ -190,12 +185,15 @@ const fetchAiResponse = (userMsg: string) => {
   })
 }
 
-const showDrawer = ref(false)
-const sidebarRef = ref<InstanceType<typeof ConversationDrawer> | null>(null)
-
-const refreshSidebar = () => {
-  if (sidebarRef.value) {
-    sidebarRef.value.refresh()
+const loadConversations = async () => {
+  loadingConversations.value = true
+  try {
+    const res = await listConversations()
+    conversationItems.value = res.data?.items ?? []
+  } catch {
+    message.error('加载历史对话失败')
+  } finally {
+    loadingConversations.value = false
   }
 }
 
@@ -212,9 +210,9 @@ const onSelectConversation = async (id: number) => {
       content: m.content,
       timestamp: m.createdAt,
     }))
-    refreshSidebar()
-  } catch (e) {
-    showToast('加载对话失败')
+    loadConversations()
+  } catch {
+    message.error('加载对话失败')
   }
 }
 
@@ -222,102 +220,261 @@ const onNewConversation = () => {
   currentConversationId.value = null
   localStorage.removeItem(CONVERSATION_ID_KEY)
   messages.value = []
-  refreshSidebar()
+  loadConversations()
 }
+
+const onDeleteConversation = async (id: number) => {
+  if (!window.confirm('删除后无法恢复')) return
+  try {
+    await deleteConversation(id)
+    conversationItems.value = conversationItems.value.filter(i => i.id !== id)
+    message.success('已删除')
+    if (currentConversationId.value === id) {
+      onNewConversation()
+    }
+  } catch {
+    message.error('删除失败')
+  }
+}
+
+const formatTime = (iso: string) => {
+  const d = new Date(iso)
+  return `${d.getMonth() + 1}/${d.getDate()} ${d.getHours().toString().padStart(2, '0')}:${d.getMinutes().toString().padStart(2, '0')}`
+}
+
+onMounted(loadConversations)
 </script>
 
 <template>
-  <div class="page-container chat-page">
-    <div class="page-header">
-      <van-nav-bar
-        left-arrow
-        left-text="返回"
-        @click-left="onBack"
-        title="AI 旅游助手"
-      >
-        <template #right>
-          <van-icon name="bars" size="20" @click="showDrawer = true" />
-        </template>
-      </van-nav-bar>
-    </div>
-    <div class="chat-container" ref="messageListRef">
-      <div class="chat-empty" v-if="messages.length === 0">
-        <van-empty description="开始和ai助手对话"></van-empty>
-        <div class="quick-questions">
-          <div class="quick-title">常见问题</div>
-          <van-tag
-            v-for="(question, index) in quickQuestions"
-            :key="index"
-            size="large"
-            class="quick-tag"
-            @click="handleClick(question)"
+  <div class="chat-layout">
+    <aside class="chat-sidebar">
+      <div class="sidebar-header">
+        <span class="sidebar-title">对话历史</span>
+      </div>
+      <div class="sidebar-actions">
+        <n-button block size="small" @click="onNewConversation">+ 新建对话</n-button>
+      </div>
+      <div class="sidebar-body">
+        <div v-if="!loadingConversations && conversationItems.length === 0" class="sidebar-empty">
+          暂无历史对话
+        </div>
+        <div v-else class="conversation-list">
+          <div
+            v-for="item in conversationItems"
+            :key="item.id"
+            class="conv-item"
+            :class="{ active: item.id === currentConversationId }"
+            @click="onSelectConversation(item.id)"
           >
-            {{ question }}
-          </van-tag>
+            <div class="conv-item-info">
+              <div class="conv-item-title">{{ item.title || '新对话' }}</div>
+              <div class="conv-item-meta">{{ item._count.messages }} 条 · {{ formatTime(item.updatedAt) }}</div>
+            </div>
+            <span class="conv-item-delete" @click.stop="onDeleteConversation(item.id)">🗑️</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <div class="chat-main">
+      <div class="chat-header">
+        <h2 class="chat-title">AI 旅游助手</h2>
+      </div>
+
+      <div class="message-container" ref="messageListRef">
+        <div v-if="messages.length === 0" class="chat-empty">
+          <div class="empty-state">
+            <div class="empty-icon">💬</div>
+            <p class="empty-text">开始和 AI 助手对话</p>
+          </div>
+          <div class="quick-questions">
+            <div class="quick-title">常见问题</div>
+            <div class="quick-tags">
+              <n-tag
+                v-for="(question, index) in quickQuestions"
+                :key="index"
+                class="quick-tag"
+                @click="handleClick(question)"
+              >
+                {{ question }}
+              </n-tag>
+            </div>
+          </div>
+        </div>
+
+        <div v-else class="message-list">
+          <ChatBubble
+            v-for="(msg, index) in messages"
+            :key="msg.timestamp + '-' + index"
+            :message="msg"
+            :streaming="isStreaming && index === messages.length - 1 && msg.role === 'ai'"
+            :conversation-id="currentConversationId"
+          />
+          <div v-if="isStreaming" class="streaming-indicator">
+            <n-spin size="small" />
+            <span v-if="toolStatus">🔍 {{ toolStatus }}...</span>
+            <span v-else-if="connectionWarning">{{ connectionWarning }}</span>
+            <span v-else>AI 正在思考中</span>
+            <n-button size="tiny" @click="stopStreaming" class="stop-btn">停止</n-button>
+          </div>
         </div>
       </div>
 
-      <div v-else class="message-list">
-        <ChatBubble
-          v-for="(message, index) in messages"
-          :key="message.timestamp + '-' + index"
-          :message="message"
-          :streaming="isStreaming && index === messages.length - 1 && message.role === 'ai'"
-          :conversation-id="currentConversationId"
-        />
-        <div class="streaming-indicator" v-if="isStreaming">
-          <van-loading type="spinner" size="20px" />
-          <span v-if="toolStatus">🔍 {{ toolStatus }}...</span>
-          <span v-else-if="connectionWarning">{{ connectionWarning }}</span>
-          <span v-else>AI正在思考中</span>
-          <van-button size="mini" plain type="danger" @click="stopStreaming" class="stop-btn">停止</van-button>
+      <div class="chat-input-area">
+        <div class="input-wrapper">
+          <n-input
+            v-model:value="inputMessage"
+            type="textarea"
+            :rows="1"
+            :autosize="{ minRows: 1, maxRows: 6 }"
+            placeholder="请输入问题或指令"
+            @keydown.enter.exact.prevent="sendMessage"
+          />
+          <n-button
+            type="primary"
+            size="small"
+            :disabled="!inputMessage.trim() || isStreaming"
+            @click="sendMessage"
+          >
+            发送
+          </n-button>
         </div>
       </div>
     </div>
-    <div class="chat-input-area">
-      <van-field
-        v-model="inputMessage"
-        placeholder="请输入问题或指令"
-        @keyup.enter="sendMessage"
-      >
-        <template #button>
-          <van-button
-            type="primary"
-            size="small"
-            @click="sendMessage"
-            :disabled="!inputMessage.trim()"
-          >
-            发送
-          </van-button>
-        </template>
-      </van-field>
-    </div>
-    <ConversationDrawer
-      ref="sidebarRef"
-      v-model:show="showDrawer"
-      :active-conversation-id="currentConversationId"
-      @select="onSelectConversation"
-      @new="onNewConversation"
-    />
   </div>
 </template>
 
 <style scoped>
-.page-header {
-  height: 46px;
-}
-.chat-page {
+.chat-layout {
   display: flex;
-  flex-direction: column;
-  height: 100vh;
-  padding-bottom: 50px;
+  height: 100%;
+  background: var(--bg-primary);
 }
 
-.chat-container {
+.chat-sidebar {
+  width: 280px;
+  min-width: 280px;
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-secondary);
+}
+
+.sidebar-header {
+  padding: 20px 16px 12px;
+}
+
+.sidebar-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.sidebar-actions {
+  padding: 0 16px 12px;
+}
+
+.sidebar-body {
   flex: 1;
   overflow-y: auto;
-  padding: 16px;
-  padding-bottom: 60px;
+  padding: 4px 8px;
+}
+
+.sidebar-empty {
+  padding: 32px 16px;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.conversation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.conv-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s;
+  gap: 8px;
+}
+
+.conv-item:hover {
+  background: var(--hover-bg);
+}
+
+.conv-item.active {
+  background: var(--hover-bg-active);
+}
+
+.conv-item-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.conv-item-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.conv-item.active .conv-item-title {
+  color: var(--accent);
+}
+
+.conv-item-meta {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+.conv-item-delete {
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  cursor: pointer;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.conv-item:hover .conv-item-delete {
+  opacity: 0.6;
+}
+
+.conv-item-delete:hover {
+  opacity: 1 !important;
+}
+
+.chat-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.chat-header {
+  padding: 20px 24px 12px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.chat-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.message-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px;
   -webkit-user-select: text;
   user-select: text;
 }
@@ -330,6 +487,21 @@ const onNewConversation = () => {
   height: 100%;
 }
 
+.empty-state {
+  text-align: center;
+}
+
+.empty-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.empty-text {
+  font-size: 15px;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
 .quick-questions {
   margin-top: 32px;
   text-align: center;
@@ -337,12 +509,18 @@ const onNewConversation = () => {
 
 .quick-title {
   font-size: 14px;
-  color: #999;
+  color: var(--text-secondary);
   margin-bottom: 16px;
 }
 
+.quick-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
 .quick-tag {
-  margin: 8px;
   cursor: pointer;
 }
 
@@ -356,8 +534,8 @@ const onNewConversation = () => {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 8px 16px;
-  color: #999;
+  padding: 8px 0;
+  color: var(--text-secondary);
   font-size: 14px;
 }
 
@@ -366,20 +544,18 @@ const onNewConversation = () => {
 }
 
 .chat-input-area {
-  position: fixed;
-  bottom: 50px;
-  left: 0;
-  right: 0;
-  background: #fff;
-  padding: 8px 16px;
-  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
-  max-width: 750px;
-  margin: 0 auto;
+  padding: 16px 24px;
+  border-top: 1px solid var(--border-color);
+  background: var(--bg-primary);
 }
 
-.chat-input-area :deep(.van-field) {
-  background: #f7f8fa;
-  border-radius: 20px;
-  padding: 8px 16px;
+.input-wrapper {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.input-wrapper :deep(.n-input) {
+  flex: 1;
 }
 </style>

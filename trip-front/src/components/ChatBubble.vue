@@ -31,8 +31,10 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 import { marked } from 'marked'
-import { showToast } from 'vant'
+import { useMessage } from 'naive-ui'
 import { submitFeedback, type FeedbackRating } from '@/api/feedback'
+
+const message = useMessage()
 
 marked.setOptions({
   breaks: true,
@@ -95,7 +97,7 @@ const formatTime = computed(() => {
 
 const onFeedback = async (rating: FeedbackRating) => {
   if (!props.message.id || !props.conversationId) {
-    showToast('消息未保存，无法反馈')
+    message.warning('消息未保存，无法反馈')
     return
   }
   // 切换：再点同一按钮取消（可选优化，先做单次提交）
@@ -114,15 +116,14 @@ const onFeedback = async (rating: FeedbackRating) => {
       // 负反馈：3 秒后弹"为什么不满意"轻量提示
       setTimeout(() => {
         if (currentRating.value === -1) {
-          showToast({
-            message: '抱歉没能帮到你，可联系 admin@trip.local 详细反馈',
+          message.warning('抱歉没能帮到你，可联系 admin@trip.local 详细反馈', {
             duration: 4000,
           })
         }
       }, 1000)
     }
   } catch (e: any) {
-    showToast(e?.message || '反馈提交失败')
+    message.error(e?.message || '反馈提交失败')
   } finally {
     submitting.value = false
   }
@@ -157,14 +158,15 @@ const onFeedback = async (rating: FeedbackRating) => {
 }
 
 .user-message .bubble-content {
-  background: #1989fa;
+  background: var(--accent);
   color: #fff;
   border-bottom-right-radius: 4px;
 }
 
 .ai-message .bubble-content {
-  background: #f5f5f5;
-  color: #323233;
+  background: #fff;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
   border-bottom-left-radius: 4px;
 }
 
