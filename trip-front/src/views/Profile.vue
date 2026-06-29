@@ -348,8 +348,8 @@ onMounted(() => {
   align-items: center;
   gap: 12px;
   padding: 16px 20px;
-  background: var(--bg-secondary, #fff);
-  border-bottom: 1px solid var(--border-color, #EAE5E0);
+  background: transparent;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .page-header h2 {
@@ -370,7 +370,7 @@ onMounted(() => {
 }
 
 .profile-card {
-  background: var(--bg-secondary, #fff);
+  background: transparent;
   padding: 24px 20px;
   margin-bottom: 12px;
 }
@@ -401,15 +401,15 @@ onMounted(() => {
 }
 
 .info-section {
-  padding: 0 0 16px 0;
+  padding: 0;
 }
 
 .card {
-  background: var(--bg-secondary, #fff);
-  border: 1px solid var(--border-color, #EAE5E0);
+  background: transparent;
+  border: 1px solid var(--border-color);
   border-radius: 12px;
   padding: 20px;
-  margin: 0 16px 12px;
+  margin: 0 0 12px;
 }
 
 .info-row {
@@ -459,7 +459,7 @@ onMounted(() => {
 }
 
 .action-buttons {
-  padding: 16px;
+  padding: 16px 0;
   display: flex;
   flex-direction: column;
   gap: 12px;
