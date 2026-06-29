@@ -25,6 +25,7 @@ declare module 'vue' {
     GroupNode: typeof import('./src/components/architecture/nodes/GroupNode.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     ItineraryPrintView: typeof import('./src/components/ItineraryPrintView.vue')['default']
+    MapView: typeof import('./src/components/MapView.vue')['default']
     NButton: typeof import('naive-ui')['NButton']
     NCard: typeof import('naive-ui')['NCard']
     NCheckbox: typeof import('naive-ui')['NCheckbox']

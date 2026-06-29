@@ -35,6 +35,8 @@ const TripSlotSchema = z.object({
   ticket: z.string().optional().default(''),
   transportation: z.string().optional().default(''),
   description: z.string().optional().default(''),
+  latitude: z.number().optional(),
+  longitude: z.number().optional(),
 })
 
 const TripDaySchema = z.object({

@@ -6,6 +6,8 @@ import { useRouter } from 'vue-router'
 import { useMessage } from 'naive-ui'
 import { post } from '@/api/request'
 import { getTrip } from '@/api/history'
+import MapView from '@/components/MapView.vue'
+import type { MapSpot } from '@/components/MapView.vue'
 
 const router = useRouter()
 const route = useRoute()
@@ -28,6 +30,22 @@ const tripData = ref<TripData | null>(null)
 const errorMsg = ref('')
 const optimizing = ref(false)
 const currentTripMeta = ref<{ id: number; parentTripId: number | null } | null>(null)
+
+function getDaySpots(day: any): MapSpot[] {
+  const spots: MapSpot[] = []
+  for (const period of ['morning', 'afternoon', 'evening'] as const) {
+    const slot = day[period]
+    if (slot && slot.spot && slot.latitude != null && slot.longitude != null) {
+      spots.push({
+        name: slot.spot,
+        description: slot.description,
+        latitude: slot.latitude,
+        longitude: slot.longitude,
+      })
+    }
+  }
+  return spots
+}
 
 const formData = reactive({
   city: '',
@@ -180,6 +198,7 @@ const onOptimize = async () => {
             :title="'第' + day.day + '天'"
             :name="day.day"
           >
+            <MapView v-if="getDaySpots(day).length > 0" :spots="getDaySpots(day)" height="260px" class="day-map" />
             <div class="day-schedule">
               <div class="schedule-section">
                 <n-tag :bordered="false" color="#fa8c16" size="small">上午</n-tag>
@@ -300,6 +319,10 @@ const onOptimize = async () => {
 
 .day-schedule {
   padding: 8px 0;
+}
+
+.day-map {
+  margin-bottom: 12px;
 }
 
 .schedule-section {

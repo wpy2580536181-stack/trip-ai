@@ -6,6 +6,7 @@ import prisma from '../config/database'
 import { Prisma } from '@prisma/client'
 import { tripLog as log } from '../utils/logger'
 import { fetchImages } from './unsplash/imageFetcher'
+import { enrichTripWithGeocoding } from './geocodeService'
 import type { TokenUsage } from '../types/agent'
 
 const ASSISTANT_PERSIST_FLUSH_INTERVAL_MS = 3000
@@ -144,6 +145,11 @@ class TripService {
         return result.parsed
       })
       const parsed = recommendResult as { city: string; days: number; [key: string]: unknown }
+
+      // enrich spots with lat/lng from Amap geocoding API
+      await enrichTripWithGeocoding(parsed as any).catch((err) => {
+        log.warn({ err }, 'geocoding enrichment failed, continuing')
+      })
 
       // fetchImages mutates spot objects in-place via shared reference
       await fetchImages({
