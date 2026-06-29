@@ -2,9 +2,9 @@
   <div v-if="tripData" class="print-view">
     <!-- 1. Header -->
     <header class="print-header">
-      <h1>{{ tripData.city }} · {{ tripData.days }}天行程</h1>
+      <h1>{{ tripData.city || '' }} · {{ tripData.days || 0 }}天行程</h1>
       <div class="meta">
-        <span class="budget">预算: ¥{{ tripData.totalBudget.toLocaleString() }}</span>
+        <span class="budget">预算: ¥{{ tripData.totalBudget?.toLocaleString() || '0' }}</span>
         <span class="export-time">导出时间: {{ formatNow() }}</span>
       </div>
     </header>

@@ -26,6 +26,7 @@ export async function exportAsImage(element: HTMLElement, filename: string): Pro
     pixelRatio: 2,
     cacheBust: true,
     backgroundColor: '#ffffff',
+    useCORS: true,
   })
   triggerDownload(dataUrl, `${filename}.jpg`)
 }
@@ -61,6 +62,7 @@ export async function exportAsPdf(element: HTMLElement, filename: string): Promi
     pixelRatio: PIXEL_RATIO_PDF,
     cacheBust: true,
     backgroundColor: '#ffffff',
+    useCORS: true,
   })
 
   const img = await loadImage(jpegDataUrl)
