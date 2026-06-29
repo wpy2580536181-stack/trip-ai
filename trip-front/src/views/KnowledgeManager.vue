@@ -259,6 +259,8 @@ onMounted(load)
 <style scoped>
 .knowledge-page {
   max-width: 900px;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
 }
 
 .page-title {

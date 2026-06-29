@@ -357,6 +357,8 @@ onMounted(loadConversations)
   display: flex;
   height: 100%;
   background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
 }
 
 .chat-sidebar {
@@ -370,6 +372,7 @@ onMounted(loadConversations)
 
 .sidebar-header {
   padding: 20px 16px 12px;
+  border-radius: 12px 12px 0 0;
 }
 
 .sidebar-title {

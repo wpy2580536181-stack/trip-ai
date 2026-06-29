@@ -21,6 +21,8 @@ const router = useRouter()
 .about-page {
   min-height: 100vh;
   background: var(--bg-primary, #F5F2ED);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
 }
 
 .page-header {

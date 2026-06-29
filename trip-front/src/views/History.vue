@@ -85,6 +85,8 @@ onMounted(load)
 .history-page {
   min-height: 100vh;
   background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
 }
 
 .history-content {

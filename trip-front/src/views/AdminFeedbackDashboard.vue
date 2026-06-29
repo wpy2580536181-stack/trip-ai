@@ -395,6 +395,8 @@ async function convertBatch() {
 .admin-page {
   min-height: 100vh;
   background: #f5f7fa;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
 }
 .content {
   padding: 12px;

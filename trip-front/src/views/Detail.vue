@@ -148,7 +148,7 @@ const onOptimize = async () => {
 </script>
 
 <template>
-  <div class="page-container">
+  <div class="page-container detail-page">
     <div class="detail-content">
       <div class="page-header">
         <n-button text @click="onBack">← 返回</n-button>
@@ -227,6 +227,11 @@ const onOptimize = async () => {
 </template>
 
 <style scoped>
+.detail-page {
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+}
+
 .detail-content {
   max-width: 800px;
   margin: 0 auto;

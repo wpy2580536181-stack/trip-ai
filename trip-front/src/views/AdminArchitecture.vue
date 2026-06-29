@@ -58,6 +58,8 @@ function onBack() {
   background: var(--bg-primary);
   display: flex;
   flex-direction: column;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
 }
 .page-header {
   display: flex;

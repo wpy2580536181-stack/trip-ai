@@ -77,6 +77,8 @@ const onRegister = async () => {
   justify-content: center;
   background: #F5F2ED;
   padding: 24px;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
 }
 
 .auth-card {

@@ -341,6 +341,8 @@ onMounted(() => {
 <style scoped>
 .profile-page {
   width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
 }
 
 .page-header {
