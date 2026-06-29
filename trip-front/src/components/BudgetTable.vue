@@ -1,14 +1,15 @@
 <template>
   <div class="budget-table">
-    <van-cell-group :border="false">
-      <van-cell
+    <div class="budget-rows">
+      <div
+        class="budget-row"
         v-for="(value, key) in budgetItems"
         :key="key"
-        :title="getLabel(key)"
-        :value="`¥${value}`"
-        :border="false"
-      />
-    </van-cell-group>
+      >
+        <span class="budget-label">{{ getLabel(key) }}</span>
+        <span class="budget-value">¥{{ value }}</span>
+      </div>
+    </div>
     <div class="budget-total">
       <span>总计</span>
       <span class="total-amount">¥{{ total }}</span>
@@ -58,20 +59,45 @@ const getLabel = (key) => {
   margin-top: 8px;
 }
 
+.budget-rows {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+
+.budget-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 14px;
+  color: var(--text-primary);
+}
+
+.budget-row:last-child {
+  border-bottom: none;
+}
+
+.budget-label {
+  color: var(--text-secondary);
+}
+
 .budget-total {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 16px;
-  background: #f7f8fa;
+  background: var(--bg-secondary);
   border-radius: 8px;
   margin-top: 8px;
   font-size: 16px;
   font-weight: 600;
+  color: var(--text-primary);
 }
 
 .total-amount {
-  color: #ee0a24;
+  color: var(--accent);
   font-size: 18px;
 }
 </style>

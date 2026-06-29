@@ -5,22 +5,22 @@
     <div class="spot-name">{{ data.spot || data.name || '待定' }}</div>
     <div class="spot-details" v-if="data.duration || data.ticket || data.transportation">
       <div class="detail-row" v-if="data.duration">
-        <van-icon name="clock-o" size="14" />
+        <span class="detail-icon">🕐</span>
         <span>{{ data.duration }}</span>
       </div>
       <div class="detail-row" v-if="data.ticket">
-        <van-icon name="ticket-o" size="14" />
+        <span class="detail-icon">🎫</span>
         <span>{{ data.ticket }}</span>
       </div>
       <div class="detail-row" v-if="data.transportation">
-        <van-icon name="logistics" size="14" />
+        <span class="detail-icon">🚗</span>
         <span>{{ data.transportation }}</span>
       </div>
     </div>
     <div class="spot-desc" v-if="data.description">{{ data.description }}</div>
   </div>
   <div class="spot-item empty" v-else>
-    <van-empty description="暂无安排" :image-size="40" />
+    <div class="empty-placeholder">暂无安排</div>
   </div>
 </template>
 
@@ -45,7 +45,7 @@ const onImageError = (e: Event) => {
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 8px;
-  background: #f0f0f0;
+  background: var(--bg-secondary);
 }
 
 .spot-item {
@@ -59,7 +59,7 @@ const onImageError = (e: Event) => {
 .spot-name {
   font-size: 16px;
   font-weight: 600;
-  color: #323233;
+  color: var(--text-primary);
   margin-bottom: 8px;
 }
 
@@ -75,12 +75,24 @@ const onImageError = (e: Event) => {
   align-items: center;
   gap: 4px;
   font-size: 13px;
-  color: #666;
+  color: var(--text-secondary);
+}
+
+.detail-icon {
+  font-size: 14px;
+  line-height: 1;
 }
 
 .spot-desc {
   font-size: 14px;
-  color: #969799;
+  color: var(--text-secondary);
   line-height: 1.5;
+}
+
+.empty-placeholder {
+  color: var(--text-secondary);
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 0;
 }
 </style>
