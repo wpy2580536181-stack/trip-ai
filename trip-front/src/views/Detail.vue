@@ -49,6 +49,7 @@ const fetchTripData = async () => {
     isloading.value = false
     if (res.success && res.data) {
       tripData.value = res.data
+      activeDays.value = ['0']
     } else {
       errorMsg.value = res.error || '获取行程规划数据失败'
     }
@@ -73,6 +74,7 @@ const loadTripById = async (tripId: number) => {
       formData.fromCity = trip.fromCity ?? null
       currentTripMeta.value = { id: trip.id, parentTripId: trip.parentTripId }
       tripData.value = trip.content as TripData
+      activeDays.value = ['0']
     } else {
       errorMsg.value = '行程不存在'
     }
