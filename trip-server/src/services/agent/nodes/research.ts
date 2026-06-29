@@ -2,11 +2,13 @@ import type { RunnableConfig } from '@langchain/core/runnables'
 import { retrieveKnowledgeTool } from '../tools/retrieveKnowledge'
 import { searchHotelsTool } from '../tools/searchHotels'
 import { calculateDistanceTool } from '../tools/calculateDistance'
+import * as amapMcpClient from '../../mcp/amapMcpClient'
 import type { PlannerState } from '../state'
 import type { PlannerConfig, ResearchBundle } from '../types'
 
 const HOTEL_FALLBACK = '住宿信息暂时不可用，请基于通用旅行知识回答。'
 const DISTANCE_FALLBACK = '距离计算暂时不可用。'
+const WEATHER_FALLBACK = '天气服务暂时不可用，请根据季节常识判断。'
 
 export async function researchNode(
   state: typeof PlannerState.State,
@@ -43,6 +45,11 @@ export async function researchNode(
       name: 'search_hotels',
       fn: () => searchHotelsTool.invoke({ city, budget: hotelBudget }) as Promise<string>,
     },
+    {
+      key: 'weather',
+      name: 'maps_weather',
+      fn: () => amapMcpClient.callTool('maps_weather', { city }) as Promise<string>,
+    },
   ]
   if (departureCity) {
     tasks.push({
@@ -69,7 +76,7 @@ export async function researchNode(
     attractions: '景点信息暂时不可用，请基于通用旅行知识回答。',
     food: '美食信息暂时不可用，请基于通用旅行知识回答。',
     hotels: HOTEL_FALLBACK,
-    weather: '天气服务暂时不可用，请根据季节常识判断。',
+    weather: WEATHER_FALLBACK,
     distance: DISTANCE_FALLBACK,
   }
 

@@ -13,10 +13,8 @@ export async function loadAmapTools(): Promise<DynamicTool[]> {
   try {
     const mcpTools = await amapMcpClient.listTools()
     const descriptions: Record<string, string> = {
-      amap_weather: '（实时天气数据源，推荐用于查询温度、天气、未来预报）',
-      amap_search_poi: '（实时 POI 搜索，推荐用于查找景点、酒店、餐饮等）',
-      amap_route: '（实时路径规划，基于真实路网计算距离和耗时）',
-      amap_geocode: '（地址转坐标，用于获取经纬度）',
+      maps_weather: '（实时天气数据源，推荐用于查询温度、天气、未来预报）',
+      maps_geo: '（地址转坐标，用于获取经纬度）',
     }
     const tools = mcpTools.map(mcpTool => {
       return new DynamicTool({

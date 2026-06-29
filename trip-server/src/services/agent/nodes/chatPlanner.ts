@@ -15,6 +15,7 @@ const TOOL_NAMES: Record<string, string> = {
   food: 'retrieve_knowledge',
   hotels: 'search_hotels',
   distance: 'calculate_distance',
+  weather: 'maps_weather',
 }
 
 /** 把 researchNode 的 bundle 转成标准 tool call 协议消息（AIMessage.tool_calls + ToolMessage） */

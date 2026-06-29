@@ -8,8 +8,9 @@ function parseSpots(itinerary: any): Array<{ city: string; name: string }> {
   const city = itinerary?.city || ''
   const days = itinerary?.days || []
   for (const day of days) {
-    for (const spot of (day.spots || [])) {
-      if (spot.name && city) spots.push({ city, name: spot.name })
+    for (const s of (day.spots || [])) {
+      const name = s.name || s.spot
+      if (name && city) spots.push({ city, name })
     }
   }
   return spots

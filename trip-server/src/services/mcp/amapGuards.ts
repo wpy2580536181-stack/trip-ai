@@ -3,7 +3,7 @@ import { logger } from '../../utils/logger'
 import { AMAP_CONFIG } from '../../config/amap'
 import * as amapMcpClient from './amapMcpClient'
 
-const CACHE_ENABLED_TOOLS = new Set(['amap_weather', 'amap_geocode'])
+const CACHE_ENABLED_TOOLS = new Set(['maps_weather', 'maps_geo'])
 
 const buckets = new Map<string, { tokens: number; lastRefill: number }>()
 
