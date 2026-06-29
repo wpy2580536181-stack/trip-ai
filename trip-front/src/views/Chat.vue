@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import { ref, watch, nextTick, onBeforeUnmount, onMounted } from 'vue'
-import { useMessage } from 'naive-ui'
+import { useMessage, useDialog } from 'naive-ui'
 import { fetchStream } from '@/api/request'
 import ChatBubble from '@/components/ChatBubble.vue'
 import { getConversation, listConversations, deleteConversation, type ConversationListItem } from '@/api/conversation'
 
 const message = useMessage()
+const dialog = useDialog()
 
 interface TokenUsage {
   prompt: number
@@ -223,18 +224,25 @@ const onNewConversation = () => {
   loadConversations()
 }
 
-const onDeleteConversation = async (id: number) => {
-  if (!window.confirm('删除后无法恢复')) return
-  try {
-    await deleteConversation(id)
-    conversationItems.value = conversationItems.value.filter(i => i.id !== id)
-    message.success('已删除')
-    if (currentConversationId.value === id) {
-      onNewConversation()
-    }
-  } catch {
-    message.error('删除失败')
-  }
+const onDeleteConversation = (id: number) => {
+  dialog.warning({
+    title: '确认删除',
+    content: '删除后无法恢复',
+    positiveText: '确定',
+    negativeText: '取消',
+    onPositiveClick: async () => {
+      try {
+        await deleteConversation(id)
+        conversationItems.value = conversationItems.value.filter(i => i.id !== id)
+        if (currentConversationId.value === id) {
+          onNewConversation()
+        }
+        message.success('已删除')
+      } catch {
+        message.error('删除失败')
+      }
+    },
+  })
 }
 
 const formatTime = (iso: string) => {
