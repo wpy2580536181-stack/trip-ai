@@ -84,7 +84,7 @@ onMounted(load)
 <style scoped>
 .history-page {
   min-height: 100vh;
-  background: #f7f8fa;
+  background: var(--bg-secondary);
 }
 
 .history-content {
@@ -106,7 +106,7 @@ onMounted(load)
 .empty-state {
   text-align: center;
   padding: 80px 16px;
-  color: #969799;
+  color: var(--text-secondary);
 }
 
 .trip-list {
@@ -135,13 +135,13 @@ onMounted(load)
 .trip-card-title {
   font-size: 16px;
   font-weight: 600;
-  color: #323233;
+  color: var(--text-primary);
   margin-bottom: 4px;
 }
 
 .trip-card-meta {
   font-size: 13px;
-  color: #969799;
+  color: var(--text-secondary);
 }
 
 .delete-btn {

@@ -244,7 +244,7 @@ const onOptimize = async () => {
   margin: 0;
   font-size: 20px;
   font-weight: 600;
-  color: #323233;
+  color: var(--text-primary);
 }
 
 .loading-container {
@@ -254,13 +254,13 @@ const onOptimize = async () => {
   justify-content: center;
   padding: 80px 16px;
   gap: 16px;
-  color: #969799;
+  color: var(--text-secondary);
 }
 
 .empty-state {
   text-align: center;
   padding: 80px 16px;
-  color: #969799;
+  color: var(--text-secondary);
 }
 
 .empty-state p {
@@ -279,7 +279,7 @@ const onOptimize = async () => {
 
 .trip-header h2 {
   font-size: 20px;
-  color: #323233;
+  color: var(--text-primary);
   margin: 0;
 }
 
@@ -308,9 +308,9 @@ const onOptimize = async () => {
 .section-title {
   font-size: 16px;
   font-weight: 600;
-  color: #323233;
+  color: var(--text-primary);
   padding-bottom: 8px;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .budget-card,
@@ -329,9 +329,9 @@ const onOptimize = async () => {
 .tips-list li,
 .warnings-list li {
   padding: 8px 0;
-  color: #666;
+  color: var(--text-secondary);
   font-size: 14px;
-  border-bottom: 1px solid #f5f5f5;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .tips-list li:last-child,
@@ -352,7 +352,7 @@ const onOptimize = async () => {
 }
 
 .card {
-  background: #fff;
+  background: var(--bg-primary);
   border-radius: 8px;
   padding: 16px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
