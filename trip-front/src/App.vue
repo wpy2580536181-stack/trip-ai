@@ -4,6 +4,7 @@ import { useRoute } from 'vue-router'
 import {
   NConfigProvider,
   NMessageProvider,
+  NDialogProvider,
   darkTheme,
   type GlobalThemeOverrides,
 } from 'naive-ui'
@@ -25,11 +26,13 @@ const isGuestPage = computed(() => {
 
 <template>
   <n-config-provider :theme="theme" :theme-overrides="themeOverrides">
-    <n-message-provider>
-      <AppLayout v-if="!isGuestPage" :is-dark="isDark" @toggle-theme="isDark = !isDark">
-        <router-view />
-      </AppLayout>
-      <router-view v-else />
-    </n-message-provider>
+    <n-dialog-provider>
+      <n-message-provider>
+        <AppLayout v-if="!isGuestPage" :is-dark="isDark" @toggle-theme="isDark = !isDark">
+          <router-view :key="$route.fullPath" />
+        </AppLayout>
+        <router-view v-else />
+      </n-message-provider>
+    </n-dialog-provider>
   </n-config-provider>
 </template>
