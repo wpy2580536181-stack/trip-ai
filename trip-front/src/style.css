@@ -1,3 +1,21 @@
+:root {
+  --bg-primary: #FCFAFA;
+  --bg-secondary: #F5F2ED;
+  --border-color: #EAE5E0;
+  --accent: #665CA2;
+  --text-primary: #2B2D31;
+  --text-secondary: #6C6E74;
+}
+
 body {
   margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+* {
+  box-sizing: border-box;
 }
