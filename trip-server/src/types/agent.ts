@@ -45,6 +45,10 @@ const TripDaySchema = z.object({
   morning: TripSlotSchema,
   afternoon: TripSlotSchema,
   evening: TripSlotSchema,
+  breakfast: TripSlotSchema.optional(),
+  lunch: TripSlotSchema.optional(),
+  dinner: TripSlotSchema.optional(),
+  accommodation: TripSlotSchema.optional(),
 })
 
 export const TripContentSchema = z.object({

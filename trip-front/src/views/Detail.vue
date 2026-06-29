@@ -33,7 +33,7 @@ const currentTripMeta = ref<{ id: number; parentTripId: number | null } | null>(
 
 function getDaySpots(day: any): MapSpot[] {
   const spots: MapSpot[] = []
-  for (const period of ['morning', 'afternoon', 'evening'] as const) {
+  for (const period of ['morning', 'afternoon', 'evening', 'breakfast', 'lunch', 'dinner', 'accommodation'] as const) {
     const slot = day[period]
     if (slot && slot.spot && slot.latitude != null && slot.longitude != null) {
       spots.push({
@@ -199,18 +199,56 @@ const onOptimize = async () => {
             :name="day.day"
           >
             <MapView v-if="getDaySpots(day).length > 0" :spots="getDaySpots(day)" height="260px" class="day-map" />
-            <div class="day-schedule">
-              <div class="schedule-section">
-                <n-tag :bordered="false" color="#fa8c16" size="small">上午</n-tag>
-                <spot-item :data="day.morning" />
+            <div class="day-modules">
+              <!-- 🏛 景点行程 -->
+              <div class="module module-attractions">
+                <div class="module-header">
+                  <span class="module-icon">🏛</span>
+                  <span class="module-title">景点行程</span>
+                </div>
+                <div class="period-row">
+                  <n-tag :bordered="false" color="#fa8c16" size="small" class="period-tag">☀️ 上午</n-tag>
+                  <spot-item :data="day.morning" />
+                </div>
+                <div class="period-row">
+                  <n-tag :bordered="false" color="#1890ff" size="small" class="period-tag">🌤 下午</n-tag>
+                  <spot-item :data="day.afternoon" />
+                </div>
+                <div class="period-row">
+                  <n-tag :bordered="false" color="#52c41a" size="small" class="period-tag">🌙 晚上</n-tag>
+                  <spot-item :data="day.evening" />
+                </div>
               </div>
-              <div class="schedule-section">
-                <n-tag :bordered="false" color="#1890ff" size="small">下午</n-tag>
-                <spot-item :data="day.afternoon" />
+
+              <!-- 🍽 餐饮推荐 -->
+              <div v-if="day.breakfast || day.lunch || day.dinner" class="module module-meals">
+                <div class="module-header">
+                  <span class="module-icon">🍽</span>
+                  <span class="module-title">餐饮推荐</span>
+                </div>
+                <div class="period-row" v-if="day.breakfast">
+                  <n-tag :bordered="false" color="#eb2f96" size="small" class="period-tag">🌅 早餐</n-tag>
+                  <spot-item :data="day.breakfast" />
+                </div>
+                <div class="period-row" v-if="day.lunch">
+                  <n-tag :bordered="false" color="#fa8c16" size="small" class="period-tag">☀️ 午餐</n-tag>
+                  <spot-item :data="day.lunch" />
+                </div>
+                <div class="period-row" v-if="day.dinner">
+                  <n-tag :bordered="false" color="#722ed1" size="small" class="period-tag">🌆 晚餐</n-tag>
+                  <spot-item :data="day.dinner" />
+                </div>
               </div>
-              <div class="schedule-section">
-                <n-tag :bordered="false" color="#52c41a" size="small">晚上</n-tag>
-                <spot-item :data="day.evening" />
+
+              <!-- 🏨 住宿推荐 -->
+              <div v-if="day.accommodation" class="module module-hotel">
+                <div class="module-header">
+                  <span class="module-icon">🏨</span>
+                  <span class="module-title">住宿推荐</span>
+                </div>
+                <div class="period-row">
+                  <spot-item :data="day.accommodation" />
+                </div>
               </div>
             </div>
           </n-collapse-item>
@@ -317,20 +355,60 @@ const onOptimize = async () => {
   margin-bottom: 16px;
 }
 
-.day-schedule {
-  padding: 8px 0;
-}
-
 .day-map {
-  margin-bottom: 12px;
-}
-
-.schedule-section {
   margin-bottom: 16px;
 }
 
-.schedule-section:last-child {
-  margin-bottom: 0;
+.day-modules {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.module {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.module-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.module-icon {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.module-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.module-attractions .module-header {
+  background: rgba(250, 140, 22, 0.06);
+}
+
+.module-meals .module-header {
+  background: rgba(235, 47, 150, 0.06);
+}
+
+.module-hotel .module-header {
+  background: rgba(114, 46, 209, 0.06);
+}
+
+.period-row {
+  padding: 6px 14px;
+}
+
+.period-tag {
+  margin-bottom: 4px;
 }
 
 .section-title {

@@ -1,23 +1,18 @@
 <template>
-  <div class="spot-item" v-if="data">
-    <img v-if="data.imageUrl" :src="data.imageUrl" :alt="data.spot || data.name" class="spot-image"
-      @error="onImageError($event)" />
-    <div class="spot-name">{{ data.spot || data.name || '待定' }}</div>
-    <div class="spot-details" v-if="data.duration || data.ticket || data.transportation">
-      <div class="detail-row" v-if="data.duration">
-        <span class="detail-icon">🕐</span>
-        <span>{{ data.duration }}</span>
-      </div>
-      <div class="detail-row" v-if="data.ticket">
-        <span class="detail-icon">🎫</span>
-        <span>{{ data.ticket }}</span>
-      </div>
-      <div class="detail-row" v-if="data.transportation">
-        <span class="detail-icon">🚗</span>
-        <span>{{ data.transportation }}</span>
+  <div class="spot-item" v-if="data && data.spot">
+    <div class="spot-inner">
+      <img v-if="data.imageUrl" :src="data.imageUrl" :alt="data.spot" class="spot-thumb"
+        @error="onImageError($event)" />
+      <div class="spot-body">
+        <div class="spot-name">{{ data.spot }}</div>
+        <div class="spot-meta" v-if="data.duration || data.ticket || data.transportation">
+          <span v-if="data.duration">🕐 {{ data.duration }}</span>
+          <span v-if="data.ticket">🎫 {{ data.ticket }}</span>
+          <span v-if="data.transportation">🚗 {{ data.transportation }}</span>
+        </div>
+        <div class="spot-desc" v-if="data.description">{{ data.description }}</div>
       </div>
     </div>
-    <div class="spot-desc" v-if="data.description">{{ data.description }}</div>
   </div>
   <div class="spot-item empty" v-else>
     <div class="empty-placeholder">暂无安排</div>
@@ -28,71 +23,68 @@
 defineProps({
   data: {
     type: Object,
-    default: () => ({})
-  }
+    default: () => ({}),
+  },
 })
 
 const onImageError = (e: Event) => {
-  (e.target as HTMLImageElement).style.display = 'none'
+  ;(e.target as HTMLImageElement).style.display = 'none'
 }
 </script>
 
 <style scoped>
-.spot-image {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 9;
+.spot-inner {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.spot-thumb {
+  width: 88px;
+  height: 66px;
   object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 8px;
+  border-radius: 6px;
   background: var(--bg-secondary);
+  flex-shrink: 0;
+  margin-top: 2px;
 }
-
-.spot-item {
-  padding: 8px 0;
+.spot-body {
+  flex: 1;
+  min-width: 0;
 }
-
-.spot-item.empty {
-  padding: 16px 0;
-}
-
 .spot-name {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   color: var(--text-primary);
-  margin-bottom: 8px;
+  line-height: 1.3;
+  margin-bottom: 4px;
 }
-
-.spot-details {
+.spot-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
-  margin-bottom: 8px;
-}
-
-.detail-row {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 13px;
+  gap: 8px;
+  font-size: 12px;
   color: var(--text-secondary);
+  margin-bottom: 4px;
 }
-
-.detail-icon {
-  font-size: 14px;
-  line-height: 1;
-}
-
 .spot-desc {
-  font-size: 14px;
+  font-size: 13px;
   color: var(--text-secondary);
   line-height: 1.5;
 }
-
+.spot-item {
+  padding: 6px 0;
+}
+.spot-item + .spot-item {
+  border-top: 1px solid var(--border-color);
+  margin-top: 0;
+}
+.spot-item.empty {
+  padding: 12px 0;
+}
 .empty-placeholder {
   color: var(--text-secondary);
-  font-size: 14px;
+  font-size: 13px;
   text-align: center;
-  padding: 20px 0;
+  padding: 8px 0;
 }
 </style>
