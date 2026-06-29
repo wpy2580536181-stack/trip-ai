@@ -39,8 +39,9 @@ const onImageError = (e: Event) => {
 
 <style scoped>
 .spot-image {
+  display: block;
   width: 100%;
-  height: 160px;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 8px;

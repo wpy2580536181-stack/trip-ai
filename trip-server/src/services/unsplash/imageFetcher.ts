@@ -21,7 +21,8 @@ function buildCacheKey(city: string, name: string): string {
 }
 
 function buildSearchQuery(city: string, name: string): string {
-  return `${name} ${city}`.trim()
+  // Unsplash 是海外图片库，中文景点名搜不精准。加 "landmark travel" 提高相关性
+  return `${name} ${city} landmark travel`.trim()
 }
 
 export async function fetchImages(itinerary: any): Promise<any> {
@@ -58,7 +59,7 @@ export async function fetchImages(itinerary: any): Promise<any> {
     const batch = entries.slice(i, i + batchSize)
     const results = await Promise.allSettled(
       batch.map(([, spot]) =>
-        unsplashClient.searchPhoto(buildSearchQuery(spot.city, spot.name))
+        unsplashClient.searchPhotoByName(buildSearchQuery(spot.city, spot.name), spot.name)
       )
     )
     for (let j = 0; j < batch.length; j++) {

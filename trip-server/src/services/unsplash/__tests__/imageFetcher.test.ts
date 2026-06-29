@@ -35,8 +35,8 @@ describe('imageFetcher', () => {
     expect(result.days[0].spots[0].imageUrl).toBe('https://cached.url/img.jpg')
   })
 
-  it('should call searchPhoto for uncached spots', async () => {
-    vi.spyOn(unsplashClient, 'searchPhoto').mockImplementation(() =>
+  it('should call searchPhotoByName for uncached spots', async () => {
+    vi.spyOn(unsplashClient, 'searchPhotoByName').mockImplementation(() =>
       Promise.resolve({ url: 'https://new.url/img.jpg', description: 'test', photographer: 'test' })
     )
     const result = await fetchImages(sampleItinerary)
