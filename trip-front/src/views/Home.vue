@@ -23,6 +23,8 @@ interface FormData {
   city: string
   budget: number | null
   days: number | null
+  transportMode: string
+  accommodation: string
 }
 
 const formData = reactive<FormData>({
@@ -30,7 +32,24 @@ const formData = reactive<FormData>({
   city: '',
   budget: null,
   days: null,
+  transportMode: '',
+  accommodation: '',
 })
+
+const transportOptions = [
+  { label: '🚕 打车', value: 'taxi' },
+  { label: '🚌 公交', value: 'bus' },
+  { label: '🚇 地铁', value: 'metro' },
+  { label: '🚗 自驾', value: 'self_drive' },
+  { label: '🔄 混合', value: 'mixed' },
+]
+
+const accommodationOptions = [
+  { label: '💰 经济型', value: 'budget' },
+  { label: '⭐ 舒适型', value: 'comfort' },
+  { label: '👑 豪华型', value: 'luxury' },
+  { label: '🏡 民宿', value: 'homestay' },
+]
 
 const cityOptions = ALL_CITIES.map(c => ({ label: c, value: c }))
 const popularDestinations = POPULAR_CITIES
@@ -69,6 +88,8 @@ const handleSubmit = async () => {
       budget: formData.budget,
       days: formData.days,
       departureCity: formData.departureCity || undefined,
+      transportMode: formData.transportMode || undefined,
+      accommodation: formData.accommodation || undefined,
     })
     if (res.success && res.data) {
       const tripId = (res.data as { id?: number }).id
@@ -82,6 +103,8 @@ const handleSubmit = async () => {
             budget: formData.budget,
             days: formData.days,
             departureCity: formData.departureCity || undefined,
+            transportMode: formData.transportMode || undefined,
+            accommodation: formData.accommodation || undefined,
           },
         })
       }
@@ -106,29 +129,47 @@ const handleSubmit = async () => {
     <div class="card search-card">
       <div class="section-title">行程信息</div>
       <n-form :model="formData">
-        <n-form-item label="出发城市" path="departureCity">
-          <n-select
-            v-model:value="formData.departureCity"
-            :options="cityOptions"
-            placeholder="请选择出发城市（可选）"
-            filterable
-            clearable
-          />
-        </n-form-item>
-        <n-form-item label="目的地" path="city">
-          <n-select
-            v-model:value="formData.city"
-            :options="cityOptions"
-            placeholder="请选择目的地"
-            filterable
-          />
-        </n-form-item>
-        <n-form-item label="预算（元）" path="budget">
-          <n-input-number v-model:value="formData.budget" placeholder="请输入预算" :min="1" style="width: 100%" />
-        </n-form-item>
-        <n-form-item label="天数" path="days">
-          <n-input-number v-model:value="formData.days" placeholder="请输入旅行天数（1-30天）" :min="1" :max="30" style="width: 100%" />
-        </n-form-item>
+        <n-grid :cols="24" :x-gap="12">
+          <n-form-item-gi :span="12" label="出发城市" path="departureCity">
+            <n-select
+              v-model:value="formData.departureCity"
+              :options="cityOptions"
+              placeholder="可选"
+              filterable
+              clearable
+            />
+          </n-form-item-gi>
+          <n-form-item-gi :span="12" label="目的地" path="city">
+            <n-select
+              v-model:value="formData.city"
+              :options="cityOptions"
+              placeholder="请选择"
+              filterable
+            />
+          </n-form-item-gi>
+          <n-form-item-gi :span="12" label="预算（元）" path="budget">
+            <n-input-number v-model:value="formData.budget" placeholder="预算" :min="1" style="width: 100%" />
+          </n-form-item-gi>
+          <n-form-item-gi :span="12" label="天数" path="days">
+            <n-input-number v-model:value="formData.days" placeholder="1-30天" :min="1" :max="30" style="width: 100%" />
+          </n-form-item-gi>
+          <n-form-item-gi :span="12" label="交通方式" path="transportMode">
+            <n-select
+              v-model:value="formData.transportMode"
+              :options="transportOptions"
+              placeholder="不限"
+              clearable
+            />
+          </n-form-item-gi>
+          <n-form-item-gi :span="12" label="住宿偏好" path="accommodation">
+            <n-select
+              v-model:value="formData.accommodation"
+              :options="accommodationOptions"
+              placeholder="不限"
+              clearable
+            />
+          </n-form-item-gi>
+        </n-grid>
       </n-form>
       <n-button type="primary" block strong :loading="isloading" @click="handleSubmit" size="large">
         生成行程
@@ -225,6 +266,10 @@ const handleSubmit = async () => {
 
 .search-card :deep(.n-form-item) {
   margin-bottom: 4px;
+}
+
+.search-card :deep(.n-grid) {
+  margin-bottom: 0;
 }
 
 .action-grid {
