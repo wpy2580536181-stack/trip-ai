@@ -41,7 +41,8 @@ export async function fetchImages(itinerary: any): Promise<any> {
     if (cached) {
       for (const day of (itinerary.days || [])) {
         for (const s of (day.spots || [])) {
-          if (s.name === spot.name && !s.imageUrl) s.imageUrl = cached
+          const match = s.name || s.spot
+          if (match === spot.name && !s.imageUrl) s.imageUrl = cached
         }
       }
     } else {
@@ -67,7 +68,8 @@ export async function fetchImages(itinerary: any): Promise<any> {
         unsplashCache.setCache(key, result.value.url, UNSPLASH_CONFIG.cacheTtlMs)
         for (const day of (itinerary.days || [])) {
           for (const s of (day.spots || [])) {
-            if (s.name === spot.name && !s.imageUrl) s.imageUrl = result.value.url
+            const match = s.name || s.spot
+            if (match === spot.name && !s.imageUrl) s.imageUrl = result.value.url
           }
         }
       }
