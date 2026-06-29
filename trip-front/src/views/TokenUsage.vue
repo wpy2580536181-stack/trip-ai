@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
-import { showToast } from 'vant'
+import { useMessage } from 'naive-ui'
 import {
   getMyTokenStats,
   getGlobalTokenStats,
@@ -9,6 +9,8 @@ import {
 } from '@/api/tokenUsage'
 import type { TokenUsageStats, TokenUsageLogEntry } from '@/api/tokenUsage'
 import { get } from '@/api/request'
+
+const message = useMessage()
 
 interface HighTokenCase {
   feedbackId: number
@@ -38,14 +40,11 @@ const stats = ref<TokenUsageStats | null>(null)
 const logs = ref<TokenUsageLogEntry[]>([])
 const highTokenCases = ref<HighTokenCase[]>([])
 
-// 本次 chat 的 prompt cache 命中率（来自 SSE complete event 的 usage.cached）
-// 这里只展示 "近 N 次累计"（从 logs 聚合）
 const cacheStats = computed(() => {
   let total = 0
   let cached = 0
   let withCached = 0
   for (const l of logs.value) {
-    // 老 entries 没 cached 字段（undefined），新 entries 有
     if ((l as any).cached !== undefined) withCached++
     total += l.tokens
     cached += (l as any).cached ?? 0
@@ -83,7 +82,7 @@ const fetchData = async () => {
     if (sRes?.code === 200) stats.value = sRes.data
     if (lRes?.code === 200) logs.value = lRes.data
   } catch {
-    showToast('加载失败')
+    message.error('加载失败')
   } finally {
     loading.value = false
   }
@@ -101,7 +100,6 @@ const fetchHighTokenCases = async () => {
     const res: any = await get('/feedback/admin/high-token-low-satisfaction', { days: 7, limit: 20 })
     if (res?.code === 200) highTokenCases.value = res.data
   } catch (e) {
-    // silent — admin 视角，非阻塞
     console.warn('fetch high token cases failed', e)
   }
 }
@@ -132,28 +130,33 @@ onMounted(() => {
 <template>
   <div class="page-container token-page">
     <div class="page-header">
-      <van-nav-bar title="Token 用量" left-arrow @click-left="$router.back()">
-        <template #right>
-          <van-icon name="replay" size="20" @click="fetchData" />
-        </template>
-      </van-nav-bar>
+      <button class="back-btn" @click="$router.back()">←</button>
+      <h2>Token 用量</h2>
+      <div class="header-right">
+        <n-button quaternary circle @click="fetchData">
+          <template #icon>
+            <span>🔄</span>
+          </template>
+        </n-button>
+      </div>
     </div>
 
-    <van-tabs v-model:active="activeTab" @change="onTabChange" sticky>
-      <van-tab title="个人" name="user" />
-      <van-tab v-if="isAdmin" title="全局" name="global" />
-    </van-tabs>
+    <n-tabs v-model:value="activeTab" @update:value="onTabChange" animated>
+      <n-tab name="user" tab="个人"></n-tab>
+      <n-tab v-if="isAdmin" name="global" tab="全局"></n-tab>
+    </n-tabs>
 
     <div class="content">
-      <div v-if="stats" class="stats-card">
+      <div v-if="stats" class="card">
         <div class="stat-row">
           <span class="label">窗口用量</span>
           <span class="value">{{ formatNum(stats.window.current) }} / {{ formatNum(stats.window.limit) }}</span>
         </div>
-        <van-progress
+        <n-progress
           :percentage="windowPercent"
-          :show-pivot="true"
-          :color="windowPercent > 80 ? '#ee0a24' : '#1989fa'"
+          :color="windowPercent > 80 ? '#d03050' : '#665CA2'"
+          :height="8"
+          :border-radius="4"
         />
         <div class="stat-row sub">
           <span class="label">窗口重置</span>
@@ -165,8 +168,7 @@ onMounted(() => {
         </div>
       </div>
 
-      <!-- LLM Prompt Cache 命中率（DeepSeek 自动缓存 system prompt + tools） -->
-      <div class="cache-card">
+      <div class="card cache-card">
         <div class="cache-header">
           <span class="cache-title">LLM Prompt 缓存命中率</span>
           <span class="cache-sub">DeepSeek 自动缓存（系统提示 + 工具）</span>
@@ -177,10 +179,11 @@ onMounted(() => {
             命中 {{ formatNum(cacheStats.cached) }} / {{ formatNum(cacheStats.total) }} tokens
           </span>
         </div>
-        <van-progress
-          :percentage="cacheStats.hitRate * 100"
-          :show-pivot="false"
-          :color="cacheStats.hitRate > 0.7 ? '#07c160' : cacheStats.hitRate > 0.4 ? '#ff976a' : '#ee0a24'"
+        <n-progress
+          :percentage="Number((cacheStats.hitRate * 100).toFixed(1))"
+          :color="cacheStats.hitRate > 0.7 ? '#18a058' : cacheStats.hitRate > 0.4 ? '#f0a020' : '#d03050'"
+          :height="8"
+          :border-radius="4"
         />
         <div class="cache-hint">
           命中率越高越省 token 钱。{{ cacheStats.withCached }} 次调用有 cached 数据。
@@ -189,63 +192,57 @@ onMounted(() => {
 
       <div class="logs-section">
         <div class="section-title">最近调用</div>
-        <van-empty v-if="logs.length === 0" description="暂无调用记录" />
-        <van-cell-group v-else inset>
-          <van-cell v-for="(log, i) in logs" :key="i">
-            <template #title>
-              <div class="log-row">
-                <span class="log-time">{{ formatTime(log.timestamp) }}</span>
-                <span class="log-endpoint">{{ endpointLabels[log.endpoint] || log.endpoint }}</span>
-                <span class="log-tokens">{{ formatNum(log.tokens) }}</span>
-              </div>
-            </template>
-          </van-cell>
-        </van-cell-group>
+        <div v-if="logs.length === 0" class="empty-state">
+          <span class="empty-icon">📊</span>
+          <p>暂无调用记录</p>
+        </div>
+        <div v-else class="log-list">
+          <div v-for="(log, i) in logs" :key="i" class="log-item">
+            <div class="log-row">
+              <span class="log-time">{{ formatTime(log.timestamp) }}</span>
+              <span class="log-endpoint">{{ endpointLabels[log.endpoint] || log.endpoint }}</span>
+              <span class="log-tokens">{{ formatNum(log.tokens) }}</span>
+            </div>
+          </div>
+        </div>
         <div class="hint">仅展示最近调用记录，服务重启后清零</div>
       </div>
 
-      <!-- Admin 视角：高 token + 低满意度案例 -->
       <div v-if="isAdmin" class="cases-section">
         <div class="section-title">高 token + 低满意度案例（7 天）</div>
-        <van-empty v-if="highTokenCases.length === 0" description="暂无负反馈 + token 数据" />
-        <van-cell-group v-else inset>
-          <van-cell v-for="(c, i) in highTokenCases" :key="c.feedbackId" :border="i < highTokenCases.length - 1">
-            <template #title>
-              <div class="case-row">
-                <div class="case-header">
-                  <span class="case-user">{{ c.user.nickname || c.user.username }}</span>
-                  <span class="case-time">{{ formatTime(Date.parse(c.createdAt)) }}</span>
-                  <span v-if="c.usage" class="case-tokens">
-                    {{ formatNum(c.usage.total) }}
-                  </span>
-                  <span v-else class="case-tokens no-usage">无 usage</span>
-                </div>
-                <div v-if="c.usage" class="case-meta">
-                  <span class="case-meta-item">prompt {{ formatNum(c.usage.prompt) }}</span>
-                  <span class="case-meta-item">completion {{ formatNum(c.usage.completion) }}</span>
-                  <span
-                    class="case-meta-item"
-                    :class="c.usage.cacheHitRate > 0.7 ? 'cache-good' : c.usage.cacheHitRate > 0.3 ? 'cache-mid' : 'cache-low'"
-                  >
-                    cache {{ (c.usage.cacheHitRate * 100).toFixed(0) }}%
-                  </span>
-                </div>
-                <div class="case-preview">{{ c.messagePreview }}</div>
-                <div v-if="c.comment" class="case-comment">用户原话：{{ c.comment }}</div>
-                <div v-if="c.tags && c.tags.length" class="case-tags">
-                  <van-tag
-                    v-for="t in c.tags"
-                    :key="t"
-                    type="danger"
-                    plain
-                    size="mini"
-                    class="case-tag"
-                  >{{ t }}</van-tag>
-                </div>
-              </div>
-            </template>
-          </van-cell>
-        </van-cell-group>
+        <div v-if="highTokenCases.length === 0" class="empty-state">
+          <span class="empty-icon">🔍</span>
+          <p>暂无负反馈 + token 数据</p>
+        </div>
+        <div v-else class="case-list">
+          <div v-for="(c, i) in highTokenCases" :key="c.feedbackId" class="case-item" :class="{ 'with-border': i < highTokenCases.length - 1 }">
+            <div class="case-header">
+              <span class="case-user">{{ c.user.nickname || c.user.username }}</span>
+              <span class="case-time">{{ formatTime(Date.parse(c.createdAt)) }}</span>
+              <span v-if="c.usage" class="case-tokens">{{ formatNum(c.usage.total) }}</span>
+              <span v-else class="case-tokens no-usage">无 usage</span>
+            </div>
+            <div v-if="c.usage" class="case-meta">
+              <span class="case-meta-item">prompt {{ formatNum(c.usage.prompt) }}</span>
+              <span class="case-meta-item">completion {{ formatNum(c.usage.completion) }}</span>
+              <span
+                class="case-meta-item"
+                :class="c.usage.cacheHitRate > 0.7 ? 'cache-good' : c.usage.cacheHitRate > 0.3 ? 'cache-mid' : 'cache-low'"
+              >cache {{ (c.usage.cacheHitRate * 100).toFixed(0) }}%</span>
+            </div>
+            <div class="case-preview">{{ c.messagePreview }}</div>
+            <div v-if="c.comment" class="case-comment">用户原话：{{ c.comment }}</div>
+            <div v-if="c.tags && c.tags.length" class="case-tags">
+              <n-tag
+                v-for="t in c.tags"
+                :key="t"
+                type="error"
+                size="small"
+                class="case-tag"
+              >{{ t }}</n-tag>
+            </div>
+          </div>
+        </div>
         <div class="hint">按 token 降序排前 20 — 优化 ROI 最高的 case</div>
       </div>
     </div>
@@ -256,120 +253,216 @@ onMounted(() => {
 .token-page {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  background: #f7f8fa;
+  min-height: 100vh;
+  background: var(--bg-primary, #F5F2ED);
 }
+
+.page-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: var(--bg-secondary, #fff);
+  border-bottom: 1px solid var(--border-color, #EAE5E0);
+}
+
+.page-header h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary, #2B2D31);
+  flex: 1;
+}
+
+.header-right {
+  margin-left: auto;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0;
+  color: var(--text-primary, #2B2D31);
+  line-height: 1;
+}
+
 .content {
   flex: 1;
   overflow-y: auto;
   padding: 12px;
+  max-width: 800px;
 }
-.stats-card {
-  background: #fff;
+
+.card {
+  background: var(--bg-secondary, #fff);
+  border: 1px solid var(--border-color, #EAE5E0);
   border-radius: 12px;
   padding: 16px;
   margin-bottom: 16px;
 }
+
 .stat-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 8px 0;
 }
+
 .stat-row.sub {
   padding-top: 12px;
 }
+
 .stat-row .label {
-  color: #666;
+  color: var(--text-secondary, #6C6E74);
   font-size: 14px;
 }
+
 .stat-row .value {
-  color: #333;
+  color: var(--text-primary, #2B2D31);
   font-size: 14px;
   font-weight: 500;
 }
+
 .section-title {
   font-size: 14px;
-  color: #999;
+  color: var(--text-secondary, #6C6E74);
   margin: 8px 4px;
 }
+
 .hint {
   text-align: center;
-  color: #c8c9cc;
+  color: var(--text-secondary, #6C6E74);
   font-size: 12px;
   margin-top: 12px;
+  opacity: 0.6;
 }
+
+.log-list {
+  background: var(--bg-secondary, #fff);
+  border: 1px solid var(--border-color, #EAE5E0);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.log-item {
+  padding: 12px 16px;
+}
+
+.log-item + .log-item {
+  border-top: 1px solid var(--border-color, #EAE5E0);
+}
+
 .log-row {
   display: flex;
   align-items: center;
   gap: 12px;
   width: 100%;
 }
+
 .log-time {
-  color: #999;
+  color: var(--text-secondary, #6C6E74);
   font-size: 13px;
   min-width: 80px;
 }
+
 .log-endpoint {
   flex: 1;
-  color: #333;
+  color: var(--text-primary, #2B2D31);
   font-size: 14px;
 }
+
 .log-tokens {
-  color: #1989fa;
+  color: var(--accent, #665CA2);
   font-size: 14px;
   font-weight: 500;
 }
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-secondary, #6C6E74);
+}
+
+.empty-icon {
+  font-size: 36px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.empty-state p {
+  margin: 0;
+  font-size: 14px;
+}
+
 .cases-section {
   margin-top: 16px;
 }
-.cache-card {
-  background: #fff;
+
+.case-list {
+  background: var(--bg-secondary, #fff);
+  border: 1px solid var(--border-color, #EAE5E0);
   border-radius: 12px;
-  padding: 16px;
-  margin-bottom: 16px;
-  border-left: 3px solid #07c160;
+  overflow: hidden;
 }
+
+.case-item {
+  padding: 12px 16px;
+}
+
+.case-item.with-border {
+  border-bottom: 1px solid var(--border-color, #EAE5E0);
+}
+
+.cache-card {
+  border-left: 3px solid #18a058;
+}
+
 .cache-header {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   margin-bottom: 12px;
 }
+
 .cache-title {
   font-size: 14px;
   font-weight: 600;
-  color: #333;
+  color: var(--text-primary, #2B2D31);
 }
+
 .cache-sub {
   font-size: 11px;
-  color: #999;
+  color: var(--text-secondary, #6C6E74);
 }
+
 .cache-rate {
   display: flex;
   align-items: baseline;
   gap: 12px;
   margin-bottom: 8px;
 }
+
 .cache-rate-num {
   font-size: 24px;
   font-weight: 700;
-  color: #07c160;
+  color: #18a058;
   font-family: 'SF Mono', Consolas, monospace;
 }
+
 .cache-rate-detail {
   font-size: 12px;
-  color: #666;
+  color: var(--text-secondary, #6C6E74);
   font-family: 'SF Mono', Consolas, monospace;
 }
+
 .cache-hint {
   font-size: 11px;
-  color: #999;
+  color: var(--text-secondary, #6C6E74);
   margin-top: 8px;
 }
-.case-row {
-  width: 100%;
-}
+
 .case-header {
   display: flex;
   align-items: center;
@@ -377,28 +470,33 @@ onMounted(() => {
   font-size: 13px;
   margin-bottom: 4px;
 }
+
 .case-user {
-  color: #333;
+  color: var(--text-primary, #2B2D31);
   font-weight: 500;
 }
+
 .case-time {
-  color: #999;
+  color: var(--text-secondary, #6C6E74);
   font-size: 12px;
   flex: 1;
 }
+
 .case-tokens {
-  color: #ee0a24;
+  color: #d03050;
   font-weight: 600;
   font-size: 14px;
   font-family: 'SF Mono', Consolas, monospace;
 }
+
 .case-tokens.no-usage {
-  color: #c8c9cc;
+  color: var(--text-secondary, #6C6E74);
   font-size: 12px;
   font-weight: 400;
 }
+
 .case-preview {
-  color: #666;
+  color: var(--text-secondary, #6C6E74);
   font-size: 12px;
   line-height: 1.4;
   max-height: 60px;
@@ -409,12 +507,14 @@ onMounted(() => {
   -webkit-box-orient: vertical;
   margin: 4px 0;
 }
+
 .case-comment {
   color: #c0392b;
   font-size: 12px;
   font-style: italic;
   margin: 4px 0;
 }
+
 .case-meta {
   display: flex;
   gap: 8px;
@@ -422,30 +522,36 @@ onMounted(() => {
   font-family: 'SF Mono', Consolas, monospace;
   margin: 4px 0;
 }
+
 .case-meta-item {
-  background: #f5f5f5;
+  background: var(--border-color, #EAE5E0);
   padding: 1px 6px;
   border-radius: 3px;
-  color: #666;
+  color: var(--text-secondary, #6C6E74);
 }
+
 .case-meta-item.cache-good {
   background: #d5f4e6;
   color: #186a3b;
 }
+
 .case-meta-item.cache-mid {
   background: #fef5e7;
   color: #9a7d0a;
 }
+
 .case-meta-item.cache-low {
   background: #fadbd8;
   color: #922b21;
 }
+
 .case-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
   margin-top: 4px;
 }
+
 .case-tag {
   font-size: 11px;
 }
