@@ -1,73 +1,12 @@
-<template>
-  <div class="page-container">
-    <div class="page-header">
-      <van-nav-bar title="首页" />
-    </div>
-    <div class="page-content">
-      <van-notice-bar text="基于 AI 的智能景点介绍与行程规划系统。" style="text-align: center" />
-    </div>
-    <div class="card search-card">
-      <div class="section-title">规划您的行程</div>
-      <van-field @click="showDeparturePicker = true" readonly is-link v-model="formData.departureCity" label="出发城市" placeholder="请选择出发城市" />
-      <van-field @click="showCityPicker = true" readonly is-link v-model="formData.city" label="目的地" placeholder="请选择城市" />
-      <van-field type="number" v-model="formData.budget" label="预算（元）" placeholder="请输入您的预算" />
-      <van-field v-model="formData.days" label="天数" placeholder="请输入旅行天数" type="digit" />
-      <!--确认按钮-->
-      <van-button type="primary" round size="large" :loading="isloading" @click="handleSubmit">确认</van-button>
-    </div>
-
-    <div class="card quick-actions">
-      <div class="section-title">快速操作</div>
-      <van-grid :column-num="3" :gutter="12">
-        <van-grid-item icon="chat-o" text="开始对话" @click="$router.push('/chat')" />
-        <van-grid-item icon="user-o" text="个人中心" @click="$router.push('/profile')" />
-        <van-grid-item icon="gold-coin-o" text="Token 用量" @click="$router.push('/token-usage')" />
-        <van-grid-item
-          v-if="isAdmin"
-          icon="chart-trending-o"
-          text="反馈 Dashboard"
-          @click="$router.push('/admin/feedback')"
-        />
-      </van-grid>
-    </div>
-    <div class="card my-trips-entry">
-      <van-cell
-        title="我的行程"
-        icon="records-o"
-        is-link
-        to="/history"
-      />
-    </div>
-    <div class="card my-trips-entry" v-if="isAdmin">
-      <van-cell
-        title="知识库管理"
-        icon="manager-o"
-        is-link
-        to="/knowledge"
-      />
-    </div>
-    <div class="card popular-destinations">
-      <div class="section-title">热门目的地</div>
-      <van-grid :column-num="4" :gutter="16">
-        <van-grid-item v-for="(city, index) in popularDestinations" :key="index" :text="city" @click="selectCity(city)">
-          <div class="city-tag" :class="{ active: formData.city === city }">{{ city }}</div>
-        </van-grid-item>
-      </van-grid>
-    </div>
-    <van-popup v-model:show="showDeparturePicker" position="bottom" :close-on-click-modal="false">
-      <van-picker title="请选择出发城市" :columns="cityColumns" @confirm="handleDepartureConfirm" @cancel="showDeparturePicker = false" />
-    </van-popup>
-    <van-popup v-model:show="showCityPicker" position="bottom" :close-on-click-modal="false">
-      <van-picker title="请选择城市" :columns="cityColumns" @confirm="handleConfirm" @cancel="showCityPicker = false" />
-    </van-popup>
-  </div>
-</template>
-
 <script setup lang="ts">
 import { reactive, ref, computed } from 'vue'
-import { showToast } from 'vant'
-import router from '../router'
+import { useMessage } from 'naive-ui'
+import { useRouter } from 'vue-router'
 import { ALL_CITIES, POPULAR_CITIES } from '../config/cities'
+import { post } from '@/api/request'
+
+const router = useRouter()
+const message = useMessage()
 
 const isAdmin = computed(() => {
   const stored = typeof window !== 'undefined' ? localStorage.getItem('userInfo') : null
@@ -78,7 +17,6 @@ const isAdmin = computed(() => {
     return false
   }
 })
-import { post } from '@/api/request'
 
 interface FormData {
   departureCity: string
@@ -93,61 +31,37 @@ const formData = reactive<FormData>({
   budget: '',
   days: '',
 })
-const showDeparturePicker = ref(false)
-const showCityPicker = ref(false)
-const allCities = ALL_CITIES
+
+const cityOptions = ALL_CITIES.map(c => ({ label: c, value: c }))
 const popularDestinations = POPULAR_CITIES
-// cityColumns 是一个数组，每个元素是一个对象，包含 text 和 value 属性
-const cityColumns = allCities.map(item => ({
-  text: item,
-  value: item,
-}))
-// 选择城市（热门目的地）
+const isloading = ref(false)
+
 const selectCity = (city: string) => {
   formData.city = city
 }
 
-// 处理确认选择
-const handleConfirm = (result: any) => {
-  formData.city = result.selectedValues[0]
-  showCityPicker.value = false
-}
-
-const handleDepartureConfirm = (result: any) => {
-  formData.departureCity = result.selectedValues[0]
-  showDeparturePicker.value = false
-}
-
-//加载状态
-const isloading = ref(false)
-
-// 表单校验
 const validateForm = () => {
   if (!formData.city) {
-    showToast('请选择目的地')
+    message.warning('请选择目的地')
     return false
   }
   if (formData.departureCity && formData.departureCity === formData.city) {
-    showToast('出发城市不能与目的地相同')
+    message.warning('出发城市不能与目的地相同')
     return false
   }
   if (!formData.budget || Number(formData.budget) <= 0) {
-    showToast('请输入有效的预算')
+    message.warning('请输入有效的预算')
     return false
   }
   if (!formData.days || Number(formData.days) < 1 || Number(formData.days) > 30) {
-    showToast('请输入有效的旅行天数（1-30天）')
+    message.warning('请输入有效的旅行天数（1-30天）')
     return false
   }
   return true
 }
 
-// 提交表单
 const handleSubmit = async () => {
-  if (!validateForm()) {
-    return
-  }
-
+  if (!validateForm()) return
   isloading.value = true
   try {
     const res = await post('/trip/recommend', {
@@ -172,53 +86,232 @@ const handleSubmit = async () => {
         })
       }
     } else {
-      showToast(res.error || '生成失败，请重试')
+      message.error(res.error || '生成失败，请重试')
     }
-  } catch (error) {
-    showToast('网络错误，请稍后重试')
+  } catch {
+    message.error('网络错误，请稍后重试')
   } finally {
     isloading.value = false
   }
 }
 </script>
 
+<template>
+  <div class="home-page">
+    <div class="home-header">
+      <h1>规划您的旅程</h1>
+      <p class="home-subtitle">AI 帮你定制完美行程</p>
+    </div>
+
+    <div class="card search-card">
+      <div class="section-title">行程信息</div>
+      <n-form>
+        <n-form-item label="出发城市" path="departureCity">
+          <n-select
+            v-model:value="formData.departureCity"
+            :options="cityOptions"
+            placeholder="请选择出发城市（可选）"
+            filterable
+            clearable
+          />
+        </n-form-item>
+        <n-form-item label="目的地" path="city">
+          <n-select
+            v-model:value="formData.city"
+            :options="cityOptions"
+            placeholder="请选择目的地"
+            filterable
+          />
+        </n-form-item>
+        <n-form-item label="预算（元）" path="budget">
+          <n-input v-model:value="formData.budget" placeholder="请输入预算" />
+        </n-form-item>
+        <n-form-item label="天数" path="days">
+          <n-input v-model:value="formData.days" placeholder="请输入旅行天数（1-30天）" />
+        </n-form-item>
+      </n-form>
+      <n-button type="primary" block strong :loading="isloading" @click="handleSubmit" size="large">
+        生成行程
+      </n-button>
+    </div>
+
+    <div class="card quick-actions-card">
+      <div class="section-title">快速操作</div>
+      <div class="action-grid">
+        <div class="action-card" @click="router.push('/chat')">
+          <div class="action-icon">💬</div>
+          <div class="action-label">开始对话</div>
+        </div>
+        <div class="action-card" @click="router.push('/profile')">
+          <div class="action-icon">👤</div>
+          <div class="action-label">个人中心</div>
+        </div>
+        <div class="action-card" @click="router.push('/token-usage')">
+          <div class="action-icon">📊</div>
+          <div class="action-label">Token 用量</div>
+        </div>
+        <div v-if="isAdmin" class="action-card" @click="router.push('/admin/feedback')">
+          <div class="action-icon">📝</div>
+          <div class="action-label">反馈 Dashboard</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card link-entry-card">
+      <div class="link-entry" @click="router.push('/history')">
+        <span>📋 我的行程</span>
+        <span class="link-arrow">→</span>
+      </div>
+      <div v-if="isAdmin" class="link-entry" @click="router.push('/knowledge')">
+        <span>📚 知识库管理</span>
+        <span class="link-arrow">→</span>
+      </div>
+    </div>
+
+    <div class="card popular-card">
+      <div class="section-title">热门目的地</div>
+      <div class="destination-grid">
+        <div
+          v-for="city in popularDestinations"
+          :key="city"
+          class="city-tag"
+          :class="{ active: formData.city === city }"
+          @click="selectCity(city)"
+        >
+          {{ city }}
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
 <style scoped>
-.search-card {
+.home-page {
+  max-width: 620px;
+}
+
+.home-header {
+  margin-bottom: 28px;
+}
+
+.home-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary, #2B2D31);
+  margin: 0 0 8px 0;
+  line-height: 1.2;
+}
+
+.home-subtitle {
+  font-size: 15px;
+  color: var(--text-secondary, #6C6E74);
+  margin: 0;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid var(--border-color, #EAE5E0);
+  border-radius: 12px;
+  padding: 24px;
   margin-bottom: 16px;
 }
-.city-tag {
-  padding: 8px 20px;
-  border-radius: 16px;
-  font-size: 14px;
-  color: #666;
-  background-color: #f7f8fa;
-  border: none;
-  transition: all 0.3s ease-in-out;
+
+.section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary, #2B2D31);
+  margin-bottom: 16px;
+}
+
+.search-card :deep(.n-form-item) {
+  margin-bottom: 4px;
+}
+
+.action-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.action-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 8px;
+  border: 1px solid var(--border-color, #EAE5E0);
+  border-radius: 10px;
   cursor: pointer;
+  transition: background 0.15s;
+}
+
+.action-card:hover {
+  background: var(--bg-secondary, #F5F2ED);
+}
+
+.action-icon {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.action-label {
+  font-size: 13px;
+  color: var(--text-secondary, #6C6E74);
+  white-space: nowrap;
+}
+
+.link-entry-card {
+  padding: 0;
+}
+
+.link-entry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--text-primary, #2B2D31);
+  transition: background 0.15s;
+}
+
+.link-entry:hover {
+  background: var(--bg-secondary, #F5F2ED);
+}
+
+.link-entry + .link-entry {
+  border-top: 1px solid var(--border-color, #EAE5E0);
+}
+
+.link-arrow {
+  color: var(--text-secondary, #6C6E74);
+  font-size: 16px;
+}
+
+.destination-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 10px;
+}
+
+.city-tag {
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: var(--text-secondary, #6C6E74);
+  background: var(--bg-secondary, #F5F2ED);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
 }
 
 .city-tag:hover {
-  background-color: #e8e8e8;
-  color: #333;
+  background: #e8e4de;
+  color: var(--text-primary, #2B2D31);
 }
 
 .city-tag.active {
-  background-color: #1989fa;
+  background: var(--accent, #665CA2);
   color: #fff;
-}
-
-:deep(.van-grid-item__content) {
-  border: none !important;
-  background: transparent !important;
-}
-
-:deep(.van-notice-bar__content) {
-  text-align: center;
-}
-
-:deep(.van-field) {
-  background-color: #f5f5f5;
-  border-radius: 8px;
-  margin-bottom: 12px;
 }
 </style>
