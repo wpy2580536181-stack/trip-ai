@@ -181,7 +181,13 @@ onMounted(load)
 
 <template>
   <div class="knowledge-page">
-    <h2 class="page-title">知识库管理</h2>
+    <div class="page-header">
+      <button class="back-btn" @click="$router.back()">←</button>
+      <h2>知识库管理</h2>
+      <div class="header-right">
+        <n-button type="primary" size="small" @click="openNew">新增</n-button>
+      </div>
+    </div>
 
     <div class="filters">
       <div class="filter-row">
@@ -194,7 +200,6 @@ onMounted(load)
 
     <div class="toolbar">
       <span class="total-badge">共 {{ total }} 条</span>
-      <n-button type="primary" size="small" @click="openNew">新增</n-button>
     </div>
 
     <div v-if="loading" class="loading-container">
@@ -263,11 +268,36 @@ onMounted(load)
   border-radius: 12px;
 }
 
-.page-title {
-  font-size: 22px;
-  font-weight: 700;
-  margin: 0 0 20px;
+.page-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+  border-radius: 12px 12px 0 0;
+}
+
+.page-header h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
   color: var(--text-primary);
+  flex: 1;
+}
+
+.header-right {
+  margin-left: auto;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0;
+  color: var(--text-primary);
+  line-height: 1;
 }
 
 .filters {

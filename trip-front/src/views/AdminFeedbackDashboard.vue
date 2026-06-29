@@ -394,12 +394,40 @@ async function convertBatch() {
 <style scoped>
 .admin-page {
   min-height: 100vh;
-  background: #f5f7fa;
+  background: var(--bg-primary);
   border: 1px solid var(--border-color);
   border-radius: 12px;
 }
 .content {
   padding: 12px;
+}
+.page-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+  border-radius: 12px 12px 0 0;
+}
+.page-header h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+  flex: 1;
+}
+.header-right {
+  margin-left: auto;
+}
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0;
+  color: var(--text-primary);
+  line-height: 1;
 }
 .stats-grid {
   display: grid;
