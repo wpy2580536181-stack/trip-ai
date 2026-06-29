@@ -187,7 +187,7 @@ const handleSubmit = async () => {
 
 <style scoped>
 .home-page {
-  max-width: 620px;
+  width: 100%;
 }
 
 .home-header {

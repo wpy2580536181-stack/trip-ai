@@ -251,10 +251,7 @@ onMounted(() => {
 
 <style scoped>
 .token-page {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background: var(--bg-primary, #F5F2ED);
+  width: 100%;
 }
 
 .page-header {
@@ -292,7 +289,6 @@ onMounted(() => {
   flex: 1;
   overflow-y: auto;
   padding: 12px;
-  max-width: 800px;
 }
 
 .card {

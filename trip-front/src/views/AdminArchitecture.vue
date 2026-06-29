@@ -40,14 +40,14 @@ function onBack() {
       <h2>🏗 系统架构图</h2>
     </div>
     <n-tabs v-model:value="activeTab" animated @update:value="onTabClick">
-      <n-tab v-for="t in tabs" :key="t.name" :name="t.name" :tab="t.title">
+      <n-tab-pane v-for="t in tabs" :key="t.name" :name="t.name" :tab="t.title">
         <div class="diagram-container">
           <SystemArchitecture v-if="t.name === 0" />
           <AgentSequence v-else-if="t.name === 1" />
           <ContextDataFlow v-else-if="t.name === 2" />
           <EvaluationSystem v-else-if="t.name === 3" />
         </div>
-      </n-tab>
+      </n-tab-pane>
     </n-tabs>
   </div>
 </template>

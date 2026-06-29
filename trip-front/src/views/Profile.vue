@@ -340,8 +340,7 @@ onMounted(() => {
 
 <style scoped>
 .profile-page {
-  min-height: 100vh;
-  background: var(--bg-primary, #F5F2ED);
+  width: 100%;
 }
 
 .page-header {
@@ -403,7 +402,6 @@ onMounted(() => {
 
 .info-section {
   padding: 0 0 16px 0;
-  max-width: 700px;
 }
 
 .card {
@@ -465,7 +463,6 @@ onMounted(() => {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  max-width: 700px;
 }
 
 .interests-group {
