@@ -66,18 +66,18 @@ const onLogin = async () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--bg-primary);
+  background: #F5F2ED;
   padding: 24px;
 }
 
 .auth-card {
-  background: transparent;
+  background: #fff;
   border-radius: 16px;
   padding: 40px;
   width: 100%;
   max-width: 420px;
-  box-shadow: var(--card-shadow);
-  border: 1px solid var(--border-color);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  border: 1px solid #EAE5E0;
 }
 
 .auth-header {

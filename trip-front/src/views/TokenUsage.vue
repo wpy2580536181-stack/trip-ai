@@ -259,8 +259,8 @@ onMounted(() => {
   align-items: center;
   gap: 12px;
   padding: 16px 20px;
-  background: transparent;
-  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-secondary, #fff);
+  border-bottom: 1px solid var(--border-color, #EAE5E0);
 }
 
 .page-header h2 {
@@ -292,8 +292,8 @@ onMounted(() => {
 }
 
 .card {
-  background: transparent;
-  border: 1px solid var(--border-color);
+  background: var(--bg-secondary, #fff);
+  border: 1px solid var(--border-color, #EAE5E0);
   border-radius: 12px;
   padding: 16px;
   margin-bottom: 16px;
@@ -336,8 +336,8 @@ onMounted(() => {
 }
 
 .log-list {
-  background: transparent;
-  border: 1px solid var(--border-color);
+  background: var(--bg-secondary, #fff);
+  border: 1px solid var(--border-color, #EAE5E0);
   border-radius: 12px;
   overflow: hidden;
 }
@@ -397,8 +397,8 @@ onMounted(() => {
 }
 
 .case-list {
-  background: transparent;
-  border: 1px solid var(--border-color);
+  background: var(--bg-secondary, #fff);
+  border: 1px solid var(--border-color, #EAE5E0);
   border-radius: 12px;
   overflow: hidden;
 }

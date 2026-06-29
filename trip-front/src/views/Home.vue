@@ -209,8 +209,8 @@ const handleSubmit = async () => {
 }
 
 .card {
-  background: transparent;
-  border: 1px solid var(--border-color);
+  background: #fff;
+  border: 1px solid var(--border-color, #EAE5E0);
   border-radius: 12px;
   padding: 24px;
   margin-bottom: 16px;
@@ -246,7 +246,7 @@ const handleSubmit = async () => {
 }
 
 .action-card:hover {
-  background: var(--hover-bg);
+  background: var(--bg-secondary, #F5F2ED);
 }
 
 .action-icon {
@@ -276,7 +276,7 @@ const handleSubmit = async () => {
 }
 
 .link-entry:hover {
-  background: var(--hover-bg);
+  background: var(--bg-secondary, #F5F2ED);
 }
 
 .link-entry + .link-entry {
@@ -299,14 +299,14 @@ const handleSubmit = async () => {
   border-radius: 8px;
   font-size: 14px;
   color: var(--text-secondary, #6C6E74);
-  background: transparent;
+  background: var(--bg-secondary, #F5F2ED);
   text-align: center;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .city-tag:hover {
-  background: var(--hover-bg);
+  background: #e8e4de;
   color: var(--text-primary, #2B2D31);
 }
 

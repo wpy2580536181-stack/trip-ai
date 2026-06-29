@@ -352,11 +352,10 @@ const onOptimize = async () => {
 }
 
 .card {
-  background: transparent;
-  border: 1px solid var(--border-color);
+  background: var(--bg-primary);
   border-radius: 8px;
   padding: 16px;
-  box-shadow: var(--card-shadow);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 @media print {

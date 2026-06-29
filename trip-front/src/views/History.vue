@@ -84,7 +84,7 @@ onMounted(load)
 <style scoped>
 .history-page {
   min-height: 100vh;
-  background: var(--bg-primary);
+  background: var(--bg-secondary);
 }
 
 .history-content {
