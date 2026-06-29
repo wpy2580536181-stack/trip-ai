@@ -359,6 +359,7 @@ onMounted(loadConversations)
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
   border-radius: 12px;
+  overflow: hidden;
 }
 
 .chat-sidebar {
