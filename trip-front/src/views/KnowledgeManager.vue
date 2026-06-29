@@ -1,7 +1,10 @@
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue'
-import { showToast, showConfirmDialog, showDialog } from 'vant'
+import { ref, onMounted, computed, h } from 'vue'
+import { useMessage, useDialog, NButton, type DataTableColumn } from 'naive-ui'
 import { listSpots, createSpot, updateSpot, deleteSpot, type SpotItem, type SpotInput } from '@/api/knowledge'
+
+const message = useMessage()
+const dialog = useDialog()
 
 const items = ref<SpotItem[]>([])
 const loading = ref(false)
@@ -51,7 +54,7 @@ const load = async () => {
     items.value = res.data?.items ?? []
     total.value = res.data?.total ?? 0
   } catch {
-    showToast('加载失败')
+    message.error('加载失败')
   } finally {
     loading.value = false
   }
@@ -95,36 +98,41 @@ const removeTag = (idx: number) => {
 
 const submitForm = async () => {
   if (!form.value.name || !form.value.city || !form.value.description) {
-    showToast('请填写名称、城市和描述')
+    message.warning('请填写名称、城市和描述')
     return
   }
   try {
     if (editingId.value) {
       await updateSpot(editingId.value, form.value)
-      showToast('已更新')
+      message.success('已更新')
     } else {
       await createSpot(form.value)
-      showToast('已创建')
+      message.success('已创建')
     }
     showForm.value = false
     load()
   } catch {
-    showToast('操作失败')
+    message.error('操作失败')
   }
 }
 
-const confirmDelete = async (id: number) => {
-  try {
-    await showConfirmDialog({ title: '确认删除', message: '删除后无法恢复' })
-  } catch { return }
-  try {
-    await deleteSpot(id)
-    items.value = items.value.filter(i => i.id !== id)
-    total.value--
-    showToast('已删除')
-  } catch {
-    showToast('删除失败')
-  }
+const confirmDelete = (id: number) => {
+  dialog.warning({
+    title: '确认删除',
+    content: '删除后无法恢复',
+    positiveText: '确定',
+    negativeText: '取消',
+    onPositiveClick: async () => {
+      try {
+        await deleteSpot(id)
+        items.value = items.value.filter(i => i.id !== id)
+        total.value--
+        message.success('已删除')
+      } catch {
+        message.error('删除失败')
+      }
+    },
+  })
 }
 
 const categoryOptions = [
@@ -141,164 +149,188 @@ const CATEGORY_LABELS: Record<string, string> = {
   transport: '交通',
 }
 
+const columns: DataTableColumn[] = [
+  { title: '名称', key: 'name', ellipsis: { tooltip: true } },
+  { title: '城市', key: 'city', width: 100 },
+  {
+    title: '分类',
+    key: 'category',
+    width: 80,
+    render: (row: SpotItem) => CATEGORY_LABELS[row.category] || row.category,
+  },
+  {
+    title: '评分',
+    key: 'rating',
+    width: 80,
+    render: (row: SpotItem) => row.rating ? `${row.rating}分` : '-',
+  },
+  {
+    title: '操作',
+    key: 'actions',
+    width: 100,
+    render: (row: SpotItem) =>
+      h('div', { style: 'display: flex; gap: 8px;' }, [
+        h(NButton, { size: 'tiny', quaternary: true, onClick: () => openEdit(row) }, { default: () => '编辑' }),
+        h(NButton, { size: 'tiny', quaternary: true, type: 'error', onClick: () => confirmDelete(row.id) }, { default: () => '删除' }),
+      ]),
+  },
+]
+
 onMounted(load)
 </script>
 
 <template>
   <div class="knowledge-page">
-    <van-nav-bar title="知识库管理" left-arrow @click-left="$router.back()" />
+    <h2 class="page-title">知识库管理</h2>
 
     <div class="filters">
-      <van-field v-model="filterCity" placeholder="筛选城市" clearable @change="page=1;load()" />
-      <van-radio-group v-model="filterCategory" direction="horizontal" @change="page=1;load()" class="category-filter">
-        <van-radio v-for="opt in categoryOptions" :key="opt.value" :name="opt.value">{{ opt.text }}</van-radio>
-      </van-radio-group>
+      <div class="filter-row">
+        <n-input v-model:value="filterCity" placeholder="筛选城市" clearable @update:value="page=1;load()" style="width: 200px" />
+        <n-radio-group v-model:value="filterCategory" @update:value="page=1;load()">
+          <n-radio v-for="opt in categoryOptions" :key="opt.value" :value="opt.value" :label="opt.text" />
+        </n-radio-group>
+      </div>
     </div>
 
     <div class="toolbar">
       <span class="total-badge">共 {{ total }} 条</span>
-      <van-button type="primary" size="small" @click="openNew">新增</van-button>
+      <n-button type="primary" size="small" @click="openNew">新增</n-button>
     </div>
 
-    <div class="list">
-      <van-loading v-if="loading" size="24px" class="loading" />
-      <van-empty v-else-if="items.length === 0" description="暂无数据，请先导入" />
-      <van-cell-group v-else inset>
-        <van-cell v-for="item in items" :key="item.id" @click="openEdit(item)">
-          <template #title>
-            <span class="spot-name">{{ item.name }}</span>
-            <van-tag class="category-tag">{{ CATEGORY_LABELS[item.category] || item.category }}</van-tag>
-          </template>
-          <template #label>
-            <span class="spot-city">{{ item.city }}</span>
-            <span v-if="item.rating"> · {{ item.rating }}分</span>
-          </template>
-          <template #right-icon>
-            <van-icon name="delete-o" @click.stop="confirmDelete(item.id)" />
-          </template>
-        </van-cell>
-      </van-cell-group>
+    <div v-if="loading" class="loading-container">
+      <n-spin size="medium" />
     </div>
+    <div v-else-if="items.length === 0" class="empty-state">
+      <p>暂无数据，请先导入</p>
+    </div>
+    <n-data-table v-else :columns="columns" :data="items" :bordered="false" :single-line="false" size="small" />
 
     <div class="pagination" v-if="total > pageSize">
-      <van-button size="small" :disabled="page <= 1" @click="page--; load()">上一页</van-button>
-      <span class="page-info">当前第 <b>{{ page }}</b> 页</span>
-      <span class="page-info">/ {{ totalPages }} 页 · 共 {{ total }} 条</span>
-      <van-field v-model="jumpPage" type="digit" class="jump-input" placeholder="" @keyup.enter="jumpToPage" />
-      <van-button size="small" :disabled="!jumpPage" @click="jumpToPage">跳转</van-button>
-      <van-button size="small" :disabled="page >= totalPages" @click="page++; load()">下一页</van-button>
+      <n-button size="small" :disabled="page <= 1" @click="page--; load()">上一页</n-button>
+      <span class="page-info">第 <b>{{ page }}</b> 页 / {{ totalPages }} 页 · 共 {{ total }} 条</span>
+      <n-input v-model:value="jumpPage" placeholder="" style="width: 60px" @keyup.enter="jumpToPage" />
+      <n-button size="small" :disabled="!jumpPage" @click="jumpToPage">跳转</n-button>
+      <n-button size="small" :disabled="page >= totalPages" @click="page++; load()">下一页</n-button>
     </div>
 
-    <van-dialog v-model:show="showForm" :title="editingId ? '编辑景点' : '新增景点'" show-confirm-button show-cancel-button @confirm="submitForm" @cancel="showForm=false" confirm-button-text="保存">
+    <n-modal v-model:show="showForm" :title="editingId ? '编辑景点' : '新增景点'" preset="dialog" positive-text="保存" negative-text="取消" @positive-click="submitForm" @negative-click="showForm=false">
       <div class="form-body">
-        <van-field v-model="form.name" label="名称" placeholder="必填" />
-        <van-field v-model="form.city" label="城市" placeholder="必填" />
-        <van-field label="分类">
-          <template #input>
-            <van-radio-group v-model="form.category" direction="horizontal">
-              <van-radio name="attraction">景点</van-radio>
-              <van-radio name="food">美食</van-radio>
-              <van-radio name="hotel">酒店</van-radio>
-            </van-radio-group>
-          </template>
-        </van-field>
-        <van-field v-model="form.description" label="描述" type="textarea" rows="3" placeholder="必填" />
-        <van-field v-model="form.rating" label="评分" type="digit" placeholder="0~5" />
-        <van-field v-model="form.avgCost" label="均价" type="digit" placeholder="元" suffix="元" />
-        <van-field v-model="form.duration" label="建议时长" placeholder="如：2-3小时" />
-        <van-field v-model="form.openTime" label="开放时间" placeholder="如：08:00-18:00" />
-        <van-field label="标签">
-          <template #input>
-            <div class="tag-editor">
-              <van-tag v-for="(t, i) in form.tags" :key="i" closable @close="removeTag(i)" class="tag-item">{{ t }}</van-tag>
-              <van-field v-model="tagInput" placeholder="输入标签" @keyup.enter="addTag" class="tag-input" />
-            </div>
-          </template>
-        </van-field>
+        <n-form-item label="名称" path="name">
+          <n-input v-model:value="form.name" placeholder="必填" />
+        </n-form-item>
+        <n-form-item label="城市" path="city">
+          <n-input v-model:value="form.city" placeholder="必填" />
+        </n-form-item>
+        <n-form-item label="分类" path="category">
+          <n-radio-group v-model:value="form.category">
+            <n-radio value="attraction" label="景点" />
+            <n-radio value="food" label="美食" />
+            <n-radio value="hotel" label="酒店" />
+          </n-radio-group>
+        </n-form-item>
+        <n-form-item label="描述" path="description">
+          <n-input v-model:value="form.description" type="textarea" rows="3" placeholder="必填" />
+        </n-form-item>
+        <n-form-item label="评分" path="rating">
+          <n-input-number v-model:value="form.rating" placeholder="0~5" :min="0" :max="5" :step="0.1" style="width: 120px" />
+        </n-form-item>
+        <n-form-item label="均价" path="avgCost">
+          <n-input-number v-model:value="form.avgCost" placeholder="元" :min="0" style="width: 120px">
+            <template #suffix>元</template>
+          </n-input-number>
+        </n-form-item>
+        <n-form-item label="建议时长" path="duration">
+          <n-input v-model:value="form.duration" placeholder="如：2-3小时" />
+        </n-form-item>
+        <n-form-item label="开放时间" path="openTime">
+          <n-input v-model:value="form.openTime" placeholder="如：08:00-18:00" />
+        </n-form-item>
+        <n-form-item label="标签" path="tags">
+          <div class="tag-editor">
+            <n-tag v-for="(t, i) in form.tags" :key="i" closable @close="removeTag(i)" class="tag-item">{{ t }}</n-tag>
+            <n-input v-model:value="tagInput" placeholder="输入标签" @keyup.enter="addTag" style="flex:1;min-width:100px" />
+          </div>
+        </n-form-item>
       </div>
-    </van-dialog>
+    </n-modal>
   </div>
 </template>
 
 <style scoped>
 .knowledge-page {
-  min-height: 100vh;
-  background: #f7f8fa;
+  max-width: 900px;
 }
+
+.page-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 20px;
+  color: var(--text-primary);
+}
+
 .filters {
-  padding: 12px 16px 0;
-  background: #fff;
+  margin-bottom: 16px;
 }
-.category-filter {
-  padding: 8px 0;
+
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
   flex-wrap: wrap;
-  gap: 8px;
 }
+
 .toolbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 16px;
+  margin-bottom: 16px;
 }
+
 .total-badge {
   font-size: 13px;
-  color: #999;
+  color: var(--text-secondary);
 }
-.loading {
+
+.loading-container {
+  display: flex;
+  justify-content: center;
   padding: 40px;
 }
-.list {
-  padding: 0 0 80px;
+
+.empty-state {
+  text-align: center;
+  padding: 40px;
+  color: var(--text-secondary);
+  font-size: 14px;
 }
-.spot-name {
-  font-weight: 600;
-  margin-right: 8px;
-}
-.category-tag {
-  vertical-align: middle;
-}
-.spot-city {
-  font-size: 12px;
-  color: #999;
-}
+
 .pagination {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
-  padding: 16px;
+  gap: 12px;
+  padding: 20px 0;
 }
+
 .page-info {
   font-size: 13px;
-  color: #666;
+  color: var(--text-secondary);
 }
-.jump-input {
-  width: 50px;
-  padding: 0 4px;
-  text-align: center;
-}
-.jump-input :deep(.van-field__body) {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 2px 4px;
-  text-align: center;
-}
+
 .form-body {
-  padding: 16px;
+  padding: 8px 0;
   max-height: 60vh;
   overflow-y: auto;
 }
+
 .tag-editor {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
   align-items: center;
 }
+
 .tag-item {
   margin: 2px;
-}
-.tag-input {
-  flex: 1;
-  min-width: 100px;
 }
 </style>
