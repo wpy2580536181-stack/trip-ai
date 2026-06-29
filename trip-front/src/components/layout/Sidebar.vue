@@ -159,12 +159,12 @@ const logout = () => {
 }
 
 .nav-item:hover {
-  background: rgba(0, 0, 0, 0.04);
+  background: var(--hover-bg);
   color: var(--text-primary, #2B2D31);
 }
 
 .nav-item.active {
-  background: rgba(102, 92, 162, 0.12);
+  background: var(--hover-bg-active);
   color: var(--accent, #665CA2);
   font-weight: 500;
 }

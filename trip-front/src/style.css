@@ -5,6 +5,19 @@
   --accent: #665CA2;
   --text-primary: #2B2D31;
   --text-secondary: #6C6E74;
+  --hover-bg: rgba(0, 0, 0, 0.04);
+  --hover-bg-active: rgba(102, 92, 162, 0.12);
+}
+
+.dark {
+  --bg-primary: #1E1E20;
+  --bg-secondary: #262628;
+  --border-color: #2E2E32;
+  --accent: #8B7FD4;
+  --text-primary: #E4E4E4;
+  --text-secondary: #9B9BA0;
+  --hover-bg: rgba(255, 255, 255, 0.06);
+  --hover-bg-active: rgba(139, 127, 212, 0.15);
 }
 
 body {
