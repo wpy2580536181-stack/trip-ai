@@ -372,7 +372,6 @@ onMounted(loadConversations)
 
 .sidebar-header {
   padding: 20px 16px 12px;
-  border-radius: 12px 0 0 0;
 }
 
 .sidebar-title {
@@ -389,7 +388,6 @@ onMounted(loadConversations)
   flex: 1;
   overflow-y: auto;
   padding: 4px 8px;
-  border-radius: 0 0 0 12px;
 }
 
 .sidebar-empty {
