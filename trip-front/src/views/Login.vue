@@ -1,132 +1,121 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { showToast } from 'vant'
+import { useMessage } from 'naive-ui'
 import { login } from '@/api/user'
 
 const router = useRouter()
+const message = useMessage()
 const username = ref('')
 const password = ref('')
 const loading = ref(false)
 
 const onLogin = async () => {
-  if (!username.value.trim()) {
-    showToast('请输入用户名')
-    return
-  }
-  if (!password.value.trim()) {
-    showToast('请输入密码')
-    return
-  }
+  if (!username.value.trim()) { message.warning('请输入用户名'); return }
+  if (!password.value.trim()) { message.warning('请输入密码'); return }
   loading.value = true
   try {
-    const res: any = await login({
-      username: username.value.trim(),
-      password: password.value,
-    })
+    const res: any = await login({ username: username.value.trim(), password: password.value })
     if (res.code === 200) {
       localStorage.setItem('token', res.data.token)
       localStorage.setItem('userInfo', JSON.stringify(res.data))
-      showToast('登录成功')
+      message.success('登录成功')
       const redirect = router.currentRoute.value.query.redirect as string
       router.replace(redirect || '/')
     } else {
-      showToast(res.error || '登录失败')
+      message.error(res.error || '登录失败')
     }
   } catch {
-    showToast('登录失败，请重试')
+    message.error('登录失败，请重试')
   } finally {
     loading.value = false
   }
 }
-
-const goToRegister = () => {
-  router.push('/register')
-}
-
-const goToResetPassword = () => {
-  router.push('/reset-password')
-}
 </script>
 
 <template>
-  <div class="login-page">
-    <div class="login-header">
-      <h2>欢迎回来</h2>
-      <p>登录您的旅游助手账号</p>
-    </div>
-    <div class="login-form">
-      <van-cell-group inset>
-        <van-field
-          v-model="username"
-          label="用户名/邮箱"
-          placeholder="请输入用户名或邮箱"
-          :rules="[{ required: true, message: '请输入用户名或邮箱' }]"
-        />
-        <van-field
-          v-model="password"
-          type="password"
-          label="密码"
-          placeholder="请输入密码"
-          :rules="[{ required: true, message: '请输入密码' }]"
-        />
-      </van-cell-group>
-      <div class="login-actions">
-        <van-button type="primary" block round :loading="loading" @click="onLogin">
-          登录
-        </van-button>
+  <div class="auth-page">
+    <div class="auth-card">
+      <div class="auth-header">
+        <div class="auth-logo">✦</div>
+        <h2>欢迎回来</h2>
+        <p class="auth-subtitle">登录你的 TripAI 账号</p>
       </div>
-      <div class="login-links">
-        <span class="link" @click="goToRegister">没有账号？去注册</span>
-        <span class="link" @click="goToResetPassword">忘记密码？</span>
+      <n-form @submit.prevent="onLogin">
+        <n-form-item label="用户名 / 邮箱" path="username">
+          <n-input v-model:value="username" placeholder="请输入用户名或邮箱" :disabled="loading" />
+        </n-form-item>
+        <n-form-item label="密码" path="password">
+          <n-input v-model:value="password" type="password" placeholder="请输入密码" :disabled="loading" show-password-on="click" />
+        </n-form-item>
+        <n-button type="primary" block strong :loading="loading" attr-type="submit" size="large">
+          登录
+        </n-button>
+      </n-form>
+      <div class="auth-links">
+        <router-link to="/register">没有账号？去注册</router-link>
+        <router-link to="/reset-password">忘记密码？</router-link>
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.login-page {
+.auth-page {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  background: #F5F2ED;
   padding: 24px;
-  background: #f7f8fa;
 }
 
-.login-header {
+.auth-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  border: 1px solid #EAE5E0;
+}
+
+.auth-header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 
-.login-header h2 {
-  font-size: 28px;
-  color: #323233;
-  margin-bottom: 8px;
+.auth-logo {
+  font-size: 40px;
+  margin-bottom: 12px;
 }
 
-.login-header p {
+.auth-header h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: #2B2D31;
+}
+
+.auth-subtitle {
   font-size: 14px;
-  color: #969799;
+  color: #6C6E74;
+  margin: 0;
 }
 
-.login-actions {
-  padding: 24px 16px;
-}
-
-.login-links {
+.auth-links {
   display: flex;
   justify-content: space-between;
-  padding: 0 16px;
+  margin-top: 20px;
+  font-size: 13px;
 }
 
-.link {
-  color: #1989fa;
-  font-size: 14px;
-  cursor: pointer;
+.auth-links a {
+  color: #665CA2;
+  text-decoration: none;
 }
 
-.link:hover {
-  opacity: 0.8;
+.auth-links a:hover {
+  text-decoration: underline;
 }
 </style>
