@@ -61,6 +61,47 @@
           <p v-if="day.evening.description" class="slot-desc">{{ day.evening.description }}</p>
         </div>
       </div>
+
+      <div v-if="day.breakfast || day.lunch || day.dinner" class="meals-section">
+        <div class="section-subtitle">🍽 餐饮推荐</div>
+        <div v-if="day.breakfast" class="slot meal">
+          <div class="slot-label">早餐</div>
+          <div class="slot-content">
+            <h3 class="spot-name">{{ day.breakfast.spot }}</h3>
+            <p v-if="day.breakfast.description" class="slot-desc">{{ day.breakfast.description }}</p>
+          </div>
+        </div>
+        <div v-if="day.lunch" class="slot meal">
+          <div class="slot-label">午餐</div>
+          <div class="slot-content">
+            <h3 class="spot-name">{{ day.lunch.spot }}</h3>
+            <p v-if="day.lunch.description" class="slot-desc">{{ day.lunch.description }}</p>
+          </div>
+        </div>
+        <div v-if="day.dinner" class="slot meal">
+          <div class="slot-label">晚餐</div>
+          <div class="slot-content">
+            <h3 class="spot-name">{{ day.dinner.spot }}</h3>
+            <p v-if="day.dinner.description" class="slot-desc">{{ day.dinner.description }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div v-if="day.accommodation" class="hotel-section">
+        <div class="section-subtitle">🏨 住宿推荐</div>
+        <div class="slot hotel">
+          <div class="slot-label">住宿</div>
+          <div class="slot-content">
+            <h3 class="spot-name">{{ day.accommodation.spot }}</h3>
+            <div class="slot-meta">
+              <span v-if="day.accommodation.duration">💰 {{ day.accommodation.duration }}</span>
+              <span v-if="day.accommodation.ticket">🎫 {{ day.accommodation.ticket }}</span>
+              <span v-if="day.accommodation.transportation">🚗 {{ day.accommodation.transportation }}</span>
+            </div>
+            <p v-if="day.accommodation.description" class="slot-desc">{{ day.accommodation.description }}</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- 3. Budget breakdown -->
@@ -111,6 +152,8 @@ interface TripSlot {
   transportation?: string
   description?: string
   imageUrl?: string
+  latitude?: number
+  longitude?: number
 }
 
 interface TripDay {
@@ -119,6 +162,10 @@ interface TripDay {
   morning: TripSlot
   afternoon: TripSlot
   evening: TripSlot
+  breakfast?: TripSlot
+  lunch?: TripSlot
+  dinner?: TripSlot
+  accommodation?: TripSlot
 }
 
 interface BudgetBreakdown {
@@ -219,6 +266,8 @@ const budgetSum = computed(() => {
 .slot.morning { background: #fff7e6; border-left: 3px solid #fa8c16; }
 .slot.afternoon { background: #e6f7ff; border-left: 3px solid #1890ff; }
 .slot.evening { background: #f6ffed; border-left: 3px solid #52c41a; }
+.slot.meal { background: #fff0f6; border-left: 3px solid #eb2f96; }
+.slot.hotel { background: #f9f0ff; border-left: 3px solid #722ed1; }
 
 .slot-label {
   flex-shrink: 0;
@@ -230,6 +279,8 @@ const budgetSum = computed(() => {
 .slot.morning .slot-label { color: #fa8c16; }
 .slot.afternoon .slot-label { color: #1890ff; }
 .slot.evening .slot-label { color: #52c41a; }
+.slot.meal .slot-label { color: #eb2f96; }
+.slot.hotel .slot-label { color: #722ed1; }
 
 .slot-content {
   flex: 1;
@@ -272,6 +323,14 @@ const budgetSum = computed(() => {
   padding-bottom: 6px;
   border-bottom: 1px solid #ddd;
   color: #000;
+}
+.section-subtitle {
+  font-size: 14px;
+  margin: 16px 0 8px;
+  padding: 4px 8px;
+  background: #f5f5f5;
+  border-radius: 4px;
+  color: #333;
 }
 .budget-table {
   width: 100%;

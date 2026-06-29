@@ -21,6 +21,9 @@ interface TripSlot {
   ticket?: string
   transportation?: string
   description?: string
+  imageUrl?: string
+  latitude?: number
+  longitude?: number
 }
 
 interface TripDay {
@@ -29,6 +32,10 @@ interface TripDay {
   morning: TripSlot
   afternoon: TripSlot
   evening: TripSlot
+  breakfast?: TripSlot
+  lunch?: TripSlot
+  dinner?: TripSlot
+  accommodation?: TripSlot
 }
 
 interface BudgetBreakdown {
