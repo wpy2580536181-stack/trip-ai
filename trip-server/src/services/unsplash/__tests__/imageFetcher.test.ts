@@ -7,6 +7,7 @@ vi.hoisted(() => {
 import { fetchImages } from '../imageFetcher'
 import * as unsplashClient from '../unsplashClient'
 import * as unsplashCache from '../unsplashCache'
+import * as amapMcpClient from '../../mcp/amapMcpClient'
 
 const sampleItinerary = {
   city: '北京',
@@ -30,17 +31,19 @@ describe('imageFetcher', () => {
   })
 
   it('should add imageUrl to spots from cache', async () => {
-    unsplashCache.setCache('北京:故宫博物院', 'https://cached.url/img.jpg', 99999999)
+    unsplashCache.setCache('amap:北京:故宫博物院', 'https://cached.url/img.jpg', 99999999)
     const result = await fetchImages(sampleItinerary)
     expect(result.days[0].spots[0].imageUrl).toBe('https://cached.url/img.jpg')
   })
 
-  it('should call searchPhotoByName for uncached spots', async () => {
+  it('should fallback to Unsplash when Amap fails', async () => {
+    // Amap 取图失败（无 MCP 进程），降级到 Unsplash
+    vi.spyOn(amapMcpClient, 'callTool').mockRejectedValue(new Error('MCP not available'))
     vi.spyOn(unsplashClient, 'searchPhotoByName').mockImplementation(() =>
-      Promise.resolve({ url: 'https://new.url/img.jpg', description: 'test', photographer: 'test' })
+      Promise.resolve({ url: 'https://unsplash.url/img.jpg', description: 'test', photographer: 'test' })
     )
     const result = await fetchImages(sampleItinerary)
-    expect(result.days[0].spots[1].imageUrl).toBe('https://new.url/img.jpg')
+    expect(result.days[0].spots[1].imageUrl).toBe('https://unsplash.url/img.jpg')
   })
 
   it('should handle empty itinerary', async () => {

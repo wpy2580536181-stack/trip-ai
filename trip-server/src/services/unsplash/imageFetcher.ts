@@ -2,6 +2,7 @@ import { logger } from '../../utils/logger'
 import { UNSPLASH_CONFIG } from '../../config/unsplash'
 import * as unsplashClient from './unsplashClient'
 import * as unsplashCache from './unsplashCache'
+import * as amapMcpClient from '../mcp/amapMcpClient'
 
 function parseSpots(itinerary: any): Array<{ city: string; name: string }> {
   const spots: Array<{ city: string; name: string }> = []
@@ -17,11 +18,27 @@ function parseSpots(itinerary: any): Array<{ city: string; name: string }> {
 }
 
 function buildCacheKey(city: string, name: string): string {
-  return `${city}:${name}`
+  return `amap:${city}:${name}`
+}
+
+/** 用 Amap maps_text_search 查 POI 照片 URL */
+async function fetchAmapPhoto(city: string, name: string): Promise<string | null> {
+  try {
+    const raw = await amapMcpClient.callTool('maps_text_search', { keywords: name, city })
+    // 解析 JSON 响应，从 poi[0].photos.url 取图
+    const data = JSON.parse(raw)
+    const poi = data?.pois?.[0]
+    if (poi?.photos?.url) {
+      return poi.photos.url
+    }
+    return null
+  } catch (err) {
+    logger.warn({ err, city, name }, '[imageFetcher] Amap photo search failed')
+    return null
+  }
 }
 
 function buildSearchQuery(city: string, name: string): string {
-  // Unsplash 是海外图片库，中文景点名搜不精准。加 "landmark travel" 提高相关性
   return `${name} ${city} landmark travel`.trim()
 }
 
@@ -40,12 +57,7 @@ export async function fetchImages(itinerary: any): Promise<any> {
     const key = buildCacheKey(spot.city, spot.name)
     const cached = unsplashCache.getCache(key)
     if (cached) {
-      for (const day of (itinerary.days || [])) {
-        for (const s of (day.spots || [])) {
-          const match = s.name || s.spot
-          if (match === spot.name && !s.imageUrl) s.imageUrl = cached
-        }
-      }
+      writeBack(itinerary, spot.name, cached)
     } else {
       pending.set(key, spot)
     }
@@ -53,29 +65,32 @@ export async function fetchImages(itinerary: any): Promise<any> {
 
   if (pending.size === 0) return itinerary
 
+  // 优先 Amap，无结果 fallback Unsplash
   const entries = [...pending.entries()]
-  const batchSize = UNSPLASH_CONFIG.concurrency
-  for (let i = 0; i < entries.length; i += batchSize) {
-    const batch = entries.slice(i, i + batchSize)
-    const results = await Promise.allSettled(
-      batch.map(([, spot]) =>
-        unsplashClient.searchPhotoByName(buildSearchQuery(spot.city, spot.name), spot.name)
+  for (let i = 0; i < entries.length; i++) {
+    const [key, spot] = entries[i]
+    let photoUrl = await fetchAmapPhoto(spot.city, spot.name)
+    if (!photoUrl) {
+      // Fallback Unsplash
+      const unsplashResult = await unsplashClient.searchPhotoByName(
+        buildSearchQuery(spot.city, spot.name), spot.name
       )
-    )
-    for (let j = 0; j < batch.length; j++) {
-      const [key, spot] = batch[j]
-      const result = results[j]
-      if (result.status === 'fulfilled' && result.value) {
-        unsplashCache.setCache(key, result.value.url, UNSPLASH_CONFIG.cacheTtlMs)
-        for (const day of (itinerary.days || [])) {
-          for (const s of (day.spots || [])) {
-            const match = s.name || s.spot
-            if (match === spot.name && !s.imageUrl) s.imageUrl = result.value.url
-          }
-        }
-      }
+      photoUrl = unsplashResult?.url ?? null
+    }
+    if (photoUrl) {
+      unsplashCache.setCache(key, photoUrl, UNSPLASH_CONFIG.cacheTtlMs)
+      writeBack(itinerary, spot.name, photoUrl)
     }
   }
 
   return itinerary
+}
+
+function writeBack(itinerary: any, spotName: string, url: string): void {
+  for (const day of (itinerary.days || [])) {
+    for (const s of (day.spots || [])) {
+      const match = s.name || s.spot
+      if (match === spotName && !s.imageUrl) s.imageUrl = url
+    }
+  }
 }
