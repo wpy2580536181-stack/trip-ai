@@ -1,0 +1,55 @@
+<h2>整体布局：左侧边栏 + 主内容区</h2>
+<p class="subtitle">模仿 Claude / Notion 的桌面端布局结构</p>
+
+<div class="mockup" style="margin-top: 20px;">
+  <div class="mockup-header">页面框架预览</div>
+  <div class="mockup-body" style="padding: 0;">
+    <!-- Full mockup -->
+    <div style="display: flex; min-height: 400px; background: #f5f5f5;">
+      <!-- Sidebar -->
+      <div style="width: 220px; background: var(--bg-secondary); border-right: 1px solid var(--border); padding: 16px; display: flex; flex-direction: column;">
+        <div style="font-weight: 600; font-size: 18px; color: var(--text-primary); margin-bottom: 24px; display: flex; align-items: center; gap: 8px;">
+          <span style="width: 28px; height: 28px; background: var(--accent); border-radius: 8px; display: inline-block;"></span>
+          TripAI
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="padding: 10px 12px; border-radius: 8px; background: var(--accent-light, rgba(102,92,162,0.12)); color: var(--accent); font-weight: 500;">🏠 首页</div>
+          <div style="padding: 10px 12px; border-radius: 8px; color: var(--text-secondary);">💬 对话</div>
+          <div style="padding: 10px 12px; border-radius: 8px; color: var(--text-secondary);">📋 行程</div>
+          <div style="padding: 10px 12px; border-radius: 8px; color: var(--text-secondary);">📊 Tokens</div>
+          <div style="padding: 10px 12px; border-radius: 8px; color: var(--text-secondary);">👤 个人</div>
+        </div>
+        <div style="margin-top: auto; padding-top: 16px; border-top: 1px solid var(--border);">
+          <div style="padding: 10px 12px; border-radius: 8px; color: var(--text-secondary);">⚙️ 设置</div>
+        </div>
+      </div>
+      <!-- Main content -->
+      <div style="flex: 1; padding: 32px 40px; background: var(--bg-primary);">
+        <div style="max-width: 900px;">
+          <div style="height: 32px; width: 60%; background: var(--skeleton); border-radius: 8px; margin-bottom: 12px;"></div>
+          <div style="height: 16px; width: 40%; background: var(--skeleton); border-radius: 6px; margin-bottom: 32px;"></div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 24px;">
+            <div style="height: 100px; background: var(--skeleton); border-radius: 12px;"></div>
+            <div style="height: 100px; background: var(--skeleton); border-radius: 12px;"></div>
+            <div style="height: 100px; background: var(--skeleton); border-radius: 12px;"></div>
+          </div>
+          <div style="height: 200px; background: var(--skeleton); border-radius: 12px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>布局要点</h3>
+  <ul>
+    <li><strong>左侧边栏 (220px)</strong> — 品牌 Logo + 导航菜单 + 底部分隔线（用户/设置）</li>
+    <li><strong>主内容区 (flex:1)</strong> — 最大宽度 900px 居中，左右留白呼吸感</li>
+    <li><strong>无顶部导航栏</strong> — 保持干净，仅在内容区内嵌页面标题</li>
+    <li><strong>响应式</strong> — 窄屏时侧边栏可折叠为图标栏</li>
+  </ul>
+</div>
+
+<div style="margin-top: 12px; padding: 16px 20px; background: var(--bg-secondary); border-radius: 12px; border-left: 4px solid var(--accent);">
+  <p style="margin: 0; color: var(--text-secondary);"><strong>💡 灵感来源：</strong>Claude 左侧对话列表 + 右侧聊天区；Notion 左侧导航 + 右侧编辑区。侧边栏可折叠，最大化内容空间。</p>
+</div>

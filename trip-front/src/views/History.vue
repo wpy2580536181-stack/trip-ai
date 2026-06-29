@@ -1,24 +1,34 @@
 <template>
   <div class="page-container history-page">
-    <div class="page-header">
-      <van-nav-bar left-arrow left-text="返回" @click-left="onBack" title="我的行程" />
-    </div>
-    <div class="page-body">
-      <van-empty v-if="!loading && items.length === 0" description="还没有保存的行程，去首页生成一个吧" />
-      <van-cell-group v-else inset>
-        <van-cell
+    <div class="history-content">
+      <div class="page-header">
+        <h2>我的行程</h2>
+      </div>
+
+      <div v-if="!loading && items.length === 0" class="empty-state">
+        <p>还没有保存的行程，去首页生成一个吧</p>
+      </div>
+
+      <div v-else class="trip-list">
+        <n-card
           v-for="t in items"
           :key="t.id"
-          :title="(t.fromCity ? t.fromCity + ' → ' : '') + t.city + ' · ' + t.days + '天'"
-          :label="formatTime(t.createdAt) + ' · 预算 ' + t.budget + '元'"
-          is-link
-          :to="{ name: 'Detail', query: { id: t.id } }"
+          class="trip-card"
+          size="small"
         >
-          <template #right-icon>
-            <van-icon name="delete-o" @click.stop="onDelete(t.id)" />
-          </template>
-        </van-cell>
-      </van-cell-group>
+          <div class="trip-card-inner">
+            <div class="trip-card-body" @click="router.push({ name: 'Detail', query: { id: t.id } })">
+              <div class="trip-card-title">
+                {{ (t.fromCity ? t.fromCity + ' → ' : '') + t.city + ' · ' + t.days + '天' }}
+              </div>
+              <div class="trip-card-meta">
+                {{ formatTime(t.createdAt) + ' · 预算 ' + t.budget + '元' }}
+              </div>
+            </div>
+            <span class="delete-btn" @click.stop="onDelete(t.id)">🗑️</span>
+          </div>
+        </n-card>
+      </div>
     </div>
   </div>
 </template>
@@ -26,26 +36,31 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { showConfirmDialog, showToast } from 'vant'
+import { useMessage, useDialog } from 'naive-ui'
 import { listTrips, deleteTrip, type TripListItem } from '@/api/history'
 
 const router = useRouter()
+const message = useMessage()
+const dialog = useDialog()
 const items = ref<TripListItem[]>([])
 const loading = ref(false)
 
-const onBack = () => router.back()
-
-const onDelete = async (id: number) => {
-  try {
-    await showConfirmDialog({ title: '确认删除', message: '删除后无法恢复' })
-  } catch { return }
-  try {
-    await deleteTrip(id)
-    items.value = items.value.filter(i => i.id !== id)
-    showToast('已删除')
-  } catch {
-    showToast('删除失败')
-  }
+const onDelete = (id: number) => {
+  dialog.warning({
+    title: '确认删除',
+    content: '删除后无法恢复',
+    positiveText: '确定',
+    negativeText: '取消',
+    onPositiveClick: async () => {
+      try {
+        await deleteTrip(id)
+        items.value = items.value.filter(i => i.id !== id)
+        message.success('已删除')
+      } catch {
+        message.error('删除失败')
+      }
+    },
+  })
 }
 
 const load = async () => {
@@ -67,6 +82,78 @@ onMounted(load)
 </script>
 
 <style scoped>
-.history-page { min-height: 100vh; background: #f7f8fa; }
-.page-body { padding: 12px 0 60px; }
+.history-page {
+  min-height: 100vh;
+  background: #f7f8fa;
+}
+
+.history-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.page-header {
+  padding: 20px 0 16px;
+}
+
+.page-header h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 80px 16px;
+  color: #969799;
+}
+
+.trip-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 60px;
+}
+
+.trip-card {
+  cursor: default;
+}
+
+.trip-card-inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.trip-card-body {
+  flex: 1;
+  cursor: pointer;
+  min-width: 0;
+}
+
+.trip-card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #323233;
+  margin-bottom: 4px;
+}
+
+.trip-card-meta {
+  font-size: 13px;
+  color: #969799;
+}
+
+.delete-btn {
+  font-size: 18px;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: opacity 0.15s;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.delete-btn:hover {
+  opacity: 1;
+}
 </style>

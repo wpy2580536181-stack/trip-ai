@@ -1,0 +1,115 @@
+<h2>布局调整：内容区全宽 + 内部弹性</h2>
+<p class="subtitle">去掉 max-width 约束，改为内容区内嵌排版节奏</p>
+
+<div class="split" style="margin-top: 20px;">
+  <!-- Before -->
+  <div class="mockup">
+    <div class="mockup-header">❌ 之前：内容区定宽 900px</div>
+    <div class="mockup-body" style="padding: 16px;">
+      <div style="display: flex; min-height: 350px; background: var(--bg-primary); border: 1px solid var(--border); border-radius: 8px;">
+        <div style="width: 80px; background: var(--bg-secondary); border-right: 1px solid var(--border); padding: 8px; display: flex; flex-direction: column; align-items: center; gap: 12px;">
+          <div style="width: 20px; height: 20px; border-radius: 6px; background: var(--accent);"></div>
+          <div style="width: 20px; height: 20px; border-radius: 6px; background: var(--border);"></div>
+          <div style="width: 20px; height: 20px; border-radius: 6px; background: var(--border);"></div>
+        </div>
+        <div style="flex: 1; display: flex; justify-content: center; padding: 20px;">
+          <div style="width: 250px; height: 100%; border: 2px dashed #E55; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #E55; padding: 0 12px; text-align: center;">
+            max-width: 900px<br>右侧大片空白
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 8px;">
+        <span style="font-size: 12px; color: #E55;">← 边栏 →&nbsp;&nbsp;&nbsp;&nbsp;←&nbsp;&nbsp;空白死区&nbsp;&nbsp;→</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- After -->
+  <div class="mockup">
+    <div class="mockup-header">✅ 改进后：内容区全宽 + 内部排版</div>
+    <div class="mockup-body" style="padding: 16px;">
+      <div style="display: flex; min-height: 350px; background: var(--bg-primary); border: 1px solid var(--border); border-radius: 8px;">
+        <div style="width: 80px; background: var(--bg-secondary); border-right: 1px solid var(--border); padding: 8px; display: flex; flex-direction: column; align-items: center; gap: 12px;">
+          <div style="width: 20px; height: 20px; border-radius: 6px; background: var(--accent);"></div>
+          <div style="width: 20px; height: 20px; border-radius: 6px; background: var(--border);"></div>
+          <div style="width: 20px; height: 20px; border-radius: 6px; background: var(--border);"></div>
+        </div>
+        <div style="flex: 1; padding: 24px 40px; display: flex; flex-direction: column; gap: 16px;">
+          <!-- Content that stretches -->
+          <div style="display: flex; justify-content: space-between;">
+            <div><div style="height: 24px; width: 200px; background: var(--skeleton); border-radius: 6px;"></div><div style="height: 12px; width: 140px; background: var(--skeleton); border-radius: 4px; margin-top: 6px;"></div></div>
+          </div>
+          <!-- Form that has reasonable width -->
+          <div style="border: 1px solid var(--border); border-radius: 12px; padding: 20px;">
+            <div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 12px;">
+              <div style="height: 36px; border-radius: 8px; border: 1px solid var(--border);"></div>
+              <div style="height: 36px; border-radius: 8px; border: 1px solid var(--border);"></div>
+              <div style="height: 36px; border-radius: 8px; border: 1px solid var(--border);"></div>
+            </div>
+            <div style="height: 40px; border-radius: 10px; background: var(--accent); margin-top: 12px;"></div>
+          </div>
+          <!-- Cards that fill width -->
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px;">
+            <div style="height: 80px; border-radius: 12px; border: 1px solid var(--border);"></div>
+            <div style="height: 80px; border-radius: 12px; border: 1px solid var(--border);"></div>
+            <div style="height: 80px; border-radius: 12px; border: 1px solid var(--border);"></div>
+            <div style="height: 80px; border-radius: 12px; border: 1px solid var(--border);"></div>
+            <div style="height: 80px; border-radius: 12px; border: 1px solid var(--border);"></div>
+            <div style="height: 80px; border-radius: 12px; border: 1px solid var(--border);"></div>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 8px;">
+        <span style="font-size: 12px; color: #5B8C5A;">← 边栏 →&nbsp;&nbsp;&nbsp;&nbsp;← 内容自适应填充，列数随宽度增加 →</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 20px;">
+  <h3>调整方案</h3>
+  <ul>
+    <li><strong>内容区全宽</strong> — 去掉 max-width，用 padding: 32px 40px 留出呼吸空间</li>
+    <li><strong>表单/输入区域</strong> — 自身合理宽度（比如 max-width: 700px），不强行拉伸</li>
+    <li><strong>网格卡片</strong> — 使用 <code>grid-template-columns: repeat(auto-fill, minmax(X, 1fr))</code>，卡片数随宽度自适应</li>
+    <li><strong>聊天页</strong> — 右侧聊天区全宽填充，消息气泡宽度按比例</li>
+    <li><strong>详情页</strong> — Day Cards 全宽，内嵌时间线自然铺满</li>
+  </ul>
+</div>
+
+<h3 style="margin-top: 28px;">首页新布局预览（全宽填充版）</h3>
+<div class="mockup" style="margin-top: 8px;">
+  <div class="mockup-header">Home.vue — 全宽版</div>
+  <div class="mockup-body" style="padding: 32px 40px;">
+    <div>
+      <span style="font-size: 11px; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 0.5px;">Trip Planner</span>
+      <div style="font-size: 28px; font-weight: 700; margin-top: 4px;">你的下一站去哪？</div>
+      <div style="font-size: 14px; color: var(--text-secondary); margin-top: 4px; margin-bottom: 28px;">输入目的地，AI 为你规划完美行程</div>
+
+      <div style="border-radius: 16px; border: 1px solid var(--border); padding: 24px; max-width: 720px;">
+        <div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 12px; margin-bottom: 16px;">
+          <div><div style="font-size: 12px; color: var(--text-secondary); margin-bottom: 6px;">目的地</div><div style="height: 40px; border-radius: 8px; border: 1px solid var(--border); padding: 0 12px; display: flex; align-items: center; color: var(--text-secondary); font-size: 14px;">搜索城市...</div></div>
+          <div><div style="font-size: 12px; color: var(--text-secondary); margin-bottom: 6px;">天数</div><div style="height: 40px; border-radius: 8px; border: 1px solid var(--border); padding: 0 12px; display: flex; align-items: center; color: var(--text-secondary); font-size: 14px;">3 天</div></div>
+          <div><div style="font-size: 12px; color: var(--text-secondary); margin-bottom: 6px;">预算</div><div style="height: 40px; border-radius: 8px; border: 1px solid var(--border); padding: 0 12px; display: flex; align-items: center; color: var(--text-secondary); font-size: 14px;">¥3000</div></div>
+        </div>
+        <div style="height: 44px; border-radius: 10px; background: var(--accent); display: flex; align-items: center; justify-content: center; color: white; font-weight: 600; cursor: default;">✨ AI 生成行程</div>
+      </div>
+
+      <div style="margin-top: 32px;">
+        <div style="font-size: 16px; font-weight: 600; margin-bottom: 12px;">热门目的地</div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px;">
+          <div style="padding: 20px; border-radius: 12px; border: 1px solid var(--border); text-align: center;"><div style="font-size: 28px;">🏔️</div><div style="font-size: 13px; font-weight: 500; margin-top: 6px;">丽江</div></div>
+          <div style="padding: 20px; border-radius: 12px; border: 1px solid var(--border); text-align: center;"><div style="font-size: 28px;">🏖️</div><div style="font-size: 13px; font-weight: 500; margin-top: 6px;">三亚</div></div>
+          <div style="padding: 20px; border-radius: 12px; border: 1px solid var(--border); text-align: center;"><div style="font-size: 28px;">🍲</div><div style="font-size: 13px; font-weight: 500; margin-top: 6px;">成都</div></div>
+          <div style="padding: 20px; border-radius: 12px; border: 1px solid var(--border); text-align: center;"><div style="font-size: 28px;">🎭</div><div style="font-size: 13px; font-weight: 500; margin-top: 6px;">北京</div></div>
+          <div style="padding: 20px; border-radius: 12px; border: 1px solid var(--border); text-align: center;"><div style="font-size: 28px;">🏯</div><div style="font-size: 13px; font-weight: 500; margin-top: 6px;">西安</div></div>
+          <div style="padding: 20px; border-radius: 12px; border: 1px solid var(--border); text-align: center;"><div style="font-size: 28px;">🌸</div><div style="font-size: 13px; font-weight: 500; margin-top: 6px;">杭州</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 20px; padding: 16px 20px; background: var(--bg-secondary); border-radius: 12px; border-left: 4px solid var(--accent);">
+  <p style="margin: 0; color: var(--text-secondary);"><strong>核心思路：</strong>内容区全宽填充，但内部元素各自保持合理宽度。表单窄、卡片可扩展、文字自然换行 — 像 Notion 页面那样，内容决定宽度，而不是容器决定宽度。</p>
+</div>

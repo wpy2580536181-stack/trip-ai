@@ -1,0 +1,184 @@
+<h2>核心页面设计预览</h2>
+<p class="subtitle">首页 / 聊天 / 行程详情 — 三个关键页面的新样式</p>
+
+<!-- Home Page -->
+<h3 style="margin-top: 24px;">🏠 首页</h3>
+<div class="mockup" style="margin-top: 8px;">
+  <div class="mockup-header">Home.vue — 新设计</div>
+  <div class="mockup-body" style="padding: 24px;">
+    <div style="max-width: 700px;">
+      <!-- Page title -->
+      <div style="margin-bottom: 8px;">
+        <span style="font-size: 11px; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 0.5px;">Trip Planner</span>
+        <div style="font-size: 28px; font-weight: 700; margin-top: 4px; color: var(--text-primary);">你的下一站去哪？</div>
+        <div style="font-size: 14px; color: var(--text-secondary); margin-top: 4px;">输入目的地，AI 为你规划完美行程</div>
+      </div>
+      
+      <!-- Search form -->
+      <div style="margin-top: 28px; padding: 20px; border-radius: 16px; border: 1px solid var(--border); background: var(--bg-primary);">
+        <div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 12px; margin-bottom: 16px;">
+          <div><div style="font-size: 12px; color: var(--text-secondary); margin-bottom: 6px;">目的地</div><div style="height: 40px; border-radius: 8px; border: 1px solid var(--border); padding: 0 12px; display: flex; align-items: center; color: var(--text-secondary); font-size: 14px;">搜索城市...</div></div>
+          <div><div style="font-size: 12px; color: var(--text-secondary); margin-bottom: 6px;">天数</div><div style="height: 40px; border-radius: 8px; border: 1px solid var(--border); padding: 0 12px; display: flex; align-items: center; color: var(--text-secondary); font-size: 14px;">3 天</div></div>
+          <div><div style="font-size: 12px; color: var(--text-secondary); margin-bottom: 6px;">预算</div><div style="height: 40px; border-radius: 8px; border: 1px solid var(--border); padding: 0 12px; display: flex; align-items: center; color: var(--text-secondary); font-size: 14px;">¥3000</div></div>
+        </div>
+        <div style="height: 44px; border-radius: 10px; background: var(--accent); display: flex; align-items: center; justify-content: center; color: white; font-weight: 600; font-size: 15px; cursor: default;">✨ AI 生成行程</div>
+      </div>
+      
+      <!-- Quick picks -->
+      <div style="margin-top: 32px;">
+        <div style="font-size: 16px; font-weight: 600; color: var(--text-primary); margin-bottom: 12px;">热门目的地</div>
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;">
+          <div style="padding: 16px; border-radius: 12px; border: 1px solid var(--border); text-align: center;">
+            <div style="font-size: 28px;">🏔️</div>
+            <div style="font-size: 13px; font-weight: 500; margin-top: 4px; color: var(--text-primary);">丽江</div>
+          </div>
+          <div style="padding: 16px; border-radius: 12px; border: 1px solid var(--border); text-align: center;">
+            <div style="font-size: 28px;">🏖️</div>
+            <div style="font-size: 13px; font-weight: 500; margin-top: 4px; color: var(--text-primary);">三亚</div>
+          </div>
+          <div style="padding: 16px; border-radius: 12px; border: 1px solid var(--border); text-align: center;">
+            <div style="font-size: 28px;">🍲</div>
+            <div style="font-size: 13px; font-weight: 500; margin-top: 4px; color: var(--text-primary);">成都</div>
+          </div>
+          <div style="padding: 16px; border-radius: 12px; border: 1px solid var(--border); text-align: center;">
+            <div style="font-size: 28px;">🎭</div>
+            <div style="font-size: 13px; font-weight: 500; margin-top: 4px; color: var(--text-primary);">北京</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Chat Page -->
+<h3 style="margin-top: 32px;">💬 AI 聊天</h3>
+<div class="mockup" style="margin-top: 8px;">
+  <div class="mockup-header">Chat.vue — 新设计</div>
+  <div class="mockup-body" style="padding: 24px;">
+    <div style="display: flex; gap: 24px; min-height: 300px;">
+      <!-- Conversation sidebar -->
+      <div style="width: 240px; border-radius: 12px; border: 1px solid var(--border); padding: 12px; flex-shrink: 0;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+          <span style="font-size: 13px; font-weight: 600; color: var(--text-primary);">对话历史</span>
+          <span style="font-size: 12px; color: var(--accent);">+ 新建</span>
+        </div>
+        <div style="padding: 8px 10px; border-radius: 8px; background: var(--bg-secondary);">
+          <div style="font-size: 13px; font-weight: 500;">丽江 3 日行程规划</div>
+          <div style="font-size: 11px; color: var(--text-secondary);">2 小时前</div>
+        </div>
+        <div style="padding: 8px 10px; border-radius: 8px; margin-top: 4px;">
+          <div style="font-size: 13px;">三亚家庭游建议</div>
+          <div style="font-size: 11px; color: var(--text-secondary);">昨天</div>
+        </div>
+        <div style="padding: 8px 10px; border-radius: 8px; margin-top: 4px;">
+          <div style="font-size: 13px;">成都美食攻略咨询</div>
+          <div style="font-size: 11px; color: var(--text-secondary);">3 天前</div>
+        </div>
+      </div>
+      <!-- Chat area -->
+      <div style="flex: 1; display: flex; flex-direction: column;">
+        <div style="flex: 1; padding: 8px 0;">
+          <!-- AI message -->
+          <div style="display: flex; gap: 12px; margin-bottom: 20px;">
+            <span style="width: 32px; height: 32px; border-radius: 8px; background: var(--accent); display: flex; align-items: center; justify-content: center; color: white; font-size: 14px; flex-shrink: 0;">AI</span>
+            <div style="max-width: 70%;">
+              <div style="padding: 12px 16px; border-radius: 12px; border: 1px solid var(--border); font-size: 14px; line-height: 1.6;">
+                你好！我可以帮你规划旅行行程。你想去哪里、玩几天、预算多少？
+              </div>
+              <div style="display: flex; gap: 8px; margin-top: 6px;">
+                <span style="font-size: 11px; color: var(--text-secondary);">👍</span>
+                <span style="font-size: 11px; color: var(--text-secondary);">👎</span>
+              </div>
+            </div>
+          </div>
+          <!-- User message -->
+          <div style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
+            <div style="max-width: 70%;">
+              <div style="padding: 12px 16px; border-radius: 12px; background: var(--accent); color: white; font-size: 14px; line-height: 1.6;">
+                我想去丽江玩 3 天，预算 3000 左右。
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Input -->
+        <div style="display: flex; gap: 8px; padding-top: 12px; border-top: 1px solid var(--border);">
+          <div style="flex: 1; height: 40px; border-radius: 10px; border: 1px solid var(--border); padding: 0 12px; display: flex; align-items: center; color: var(--text-secondary); font-size: 14px;">输入消息...</div>
+          <div style="width: 40px; height: 40px; border-radius: 10px; background: var(--accent); display: flex; align-items: center; justify-content: center; color: white; cursor: default;">↑</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Detail Page -->
+<h3 style="margin-top: 32px;">📋 行程详情</h3>
+<div class="mockup" style="margin-top: 8px;">
+  <div class="mockup-header">Detail.vue — 新设计</div>
+  <div class="mockup-body" style="padding: 24px;">
+    <div style="max-width: 700px;">
+      <!-- Header -->
+      <div style="margin-bottom: 24px;">
+        <span style="font-size: 11px; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 0.5px;">3 天 · 预算 ¥3000</span>
+        <div style="font-size: 24px; font-weight: 700; margin-top: 4px;">丽江之旅</div>
+        <div style="font-size: 14px; color: var(--text-secondary); margin-top: 4px;">2026年7月 · 独自旅行 · 休闲风格</div>
+      </div>
+      
+      <!-- Day 1 -->
+      <div style="border-radius: 12px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px;">
+        <div style="padding: 14px 16px; display: flex; justify-content: space-between; align-items: center; cursor: default;">
+          <div>
+            <span style="font-weight: 600; font-size: 15px;">第 1 天</span>
+            <span style="font-size: 13px; color: var(--text-secondary); margin-left: 8px;">抵达 · 古城漫步</span>
+          </div>
+          <span style="color: var(--text-secondary); font-size: 13px;">7月15日 周三</span>
+        </div>
+        <!-- Timeline -->
+        <div style="border-top: 1px solid var(--border); padding: 16px;">
+          <div style="display: flex; gap: 12px; margin-bottom: 16px;">
+            <div style="width: 60px; font-size: 12px; font-weight: 500; color: var(--accent); flex-shrink: 0;">上午</div>
+            <div>
+              <div style="font-size: 14px; font-weight: 500;">抵达丽江，入住古城客栈</div>
+              <div style="font-size: 13px; color: var(--text-secondary); margin-top: 2px;">三义机场 → 丽江古城（打车约 40 分钟）</div>
+            </div>
+          </div>
+          <div style="display: flex; gap: 12px; margin-bottom: 16px;">
+            <div style="width: 60px; font-size: 12px; font-weight: 500; color: #D4A050; flex-shrink: 0;">下午</div>
+            <div>
+              <div style="font-size: 14px; font-weight: 500;">漫步四方街，打卡大水车</div>
+              <div style="font-size: 13px; color: var(--text-secondary); margin-top: 2px;">逛逛古城小巷，感受纳西文化</div>
+            </div>
+          </div>
+          <div style="display: flex; gap: 12px;">
+            <div style="width: 60px; font-size: 12px; font-weight: 500; color: #5B8C5A; flex-shrink: 0;">晚上</div>
+            <div>
+              <div style="font-size: 14px; font-weight: 500;">腊排骨火锅 + 古城夜景</div>
+              <div style="font-size: 13px; color: var(--text-secondary); margin-top: 2px;">推荐：阿婆腊排骨（忠义市场店）</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Day 2 -->
+      <div style="border-radius: 12px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px;">
+        <div style="padding: 14px 16px; display: flex; justify-content: space-between; align-items: center;">
+          <div>
+            <span style="font-weight: 600; font-size: 15px;">第 2 天</span>
+            <span style="font-size: 13px; color: var(--text-secondary); margin-left: 8px;">雪山 · 蓝月谷</span>
+          </div>
+          <span style="color: var(--text-secondary); font-size: 13px;">7月16日 周四</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 28px;">
+  <h3>页面改造要点总结</h3>
+  <ul>
+    <li><strong>首页</strong> — 大标题 + 紧凑表单 + 热门目的地网格，去掉底部 TabBar</li>
+    <li><strong>聊天</strong> — 左侧对话列表 + 右侧聊天区（类似 Claude 双栏布局）</li>
+    <li><strong>行程详情</strong> — 卡片式 Day Card + 时间段时间线，标签颜色柔和化</li>
+    <li><strong>登录/注册</strong> — 居中卡片式，简洁表单（参考 Claude 登录页）</li>
+    <li><strong>管理页</strong> — 数据卡片 + 表格布局，保持功能不变</li>
+  </ul>
+</div>

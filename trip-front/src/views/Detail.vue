@@ -3,14 +3,15 @@ import { useRoute } from 'vue-router'
 import { reactive, ref, watch } from 'vue'
 import { onMounted } from 'vue'
 import { useRouter } from 'vue-router'
-import { showToast } from 'vant'
+import { useMessage } from 'naive-ui'
 import { post } from '@/api/request'
 import { getTrip } from '@/api/history'
 
 const router = useRouter()
 const route = useRoute()
+const message = useMessage()
 const isloading = ref(true)
-const activeDays = ref<string[]>([])
+const activeDays = ref<(string | number)[]>([0])
 
 interface TripData {
   city?: string
@@ -35,7 +36,6 @@ const formData = reactive({
   fromCity: null as string | null,
 })
 
-// 获取行程规划数据
 const fetchTripData = async () => {
   isloading.value = true
   errorMsg.value = ''
@@ -49,7 +49,7 @@ const fetchTripData = async () => {
     isloading.value = false
     if (res.success && res.data) {
       tripData.value = res.data
-      activeDays.value = ['0']
+      activeDays.value = [0]
     } else {
       errorMsg.value = res.error || '获取行程规划数据失败'
     }
@@ -74,7 +74,7 @@ const loadTripById = async (tripId: number) => {
       formData.fromCity = trip.fromCity ?? null
       currentTripMeta.value = { id: trip.id, parentTripId: trip.parentTripId }
       tripData.value = trip.content as TripData
-      activeDays.value = ['0']
+      activeDays.value = [0]
     } else {
       errorMsg.value = '行程不存在'
     }
@@ -98,13 +98,11 @@ onMounted(async () => {
   formData.days = Number(route.query.days) || null
   formData.fromCity = (route.query.departureCity as string) || null
 
-  // 接口校验
   if (formData.city && formData.budget && formData.days) {
     fetchTripData()
   }
 })
 
-// 监听 ?id= 变化（optimize 后 push 到 /detail?id=newId 需要重载）
 watch(
   () => route.query.id,
   (newId, oldId) => {
@@ -114,12 +112,10 @@ watch(
   },
 )
 
-// 返回上一页
 const onBack = () => {
   router.back()
 }
 
-// 跳转到聊天页面
 const goToChat = () => {
   router.push({
     path: '/chat',
@@ -141,10 +137,10 @@ const onOptimize = async () => {
         router.push({ path: '/detail', query: { id: newId } })
       }
     } else {
-      showToast(res.error || '优化失败')
+      message.error(res.error || '优化失败')
     }
   } catch {
-    showToast('网络错误')
+    message.error('网络错误')
   } finally {
     optimizing.value = false
   }
@@ -153,86 +149,124 @@ const onOptimize = async () => {
 
 <template>
   <div class="page-container">
-    <div class="page-header">
-      <van-nav-bar
-        fixed
-        left-text="返回"
-        left-arrow
-        :title="(formData.fromCity ? formData.fromCity + ' → ' : '') + formData.city + '旅行计划'"
-        @click-left="onBack"
-      />
-    </div>
-    <div class="page-content">
-      <div v-if="isloading" class="loading-container">
-        <van-loading size="48px" type="spinner"/>
-        加载中。。。
+    <div class="detail-content">
+      <div class="page-header">
+        <n-button text @click="onBack">← 返回</n-button>
+        <h2 class="page-title">
+          {{ (formData.fromCity ? formData.fromCity + ' → ' : '') + formData.city + '旅行计划' }}
+        </h2>
       </div>
-      <div v-else-if="errorMsg">
-        <van-empty :description="errorMsg" >
-          <van-button type="primary" @click="fetchTripData">重试</van-button>
-        </van-empty>
+
+      <div v-if="isloading" class="loading-container">
+        <n-spin size="large" />
+        <p>加载中。。。</p>
+      </div>
+      <div v-else-if="errorMsg" class="empty-state">
+        <p>{{ errorMsg }}</p>
+        <n-button type="primary" @click="fetchTripData">重试</n-button>
       </div>
       <template v-else-if="tripData">
-        <div class ="card overview-card">
+        <div class="card overview-card">
           <div class="trip-header">
             <h2>{{ formData.fromCity ? formData.fromCity + ' → ' : '' }}{{ tripData.city }} · {{ tripData.days }}天行程</h2>
             <div class="trip-budget">预算：{{ tripData.totalBudget }}元</div>
           </div>
         </div>
-        <van-collapse v-model="activeDays" class="trip-collapse">
-          <van-collapse-item 
-          v-for="day in tripData.dailyItinerary" 
-          :key="day.day" 
-          :title="'第' + day.day + '天'"
-          :name="day.day"
+
+        <n-collapse v-model:expanded-names="activeDays" class="trip-collapse">
+          <n-collapse-item
+            v-for="day in tripData.dailyItinerary"
+            :key="day.day"
+            :title="'第' + day.day + '天'"
+            :name="day.day"
           >
-          <div class="day-schedule">
-            <div class="schedule-section">
-              <div class="schedule-label morning">上午</div>
-              <spot-item :data="day.morning" />
+            <div class="day-schedule">
+              <div class="schedule-section">
+                <n-tag :bordered="false" color="#fa8c16" size="small">上午</n-tag>
+                <spot-item :data="day.morning" />
+              </div>
+              <div class="schedule-section">
+                <n-tag :bordered="false" color="#1890ff" size="small">下午</n-tag>
+                <spot-item :data="day.afternoon" />
+              </div>
+              <div class="schedule-section">
+                <n-tag :bordered="false" color="#52c41a" size="small">晚上</n-tag>
+                <spot-item :data="day.evening" />
+              </div>
             </div>
-            <div class="schedule-section">
-              <div class="schedule-label afternoon">下午</div>
-              <spot-item :data="day.afternoon" />
-            </div>
-            <div class="schedule-section">
-              <div class="schedule-label evening">晚上</div>
-              <spot-item :data="day.evening" />
-            </div>
-          </div>
-          </van-collapse-item>
-        </van-collapse>
+          </n-collapse-item>
+        </n-collapse>
+
         <div class="card budget-card">
           <div class="section-title">预算明细</div>
-          <budget-table :data="tripData.budgetBreakdown" :total="tripData.totalBudget"/>
+          <budget-table :data="tripData.budgetBreakdown" :total="tripData.totalBudget" />
         </div>
+
         <div class="card tips-card" v-if="tripData">
           <div class="section-title">温馨提示</div>
           <ul class="tips-list">
-            <li v-for="(tip,index) in tripData.tips" :key="index">{{ tip }}</li> 
+            <li v-for="(tip, index) in tripData.tips" :key="index">{{ tip }}</li>
           </ul>
         </div>
+
         <div class="card warnings-card" v-if="tripData">
           <div class="section-title">注意事项</div>
           <ul class="warnings-list">
-            <li v-for="(warning,index) in tripData.warnings" :key="index">{{ warning }}</li> 
+            <li v-for="(warning, index) in tripData.warnings" :key="index">{{ warning }}</li>
           </ul>
         </div>
+
+        <div class="detail-footer" v-if="tripData">
+          <n-button type="primary" size="large" @click="goToChat">与 AI 聊天</n-button>
+          <n-button v-if="currentTripMeta?.id" type="warning" size="large" :loading="optimizing" @click="onOptimize">AI 优化此行程</n-button>
+          <ExportMenu :trip-data="tripData" />
+        </div>
       </template>
-    </div>
-    <div class="detail-footer" v-if="tripData">
-      <van-button type="primary" size="large" @click="goToChat" class="primary-button">与 AI 聊天</van-button>
-      <van-button v-if="currentTripMeta?.id" type="warning" size="large" :loading="optimizing" @click="onOptimize" class="optimize-button" plain>AI 优化此行程</van-button>
-      <ExportMenu :trip-data="tripData" />
     </div>
   </div>
 </template>
 
-
 <style scoped>
-.page-header{
-  height: 46px;
+.detail-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
+
+.page-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 0;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #323233;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 16px;
+  gap: 16px;
+  color: #969799;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 80px 16px;
+  color: #969799;
+}
+
+.empty-state p {
+  margin-bottom: 16px;
+}
+
 .overview-card {
   margin-bottom: 16px;
 }
@@ -271,28 +305,12 @@ const onOptimize = async () => {
   margin-bottom: 0;
 }
 
-.section-label {
-  font-size: 14px;
+.section-title {
+  font-size: 16px;
   font-weight: 600;
-  padding: 4px 8px;
-  border-radius: 4px;
-  display: inline-block;
-  margin-bottom: 8px;
-}
-
-.section-label.morning {
-  background: #fff7e6;
-  color: #fa8c16;
-}
-
-.section-label.afternoon {
-  background: #e6f7ff;
-  color: #1890ff;
-}
-
-.section-label.evening {
-  background: #f6ffed;
-  color: #52c41a;
+  color: #323233;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 .budget-card,
@@ -322,20 +340,22 @@ const onOptimize = async () => {
 }
 
 .detail-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 12px 16px;
-  background: #fff;
-  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
-  max-width: 750px;
-  margin: 0 auto;
+  display: flex;
+  gap: 12px;
+  padding: 16px 0;
+  align-items: flex-start;
 }
 
-.error-card {
-  text-align: center;
-  padding: 40px 16px;
+.detail-footer > * {
+  flex: 1;
+  min-width: 0;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 @media print {
