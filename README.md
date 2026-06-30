@@ -19,6 +19,24 @@
 - **多维度检索** — 向量 + 关键词 + 热度 三路召回，Cross-Encoder 重排序
 - **行程度量** — 预算明细、出行 Tips
 
+## 截图
+
+### 首页 — 行程生成
+
+![首页](screenshots/home.png)
+
+### 对话页 — AI 交互
+
+![对话](screenshots/chat.png)
+
+### 行程详情 — 每日行程
+
+![行程详情](screenshots/detail.png)
+
+### 地图 — 景点定位
+
+![地图](screenshots/map.png)
+
 ## 快速开始
 
 ### 前置条件
