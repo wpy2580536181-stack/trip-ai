@@ -13,3 +13,4 @@ trip-server/eval-reports/
 # Knowledge base data (large, not source)
 trip-server/chroma_data/
 trip-server/data/poi_raw/
+tasks/
