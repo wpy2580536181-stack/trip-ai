@@ -15,8 +15,8 @@
  */
 
 const BASE = process.env.EVAL_BASE_URL || 'http://127.0.0.1:3000'
-const USER = process.env.EVAL_USERNAME || 'eval-test'
-const PASS = process.env.EVAL_PASSWORD || 'EvalTest@2026'
+const USER = process.env.EVAL_USERNAME
+const PASS = process.env.EVAL_PASSWORD
 
 interface SSEEvent { type: string; content?: string; error?: string; data?: any; usage?: any }
 

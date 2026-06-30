@@ -116,7 +116,7 @@ const onFeedback = async (rating: FeedbackRating) => {
       // 负反馈：3 秒后弹"为什么不满意"轻量提示
       setTimeout(() => {
         if (currentRating.value === -1) {
-          message.warning('抱歉没能帮到你，可联系 admin@trip.local 详细反馈', {
+          message.warning('抱歉没能帮到你，可联系管理员详细反馈', {
             duration: 4000,
           })
         }

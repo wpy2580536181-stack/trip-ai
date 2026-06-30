@@ -84,7 +84,7 @@ EXIT;
 mkdir -p /var/www/trip && cd /var/www/trip
 
 # 克隆仓库（替换为你的仓库地址）
-git clone https://github.com/wpy2580536181-stack/trip-ai.git .
+git clone https://github.com/your-username/trip-ai.git .
 
 # 安装后端依赖并编译
 cd trip-server
@@ -330,10 +330,10 @@ services:
     image: mysql:8.0
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_ROOT_PASSWORD: <your-root-password>
       MYSQL_DATABASE: trip_db
       MYSQL_USER: trip_user
-      MYSQL_PASSWORD: trip_pass
+      MYSQL_PASSWORD: <your-db-password>
     ports:
       - "3306:3306"
     volumes:
@@ -351,7 +351,7 @@ services:
       db:
         condition: service_healthy
     environment:
-      DATABASE_URL: "mysql://trip_user:trip_pass@db:3306/trip_db"
+      DATABASE_URL: "mysql://trip_user:<your-db-password>@db:3306/trip_db"
       JWT_SECRET: <随机字符串>
       JWT_EXPIRES_IN: 7d
       PORT: 3000

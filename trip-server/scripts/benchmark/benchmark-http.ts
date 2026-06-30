@@ -8,7 +8,7 @@
 // @ts-ignore — autocannon 没有官方 .d.ts，用 require interop
 import autocannon from 'autocannon'
 import { saveResult, getEnv } from './lib/result-store'
-import { getAuthToken, EVAL_CREDENTIALS } from './lib/auth'
+import { getAuthToken, getEvalCredentials } from './lib/auth'
 
 const BASE_URL = process.env.BASE_URL || 'http://localhost:3000'
 const DURATION = 30  // seconds
@@ -25,7 +25,7 @@ async function main() {
     url: `${BASE_URL}/api/user/login`,
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(EVAL_CREDENTIALS),
+    body: JSON.stringify(getEvalCredentials()),
     connections: 10,
     duration: DURATION,
   })

@@ -339,8 +339,8 @@ function extractCityFromMessage(message: string): string | null {
 
 function buildRealAgent(): RealAgent {
   const baseUrl = process.env.EVAL_BASE_URL || 'http://127.0.0.1:3000'
-  const username = process.env.EVAL_USERNAME || 'eval-test'
-  const password = process.env.EVAL_PASSWORD || 'EvalTest@2026'
+  const username = process.env.EVAL_USERNAME
+  const password = process.env.EVAL_PASSWORD
   const timeoutMs = Number(process.env.EVAL_TIMEOUT_MS) || 90000
   const delayBetweenMs = Number(process.env.EVAL_DELAY_MS) || 2000
 
