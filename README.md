@@ -19,7 +19,7 @@
 - **多维度检索** — 向量 + 关键词 + 热度 三路召回，Cross-Encoder 重排序
 - **行程度量** — 预算明细、出行 Tips
 
-## 截图
+## 界面预览
 
 ### 首页 — 行程生成
 
@@ -68,6 +68,7 @@ npm run seed
 
 # 5. 导入知识库
 npm run seed:knowledge
+npm run seed:poi
 
 # 6. 启动
 # 终端 1 - 后端 (端口 3000)
@@ -112,10 +113,13 @@ trip/
 
 ## 知识库 RAG
 
-- **数据规模**：754 条景点数据，覆盖 30 个一二线城市
+- **数据规模**：14,780 条 POI 数据，覆盖 74 个城市（其中 29 个热门旅游城市各 ~400 条）
+- **数据来源**：手工整理（`data/spots/`）+ 高德地图 API 批量拉取（`scripts/seed-poi-mcp.ts` + `scripts/seed-poi-hotcities.ts`）
+- **实时补充**：Amap MCP `maps_text_search` 在 agent 规划时可实时查询高德全库 POI（千万级）
 - **检索链路**：LLM 查询改写 → 向量/关键词/热度 三路召回 → RRF 融合 → Cross-Encoder 精排
-- **Embedding**：bge-small-zh-v1.5（本地，512 维）
+- **Embedding**：bge-small-zh-v1.5（本地，512 维，~50ms/次）
 - **重排序**：bge-reranker-base Cross-Encoder
+- **存储**：MySQL（关系索引）+ ChromaDB（向量索引，~23 MB）
 
 ## 项目说明
 
