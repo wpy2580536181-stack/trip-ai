@@ -102,3 +102,22 @@ trip/
 ## 项目说明
 
 该项目为个人学习项目，用于探索 LLM、RAG 和流式交互在旅行规划场景中的应用。
+
+## 截图
+
+### 首页 — 行程生成
+
+![首页](screenshots/home.png)
+
+### 对话页 — AI 交互
+
+![对话](screenshots/chat.png)
+
+### 行程详情 — 每日行程
+
+![行程详情](screenshots/detail.png)
+
+### 地图 — 景点定位
+
+![地图](screenshots/map.png)
+
