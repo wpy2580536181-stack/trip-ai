@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { NodeProps } from '@vue-flow/core'
+import { Handle, Position, type NodeProps } from '@vue-flow/core'
 
 interface ActorNodeData {
   label: string
@@ -13,6 +13,8 @@ defineProps<NodeProps<ActorNodeData>>()
   <div class="actor-node" style="background: #fff2cc; border: 1.5px solid #d6b656">
     <div class="label">{{ data.label }}</div>
     <div v-if="data.sublabel" class="sublabel">{{ data.sublabel }}</div>
+    <Handle type="target" :position="Position.Top" />
+    <Handle type="source" :position="Position.Bottom" />
   </div>
 </template>
 

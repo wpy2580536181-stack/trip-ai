@@ -48,13 +48,15 @@ const messages: readonly Message[] = [
   ['IMG', 'DB', 'update trip.itinerary', true],
 ] as const
 
+const labelIndices = new Set([3, 4, 8, 10, 12, 15])
+
 const edges: Edge[] = messages.map(([source, target, label, isInternal], i) => {
   const stroke = isInternal ? '#82b366' : '#1976d2'
   return {
     id: `m${i + 1}`,
     source,
     target,
-    label: `${i + 1}. ${label}`,
+    label: labelIndices.has(i) ? `${i + 1}. ${label}` : undefined,
     labelStyle: { fontSize: '9px', fill: '#333' },
     labelBgPadding: [3, 2],
     labelBgStyle: { fill: '#fff', fillOpacity: 0.85 },
@@ -64,7 +66,7 @@ const edges: Edge[] = messages.map(([source, target, label, isInternal], i) => {
       strokeDasharray: isInternal ? '4 4' : undefined,
     },
     markerEnd: { type: MarkerType.ArrowClosed, color: stroke, width: 14, height: 14 },
-    type: 'straight',
+    type: 'smoothstep',
   }
 })
 </script>
