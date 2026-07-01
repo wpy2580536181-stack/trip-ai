@@ -1,32 +1,22 @@
 <script setup lang="ts">
-/**
- * Admin Architecture Viewer
- *
- * 4 张架构图（系统 / 时序 / 上下文 / 评估），用 Vant tabs 切换
- * 鉴权：route meta.requiresAdmin，roleId === 1
- */
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { useMessage } from 'naive-ui'
 import SystemArchitecture from '@/components/architecture/SystemArchitecture.vue'
 import AgentSequence from '@/components/architecture/AgentSequence.vue'
+import RagPipeline from '@/components/architecture/RagPipeline.vue'
 import ContextDataFlow from '@/components/architecture/ContextDataFlow.vue'
 import EvaluationSystem from '@/components/architecture/EvaluationSystem.vue'
 
 const router = useRouter()
-const message = useMessage()
 const activeTab = ref<number>(0)
 
 const tabs = [
   { name: 0, title: '系统架构' },
   { name: 1, title: 'Agent 时序' },
-  { name: 2, title: '上下文流' },
-  { name: 3, title: '评估体系' },
+  { name: 2, title: 'RAG 检索链路' },
+  { name: 3, title: '上下文流' },
+  { name: 4, title: '评估体系' },
 ]
-
-function onTabClick() {
-  message.info(`切换到: ${tabs[activeTab.value]?.title}`)
-}
 
 function onBack() {
   router.back()
@@ -39,13 +29,14 @@ function onBack() {
       <button class="back-btn" @click="onBack">←</button>
       <h2>🏗 系统架构图</h2>
     </div>
-    <n-tabs v-model:value="activeTab" animated @update:value="onTabClick">
+    <n-tabs v-model:value="activeTab" animated>
       <n-tab-pane v-for="t in tabs" :key="t.name" :name="t.name" :tab="t.title">
         <div class="diagram-container">
           <SystemArchitecture v-if="t.name === 0" />
           <AgentSequence v-else-if="t.name === 1" />
-          <ContextDataFlow v-else-if="t.name === 2" />
-          <EvaluationSystem v-else-if="t.name === 3" />
+          <RagPipeline v-else-if="t.name === 2" />
+          <ContextDataFlow v-else-if="t.name === 3" />
+          <EvaluationSystem v-else-if="t.name === 4" />
         </div>
       </n-tab-pane>
     </n-tabs>
