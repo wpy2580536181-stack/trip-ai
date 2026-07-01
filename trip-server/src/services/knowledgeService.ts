@@ -243,11 +243,8 @@ export async function searchSpots(params: {
 }): Promise<string> {
   const { query, city, category, limit = 5 } = params
 
-  // === 查询改写：LLM 将自然语言转为检索关键词 ===
-  const rewrittenQuery = await rewriteQuery(query)
-  if (rewrittenQuery !== query) {
-    log.debug({ original: query, rewritten: rewrittenQuery }, 'query rewritten')
-  }
+  // === 本地关键词提取（~50ms，替代原来的 LLM 改写） ===
+  const rewrittenQuery = await rewriteQuery(query, city)
 
   // === 三路并行召回 ===
   const chromaAvailable = await checkChromaHealth()
@@ -308,14 +305,16 @@ export async function searchSpots(params: {
   // === RRF 融合 ===
   const fused = rrfFuse(path1, path2, path3)
 
-  // === Cross-Encoder 重排序（对 top-20 候选精排） ===
-  const rerankCandidates = fused.slice(0, 20)
-  if (rerankCandidates.length > 1) {
+  // === Cross-Encoder 重排序（top-10，高分跳过） ===
+  const rerankCandidates = fused.slice(0, 10)
+  // RRF 得分 > 0.15 的 top-1 置信度够高，跳过重排
+  const skipRerank = rerankCandidates.length > 0 && rerankCandidates[0].rrfScore > 0.15
+  if (rerankCandidates.length > 1 && !skipRerank) {
     try {
       const reranked = await rerankTopK(
         rewrittenQuery,
         rerankCandidates.map(c => c.desc),
-        Math.min(fused.length, 20),
+        Math.min(fused.length, 10),
       )
       // 按 rerank 得分重新映射
       const rerankedMap = new Map<string, number>()

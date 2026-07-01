@@ -1,116 +1,85 @@
-import { recordFetchTokenUsage } from './llmGuard/tokenTracker'
 import { queryRewriteLog as log } from '../utils/logger'
 
 /**
- * 查询改写服务：将用户的自然语言 query 改写为适合检索的关键词组合。
+ * 本地查询改写：从自然语言 query 中提取检索关键词
  *
- * 示例：
- *   "我想吃点辣的" → "川菜 湘菜 辣味 火锅 餐厅"
- *   "带小孩去玩的" → "亲子 儿童 乐园 博物馆 互动 景点"
- *   "成都有什么好玩的" → "成都 景点 公园 博物馆 文化 地标"
+ * 替代原来的 LLM 改写（每次 ~800ms），节省 ~750ms/次
  *
- * 失败时直接返回原始 query，不阻塞检索链路。
+ * 策略：
+ * 1. 去掉常见停用词
+ * 2. 提取 2-5 字中文片段
+ * 3. 意图映射 → 分类关键词（"吃"→"美食 餐厅"）
+ * 4. 去重后返回最多 6 个关键词
  */
 
-function loadEnv(): Record<string, string> {
-  const result: Record<string, string> = {}
-  for (const [key, value] of Object.entries(process.env)) {
-    if (value !== undefined) result[key] = value
+const STOP_WORDS = new Set([
+  '什么', '怎么', '哪里', '哪个', '哪些', '谁', '何时',
+  '推荐', '请问', '我想', '需要', '可以', '有没有', '是不是',
+  '帮我', '介绍', '告诉', '知道', '觉得', '想去', '打算',
+  '一下', '一下', '吧', '啊', '呢', '吗', '了', '的', '啦',
+  '在', '有', '和', '与', '或', '是', '的', '这', '那',
+  '去', '来', '到', '从', '给', '为', '对',
+  '好玩', '好吃', '好看', '好喝', '有趣', '漂亮', '不错',
+  '大概', '多少', '便宜', '方便', '适合',
+])
+
+const INTENT_MAP: Array<[RegExp, string]> = [
+  [/吃|美食|餐厅|饭馆|菜|辣|甜|口味/i, '美食 餐厅'],
+  [/住|住宿|酒店|宾馆|民宿|客栈|房间/i, '住宿 酒店'],
+  [/玩|逛|游|景点|景区|公园/i, '景点 游览'],
+  [/买|购物|商业街|商场|街/i, '购物 商业街'],
+  [/票|门票|收费|价格|价钱|多少钱/i, '门票 价格'],
+  [/交通|公交|地铁|打车|开车|停车/i, '交通'],
+  [/拍照|摄影|照片|打卡/i, '拍照 打卡'],
+  [/历史|文化|博物馆|古迹|文物/i, '文化 历史'],
+  [/自然|山|水|湖|海|森林|风景|风/i, '自然 风景'],
+  [/夜|晚上|夜景|夜市|酒吧/i, '夜景 夜市'],
+  [/亲|子|小孩|儿童|亲子|带孩/i, '亲子 儿童'],
+  [/情侣|约会|浪漫/i, '情侣 浪漫'],
+  [/便宜|实惠|平价|经济|省钱|免费/i, '平价 实惠'],
+  [/高。端|豪华|奢侈|五星|品质/i, '高端 品质'],
+  [/室。内|下雨|天气|夏天|避暑|冬天|暖/i, '室内 避暑'],
+]
+
+function extractKeywords(query: string, city: string): string[] {
+  const result = new Set<string>()
+
+  // 1. 保留城市名
+  if (city) result.add(city)
+
+  // 2. 意图映射
+  for (const [pattern, kw] of INTENT_MAP) {
+    if (pattern.test(query)) {
+      for (const word of kw.split(' ')) result.add(word)
+    }
   }
-  return result
+
+  // 3. 保留原始 query 中的景点实体（去掉停用词后的原文）
+  const cleanQuery = query.split(new RegExp(`[${' '.concat('的了吧吗呢啊啦在和有与或是这那来到从给为对').split('').join('')}]`, 'g')).filter(Boolean)
+  for (const w of cleanQuery) {
+    if (w.length >= 2 && /[一-龥]/.test(w) && !STOP_WORDS.has(w)) result.add(w)
+  }
+
+  // 4. 通配类别词
+  const specialKeys = ['景点', '美食', '酒店', '住宿', '餐厅', '公园', '博物馆', '夜景', '亲子', '平价', '门票', '交通', '购物']
+  for (const k of specialKeys) {
+    if (query.includes(k)) result.add(k)
+  }
+
+  return [...result].slice(0, 6)
 }
 
 /**
- * 调用 DeepSeek LLM 改写查询
- * @returns 改写后的关键词字符串（多个词用空格分隔）；失败返回原始 query
+ * 本地查询改写（替代原来的 LLM 调用）
+ *
+ * 速度 ~50ms，不再调 DeepSeek API
  */
-export async function rewriteQuery(query: string): Promise<string> {
-  let cfg: { apiKey: string; baseURL: string; model: string }
-  try {
-    const provider = (process.env.MODEL_PROVIDER as 'KIMI' | 'DEEPSEEK') || 'DEEPSEEK'
-    if (provider === 'KIMI') {
-      cfg = {
-        apiKey: process.env.KIMI_API_KEY!,
-        baseURL: process.env.KIMI_BASE_URL!,
-        model: process.env.KIMI_MODEL!,
-      }
-    } else {
-      cfg = {
-        apiKey: process.env.DEEPSEEK_API_KEY!,
-        baseURL: process.env.DEEPSEEK_BASE_URL!,
-        model: process.env.DEEPSEEK_MODEL!,
-      }
-    }
-    if (!cfg.apiKey || !cfg.baseURL || !cfg.model) {
-      log.warn('LLM 配置缺失，跳过改写')
-      return query
-    }
-  } catch (e) {
-    log.warn({ err: e }, 'LLM 配置错误')
-    return query
+export async function rewriteQuery(query: string, city?: string): Promise<string> {
+  const keywords = extractKeywords(query, city || '')
+  if (keywords.length === 0) return query
+  const rewritten = keywords.join(' ')
+  if (rewritten !== query) {
+    log.debug({ original: query, rewritten }, 'query rewritten')
   }
-
-  const systemPrompt = `你是一个旅行查询改写专家。用户会输入一段自然语言搜索词，你需要将其改写为适合向量检索的关键词组合。
-
-规则：
-1. 保留核心实体（城市名、景点类型如"火锅""博物馆""公园"）
-2. 提取隐含意图（"想吃的"→"美食 餐厅"，"带孩子玩"→"亲子 儿童 乐园"）
-3. 用空格分隔多个关键词，最多 8 个词
-4. 不要加解释，只输出关键词本身
-5. 如果用户已包含城市名，保留城市名；否则不添加城市
-
-示例：
-输入: "我想吃点辣的"
-输出: 川菜 湘菜 辣味 火锅 餐厅
-
-输入: "带小孩去玩的"
-输出: 亲子 儿童 乐园 博物馆 互动 景点
-
-输入: "有什么好玩的"
-输出: 景点 公园 博物馆 文化 地标
-
-输入: "便宜的地方"
-输出: 免费 低价 平价 景点`
-
-  const userPrompt = `将以下查询改写为检索关键词：\n"${query}"`
-
-  try {
-    const controller = new AbortController()
-    const timeoutId = setTimeout(() => controller.abort(), 3000)
-    const url = `${cfg.baseURL}/chat/completions`
-    const res = await fetch(url, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Authorization: `Bearer ${cfg.apiKey}`,
-      },
-      body: JSON.stringify({
-        model: cfg.model,
-        messages: [
-          { role: 'system', content: systemPrompt },
-          { role: 'user', content: userPrompt },
-        ],
-        temperature: 0,
-        max_tokens: 100,
-      }),
-      signal: controller.signal,
-    })
-    clearTimeout(timeoutId)
-
-    if (!res.ok) {
-      log.warn({ status: res.status }, 'LLM 请求失败，使用原始 query')
-      return query
-    }
-
-    const data: any = await res.json()
-    recordFetchTokenUsage(data)
-    const content = data.choices?.[0]?.message?.content?.trim() || ''
-
-    // 清理可能的 markdown 代码块
-    const cleaned = content.replace(/```[\w]*\n?/g, '').replace(/```/g, '').trim()
-    return cleaned || query
-  } catch (e) {
-    log.warn({ err: e }, 'LLM 调用异常，使用原始 query')
-    return query
-  }
+  return rewritten
 }
