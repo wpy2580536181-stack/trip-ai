@@ -113,12 +113,13 @@ trip/
 
 ## 知识库 RAG
 
-- **数据规模**：14,780 条 POI 数据，覆盖 74 个城市（其中 29 个热门旅游城市各 ~400 条）
-- **数据来源**：手工整理（`data/spots/`）+ 高德地图 API 批量拉取（`scripts/seed-poi-mcp.ts` + `scripts/seed-poi-hotcities.ts`）
+- **数据规模**：30,784 条 POI 数据，覆盖 343+ 个地级市（热门旅游城市各 ~450 条）
+- **数据来源**：手工整理（`data/spots/`）+ 高德地图 API 批量拉取（`scripts/seed-poi-*.ts`）
 - **实时补充**：Amap MCP `maps_text_search` 在 agent 规划时可实时查询高德全库 POI（千万级）
-- **检索链路**：LLM 查询改写 → 向量/关键词/热度 三路召回 → RRF 融合 → Cross-Encoder 精排
+- **检索链路**（~640ms P50）：本地关键词改写 → Chroma 向量 / MySQL 关键词 / 评分 三路召回 → RRF 融合 → Cross-Encoder 重排
+- **检索优化**：本地关键词提取替代 LLM 改写（省 ~800ms）+ 高分命中跳过重排
 - **Embedding**：bge-small-zh-v1.5（本地，512 维，~50ms/次）
-- **重排序**：bge-reranker-base Cross-Encoder
+- **重排序**：bge-reranker-base Cross-Encoder（top-20）
 - **存储**：MySQL（关系索引）+ ChromaDB（向量索引，~23 MB）
 
 ## 项目说明
