@@ -6,49 +6,37 @@ import ActorNode from './nodes/ActorNode.vue'
 const nodeTypes = { actor: ActorNode }
 
 const actors = ['User', 'Frontend', 'Backend', 'AgentEngine', 'RAG', 'LLM', 'MCP', 'DB', 'IMG'] as const
-const actorXSpacing = 170
-const actorStartX = 20
+const actorX = 155
+const actorStartX = 40
 
 const nodes: Node[] = actors.map((name, i) => ({
   id: name,
   type: 'actor',
-  position: { x: actorStartX + i * actorXSpacing, y: 0 },
+  position: { x: actorStartX + i * actorX, y: 0 },
   data: { label: name },
 }))
 
-type Message = readonly [string, string, string, boolean?]
+type Msg = readonly [string, string, string, boolean?]
 
-const messages: readonly Message[] = [
-  // 1-3: User sends message
-  ['User', 'Frontend', 'send message'],
-  ['Frontend', 'Backend', 'POST /api/trip/chat (SSE)'],
-  ['Backend', 'DB', 'pre-create empty msg', true],
-  ['Backend', 'AgentEngine', 'chat({…signal, onEvent})'],
-  // 5-8: Research phase → RAG
+const messages: readonly Msg[] = [
+  ['User', 'Frontend', '发送消息'],
+  ['Frontend', 'Backend', 'POST /api/trip/chat'],
+  ['Backend', 'DB', '预创建空消息', true],
+  ['Backend', 'AgentEngine', 'chat(signal, onEvent)'],
   ['AgentEngine', 'RAG', 'research(query, city)'],
-  ['RAG', 'RAG', 'rewriteQuery → 3-path recall → RRF → rerank', true],
-  ['RAG', 'DB', 'vector + keyword + rating'],
-  ['RAG', 'AgentEngine', 'top-5 POI results'],
-  // 9-12: LLM tool call loop
   ['AgentEngine', 'LLM', 'invoke(messages + tools)'],
-  ['LLM', 'AgentEngine', 'tool_call maps_*'],
-  ['AgentEngine', 'MCP', 'callTool(name, args)'],
-  ['MCP', 'AgentEngine', 'result'],
-  // 13-16: LLM streaming
-  ['AgentEngine', 'LLM', 'invoke(messages + result)'],
-  ['LLM', 'AgentEngine', 'content chunks'],
-  ['AgentEngine', 'Backend', 'on_chunk / on_tool_end', true],
-  ['Backend', 'Frontend', 'SSE data: {type: chunk}'],
-  // 17-19: Complete
-  ['AgentEngine', 'Backend', 'on_complete (with usage)', true],
-  ['Backend', 'DB', 'persist assistant message', true],
-  ['Backend', 'Frontend', 'SSE data: {type: complete}'],
-  // 20-21: Async image fetch
-  ['Backend', 'IMG', 'fetchImages(itinerary)', true],
-  ['IMG', 'DB', 'update trip.itinerary', true],
-] as const
-
-const labelIndices = new Set([3, 4, 8, 10, 12, 15])
+  ['LLM', 'AgentEngine', 'tool_call maps_weather'],
+  ['AgentEngine', 'MCP', 'callTool'],
+  ['MCP', 'AgentEngine', '返回结果'],
+  ['AgentEngine', 'LLM', 'invoke(带 tool result)'],
+  ['LLM', 'AgentEngine', '流式 content chunk'],
+  ['AgentEngine', 'Backend', 'on_chunk', true],
+  ['Backend', 'Frontend', 'SSE chunk'],
+  ['AgentEngine', 'Backend', 'on_complete', true],
+  ['Backend', 'DB', '持久化消息', true],
+  ['Backend', 'Frontend', 'SSE complete'],
+  ['Backend', 'IMG', 'fetchImages', true],
+]
 
 const edges: Edge[] = messages.map(([source, target, label, isInternal], i) => {
   const stroke = isInternal ? '#82b366' : '#1976d2'
@@ -56,17 +44,13 @@ const edges: Edge[] = messages.map(([source, target, label, isInternal], i) => {
     id: `m${i + 1}`,
     source,
     target,
-    label: labelIndices.has(i) ? `${i + 1}. ${label}` : undefined,
+    label: `${i + 1}`,
     labelStyle: { fontSize: '9px', fill: '#333' },
-    labelBgPadding: [3, 2],
-    labelBgStyle: { fill: '#fff', fillOpacity: 0.85 },
-    style: {
-      stroke,
-      strokeWidth: 1.5,
-      strokeDasharray: isInternal ? '4 4' : undefined,
-    },
-    markerEnd: { type: MarkerType.ArrowClosed, color: stroke, width: 14, height: 14 },
-    type: 'smoothstep',
+    labelBgPadding: [6, 2],
+    labelBgStyle: { fill: isInternal ? '#f0faf0' : '#e8f4fd', fillOpacity: 0.9 },
+    style: { stroke, strokeWidth: 1.5, strokeDasharray: isInternal ? '4 4' : undefined },
+    markerEnd: { type: MarkerType.ArrowClosed, color: stroke, width: 12, height: 12 },
+    type: 'default',
   }
 })
 </script>
@@ -77,7 +61,6 @@ const edges: Edge[] = messages.map(([source, target, label, isInternal], i) => {
       :nodes="nodes"
       :edges="edges"
       :node-types="nodeTypes"
-      :default-viewport="{ x: 0, y: 0, zoom: 0.65 }"
       fit-view-on-init
       :nodes-draggable="false"
       :nodes-connectable="false"
