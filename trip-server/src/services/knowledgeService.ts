@@ -305,8 +305,8 @@ export async function searchSpots(params: {
   // === RRF 融合 ===
   const fused = rrfFuse(path1, path2, path3)
 
-  // === Cross-Encoder 重排序（top-10，高分跳过） ===
-  const rerankCandidates = fused.slice(0, 10)
+  // === Cross-Encoder 重排序（top-20，高分跳过） ===
+  const rerankCandidates = fused.slice(0, 20)
   // RRF 得分 > 0.15 的 top-1 置信度够高，跳过重排
   const skipRerank = rerankCandidates.length > 0 && rerankCandidates[0].rrfScore > 0.15
   if (rerankCandidates.length > 1 && !skipRerank) {
@@ -314,7 +314,7 @@ export async function searchSpots(params: {
       const reranked = await rerankTopK(
         rewrittenQuery,
         rerankCandidates.map(c => c.desc),
-        Math.min(fused.length, 10),
+        Math.min(fused.length, 20),
       )
       // 按 rerank 得分重新映射
       const rerankedMap = new Map<string, number>()
