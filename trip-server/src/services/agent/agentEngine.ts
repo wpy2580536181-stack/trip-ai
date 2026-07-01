@@ -19,6 +19,7 @@ import { buildChatGraph } from './chatGraph'
 import { validateOutput } from './nodes/validate'
 import { emptyUsage } from './types'
 import { ToolCache } from '../llmGuard/toolCache'
+import { RedisTTLCache } from '../llmGuard/redisCache'
 import { withToolCache } from './toolCache'
 
 export interface ChatParams {
@@ -55,19 +56,26 @@ class AgentEngine {
    *
    * embedding 归一化用 bge-small-zh-v1.5（本地，~50ms/query）。
    * 阈值 0.85：同义改写通常 > 0.85，跨主题 < 0.7。
+   *
+   * 缓存后端由 CACHE_DRIVER 环境变量控制：
+   * - 'redis' → RedisTTLCache（跨 Worker 共享）
+   * - 其他    → TTLCache（进程内内存，默认）
    */
-  private toolCache = new ToolCache({
-    retrieve_knowledge: {
-      ttlMs: 6 * 60 * 60 * 1000,
-      maxSize: 500,
-      embeddingKey: {
-        // 把 city + category + query 拼成"语义字符串"再 embedding
-        // 这样"成都美食 food"和"北京美食 food"不会被误命中
-        extractor: (args) => `${args.city ?? ''} ${args.category ?? ''} ${args.query ?? ''}`.trim(),
-        threshold: 0.85,
+  private toolCache = new ToolCache(
+    {
+      retrieve_knowledge: {
+        ttlMs: 6 * 60 * 60 * 1000,
+        maxSize: 500,
+        embeddingKey: {
+          extractor: (args) => `${args.city ?? ''} ${args.category ?? ''} ${args.query ?? ''}`.trim(),
+          threshold: 0.85,
+        },
       },
     },
-  })
+    process.env.CACHE_DRIVER === 'redis'
+      ? (_cfg, toolName) => new RedisTTLCache({ prefix: `toolcache:${toolName}` })
+      : undefined,
+  )
 
   private amapTools: DynamicTool[] = []
   private amapToolsInitPromise: Promise<void> | null = null

@@ -1,4 +1,4 @@
-import { TTLCache } from './cache'
+import { type CacheAdapter, TTLCache } from './cache'
 import { agentLog as log } from '../../utils/logger'
 import { embedText } from '../../config/embeddings'
 
@@ -34,6 +34,8 @@ interface ToolEntry {
   vector: number[] | null
 }
 
+export type CacheFactory = (config: ToolCacheConfig, toolName: string) => CacheAdapter<ToolEntry>
+
 /**
  * 按 tool 维度隔离的缓存管理器。
  *
@@ -46,18 +48,29 @@ interface ToolEntry {
  * - string 字段 trim + toLowerCase
  * - 数字 / boolean 保持原样
  * - 跳过 undefined / null 字段
+ *
+ * cacheFactory：可注入 RedisTTLCache 等后端，默认用 TTLCache（进程内内存）。
  */
 export class ToolCache {
-  private caches = new Map<string, TTLCache<ToolEntry>>()
+  private caches = new Map<string, CacheAdapter<ToolEntry>>()
   private configs: Map<string, ToolCacheConfig>
 
-  constructor(configs: Record<string, ToolCacheConfig>) {
+  constructor(
+    configs: Record<string, ToolCacheConfig>,
+    cacheFactory?: CacheFactory,
+  ) {
     this.configs = new Map(Object.entries(configs))
+    const defaultFactory: CacheFactory = (cfg) => {
+      const inner = new TTLCache<ToolEntry>({ maxSize: cfg.maxSize, defaultTtlMs: cfg.ttlMs })
+      return {
+        get: (key) => inner.aget(key),
+        set: (key, value, ttlMs) => inner.aset(key, value, ttlMs),
+        values: () => inner.avalues(),
+      }
+    }
+    const factory: CacheFactory = cacheFactory ?? defaultFactory
     for (const [toolName, cfg] of this.configs) {
-      this.caches.set(
-        toolName,
-        new TTLCache<ToolEntry>({ maxSize: cfg.maxSize, defaultTtlMs: cfg.ttlMs }),
-      )
+      this.caches.set(toolName, factory(cfg, toolName))
     }
   }
 
@@ -86,18 +99,18 @@ export class ToolCache {
     toolName: string,
     args: Record<string, unknown>,
     compute: () => Promise<string>,
-    cache: TTLCache<ToolEntry>,
+    cache: CacheAdapter<ToolEntry>,
     cfg: ToolCacheConfig,
   ): Promise<{ result: string; hit: boolean }> {
     const literalKey = this.makeLiteralKey(toolName, args)
-    const cached = cache.get(literalKey)
+    const cached = await cache.get(literalKey)
     if (cached !== undefined) {
       log.info({ toolName, hit: true, mode: 'literal', key: literalKey }, 'tool cache hit')
       return { result: cached.value, hit: true }
     }
 
     const result = await compute()
-    cache.set(literalKey, { value: result, literalKey, vector: null }, cfg.ttlMs)
+    await cache.set(literalKey, { value: result, literalKey, vector: null }, cfg.ttlMs)
     log.info({ toolName, hit: false, mode: 'literal', key: literalKey, resultLen: result.length }, 'tool cache miss')
     return { result, hit: false }
   }
@@ -106,7 +119,7 @@ export class ToolCache {
     toolName: string,
     args: Record<string, unknown>,
     compute: () => Promise<string>,
-    cache: TTLCache<ToolEntry>,
+    cache: CacheAdapter<ToolEntry>,
     cfg: ToolCacheConfig,
   ): Promise<{ result: string; hit: boolean }> {
     const ek = cfg.embeddingKey!
@@ -117,14 +130,12 @@ export class ToolCache {
 
     let bestSim = -1
     let bestEntry: ToolEntry | null = null
-    let bestKey = ''
-    for (const entry of cache.values()) {
+    for (const entry of await cache.values()) {
       if (!entry.vector) continue
       const sim = dotProduct(queryVec, entry.vector)
       if (sim > bestSim) {
         bestSim = sim
         bestEntry = entry
-        bestKey = entry.literalKey
       }
     }
 
@@ -137,9 +148,8 @@ export class ToolCache {
     }
 
     const result = await compute()
-    // embedding 路径下用 'embed:<text>' 作为字面 key（仅占位用，永不命中）
     const entryKey = `embed:${keyText}`
-    cache.set(entryKey, { value: result, literalKey: entryKey, vector: queryVec }, cfg.ttlMs)
+    await cache.set(entryKey, { value: result, literalKey: entryKey, vector: queryVec }, cfg.ttlMs)
     log.info(
       {
         toolName,

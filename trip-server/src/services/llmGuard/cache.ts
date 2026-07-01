@@ -1,3 +1,9 @@
+export interface CacheAdapter<V> {
+  get(key: string): Promise<V | undefined>
+  set(key: string, value: V, ttlMs?: number): Promise<void>
+  values(): Promise<V[]>
+}
+
 const DEFAULT_MAX_SIZE = 100
 const DEFAULT_TTL_MS = 3_600_000
 
@@ -29,6 +35,11 @@ export class TTLCache<V = unknown> {
     return entry.value
   }
 
+  /** CacheAdapter async 实现 */
+  async aget(key: string): Promise<V | undefined> {
+    return this.get(key)
+  }
+
   set(key: string, value: V, ttlMs?: number): void {
     if (this.cache.size >= this.maxSize && !this.cache.has(key)) {
       const oldest = this.cache.keys().next().value
@@ -38,6 +49,11 @@ export class TTLCache<V = unknown> {
       value,
       expiresAt: Date.now() + (ttlMs ?? this.defaultTtlMs),
     })
+  }
+
+  /** CacheAdapter async 实现 */
+  async aset(key: string, value: V, ttlMs?: number): Promise<void> {
+    this.set(key, value, ttlMs)
   }
 
   async getOrCompute(key: string, compute: () => Promise<V>, ttlMs?: number): Promise<V> {
@@ -67,6 +83,11 @@ export class TTLCache<V = unknown> {
       result.push(entry.value)
     }
     return result
+  }
+
+  /** CacheAdapter async 实现 */
+  async avalues(): Promise<V[]> {
+    return this.values()
   }
 
   size(): number {
