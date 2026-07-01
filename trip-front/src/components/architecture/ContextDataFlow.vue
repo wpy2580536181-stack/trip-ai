@@ -20,16 +20,16 @@ const nodeTypes = {
 }
 
 const nodes: Node[] = [
-  { id: 'msg', type: 'service', position: { x: 0, y: 100 }, data: { label: 'User Message', color: '#dae8fc' } },
-  { id: 'history', type: 'database', position: { x: 180, y: 100 }, data: { label: 'Message History', sublabel: 'MySQL' } },
-  { id: 'counter', type: 'service', position: { x: 360, y: 100 }, data: { label: 'Token Counter', sublabel: 'current usage', color: '#fff2cc' } },
-  { id: 'budget', type: 'decision', position: { x: 540, y: 80 }, data: { label: 'Token Budget?', sublabel: 'HISTORY_MAX=8000' } },
-  { id: 'keep', type: 'service', position: { x: 740, y: -20 }, data: { label: 'Keep All', sublabel: 'within budget', color: '#d5e8d4' } },
-  { id: 'summarize', type: 'service', position: { x: 740, y: 100 }, data: { label: 'Summarize Old', sublabel: 'approaching limit', color: '#ffe6cc' } },
-  { id: 'compress', type: 'service', position: { x: 740, y: 220 }, data: { label: 'Compress Path', sublabel: 'exceeded', color: '#f8cecc' } },
+  { id: 'msg', type: 'service', position: { x: 0, y: 100 }, data: { label: '用户消息', color: '#dae8fc' } },
+  { id: 'history', type: 'database', position: { x: 180, y: 100 }, data: { label: '消息历史', sublabel: 'MySQL' } },
+  { id: 'counter', type: 'service', position: { x: 360, y: 100 }, data: { label: 'Token 计数', sublabel: '当前用量', color: '#fff2cc' } },
+  { id: 'budget', type: 'decision', position: { x: 540, y: 80 }, data: { label: 'Token 预算?', sublabel: 'HISTORY_MAX=8000' } },
+  { id: 'keep', type: 'service', position: { x: 740, y: -20 }, data: { label: '全部保留', sublabel: '预算充足', color: '#d5e8d4' } },
+  { id: 'summarize', type: 'service', position: { x: 740, y: 100 }, data: { label: '摘要旧消息', sublabel: '接近上限', color: '#ffe6cc' } },
+  { id: 'compress', type: 'service', position: { x: 740, y: 220 }, data: { label: '压缩路径', sublabel: '超出上限', color: '#f8cecc' } },
   { id: 'compressor', type: 'service', position: { x: 940, y: 100 }, data: { label: 'compressConversation', color: '#fff2cc' } },
-  { id: 'summary-cache', type: 'database', position: { x: 940, y: 240 }, data: { label: 'Summary Cache', sublabel: 'in-memory' } },
-  { id: 'llm-call', type: 'cloud', position: { x: 1140, y: 100 }, data: { label: 'LLM Call', sublabel: 'compressed ctx' } },
+  { id: 'summary-cache', type: 'database', position: { x: 940, y: 240 }, data: { label: '摘要缓存', sublabel: '内存' } },
+  { id: 'llm-call', type: 'cloud', position: { x: 1140, y: 100 }, data: { label: 'LLM 调用', sublabel: '压缩后上下文' } },
 ]
 
 const labelStyle = { fontSize: '10px', fill: '#333' }
@@ -38,9 +38,9 @@ const edges: Edge[] = [
   { id: 'e1', source: 'msg', target: 'history', style: { stroke: '#999', strokeWidth: 1.5 } },
   { id: 'e2', source: 'history', target: 'counter', style: { stroke: '#999', strokeWidth: 1.5 } },
   { id: 'e3', source: 'counter', target: 'budget', style: { stroke: '#999', strokeWidth: 1.5 } },
-  { id: 'e4', source: 'budget', sourceHandle: 'yes', target: 'keep', label: 'within', labelStyle, style: { stroke: '#82b366', strokeWidth: 2 } },
-  { id: 'e5', source: 'budget', target: 'summarize', label: 'near', labelStyle, style: { stroke: '#d6b656', strokeWidth: 2 } },
-  { id: 'e6', source: 'budget', sourceHandle: 'no', target: 'compress', label: 'over', labelStyle, style: { stroke: '#b85450', strokeWidth: 2 } },
+  { id: 'e4', source: 'budget', sourceHandle: 'yes', target: 'keep', label: '充足', labelStyle, style: { stroke: '#82b366', strokeWidth: 2 } },
+  { id: 'e5', source: 'budget', target: 'summarize', label: '接近', labelStyle, style: { stroke: '#d6b656', strokeWidth: 2 } },
+  { id: 'e6', source: 'budget', sourceHandle: 'no', target: 'compress', label: '超出', labelStyle, style: { stroke: '#b85450', strokeWidth: 2 } },
   { id: 'e7', source: 'keep', target: 'compressor', style: { stroke: '#82b366', strokeDasharray: '4 4' } },
   { id: 'e8', source: 'summarize', target: 'compressor', style: { stroke: '#d6b656', strokeWidth: 2 } },
   { id: 'e9', source: 'compress', target: 'compressor', style: { stroke: '#b85450', strokeWidth: 2 } },

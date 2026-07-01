@@ -52,6 +52,7 @@ declare module 'vue' {
     NTabPane: typeof import('naive-ui')['NTabPane']
     NTabs: typeof import('naive-ui')['NTabs']
     NTag: typeof import('naive-ui')['NTag']
+    RagPipeline: typeof import('./src/components/architecture/RagPipeline.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     ServiceNode: typeof import('./src/components/architecture/nodes/ServiceNode.vue')['default']
