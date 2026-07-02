@@ -307,8 +307,8 @@ export async function searchSpots(params: {
 
   // === Cross-Encoder 重排序（top-20，高分跳过） ===
   const rerankCandidates = fused.slice(0, 20)
-  // RRF 得分 > 0.15 的 top-1 置信度够高，跳过重排
-  const skipRerank = rerankCandidates.length > 0 && rerankCandidates[0].rrfScore > 0.15
+  // RRF 理论上限 3/(0+60)≈0.05；>0.04 表示三路召回高度一致，可跳过重排
+  const skipRerank = rerankCandidates.length > 0 && rerankCandidates[0].rrfScore > 0.04
   if (rerankCandidates.length > 1 && !skipRerank) {
     try {
       const reranked = await rerankTopK(
