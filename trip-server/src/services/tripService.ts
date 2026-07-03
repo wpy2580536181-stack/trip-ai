@@ -1,6 +1,7 @@
 import agentEngine from './agent/agentEngine'
 import { getOrCreateConversation, saveMessage, autoTitle } from './conversationService'
-import { compressConversation } from './summaryService'
+import { summaryService, compressConversation } from './summaryService'
+import { isPlanningRequest } from './agent/nodes/router'
 import { recommendCache } from './llmGuard/cache'
 import prisma from '../config/database'
 import { Prisma } from '@prisma/client'
@@ -106,6 +107,17 @@ class TripService {
             compressConversation(conversation.id).catch(e => {
               log.error({ err: e, conversationId: conversation.id }, '摘要压缩失败')
             })
+            // 记录关键决策：如果用户发起了行程规划/修改请求，记录到摘要
+            if (isPlanningRequest(message)) {
+              const decision = `用户发起行程规划：${message}`
+              summaryService.appendKeyDecision(
+                prisma,
+                conversation.id,
+                decision,
+              ).catch(e => {
+                log.warn({ err: e, conversationId: conversation.id }, '记录关键决策失败')
+              })
+            }
           } else if (event.type === 'error') {
             await persistAssistant(fullReply, true)
             compressConversation(conversation.id).catch(e => {
