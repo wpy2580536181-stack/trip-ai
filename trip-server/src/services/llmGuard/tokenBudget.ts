@@ -28,10 +28,10 @@ export class TokenBudgetManager {
   readonly globalWindowMs: number
 
   constructor(config?: TokenBudgetConfig) {
-    this.userLimit = config?.userTokenLimit ?? 50_000
-    this.globalLimit = config?.globalTokenLimit ?? 200_000
-    this.userWindowMs = config?.userWindowMs ?? ONE_HOUR_MS
-    this.globalWindowMs = config?.globalWindowMs ?? ONE_MINUTE_MS
+    this.userLimit = config?.userTokenLimit ?? (Number(process.env.USER_TOKEN_LIMIT) || 50_000)
+    this.globalLimit = config?.globalTokenLimit ?? (Number(process.env.GLOBAL_TOKEN_LIMIT) || 200_000)
+    this.userWindowMs = config?.userWindowMs ?? (Number(process.env.USER_TOKEN_WINDOW_MS) || ONE_HOUR_MS)
+    this.globalWindowMs = config?.globalWindowMs ?? (Number(process.env.GLOBAL_TOKEN_WINDOW_MS) || ONE_MINUTE_MS)
     this.cleanupTimer = setInterval(() => this.cleanup(), ONE_MINUTE_MS)
     if (this.cleanupTimer.unref) this.cleanupTimer.unref()
   }
