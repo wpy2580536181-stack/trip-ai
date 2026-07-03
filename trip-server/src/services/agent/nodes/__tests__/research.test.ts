@@ -117,8 +117,8 @@ describe('researchNode', () => {
     await researchNode(state as any, config)
     const toolStarts = events.filter(e => e.type === 'tool_start')
     const toolEnds = events.filter(e => e.type === 'tool_end')
-    expect(toolStarts.length).toBe(4) // attraction + food + hotel + distance（天气已迁移到 MCP）
-    expect(toolEnds.length).toBe(4)
+    expect(toolStarts.length).toBe(5) // attraction + food + hotel + weather (MCP) + distance
+    expect(toolEnds.length).toBe(5)
   })
 
   it('查询词带 userPreferences.interests', async () => {

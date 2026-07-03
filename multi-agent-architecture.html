@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trip AI 多Agent架构设计</title>
+  <style>
+    :root {
+      --c-bg: #f8fafc;
+      --c-canvas: #ffffff;
+      --c-border: #cbd5e1;
+      --c-border-dark: #94a3b8;
+      --c-text-main: #0f172a;
+      --c-text-sub: #64748b;
+      --c-accent: #1e293b;
+      --c-accent-blue: #3b82f6;
+      --c-accent-green: #10b981;
+      --c-accent-amber: #f59e0b;
+      --c-accent-red: #ef4444;
+      --font-ui: system-ui, -apple-system, 'Segoe UI', sans-serif;
+      --font-mono: 'SF Mono', Monaco, Consolas, monospace;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--c-bg);
+      font-family: var(--font-ui);
+      color: var(--c-text-main);
+      padding: 32px;
+    }
+
+    .diagram-canvas {
+      background: var(--c-canvas);
+      border: 2px solid var(--c-border);
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .diagram-header {
+      border-bottom: 1px solid var(--c-border);
+      padding-bottom: 16px;
+      margin-bottom: 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    .diagram-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--c-text-main);
+      letter-spacing: -0.3px;
+    }
+
+    .diagram-subtitle {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--c-text-sub);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 4px;
+    }
+
+    .diagram-meta {
+      font-size: 10px;
+      font-family: var(--font-mono);
+      color: var(--c-text-sub);
+      text-align: right;
+      line-height: 1.6;
+    }
+
+    /* ── Section ── */
+    .section {
+      margin-bottom: 28px;
+    }
+
+    .section-label {
+      font-size: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--c-text-sub);
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px dashed var(--c-border);
+    }
+
+    /* ── Layers ── */
+    .layer {
+      border: 1px solid var(--c-border);
+      padding: 20px;
+      margin-bottom: 16px;
+      position: relative;
+    }
+
+    .layer-tag {
+      position: absolute;
+      top: -9px;
+      left: 16px;
+      background: var(--c-canvas);
+      padding: 0 8px;
+      font-size: 11px;
+      font-weight: 600;
+      font-family: var(--font-mono);
+      color: var(--c-text-sub);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* ── Agent Nodes ── */
+    .agent-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    .agent-grid--specialists {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+
+    .agent-node {
+      border: 1px solid var(--c-border);
+      padding: 14px 16px;
+      position: relative;
+    }
+
+    .agent-node--supervisor {
+      border: 2px solid var(--c-accent);
+      background: #fafbfc;
+    }
+
+    .agent-name {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .agent-desc {
+      font-size: 12px;
+      color: var(--c-text-sub);
+      line-height: 1.5;
+    }
+
+    .agent-tools {
+      margin-top: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 10px;
+      font-family: var(--font-mono);
+      padding: 2px 7px;
+      border: 1px solid var(--c-border-dark);
+      color: var(--c-text-sub);
+      letter-spacing: 0.2px;
+    }
+
+    .badge--filled {
+      background: var(--c-text-main);
+      color: var(--c-canvas);
+      border-color: var(--c-text-main);
+    }
+
+    .badge--blue {
+      border-color: var(--c-accent-blue);
+      color: var(--c-accent-blue);
+    }
+
+    .badge--green {
+      border-color: var(--c-accent-green);
+      color: var(--c-accent-green);
+    }
+
+    .badge--amber {
+      border-color: var(--c-accent-amber);
+      color: var(--c-accent-amber);
+    }
+
+    /* ── Routing Diagram ── */
+    .routing-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      padding: 12px 0;
+    }
+
+    .routing-center {
+      width: 140px;
+      height: 56px;
+      border: 2px solid var(--c-accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 600;
+      font-family: var(--font-mono);
+      background: #fafbfc;
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .routing-branch {
+      display: flex;
+      align-items: center;
+      gap: 0;
+    }
+
+    .routing-line {
+      width: 40px;
+      height: 0;
+      border-top: 1px solid var(--c-border-dark);
+    }
+
+    .routing-line--dashed {
+      border-top-style: dashed;
+    }
+
+    .routing-target {
+      border: 1px solid var(--c-border);
+      padding: 8px 14px;
+      font-size: 12px;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .routing-arrows {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 6px;
+    }
+
+    .arrow-label {
+      font-size: 9px;
+      font-family: var(--font-mono);
+      color: var(--c-text-sub);
+      text-transform: uppercase;
+    }
+
+    /* ── State & Comm ── */
+    .state-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .state-block {
+      border: 1px solid var(--c-border);
+      padding: 14px 16px;
+    }
+
+    .state-title {
+      font-size: 12px;
+      font-weight: 600;
+      font-family: var(--font-mono);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 10px;
+      color: var(--c-text-main);
+    }
+
+    .state-item {
+      font-size: 12px;
+      color: var(--c-text-sub);
+      line-height: 1.8;
+      font-family: var(--font-mono);
+    }
+
+    .state-item span {
+      color: var(--c-text-main);
+      font-weight: 500;
+    }
+
+    /* ── Flow ── */
+    .flow-container {
+      display: flex;
+      align-items: stretch;
+      gap: 0;
+      overflow-x: auto;
+    }
+
+    .flow-step {
+      flex: 1;
+      min-width: 120px;
+      border: 1px solid var(--c-border);
+      padding: 12px;
+      text-align: center;
+      position: relative;
+    }
+
+    .flow-step + .flow-step {
+      border-left: none;
+    }
+
+    .flow-step-num {
+      font-size: 9px;
+      font-family: var(--font-mono);
+      color: var(--c-text-sub);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+    }
+
+    .flow-step-name {
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .flow-step-desc {
+      font-size: 10px;
+      color: var(--c-text-sub);
+      margin-top: 4px;
+      font-family: var(--font-mono);
+    }
+
+    .flow-step--active {
+      background: #fafbfc;
+      border: 2px solid var(--c-accent);
+    }
+
+    .flow-step--active + .flow-step {
+      border-left: none;
+    }
+
+    /* ── Connector Arrows ── */
+    .connector-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 0;
+    }
+
+    .connector-arrow {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+    }
+
+    .connector-arrow .line {
+      width: 0;
+      height: 20px;
+      border-left: 1px solid var(--c-border-dark);
+    }
+
+    .connector-arrow .arrow {
+      width: 0;
+      height: 0;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 6px solid var(--c-border-dark);
+    }
+
+    .connector-arrow .label {
+      font-size: 9px;
+      font-family: var(--font-mono);
+      color: var(--c-text-sub);
+      writing-mode: horizontal-tb;
+      margin-top: -2px;
+    }
+
+    /* ── Vertical Layout ── */
+    .v-layout {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* ── Wide agent grid for layer 2 ── */
+    .specialist-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+
+    .specialist-node {
+      border: 1px solid var(--c-border);
+      padding: 12px 14px;
+    }
+
+    .specialist-node .agent-name {
+      font-size: 13px;
+    }
+
+    .specialist-node .agent-desc {
+      font-size: 11px;
+    }
+
+    /* ── Infra grid ── */
+    .infra-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .infra-node {
+      border: 1px dashed var(--c-border);
+      padding: 12px 14px;
+    }
+
+    .infra-name {
+      font-size: 12px;
+      font-weight: 600;
+      font-family: var(--font-mono);
+      margin-bottom: 4px;
+    }
+
+    .infra-desc {
+      font-size: 11px;
+      color: var(--c-text-sub);
+    }
+
+    /* ── Routing visual ── */
+    .route-visual {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      padding: 16px 0;
+    }
+
+    .route-hub {
+      border: 2px solid var(--c-accent);
+      padding: 10px 20px;
+      font-size: 13px;
+      font-weight: 600;
+      font-family: var(--font-mono);
+      background: #fafbfc;
+      flex-shrink: 0;
+    }
+
+    .route-spoke {
+      display: flex;
+      align-items: center;
+    }
+
+    .route-line-h {
+      width: 32px;
+      border-top: 1px solid var(--c-border-dark);
+    }
+
+    .route-endpoint {
+      border: 1px solid var(--c-border);
+      padding: 6px 12px;
+      font-size: 11px;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    /* ── Full routing diagram ── */
+    .routing-diagram {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .route-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+    }
+
+    .route-row--center {
+      justify-content: center;
+    }
+
+    .route-h-line {
+      flex: 0 0 40px;
+      border-top: 1px solid var(--c-border-dark);
+    }
+
+    .route-target-box {
+      border: 1px solid var(--c-border);
+      padding: 8px 16px;
+      font-size: 12px;
+      font-weight: 500;
+      text-align: center;
+      min-width: 100px;
+    }
+
+    .route-target-box--highlight {
+      border: 2px solid var(--c-accent);
+      background: #fafbfc;
+      font-weight: 600;
+      font-family: var(--font-mono);
+    }
+
+    .route-branch-container {
+      display: flex;
+      align-items: center;
+      gap: 0;
+    }
+
+    .route-vline-segment {
+      width: 0;
+      height: 16px;
+      border-left: 1px solid var(--c-border-dark);
+    }
+
+    .route-4col {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      width: 100%;
+    }
+
+    .route-4col .route-target-box {
+      width: 100%;
+    }
+
+    .route-connector-down {
+      display: flex;
+      justify-content: center;
+    }
+
+    .route-connector-down .vline {
+      width: 0;
+      height: 20px;
+      border-left: 1px solid var(--c-border-dark);
+    }
+
+    .route-connector-down .arrow-down {
+      width: 0; height: 0;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 6px solid var(--c-border-dark);
+    }
+
+    .route-spread {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      width: 100%;
+      height: 24px;
+    }
+
+    .route-spread::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 0;
+      height: 12px;
+      border-left: 1px solid var(--c-border-dark);
+    }
+
+    .route-spread::after {
+      content: '';
+      position: absolute;
+      top: 12px;
+      left: calc(12.5% + 6px);
+      right: calc(12.5% + 6px);
+      height: 0;
+      border-top: 1px solid var(--c-border-dark);
+    }
+
+    .route-drop-arrows {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      width: 100%;
+    }
+
+    .route-drop-arrow {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .route-drop-arrow .vline {
+      width: 0;
+      height: 10px;
+      border-left: 1px solid var(--c-border-dark);
+    }
+
+    .route-drop-arrow .tri {
+      width: 0; height: 0;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 5px solid var(--c-border-dark);
+    }
+
+    /* ── Note ── */
+    .note {
+      font-size: 11px;
+      color: var(--c-text-sub);
+      font-style: italic;
+      margin-top: 8px;
+      line-height: 1.5;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid var(--c-border);
+      margin: 24px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="diagram-canvas">
+    <!-- Header -->
+    <div class="diagram-header">
+      <div>
+        <h1 class="diagram-title">Trip AI · 多Agent架构设计</h1>
+        <p class="diagram-subtitle">MULTI-AGENT ARCHITECTURE — LANGGRAPH ORCHESTRATION</p>
+      </div>
+      <div class="diagram-meta">
+        REV 1.0 / 2026-07-02<br/>
+        FRAMEWORK: LangGraph + LangChain
+      </div>
+    </div>
+
+    <!-- ━━━ LAYER 0: User Interface ━━━ -->
+    <div class="section">
+      <div class="section-label">Layer 0 · 接入层</div>
+      <div class="layer">
+        <span class="layer-tag">ENTRY POINT</span>
+        <div style="display:flex; align-items:center; justify-content:center; gap:32px; padding:8px 0;">
+          <div style="text-align:center;">
+            <div style="font-size:13px; font-weight:600;">用户请求</div>
+            <div style="font-size:11px; color:var(--c-text-sub); font-family:var(--font-mono); margin-top:4px;">
+              "帮我规划3天北京行程，预算5000"
+            </div>
+          </div>
+          <div style="display:flex; align-items:center;">
+            <div style="width:48px; border-top:1px solid var(--c-border-dark);"></div>
+            <div style="width:0;height:0;border-top:4px solid transparent;border-bottom:4px solid transparent;border-left:6px solid var(--c-border-dark);"></div>
+          </div>
+          <div class="route-target-box route-target-box--highlight">
+            OrchestratorAgent
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ━━━ LAYER 1: Orchestrator ━━━ -->
+    <div class="section">
+      <div class="section-label">Layer 1 · 编排层 — Supervisor 模式</div>
+      <div class="layer">
+        <span class="layer-tag">ORCHESTRATOR</span>
+        <div class="agent-grid">
+          <div class="agent-node agent-node--supervisor">
+            <div class="agent-name">
+              OrchestratorAgent
+              <span class="badge badge--filled">SUPERVISOR</span>
+            </div>
+            <div class="agent-desc">
+              核心调度中枢。接收用户输入 → 意图分类（route_intent） → 分发至专家 Agent → 收集结果 → 组装最终响应。
+              维护全局对话状态，支持多轮迭代与 Agent 间上下文传递。
+            </div>
+            <div class="agent-tools">
+              <span class="badge">intent_classifier</span>
+              <span class="badge">state_manager</span>
+              <span class="badge">response_assembler</span>
+              <span class="badge">error_handler</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Routing Diagram -->
+        <div style="margin-top: 20px;">
+          <div class="route-spread"></div>
+          <div class="route-drop-arrows">
+            <div class="route-drop-arrow"><div class="vline"></div><div class="tri"></div></div>
+            <div class="route-drop-arrow"><div class="vline"></div><div class="tri"></div></div>
+            <div class="route-drop-arrow"><div class="vline"></div><div class="tri"></div></div>
+            <div class="route-drop-arrow"><div class="vline"></div><div class="tri"></div></div>
+          </div>
+          <div class="route-4col" style="margin-top:2px;">
+            <div class="route-target-box" style="font-size:11px;">PlannerAgent</div>
+            <div class="route-target-box" style="font-size:11px;">RecommenderAgent</div>
+            <div class="route-target-box" style="font-size:11px;">ChatAgent</div>
+            <div class="route-target-box" style="font-size:11px;">BudgetAgent</div>
+          </div>
+        </div>
+        <p class="note">路由策略：intent ∈ {plan, recommend, chat, budget} → 对应专家Agent；复合意图可串行调度多个Agent</p>
+      </div>
+    </div>
+
+    <!-- ━━━ LAYER 2: Specialist Agents ━━━ -->
+    <div class="section">
+      <div class="section-label">Layer 2 · 专家层 — Specialist Agents</div>
+      <div class="specialist-row">
+
+        <!-- PlannerAgent -->
+        <div class="specialist-node">
+          <div class="agent-name">
+            PlannerAgent
+            <span class="badge badge--blue">CORE</span>
+          </div>
+          <div class="agent-desc">
+            行程规划专家。基于天数/偏好/约束生成日程，支持 ReAct 模式迭代优化。
+          </div>
+          <div class="agent-tools">
+            <span class="badge">plan_generator</span>
+            <span class="badge">schedule_optimizer</span>
+            <span class="badge">constraint_checker</span>
+          </div>
+        </div>
+
+        <!-- RecommenderAgent -->
+        <div class="specialist-node">
+          <div class="agent-name">
+            RecommenderAgent
+            <span class="badge badge--green">RAG</span>
+          </div>
+          <div class="agent-desc">
+            POI 推荐专家。封装完整 RAG 管线：query改写→三路召回→RRF→重排。
+          </div>
+          <div class="agent-tools">
+            <span class="badge">rag_pipeline</span>
+            <span class="badge">query_rewriter</span>
+            <span class="badge">cross_encoder</span>
+          </div>
+        </div>
+
+        <!-- ChatAgent -->
+        <div class="specialist-node">
+          <div class="agent-name">
+            ChatAgent
+            <span class="badge">LEGACY</span>
+          </div>
+          <div class="agent-desc">
+            通用对话。继承现有 legacy_agent，处理闲聊/问答/翻译等非结构化请求。
+          </div>
+          <div class="agent-tools">
+            <span class="badge">AgentExecutor</span>
+            <span class="badge">web_search</span>
+            <span class="badge">translator</span>
+          </div>
+        </div>
+
+        <!-- BudgetAgent -->
+        <div class="specialist-node">
+          <div class="agent-name">
+            BudgetAgent
+            <span class="badge badge--amber">NEW</span>
+          </div>
+          <div class="agent-desc">
+            预算管控。实时估算费用、分配每日预算、超支预警与方案调整。
+          </div>
+          <div class="agent-tools">
+            <span class="badge">cost_estimator</span>
+            <span class="badge">budget_allocator</span>
+            <span class="badge">alert_monitor</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ━━━ LAYER 3: Shared State ━━━ -->
+    <div class="section">
+      <div class="section-label">Layer 3 · 通信层 — Shared State & Message Bus</div>
+      <div class="layer">
+        <span class="layer-tag">LANGGRAPH STATE</span>
+        <div class="state-container">
+          <div class="state-block">
+            <div class="state-title">AgentState (TypedDict)</div>
+            <div class="state-item"><span>messages</span>: list[BaseMessage] — 全局消息流</div>
+            <div class="state-item"><span>current_intent</span>: str — 当前意图标签</div>
+            <div class="state-item"><span>trip_context</span>: dict — 目的地/天数/预算/偏好</div>
+            <div class="state-item"><span>plan_draft</span>: list[DayPlan] — 行程草稿</div>
+            <div class="state-item"><span>poi_candidates</span>: list[POI] — 推荐候选集</div>
+            <div class="state-item"><span>budget_state</span>: dict — 预算分配与消耗</div>
+            <div class="state-item"><span>agent_trace</span>: list[str] — 调用链路追踪</div>
+          </div>
+          <div class="state-block">
+            <div class="state-title">通信协议</div>
+            <div class="state-item"><span>模式</span>: Supervisor → Specialist (单向调度)</div>
+            <div class="state-item"><span>消息</span>: AIMessage + ToolMessage 混合传递</div>
+            <div class="state-item"><span>上下文</span>: Orchestrator 注入 trip_context 后分发</div>
+            <div class="state-item"><span>回调</span>: Specialist 完成后写回 State → Orchestrator 决策</div>
+            <div class="state-item"><span>迭代</span>: 支持 Orchestrator 多次调度同一Agent ( refine )</div>
+            <div class="state-item"><span>错误</span>: Specialist 异常 → Orchestrator 降级至 ChatAgent</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ━━━ LAYER 4: Infrastructure ━━━ -->
+    <div class="section">
+      <div class="section-label">Layer 4 · 基础设施层</div>
+      <div class="infra-grid">
+        <div class="infra-node">
+          <div class="infra-name">ChromaDB</div>
+          <div class="infra-desc">向量存储 · 3万POI · bge-small-zh-v1.5 · 512维</div>
+        </div>
+        <div class="infra-node">
+          <div class="infra-name">MySQL</div>
+          <div class="infra-desc">Source of Truth · POI元数据 · 用户行程持久化</div>
+        </div>
+        <div class="infra-node">
+          <div class="infra-name">LLM Gateway</div>
+          <div class="infra-desc">ChatOpenAI统一接入 · 意图分类用小模型 · 规划用大模型</div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- ━━━ Request Flow ━━━ -->
+    <div class="section">
+      <div class="section-label">典型请求流 — "帮我规划3天北京行程，预算5000"</div>
+      <div class="flow-container">
+        <div class="flow-step flow-step--active">
+          <div class="flow-step-num">STEP 1</div>
+          <div class="flow-step-name">意图识别</div>
+          <div class="flow-step-desc">Orchestrator<br/>→ plan + budget</div>
+        </div>
+        <div class="flow-step">
+          <div class="flow-step-num">STEP 2</div>
+          <div class="flow-step-name">POI 召回</div>
+          <div class="flow-step-desc">Recommender<br/>→ RAG pipeline</div>
+        </div>
+        <div class="flow-step">
+          <div class="flow-step-num">STEP 3</div>
+          <div class="flow-step-name">行程生成</div>
+          <div class="flow-step-desc">Planner<br/>→ 3天日程</div>
+        </div>
+        <div class="flow-step">
+          <div class="flow-step-num">STEP 4</div>
+          <div class="flow-step-name">预算校验</div>
+          <div class="flow-step-desc">Budget<br/>→ 费用估算</div>
+        </div>
+        <div class="flow-step">
+          <div class="flow-step-num">STEP 5</div>
+          <div class="flow-step-name">组装响应</div>
+          <div class="flow-step-desc">Orchestrator<br/>→ 最终输出</div>
+        </div>
+      </div>
+      <p class="note">复合意图串行调度：plan → recommend（为规划提供POI）→ budget（校验可行性）→ 组装。如需迭代，Orchestrator 可重新调度 Planner 调整方案。</p>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- ━━━ Key Design Decisions ━━━ -->
+    <div class="section">
+      <div class="section-label">关键设计决策</div>
+      <div class="state-container">
+        <div class="state-block">
+          <div class="state-title">WHY SUPERVISOR (非层级式)</div>
+          <div class="state-item" style="font-family:var(--font-ui); font-size:12px; line-height:1.7;">
+            <span>集中控制</span> — 旅行规划场景意图明确，Supervisor 模式天然适配"理解→拆分→组装"的工作流。相比层级式（Agent间直接通信），调试更简单、链路更可追踪。
+          </div>
+        </div>
+        <div class="state-block">
+          <div class="state-title">WHY NOT AUTONOMOUS SWARM</div>
+          <div class="state-item" style="font-family:var(--font-ui); font-size:12px; line-height:1.7;">
+            <span>可控性优先</span> — 面向C端用户的旅行产品需要确定性输出。Swarm模式的Agent自主协商会导致响应延迟不可控、结果难以预测。Supervisor保证每一步可审计。
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

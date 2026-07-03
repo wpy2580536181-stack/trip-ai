@@ -45,6 +45,37 @@ export function extractJson(text: string): unknown {
 }
 
 /**
+ * 从 LLM 输出中提取最长 balanced {...} 原始字符串（不 parse）。
+ * 供 repairJson 等修复流程使用，避免 extractJson 解析失败时丢失原始 JSON 文本。
+ */
+export function extractJsonString(text: string): string {
+  // 优先取 markdown code block 内的 JSON 文本（贪婪匹配，避免嵌套 JSON 被截断）
+  const codeBlockRe = /```(?:json)?\s*(\{[\s\S]*\})\s*```/g
+  let m: RegExpExecArray | null
+  let best = ''
+  while ((m = codeBlockRe.exec(text)) !== null) {
+    if (m[1].length > best.length) best = m[1]
+  }
+  if (best) return best
+
+  // 括号配对扫描，取最长的 balanced 候选
+  const candidates = findAllBalancedObjects(text)
+  for (const c of candidates) {
+    if (c.length > best.length) best = c
+  }
+  if (best) return best
+
+  // 兜底：返回 { 到 } 之间的文本
+  const firstBrace = text.indexOf('{')
+  const lastBrace = text.lastIndexOf('}')
+  if (firstBrace !== -1 && lastBrace > firstBrace) {
+    return text.slice(firstBrace, lastBrace + 1)
+  }
+
+  throw new Error(`无法从 LLM 输出中提取 JSON 字符串`)
+}
+
+/**
  * 扫描 text 中所有顶层 {...} 候选（按出现顺序）。
  * 字符串内 '}' 会被忽略，'\\' 转义正确处理。
  * 如果有未闭合的 '{'（截断），抛"输出被截断"错误。

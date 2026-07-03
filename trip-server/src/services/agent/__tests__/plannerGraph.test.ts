@@ -13,10 +13,10 @@ vi.mock('../nodes/planner', () => ({
   retryPlannerNode: (...a: any[]) => mockRetry(...a),
 }))
 vi.mock('../nodes/validate', () => ({
-  validateOutput: vi.fn((raw: string) => {
+  validateWithRepair: vi.fn((raw: string) => {
     // 简单模拟：raw 包含 'invalid' 时抛错
     if (raw.includes('invalid')) throw new Error('bad json')
-    return { parsed: { city: '北京', days: 2 } }
+    return { parsed: { city: '北京', days: 2 }, repaired: false }
   }),
 }))
 

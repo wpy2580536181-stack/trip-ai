@@ -3,15 +3,20 @@ import { StateGraph, END } from '@langchain/langgraph'
 import { PlannerState } from './state'
 import { researchNode } from './nodes/research'
 import { plannerNode, retryPlannerNode } from './nodes/planner'
-import { validateOutput } from './nodes/validate'
+import { validateWithRepair } from './nodes/validate'
+import type { PlannerConfig } from './types'
 
 export function buildPlannerGraph() {
   const graph = new StateGraph(PlannerState)
     .addNode('research', researchNode)
     .addNode('planner', plannerNode)
-    .addNode('validate', async (state: typeof PlannerState.State) => {
+    .addNode('validate', async (state: typeof PlannerState.State, config) => {
       try {
-        const { parsed } = validateOutput(state.rawOutput!)
+        const { parsed, repaired } = validateWithRepair(state.rawOutput!)
+        if (repaired) {
+          const { traceRecorder } = config.configurable as unknown as PlannerConfig
+          traceRecorder.add({ step: 0, type: 'complete', name: 'json_repair', output: 'JSON was repaired by Level 1 retry' })
+        }
         return { parsed }
       } catch (e) {
         const errMsg = e instanceof Error ? e.message : String(e)

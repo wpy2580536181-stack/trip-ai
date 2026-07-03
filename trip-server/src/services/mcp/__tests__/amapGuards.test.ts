@@ -16,11 +16,11 @@ describe('amapGuards', () => {
       return Promise.resolve('weather: 晴')
     })
 
-    const r1 = await amapGuards.call('amap_weather', { city: '北京' }, { cacheTtlMs: 60000 })
+    const r1 = await amapGuards.call('maps_weather', { city: '北京' }, { cacheTtlMs: 60000 })
     expect(r1).toBe('weather: 晴')
     expect(callCount).toBe(1)
 
-    const r2 = await amapGuards.call('amap_weather', { city: '北京' }, { cacheTtlMs: 60000 })
+    const r2 = await amapGuards.call('maps_weather', { city: '北京' }, { cacheTtlMs: 60000 })
     expect(r2).toBe('weather: 晴')
     expect(callCount, 'should use cache').toBe(1)
   })

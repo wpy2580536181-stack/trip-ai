@@ -16,11 +16,12 @@ import { agentLog as log } from '../../utils/logger'
 import { TraceRecorder } from './traceRecorder'
 import { buildPlannerGraph } from './plannerGraph'
 import { buildChatGraph } from './chatGraph'
-import { validateOutput } from './nodes/validate'
+import { validateWithRepair } from './nodes/validate'
 import { emptyUsage } from './types'
 import { ToolCache } from '../llmGuard/toolCache'
 import { RedisTTLCache } from '../llmGuard/redisCache'
 import { withToolCache } from './toolCache'
+import { tokenMonitor } from './observability/tokenMonitor'
 
 export interface ChatParams {
   userId: number
@@ -204,6 +205,16 @@ class AgentEngine {
       const result = await graph.invoke(initialState, config)
       traceRecorder.add({ step: stepCounter.value++, type: 'complete', durationMs: Date.now() - startTime })
       await traceRecorder.flush()
+      tokenMonitor.record({
+        requestType: 'chat',
+        route: result.route,
+        userId,
+        conversationId,
+        messageId,
+        totalUsage: result.usage,
+        latencyMs: Date.now() - startTime,
+        timestamp: Date.now(),
+      })
       await onEvent({
         type: 'complete',
         content: result.rawOutput ?? '',
@@ -268,14 +279,30 @@ class AgentEngine {
       if (result.parsed) {
         traceRecorder.add({ step: stepCounter.value++, type: 'complete', durationMs: Date.now() - startTime })
         await traceRecorder.flush()
+        tokenMonitor.record({
+          requestType: 'recommend',
+          userId,
+          messageId,
+          totalUsage: result.usage,
+          latencyMs: Date.now() - startTime,
+          timestamp: Date.now(),
+        })
         await onEvent({ type: 'complete', content: result.rawOutput ?? '', usage: result.usage })
         return { reply: result.rawOutput ?? '', parsed: result.parsed }
       }
-      // retry 后 rawOutput 仍可能未过校验，二次校验一次
+      // retry 后 rawOutput 仍可能未过校验，二次校验一次（使用 validateWithRepair 以获得 JSON repair 能力）
       try {
-        const { parsed } = validateOutput(result.rawOutput!)
+        const { parsed } = validateWithRepair(result.rawOutput!)
         traceRecorder.add({ step: stepCounter.value++, type: 'complete', durationMs: Date.now() - startTime })
         await traceRecorder.flush()
+        tokenMonitor.record({
+          requestType: 'recommend',
+          userId,
+          messageId,
+          totalUsage: result.usage,
+          latencyMs: Date.now() - startTime,
+          timestamp: Date.now(),
+        })
         await onEvent({ type: 'complete', content: result.rawOutput ?? '', usage: result.usage })
         return { reply: result.rawOutput ?? '', parsed }
       } catch {
