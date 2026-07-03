@@ -1,5 +1,7 @@
 import { Request, Response, NextFunction } from 'express'
 import { tokenBudget } from '../services/llmGuard/tokenBudget'
+import Redis from 'ioredis'
+import { logger } from '../utils/logger'
 
 const CLEANUP_INTERVAL_MS = 60_000
 
@@ -51,6 +53,61 @@ export class MemoryStore implements RateLimitStore {
   }
 }
 
+/**
+ * Redis-backed store for rate limiting.
+ * Uses INCR with EXPIRE for atomic windowed counting.
+ */
+export class RedisStore implements RateLimitStore {
+  private client: Redis
+
+  constructor(client: Redis) {
+    this.client = client
+  }
+
+  async increment(key: string, windowMs: number): Promise<{ count: number; resetAt: number }> {
+    const resetAt = Date.now() + windowMs
+    const ttlSeconds = Math.ceil(windowMs / 1000)
+
+    // Use multi() for atomicity
+    const multi = this.client.multi()
+    multi.incr(key)
+    multi.expire(key, ttlSeconds)
+
+    const results = await multi.exec()
+    const count = (results?.[0]?.[1] as number) || 1
+
+    return { count, resetAt }
+  }
+
+  async resetKey(key: string): Promise<void> {
+    await this.client.del(key)
+  }
+}
+
+/**
+ * Create default store based on environment configuration.
+ * - RATE_LIMIT_STORE=redis: Use Redis-backed store
+ * - Otherwise: Use in-memory store
+ */
+function createDefaultStore(): RateLimitStore {
+  const storeType = process.env.RATE_LIMIT_STORE?.toLowerCase()
+
+  if (storeType === 'redis') {
+    const redisClient = new Redis({
+      host: process.env.REDIS_HOST || '127.0.0.1',
+      port: Number(process.env.REDIS_PORT) || 6379,
+      password: process.env.REDIS_PASSWORD || undefined,
+      db: Number(process.env.REDIS_DB) || 0,
+    })
+
+    logger.info('[RateLimiter] Using Redis store')
+    return new RedisStore(redisClient)
+  }
+
+  logger.info('[RateLimiter] Using in-memory store')
+  return new MemoryStore()
+}
+
 export interface LimiterConfig {
   windowMs?: number
   max?: number
@@ -63,13 +120,19 @@ const defaultKeyGenerator = (req: Request): string => {
   return String((req as any).user?.userId ?? req.ip)
 }
 
+/**
+ * Create a rate limiter middleware.
+ * Supports Redis store via environment variables:
+ *   - RATE_LIMIT_STORE=redis (default: memory)
+ *   - REDIS_HOST / REDIS_PORT / REDIS_PASSWORD (standard Redis env vars)
+ */
 export function createLimiter(config: LimiterConfig) {
   const {
     windowMs = 60_000,
     max = 20,
     message = '请求过于频繁，请稍后再试',
     keyGenerator = defaultKeyGenerator,
-    store = new MemoryStore(),
+    store = createDefaultStore(),
   } = config
 
   return async (req: Request, res: Response, next: NextFunction): Promise<void> => {

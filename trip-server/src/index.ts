@@ -144,6 +144,38 @@ function startWorker() {
     })
   }
 
+  // 健康检查端点（负载均衡器用）
+  // 不检查数据库/Redis，只检查服务是否存活
+  app.get('/health', (_req: Request, res: Response) => {
+    res.status(200).send('OK')
+  })
+
+  // 详细健康检查端点（监控用）
+  // 只检查 MCP 进程健康状态（数据库/Redis 检查会影响性能）
+  app.get('/health/detail', async (_req: Request, res: Response) => {
+    const status: any = {
+      status: 'ok',
+      timestamp: new Date().toISOString(),
+      pid: process.pid,
+      uptime: process.uptime(),
+      memory: process.memoryUsage(),
+      checks: {},
+    }
+
+    // 检查 MCP 进程
+    try {
+      const { isAlive } = await import('./services/mcp/amapMcpProcess')
+      status.checks.mcp = {
+        status: isAlive() ? 'ok' : 'error',
+      }
+    } catch (err: any) {
+      status.checks.mcp = { status: 'error', message: err.message }
+    }
+
+    const httpStatus = status.status === 'ok' ? 200 : 503
+    res.status(httpStatus).json(status)
+  })
+
   app.use('/api', createLimiter({
     windowMs: 60_000,
     max: 200,
