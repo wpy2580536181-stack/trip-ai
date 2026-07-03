@@ -9,23 +9,28 @@ import {
   StreamBadRequestError,
 } from '../utils/stream'
 import { tripLog as log } from '../utils/logger'
+import {
+  RecommendRequestSchema,
+  OptimizeRequestSchema,
+} from '../schemas/trip'
 
 export const recommend = async (req: Request, res: Response) => {
-  const { city, budget, days, departureCity } = req.body as {
-    city: string
-    budget: number
-    days: number
-    departureCity?: string
+  const parseResult = RecommendRequestSchema.safeParse(req.body)
+  if (!parseResult.success) {
+    return res.status(400).json({
+      code: 400,
+      error: '参数错误',
+      details: parseResult.error.errors,
+    })
   }
-  if (!city || !budget || !days) {
-    return res.status(400).json({ code: 400, error: '参数错误' })
-  }
+  const { city, budget, days, departureCity } = parseResult.data
   const userId = req.user?.userId ?? null
   try {
     const result = await tripService.recommend(city, budget, days, userId, departureCity)
     return res.json(result)
   } catch (error) {
-    return res.status(500).json({ code: 500, error: '推荐失败' })
+    const errMsg = error instanceof Error ? error.message : '推荐失败'
+    return res.status(500).json({ code: 500, error: errMsg })
   }
 }
 
@@ -157,10 +162,15 @@ export const chat = async (req: Request, res: Response) => {
 }
 
 export const optimize = async (req: Request, res: Response) => {
-  const { tripId, instruction } = req.body as { tripId: number; instruction?: string }
-  if (!tripId) {
-    return res.status(400).json({ code: 400, error: '参数错误：缺少 tripId' })
+  const parseResult = OptimizeRequestSchema.safeParse(req.body)
+  if (!parseResult.success) {
+    return res.status(400).json({
+      code: 400,
+      error: '参数错误',
+      details: parseResult.error.errors,
+    })
   }
+  const { tripId, instruction } = parseResult.data
   const userId = req.user?.userId ?? null
   try {
     const result = await optimizeTrip(tripId, instruction ?? '', userId)
