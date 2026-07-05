@@ -1,0 +1,172 @@
+name: Nightly Eval
+
+on:
+  schedule:
+    - cron: "0 20 * * *"  # 每天 UTC 20:00 = 北京时间 04:00
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Eval mode'
+        default: 'mock'
+        type: choice
+        options: [mock, real]
+      samples:
+        description: 'Sampling count'
+        default: 1
+        type: number
+
+jobs:
+  eval-mock:
+    name: Mock eval + comparison
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: trip-server-py
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 拉取全部 git 历史，方便追踪基线变化
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          version: latest
+          enable-cache: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: uv sync --extra dev
+
+      - name: Run mock eval
+        id: eval-run
+        run: |
+          uv run python -m eval.run --save 2>&1 | tee /tmp/eval_output.txt
+          # 提取最新报告文件名
+          LATEST=$(ls -t eval-reports/*.json | grep -v baseline | grep -v comparison | head -1)
+          echo "latest_report=$LATEST" >> $GITHUB_OUTPUT
+          echo "Latest report: $LATEST"
+
+      - name: Compare with baseline
+        id: eval-compare
+        run: |
+          # 初始运行没有 baseline 时跳过对比
+          if [ -f eval-reports/baseline.json ]; then
+            uv run python scripts/eval_compare.py \
+              --current "${{ steps.eval-run.outputs.latest_report }}" \
+              --threshold 0.8 \
+              --output eval-reports/comparison.json 2>&1 || true
+          else
+            echo "No baseline yet, skipping comparison"
+          fi
+
+      - name: Update baseline (main branch only)
+        if: github.ref == 'refs/heads/main'
+        run: |
+          LATEST="${{ steps.eval-run.outputs.latest_report }}"
+          if [ -n "$LATEST" ] && [ -f "$LATEST" ]; then
+            cp "$LATEST" eval-reports/baseline.json
+            echo "Baseline updated from $LATEST"
+          fi
+
+      - name: Upload reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: eval-reports-mock
+          path: |
+            trip-server-py/eval-reports/
+          retention-days: 30
+
+  eval-real:
+    name: Real eval (requires backend)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: trip-server-py
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: trip_db
+        ports: ["3306:3306"]
+        options: --health-cmd="mysqladmin ping" --health-interval=5s --health-timeout=5s --health-retries=5
+      redis:
+        image: redis:7-alpine
+        ports: ["6379:6379"]
+        options: --health-cmd="redis-cli ping" --health-interval=5s --health-timeout=5s --health-retries=3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          version: latest
+          enable-cache: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: uv sync --extra dev
+
+      - name: Create database tables
+        run: uv run python create_tables.py
+        env:
+          DATABASE_URL: mysql://root:root@localhost:3306/trip_db
+
+      - name: Start backend server
+        run: |
+          uv run uvicorn src.main:app --host 0.0.0.0 --port 8000 --log-level error &
+          sleep 5
+          # 等待后端就绪
+          for i in $(seq 1 10); do
+            if curl -s -o /dev/null -w "%{http_code}" http://localhost:8000/api/user/login \
+              -X POST -H "Content-Type: application/json" \
+              -d '{"username":"eval-test","password":"EvalTest@2026"}' | grep -q 200; then
+              echo "Backend ready (attempt $i)"
+              break
+            fi
+            sleep 3
+          done
+        env:
+          DATABASE_URL: mysql://root:root@localhost:3306/trip_db
+
+      - name: Run real eval
+        id: eval-real-run
+        run: |
+          uv run python -m eval.run --real --samples 3 --save 2>&1 | tee /tmp/eval_real_output.txt
+          LATEST=$(ls -t eval-reports/*.json | grep -v baseline | grep -v comparison | head -1)
+          echo "latest_report=$LATEST" >> $GITHUB_OUTPUT
+
+      - name: Compare with baseline (real)
+        run: |
+          if [ -f eval-reports/baseline-real.json ]; then
+            uv run python scripts/eval_compare.py \
+              --current "${{ steps.eval-real-run.outputs.latest_report }}" \
+              --baseline eval-reports/baseline-real.json \
+              --threshold 0.8 \
+              --output eval-reports/comparison-real.json 2>&1 || true
+          else
+            echo "No real baseline yet"
+          fi
+
+      - name: Update real baseline (main branch only)
+        if: github.ref == 'refs/heads/main'
+        run: |
+          LATEST="${{ steps.eval-real-run.outputs.latest_report }}"
+          if [ -n "$LATEST" ] && [ -f "$LATEST" ]; then
+            cp "$LATEST" eval-reports/baseline-real.json
+            echo "Real baseline updated"
+          fi
+
+      - name: Upload reports (real)
+        uses: actions/upload-artifact@v4
+        with:
+          name: eval-reports-real
+          path: |
+            trip-server-py/eval-reports/
+          retention-days: 30

@@ -1,0 +1,54 @@
+name: API E2E Tests
+
+on:
+  push:
+    branches: [main, develop]
+    paths: ["trip-server-py/src/**", "trip-server-py/tests/e2e/**"]
+  pull_request:
+    branches: [main]
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: trip_db
+        ports: ["3306:3306"]
+        options: --health-cmd="mysqladmin ping" --health-interval=5s --health-timeout=5s --health-retries=5
+      redis:
+        image: redis:7-alpine
+        ports: ["6379:6379"]
+        options: --health-cmd="redis-cli ping" --health-interval=5s --health-timeout=5s --health-retries=3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          version: latest
+          enable-cache: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: uv sync --extra dev
+        working-directory: trip-server-py
+      - name: Create database tables
+        run: uv run python create_tables.py
+        working-directory: trip-server-py
+        env:
+          DATABASE_URL: mysql://root:root@localhost:3306/trip_db
+      - name: Run E2E tests
+        run: uv run pytest tests/e2e/ -v --tb=short -x --timeout=180
+        working-directory: trip-server-py
+        env:
+          DATABASE_URL: mysql://root:root@localhost:3306/trip_db
+          RATE_LIMIT_AUTH_MAX: 99999
+          RATE_LIMIT_GLOBAL_MAX: 999999
+          RATE_LIMIT_CHAT_MAX: 99999
+          E2E_PORT: 3000
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: e2e-logs
+          path: /tmp/backend_*.log

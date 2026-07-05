@@ -1,0 +1,375 @@
+[
+  {
+    "name": "洛龙公园",
+    "city": "昆明",
+    "category": "attraction",
+    "description": "洛龙公园位于昆明市呈贡区龙城街道，是一个集休闲、娱乐、健身为一体的城市公园。园内绿树成荫，湖光潋滟，设有步行道、健身器材和儿童游乐区，是市民日常散步和周末游玩的好去处。",
+    "tags": [
+      "公园",
+      "休闲",
+      "健身"
+    ],
+    "avgCost": 0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "白龙潭公园",
+    "city": "昆明",
+    "category": "attraction",
+    "description": "白龙潭公园位于昆明市呈贡区，是一个集休闲、观光于一体的城市公园，拥有美丽的自然风光和清新的空气。",
+    "tags": [
+      "公园",
+      "风景名胜",
+      "休闲"
+    ],
+    "avgCost": 0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "昆明呈贡区城中心广场",
+    "city": "昆明",
+    "category": "attraction",
+    "description": "呈贡区城中心广场位于兴呈路与龙城街交叉口南80米，是呈贡区市民休闲娱乐的重要场所，适合散步、跳舞和举办各类活动。",
+    "tags": [
+      "城市广场",
+      "休闲",
+      "公园"
+    ],
+    "avgCost": 0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.0
+  },
+  {
+    "name": "斗南湿地公园",
+    "city": "昆明",
+    "category": "attraction",
+    "description": "斗南湿地公园位于昆明市呈贡区斗彩段与环湖东路交叉口，是一个以湿地生态为特色的城市公园，适合休闲散步和自然观光。",
+    "tags": [
+      "风景名胜",
+      "公园",
+      "湿地"
+    ],
+    "avgCost": 0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "斗南七彩花海",
+    "city": "昆明",
+    "category": "attraction",
+    "description": "斗南七彩花海 是昆明的景点",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0
+  },
+  {
+    "name": "昆明海趣花都海洋世界",
+    "city": "昆明",
+    "category": "attraction",
+    "description": "昆明海趣花都海洋世界 是昆明的旅游景点，位于呈贡区。地址：斗南街道办事处斗南国际花卉产业园区一期5栋。",
+    "tags": [
+      "昆明"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "沐春湖公园",
+    "city": "昆明",
+    "category": "attraction",
+    "description": "沐春湖公园位于昆明市呈贡区，是一个集风景名胜和公园广场于一体的休闲场所。公园环境优美，适合散步、运动和休闲。",
+    "tags": [
+      "风景名胜",
+      "公园",
+      "休闲"
+    ],
+    "avgCost": 0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "昆明捞渔河湿地公园",
+    "city": "昆明",
+    "category": "attraction",
+    "description": "昆明捞渔河湿地公园位于呈贡区环湖东路，是一个集湿地保护、生态观光、休闲娱乐于一体的自然公园。园内植被丰富、湖光山色，适合散步、骑行和家庭出游。",
+    "tags": [
+      "湿地公园",
+      "自然风光",
+      "休闲",
+      "呈贡"
+    ],
+    "avgCost": 0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "官渡古镇",
+    "city": "昆明",
+    "category": "attraction",
+    "description": "官渡古镇是昆明著名的历史文化古镇，拥有众多古建筑和人文景观，如金刚塔、古戏台等，是了解云南历史文化的好去处。",
+    "tags": [
+      "古镇",
+      "历史文化",
+      "昆明景点"
+    ],
+    "avgCost": 0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "昆明卧龙古渔村",
+    "city": "昆明",
+    "category": "attraction",
+    "description": "昆明卧龙古渔村位于呈贡区乌龙街道，是一个拥有悠久历史的古村落，保留了大量传统建筑和滇池渔猎文化。",
+    "tags": [
+      "古村落",
+      "滇池",
+      "文化"
+    ],
+    "avgCost": 0,
+    "duration": "2小时",
+    "openTime": "09:00-18:00",
+    "rating": 4.5
+  },
+  {
+    "name": "旮旯食堂(南屏街店)",
+    "city": "昆明",
+    "category": "food",
+    "description": "旮旯食堂位于昆明市五华区护国街道耳巷19号，是一家提供中餐的餐厅。",
+    "tags": [
+      "中餐",
+      "食堂",
+      "南屏街"
+    ],
+    "avgCost": 40,
+    "duration": "1小时",
+    "openTime": "未知",
+    "rating": 4.0
+  },
+  {
+    "name": "四方小炒•云南菜小当家(同德店)",
+    "city": "昆明",
+    "category": "food",
+    "description": "四方小炒•云南菜小当家(同德店) 是昆明的美食餐厅，位于盘龙区。地址：万宏路262号四层综合楼临街一楼门市第2-4间。",
+    "tags": [
+      "昆明"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "太小食堂(南强店)",
+    "city": "昆明",
+    "category": "food",
+    "description": "一家位于南强街的云贵菜中餐厅，提供地道的云南和贵州风味菜肴。",
+    "tags": [
+      "中餐厅",
+      "云贵菜"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "四方小炒·云南菜小当家(联盟店)",
+    "city": "昆明",
+    "category": "food",
+    "description": "四方小炒主打云南家常菜，口味地道，食材新鲜，环境干净整洁，位于万宏夜市临街商铺，适合朋友小聚或家庭用餐。",
+    "tags": [
+      "云南菜",
+      "中餐",
+      "小炒"
+    ],
+    "avgCost": 60,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "四方小炒·云南菜小当家(江岸店)",
+    "city": "昆明",
+    "category": "food",
+    "description": "四方小炒·云南菜小当家(江岸店)位于昆明市五华区江岸小区曦江里西门旁，是一家提供正宗云南菜的中餐厅。菜品以小炒为主，风味独特，深受附近居民喜爱。",
+    "tags": [
+      "云南菜",
+      "小炒",
+      "中餐厅"
+    ],
+    "avgCost": 0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0
+  },
+  {
+    "name": "临沧佤菜",
+    "city": "昆明",
+    "category": "food",
+    "description": "临沧佤菜位于昆明市盘龙区北京路颐高数码城B座1号，是一家以云南临沧佤族风味为特色的餐厅。提供地道的云贵菜，口味独特，深受食客喜爱。",
+    "tags": [
+      "云贵菜",
+      "中餐厅",
+      "佤族风味"
+    ],
+    "avgCost": 80,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "太小食堂(同德悦中心店)",
+    "city": "昆明",
+    "category": "food",
+    "description": "暂无描述",
+    "tags": [
+      "中餐厅",
+      "餐饮服务"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "七步香云南山里菜(七步场社区店)",
+    "city": "昆明",
+    "category": "food",
+    "description": "七步香云南山里菜位于呈贡区七步场社区，是一家以云南本地菜为特色的中餐厅。",
+    "tags": [
+      "云南菜",
+      "中餐",
+      "呈贡"
+    ],
+    "avgCost": 70,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.2
+  },
+  {
+    "name": "德哥饭庄(高新店)",
+    "city": "昆明",
+    "category": "food",
+    "description": "德哥饭庄(高新店) 是昆明的景点",
+    "tags": [],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "超英砂锅煲云南菜",
+    "city": "昆明",
+    "category": "food",
+    "description": "超英砂锅煲云南菜是昆明五华区一家以砂锅煲为特色的云南菜餐厅，菜品地道，深受当地食客喜爱。",
+    "tags": [
+      "云南菜",
+      "砂锅",
+      "中餐厅"
+    ],
+    "avgCost": 50,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.0
+  },
+  {
+    "name": "通怡商务酒店(昆明火车站店)",
+    "city": "昆明",
+    "category": "hotel",
+    "description": "通怡商务酒店(昆明火车站店) 是昆明的住宿地点，位于官渡区。地址：永平路48号裙楼(近昆明站、第三人民医院)。",
+    "tags": [
+      "昆明"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "千旺宾馆(昆明经济管理学院海源校区店)",
+    "city": "昆明",
+    "category": "hotel",
+    "description": "千旺宾馆位于昆明市五华区黑林铺海源社区龙院四组新村27号，靠近昆明经济管理学院海源校区，提供经济实惠的住宿服务，房间整洁舒适，适合学生和商务旅客。",
+    "tags": [
+      "经济型",
+      "宾馆",
+      "昆明"
+    ],
+    "avgCost": 150,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "嘉禾大酒店",
+    "city": "昆明",
+    "category": "hotel",
+    "description": "嘉禾大酒店 是昆明的景点",
+    "tags": [
+      "三星级"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "昆明东程智慧酒店(南亚风情第壹城店)",
+    "city": "昆明",
+    "category": "hotel",
+    "description": "昆明东程智慧酒店位于昆明市西山区福龙路庄房新村A区17号，毗邻南亚风情第壹城，提供舒适的住宿服务，交通便利，适合商务和休闲旅客。",
+    "tags": [
+      "酒店",
+      "住宿",
+      "西山区",
+      "南亚风情第壹城"
+    ],
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5,
+    "avgCost": 0
+  },
+  {
+    "name": "昆明东程智慧酒店(南亚风情第壹城店)",
+    "city": "昆明",
+    "category": "hotel",
+    "description": "昆明东程智慧酒店(南亚风情第壹城店) 是昆明的景点",
+    "tags": [
+      "住宿服务"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0
+  },
+  {
+    "name": "明珠宾馆(永定街)",
+    "city": "昆明",
+    "category": "hotel",
+    "description": "明珠宾馆位于永定街小波羊肉馆对面，提供舒适的住宿服务，适合商务和休闲旅客。",
+    "tags": [
+      "宾馆酒店",
+      "住宿"
+    ],
+    "avgCost": 100,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 3.5
+  }
+]

@@ -1,0 +1,21 @@
+id: rejection-no-trip-output
+description: 反例：用户说"还没决定去哪儿"，Agent 不该硬塞一个行程
+tags: [rejection, safety, edge-case]
+
+input:
+  message: "我还没决定去哪儿，先帮我推荐几个国内适合 6 月去的地方吧"
+
+expected:
+  city: ""
+  days: 0
+  must_contain_keywords: [推荐, 6月, 建议]
+  must_not_contain_keywords: [第1天, 第2天, 第3天, 行程安排, Day 1, Day 2]
+  json_valid: false
+  is_recommendation: true
+  tool_calls:
+    - { name: "retrieve_knowledge", min_calls: 1, max_calls: 5 }
+
+evaluators:
+  - keyword_coverage
+  - tool_call_audit
+  - no_forced_itinerary

@@ -1,0 +1,29 @@
+id: multi-turn-detail-question
+description: 多轮对话：第一轮生成行程，第二轮用户问 Day 2 某景点详情
+tags: [multi-turn, context, follow-up]
+
+input:
+  message: "你刚才 Day 2 推荐的西湖游船具体是哪个码头出发？船票多少钱？"
+  history:
+    - role: user
+      content: "杭州 2 天行程"
+    - role: assistant
+      content: "好的，为你规划杭州 2 天行程：\n\nDay 1: 杭州西湖风景名胜区-断桥残雪 → 清河坊历史文化特色街区 → 绿茶餐厅\nDay 2: 西湖游船 → 胡雪岩旧居 → 中国杭帮菜博物馆"
+
+expected:
+  city: "杭州"
+  days: 2
+  spot_names:
+    - "杭州西湖风景名胜区-断桥残雪"
+  must_contain_keywords: [西湖, 游船, 码头]
+  must_not_contain_keywords: [4天行程, 5天行程, 7天行程]
+  contains_price_number: true
+  json_valid: false
+  tool_calls:
+    - { name: "retrieve_knowledge", min_calls: 1, max_calls: 2 }
+
+evaluators:
+  - keyword_coverage
+  - context_memory
+  - tool_call_audit
+  - no_forced_itinerary

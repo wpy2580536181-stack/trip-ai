@@ -1,0 +1,30 @@
+id: shanghai-2days-with-pet
+description: 上海 2 天带中型犬（金毛），验证 Agent 主动规避宠物禁入场所
+tags: [shanghai, pet-friendly, constraint, edge-case]
+
+input:
+  message: "我带了一只金毛去上海玩 2 天，住在人民广场附近，帮我安排一下"
+
+expected:
+  city: "上海"
+  days: 2
+  spot_names:
+    - "外滩"
+  must_contain_keywords: [宠物]
+  must_not_contain_keywords:
+    - 动物园
+    - 野生动物园
+    - 海洋馆
+  json_valid: true
+  max_activities_per_day: 4
+  tool_calls:
+    - { name: "retrieve_knowledge", min_calls: 1 }
+
+evaluators:
+  - schema_check
+  - poi_city_match
+  - keyword_coverage
+  - pet_constraint_check
+  - pace_consistency
+  - tool_call_audit
+  - no_forced_itinerary

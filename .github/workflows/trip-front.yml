@@ -1,0 +1,28 @@
+name: Frontend CI
+
+on:
+  push:
+    branches: [main, develop]
+    paths: ["trip-front/**"]
+  pull_request:
+    branches: [main]
+    paths: ["trip-front/**"]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: trip-front
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: trip-front/package-lock.json
+      - run: npm ci --registry https://registry.npmjs.org
+      - run: npm run format:check
+      - run: npm run build
+      - run: npm test
+      - run: node --test src/api/__tests__/stream-parser.test.mjs
