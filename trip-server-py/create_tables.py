@@ -31,22 +31,22 @@ async def create_tables():
     
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
-
-    # 确保 FULLTEXT 索引存在（SQLAlchemy 自动创建可能不生效）
-    try:
-        async with engine.begin() as conn:
+        print("✓ 表结构创建完成")
+        
+        # 尝试创建 FULLTEXT 索引（MySQL 8.0+ 支持，低版本静默跳过）
+        try:
             await conn.execute(text(
                 "CREATE FULLTEXT INDEX IF NOT EXISTS ft_name_desc "
                 "ON spots (name, description)"
             ))
-    except Exception:
-        pass  # 索引已存在或 MySQL 版本不支持 IF NOT EXISTS 时忽略
-
-    print("✓ 表创建完成")
+            print("✓ FULLTEXT 索引创建完成")
+        except Exception:
+            print("ℹ  FULLTEXT 索引已存在或不可用（可忽略）")
+    
     print("\n已创建的表:")
     for table in Base.metadata.sorted_tables:
         print(f"  - {table.name}")
-
+    
     await engine.dispose()
 
 
