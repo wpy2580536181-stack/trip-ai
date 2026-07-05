@@ -3,7 +3,7 @@
 from datetime import datetime, timezone
 from sqlalchemy import Column, Integer, DateTime
 from sqlalchemy.sql import func
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import declarative_base
 
 # SQLAlchemy 2.0 declarative base
 Base = declarative_base()
@@ -32,9 +32,8 @@ class BaseModel:
     )
     updated_at = Column(
         DateTime(timezone=True),
-        default=None,
-        server_default=None,
-        onupdate=func.current_timestamp(),
+        default=lambda: datetime.now(timezone.utc),
+        onupdate=func.now(),
         nullable=True,
         comment="更新时间"
     )

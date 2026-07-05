@@ -7,6 +7,8 @@
 import asyncio
 from typing import Any, Callable, Awaitable
 
+from langchain_core.runnables import RunnableConfig
+
 from src.services.agent.types import ResearchBundle, StepInput
 
 
@@ -16,7 +18,7 @@ DISTANCE_FALLBACK = "距离计算暂时不可用。"
 WEATHER_FALLBACK = "天气服务暂时不可用，请根据季节常识判断。"
 
 
-async def research_node(state: dict, config: dict) -> dict:
+async def research_node(state: dict, config: RunnableConfig) -> dict:
     """Research 节点实现：并行调用工具获取情报。
     
     Args:
@@ -169,6 +171,7 @@ async def research_node(state: dict, config: dict) -> dict:
             await on_event({
                 "type": "tool_end",
                 "name": name,
+                "output": bundle.get(key, ""),
             })
     
     return {"research_bundle": bundle}

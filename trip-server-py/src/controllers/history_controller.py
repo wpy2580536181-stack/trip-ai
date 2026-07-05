@@ -8,8 +8,9 @@ from src.middleware.auth import get_current_user
 from src.schemas.history import TripResponse
 from src.services.history_service import HistoryService
 from src.models.user import User
+from src.utils.serialization import serialize_to_camel
 
-router = APIRouter(prefix="/api/trips", tags=["Trip History"])
+router = APIRouter(prefix="/history/trips", tags=["Trip History"])
 
 
 @router.get(
@@ -34,7 +35,7 @@ router = APIRouter(prefix="/api/trips", tags=["Trip History"])
 )
 async def get_trips(
     page: int = Query(1, ge=1, description="页码"),
-    page_size: int = Query(20, ge=1, le=100, description="每页数量"),
+    page_size: int = Query(20, ge=1, le=100, alias="pageSize", description="每页数量"),
     current_user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db)
 ):
@@ -77,7 +78,7 @@ async def get_trips(
             "items": items,
             "total": total,
             "page": page,
-            "page_size": page_size
+            "pageSize": page_size
         },
         "message": "获取行程历史成功",
         "error": None
@@ -126,21 +127,23 @@ async def get_trip(
         db, trip_id, current_user.id
     )
     
+    trip_data = {
+        "id": trip.id,
+        "user_id": trip.user_id,
+        "from_city": trip.from_city,
+        "city": trip.city,
+        "days": trip.days,
+        "budget": trip.budget,
+        "content": trip.content,
+        "status": trip.status,
+        "parent_trip_id": trip.parent_trip_id,
+        "created_at": trip.created_at,
+        "updated_at": None,  # Trip model doesn't have updated_at
+    }
+    
     return {
         "code": 200,
-        "data": {
-            "id": trip.id,
-            "user_id": trip.user_id,
-            "from_city": trip.from_city,
-            "city": trip.city,
-            "days": trip.days,
-            "budget": trip.budget,
-            "content": trip.content,
-            "status": trip.status,
-            "parent_trip_id": trip.parent_trip_id,
-            "created_at": trip.created_at,
-            "updated_at": None  # Trip model doesn't have updated_at
-        },
+        "data": serialize_to_camel(trip_data),
         "message": "获取行程详情成功",
         "error": None
     }

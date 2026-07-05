@@ -1,16 +1,21 @@
 """Knowledge controller (HTTP handlers)"""
 
-from fastapi import APIRouter, Depends, Query
+from fastapi import APIRouter, Depends, Query, Body
 from sqlalchemy.ext.asyncio import AsyncSession
-from typing import Optional, List
+from typing import Optional, List, Dict, Any
 
 from src.config.database import get_db
 from src.middleware.auth import get_current_user, require_admin
+from src.middleware.rate_limiter import knowledge_rate_limiter
 from src.schemas.knowledge import SpotCreate, SpotUpdate, SpotResponse, SpotListResponse
 from src.services.knowledge_service import KnowledgeService
 from src.models.user import User
 
-router = APIRouter(prefix="/api/knowledge", tags=["Knowledge Base"])
+router = APIRouter(
+    prefix="/knowledge",
+    tags=["Knowledge Base"],
+    dependencies=[Depends(knowledge_rate_limiter)],
+)
 
 
 @router.get(
@@ -36,7 +41,7 @@ async def get_spots(
     city: Optional[str] = Query(None, description="城市筛选"),
     category: Optional[str] = Query(None, description="分类筛选"),
     page: int = Query(1, ge=1, description="页码"),
-    page_size: int = Query(20, ge=1, le=100, description="每页数量"),
+    page_size: int = Query(20, ge=1, le=100, alias="pageSize", description="每页数量"),
     db: AsyncSession = Depends(get_db)
 ):
     """获取景点列表（公开）
@@ -64,7 +69,7 @@ async def get_spots(
             "items": items,
             "total": total,
             "page": page,
-            "page_size": page_size
+            "pageSize": page_size
         },
         "message": "获取景点列表成功",
         "error": None
@@ -319,4 +324,48 @@ async def delete_spot(
         "data": None,
         "message": "删除景点成功",
         "error": None
+    }
+
+
+@router.post(
+    "/spots/bulk",
+    response_model=dict,
+    summary="批量导入景点",
+    description="""
+    批量导入景点（仅管理员）。
+    
+    需要在请求头中包含有效的JWT token（管理员权限）：
+    - Authorization: Bearer <token>
+    
+    请求体为 JSON 数组格式的景点数据。
+    单条失败不阻断整批，返回结果包含成功/失败数量。
+    
+    错误响应：
+    - 401: 未授权
+    - 403: 权限不足
+    - 422: 请求参数验证失败
+    """
+)
+async def bulk_import_spots(
+    spots_data: List[Dict[str, Any]] = Body(..., description="景点数据数组"),
+    current_user: User = Depends(require_admin),
+    db: AsyncSession = Depends(get_db),
+):
+    """批量导入景点（admin）
+    
+    Args:
+        spots_data: 景点数据数组
+        current_user: 当前认证的管理员用户
+        db: 数据库会话
+        
+    Returns:
+        dict: 包含导入结果的响应
+    """
+    result = await KnowledgeService.bulk_import_spots(db, spots_data)
+    
+    return {
+        "code": 200,
+        "data": result,
+        "message": f"批量导入完成：成功 {result['success']} 条，失败 {result['failed']} 条",
+        "error": None,
     }

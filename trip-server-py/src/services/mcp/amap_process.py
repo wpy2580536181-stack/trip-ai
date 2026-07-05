@@ -27,7 +27,7 @@ async def start_amap_mcp_server() -> asyncio.subprocess.Process:
             return _mcp_process
         
         # 从配置中读取 server 路径
-        from ..config.settings import settings
+        from src.config.settings import settings
         
         cmd = [
             "node",
@@ -67,3 +67,18 @@ async def get_amap_mcp_process() -> Optional[asyncio.subprocess.Process]:
     """获取高德 MCP server 进程（如果已启动）。"""
     async with _mcp_lock:
         return _mcp_process
+
+
+async def is_amap_mcp_alive() -> bool:
+    """检查高德 MCP server 进程是否存活。
+    
+    与 Node 版 amapMcpProcess.isAlive() 对齐。
+    
+    Returns:
+        True 如果进程存在且仍在运行
+    """
+    async with _mcp_lock:
+        return (
+            _mcp_process is not None
+            and _mcp_process.returncode is None
+        )

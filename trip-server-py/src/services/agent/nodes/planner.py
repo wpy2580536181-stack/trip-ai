@@ -6,10 +6,14 @@
 
 import asyncio
 import json
+import logging
 from typing import Any, Optional
+
+logger = logging.getLogger(__name__)
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import AIMessage
+from langchain_core.runnables import RunnableConfig
 
 from src.config.settings import settings
 from src.services.agent.planner_prompt import build_planner_prompt, build_retry_message
@@ -66,7 +70,7 @@ async def _invoke_llm(
     user_message: str,
     timeout: float,
 ) -> tuple[str, TokenUsage]:
-    """调用 LLM 并提取结果。
+    """调用 LLM 并提取结果（集成 LLM 缓存）。
     
     Args:
         llm: ChatOpenAI 实例
@@ -77,6 +81,16 @@ async def _invoke_llm(
     Returns:
         (content, usage) 元组
     """
+    # --- LLM Cache 检查 ---
+    from src.services.llm_cache import get_llm_cache
+    llm_cache = get_llm_cache()
+    if llm_cache is not None:
+        cache_prompt = f"{system_prompt}\n---\n{user_message}"
+        cached_response = await llm_cache.get(cache_prompt)
+        if cached_response is not None:
+            logger.info("LLM cache hit (planner)")
+            return cached_response, {"prompt": 0, "completion": 0, "total": 0, "cached": 1}
+
     # 转义 system_prompt 中的花括号（LangChain 模板语法）
     escaped = system_prompt.replace("{", "{{").replace("}", "}}")
     
@@ -106,13 +120,18 @@ async def _invoke_llm(
             content = str(result)
             usage = {"prompt": 0, "completion": 0, "total": 0, "cached": 0}
         
+        # --- LLM Cache 写入 ---
+        if llm_cache is not None and content:
+            cache_prompt = f"{system_prompt}\n---\n{user_message}"
+            await llm_cache.set(cache_prompt, content)
+        
         return content, usage
         
     except asyncio.TimeoutError:
         raise TimeoutError(f"planner 执行超时（{timeout / 1000}秒）")
 
 
-async def planner_node(state: dict, config: dict) -> dict:
+async def planner_node(state: dict, config: RunnableConfig) -> dict:
     """Planner 节点实现：调用 LLM 生成行程规划。
     
     Args:
@@ -122,7 +141,7 @@ async def planner_node(state: dict, config: dict) -> dict:
     Returns:
         更新的状态字段
     """
-    from ..config.llm import create_llm_from_config, load_fallback_llm_config
+    from src.config.llm import create_llm_from_config, load_fallback_llm_config
     
     configurable = config.get("configurable", {})
     llm = configurable.get("llm")
@@ -170,7 +189,7 @@ async def planner_node(state: dict, config: dict) -> dict:
     return {"raw_output": content, "usage": usage}
 
 
-async def retry_planner_node(state: dict, config: dict) -> dict:
+async def retry_planner_node(state: dict, config: RunnableConfig) -> dict:
     """重试 Planner 节点：校验失败时重新调用 LLM。
     
     Args:
@@ -180,7 +199,7 @@ async def retry_planner_node(state: dict, config: dict) -> dict:
     Returns:
         更新的状态字段
     """
-    from ..config.llm import create_llm_from_config, load_fallback_llm_config
+    from src.config.llm import create_llm_from_config, load_fallback_llm_config
     
     configurable = config.get("configurable", {})
     llm = configurable.get("llm")

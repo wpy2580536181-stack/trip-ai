@@ -59,8 +59,8 @@ class TestHistoryController:
         
         # Get trips
         response = await async_client.get(
-            "/api/trips",
-            params={"page": 1, "page_size": 10}
+            "/api/history/trips",
+            params={"page": 1, "pageSize": 10}
         )
         
         assert response.status_code == 200
@@ -107,7 +107,7 @@ class TestHistoryController:
         app.dependency_overrides[get_current_user] = mock_get_current_user
         
         # Get trip
-        response = await async_client.get(f"/api/trips/{trip.id}")
+        response = await async_client.get(f"/api/history/trips/{trip.id}")
         
         assert response.status_code == 200
         data = response.json()
@@ -141,7 +141,7 @@ class TestHistoryController:
         app.dependency_overrides[get_current_user] = mock_get_current_user
         
         # Get non-existent trip
-        response = await async_client.get("/api/trips/999")
+        response = await async_client.get("/api/history/trips/999")
         
         assert response.status_code == 404
         
@@ -183,7 +183,7 @@ class TestHistoryController:
         app.dependency_overrides[get_current_user] = mock_get_current_user
         
         # Delete trip
-        response = await async_client.delete(f"/api/trips/{trip.id}")
+        response = await async_client.delete(f"/api/history/trips/{trip.id}")
         
         assert response.status_code == 200
         data = response.json()
@@ -216,7 +216,7 @@ class TestHistoryController:
         app.dependency_overrides[get_current_user] = mock_get_current_user
         
         # Delete non-existent trip
-        response = await async_client.delete("/api/trips/999")
+        response = await async_client.delete("/api/history/trips/999")
         
         assert response.status_code == 404
         

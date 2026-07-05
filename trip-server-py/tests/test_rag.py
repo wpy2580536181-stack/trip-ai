@@ -8,9 +8,68 @@
 - chroma_client: ChromaDB 客户端（需要服务，使用 mock）
 """
 
+import sys
 import pytest
 import asyncio
 from typing import List, Dict, Any
+
+
+def _ensure_real_modules():
+    """Ensure torch, chromadb, etc. are real modules in sys.modules.
+
+    test_agent_imports.py mocks these modules via sys.modules.
+    If reranker.py or chroma_client.py were first imported while those
+    mocks were active, their module-level imports hold mock references.
+    Fix: ensure sys.modules has the real modules and remove stale cached modules.
+    """
+    mock_names = ["torch", "chromadb", "sentence_transformers"]
+    from unittest.mock import MagicMock
+
+    changed = False
+    for name in mock_names:
+        mod = sys.modules.get(name)
+        if isinstance(mod, MagicMock):
+            # Module is still mocked - remove it so real import can happen
+            sys.modules.pop(name, None)
+            # Also remove any mock sub-modules (e.g. torch.nn, chromadb.config)
+            to_remove = [k for k in sys.modules if k.startswith(name + ".") and isinstance(sys.modules[k], MagicMock)]
+            for k in to_remove:
+                sys.modules.pop(k, None)
+            changed = True
+
+    if changed:
+        # Remove cached RAG modules that may have picked up mocks
+        # so they get re-imported with real dependencies
+        rag_modules = [
+            "src.services.rag.reranker",
+            "src.services.rag.embeddings",
+            "src.services.rag.chroma_client",
+        ]
+        for mod_name in rag_modules:
+            sys.modules.pop(mod_name, None)
+
+
+# Run module cleanup before any tests
+_ensure_real_modules()
+
+# Force-import heavy dependencies at collection time so they are in sys.modules
+# before any RAG sub-module is imported (prevents mock contamination from
+# test_agent_imports.py).
+# Note: torch import may fail if it was already loaded in a conflicting state.
+# In that case, we'll skip torch-dependent tests at runtime.
+_torch_import_ok = True
+try:
+    import torch as _torch_preload  # noqa: F401
+except Exception:
+    _torch_import_ok = False
+
+# Pre-import reranker so it picks up the real torch during collection
+# (before test_agent_imports can mock sys.modules)
+if _torch_import_ok:
+    try:
+        import src.services.rag.reranker as _reranker_preload  # noqa: F401
+    except Exception:
+        pass
 
 
 class TestQueryRewriter:
@@ -160,6 +219,11 @@ class TestRerankerMock:
         """测试重排序（mock 模型）."""
         import numpy as np
         from src.services.rag.reranker import rerank, reset_reranker
+        import src.services.rag.reranker as _reranker_mod
+
+        # Get real torch from reranker module's namespace
+        # (it was imported correctly when reranker was first loaded)
+        _torch = _reranker_mod.torch
 
         # Mock CrossEncoder
         class MockCrossEncoder:

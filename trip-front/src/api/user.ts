@@ -28,29 +28,29 @@ export interface UpdateProfileData {
 }
 
 export function login(data: LoginData) {
-  return post('/user/login', data)
+  return post('/auth/login', data)
 }
 
 export function register(data: RegisterData) {
-  return post('/user/register', data)
+  return post('/auth/register', data)
 }
 
 export function getUserInfo() {
-  return get('/user/info')
+  return get('/auth/me')
 }
 
 export function updateUserInfo(data: UpdateProfileData) {
-  return put('/user/info', data)
+  return put('/auth/info', data)
 }
 
 export function changePassword(data: { oldPassword: string; newPassword: string }) {
-  return put('/user/password', data)
+  return put('/auth/password', data)
 }
 
 export function forgotPassword(email: string) {
-  return post('/user/forgot-password', { email })
+  return post('/auth/reset-password', { email })
 }
 
 export function resetPassword(data: { email: string; token: string; newPassword: string }) {
-  return post('/user/reset-password', data)
+  return post('/auth/reset-password/confirm', data)
 }

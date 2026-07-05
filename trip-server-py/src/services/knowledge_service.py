@@ -1,5 +1,6 @@
 """Knowledge service (business logic)"""
 
+import json
 import logging
 import asyncio
 from typing import Optional, List, Dict, Any
@@ -709,6 +710,141 @@ class KnowledgeService:
         """
         tags = " ".join(spot.get("tags", [])) if isinstance(spot.get("tags"), list) else ""
         return f"{spot.get('city', '')} {spot.get('name', '')} {spot.get('description', '')} {tags} {spot.get('category', '')}"
+
+    @staticmethod
+    async def bulk_import_spots(
+        db: AsyncSession,
+        spots_data: List[Dict[str, Any]],
+        on_progress: Optional[callable] = None,
+    ) -> Dict[str, Any]:
+        """批量导入景点（MySQL + ChromaDB 双写）。
+        
+        实现逻辑：
+        - MySQL 批量 INSERT（batch insert）
+        - ChromaDB 批量写入 embedding
+        - 单条失败不阻断整批
+        - 进度回调（可选）
+        
+        Args:
+            db: 数据库会话
+            spots_data: 景点数据列表
+            on_progress: 进度回调函数（可选）
+                signature: (completed: int, total: int, spot_name: str, ok: bool)
+        
+        Returns:
+            {"success": int, "failed": int, "total": int, "errors": list}
+        """
+        import uuid
+        from src.schemas.knowledge import SpotCreate
+        
+        total = len(spots_data)
+        success = 0
+        failed = 0
+        errors = []
+        
+        # 收集待批量写入 Chroma 的数据
+        chroma_ids = []
+        chroma_embeddings = []
+        chroma_documents = []
+        chroma_metadatas = []
+        
+        for i, raw_data in enumerate(spots_data):
+            spot_name = raw_data.get("name", f"unknown-{i}")
+            try:
+                # 验证数据
+                validated = SpotCreate(**raw_data)
+                vector_id = str(uuid.uuid4())
+                
+                # 创建 Spot 对象
+                spot = Spot(
+                    name=validated.name,
+                    city=validated.city,
+                    category=validated.category,
+                    description=validated.description,
+                    tags=validated.tags,
+                    avg_cost=validated.avg_cost,
+                    duration=validated.duration,
+                    open_time=validated.open_time,
+                    rating=validated.rating,
+                    vector_id=vector_id,
+                )
+                db.add(spot)
+                
+                # 准备 Chroma 数据
+                doc_text = build_embedding_document({
+                    "city": validated.city,
+                    "name": validated.name,
+                    "description": validated.description,
+                    "tags": validated.tags,
+                    "category": validated.category,
+                })
+                chroma_ids.append(vector_id)
+                chroma_documents.append(doc_text)
+                chroma_metadatas.append({
+                    "city": validated.city,
+                    "name": validated.name,
+                    "category": validated.category,
+                    "tags": validated.tags if isinstance(validated.tags, str) else json.dumps(validated.tags, ensure_ascii=False),
+                    "rating": validated.rating or 0,
+                })
+                
+                success += 1
+                
+            except Exception as e:
+                logger.error("景点导入失败", spot_name=spot_name, error=str(e))
+                failed += 1
+                errors.append({"name": spot_name, "error": str(e)})
+            
+            # 进度回调
+            if on_progress:
+                try:
+                    on_progress(i + 1, total, spot_name, failed == 0 or i < success + failed - 1)
+                except Exception:
+                    pass
+        
+        # MySQL 批量提交
+        try:
+            await db.commit()
+        except Exception as e:
+            await db.rollback()
+            logger.error("MySQL 批量提交失败", error=str(e))
+            # 回滚所有成功计数
+            return {"success": 0, "failed": total, "total": total, "errors": [{"name": "all", "error": str(e)}]}
+        
+        # ChromaDB 批量写入（不阻塞，失败不回滚 MySQL）
+        if chroma_ids:
+            try:
+                from src.services.rag.chroma_client import get_spots_collection
+                from src.services.rag.embeddings import embed_query_async
+                
+                collection = await get_spots_collection()
+                
+                # 批量生成 embedding（并行）
+                embeddings = await asyncio.gather(*[
+                    embed_query_async(doc) for doc in chroma_documents
+                ], return_exceptions=True)
+                
+                # 过滤失败的 embedding
+                valid_indices = [i for i, emb in enumerate(embeddings) if not isinstance(emb, Exception)]
+                if valid_indices:
+                    await collection.add(
+                        ids=[chroma_ids[i] for i in valid_indices],
+                        embeddings=[embeddings[i] for i in valid_indices],
+                        documents=[chroma_documents[i] for i in valid_indices],
+                        metadatas=[chroma_metadatas[i] for i in valid_indices],
+                    )
+                    logger.info("ChromaDB 批量写入完成", count=len(valid_indices))
+                
+                # 记录 embedding 生成失败的
+                for i, emb in enumerate(embeddings):
+                    if isinstance(emb, Exception):
+                        logger.warning("Chroma embedding 生成失败", index=i, error=str(emb))
+                        
+            except Exception as e:
+                logger.warning("ChromaDB 批量写入失败（MySQL 数据已保存）", error=str(e))
+        
+        logger.info("景点批量导入完成", success=success, failed=failed, total=total)
+        return {"success": success, "failed": failed, "total": total, "errors": errors}
 
     @staticmethod
     async def format_search_results(

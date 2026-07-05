@@ -12,6 +12,7 @@ from src.models.message import Message
 from src.schemas.conversation import ConversationCreate, ConversationResponse
 from src.exceptions import NotFoundException
 from src.utils.serialization import attach_count
+from src.utils.tokens import estimate_tokens, get_history_max_tokens
 
 logger = logging.getLogger(__name__)
 
@@ -23,6 +24,8 @@ async def load_context(
     """加载对话上下文（供 Agent 使用）。
 
     从 Node.js loadContext() 迁移。
+    - 过滤掉已压缩的消息（excluded_from_context=true）
+    - 返回 system_summary + conversation_recap + 未压缩消息
 
     Args:
         db: 数据库会话。
@@ -44,23 +47,25 @@ async def load_context(
     system_summary = conversation.summary if conversation else None
     conversation_recap = getattr(conversation, "recap", None)
 
-    # 2. 加载最近消息（最多 20 条，按时间正序）
+    # 2. 加载未压缩消息（按时间正序），过滤 excluded_from_context
     msg_result = await db.execute(
         select(Message)
-        .where(Message.conversation_id == conversation_id)
+        .where(
+            Message.conversation_id == conversation_id,
+            Message.excluded_from_context != True,  # noqa: E712
+        )
         .order_by(Message.created_at.asc())
-        .limit(20)
     )
     messages = msg_result.scalars().all()
 
+    # 过滤掉空 content 消息（占位消息）
     recent_messages: List[Dict[str, Any]] = []
     for msg in messages:
+        if not msg.content:
+            continue
         recent_messages.append({
             "role": msg.role,
             "content": msg.content,
-            "model": msg.model,
-            "input_tokens": msg.input_tokens,
-            "output_tokens": msg.output_tokens,
         })
 
     return {
@@ -68,6 +73,80 @@ async def load_context(
         "conversation_recap": conversation_recap,
         "recent_messages": recent_messages,
     }
+
+
+async def get_context_messages(
+    db: AsyncSession,
+    conversation_id: int,
+    max_tokens: int,
+) -> Dict[str, Any]:
+    """获取对话上下文消息（单调追加模式，不 shift）。
+
+    保持 prefix 稳定以命中 LLM prompt cache。
+    - 返回所有未压缩的原始消息（按时间正序）
+    - 返回 needs_compaction 标志告诉调用方“该压缩了”
+
+    Args:
+        db: 数据库会话
+        conversation_id: 对话 ID
+        max_tokens: 最大 token 数
+
+    Returns:
+        {"messages": list, "total_tokens": int, "needs_compaction": bool}
+    """
+    result = await db.execute(
+        select(Message)
+        .where(
+            Message.conversation_id == conversation_id,
+            Message.excluded_from_context != True,  # noqa: E712
+        )
+        .order_by(Message.created_at.asc())
+    )
+    messages = result.scalars().all()
+
+    # 过滤掉空 content 消息
+    real_messages = [
+        {"role": m.role, "content": m.content, "id": m.id}
+        for m in messages
+        if m.content
+    ]
+
+    total_tokens = sum(estimate_tokens(m["content"]) for m in real_messages)
+
+    return {
+        "messages": real_messages,
+        "total_tokens": total_tokens,
+        "needs_compaction": total_tokens > max_tokens,
+    }
+
+
+async def get_recent_messages(
+    db: AsyncSession,
+    conversation_id: int,
+    limit: int = 20,
+) -> List[Dict[str, Any]]:
+    """获取最近 N 条消息（按时间正序）。
+
+    Args:
+        db: 数据库会话
+        conversation_id: 对话 ID
+        limit: 最多返回条数
+
+    Returns:
+        消息列表（按时间正序）
+    """
+    result = await db.execute(
+        select(Message)
+        .where(Message.conversation_id == conversation_id)
+        .order_by(Message.created_at.desc())
+        .limit(limit)
+    )
+    messages = result.scalars().all()
+
+    return [
+        {"role": m.role, "content": m.content, "id": m.id}
+        for m in reversed(messages)
+    ]
 
 
 async def update_summary(

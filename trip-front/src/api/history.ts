@@ -17,15 +17,15 @@ export interface TripDetail extends TripListItem {}
 
 export async function listTrips(page = 1, pageSize = 20) {
   return get<{ items: TripListItem[]; total: number; page: number; pageSize: number }>(
-    'history/trips',
+    'trips',
     { page, pageSize },
   )
 }
 
 export async function getTrip(id: number) {
-  return get<TripDetail>(`history/trips/${id}`)
+  return get<TripDetail>(`trips/${id}`)
 }
 
 export async function deleteTrip(id: number) {
-  return del<{ message: string }>(`history/trips/${id}`)
+  return del<null>(`trips/${id}`)
 }

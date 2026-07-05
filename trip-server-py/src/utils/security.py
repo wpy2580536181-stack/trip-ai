@@ -2,7 +2,7 @@
 
 import bcrypt
 import jwt
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Dict, Optional
 
 from src.config.settings import settings
@@ -25,7 +25,7 @@ def create_access_token(user_id: int, username: str, role_id: int) -> str:
         "userId": user_id,
         "username": username,
         "roleId": role_id,
-        "exp": datetime.utcnow() + timedelta(days=settings.jwt_expires_in_days)
+        "exp": datetime.now(timezone.utc) + timedelta(days=settings.jwt_expires_in_days)
     }
     return jwt.encode(payload, settings.jwt_secret, algorithm=settings.jwt_algorithm)
 

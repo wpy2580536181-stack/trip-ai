@@ -74,6 +74,7 @@ class User(Base, BaseModel):
     trips = relationship("Trip", back_populates="user")
     conversations = relationship("Conversation", back_populates="user")
     feedbacks = relationship("Feedback", back_populates="user")
+    token_logs = relationship("TokenUsageLog", back_populates="user", cascade="all, delete-orphan")
     
     def __repr__(self):
         return f"<User(id={self.id}, username={self.username})>"

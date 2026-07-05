@@ -15,12 +15,14 @@ from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 from src.config.settings import settings
 from src.config.llm import create_llm, load_fallback_llm_config
 from src.services.conversation_service import load_context
+from src.config.database import async_session
 from src.services.agent.state import PlannerState
 from src.services.agent.types import TokenUsage, StepInput
 from src.services.agent.chat_graph import build_chat_graph
 from src.services.agent.planner_graph import build_planner_graph
 from src.services.agent.trace_recorder import TraceRecorder
 from src.services.agent.token_monitor import token_monitor
+from src.services.agent.token_tracker import LLMContext
 
 
 # AgentEngine 单例
@@ -56,8 +58,8 @@ class AgentEngine:
         self.fallback_llm_config = load_fallback_llm_config()
         
         # 工具缓存（per-tool 独立 TTL + size）
-        # TODO: 实现 tool_cache 模块后启用
-        self.tool_cache = None
+        from src.services.agent.tool_cache import get_tool_cache
+        self.tool_cache = get_tool_cache()
         
         # 高德 MCP 工具（延迟初始化）
         self.amap_tools: list = []
@@ -74,7 +76,7 @@ class AgentEngine:
     async def _load_amap_tools(self) -> None:
         """加载高德 MCP 工具。"""
         try:
-            from .mcp_tool_loader import load_amap_tools
+            from src.services.mcp.tool_loader import load_amap_tools
             self.amap_tools = await load_amap_tools()
         except Exception as e:
             import logging
@@ -82,7 +84,7 @@ class AgentEngine:
             logger.warning(f"高德 MCP 工具加载失败: {e}")
             self.amap_tools = []
     
-    def _load_user_preferences(self, user_id: int) -> Optional[dict]:
+    async def _load_user_preferences(self, user_id: int) -> Optional[dict]:
         """加载用户偏好设置。
         
         Args:
@@ -92,13 +94,13 @@ class AgentEngine:
             用户偏好字典，如果加载失败则返回 None
         """
         try:
-            from ..models.user import User
-            from ..config.database import async_session
+            from src.models.user import User
+            from src.config.database import async_session
             
             import asyncio
             loop = asyncio.get_event_loop()
             # 在线程池中执行同步数据库查询
-            result = loop.run_in_executor(
+            result = await loop.run_in_executor(
                 None,
                 self._sync_load_preferences,
                 user_id,
@@ -111,7 +113,7 @@ class AgentEngine:
         """同步加载用户偏好（用于线程池执行）。"""
         try:
             from sqlalchemy import select
-            from ..config.database import sync_session
+            from src.config.database import sync_session
             
             with sync_session() as session:
                 stmt = select(User).where(User.id == user_id)
@@ -172,7 +174,7 @@ class AgentEngine:
         start_time = time.time()
         
         # 加载用户偏好
-        preferences = self._load_user_preferences(user_id)
+        preferences = await self._load_user_preferences(user_id)
         
         # 加载对话上下文
         system_summary = None
@@ -181,13 +183,15 @@ class AgentEngine:
         
         if conversation_id:
             try:
-                ctx = await load_context(conversation_id)
-                system_summary = ctx.get("system_summary")
-                conversation_recap = ctx.get("conversation_recap")
-                recent_messages = ctx.get("recent_messages", [])
-                conversation_history = self._db_messages_to_langchain(recent_messages)
-            except Exception:
-                pass
+                async with async_session() as session:
+                    ctx = await load_context(session, conversation_id)
+                    system_summary = ctx.get("system_summary")
+                    conversation_recap = ctx.get("conversation_recap")
+                    recent_messages = ctx.get("recent_messages", [])
+                    conversation_history = self._db_messages_to_langchain(recent_messages)
+            except Exception as e:
+                import logging
+                logging.getLogger(__name__).warning("load_context failed: %s", e)
         
         # 构建系统提示词
         from .system_prompt import build_system_prompt
@@ -237,8 +241,9 @@ class AgentEngine:
         }
         
         try:
-            # 执行 ChatGraph
-            result = await graph.ainvoke(initial_state, config=config)
+            # 执行 ChatGraph（设置 LLM 上下文，供 token_tracker callback 使用）
+            with LLMContext(user_id=user_id, endpoint="chat"):
+                result = await graph.ainvoke(initial_state, config=config)
             
             # 记录完成事件
             trace_recorder.add({
@@ -248,8 +253,8 @@ class AgentEngine:
             })
             await trace_recorder.flush()
             
-            # 记录 Token 使用量
-            token_monitor.record({
+            # 记录 Token 使用量（后台任务，不阻塞）
+            asyncio.create_task(token_monitor.record({
                 "request_type": "chat",
                 "route": result.get("route"),
                 "user_id": user_id,
@@ -258,7 +263,7 @@ class AgentEngine:
                 "total_usage": result.get("usage"),
                 "latency_ms": int((time.time() - start_time) * 1000),
                 "timestamp": int(time.time() * 1000),
-            })
+            }))
             
             # 发送完成事件
             if on_event:
@@ -324,7 +329,7 @@ class AgentEngine:
         start_time = time.time()
         
         # 加载用户偏好
-        preferences = self._load_user_preferences(user_id)
+        preferences = await self._load_user_preferences(user_id)
         
         # 创建 TraceRecorder
         trace_recorder = TraceRecorder(message_id)
@@ -370,8 +375,9 @@ class AgentEngine:
         }
         
         try:
-            # 执行 PlannerGraph
-            result = await graph.ainvoke(initial_state, config=config)
+            # 执行 PlannerGraph（设置 LLM 上下文，供 token_tracker callback 使用）
+            with LLMContext(user_id=user_id, endpoint="recommend"):
+                result = await graph.ainvoke(initial_state, config=config)
             
             # 检查解析结果
             if result.get("parsed"):
@@ -383,15 +389,15 @@ class AgentEngine:
                 })
                 await trace_recorder.flush()
                 
-                # 记录 Token 使用量
-                token_monitor.record({
+                # 记录 Token 使用量（后台任务，不阻塞）
+                asyncio.create_task(token_monitor.record({
                     "request_type": "recommend",
                     "user_id": user_id,
                     "message_id": message_id,
                     "total_usage": result.get("usage"),
                     "latency_ms": int((time.time() - start_time) * 1000),
                     "timestamp": int(time.time() * 1000),
-                })
+                }))
                 
                 # 发送完成事件
                 if on_event:
@@ -417,14 +423,15 @@ class AgentEngine:
                 })
                 await trace_recorder.flush()
                 
-                token_monitor.record({
+                # 记录 Token 使用量（后台任务，不阻塞）
+                asyncio.create_task(token_monitor.record({
                     "request_type": "recommend",
                     "user_id": user_id,
                     "message_id": message_id,
                     "total_usage": result.get("usage"),
                     "latency_ms": int((time.time() - start_time) * 1000),
                     "timestamp": int(time.time() * 1000),
-                })
+                }))
                 
                 if on_event:
                     await on_event({

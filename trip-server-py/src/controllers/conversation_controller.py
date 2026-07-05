@@ -10,7 +10,7 @@ from src.schemas.conversation import ConversationCreate, ConversationResponse, C
 from src.services.conversation_service import ConversationService
 from src.models.user import User
 
-router = APIRouter(prefix="/api/conversations", tags=["Conversation"])
+router = APIRouter(prefix="/conversations", tags=["Conversation"])
 
 
 @router.get(
@@ -35,7 +35,7 @@ router = APIRouter(prefix="/api/conversations", tags=["Conversation"])
 )
 async def get_conversations(
     page: int = Query(1, ge=1, description="页码"),
-    page_size: int = Query(20, ge=1, le=100, description="每页数量"),
+    page_size: int = Query(20, ge=1, le=100, alias="pageSize", description="每页数量"),
     current_user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db)
 ):
@@ -76,7 +76,7 @@ async def get_conversations(
             "items": items,
             "total": total,
             "page": page,
-            "page_size": page_size
+            "pageSize": page_size
         },
         "message": "获取对话列表成功",
         "error": None
@@ -157,6 +157,7 @@ async def get_conversation(
 @router.post(
     "",
     response_model=dict,
+    status_code=201,
     summary="创建对话",
     description="""
     创建新对话。

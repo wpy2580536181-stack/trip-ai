@@ -2,7 +2,7 @@
 
 import logging
 import uuid
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Dict, Any
 
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -315,7 +315,7 @@ class UserService:
         
         # 2. Create password reset token
         token = str(uuid.uuid4())
-        expires_at = datetime.utcnow() + timedelta(minutes=30)
+        expires_at = datetime.now(timezone.utc) + timedelta(minutes=30)
         
         password_reset = PasswordReset(
             email=email,
@@ -360,7 +360,7 @@ class UserService:
                 PasswordReset.email == email,
                 PasswordReset.token == token,
                 PasswordReset.used == False,
-                PasswordReset.expires_at > datetime.utcnow()
+                PasswordReset.expires_at > datetime.now(timezone.utc)
             )
         )
         reset_record = result.scalar_one_or_none()

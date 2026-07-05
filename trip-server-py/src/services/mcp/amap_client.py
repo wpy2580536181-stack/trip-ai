@@ -29,7 +29,7 @@ async def _ensure_mcp_process() -> asyncio.subprocess.Process:
             return _mcp_process
         
         # 启动新进程
-        from ..config.settings import settings
+        from src.config.settings import settings
         
         cmd = [
             "node",
@@ -104,6 +104,9 @@ async def _send_request(method: str, params: dict) -> Any:
 async def call_tool(tool_name: str, arguments: dict) -> str:
     """调用高德 MCP 工具。
     
+    通过 guards 模块（熔断器 + 限流器 + 缓存）保护调用，
+    并自动收集指标供 /api/admin/mcp-stats 端点使用。
+    
     Args:
         tool_name: 工具名称（如 "maps_weather"）
         arguments: 工具参数
@@ -111,7 +114,10 @@ async def call_tool(tool_name: str, arguments: dict) -> str:
     Returns:
         工具执行结果字符串
     """
-    try:
+    from src.services.mcp.guards import call_with_guards
+
+    async def _do_call() -> str:
+        """实际的工具调用逻辑（不包含 guards 层）。"""
         result = await _send_request(
             "tools/call",
             {
@@ -119,15 +125,17 @@ async def call_tool(tool_name: str, arguments: dict) -> str:
                 "arguments": arguments,
             },
         )
-        
+
         # 提取结果文本
         content = result.get("content", [])
         if isinstance(content, list):
             texts = [c.get("text", "") for c in content if c.get("type") == "text"]
             return "\n".join(texts)
-        
+
         return str(result)
-        
+
+    try:
+        return await call_with_guards(tool_name, _do_call)
     except Exception as e:
         logger.error(f"调用 MCP 工具失败: {tool_name}, {e}")
         raise

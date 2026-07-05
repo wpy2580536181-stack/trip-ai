@@ -7,6 +7,7 @@ from fastapi import Query
 
 from src.config.database import get_db
 from src.middleware.auth import get_current_user
+from src.middleware.rate_limiter import auth_rate_limiter
 from src.schemas.user import (
     UserRegister, UserLogin, UserResponse, 
     UserUpdateRequest, ChangePasswordRequest,
@@ -16,12 +17,17 @@ from src.schemas.user import (
 from src.services.user_service import UserService
 from src.models.user import User
 
-router = APIRouter(prefix="/api/auth", tags=["Authentication"])
+router = APIRouter(
+    prefix="/user",
+    tags=["Authentication"],
+    dependencies=[Depends(auth_rate_limiter)],
+)
 
 
 @router.post(
     "/register",
     response_model=Dict,
+    status_code=status.HTTP_201_CREATED,
     summary="用户注册",
     description="""
     注册新用户账号。
@@ -137,7 +143,7 @@ async def login(
 
 
 @router.get(
-    "/me",
+    "/info",
     response_model=Dict,
     summary="获取当前用户信息",
     description="""
@@ -316,7 +322,7 @@ async def change_password(
 
 
 @router.post(
-    "/reset-password",
+    "/forgot-password",
     response_model=Dict,
     summary="忘记密码",
     description="""
@@ -369,7 +375,7 @@ async def forgot_password(
 
 
 @router.post(
-    "/reset-password/confirm",
+    "/reset-password",
     response_model=Dict,
     summary="重置密码",
     description="""

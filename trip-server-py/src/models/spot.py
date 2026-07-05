@@ -12,6 +12,7 @@ class Spot(Base, BaseModel):
     __tablename__ = "spots"
     __table_args__ = (
         Index("idx_spots_city_category", "city", "category"),
+        Index("ft_name_desc", "name", "description", mysql_prefix="FULLTEXT"),
         {"comment": "景点表"},
     )
     

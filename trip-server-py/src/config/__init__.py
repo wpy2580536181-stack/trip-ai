@@ -6,6 +6,7 @@
 from .settings import settings, Settings
 from .database import engine, async_session, init_db, close_db, get_db
 from .llm import create_llm, create_llm_from_config, load_fallback_llm_config
+from .redis_client import init_redis, close_redis, get_redis, is_redis_available
 
 __all__ = [
     "settings",
@@ -18,4 +19,8 @@ __all__ = [
     "create_llm",
     "create_llm_from_config",
     "load_fallback_llm_config",
+    "init_redis",
+    "close_redis",
+    "get_redis",
+    "is_redis_available",
 ]

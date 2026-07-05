@@ -1,11 +1,15 @@
 """Token Monitor 模块。
 
 使用环形缓冲区记录 Token 使用量，用于监控和告警。
+同时持久化到数据库。
 """
 
 from collections import deque
 from typing import Optional
 import time
+import logging
+
+from src.models.token_usage_log import TokenUsageLog
 
 
 # 环形缓冲区大小
@@ -16,7 +20,7 @@ TOKEN_ALERT_THRESHOLD = 100_000  # 单次请求超过 100K token 告警
 
 
 class TokenMonitor:
-    """Token 使用量监控器（环形缓冲区）。
+    """Token 使用量监控器（环形缓冲区 + 数据库持久化）。
     
     记录每次 Agent 请求的 Token 消耗，
     支持阈值告警和统计分析。
@@ -31,8 +35,9 @@ class TokenMonitor:
         self.max_records = max_records
         self._records: deque = deque(maxlen=max_records)
         self._alert_threshold = TOKEN_ALERT_THRESHOLD
+        self._logger = logging.getLogger(__name__)
     
-    def record(self, record: dict) -> None:
+    async def record(self, record: dict) -> None:
         """记录一条 Token 使用量记录。
         
         Args:
@@ -46,7 +51,7 @@ class TokenMonitor:
                 - latency_ms: 延迟毫秒数
                 - timestamp: 时间戳（毫秒）
         """
-        # 添加记录
+        # 添加记录到内存缓冲区
         self._records.append(record)
         
         # 检查告警阈值
@@ -54,9 +59,7 @@ class TokenMonitor:
         total_tokens = total_usage.get("total", 0)
         
         if total_tokens > self._alert_threshold:
-            import logging
-            logger = logging.getLogger(__name__)
-            logger.warning(
+            self._logger.warning(
                 f"Token 使用量超限: {total_tokens} > {self._alert_threshold}",
                 extra={
                     "user_id": record.get("user_id"),
@@ -64,6 +67,46 @@ class TokenMonitor:
                     "total_tokens": total_tokens,
                 },
             )
+        
+        # 保存到数据库
+        try:
+            await self._save_to_db(record)
+        except Exception as e:
+            self._logger.error(f"保存 Token 使用记录到数据库失败: {e}")
+    
+    async def _save_to_db(self, record: dict) -> None:
+        """保存记录到数据库。
+        
+        Args:
+            record: 记录字典
+        """
+        from sqlalchemy.ext.asyncio import async_sessionmaker
+        from src.config.database import engine
+        
+        # 创建数据库会话
+        async_session = async_sessionmaker(engine, expire_on_commit=False)
+        
+        async with async_session() as db:
+            try:
+                # 创建 TokenUsageLog 对象
+                log = TokenUsageLog(
+                    user_id=record.get("user_id"),
+                    request_type=record.get("request_type"),
+                    route=record.get("route"),
+                    conversation_id=record.get("conversation_id"),
+                    message_id=record.get("message_id"),
+                    prompt_tokens=record.get("total_usage", {}).get("prompt", 0),
+                    completion_tokens=record.get("total_usage", {}).get("completion", 0),
+                    total_tokens=record.get("total_usage", {}).get("total", 0),
+                    cached_tokens=record.get("total_usage", {}).get("cached", 0),
+                    latency_ms=record.get("latency_ms"),
+                )
+                
+                db.add(log)
+                await db.commit()
+            except Exception as e:
+                await db.rollback()
+                raise
     
     def get_recent(self, limit: int = 100) -> list[dict]:
         """获取最近的 N 条记录。

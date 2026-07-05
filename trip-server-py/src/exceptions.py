@@ -35,11 +35,11 @@ class NotFoundException(AppException):
 class UnauthorizedException(AppException):
     """Authentication required exception"""
     
-    def __init__(self):
+    def __init__(self, message: str = "Authentication required"):
         super().__init__(
             status_code=status.HTTP_401_UNAUTHORIZED,
             code=401,
-            message="Authentication required",
+            message=message,
             error="UNAUTHORIZED"
         )
 

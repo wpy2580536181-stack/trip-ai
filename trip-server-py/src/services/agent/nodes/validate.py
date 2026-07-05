@@ -8,6 +8,8 @@ import json
 import re
 from typing import Any, Optional
 
+from langchain_core.runnables import RunnableConfig
+
 from src.services.agent.types import StepInput
 
 
@@ -262,7 +264,7 @@ def _extract_json_string(text: str) -> str:
     return _extract_json(text)
 
 
-def validate_node(state: dict, config: dict) -> dict:
+def validate_node(state: dict, config: RunnableConfig) -> dict:
     """Validate 节点实现：校验 LLM 输出的 JSON。
     
     Args:

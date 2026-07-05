@@ -23,6 +23,9 @@ CITIES = [
     "丽江", "大理", "西双版纳", "张家界", "九寨沟", "黄山", "鼓浪屿", "凤凰", "平遥", "敦煌",
     "婺源", "稻城", "林芝", "纳木错", "喀纳斯", "伊犁", "阿尔山", "雪乡", "漠河", "北海",
     "涠洲岛", "舟山", "普陀山", "嵊泗", "千岛湖", "乌镇", "西塘", "周庄", "香格里拉",
+    # 国际城市（常见旅行目的地）
+    "东京", "大阪", "京都", "奈良", "首尔", "曼谷", "新加坡", "吉隆坡", "巴厘岛", "普吉岛",
+    "巴黎", "伦敦", "纽约", "洛杉矶", "悉尼", "墨尔本", "莫斯科", "迪拜", "多哈", "伊斯坦布尔",
 ]
 
 
@@ -125,24 +128,8 @@ def _router_node_wrapper(state: dict) -> dict:
     Returns:
         更新的状态字段
     """
-    message = state.get("message", "")
-    route = "planning" if router_node(state) else "general"
-    
-    # 确定城市
-    city = ""
-    if route == "planning":
-        city = _extract_city_from_message(message)
-    
-    # 多轮修改场景：message 可能不包含城市名
-    if route == "planning" and not city:
-        history = state.get("conversation_history", [])
-        city = _extract_city_from_history(history) or ""
-        
-        # 还找不到：回退到 general 由 legacy agent 处理
-        if not city:
-            route = "general"
-    
-    return {"route": route, "city": city}
+    # router_node 已包含完整的 route + city 判断逻辑
+    return router_node(state)
 
 
 def _route_decision(state: dict) -> str:

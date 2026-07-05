@@ -36,11 +36,30 @@ request.interceptors.response.use(
   }
 )
 
-export interface ApiResponse<T = any> {
+/**
+ * Python 后端使用的两种响应格式：
+ *
+ * Format A（仅 /api/trip/recommend, /api/trip/optimize）:
+ *   { success: boolean, data?: T, error?: string }
+ *
+ * Format B（所有其他端点）:
+ *   { code: number, data?: T, message?: string, error?: string }
+ */
+
+export interface ApiResponseFormatA<T = any> {
   success: boolean
   data?: T
   error?: string
 }
+
+export interface ApiResponseFormatB<T = any> {
+  code: number
+  data?: T
+  message?: string
+  error?: string
+}
+
+export type ApiResponse<T = any> = ApiResponseFormatA<T> | ApiResponseFormatB<T>
 
 export function post<T = any>(url: string, params?: any): Promise<ApiResponse<T>> {
   return request.post(url, params)

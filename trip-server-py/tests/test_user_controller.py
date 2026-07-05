@@ -15,7 +15,7 @@ class TestUserController:
     async def test_register_success(self, async_client: AsyncClient):
         """测试用户注册成功"""
         response = await async_client.post(
-            "/api/auth/register",
+            "/api/user/register",
             json={
                 "username": "testuser",
                 "password": "Test@123",
@@ -23,7 +23,7 @@ class TestUserController:
             }
         )
         
-        assert response.status_code == 200
+        assert response.status_code == 201
         data = response.json()
         assert data["code"] == 200
         assert data["data"]["username"] == "testuser"
@@ -51,7 +51,7 @@ class TestUserController:
         
         # Try to register with same username
         response = await async_client.post(
-            "/api/auth/register",
+            "/api/user/register",
             json={
                 "username": "testuser",
                 "password": "Test@123",
@@ -87,7 +87,7 @@ class TestUserController:
         
         # Login
         response = await async_client.post(
-            "/api/auth/login",
+            "/api/user/login",
             json={
                 "username": "testuser",
                 "password": "Test@123"
@@ -120,7 +120,7 @@ class TestUserController:
         
         # Login with wrong password
         response = await async_client.post(
-            "/api/auth/login",
+            "/api/user/login",
             json={
                 "username": "testuser",
                 "password": "WrongPassword"
@@ -138,7 +138,7 @@ class TestUserController:
     @pytest.mark.asyncio
     async def test_get_user_info_unauthorized(self, async_client: AsyncClient):
         """测试未授权获取用户信息"""
-        response = await async_client.get("/api/auth/me")
+        response = await async_client.get("/api/user/info")
         
         # Should return 401 (unauthorized)
         # The detail is a string, not a dict
@@ -152,7 +152,7 @@ class TestUserController:
     async def test_forgot_password(self, async_client: AsyncClient):
         """测试忘记密码"""
         response = await async_client.post(
-            "/api/auth/reset-password",
+            "/api/user/forgot-password",
             json={
                 "email": "test@example.com"
             }

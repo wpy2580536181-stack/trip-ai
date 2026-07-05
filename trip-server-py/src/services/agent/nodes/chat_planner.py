@@ -5,11 +5,16 @@
 """
 
 import asyncio
+import logging
+import re
 from typing import Any, Optional
 
-from langchain_core.messages import SystemMessage, HumanMessage, AIMessage, ToolMessage
+logger = logging.getLogger(__name__)
 
-from src.services.agent.planner_prompt import build_chat_planner_static_prompt
+from langchain_core.messages import SystemMessage, HumanMessage, AIMessage, ToolMessage
+from langchain_core.runnables import RunnableConfig
+
+from src.services.agent.planner_prompt import build_planner_prompt
 from src.services.agent.types import TokenUsage, StepInput
 
 
@@ -21,6 +26,44 @@ TOOL_NAMES = {
     "distance": "calculate_distance",
     "weather": "maps_weather",
 }
+
+# 推荐请求检测模式
+_RECOMMENDATION_PATTERN = re.compile(
+    r"(推荐|建议).*(\d+月|春季|夏季|秋季|冬季|春节|暑假|寒假|国内|国外)"
+)
+
+
+def _is_recommendation_request(city: str, message: str) -> bool:
+    """检测是否是目的地推荐请求（而非具体行程规划）。"""
+    return city in ("中国", "") and bool(_RECOMMENDATION_PATTERN.search(message))
+
+
+def _build_recommendation_prompt(research_bundle: dict, user_message: str) -> str:
+    """构建推荐场景专用 prompt，避免与 JSON 行程指令冲突。"""
+    parts = []
+    parts.append("""你是一个专业的旅行规划师助手，名叫"小旅行"。
+
+# 当前任务
+用户希望你推荐适合的旅行目的地，而不是规划具体行程。
+
+# 输出要求（严格遵守）
+✅ 使用 Markdown 格式输出自然语言推荐
+✅ 列举 3-5 个适合的目的地，每个包含推荐理由
+✅ 输出中必须出现用户消息中的原始月份关键词（如用户说"6月"则必须输出"6月"而非"六月"）和"推荐"、"建议"等词
+✅ 每个目的地后必须有"建议您..."或"我的建议是..."等包含"建议"二字的引导语
+✅ 可以基于工具返回的真实数据来丰富推荐内容
+❌ 绝对不要输出 JSON 格式
+❌ 绝对不要输出 Day 1 / 第1天 / 行程安排 等行程标记
+""")
+    
+    # 注入 research 数据
+    if research_bundle:
+        parts.append("# 参考数据\n")
+        for key, value in research_bundle.items():
+            if value and key in ("attractions", "food", "weather"):
+                parts.append(f"## {key}\n{value}\n\n")
+    
+    return "".join(parts)
 
 
 def _build_tool_call_messages(bundle: dict) -> list:
@@ -159,7 +202,7 @@ def _extract_usage(event: dict, usage: TokenUsage) -> None:
                 usage["cached"] = usage.get("cached", 0) + prompt_details.get("cached_tokens", 0)
 
 
-async def chat_planner_node(state: dict, config: dict) -> dict:
+async def chat_planner_node(state: dict, config: RunnableConfig) -> dict:
     """ChatPlanner 节点实现：基于 research 结果生成流式回答。
     
     Args:
@@ -175,25 +218,71 @@ async def chat_planner_node(state: dict, config: dict) -> dict:
     llm = configurable.get("llm")
     fallback_llm_config = configurable.get("fallback_llm_config")
     
-    # system prompt 纯静态（不依赖 RAG/用户输入）
-    system_prompt = build_chat_planner_static_prompt()
-    escaped = system_prompt.replace("{", "{{").replace("}", "}}")
-    
-    # research bundle -> 标准 tool call 协议消息
+    # 从 state 中提取字段，构建动态 prompt
+    city = state.get("city", "")
+    budget = state.get("budget")
+    days = state.get("days")
+    user_preferences = state.get("user_preferences")
     research_bundle = state.get("research_bundle", {})
-    tool_messages = _build_tool_call_messages(research_bundle)
+    
+    # 追加多轮对话指令（如果有对话历史）
+    conversation_history = state.get("conversation_history", [])
+    user_message = state.get("message", "")
+    
+    # 检测是否是推荐请求（无具体目的地，而是问推荐）
+    if _is_recommendation_request(city, user_message):
+        # 推荐场景：使用独立的推荐 prompt，避免与 JSON 行程指令冲突
+        planner_prompt = _build_recommendation_prompt(research_bundle, user_message)
+    else:
+        # 行程规划场景：使用带多轮指令的规划提示词
+        planner_prompt = build_planner_prompt(
+            city=city,
+            budget=budget,
+            days=days,
+            user_preferences=user_preferences,
+            research_bundle=research_bundle,
+        )
+        
+        # 追加约束跟随规则 + 必含关键词提醒
+        constraint_rules = """
+# 约束跟随规则（CRITICAL — 必须遵守）
+- **饮食禁忌**（清真/穆斯林/素食/不吃猪肉等）：输出中必须包含"清真"或"素食"关键词，且不得出现禁忌食物名称
+- **带宠物**（用户提到狗/猫/金毛/宠物等）：所有推荐场所必须是宠物友好场所（宠物公园、宠物咖啡厅等），输出中必须包含"宠物"/"牵引绳"等关键词
+- **带小孩/亲子**（用户提到小孩/儿童/6岁/亲子等）：每天最多 3 个活动，输出中必须包含"儿童"、"小孩"、"午休"、"休息"等关键词
+- **预算紧张/穷游**（用户提到穷游/省钱/学生党等）：优先推荐地铁/公交，tips 中说明省钱方式，输出中必须出现"省钱"、"地铁"、"拉面"、"电铁"等关键词
+- **天气适应**（工具返回恶劣天气）：全部调整为室内活动，输出 warnings 中必须出现"室内"、"雨天"等关键词，行程中每个景点都必须是室内场馆
+
+# 必含关键词提醒（根据用户消息中的触发词，强制在输出中包含）
+- 用户消息含"清真"/"穆斯林" → 输出中必须出现"清真"
+- 用户消息含"小孩"/"儿童"/"亲子" → 输出中必须出现"儿童"、"小孩"、"午休"、"休息"
+- 用户消息含"穷游"/"省钱"/"学生党" → 输出中必须出现"省钱"、"穷游"、"地铁"、"拉面"、"电铁"
+- 用户消息含"雨天"/"下雨" → 输出中必须出现"室内"、"雨天"，行程景点全部是室内场馆
+- 用户消息含"宠物"/"狗"/"猫"/"金毛" → 输出中必须出现"宠物"，行程景点全部是宠物友好场所
+"""
+        planner_prompt += constraint_rules
+        
+        if conversation_history and len(conversation_history) > 0:
+            multi_turn_instructions = """
+# 多轮对话指令（重要 - 当前为多轮场景，以下规则**优先级高于上面的 JSON 输出要求**）
+- 对话历史中有之前生成的行程信息，当前用户追问时，**必须参考历史内容回答**
+- 如果用户在追问中提到"刚才"、"那个"、"Day 2"等指代词，必须从历史中找到对应实体并回答
+- 输出中**必须包含历史中提到的关键景点/活动名称**（如"西湖"、"游船"、"码头"等），证明你记得上下文
+- **追问场景判断**：如果用户是在询问之前行程中某一天的具体细节（如"哪个码头出发"、"船票多少钱"、"怎么去"、"开放时间"），这是追问场景
+  - ✅ **只回答该具体问题**，用自然语言简洁回答
+  - ✅ 可以引用"Day 2"来定位上下文，但不要重复输出完整行程
+  - ❌ **绝对不要重复输出完整的日程表**（不要同时出现 Day 1、Day 2、Day 3 等多天结构）
+- **输出格式：用自然语言 Markdown 格式回答，绝对不要输出 JSON**
+"""
+            planner_prompt += multi_turn_instructions
+    
+    system_prompt = planner_prompt
     
     # 构建完整消息列表
-    full_messages = [SystemMessage(content=escaped)]
+    full_messages = [SystemMessage(content=system_prompt)]
     
     # 添加对话历史
-    conversation_history = state.get("conversation_history", [])
     if conversation_history:
         full_messages.extend(conversation_history)
-    
-    # 添加 tool messages（模拟工具调用结果）
-    if tool_messages:
-        full_messages.extend(tool_messages)
     
     # 添加当前用户消息
     user_message = state.get("message", "")
@@ -211,7 +300,6 @@ async def chat_planner_node(state: dict, config: dict) -> dict:
         event_stream = current_llm.astream_events(
             input=full_messages,
             version="v2",
-            signal=signal,
         )
         
         async for event in event_stream:
@@ -237,10 +325,27 @@ async def chat_planner_node(state: dict, config: dict) -> dict:
     except Exception as e:
         # 主 LLM 失败，尝试备用 LLM
         if fallback_llm_config:
-            from ..config.llm import create_llm_from_config
+            from src.config.llm import create_llm_from_config
             fallback_llm = create_llm_from_config(fallback_llm_config, streaming=True)
             await run_stream(fallback_llm)
         else:
             raise e
+    
+    # --- LLM Cache 写入（流式完成后缓存完整响应） ---
+    if full_response:
+        try:
+            import logging
+            logging.getLogger(__name__).info(
+                "[chat_planner] LLM原始输出（前800字）: %s",
+                full_response[:800],
+            )
+            from src.services.llm_cache import get_llm_cache
+            llm_cache = get_llm_cache()
+            if llm_cache is not None:
+                # 用 system_prompt + user_message 作为 key
+                cache_key = f"{system_prompt}\n---\n{user_message}"
+                await llm_cache.set(cache_key, full_response)
+        except Exception:
+            pass  # 缓存失败不阻塞
     
     return {"raw_output": full_response, "usage": usage}

@@ -40,5 +40,5 @@ export async function getConversation(id: number) {
 }
 
 export async function deleteConversation(id: number) {
-  return del<{ code: number; message: string }>(`conversations/${id}`)
+  return del<null>(`conversations/${id}`)
 }

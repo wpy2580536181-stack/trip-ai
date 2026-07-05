@@ -8,11 +8,12 @@ import asyncio
 from typing import Any, Optional
 
 from langchain_core.messages import HumanMessage, BaseMessage
+from langchain_core.runnables import RunnableConfig
 
 from src.services.agent.types import TokenUsage, StepInput
 
 
-async def legacy_agent_node(state: dict, config: dict) -> dict:
+async def legacy_agent_node(state: dict, config: RunnableConfig) -> dict:
     """Legacy Agent 节点实现：使用 AgentExecutor 处理一般对话。
     
     这个节点处理非规划请求（route == 'general'），
@@ -54,7 +55,6 @@ async def legacy_agent_node(state: dict, config: dict) -> dict:
         event_stream = executor.astream_events(
             input_dict,
             version="v2",
-            signal=signal,
         )
         
         async for event in event_stream:

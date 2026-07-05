@@ -82,3 +82,18 @@ class UserUpdateRequest(BaseModel):
     phone: Optional[str] = Field(None, max_length=20, description="手机号")
     bio: Optional[str] = Field(None, description="个人简介")
     preferences: Optional[dict] = Field(None, description="偏好设置")
+
+
+class FeedbackCreate(BaseModel):
+    """提交反馈请求"""
+    message_id: int = Field(..., alias="messageId", description="消息ID")
+    conversation_id: int = Field(..., alias="conversationId", description="对话ID")
+    rating: int = Field(..., description="评分（1=点赞，-1=点踩）")
+    comment: Optional[str] = Field(None, description="评论")
+    tags: Optional[list[str]] = Field(None, description="标签")
+
+
+class FeedbackResponse(BaseModel):
+    """反馈响应"""
+    id: int
+    rating: int
