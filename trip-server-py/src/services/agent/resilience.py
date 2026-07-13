@@ -8,6 +8,8 @@ import asyncio
 import functools
 from typing import Any, Callable, Awaitable, Optional
 
+import httpx
+
 
 class ToolResilienceWrapper:
     """工具韧性包装器。
@@ -37,7 +39,34 @@ class ToolResilienceWrapper:
         self.retries = retries
         self.fallback = fallback
         self.on_failure = on_failure
-    
+
+    @staticmethod
+    def _extract_retry_after(exc: Optional[Exception]) -> Optional[float]:
+        """从 httpx 的 429 异常中提取 Retry-After 等待秒数（无则返回 None）。"""
+        if isinstance(exc, httpx.HTTPStatusError):
+            resp = getattr(exc, "response", None)
+            if resp is not None and getattr(resp, "status_code", None) == 429:
+                raw = resp.headers.get("Retry-After") if resp.headers else None
+                if raw:
+                    try:
+                        secs = float(str(raw).strip())
+                        if secs >= 0:
+                            return secs
+                    except (ValueError, TypeError):
+                        pass
+        return None
+
+    def _compute_backoff(self, exc: Optional[Exception], attempt: int) -> float:
+        """计算退避等待秒数。
+
+        - 上游 429：优先使用 Retry-After（封顶 30s）
+        - 其余：指数退避 2**attempt（封顶 10s）
+        """
+        retry_after = self._extract_retry_after(exc) if exc is not None else None
+        if retry_after is not None:
+            return min(retry_after, 30.0)
+        return min(2 ** attempt, 10)
+
     async def __call__(self, func: Callable, *args: Any, **kwargs: Any) -> Any:
         """执行被包装的函数（带超时、重试、降级）。
         
@@ -74,8 +103,8 @@ class ToolResilienceWrapper:
             
             # 如果不是最后一次尝试，等待后重试
             if attempt < self.retries:
-                wait_time = 2 ** attempt  # 指数退避：1s, 2s, 4s...
-                await asyncio.sleep(min(wait_time, 10))  # 最多等 10 秒
+                wait_time = self._compute_backoff(last_error, attempt)
+                await asyncio.sleep(wait_time)
         
         # 所有重试都失败，返回降级值
         return self.fallback

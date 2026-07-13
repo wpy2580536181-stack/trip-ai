@@ -9,6 +9,7 @@ import {
 } from '@/api/tokenUsage'
 import type { TokenUsageStats, TokenUsageLogEntry } from '@/api/tokenUsage'
 import { get } from '@/api/request'
+import { handleApiError } from '@/utils/apiError'
 
 const message = useMessage()
 
@@ -81,8 +82,8 @@ const fetchData = async () => {
     const [sRes, lRes]: any = await Promise.all([statsReq, logsReq])
     if (sRes?.code === 200) stats.value = sRes.data
     if (lRes?.code === 200) logs.value = lRes.data
-  } catch {
-    message.error('加载失败')
+  } catch (error) {
+    handleApiError(error, message)
   } finally {
     loading.value = false
   }

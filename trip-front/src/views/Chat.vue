@@ -4,6 +4,7 @@ import { useMessage, useDialog } from 'naive-ui'
 import { fetchStream } from '@/api/request'
 import ChatBubble from '@/components/ChatBubble.vue'
 import { getConversation, listConversations, deleteConversation, type ConversationListItem } from '@/api/conversation'
+import { handleApiError } from '@/utils/apiError'
 
 const message = useMessage()
 const dialog = useDialog()
@@ -168,7 +169,7 @@ const fetchAiResponse = (userMsg: string) => {
       connectionWarning.value = null
       stopConnectionCheck()
       currentAbortController.value = null
-      message.error('AI处理发生错误')
+      message.error(errMsg || 'AI处理发生错误')
       loadConversations()
     },
     (type, name) => {
@@ -191,8 +192,8 @@ const loadConversations = async () => {
   try {
     const res = await listConversations()
     conversationItems.value = res.data?.items ?? []
-  } catch {
-    message.error('加载历史对话失败')
+  } catch (error) {
+    handleApiError(error, message)
   } finally {
     loadingConversations.value = false
   }
@@ -212,8 +213,8 @@ const onSelectConversation = async (id: number) => {
       timestamp: m.createdAt,
     }))
     loadConversations()
-  } catch {
-    message.error('加载对话失败')
+  } catch (error) {
+    handleApiError(error, message)
   }
 }
 
@@ -238,8 +239,8 @@ const onDeleteConversation = (id: number) => {
           onNewConversation()
         }
         message.success('已删除')
-      } catch {
-        message.error('删除失败')
+      } catch (error) {
+        handleApiError(error, message)
       }
     },
   })

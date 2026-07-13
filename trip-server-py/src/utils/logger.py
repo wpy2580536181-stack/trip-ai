@@ -78,6 +78,7 @@ def setup_logging(level: str = "INFO") -> None:
             structlog.stdlib.filter_by_level,
             structlog.stdlib.add_logger_name,
             structlog.stdlib.add_log_level,
+            structlog.contextvars.merge_contextvars,
             structlog.stdlib.PositionalArgumentsFormatter(),
             structlog.processors.TimeStamper(fmt="iso"),
             structlog.processors.StackInfoRenderer(),

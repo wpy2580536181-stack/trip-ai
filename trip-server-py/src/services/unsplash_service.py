@@ -11,7 +11,7 @@ from typing import Optional, Dict, List
 import httpx
 
 from src.config.settings import settings
-from src.services.http.retry import http_with_retry_on_429
+from src.services.http.retry import http_with_retry_on_429, request_id_headers
 from src.utils.logger import trip_log
 
 logger = logging.getLogger(__name__)
@@ -96,6 +96,7 @@ async def search_photos(query: str, per_page: int = 3) -> List[dict]:
         "content_filter": "high",
     }
     headers = {"Authorization": f"Client-ID {access_key}"}
+    headers.update(request_id_headers())
 
     try:
         async with httpx.AsyncClient(timeout=SEARCH_TIMEOUT_S) as client:
@@ -150,6 +151,7 @@ async def get_photo_url(photo_id: str, width: int = 800, height: int = 600) -> O
 
     params = {"w": width, "h": height, "fit": "crop"}
     headers = {"Authorization": f"Client-ID {access_key}"}
+    headers.update(request_id_headers())
 
     try:
         async with httpx.AsyncClient(timeout=SEARCH_TIMEOUT_S) as client:

@@ -4,6 +4,7 @@ import { useRouter } from 'vue-router'
 import { useMessage, useDialog } from 'naive-ui'
 import { getUserInfo, updateUserInfo, changePassword } from '@/api/user'
 import type { UserPreferences } from '@/api/user'
+import { handleApiError } from '@/utils/apiError'
 
 const router = useRouter()
 const message = useMessage()
@@ -61,8 +62,8 @@ const fetchUserInfo = async () => {
       preferences.value = (res.data?.preferences as UserPreferences) ?? {}
       originalPreferences.value = { ...preferences.value }
     }
-  } catch {
-    message.error('获取用户信息失败')
+  } catch (error) {
+    handleApiError(error, message)
   }
 }
 
@@ -81,8 +82,8 @@ const onSavePreferences = async () => {
     } else {
       message.error(res.error || '保存失败')
     }
-  } catch {
-    message.error('保存失败')
+  } catch (error) {
+    handleApiError(error, message)
   }
 }
 
@@ -107,8 +108,8 @@ const saveEdit = async () => {
     } else {
       message.error(res.error || '更新失败')
     }
-  } catch {
-    message.error('更新失败')
+  } catch (error) {
+    handleApiError(error, message)
   } finally {
     loading.value = false
   }
@@ -140,8 +141,8 @@ const onChangePassword = async () => {
     } else {
       message.error(res.error || '修改失败')
     }
-  } catch {
-    message.error('修改失败')
+  } catch (error) {
+    handleApiError(error, message)
   } finally {
     loading.value = false
   }

@@ -10,7 +10,10 @@ from starlette.middleware.gzip import GZipMiddleware
 
 import os
 import time
+import uuid
+from starlette.types import ASGIApp, Message, Receive, Scope, Send
 
+import structlog
 from src.config.settings import settings
 from src.utils.logger import setup_logging, trip_log
 
@@ -51,6 +54,53 @@ async def lifespan(app: FastAPI):
     trip_log.info("Trip Python Backend shutdown")
 
 
+# ---------------------------------------------------------------------------
+# 请求 ID 中间件（原生 ASGI，透传不缓冲，兼容 SSE）
+# ---------------------------------------------------------------------------
+
+
+class RequestIDMiddleware:
+    """为每次请求绑定 request_id，贯穿日志与出站调用头。
+
+    - 优先复用客户端下发的 ``x-request-id``，否则生成 uuid
+    - 通过 structlog contextvars 绑定，使本次请求所有日志自动携带 request_id
+    - 在响应头回写 ``x-request-id``，便于前端/网关串联
+    - 请求结束（含异常）清除上下文，避免串号
+    """
+
+    def __init__(self, app: ASGIApp) -> None:
+        self.app = app
+
+    async def __call__(self, scope: Scope, receive: Receive, send: Send) -> None:
+        if scope.get("type") != "http":
+            await self.app(scope, receive, send)
+            return
+
+        request_id = self._read_request_id(scope)
+        structlog.contextvars.bind_contextvars(request_id=request_id)
+
+        async def send_wrapper(message: Message) -> None:
+            if message["type"] == "http.response.start":
+                headers = message.setdefault("headers", [])
+                if not any(h[0].lower() == b"x-request-id" for h in headers):
+                    headers.append((b"x-request-id", request_id.encode("utf-8")))
+            await send(message)
+
+        try:
+            await self.app(scope, receive, send_wrapper)
+        finally:
+            structlog.contextvars.clear_contextvars()
+
+    @staticmethod
+    def _read_request_id(scope: Scope) -> str:
+        for name, value in scope.get("headers", []):
+            if name.lower() == b"x-request-id":
+                rid = value.decode("utf-8", "ignore").strip()
+                if rid:
+                    return rid
+        return uuid.uuid4().hex
+
+
 def create_app() -> FastAPI:
     """FastAPI 应用工厂"""
     app = FastAPI(
@@ -80,7 +130,12 @@ def create_app() -> FastAPI:
         IdempotencyMiddleware,
         path_prefixes=["/api/trip/recommend", "/api/trip/optimize"],
     )
-    
+
+    # 请求 ID 中间件：生成/透传 x-request-id，绑定 structlog 上下文，全链路日志关联。
+    # 注册在最外层（最后 add），确保 CORS / 限流 / 幂等 等下游中间件日志均带 request_id；
+    # 采用原生 ASGI 透传实现，不缓冲响应体，兼容 SSE 流式接口。
+    app.add_middleware(RequestIDMiddleware)
+
     # 注册异常处理器
     from src.middleware.exception_handlers import setup_exception_handlers
     setup_exception_handlers(app)

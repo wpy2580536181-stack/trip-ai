@@ -12,8 +12,20 @@ import logging
 from typing import Optional
 
 import httpx
+import structlog
 
 logger = logging.getLogger(__name__)
+
+
+def request_id_headers() -> dict:
+    """若当前请求上下文存在 request_id，返回携带 X-Request-Id 的请求头，用于出站调用溯源。"""
+    try:
+        rid = structlog.contextvars.get_contextvars().get("request_id")
+    except Exception:
+        return {}
+    if rid:
+        return {"X-Request-Id": rid}
+    return {}
 
 
 def parse_retry_after(value: Optional[str]) -> Optional[float]:

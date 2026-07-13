@@ -234,6 +234,31 @@ export async function fetchStream(
       signal: controller.signal,
     })
 
+    // Phase 2：连接级错误（非网络错误）识别，避免进入"网络中断续传"分支
+    if (response.status === 429) {
+      const raw = response.headers.get('Retry-After')
+      let retryAfterMs: number | undefined
+      if (raw) {
+        const secs = parseInt(raw, 10)
+        if (!Number.isNaN(secs)) retryAfterMs = Math.min(secs * 1000, 30000)
+      }
+      const err: any = new Error('请求过于频繁（429）')
+      err.name = 'UpstreamRateLimit'
+      err.retryAfterMs = retryAfterMs
+      throw err
+    }
+    if (response.status >= 500 && response.status < 600) {
+      const err: any = new Error(`服务暂时不可用（${response.status}）`)
+      err.name = 'UpstreamServerError'
+      throw err
+    }
+    if (!response.ok) {
+      const err: any = new Error(`请求失败（${response.status}）`)
+      err.name = 'UpstreamError'
+      err.status = response.status
+      throw err
+    }
+
     // 解析 X-Stream-Id header（仅首次请求有）
     const responseStreamId = response.headers.get('X-Stream-Id')
     if (responseStreamId) streamId = responseStreamId
@@ -259,6 +284,22 @@ export async function fetchStream(
   }
 
   /**
+   * 等待退避（同时监听 abort，避免退避期间阻塞取消）
+   */
+  const waitWithAbort = (ms: number): Promise<void> =>
+    new Promise<void>((resolve) => {
+      const timer = setTimeout(resolve, ms)
+      controller.signal.addEventListener(
+        'abort',
+        () => {
+          clearTimeout(timer)
+          resolve()
+        },
+        { once: true },
+      )
+    })
+
+  /**
    * 主循环：首次 + 重试
    */
   const run = async (): Promise<void> => {
@@ -269,10 +310,31 @@ export async function fetchStream(
       if (err?.name === 'AbortError') return
 
       // 正常完成（end event）但 reader 抛错（连接关）也可能到达这里
-      // 此时 completed 已是 true，不重连
       if (completed) return
 
-      // 网络中断：尝试重连
+      // Phase 2：连接级 429 / 5xx —— 按退避重连（不要求 streamId，因为尚未开始流式）
+      if (err?.name === 'UpstreamRateLimit' || err?.name === 'UpstreamServerError') {
+        if (attempt >= maxRetries) {
+          onError?.(err?.message || '服务暂时不可用，请稍后再试')
+          return
+        }
+        const delayMs =
+          err?.retryAfterMs ?? retryDelays?.[attempt] ?? getBackoffMs(attempt + 1)
+        attempt++
+        onResume?.(attempt, maxRetries)
+        await waitWithAbort(delayMs)
+        if (controller.signal.aborted) return
+        await run()
+        return
+      }
+
+      // 其他 4xx（如 401）：不可重试，直接报错
+      if (err?.name === 'UpstreamError') {
+        onError?.(err?.message || '请求失败')
+        return
+      }
+
+      // 网络中断：需要 streamId 才能续传
       if (attempt >= maxRetries) {
         onError?.(err?.message || '网络中断，已达最大重试次数')
         return
@@ -288,16 +350,7 @@ export async function fetchStream(
       const delayMs = retryDelays?.[attempt] ?? getBackoffMs(attempt + 1)
       attempt++
       onResume?.(attempt, maxRetries)
-
-      // 等退避（同时监听 abort）
-      await new Promise<void>((resolve) => {
-        const timer = setTimeout(resolve, delayMs)
-        controller.signal.addEventListener('abort', () => {
-          clearTimeout(timer)
-          resolve()
-        })
-      })
-
+      await waitWithAbort(delayMs)
       if (controller.signal.aborted) return
 
       // 递归：重试

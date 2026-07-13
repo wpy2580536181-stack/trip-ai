@@ -38,6 +38,7 @@ import { onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useMessage, useDialog } from 'naive-ui'
 import { listTrips, deleteTrip, type TripListItem } from '@/api/history'
+import { handleApiError } from '@/utils/apiError'
 
 const router = useRouter()
 const message = useMessage()
@@ -56,8 +57,8 @@ const onDelete = (id: number) => {
         await deleteTrip(id)
         items.value = items.value.filter(i => i.id !== id)
         message.success('已删除')
-      } catch {
-        message.error('删除失败')
+      } catch (error) {
+        handleApiError(error, message)
       }
     },
   })
