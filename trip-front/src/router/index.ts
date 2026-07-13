@@ -33,9 +33,21 @@ const routes = [
     meta: { requiresAuth: true },
   },
   {
+    path: '/generating',
+    name: 'TripGenerating',
+    component: () => import('../views/TripGenerating.vue'),
+    meta: { requiresAuth: true },
+  },
+  {
     path: '/history',
     name: 'History',
     component: () => import('../views/History.vue'),
+    meta: { requiresAuth: true },
+  },
+  {
+    path: '/commute',
+    name: 'CommutePicker',
+    component: () => import('../views/CommutePicker.vue'),
     meta: { requiresAuth: true },
   },
   {

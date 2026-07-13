@@ -176,8 +176,28 @@ const onOptimize = async () => {
       </div>
 
       <div v-if="isloading" class="loading-container">
-        <n-spin size="large" />
-        <p>加载中。。。</p>
+        <!-- 骨架屏：行程标题 -->
+        <div class="skeleton-card">
+          <div class="skeleton-title skeleton-anim"></div>
+          <div class="skeleton-row skeleton-anim"></div>
+          <div class="skeleton-row skeleton-anim skeleton-short"></div>
+        </div>
+
+        <!-- 骨架屏：每日行程卡片 -->
+        <div v-for="n in 3" :key="n" class="skeleton-card">
+          <div class="skeleton-day-header skeleton-anim"></div>
+          <div class="skeleton-block skeleton-anim"></div>
+          <div class="skeleton-block skeleton-anim skeleton-narrow"></div>
+          <div class="skeleton-block skeleton-anim"></div>
+          <div class="skeleton-block skeleton-anim skeleton-narrow"></div>
+        </div>
+
+        <!-- 骨架屏：预算 + 提示 -->
+        <div class="skeleton-card">
+          <div class="skeleton-title skeleton-anim"></div>
+          <div class="skeleton-row skeleton-anim"></div>
+          <div class="skeleton-row skeleton-anim skeleton-short"></div>
+        </div>
       </div>
       <div v-else-if="errorMsg" class="empty-state">
         <p>{{ errorMsg }}</p>
@@ -472,5 +492,66 @@ const onOptimize = async () => {
   body {
     background: white;
   }
+}
+
+/* Skeleton Screen */
+.skeleton-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.skeleton-anim {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e8e8e8 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s ease-in-out infinite;
+  border-radius: 6px;
+}
+
+.skeleton-title {
+  width: 40%;
+  height: 20px;
+  margin-bottom: 16px;
+}
+
+.skeleton-row {
+  width: 100%;
+  height: 14px;
+  margin-bottom: 10px;
+}
+
+.skeleton-short {
+  width: 60%;
+}
+
+.skeleton-day-header {
+  width: 30%;
+  height: 18px;
+  margin-bottom: 14px;
+}
+
+.skeleton-block {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 10px;
+}
+
+.skeleton-narrow {
+  width: 70%;
+  height: 40px;
+}
+
+@keyframes skeleton-shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 0;
 }
 </style>

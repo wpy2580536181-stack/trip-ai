@@ -5,6 +5,7 @@ LangGraph 多智能体编排引擎。
 """
 
 import asyncio
+import logging
 import time
 import uuid
 from typing import Any, Callable, Awaitable, Optional
@@ -324,12 +325,13 @@ class AgentEngine:
         Returns:
             包含 reply 和 parsed 的字典
         """
-        await self.ensure_amap_tools()
+        # 并行加载 Amap 工具和用户偏好（两者互不依赖）
+        _, preferences = await asyncio.gather(
+            self.ensure_amap_tools(),
+            self._load_user_preferences(user_id),
+        )
         
         start_time = time.time()
-        
-        # 加载用户偏好
-        preferences = await self._load_user_preferences(user_id)
         
         # 创建 TraceRecorder
         trace_recorder = TraceRecorder(message_id)
@@ -378,6 +380,13 @@ class AgentEngine:
             # 执行 PlannerGraph（设置 LLM 上下文，供 token_tracker callback 使用）
             with LLMContext(user_id=user_id, endpoint="recommend"):
                 result = await graph.ainvoke(initial_state, config=config)
+            
+            _t_graph = time.time()
+            logger = logging.getLogger(__name__)
+            logger.info(
+                "agent|graph=%dms city=%s days=%d budget=%d",
+                int((_t_graph - start_time) * 1000), city, days, budget,
+            )
             
             # 检查解析结果
             if result.get("parsed"):

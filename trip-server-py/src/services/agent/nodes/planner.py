@@ -7,6 +7,7 @@
 import asyncio
 import json
 import logging
+import time
 from typing import Any, Optional
 
 logger = logging.getLogger(__name__)
@@ -88,8 +89,11 @@ async def _invoke_llm(
         cache_prompt = f"{system_prompt}\n---\n{user_message}"
         cached_response = await llm_cache.get(cache_prompt)
         if cached_response is not None:
-            logger.info("LLM cache hit (planner)")
-            return cached_response, {"prompt": 0, "completion": 0, "total": 0, "cached": 1}
+            logger.info("planner|llm_cache=hit prompt_len=%d", len(cache_prompt))
+            # cached_tokens 不可知（从自己缓存返回），设定 ratio=100%
+            return cached_response, {"prompt": 0, "completion": 0, "total": 0, "cached": 0}
+
+    _t_llm = time.time()
 
     # 转义 system_prompt 中的花括号（LangChain 模板语法）
     escaped = system_prompt.replace("{", "{{").replace("}", "}}")
@@ -102,11 +106,13 @@ async def _invoke_llm(
     chain = prompt | llm
     
     try:
+        _t_start = time.time()
         # 使用 asyncio.wait_for 实现超时
         result = await asyncio.wait_for(
             chain.ainvoke({"input": user_message}),
             timeout=timeout / 1000.0,  # 转换为秒
         )
+        _t_duration = int((time.time() - _t_start) * 1000)
         
         # 提取文本内容
         content = ""
@@ -124,6 +130,16 @@ async def _invoke_llm(
         if llm_cache is not None and content:
             cache_prompt = f"{system_prompt}\n---\n{user_message}"
             await llm_cache.set(cache_prompt, content)
+        
+        prompt_t = usage.get("prompt", 0)
+        cached_t = usage.get("cached", 0)
+        hit_ratio = (cached_t * 100 // prompt_t) if prompt_t else 0
+        logger.info(
+            "planner|llm_cache=miss duration=%dms content_len=%d "
+            "prompt_tokens=%d completion_tokens=%d cached_tokens=%d prefix_cache_ratio=%d%%",
+            _t_duration, len(content),
+            prompt_t, usage.get("completion", 0), cached_t, hit_ratio,
+        )
         
         return content, usage
         

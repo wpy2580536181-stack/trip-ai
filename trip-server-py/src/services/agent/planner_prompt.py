@@ -92,17 +92,9 @@ def build_planner_prompt(
     parts.append(json.dumps(fixed_prefs, ensure_ascii=False, indent=2))
     parts.append("\n\n")
     
-    # 检索到的真实数据
-    parts.append("# 检索到的真实数据\n")
-    if research_bundle:
-        parts.append(_format_bundle(research_bundle))
-    else:
-        parts.append("（暂无）")
-    parts.append("\n\n")
-    
-    # 任务说明
-    parts.append("""# 任务
-基于以上数据生成行程规划。**直接使用上述真实数据**，不要编造景点名称、价格、地址。
+    # 检索到的真实数据（放在「任务」之后，使前缀稳定可缓存）
+    parts.append("# 任务\n")
+    parts.append("""基于以上数据生成行程规划。**直接使用上述真实数据**，不要编造景点名称、价格、地址。
 如果某类数据缺失（显示"暂时不可用"），可基于通用旅行知识补充，但优先用真实数据。
 
 # 输出格式
@@ -146,6 +138,14 @@ def build_planner_prompt(
 ## 输出模板
 {"city":"成都","days":3,"totalBudget":5000,"dailyItinerary":[{"day":1,"date":"","morning":{"spot":"宽窄巷子","duration":"2小时","ticket":"免费","transportation":"地铁","description":"感受老成都"},"afternoon":{"spot":"","duration":"","ticket":"","transportation":"","description":""},"evening":{"spot":"","duration":"","ticket":"","transportation":"","description":""},"breakfast":{"spot":"","duration":"","ticket":"","transportation":"","description":""},"lunch":{"spot":"","duration":"","ticket":"","transportation":"","description":""},"dinner":{"spot":"","duration":"","ticket":"","transportation":"","description":""},"accommodation":{"spot":"","duration":"","ticket":"","transportation":"","description":""}}],"budgetBreakdown":{"accommodation":1500,"food":1200,"transportation":1500,"tickets":500,"other":300},"tips":["带好身份证","提前订机票"],"warnings":[]}
 """)
+    
+    # 🔑 检索到的真实数据（放在末尾，使前面的前缀对 DeepSeek Prompt Cache 稳定可命中）
+    parts.append("\n# 检索到的真实数据\n")
+    if research_bundle:
+        parts.append(_format_bundle(research_bundle))
+    else:
+        parts.append("（暂无）")
+    parts.append("\n")
     
     return "".join(parts)
 

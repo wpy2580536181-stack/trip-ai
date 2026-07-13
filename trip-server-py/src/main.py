@@ -112,6 +112,9 @@ def create_app() -> FastAPI:
     
     from src.controllers.trip_controller import router as trip_router
     app.include_router(trip_router, prefix="/api")
+
+    from src.controllers.commute_controller import router as commute_router
+    app.include_router(commute_router, prefix="/api")
     
     # 健康检查端点（负载均衡器用，不加 /api 前缀）
     @app.get("/health")

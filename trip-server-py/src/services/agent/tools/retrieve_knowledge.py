@@ -5,12 +5,15 @@
 """
 
 import json
+import logging
 from typing import Any, Optional
 
 from langchain_core.tools import tool
 from pydantic import BaseModel, Field
 
 from src.services.agent.resilience import with_resilience
+
+logger = logging.getLogger(__name__)
 
 
 class RetrieveKnowledgeInput(BaseModel):
@@ -39,6 +42,16 @@ async def retrieve_knowledge_tool(query: str, city: str, category: Optional[str]
         检索结果字符串
     """
     from ...knowledge_service import search_spots
+    from ...poi_cache import get_poi_cache
+    
+    # ---- POI 缓存检查 ----
+    search_category = category or "attraction"
+    poi_cache = get_poi_cache()
+    
+    if search_category in ("attraction", "food"):
+        cached = await poi_cache.get(city, search_category, query)
+        if cached is not None:
+            return cached
     
     try:
         results = await search_spots(
@@ -50,6 +63,10 @@ async def retrieve_knowledge_tool(query: str, city: str, category: Optional[str]
         
         if not results:
             return f"知识库中没有找到 {city} 的相关信息。"
+        
+        # ---- POI 缓存写入 ----
+        if search_category in ("attraction", "food"):
+            await poi_cache.set(city, search_category, query, results)
         
         return results
         

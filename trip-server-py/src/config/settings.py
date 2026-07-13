@@ -33,9 +33,14 @@ class Settings(BaseSettings):
     kimi_base_url: str = "https://api.moonshot.cn/v1"
     kimi_model: str = "moonshot-v1-8k"
     
+    # AGNES Provider 配置（可选）
+    agnes_api_key: str = ""
+    agnes_base_url: str = "https://apihub.agnes-ai.com/v1"
+    agnes_model: str = "agnes-2.0-flash"
+    
     # Provider 切换配置
     llm_primary_provider: str = "deepseek"
-    llm_fallback_provider: str = "kimi"
+    llm_fallback_provider: str = "agnese"
     
     # 环境配置
     node_env: str = "development"
@@ -48,6 +53,7 @@ class Settings(BaseSettings):
     
     # 高德 MCP
     amap_maps_api_key: str = ""
+    amap_mcp_server_path: str = ""
     unsplash_access_key: str = ""
     
     # Redis 配置
@@ -62,7 +68,7 @@ class Settings(BaseSettings):
     concurrency_user: int = 1  # 单用户并发限制
     
     # LLM 缓存配置
-    llm_cache_enabled: bool = False  # LLM 响应缓存开关（默认关闭，调试期避免脏缓存）
+    llm_cache_enabled: bool = True  # LLM 响应缓存开关（启用后相同 prompt 命中缓存 ~1ms）
     llm_cache_ttl_s: int = 600  # LLM 缓存 TTL（秒）
     llm_cache_max_size: int = 200  # 内存模式最大条目数
     

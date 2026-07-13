@@ -81,41 +81,19 @@ const validateForm = () => {
 
 const handleSubmit = async () => {
   if (!validateForm()) return
-  isloading.value = true
-  try {
-    const res = await post('/trip/recommend', {
+  
+  // 改为跳转到流式生成页面，不再阻塞等待
+  router.push({
+    path: '/generating',
+    query: {
       city: formData.city,
       budget: formData.budget,
       days: formData.days,
       departureCity: formData.departureCity || undefined,
       transportMode: formData.transportMode || undefined,
       accommodation: formData.accommodation || undefined,
-    })
-    if (res.success && res.data) {
-      const tripId = (res.data as { id?: number }).id
-      if (tripId) {
-        router.push({ path: '/detail', query: { id: tripId } })
-      } else {
-        router.push({
-          path: '/detail',
-          query: {
-            city: formData.city,
-            budget: formData.budget,
-            days: formData.days,
-            departureCity: formData.departureCity || undefined,
-            transportMode: formData.transportMode || undefined,
-            accommodation: formData.accommodation || undefined,
-          },
-        })
-      }
-    } else {
-      message.error(res.error || '生成失败，请重试')
-    }
-  } catch {
-    message.error('网络错误，请稍后重试')
-  } finally {
-    isloading.value = false
-  }
+    },
+  })
 }
 </script>
 

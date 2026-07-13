@@ -5,11 +5,15 @@
 """
 
 import asyncio
+import logging
+import time
 from typing import Any, Callable, Awaitable
 
 from langchain_core.runnables import RunnableConfig
 
 from src.services.agent.types import ResearchBundle, StepInput
+
+logger = logging.getLogger(__name__)
 
 
 # 工具调用失败时的降级消息
@@ -31,12 +35,20 @@ async def research_node(state: dict, config: RunnableConfig) -> dict:
     from ..tools import retrieve_knowledge_tool, search_hotels_tool, calculate_distance_tool
     from ...mcp.amap_client import call_tool as amap_call_tool
     from ..types import PlannerConfig
+    from ..research_bundle_cache import get_bundle_cache
     
     city = state.get("city", "")
     budget = state.get("budget")
     days = state.get("days")
     departure_city = state.get("departure_city")
     user_preferences = state.get("user_preferences")
+    
+    # ---- ResearchBundle 全量缓存检查 ----
+    bundle_cache = get_bundle_cache()
+    cached_bundle = await bundle_cache.get(city, budget, days, departure_city, user_preferences)
+    if cached_bundle is not None:
+        logger.info("bundle_cache|returning_cached city=%s days=%d", city, days)
+        return {"research_bundle": cached_bundle}
     
     # 从 config 中获取依赖
     configurable = config.get("configurable", {})
@@ -135,7 +147,21 @@ async def research_node(state: dict, config: RunnableConfig) -> dict:
             })
     
     # 并行执行所有任务
+    _t0 = time.time()
     results = await asyncio.gather(*tasks, return_exceptions=True)
+    _t_total = time.time()
+    
+    # 记录 per-tool 耗时
+    for i, key in enumerate(task_keys):
+        tool_name = task_names[i]
+        duration_ms = int((_t_total - start_times[i]) * 1000)
+        is_error = isinstance(results[i], Exception)
+        logger.info(
+            "research|tool=%s key=%s duration=%dms error=%s city=%s",
+            tool_name, key, duration_ms, is_error, city,
+        )
+    logger.info("research|total=%dms tools=%d city=%s",
+                int((_t_total - _t0) * 1000), len(tasks), city)
     
     # 构建 ResearchBundle
     bundle: ResearchBundle = {}
@@ -173,5 +199,8 @@ async def research_node(state: dict, config: RunnableConfig) -> dict:
                 "name": name,
                 "output": bundle.get(key, ""),
             })
+    
+    # ---- ResearchBundle 全量缓存写入 ----
+    await bundle_cache.set(city, budget, days, departure_city, user_preferences, bundle)
     
     return {"research_bundle": bundle}

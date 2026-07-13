@@ -45,7 +45,7 @@ def build_planner_graph():
     # ── 添加边 ──────────────────────────────────────────────────
     
     # 入口：__start__ → research
-    graph.set_entry_point()
+    graph.set_entry_point("research")
     graph.add_edge("__start__", "research")
     
     # research → planner

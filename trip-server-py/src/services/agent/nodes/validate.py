@@ -5,12 +5,16 @@
 """
 
 import json
+import logging
 import re
+import time
 from typing import Any, Optional
 
 from langchain_core.runnables import RunnableConfig
 
 from src.services.agent.types import StepInput
+
+logger = logging.getLogger(__name__)
 
 
 def repair_json(raw: str) -> str:
@@ -278,8 +282,14 @@ def validate_node(state: dict, config: RunnableConfig) -> dict:
     if not raw_output:
         return {"parsed": None, "errors": [*state.get("errors", []), "输出为空"]}
     
+    _t0 = time.time()
     try:
         result = validate_with_repair(raw_output)
+        _t_duration = int((time.time() - _t0) * 1000)
+        logger.info(
+            "validate|duration=%dms repaired=%s warnings=%d output_len=%d",
+            _t_duration, result["repaired"], len(result.get("warnings", [])), len(raw_output),
+        )
         
         # 记录修复事件
         if result["repaired"]:

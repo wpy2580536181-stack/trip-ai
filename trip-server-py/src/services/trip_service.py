@@ -328,6 +328,7 @@ class TripService:
         Returns:
             完整行程推荐结果字典
         """
+        _t0 = time.time()
         if budget < 50 or budget > 1_000_000 or days < 1 or days > 30:
             raise ValueError("预算或天数不符合要求（预算范围 50-1,000,000，天数 1-30）")
 
@@ -340,6 +341,10 @@ class TripService:
                 days=days,
                 departure_city=departure_city,
             )
+            _t_agent = time.time()
+            logger.info("recommend|agent_engine=%dms city=%s days=%d budget=%d",
+                        int((_t_agent - _t0) * 1000), city, days, budget)
+
             parsed = result.get("parsed")
             if not parsed:
                 raise ValueError("Agent 返回无效结果")
@@ -350,23 +355,30 @@ class TripService:
                 self._enrich_images(parsed),
                 return_exceptions=True,
             )
+            _t_enrich = time.time()
 
-            # ---- 持久化 Trip ----
-            saved_trip_id: Optional[int] = None
-            try:
-                saved_trip_id = await self._persist_trip(
-                    user_id=user_id,
-                    from_city=departure_city,
-                    parsed=parsed,
-                    budget=budget,
-                )
-            except Exception as e:
-                trip_log.error(err=str(e), msg="recommend persist failed")
+            # ---- 持久化 Trip（后台异步，不阻塞响应） ----
+            # 注意：parsed 已在 enrich 阶段完成修改，后台任务持有引用不会丢失
+            asyncio.create_task(_persist_trip_background(
+                user_id=user_id,
+                from_city=departure_city,
+                parsed=parsed,
+                budget=budget,
+            ))
+
+            _t_total = time.time()
+            logger.info(
+                "recommend|total=%dms agent=%dms enrich=%dms city=%s days=%d budget=%d",
+                int((_t_total - _t0) * 1000),
+                int((_t_agent - _t0) * 1000),
+                int((_t_total - _t_agent) * 1000),
+                city, days, budget,
+            )
 
             return {
                 "success": True,
                 "data": {
-                    "id": saved_trip_id,
+                    "id": None,  # 后台异步持久化，不等待 DB 写入
                     "city": parsed.get("city", city),
                     "days": parsed.get("days", days),
                     "totalBudget": parsed.get("totalBudget"),
@@ -434,6 +446,36 @@ class TripService:
             await session.commit()
             await session.refresh(trip)
             return trip.id
+
+
+# ---------------------------------------------------------------------------
+# 后台持久化（异步，不阻塞响应）
+# ---------------------------------------------------------------------------
+
+async def _persist_trip_background(
+    user_id: Optional[int],
+    from_city: Optional[str],
+    parsed: dict,
+    budget: int,
+    parent_trip_id: Optional[int] = None,
+) -> None:
+    """后台持久化 Trip 记录（fire-and-forget）。"""
+    try:
+        async with async_session() as session:
+            trip = Trip(
+                user_id=user_id,
+                from_city=from_city,
+                city=parsed.get("city", ""),
+                days=parsed.get("days", 1),
+                budget=budget,
+                content=parsed,
+                status="completed",
+                parent_trip_id=parent_trip_id,
+            )
+            session.add(trip)
+            await session.commit()
+    except Exception as e:
+        trip_log.error(err=str(e), msg="recommend|persist_background failed")
 
 
 # 模块单例
