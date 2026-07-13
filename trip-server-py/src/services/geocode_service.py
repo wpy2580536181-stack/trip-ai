@@ -11,6 +11,7 @@ from typing import Optional, Dict, Tuple
 import httpx
 
 from src.config.settings import settings
+from src.services.http.retry import http_with_retry_on_429
 from src.utils.logger import trip_log
 
 logger = logging.getLogger(__name__)
@@ -133,7 +134,15 @@ async def _geocode_single(spot_name: str, city: str) -> Optional[Dict[str, float
 
     try:
         async with httpx.AsyncClient(timeout=8.0) as client:
-            resp = await client.get(GEOCODE_URL, params=params)
+            # 对上游 429 做退避重试；重试耗尽仍为 429 时降级返回 None
+            resp = await http_with_retry_on_429(
+                client, "GET", GEOCODE_URL, params=params
+            )
+            if resp.status_code == 429:
+                trip_log.warning(
+                    status=429, spot_name=spot_name, city=city, msg="geocode rate limited (429)"
+                )
+                return None
             resp.raise_for_status()
             data = resp.json()
 

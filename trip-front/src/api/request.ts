@@ -61,20 +61,88 @@ export interface ApiResponseFormatB<T = any> {
 
 export type ApiResponse<T = any> = ApiResponseFormatA<T> | ApiResponseFormatB<T>
 
+// ---------------------------------------------------------------------------
+// 重试 + 429 退避（Phase 1 改进）
+// ---------------------------------------------------------------------------
+const RETRY_CONFIG = {
+  maxRetries: 2, // 不含首次，共 3 次
+  backoffBaseMs: 1000,
+  backoffCapMs: 8000,
+  serverErrorStatuses: [500, 502, 503, 504] as const,
+}
+
+type HttpMethod = 'GET' | 'POST' | 'PUT' | 'DELETE'
+
+/**
+ * 判断该错误是否可重试。
+ * - 429：限流被拒，服务端尚未处理，可安全重试（含 POST）
+ * - 超时 / 网络异常（ECONNABORTED / Network Error）：仅幂等方法（非 POST）重试，
+ *   避免 POST 非幂等请求在已部分处理时被重复提交
+ * - 5xx：仅幂等方法重试
+ */
+function isRetryable(error: any, method: HttpMethod): boolean {
+  if (!error) return false
+
+  if (error.code === 'ECONNABORTED' || error.message === 'Network Error') {
+    return method !== 'POST'
+  }
+
+  const status = error.response?.status
+  if (!status) return false
+
+  if (status === 429) return true
+  if ((RETRY_CONFIG.serverErrorStatuses as readonly number[]).includes(status)) {
+    return method !== 'POST'
+  }
+  return false
+}
+
+/**
+ * 计算退避等待时间（毫秒）。
+ * - 429 优先使用服务端下发的 Retry-After（秒），封顶 30s
+ * - 其余可重试错误：指数退避 1s → 2s → 4s（封顶 backoffCapMs）
+ */
+function getRetryDelayMs(error: any, attempt: number): number {
+  const status = error.response?.status
+  if (status === 429) {
+    const raw = error.response?.headers?.['retry-after']
+    if (raw != null) {
+      const secs = parseInt(raw, 10)
+      if (!Number.isNaN(secs)) return Math.min(secs * 1000, 30000)
+    }
+  }
+  return Math.min(RETRY_CONFIG.backoffBaseMs * 2 ** attempt, RETRY_CONFIG.backoffCapMs)
+}
+
+async function requestWithRetry<T>(
+  method: HttpMethod,
+  fn: () => Promise<T>,
+  attempt = 0,
+): Promise<T> {
+  try {
+    return await fn()
+  } catch (error: any) {
+    if (!isRetryable(error, method) || attempt >= RETRY_CONFIG.maxRetries) throw error
+    const delay = getRetryDelayMs(error, attempt)
+    await new Promise<void>((resolve) => setTimeout(resolve, delay))
+    return requestWithRetry(method, fn, attempt + 1)
+  }
+}
+
 export function post<T = any>(url: string, params?: any): Promise<ApiResponse<T>> {
-  return request.post(url, params)
+  return requestWithRetry('POST', () => request.post(url, params))
 }
 
 export function get<T = any>(url: string, params?: any): Promise<ApiResponse<T>> {
-  return request.get(url, { params })
+  return requestWithRetry('GET', () => request.get(url, { params }))
 }
 
 export function put<T = any>(url: string, params?: any): Promise<ApiResponse<T>> {
-  return request.put(url, params)
+  return requestWithRetry('PUT', () => request.put(url, params))
 }
 
 export function del<T = any>(url: string, params?: any): Promise<ApiResponse<T>> {
-  return request.delete(url, { params })
+  return requestWithRetry('DELETE', () => request.delete(url, { params }))
 }
 
 /**

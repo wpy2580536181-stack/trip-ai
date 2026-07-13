@@ -6,6 +6,7 @@ import { useRouter } from 'vue-router'
 import { useMessage } from 'naive-ui'
 import { post } from '@/api/request'
 import { getTrip } from '@/api/history'
+import { getApiErrorText, handleApiError } from '@/utils/apiError'
 import MapView from '@/components/MapView.vue'
 import type { MapSpot } from '@/components/MapView.vue'
 
@@ -72,8 +73,8 @@ const fetchTripData = async () => {
       errorMsg.value = res.error || '获取行程规划数据失败'
     }
   } catch (error) {
-    console.error('获取行程规划数据请求失败:', error)
-    errorMsg.value = '网络错误，请稍后重试'
+    handleApiError(error, message)
+    errorMsg.value = getApiErrorText(error)
   } finally {
     isloading.value = false
   }
@@ -97,8 +98,8 @@ const loadTripById = async (tripId: number) => {
       errorMsg.value = '行程不存在'
     }
   } catch (e) {
-    console.error('加载行程失败:', e)
-    errorMsg.value = '加载行程失败'
+    handleApiError(e, message)
+    errorMsg.value = getApiErrorText(e)
   } finally {
     isloading.value = false
   }

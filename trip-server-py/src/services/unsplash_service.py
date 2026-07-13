@@ -11,6 +11,7 @@ from typing import Optional, Dict, List
 import httpx
 
 from src.config.settings import settings
+from src.services.http.retry import http_with_retry_on_429
 from src.utils.logger import trip_log
 
 logger = logging.getLogger(__name__)
@@ -98,7 +99,17 @@ async def search_photos(query: str, per_page: int = 3) -> List[dict]:
 
     try:
         async with httpx.AsyncClient(timeout=SEARCH_TIMEOUT_S) as client:
-            resp = await client.get(f"{UNSPLASH_API}/search/photos", params=params, headers=headers)
+            # 对上游 429 做退避重试；重试耗尽仍为 429 时降级返回 []
+            resp = await http_with_retry_on_429(
+                client,
+                "GET",
+                f"{UNSPLASH_API}/search/photos",
+                params=params,
+                headers=headers,
+            )
+            if resp.status_code == 429:
+                trip_log.warning(msg="[Unsplash] search rate limited (429)")
+                return []
             if resp.status_code != 200:
                 trip_log.warning(status=resp.status_code, msg="[Unsplash] search failed")
                 return []
@@ -142,11 +153,16 @@ async def get_photo_url(photo_id: str, width: int = 800, height: int = 600) -> O
 
     try:
         async with httpx.AsyncClient(timeout=SEARCH_TIMEOUT_S) as client:
-            resp = await client.get(
+            # 对上游 429 做退避重试；重试耗尽仍为 429 时降级返回 None
+            resp = await http_with_retry_on_429(
+                client,
+                "GET",
                 f"{UNSPLASH_API}/photos/{photo_id}",
                 params=params,
                 headers=headers,
             )
+            if resp.status_code == 429:
+                return None
             if resp.status_code != 200:
                 return None
             data = resp.json()
