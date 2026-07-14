@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: trip-server-py
+        working-directory: trip-backend
     steps:
       - uses: actions/checkout@v4
         with:
@@ -75,7 +75,7 @@ jobs:
         with:
           name: eval-reports-mock
           path: |
-            trip-server-py/eval-reports/
+            trip-backend/eval-reports/
           retention-days: 30
 
   eval-real:
@@ -83,7 +83,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: trip-server-py
+        working-directory: trip-backend
     services:
       mysql:
         image: mysql:8.0
@@ -168,5 +168,5 @@ jobs:
         with:
           name: eval-reports-real
           path: |
-            trip-server-py/eval-reports/
+            trip-backend/eval-reports/
           retention-days: 30

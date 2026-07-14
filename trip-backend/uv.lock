@@ -3421,7 +3421,7 @@ wheels = [
 ]
 
 [[package]]
-name = "trip-server-py"
+name = "trip-backend"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

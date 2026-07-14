@@ -11,7 +11,7 @@ os.environ["RATE_LIMIT_GLOBAL_MAX"] = "999999"
 os.environ["RATE_LIMIT_CHAT_MAX"] = "99999"
 os.environ["RATE_LIMIT_RECOMMEND_MAX"] = "99999"
 
-PROJECT_DIR = Path(__file__).resolve().parent.parent  # trip-server-py/
+PROJECT_DIR = Path(__file__).resolve().parent.parent  # trip-backend/
 PYTHON = str(PROJECT_DIR / ".venv" / "bin" / "python")
 
 

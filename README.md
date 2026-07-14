@@ -51,7 +51,7 @@
 
 ```bash
 # 1. 安装后端依赖
-cd trip-server-py
+cd trip-backend
 uv sync
 
 # 2. 配置环境变量
@@ -67,7 +67,7 @@ uv run python create_tables.py
 
 # 5. 启动
 # 终端 1 - 后端 (端口 8000)
-cd trip-server-py && uv run uvicorn src.main:app --reload
+cd trip-backend && uv run uvicorn src.main:app --reload
 # 终端 2 - 前端 (端口 5173)
 cd trip-front && npm install && npm run dev
 ```
@@ -104,7 +104,7 @@ trip/
 │       ├── views/       # 页面组件
 │       ├── components/  # 通用组件
 │       └── api/         # API 调用层
-├── trip-server-py/      # 后端 (FastAPI)
+├── trip-backend/      # 后端 (FastAPI)
 │   └── src/
 │       ├── controllers/ # 路由/控制器
 │       ├── services/    # 业务逻辑（Agent/RAG/LLM）
@@ -141,7 +141,7 @@ trip/
 
 ```bash
 # 运行评估
-cd trip-server-py
+cd trip-backend
 uv run python -m eval.run                       # Agent 评估（mock）
 uv run python -m eval.run --real --tag smoke     # Agent 评估（真实后端）
 uv run python -m eval.retrieval.run              # 检索层评估

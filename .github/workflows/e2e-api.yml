@@ -3,7 +3,7 @@ name: API E2E Tests
 on:
   push:
     branches: [main, develop]
-    paths: ["trip-server-py/src/**", "trip-server-py/tests/e2e/**"]
+    paths: ["trip-backend/src/**", "trip-backend/tests/e2e/**"]
   pull_request:
     branches: [main]
 
@@ -32,15 +32,15 @@ jobs:
         with:
           python-version: "3.12"
       - run: uv sync --extra dev
-        working-directory: trip-server-py
+        working-directory: trip-backend
       - name: Create database tables
         run: uv run python create_tables.py
-        working-directory: trip-server-py
+        working-directory: trip-backend
         env:
           DATABASE_URL: mysql://root:root@localhost:3306/trip_db
       - name: Run E2E tests
         run: uv run pytest tests/e2e/ -v --tb=short -x --timeout=180
-        working-directory: trip-server-py
+        working-directory: trip-backend
         env:
           DATABASE_URL: mysql://root:root@localhost:3306/trip_db
           RATE_LIMIT_AUTH_MAX: 99999

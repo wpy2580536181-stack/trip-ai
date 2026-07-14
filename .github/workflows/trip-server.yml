@@ -1,5 +1,5 @@
 name: Node Backend CI
-# 已停用 — Python 后端 (trip-server-py) 已替代
+# 已停用 — Python 后端 (trip-backend) 已替代
 
 on:
   push:
@@ -11,4 +11,4 @@ jobs:
   skip:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Workflow disabled - Node backend replaced by Python (trip-server-py)"
+      - run: echo "Workflow disabled - Node backend replaced by Python (trip-backend)"

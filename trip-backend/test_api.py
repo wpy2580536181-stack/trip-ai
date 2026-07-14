@@ -370,11 +370,11 @@ async def main():
             async with session.get(f"{BASE_URL}/health") as resp:
                 if resp.status != 200:
                     print(f"⚠ 服务器未运行或健康检查失败 (状态码: {resp.status})")
-                    print(f"请确保服务器正在运行: cd trip-server-py && python src/main.py")
+                    print(f"请确保服务器正在运行: cd trip-backend && python src/main.py")
                     return
     except Exception as e:
         print(f"⚠ 无法连接到服务器: {e}")
-        print(f"请确保服务器正在运行: cd trip-server-py && python src/main.py")
+        print(f"请确保服务器正在运行: cd trip-backend && python src/main.py")
         return
     
     # 运行测试

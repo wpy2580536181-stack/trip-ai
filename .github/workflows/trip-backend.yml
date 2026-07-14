@@ -3,17 +3,17 @@ name: Python Backend CI
 on:
   push:
     branches: [main, develop]
-    paths: ["trip-server-py/**"]
+    paths: ["trip-backend/**"]
   pull_request:
     branches: [main]
-    paths: ["trip-server-py/**"]
+    paths: ["trip-backend/**"]
 
 jobs:
   test:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: trip-server-py
+        working-directory: trip-backend
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v5
