@@ -2,18 +2,8 @@
 import { ref, computed, onMounted } from 'vue'
 import {
   NCard,
-  NRadioGroup,
-  NRadioButton,
   NInput,
   NButton,
-  NList,
-  NListItem,
-  NThing,
-  NTag,
-  NDrawer,
-  NDrawerContent,
-  NCheckboxGroup,
-  NCheckbox,
   NEmpty,
   NSpin,
   NAlert,
@@ -21,6 +11,11 @@ import {
   NText,
   NDivider,
   NAutoComplete,
+  NTag,
+  NDrawer,
+  NDrawerContent,
+  NCheckboxGroup,
+  NCheckbox,
   useMessage,
 } from 'naive-ui'
 import { get } from '../api/request'
@@ -31,6 +26,7 @@ import {
   type CommuteMode,
   type CommuteCandidate,
   type CommuteResultItem,
+  type TransitStepDetail,
   type InputTipItem,
 } from '../api/commute'
 import MapView, { type MapSpot } from '../components/MapView.vue'
@@ -63,7 +59,7 @@ const poiLoading = ref(false)
 const poiList = ref<{ id: number; name: string; city: string; category?: string }[]>([])
 const poiChecked = ref<number[]>([])
 
-const modeOptions = [
+const modeOptions: { label: string; value: CommuteMode }[] = [
   { label: '驾车', value: 'driving' },
   { label: '公交', value: 'transit' },
   { label: '步行', value: 'walking' },
@@ -314,6 +310,41 @@ function formatArrival(sec: number): string {
   return `${hh}:${mm}`
 }
 
+interface SummaryStep {
+  type: 'walking' | 'subway' | 'bus'
+  label: string
+  duration_sec: number
+}
+
+function summarizeSteps(steps: TransitStepDetail[]): SummaryStep[] {
+  const summary: SummaryStep[] = []
+  let current: SummaryStep | null = null
+  steps.forEach((step) => {
+    const type = step.type === 'transfer_walk' ? 'walking' : step.type
+    if (type !== 'walking' && type !== 'subway' && type !== 'bus') return
+    if (!current || current.type !== type) {
+      current = { type, label: step.label, duration_sec: step.duration_sec ?? 0 }
+      summary.push(current)
+    } else {
+      current.duration_sec += step.duration_sec ?? 0
+    }
+  })
+  return summary
+}
+
+function stepIcon(type: 'walking' | 'subway' | 'bus') {
+  if (type === 'walking') return '🚶'
+  if (type === 'subway') return '🚇'
+  return '🚌'
+}
+
+function comparisonText(item: CommuteResultItem): string | null {
+  if (!recommended.value || item === recommended.value) return null
+  const diff = item.duration_sec - recommended.value.duration_sec
+  if (diff > 0) return `慢 ${formatDuration(diff)}`
+  return `快 ${formatDuration(-diff)}`
+}
+
 function navUrl(item: CommuteResultItem) {
   if (item.lat == null || item.lng == null) {
     message.warning('该地点缺少坐标，无法导航')
@@ -338,231 +369,257 @@ onMounted(detectLocation)
 <template>
   <div class="commute-page">
     <header class="page-header">
+      <span class="brand-chip">
+        <span class="brand-dot" />
+        通勤工具
+      </span>
       <h1>最短通勤择优</h1>
       <p class="subtitle">
         在多个候选目的地中，选出从当前位置出发通勤时间最短的那一个。
       </p>
     </header>
 
-    <!-- 出行与起点设置 -->
-    <n-card class="block" title="出行方式 / 起点">
-      <n-space vertical :size="14">
-        <div class="row">
-          <span class="row-label">出行方式</span>
-          <n-radio-group v-model:value="mode">
-            <n-radio-button
-              v-for="opt in modeOptions"
-              :key="opt.value"
-              :value="opt.value"
-            >
-              {{ opt.label }}
-            </n-radio-button>
-          </n-radio-group>
-        </div>
-
-        <div class="row">
-          <span class="row-label">城市</span>
-          <n-input
-            v-model:value="city"
-            placeholder="公交规划必填（如：北京）"
-            style="max-width: 220px"
-            clearable
-          />
-        </div>
-
-        <n-divider style="margin: 4px 0" />
-
-        <div class="row">
-          <span class="row-label">起点</span>
-          <n-space :size="8" align="center">
-            <n-text v-if="origin" type="success">✓ {{ originName || '已定位' }}</n-text>
-            <n-text v-else type="warning">未定位</n-text>
-            <n-button size="small" :loading="locating" @click="detectLocation">
-              重新定位
-            </n-button>
-            <n-button
-              size="small"
-              :type="pickTarget === 'origin' ? 'primary' : 'default'"
-              @click="pickTarget = pickTarget === 'origin' ? null : 'origin'"
-            >
-              在地图选起点
-            </n-button>
-          </n-space>
-        </div>
-      </n-space>
-    </n-card>
-
-    <!-- 候选目的地 -->
-    <n-card class="block" title="候选目的地">
-      <n-space vertical :size="12">
-        <n-space :size="8" style="max-width: 420px">
-          <n-auto-complete
-            v-model:value="searchName"
-            :options="inputTips.map(t => ({ label: t.name, value: t.name }))"
-            placeholder="输入地点名称或地址，如：三里屯 / 南昌站"
-            style="flex: 1"
-            clearable
-            :loading="tipsLoading"
-            @update:value="onSearchInput"
-            @select="(val) => onSelectTip(inputTips.find(t => t.name === val)!)"
-            @keyup.enter="addBySearch"
-          />
-          <n-button @click="addBySearch">添加</n-button>
-        </n-space>
-
-        <n-space :size="8">
-          <n-button
-            size="small"
-            :type="pickTarget === 'destination' ? 'primary' : 'default'"
-            @click="pickTarget = pickTarget === 'destination' ? null : 'destination'"
-          >
-            地图打点加候选
-          </n-button>
-          <n-button size="small" @click="openPoi">从知识库选</n-button>
-        </n-space>
-
-        <n-empty v-if="!candidates.length" description="还没有候选目的地" />
-        <n-list v-else bordered>
-          <n-list-item v-for="(c, i) in candidates" :key="i">
-            <n-thing :title="c.name">
-              <template #description>
-                <n-text depth="3">
-                  {{ c.lat != null && c.lng != null ? '已定位坐标' : `待地理编码${c.city ? '（' + c.city + '）' : ''}` }}
-                </n-text>
-              </template>
-            </n-thing>
-            <template #suffix>
-              <n-button size="small" quaternary type="error" @click="removeCandidate(i)">
-                删除
-              </n-button>
-            </template>
-          </n-list-item>
-        </n-list>
-      </n-space>
-    </n-card>
-
-    <!-- 地图 -->
-    <n-card class="block" title="地图">
-      <n-alert
-        v-if="pickTarget"
-        type="info"
-        :show-icon="false"
-        style="margin-bottom: 8px"
-      >
-        点击地图{{ pickTarget === 'origin' ? '设置起点' : '添加候选点' }}（再次点击按钮取消）。
-      </n-alert>
-      <MapView
-        :spots="mapSpots"
-        :selectable="true"
-        :origin-id="originSpotId"
-        :routes="routePolylines"
-        height="360px"
-        @pick="onPick"
-      />
-    </n-card>
-
-    <!-- 计算按钮 -->
-    <n-button
-      class="compute-btn"
-      type="primary"
-      size="large"
-      block
-      :loading="loading"
-      @click="compute"
-    >
-      计算最短通勤
-    </n-button>
-
-    <!-- 结果 -->
-    <n-card v-if="loading" class="block">
-      <n-spin description="正在计算各候选通勤时间…" />
-    </n-card>
-
-    <template v-else-if="results">
-      <n-alert
-        v-if="errors.length"
-        type="warning"
-        :show-icon="true"
-        style="margin-bottom: 12px"
-      >
-        <template v-if="hasQpsError">
-          <n-space align="center" justify="space-between" :wrap="false">
-            <span>部分候选触发高德接口限流（短时间内请求过多）。已成功计算的仍可使用，请稍后重试未计算的项。</span>
-            <n-button size="small" :loading="loading" @click="compute">重试</n-button>
-          </n-space>
-        </template>
-        <template v-else>
-          有 {{ errors.length }} 个候选无法计算：{{ errors.map((e) => e.name).join('、') }}
-        </template>
-      </n-alert>
-
-      <n-alert
-        v-if="tradeoffHint"
-        type="info"
-        :show-icon="true"
-        style="margin-bottom: 12px"
-      >
-        {{ tradeoffHint }}
-      </n-alert>
-
-      <n-empty v-if="!results.length" description="没有可用的通勤结果" />
-
-      <n-card v-for="(item, idx) in results" :key="idx" class="block result-card" :class="{ recommended: item === recommended }">
-        <n-space justify="space-between" align="center">
-          <n-space align="center" :size="10">
-            <span class="rank">#{{ idx + 1 }}</span>
-            <div>
-              <n-space align="center" :size="8">
-                <span class="dest-name">{{ item.name }}</span>
-                <n-tag v-if="item === recommended" type="primary" size="small">推荐</n-tag>
-              </n-space>
-              <div class="metrics">
-                <n-text strong>{{ formatDuration(item.duration_sec) }}</n-text>
-                <n-text depth="3"> · {{ formatDistance(item.distance_m) }}</n-text>
-                <n-text v-if="mode === 'transit' && item.transfers != null" depth="3">
-                  · 换乘 {{ item.transfers }} 次
-                </n-text>
-                <n-text v-if="item === recommended" depth="3" class="arrival">
-                  · 约 {{ formatArrival(item.duration_sec) }} 到达
-                </n-text>
-              </div>
-              <!-- 公交：地铁 / 线路信息 -->
-              <div v-if="mode === 'transit' && item.transit_lines?.length" class="transit-lines">
-                <n-tag
-                  v-for="line in item.transit_lines"
-                  :key="line"
-                  :type="line.includes('地铁') ? 'primary' : 'info'"
-                  size="small"
-                  round
-                  :bordered="false"
-                  style="font-size: 11px; margin-right: 4px; opacity: 0.85"
+    <div class="commute-grid">
+      <!-- 左栏：出行设置 + 候选 -->
+      <div class="col col-settings">
+        <!-- 出行与起点设置 -->
+        <n-card class="block" title="出行方式 / 起点">
+          <n-space vertical :size="14">
+            <div class="row">
+              <span class="row-label">出行方式</span>
+              <div class="mode-segment">
+                <button
+                  v-for="opt in modeOptions"
+                  :key="opt.value"
+                  type="button"
+                  class="mode-btn"
+                  :class="{ active: mode === opt.value }"
+                  @click="mode = opt.value"
                 >
-                  {{ line }}
-                </n-tag>
+                  {{ opt.label }}
+                </button>
               </div>
-              <!-- 公交：逐步行程详情 -->
-              <div v-if="mode === 'transit' && item.steps_detail?.length" class="transit-steps">
-                <div v-for="(step, si) in item.steps_detail" :key="si" class="transit-step">
-                  <span class="step-icon" :class="{ walk: step.type === 'walking' || step.type === 'transfer_walk', subway: step.type === 'subway', bus: step.type === 'bus' }">
-                    {{ step.type === 'walking' || step.type === 'transfer_walk' ? '🚶' : step.type === 'subway' ? '🚇' : '🚌' }}
-                  </span>
-                  <span class="step-info">
-                    <span class="step-label">{{ step.label }}</span>
-                    <span v-if="step.departure && step.arrival" class="step-detail"> · {{ step.departure }} → {{ step.arrival }}</span>
-                    <span v-else-if="step.distance_m != null" class="step-detail">{{ formatDistance(step.distance_m) }}</span>
-                  </span>
-                  <span class="step-time">{{ formatDuration(step.duration_sec ?? 0) }}</span>
-                </div>
-              </div>
-              <n-text v-if="item === recommended && comparisonDiff" depth="3" class="hint">
-                比次优快 {{ formatDuration(comparisonDiff) }}
-              </n-text>
+            </div>
+
+            <div class="row">
+              <span class="row-label">城市</span>
+              <n-input
+                v-model:value="city"
+                placeholder="公交规划必填（如：北京）"
+                style="max-width: 220px"
+                clearable
+              />
+            </div>
+
+            <n-divider style="margin: 4px 0" />
+
+            <div class="row">
+              <span class="row-label">起点</span>
+              <n-space :size="8" align="center">
+                <n-text v-if="origin" type="success">✓ {{ originName || '已定位' }}</n-text>
+                <n-text v-else type="warning">未定位</n-text>
+                <n-button size="small" class="btn-secondary" :loading="locating" @click="detectLocation">
+                  重新定位
+                </n-button>
+                <n-button
+                  size="small"
+                  :type="pickTarget === 'origin' ? 'primary' : 'default'"
+                  class="btn-secondary"
+                  @click="pickTarget = pickTarget === 'origin' ? null : 'origin'"
+                >
+                  在地图选起点
+                </n-button>
+              </n-space>
             </div>
           </n-space>
-          <n-button size="small" @click="navUrl(item)">导航</n-button>
-        </n-space>
-      </n-card>
-    </template>
+        </n-card>
+
+        <!-- 候选目的地 -->
+        <n-card class="block" title="候选目的地">
+          <n-space vertical :size="12">
+            <n-space :size="8" style="max-width: 420px">
+              <n-auto-complete
+                v-model:value="searchName"
+                :options="inputTips.map(t => ({ label: t.name, value: t.name }))"
+                placeholder="输入地点名称或地址，如：三里屯 / 南昌站"
+                style="flex: 1"
+                clearable
+                :loading="tipsLoading"
+                @update:value="onSearchInput"
+                @select="(val) => onSelectTip(inputTips.find(t => t.name === val)!)"
+                @keyup.enter="addBySearch"
+              />
+              <n-button type="primary" @click="addBySearch">添加</n-button>
+            </n-space>
+
+            <n-space :size="8">
+              <n-button
+                size="small"
+                :type="pickTarget === 'destination' ? 'primary' : 'default'"
+                class="btn-secondary"
+                @click="pickTarget = pickTarget === 'destination' ? null : 'destination'"
+              >
+                地图打点加候选
+              </n-button>
+              <n-button size="small" class="btn-secondary" @click="openPoi">从知识库选</n-button>
+            </n-space>
+
+            <n-empty v-if="!candidates.length" description="还没有候选目的地" />
+            <div v-else class="candidate-list">
+              <div v-for="(c, i) in candidates" :key="i" class="candidate-item">
+                <span class="candidate-marker">{{ String.fromCharCode(65 + i) }}</span>
+                <div class="candidate-info">
+                  <div class="candidate-name">{{ c.name }}</div>
+                  <div class="candidate-meta">
+                    {{ c.lat != null && c.lng != null ? '已定位坐标' : `待地理编码${c.city ? '（' + c.city + '）' : ''}` }}
+                  </div>
+                </div>
+                <button class="candidate-delete" @click="removeCandidate(i)">删除</button>
+              </div>
+            </div>
+          </n-space>
+        </n-card>
+      </div>
+
+      <!-- 右栏：地图 + 计算 + 结果 -->
+      <div class="col col-main">
+        <!-- 地图 -->
+        <n-card class="block" title="地图">
+          <n-alert
+            v-if="pickTarget"
+            type="info"
+            :show-icon="false"
+            style="margin-bottom: 8px"
+          >
+            点击地图{{ pickTarget === 'origin' ? '设置起点' : '添加候选点' }}（再次点击按钮取消）。
+          </n-alert>
+          <MapView
+            :spots="mapSpots"
+            :selectable="true"
+            :origin-id="originSpotId"
+            :routes="routePolylines"
+            height="400px"
+            @pick="onPick"
+          />
+        </n-card>
+
+        <!-- 计算按钮 -->
+        <n-button
+          class="compute-btn"
+          type="primary"
+          size="large"
+          block
+          :loading="loading"
+          @click="compute"
+        >
+          计算最短通勤
+        </n-button>
+
+        <!-- 结果 -->
+        <n-card v-if="loading" class="block">
+          <n-spin description="正在计算各候选通勤时间…" />
+        </n-card>
+
+        <template v-else-if="results">
+          <n-alert
+            v-if="errors.length"
+            type="warning"
+            :show-icon="true"
+            style="margin-bottom: 12px"
+          >
+            <template v-if="hasQpsError">
+              <n-space align="center" justify="space-between" :wrap="false">
+                <span>部分候选触发高德接口限流（短时间内请求过多）。已成功计算的仍可使用，请稍后重试未计算的项。</span>
+                <n-button size="small" :loading="loading" @click="compute">重试</n-button>
+              </n-space>
+            </template>
+            <template v-else>
+              有 {{ errors.length }} 个候选无法计算：{{ errors.map((e) => e.name).join('、') }}
+            </template>
+          </n-alert>
+
+          <n-alert
+            v-if="tradeoffHint"
+            type="info"
+            :show-icon="true"
+            style="margin-bottom: 12px"
+          >
+            {{ tradeoffHint }}
+          </n-alert>
+
+          <n-empty v-if="!results.length" description="没有可用的通勤结果" />
+
+          <n-card
+            v-for="(item, idx) in results"
+            :key="idx"
+            class="block result-card"
+            :class="{ recommended: item === recommended }"
+          >
+            <div class="result-layout">
+              <div class="rank-badge" :class="{ recommended: item === recommended }">
+                {{ idx + 1 }}
+              </div>
+              <div class="result-body">
+                <div class="result-title">
+                  <span class="dest-name">{{ item.name }}</span>
+                  <n-tag v-if="item === recommended" type="primary" size="small" round>推荐</n-tag>
+                </div>
+                <div class="result-metrics">
+                  <span class="duration">{{ formatDuration(item.duration_sec) }}</span>
+                  <span class="metric">{{ formatDistance(item.distance_m) }}</span>
+                  <span v-if="mode === 'transit' && item.transfers != null" class="metric">换乘 {{ item.transfers }} 次</span>
+                  <span v-if="mode === 'transit' && item.has_subway" class="metro-badge">含地铁</span>
+                  <span class="metric">约 {{ formatArrival(item.duration_sec) }} 到达</span>
+                </div>
+                <!-- 公交：线路标签 -->
+                <div v-if="mode === 'transit' && item.transit_lines?.length" class="transit-lines">
+                  <n-tag
+                    v-for="line in item.transit_lines"
+                    :key="line"
+                    :type="line.includes('地铁') ? 'primary' : 'default'"
+                    size="small"
+                    round
+                    :bordered="false"
+                    style="font-size: 11px"
+                  >
+                    {{ line }}
+                  </n-tag>
+                </div>
+                <!-- 公交：横向分段明细 -->
+                <div v-if="mode === 'transit' && item.steps_detail?.length" class="segment-row">
+                  <template
+                    v-for="(step, si) in summarizeSteps(item.steps_detail)"
+                    :key="si"
+                  >
+                    <div class="segment" :class="step.type">
+                      <span class="segment-icon">{{ stepIcon(step.type) }}</span>
+                      <span class="segment-text">{{ step.label }}</span>
+                      <span class="segment-time">{{ formatDuration(step.duration_sec) }}</span>
+                    </div>
+                    <span
+                      v-if="si < summarizeSteps(item.steps_detail).length - 1"
+                      class="segment-arrow"
+                    >→</span>
+                  </template>
+                </div>
+                <!-- 对比提示 -->
+                <div class="comparison">
+                  <span v-if="item === recommended && comparisonDiff" class="fast">
+                    比次优快 {{ formatDuration(comparisonDiff) }}
+                  </span>
+                  <span v-else-if="comparisonText(item)" class="slow">
+                    {{ comparisonText(item) }}
+                  </span>
+                </div>
+              </div>
+              <n-button size="small" class="btn-secondary nav-btn" @click="navUrl(item)">
+                导航
+              </n-button>
+            </div>
+          </n-card>
+        </template>
+      </div>
+    </div>
 
     <!-- 知识库选择抽屉 -->
     <n-drawer v-model:show="poiDrawer" :width="360" placement="right">
@@ -588,22 +645,85 @@ onMounted(detectLocation)
 
 <style scoped>
 .commute-page {
-  max-width: 860px;
+  width: 100%;
+  max-width: 1240px;
   margin: 0 auto;
-  padding: 24px 16px 48px;
+  padding: 28px 28px 44px;
+  border-radius: 20px;
+  background:
+    radial-gradient(1000px 520px at 100% 0%, #EFEAFB 0%, transparent 60%),
+    radial-gradient(820px 460px at 0% 100%, #EAF1FB 0%, transparent 55%),
+    #F6F4EF;
+}
+
+/* 页面头部 */
+.page-header {
+  margin-bottom: 22px;
+}
+.brand-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: rgba(102, 92, 162, 0.1);
+  color: var(--accent, #665ca2);
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.brand-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent, #665ca2);
 }
 .page-header h1 {
-  font-size: 22px;
-  margin: 0 0 4px;
+  font-size: 26px;
+  margin: 0 0 6px;
   color: var(--text-primary, #2b2d31);
 }
 .subtitle {
-  margin: 0 0 16px;
+  margin: 0;
   color: var(--text-secondary, #6c6e74);
   font-size: 14px;
 }
+
+/* 桌面双栏网格；窄屏退化为单列 */
+.commute-grid {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+}
+@media (max-width: 960px) {
+  .commute-grid {
+    grid-template-columns: 1fr;
+  }
+  .commute-page {
+    padding: 20px 16px 32px;
+  }
+}
+
+/* 品牌卡片：圆角 20px + 描边 + 阴影，覆盖 Naive 默认 */
+.commute-page :deep(.n-card) {
+  border-radius: 20px;
+  border: 1px solid #ECE7F2;
+  box-shadow: 0 24px 60px -28px rgba(40, 32, 80, 0.35);
+  background: #ffffff;
+}
+.commute-page :deep(.n-card__content) {
+  padding: 20px;
+}
+
 .block {
-  margin-bottom: 16px;
+  margin: 0;
 }
 .row {
   display: flex;
@@ -616,70 +736,235 @@ onMounted(detectLocation)
   font-size: 14px;
   flex-shrink: 0;
 }
-.compute-btn {
-  margin: 8px 0 20px;
+
+/* 出行方式分段选择器 */
+.mode-segment {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  background: #F6F5F9;
+  border: 1px solid #E4E1ED;
+  border-radius: 12px;
 }
-.result-card {
-  border-left: 3px solid var(--border-color, #eae5e0);
+.mode-btn {
+  padding: 7px 18px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: #6C6E74;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
 }
-.result-card.recommended {
-  border-left: 3px solid var(--accent, #665ca2);
-  background: var(--hover-bg-active, #f3f1fa);
+.mode-btn:hover {
+  color: #2B2D31;
 }
-.rank {
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--text-secondary, #999);
-  width: 28px;
-  text-align: center;
-}
-.dest-name {
-  font-size: 15px;
+.mode-btn.active {
+  background: #665CA2;
+  color: #fff;
   font-weight: 600;
 }
-.metrics {
-  font-size: 13px;
-  margin-top: 2px;
+
+/* 次要按钮：白底 + 紫字/紫边框 */
+.commute-page :deep(.n-button.btn-secondary) {
+  background: #ffffff;
+  border: 1px solid #E4E1ED;
+  color: #665CA2;
 }
-.arrival {
-  color: var(--accent, #665ca2);
+.commute-page :deep(.n-button.btn-secondary:not(.n-button--disabled):hover) {
+  background: #F4F1FB;
+  border-color: #665CA2;
 }
-.hint {
-  font-size: 12px;
-  margin-top: 2px;
-  color: var(--accent, #665ca2);
-}
-.transit-lines {
-  margin-top: 4px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2px;
+.commute-page :deep(.n-button.btn-secondary.n-button--primary-type) {
+  background: #665CA2;
+  border-color: #665CA2;
+  color: #fff;
 }
 
-/* 公交逐步行程时间线 */
-.transit-steps {
-  margin-top: 8px;
-  padding: 8px 10px;
-  background: var(--hover-bg, #f7f6f9);
-  border-radius: 8px;
+.compute-btn {
+  margin: 0 0 4px;
 }
-.transit-step {
+
+/* 候选列表 */
+.candidate-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.candidate-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  background: #F6F5F9;
+  border: 1px solid #E4E1ED;
+  border-radius: 12px;
+  transition: all 0.2s;
+}
+.candidate-item:hover {
+  background: #F4F1FB;
+  border-color: #DCD7EA;
+}
+.candidate-marker {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ECE7F2;
+  color: #6C6E74;
+  font-size: 12px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.candidate-info {
+  flex: 1;
+  min-width: 0;
+}
+.candidate-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary, #2b2d31);
+}
+.candidate-meta {
+  font-size: 12px;
+  color: var(--text-secondary, #6c6e74);
+  margin-top: 2px;
+}
+.candidate-delete {
+  padding: 4px 10px;
+  border: 1px solid #E4E1ED;
+  border-radius: 8px;
+  background: #fff;
+  color: #665CA2;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.candidate-delete:hover {
+  background: #F4F1FB;
+  border-color: #665CA2;
+}
+
+/* 结果卡片 */
+.result-card {
+  border-left: 4px solid var(--border-color, #eae5e0);
+}
+.result-card.recommended {
+  border-left: 4px solid var(--accent, #665ca2);
+  background: #F4F1FB;
+}
+.result-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.rank-badge {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ECE7F2;
+  color: #6C6E74;
+  font-size: 14px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.rank-badge.recommended {
+  background: #665CA2;
+  color: #fff;
+}
+.result-body {
+  flex: 1;
+  min-width: 0;
+}
+.result-title {
   display: flex;
   align-items: center;
   gap: 8px;
+  margin-bottom: 4px;
+}
+.result-metrics {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  font-size: 13px;
+  color: var(--text-secondary, #6c6e74);
+}
+.result-metrics .duration {
+  color: var(--text-primary, #2b2d31);
+  font-weight: 700;
+  font-size: 15px;
+}
+.metro-badge {
+  padding: 1px 6px;
+  border-radius: 6px;
+  background: rgba(102, 92, 162, 0.1);
+  color: #665CA2;
+  font-size: 11px;
+  font-weight: 600;
+}
+.transit-lines {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.segment-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 10px 12px;
+  background: #F7F6F9;
+  border-radius: 10px;
+}
+.segment {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #E4E1ED;
   font-size: 12px;
-  line-height: 1.8;
+  color: var(--text-primary, #2b2d31);
 }
-.step-icon {
-  width: 22px; height: 22px; border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  flex-shrink: 0; font-size: 11px; color: #fff;
+.segment.walk { border-color: #90a4ae; }
+.segment.subway { border-color: #665CA2; background: #F4F1FB; }
+.segment.bus { border-color: #42a5f5; }
+.segment-icon {
+  font-size: 13px;
 }
-.step-icon.walk { background: #90a4ae; }
-.step-icon.subway { background: var(--accent, #665ca2); }
-.step-icon.bus { background: #42a5f5; }
-.step-info { flex: 1; min-width: 0; }
-.step-label { font-weight: 500; color: var(--text-primary); }
-.step-detail { color: var(--text-secondary, #888); font-size: 11px; }
-.step-time { color: var(--text-secondary, #999); font-size: 11px; white-space: nowrap; }
+.segment-text {
+  font-weight: 500;
+  max-width: 160px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.segment-time {
+  color: var(--text-secondary, #6c6e74);
+  font-size: 11px;
+}
+.segment-arrow {
+  color: #C6C2D0;
+  font-size: 12px;
+  font-weight: 700;
+}
+.comparison {
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.comparison .fast { color: #3FA66A; }
+.comparison .slow { color: #6C6E74; }
+.nav-btn {
+  flex-shrink: 0;
+}
 </style>

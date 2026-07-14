@@ -193,7 +193,7 @@ onUnmounted(destroyMap)
 <style scoped>
 .map-container {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
 }
 .map-placeholder {
@@ -204,6 +204,6 @@ onUnmounted(destroyMap)
   color: var(--text-secondary, #999);
   font-size: 14px;
   background: var(--bg-secondary, #f5f5f5);
-  border-radius: 8px;
+  border-radius: 12px;
 }
 </style>
