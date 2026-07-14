@@ -1,21 +1,21 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import SystemArchitecture from '@/components/architecture/SystemArchitecture.vue'
-import AgentSequence from '@/components/architecture/AgentSequence.vue'
-import RagPipeline from '@/components/architecture/RagPipeline.vue'
-import ContextDataFlow from '@/components/architecture/ContextDataFlow.vue'
-import EvaluationSystem from '@/components/architecture/EvaluationSystem.vue'
+import sysSvg from '@/assets/architecture/system-architecture.svg'
+import agentSvg from '@/assets/architecture/agent-sequence.svg'
+import ragSvg from '@/assets/architecture/rag-pipeline.svg'
+import ctxSvg from '@/assets/architecture/context-data-flow.svg'
+import evSvg from '@/assets/architecture/evaluation-system.svg'
 
 const router = useRouter()
 const activeTab = ref<number>(0)
 
 const tabs = [
-  { name: 0, title: '系统架构' },
-  { name: 1, title: 'Agent 时序' },
-  { name: 2, title: 'RAG 检索链路' },
-  { name: 3, title: '上下文流' },
-  { name: 4, title: '评估体系' },
+  { name: 0, title: '系统架构', src: sysSvg },
+  { name: 1, title: 'Agent 时序', src: agentSvg },
+  { name: 2, title: 'RAG 检索链路', src: ragSvg },
+  { name: 3, title: '上下文流', src: ctxSvg },
+  { name: 4, title: '评估体系', src: evSvg },
 ]
 
 function onBack() {
@@ -32,11 +32,7 @@ function onBack() {
     <n-tabs v-model:value="activeTab" animated>
       <n-tab-pane v-for="t in tabs" :key="t.name" :name="t.name" :tab="t.title">
         <div class="diagram-container">
-          <SystemArchitecture v-if="t.name === 0" />
-          <AgentSequence v-else-if="t.name === 1" />
-          <RagPipeline v-else-if="t.name === 2" />
-          <ContextDataFlow v-else-if="t.name === 3" />
-          <EvaluationSystem v-else-if="t.name === 4" />
+          <img class="arch-img" :src="t.src" :alt="t.title" />
         </div>
       </n-tab-pane>
     </n-tabs>
@@ -80,5 +76,18 @@ function onBack() {
   width: 100%;
   height: calc(100vh - 96px);
   min-height: 520px;
+  overflow: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 16px;
+  background: #fafafa;
+}
+.arch-img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  background: #fafafa;
 }
 </style>
