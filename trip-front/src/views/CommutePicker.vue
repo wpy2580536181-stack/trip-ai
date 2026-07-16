@@ -23,11 +23,13 @@ import {
   computeOptimal,
   fetchInputTips,
   geocodeAddress,
+  fetchNearby,
   type CommuteMode,
   type CommuteCandidate,
   type CommuteResultItem,
   type TransitStepDetail,
   type InputTipItem,
+  type NearbyPoi,
 } from '../api/commute'
 import MapView, { type MapSpot } from '../components/MapView.vue'
 
@@ -38,6 +40,7 @@ const message = useMessage()
 // ---------------------------------------------------------------------------
 const mode = ref<CommuteMode>('driving')
 const city = ref('')
+const compareModes = ref(false)
 const origin = ref<{ lat: number; lng: number } | null>(null)
 const originName = ref('')
 const locating = ref(false)
@@ -49,6 +52,10 @@ const inputTips = ref<InputTipItem[]>([])
 const tipsLoading = ref(false)
 const tipsTimer = ref<number | null>(null)
 
+// 途经点（多段通勤：起点 → 途经点 → 候选）
+const waypoints = ref<CommuteCandidate[]>([])
+const wpName = ref('')
+
 const loading = ref(false)
 const results = ref<CommuteResultItem[] | null>(null)
 const recommended = ref<CommuteResultItem | null>(null)
@@ -58,6 +65,74 @@ const poiDrawer = ref(false)
 const poiLoading = ref(false)
 const poiList = ref<{ id: number; name: string; city: string; category?: string }[]>([])
 const poiChecked = ref<number[]>([])
+
+// ---------------------------------------------------------------------------
+// 常用通勤收藏（前端 localStorage 持久化，无需后端）
+// ---------------------------------------------------------------------------
+interface CommuteFavorite {
+  id: number
+  name: string
+  origin: { lat: number; lng: number }
+  originName: string
+  candidates: CommuteCandidate[]
+  mode: CommuteMode
+  city: string
+}
+const FAV_KEY = 'trip.commute.favorites'
+const favDrawer = ref(false)
+const favorites = ref<CommuteFavorite[]>([])
+
+function loadFavorites() {
+  try {
+    const raw = localStorage.getItem(FAV_KEY)
+    favorites.value = raw ? (JSON.parse(raw) as CommuteFavorite[]) : []
+  } catch {
+    favorites.value = []
+  }
+}
+function persistFavorites() {
+  try {
+    localStorage.setItem(FAV_KEY, JSON.stringify(favorites.value))
+  } catch {
+    /* localStorage 不可用时静默 */
+  }
+}
+function saveFavorite() {
+  if (!origin.value) {
+    message.warning('请先定位起点')
+    return
+  }
+  if (!candidates.value.length) {
+    message.warning('请先添加候选目的地')
+    return
+  }
+  const name = `${candidates.value[0].name} 等 ${candidates.value.length} 个`
+  const fav: CommuteFavorite = {
+    id: Date.now(),
+    name,
+    origin: { ...origin.value },
+    originName: originName.value,
+    candidates: candidates.value.map((c) => ({ ...c })),
+    mode: mode.value,
+    city: city.value,
+  }
+  favorites.value = [fav, ...favorites.value]
+  persistFavorites()
+  message.success('已收藏当前通勤')
+}
+function applyFavorite(f: CommuteFavorite) {
+  origin.value = { ...f.origin }
+  originName.value = f.originName || ''
+  candidates.value = f.candidates.map((c) => ({ ...c }))
+  mode.value = f.mode
+  city.value = f.city || ''
+  favDrawer.value = false
+  message.success('已载入常用通勤')
+}
+function removeFavorite(id: number) {
+  favorites.value = favorites.value.filter((f) => f.id !== id)
+  persistFavorites()
+}
 
 const modeOptions: { label: string; value: CommuteMode }[] = [
   { label: '驾车', value: 'driving' },
@@ -84,13 +159,24 @@ const mapSpots = computed<MapSpot[]>(() => {
       spots.push({ id: `c${i}`, name: c.name, latitude: c.lat, longitude: c.lng })
     }
   })
+  waypoints.value.forEach((w, i) => {
+    if (typeof w.lat === 'number' && typeof w.lng === 'number') {
+      spots.push({ id: `w${i}`, name: `途经点${i + 1}`, latitude: w.lat, longitude: w.lng })
+    }
+  })
   return spots
 })
 
 const originSpotId = computed(() => (origin.value ? 'origin' : undefined))
-const routePolylines = computed(() =>
-  recommended.value?.polyline ? [recommended.value.polyline] : [],
-)
+const routePolylines = computed(() => {
+  const rec = recommended.value
+  if (!rec) return []
+  // 优先用分段几何（公交逐段绘制，避免跨城连线）；否则退回单条 polyline
+  if (rec.polyline_segments && rec.polyline_segments.length) {
+    return rec.polyline_segments
+  }
+  return rec.polyline ? [rec.polyline] : []
+})
 
 // 推荐项相对「次优项」快多少秒（无次优或推荐非最快则为 null）
 const comparisonDiff = computed<number | null>(() => {
@@ -225,6 +311,33 @@ function removeCandidate(i: number) {
   candidates.value = candidates.value.filter((_, idx) => idx !== i)
 }
 
+async function addWaypoint() {
+  const name = wpName.value.trim()
+  if (!name) {
+    message.warning('请输入途经点名称或地址')
+    return
+  }
+  const cand: CommuteCandidate = { name }
+  if (city.value) cand.city = city.value
+  try {
+    const res: any = await geocodeAddress(name, city.value || undefined)
+    if (res?.found && res.lat != null && res.lng != null) {
+      cand.lat = res.lat
+      cand.lng = res.lng
+    } else {
+      message.warning('未匹配到坐标，将按名称计算')
+    }
+  } catch {
+    /* 编码异常静默，交给计算阶段兜底 */
+  }
+  waypoints.value = [...waypoints.value, cand]
+  wpName.value = ''
+}
+
+function removeWaypoint(i: number) {
+  waypoints.value = waypoints.value.filter((_, idx) => idx !== i)
+}
+
 async function openPoi() {
   poiDrawer.value = true
   if (poiList.value.length || poiLoading.value) return
@@ -274,6 +387,8 @@ async function compute() {
       destinations: candidates.value,
       mode: mode.value,
       city: city.value || undefined,
+      compare_modes: compareModes.value,
+      waypoints: waypoints.value,
     })
     const data = res?.data
     results.value = data?.results || []
@@ -363,7 +478,64 @@ function navUrl(item: CommuteResultItem) {
   window.open(url, '_blank')
 }
 
-onMounted(detectLocation)
+// ---------------------------------------------------------------------------
+// 跨方式横向对比展示
+// ---------------------------------------------------------------------------
+const modeLabelMap: Record<string, string> = {
+  driving: '驾车',
+  walking: '步行',
+  transit: '公交',
+  cycling: '骑行',
+}
+
+function bestModeOf(pm?: Record<string, { duration_sec?: number | null; distance_m?: number | null; error?: string | null }> | null): string | null {
+  if (!pm) return null
+  let best: string | null = null
+  let bestDur = Infinity
+  for (const [m, v] of Object.entries(pm)) {
+    const d = v?.duration_sec
+    if (typeof d === 'number' && d > 0 && d < bestDur) {
+      bestDur = d
+      best = m
+    }
+  }
+  return best
+}
+
+// ---------------------------------------------------------------------------
+// 周边 POI 推荐（按结果项展开）
+// ---------------------------------------------------------------------------
+const nearby = ref<Record<number, { open: boolean; loading: boolean; pois: NearbyPoi[] }>>({})
+
+async function toggleNearby(idx: number, item: CommuteResultItem) {
+  const st = nearby.value[idx] || { open: false, loading: false, pois: [] }
+  if (st.open) {
+    nearby.value[idx] = { ...st, open: false }
+    return
+  }
+  if (item.lat == null || item.lng == null) {
+    message.warning('该地点缺少坐标，无法查周边')
+    return
+  }
+  nearby.value[idx] = { ...st, open: true, loading: true }
+  try {
+    const res: any = await fetchNearby({ lat: item.lat, lng: item.lng, radius: 1000 })
+    nearby.value[idx] = { open: true, loading: false, pois: res?.pois || [] }
+  } catch {
+    nearby.value[idx] = { open: true, loading: false, pois: [] }
+    message.error('加载周边失败')
+  }
+}
+
+function addNearbyPoi(p: NearbyPoi) {
+  candidates.value = [...candidates.value, { name: p.name, lat: p.lat, lng: p.lng }]
+  message.success(`已添加候选：${p.name}`)
+}
+
+onMounted(() => {
+  detectLocation()
+  loadFavorites()
+})
 </script>
 
 <template>
@@ -431,6 +603,13 @@ onMounted(detectLocation)
                 </n-button>
               </n-space>
             </div>
+
+            <n-divider style="margin: 4px 0" />
+            <label class="compare-toggle">
+              <n-checkbox v-model:checked="compareModes" />
+              <span>对比各出行方式（同时计算驾车 / 公交 / 步行 / 骑行，找出最快方式）</span>
+            </label>
+
           </n-space>
         </n-card>
 
@@ -479,6 +658,35 @@ onMounted(detectLocation)
             </div>
           </n-space>
         </n-card>
+
+        <!-- 途经点（多段通勤） -->
+        <n-card class="block" title="途经点（多段通勤）">
+          <n-space vertical :size="12">
+            <n-space :size="8" style="max-width: 420px">
+              <n-input
+                v-model:value="wpName"
+                placeholder="途经点，如：八一广场"
+                style="flex: 1"
+                clearable
+                @keyup.enter="addWaypoint"
+              />
+              <n-button type="primary" @click="addWaypoint">添加</n-button>
+            </n-space>
+            <n-empty v-if="!waypoints.length" description="可选：在起点与目的地之间加途经点" />
+            <div v-else class="candidate-list">
+              <div v-for="(w, i) in waypoints" :key="i" class="candidate-item">
+                <span class="candidate-marker waypoint">经</span>
+                <div class="candidate-info">
+                  <div class="candidate-name">{{ w.name }}</div>
+                  <div class="candidate-meta">
+                    {{ w.lat != null && w.lng != null ? '已定位坐标' : `待地理编码${w.city ? '（' + w.city + '）' : ''}` }}
+                  </div>
+                </div>
+                <button class="candidate-delete" @click="removeWaypoint(i)">删除</button>
+              </div>
+            </div>
+          </n-space>
+        </n-card>
       </div>
 
       <!-- 右栏：地图 + 计算 + 结果 -->
@@ -502,6 +710,14 @@ onMounted(detectLocation)
             @pick="onPick"
           />
         </n-card>
+
+        <!-- 收藏 / 常用 -->
+        <n-space :size="8" style="margin-bottom: 4px">
+          <n-button size="small" class="btn-secondary" @click="saveFavorite">收藏当前通勤</n-button>
+          <n-button size="small" class="btn-secondary" @click="favDrawer = true">
+            我的常用（{{ favorites.length }}）
+          </n-button>
+        </n-space>
 
         <!-- 计算按钮 -->
         <n-button
@@ -611,6 +827,47 @@ onMounted(detectLocation)
                     {{ comparisonText(item) }}
                   </span>
                 </div>
+                <!-- 跨方式横向对比 -->
+                <div v-if="item.per_mode" class="per-mode">
+                  <span class="pm-label">各方式</span>
+                  <span
+                    v-for="m in Object.keys(item.per_mode)"
+                    :key="m"
+                    class="pm-pill"
+                    :class="{ best: m === bestModeOf(item.per_mode) }"
+                    :title="item.per_mode[m].error ? '计算失败：' + item.per_mode[m].error : ''"
+                  >
+                    {{ modeLabelMap[m] }}
+                    {{ item.per_mode[m].duration_sec != null ? formatDuration(item.per_mode[m].duration_sec) : '—' }}
+                  </span>
+                </div>
+                <!-- 周边 POI 推荐 -->
+                <div class="nearby">
+                  <n-button size="tiny" class="btn-secondary" @click="toggleNearby(idx, item)">
+                    {{ nearby[idx]?.open ? '收起附近' : '附近推荐' }}
+                  </n-button>
+                  <n-spin v-if="nearby[idx]?.loading" size="small" style="margin-left: 8px" />
+                  <n-empty
+                    v-else-if="nearby[idx]?.open && !nearby[idx]?.pois.length"
+                    description="附近暂无数据"
+                    size="small"
+                    style="margin-top: 8px"
+                  />
+                  <div v-else-if="nearby[idx]?.pois.length" class="nearby-list">
+                    <button
+                      v-for="p in nearby[idx].pois"
+                      :key="p.name + p.lng"
+                      class="nearby-item"
+                      @click="addNearbyPoi(p)"
+                      :title="p.address || ''"
+                    >
+                      <span class="nearby-name">{{ p.name }}</span>
+                      <span class="nearby-meta">
+                        {{ (p.category || '').split(';')[0] }} · {{ p.distance }}m
+                      </span>
+                    </button>
+                  </div>
+                </div>
               </div>
               <n-button size="small" class="btn-secondary nav-btn" @click="navUrl(item)">
                 导航
@@ -638,6 +895,27 @@ onMounted(detectLocation)
             添加所选（{{ poiChecked.length }}）
           </n-button>
         </template>
+      </n-drawer-content>
+    </n-drawer>
+
+    <!-- 常用通勤收藏抽屉 -->
+    <n-drawer v-model:show="favDrawer" :width="360" placement="right">
+      <n-drawer-content title="我的常用通勤" closable>
+        <n-empty v-if="!favorites.length" description="还没有收藏。算好一条通勤后点「收藏当前通勤」即可保存。" />
+        <n-space v-else vertical :size="10">
+          <div v-for="f in favorites" :key="f.id" class="fav-item">
+            <div class="fav-info">
+              <div class="fav-name">{{ f.name }}</div>
+              <div class="fav-meta">
+                {{ modeLabelMap[f.mode] }} · {{ f.candidates.length }} 个候选 · {{ f.city || '城市未填' }}
+              </div>
+            </div>
+            <n-space :size="6">
+              <n-button size="small" type="primary" @click="applyFavorite(f)">载入</n-button>
+              <n-button size="small" class="btn-secondary" @click="removeFavorite(f.id)">删除</n-button>
+            </n-space>
+          </div>
+        </n-space>
       </n-drawer-content>
     </n-drawer>
   </div>
@@ -818,6 +1096,10 @@ onMounted(detectLocation)
   font-weight: 600;
   flex-shrink: 0;
 }
+.candidate-marker.waypoint {
+  background: #665CA2;
+  color: #fff;
+}
 .candidate-info {
   flex: 1;
   min-width: 0;
@@ -964,6 +1246,102 @@ onMounted(detectLocation)
 }
 .comparison .fast { color: #3FA66A; }
 .comparison .slow { color: #6C6E74; }
+.compare-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text-secondary, #6c6e74);
+  cursor: pointer;
+}
+.per-mode {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.pm-label {
+  font-size: 12px;
+  color: var(--text-secondary, #6c6e74);
+}
+.pm-pill {
+  font-size: 12px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: #F6F5F9;
+  border: 1px solid #E4E1ED;
+  color: #6C6E74;
+}
+.pm-pill.best {
+  background: #665CA2;
+  border-color: #665CA2;
+  color: #fff;
+  font-weight: 600;
+}
+.nearby {
+  margin-top: 10px;
+}
+.nearby-list {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.nearby-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  padding: 5px 10px;
+  border: 1px solid #E4E1ED;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+  max-width: 180px;
+}
+.nearby-item:hover {
+  background: #F4F1FB;
+  border-color: #665CA2;
+}
+.nearby-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-primary, #2b2d31);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 160px;
+}
+.nearby-meta {
+  font-size: 11px;
+  color: var(--text-secondary, #6c6e74);
+}
+.fav-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px 14px;
+  background: #F6F5F9;
+  border: 1px solid #E4E1ED;
+  border-radius: 12px;
+}
+.fav-info {
+  min-width: 0;
+  flex: 1;
+}
+.fav-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary, #2b2d31);
+}
+.fav-meta {
+  font-size: 12px;
+  color: var(--text-secondary, #6c6e74);
+  margin-top: 2px;
+}
 .nav-btn {
   flex-shrink: 0;
 }

@@ -42,6 +42,14 @@ class CommuteRequest(BaseModel):
     city: Optional[str] = Field(
         default=None, description="当前城市（transit 公交规划必填，可缺省时回退）"
     )
+    waypoints: List[Candidate] = Field(
+        default_factory=list,
+        description="途经点（多段通勤）：起点到候选目的地之间依次经过的点，累加各段路程",
+    )
+    compare_modes: bool = Field(
+        default=False,
+        description="为 true 时，除选定方式外额外计算其余 3 种方式，返回 per_mode 横向对比",
+    )
 
 
 class TransitStepDetail(BaseModel):
@@ -65,12 +73,20 @@ class CommuteResultItem(BaseModel):
     distance_m: int = Field(..., description="通勤距离（米）")
     transfers: Optional[int] = Field(default=None, description="换乘次数（仅公交）")
     polyline: Optional[str] = Field(default=None, description="路线几何（明文 lng,lat;... 或步行段近似）")
+    polyline_segments: Optional[List[str]] = Field(
+        default=None,
+        description="公交路线分段几何（每段独立），用于逐段绘制避免跨城连线",
+    )
     lat: Optional[float] = Field(default=None, description="目的地纬度（用于导航深链）")
     lng: Optional[float] = Field(default=None, description="目的地经度（用于导航深链）")
     has_subway: Optional[bool] = Field(default=None, description="是否包含地铁（仅公交）")
     transit_lines: Optional[List[str]] = Field(default=None, description="公交/地铁线路名称列表（仅公交）")
     steps_detail: Optional[List[TransitStepDetail]] = Field(
         default=None, description="逐步行程详情（仅公交）"
+    )
+    per_mode: Optional[Dict[str, Any]] = Field(
+        default=None,
+        description="跨方式横向对比（compare_modes=true 时）：各方式 {duration_sec, distance_m} 或 {error}",
     )
     error: Optional[str] = Field(default=None, description="该候选失败原因（成功为 null）")
 

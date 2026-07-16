@@ -28,11 +28,16 @@ export interface CommuteResultItem {
   distance_m: number
   transfers?: number | null
   polyline?: string | null
+  polyline_segments?: string[] | null
   lat?: number | null
   lng?: number | null
   has_subway?: boolean | null
   transit_lines?: string[] | null
   steps_detail?: TransitStepDetail[] | null
+  per_mode?: Record<
+    string,
+    { duration_sec?: number | null; distance_m?: number | null; error?: string | null }
+  > | null
   error?: string | null
 }
 
@@ -73,6 +78,29 @@ export function geocodeAddress(address: string, city?: string) {
 }
 
 // ---------------------------------------------------------------------------
+// 周边 POI 推荐
+// ---------------------------------------------------------------------------
+
+export interface NearbyPoi {
+  name: string
+  address?: string | null
+  category?: string | null
+  distance?: number | null
+  lat: number
+  lng: number
+}
+
+/** 周边 POI 推荐（高德 place/around） */
+export function fetchNearby(params: {
+  lat: number
+  lng: number
+  radius?: number
+  keywords?: string
+}) {
+  return get<{ pois: NearbyPoi[] }>('/commute/nearby', params)
+}
+
+// ---------------------------------------------------------------------------
 // 核心
 // ---------------------------------------------------------------------------
 
@@ -82,6 +110,8 @@ export function computeOptimal(payload: {
   destinations: CommuteCandidate[]
   mode: CommuteMode
   city?: string
+  compare_modes?: boolean
+  waypoints?: CommuteCandidate[]
 }) {
   return post<CommuteResponse>('/commute/optimal', payload)
 }

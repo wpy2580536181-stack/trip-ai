@@ -4,13 +4,13 @@
 响应沿用项目通用 Format B：{code, data, message, error}。
 """
 
-from typing import List, Optional
+from typing import Any, Dict, List, Optional
 
 from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel, Field
 
 from src.schemas.commute import CommuteRequest, CommuteResponse
-from src.services.commute_service import compute_optimal_commute, search_input_tips
+from src.services.commute_service import compute_optimal_commute, search_input_tips, search_nearby_pois
 from src.services.geocode_service import geocode_spot
 
 router = APIRouter(prefix="/commute", tags=["Commute"])
@@ -75,6 +75,27 @@ async def inputtips(
         raise HTTPException(status_code=502, detail=f"联想服务异常：{exc}")
 
 
+class NearbyResponse(BaseModel):
+    """周边 POI 推荐响应"""
+    pois: List[Dict[str, Any]]
+
+
+@router.get("/nearby", response_model=NearbyResponse)
+async def nearby(
+    lat: float = Query(..., description="中心纬度"),
+    lng: float = Query(..., description="中心经度"),
+    radius: int = Query(1000, ge=100, le=5000, description="搜索半径（米）"),
+    keywords: Optional[str] = Query(None, description="关键词（如：地铁站 / 咖啡）"),
+    types: Optional[str] = Query(None, description="POI 分类编码（高德 category code）"),
+):
+    """周边 POI 推荐（调高德 v3/place/around）。用于展示候选地附近的地标。"""
+    try:
+        pois = await search_nearby_pois(lat, lng, radius, keywords, types)
+        return {"pois": pois}
+    except Exception as exc:
+        raise HTTPException(status_code=502, detail=f"周边搜索异常：{exc}")
+
+
 @router.post("/optimal")
 async def optimal(req: CommuteRequest):
     """计算从当前位置到各候选目的地的最短通勤。
@@ -89,6 +110,8 @@ async def optimal(req: CommuteRequest):
             [d.model_dump() for d in req.destinations],
             req.mode,
             req.city,
+            req.compare_modes,
+            [w.model_dump() for w in req.waypoints] if req.waypoints else None,
         )
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc))
