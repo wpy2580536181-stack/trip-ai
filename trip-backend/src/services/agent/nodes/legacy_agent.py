@@ -5,12 +5,15 @@
 """
 
 import asyncio
+import logging
 from typing import Any, Optional
 
 from langchain_core.messages import HumanMessage, BaseMessage
 from langchain_core.runnables import RunnableConfig
 
 from src.services.agent.types import TokenUsage, StepInput
+
+logger = logging.getLogger(__name__)
 
 
 async def legacy_agent_node(state: dict, config: RunnableConfig) -> dict:
@@ -33,7 +36,39 @@ async def legacy_agent_node(state: dict, config: RunnableConfig) -> dict:
     conversation_history = configurable.get("conversation_history", [])
     trace_recorder = configurable.get("trace_recorder")
     step_counter = configurable.get("step_counter", {"value": 1})
-    
+
+    # ── Skills 基座：L1 粗选 → L2 规格注入 → L3 指令驱动执行 ──
+    # 一般对话路由（route == 'general'）若匹配到技能（如路线优化/酒店搜索），
+    # 由技能自行编排底层工具回答；否则降级到下方原有 AgentExecutor 逻辑。
+    from src.services.agent.skills import run_selected_skill
+
+    _message = state.get("message", "")
+    _llm = configurable.get("llm")
+    if _message:
+        _skill_result = await run_selected_skill(
+            registry=configurable.get("skill_registry"),
+            llm=_llm,
+            query=_message,
+            user_input=_message,
+            city=state.get("city"),
+            days=state.get("days"),
+            budget=state.get("budget"),
+            departure_city=state.get("departure_city"),
+        )
+        if _skill_result is not None and _skill_result.ok:
+            logger.info("legacy_agent|skill=%s 命中并执行成功", _skill_result.skill)
+            _content = _skill_result.content
+            _usage = {"prompt": 0, "completion": 0, "total": 0, "cached": 0}
+            if on_event:
+                await on_event({"type": "chunk", "content": _content})
+            return {"raw_output": _content, "usage": _usage, "skill_used": _skill_result.skill}
+        if _skill_result is not None and not _skill_result.ok:
+            logger.warning(
+                "legacy_agent|skill=%s 执行失败，降级原 agent: %s",
+                _skill_result.skill, _skill_result.error,
+            )
+    # 无人选或技能失败 → 降级到下方原有 AgentExecutor 逻辑
+
     # 构建输入
     input_dict = {
         "chat_history": [*conversation_history, HumanMessage(content=state.get("message", ""))],

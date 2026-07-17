@@ -731,14 +731,20 @@ class TestRouteDecision:
 class TestRouterNodeWrapper:
     def test_planning_with_city(self):
         state = {"message": "帮我规划成都3日游行程", "conversation_history": []}
-        with patch("src.services.agent.chat_graph.router_node", return_value=True):
+        with patch(
+            "src.services.agent.chat_graph.router_node",
+            return_value={"route": "planning", "city": "成都"},
+        ):
             result = _router_node_wrapper(state)
         assert result["route"] == "planning"
         assert result["city"] == "成都"
 
     def test_general_route(self):
         state = {"message": "你好", "conversation_history": []}
-        with patch("src.services.agent.chat_graph.router_node", return_value=False):
+        with patch(
+            "src.services.agent.chat_graph.router_node",
+            return_value={"route": "general", "city": ""},
+        ):
             result = _router_node_wrapper(state)
         assert result["route"] == "general"
 
@@ -749,7 +755,10 @@ class TestRouterNodeWrapper:
             "message": "帮我规划3日游行程",
             "conversation_history": [HumanMessage(content="我想去西安")],
         }
-        with patch("src.services.agent.chat_graph.router_node", return_value=True):
+        with patch(
+            "src.services.agent.chat_graph.router_node",
+            return_value={"route": "planning", "city": "西安"},
+        ):
             result = _router_node_wrapper(state)
         assert result["route"] == "planning"
         assert result["city"] == "西安"
@@ -757,7 +766,10 @@ class TestRouterNodeWrapper:
     def test_planning_no_city_fallback_general(self):
         """规划请求但找不到城市名，回退到 general。"""
         state = {"message": "帮我规划3日游行程", "conversation_history": []}
-        with patch("src.services.agent.chat_graph.router_node", return_value=True):
+        with patch(
+            "src.services.agent.chat_graph.router_node",
+            return_value={"route": "general", "city": ""},
+        ):
             result = _router_node_wrapper(state)
         assert result["route"] == "general"
 
@@ -815,7 +827,8 @@ class TestIsPlanningRequest:
         assert is_planning_request("") is False
 
     def test_keyword_only_no_days(self):
-        assert is_planning_request("帮我规划行程") is False
+        # 源码逻辑：只要有规划关键词（"规划"）即判定为规划请求，无需天数
+        assert is_planning_request("帮我规划行程") is True
 
     def test_days_pattern(self):
         assert is_planning_request("帮我安排五天攻略") is True

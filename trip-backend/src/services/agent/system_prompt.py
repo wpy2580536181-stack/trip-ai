@@ -47,6 +47,7 @@ def build_system_prompt(
     conversation_summary: Optional[str] = None,
     conversation_recap: Optional[str] = None,
     is_first_message: bool = False,
+    skill_catalog: str = "",
 ) -> str:
     """构建系统提示词。
     
@@ -134,6 +135,15 @@ def build_system_prompt(
     else:
         parts.append("这是对话中的一条新消息。")
     
+    # L1 技能目录（常驻上下文，匹配时由系统加载完整说明并执行）
+    if skill_catalog:
+        parts.append(
+            "\n# 可用技能（L1 目录，已常驻上下文）\n"
+            "下面是可用的技能清单。当用户请求匹配某技能时，系统会加载该技能的"
+            "完整说明（L2）并执行（L3），无需你手动调用。\n"
+        )
+        parts.append(skill_catalog + "\n")
+    
     return "".join(parts)
 
 
@@ -141,6 +151,7 @@ def build_recommend_system_prompt(
     user_preferences: Optional[dict] = None,
     conversation_summary: Optional[str] = None,
     conversation_recap: Optional[str] = None,
+    skill_catalog: str = "",
 ) -> str:
     """构建推荐场景专用的系统提示词（带 JSON 输出规范）。
     
@@ -156,6 +167,7 @@ def build_recommend_system_prompt(
         user_preferences=user_preferences,
         conversation_summary=conversation_summary,
         conversation_recap=conversation_recap,
+        skill_catalog=skill_catalog,
     )
     
     json_spec = """

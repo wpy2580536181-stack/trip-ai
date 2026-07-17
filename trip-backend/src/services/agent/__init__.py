@@ -33,6 +33,19 @@ from src.services.agent.semaphore import ConcurrencyGuard, concurrency_guard
 from .token_monitor import token_monitor
 from src.services.agent.trace_recorder import TraceRecorder
 
+# 导出 Skills 基座（三层渐进式披露，SKILL.md 驱动）
+from src.services.agent.skills import (
+    Skill,
+    SkillRegistry,
+    get_skill_registry,
+    load_builtin_skills,
+    SkillLayer,
+    SkillCatalog,
+    SkillSpec,
+    SkillContext,
+    SkillResult,
+)
+
 __all__ = [
     # 核心
     "AgentEngine",
@@ -63,4 +76,14 @@ __all__ = [
     "concurrency_guard",
     "token_monitor",
     "TraceRecorder",
+    # Skills 基座
+    "Skill",
+    "SkillRegistry",
+    "get_skill_registry",
+    "load_builtin_skills",
+    "SkillLayer",
+    "SkillCatalog",
+    "SkillSpec",
+    "SkillContext",
+    "SkillResult",
 ]

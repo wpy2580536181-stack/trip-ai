@@ -162,7 +162,42 @@ async def planner_node(state: dict, config: RunnableConfig) -> dict:
     configurable = config.get("configurable", {})
     llm = configurable.get("llm")
     fallback_config = configurable.get("fallback_llm_config")
-    
+
+    # ── Skills 基座：L1 粗选 → L2 规格注入 → L3 指令驱动执行 ──
+    # 命中技能时由技能自行编排底层工具产出行程；否则降级到下方原有 planner 逻辑。
+    from src.services.agent.skills import run_selected_skill
+
+    message = state.get("message", "")
+    if not message:
+        _dep = state.get("departure_city", "")
+        message = (
+            f"请为我规划{_dep + '出发到' if _dep else ''}"
+            f"{state.get('city', '')}{state.get('days')}日游行程"
+        )
+    skill_result = await run_selected_skill(
+        registry=configurable.get("skill_registry"),
+        llm=llm,
+        query=message,
+        user_input=message,
+        city=state.get("city"),
+        days=state.get("days"),
+        budget=state.get("budget"),
+        departure_city=state.get("departure_city"),
+    )
+    if skill_result is not None and skill_result.ok:
+        logger.info("planner|skill=%s 命中并执行成功", skill_result.skill)
+        return {
+            "raw_output": skill_result.content,
+            "usage": {"prompt": 0, "completion": 0, "total": 0, "cached": 0},
+            "skill_used": skill_result.skill,
+        }
+    if skill_result is not None and not skill_result.ok:
+        logger.warning(
+            "planner|skill=%s 执行失败，降级原 planner: %s",
+            skill_result.skill, skill_result.error,
+        )
+    # 无人选或技能执行失败 → 降级到原有 build_planner_prompt 逻辑
+
     # 构建 planner 提示词
     system_prompt = build_planner_prompt(
         city=state.get("city", ""),
@@ -172,6 +207,17 @@ async def planner_node(state: dict, config: RunnableConfig) -> dict:
         user_preferences=state.get("user_preferences"),
         research_bundle=state.get("research_bundle", {}),
     )
+
+    # L1 技能目录常驻上下文（供规划 LLM 知晓可用技能；真正选/执行在 run_selected_skill）
+    _reg = configurable.get("skill_registry")
+    if _reg is not None:
+        _cat = _reg.catalog_prompt(header="# 可用技能（L1 目录，已常驻上下文）")
+        if _cat:
+            system_prompt += (
+                "\n\n# 可用技能（L1 目录）\n"
+                "下面是可用的技能清单。若用户请求匹配某技能，系统会加载其完整说明"
+                "并执行，无需你手动调用。\n" + _cat + "\n"
+            )
     
     # 构建用户消息
     user_message = state.get("message", "")

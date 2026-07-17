@@ -24,6 +24,7 @@ from src.services.agent.planner_graph import build_planner_graph
 from src.services.agent.trace_recorder import TraceRecorder
 from src.services.agent.token_monitor import token_monitor
 from src.services.agent.token_tracker import LLMContext
+from src.services.agent.skills import get_skill_registry, load_builtin_skills, SkillContext, SkillResult
 
 
 # AgentEngine 单例
@@ -65,6 +66,10 @@ class AgentEngine:
         # 高德 MCP 工具（延迟初始化）
         self.amap_tools: list = []
         self.amap_tools_init_promise: Optional[asyncio.Task] = None
+
+        # 技能注册表（三层渐进式披露；从 skills/skills/<name>/SKILL.md 加载内置技能）
+        self.skill_registry = get_skill_registry()
+        load_builtin_skills(self.skill_registry)
     
     async def ensure_amap_tools(self) -> None:
         """确保高德 MCP 工具已加载。"""
@@ -85,6 +90,57 @@ class AgentEngine:
             logger.warning(f"高德 MCP 工具加载失败: {e}")
             self.amap_tools = []
     
+    # ------------------------------------------------------------------
+    # Skills 基座能力（三层渐进式披露）
+    # ------------------------------------------------------------------
+    async def invoke_skill(
+        self,
+        name: str,
+        user_input: str = "",
+        ctx: Optional[SkillContext] = None,
+        **kwargs: Any,
+    ) -> SkillResult:
+        """调用已注册技能（三层渐进式披露：L1 目录 → L2 规格 → L3 执行）。
+
+        这是 agent 调用 skills 的统一入口。技能执行是「指令驱动」的：把
+        SKILL.md 的 instructions 交给 LLM，由 LLM 借助底层工具（tool calling）
+        自行编排，而非写死的代码流程。具体由哪个节点选择技能在后续步骤完成。
+
+        Args:
+            name: 技能名称
+            user_input: 用户原始输入（用于拼装执行提示词）
+            ctx: 执行上下文（缺省时自动装配 llm + 底层工具）
+            **kwargs: 技能入参
+
+        Returns:
+            SkillResult
+        """
+        if ctx is None:
+            from src.services.agent.tools import (
+                retrieve_knowledge,
+                search_hotels,
+                calculate_distance,
+            )
+
+            ctx = SkillContext(
+                llm=self.llm,
+                tools=[retrieve_knowledge, search_hotels, calculate_distance],
+                registry=self.skill_registry,
+                user_input=user_input,
+            )
+        return await self.skill_registry.execute(name, ctx, **kwargs)
+
+    def skill_catalog_prompt(self, header: str = "# 可用技能") -> str:
+        """获取 L1 技能目录的提示词片段（供注入 planner/系统提示词）。
+
+        Args:
+            header: 段标题
+
+        Returns:
+            渲染后的提示词片段；无技能时返回空串
+        """
+        return self.skill_registry.catalog_prompt(header=header)
+
     async def _load_user_preferences(self, user_id: int) -> Optional[dict]:
         """加载用户偏好设置。
         
@@ -194,12 +250,13 @@ class AgentEngine:
                 import logging
                 logging.getLogger(__name__).warning("load_context failed: %s", e)
         
-        # 构建系统提示词
+        # 构建系统提示词（注入 L1 技能目录，常驻上下文）
         from .system_prompt import build_system_prompt
         system_prompt = build_system_prompt(
             user_preferences=preferences,
             conversation_summary=system_summary,
             conversation_recap=conversation_recap,
+            skill_catalog=self.skill_catalog_prompt(),
         )
         
         # 创建 TraceRecorder
@@ -220,6 +277,7 @@ class AgentEngine:
                 "fallback_llm_config": self.fallback_llm_config,
                 "system_prompt": system_prompt,
                 "conversation_history": conversation_history,
+                "skill_registry": self.skill_registry,
             },
         }
         
@@ -355,6 +413,7 @@ class AgentEngine:
                 "step_counter": step_counter,
                 "llm": self.llm,
                 "fallback_llm_config": self.fallback_llm_config,
+                "skill_registry": self.skill_registry,
             },
         }
         
