@@ -66,9 +66,9 @@ class TestGeo:
 
 class TestRegistry:
     def test_list_evaluators_count(self):
-        """应有 13 个 evaluator"""
+        """应有 16 个 evaluator（相对初版 13 新增了 multi_turn 与 ragas 系列）"""
         names = list_evaluators()
-        assert len(names) == 13
+        assert len(names) == 16
 
     def test_get_evaluator_exists(self):
         """schema_check 应存在"""

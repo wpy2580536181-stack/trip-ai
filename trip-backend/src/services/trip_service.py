@@ -357,14 +357,14 @@ class TripService:
             )
             _t_enrich = time.time()
 
-            # ---- 持久化 Trip（后台异步，不阻塞响应） ----
-            # 注意：parsed 已在 enrich 阶段完成修改，后台任务持有引用不会丢失
-            asyncio.create_task(_persist_trip_background(
+            # ---- 持久化 Trip 并回填 id ----
+            # 持久化已在 enrich 阶段完成（parsed 已被修改），此处同步写入并取回自增主键
+            trip_id = await self._persist_trip(
                 user_id=user_id,
                 from_city=departure_city,
                 parsed=parsed,
                 budget=budget,
-            ))
+            )
 
             _t_total = time.time()
             logger.info(
@@ -378,7 +378,7 @@ class TripService:
             return {
                 "success": True,
                 "data": {
-                    "id": None,  # 后台异步持久化，不等待 DB 写入
+                    "id": trip_id,
                     "city": parsed.get("city", city),
                     "days": parsed.get("days", days),
                     "totalBudget": parsed.get("totalBudget"),
@@ -446,36 +446,6 @@ class TripService:
             await session.commit()
             await session.refresh(trip)
             return trip.id
-
-
-# ---------------------------------------------------------------------------
-# 后台持久化（异步，不阻塞响应）
-# ---------------------------------------------------------------------------
-
-async def _persist_trip_background(
-    user_id: Optional[int],
-    from_city: Optional[str],
-    parsed: dict,
-    budget: int,
-    parent_trip_id: Optional[int] = None,
-) -> None:
-    """后台持久化 Trip 记录（fire-and-forget）。"""
-    try:
-        async with async_session() as session:
-            trip = Trip(
-                user_id=user_id,
-                from_city=from_city,
-                city=parsed.get("city", ""),
-                days=parsed.get("days", 1),
-                budget=budget,
-                content=parsed,
-                status="completed",
-                parent_trip_id=parent_trip_id,
-            )
-            session.add(trip)
-            await session.commit()
-    except Exception as e:
-        trip_log.error(err=str(e), msg="recommend|persist_background failed")
 
 
 # 模块单例

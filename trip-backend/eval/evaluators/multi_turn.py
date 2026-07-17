@@ -22,12 +22,6 @@ _ITINERARY_HARDCODE_PATTERNS = [
     re.compile(r"行程安排[:：]"),
 ]
 
-# 结构化行程标记模式（匹配多个才算硬塞，单个引用不算）
-_STRUCT_DAY_PATTERNS = [
-    re.compile(r"第\s*\d+\s*天"),
-    re.compile(r"Day\s*\d+", re.IGNORECASE),
-]
-
 
 def _get_daily_slots(json_data: dict[str, Any] | None):
     """Yield (day_index, slot_key, slot_dict) for all non-empty slots."""
@@ -169,20 +163,12 @@ def no_forced_itinerary(output: AgentOutput, fixture: Fixture) -> EvalResult:
         )
 
     # 2. 文本里不该有结构化行程词
-    #    对于 Day/第N天 模式：单个引用可能是追问场景的合理引用，需 2+ 个匹配才判为硬塞
+    #    反例场景中 Agent 本就不该输出任何行程，因此只要出现 "Day N" / "第N天" 等
+    #    明确的结构化日标记（哪怕只出现一次），即视为硬塞具体行程。
     for pat in _ITINERARY_HARDCODE_PATTERNS:
         matches = pat.findall(output.text)
-        is_struct_day = any(sp.pattern == pat.pattern for sp in _STRUCT_DAY_PATTERNS)
-        if is_struct_day:
-            # Day/第N天 模式：需要 4+ 个匹配才判定为结构化行程
-            # 追问场景中引用 2-3 次同一天是合理的（如"Day 2 推荐...我并没有在 Day 2 推荐..."）
-            # 真正的行程输出会有多天结构（Day 1 + Day 2 + Day 3 = 至少 3 个不同天）
-            if len(matches) >= 4:
-                violations.append(f"反例场景包含多个硬塞关键词：{pat.pattern}（匹配 {len(matches)} 次）")
-        else:
-            # 其他模式（D\d+、行程安排：）：单次匹配即违规
-            if matches:
-                violations.append(f"反例场景包含硬塞关键词：{pat.pattern}")
+        if matches:
+            violations.append(f"反例场景包含硬塞关键词：{pat.pattern}（匹配 {len(matches)} 次）")
 
     # 3. 必不含关键词
     banned = fixture.expected.must_not_contain_keywords or []

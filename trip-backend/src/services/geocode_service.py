@@ -101,7 +101,7 @@ class _GeocodeQueue:
             if not future.done():
                 future.set_result(result)
         except Exception as exc:
-            trip_log.warning(err=str(exc), spot_name=spot_name, city=city, msg="geocode failed")
+            trip_log.warning("geocode failed", err=str(exc), spot_name=spot_name, city=city)
             if not future.done():
                 future.set_result(None)
 
@@ -116,7 +116,7 @@ _queue = _GeocodeQueue()
 async def _geocode_single(spot_name: str, city: str) -> Optional[Dict[str, float]]:
     api_key = settings.amap_maps_api_key
     if not api_key:
-        trip_log.warning(msg="AMAP_MAPS_API_KEY not configured, skipping geocoding")
+        trip_log.warning("AMAP_MAPS_API_KEY not configured, skipping geocoding")
         return None
 
     # 先查缓存
@@ -140,7 +140,7 @@ async def _geocode_single(spot_name: str, city: str) -> Optional[Dict[str, float
             )
             if resp.status_code == 429:
                 trip_log.warning(
-                    status=429, spot_name=spot_name, city=city, msg="geocode rate limited (429)"
+                    "geocode rate limited (429)", status=429, spot_name=spot_name, city=city
                 )
                 return None
             resp.raise_for_status()
@@ -159,7 +159,7 @@ async def _geocode_single(spot_name: str, city: str) -> Optional[Dict[str, float
         return None
 
     except Exception as exc:
-        trip_log.error(err=str(exc), spot_name=spot_name, city=city, msg="geocode request failed")
+        trip_log.error("geocode request failed", err=str(exc), spot_name=spot_name, city=city)
         return None
 
 

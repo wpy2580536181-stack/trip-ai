@@ -42,7 +42,10 @@ DIETARY_RULES: dict[str, dict[str, Any]] = {
     "halal": {
         "label": "清真",
         "required": ["清真"],
-        "banned": ["猪肉", "培根", "火腿", "香肠", "烤肠", "猪骨", "猪蹄"],
+        "banned": [
+            "猪肉", "培根", "火腿", "香肠", "烤肠", "猪骨", "猪蹄",
+            "烤鸭", "羊肉", "牛肉",
+        ],
     },
     "vegetarian": {
         "label": "素食",
