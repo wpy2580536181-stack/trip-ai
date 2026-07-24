@@ -15,7 +15,7 @@ from typing import Any, Optional
 
 from .types import SkillCatalog, SkillSpec, SkillContext, SkillResult, SkillLayer
 from .base import Skill
-from .loader import parse_skill_file, discover_skill_paths
+from .loader import parse_skill_file, discover_skill_paths, get_skill_dirs
 
 
 class SkillRegistry:
@@ -170,12 +170,13 @@ def get_skill_registry() -> SkillRegistry:
 def load_builtin_skills(
     registry: Optional[SkillRegistry] = None,
 ) -> SkillRegistry:
-    """加载包内自带技能（skills/skills/<name>/SKILL.md）。
+    """加载内置技能。
 
+    优先从 .claude/skills/（Anthropic 标准目录）加载；
+    若不存在则回退到旧目录 src/.../skills/skills/ 保证向后兼容。
     幂等：重复调用会用同名覆盖。
     """
     reg = registry or get_skill_registry()
-    here = os.path.dirname(os.path.abspath(__file__))
-    skills_dir = os.path.join(here, "skills")
-    reg.load_from_directory(skills_dir)
+    for skills_dir in get_skill_dirs():
+        reg.load_from_directory(skills_dir)
     return reg

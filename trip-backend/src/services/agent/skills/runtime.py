@@ -30,14 +30,24 @@ def build_skill_context(
         SkillContext
     """
     from src.services.agent.tools import (
-        retrieve_knowledge,
-        search_hotels,
-        calculate_distance,
+        retrieve_knowledge_tool,
+        search_hotels_tool,
+        calculate_distance_tool,
+        compute_optimal_commute_tool,
+        search_commute_tips_tool,
+        search_nearby_commute_pois_tool,
     )
 
     return SkillContext(
         llm=llm,
-        tools=[retrieve_knowledge, search_hotels, calculate_distance],
+        tools=[
+            retrieve_knowledge_tool,
+            search_hotels_tool,
+            calculate_distance_tool,
+            compute_optimal_commute_tool,
+            search_commute_tips_tool,
+            search_nearby_commute_pois_tool,
+        ],
         registry=registry,
         user_input=user_input,
     )

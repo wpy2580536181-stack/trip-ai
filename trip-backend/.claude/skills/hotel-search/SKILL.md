@@ -1,8 +1,6 @@
 ---
-name: 酒店搜索
-description: 按城市与条件检索推荐酒店
-tags: [hotel, 酒店, search, 住宿]
-kind: tool
+name: hotel-search
+description: "按城市检索推荐酒店。当用户询问'住哪''住宿推荐''酒店''宾馆''民宿'或需要提供某城市的住宿建议时触发。支持预算/星级筛选，返回酒店名称与简介。"
 ---
 
 # 酒店搜索 Skill

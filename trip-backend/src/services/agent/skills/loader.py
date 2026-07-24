@@ -1,35 +1,20 @@
 """SkillLoader：解析 SKILL.md 文件为 SkillCatalog + SkillSpec。
 
-SKILL.md 结构（对齐"渐进式加载"标准，frontmatter 常驻 L1，正文整篇为 L2，
-references/scripts/assets 为 L3 按需加载）：
+SKILL.md 结构（对齐 Anthropic Claude Code Skill 规范）：
     ---
     name: 行程规划
-    description: ...            # L1：会话启动即常驻系统提示词
-    tags: [itinerary, planning, 行程, 攻略]
-    kind: agent                # agent | tool
+    description: "当用户提到行程、攻略、几日游时触发..."  # L1：常驻上下文
     ---
 
     # 标题（可选）
 
-    ## Trigger
-    ...
+    正文内容                      # L2：被选中才整篇读入上下文
 
-    ## Instructions
-    ...                        # L2：被选中才整篇读入上下文
+    references/scripts/assets     # L3：执行时按需加载的资源
 
-    ## Input Schema
-    ```json
-    {...}
-    ```
-
-    ## Examples
-    ...
-
-    ## 注意事项
-    ...                        # 允许自由增删段落，结构不写死
-
-    # 执行时引用资源（L3 按需加载，未被引用则不进上下文）
-    参考 references/itinerary-notes.md
+目录扫描支持双路径：
+- .claude/skills/<name>/SKILL.md  （Anthropic 标准，优先）
+- src/services/agent/skills/skills/<name>/SKILL.md  （旧目录，向后兼容兜底）
 
 为保持测试与运行环境零外部依赖，frontmatter 与分段均为轻量自写解析，
 不引入 PyYAML。
@@ -57,6 +42,9 @@ def _parse_frontmatter(text: str):
         key, _, val = line.partition(":")
         key = key.strip()
         val = val.strip()
+        # 处理 YAML 折叠标量（>-）和多行描述
+        if val.startswith(">-"):
+            val = val[2:].strip()
         if val.startswith("[") and val.endswith("]"):
             inner = val[1:-1].strip()
             data[key] = [
@@ -131,13 +119,44 @@ def _detect_resources(body: str) -> list:
     return sorted(set(_RES_RE.findall(body)))
 
 
-def discover_skill_paths(skills_dir: str) -> list:
-    """递归扫描目录下所有 SKILL.md（大小写不敏感）。"""
-    if not os.path.isdir(skills_dir):
-        return []
-    paths: list = []
-    for root, _dirs, files in os.walk(skills_dir):
-        for fn in files:
-            if fn.upper() == "SKILL.MD":
-                paths.append(os.path.join(root, fn))
+def discover_skill_paths(skills_dirs: list[str] | str) -> list[str]:
+    """递归扫描一个或多个目录下所有 SKILL.md（大小写不敏感）。
+
+    Args:
+        skills_dirs: 单个路径字符串或路径列表。支持 Anthropic 规范目录
+            （.claude/skills/<name>/SKILL.md）和旧目录结构
+            （src/.../skills/skills/<name>/SKILL.md）。
+    """
+    if isinstance(skills_dirs, str):
+        skills_dirs = [skills_dirs]
+    paths: list[str] = []
+    for d in skills_dirs:
+        if not os.path.isdir(d):
+            continue
+        for root, _dirs, files in os.walk(d):
+            for fn in files:
+                if fn.upper() == "SKILL.MD":
+                    paths.append(os.path.join(root, fn))
     return sorted(paths)
+
+
+def get_skill_dirs() -> list[str]:
+    """返回所有技能目录路径列表。
+
+    按优先级顺序：.claude/skills（Anthropic 标准） > src/.../skills/skills（旧目录）。
+    优先目录存在时优先加载，旧目录作为兜底保证向后兼容。
+    """
+    here = os.path.dirname(os.path.abspath(__file__))
+    # here = .../src/services/agent/skills
+    # project_root = .../trip-backend (4 levels up)
+    project_root = os.path.normpath(os.path.join(here, "..", "..", "..", ".."))
+    dirs: list[str] = []
+    # Anthropic 标准目录
+    claude_skills = os.path.join(project_root, ".claude", "skills")
+    if os.path.isdir(claude_skills):
+        dirs.append(claude_skills)
+    # 旧目录（向后兼容）
+    old_skills = os.path.join(here, "skills")
+    if os.path.isdir(old_skills):
+        dirs.append(old_skills)
+    return dirs

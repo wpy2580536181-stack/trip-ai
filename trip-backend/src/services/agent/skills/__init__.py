@@ -21,7 +21,7 @@ from .registry import (
     get_skill_registry,
     load_builtin_skills,
 )
-from .loader import parse_skill_file, discover_skill_paths
+from .loader import parse_skill_file, discover_skill_paths, get_skill_dirs
 from .runtime import build_skill_context, run_selected_skill
 
 __all__ = [
@@ -36,6 +36,7 @@ __all__ = [
     "load_builtin_skills",
     "parse_skill_file",
     "discover_skill_paths",
+    "get_skill_dirs",
     "build_skill_context",
     "run_selected_skill",
 ]
