@@ -32,8 +32,9 @@ chroma_data/
 trip-server-py/data/poi_raw/
 
 # 任务 / 文档 / 元数据
-tasks/
-docs/
+# 仅忽略仓库根目录的 tasks/（任务管理笔记）；源码包 src/service/tasks/ 不受影响
+/tasks/
+/docs/
 .superpowers/
 .qoder/
 .workbuddy/

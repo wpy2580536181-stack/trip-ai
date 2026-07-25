@@ -33,18 +33,42 @@ async def lifespan(app: FastAPI):
     trip_log.info("Database initialized")
 
     # 初始化 Redis 连接（失败时降级为内存模式）
-    from src.config.redis_client import init_redis, close_redis
+    from src.config.redis_client import init_redis, close_redis, is_redis_available
     await init_redis()
-    
+
+    # 初始化 arq 任务队列 pool（依赖 Redis；Redis 不可用时 task_queue 自动降级）
+    # init_redis 失败时会抛错，到不了这里；所以不再做冗余 is_redis_available() 检查
+    try:
+        from arq import create_pool
+        from arq.connections import RedisSettings
+        from src.services.task_queue import get_task_queue
+        pool = await create_pool(RedisSettings.from_dsn(settings.redis_url))
+        get_task_queue().attach_arq_pool(pool)
+        trip_log.info("Arq task queue pool initialized")
+    except Exception as e:
+        trip_log.warning(arq_pool_init_failed=str(e), msg="arq pool init 失败，task_queue 走降级")
+
     # 启动告警调度器（可选，配置不当时不启动）
     from src.services.alert import alert_scheduler
     alert_scheduler.start()
-    
+
     yield
-    
+
     # 停止告警调度器
     alert_scheduler.stop()
-    
+
+    # 关闭 arq pool（如已初始化）
+    try:
+        from src.services.task_queue import get_task_queue
+        tq = get_task_queue()
+        if tq._arq_pool is not None:
+            close_method = getattr(tq._arq_pool, "aclose", None) or tq._arq_pool.close
+            res = close_method()
+            if hasattr(res, "__await__"):
+                await res
+    except Exception as e:
+        trip_log.warning(arq_pool_close_failed=str(e), msg="arq pool close 失败")
+
     # 关闭 Redis 连接
     await close_redis()
 
@@ -137,6 +161,11 @@ def create_app() -> FastAPI:
     # 采用原生 ASGI 透传实现，不缓冲响应体，兼容 SSE 流式接口。
     app.add_middleware(RequestIDMiddleware)
 
+    # Prometheus metrics 中间件（M5 新增，ASGI 实现兼容 SSE）
+    # 注册在 RequestID 之后 → 更外层 → 涵盖所有请求（含 /health、/metrics 自身已排除）
+    from src.middleware.prom_metrics import PrometheusMiddleware
+    app.add_middleware(PrometheusMiddleware)
+
     # 注册异常处理器
     from src.middleware.exception_handlers import setup_exception_handlers
     setup_exception_handlers(app)
@@ -176,6 +205,13 @@ def create_app() -> FastAPI:
     @app.get("/health")
     async def health_check():
         return PlainTextResponse("OK")
+
+    # Prometheus metrics 抓取端点（M5 新增，K8s Prometheus 自动配置 scrape）
+    @app.get("/metrics", include_in_schema=False)
+    async def metrics():
+        from starlette.responses import Response
+        from prometheus_client import CONTENT_TYPE_LATEST, generate_latest
+        return Response(content=generate_latest(), media_type=CONTENT_TYPE_LATEST)
     
     # 详细健康检查端点（监控用）
     @app.get("/health/detail")

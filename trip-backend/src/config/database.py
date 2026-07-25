@@ -23,10 +23,16 @@ async_session = sessionmaker(engine, class_=AsyncSession, expire_on_commit=False
 
 
 async def init_db():
-    """初始化数据库连接（创建连接池）"""
+    """初始化数据库连接（创建连接池）+ 装慢查询日志 hook（M6 新增）"""
     # SQLAlchemy 连接池是懒加载的，这里执行一个简单的查询来验证连接
     async with engine.begin() as conn:
         await conn.execute(text("SELECT 1"))
+
+    # M6: 装慢查询日志 hook（必须在首次 SQL 执行前 attach）
+    # threshold 可从 settings 配置（这里硬编码 100ms 保守值，后续可调）
+    # 接受 async engine → 取 .sync_engine 给 hook 用
+    from src.utils.sql_logger import attach_slow_query_log
+    attach_slow_query_log(engine.sync_engine, threshold_ms=100)
 
 
 async def close_db():

@@ -14,7 +14,6 @@ from src.models.message import Message
 from src.models.trip import Trip
 from src.services.agent.agent_engine import get_agent_engine
 from src.services.agent.nodes.router import is_planning_request
-from src.services.summary_service import summary_service
 from src.services.conversation_service import auto_title
 from src.utils.logger import trip_log
 
@@ -257,7 +256,7 @@ class TripService:
 
                 # 结束标记
                 if event.get("__done__"):
-                    self._post_chat_tasks(conv_id, message)
+                    await self._post_chat_tasks(conv_id, message)
                     yield {
                         "type": "complete",
                         "data": {"conversationId": conv_id, "usage": last_usage},
@@ -266,7 +265,7 @@ class TripService:
 
                 # 错误标记
                 if event.get("__error__"):
-                    self._post_chat_tasks(conv_id, message)
+                    await self._post_chat_tasks(conv_id, message)
                     yield {"type": "error", "error": event.get("error", "未知错误")}
                     break
 
@@ -284,27 +283,47 @@ class TripService:
             # 不取消 agent_task（shield 保护它继续运行）
             pass
 
-    def _post_chat_tasks(self, conversation_id: int, user_message: str) -> None:
-        """对话结束后异步任务：压缩 + 关键决策记录。"""
+    async def _post_chat_tasks(self, conversation_id: int, user_message: str) -> None:
+        """对话结束后异步后处理：入队 post_chat_followup（M2 改造）。
 
-        async def _run():
-            # 压缩
-            try:
-                async with async_session() as session:
-                    await summary_service.compress_conversation(session, conversation_id)
-            except Exception as e:
-                trip_log.warning(err=str(e), conversationId=conversation_id, msg="摘要压缩失败")
+        原实现（M0 之前）：用 `asyncio.create_task(_run())` 启动后台任务。
+        问题：FastAPI worker 进程崩溃（OOM / 部署重启 / SIGKILL）任务蒸发，
+        对话摘要没压、关键决策没记，没有任何重试 / 状态查询 / 告警。
 
-            # 关键决策
-            if is_planning_request(user_message):
-                decision = f"用户发起行程规划：{user_message}"
-                try:
-                    async with async_session() as session:
-                        await summary_service.append_key_decision(session, conversation_id, decision)
-                except Exception as e:
-                    trip_log.warning(err=str(e), conversationId=conversation_id, msg="记录关键决策失败")
+        改造（决策文档 §3.2 / M2）：改为入队。
+        - API 流式响应结束后立即入队（< 5ms 入队）
+        - arq worker 异步消费，失败重试 + 死信告警
+        - 幂等键 `post_chat:followup:{conversation_id}` —— 同一对话多次流式结束
+          （客户端重连 / 续传）只执行 1 次
+        """
+        try:
+            from src.services.task_queue import get_task_queue
+            from src.services.tasks.post_chat import post_chat_followup
 
-        asyncio.create_task(_run())
+            # 在 API 端预计算 is_planning_request（避免 worker 内再 import router 链路）
+            is_planning = is_planning_request(user_message)
+
+            await get_task_queue().enqueue(
+                post_chat_followup,
+                conversation_id=conversation_id,
+                user_message=user_message,
+                is_planning=is_planning,
+                job_id=f"post_chat:followup:{conversation_id}",
+            )
+            trip_log.info(
+                "post_chat_followup enqueued",
+                conversationId=conversation_id,
+                is_planning=is_planning,
+            )
+        except Exception as e:
+            # 入队失败也不抛——不能让流式响应报错
+            # 业务损失：对话摘要未压缩、关键决策未记录（可通过 conversations 表
+            # 后续手动对账补回）
+            trip_log.warning(
+                "post_chat_followup_enqueue_failed",
+                err=str(e),
+                conversationId=conversation_id,
+            )
 
     # ==================== recommend ====================
 
