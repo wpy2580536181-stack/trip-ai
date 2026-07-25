@@ -16,6 +16,7 @@ from src.models.conversation import Conversation
 from src.models.message import Message
 from src.models.trip import Trip
 from src.models.spot import Spot
+from src.models.spot_doc import SpotDoc
 from src.models.password_reset import PasswordReset
 from src.models.feedback import Feedback
 from src.models.agent_step import AgentStep

@@ -12,6 +12,7 @@ from src.models.conversation import Conversation
 from src.models.message import Message
 from src.models.trip import Trip
 from src.models.spot import Spot
+from src.models.spot_doc import SpotDoc
 from src.models.agent_step import AgentStep
 from src.models.feedback import Feedback
 from src.models.token_usage_log import TokenUsageLog
@@ -33,15 +34,17 @@ async def create_tables():
         await conn.run_sync(Base.metadata.create_all)
         print("✓ 表结构创建完成")
         
-        # 尝试创建 FULLTEXT 索引（MySQL 8.0+ 支持，低版本静默跳过）
-        try:
-            await conn.execute(text(
-                "CREATE FULLTEXT INDEX IF NOT EXISTS ft_name_desc "
-                "ON spots (name, description)"
-            ))
-            print("✓ FULLTEXT 索引创建完成")
-        except Exception:
-            print("ℹ  FULLTEXT 索引已存在或不可用（可忽略）")
+        # 尝试创建 FULLTEXT 索引（MySQL 8.0+ 支持，低版本/已存在则静默跳过）
+        for idx_sql in (
+            "CREATE FULLTEXT INDEX ft_name_desc ON spots (name, description)",
+            "CREATE FULLTEXT INDEX ft_spot_docs_content ON spot_docs (content)",
+        ):
+            try:
+                await conn.execute(text(idx_sql))
+                print(f"✓ 已创建 FULLTEXT 索引: {idx_sql}")
+            except Exception as e:
+                # 1061=索引已存在 / 1063=FULLTEXT 不支持 / 其他 -> 忽略
+                print(f"ℹ  FULLTEXT 索引跳过（已存在或不可用）: {idx_sql} -> {e}")
     
     print("\n已创建的表:")
     for table in Base.metadata.sorted_tables:

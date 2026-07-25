@@ -107,6 +107,7 @@ def rrf_merge_with_weights(
     weights: List[float],
     k: int = RRF_K,
     id_key: str = "id",
+    score_adjuster=None,
 ) -> List[Dict[str, any]]:
     """带权重的 RRF 融合.
 
@@ -155,6 +156,13 @@ def rrf_merge_with_weights(
                 continue
 
             rrf_contribution = weight / (k + rank)
+
+            # 可选：用可信度等元信息调节单路贡献
+            if score_adjuster is not None:
+                try:
+                    rrf_contribution = score_adjuster(rrf_contribution, doc)
+                except Exception as e:
+                    logger.warning("score_adjuster 失败，使用原始贡献: %s", e)
 
             if doc_id in score_map:
                 score_map[doc_id]["score"] += rrf_contribution

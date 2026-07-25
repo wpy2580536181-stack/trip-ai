@@ -369,3 +369,82 @@ async def bulk_import_spots(
         "message": f"批量导入完成：成功 {result['success']} 条，失败 {result['failed']} 条",
         "error": None,
     }
+
+
+@router.get(
+    "/spot-docs",
+    response_model=dict,
+    summary="获取文本层文档块列表",
+    description="""
+    获取维基等外部语料文本块列表（RAG 文本层），关联景点名/城市。
+    
+    查询参数：
+    - city: 按关联景点城市筛选（可选）
+    - source_type: 按来源类型筛选（可选，如 wiki/wikidata/gaode_detail）
+    - page: 页码（从1开始，默认1）
+    - page_size: 每页数量（1-100，默认20）
+    
+    返回文本层文档块列表（含景点名、城市、向量ID等）。
+    """
+)
+async def get_spot_docs(
+    city: Optional[str] = Query(None, description="按关联景点城市筛选"),
+    source_type: Optional[str] = Query(None, description="来源类型筛选: wiki/wikidata/gaode_detail/..."),
+    page: int = Query(1, ge=1, description="页码"),
+    page_size: int = Query(20, ge=1, le=100, alias="pageSize", description="每页数量"),
+    db: AsyncSession = Depends(get_db)
+):
+    """获取文本层文档块列表（公开）
+
+    Args:
+        city: 按关联景点城市筛选（可选）
+        source_type: 按来源类型筛选（可选）
+        page: 页码（从1开始）
+        page_size: 每页数量
+        db: 数据库会话
+
+    Returns:
+        dict: 包含文本层文档块列表和分页信息的响应
+    """
+    rows, total = await KnowledgeService.list_spot_docs(db, city, source_type, page, page_size)
+
+    # 探测 Chroma 文本层集合的真实可用性（用于前端展示向量入库状态）
+    # ⚠️ chromadb 是同步客户端且无超时，必须走线程池 + 超时，否则 Chroma 不可达时
+    # 会永久阻塞事件循环，导致所有接口（含 /health）全部卡死转圈。
+    chroma_info = {"available": False, "spotDocsCount": None}
+    try:
+        from src.services.rag.chroma_client import probe_collection
+        chroma_info = await probe_collection("spot_docs")
+    except Exception:
+        chroma_info = {"available": False, "spotDocsCount": None}
+
+    items = []
+    for doc, spot_name, spot_city in rows:
+        items.append({
+            "id": doc.id,
+            "spotId": doc.spot_id,
+            "spotName": spot_name,
+            "city": spot_city,
+            "sourceType": doc.source_type,
+            "sourceName": doc.source_name,
+            "sourceUrl": doc.source_url,
+            "title": doc.title,
+            "content": doc.content,
+            "chunkIndex": doc.chunk_index,
+            "credibilityScore": doc.credibility_score,
+            "vectorId": doc.embedding_id,
+            "retrievedAt": doc.retrieved_at.isoformat() if doc.retrieved_at else None,
+        })
+
+    return {
+        "code": 200,
+        "data": {
+            "items": items,
+            "total": total,
+            "page": page,
+            "pageSize": page_size,
+            "chroma": chroma_info,
+        },
+        "message": "获取文本层文档成功",
+        "error": None,
+    }

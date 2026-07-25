@@ -4,7 +4,7 @@ import pytest
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 
-from src.services.knowledge_service import KnowledgeService
+from src.services.knowledge_service import KnowledgeService, _aggregate_spot_docs
 from src.models.spot import Spot
 from src.schemas.knowledge import SpotCreate, SpotUpdate
 from src.exceptions import NotFoundException
@@ -277,3 +277,111 @@ class TestKnowledgeService:
             await KnowledgeService.delete_spot(db_session, 999)
         
         assert "景点" in str(exc_info.value)
+
+
+class TestAggregateSpotDocs:
+    """测试模块级 _aggregate_spot_docs：把 chunk 级命中聚合为 spot 级、保留多块证据。"""
+
+    def _hit(self, spot_id, score, content, cred=0.7):
+        return {
+            "spot_id": spot_id,
+            "source_type": "wiki",
+            "source_name": "维基百科",
+            "source_url": f"https://example.com/{spot_id}",
+            "content": content,
+            "credibility_score": cred,
+            "score": score,
+        }
+
+    def test_aggregates_multiple_chunks_into_one_spot(self):
+        """同 spot 的多块命中应聚合为 1 个 spot 结果，evidence 含全部块（旧逻辑只取 1 块）。"""
+        hits = [
+            self._hit("1", 0.9, "第一段内容"),
+            self._hit("1", 0.6, "第二段内容"),
+            self._hit("1", 0.75, "第三段内容"),
+        ]
+        out = _aggregate_spot_docs(hits)
+        assert len(out) == 1
+        spot = out[0]
+        assert spot["id"] == "1"
+        assert spot["_source"] == "spot_docs"
+        # 证据内容拼接应包含三块
+        assert "第一段内容" in spot["evidence"]["content"]
+        assert "第二段内容" in spot["evidence"]["content"]
+        assert "第三段内容" in spot["evidence"]["content"]
+        # 结构化 chunks 应保留 3 块
+        assert len(spot["evidence"]["chunks"]) == 3
+
+    def test_chunks_sorted_by_score_descending(self):
+        """evidence.chunks 应按分数降序排列。"""
+        hits = [
+            self._hit("1", 0.6, "低分块"),
+            self._hit("1", 0.95, "高分块"),
+            self._hit("1", 0.8, "中分块"),
+        ]
+        out = _aggregate_spot_docs(hits)
+        chunks = out[0]["evidence"]["chunks"]
+        scores = [c["credibility_score"] for c in chunks]
+        # 分数与内容对应：高分块应排第一
+        assert chunks[0]["content"] == "高分块"
+        # 校验确实按 score 降序（score 与 credibility 在此一致）
+        ordered_scores = [
+            self._score_of(hits, c["content"]) for c in chunks
+        ]
+        assert ordered_scores == sorted(ordered_scores, reverse=True)
+
+    def test_max_chunks_truncation(self):
+        """超过 max_chunks 的块只保留分数最高的前 N 块。"""
+        hits = [
+            self._hit("1", 0.1, f"块{i}") for i in range(10)
+        ]
+        # 把第 0 块设为最高分，确保它一定被保留
+        hits[0]["score"] = 0.99
+        out = _aggregate_spot_docs(hits, max_chunks=3)
+        assert len(out[0]["evidence"]["chunks"]) == 3
+        assert out[0]["evidence"]["chunks"][0]["content"] == "块0"
+
+    def test_multiple_spots_kept_separate(self):
+        """不同 spot 的命中应保持为多个独立结果。"""
+        hits = [
+            self._hit("1", 0.9, "A1"),
+            self._hit("1", 0.8, "A2"),
+            self._hit("2", 0.7, "B1"),
+        ]
+        out = _aggregate_spot_docs(hits)
+        assert len(out) == 2
+        ids = {s["id"] for s in out}
+        assert ids == {"1", "2"}
+        spot1 = next(s for s in out if s["id"] == "1")
+        assert len(spot1["evidence"]["chunks"]) == 2
+
+    def test_empty_spot_id_skipped(self):
+        """spot_id 为空/缺省的命中应被跳过。"""
+        hits = [
+            self._hit("1", 0.9, "有效"),
+            {"content": "无 spot_id", "score": 0.5},
+            {"spot_id": "", "content": "空 spot_id", "score": 0.5},
+        ]
+        out = _aggregate_spot_docs(hits)
+        assert len(out) == 1
+        assert out[0]["id"] == "1"
+
+    def test_source_fields_propagated_from_best_chunk(self):
+        """来源类型/名称/链接/可信度应从分数最高的块取。"""
+        hits = [
+            self._hit("1", 0.6, "次优", cred=0.6),
+            self._hit("1", 0.95, "最优", cred=0.95),
+        ]
+        out = _aggregate_spot_docs(hits)
+        spot = out[0]
+        assert spot["credibility_score"] == 0.95
+        assert spot["evidence"]["credibility_score"] == 0.95
+        assert spot["source_type"] == "wiki"
+        assert spot["source_url"] == "https://example.com/1"
+
+    @staticmethod
+    def _score_of(hits, content):
+        for h in hits:
+            if h["content"] == content:
+                return h["score"]
+        return 0.0

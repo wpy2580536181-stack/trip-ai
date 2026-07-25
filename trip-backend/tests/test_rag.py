@@ -261,9 +261,9 @@ class TestEmbeddingsMock:
             def encode(self, texts, **kwargs):
                 if isinstance(texts, str):
                     # 单个文本返回 1D 数组
-                    return np.random.rand(384)
+                    return np.random.rand(512)
                 # 批量文本返回 2D 数组
-                return np.random.rand(len(texts), 384)
+                return np.random.rand(len(texts), 512)
 
             def eval(self):
                 pass
@@ -275,7 +275,7 @@ class TestEmbeddingsMock:
 
         result = embed_query("测试查询")
         assert isinstance(result, list)
-        assert len(result) == 384
+        assert len(result) == 512
 
         reset_embedder()
 
@@ -286,7 +286,7 @@ class TestEmbeddingsMock:
 
         class MockSentenceTransformer:
             def encode(self, texts, **kwargs):
-                return np.random.rand(len(texts), 384)
+                return np.random.rand(len(texts), 512)
 
             def eval(self):
                 pass
@@ -300,7 +300,7 @@ class TestEmbeddingsMock:
         result = embed_documents(texts)
         assert isinstance(result, list)
         assert len(result) == 3
-        assert len(result[0]) == 384
+        assert len(result[0]) == 512
 
         reset_embedder()
 
@@ -308,7 +308,8 @@ class TestEmbeddingsMock:
 class TestChromaClientMock:
     """测试 ChromaDB 客户端（使用 mock）."""
 
-    def test_get_chroma_client_mock(self, monkeypatch):
+    @pytest.mark.asyncio
+    async def test_get_chroma_client_mock(self, monkeypatch):
         """测试获取 ChromaDB 客户端（mock）."""
         import chromadb
         from unittest.mock import MagicMock
@@ -325,7 +326,8 @@ class TestChromaClientMock:
         from src.services.rag.chroma_client import get_chroma_client, reset_chroma_client
         reset_chroma_client()  # 重置单例
 
-        client = get_chroma_client()
+        # get_chroma_client 现为异步（构造函数的网络调用走线程池，避免阻塞事件循环）
+        client = await get_chroma_client()
         assert client is not None
 
         reset_chroma_client()
@@ -384,8 +386,8 @@ class TestKnowledgeServiceSearch:
             lambda q: ["故宫", "长城"],
         )
         monkeypatch.setattr(
-            "src.services.knowledge_service.rrf_merge",
-            lambda paths, **kwargs: [
+            "src.services.knowledge_service.rrf_merge_with_weights",
+            lambda paths, weights, **kwargs: [
                 {"id": "1", "name": "故宫", "_rrf_score": 0.03},
                 {"id": "2", "name": "长城", "_rrf_score": 0.02},
             ],

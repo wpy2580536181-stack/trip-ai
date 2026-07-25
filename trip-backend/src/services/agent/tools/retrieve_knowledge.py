@@ -41,7 +41,7 @@ async def retrieve_knowledge_tool(query: str, city: str, category: Optional[str]
     Returns:
         检索结果字符串
     """
-    from ...knowledge_service import search_spots
+    from ...knowledge_service import search_spots, KnowledgeService
     from ...poi_cache import get_poi_cache
     
     # ---- POI 缓存检查 ----
@@ -60,16 +60,20 @@ async def retrieve_knowledge_tool(query: str, city: str, category: Optional[str]
             category=category,
             limit=5,
         )
-        
+
         if not results:
             return f"知识库中没有找到 {city} 的相关信息。"
-        
+
+        # 富化：把文本层真实证据（来源片段 / 可信度 / 原文链接）拼进上下文，
+        # 让 LLM 拿到模型参数外的真实信息，并能引用出处。
+        formatted = await KnowledgeService.format_search_results(results, include_details=True)
+
         # ---- POI 缓存写入 ----
         if search_category in ("attraction", "food"):
-            await poi_cache.set(city, search_category, query, results)
-        
-        return results
-        
+            await poi_cache.set(city, search_category, query, formatted)
+
+        return formatted
+
     except Exception as e:
         return f"知识库检索失败：{str(e)}"
 

@@ -5,9 +5,15 @@
 """
 
 import logging
+import os
 from typing import List, Optional
 
 import numpy as np
+
+# 国内网络环境下 huggingface.co 直连会超时/被拒（模型加载时拉 adapter_config.json 等元数据），
+# 默认走 hf-mirror 镜像；如需官方源可显式设置非空 HF_ENDPOINT 覆盖。
+if not os.environ.get("HF_ENDPOINT"):
+    os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 
 logger = logging.getLogger(__name__)
 
@@ -50,12 +56,12 @@ def embed_query(text: str) -> List[float]:
         text: 查询文本.
 
     Returns:
-        List[float]: 归一化的向量（384 维）。
+        List[float]: 归一化的向量（512 维）。
 
     Example:
         >>> vec = embed_query("北京故宫")
         >>> len(vec)
-        384
+        512
     """
     model = get_embedder()
     # BGE 模型需要在查询前添加前缀（提升检索效果）
@@ -75,14 +81,14 @@ def embed_documents(texts: List[str]) -> List[List[float]]:
         texts: 文档文本列表.
 
     Returns:
-        List[List[float]]: 归一化的向量列表，每个向量 384 维。
+        List[List[float]]: 归一化的向量列表，每个向量 512 维。
 
     Example:
         >>> vecs = embed_documents(["北京故宫", "长城"])
         >>> len(vecs)
         2
         >>> len(vecs[0])
-        384
+        512
     """
     if not texts:
         return []
@@ -107,7 +113,7 @@ async def embed_query_async(text: str) -> List[float]:
         text: 查询文本.
 
     Returns:
-        List[float]: 归一化的向量（384 维）。
+        List[float]: 归一化的向量（512 维）。
     """
     import asyncio
 
