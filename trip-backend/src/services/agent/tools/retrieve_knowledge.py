@@ -74,10 +74,12 @@ async def retrieve_knowledge_tool(query: str, city: str, category: Optional[str]
         return f"知识库检索失败：{str(e)}"
 
 
-# 应用韧性包装（超时 + 重试 + 降级）
+# 应用韧性包装（超时 + 重试 + 熔断 + 降级）
 retrieve_knowledge_tool = with_resilience(
     retrieve_knowledge_tool,
     timeout=15.0,  # 15 秒超时
     retries=1,
     fallback="知识库暂时不可用，请基于通用旅行知识回答。",
+    circuit_breaker_failure_threshold=5,
+    circuit_breaker_recovery_timeout=30.0,
 )

@@ -69,10 +69,12 @@ async def search_hotels_tool(
         return f"住宿信息查询失败：{str(e)}"
 
 
-# 应用韧性包装
+# 应用韧性包装（超时 + 重试 + 熔断 + 降级）
 search_hotels_tool = with_resilience(
     search_hotels_tool,
     timeout=10.0,
     retries=1,
     fallback="住宿信息暂时不可用，请基于通用旅行知识回答。",
+    circuit_breaker_failure_threshold=5,
+    circuit_breaker_recovery_timeout=30.0,
 )

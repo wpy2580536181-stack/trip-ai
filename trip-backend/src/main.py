@@ -117,10 +117,11 @@ def create_app() -> FastAPI:
     # CORS 中间件（需在路由前注册）
     setup_cors(app)
     
-    # 全局限流中间件：2000 次/分钟（所有 /api/* 请求，eval 测试临时放宽）
+    # 全局限流中间件（所有 /api/* 请求），阈值读 settings（默认 2000 次/分钟，
+    # 可通过环境变量 RATE_LIMIT_GLOBAL_MAX 覆盖，压测/eval 时临时调高）
     app.add_middleware(
         GlobalRateLimitMiddleware,
-        max_requests=2000,
+        max_requests=settings.rate_limit_global_max,
         window_seconds=60,
     )
     

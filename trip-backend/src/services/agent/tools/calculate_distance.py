@@ -166,10 +166,12 @@ async def calculate_distance_tool(
     ])
 
 
-# 应用韧性包装
+# 应用韧性包装（超时 + 重试 + 熔断 + 降级）
 calculate_distance_tool = with_resilience(
     calculate_distance_tool,
     timeout=5.0,
     retries=1,
     fallback="距离计算暂时不可用。",
+    circuit_breaker_failure_threshold=5,
+    circuit_breaker_recovery_timeout=30.0,
 )
