@@ -11,6 +11,14 @@
           <span v-if="data.transportation">🚗 {{ data.transportation }}</span>
         </div>
         <div class="spot-desc" v-if="data.description">{{ data.description }}</div>
+        <n-button
+          v-if="hasCoords"
+          size="tiny"
+          tertiary
+          type="primary"
+          class="commute-btn"
+          @click="goCommute"
+        >🚦 到这怎么走</n-button>
       </div>
     </div>
   </div>
@@ -20,15 +28,51 @@
 </template>
 
 <script setup lang="ts">
-defineProps({
+import { computed } from 'vue'
+import { useRouter } from 'vue-router'
+
+const props = defineProps({
   data: {
     type: Object,
     default: () => ({}),
   },
+  // 通勤起点（通常为当日住宿），{ name, lat, lng }
+  commuteOrigin: {
+    type: Object as () => { name?: string; lat?: number; lng?: number } | null,
+    default: null,
+  },
+  // 通勤所在城市，用于公交规划
+  commuteCity: {
+    type: String,
+    default: '',
+  },
 })
+
+const router = useRouter()
+
+const hasCoords = computed(
+  () => props.data && props.data.latitude != null && props.data.longitude != null,
+)
 
 const onImageError = (e: Event) => {
   ;(e.target as HTMLImageElement).style.display = 'none'
+}
+
+const goCommute = () => {
+  if (!hasCoords.value) return
+  const q: Record<string, string> = {
+    destName: String(props.data.spot),
+    destLat: String(props.data.latitude),
+    destLng: String(props.data.longitude),
+  }
+  if (props.commuteCity) q.city = props.commuteCity
+  const o = props.commuteOrigin
+  if (o && o.lat != null && o.lng != null) {
+    q.originName = o.name || '起点'
+    q.originLat = String(o.lat)
+    q.originLng = String(o.lng)
+  }
+  router.push({ path: '/commute', query: q })
 }
 </script>
 
@@ -70,6 +114,10 @@ const onImageError = (e: Event) => {
   font-size: 13px;
   color: var(--text-secondary);
   line-height: 1.5;
+}
+.commute-btn {
+  margin-top: 6px;
+  font-size: 12px;
 }
 .spot-item {
   padding: 6px 0;

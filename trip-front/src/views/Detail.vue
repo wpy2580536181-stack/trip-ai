@@ -145,6 +145,14 @@ const goToChat = () => {
   })
 }
 
+const hotelOrigin = (day: any) => {
+  const h = day?.accommodation
+  if (h && h.latitude != null && h.longitude != null) {
+    return { name: h.spot, lat: h.latitude, lng: h.longitude }
+  }
+  return null
+}
+
 const onOptimize = async () => {
   if (!currentTripMeta.value?.id) return
   optimizing.value = true
@@ -229,15 +237,15 @@ const onOptimize = async () => {
                 </div>
                 <div class="period-row">
                   <n-tag :bordered="false" color="#fa8c16" size="small" class="period-tag">☀️ 上午</n-tag>
-                  <spot-item :data="day.morning" />
+                  <spot-item :data="day.morning" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
                 </div>
                 <div class="period-row">
                   <n-tag :bordered="false" color="#1890ff" size="small" class="period-tag">🌤 下午</n-tag>
-                  <spot-item :data="day.afternoon" />
+                  <spot-item :data="day.afternoon" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
                 </div>
                 <div class="period-row">
                   <n-tag :bordered="false" color="#52c41a" size="small" class="period-tag">🌙 晚上</n-tag>
-                  <spot-item :data="day.evening" />
+                  <spot-item :data="day.evening" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
                 </div>
               </div>
 
@@ -249,15 +257,15 @@ const onOptimize = async () => {
                 </div>
                 <div class="period-row" v-if="day.breakfast">
                   <n-tag :bordered="false" color="#eb2f96" size="small" class="period-tag">🌅 早餐</n-tag>
-                  <spot-item :data="day.breakfast" />
+                  <spot-item :data="day.breakfast" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
                 </div>
                 <div class="period-row" v-if="day.lunch">
                   <n-tag :bordered="false" color="#fa8c16" size="small" class="period-tag">☀️ 午餐</n-tag>
-                  <spot-item :data="day.lunch" />
+                  <spot-item :data="day.lunch" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
                 </div>
                 <div class="period-row" v-if="day.dinner">
                   <n-tag :bordered="false" color="#722ed1" size="small" class="period-tag">🌆 晚餐</n-tag>
-                  <spot-item :data="day.dinner" />
+                  <spot-item :data="day.dinner" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
                 </div>
               </div>
 
@@ -268,7 +276,7 @@ const onOptimize = async () => {
                   <span class="module-title">住宿推荐</span>
                 </div>
                 <div class="period-row">
-                  <spot-item :data="day.accommodation" />
+                  <spot-item :data="day.accommodation" :commute-city="formData.city" />
                 </div>
               </div>
             </div>

@@ -2,14 +2,24 @@
 
 计算两个城市之间的交通距离、时间和费用。
 迁移自 Node.js 版本的 tools/calculateDistance.ts。
+
+路网策略（2026-07-17 升级）：
+- car 模式：不再用 Haversine 直线估算，而是复用 commute_service 的真实驾车路网
+  （高德 v5 Direction），拿到真实里程与耗时；公里/小时为真实路网值。
+- train / flight 模式：铁路与航班暂无公开路网 API，保留直线距离 + 经验估算，
+  并在输出中标注「估算」。
+- 任一真实路网调用失败（无 Key / 网络异常）时，自动回退到 Haversine 估算，
+  保证工具始终可用（被 with_resilience 再包一层）。
 """
 
-from typing import Optional
+import logging
+from typing import Optional, Tuple
 
 from langchain_core.tools import tool
 from pydantic import BaseModel, Field
 
 from src.services.agent.resilience import with_resilience
+from src.services.geocode_service import geocode_spot
 
 
 # 主要城市的经纬度坐标
@@ -50,7 +60,7 @@ CITY_COORDS = {
 
 class CalculateDistanceInput(BaseModel):
     """Calculate Distance 工具输入参数。"""
-    
+
     from_city: str = Field(description="出发城市名")
     to_city: str = Field(description="目的地城市名")
     mode: Optional[str] = Field(
@@ -60,45 +70,27 @@ class CalculateDistanceInput(BaseModel):
 
 
 def _haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
-    """使用 Haversine 公式计算两点之间的距离（公里）。
-    
-    Args:
-        lat1: 点1纬度
-        lon1: 点1经度
-        lat2: 点2纬度
-        lon2: 点2经度
-        
-    Returns:
-        距离（公里）
-    """
+    """使用 Haversine 公式计算两点之间的直线距离（公里）。仅作回退用。"""
     import math
-    
+
     R = 6371  # 地球半径（公里）
-    
+
     dlat = math.radians(lat2 - lat1)
     dlon = math.radians(lon2 - lon1)
-    
+
     a = (
         math.sin(dlat / 2) ** 2
         + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2))
         * math.sin(dlon / 2) ** 2
     )
-    
+
     c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
-    
+
     return R * c
 
 
 def _estimate_travel(km: float, mode: str) -> dict:
-    """估算交通时间和费用。
-    
-    Args:
-        km: 距离（公里）
-        mode: 交通方式
-        
-    Returns:
-        包含 time, cost_min, cost_max 的字典
-    """
+    """估算交通时间和费用（train / flight 模式，或 car 真实路网失败的回退）。"""
     if mode == "train":
         return {
             "time": f"{round(km / 300)} 小时",
@@ -119,6 +111,23 @@ def _estimate_travel(km: float, mode: str) -> dict:
         }
 
 
+async def _resolve_city_coord(city: str) -> Optional[Tuple[float, float]]:
+    """解析城市坐标为 (lat, lng)：先查内置表，再地理编码兜底。"""
+    c = CITY_COORDS.get(city)
+    if c:
+        return (float(c[0]), float(c[1]))
+    try:
+        geo = await geocode_spot(city, city)
+        if geo:
+            return (float(geo["lat"]), float(geo["lng"]))
+    except Exception as exc:
+        logger.warning("geocode city %s failed: %s", city, exc)
+    return None
+
+
+logger = logging.getLogger(__name__)
+
+
 @tool(args_schema=CalculateDistanceInput)
 async def calculate_distance_tool(
     from_city: str,
@@ -126,20 +135,23 @@ async def calculate_distance_tool(
     mode: Optional[str] = "flight",
 ) -> str:
     """计算两个城市之间的交通距离、时间和大致费用。
-    
+
     当用户询问"A到B多远"、"怎么去"、"交通时间"时使用。
-    
+    - car 模式返回高德真实驾车路网里程与耗时；
+    - train / flight 模式为直线距离 + 经验估算（标注「估算」）。
+
     Args:
         from_city: 出发城市名
         to_city: 目的地城市名
         mode: 交通方式（可选，默认 flight）
-        
+
     Returns:
         距离信息字符串
     """
-    c1 = CITY_COORDS.get(from_city)
-    c2 = CITY_COORDS.get(to_city)
-    
+    mode = (mode or "flight").lower()
+    c1 = await _resolve_city_coord(from_city)
+    c2 = await _resolve_city_coord(to_city)
+
     if not c1 or not c2:
         unknown = []
         if not c1:
@@ -151,14 +163,42 @@ async def calculate_distance_tool(
             f"暂不支持城市 {', '.join(unknown)} 的距离查询。"
             f"可用的城市：{'、'.join(available)}等。"
         )
-    
-    km = _haversine_km(c1[0], c1[1], c2[0], c2[1])
-    est = _estimate_travel(km, mode or "flight")
-    
+
     mode_cn = "高铁" if mode == "train" else ("自驾" if mode == "car" else "飞机")
-    
+
+    # car 模式：走真实驾车路网（高德 v5 Direction）
+    if mode == "car":
+        try:
+            from src.services.commute_service import compute_road_distance
+
+            road = await compute_road_distance(
+                {"lat": c1[0], "lng": c1[1]},
+                {"lat": c2[0], "lng": c2[1]},
+                "driving",
+            )
+            if road:
+                km = road["distance_m"] / 1000.0
+                hours = road["duration_sec"] / 3600.0
+                # 费用估算：油费/电费 + 高速过路费（约 0.45 元/km）
+                fuel = round(km * 0.6)
+                toll = round(km * 0.45)
+                return "\n".join([
+                    f"从 {from_city} 到 {to_city}（驾车·真实路网）",
+                    f"驾车距离：{km:.0f} 公里",
+                    f"驾车时间：约 {hours:.1f} 小时",
+                    f"预估费用：油费/电费约 {fuel} 元，高速过路费约 {toll} 元",
+                ])
+        except Exception as exc:
+            logger.warning("real road distance failed, fallback: %s", exc)
+            # 落到下面的 haversine 估算
+
+    # train / flight / car 回退：直线距离 + 经验估算
+    km = _haversine_km(c1[0], c1[1], c2[0], c2[1])
+    est = _estimate_travel(km, mode)
+    note = "（直线距离估算）" if mode != "flight" else "（含值机候机估算）"
+
     return "\n".join([
-        f"从 {from_city} 到 {to_city}",
+        f"从 {from_city} 到 {to_city}{note}",
         f"直线距离：{round(km)} 公里",
         f"交通方式：{mode_cn}",
         f"预估时间：{est['time']}",

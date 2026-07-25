@@ -233,6 +233,27 @@ async def _resolve_and_route(
     return item
 
 
+async def compute_road_distance(
+    a: Dict[str, float],
+    b: Dict[str, float],
+    mode: str = "driving",
+) -> Optional[Dict[str, Any]]:
+    """公开工具：计算两点之间的真实路网距离/耗时。
+
+    复用于城市间驾车距离（calculate_distance 工具）、或任意两点路网度量。
+    返回 {"distance_m", "duration_sec"} 或 None（无可行路线 / 调用失败）。
+    """
+    if mode not in VALID_MODES:
+        mode = "driving"
+    try:
+        return await _route_points(
+            [(a["lat"], a["lng"]), (b["lat"], b["lng"])], mode, None
+        )
+    except Exception as exc:
+        logger.warning("compute_road_distance failed: %s", exc)
+        return None
+
+
 async def _route_points(
     points: List[Tuple[float, float]],
     mode: str,

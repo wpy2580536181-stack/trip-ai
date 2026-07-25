@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, watch, nextTick, onBeforeUnmount, onMounted } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 import { useMessage, useDialog } from 'naive-ui'
 import { fetchStream } from '@/api/request'
 import ChatBubble from '@/components/ChatBubble.vue'
@@ -8,6 +9,8 @@ import { handleApiError } from '@/utils/apiError'
 
 const message = useMessage()
 const dialog = useDialog()
+const route = useRoute()
+const router = useRouter()
 
 interface TokenUsage {
   prompt: number
@@ -98,6 +101,15 @@ const handleClick = (question: string) => {
   inputMessage.value = question
   sendMessage()
 }
+
+// 从通勤择优等页面带 prefill 跳回时，自动填入并发送（App.vue 以 fullPath 作 key 会重挂载，故 immediate 即可触发）
+watch(
+  () => route.query.prefill,
+  (val) => {
+    if (val) handleClick(String(val))
+  },
+  { immediate: true },
+)
 
 const addUserMessage = (msg: string) => {
   messages.value.push({

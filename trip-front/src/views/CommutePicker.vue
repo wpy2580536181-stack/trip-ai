@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 import {
   NCard,
   NInput,
@@ -34,6 +35,8 @@ import {
 import MapView, { type MapSpot } from '../components/MapView.vue'
 
 const message = useMessage()
+const route = useRoute()
+const router = useRouter()
 
 // ---------------------------------------------------------------------------
 // 状态
@@ -533,9 +536,44 @@ function addNearbyPoi(p: NearbyPoi) {
 }
 
 onMounted(() => {
-  detectLocation()
+  const q = route.query
+  const hasDest = q.destLat != null && q.destLng != null
+  if (hasDest) {
+    // 从行程详情 / 地图等入口预填：终点必填，起点可选（缺省走 GPS 定位）
+    candidates.value = [
+      {
+        name: String(q.destName || '目的地'),
+        lat: Number(q.destLat),
+        lng: Number(q.destLng),
+      },
+    ]
+    if (q.city) city.value = String(q.city)
+    if (q.originLat != null && q.originLng != null) {
+      origin.value = { lat: Number(q.originLat), lng: Number(q.originLng) }
+      originName.value = q.originName ? String(q.originName) : '起点'
+      // 起点已由 URL 提供，跳过 GPS 定位避免覆盖
+    } else {
+      detectLocation()
+    }
+  } else {
+    detectLocation()
+  }
   loadFavorites()
 })
+
+// 把一段通勤结果回传给规划助手（Chat），形成闭环
+function askPlanner(item: CommuteResultItem) {
+  const originLabel = originName.value || '当前位置'
+  const destLabel = item.name
+  const modeCn = modeLabelMap[mode.value] || mode.value
+  let text = `从「${originLabel}」到「${destLabel}」推荐【${modeCn}】，约 ${formatDuration(item.duration_sec)} / ${formatDistance(item.distance_m)}`
+  if (mode.value === 'transit') {
+    if (item.transfers != null) text += `，换乘 ${item.transfers} 次`
+    if (item.transit_lines?.length) text += `（${item.transit_lines.join('→')}）`
+  }
+  text += '。请帮我把这段通勤安排进行程，并考虑合适的游玩时长。'
+  router.push({ path: '/chat', query: { prefill: text } })
+}
 </script>
 
 <template>
@@ -871,6 +909,9 @@ onMounted(() => {
               </div>
               <n-button size="small" class="btn-secondary nav-btn" @click="navUrl(item)">
                 导航
+              </n-button>
+              <n-button size="small" class="btn-secondary ask-btn" @click="askPlanner(item)">
+                问规划助手
               </n-button>
             </div>
           </n-card>
