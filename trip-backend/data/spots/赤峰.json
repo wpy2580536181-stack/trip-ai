@@ -1,0 +1,2225 @@
+[
+  {
+    "name": "43°9羊火锅(乌丹店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于百合南区东1门旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "43度9羊火锅(首地红山郡店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于宝山路39号首地红山郡",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "8辣8辣烤鱼麻辣香锅",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于全宁街16-11号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一生签挂炭缸烧烤(玉龙店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于锦绣花园西侧1楼",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七彩游乐园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于赤喜路26号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七月天公寓式民宿(赤峰永业广场店)",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于振兴街道永业广场1号楼803号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下棋广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于奥林匹克公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世界波音乐烤吧(帝豪店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于帝豪SOHO北门南70米",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东方快车(锦绣店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于锦绣花园西侧4号厅",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国克什克腾世界地质公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于经棚镇碧柳街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临河公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于银河路与水厂北街交叉口东40米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌兰哈达公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于桥北街道清河路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌兰布统之夜",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于苏木乡红山军马场",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌兰布统旅游景区-公主湖风景区",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于苏木乡乌兰布统生态文化旅游景区内",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌兰布统旅游景区-欧式风光区",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于乌兰布统生态文化旅游景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌兰布统旅游景区-盘龙大峡谷",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于乌兰布统生态文化旅游景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌兰布统景区",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌兰布统达瓦鄂温克驯鹿部落",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于乌兰布统苏木红山军马场大干沟林场152号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云朵民宿",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于支二路盛世大厦1栋104铺",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五三村文化广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于205县道北侧",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五彩山风景区-观景台",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "京津包子王(新城总店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于市政府后全宁路与锦山路交汇处",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伊特对夹(锦绣花园店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于锦绣花园南门往东",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伊特对夹手擀面(高铁站店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于铁东大街航安金和城B区1号公寓楼梦回草原旁边伊特对夹",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "健身广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于钢铁街与宝山南路交叉口西南420米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "克什克腾世界地质公园青山园区",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于土关线",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "克什克腾旗牧羊人客栈",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于白音敖包",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "克什克腾旗草原",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于克什克腾旗乌兰布统生态文化旅游景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴安南麓植物园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于兴安街道林西路32号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴驰广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于和美园区派出所附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华通宾馆(赤峰学院附属医院店)",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于王府大街阳光花园1号楼(赤峰学院附属医院西行200米路北)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华香居民宿(玉龙大街分店)",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于玉龙大街西段御园峰会D座1-1104室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南山生态园-契丹文字广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于南山生态园内(南侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "友谊广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于友谊大街与银河路交叉口东380米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古洼壹锅鲜",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于天义路与武安街交叉口西行20米路南帝豪大厦2楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉野家(维多利万悦城店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于万悦城市广场1层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和美主题公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于和美六路与富河街交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和美温泉旅游度假村(和美水城)",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于和美路与应昌街交汇处",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和谐广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于锦山路38-4号正东方向171米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "咱妈烀饼(上海城店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于上海城",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈达和硕公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于赤锡路381号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喀喇沁旗法治主题公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于临潢大街61-6",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜蒙羔火锅店",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于解放路64号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城南对夹(海贝尔分店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于宝山路66-2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城南对夹(玉龙广场店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于全季酒店楼下",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "契丹·辽图腾柱广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥林匹克公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于中梁首府壹号西边",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "姐弟俩土豆粉(赤峰松北万达店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于友谊大街与百柳路交汇处赤峰松山万达广场F4",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁城京都宾馆",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于高桥路15-9号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁城华硕宾馆(宁城汽车站店)",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于天义镇哈河大街新客站商街内",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宏利对夹(全宁街店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于全宁街16-19号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝峰禅寺",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于桥北街道",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宴宾楼(锦绣店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于全宁街",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "将军泡子",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于乌兰布统生态文化旅游景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "将军袍子景区",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于乌达线乌兰布统生态文化旅游景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小洞天潮汕鲜牛肉火锅(赤峰店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于玉龙街道八家组团锦绣花园小区3号楼1013厅",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小红山",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于乌兰布统旅游景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小舍家饺子(新城店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于林西路11-4号附近",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小野鸭湖",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于乌兰布统生态文化旅游景区五彩山风景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山河屯铁锅炖(全宁街店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于全宁街16号",
+    "tags": [
+      "050113"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岚也·ZHANG影音设计师民宿(平庄世元大厦店)",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于平庄西城街道平庄世元大厦A座2单元10楼1012",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巧媳妇饭店(帝豪店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于厦禾路820号帝豪大厦一牧草原对面",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴林右旗火车站宾馆",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于查干沐沦街附近",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴林左旗玉峰宾馆",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于四道街26号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴林左旗瑞家宾馆",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于上京路南段京华小区底商10号商铺",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴林左旗立都宾馆",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于上京路154号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "带状公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于清河路带状公园附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸福树广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于赤锡路273号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广利对夹",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于二食品胡同2-3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康健广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于奥林匹克公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廣順興(玉龙壹号院店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于新惠路以东玉龙院小区8-1-106号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "归格影宿",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于林东镇契丹大街契丹公馆A区二期39号楼4层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德克士(众联广场店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于玉龙大街众联广场1楼",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "心花怒放公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于玉龙大街道北侧玉龙大街和中国移动赤峰分公司间",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "思行民宿(香格里拉国际城店)",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于香格里拉国际城27号楼8楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "摩尔城云汐湾民宿(红山区政府店)",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于桥北镇英金河大街摩尔城9号商业楼6楼612",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新城民宿(大板路分店)",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于大板路济美华睿园",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "时代广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于西拉沐沦大街18号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星悦民宿(赤峰学院红山万达广场店)",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于西城街道万达广场C地块C6号楼30层3010室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "昭君宾馆(昭乌达路)",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于昭乌达路中段路东老干部活动中心对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曲家沟村文化广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于站前街56-2号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松州公园-观景台",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于昭乌达路与临潢大街交叉口东40米",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松州法治文化公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于银河路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松都宾馆",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于松山大街20号(永业广场对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林西华景民宿",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于林西镇南工业园区恒光大药业旁",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "枫雅香薰酒店",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于朝阳路蒙商银行楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(英金路店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于英金路佳香酒楼南侧12-4",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栖溪民宿(赤峰学院万达广场红山店)",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于腾飞大道恒信财富大厦2号楼二单元",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桃花岛黑牛烤肉",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于全宁街16-6号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桥北动物园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于桥北街附近",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桥北滨河体育公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于友谊大桥附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(赤峰松山万达店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于万达广场",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沁原羔羊火锅(锦绣花园店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于锦绣花园南门西50米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "法治广场(昭乌达路)",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于昭乌达路与解放街交叉口西北140米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(赤峰万达生日主题店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于西拉沐大街8号万达广场3F-A次主一区域铺位",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海贝尔游乐城",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于宝山路北段",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海辰海洋乐园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于桥北维多利摩尔城一楼南侧",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真南大寺",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于火花路",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨河带状公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于银河路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漠北瀚海",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于漠北瀚海停车场西侧",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛厰重庆鲜毛肚火锅",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于全宁街20-11号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牧人居家常菜牛肉面",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于乌兰布统苏木",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牧歌公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于玉龙大街39-8号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉龙广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于玉龙大街21号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉龙沙湖",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于布日敦嘎查",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王爷府鲜羊涮",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于玉龙壹号院北门东南130米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王爷府鲜羊涮(万达店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于宝山路万达广场水岸天街西段(万达嘉华后身)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王爷府鲜羊涮(天王店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于芳草路新天王商务大厦C座1号2-106店铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王爷府鲜羊涮(锦绣店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于玉龙街道锦绣花园3号楼1016商厅",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白塔广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于八里铺东路与八里铺北街交叉口东南480米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百柳宾馆(赤峰火车站店)",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于新华路28号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇家鹿园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于乌兰布统苏木小红山村小河头",
+    "tags": [
+      "170000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "睿豪商务酒店",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于朝阳路与商贸城交汇处",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石博园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于林西路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山区婚姻登记中心室外颁证广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于乌兰哈达公园内从登记中心按照爱情斑马线或诗词长桥步行1314米即可到达",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山区政府广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于贡格尔大街与北大桥路交叉口",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山文化博物馆",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于红山路与红旗路交叉口西北角",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红石文化广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于英金公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绥缘老烧麦(御园财富广场D座店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于玉龙大街御园峰会102",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老兴达鲜饺楼(松北家园店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于松北家园北1门西南60米",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(大都会店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于冠东百货1层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芷宿(赤峰万达店)",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于万达c区(赤峰市万达创业孵化基地)6号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "英金公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于穆家营子镇迎金路73号附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "草原传奇鲜羊火锅(万达店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于万达广场A2区",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "草原传奇鲜羊火锅(新城店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于松山区日报社院内商务办公楼1-225-226",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "草原传奇鲜羊火锅(桥北店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于桥北镇赤锡路东金字国际小区B区1-2-2-106-107",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙乐小肥羊火锅(乌丹店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于红山路273号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙古源流雕塑园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于玉龙街道大明街1号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙古烧麦肉饼莜面村",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于乌兰布统苏木孤山嘎查万众路15号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙都43°9羊火锅(双子座店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于钢铁街新泰和双子座3楼(红城新世纪)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙都43°9羊火锅(宁城店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于安达·新世纪东北2门东南330米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙都43°9羊火锅(帝豪店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于帝豪商务大厦B座121-126厅",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙都43°9羊火锅(新城概念店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于皇家帝苑西南角01015号厅",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙都43°9羊火锅(桥北店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于龙湖湾小区西门(众联广场对面)东侧",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙都43度9羊火锅(万达店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于金河路与钢铁街辅路交叉口西40米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙都43度9羊火锅(在水一方店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于水一方西门2号楼1-104-105号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "薰衣草公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于赤峰市和美工贸园区赤峰市和美工贸园区赤峰市和美工贸园区赤峰市和美工贸园区赤峰市和美工贸园区泰和王府庄园西北",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西落舌冒菜冒肚(赤峰店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于长青街123路达大厦F1层",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诚信宾馆",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于新长途汽车站出站口4号楼1楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤峰中昊公寓酒店",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于中昊3号综合楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤峰全友宾馆",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于火花路107号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤峰对夹大唐酒楼",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于玉龙大街",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤峰市民政园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于贡格尔大街与滨河路交叉口东140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤峰心居民宿",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于全宁街道八家组团大明街北大板路西济美华睿园公寓楼D-1-1-703",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤峰恋家民宿",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于金山利商务中心A1栋1单元11楼1138室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤峰昊酒店(红山区政府店)",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于赤锡路桥北钓鱼台C区",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤峰植物园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于红峰路与三道东街交汇处",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤峰泰和宾馆",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于内环北路与宝山路交叉口西北50米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤峰第阁民宿(赤峰二医院店)",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于长青街道哈达东街路南交警住宅楼1楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤峰筑梦时光公寓",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于燕山街与支二路交叉处帝豪大厦A1座",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤峰菲儿酒店",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于友谊大街恒盛馨苑小区7号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤峰金虎缘宾馆",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于赤锡路39-9",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "车伯尔民俗园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于林西路与兴安街交叉口东北140米",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辽代历史文化博物馆",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于钢铁街与小新地路交叉口东300米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "那荣塔拉新派蒙古火锅",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于乌兰布统苏木红山中街25号",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野鸭子湖",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于苏木乡乌兰布统生态文化旅游景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银杏广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于林西路32号兴安南麓植物园(东南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银河公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于银河路与西站大桥交叉口西北400米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银航宾馆",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于大板镇巴林路中段工商银行南侧",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铸牢中华民族共同体意识主题公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于应昌街45号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦水薇澜民宿",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于润德熙苑A区3",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长城宾馆(赤峰昭乌达路店)",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于赤峰南站对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿斯哈图石林景区",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于世界地质公园内",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青牧里黑牛烤肉店(帝豪店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于帝豪商务大厦B座110-115商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "风清园廉政公园",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于玉龙大街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "风港屿宾馆(翁旗中蒙医院店)",
+    "city": "赤峰",
+    "category": "hotel",
+    "description": "位于格日僧街新中蒙医院对面西数8号厅",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马球广场",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于玉龙大街39-8号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲜惠德酒楼(海达广场店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于锦山路冠东百货2层",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(乐尚金街店)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于玉龙大街39-8号",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(赤峰万达餐厅)",
+    "city": "赤峰",
+    "category": "food",
+    "description": "位于西拉木伦大街万达广场1层1033号",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄岗梁森林旅游区",
+    "city": "赤峰",
+    "category": "attraction",
+    "description": "位于同兴镇克什克腾旗黄岗梁自驾营地东南侧190米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

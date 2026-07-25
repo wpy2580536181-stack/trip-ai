@@ -1,305 +1,81 @@
 [
   {
-    "name": "成都金融城双子塔",
+    "name": "4号湖入口广场",
     "city": "成都",
     "category": "attraction",
-    "description": "成都金融城双子塔位于高新区锦晖西一街55号，属于金融城核心区域。两座摩天大楼并肩而立，是成都金融城的地标性建筑，集商务、办公于一体，周边商业配套完善。",
+    "description": "位于蒙彼利埃小学",
     "tags": [
-      "商务住宅",
-      "楼宇",
-      "商务写字楼"
+      "110105"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "锦城公园",
+    "name": "7天优品酒店(成都犀浦地铁站犀浦万达广场店)",
     "city": "成都",
-    "category": "attraction",
-    "description": "锦城公园是位于成都市武侯区的一个城市公园，环境优美，适合休闲散步和户外活动。",
+    "category": "hotel",
+    "description": "位于犀浦镇珠江东路111号",
     "tags": [
-      "公园",
-      "风景",
-      "休闲"
+      "100105"
     ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "全天",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "交子公园",
+    "name": "7天酒店(成都火车站荷花池店)",
     "city": "成都",
-    "category": "attraction",
-    "description": "交子公园位于成都市武侯区天府大道北段，是一个以交子文化为主题的休闲公园，园内有草坪、步道、水景等设施，适合散步和放松。",
+    "category": "hotel",
+    "description": "位于八里桥85号近火车北站地铁一号线C出口",
     "tags": [
-      "公园",
-      "休闲",
-      "交子文化"
+      "100105"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "桂溪生态公园",
+    "name": "99优选酒店(成都宽窄巷子地铁站奎星楼街店)",
     "city": "成都",
-    "category": "attraction",
-    "description": "桂溪生态公园位于成都市武侯区天府一街附近，是一个集生态、休闲、运动于一体的城市公园。",
+    "category": "hotel",
+    "description": "位于槐树街47号",
     "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
+      "100105"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "全天",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "铁像寺水街",
+    "name": "99旅馆连锁(成都营门口店)",
     "city": "成都",
-    "category": "attraction",
-    "description": "铁像寺水街位于成都市武侯区铁像寺路88号，是一个融合了传统与现代的风景名胜区，为国家级的旅游景点。",
+    "category": "hotel",
+    "description": "位于营门口路251号民光商厦2楼",
     "tags": [
-      "风景名胜",
-      "国家级景点"
+      "100105"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "全天开放",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "桂溪生态公园东区",
+    "name": "OYO七里香大酒店(站北东街店)",
     "city": "成都",
-    "category": "attraction",
-    "description": "桂溪生态公园东区位于成都市武侯区世纪城东路，是一个集生态景观、休闲游憩于一体的城市公园。园内绿树成荫，湖泊环绕，适合散步、骑行和家庭游玩。",
+    "category": "hotel",
+    "description": "位于站北东街1号",
     "tags": [
-      "风景名胜",
-      "旅游景点",
-      "公园",
-      "生态"
+      "100100"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天",
-    "rating": 4.5
-  },
-  {
-    "name": "双子塔夜景打卡点",
-    "city": "成都",
-    "category": "attraction",
-    "description": "双子塔是成都地标建筑，夜景绚丽，是热门打卡点。",
-    "tags": [
-      "夜景",
-      "打卡",
-      "地标"
-    ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.7
-  },
-  {
-    "name": "九叶莲桥",
-    "city": "成都",
-    "category": "attraction",
-    "description": "九叶莲桥位于成都市武侯区科华南路与锦云东三巷交叉口东北120米，是一处风景名胜。",
-    "tags": [
-      "风景名胜"
-    ],
-    "avgCost": 0,
-    "duration": "未知",
-    "openTime": "全天开放",
-    "rating": 0.0
-  },
-  {
-    "name": "大源中央公园",
-    "city": "成都",
-    "category": "attraction",
-    "description": "大源中央公园位于成都高新区天府二街，是一个集休闲、娱乐、健身于一体的城市公园，环境优美，适合散步和亲子活动。",
-    "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
-    ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "全天开放",
-    "rating": 4.5
-  },
-  {
-    "name": "天府绿道",
-    "city": "成都",
-    "category": "attraction",
-    "description": "天府绿道是成都著名的生态景观绿道，贯穿多个公园和绿地，适合骑行、步行和休闲。其中桂溪生态公园段风景优美，是市民游客亲近自然的好去处。",
-    "tags": [
-      "绿道",
-      "骑行",
-      "公园",
-      "生态"
-    ],
-    "avgCost": 0,
-    "duration": "2-4小时",
-    "openTime": "全天开放",
-    "rating": 4.7
-  },
-  {
-    "name": "马旺子·川小馆(成都太古里店)",
-    "city": "成都",
-    "category": "food",
-    "description": "马旺子·川小馆是成都锦江区太古里商圈的一家知名川菜餐厅，以正宗四川菜和现代用餐环境著称，深受当地人和游客喜爱。",
-    "tags": [
-      "餐饮服务",
-      "中餐厅",
-      "四川菜",
-      "川菜"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "喜三嬢老火锅",
-    "city": "成都",
-    "category": "food",
-    "description": "喜三嬢老火锅是一家位于成都金牛区百寿路的火锅店，提供正宗四川火锅，紧邻白果林地铁站，交通便利。",
-    "tags": [
-      "火锅",
-      "四川美食",
-      "中餐"
-    ],
-    "avgCost": 80,
-    "duration": "2小时",
-    "openTime": "11:00-22:00",
-    "rating": 4.4
-  },
-  {
-    "name": "回水镇·江湖川菜(春熙路泰华店)",
-    "city": "成都",
-    "category": "food",
-    "description": "回水镇·江湖川菜位于成都春熙路泰华大厦一层，主打正宗四川菜，口味麻辣鲜香，环境江湖风格，适合朋友聚餐。",
-    "tags": [
-      "中餐厅",
-      "四川菜",
-      "川菜",
-      "江湖菜"
-    ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.5
-  },
-  {
-    "name": "无名蹄花(春熙路总店)",
-    "city": "成都",
-    "category": "food",
-    "description": "无名蹄花(春熙路总店)位于成都锦江区青石桥北街18号，是一家以蹄花为特色的川菜馆，深受当地人喜爱。",
-    "tags": [
-      "餐饮服务",
-      "中餐厅",
-      "四川菜",
-      "川菜"
-    ],
-    "avgCost": 50,
-    "duration": "1-2小时",
-    "openTime": "11:00-22:00",
-    "rating": 4.3
-  },
-  {
-    "name": "卢记正街饭店(蓉城总店)",
-    "city": "成都",
-    "category": "food",
-    "description": "卢记正街饭店(蓉城总店)位于成都武侯区，是一家以正宗川菜闻名的中餐厅，深受本地人和游客喜爱。",
-    "tags": [
-      "川菜",
-      "中餐"
-    ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.5
-  },
-  {
-    "name": "老妈蹄花总店(老字号)",
-    "city": "成都",
-    "category": "food",
-    "description": "成都知名的老妈蹄花总店，以传统川菜老妈蹄花闻名，是当地老字号餐厅。",
-    "tags": [
-      "川菜",
-      "老妈蹄花",
-      "老字号"
-    ],
-    "avgCost": 60,
-    "duration": "1.5小时",
-    "openTime": "10:00-22:00",
-    "rating": 4.5
-  },
-  {
-    "name": "天添饭店家宴馆",
-    "city": "成都",
-    "category": "food",
-    "description": "天添饭店家宴馆位于成都市武侯区玉林东街，是一家以川菜为特色的中餐厅，提供家宴、聚餐等服务，环境舒适，菜品地道。",
-    "tags": [
-      "中餐",
-      "川菜",
-      "家宴",
-      "特色餐厅"
-    ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.2
-  },
-  {
-    "name": "饕林餐厅(奎星楼店)",
-    "city": "成都",
-    "category": "food",
-    "description": "饕林餐厅(奎星楼店)位于成都市青羊区奎星楼街，是一家深受本地食客喜爱的中餐厅。餐厅以地道川菜为特色，菜品口味正宗，环境雅致，适合朋友聚餐或家庭聚会。推荐尝试招牌水煮鱼、回锅肉等经典川菜。",
-    "tags": [
-      "中餐",
-      "川菜",
-      "美食"
-    ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "11:00-14:00,17:00-21:00",
-    "rating": 4.5
-  },
-  {
-    "name": "老方桌烂蹄花(全国总店)",
-    "city": "成都",
-    "category": "food",
-    "description": "老方桌烂蹄花是位于都江堰市的一家知名中餐厅，以烂蹄花为特色。",
-    "tags": [
-      "中餐厅",
-      "餐饮服务"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "沈堂甜水面",
-    "city": "成都",
-    "category": "food",
-    "description": "沈堂甜水面是成都武侯区的一家知名中餐厅，以传统甜水面为特色，口感甜辣劲道，是本地人喜爱的地道小吃店。",
-    "tags": [
-      "甜水面",
-      "中餐",
-      "小吃",
-      "武侯区"
-    ],
-    "avgCost": 15,
-    "duration": "30分钟",
-    "openTime": "10:00-20:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "POSHPACKER拖板鞋青年旅舍旅行民宿(成都太古里春熙路地铁站店)",
@@ -314,40 +90,83 @@
       "春熙路",
       "太古里"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 0
-  },
-  {
-    "name": "威登酒店(春熙路店)",
-    "city": "成都",
-    "category": "hotel",
-    "description": "威登酒店位于成都市锦江区暑袜北二街89号，靠近春熙路商圈，提供住宿服务。",
-    "tags": [
-      "酒店",
-      "春熙路",
-      "锦江区"
-    ],
-    "avgCost": 0,
-    "duration": "-",
-    "openTime": "24小时",
     "rating": 0.0
   },
   {
-    "name": "聚源盛世酒店(成都天府国际机场店)",
+    "name": "POSHPACKER拖板鞋青年旅舍旅行民宿(成都太古里春熙路地铁站店)",
     "city": "成都",
     "category": "hotel",
-    "description": "聚源盛世酒店(成都天府国际机场店)位于简阳市草池镇，靠近天府国际机场，提供舒适的住宿服务。",
+    "description": "POSHPACKER拖板鞋青年旅舍旅行民宿(成都太古里春熙路地铁站店)，位于东升街98号3楼(春熙路地铁站E2口步行350米)，锦江区，类型旅馆招待所 旅馆招待所。",
     "tags": [
-      "酒店",
-      "天府机场",
-      "简阳"
+      "旅馆招待所",
+      "旅馆招待所"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "POSHPACKER拖板鞋青年旅舍旅行民宿(成都太古里春熙路地铁站店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "POSHPACKER拖板鞋青年旅舍旅行民宿(成都太古里春熙路地铁站店)，位于东升街98号3楼(春熙路地铁站E2口步行350米)，锦江区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "POSHPACKER拖板鞋青年旅舍旅行民宿(成都太古里春熙路地铁站店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "POSHPACKER拖板鞋青年旅舍旅行民宿(成都太古里春熙路地铁站店)，位于东升街98号3楼(春熙路地铁站E2口步行350米)，锦江区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "POSHPACKER拖板鞋青年旅舍旅行民宿(成都太古里春熙路地铁站店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于成都锦江区东升街98号3楼，紧邻春熙路地铁站E2口，步行约350米可达。靠近太古里商圈，是一家以青年旅舍和民宿为主题的住宿场所。",
+    "tags": [
+      "青年旅舍",
+      "民宿",
+      "成都",
+      "锦江区",
+      "春熙路",
+      "太古里"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 3.5
+    "rating": 0.0
+  },
+  {
+    "name": "POSHPACKER拖板鞋青年旅舍旅行民宿(成都太古里春熙路地铁站店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于东升街98号3楼(春熙路地铁站E2口步行350米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "POSHPACKER驴友记.蝉舍禅风小院(成都文殊院店)",
@@ -360,10 +179,1269 @@
       "禅意",
       "文殊院"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
+  },
+  {
+    "name": "POSHPACKER驴友记.蝉舍禅风小院(成都文殊院店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "POSHPACKER驴友记.蝉舍禅风小院(成都文殊院店)，位于星辉西路任家湾23号(近金牛万达广场,文殊院附近)，金牛区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "POSHPACKER驴友记.蝉舍禅风小院(成都文殊院店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "POSHPACKER驴友记.蝉舍禅风小院(成都文殊院店)，位于星辉西路任家湾23号(近金牛万达广场,文殊院附近)，金牛区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "POSHPACKER驴友记.蝉舍禅风小院(成都文殊院店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "POSHPACKER驴友记.蝉舍禅风小院(成都文殊院店)，位于星辉西路任家湾23号(近金牛万达广场,文殊院附近)，金牛区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "POSHPACKER驴友记.蝉舍禅风小院(成都文殊院店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "POSHPACKER驴友记.蝉舍禅风小院(成都文殊院店)是位于金牛区文殊院附近的禅风住宿，提供旅馆招待所服务。",
+    "tags": [
+      "住宿",
+      "旅馆",
+      "禅意",
+      "文殊院"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "POSHPACKER驴友记.蝉舍禅风小院(成都文殊院店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于星辉西路任家湾23号(近金牛万达广场,文殊院附近)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "UPARK公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于富华北路666号",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "Wanwea万蔚·云宴",
+    "city": "成都",
+    "category": "food",
+    "description": "位于中国自由贸易试验区高新区天府大道北段1777号第10栋4层L4044号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "spacelab失重餐厅(新世纪环球购物中心店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于天府大道北段1700号环球中心4F层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一叶一世界·健康蔬食(新世纪环球购物中心店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于桂溪街道天府大道北段1700号新世纪环球中心北区N2-1N-310室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万峰酒店",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于五福桥东路6号5栋",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三和老爷车博物馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于机场路新加坡工业园区新园南一路2号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三色锦岸活动广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于三色路269号(金石路地铁站C口步行460米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上井精致料理(环球中心店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于天府大道北段1700号环球中心三楼55A",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下沉广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于桂溪街道天府大道北段1199号银泰中心in99B1北下沉广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世外风情度假村",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于籍田镇粮丰村4组206号",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东湖公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于二环路东五段301号(东湖公园地铁站A口旁)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东郊记忆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于跳蹬河街道建设南支路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "两河水郡",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于东林二路新山八组",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中和广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于新下街244号靠近锦华建材家私城",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中和湿地公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于朝阳横街北50米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国华商金融中心音乐喷泉广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于交子大道33号(金融城地铁站B口步行110米)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中环岛广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于盛华北路与盛兴街交叉口东40米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐山鲜知味钵钵鸡",
+    "city": "成都",
+    "category": "food",
+    "description": "位于草堂北路16号附18号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐巢青年公寓(成都东站店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于邛崃山路68号东方新城二期1栋",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九叶莲桥",
+    "city": "成都",
+    "category": "attraction",
+    "description": "九叶莲桥位于成都市武侯区科华南路与锦云东三巷交叉口东北120米，是一处风景名胜。",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "全天开放",
+    "rating": 0.0
+  },
+  {
+    "name": "九叶莲桥",
+    "city": "成都",
+    "category": "attraction",
+    "description": "九叶莲桥，位于科华南路与锦云东三巷交叉口东北120米，武侯区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九叶莲桥",
+    "city": "成都",
+    "category": "attraction",
+    "description": "九叶莲桥，位于科华南路与锦云东三巷交叉口东北120米，武侯区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九叶莲桥",
+    "city": "成都",
+    "category": "attraction",
+    "description": "九叶莲桥，位于科华南路与锦云东三巷交叉口东北120米，武侯区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九叶莲桥",
+    "city": "成都",
+    "category": "attraction",
+    "description": "九叶莲桥位于成都市武侯区科华南路与锦云东三巷交叉口东北120米，是一处风景名胜。",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "全天开放",
+    "rating": 0.0
+  },
+  {
+    "name": "九叶莲桥",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于科华南路与锦云东三巷交叉口东北120米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云享智慧酒店(西南交大犀浦校区店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于惠民街40号5楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云鹭田园度假区",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于万安街道雅韵路777号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五凤溪古镇",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于五凤镇五凤溪景区",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五里关火锅(奎星楼店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于长顺中街99号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五里关火锅(春熙路店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于北新街16-附12号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五里关火锅(牛市口店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于东大街锦东路段555号附10号1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "交子之环",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于交子大道177号中海国际中心",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "交子公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "交子公园位于成都市武侯区天府大道北段，是一个以交子文化为主题的休闲公园，园内有草坪、步道、水景等设施，适合散步和放松。",
+    "tags": [
+      "公园",
+      "休闲",
+      "交子文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "交子公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "交子公园，位于天府大道北段，武侯区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "交子公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "交子公园，位于天府大道北段，武侯区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "交子公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "交子公园，位于天府大道北段，武侯区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "交子公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "交子公园位于成都市武侯区天府大道北段，是一个以交子文化为主题的休闲公园，园内有草坪、步道、水景等设施，适合散步和放松。",
+    "tags": [
+      "公园",
+      "休闲",
+      "交子文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "交子公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于天府大道北段",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "交子金融博物馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于桂溪街道桂溪街道锦云东二巷",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "人民公园是成都最古老的公园之一，里面有著名的鹤鸣茶社，是体验成都'慢生活'的绝佳地点。点一壶盖碗茶，掏个耳朵，看着湖光山色，十分惬意。免费开放，建议游览1-2小时。",
+    "tags": [
+      "公园",
+      "茶馆",
+      "慢生活",
+      "免费"
+    ],
+    "avgCost": 20.0,
+    "duration": "1-2小时",
+    "openTime": "06:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "人民公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "人民公园是成都最古老的公园之一，里面有著名的鹤鸣茶社，是体验成都'慢生活'的绝佳地点。点一壶盖碗茶，掏个耳朵，看着湖光山色，十分惬意。免费开放，建议游览1-2小时。",
+    "tags": [
+      "公园",
+      "茶馆",
+      "慢生活",
+      "免费"
+    ],
+    "avgCost": 20.0,
+    "duration": "1-2小时",
+    "openTime": "06:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "儿童影视科技博物馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于府滨中路与府兴路交叉口西北400米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元通古镇",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于元通镇聚源村号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "典雅商务酒店(金堂阳光医院西)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于淮口镇淮州大道102号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯宾连锁酒店(成都青白江万达店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于青江中路288号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "初见青年旅舍(成都春熙路店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于春熙路街道大科甲巷43号京都大厦17楼1708室",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华公馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于安仁镇安仁古镇(西北角)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南堂小馆·地道成都味(德商国际店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于天府大道北段1480号孵化园8号楼1层停车场内",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南桥",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于团结巷146号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南桥夜市",
+    "city": "成都",
+    "category": "food",
+    "description": "位于南河西街与外南街交叉口西北40米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南站公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于桐梓林壹号4栋2单元603室",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卢记正街饭店(蓉城总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "卢记正街饭店(蓉城总店)位于成都武侯区，是一家以正宗川菜闻名的中餐厅，深受本地人和游客喜爱。",
+    "tags": [
+      "川菜",
+      "中餐"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "卢记正街饭店(蓉城总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "卢记正街饭店(蓉城总店)，位于玉洁巷1号附17-20号，武侯区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卢记正街饭店(蓉城总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "卢记正街饭店(蓉城总店)，位于玉洁巷1号附17-20号，武侯区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卢记正街饭店(蓉城总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "卢记正街饭店(蓉城总店)，位于玉洁巷1号附17-20号，武侯区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卢记正街饭店(蓉城总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "卢记正街饭店(蓉城总店)位于成都武侯区，是一家以正宗川菜闻名的中餐厅，深受本地人和游客喜爱。",
+    "tags": [
+      "川菜",
+      "中餐"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "双子塔夜景打卡点",
+    "city": "成都",
+    "category": "attraction",
+    "description": "双子塔是成都地标建筑，夜景绚丽，是热门打卡点。",
+    "tags": [
+      "夜景",
+      "打卡",
+      "地标"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.7
+  },
+  {
+    "name": "双子塔夜景打卡点",
+    "city": "成都",
+    "category": "attraction",
+    "description": "双子塔夜景打卡点，位于交子大道与益州大道北段交叉口东40米，武侯区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双子塔夜景打卡点",
+    "city": "成都",
+    "category": "attraction",
+    "description": "双子塔夜景打卡点，位于交子大道与益州大道北段交叉口东40米，武侯区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双子塔夜景打卡点",
+    "city": "成都",
+    "category": "attraction",
+    "description": "双子塔夜景打卡点，位于交子大道与益州大道北段交叉口东40米，武侯区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双子塔夜景打卡点",
+    "city": "成都",
+    "category": "attraction",
+    "description": "双子塔是成都地标建筑，夜景绚丽，是热门打卡点。",
+    "tags": [
+      "夜景",
+      "打卡",
+      "地标"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.7
+  },
+  {
+    "name": "双子塔夜景打卡点",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于交子大道与益州大道北段交叉口东40米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双流帽盒山庄",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于永安镇兰家沟村二社100号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古镇游乐院",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于镇龙街",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "叶婆婆钵钵鸡(人民南路店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于人民南路四段20号附1号(倪家桥地铁站A口旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "叶婆婆钵钵鸡(太古里店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于油篓街48号附1.2号(太古里店)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "周美美宜宾爆炒菜鲜货烧烤总店",
+    "city": "成都",
+    "category": "food",
+    "description": "位于沙湾东一路与沙湾路交叉口东南40米(沙湾地铁站D口旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和平社区广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于天仁北一街与天和路交汇处西北50米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哥谭广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于盛安街与益州大道中段交叉口西南40米",
+    "tags": [
+      "120000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜三嬢老火锅",
+    "city": "成都",
+    "category": "food",
+    "description": "喜三嬢老火锅是一家位于成都金牛区百寿路的火锅店，提供正宗四川火锅，紧邻白果林地铁站，交通便利。",
+    "tags": [
+      "火锅",
+      "四川美食",
+      "中餐"
+    ],
+    "avgCost": 80.0,
+    "duration": "2小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.4
+  },
+  {
+    "name": "喜三嬢老火锅",
+    "city": "成都",
+    "category": "food",
+    "description": "喜三嬢老火锅，位于百寿路22号附2号(白果林地铁站C口步行270米)，金牛区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜三嬢老火锅",
+    "city": "成都",
+    "category": "food",
+    "description": "喜三嬢老火锅，位于百寿路22号附2号(白果林地铁站C口步行270米)，金牛区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜三嬢老火锅",
+    "city": "成都",
+    "category": "food",
+    "description": "喜三嬢老火锅，位于百寿路22号附2号(白果林地铁站C口步行270米)，金牛区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜三嬢老火锅",
+    "city": "成都",
+    "category": "food",
+    "description": "喜三嬢老火锅是一家位于成都金牛区百寿路的火锅店，提供正宗四川火锅，紧邻白果林地铁站，交通便利。",
+    "tags": [
+      "火锅",
+      "四川美食",
+      "中餐"
+    ],
+    "avgCost": 80.0,
+    "duration": "2小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.4
+  },
+  {
+    "name": "喜安夜市",
+    "city": "成都",
+    "category": "food",
+    "description": "位于成都市郫都区喜安街90号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜庭(环球中心店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于锦悦西路77号环球中心N1区四层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜顺园·地道徽菜(新世纪环球购物中心店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于天府大道北段1700号环球中心4F层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四妹钵钵鸡(望平街店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于望平街119号附5-6号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四川博物院",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于青华路5号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四川大学博物馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于望江路19号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四川建川博物馆聚落",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于安仁古镇(西南角)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四川省三都博物馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于华府大道二段99号(骑龙地铁站A口步行380米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "回水镇·江湖川菜(春熙路泰华店)",
+    "city": "成都",
+    "category": "food",
+    "description": "回水镇·江湖川菜位于成都春熙路泰华大厦一层，主打正宗四川菜，口味麻辣鲜香，环境江湖风格，适合朋友聚餐。",
+    "tags": [
+      "中餐厅",
+      "四川菜",
+      "川菜",
+      "江湖菜"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "回水镇·江湖川菜(春熙路泰华店)",
+    "city": "成都",
+    "category": "food",
+    "description": "回水镇·江湖川菜(春熙路泰华店)，位于东大街泰华大厦1层，锦江区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "回水镇·江湖川菜(春熙路泰华店)",
+    "city": "成都",
+    "category": "food",
+    "description": "回水镇·江湖川菜(春熙路泰华店)，位于东大街泰华大厦1层，锦江区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "回水镇·江湖川菜(春熙路泰华店)",
+    "city": "成都",
+    "category": "food",
+    "description": "回水镇·江湖川菜(春熙路泰华店)，位于东大街泰华大厦1层，锦江区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "回水镇·江湖川菜(春熙路泰华店)",
+    "city": "成都",
+    "category": "food",
+    "description": "回水镇·江湖川菜位于成都春熙路泰华大厦一层，主打正宗四川菜，口味麻辣鲜香，环境江湖风格，适合朋友聚餐。",
+    "tags": [
+      "中餐厅",
+      "四川菜",
+      "川菜",
+      "江湖菜"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "国仕商务酒店(南二街)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于南二街59-67",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "城市便捷酒店(成都西华店)",
@@ -376,9 +1454,4976 @@
       "酒店",
       "住宿"
     ],
-    "avgCost": 200,
+    "avgCost": 200.0,
     "duration": "1天",
     "openTime": "24小时",
     "rating": 4.0
+  },
+  {
+    "name": "城市便捷酒店(成都西华店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "城市便捷酒店(成都西华店)，位于广场路北一段205号，郫都区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城市便捷酒店(成都西华店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "城市便捷酒店(成都西华店)，位于广场路北一段205号，郫都区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城市便捷酒店(成都西华店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "城市便捷酒店(成都西华店)，位于广场路北一段205号，郫都区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城市便捷酒店(成都西华店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "城市便捷酒店(成都西华店)位于成都市郫都区广场路北一段205号，是一家经济型连锁酒店，提供干净舒适的住宿环境，适合商务和旅游出行。",
+    "tags": [
+      "经济型",
+      "连锁",
+      "酒店",
+      "住宿"
+    ],
+    "avgCost": 200.0,
+    "duration": "1天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "城市便捷酒店(成都西华店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于广场路北一段205号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "复地金融岛水秀广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于科华南路与锦悦东路交叉口东北220米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夜市干锅烤鱼(红光店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于金怡巷55号(原夜市街)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夜猫子夜市二期美食城(新城市广场店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于新城市广场A栋1楼(西大街地铁站E口步行110米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大源中央公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "大源中央公园位于成都高新区天府二街，是一个集休闲、娱乐、健身于一体的城市公园，环境优美，适合散步和亲子活动。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "大源中央公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "大源中央公园，位于成都高新区天府二街777号(大源地铁站D口旁)，武侯区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大源中央公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "大源中央公园，位于成都高新区天府二街777号(大源地铁站D口旁)，武侯区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大源中央公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "大源中央公园，位于成都高新区天府二街777号(大源地铁站D口旁)，武侯区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大源中央公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "大源中央公园位于成都高新区天府二街，是一个集休闲、娱乐、健身于一体的城市公园，环境优美，适合散步和亲子活动。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "大源中央公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于成都高新区天府二街777号(大源地铁站D口旁)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大源中央公园下沉广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于成都高新区天府二街777号大源中央公园(西北角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大源夜市",
+    "city": "成都",
+    "category": "food",
+    "description": "位于大源北二街",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大熊猫繁育研究基地",
+    "city": "成都",
+    "category": "attraction",
+    "description": "成都大熊猫繁育研究基地是中国政府专门为拯救国宝大熊猫而建立的科研机构。基地内绿树成荫，翠竹掩映，空气清新，环境优美，模拟了大熊猫野外生态环境。门票55元，建议早晨前往，游览3-4小时，可以看到大熊猫最活跃的状态。",
+    "tags": [
+      "动物",
+      "亲子",
+      "自然"
+    ],
+    "avgCost": 55.0,
+    "duration": "3-4小时",
+    "openTime": "07:30-18:00",
+    "rating": 4.7
+  },
+  {
+    "name": "大熊猫繁育研究基地",
+    "city": "成都",
+    "category": "attraction",
+    "description": "成都大熊猫繁育研究基地是中国政府专门为拯救国宝大熊猫而建立的科研机构。基地内绿树成荫，翠竹掩映，空气清新，环境优美，模拟了大熊猫野外生态环境。门票55元，建议早晨前往，游览3-4小时，可以看到大熊猫最活跃的状态。",
+    "tags": [
+      "动物",
+      "亲子",
+      "自然"
+    ],
+    "avgCost": 55.0,
+    "duration": "3-4小时",
+    "openTime": "07:30-18:00",
+    "rating": 4.7
+  },
+  {
+    "name": "大董(成都SKP店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于天府大道北段2001号成都skp西6门一层(与许家菜相邻东侧)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大蓉和(一品天下旗舰店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于一品天下大街277号",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大邑县刘氏庄园博物馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于安仁镇金桂街15号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大邑泰安客栈",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于安仁镇千禧街520号(千禧楼)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天府云海度假区",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于天府新区新兴街道井坝村3组300号",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天府绿道",
+    "city": "成都",
+    "category": "attraction",
+    "description": "天府绿道是成都著名的生态景观绿道，贯穿多个公园和绿地，适合骑行、步行和休闲。其中桂溪生态公园段风景优美，是市民游客亲近自然的好去处。",
+    "tags": [
+      "绿道",
+      "骑行",
+      "公园",
+      "生态"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-4小时",
+    "openTime": "全天开放",
+    "rating": 4.7
+  },
+  {
+    "name": "天府绿道",
+    "city": "成都",
+    "category": "attraction",
+    "description": "天府绿道，位于世纪城东路9号桂溪生态公园东区内(东侧)，武侯区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天府绿道",
+    "city": "成都",
+    "category": "attraction",
+    "description": "天府绿道，位于世纪城东路9号桂溪生态公园东区内(东侧)，武侯区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天府绿道",
+    "city": "成都",
+    "category": "attraction",
+    "description": "天府绿道，位于世纪城东路9号桂溪生态公园东区内(东侧)，武侯区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天府绿道",
+    "city": "成都",
+    "category": "attraction",
+    "description": "天府绿道是成都著名的生态景观绿道，贯穿多个公园和绿地，适合骑行、步行和休闲。其中桂溪生态公园段风景优美，是市民游客亲近自然的好去处。",
+    "tags": [
+      "绿道",
+      "骑行",
+      "公园",
+      "生态"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-4小时",
+    "openTime": "全天开放",
+    "rating": 4.7
+  },
+  {
+    "name": "天府绿道",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于世纪城东路9号桂溪生态公园东区内(东侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天星正源火锅(地勘路店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于地勘路1号附52号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天星正源火锅(海椒市店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于海椒市街10-12号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天来花园酒店(成都国际商贸城店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于斑竹园镇竹柳路159号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天添饭店家宴馆",
+    "city": "成都",
+    "category": "food",
+    "description": "天添饭店家宴馆位于成都市武侯区玉林东街，是一家以川菜为特色的中餐厅，提供家宴、聚餐等服务，环境舒适，菜品地道。",
+    "tags": [
+      "中餐",
+      "川菜",
+      "家宴",
+      "特色餐厅"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.2
+  },
+  {
+    "name": "天添饭店家宴馆",
+    "city": "成都",
+    "category": "food",
+    "description": "天添饭店家宴馆，位于玉林东街16号附16一19号，武侯区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天添饭店家宴馆",
+    "city": "成都",
+    "category": "food",
+    "description": "天添饭店家宴馆，位于玉林东街16号附16一19号，武侯区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天添饭店家宴馆",
+    "city": "成都",
+    "category": "food",
+    "description": "天添饭店家宴馆，位于玉林东街16号附16一19号，武侯区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天添饭店家宴馆",
+    "city": "成都",
+    "category": "food",
+    "description": "天添饭店家宴馆位于成都市武侯区玉林东街，是一家以川菜为特色的中餐厅，提供家宴、聚餐等服务，环境舒适，菜品地道。",
+    "tags": [
+      "中餐",
+      "川菜",
+      "家宴",
+      "特色餐厅"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.2
+  },
+  {
+    "name": "太平张醪糟·非物质文化遗产(都江堰总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于建设路178号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太阳门广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于天环街与科华南路辅路交叉口西80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如家云上四季酒店(成都天府国际机场店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于草池街道金鸡村2组74号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威登酒店(春熙路店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "威登酒店位于成都市锦江区暑袜北二街89号，靠近春熙路商圈，提供住宿服务。",
+    "tags": [
+      "酒店",
+      "春熙路",
+      "锦江区"
+    ],
+    "avgCost": 0.0,
+    "duration": "-",
+    "openTime": "24小时",
+    "rating": 0.0
+  },
+  {
+    "name": "威登酒店(春熙路店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "威登酒店(春熙路店)，位于暑袜北二街89号，锦江区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威登酒店(春熙路店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "威登酒店(春熙路店)，位于暑袜北二街89号，锦江区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威登酒店(春熙路店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "威登酒店(春熙路店)，位于暑袜北二街89号，锦江区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威登酒店(春熙路店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "威登酒店位于成都市锦江区暑袜北二街89号，靠近春熙路商圈，提供住宿服务。",
+    "tags": [
+      "酒店",
+      "春熙路",
+      "锦江区"
+    ],
+    "avgCost": 0.0,
+    "duration": "-",
+    "openTime": "24小时",
+    "rating": 0.0
+  },
+  {
+    "name": "威登酒店(春熙路店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于暑袜北二街89号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安仁古镇",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于安仁镇",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安仁古镇-刘元瑄公馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于安仁镇安仁古镇(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安仁古镇-南华宫",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于红星街安仁古镇(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安仁古镇-安惠里古街",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于安仁镇安惠里古街",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安仁古镇-张旭初公馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于安仁镇安仁古镇(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安仁古镇-袍哥楼",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于安仁古镇红星街33号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安仁古镇-郑子权公馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于安仁镇安仁古镇(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安仁古镇-陈月生公馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于安仁镇安仁古镇(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安仁坝子",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于迎宾路二段安仁古镇(西侧)",
+    "tags": [
+      "120304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宜城商务宾馆(空港花田店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于宜城路47号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宽合上宴",
+    "city": "成都",
+    "category": "food",
+    "description": "位于通盈街699号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宽窄巷子",
+    "city": "成都",
+    "category": "attraction",
+    "description": "宽窄巷子由宽巷子、窄巷子和井巷子三条平行排列的城市老式街道及其之间的四合院落群组成，是成都遗留下来的较成规模的清朝古街道。融合了中西文化，是老成都生活的最佳体验地。免费开放，建议游览1-2小时，品尝地道小吃。",
+    "tags": [
+      "古街",
+      "文化",
+      "美食",
+      "免费"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "宽窄巷子",
+    "city": "成都",
+    "category": "attraction",
+    "description": "宽窄巷子由宽巷子、窄巷子和井巷子三条平行排列的城市老式街道及其之间的四合院落群组成，是成都遗留下来的较成规模的清朝古街道。融合了中西文化，是老成都生活的最佳体验地。免费开放，建议游览1-2小时，品尝地道小吃。",
+    "tags": [
+      "古街",
+      "文化",
+      "美食",
+      "免费"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "宽窄巷子景区",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于少城街道金河路口宽窄巷子",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "将军府鸡毛店(人民公园店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于将军街1号(天府广场地铁站西1北口步行450米)",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小妹滋补蹄花(罗兰·生活广场店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于罗兰小镇南门西北90米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岳富贵老火锅(春熙路店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于三倒拐街25号(距太升南路地铁站b口200米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川农夜市烟火公平",
+    "city": "成都",
+    "category": "food",
+    "description": "位于惠民路440号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川西坝子火锅(交子大道3.0直营店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于交子大道456号",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川西坝子火锅(金沙1.0直营店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于黄苑街6号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平乐古镇古坊·Home客栈",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于平乐古镇金河村五组42号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平乐古镇秦汉客栈",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于金河村五组4号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸福之家公寓(四川农业大学温江校区店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于幸福之家公寓惠民正街181号公寓",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张记好实惠冒菜",
+    "city": "成都",
+    "category": "food",
+    "description": "位于燃灯寺东街14号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "彩虹夜市(予乐高桥彩虹广场店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于发展路与学府路二段交叉口西北40米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "彭州邮电宾馆(龙兴寺店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于北大街99号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德源夜市",
+    "city": "成都",
+    "category": "food",
+    "description": "位于胜利南街与田坝东街交叉口西20米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(奥克斯广场店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于锦城大道666号锦城万达广场1层(孵化园地铁站出入口旁)",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恒泰商务酒店(成都新繁家具园区店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于新繁镇繁清路357号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦百味·品质川菜(优品道店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于东坡路20-26号(东坡路地铁站C口步行370米)",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦百味·品质川菜(大魔方店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于天府大道东成都大魔方招商花园城b馆5楼",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦百味·品质川菜(悠方店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于交子大道300号悠方购物中心6楼620",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦百味·品质川菜(成都环贸ICD店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于东大路577号环贸ICD乐活里2栋L1-L2层(不在商场里)",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠宾有房民宿(天乡路二段分店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于天乡路二段万春镇南岳小区4栋16号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都SKP中央大台阶",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于天府大道1600号(锦城广场东地铁站A口步行80米)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都一天家庭公寓",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于邛崃山路68号东方新城13幢2-603号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都一家驿站(华西医院上锦院区店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于合作街道尚锦路268号上锦颐园55栋2单元4楼20号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都万兴宾馆",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于犀浦镇犀池五街13号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都东门商务宾馆",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于紫东阁街14号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都中鼎商务酒店",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于鹃兴路222号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都乐浮青年旅舍(文殊院太升南路地铁站店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于太升北路10号(太升南路地铁站C口步行490米)",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都刘三姐公寓(春熙路太古里店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于天仙桥南路28号秀水花园15楼3号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都动物园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于昭觉寺南路234号(动物园地铁站A口步行460米)",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都博物馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于小河街1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都友缘住宿",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于大面街道龙城大道9号川师大现代花园2栋2单元1601号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都双流锦绣城酒店",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于东山大道一段200号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都古城客栈",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于韩滩茗苑古城街26号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都听澜民宿",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于三圣街道白桦林路绿岛筑小区8栋二单元103室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都嘉月住宿",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于狮子山街道劼人路嘉和园二期9栋2单元2楼4号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都嘉禾园玫瑰住宿",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于劼人路143号嘉和园7栋1单元",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都大丰客栈(大丰皇花园地铁站店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于南丰大道16号(皇花园地铁站A口步行440米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都大吉喜马拉雅文化艺术博物馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于科园南路大吉集团",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都大熊猫繁育研究基地",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于熊猫大道1375号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都天台山旅游景区",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于天台山镇三角社区天水路55号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都市西南航空港天鹅度假村",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于西航港大道中二段附近",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都希望旅馆",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于希望路287号5栋12单元",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都帝豪酒店(犀浦店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于犀浦镇犀池四街160号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都悠雅商务宾馆",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于望锦横街206号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都悦扬商务客栈",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于和平路218-220号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都方志馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于天仁路260号(火车南站地铁站H1口步行450米)",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都时代金宇住宿梁家巷店",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于一环路北四段191号金宇大厦F1层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都星辰度假村(张家寺地铁口)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于中柏路东巷20号(张家寺地铁站A1口步行390米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都杜甫草堂博物馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于青华路37号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都欢庆旅馆",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于广场巷46号(近龙泉音乐广场)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都欣悦住宿",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于鑫鸿苑东北门东南100米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都武侯祠博物馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于武侯祠大街231号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都武侯祠博物馆文物区",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于武侯祠大街231号成都武侯祠博物馆内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都武侯祠博物馆西区",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于武侯祠大街231号成都武侯祠博物馆",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都江滩公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于世纪城路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都温江鑫盛客房国色天乡店",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于天乡路888号8栋(国色天乡3号门)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都熊猫国际旅游度假区",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于蓉都大道小游园(西南角)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都爱尚格调酒店(宽窄巷子店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于槐树街47号(近宽窄巷子、永陵博物馆)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都玉都商务宾馆",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于十陵镇灵龙路574号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都环城绿道0公里",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于天府大道中段与天府大道北段辅路交叉口南190米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都直升机博物馆(不对外开放)",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于华烨路234号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都祥洋客栈(龙泉阳光城百工堰公园龙平路地铁站店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于龙泉街道商业前街199号五幢",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都红晨公寓",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于郭家桥北街5号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都缘份住宿",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于劼人路143号(狮子山地铁站D口步行160米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都罗兰公寓(十里店地铁站店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于罗兰小镇2栋4层(理工大学地铁站D口步行210米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都美好家庭公寓",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于大面镇川师大现代花园2幢3单元26楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都蜀锦织绣博物馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于草堂东路18号锦绣工场古玩城3号楼",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都贝斯特酒店(洗面桥东二街店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于洗面桥街18号金茂礼都南楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都金融城双子塔",
+    "city": "成都",
+    "category": "attraction",
+    "description": "成都金融城双子塔位于高新区锦晖西一街55号，属于金融城核心区域。两座摩天大楼并肩而立，是成都金融城的地标性建筑，集商务、办公于一体，周边商业配套完善。",
+    "tags": [
+      "商务住宅",
+      "楼宇",
+      "商务写字楼"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "成都金融城双子塔",
+    "city": "成都",
+    "category": "attraction",
+    "description": "成都金融城双子塔，位于高新区锦晖西一街55号(金融城地铁站出入口旁)，武侯区，类型楼宇 商务写字楼。",
+    "tags": [
+      "楼宇",
+      "商务写字楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都金融城双子塔",
+    "city": "成都",
+    "category": "attraction",
+    "description": "成都金融城双子塔，位于高新区锦晖西一街55号(金融城地铁站出入口旁)，武侯区，类型楼宇 商务写字楼。",
+    "tags": [
+      "楼宇",
+      "商务写字楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都金融城双子塔",
+    "city": "成都",
+    "category": "attraction",
+    "description": "成都金融城双子塔，位于高新区锦晖西一街55号(金融城地铁站出入口旁)，武侯区，类型楼宇 商务写字楼。",
+    "tags": [
+      "楼宇",
+      "商务写字楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都金融城双子塔",
+    "city": "成都",
+    "category": "attraction",
+    "description": "成都金融城双子塔位于高新区锦晖西一街55号，属于金融城核心区域。两座摩天大楼并肩而立，是成都金融城的地标性建筑，集商务、办公于一体，周边商业配套完善。",
+    "tags": [
+      "商务住宅",
+      "楼宇",
+      "商务写字楼"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "成都金融城双子塔",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于高新区锦晖西一街55号(金融城地铁站出入口旁)",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都长思公寓",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于成都郫都区红光镇隆府南巷44号附14号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都顺洁商务酒店",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于花径路1-19号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都驿站商务宾馆",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于西航港街道花红小区中街1号4栋",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都龙泉驿蒲公英驿站",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于车城东七路397号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文殊阁",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于文殊院街66号文殊院内(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文殊院",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于文殊院街66号(文殊院地铁站K口步行400米)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新世纪商务酒店",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于繁清路119号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新场古镇",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于新场镇安出路与下正街交叉口",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新津龙门客栈",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于五津北路228号附1号(五津地铁站C口步行90米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新蓉庭.新派融合川菜(天府店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于高新区益州大道2555号",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新蓉庭.新派融合川菜(锦城店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于锦城大道517号盈创动力科技金融大厦",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "无名蹄花(春熙路总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "无名蹄花(春熙路总店)位于成都锦江区青石桥北街18号，是一家以蹄花为特色的川菜馆，深受当地人喜爱。",
+    "tags": [
+      "餐饮服务",
+      "中餐厅",
+      "四川菜",
+      "川菜"
+    ],
+    "avgCost": 50.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "无名蹄花(春熙路总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "无名蹄花(春熙路总店)，位于青石桥北街18号，锦江区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "无名蹄花(春熙路总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "无名蹄花(春熙路总店)，位于青石桥北街18号，锦江区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "无名蹄花(春熙路总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "无名蹄花(春熙路总店)，位于青石桥北街18号，锦江区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "无名蹄花(春熙路总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "无名蹄花(春熙路总店)位于成都锦江区青石桥北街18号，是一家以蹄花为特色的川菜馆，深受当地人喜爱。",
+    "tags": [
+      "餐饮服务",
+      "中餐厅",
+      "四川菜",
+      "川菜"
+    ],
+    "avgCost": 50.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "星光大道夜市一条街",
+    "city": "成都",
+    "category": "food",
+    "description": "位于民俗文化街星光大道A区",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "映月宾馆(映月街)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于映月街6号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春熙路",
+    "city": "成都",
+    "category": "attraction",
+    "description": "春熙路是成都最繁华的商业街，集购物、休闲、娱乐为一体。这里有众多国际品牌专卖店、本土特色店铺，还有IFS、太古里等高端购物中心。晚上灯光璀璨，人流如织，是感受成都现代气息的好去处。",
+    "tags": [
+      "商业",
+      "购物",
+      "现代"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天",
+    "rating": 4.4
+  },
+  {
+    "name": "春熙路",
+    "city": "成都",
+    "category": "attraction",
+    "description": "春熙路是成都最繁华的商业街，集购物、休闲、娱乐为一体。这里有众多国际品牌专卖店、本土特色店铺，还有IFS、太古里等高端购物中心。晚上灯光璀璨，人流如织，是感受成都现代气息的好去处。",
+    "tags": [
+      "商业",
+      "购物",
+      "现代"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天",
+    "rating": 4.4
+  },
+  {
+    "name": "春熙路步行街",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于春熙路街道",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晶泽雅厨鱼鲜·川菜(优品道店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于家园路21号(东坡路地铁站B口旁)",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月满大江千层肚火锅(环球中心A馆店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于环球中心E5区4楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月牙湖",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于桂溪街道桂溪街道吉庆一路与吉瑞一路交汇处东南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "望丛祠",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于望丛中路3-4号(望丛祠地铁站A口步行330米)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱碧琼肥肠粉(抚琴综合市场店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于抚琴南三巷1号抚琴综合市场内",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杜甫草堂",
+    "city": "成都",
+    "category": "attraction",
+    "description": "杜甫草堂是唐代大诗人杜甫流寓成都时的故居，是中国文学史上的圣地。草堂内亭台楼榭，林壑幽美，梅花、荷花、桂花等四季花卉不断。门票50元，建议游览2小时。",
+    "tags": [
+      "历史",
+      "文学",
+      "园林"
+    ],
+    "avgCost": 50.0,
+    "duration": "2小时",
+    "openTime": "08:00-19:00",
+    "rating": 4.5
+  },
+  {
+    "name": "杜甫草堂",
+    "city": "成都",
+    "category": "attraction",
+    "description": "杜甫草堂是唐代大诗人杜甫流寓成都时的故居，是中国文学史上的圣地。草堂内亭台楼榭，林壑幽美，梅花、荷花、桂花等四季花卉不断。门票50元，建议游览2小时。",
+    "tags": [
+      "历史",
+      "文学",
+      "园林"
+    ],
+    "avgCost": 50.0,
+    "duration": "2小时",
+    "openTime": "08:00-19:00",
+    "rating": 4.5
+  },
+  {
+    "name": "杰夫狮台湾夜市牛排(双顺店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于双顺路20号附12号",
+    "tags": [
+      "050211"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林龙旅馆(龙泉驿信息工程大学店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于同安路大河小区3幢",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柏萃森林度假区",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于府通路58号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栖园玫瑰花海度假山庄",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于兴隆街道刘家坝村12组205号",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "根据地冷锅串串冒菜",
+    "city": "成都",
+    "category": "food",
+    "description": "位于成科路1号附10号(近美国领事馆)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂溪公园东区儿童滑梯",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于世纪城东路9号桂溪生态公园东区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂溪生态公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "桂溪生态公园位于成都市武侯区天府一街附近，是一个集生态、休闲、运动于一体的城市公园。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "桂溪生态公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "桂溪生态公园，位于天府一街附近，武侯区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂溪生态公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "桂溪生态公园，位于天府一街附近，武侯区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂溪生态公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "桂溪生态公园，位于天府一街附近，武侯区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂溪生态公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "桂溪生态公园位于成都市武侯区天府一街附近，是一个集生态、休闲、运动于一体的城市公园。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "桂溪生态公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于天府一街附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂溪生态公园-成都锦城绿道",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于桂溪生态公园东区内(东侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂溪生态公园东区",
+    "city": "成都",
+    "category": "attraction",
+    "description": "桂溪生态公园东区位于成都市武侯区世纪城东路，是一个集生态景观、休闲游憩于一体的城市公园。园内绿树成荫，湖泊环绕，适合散步、骑行和家庭游玩。",
+    "tags": [
+      "风景名胜",
+      "旅游景点",
+      "公园",
+      "生态"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "桂溪生态公园东区",
+    "city": "成都",
+    "category": "attraction",
+    "description": "桂溪生态公园东区，位于世纪城东路9号(四川电视台对面)，武侯区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂溪生态公园东区",
+    "city": "成都",
+    "category": "attraction",
+    "description": "桂溪生态公园东区，位于世纪城东路9号(四川电视台对面)，武侯区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂溪生态公园东区",
+    "city": "成都",
+    "category": "attraction",
+    "description": "桂溪生态公园东区，位于世纪城东路9号(四川电视台对面)，武侯区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂溪生态公园东区",
+    "city": "成都",
+    "category": "attraction",
+    "description": "桂溪生态公园东区位于成都市武侯区世纪城东路，是一个集生态景观、休闲游憩于一体的城市公园。园内绿树成荫，湖泊环绕，适合散步、骑行和家庭游玩。",
+    "tags": [
+      "风景名胜",
+      "旅游景点",
+      "公园",
+      "生态"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "桂溪生态公园东区",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于世纪城东路9号(四川电视台对面)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂溪生态公园西区",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于天府一街桂溪生态公园(西侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂龙公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于复城国际T2",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梦之阁酒店(成都文殊坊文殊院地铁站店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于北东街",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "森邻奇镜自然博物馆(悠方店)",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于悠方购物中心B1层B43号(鹿岛对面)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "樊家大院",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于皇金路54号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "樱花夜市(中铁西城·新天地店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于苏坡街道光华东二路98号中铁西城新天地15栋301号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "武侯祠",
+    "city": "成都",
+    "category": "attraction",
+    "description": "武侯祠是中国唯一的一座君臣合祀祠庙和最负盛名的诸葛亮、刘备及蜀汉英雄纪念地，也是全国影响最大的三国遗迹博物馆。武侯祠占地37000平方米，建筑面积9200平方米，主要由惠陵、汉昭烈庙、武侯祠、三国文化陈列室等组成。祠内古柏苍翠，红墙环绕，是了解三国文化不可错过的地方。门票50元，建议游览2-3小时。",
+    "tags": [
+      "历史",
+      "三国",
+      "博物馆",
+      "文化"
+    ],
+    "avgCost": 50.0,
+    "duration": "2-3小时",
+    "openTime": "08:00-18:30",
+    "rating": 4.6
+  },
+  {
+    "name": "武侯祠",
+    "city": "成都",
+    "category": "attraction",
+    "description": "武侯祠是中国唯一的一座君臣合祀祠庙和最负盛名的诸葛亮、刘备及蜀汉英雄纪念地，也是全国影响最大的三国遗迹博物馆。武侯祠占地37000平方米，建筑面积9200平方米，主要由惠陵、汉昭烈庙、武侯祠、三国文化陈列室等组成。祠内古柏苍翠，红墙环绕，是了解三国文化不可错过的地方。门票50元，建议游览2-3小时。",
+    "tags": [
+      "历史",
+      "三国",
+      "博物馆",
+      "文化"
+    ],
+    "avgCost": 50.0,
+    "duration": "2-3小时",
+    "openTime": "08:00-18:30",
+    "rating": 4.6
+  },
+  {
+    "name": "毗河夜市",
+    "city": "成都",
+    "category": "food",
+    "description": "位于四川传媒学院花篱校区4号门西北160米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "毛记和意",
+    "city": "成都",
+    "category": "food",
+    "description": "位于解放西街9号附2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水井坊博物馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于水井坊街道水井街19-25号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水电七局商务酒店",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于长清路425、427号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈堂甜水面",
+    "city": "成都",
+    "category": "food",
+    "description": "沈堂甜水面是成都武侯区的一家知名中餐厅，以传统甜水面为特色，口感甜辣劲道，是本地人喜爱的地道小吃店。",
+    "tags": [
+      "甜水面",
+      "中餐",
+      "小吃",
+      "武侯区"
+    ],
+    "avgCost": 15.0,
+    "duration": "30分钟",
+    "openTime": "10:00-20:00",
+    "rating": 4.5
+  },
+  {
+    "name": "沈堂甜水面",
+    "city": "成都",
+    "category": "food",
+    "description": "沈堂甜水面，位于芳草街新能巷2号附5号(衣冠庙地铁站B口步行440米)，武侯区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈堂甜水面",
+    "city": "成都",
+    "category": "food",
+    "description": "沈堂甜水面，位于芳草街新能巷2号附5号(衣冠庙地铁站B口步行440米)，武侯区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈堂甜水面",
+    "city": "成都",
+    "category": "food",
+    "description": "沈堂甜水面，位于芳草街新能巷2号附5号(衣冠庙地铁站B口步行440米)，武侯区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈堂甜水面",
+    "city": "成都",
+    "category": "food",
+    "description": "沈堂甜水面是成都武侯区的一家知名中餐厅，以传统甜水面为特色，口感甜辣劲道，是本地人喜爱的地道小吃店。",
+    "tags": [
+      "甜水面",
+      "中餐",
+      "小吃",
+      "武侯区"
+    ],
+    "avgCost": 15.0,
+    "duration": "30分钟",
+    "openTime": "10:00-20:00",
+    "rating": 4.5
+  },
+  {
+    "name": "洛带古镇",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于三峨街",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛带古镇-博客楼",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于三峨街999号99",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛带古镇五凤楼",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于江西街48号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛带古镇双兴宾馆",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于洛带古6镇双兴南街20高号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洞子口陈氏凉粉",
+    "city": "成都",
+    "category": "food",
+    "description": "位于洞子口福德路42号(近第四十四中学校)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浆小白豆浆夜市(网红锦里店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于一环路西一段88号附42号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "测试景点",
+    "city": "成都",
+    "category": "attraction",
+    "description": "测试用",
+    "tags": [
+      "test"
+    ],
+    "avgCost": 0.0,
+    "duration": null,
+    "openTime": null,
+    "rating": 5.0
+  },
+  {
+    "name": "海底捞火锅(春熙路群光广场店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于春熙路南段8号1栋9楼9A-04A",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(春熙路银石广场店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于红星路三段99号银石广场1栋1单元7层1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨海酒店",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于光华大道三段1818号珠江地产11层",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灌县古城",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于灌口街道陈家巷",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灰色博物馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于春熙路西段128号尚都服饰广场B1层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "炫橙广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于锦城湖4号公园(西北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烤匠麻辣烤鱼(环球中心店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于天府大道北段1700号新世纪环球中心4层",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊猫王子M酒店(成都新南门地铁站店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于新南路75号附8号重庆富侨1层大厅(龙江路路口,红鼎坊火锅店旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉林·虫林自然博物馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于玉林四巷3号附1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "环球中心东广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于天府大道北段1700号环球中心",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "环球中心海洋乐园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于天府大道北段1700号新世纪环球中心1层",
+    "tags": [
+      "080505"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇佳休闲商务公寓",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于文星镇西航港街道长城路一段71号光明小区8栋",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇城老妈火锅(皇城店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于二环路南三段20号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皮马聊亚洲热炒店(大魔方店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于天府大道北段1777号招商大魔方4层中庭连廊花园内4026-1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石经寺",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于茶店镇石经村10组56号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石羊街道新南群宴广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于昆阳路与锦尚西三路交叉口西北100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祥龙湾会议度假中心",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于成都双流区黄龙大道二段1210号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祥龙湾生态园",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于公兴镇黄龙大道二段1210号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "立巢航空博物馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于天府大道1700号环球中心D馆",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "糖果乐园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于锦尚大桥与国华街交叉口西120米",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红鼎艳",
+    "city": "成都",
+    "category": "food",
+    "description": "位于天府大道北段美璟中心3楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "维家斯酒店(双建路店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于双建路1号附1号富源大厦1层",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿茶餐厅(成都环球中心店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于中国自由贸易试验区成都高新区天府大道北段1700号4楼B05A号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "罗二火锅(小关庙店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于莹华寺街34号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翠孃孃老火锅(春熙路老店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于永兴巷15号附1号(熊猫邮局旁50米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老妈蹄花总店(老字号)",
+    "city": "成都",
+    "category": "food",
+    "description": "成都知名的老妈蹄花总店，以传统川菜老妈蹄花闻名，是当地老字号餐厅。",
+    "tags": [
+      "川菜",
+      "老妈蹄花",
+      "老字号"
+    ],
+    "avgCost": 60.0,
+    "duration": "1.5小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "老妈蹄花总店(老字号)",
+    "city": "成都",
+    "category": "food",
+    "description": "老妈蹄花总店(老字号)，位于太升北路18号附6号，青羊区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老妈蹄花总店(老字号)",
+    "city": "成都",
+    "category": "food",
+    "description": "老妈蹄花总店(老字号)，位于太升北路18号附6号，青羊区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老妈蹄花总店(老字号)",
+    "city": "成都",
+    "category": "food",
+    "description": "老妈蹄花总店(老字号)，位于太升北路18号附6号，青羊区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老妈蹄花总店(老字号)",
+    "city": "成都",
+    "category": "food",
+    "description": "成都知名的老妈蹄花总店，以传统川菜老妈蹄花闻名，是当地老字号餐厅。",
+    "tags": [
+      "川菜",
+      "老妈蹄花",
+      "老字号"
+    ],
+    "avgCost": 60.0,
+    "duration": "1.5小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "老方桌烂蹄花(全国总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "老方桌烂蹄花是位于都江堰市的一家知名中餐厅，以烂蹄花为特色。",
+    "tags": [
+      "中餐厅",
+      "餐饮服务"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "老方桌烂蹄花(全国总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "老方桌烂蹄花(全国总店)，位于迎宾大道96号，都江堰市，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老方桌烂蹄花(全国总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "老方桌烂蹄花(全国总店)，位于迎宾大道96号，都江堰市，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老方桌烂蹄花(全国总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "老方桌烂蹄花(全国总店)，位于迎宾大道96号，都江堰市，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老方桌烂蹄花(全国总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "老方桌烂蹄花是位于都江堰市的一家知名中餐厅，以烂蹄花为特色。",
+    "tags": [
+      "中餐厅",
+      "餐饮服务"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "老黄记手撕烤兔(玉林总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于玉林街26号附19号(近玉林串串香总店)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "耍山老火锅(春熙路店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于春熙路街道东大街上东大街段116号1层57号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚源盛世酒店(成都天府国际机场店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "聚源盛世酒店(成都天府国际机场店)位于简阳市草池镇，靠近天府国际机场，提供舒适的住宿服务。",
+    "tags": [
+      "酒店",
+      "天府机场",
+      "简阳"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "聚源盛世酒店(成都天府国际机场店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "聚源盛世酒店(成都天府国际机场店)，位于草池镇金鸡村一组196号，简阳市，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚源盛世酒店(成都天府国际机场店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "聚源盛世酒店(成都天府国际机场店)，位于草池镇金鸡村一组196号，简阳市，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚源盛世酒店(成都天府国际机场店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "聚源盛世酒店(成都天府国际机场店)，位于草池镇金鸡村一组196号，简阳市，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚源盛世酒店(成都天府国际机场店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "聚源盛世酒店(成都天府国际机场店)位于简阳市草池镇，靠近天府国际机场，提供舒适的住宿服务。",
+    "tags": [
+      "酒店",
+      "天府机场",
+      "简阳"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "肖家河美味家常面(肖家河北街店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于高新区肖家河北街8号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芙蓉岛公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于熊家桥路55号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花都夜市步行街",
+    "city": "成都",
+    "category": "food",
+    "description": "位于赵家寺路与花都大道交叉口西南20米",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "英明商务酒店",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于蜀跃路69号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "菁蓉夜市(禹顺苑店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于成都华商理工职业学校东区西南门西90米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒲江好运来商务酒店",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于驭虹路55号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒲江花园居客栈",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于花园街2号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓉城小馆(人民公园店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于横陕西街3号",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓉港酒店(成都双流机场店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于临港路5段空港国际城",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝城沐春风度假村",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于兴义镇附近",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蔚然花海",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于同安街道同安街道花海路8号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "藤原豆腐店(总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于山泉镇人民政府北门东490米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛮涮自助小火锅(环球中心店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于天府大道北段1700号B馆负一楼",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜀国风味度假村",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于大丰镇",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜀都赢品广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于天府二街138号蜀都中心",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "街子古镇",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于惠丰路1号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西月城谭豆花(春熙路店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于春熙路街道暑袜北二街56号1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观锦餐厅(天府新谷店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于成汉南路19号天府新谷5号楼4层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观锦餐厅(天廊店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于大凉山路4号天廊广场D102号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观锦餐厅(德商国际店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于天府大道北段1480号德商国际",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "许家菜(望江店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于望江路1号格林威治广场8幢附1号(近望江公园)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "许家菜·艺创菜(仁和新城店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于成汉南路仁和新城A座六楼605",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "许家菜樽宴(大魔方店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于石羊街道天府大道北段招商大魔方中国太平金融大厦10号楼3层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "许燎源现代设计艺术博物馆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于三圣街道三圣村红砂联合三组303号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诗里田园亲水度假区",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于程家船村三组三团路北",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "豪客来牛排(成都环球中心餐厅)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于天府大道北段1700号环球中心B1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "超级姜胖胖韩式自助烤肉(环球中心)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于天府大道北段1700号环球购物中心E5门负一层B1c26",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "逆时光公寓(成都东站店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于嘉陵江路68号12栋3单元",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "速8酒店(成都一品天下地铁站店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于蜀汉路426号附3号上城建筑",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邛崃市抚琴民宿(文君街3号分店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于文君公园北门西70米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郫县夜市(岷阳小区南区店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于东大街73-75号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郫县隆升酒店",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于书南巷1-7(和平街地铁站D1口步行370米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "都江堰",
+    "city": "成都",
+    "category": "attraction",
+    "description": "都江堰是公元前256年秦国蜀郡太守李冰父子组织修建的大型水利工程，是全世界至今为止，年代最久、唯一留存、以无坝引水为特征的宏大水利工程，也是世界文化遗产。门票80元，建议游览3-4小时，可与青城山一日游。",
+    "tags": [
+      "历史",
+      "水利",
+      "世界遗产"
+    ],
+    "avgCost": 80.0,
+    "duration": "3-4小时",
+    "openTime": "08:00-18:00",
+    "rating": 4.7
+  },
+  {
+    "name": "都江堰",
+    "city": "成都",
+    "category": "attraction",
+    "description": "都江堰是公元前256年秦国蜀郡太守李冰父子组织修建的大型水利工程，是全世界至今为止，年代最久、唯一留存、以无坝引水为特征的宏大水利工程，也是世界文化遗产。门票80元，建议游览3-4小时，可与青城山一日游。",
+    "tags": [
+      "历史",
+      "水利",
+      "世界遗产"
+    ],
+    "avgCost": 80.0,
+    "duration": "3-4小时",
+    "openTime": "08:00-18:00",
+    "rating": 4.7
+  },
+  {
+    "name": "都江堰文庙",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于灌口街道灌口街道公园路青城山·都江堰风景名胜区内",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "都江堰旅行家青年旅舍",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于灌口街道瑞联社区大观街18号2单元301号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "都江堰景区",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于公园路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "都江堰江都客栈",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于奎光塔街道奎光路成大都江花园4栋3楼1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "都江堰聚贤客栈",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于建设路19号附10号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金堰居平乐古镇店",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于平乐古镇金河村6组",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金龙长城",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于樱花路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁像寺",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于铁像寺路66号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁像寺水街",
+    "city": "成都",
+    "category": "attraction",
+    "description": "铁像寺水街位于成都市武侯区铁像寺路88号，是一个融合了传统与现代的风景名胜区，为国家级的旅游景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "铁像寺水街",
+    "city": "成都",
+    "category": "attraction",
+    "description": "铁像寺水街，位于铁像寺路88号，武侯区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁像寺水街",
+    "city": "成都",
+    "category": "attraction",
+    "description": "铁像寺水街，位于铁像寺路88号，武侯区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁像寺水街",
+    "city": "成都",
+    "category": "attraction",
+    "description": "铁像寺水街，位于铁像寺路88号，武侯区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁像寺水街",
+    "city": "成都",
+    "category": "attraction",
+    "description": "铁像寺水街位于成都市武侯区铁像寺路88号，是一个融合了传统与现代的风景名胜区，为国家级的旅游景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "铁像寺水街",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于铁像寺路88号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁像寺水街-北广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于铁像寺路88号铁像寺水街(西北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁像寺水街-南广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于铁像寺路88号东北方向20米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦城公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "锦城公园是位于成都市武侯区的一个城市公园，环境优美，适合休闲散步和户外活动。",
+    "tags": [
+      "公园",
+      "风景",
+      "休闲"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "锦城公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "锦城公园，位于益州大道北段1666号，武侯区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦城公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "锦城公园，位于益州大道北段1666号，武侯区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦城公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "锦城公园，位于益州大道北段1666号，武侯区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦城公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "锦城公园是位于成都市武侯区的一个城市公园，环境优美，适合休闲散步和户外活动。",
+    "tags": [
+      "公园",
+      "风景",
+      "休闲"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "锦城公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于益州大道北段1666号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦城印象火锅酒楼(德商国际店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于天府大道北段1480号8栋3单元1层1-3号德商国际1楼底商",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦城广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于天府大道北段1656号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦城湖2号湖区",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于锦城大道1333号锦城湖内(东侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦城湖3号湖区",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于剑南大道西侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦城湖4号公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于锦城湖立交附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦江公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于锦江大道与科华南路辅路交叉口东140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦里",
+    "city": "成都",
+    "category": "attraction",
+    "description": "锦里是一条仿古商业街，是成都人气最旺的景点之一，也是西蜀历史上最古老、最具有商业气息的街道之一。集中了成都各地的名小吃，享誉中外的三顾园、龙抄手、担担面等都在此设有分号。免费开放，建议游览2小时。",
+    "tags": [
+      "古街",
+      "美食",
+      "小吃",
+      "免费"
+    ],
+    "avgCost": 50.0,
+    "duration": "2小时",
+    "openTime": "09:00-22:00",
+    "rating": 4.4
+  },
+  {
+    "name": "锦里",
+    "city": "成都",
+    "category": "attraction",
+    "description": "锦里是一条仿古商业街，是成都人气最旺的景点之一，也是西蜀历史上最古老、最具有商业气息的街道之一。集中了成都各地的名小吃，享誉中外的三顾园、龙抄手、担担面等都在此设有分号。免费开放，建议游览2小时。",
+    "tags": [
+      "古街",
+      "美食",
+      "小吃",
+      "免费"
+    ],
+    "avgCost": 50.0,
+    "duration": "2小时",
+    "openTime": "09:00-22:00",
+    "rating": 4.4
+  },
+  {
+    "name": "锦门夜市",
+    "city": "成都",
+    "category": "food",
+    "description": "位于三河街道承顺街17号(绕城新都出口)锦门景区(东北角)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿顺度假村",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于卫星村双龙路华亿服务超市南300米路东",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈麻婆豆腐(旗舰店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于青华路10号附10-12号",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陶德砂锅(蜀汉店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于蜀汉路492-494号1栋1层5号",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雅悦酒店(成都锦华万达店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于二环路东五段29号万达广场11B单元10层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雅筑轻奢酒店(蜀都万达店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于郫县一里东街562号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雅舍酒店(九眼桥店)",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于一环路南一段2号3幢1层附6号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青城后山",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于泰安古镇驿道街112号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青城山",
+    "city": "成都",
+    "category": "attraction",
+    "description": "青城山是中国四大道教名山之一，素有'青城天下幽'的美誉。山中树木葱茏，峰峦叠翠，是避暑度假的胜地。前山80元，后山20元，建议游览1天，前山道教文化深厚，后山自然风光秀美。",
+    "tags": [
+      "道教",
+      "自然",
+      "山岳",
+      "世界遗产"
+    ],
+    "avgCost": 80.0,
+    "duration": "1天",
+    "openTime": "08:00-18:00",
+    "rating": 4.6
+  },
+  {
+    "name": "青城山",
+    "city": "成都",
+    "category": "attraction",
+    "description": "青城山是中国四大道教名山之一，素有'青城天下幽'的美誉。山中树木葱茏，峰峦叠翠，是避暑度假的胜地。前山80元，后山20元，建议游览1天，前山道教文化深厚，后山自然风光秀美。",
+    "tags": [
+      "道教",
+      "自然",
+      "山岳",
+      "世界遗产"
+    ],
+    "avgCost": 80.0,
+    "duration": "1天",
+    "openTime": "08:00-18:00",
+    "rating": 4.6
+  },
+  {
+    "name": "青城山忆楠客栈",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于青城山镇青城人家泉水四巷34号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青城山景区",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于青城山镇青城山路168号",
+    "tags": [
+      "110201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青柠hotel自助酒店",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于蓉香路160号万科缇香荟3栋",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青龙湖湿地公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于十陵风景区内",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "韩坊韩国料理(成都锦城万达广场店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于锦城大道666号锦城万达广场4层4015号",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺河客栈",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于下河街27号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "额尔敦传统涮(成都招商大魔方店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于天府大道北段1777号招商大魔方A馆6F",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "饕林餐厅(奎星楼店)",
+    "city": "成都",
+    "category": "food",
+    "description": "饕林餐厅(奎星楼店)位于成都市青羊区奎星楼街，是一家深受本地食客喜爱的中餐厅。餐厅以地道川菜为特色，菜品口味正宗，环境雅致，适合朋友聚餐或家庭聚会。推荐尝试招牌水煮鱼、回锅肉等经典川菜。",
+    "tags": [
+      "中餐",
+      "川菜",
+      "美食"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "饕林餐厅(奎星楼店)",
+    "city": "成都",
+    "category": "food",
+    "description": "饕林餐厅(奎星楼店)，位于奎星楼街16号附9号(汉庭酒店对面)，青羊区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "饕林餐厅(奎星楼店)",
+    "city": "成都",
+    "category": "food",
+    "description": "饕林餐厅(奎星楼店)，位于奎星楼街16号附9号(汉庭酒店对面)，青羊区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "饕林餐厅(奎星楼店)",
+    "city": "成都",
+    "category": "food",
+    "description": "饕林餐厅(奎星楼店)，位于奎星楼街16号附9号(汉庭酒店对面)，青羊区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "饕林餐厅(奎星楼店)",
+    "city": "成都",
+    "category": "food",
+    "description": "饕林餐厅(奎星楼店)位于成都市青羊区奎星楼街，是一家深受本地食客喜爱的中餐厅。餐厅以地道川菜为特色，菜品口味正宗，环境雅致，适合朋友聚餐或家庭聚会。推荐尝试招牌水煮鱼、回锅肉等经典川菜。",
+    "tags": [
+      "中餐",
+      "川菜",
+      "美食"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "香榭广场",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于中柏西巷与中柏路交叉口西北100米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香香巷",
+    "city": "成都",
+    "category": "food",
+    "description": "位于望平街25号附1号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马旺子·川小馆(成都太古里店)",
+    "city": "成都",
+    "category": "food",
+    "description": "马旺子·川小馆是成都锦江区太古里商圈的一家知名川菜餐厅，以正宗四川菜和现代用餐环境著称，深受当地人和游客喜爱。",
+    "tags": [
+      "餐饮服务",
+      "中餐厅",
+      "四川菜",
+      "川菜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "马旺子·川小馆(成都太古里店)",
+    "city": "成都",
+    "category": "food",
+    "description": "马旺子·川小馆(成都太古里店)，位于东糠市街1号(春熙路地铁站B口步行430米)，锦江区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马旺子·川小馆(成都太古里店)",
+    "city": "成都",
+    "category": "food",
+    "description": "马旺子·川小馆(成都太古里店)，位于东糠市街1号(春熙路地铁站B口步行430米)，锦江区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马旺子·川小馆(成都太古里店)",
+    "city": "成都",
+    "category": "food",
+    "description": "马旺子·川小馆(成都太古里店)，位于东糠市街1号(春熙路地铁站B口步行430米)，锦江区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马旺子·川小馆(成都太古里店)",
+    "city": "成都",
+    "category": "food",
+    "description": "马旺子·川小馆是成都锦江区太古里商圈的一家知名川菜餐厅，以正宗四川菜和现代用餐环境著称，深受当地人和游客喜爱。",
+    "tags": [
+      "餐饮服务",
+      "中餐厅",
+      "四川菜",
+      "川菜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "高峰水库度假山庄",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于太平街道桃源村6组53号",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(成都金牛万达广场店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于一环路北三段3号万达广场成都金牛店1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲲曲·满晴川·传家宴",
+    "city": "成都",
+    "category": "food",
+    "description": "位于泰达时代中心1号楼(孵化园地铁站L口步行100米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹅煮管·火宫私家食府(琉璃总店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于琉璃路1641号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹏鹏妈老火锅(宽窄巷子店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于二道桥街31号1幢1楼1号(距宽窄巷子地铁口350米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹏鹏妈老火锅(春熙路店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于青石桥中街8-51号停车场内(距春熙路步行街200米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(成都大魔方招商花园城)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于天府大道北段1777号成都大魔方招商花园城B1层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄甲善美夜市",
+    "city": "成都",
+    "category": "food",
+    "description": "位于三叶街与升平街交叉口南140米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄龙溪-凤翥",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于黄龙溪镇镇龙街78号黄龙溪古镇景区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄龙溪-清时广肆",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于黄龙溪镇皇金路78号黄龙溪古镇旅游景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄龙溪-西寨门",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于黄龙溪古镇景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄龙溪古镇",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于黄龙溪镇黄金路70号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄龙溪古镇-月亭",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于黄龙溪镇镇龙街78号黄龙溪古镇景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄龙溪古镇-老龙门",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于黄龙溪镇镇龙街78号黄龙溪古镇景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄龙溪廊桥",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于黄龙溪镇皇金路78号黄龙溪古镇旅游景区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄龙溪松月客栈",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于黄龙溪镇下河街36-40号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙井苑客栈",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于街子镇香兰巷44-50号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙兴寺",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于龙兴北街1号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙华1号",
+    "city": "成都",
+    "category": "hotel",
+    "description": "位于车城西五路998号",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙户人家(春熙路店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于红星路四段265号附1号2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙户人家串串香(奎星楼店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于槐树街51号附1号吉祥苑",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙户人家串串香(新街里店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于荟锦路166号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙户人家串串香店(建设路店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于建设南新路77号附6号(新鸿路地铁站D口步行320米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙抄手",
+    "city": "成都",
+    "category": "food",
+    "description": "龙抄手是成都著名的传统小吃，抄手即馄饨，皮薄如纸，馅嫩鲜美，汤浓味美。位于春熙路附近的总店是品尝地道成都小吃的首选。人均30元。",
+    "tags": [
+      "小吃",
+      "传统",
+      "馄饨"
+    ],
+    "avgCost": 30.0,
+    "duration": null,
+    "openTime": null,
+    "rating": 4.4
+  },
+  {
+    "name": "龙抄手",
+    "city": "成都",
+    "category": "food",
+    "description": "龙抄手是成都著名的传统小吃，抄手即馄饨，皮薄如纸，馅嫩鲜美，汤浓味美。位于春熙路附近的总店是品尝地道成都小吃的首选。人均30元。",
+    "tags": [
+      "小吃",
+      "传统",
+      "馄饨"
+    ],
+    "avgCost": 30.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 4.4
+  },
+  {
+    "name": "龙森园火锅(琴台路店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于琴台路60号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙泉山城市森林公园",
+    "city": "成都",
+    "category": "attraction",
+    "description": "位于茶店街道",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙腾夜市美食街",
+    "city": "成都",
+    "category": "food",
+    "description": "位于龙腾大道与可心大道交叉口西北20米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙虾飞·油焖蟹·鲜货烧烤大排档(丽都路金冠好店)",
+    "city": "成都",
+    "category": "food",
+    "description": "位于丽都路525号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

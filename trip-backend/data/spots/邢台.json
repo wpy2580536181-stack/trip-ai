@@ -1,0 +1,2160 @@
+[
+  {
+    "name": "一碗香老汤面馆",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于南小汪幸福家园社区西临3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七里河体育公园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于守敬南路与百泉大道交汇处西南",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七里河体育公园-奥林匹克广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于守敬南路与百泉大道交叉口西南140米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七里河沙滩公园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于守敬南路与百泉大道交叉口南300米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七里河消夏文化广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于自流泉街37号百泉鸳水旅游度假区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临西驿家快捷酒店",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于阳光大街与珠江路交叉口广场西侧",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九龙峡旅游区",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于浆水镇318省道",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云梦山",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于061乡道石板房村北600米处",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五一桥公园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于中兴大街和开元路口的东北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于中兴东大街与开元路交叉口西北角",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "任县胜通快捷酒店",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于滏阳路53号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "任县顺安快捷宾馆",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于昌平路58号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "健身广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于自流泉街37号百泉鸳水旅游度假区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八号院火锅鸡升级店(守敬店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于守敬北路305号门店",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前楼下社区文化广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于前进路与智慧路交叉口西80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "劳模公园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于建设大街与冶金南路交叉路口处西行100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包小兵牛肉汤包(世贸天街店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于西大街街道新西街世贸天街E座底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十星相聚文化广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于守敬北路59号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华莱士·全鸡汉堡(亿德隆)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于亿德隆与新西街交叉口北行5米路东华莱士",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南和农业嘉年华",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于贾宋镇邵屯村北",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南大汪社区红色广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于冶金北路中央公馆",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宫友谊宾馆",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于冀南路266号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉野家(邢台世贸天街店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于中兴东大街18号世贸天街A区F1层",
+    "tags": [
+      "050309"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同心岛",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于守敬南路七里河桥",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "后楼下文化广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于昌盛大街与新建西路交叉口西南120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "呷哺呷哺(天一广场店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新华北路235号天一广场D3栋三层311-1号商铺",
+    "tags": [
+      "050311"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四川酒村·始于1994(总店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新西街31号",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "围寨河公园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于新华南路与建设路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔林公园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于塔林生活区",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "壹捞百味蘸料火锅(邢台团结路店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于团结西大街83号凯旋城对面",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "外婆港鲜粥(富民路店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于富民路",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大四喜生鲜牛肉火锅(邢台店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新华南路867号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大门凤火锅鸡(邢台威县店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于爱国路盛世天骄小区S15号2楼商铺大门",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天顺招待所",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于渤海路13号(清河城站北广场北100米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好南关广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于靛市街与北大街交叉口东北20米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好南关西广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于北大街与靛市街交叉口西北20米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁晋倾悦酒店",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于南环路供电站东临50米路北",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁晋光润宾馆",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于北环路德胜园南门东侧",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宋府馋嘴鸡(新西街店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新西街32号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宏途扬帆驿站",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于百泉大道辅路与新华南路交叉口东480米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宿姑娘恒大城公寓(团结东大街分店)",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于团结东大街恒大城",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小六·麻辣烫",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于财满街东门进直行100米(路南)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小满民宿(邢台火车站店)",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于财满街财满园小区8号商务楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崆山白云洞",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于西竖镇",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平乡居家宾馆",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于牌坊街中国工商银行平乡支行东侧约260米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开元寺广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于开元北路开元寺公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅( 南和建设大街店 )",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于和区建设大街297号(金阳花园对面)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅(清河太行中路店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于太行中路54号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅(邢台冶金北路店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于冶金北路104号徐升记不改良老火锅",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅(隆尧县锦萃城店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于康庄路与唐尧街交叉口往北100米路西",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德克士(亿德隆店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于中兴东大街亿德隆广场6号楼",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德龙钢铁文化园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于205县道北50米",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "懂羊纪自选全羊汤(恒大城店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于恒大城A区",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾忆园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于车站南路与新西街交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文体活动广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于冶金南路冶金西生活区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新时代广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于开发区管委会大楼前",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星途漫步主题民宿",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于中兴路街道中兴西大街中北世纪城1号公寓621室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月晟·艺博园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于守敬南路181号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月满满轻奢公寓(邢台站中北世纪城店)",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于中兴路街道中兴西大街65号中北世纪城4号公寓楼815房",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "有拈头成都市井火锅(邢银大厦店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于中兴东大街111号邢银大厦F1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "木栖Lucky·Inn(恒大城店)",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于恒大城A区1号公寓",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李先生牛肉面大王(财满街区店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新华北路45号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柏乡汉都快捷酒店",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于建设路交警队西行150米",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柔软时光酒店式日租公寓",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于守敬南路中北世纪城2号公寓12层1216号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(天一广场店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新华北路223号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(沙河迎新大街店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于褡链办事处广阳社区迎新街路边供电局东侧新贸易中心6号门市",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(邢台万达店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于开元北路256万达广场邢台店F4层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(邢台天一广场店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新华北路235号天一广场B3层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(邢台逗号立方店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于中兴西大街139号逗号立方购物公园F5层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙河久久宾馆",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于建设路与太行街交叉口北40米路东矿建北区3号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙河市青年公寓",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于褡裢街道太行大街中段1号单身楼3-4楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙河白塔新华旅馆",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于白塔镇白塔市场102号、854乡道",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙河颐和公寓",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于建设路太行十字路口北行30米路东院内",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(天一城店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新华北路天一城国际商业中心D座D-409号铺位",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(逗号立方亲子主题店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于中兴西大街逗号立方购物公园七层01号商铺备注从逗号立方正门进右拐坐1号梯直达七层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清河通达旅社",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于渤海路路西(火车站红绿灯向南150米路西)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清风楼",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于南长街街道东门里街",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "澜庭云宿精品酒店(万达广场店)",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于南长街街道开元北路恒大城1号公寓1808室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "火神庙",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于中兴东大街191号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "火锅公社秘制干锅(钢铁北路总店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于钢铁北路和崇文东街交叉口东15米路南",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊喵来了火锅(邢台襄都万达店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于邢台万达广场4楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊喵来了火锅(邢台逗号立方店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于逗号立方购物公园4层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱情山-神牛",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于天河山",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱情山风景区-情人谷",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于白岸乡清泉村北邢台天河山内(西侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛尾河公园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于泉南东大街313号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "發好彩猪肚鸡(冶金路店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于冶金北路与莲池大街交叉口向南五十米路东",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白云边文化园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于新兴东大街与守敬南路交叉口东南",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百泉鸳水旅游度假区",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于自流泉街37号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百泉鸳水景区",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于鸳水路与百泉大道交叉口东南",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百花白牌烧鸡(新西街店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新西街新华南路交叉口",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(天一广场店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新华北路235号天一广场C座3层-C303-2号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(桥东万达广场店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于泉南东大街213号邢台万达广场四楼4027店铺,1号门直梯4层影城对过米村拌饭",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫金公园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于冶金北路小黄河北岸",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "繁华面馆",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于西大街嘉昌城市广场A-116",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老邢台包亿德隆店",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于襄都区亿德隆中央大街15-1",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肥虾多多",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新华北路天一广场C座四层中央",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(新天一城店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新华路天一广场一层精品街区B-148-150号",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(财富店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于中兴东大街颐高双创城一层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德炸鸡(新西街分店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于基督教怀恩堂南门旁",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花生客民宿(邢台红星美凯龙店)",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于中华大街988号红星美凯龙13层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芳竹园火锅(邢台天一店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新华北路235号天一广场F3层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "英谈古寨",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于英谈村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "街角餐厅(亿德隆店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新西街亿德隆购物休闲广场二期8号楼一、二层46、47号门市",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁记云饺(信都区万城新天地购物广场店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于钢铁北路522号万城新天地购物广场3号楼105",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄湖",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于中央生态公园内",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄都湖公园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于襄都路与红星街交叉口西北侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西关宾馆(邢台火车站店)",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于西关街东口西关8米路北",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西街李记炒方便面",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新华南路69号甜橙商住公寓1号楼102铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "角楼广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于中兴东大街223号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "谷连天八宝粥家常菜(凰家公元店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于泉西街道凰家公元西门105-106号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达活泉公园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于冶金北路与泉北西大街交汇处",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达活泉公园-泉韵广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于泉北西大街达活泉公园(西北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达活泉公园-牡丹园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于达活泉公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎宾宾馆",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于邢台火车站",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "逗号立方南广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于中兴西大街139号逗号立方购物公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台东新电竞酒店(火车站店)",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于大通街36号粮贸大厦西侧",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台亿家日租房",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于中兴大街18号世贸天街E区F17层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台信都阳光旅馆",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于曹演庄新村43号(大洋百货北行20米路东即到)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台倪妮短租公寓",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于中兴西大街中北世纪城3号公寓9层911",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台博物馆",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于开元北路181号(开元寺公园对面)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台友家旅馆",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于曹演庄新村58号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台四季来短租公寓",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于南长街街道开元路与团结路交叉口北恒大城3号公寓1908",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台园林",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于中兴东大街223号",
+    "tags": [
+      "170000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台国福旅馆",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于财满街10号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台大峡谷",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于路罗镇贺家坪村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台大峡谷贺坪客栈",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于路罗镇贺家坪村",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台天梯山",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于西黄村镇东牛庄",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台天河山",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于白岸乡清泉村北",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台安康旅馆",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于大洋百货北200米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台峡谷漂流",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于路罗镇茶旧沟村",
+    "tags": [
+      "080505"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台市基督教怀恩堂",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于新西街与新华南路交叉路口处",
+    "tags": [
+      "110206"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台建华旅馆",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于火车站广场东街18号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台开元古寺",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于开元北路191号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台开发区人民广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于新时代广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台星空电竞酒店(火车站店)",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于大通街2号综合楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台智跑科技主题乐园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于守敬南路体育公园东门对面",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台棒棒糖公寓",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于守敬路与中兴大街交叉口中北世纪城4号公寓16层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台海洋乐园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于长安路1288号",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台熙园短租公寓",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于团结东大街与开元北路交叉口恒大城A区一号公寓508",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台美美哒日租公寓",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于新华北路天一SOHO公寓C座17层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢台馨馨公寓",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于团结西大街801号爱上嘉园北区1号楼13层3单元1301室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢州古城",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于东门里街",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢襄生态园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于襄都北路尽头",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢襄生态园-西门外广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于107国道与龙岗大街交叉口东北140米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆干溜面(梆子剧团家属院店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新西街与亿德隆街交叉口东100米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆美食盖浇饭(新西街店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于西大街街道新西街梆子剧团6号门市",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金牛中兴公园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于中兴西大街与邮电巷交叉口东南80米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金牛中兴广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于中兴西大街金牛中兴公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金龙巴西烤肉(新华南路)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新华南路139号(近金龙)",
+    "tags": [
+      "050215"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隆尧兴源宾馆",
+    "city": "邢台",
+    "category": "hotel",
+    "description": "位于太行路与昭庆街交叉口东行100米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青年游园",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于育英街与守敬北路交叉路口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺德府",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于南长街街道凤凰街甲1-1号综合楼",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸳水灵井广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于西大街街道邢州古城内(南侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(世贸天街店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于中兴大街18号世贸天街B区F1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(邢台市天一广场餐厅)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新华北路235号天一广场F1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄记煌三汁焖锅(世贸天街B区店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于中兴东大街世贸天街沃尔玛B座三楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黑家养生粥道馆(德胜商务楼店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于顺德路279号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黑家粥道(建设路店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于建设大街韩演庄南门市10、11号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黑家粥道(新世纪店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于中兴东大街107号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黑家饺子·百年老字号·邢台美食代表(冶金北路店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于冶金北路627-1号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黑家饺子·百年老字号·邢台美食代表(新华南路店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新华南路322号-2",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黑家饺子馆(兴达路店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于兴达路599号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(襄都万达店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于襄都万达广场",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(襄都天一广场店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于新华北路235号天一广场C座2层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(逗号立方店)",
+    "city": "邢台",
+    "category": "food",
+    "description": "位于逗号立方购物公园5F",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙王庙文化广场",
+    "city": "邢台",
+    "category": "attraction",
+    "description": "位于姚庄北街与太行路交叉口西400米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

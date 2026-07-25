@@ -1,0 +1,782 @@
+[
+  {
+    "name": "丰园酒店(洛阳火车站地铁站店)",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于解放路北口4号(洛阳火车站地铁站B口步行100米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "从政坊游园",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于永通门里坊展示路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "体育公园",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于开元大道(体育中心地铁站A1口步行260米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "偃师同福客栈",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于兴隆西路与民主路交叉口南40米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "偃师金福客房",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于城关镇洛神路与安泰巷交叉口向南50米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "关林庙",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于关林东路与新九街交叉口西北200米",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "关林景区",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于关林镇关林南街2号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴洛湖公园",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于兴洛西街与关林路交叉口东南200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯旋门小馆·地道洛阳菜(政和路店)",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于政和路与厚载门街交叉口西北角",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "定鼎门南广场",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于龙门大道436号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宜阳蓝天旅社",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于文化路23-5号(锦花购物广场)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宴天下·新食尚(正大店)",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于开元大道正大广场7楼西厅",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宴天下水席园(长兴街店)",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于开元大道与长兴街交叉路口",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小秦川(政和路总店)",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于开元路街道政和路10号",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小秦川·臻宴",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于开元大道与永泰街交叉口市民之家向南100米",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "应天门",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于定鼎南路23号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开元湖健康主题公园",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于开元大道与长兴街交叉口西南100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德唯森环球自助料理洛阳首店",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于关林街道泉舜购物四楼东北角德唯森环球自助",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(洛阳正大店)",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于开元大道路225号正大广场1F15商铺和1F16商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "托斯卡纳意大利餐厅(民馨苑店)",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于开元路街道金城寨街9号民馨苑",
+    "tags": [
+      "050205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文博体育公园",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于滨河南路(文博园地铁站A口步行310米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "方中山胡辣汤(洛阳一店)",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于长兴街与太康路交叉口龙泰C区1号楼2号商铺",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春天快捷酒店(金城路)",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于金城路东段大加油站东50米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梦神都",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于古城路辅路与龙门大道辅路交叉口东南220米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(洛阳泉舜店)",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于牡丹大道166号泉舜购物广场4层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汝阳轩源大酒店",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于城关镇人民路39号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛浦公园",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于豫博路1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛达快捷酒店",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于状元红路2号(国花路地铁站B口步行130米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛邑古城",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于九都东路与柳林街交叉口北侧",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛阳一兰宾馆(新都汇纱厂路地铁站店)",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于金谷园街道解放路18号一兰宾馆院内后二楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛阳云龙旅馆",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于西苑路99号(长安路地铁站E口步行170米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛阳华苑旅社",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于西苑路东80米唐村32号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛阳博物馆",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于聂泰路6号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛阳吉江之星快捷酒店",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于电站东门",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛阳城市阳台",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于御博路与滨河北路交叉口东北260米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛阳大河荟",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于金城寨街与通衢路交叉口东南200米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛阳宴·新水席(正大店)",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于开元大道225号正大广场F3层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛阳市涧西区彩云宾馆",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于湖南路11号(卓阳科技园对面、三达公寓旁边)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛阳明扬宾馆",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于唐宫西路54号1栋中心医院北门正对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛阳明珠宾馆",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于李家村南街62号(地铁上海市场站E口)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛阳速九宾馆(火车站店)",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于解放路17号(福利加油站隔壁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛阳饭店",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于中州西路117号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛阳麒御酒店",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于解放路19号(纱厂路地铁站E口步行170米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(泉舜店)",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于牡丹大道166号泉舜购物中心四层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊喵转转自助小火锅(泉舜购物店)",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于牡丹大道166号泉舜购物F3层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王城公园",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于中州中路312号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "神都十三坊",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于古城路辅路与龙门大道辅路交叉口东南220米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿茶餐厅(洛阳泉舜购物中心店)",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于牡丹大道166号泉舜购物中心4层4018店铺",
+    "tags": [
+      "050106"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "罗二火锅(泉舜店)",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于长兴街88号润泉苑6号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖哥俩肉蟹煲(洛阳泉舜店)",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于牡丹大道166号泉舜购物中心4楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花园宾馆(正骨医院店)",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于启明南路74号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花都快捷酒店",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于衡山路65号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "财记菜场火锅(正大旗舰店)",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于开元大道225号正大广场购物中心2层03/04/05号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "起源小厨(厚载门街店)",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于路劲世府名邸东门南120米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金雀花云南菜",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于长兴街正大广场东区10号楼201",
+    "tags": [
+      "050114"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隋唐城遗址植物园",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于王城大道281号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隋唐洛阳城国家遗址公园",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于定鼎路与中州路交汇处(应天门地铁站C2口步行220米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿运宾馆(洛阳火车站店)",
+    "city": "洛阳",
+    "category": "hotel",
+    "description": "位于纱厂北路与道南路交叉口",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(洛阳麦当劳泉舜购物中心餐厅)",
+    "city": "洛阳",
+    "category": "food",
+    "description": "位于关林街道展览路兴洛东街交汇处泉舜购物中心1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙门石窟",
+    "city": "洛阳",
+    "category": "attraction",
+    "description": "位于龙门中街13号",
+    "tags": [
+      "110201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

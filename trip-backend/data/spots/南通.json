@@ -1,0 +1,2212 @@
+[
+  {
+    "name": "68商务宾馆(南川园店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于南川园路8号(南川农贸市场楼上)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "88韩食堂(凤凰广场店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于凤凰文化广场1楼(靠近东门)",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "99假日旅店(佰富华购物中心店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于金沙街道市民广场东块B-8、9号二层向北",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "SUNSET日落景观餐厅·和牛火锅(运河店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于月州路",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一支百合智慧民宿(南通万达广场店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于永兴街道深南路9号万达广场A6栋517室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七月广场",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于工农南路155号印象城(政务中心地铁站出入口旁)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中华慈善博物馆",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于虹桥路9号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽都宾馆(青园路)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于青园南路40-2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "久悦酒店公寓(南通万达广场店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于永兴街道深南路9号万达广场A6座12楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐家宾馆(南通大学附属医院店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于南大街218号信普大厦2层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二春面馆(前景花苑店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于前景花苑4幢105号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云上·别苑(恒隆国际店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于世纪大道18号恒隆国际F1层",
+    "tags": [
+      "050106"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云水早茶",
+    "city": "南通",
+    "category": "food",
+    "description": "位于濠东路1号附1室",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五步口公园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于通启路192号,凤凰莱茵北门,东北80米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五洲宾馆(邮电巷)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于邮电巷3号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "京味老北京铜锅涮(青年路店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于青年中路66号裕丰广场F1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "体育会展中心北广场",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于南通海底世界",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兔儿灯青旅(启东店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于汇龙镇紫薇中路455号2楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八厂生活广场",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于恒盛尚海湾新天地(慈善博物馆地铁站3号口步行340米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴港宾馆",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于长江镇长江东路289号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴连兴鲜牛肉火锅",
+    "city": "南通",
+    "category": "food",
+    "description": "位于学田南路学田苑副9幢(学田地铁站1号口步行490米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "军山景区",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于山水路18号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凌云商务宾馆(如皋正翔广场店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于益寿路588号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰广场云中心",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于崇文路6号南通市凤凰文化广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰汇广场",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于人民中路晏园凤凰汇",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "剑山景区",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于剑山路1号(狼山镇南河沿11号)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北月广场",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于工农南路155号印象城B1层(政务中心地铁站出入口旁)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "匠心私房面",
+    "city": "南通",
+    "category": "food",
+    "description": "位于沿河路天都花苑15幢",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南府喜宴(南通报业大厦店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于世纪大道8号信访局西侧报业大厦裙楼内",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南辰广场",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于工农南路155号印象城B1层",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通·学田公园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于学田路南通市学田中学附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通中央公园(崇川路)",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于海风街与江淮路交叉口西北160米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通中央公园-北区",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于海风街与江川东路交叉口西南140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通华俊快捷酒店",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于正余镇岸桥路60号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通博物苑",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于濠南路19号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通天缘旅馆",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于城山路64号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通宁馨小舍(2号店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于永兴街道深南路9号万达广场A4写字楼1307室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通尤士民家宾馆",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于永固路怡居北苑15栋109室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通市人民公园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于濠南路19号南通博物苑",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通市凤凰文化广场",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于崇文路6号(图书馆地铁站8号口步行80米)",
+    "tags": [
+      "060102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通市崇川区宪法公园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于通启路与世纪大道交叉口西北140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通归觅新宿·酒店",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于海门街道商业步行街海港城2幢101铺",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通村上春酒店式公寓",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于复兴路鑫湖国贸3号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通植物园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于工农南路19号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通海底世界",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于崇川区桃园路7号南通体育会展中心今世缘·国缘体育馆",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通濠河风景名胜区",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于启秀路17号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通濠河风景名胜区-中公园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于濠南路1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通濠河风景名胜区-华达广场",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于濠南路28华达广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通濠河风景名胜区-启秀园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于启秀路17号南通濠河风景名胜区(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通濠河风景名胜区-环西文化广场",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于环城西路(和平桥地铁站7号口步行290米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通狼山森林公园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于狼山镇临港路18号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通狼山风景名胜区",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于狼山镇剑新路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通美丽公寓",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于中南世纪城11幢(图书馆地铁站6号口步行140米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通群英馆",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于环城南路1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通联运宾馆",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于青年中路229号(体育公园地铁站1号口步行330米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通都市农业公园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于陈桥街道陈桥街道陈桥街道陈桥街道陈桥街道通刘路555号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通鑫湖国贸公寓",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于鑫湖国贸大厦(星湖101附近)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通长江体育公园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于长江南路253号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南通黄山宾馆",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于三余镇人民路80号(肯德基对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "原始人拉美餐厅(凤凰广场店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于凤凰广场西门旁(图书馆地铁站8号口步行190米)",
+    "tags": [
+      "050215"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "可酷民宿(南通职业大学钟秀校区店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于钟秀街道人民中路258号绿地新都会4幢619室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "启东市捷贝民宿",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于G345国道旁第七人民医院斜对面",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "启东花园宾馆",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于汇龙镇江海北路958号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "味千拉面(南通印象城店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于工农南路印象城4楼L4-20B-1",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "唐闸北市景区",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于唐闸镇街道北市街69号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "唐闸古镇",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于唐闸镇街道河东路汤家巷子366号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "啬园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于狼山街道南郊路150号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四宜糕团店(南大街店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于南大街99号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四海楼(文昌路店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于定慧禅寺南门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四海楼(狼山店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于工农南路狼山游客集散中心内",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国福庄源时令海鲜火锅",
+    "city": "南通",
+    "category": "food",
+    "description": "位于花月路1号-17",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "圆陀角风景区",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于林连路与海寅线交叉口东",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城隍庙",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于城东街道濠东路199号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夜上海·海派融合菜(恒隆店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于世纪大道18号恒隆国际大厦E座301A室",
+    "tags": [
+      "050106"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夜上海·福·潮粤精致菜(金石店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于文峰街道中南世纪城50幢金石国际大酒苫一楼大堂西区域东北体",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大生文创园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于通启路8号",
+    "tags": [
+      "120100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好灶头土菜(世纪大道店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于世纪大道62号恒隆国际对面",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如东公园客栈",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于掘港镇日晖西路25号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如东金鹰商务宾馆",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于海花路与友谊东路交汇处",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如皋大军小宾馆(长江镇店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于长江镇江防西路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如皋悦来宾馆",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于长江东路春江花苑三期C楼09号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如皋海北宾馆",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于如城镇文峰大世界河北88米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如皋银河宾馆",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于大华街20号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富贵牛市鲜牛肉火锅(南通印象城店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于工农南路155号印象城B1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小橙都古法冒菜(南大街店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于和平桥街道南大街八仙城4号区4168室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小菜园新徽菜(南通崇川印象城店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于工农南路155号南通印象城南区B栋4楼L4-13",
+    "tags": [
+      "050109"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山中无老虎·鱼蛙火锅店",
+    "city": "南通",
+    "category": "food",
+    "description": "位于青年中路7号中城大厦(易家桥地铁站1号口步行50米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山盼盼云南野生菌火锅(南通首店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于小海街道崇州大道63号紫琅湖新天地1号C区城202号2层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山语水驿栈(静海商贸街分店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于狼山风景名胜区静海商贸街6幢11室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市政广场",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于图书馆地铁站1号口步行490米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "希雅艺术酒店(南通濠河风景区店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于人民中路60号润友大厦F4层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广宏宾馆(国强路)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于国强路86号(南通广宏船舶工程有限公司)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德庄火锅(南通店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于青年西路12号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德胜斋(水绘园店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于碧霞路299号水绘园",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(南通印象城店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于印象城B座一层铺位号L1-53a",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怡园休闲半岛",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于启秀路17号南通濠河风景名胜区内(东侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾宿酒店(水绘园店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于如城街道锦绣街32号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "振兴宾馆",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于北新街699号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "捞王猪肚鸡火锅(南通印象城店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于工农南路155号南通印象城第四层L4-26b商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敬火锅(星湖店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于新开南路166号(怡莱酒店隔壁)敬火锅",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敬香台",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于狼山镇临港路18号南通狼山风景名胜区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文峰公园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于城山路5号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "早思民宿(万都广场店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于如城街道中山路岩玺公寓2318室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星月宾馆(长江中路店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于长江镇春江花苑三期",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春秋快捷酒店(总部直营店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于通榆中路89号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曹顶纪念公园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于城山路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳三奇.柳州螺蛳粉",
+    "city": "南通",
+    "category": "food",
+    "description": "位于永兴街道深南路茂发自由自宅永和大厦幢104室、105室",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(世茂广场店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于星湖街世茂云锦19栋1楼105号(薛记炒货东120米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(南大街店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于新城桥街道南大街兴胜大厦一层129-5号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栟茶古镇",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "校西新都会民宿(京扬广场店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于钟秀街道人民中路258号绿地新都会4号楼1层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梦溪轩民宿(南通火车站万象城店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于唐闸镇街道北大街鸿鸣金属广场A栋三层三号电梯",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梵音广场",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于山水路南通狼山风景名胜区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "棒约翰披萨(南通印象城店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于工农南路155号印象城B栋第一层L1-30号(棒约翰)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椰故里·椰子鸡·糟粕醋火锅",
+    "city": "南通",
+    "category": "food",
+    "description": "位于工农南路155号印象城5号楼4层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水绘园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于碧霞路299号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水脉堂现煮海鲜粥(濠南路店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于濠南路155号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "氿熹干锅·牛蛙·烤鱼(印象城店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于工农南路155号印象城L4-16",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉堡王(南通凤凰文化广场)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于崇文路86号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泊印·致选酒店(南通通州汽车站建设路店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于建设路191号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海安温馨旅馆",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于鑫来路55号旅馆住宿",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(CBD大有境生日主题店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于桃园路10号CBD大有境B座5层003号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(北翼玖玖广场)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于工农北路9号北翼玖玖广场3号楼3层301、302、303、304号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(南山湖水街店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于珠江路南山湖水街商业中心14楼2层201-210号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(永旺梦乐城生日主题店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于新开街道星湖大道1066号永旺梦乐城星湖购物中心195号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海鲨湾海鲜馆(南通二建总部大厦店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于公园南路200号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清源广场",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于白塘路与虹桥路交叉口西南60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨江体育公园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于狼山镇街道山水路3号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨江公园-南通廉洁文化广场",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于滨江公园(西北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨江花海",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于长江中路259号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "火红灯笼老北京涮羊肉(凤凰店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于崇文路6号南通市凤凰文化广场F1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牡丹园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于啬园路南通大学",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百味佳自选中餐厅(南通市凤凰文化广场店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于崇文路6号南通市凤凰文化广场F1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福吞大碗丼(凤凰广场店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于崇文路6号凤凰文化广场1层",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福茂泷牛蛙火锅烧鸡公",
+    "city": "南通",
+    "category": "food",
+    "description": "位于华山小区朝霞西路666号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫琅公园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于朝阳路10号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫琅公园湖山广场",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于朝阳路10号紫琅公园(西南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫琅公园白沙滩",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于朝阳路10号紫琅公园内(南侧)",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫琅湖",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于新开街道朝阳路10号紫琅公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫琅花谷",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于朝阳路10号紫琅公园内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿轴公园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于崇川路江宁路之间",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缔凡公寓",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于三星镇纺都大道35号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(南通平潮店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于平潮镇建设路137号",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣苑荟馆·港式和牛海鲜火锅",
+    "city": "南通",
+    "category": "food",
+    "description": "位于工农南路155号(政务中心地铁站1号口步行160米)印象城外围独栋",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虎火锅·怀旧商店(南通店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于和平街道环城南路90号西南营明坊01室(电信大厦西隔壁)王子饭店可免费停车4小时",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁山山重庆火锅(慈善博物馆店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于文峰街道虹桥路515号L17-L25",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "裤子港河道公园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于世纪大道1号(盘香路地铁站1号口步行210米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诚信文化广场",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于人民中路与通京大道交叉口东南120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达美乐比萨(万象城店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于北大街111号南通万象城L1层L116a号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达美乐比萨(大有境店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于文峰街道桃园路12号中南城购物中心A座L1006号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "通京大道小游园",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于通京大道西侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钟楼广场",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于人民中路47号6楼(友谊桥地铁站5号口步行240米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钱缘面馆(中南店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于中南世纪城7号楼103号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锅里岩传统南通菜(印象城店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于工农南路155号印象城F4层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长风宾馆(教育路店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于教育路45号(紫东花苑北大门对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阪乾澳洲和牛烧肉(南通首店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于工农南路155号印象城F1",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿达师傅鱼汤面(孩儿巷店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于孩儿巷北路23号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿达师傅鱼汤面(工农南路店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于工农南路164号1011",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷椒椒·山野菜市火锅(如皋总店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于如城街道健康路8-25号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷椒椒山野菜市火锅旗舰店(电视塔店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于人民中路111号一层02室西南侧",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷椒椒菜市火锅(海安总店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于新宁路32号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青年公寓(南通华强城店)",
+    "city": "南通",
+    "category": "hotel",
+    "description": "位于唐闸镇街道华强城68号1906室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "静海楼早餐店",
+    "city": "南通",
+    "category": "food",
+    "description": "位于学田街道教育路17号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "面庭芳·苏式精致面馆(海门首店)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于青海东路186号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺华楼包子店",
+    "city": "南通",
+    "category": "food",
+    "description": "位于桃坞路濠河名邸71号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "风帆广场",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于滨江公园(南侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(南通印象城餐厅)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于工农路东,洪江路南的印象城商场B1-12号、L1-36C号商铺",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(南通桃园路餐厅)",
+    "city": "南通",
+    "category": "food",
+    "description": "位于桃园路12号中南城购物中心一楼01-008号",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄金海滩",
+    "city": "南通",
+    "category": "attraction",
+    "description": "位于圆陀角旅游度假区(336省道最东边右拐100米直行)",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙啸老火锅",
+    "city": "南通",
+    "category": "food",
+    "description": "位于人民中路123号附1号龙啸老火锅",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

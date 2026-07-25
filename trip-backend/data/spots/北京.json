@@ -1,63 +1,390 @@
 [
   {
-    "name": "天安门广场",
+    "name": "93号院博物馆",
     "city": "北京",
     "category": "attraction",
-    "description": "天安门广场位于北京市东城区东长安街，是中国的国家象征和重要政治活动场所，也是世界上最大的城市广场之一，周边有人民大会堂、国家博物馆、毛主席纪念堂等建筑。",
+    "description": "位于铁树斜街93号院",
     "tags": [
-      "红色景区",
-      "城市广场",
-      "风景名胜"
+      "140100"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放（特定时间需安检）",
-    "rating": 4.8
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "天安门",
+    "name": "99优选酒店(北京良乡南关地铁站店)",
     "city": "北京",
-    "category": "attraction",
-    "description": "天安门是北京的地标性建筑，位于长安街北侧，是中国的象征之一。",
+    "category": "hotel",
+    "description": "位于拱辰街道拱辰南大街44号院1号楼2层2027/2028号",
     "tags": [
-      "风景名胜",
-      "国家级景点"
+      "100100"
     ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "全天开放",
-    "rating": 4.8
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "故宫博物院",
+    "name": "CBD文化广场",
     "city": "北京",
     "category": "attraction",
-    "description": "故宫博物院，又称紫禁城，位于北京中轴线的中心，是明清两代的皇家宫殿，也是世界上现存规模最大、保存最完整的木质结构古建筑群。故宫博物院收藏了大量珍贵文物，是中国最大的古代文化艺术博物馆。",
+    "description": "位于通惠河北路建外CBD文化广场",
     "tags": [
-      "世界遗产",
-      "博物馆",
-      "古建筑",
-      "北京"
+      "110105"
     ],
-    "avgCost": 60,
-    "duration": "3-4小时",
-    "openTime": "08:30-17:00",
-    "rating": 4.8
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "天坛公园",
+    "name": "E2E Test Spot",
+    "city": "北京",
+    "category": "景点",
+    "description": "E2E 测试用景点",
+    "tags": [],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "E2E Test Spot",
+    "city": "北京",
+    "category": "景点",
+    "description": "E2E 测试用景点",
+    "tags": [],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "E2E Test Spot",
+    "city": "北京",
+    "category": "景点",
+    "description": "E2E 测试用景点",
+    "tags": [],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "E2E Test Spot",
+    "city": "北京",
+    "category": "景点",
+    "description": "E2E 测试用景点",
+    "tags": [],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "E2E Test Spot",
+    "city": "北京",
+    "category": "景点",
+    "description": "E2E 测试用景点",
+    "tags": [],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "E2E Test Spot",
+    "city": "北京",
+    "category": "景点",
+    "description": "E2E 测试用景点",
+    "tags": [],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "E2E Test Spot",
+    "city": "北京",
+    "category": "景点",
+    "description": "E2E 测试用景点",
+    "tags": [],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "Wagas沃歌斯(北京东方广场店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区东长安街1号西区1号楼(王府井地铁站A东北口步行140米)东方广场平台层W2",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "wohkoon者行孙精选酒店(北京朝阳路十里堡店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于朝阳路十里堡3号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "wohkoon者行孙酒店(北京宋家庄地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于榴乡路86号1号楼3层(宋家庄地铁站G西南1口步行450米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "wohkoon者行孙酒店(北京鸟巢北苑地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "wohkoon者行孙酒店位于北京朝阳区北苑，紧邻鸟巢和北苑地铁站，交通便利。酒店以现代简约风格装修，提供舒适住宿环境，适合商务及旅游出行。",
+    "tags": [
+      "酒店",
+      "住宿",
+      "北京",
+      "鸟巢",
+      "北苑"
+    ],
+    "avgCost": 350.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.5
+  },
+  {
+    "name": "wohkoon者行孙酒店(北京鸟巢北苑地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "wohkoon者行孙酒店(北京鸟巢北苑地铁站店)，位于紫绶园4号楼底商二层，朝阳区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "wohkoon者行孙酒店(北京鸟巢北苑地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "wohkoon者行孙酒店(北京鸟巢北苑地铁站店)，位于紫绶园4号楼底商二层，朝阳区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "wohkoon者行孙酒店(北京鸟巢北苑地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "wohkoon者行孙酒店(北京鸟巢北苑地铁站店)，位于紫绶园4号楼底商二层，朝阳区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "wohkoon者行孙酒店(北京鸟巢北苑地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "wohkoon者行孙酒店位于北京朝阳区北苑，紧邻鸟巢和北苑地铁站，交通便利。酒店以现代简约风格装修，提供舒适住宿环境，适合商务及旅游出行。",
+    "tags": [
+      "酒店",
+      "住宿",
+      "北京",
+      "鸟巢",
+      "北苑"
+    ],
+    "avgCost": 350.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.5
+  },
+  {
+    "name": "wohkoon者行孙酒店(北京鸟巢北苑地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于紫绶园4号楼底商二层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "wohkoon者行孙青年酒店(北京奥森公园北苑店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于天朗园C座3层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一帆小院(北京大兴国际机场店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于礼贤镇伍各庄村西三条31号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一楼一火锅饭店(中关村)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于中关村大街49号7号楼1层1012层201",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三样菜(东直门店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于东直门外新中街甲1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三样菜(阜成路店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区阜成路定慧北里23号蓝宏中心1-2层",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东四胡同博物馆",
     "city": "北京",
     "category": "attraction",
-    "description": "天坛公园是明清两代皇帝祭天祈谷的场所，是中国现存最大的古代祭祀性建筑群。",
+    "description": "位于北京市东四街道北京市东四街道东四四条77号",
     "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
+      "140100"
     ],
-    "avgCost": 15,
-    "duration": "2小时",
-    "openTime": "06:00-21:00",
-    "rating": 4.7
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东岳文化广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于神路街与朝外南街交叉口北40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东方会馆",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于小屯西路欢乐水魔方附近",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东鹏夜市",
+    "city": "北京",
+    "category": "food",
+    "description": "位于陶庄路与化工路辅路交叉口东180米",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丝路传奇·中国拉面航母店(望京总店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区湖光中街9号(望京地铁站H西南口步行110米)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中华文化园优龙园度假村",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于优龙路明春苑甲3号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "中国国家博物馆",
@@ -69,41 +396,171 @@
       "历史",
       "文化"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "2-3小时",
     "openTime": "09:00-17:00（周一闭馆）",
     "rating": 4.5
   },
   {
-    "name": "景山公园",
+    "name": "中国国家博物馆",
     "city": "北京",
     "category": "attraction",
-    "description": "景山公园位于北京市西城区景山西街44号，是一座历史悠久且风景优美的皇家园林，以其独特的山景和古建筑闻名。",
+    "description": "中国国家博物馆，位于东长安街16号天安门广场东侧，东城区，类型博物馆 博物馆。",
     "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
+      "博物馆",
+      "博物馆"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "王府井步行街",
+    "name": "中国国家博物馆",
     "city": "北京",
     "category": "attraction",
-    "description": "王府井步行街是北京最著名的商业街之一，位于东城区，拥有众多百货商场、专卖店、老字号店铺以及各种美食小吃，是购物和观光的理想去处。",
+    "description": "中国国家博物馆，位于东长安街16号天安门广场东侧，东城区，类型博物馆 博物馆。",
     "tags": [
-      "购物",
-      "商业街",
-      "北京",
-      "步行街"
+      "博物馆",
+      "博物馆"
     ],
-    "avgCost": 200,
-    "duration": "3小时",
-    "openTime": "10:00-22:00",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国国家博物馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "中国国家博物馆，位于东长安街16号天安门广场东侧，东城区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国国家博物馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "中国国家博物馆位于天安门广场东侧，是展示中华文明的重要窗口，馆藏丰富，涵盖从远古到现代的各类文物。",
+    "tags": [
+      "博物馆",
+      "历史",
+      "文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "09:00-17:00（周一闭馆）",
     "rating": 4.5
+  },
+  {
+    "name": "中国国家博物馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于东长安街16号天安门广场东侧",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国地质博物馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于西四羊肉胡同15号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国妇女儿童博物馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于北极阁路9号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国海关博物馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于建国门内大街2号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国美术馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于五四大街1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国警察博物馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于东长安街14号公安部办公大楼D座",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国钱币博物馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于西交民巷17号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中央礼品文物管理中心",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于西兴隆街1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "中山公园",
@@ -115,10 +572,1269 @@
       "公园广场",
       "公园"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "2小时",
     "openTime": "06:00-20:00",
     "rating": 4.5
+  },
+  {
+    "name": "中山公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "中山公园，位于中华路4号(天安门西侧)，东城区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "中山公园，位于中华路4号(天安门西侧)，东城区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "中山公园，位于中华路4号(天安门西侧)，东城区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "中山公园位于北京市东城区中华路4号，天安门西侧，是纪念孙中山先生的公园，内有古柏、社稷坛等历史遗迹。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "06:00-20:00",
+    "rating": 4.5
+  },
+  {
+    "name": "中山公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于中华路4号(天安门西侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丰泽园饭店(王府井店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于王府井大街301号王府井商厦5层(王府井图书大厦对面蜜雪冰城隔壁电梯上去)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐园夜市场(五道口店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于华清嘉园12号楼酒吧街底商3层火鬼上三楼",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐寿堂",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于新建宫门路19号颐和园内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九华山庄",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于顺沙路75号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "京华楼饭庄(亚运村店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区慧忠北里111号楼2层202号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "京康隆酒店(北京二外南门二店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于三间房乡梆子井村84号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "京都友房青年酒店(北京望京店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于阜通西大街辅路与望京街辅路交叉口西南160米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "什刹海",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于地安门西大街49号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "什刹海-前海",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于地安门西大街49号什刹海(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "什刹海-后海",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于羊房胡同甲23-3号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "今遇良缘度假村",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于王佐镇后甫营村61号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "众望青旅商务酒店",
+    "city": "北京",
+    "category": "hotel",
+    "description": "众望青旅商务酒店位于北京市朝阳区三间房西路，提供舒适的住宿服务，适合商务旅客和旅行者。酒店设施齐全，环境整洁，周边交通便利。",
+    "tags": [
+      "酒店",
+      "住宿服务",
+      "经济型"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "众望青旅商务酒店",
+    "city": "北京",
+    "category": "hotel",
+    "description": "众望青旅商务酒店，位于三间房西路1号院3号楼1层3-1室57号，朝阳区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "众望青旅商务酒店",
+    "city": "北京",
+    "category": "hotel",
+    "description": "众望青旅商务酒店，位于三间房西路1号院3号楼1层3-1室57号，朝阳区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "众望青旅商务酒店",
+    "city": "北京",
+    "category": "hotel",
+    "description": "众望青旅商务酒店，位于三间房西路1号院3号楼1层3-1室57号，朝阳区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "众望青旅商务酒店",
+    "city": "北京",
+    "category": "hotel",
+    "description": "众望青旅商务酒店位于北京市朝阳区三间房西路，提供舒适的住宿服务，适合商务旅客和旅行者。酒店设施齐全，环境整洁，周边交通便利。",
+    "tags": [
+      "酒店",
+      "住宿服务",
+      "经济型"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "众望青旅商务酒店(北京传媒大学褡裢坡地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于三间房西路1号院3号楼1层3-1室57号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "住小叮连锁酒店(北京安贞医院安贞门地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于安贞街道安贞路安贞西里五区一号一层133",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "便宜坊烤鸭(王府井王府商厦店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于王府井大街301号王府商厦四层403华为或蜜雪冰城进入电梯四楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "全聚德(北京和平门店)",
+    "city": "北京",
+    "category": "food",
+    "description": "全聚德是中华老字号，以北京烤鸭闻名，位于和平门地铁站附近。菜品正宗，环境优雅，是品尝北京菜的经典餐厅。",
+    "tags": [
+      "老字号",
+      "北京菜",
+      "中餐厅",
+      "烤鸭"
+    ],
+    "avgCost": 180.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "全聚德(北京和平门店)",
+    "city": "北京",
+    "category": "food",
+    "description": "全聚德(北京和平门店)，位于北京城区前门西大街14号楼(和平门地铁站C2东南口步行80米)，西城区，类型中餐厅 北京菜。",
+    "tags": [
+      "中餐厅",
+      "北京菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "全聚德(北京和平门店)",
+    "city": "北京",
+    "category": "food",
+    "description": "全聚德(北京和平门店)，位于北京城区前门西大街14号楼(和平门地铁站C2东南口步行80米)，西城区，类型中餐厅 北京菜。",
+    "tags": [
+      "中餐厅",
+      "北京菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "全聚德(北京和平门店)",
+    "city": "北京",
+    "category": "food",
+    "description": "全聚德(北京和平门店)，位于北京城区前门西大街14号楼(和平门地铁站C2东南口步行80米)，西城区，类型中餐厅 北京菜。",
+    "tags": [
+      "中餐厅",
+      "北京菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "全聚德(北京和平门店)",
+    "city": "北京",
+    "category": "food",
+    "description": "全聚德是中华老字号，以北京烤鸭闻名，位于和平门地铁站附近。菜品正宗，环境优雅，是品尝北京菜的经典餐厅。",
+    "tags": [
+      "老字号",
+      "北京菜",
+      "中餐厅",
+      "烤鸭"
+    ],
+    "avgCost": 180.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "八达岭金色驿站",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于八达岭镇西拨子村104",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八达岭长城",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于G6京藏高速58号出口",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤河古镇",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于留民营路留民营文化园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘老根文化广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于前门东路小江胡同38号(珠市口地铁站C东南口步行360米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "初色海鲜自助(王府井喜悦店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于王府井喜悦购物中心7层(王府井地铁站E1口旁)",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前门公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于天安门广场(前门地铁站I西南口步行230米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前门大街夜市",
+    "city": "北京",
+    "category": "food",
+    "description": "位于前门东路与崇文门西河沿交叉口西200米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京三禾客栈(万寿寺地铁站外国语大学店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于西三环北路甲6号平房(万寿寺地铁站A西北口步行460米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京云朵民宿(解放军301医院店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于复兴路36号院2号楼6单元1层108室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京仟禧公寓(生物医药基地地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于中关村国家自主创新示范区生物医药产业基地天华大街9号院珺悦国际南1门",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京佳凯荣兵客栈",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于潭柘寺镇赵家台村东四排43号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京凯瑞御仙都皇家菜博物馆",
+    "city": "北京",
+    "category": "food",
+    "description": "北京凯瑞御仙都皇家菜博物馆是一家以皇家菜为主题的综合酒楼，兼具餐饮和博物馆功能，位于海淀区西四环北路金四季购物中心。",
+    "tags": [
+      "中餐厅",
+      "皇家菜",
+      "博物馆",
+      "综合酒楼"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "北京凯瑞御仙都皇家菜博物馆",
+    "city": "北京",
+    "category": "food",
+    "description": "北京凯瑞御仙都皇家菜博物馆，位于西四环北路117号金四季购物中心F1层，海淀区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京凯瑞御仙都皇家菜博物馆",
+    "city": "北京",
+    "category": "food",
+    "description": "北京凯瑞御仙都皇家菜博物馆，位于西四环北路117号金四季购物中心F1层，海淀区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京凯瑞御仙都皇家菜博物馆",
+    "city": "北京",
+    "category": "food",
+    "description": "北京凯瑞御仙都皇家菜博物馆，位于西四环北路117号金四季购物中心F1层，海淀区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京凯瑞御仙都皇家菜博物馆",
+    "city": "北京",
+    "category": "food",
+    "description": "北京凯瑞御仙都皇家菜博物馆是一家以皇家菜为主题的综合酒楼，兼具餐饮和博物馆功能，位于海淀区西四环北路金四季购物中心。",
+    "tags": [
+      "中餐厅",
+      "皇家菜",
+      "博物馆",
+      "综合酒楼"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "北京刘建茹客栈",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于赵家台民俗旅游村40号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京古代建筑博物馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于东经路21号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京司马台亿亨艺墅民俗客栈",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于沙岭村41-1(紧邻游客接待中心)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京司马台保利民俗院",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于司马台民俗新村小岭34-3",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京和平寺圆通乡村民宿",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于马兴路兴隆口村委会对过",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京坊西广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于北京市大栅栏街道大栅栏街道大栅栏街道廊房头条13号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京壹号院客栈(欢乐松鼠谷店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于太师屯镇东田各庄村101国道旁一号院",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京大漠客栈",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于松园路81号(临近中国政法大学)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京好再来公寓",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于塔院东街塔院朗秋园-5号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京安居客宾馆",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于云景南大街120号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京宝全客栈",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于穆家峪镇阁老峪村20-1",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京宴(丰台总店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区靛厂路3号楼",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京宴(崇文门新世界店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于祈年大街8号北京新世界酒店内",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京尚品优选商务酒店(首都机场新国展店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于李桥镇南半壁店壁富路甲一号3号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京市灵谷苑度假村",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于新城子镇曹家路村南一千米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京快乐天地商务酒店",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于琉璃河二街村村北10号楼2-3层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京明城墙遗址公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于崇文门东大街9号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京明城墙遗址公园-劳模广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于崇文门东大街9号北京明城墙遗址公园内(西侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京明城墙遗址公园-玉棠广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于崇文门东大街9号北京明城墙遗址公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京星启庭院(大兴国际机场店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于东郏河村西三条东二号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京星空阁美宿(大兴机场店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于礼贤镇东郏河村东源巷东一条1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京术合饭店(十渡景区乐谷银滩店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于张坊镇千河口村二区10号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京检察博物馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于东交民巷39号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京海澜商务宾馆(首都机场新国展店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于楼台村东环路九条8号院",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京淑英客栈(潭柘寺风景区店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于潭柘寺镇赵家台民族旅游村东二排十二号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京清凉谷度假村",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于石城镇贾峪村",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京温馨雅悦客栈",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于新村街道鸿业兴园一区6号楼4单元1001",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京漫都商务酒店(房山区第一医院店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于城关镇房窑路7号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京潭柘永辉客栈",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于潭柘寺镇赵家台村100号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京王秀金农家院(潭柘寺风景区店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于潭柘寺镇赵家台民俗旅游村东四排51号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京环球度假区",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于梨园镇环球大道",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京舒欣小筑(大兴国际机场店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于礼贤镇东郏河村东四条27号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京艺栈青年酒店(燕莎亮马桥地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于朝阳区新源南路甲3号佳亿广场F4层的青年酒店，靠近亮马桥地铁站，交通便利。",
+    "tags": [
+      "青年酒店",
+      "经济型",
+      "地铁沿线"
+    ],
+    "avgCost": 200.0,
+    "duration": "不定",
+    "openTime": "24小时",
+    "rating": 4.3
+  },
+  {
+    "name": "北京艺栈青年酒店(燕莎亮马桥地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "北京艺栈青年酒店(燕莎亮马桥地铁站店)，位于新源南路甲3号佳亿广场F4层，朝阳区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京艺栈青年酒店(燕莎亮马桥地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "北京艺栈青年酒店(燕莎亮马桥地铁站店)，位于新源南路甲3号佳亿广场F4层，朝阳区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京艺栈青年酒店(燕莎亮马桥地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "北京艺栈青年酒店(燕莎亮马桥地铁站店)，位于新源南路甲3号佳亿广场F4层，朝阳区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京艺栈青年酒店(燕莎亮马桥地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于朝阳区新源南路甲3号佳亿广场F4层的青年酒店，靠近亮马桥地铁站，交通便利。",
+    "tags": [
+      "青年酒店",
+      "经济型",
+      "地铁沿线"
+    ],
+    "avgCost": 200.0,
+    "duration": "不定",
+    "openTime": "24小时",
+    "rating": 4.3
+  },
+  {
+    "name": "北京艺栈青年酒店(燕莎亮马桥地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于新源南路甲3号佳亿广场F4层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京花好月圆民宿",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于张坊镇下寺村",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京蓝天商务宾馆(首都机场新国展店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于李桥镇半壁店村壁富路甲一号北区4号楼4101室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京警察博物馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于东交民巷36号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京贝贝酒店(环球度假区店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于梨园镇梨园村九棵树东路商业街3号楼5单元301",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京轻炫公寓",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于南法信镇信达路17号院7号楼767室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京连升商务酒店",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于大栅栏西街32号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京逸家公寓",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于亦庄金茂府4号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京马秀英客栈(潭柘寺风景区店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于北京市门头沟区谭柘寺镇赵家台民俗旅游村东五排64号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京鲁迅博物馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于阜城门内宫门口二条19号(阜成门地铁站B东北口步行260米)",
+    "tags": [
+      "110210"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北平楼烤鸭·京菜(牡丹园店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区牡丹园西里16号楼1-2层",
+    "tags": [
+      "050111"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北平食府·臻品私宴(王府井店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于王府井大街218-1号北方佳苑二楼8号线王府井站E3口出",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "北海公园",
@@ -131,27 +1847,406 @@
       "皇家园林",
       "古建筑"
     ],
-    "avgCost": 10,
+    "avgCost": 10.0,
     "duration": "2-3小时",
     "openTime": "06:30-20:00",
     "rating": 4.5
   },
   {
-    "name": "故宫博物院-午门",
+    "name": "北海公园",
     "city": "北京",
     "category": "attraction",
-    "description": "故宫博物院午门位于北京中轴线上，是紫禁城的正门，建于明永乐年间，面阔九间，进深五间，形制宏伟。午门是皇帝举行重要仪式的场所，也是游客进入故宫的主要入口之一，其独特的\"明三暗五\"城门结构极具特色。",
+    "description": "北海公园，位于文津街1号，西城区，类型公园广场 公园。",
     "tags": [
-      "故宫",
-      "午门",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北海公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "北海公园，位于文津街1号，西城区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北海公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "北海公园，位于文津街1号，西城区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北海公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "北海公园位于北京市西城区文津街1号，是中国现存最古老、最完整的皇家园林之一，拥有琼华岛、白塔等著名景点。",
+    "tags": [
       "风景名胜",
-      "北京",
+      "公园",
+      "皇家园林",
       "古建筑"
     ],
-    "avgCost": 0,
-    "duration": "0.5小时",
-    "openTime": "08:30-16:30（旺季） 08:30-15:30（淡季）",
-    "rating": 4.8
+    "avgCost": 10.0,
+    "duration": "2-3小时",
+    "openTime": "06:30-20:00",
+    "rating": 4.5
+  },
+  {
+    "name": "北海公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于文津街1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北海公园-九龙壁",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于什刹海街道文津街1号(故宫北)北海公园西天梵境内",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北邵洼夜市",
+    "city": "北京",
+    "category": "food",
+    "description": "位于内环东路58号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十七孔桥",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于青龙桥街道新建宫门路19号颐和园内(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "升旗台",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于北京市东华门街道东华门街道西长安街与广场西侧路交叉口东160米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "升港国际商务酒店",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于首都机场西平街12号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华天延吉餐厅(总店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于西四北大街181号",
+    "tags": [
+      "050113"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南池子大街",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于南池子大街与东华门大街交叉口西南20米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南海子公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于黄亦路16号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南锣鼓巷",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于交道口街道南大街(南锣鼓巷地铁站E西北口旁)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南门涮肉(东单店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于建国门内大街26号新闻大厦北门3层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南门涮肉(北洼路店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区北洼路28号地下一层至地上二层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南门涮肉(后海店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于南官房胡同1号(什刹海地铁站出入口步行400米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南门涮肉(天坛店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区永定门东街东里13-1-2",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "又一號老北京铜锅涮肉",
+    "city": "北京",
+    "category": "food",
+    "description": "位于西打磨厂街51号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古北云梦度假别墅(古北口水镇景区店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于古北口镇次一路龙湖长城源著12号楼317室前台",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古北水镇",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于古北口镇司马台村(京承高速司马台长城出口向北2公里)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古北水镇-石栏处俯拍古镇(打卡点)",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于古北水镇(西南角)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城村西大街",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于顺义区",
+    "tags": [
+      "190301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "史家胡同博物馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于朝阳门街道东四南大街史家胡同24号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同德泰客栈(北京市平谷步行街店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于平谷镇文化北街4号体育服务中心4-18东侧",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同福宾馆(北京国展中心店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于西坝河西里10号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "君如小院",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于清正南路四条24号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈德文广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于西花市大街与国瑞西路交叉口西约80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四世同堂·京菜·烤鸭(亚运村店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区安慧里四区16号(中国化工大厦停车场内)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四世同堂·京菜·烤鸭(德胜店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区北三环中路6号9幢",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "四季民福烤鸭店(前门店)",
@@ -162,7 +2257,63 @@
       "中餐厅",
       "特色/地方风味餐厅"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "四季民福烤鸭店(前门店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(前门店)，位于大栅栏街1号(和珠宝市街交汇处)，西城区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季民福烤鸭店(前门店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(前门店)，位于大栅栏街1号(和珠宝市街交汇处)，西城区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季民福烤鸭店(前门店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(前门店)，位于大栅栏街1号(和珠宝市街交汇处)，西城区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季民福烤鸭店(前门店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(前门店)是位于北京西城区大栅栏街1号的特色中餐厅，以烤鸭闻名。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
@@ -177,24 +2328,66 @@
       "北京菜",
       "中餐厅"
     ],
-    "avgCost": 150,
+    "avgCost": 150.0,
     "duration": "2小时",
     "openTime": "10:00-21:00",
     "rating": 4.5
   },
   {
-    "name": "四季民福烤鸭店(安德路店)",
+    "name": "四季民福烤鸭店(呼家楼店)",
     "city": "北京",
     "category": "food",
-    "description": "四季民福烤鸭店(安德路店)是一家位于北京东城区的特色中餐厅，以烤鸭为主打，深受食客喜爱。",
+    "description": "四季民福烤鸭店(呼家楼店)，位于向军南里二巷5号15号楼(呼家楼站D西南口步行190m)，朝阳区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季民福烤鸭店(呼家楼店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(呼家楼店)，位于向军南里二巷5号15号楼(呼家楼站D西南口步行190m)，朝阳区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季民福烤鸭店(呼家楼店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(呼家楼店)，位于向军南里二巷5号15号楼(呼家楼站D西南口步行190m)，朝阳区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季民福烤鸭店(呼家楼店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(呼家楼店)位于北京市朝阳区向军南里二巷5号15号楼(呼家楼站D西南口步行190m)，是一家以烤鸭为特色的中餐厅。",
     "tags": [
       "烤鸭",
-      "中餐",
-      "北京美食"
+      "北京菜",
+      "中餐厅"
     ],
-    "avgCost": 150,
+    "avgCost": 150.0,
     "duration": "2小时",
-    "openTime": "11:00-21:30",
+    "openTime": "10:00-21:00",
     "rating": 4.5
   },
   {
@@ -208,25 +2401,139 @@
       "中餐",
       "特色餐厅"
     ],
-    "avgCost": 150,
+    "avgCost": 150.0,
     "duration": "2小时",
     "openTime": "10:00-22:00",
     "rating": 4.5
   },
   {
-    "name": "全聚德(北京和平门店)",
+    "name": "四季民福烤鸭店(和平里店)",
     "city": "北京",
     "category": "food",
-    "description": "全聚德是中华老字号，以北京烤鸭闻名，位于和平门地铁站附近。菜品正宗，环境优雅，是品尝北京菜的经典餐厅。",
+    "description": "四季民福烤鸭店(和平里店)，位于和平里街21号北京商报1-2层(天丰利商场旁)，朝阳区，类型中餐厅 特色/地方风味餐厅。",
     "tags": [
-      "老字号",
-      "北京菜",
       "中餐厅",
-      "烤鸭"
+      "特色/地方风味餐厅"
     ],
-    "avgCost": 180,
-    "duration": "1.5小时",
-    "openTime": "11:00-21:00",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季民福烤鸭店(和平里店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(和平里店)，位于和平里街21号北京商报1-2层(天丰利商场旁)，朝阳区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季民福烤鸭店(和平里店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(和平里店)，位于和平里街21号北京商报1-2层(天丰利商场旁)，朝阳区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季民福烤鸭店(和平里店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(和平里店)位于北京市朝阳区和平里街21号，是一家以传统北京烤鸭为特色的中餐厅，菜品精致，环境舒适。",
+    "tags": [
+      "烤鸭",
+      "北京菜",
+      "中餐",
+      "特色餐厅"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "四季民福烤鸭店(安德路店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(安德路店)是一家位于北京东城区的特色中餐厅，以烤鸭为主打，深受食客喜爱。",
+    "tags": [
+      "烤鸭",
+      "中餐",
+      "北京美食"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "11:00-21:30",
+    "rating": 4.5
+  },
+  {
+    "name": "四季民福烤鸭店(安德路店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(安德路店)，位于安德路甲10号1号楼(N31酒店旁)，东城区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季民福烤鸭店(安德路店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(安德路店)，位于安德路甲10号1号楼(N31酒店旁)，东城区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季民福烤鸭店(安德路店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(安德路店)，位于安德路甲10号1号楼(N31酒店旁)，东城区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季民福烤鸭店(安德路店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(安德路店)是一家位于北京东城区的特色中餐厅，以烤鸭为主打，深受食客喜爱。",
+    "tags": [
+      "烤鸭",
+      "中餐",
+      "北京美食"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "11:00-21:30",
     "rating": 4.5
   },
   {
@@ -240,37 +2547,65 @@
       "烤鸭",
       "餐饮服务"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "民族京味(潘家园店)",
+    "name": "四季民福烤鸭店(故宫店)",
     "city": "北京",
     "category": "food",
-    "description": "民族京味（潘家园店）是一家位于北京朝阳区的清真菜馆，主打老北京风味菜肴，环境干净整洁，适合朋友聚餐。",
+    "description": "四季民福烤鸭店(故宫店)，位于南池子大街11号故宫东门旁(距趣拿步行780m)，东城区，类型中餐厅 北京菜。",
     "tags": [
-      "北京菜",
-      "清真",
-      "潘家园"
+      "中餐厅",
+      "北京菜"
     ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "10:00-21:00",
-    "rating": 4.2
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "清真·鸦儿李记·涮肉(什刹海店)",
+    "name": "四季民福烤鸭店(故宫店)",
     "city": "北京",
     "category": "food",
-    "description": "清真·鸦儿李记·涮肉(什刹海店)位于北京市西城区前海东延2号，是一家以清真涮肉为特色的中餐厅。餐厅提供正宗的清真涮肉，食材新鲜，口味地道，深受食客喜爱。店内环境优雅，服务周到，是品尝北京传统涮肉的好去处。",
+    "description": "四季民福烤鸭店(故宫店)，位于南池子大街11号故宫东门旁(距趣拿步行780m)，东城区，类型中餐厅 北京菜。",
     "tags": [
-      "清真菜馆",
-      "涮肉",
-      "中餐厅"
+      "中餐厅",
+      "北京菜"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季民福烤鸭店(故宫店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(故宫店)，位于南池子大街11号故宫东门旁(距趣拿步行780m)，东城区，类型中餐厅 北京菜。",
+    "tags": [
+      "中餐厅",
+      "北京菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季民福烤鸭店(故宫店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(故宫店)位于故宫东门旁，主打正宗北京烤鸭，是品尝地道北京菜的知名餐厅。",
+    "tags": [
+      "北京菜",
+      "中餐厅",
+      "烤鸭",
+      "餐饮服务"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
@@ -286,56 +2621,984 @@
       "中餐厅",
       "特色餐厅"
     ],
-    "avgCost": 150,
+    "avgCost": 150.0,
     "duration": "1.5小时",
     "openTime": "10:00-22:00",
     "rating": 4.5
   },
   {
-    "name": "北京凯瑞御仙都皇家菜博物馆",
+    "name": "四季民福烤鸭店(马连道店)",
     "city": "北京",
     "category": "food",
-    "description": "北京凯瑞御仙都皇家菜博物馆是一家以皇家菜为主题的综合酒楼，兼具餐饮和博物馆功能，位于海淀区西四环北路金四季购物中心。",
+    "description": "四季民福烤鸭店(马连道店)，位于马连道东街2号31幢(森源大厦一层西侧)，西城区，类型中餐厅 特色/地方风味餐厅。",
     "tags": [
       "中餐厅",
-      "皇家菜",
-      "博物馆",
-      "综合酒楼"
+      "特色/地方风味餐厅"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "北京艺栈青年酒店(燕莎亮马桥地铁站店)",
+    "name": "四季民福烤鸭店(马连道店)",
     "city": "北京",
-    "category": "hotel",
-    "description": "位于朝阳区新源南路甲3号佳亿广场F4层的青年酒店，靠近亮马桥地铁站，交通便利。",
+    "category": "food",
+    "description": "四季民福烤鸭店(马连道店)，位于马连道东街2号31幢(森源大厦一层西侧)，西城区，类型中餐厅 特色/地方风味餐厅。",
     "tags": [
-      "青年酒店",
-      "经济型",
-      "地铁沿线"
+      "中餐厅",
+      "特色/地方风味餐厅"
     ],
-    "avgCost": 200,
-    "duration": "不定",
-    "openTime": "24小时",
-    "rating": 4.3
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "悦小住酒店(双井地铁站店)",
+    "name": "四季民福烤鸭店(马连道店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店(马连道店)，位于马连道东街2号31幢(森源大厦一层西侧)，西城区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季民福烤鸭店(马连道店)",
+    "city": "北京",
+    "category": "food",
+    "description": "四季民福烤鸭店是北京知名的烤鸭连锁餐厅，马连道店位于西城区马连道东街2号森源大厦一层西侧，以果木烤鸭为特色，外皮酥脆，肉质鲜嫩。",
+    "tags": [
+      "烤鸭",
+      "北京风味",
+      "中餐厅",
+      "特色餐厅"
+    ],
+    "avgCost": 150.0,
+    "duration": "1.5小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "国家体育场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于国家体育场南路1号奥林匹克公园",
+    "tags": [
+      "080101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国家大剧院",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于西长安街2号(天安门西地铁站出入口旁)",
+    "tags": [
+      "080603"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国家自然博物馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于天桥南大街126号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国礼博物馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于西兴隆街与戴家胡同交叉口西北60米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "圆明园遗址公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于清华西路28号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "地坛公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于安定门外大街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "增盛魁小吃店",
+    "city": "北京",
+    "category": "food",
+    "description": "位于大佛寺东街26号(隆福医院北)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "壶·茶馆火锅·白茶(三里屯概念店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区工人体育场北路8号三里屯SOHO商场1号楼3楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "壹条龙涮肉(台基厂店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于前门东大街2号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大柳树市场",
+    "city": "北京",
+    "category": "food",
+    "description": "位于东四环双龙华庭(南楼梓庄地铁站C东南口步行350米)",
+    "tags": [
+      "060700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大董(王府井喜悦购物中心店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于王府井大街301号喜悦购物中心5层",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大鸭梨烤鸭(王府井臻选店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于区王府井大街王府商厦四楼",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天坛公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "天坛公园是明清两代皇帝祭天祈谷的场所，是中国现存最大的古代祭祀性建筑群。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 15.0,
+    "duration": "2小时",
+    "openTime": "06:00-21:00",
+    "rating": 4.7
+  },
+  {
+    "name": "天坛公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "天坛公园，位于天坛东里甲1号，东城区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天坛公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "天坛公园，位于天坛东里甲1号，东城区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天坛公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "天坛公园，位于天坛东里甲1号，东城区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天坛公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "天坛公园是明清两代皇帝祭天祈谷的场所，是中国现存最大的古代祭祀性建筑群。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 15.0,
+    "duration": "2小时",
+    "openTime": "06:00-21:00",
+    "rating": 4.7
+  },
+  {
+    "name": "天坛公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于天坛东里甲1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天坛公园-东天门",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于天坛街道天坛路甲1号天坛公园内(东侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天坛公园-回音壁",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于天坛街道天坛路甲1号天坛公园内(东南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天坛公园-圜丘",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于天坛路甲1号天坛公园内(东南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天坛公园-斋宫",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于天坛东路甲1号天坛公园内(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天坛公园-科普园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于天坛路天坛公园(西北角)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天安门",
+    "city": "北京",
+    "category": "attraction",
+    "description": "天安门是北京的地标性建筑，位于长安街北侧，是中国的象征之一。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.8
+  },
+  {
+    "name": "天安门",
+    "city": "北京",
+    "category": "attraction",
+    "description": "天安门，位于长安街北侧，东城区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天安门",
+    "city": "北京",
+    "category": "attraction",
+    "description": "天安门，位于长安街北侧，东城区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天安门",
+    "city": "北京",
+    "category": "attraction",
+    "description": "天安门，位于长安街北侧，东城区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天安门",
+    "city": "北京",
+    "category": "attraction",
+    "description": "天安门是北京的地标性建筑，位于长安街北侧，是中国的象征之一。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.8
+  },
+  {
+    "name": "天安门",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于长安街北侧",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天安门-城楼",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于东长安街天安门(天安门东地铁站A西北入口步行290米)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天安门广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "天安门广场位于北京市东城区东长安街，是中国的国家象征和重要政治活动场所，也是世界上最大的城市广场之一，周边有人民大会堂、国家博物馆、毛主席纪念堂等建筑。",
+    "tags": [
+      "红色景区",
+      "城市广场",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放（特定时间需安检）",
+    "rating": 4.8
+  },
+  {
+    "name": "天安门广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "天安门广场，位于东长安街，东城区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天安门广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "天安门广场，位于东长安街，东城区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天安门广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "天安门广场，位于东长安街，东城区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天安门广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "天安门广场位于北京市东城区东长安街，是中国的国家象征和重要政治活动场所，也是世界上最大的城市广场之一，周边有人民大会堂、国家博物馆、毛主席纪念堂等建筑。",
+    "tags": [
+      "红色景区",
+      "城市广场",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放（特定时间需安检）",
+    "rating": 4.8
+  },
+  {
+    "name": "天安门广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于东长安街",
+    "tags": [
+      "110210"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天安门广场-国旗",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于东华门街道景山前街4号天安门广场内(北侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天安门广场中国公路零公里点",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于东长安街(前门地铁站A东北口步行80米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天意民宿",
     "city": "北京",
     "category": "hotel",
-    "description": "悦小住酒店位于北京朝阳区双井地铁站附近，提供舒适的住宿服务。",
+    "description": "位于安贞街道安贞路安贞西里四区2号楼204室",
     "tags": [
-      "酒店",
-      "住宿",
-      "双井"
+      "100200"
     ],
-    "avgCost": 400,
-    "duration": "1晚",
-    "openTime": "24小时",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天职天利颐养园",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于吴集居委会二组91号",
+    "tags": [
+      "080400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太庙",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于东长安街16号(劳动人民文化宫内)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥华餐厅老张记(台基厂店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区台基厂大街18-3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥慧宾馆(北京鸟巢大屯路东地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于亚运村安慧北里逸园20幢3层",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如家华驿酒店(首都机场顺平路店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于南法信镇顺平路558号1幢2幢",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如家派柏·云酒店(北京学院路科技大学店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于学院路20号科技大学北门斜对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "姚记炒肝店(鼓楼店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于鼓楼东大街311号(鼓楼湾东南角)",
+    "tags": [
+      "050111"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孔庙和国子监博物馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于国子监街15号,从13号先师门进入",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "学府园宾馆",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于成府路45号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安娜翔祥旅馆(北京劲松地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于劲松路劲松二区229号都城心屿6单元2楼",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宜居舍(北京龙德广场天通苑南地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于东小口镇中滩村北一街中滩园小区1号楼1单元401室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宫门口馒头铺(创始人总店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区香厂路1号第一房间",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "密云古城遗址",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于新东路281号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富卓花园广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于宣武门永光东街9号院",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富龙四季小镇国际度假",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于复兴路33号翠微大厦F1层",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小家公寓(北京良乡大学城地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于学园北街北京时代广场12号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小汤山温泉度假区",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于小汤山现代农业科技示范园内(近北六环)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小清河夜市",
+    "city": "北京",
+    "category": "food",
+    "description": "位于长于路甲3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小白青年酒店(清河小营桥地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于清河一街60号2层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小肠陈卤煮(王府井喜悦店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于王府井大街301号王府井喜悦B1层西区(王府井地铁站E1口旁)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小街猪手(团结湖店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于团结湖路9号楼1幢1-1部分",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚林民宿(北京同仁医院南区荣昌东街地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于荣华街道景园北街2号院68号楼1层8125",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尹三豆汁(前门旗舰店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于前门大栅栏街1号一楼(前门地铁站I西南口步行390米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尹三豆汁(王府井喜悦店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于王府井大街301号王府井喜悦B1层",
+    "tags": [
+      "050700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尹记门钉肉饼(天坛店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于法华南里34号楼2座一层106体育馆西路天华公馆底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "展航商务酒店",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于天柱东路12号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山野部落·古村",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于黄长路",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岔道古城民俗旅游度假区",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于八达岭关城西北八达岭镇岔道村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巡味顺德菜(王府井喜悦店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于王府井大街301号王府井喜悦购物中心F7层",
+    "tags": [
+      "050123"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巧克巧蔻·巧克力博物馆(北京馆)",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于廊坊头条2号院5号楼1层01号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "布小丁酒店(北京西客站店)",
@@ -347,43 +3610,2567 @@
       "北京西站",
       "海淀区"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "24小时",
     "rating": 3.5
   },
   {
-    "name": "众望青旅商务酒店",
+    "name": "布小丁酒店(北京西客站店)",
     "city": "北京",
     "category": "hotel",
-    "address": "三间房西路1号院3号楼1层3-1室57号",
-    "district": "朝阳区",
-    "description": "众望青旅商务酒店位于北京市朝阳区三间房西路，提供舒适的住宿服务，适合商务旅客和旅行者。酒店设施齐全，环境整洁，周边交通便利。",
+    "description": "布小丁酒店(北京西客站店)，位于莲花池东路北小马厂6号3层3号，海淀区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "布小丁酒店(北京西客站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "布小丁酒店(北京西客站店)，位于莲花池东路北小马厂6号3层3号，海淀区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "布小丁酒店(北京西客站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "布小丁酒店(北京西客站店)，位于莲花池东路北小马厂6号3层3号，海淀区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "布小丁酒店(北京西客站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "布小丁酒店位于北京西客站附近，提供舒适的住宿服务。",
     "tags": [
       "酒店",
-      "住宿服务",
-      "经济型"
+      "北京西站",
+      "海淀区"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "24小时",
+    "rating": 3.5
+  },
+  {
+    "name": "布小丁酒店(北京西客站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于莲花池东路北小马厂6号3层3号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平安锅贴(西兴隆店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区西兴隆街75号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平谷步行街",
+    "city": "北京",
+    "category": "food",
+    "description": "位于新开街与向阳北街交叉口西北20米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庭院江南菜·烤鸭·江浙菜(中关村店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区知春路111号一层101-103",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康悦公寓(五棵松301医院店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于北京城区复兴路79号院626号楼(五棵松地铁站A西北口步行220米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "延庆古城",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于井庄镇柳沟村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "建国门绿化广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于建国门(建国门地铁站A西北口步行80米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家湾古镇",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于张家湾村路与长店街交叉口西北280米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "心悦民宿",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于康辛路鸿业兴园一区6号楼4单元1001室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(东方新天地店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于东长安街1号北京东方新天地商场LG层CC03&CC06号店铺",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恭王府博物馆",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于前海西街17号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悠航SLOWBOAT(灯市口店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于东四南大街157号1层104号(灯市口地铁站A西北口旁)",
+    "tags": [
+      "050400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦小住酒店(双井地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "悦小住酒店位于北京朝阳区双井地铁站附近，提供舒适的住宿服务。",
+    "tags": [
+      "酒店",
+      "住宿",
+      "双井"
+    ],
+    "avgCost": 400.0,
+    "duration": "1晚",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "悦小住酒店(双井地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "悦小住酒店(双井地铁站店)，位于朝阳区广渠路66号院百环家园甲19号楼，朝阳区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦小住酒店(双井地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "悦小住酒店(双井地铁站店)，位于朝阳区广渠路66号院百环家园甲19号楼，朝阳区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦小住酒店(双井地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "悦小住酒店(双井地铁站店)，位于朝阳区广渠路66号院百环家园甲19号楼，朝阳区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦小住酒店(双井地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "悦小住酒店位于北京朝阳区双井地铁站附近，提供舒适的住宿服务。",
+    "tags": [
+      "酒店",
+      "住宿",
+      "双井"
+    ],
+    "avgCost": 400.0,
+    "duration": "1晚",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "悦小住酒店(双井地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于朝阳区广渠路66号院百环家园甲19号楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慕田峪长城",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于渤海镇慕田峪村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "才佰商务青年酒店(北京天坛医院白盆窑地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于樊羊路69号院2号楼116号(白盆窑地铁站A口步行150米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拉蒂娜·巴西牛排馆 Latina(王府井店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于王府井大街301号王府井喜悦购物中心F7层",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "故宫博物院",
+    "city": "北京",
+    "category": "attraction",
+    "description": "故宫博物院，又称紫禁城，位于北京中轴线的中心，是明清两代的皇家宫殿，也是世界上现存规模最大、保存最完整的木质结构古建筑群。故宫博物院收藏了大量珍贵文物，是中国最大的古代文化艺术博物馆。",
+    "tags": [
+      "世界遗产",
+      "博物馆",
+      "古建筑",
+      "北京"
+    ],
+    "avgCost": 60.0,
+    "duration": "3-4小时",
+    "openTime": "08:30-17:00",
+    "rating": 4.8
+  },
+  {
+    "name": "故宫博物院",
+    "city": "北京",
+    "category": "attraction",
+    "description": "故宫博物院，位于景山前街4号，东城区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "故宫博物院",
+    "city": "北京",
+    "category": "attraction",
+    "description": "故宫博物院，位于景山前街4号，东城区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "故宫博物院",
+    "city": "北京",
+    "category": "attraction",
+    "description": "故宫博物院，位于景山前街4号，东城区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "故宫博物院",
+    "city": "北京",
+    "category": "attraction",
+    "description": "故宫博物院，又称紫禁城，位于北京中轴线的中心，是明清两代的皇家宫殿，也是世界上现存规模最大、保存最完整的木质结构古建筑群。故宫博物院收藏了大量珍贵文物，是中国最大的古代文化艺术博物馆。",
+    "tags": [
+      "世界遗产",
+      "博物馆",
+      "古建筑",
+      "北京"
+    ],
+    "avgCost": 60.0,
+    "duration": "3-4小时",
+    "openTime": "08:30-17:00",
+    "rating": 4.8
+  },
+  {
+    "name": "故宫博物院",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于景山前街4号",
+    "tags": [
+      "110201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "故宫博物院-东北角楼",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于景山前街4号故宫博物院内(东北角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "故宫博物院-午门",
+    "city": "北京",
+    "category": "attraction",
+    "description": "故宫博物院午门位于北京中轴线上，是紫禁城的正门，建于明永乐年间，面阔九间，进深五间，形制宏伟。午门是皇帝举行重要仪式的场所，也是游客进入故宫的主要入口之一，其独特的\"明三暗五\"城门结构极具特色。",
+    "tags": [
+      "故宫",
+      "午门",
+      "风景名胜",
+      "北京",
+      "古建筑"
+    ],
+    "avgCost": 0.0,
+    "duration": "0.5小时",
+    "openTime": "08:30-16:30（旺季） 08:30-15:30（淡季）",
+    "rating": 4.8
+  },
+  {
+    "name": "故宫博物院-午门",
+    "city": "北京",
+    "category": "attraction",
+    "description": "故宫博物院-午门，位于东华门街道景山前街4号故宫博物院内(南侧)，东城区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "故宫博物院-午门",
+    "city": "北京",
+    "category": "attraction",
+    "description": "故宫博物院-午门，位于东华门街道景山前街4号故宫博物院内(南侧)，东城区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "故宫博物院-午门",
+    "city": "北京",
+    "category": "attraction",
+    "description": "故宫博物院-午门，位于东华门街道景山前街4号故宫博物院内(南侧)，东城区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "故宫博物院-午门",
+    "city": "北京",
+    "category": "attraction",
+    "description": "故宫博物院午门位于北京中轴线上，是紫禁城的正门，建于明永乐年间，面阔九间，进深五间，形制宏伟。午门是皇帝举行重要仪式的场所，也是游客进入故宫的主要入口之一，其独特的\"明三暗五\"城门结构极具特色。",
+    "tags": [
+      "故宫",
+      "午门",
+      "风景名胜",
+      "北京",
+      "古建筑"
+    ],
+    "avgCost": 0.0,
+    "duration": "0.5小时",
+    "openTime": "08:30-16:30（旺季） 08:30-15:30（淡季）",
+    "rating": 4.8
+  },
+  {
+    "name": "故宫博物院-午门",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于东华门街道景山前街4号故宫博物院内(南侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "故宫博物院-太和门广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于景山前街4号故宫博物院内(南侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "故宫博物院-神武门",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于景山前街4号北京故宫博物馆",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新和小馆·二十年老店(北新桥店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于东城区雍和宫大街155号(北新桥地铁站A口步行230米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "方砖厂69号炸酱面( 前门大街店 )",
+    "city": "北京",
+    "category": "food",
+    "description": "位于前门东路前门大街45号(距离地铁2/8号线前门站G口步行510m)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "方砖厂69号炸酱面(南锣鼓巷店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区南锣鼓巷2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "方砖厂69号炸酱面(崇文门店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区东打磨长街7号宝鼎中心A座(新活馆)南门",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "方砖厂69号炸酱面(王府井喜悦店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于王府井喜悦购物中心负一层102内P012号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "方砖厂69号炸酱面(颐和园星悦荟店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于颐和园路208号龙湖北京颐和星悦荟L1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日坛公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于朝外街道朝阳门外日坛北路6号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日坛涮肉(日坛公园店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区日坛东路9号日坛公园东侧103号(爱康国宾旁)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "时光漫步酒店(北京东直门北桥地坛公园店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于和平里南口转角楼北里5号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明双营古城",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于西唐路附近",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明清古镇",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于盛世南宫影视文化城内(西侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星湖园温泉度假村",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于铺大路1号",
+    "tags": [
+      "100102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "昭亨门",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于天坛路甲1号天坛公园内(南侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景山公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "景山公园位于北京市西城区景山西街44号，是一座历史悠久且风景优美的皇家园林，以其独特的山景和古建筑闻名。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "景山公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "景山公园，位于景山西街44号，西城区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景山公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "景山公园，位于景山西街44号，西城区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景山公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "景山公园，位于景山西街44号，西城区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景山公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "景山公园位于北京市西城区景山西街44号，是一座历史悠久且风景优美的皇家园林，以其独特的山景和古建筑闻名。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "景山公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于景山西街44号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景山公园-明思宗殉国处",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于景山西街44号景山公园内(东南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景山公园-绮望楼",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于什刹海街道景山西街44号(故宫后门对面)景山公园内(南侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景风雨燕家",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于北京城区右安门外大街6号右外大厦四层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月亮河美食欢乐夜市",
+    "city": "北京",
+    "category": "food",
+    "description": "位于芙蓉西路3号",
+    "tags": [
+      "150904"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朋朋青年酒店(北京阜通地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于望京街道望京西园四区426号楼111室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "望京宴·江浙菜·烤鸭(望京店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区望京东园融科橄榄城三期514号楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朝阳公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于朝阳公园南路1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杏林山庄",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于正蓝旗甲1号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳沟民俗旅游度假区",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于柳果路与西北路交叉口",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳沟民俗旅游度假区-柳沟凤凰古城",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于柳沟民俗旅游度假区内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "格林豪泰酒店(北京天通苑东地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于天通苑东三区商业2号楼13门",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "格林豪泰酒店(北京西二旗地铁站北外附校店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梨花小镇商务酒店(北京大兴店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于黄村镇双河南路6号1号楼1层、3层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(王府井喜悦店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区北京城区王府井大街301号王府井喜悦购物中心6层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民族京味(潘家园店)",
+    "city": "北京",
+    "category": "food",
+    "description": "民族京味（潘家园店）是一家位于北京朝阳区的清真菜馆，主打老北京风味菜肴，环境干净整洁，适合朋友聚餐。",
+    "tags": [
+      "北京菜",
+      "清真",
+      "潘家园"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.2
+  },
+  {
+    "name": "民族京味(潘家园店)",
+    "city": "北京",
+    "category": "food",
+    "description": "民族京味(潘家园店)，位于武圣东路5号院1号楼底商1层106，朝阳区，类型中餐厅 清真菜馆。",
+    "tags": [
+      "中餐厅",
+      "清真菜馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民族京味(潘家园店)",
+    "city": "北京",
+    "category": "food",
+    "description": "民族京味(潘家园店)，位于武圣东路5号院1号楼底商1层106，朝阳区，类型中餐厅 清真菜馆。",
+    "tags": [
+      "中餐厅",
+      "清真菜馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民族京味(潘家园店)",
+    "city": "北京",
+    "category": "food",
+    "description": "民族京味(潘家园店)，位于武圣东路5号院1号楼底商1层106，朝阳区，类型中餐厅 清真菜馆。",
+    "tags": [
+      "中餐厅",
+      "清真菜馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民族京味(潘家园店)",
+    "city": "北京",
+    "category": "food",
+    "description": "民族京味（潘家园店）是一家位于北京朝阳区的清真菜馆，主打老北京风味菜肴，环境干净整洁，适合朋友聚餐。",
+    "tags": [
+      "北京菜",
+      "清真",
+      "潘家园"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.2
+  },
+  {
+    "name": "水晶轻宿(北京大兴国际机场店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于礼贤镇董各庄街45号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永宁古城",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于昌赤路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永宁古城墙遗址",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于永宁镇昌赤路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永定门公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于永定门内大街156号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永定门公园东城园区",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于永定门内大街与木料巷交叉口南220米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永定门南广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于永定门公园东城园区内(南侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汇鑫宾馆",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于黄村镇龙河街117号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汇馨商务酒店(北京南站刘家窑方庄地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于丰台区南方庄2号院2号楼1层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河西夜市烧烤小龙虾大排档",
+    "city": "北京",
+    "category": "food",
+    "description": "位于马坡镇西马坡街4号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沿河城古城址",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于珍珠湖路口向北",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉怡园度假村",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于王佐镇南宫迎宾与南宫路十字路口西北角",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(新辰里亚运村店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区北辰东路8号院1号楼新辰里购物中心4层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(牡丹园店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区花园路2号3号楼一层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(西单店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于西单北大街109珠宝婚庆大楼7层(老佛爷百货正对面)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海清苑",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于地安门西大街49号(北海北地铁站B东北口步行480米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真·白记年糕(牛街北口店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于牛街清真超市1层(牛街地铁站D2口步行360米)",
+    "tags": [
+      "050800"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真·鸦儿李记·涮肉(什刹海店)",
+    "city": "北京",
+    "category": "food",
+    "description": "清真·鸦儿李记·涮肉(什刹海店)位于北京市西城区前海东延2号，是一家以清真涮肉为特色的中餐厅。餐厅提供正宗的清真涮肉，食材新鲜，口味地道，深受食客喜爱。店内环境优雅，服务周到，是品尝北京传统涮肉的好去处。",
+    "tags": [
+      "清真菜馆",
+      "涮肉",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "wohkoon者行孙酒店(北京鸟巢北苑地铁站店)",
+    "name": "清真·鸦儿李记·涮肉(什刹海店)",
+    "city": "北京",
+    "category": "food",
+    "description": "清真·鸦儿李记·涮肉(什刹海店)，位于前海东延2号(什刹海地铁站A2西北口步行330米)，西城区，类型中餐厅 清真菜馆。",
+    "tags": [
+      "中餐厅",
+      "清真菜馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真·鸦儿李记·涮肉(什刹海店)",
+    "city": "北京",
+    "category": "food",
+    "description": "清真·鸦儿李记·涮肉(什刹海店)，位于前海东延2号(什刹海地铁站A2西北口步行330米)，西城区，类型中餐厅 清真菜馆。",
+    "tags": [
+      "中餐厅",
+      "清真菜馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真·鸦儿李记·涮肉(什刹海店)",
+    "city": "北京",
+    "category": "food",
+    "description": "清真·鸦儿李记·涮肉(什刹海店)，位于前海东延2号(什刹海地铁站A2西北口步行330米)，西城区，类型中餐厅 清真菜馆。",
+    "tags": [
+      "中餐厅",
+      "清真菜馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真·鸦儿李记·涮肉(什刹海店)",
+    "city": "北京",
+    "category": "food",
+    "description": "清真·鸦儿李记·涮肉(什刹海店)位于北京市西城区前海东延2号，是一家以清真涮肉为特色的中餐厅。餐厅提供正宗的清真涮肉，食材新鲜，口味地道，深受食客喜爱。店内环境优雅，服务周到，是品尝北京传统涮肉的好去处。",
+    "tags": [
+      "清真菜馆",
+      "涮肉",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "清真·鸦儿李记·涮肉(和平里店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于地坛北里东区1号楼(和平里北街地铁站D西南口步行80米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真·鸦儿李记·涮肉(牛街店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于牛街11号1层101-103、2层201-203、205-216",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "温都水城",
     "city": "北京",
     "category": "hotel",
-    "description": "wohkoon者行孙酒店位于北京朝阳区北苑，紧邻鸟巢和北苑地铁站，交通便利。酒店以现代简约风格装修，提供舒适住宿环境，适合商务及旅游出行。",
+    "description": "位于北七家镇王府街55号",
     "tags": [
-      "酒店",
-      "住宿",
-      "北京",
-      "鸟巢",
-      "北苑"
+      "110202"
     ],
-    "avgCost": 350,
-    "duration": "全天",
-    "openTime": "24小时",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "温鼎府·海鲜火锅(前门23号院店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于前门东大街前门23号院内(正阳门东10米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "满恒记火锅(平安里西大街店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于赵登禹路106号平安里西大街与赵登禹路交叉口西南角",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潘家园夜市",
+    "city": "北京",
+    "category": "food",
+    "description": "位于潘家园路与华威路交叉口东140米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潮漫酒店(北京平谷千里马环岛店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于旧城街17号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊喵来了火锅(北京王府井喜悦店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于王府井喜悦购物中心七层(王府井地铁站F1东口步行210米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爆肚盛(麦子店街小区店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于麦子店街6号楼东侧(宝源饺子屋旁)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛将军雪花牛·火锅烤肉铁板烧(北京王府井·故宫店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于王府井大街301号王府商厦6层",
+    "tags": [
+      "060703"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛街·马辈儿涮肉(牛街总店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于牛街春风社区南1门东190米",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛街洪记小吃店",
+    "city": "北京",
+    "category": "food",
+    "description": "位于牛街12号(牛街清真超市对面)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉蜓公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于永定门东滨河路17号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王府井世纪广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于王府井大街99号世纪大厦",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王府井休闲广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于大甜水井胡同王府井步行街",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王府井夜市",
+    "city": "北京",
+    "category": "food",
+    "description": "位于老北京风情街(王府井书店西北)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王府井步行街",
+    "city": "北京",
+    "category": "attraction",
+    "description": "王府井步行街是北京最著名的商业街之一，位于东城区，拥有众多百货商场、专卖店、老字号店铺以及各种美食小吃，是购物和观光的理想去处。",
+    "tags": [
+      "购物",
+      "商业街",
+      "北京",
+      "步行街"
+    ],
+    "avgCost": 200.0,
+    "duration": "3小时",
+    "openTime": "10:00-22:00",
     "rating": 4.5
+  },
+  {
+    "name": "王府井步行街",
+    "city": "北京",
+    "category": "attraction",
+    "description": "王府井步行街，位于王府井大街256号(金鱼胡同地铁站B东口步行80米)，东城区，类型特色商业街 步行街。",
+    "tags": [
+      "特色商业街",
+      "步行街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王府井步行街",
+    "city": "北京",
+    "category": "attraction",
+    "description": "王府井步行街，位于王府井大街256号(金鱼胡同地铁站B东口步行80米)，东城区，类型特色商业街 步行街。",
+    "tags": [
+      "特色商业街",
+      "步行街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王府井步行街",
+    "city": "北京",
+    "category": "attraction",
+    "description": "王府井步行街，位于王府井大街256号(金鱼胡同地铁站B东口步行80米)，东城区，类型特色商业街 步行街。",
+    "tags": [
+      "特色商业街",
+      "步行街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王府井步行街",
+    "city": "北京",
+    "category": "attraction",
+    "description": "王府井步行街是北京最著名的商业街之一，位于东城区，拥有众多百货商场、专卖店、老字号店铺以及各种美食小吃，是购物和观光的理想去处。",
+    "tags": [
+      "购物",
+      "商业街",
+      "北京",
+      "步行街"
+    ],
+    "avgCost": 200.0,
+    "duration": "3小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "王府井步行街",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于王府井大街256号(金鱼胡同地铁站B东口步行80米)",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玺源居涮肉(王府井店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于王府井喜悦购物中心5F(王府井地铁站F1东口步行160米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瑞庭精选酒店(北京望京SOHO万科时代中心店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于望京街9号万科时代中心·望京F4层",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百年前门铜锅涮肉(王府井喜悦7店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区地铁8号线王府井站E1口出喜悦购物中心B1层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百望山庄",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于西北旺甲1号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百花人家(门城水岸店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区双峪路35号爱玛裕板材区H30号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百里山水画廊乡土雅居客栈",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于千家店镇长寿岭民俗村山水人家18号(近千家店镇政府)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇城根遗址公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于北河沿大街与地安门东大街交叉口南",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛华屯夜市",
+    "city": "北京",
+    "category": "food",
+    "description": "位于快车道(北京)汽车服务有限公司西南侧250米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "知和行青年酒店(朝阳高铁站十里堡地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于八里庄北里305号楼三层(十里堡地铁站B东北口步行340米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石景山古城",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于石景山路与古城小街交叉口东100米(古城地铁站D西南口旁)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "硕士林民宿",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于善缘街1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福奥客栈",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于黄村镇京开路50号院内西侧",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "立水桥夜市",
+    "city": "北京",
+    "category": "food",
+    "description": "位于立水桥8号(立水桥地铁站B1东北口步行460米)",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "竹枫晚美宿(大兴国际机场店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于礼贤镇东郏河街东四条4号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米家青年HOSTEL(北京酒仙桥798艺术区店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于酒仙桥路2号院内6幢平房607",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(东方新天地店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区北京城区-东长安街1号东方广场负一层CC16-2三区挨着喜家德",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(王府井喜悦店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于王府井大街301号王府井喜悦购物中心负一层,通往B2的乾坤坊扶梯正对面50米,醉面旁边",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "粉灯牛腩牛杂煲·鸡煲(双井店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于广渠路南侧44号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫光园·烤鸭·北京菜(前门大栅栏店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于大栅栏商业街31号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫光园·烤鸭·北京菜(北京总店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于牛街春风社区牛街8号楼",
+    "tags": [
+      "050111"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫光园·烤鸭·北京菜(崇文门店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于东打磨厂7号宝鼎中心B座一层",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫光园·烤鸭·北京菜(王府井店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于王府井大街99号世纪大厦F1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫玉乡村俱乐部",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于紫玉东路1号西1门",
+    "tags": [
+      "080300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿洲水乡温泉度假村",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于沙河北安河北清路东延路北(温都水城西1000米路北)",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翠云山庄",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于云岗北区西里14号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚宝源(牛街创始店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区牛街5-2号(牛街地铁站D2口步行390米)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苹东夜市",
+    "city": "北京",
+    "category": "food",
+    "description": "位于杨庄大街与苹果园南路交叉口东南60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫姐老火锅·重庆夜市(国美第一城西院店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于青年路西里115号国美第一城二号院",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫姐老火锅·重庆夜市(朝阳路店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于朝阳路八里庄东里1号A区(达美乐披萨旁)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "菖蒲河公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于菖蒲河沿9号(天安门东地铁站B东北口步行200米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(光耀东方广场店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区北京西站地铁站1东北入口步行440米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(双井店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区广渠路36号院6号楼1至2层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(望京麒麟社店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区望京街130号望京街道望京阜安西路11号楼1层108号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝调庄园",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于金盏乡楼梓庄南1号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虹端和宿酒店(北京朝阳医院三里屯店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于关东店北街8号(呼家楼地铁站H西南口步行150米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蟹岛度假村",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于金盏乡蟹岛路1号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西单商业街",
+    "city": "北京",
+    "category": "food",
+    "description": "位于西单北大街176号(西单地铁站F1西北口步行460米)",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西单文化广场-瞻云",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于西单北大街176号西单商业街(西单地铁站A西北口步行50米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "起程酒店(北京首都机场新国展店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于北京城区金盏嘉园C区1号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "运河苑温泉度假村",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于宋庄镇白庙村",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "通州古城池地雕",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于通胡大街70号通州奥体公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "速8酒店(北京马驹桥二街店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于马驹桥镇二街22号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郁金香温泉花园度假村",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于东苇路金盏郁金香花园郁金香温泉花园度假村",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "都市馨园休闲广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于东兴隆街",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重八牛府之小有名气(大望路店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区景辉街与东三环中路辅路交叉口东20米金地中心B1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆文记勇盛牛肉面(红庙店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于朝阳路红庙北里85号楼底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钟鼓楼广场(钟楼湾胡同)",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于安定门内赵府街73号(什刹海地铁站A2西北口步行460米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长峪城",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于流村镇老峪沟",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "门框胡同百年卤煮(新街口店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于赵登禹路2号(新街口地铁站B东北口旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳光郡度假区(北京展厅)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于硅谷亮城4号楼101",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳坊胜利涮羊肉(总店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于阳坊镇西贯市村温南路东侧商业街中段距温南路与阳坊村西大街交叉口320米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿里山广场",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于大江胡同1号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈记卤煮小肠(廊房二条店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于廊房二条82-84号(前门地铁站I西南口步行420米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陶然亭公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于太平街19号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雍和宫",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于雍和宫大街28号(雍和宫地铁站F东南口步行250米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雍和宫检票处",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于雍和宫大街28号雍和宫(雍和宫地铁站F东南口步行290米)",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "颐和园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于新建宫门路19号",
+    "tags": [
+      "110201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "颐和园-佛香阁",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于新建宫门路19号颐和园",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "颐和园-清晏舫(石舫)",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于北京市青龙桥街道新建宫门路19号颐和园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马艾萨·将台路牛拉",
+    "city": "北京",
+    "category": "food",
+    "description": "位于将台西路东川酒店旁",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "驿小栈青年酒店(北京朝阳站青年路地铁站店)",
+    "city": "北京",
+    "category": "hotel",
+    "description": "位于青年路西里3号院1号楼2层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸽子窝(丰体店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于西四环南路45号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸽子窝(四季青店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于昆明湖南路11号院",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸽子窝(梨园店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于梨园南街326号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸽子窝(金长安店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于东四环中路18号1幢1层1002室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿宾楼(朝阳门店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于北京城区朝阳门外大街20号1栋联合大厦2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹞子峪城堡",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于九渡河镇鹞子峪村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(祈年大街店)",
+    "city": "北京",
+    "category": "food",
+    "description": "位于东打磨厂街7号新活馆1层(崇文门地铁站D西南口步行480米)",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙潭中湖公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于左安门内大街19号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙潭公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于龙潭路16号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙潭西湖公园",
+    "city": "北京",
+    "category": "attraction",
+    "description": "位于龙潭路甲1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

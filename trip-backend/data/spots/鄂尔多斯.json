@@ -1,0 +1,2251 @@
+[
+  {
+    "name": "21度假公寓(景山路分店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于景山路(锦泰华府南区6号楼一单元)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "OYO嘉兴商务酒店(金鹏路银肯公园店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于路与金鹏路2号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万家惠欢乐世界",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于永昌路47号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三个男孩韩国炸鸡店(康巴什店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于三个男孩韩国炸鸡店",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东仕戴斯大酒店",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于杭锦南路7号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东红海子湿地公园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于622县道附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东红海子湿地公园嬉水广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于阿勒腾席热镇柴家泰康东街南500米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中元宾馆(东胜区万达广场店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于天骄北路63号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽景民宿",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于阿勒腾席热镇丽景财富大厦10楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌兰木伦公园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于滨河大道与文苑路交叉口北240米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌兰木伦湖",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于康巴什新区康巴什",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌兰木伦滨河广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于湖滨路乌兰木伦滨河广场(西侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌兰木伦滨河广场-荡龟",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于乌兰木伦滨河广场内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌审风味牛肉馆(雍景紫台C区店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于雍景紫台C东北门东南60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐和小厨(景宁店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于万胜西底商",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐和小厨(聚能店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于聚能佳苑1号楼02底商",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五洲大酒店",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于杭锦北路29号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亚洲雕塑艺术主题公园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于文化东路与湖滨路交汇西北侧(湖滨广场对面)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人工湖",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于湖滨路与文化东路交叉口南500米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亿利库布其七星湖沙漠生态旅游区",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于独贵塔拉镇",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仁和园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于鄂尔多斯大街与康宁路交叉口东南200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伊盟人家涮坊",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于巴音门克街道康和西岸E9层1号底商",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伊盟人家涮坊(澜园店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于18号楼5",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伊金霍洛广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于绿苑巷与可汗街交叉口北160米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伊金霍洛旗八方民宿",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于阿勒腾席热镇达尔扈特路公园天下观邸小区11号楼1单元103室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "休闲广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于民族路鄂尔多斯(呼能商业广场)西南",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "优客美宿无人智能酒店(鄂尔多斯万达广场店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于金水之都",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "俏啤小牛(康巴什店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于西韦六路北康景苑3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冯校长老火锅(鄂尔多斯东胜店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于天骄北路辅路与伊金霍洛西街交叉口南240米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "准格尔旗一锅香焖面大王(星河家园店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于薛家湾镇兴隆街道星河家园1号底商(星河家园西)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "准格尔旗慧龙商务宾馆",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于沙圪堵镇601县道5号万里吉祥苑",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "准格尔黄河大峡谷",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于魏家峁镇杜家峁村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北俏妞饺子楼(王府井店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于伊金霍洛西街17号太古国际广场A区-1层-104商业",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北俏妞饺子楼(铁西店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于鄂托克西街万正广场C号楼北",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北禾羊三香",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于长胜路与南园街交叉口西北280米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "原上原铜锅涮冰煮羊(尚岛国际店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于尚岛国际商住小区北门东90米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双驹广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于鄂尔多斯市政府南侧",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "君悦宾馆(树林召大街)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于树林召大街7号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "味之绝美蛙鱼火锅",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于交通街道吉劳庆北路伊金霍洛西街37号二楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "咱妈烀饼铁锅炖(康巴什店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于旗顺家园9号楼",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "响沙湾旅游区-悦沙岛",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于展旦召苏木乡210国道西达拉特旗响沙湾旅游区内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "响沙湾沙漠",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于展旦召苏木乡索道响沙湾旅游区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜好麻辣串(富丽园店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于鼎晟富丽苑北门1号底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嗨米忙米线康巴什店",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于青春山街道珠江C区23号-4号底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "回迁广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于阿勒腾席热镇王府广场回迁商业房8号楼",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "图雅蒙餐馆(雍景紫台店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于市府南街",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城央居民宿",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于公园街道宝日陶亥东街10号大广场科技大楼南楼701",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "外贸宾馆(伊金霍洛西街)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于鄂尔多斯中心医院斜对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夜鸣沙旅游区",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于独贵塔拉镇新215省道(146公里处西2公里)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天圆地方广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于迎宾大道与可汗街交叉口南360米",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天骄公园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于赛罕街1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太阳广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于鄂尔多斯大街成吉思汗广场(东南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如家酒店(鄂尔多斯东胜购物中心店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于杭锦北路西侧",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富豪商务酒店(乌审东街店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于乌审东街健康体检中心向东200米路南",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寓界NI无人民宿(大桥路分店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于天骄南路5号街坊横东集团大厦F6层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小羊总爱上鱼(华宇店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于华宇名门东侧3号底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚吾家蒜瓣鱼(奥林店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于奥林花园西门底商4-25号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "工会驿站-乌兰木伦湖景观公园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于布尔台格路105号",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴草重庆老火锅(浙加都购物广场店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于薛家湾镇迎泽街道原政务大厅旁原建设银行营业室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "库布其沙漠旅游景区",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于展旦召苏木窝阔台旅游景区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "库布齐07沙漠公路",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康和人家暖城乡土菜(呼能广场店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于鄂尔多斯市康巴什区呼能商业广场1-10602-",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康和人家暖城乡土菜(美食广场店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于鄂尔多斯市康巴什区美食广场东南角(比格披萨楼下)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康巴什中心公园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于鄂尔多斯市康巴什区",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康巴什中心公园-玫瑰公园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于乌仁都西路与市府南街交叉口东北160米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康巴什乌兰木伦湖音乐喷泉",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于乌兰木伦滨河广场",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康巴什体育公园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于宁馨路与长宁街交叉口西220米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康巴什区宪法主题公园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于文化西路11号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康巴什喷泉广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于文化西路与湖滨路交汇处南100米(乌兰木伦滨河广场)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康巴什小火车商业街",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于普阳街泰华锦江国际大酒店(康巴什店)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康巴什旅游区",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于宁颐路与长宁街交叉口南60米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康巴什横泰广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于呼和塔拉路与安康街交叉口东南180米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康巴什草原丝路文化景区",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于哈巴格希街道鄂尔多斯市康巴什区博雅街",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康诚启元府中心广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于城投海昌鑫园附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康镇",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于哈巴格希街道哈巴格希街道博雅街",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张桂艳鲜牛串串大排档(中心医院店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于盈馨佳苑",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张记前旗麻辣烫(雍景紫台C区店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于康巴什区青春山街道珠江B9区23栋12号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐家铜锅涮坊(城投玉园店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于城投玉园南1门东180米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "御焱私房菜(雍景紫臺D区店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于雍景紫臺D区西南门东南160米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "志荣客房部(供电局店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于鄂尔多斯西街与供电局巷交汇处北300米路东",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦客怡居投影民宿(伊金霍洛旗微家店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于阿勒腾席热镇纬五路鑫新超市东北30米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成吉思汗广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于鄂尔多斯大街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成吉思汗陵园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于伊金霍洛街与布拉格路交汇处附近",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成吉思汗陵旅游区",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于伊金霍洛镇成布线",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾光民宿(薛家湾二店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于薛家湾绿色馨园学府路4-22",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星光华远酒店中餐厅",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于团结路与朝阳街交叉口汇康大药房北20米星光华远酒店",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景悦宾馆",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于榆乌线与乌兰大街交叉口西北240米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景程广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于呼和塔拉与康惠路交界处康巴什二中对面",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(太阳城店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于阿勒腾席热镇太阳城东区商业46号店铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(鄂尔多斯万达店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于交通街道吉劳庆北路七号街坊二十号(万达停车场向南对面)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "树舍自助公寓(万达广场店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于交通街道鄂托克西街万达广场4号公寓1单元1213室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "母亲公园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于阿勒腾席热镇可汗街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(鄂尔多斯康巴什店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于康巴什新区正阳街美食广场2楼60号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(鄂尔多斯薛家湾店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于银钻步行街一号楼西底商",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民族团结公园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于崇文街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水岸新城中心公园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于文明东街南侧金海路与可罕街之间",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河畔印象酒店(伊金霍洛旗太阳城商业中心店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于达尔扈特路博源柳河湾居住区20栋2楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泰华广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于泰华商业街",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泽成冰煮羊(伊旗店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于万力豪景嘉园南门东120米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泽成冰煮羊(铁西店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于体育街9号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浮生若宿公寓(杭锦北路分店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于杭锦北路巨力广场B座公寓21楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(万达广场店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于四完小巷与鄂托克西街交叉口西万达广场5层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(星河cococity店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于准格尔北路16号星河COCOcity二期4层L4016-4012商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清源邦度假村",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于树林召镇平原村付家圪堵社",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清爽凉皮店(雍景紫臺店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于市府南街雍景紫台-C区",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "源玺源烧麦馆(民生路店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于鄂尔多斯市康巴什区",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灶座小锅烀饼(伊金霍洛旗店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于兴泰星园188号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱拥公园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于乌日力格街与乌仁都西路交叉口西40米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱拥公园东区",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于那日街与文化东路交叉口东",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱拥公园西区",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于那日街与文化西路交叉口西南260米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王朝宾馆(宝日陶亥东街)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于宝日陶亥西街新华书店向西200米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玖品•贺福记(康巴什店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于康巴什新区正阳街与团结路路口泰发祥集团底商(文化馆对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玖品小羊官传统涮",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于鄂尔多斯市康巴什区内蒙古自治区团结路4号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白氏老婆婆干羊肉剁荞面馆",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于青春山街道珠江国际城c221-101-10号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盯上牛泥炉烤肉(康巴什店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于康巴什新区美食广场1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "真知味农家菜馆(雍景紫台C区店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于市府南街与民生路交叉口西140米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福味源巴盟酿皮",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于市府南街与民生路交叉口西140米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福顶顶停电烩菜",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于文澜雅筑S8号楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(民生广场店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于民生广场米村拌饭",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿达涮府(鄂尔多斯东胜店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于峰上峰商务综合楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "羊門涮肉(达旗店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于树林召镇西园路海业家园西门对面",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老强农家饭店",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于富丽园南区南门东50米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老绥元烧卖",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于旗顺家园小区1-1-108-2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "腾格里广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于鄂尔多斯文化产业园(东南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "草原情公园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于朝阳街11号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲富公寓",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于吉劳庆南路5-15号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花辿景区",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于黄甫镇墙头尧渠行政村徐家梁自然村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙古象棋广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于乌兰木伦街",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙欣休闲广场(康和盛世店)",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于文化西路5号",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙航航空酒店(吉劳庆北路店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于吉劳庆北路13号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝宇电竞民宿(赛特商场店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于交通街道吉劳庆北路赛特国际公寓0811房间",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虹骏酒店",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于宝日陶亥东街丽苑小区内向南100米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西贝(康巴什店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于康巴什新区团结路与朝阳街交叉口东50米",
+    "tags": [
+      "050115"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辣嘴鸭鸭货餐厅(康巴什区店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于正阳街11号康巴什购物中心",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达拉特旗君威酒店(达拉特旗宪法公园店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于和平路汇升花苑小区19号楼33号商铺",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达拉特旗君悦精选酒店(双骏公园店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于树林召镇新华大街",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达拉特旗响沙湾旅游区",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于210国道西",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达拉特旗响沙湾旅游区-仙沙岛",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于库布齐沙漠东段响沙湾内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遇见杭锦民宿",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于锡尼镇杭锦大街日月轩G1区综合楼1栋822室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邻家碗托(雍景紫台C区店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于市府南街雍景紫台-C区",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郡王府",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于阿勒腾席热镇郡王府广场(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郡王府广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于宝彦巷与王府街交叉口东南200米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鄂尔多斯市博物院",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于文化西路南5号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鄂尔多斯市锦华炒菜卷饼",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于园丁小区南段18号底商附近餐厅推荐特色美食炒菜卷饼蜀都川菜团建扩展",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鄂尔多斯文化产业园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于阿康城市核心区乌兰木伦河南岸",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鄂尔多斯智慧体育公园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于鄂尔多斯大街与乌仁都西路交汇处东南侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鄂尔多斯百和宾馆(中心医院店)",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于杭锦北路2号街坊宏业10号底商",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鄂尔多斯聚悦宾馆",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于劳庆南路5号街坊85号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鄂尔多斯草原",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于621县道",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鄂尔多斯酒馆鲜羊涮肉东胜店",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于鄂托克西街95号鄂尔多斯酒馆鲜羊涮肉",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鄂尔多斯野生动物园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于铁西三园路1号",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鄂尔多斯长泰大酒店",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于东联中学东200米",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鄂尔多斯青铜文化广场",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于万正广场迎宾路华研尚街购物中心(东侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鄂托克前旗马兰花大酒店",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于上海庙镇农业银行向西北50米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金色阳光主题酒店",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于鄂尔多斯东街北2号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫牛大酒店",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于鄂尔多斯西街与伊化南路交汇处",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁人烧烤(康巴什店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于蒙欣广场东南角",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦亨商务宾馆",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于达拉特南路5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦城大院火锅(东胜店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于龙湾B区商铺104号商铺(亿利滨河湾公交站旁)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿吉奈公园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于伊金霍洛街公园路交汇",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿牧儿牛肉干",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于尚岛国际二期北底商(距离五色哈达500m)",
+    "tags": [
+      "061200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隆升源美味牛肉拉面(珠江店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于鄂康巴什新区珠江国际城D48-101-15号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青椿山公园",
+    "city": "鄂尔多斯",
+    "category": "attraction",
+    "description": "位于康巴什新区青春山街道鄂尔多斯市康巴什市府北街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺利商务宾馆",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于其巴嘎图西街与城川南路交叉口南40米",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "饺之梦·海胆饺子(康和店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于康和西岸E9-4",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香和主题宾馆",
+    "city": "鄂尔多斯",
+    "category": "hotel",
+    "description": "位于棋盘井镇乌珠尔路棋盘井交警队斜对面",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马太公小炒黄牛拌面(康巴什店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于市府南街珠江9区23栋10号底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼你在一起(三马路店 )",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于嘎鲁图镇巴音路淘宝家电对面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(康巴什新区餐厅)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于康巴什美食广场一楼",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(滨河南路店)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于薛家湾镇滨河南路与万通路交汇处",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(鄂尔多斯麦当劳万达广场餐厅)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于鄂尔多斯万达广场北门东50米",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳鄂托克西街鹿苑餐厅",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于鄂托克西街与实验中学西巷交汇处",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麻辣烫(鄂尔多斯康巴什区)",
+    "city": "鄂尔多斯",
+    "category": "food",
+    "description": "位于雍景紫台C东北门东南60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

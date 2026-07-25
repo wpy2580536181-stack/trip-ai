@@ -1,0 +1,2121 @@
+[
+  {
+    "name": "MR·小火锅先生",
+    "city": "包头",
+    "category": "food",
+    "description": "位于远洲大都汇A区",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一号公馆大酒店",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于民族东路65号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一机广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于青山路9号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一机集团体育公园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于公园北路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三未源火锅(少先路店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于少先路健康汇缘商业楼109号底店",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东方肥牛王(友谊大街店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于友谊大街53号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中心广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于民馨路街道滨河新区民馨路14-C123号滨河购物广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌素图公园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于公园路与迎宾路交叉口东侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌素图广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于迎宾路与朝阳路交叉口西80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九原区党建主题公园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于广场街和九原街交叉口西南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九原区广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于竖一街与工农街交叉口东南160米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九峰山生态旅游景区",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于沿枣沟公路37公里即到",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九峰神泉",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于枣沟公路东北侧",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乡村居焖面(三八路店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于前进道街道昆区钢37号-1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乡村居焖面(太阳城店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于少先路街道太阳城小区东大门",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乡村居焖面(总店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于青工路9-3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乡村居焖面(文化路店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于文化路与哈达道交叉口东北角底店",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乡村居焖面(景晟开元店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于青山路与修远路交叉口东南角路东",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乡村居焖面(未来城店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于莎木佳路26号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二〇二广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于公园路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五当召",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于吉忽伦图苏木",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于环城路329号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳禾小住轻奢公寓",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于赵家营村四区6栋18号",
+    "tags": [
+      "120000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "健康主题公园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于沙河街与竖二街交叉口西80米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八一公园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于钢铁大街62号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "内蒙古包头博物馆",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于阿尔丁大街25号2-3层(云龙骨科医院正对面)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "军工文化广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于兵工路中段",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯旋精选公寓(万达广场店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于赵家营三区八栋十六号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "动不动披萨(太阳城店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于市府西路希望小区祥和商城A区3号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头·春风十里主题街区",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于幸福南路56号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头世界鹿园-鹿园阴山岩画区",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于沙河西街包头世界鹿园内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头乐园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于阿尔丁大街与富林路交叉口西500米",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头南海景区",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于二里半路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头南郊公园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于黄河大街与自由路交叉口南160米",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头博成宾馆",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于站北西路博成文化市场3楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头古城",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于集贤路与遵信路交叉口往东500米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头奥林匹克公园-北区",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于青福镇建华路12号奥林匹克公园内(东侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头奥林匹克公园-南区",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于青福镇建华路12号奥林匹克公园(东南角)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头奥林匹克公园南区-观景台",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于奥林匹克公园-南区",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头市廉洁主题文化公园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于青年生态园内(东侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头市建设广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于纬一路东100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头市滨河大厦南广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于滨河大厦",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头市革命烈士纪念公园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于校园南环路与励学路交叉口西南280米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头归巢悦宾馆",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于民族西路(南段)与海德路交叉口西南40米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头忆往情深宾馆",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于校园南路246号松石名第小区2栋二单元B02-104",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头敬诚公寓",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于富强路美食街赵家营子",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头方廷智能民宿(会展中心五星名座店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于赛汗街道包头富力城6期公寓楼9楼922室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头昆都仑河国家湿地公园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于昆都仑河桥边",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头晓明公寓",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于稀土高新产业园富林路南壕村20栋3号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头晨曦智能民宿(会展中心店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于沙河街富力城五星名座公寓13楼1332",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头朗馨公寓(青山万达广场店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于阿尔丁大街街道民族东路与钢铁大街交叉口西北角凯旋银河线2A座2802室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头禧玥·优选公寓(青山万达广场店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于青年路26号万达广场包头青山店1F层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头红玫瑰公寓",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于兆祥巷与民族东路交叉口东100米",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头缘宿酒店(赛罕塔拉店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于友谊大街与万青路交叉口旅游大厦5层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头舒馨旅馆",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于富强路7号街坊富达花园内7号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头苹果缘快捷酒店",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于园丁小区西北门旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头草原宾馆",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于草原道130号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头草木四方公寓(万达店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于青年路26号包头万达广场公寓楼A座2027室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头雅居公寓",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于富强中路赵家营4区7栋2号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包头雅途精选民宿(青山万达广场店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于体育馆道万达广场公寓楼A座18楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北方兵器城",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于兵工路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北方广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于青山路103号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台地公园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于井卜石美好家园对面",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "叶家菜(远洲店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于远洲·大都汇A区西北门东北110米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉浩酒店(包头固阳店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于铭泰雅居南门西120米",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吾蜀不欢火辣辣串串香(乔家金街店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于乔家金街e区22栋蜜雪冰城边",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吾蜀不欢火辣辣串串香(总店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于巴彦塔拉大街48号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吾高砂锅面(吾悦华府店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于昆区人民法院对面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吾高砂锅面(富力城店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于富力城3期西北门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吾高砂锅面(未来城店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于白音席勒街道景观家园S2-102",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "品农莜面家乡菜(检察馨苑店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于检查馨苑S2-107号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈屯高勒公园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于黄金小区斜对面",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "唐食语粥(九原万达广场店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于210国道与沙河西街交叉路口西北角万达广场F4",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜宿(青山万达店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于富强中路赵家营四区13栋5号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜面凤·非遗刀削面",
+    "city": "包头",
+    "category": "food",
+    "description": "位于日月华庭二期西北门东北60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "圆梦公寓",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于富强中路赵家营小区四区11栋17号",
+    "tags": [
+      "120000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "土默特右旗土右宾馆",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于振华大街北2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(包头市九原景晟开元店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于白音席勒街道小红本AI英语(世纪路一小店)景晟开元小区",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塞尚鲜手切肉铜锅涮",
+    "city": "包头",
+    "category": "food",
+    "description": "位于修远路景晟开元底店s-2113",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大红门美食(海湖豪庭店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于三八路海湖豪庭北区东门南110米路西",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天德商务酒店(青山店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于呼得木林大街11号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥体公园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于临奥巷与新园路交叉口西南300米",
+    "tags": [
+      "120300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥林匹克公园沙滩",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于建设路奥林匹克公园内(西南角)",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "妙法禅寺",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于财神庙街道内环路",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "家悦馨旅馆(生态馨苑店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于生态馨苑小区49号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "家馨宾馆",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于云逸酒店西门北60米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富华宾馆(包头火车站店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于包头火车站东100米路南",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小尾羊(包头昆都仑区苏宁广场店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于苏宁广场B号门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小肥羊(钢铁大街店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于钢铁大街与富强路交叉口东100米路南",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川东号子大刀腰片火锅(青东店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于青东路19号保利花园沁心园1s",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川老板火锅(草原道店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于包头经纬学校东南门东50米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴音广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于建设路立交与建设路交叉口东200米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴音高勒公园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于图书大厦对面",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巷巷头摊摊面(青年园店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于青年园西门小二楼底店81号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "希拉穆仁草原",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廉政文化广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于政和巷与工农街交叉口东南160米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廣順興(富力城店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于祥和南路68号新区商务大厦C座一层东侧",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "快乐小羊(包头市锡华店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于丹青苑南门西80米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "快乐小羊(富强中路店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于富强中路7号(富强中路与友谊大街交叉口北200米路西)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠友大酒店(蒙中医院巷)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于工业北路155号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敖包广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于赛汗塔拉生态园-敖包",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新跃广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于110国道辅路与迎宾路交叉口西北160米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月天地广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于新光东路1号",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春坤山",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于东部52公里(近大庙乡)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "有拈头成都市井火锅(富强路店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于富强路棉纺小区东门往北100米路西",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(东河摩尔城店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于工业路摩尔城东南角L036门市",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(横竖街店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于横竖街B区16号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(青山王府井店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于幸福路街道幸福路5号街坊时代商厦-11号底店",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柴记羊掌柜旗舰店",
+    "city": "包头",
+    "category": "food",
+    "description": "位于开元A区S5栋102",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梅力更自然生态风景区",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于梅力更沟110国道724公里处",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欢乐牧场(九原万达店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于沙河西街万达广场四楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(包头青山万达店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于体育馆道青年路26号(青山万达3楼西北角)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "池奈·日式咖喱蛋包饭",
+    "city": "包头",
+    "category": "food",
+    "description": "位于青年路26号万达广场(包头店)3F层",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(青山万达店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于青年路26号万达广场三楼3F-A322商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘食董家(富力城1期店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于富力城一期北门西北150米",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨河公园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于稀土高新区滨河新区万水泉大街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨河风景",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于稀土高新区滨河新区礼贤路黄家医圈对面",
+    "tags": [
+      "120300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灶火火铁锅炖",
+    "city": "包头",
+    "category": "food",
+    "description": "位于青山路景晟开元小区底商105-106号铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牧上都炭火烤羊腿·烧烤(富力城店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于沙河西街391号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王小胖旅店(满都拉镇店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于满都拉镇任氏汽修厂东40米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百灵那达慕会场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于百灵庙镇",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百胜商务快捷酒店(包头通顺街店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于新中西路1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛武肥牛(包头店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于华丽家族小区106",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福源快捷宾馆(包头火车站店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于站前路34号(火车站广场东侧)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "稀土公园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于万新路与曙光路交叉处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "简一民宿(包头火车站店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于建安大街包头市如家养老院南100米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美岱召",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于美岱召镇110国道北面",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聊米公寓(昆区包百王府井店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于钢铁大街96号25楼2512室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙古马主题公园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于赛汗塔拉城中草原(西南角)",
+    "tags": [
+      "080101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙域七号店烧烤(德贤店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于江海路3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛮涮自助小火锅·糖水铺子集合店(青山万达店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于科学路街道青年路万达广场3楼323A",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜀湘人家重庆自助火锅城",
+    "city": "包头",
+    "category": "food",
+    "description": "位于富强中路A区b段",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁记串串香(土右店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于大北街与影院西街交叉口西北40米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西北腾羊脖火锅(富力城店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于沙河街御融官邸1-106",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观音寺",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "财神庙广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于财神庙街道乔家金街",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贾剁剁·剁肉水饺(青年路店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于青年路10号中和文化广场",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赛汗塔拉城中草原",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于国安森林花园五号楼",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赛汗塔拉城中草原-西门广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于赛汗塔拉生态园",
+    "tags": [
+      "120304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赛汗塔拉生态园-敖包",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于赛汗塔拉城中草原(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赛汗塔拉生态园-马头琴广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于赛汗塔拉城中草原(西北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赛罕欢乐广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于梅力更路与沙河西街交叉口南20米",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "轻住·玉庭优选酒店(包百八一公园店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于钢铁大街47号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达茂旗杭盖蒙古风情园民宿",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于希拉穆仁镇召庙后3公里处(去往红格尔敖包1右侧)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁路宾馆(萨拉齐火车站店)",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于萨拉齐火车站边出站口30米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铜锅往事鲜肉火锅",
+    "city": "包头",
+    "category": "food",
+    "description": "位于富力城三期北门西侧20米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雕塑广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于青福镇建华路12号奥林匹克公园内(南侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青年生态园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于建设路果园西墙北",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青鸟生态养生庄园",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于哈林格尔乡东哈林村",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺安快捷酒店",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于友谊大街南桥停车场公交站旁",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "额尔敦传统涮(包头富强路店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于富强中路财校21号底店南",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "饺之梦海胆饺子(富强路店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于富强中路赵家营子村东门10号底店",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马守疆包头老馆子(九原店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于莎木佳路与九原街交叉口北100米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马守疆滩羊火锅(富力店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于马守疆滩羊火锅富力店",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马踏飞燕",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于建设路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿叶公寓",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于赵家营4区12栋2号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(包头九原区万达广场)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于建设路与210国道交汇处",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(包头茂业万豪酒店店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于茂业天地3门旁",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(维多利摩尔城店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于巴彦塔拉大街与工业路交汇处维多利摩尔城",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麻五湘川湘菜(富力店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于沙河西街御容官邸北门往东50米路北",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄柿子养生火锅(万科店)",
+    "city": "包头",
+    "category": "food",
+    "description": "位于青山路以北清源路以东110国道以南建华路以西万科中央公园S1-110",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄金社区反邪教法治广场",
+    "city": "包头",
+    "category": "attraction",
+    "description": "位于沙河街道黄金社区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼎盛云天大酒店",
+    "city": "包头",
+    "category": "hotel",
+    "description": "位于阿尔丁北大街与莫尼路交汇处北250米路西",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

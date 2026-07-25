@@ -1,0 +1,2173 @@
+[
+  {
+    "name": "2599.鸡饭店",
+    "city": "海口",
+    "category": "food",
+    "description": "位于西秀镇长滨西四街2号珈宝广场1层136",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "4D梦工厂",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于海南长影奇幻乐园(东北角)",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一品味·海南非遗老爸茶(四西路店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于海甸四西路28号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万国酒店(海口骑楼老街友谊阳光城店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于大同路26号万国大都会B座L层1楼前台",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万绿园",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于滨海大道38号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世纪公园音乐广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于渡海路与港湾路交汇处",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "书场村文化广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于书场村203号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云浪广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于滨海大道118号海口观海台内(西侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五源河入海口",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于五源河国家湿地公园内(北侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五源河国家湿地公园中韩志愿者友好生态塘",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于人社社保就业服务窗口(长流镇棠昌村民委员会)东北侧290米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳禾酒店(海口大园路高铁东站店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于大园路34号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "假日海滩旅游区",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于滨海大道126号",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六禾熏酱小酒馆(远大店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于西秀镇长海大道6号远大购物广场7栋1层7-4-119号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北纬十八度椰子鸡(国兴店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于国兴大道美园路雅乐里B座3楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北纬十八度椰子鸡(海甸店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于海甸五西路恒福居东区商业步行街1号楼111号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华府广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于长滨四路与长滨西二街交叉口西南40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南栖青旅(海口万绿园店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于滨海街道龙昆北路2号帝晶大厦17层C座",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "博养村荷花池广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴日彪蒜香猪牛排(水巷口店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于水巷口46号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和富贵海鲜火锅(国贸首店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于国贸路28金贸商城F2层(肯德基楼上)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜卡顿24小时酒店(海口骑楼老街店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于滨海大道泰华路17号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜相逢麻辣烫(远大购物中心店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于西秀镇长滨四路远大购物中心9号楼9-127",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "回顾居设计民宿(海口美兰机场店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于演丰镇群庄村委会美兰墟民生路7号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(海口市远大购物广场店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于长海大道6号远大购物广场6号楼一层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "外滩1号音乐餐吧",
+    "city": "海口",
+    "category": "food",
+    "description": "位于滨海街道渡海路外滩中心商铺903-904号(外滩中心旁)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大头隆江猪脚饭(海垦店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于海垦街道滨濂北社区一里133号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天外鲜·斑鱼火锅(友谊南海城店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于南海大道友谊南海城6楼(2号,10号梯直达)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天外鲜·斑鱼火锅(海甸岛店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于海甸五西路32号恒福居商业广场广泰楼2楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天空之山驿站",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于美丽沙路与海甸五西路交叉口西南460米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太琼糟粕醋·海南百年传统火锅(吾悦广场店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于迎宾大道18号新城吾悦广场S5幢4层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宜欣文化广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于明珠路8号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小巴郎拌面·烧烤",
+    "city": "海口",
+    "category": "food",
+    "description": "位于长滨四路7号海口远大购物中心8栋3单元101室",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小马哥自助快餐(远大购物中心店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于长滨四路7号海口远大购物中心F1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "居海民宿(海口五源河体育馆店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于长滨路文丽村21号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川妹火锅国贸直营店(海口总店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于金贸街道玉沙路52号海岸金城大厦一层6.7.8铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川王小厨餐饮店",
+    "city": "海口",
+    "category": "food",
+    "description": "位于远大购物广场(海南商街)7号楼7-2-213号",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恒大·美丽沙滨海三角梅音乐广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于世纪大道附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恩祥公园",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于长怡路与美林路交叉口东南60米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾玖民宿(海口友谊阳光城店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于金贸街道龙华路68号利亨花园1-2栋利亨阁2501房",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾贝公园",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于埠北环路6号海熙府东北",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文圣下村休闲广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于迈万村路与海涛东路交叉口西320米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新太二·鲜料川菜(海口远大分店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于远大购物中心5楼C5-9商铺(电影院斜对面)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新海府和乐蟹粥(骑楼店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于博爱北路与水巷口街交叉口北40米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新海府粥城(红城湖总店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于红城湖路59号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "旺溪老爸茶名门店",
+    "city": "海口",
+    "category": "food",
+    "description": "位于蓝天路35号名门广场北区商场4楼",
+    "tags": [
+      "061200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星际穿越",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于海南长影奇幻乐园内(东北角)",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晴海小宴餐厅(东方·海域阳光店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于西秀镇长滨东一街8号海域阳光二期5、6楼202号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曾戎民宿(海南工商职业学院琼台学院店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于滨江街道办府城镇东门耀华新村B型1号别墅",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朝族大冷面",
+    "city": "海口",
+    "category": "food",
+    "description": "位于海甸二东路35号金典雅苑1楼商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "木栈道公园(不对外)",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于粤海大道辅路与龙山路交叉口东380米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨桃树焖面(府城店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于大园里二横巷160号(海南省技校大门正对面小巷直行100米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "枫尚公寓(海口国际会展中心店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于绿地新海岸2号楼3楼大厅",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(龙湖光年店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于龙湖天街2栋1-18号柳州肥姨妈大骨螺蛳粉(龙湖光年店)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "格莱登智慧酒店(海口滨濂观光夜市店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于海垦街道滨濂新村友谊路26号(金山小区西门对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椰林听涛",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于滨海大道万绿园内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椰源原味椰子鸡(银谷苑店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于海甸和平大道16号银谷苑第1层110号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欢乐海洋",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于滨海大道187号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正方华美食店(四季昌商贸批发城)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于文明横路65号四季昌商贸批发2-3层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "武国四物椰鸡(海航国际店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于滨海大道109-9号海航国际广场C座望海国际世贸109店一层1F011铺位",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "武国四物椰鸡(龙兴公馆店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于大英山西二街与大英山西六路交叉口东120米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(海口龙湖店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于金宇街道南海大道15号龙湖天街B馆5层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汕头沙茶牛肉店(远大购物中心店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于西秀镇长滨西二街远大购物中心7-2-108号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洲至奢选海口亚特酒店·柏萃餐厅",
+    "city": "海口",
+    "category": "food",
+    "description": "位于长滨一路7号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海之驿精选青年旅舍(高铁东站吾悦广场店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于城西镇椰海大道316号椰海雅苑E座一单元1801房",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海南人家连锁海鲜·海南菜餐厅",
+    "city": "海口",
+    "category": "food",
+    "description": "位于长流镇长滨路式金村吴礼东自建房1-2层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海南大学南门小吃一条街",
+    "city": "海口",
+    "category": "food",
+    "description": "位于海南大学南门",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海南大院·非遗文化主题餐厅(海甸岛店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于和平大道55号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海南热带野生动植物园",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于琼东路688号(海榆中线27公里处)",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海南环岛旅游公路(起点)",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于粤海大道2号新海港码头客运枢纽站东北侧新海港广场",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海南省博物馆",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于国兴大道76号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海南长影奇幻乐园",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于椰海大道100号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口Banana巴纳纳国际青年旅舍",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于海甸岛人民大道21号梨园小区6号别墅3-4栋",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口世贸海景民宿",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于世贸东路2号世贸中心D座23-25层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口乙歆旅店",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于海甸岛人民西里277号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口五公祠",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于海府路169号五公祠内",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口人民公园",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于中山街道公园路3号明星大厦附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口人民公园湖心岛",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于海口人民公园(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口和盛宾馆",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于和平南路25号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口宾之家客房",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于海秀西路158号檀香洲二楼商铺",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于长滨路与长滨东五街交叉口东南100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口流星宾馆",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于海尚明居南门东60米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口潇湘明珠民宿(美兰机场店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于演丰镇美兰墟机场六横路5号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口热带农业科技博览园",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于苍峄路4号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口热潮青年旅舍",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于凤翔街道凤翔西路30号金城大厦405室",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口燕阳客房",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于南沙路100号(省电视台对面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口福源宾馆(鹏晖广场店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于海甸岛海彤路12号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口福鑫宾馆(海大南门夜市店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于三西路肯德基斜对面1号楼3层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口秀英双拥招待所(海港学校店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于双拥路8号(距离海边1公里近海口汽车西站)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口美兰机场1号酒店",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于演丰镇美兰墟振兴路71号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口翔海宾馆",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于凤翔西路-大园路8号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口舒雅旅馆",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于秀英大道21号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口若善民宿(恒大文化旅游城店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于城西镇迎宾大道恒大文化旅游城小区19栋1305室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口蓝天城宾馆",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于昌洋路68号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口蓝屿客栈",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于墟村尾路9号(万家华联超市对面胡同内)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口西海岸挺秀公园",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于西海岸挺秀公园(远大购物中心东南)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口西海岸挺秀公园商务园区(K出入口)",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于长海大道与长滨西二街交叉口西南40米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口西海岸挺秀公园文化艺术园区(D出入口)",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于西海岸挺秀公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口观澜湖旅游度假区",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于观澜湖大道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口钟楼",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于长堤路20号(人民桥附近)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口香灵酒店(灵山镇美兰机场店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于灵山镇琼文大道93号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口鹏原旅租",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于农贸二街8号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(友谊阳光城店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于金龙路2号友谊阳光城五层5022号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(新城吾悦广场店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于迎宾大道18号吾悦广场四楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(日月广场夜宵主题店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于国兴街道办日月大道8号日月广场双子座4层C06-1号-403/404/405",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(海口远大购物中心店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于长滨四路海口远大购物中心6层C6-7、C6-8号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(金棕榈店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于解放西路9号金棕榈文化商业广场4层F栋401商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海瑞文化公园",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于丘海大道39号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海秀之星酒店(海口国际会展中心店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于长滨东四街19号华盛御秀A座一楼大堂",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渔家人铺前糟粕醋火锅第一家",
+    "city": "海口",
+    "category": "food",
+    "description": "位于椰林路北50米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渔情湾精品民宿(南渡江店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于灵山镇外堆村二队85号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "满船星梦民宿旅店(友谊阳光城店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于景瑞花园",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨濂同心文化广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于滨濂村",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潮汕大目牛肉火锅(珈宝旗舰店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于珈宝广场s118号铺面",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潮立方",
+    "city": "海口",
+    "category": "food",
+    "description": "位于文明东路26-1号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "煮九记铁锅炖(远大购物中心店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于长滨四路远大购物中心5栋110",
+    "tags": [
+      "050113"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王丽珍脆皮鸡煲(远大店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于西秀镇长滨四路7号远大购物中心8栋2层107铺面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琼州·糟粕醋火锅(自在湾店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于观海路1号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琼菜之家(海南菜·金鹿花园店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于海府路168号金鹿花园三期4栋琼菜之家",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琼菜记忆(西海岸店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于西秀镇长滨四路9号(三弦慧府)1-4楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琼驿宾馆(凤翔东路店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于凤翔东路6号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白沙门公园",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于海甸六东路与人民大道交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白沙门欢乐海滩",
+    "city": "海口",
+    "category": "food",
+    "description": "位于海顺路与碧海大道交叉口西400米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福永村文化广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于福永小学西侧80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秀澜糟粕醋(骑楼老街店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于博爱街道振东街123号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秀英炮台",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于世贸南路5号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "素园美林运动公园",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于美林路与和谐路交叉口东60米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿茶餐厅(海口远大购物中心店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于长滨四路7号海口远大购物中心六楼C6-1-1和C6-1-2铺位",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美安健身广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于安莲街",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美德幸福广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于长滨路永秀花园对面",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老船舫·现做活鲜鱼馆(海口二店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于珈宝广场",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老香港炸鸡(远大店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于长滨四路7号海口远大购物中心F1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(理想海店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于长滨东四街19号华盛理想海商场一层C-101号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于国兴大道17号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(远大店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于长滨四路5号1号楼20号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝鑫商务旅租",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于三江镇琼文路161号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虾焖虾面2号店(义龙后路店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于义龙后路11-1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "街心广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于南海大道与秀英大道交叉口东南80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西天庙",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于义兴街75号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西岸超级海滩",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于滨海大道140号红燕堂酒店北侧",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西海岸带状公园",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于滨海大道与长彤路交叉口西500米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西瑞广场北小公园",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于长滨五路与长滨西二街交叉口西南120米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西秀公园",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于仲韶街与德仁路交叉口西南约100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西秀公园-碗池",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于西秀公园(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西秀海滩俱乐部休闲广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于海秀街道海秀街道海秀街道海秀街道海秀街道滨海大道213号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西秀海滩公园-海景宝贝",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于海秀街道海秀街道滨海大道163号西秀海滩公园(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观澜湖华谊冯小刚电影公社",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于龙昆南路延长线羊山大道19号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "豫来顺胡辣汤",
+    "city": "海口",
+    "category": "food",
+    "description": "位于西秀镇远大购物中心东门海南商街8栋3单元108号铺面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金沙湾滨海公园",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于金山路与金桥路交叉口北140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金牛岭公园",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于海秀中路102号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫海公寓(海口城西路店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于城西路168号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铺前老太太糟粕醋海鲜焖面(国兴店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于美舍嘉苑二期8号楼b栋102商铺(美舍嘉苑幼儿园旁边)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦山里焖面",
+    "city": "海口",
+    "category": "food",
+    "description": "位于文明东路181-106号鑫和大厦一楼",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦江之星酒店(海口骑楼老街东风桥店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于文明东路36号(与美舍路交汇处)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长丰双创便民广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于永桂路与225国道交叉口东南40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长堤沙滩",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于海色路与新海中路交叉口东北500米",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长康广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于长流镇商业街",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长影广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于椰海大道100号海南长影奇幻乐园内(南侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳光天豪宾馆(海口东站海南医科大学店)",
+    "city": "海口",
+    "category": "hotel",
+    "description": "位于山高村163号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳光广场",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于长安路4号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷琼世界地质公园(海口园区)",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于石山镇风景路89号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香格里拉沙滩",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于海色路与长欢路交叉口西北20米",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡",
+    "city": "海口",
+    "category": "food",
+    "description": "位于红城湖路118号怡和·湖城大境",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(喜盈门)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于椰海大道321号喜盈门广场C1-1、2,C1-20、21号商铺",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(国贸分店餐厅)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于麦当劳国贸店",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(珈宝广场店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于长滨西四街2号珈宝广场F1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "齐国神农烧烤(远大购物中心店)",
+    "city": "海口",
+    "category": "food",
+    "description": "位于长滨西三街远大购物中心南门9栋二楼232",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙华区海口湾公园",
+    "city": "海口",
+    "category": "attraction",
+    "description": "位于金贸街道红棉西路",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

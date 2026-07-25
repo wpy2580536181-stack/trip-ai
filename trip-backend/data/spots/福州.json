@@ -1,5 +1,83 @@
 [
   {
+    "name": "1718海鲜火锅(金山店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于金山街道金康路156号(建新大道东侧)中庚城1号2号楼连接体2层02集中式商场5号店面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "68海里景区检票口",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于澳前西路430号",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "Gogo泰面",
+    "city": "福州",
+    "category": "food",
+    "description": "位于达明路164号",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "HA黔·古韵酸汤粉(道山店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于道山路219-10号(金品公寓底商)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "La mesca墨西哥餐酒吧",
+    "city": "福州",
+    "category": "food",
+    "description": "位于营房里6-7(青咖啡隔壁)",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "Northern line热潮海景青旅(平潭店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于君山镇行政北路流金华府3A幢2单元2306室",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
     "name": "三坊七巷",
     "city": "福州",
     "category": "attraction",
@@ -9,39 +87,106 @@
       "国家级景点",
       "历史文化"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "2-3小时",
     "openTime": "全天开放",
     "rating": 4.5
   },
   {
-    "name": "林则徐纪念馆",
+    "name": "三坊七巷",
     "city": "福州",
     "category": "attraction",
-    "description": "林则徐纪念馆位于福州市鼓楼区澳门路，是纪念民族英雄林则徐的专题纪念馆，馆内展示了林则徐的生平事迹、虎门销烟等历史资料，是进行爱国主义教育的重要场所。",
+    "description": "三坊七巷，位于南后街139号，鼓楼区，类型风景名胜 国家级景点。",
     "tags": [
       "风景名胜",
-      "纪念馆"
+      "国家级景点"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "西湖公园",
+    "name": "三坊七巷",
     "city": "福州",
     "category": "attraction",
-    "description": "西湖公园位于福州市鼓楼区湖滨路，是福州历史悠久的古典园林公园，景色优美，适合休闲游览。",
+    "description": "三坊七巷，位于南后街139号，鼓楼区，类型风景名胜 国家级景点。",
     "tags": [
       "风景名胜",
-      "公园广场",
-      "公园"
+      "国家级景点"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三坊七巷",
+    "city": "福州",
+    "category": "attraction",
+    "description": "三坊七巷，位于南后街139号，鼓楼区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三坊七巷",
+    "city": "福州",
+    "category": "attraction",
+    "description": "三坊七巷是福州的历史文化街区，被誉为\\\"明清建筑博物馆\\\"，是国内现存规模较大、保护较为完整的历史文化街区之一。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "历史文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
     "openTime": "全天开放",
     "rating": 4.5
+  },
+  {
+    "name": "三坊七巷",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于南后街139号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三坊七巷-冰心故居",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于环西湖商圈杨桥东路17号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三捷河广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于星河巷星安桥路82号上下杭历史文化街区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "上下杭历史文化街区",
@@ -54,10 +199,1763 @@
       "街区",
       "古建筑"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "2-3小时",
     "openTime": "全天开放",
     "rating": 4.5
+  },
+  {
+    "name": "上下杭历史文化街区",
+    "city": "福州",
+    "category": "attraction",
+    "description": "上下杭历史文化街区，位于星河巷星安桥路82号，台江区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上下杭历史文化街区",
+    "city": "福州",
+    "category": "attraction",
+    "description": "上下杭历史文化街区，位于星河巷星安桥路82号，台江区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上下杭历史文化街区",
+    "city": "福州",
+    "category": "attraction",
+    "description": "上下杭历史文化街区，位于星河巷星安桥路82号，台江区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上下杭历史文化街区",
+    "city": "福州",
+    "category": "attraction",
+    "description": "上下杭历史文化街区是福州著名的历史文化街区，保存了大量明清时期的古建筑和传统商铺，是体验福州民俗文化、品尝地道美食的好去处。",
+    "tags": [
+      "历史",
+      "文化",
+      "街区",
+      "古建筑"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "上下杭历史文化街区",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于星河巷星安桥路82号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上下杭杭肆广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于上下杭历史文化街区隆平路麦当劳旁",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东北佬菜馆(冠亚店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于八一七北路268号冠亚广场1号楼12号店",
+    "tags": [
+      "050113"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国船政文化景区",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于港口路147号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌塔公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于乌石山东麓(南门兜地铁站B西口步行150米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "于山风景区东入口广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于安泰街道五一北路176号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "于山风景名胜公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于法海路23-1号(南门兜地铁站M口步行30米)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云妈客栈(龙王头沙滩店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于海坛街道东门庄50号E区5幢",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云朵轻奢电竞民宿(福州南站胪雷地铁站店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于胪安路阳光大都会B区7号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五一广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "五一广场位于福州市鼓楼区古田路32号，是福州市民休闲活动的城市广场。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "五一广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "五一广场，位于古田路32号，鼓楼区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五一广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "五一广场，位于古田路32号，鼓楼区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五一广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "五一广场，位于古田路32号，鼓楼区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五一广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "五一广场位于福州市鼓楼区古田路32号，是福州市民休闲活动的城市广场。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "五一广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于古田路32号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仙人井景区-观景台",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于平潭国际旅游岛·仙人井内(南侧)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "先薯亭",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于乌山路乌山历史风貌区内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光泽辣味馆",
+    "city": "福州",
+    "category": "food",
+    "description": "位于金榕北路104号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴仙饭店·闽味海鲜(得贵路M17店)",
+    "city": "福州",
+    "category": "food",
+    "description": "兴仙饭店·闽味海鲜(得贵路M17店)位于福州市鼓楼区得贵路26号M17文化广场4层，靠近东门地铁站C口，是一家主打海鲜和闽味的餐厅。",
+    "tags": [
+      "海鲜",
+      "中餐厅",
+      "闽菜"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "兴仙饭店·闽味海鲜(得贵路M17店)",
+    "city": "福州",
+    "category": "food",
+    "description": "兴仙饭店·闽味海鲜(得贵路M17店)，位于得贵路26号M17文化广场4层(东门地铁站C口步行548米)，鼓楼区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴仙饭店·闽味海鲜(得贵路M17店)",
+    "city": "福州",
+    "category": "food",
+    "description": "兴仙饭店·闽味海鲜(得贵路M17店)，位于得贵路26号M17文化广场4层(东门地铁站C口步行548米)，鼓楼区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴仙饭店·闽味海鲜(得贵路M17店)",
+    "city": "福州",
+    "category": "food",
+    "description": "兴仙饭店·闽味海鲜(得贵路M17店)，位于得贵路26号M17文化广场4层(东门地铁站C口步行548米)，鼓楼区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴仙饭店·闽味海鲜(得贵路M17店)",
+    "city": "福州",
+    "category": "food",
+    "description": "兴仙饭店·闽味海鲜(得贵路M17店)位于福州市鼓楼区得贵路26号M17文化广场4层，靠近东门地铁站C口，是一家主打海鲜和闽味的餐厅。",
+    "tags": [
+      "海鲜",
+      "中餐厅",
+      "闽菜"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "兴鲜港海鲜自助(大洋晶典店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于大洋晶典5楼",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冶山春秋园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于鼓东街道冶山路33号(屏山地铁站D口步行220米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "勺园里文创园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于勺园里47号弄与学园支路交叉口东40米",
+    "tags": [
+      "120100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "升记猪杂粥觅味馆",
+    "city": "福州",
+    "category": "food",
+    "description": "位于黎明兴园路220号轻安公寓",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于国货西路309号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南后街",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于南街街道杨桥东路19号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南马唐鲜作闽南菜(烟台山店)",
+    "city": "福州",
+    "category": "food",
+    "description": "南马唐鲜作闽南菜(烟台山店)位于福州市仓山区仓前街道仓前路7号M13号，是一家主打闽南菜的中餐厅，菜品以新鲜食材和传统做法为特色，深受食客喜爱。",
+    "tags": [
+      "闽南菜",
+      "中餐厅",
+      "福州",
+      "仓山区"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "南马唐鲜作闽南菜(烟台山店)",
+    "city": "福州",
+    "category": "food",
+    "description": "南马唐鲜作闽南菜(烟台山店)，位于仓前街道仓前路7号M13号，仓山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南马唐鲜作闽南菜(烟台山店)",
+    "city": "福州",
+    "category": "food",
+    "description": "南马唐鲜作闽南菜(烟台山店)，位于仓前街道仓前路7号M13号，仓山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南马唐鲜作闽南菜(烟台山店)",
+    "city": "福州",
+    "category": "food",
+    "description": "南马唐鲜作闽南菜(烟台山店)，位于仓前街道仓前路7号M13号，仓山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南马唐鲜作闽南菜(烟台山店)",
+    "city": "福州",
+    "category": "food",
+    "description": "南马唐鲜作闽南菜(烟台山店)位于福州市仓山区仓前街道仓前路7号M13号，是一家主打闽南菜的中餐厅，菜品以新鲜食材和传统做法为特色，深受食客喜爱。",
+    "tags": [
+      "闽南菜",
+      "中餐厅",
+      "福州",
+      "仓山区"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "叠水广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于八一七北路88号东百中心C馆B2层",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "口口香渔庄(冠亚店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于冠亚广场4号楼04",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古代饭堂(冠亚店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于冠亚广场5号楼店面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古街依强稀饭(古街商厦店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于瀛洲路23号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台江区江滨公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于西江滨大道1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同利肉燕老铺(三坊七巷店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于南后街98号(东街口地铁站C口步行480米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "后街捞化",
+    "city": "福州",
+    "category": "food",
+    "description": "后街捞化是福州一家以捞化为主打的中餐厅，位于鼓楼区通湖路216号，提供地道福州小吃。",
+    "tags": [
+      "中餐厅",
+      "福州小吃",
+      "捞化"
+    ],
+    "avgCost": 30.0,
+    "duration": "1小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "后街捞化",
+    "city": "福州",
+    "category": "food",
+    "description": "后街捞化，位于通湖路216号，鼓楼区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "后街捞化",
+    "city": "福州",
+    "category": "food",
+    "description": "后街捞化，位于通湖路216号，鼓楼区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "后街捞化",
+    "city": "福州",
+    "category": "food",
+    "description": "后街捞化，位于通湖路216号，鼓楼区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "后街捞化",
+    "city": "福州",
+    "category": "food",
+    "description": "后街捞化是福州一家以捞化为主打的中餐厅，位于鼓楼区通湖路216号，提供地道福州小吃。",
+    "tags": [
+      "中餐厅",
+      "福州小吃",
+      "捞化"
+    ],
+    "avgCost": 30.0,
+    "duration": "1小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "大斗烧麦档(道山路店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于道山路84号(南门兜地铁站L口步行300米)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大胡子冰饭(福马路店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于福马路中段468号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天龙客房(长乐店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "天龙客房(长乐店)位于福建省福州市长乐区吴航路56号，靠近十洋地铁站D东南口步行420米，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "旅馆",
+      "长乐"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "天龙客房(长乐店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "天龙客房(长乐店)，位于吴航路56号(十洋地铁站D东南口步行420米)，长乐区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天龙客房(长乐店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "天龙客房(长乐店)，位于吴航路56号(十洋地铁站D东南口步行420米)，长乐区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天龙客房(长乐店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "天龙客房(长乐店)，位于吴航路56号(十洋地铁站D东南口步行420米)，长乐区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天龙客房(长乐店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "天龙客房(长乐店)位于福建省福州市长乐区吴航路56号，靠近十洋地铁站D东南口步行420米，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "旅馆",
+      "长乐"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "天龙客房(长乐店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于吴航路56号(十洋地铁站D东南口步行420米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝胜闽南风味馆(三坊七巷店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于道山路143号(南门兜地铁站L口步行380米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寄海海鲜火锅(东街口·三坊七巷店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于八一七北路81号五洲大厦2层(同仁堂隔壁楼梯)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寄海海鲜火锅(苏宁广场店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于苏宁广场A区B1层(祥坂地铁站D口步行290米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小何永泰葱饼店(西洋路店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于上海街道西洋路43号西洋地铁站B出口正对面",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小雍火锅(三坊七巷东街口店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于贤南路与东牙巷交叉口东北20米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小雍火锅(五四路店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于五四路宏运帝豪国际大厦负一楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "屏山公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于华大街道华大街道华大街道华大街道华大街道福飞南路139号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崔酱炸鸡(东街店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于贤南路36号-2(东街口地铁站A东北口步行150米)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崔酱炸鸡(烟台山店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于仓前路309号X1/7(03、05)单元",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川悦·海鲜集市火锅·生腌(茶亭公园店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于广达路168号太平洋茶亭里B1层",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平潭国际旅游岛·68海里景区",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于澳前镇东澳村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平潭国际旅游岛·仙人井",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于流水镇王爷山南麓",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平潭国际旅游岛·坛南湾",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于平潭综合实验区敖东镇田美路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平潭歌哥小院客栈(北部湾生态廊道店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "平潭歌哥小院客栈位于平潭县青峰村359号，靠近北部湾生态廊道，是一家提供住宿服务的特色客栈，环境优美，适合休闲度假。",
+    "tags": [
+      "民宿",
+      "海景",
+      "平潭"
+    ],
+    "avgCost": 300.0,
+    "duration": "1天",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "平潭歌哥小院客栈(北部湾生态廊道店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "平潭歌哥小院客栈(北部湾生态廊道店)，位于青峰村359号，平潭县，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平潭歌哥小院客栈(北部湾生态廊道店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "平潭歌哥小院客栈(北部湾生态廊道店)，位于青峰村359号，平潭县，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平潭歌哥小院客栈(北部湾生态廊道店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "平潭歌哥小院客栈(北部湾生态廊道店)，位于青峰村359号，平潭县，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平潭歌哥小院客栈(北部湾生态廊道店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "平潭歌哥小院客栈位于平潭县青峰村359号，靠近北部湾生态廊道，是一家提供住宿服务的特色客栈，环境优美，适合休闲度假。",
+    "tags": [
+      "民宿",
+      "海景",
+      "平潭"
+    ],
+    "avgCost": 300.0,
+    "duration": "1天",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "平潭歌哥小院客栈(北部湾生态廊道店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于青峰村359号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庆华酒店(福州南站店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于胪雷路16号南站·阳光天地购物中心F8层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "建州宴•鲜辣闽北味(三坊七巷店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于光禄坊53号",
+    "tags": [
+      "050110"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悠然影音公寓(福州火车南站店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于城门镇胪雷路16号阳光环站新城二区5号楼508室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慧住酒店(五一广场三坊七巷店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "慧住酒店位于福州市台江区茶亭街道五一中路36号高桥大厦2层，毗邻五一广场和三坊七巷，交通便利，设施齐全，是商务和旅游的理想下榻之处。",
+    "tags": [
+      "酒店",
+      "五一广场",
+      "三坊七巷",
+      "福州"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "慧住酒店(五一广场三坊七巷店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "慧住酒店(五一广场三坊七巷店)，位于茶亭街道五一中路36号高桥大厦2层，台江区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慧住酒店(五一广场三坊七巷店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "慧住酒店(五一广场三坊七巷店)，位于茶亭街道五一中路36号高桥大厦2层，台江区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慧住酒店(五一广场三坊七巷店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "慧住酒店(五一广场三坊七巷店)，位于茶亭街道五一中路36号高桥大厦2层，台江区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慧住酒店(五一广场三坊七巷店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "慧住酒店位于福州市台江区茶亭街道五一中路36号高桥大厦2层，毗邻五一广场和三坊七巷，交通便利，设施齐全，是商务和旅游的理想下榻之处。",
+    "tags": [
+      "酒店",
+      "五一广场",
+      "三坊七巷",
+      "福州"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "拿坡里小镇(冠亚店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于安泰街道八一七北路268号冠亚广场4号",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文庙南广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于安泰街道圣庙路10号福州文庙",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "旗山万佛寺",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于南屿镇117县道西侧",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "易佰连锁旅店(福清成龙步行街店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于成龙步行街9号楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晨曦广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于湖滨路113附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "普拉那广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于东泰禾广场二期13号楼",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "望舒影院公寓(福州火车南站胪雷地铁站店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于胪雷路16号南站·阳光天地购物中心F1层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱富贵火锅(三坊七巷店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于大洋百货商场5层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱富贵火锅(上下杭店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于八一七中路760号群升汇商场负一层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱富贵火锅(恒力城店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于鼓东街道五四路128号恒力城地下一层012-018号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱富贵火锅(欢乐颂店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于浦上大道306号欢乐颂4楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林则徐纪念馆",
+    "city": "福州",
+    "category": "attraction",
+    "description": "林则徐纪念馆位于福州市鼓楼区澳门路，是纪念民族英雄林则徐的专题纪念馆，馆内展示了林则徐的生平事迹、虎门销烟等历史资料，是进行爱国主义教育的重要场所。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "林则徐纪念馆",
+    "city": "福州",
+    "category": "attraction",
+    "description": "林则徐纪念馆，位于澳门路16号(南门兜地铁站L口步行420米)，鼓楼区，类型风景名胜 纪念馆。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林则徐纪念馆",
+    "city": "福州",
+    "category": "attraction",
+    "description": "林则徐纪念馆，位于澳门路16号(南门兜地铁站L口步行420米)，鼓楼区，类型风景名胜 纪念馆。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林则徐纪念馆",
+    "city": "福州",
+    "category": "attraction",
+    "description": "林则徐纪念馆，位于澳门路16号(南门兜地铁站L口步行420米)，鼓楼区，类型风景名胜 纪念馆。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林则徐纪念馆",
+    "city": "福州",
+    "category": "attraction",
+    "description": "林则徐纪念馆位于福州市鼓楼区澳门路，是纪念民族英雄林则徐的专题纪念馆，馆内展示了林则徐的生平事迹、虎门销烟等历史资料，是进行爱国主义教育的重要场所。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "林则徐纪念馆",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于澳门路16号(南门兜地铁站L口步行420米)",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林江福·福建砂锅菜(善化坊店)",
+    "city": "福州",
+    "category": "food",
+    "description": "林江福·福建砂锅菜(善化坊店) 是福州的景点",
+    "tags": [],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "林江福·福建砂锅菜(善化坊店)",
+    "city": "福州",
+    "category": "food",
+    "description": "林江福·福建砂锅菜(善化坊店)，位于鼓西路427号(西门地铁站B西北口步行250米)，鼓楼区，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林江福·福建砂锅菜(善化坊店)",
+    "city": "福州",
+    "category": "food",
+    "description": "林江福·福建砂锅菜(善化坊店)，位于鼓西路427号(西门地铁站B西北口步行250米)，鼓楼区，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林江福·福建砂锅菜(善化坊店)",
+    "city": "福州",
+    "category": "food",
+    "description": "林江福·福建砂锅菜(善化坊店)，位于鼓西路427号(西门地铁站B西北口步行250米)，鼓楼区，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林江福·福建砂锅菜(善化坊店)",
+    "city": "福州",
+    "category": "food",
+    "description": "林江福·福建砂锅菜(善化坊店) 是福州的景点",
+    "tags": [],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "林记沙茶面(东泰店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于东泰路碧玉花园一层店面170号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林记潮汕海鲜砂锅粥(平潭总店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于翠园中路8-3台商大厦旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(东泰禾广场店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于东二环泰禾广场13号楼108",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(达道店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于学军路1-3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂花香苑(三坊七巷店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于澳门路营房里6-16号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "毛记潮汕海鲜砂锅粥(总店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于龙凤东路明通大厦30-6",
+    "tags": [
+      "050123"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民航广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于茶亭街道五一中路阿波罗酒店公寓sky酒店公寓",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水秀广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于岳峰镇横屿路19号(原连江北路路与化工路交叉处)福州泰禾广场(一期)9#楼1层10商业(餐饮)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永和鱼丸(道山路店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于道山路213号(金品公寓隔壁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "没牙伯花生汤店",
+    "city": "福州",
+    "category": "food",
+    "description": "位于老药洲街182号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海天盛宴平价小火锅",
+    "city": "福州",
+    "category": "food",
+    "description": "位于燎原路161号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海天盛宴平价小火锅(正大广场店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于水部街道五一中路18号福州正大广场六层B区",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(世纪金源店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于闽江世纪金源购物中心2层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(东百中心店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于杨桥东路8号东百中心B馆7楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(苏宁广场店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于工业路233号苏宁广场A区5楼501海底捞火锅",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海景园宾馆",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于高山镇东进村综合汽车站1号楼(近中国银行)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海滨之恋度假酒店(聚远路分店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于漳港街道霞江外滩花园1栋2梯12层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "温泉公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于温泉公园路8号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨江市民广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于祥坂支路116号(祥坂地铁站C口步行361米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨江市民广场上盖公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于江滨西大道上方",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漫花江景影院公寓(闽侯甘蔗闽都民俗园店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于世茂上游墅65栋1楼01号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潭式煎包(龙凤头店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于龙华路130号(雅阁酒店旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烟台山公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于仓前街道梅坞路14号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熙悦居酒店公寓(福州火车南站店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于城门镇胪雷路16号阳光环站新城(二区)7号楼1022室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "爱心树",
@@ -67,10 +1965,513 @@
     "tags": [
       "风景名胜"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "未知",
     "openTime": "全天开放",
     "rating": 0.0
+  },
+  {
+    "name": "爱心树",
+    "city": "福州",
+    "category": "attraction",
+    "description": "爱心树，位于三坊七巷南后街，鼓楼区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱心树",
+    "city": "福州",
+    "category": "attraction",
+    "description": "爱心树，位于三坊七巷南后街，鼓楼区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱心树",
+    "city": "福州",
+    "category": "attraction",
+    "description": "爱心树，位于三坊七巷南后街，鼓楼区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱心树",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于福州市鼓楼区三坊七巷南后街的爱心树，是一处著名的风景名胜地标，因其树冠形似爱心而得名，深受游客喜爱。",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "全天开放",
+    "rating": 0.0
+  },
+  {
+    "name": "爱心树",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于三坊七巷南后街",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱情岛",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于上渡街道三县洲大桥桥下",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "猴研岛",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于澳前镇东澳村平潭国际旅游岛·68海里景区(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王庄阿咪海鲜大排档(三坊七巷店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于三坊七巷通湖路387号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琪辉餐厅(三坊七巷美食地标店)",
+    "city": "福州",
+    "category": "food",
+    "description": "琪辉餐厅位于福州鼓楼区八一七北路，是一家以中餐为主的餐厅。",
+    "tags": [
+      "中餐",
+      "三坊七巷"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "琪辉餐厅(三坊七巷美食地标店)",
+    "city": "福州",
+    "category": "food",
+    "description": "琪辉餐厅(三坊七巷美食地标店)，位于八一七北路151号福建佳盛大厦1层，鼓楼区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琪辉餐厅(三坊七巷美食地标店)",
+    "city": "福州",
+    "category": "food",
+    "description": "琪辉餐厅(三坊七巷美食地标店)，位于八一七北路151号福建佳盛大厦1层，鼓楼区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琪辉餐厅(三坊七巷美食地标店)",
+    "city": "福州",
+    "category": "food",
+    "description": "琪辉餐厅(三坊七巷美食地标店)，位于八一七北路151号福建佳盛大厦1层，鼓楼区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琪辉餐厅(三坊七巷美食地标店)",
+    "city": "福州",
+    "category": "food",
+    "description": "琪辉餐厅位于福州鼓楼区八一七北路，是一家以中餐为主的餐厅。",
+    "tags": [
+      "中餐",
+      "三坊七巷"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "瑞客智选影院公寓(福州南站店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于城门镇胪雷路16号阳光新天地二区2号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白马河公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于白马北路174号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皓瑞达公寓(东湖一路分店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于文武砂街道壶江路5号创客中心19栋",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "知者来特味吃店",
+    "city": "福州",
+    "category": "food",
+    "description": "位于光禄坊103-1号(福州二中对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石竹山省级风景名胜区",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于真丰殿",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "破店·非遗蹄膀·佛跳墙·福建菜(三坊七巷店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于道山路88号(南门兜地铁站S4口步行310米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "破店·非遗蹄膀·佛跳墙·福建菜(南门店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于安泰街道八一七中路10号店面",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州万豪宾馆",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于施埔路13号汇利达商厦5层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州卫平公寓",
+    "city": "福州",
+    "category": "hotel",
+    "description": "福州卫平公寓位于仓山区城门镇胪雷路16号阳光天地B区1号楼，提供舒适的住宿服务。",
+    "tags": [
+      "住宿",
+      "公寓",
+      "仓山区"
+    ],
+    "avgCost": 0.0,
+    "duration": "1晚",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "福州卫平公寓",
+    "city": "福州",
+    "category": "hotel",
+    "description": "福州卫平公寓，位于城门镇胪雷路16号阳光天地B区1号楼，仓山区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州卫平公寓",
+    "city": "福州",
+    "category": "hotel",
+    "description": "福州卫平公寓，位于城门镇胪雷路16号阳光天地B区1号楼，仓山区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州卫平公寓",
+    "city": "福州",
+    "category": "hotel",
+    "description": "福州卫平公寓，位于城门镇胪雷路16号阳光天地B区1号楼，仓山区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州卫平公寓",
+    "city": "福州",
+    "category": "hotel",
+    "description": "福州卫平公寓位于仓山区城门镇胪雷路16号阳光天地B区1号楼，提供舒适的住宿服务。",
+    "tags": [
+      "住宿",
+      "公寓",
+      "仓山区"
+    ],
+    "avgCost": 0.0,
+    "duration": "1晚",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "福州卫平公寓",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于城门镇胪雷路16号阳光天地B区1号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州国家森林公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于新店上赤桥",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州市鼓山旅游景区",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于福马路1000号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于五四路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州心悦宿公寓(东二环泰禾店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于岳峰镇化工路198号泰禾广场东区B2号楼20楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州格霖公寓",
+    "city": "福州",
+    "category": "hotel",
+    "description": "福州格霖公寓位于仓山区城门镇永南路98号领秀新城1号楼，提供住宿服务，环境舒适，交通便利。",
+    "tags": [
+      "公寓",
+      "仓山区",
+      "住宿"
+    ],
+    "avgCost": 200.0,
+    "duration": "不定",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "福州格霖公寓",
+    "city": "福州",
+    "category": "hotel",
+    "description": "福州格霖公寓，位于城门镇永南路98号领秀新城1号楼，仓山区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州格霖公寓",
+    "city": "福州",
+    "category": "hotel",
+    "description": "福州格霖公寓，位于城门镇永南路98号领秀新城1号楼，仓山区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州格霖公寓",
+    "city": "福州",
+    "category": "hotel",
+    "description": "福州格霖公寓，位于城门镇永南路98号领秀新城1号楼，仓山区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州格霖公寓",
+    "city": "福州",
+    "category": "hotel",
+    "description": "福州格霖公寓位于仓山区城门镇永南路98号领秀新城1号楼，提供住宿服务，环境舒适，交通便利。",
+    "tags": [
+      "公寓",
+      "仓山区",
+      "住宿"
+    ],
+    "avgCost": 200.0,
+    "duration": "不定",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "福州格霖公寓",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于城门镇永南路98号领秀新城1号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "福州熊猫世界",
@@ -83,55 +2484,133 @@
       "亲子",
       "福州"
     ],
-    "avgCost": 40,
+    "avgCost": 40.0,
     "duration": "2-3小时",
     "openTime": "08:00-17:00",
     "rating": 4.5
   },
   {
-    "name": "西禅古寺",
+    "name": "福州熊猫世界",
     "city": "福州",
     "category": "attraction",
-    "description": "西禅古寺是福州著名的佛教古刹，始建于唐代，寺内有古荔树、百柱堂等景点，香火鼎盛，环境清幽。",
+    "description": "福州熊猫世界，位于梦山路88号，鼓楼区，类型公园广场 动物园。",
     "tags": [
-      "古寺",
-      "佛教文化",
-      "风景名胜"
+      "公园广场",
+      "动物园"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "08:00-17:00",
-    "rating": 4.6
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "五一广场",
+    "name": "福州熊猫世界",
     "city": "福州",
     "category": "attraction",
-    "description": "五一广场位于福州市鼓楼区古田路32号，是福州市民休闲活动的城市广场。",
+    "description": "福州熊猫世界，位于梦山路88号，鼓楼区，类型公园广场 动物园。",
     "tags": [
-      "风景名胜",
       "公园广场",
-      "城市广场"
+      "动物园"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州熊猫世界",
+    "city": "福州",
+    "category": "attraction",
+    "description": "福州熊猫世界，位于梦山路88号，鼓楼区，类型公园广场 动物园。",
+    "tags": [
+      "公园广场",
+      "动物园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州熊猫世界",
+    "city": "福州",
+    "category": "attraction",
+    "description": "福州熊猫世界位于鼓楼区梦山路88号，是一座以熊猫为主题的动物园，展示大熊猫及其他珍稀动物，适合亲子游玩。",
+    "tags": [
+      "熊猫",
+      "动物园",
+      "亲子",
+      "福州"
+    ],
+    "avgCost": 40.0,
+    "duration": "2-3小时",
+    "openTime": "08:00-17:00",
     "rating": 4.5
   },
   {
-    "name": "茶亭公园",
+    "name": "福州熊猫世界",
     "city": "福州",
     "category": "attraction",
-    "description": "茶亭公园位于福州市台江区广达路，是一座以江南园林风格为主的城市公园。园内小桥流水、绿树成荫，设有茶亭、廊桥等景观，是市民休闲散步的好去处。",
+    "description": "位于梦山路88号",
     "tags": [
-      "公园",
-      "休闲",
-      "园林"
+      "110102"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.3
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州索菲尔动感酒店(火车南站店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于城门镇胪雷路26号阳光环站新城15号楼13层(福州火车南站正对面)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州聚源宾馆(十洋地铁站店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于吴航路46-48号(十洋地铁站D东南口步行440米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州舒适家庭旅馆",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于后县路12号后县新苑5栋2403",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福州观景花园公寓(福州火车南站店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于城门镇胪峰路9号阳光城大都会C区6栋2楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "福建博物院",
@@ -142,9 +2621,357 @@
       "博物馆",
       "科教文化"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "2-3小时",
     "openTime": "09:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "福建博物院",
+    "city": "福州",
+    "category": "attraction",
+    "description": "福建博物院，位于湖头街96号(近西湖公园)，鼓楼区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福建博物院",
+    "city": "福州",
+    "category": "attraction",
+    "description": "福建博物院，位于湖头街96号(近西湖公园)，鼓楼区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福建博物院",
+    "city": "福州",
+    "category": "attraction",
+    "description": "福建博物院，位于湖头街96号(近西湖公园)，鼓楼区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福建博物院",
+    "city": "福州",
+    "category": "attraction",
+    "description": "福建博物院位于福州市鼓楼区湖头街96号，是集展览、收藏、研究于一体的综合性博物馆，馆藏丰富，常设展览展示福建历史与文化。",
+    "tags": [
+      "博物馆",
+      "科教文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "09:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "福建博物院",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于湖头街96号(近西湖公园)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福清佳宏招待所",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于福清融城后埔街19号楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福清宏都宾馆",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于玉屏街道向高路108号(后埔街新华书店对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福道",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于洪山镇西环北路110号附近",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福院广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于鼓东街道八一七北路133号中城广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "立冬轻食(乌山苑店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于乌山路51号(南门兜地铁站D2西南口步行220米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(华林路店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼·传承闽味(华林路店)是位于福州晋安区华林路的一家以闽菜和海鲜为特色的中餐厅，传承传统闽味，菜品新鲜，深受食客喜爱。",
+    "tags": [
+      "海鲜",
+      "闽菜",
+      "中餐厅"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "11:00-14:00, 17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(华林路店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼·传承闽味(华林路店)，位于华林路300号(斗门地铁站B西北口步行100米)，晋安区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(华林路店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼·传承闽味(华林路店)，位于华林路300号(斗门地铁站B西北口步行100米)，晋安区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(华林路店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼·传承闽味(华林路店)，位于华林路300号(斗门地铁站B西北口步行100米)，晋安区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(华林路店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼·传承闽味(华林路店)是位于福州晋安区华林路的一家以闽菜和海鲜为特色的中餐厅，传承传统闽味，菜品新鲜，深受食客喜爱。",
+    "tags": [
+      "海鲜",
+      "闽菜",
+      "中餐厅"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "11:00-14:00, 17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(外滩花园店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼·传承闽味(外滩花园店) 是福州的美食餐厅，位于仓山区。地址：闽江大道202号(金祥地铁站A东北口步行110米)。",
+    "tags": [
+      "福州"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(外滩花园店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼·传承闽味(外滩花园店)，位于闽江大道202号(金祥地铁站A东北口步行110米)，仓山区，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(外滩花园店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼·传承闽味(外滩花园店)，位于闽江大道202号(金祥地铁站A东北口步行110米)，仓山区，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(外滩花园店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼·传承闽味(外滩花园店)，位于闽江大道202号(金祥地铁站A东北口步行110米)，仓山区，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(外滩花园店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼·传承闽味(外滩花园店) 是福州的美食餐厅，位于仓山区。地址：闽江大道202号(金祥地铁站A东北口步行110米)。",
+    "tags": [
+      "福州"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(金洲南路店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼是一家以闽菜和海鲜为特色的中餐厅，位于仓山区金洲南路。",
+    "tags": [
+      "海鲜",
+      "闽菜",
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(金洲南路店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼·传承闽味(金洲南路店)，位于杨周东路1号霞镜福晟商贸楼三楼五楼，仓山区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(金洲南路店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼·传承闽味(金洲南路店)，位于杨周东路1号霞镜福晟商贸楼三楼五楼，仓山区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(金洲南路店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼·传承闽味(金洲南路店)，位于杨周东路1号霞镜福晟商贸楼三楼五楼，仓山区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(金洲南路店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼是一家以闽菜和海鲜为特色的中餐厅，位于仓山区金洲南路。",
+    "tags": [
+      "海鲜",
+      "闽菜",
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
     "rating": 4.5
   },
   {
@@ -158,84 +2985,635 @@
       "中餐",
       "聚餐"
     ],
-    "avgCost": 150,
+    "avgCost": 150.0,
     "duration": "2小时",
     "openTime": "10:00-22:00",
     "rating": 4.5
   },
   {
-    "name": "后街捞化",
+    "name": "紫阳海鲜楼·传承闽味(长乐路总店)",
     "city": "福州",
     "category": "food",
-    "description": "后街捞化是福州一家以捞化为主打的中餐厅，位于鼓楼区通湖路216号，提供地道福州小吃。",
+    "description": "紫阳海鲜楼·传承闽味(长乐路总店)，位于福新中路与长乐北路交叉口，晋安区，类型中餐厅 海鲜酒楼。",
     "tags": [
       "中餐厅",
-      "福州小吃",
-      "捞化"
+      "海鲜酒楼"
     ],
-    "avgCost": 30,
-    "duration": "1小时",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(长乐路总店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼·传承闽味(长乐路总店)，位于福新中路与长乐北路交叉口，晋安区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(长乐路总店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼·传承闽味(长乐路总店)，位于福新中路与长乐北路交叉口，晋安区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫阳海鲜楼·传承闽味(长乐路总店)",
+    "city": "福州",
+    "category": "food",
+    "description": "紫阳海鲜楼是福州著名的海鲜酒楼，传承闽味，以新鲜海鲜和地道闽菜为特色。位于晋安区长乐北路与福新中路交叉口，环境优雅，适合家庭聚餐和商务宴请。招牌菜包括佛跳墙、荔枝肉、清蒸海鲜等，口味正宗。",
+    "tags": [
+      "海鲜",
+      "闽菜",
+      "中餐",
+      "聚餐"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
     "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "缤纷园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于江滨西大道133号闽江公园北园(东南角)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "罗源佳大酒店",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于江滨南路4号(汇利精品建材西侧约50米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "罗源供销商务宾馆",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于城关凤南西路23-002号罗源县供销合作社供销商务宾馆",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "罗马之恋(冠亚店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于八一七北路268号冠亚广场5号楼3号别墅",
+    "tags": [
+      "050205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肥牛先生·港派火锅(福州店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于金康路156号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舊巷南·福州名小吃·手作青鳗鱼丸·芋泥·捞化(三坊七巷店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于道山路131号(林则徐纪念馆出口正对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "英姐海鲜砂锅粥",
+    "city": "福州",
+    "category": "food",
+    "description": "位于南门一康10号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "范特西影院公寓(福州南站店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于胪雷路16号南站·阳光天地购物中心F8层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茶亭公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "茶亭公园位于福州市台江区广达路，是一座以江南园林风格为主的城市公园。园内小桥流水、绿树成荫，设有茶亭、廊桥等景观，是市民休闲散步的好去处。",
+    "tags": [
+      "公园",
+      "休闲",
+      "园林"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
     "rating": 4.3
   },
   {
-    "name": "紫阳海鲜楼·传承闽味(金洲南路店)",
+    "name": "茶亭公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "茶亭公园，位于广达路166号(茶亭地铁站D东南口步行340米)，台江区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茶亭公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "茶亭公园，位于广达路166号(茶亭地铁站D东南口步行340米)，台江区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茶亭公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "茶亭公园，位于广达路166号(茶亭地铁站D东南口步行340米)，台江区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茶亭公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "茶亭公园位于福州市台江区广达路，是一座以江南园林风格为主的城市公园。园内小桥流水、绿树成荫，设有茶亭、廊桥等景观，是市民休闲散步的好去处。",
+    "tags": [
+      "公园",
+      "休闲",
+      "园林"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.3
+  },
+  {
+    "name": "茶亭公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于广达路166号(茶亭地铁站D东南口步行340米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茶亭公园-古榕广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于广达路166号茶亭公园(西南角)",
+    "tags": [
+      "120304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荷花广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于广达路166号茶亭公园内(西侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛮涮自助小火锅·糖水铺子集合店(东百中心店)",
     "city": "福州",
     "category": "food",
-    "description": "紫阳海鲜楼是一家以闽菜和海鲜为特色的中餐厅，位于仓山区金洲南路。",
+    "description": "位于鼓西街道东百中心B馆负一层",
     "tags": [
-      "海鲜",
-      "闽菜",
-      "中餐厅",
-      "综合酒楼"
+      "070000"
     ],
-    "avgCost": 150,
-    "duration": "2小时",
-    "openTime": "11:00-14:00,17:00-21:00",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西湖公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "西湖公园位于福州市鼓楼区湖滨路，是福州历史悠久的古典园林公园，景色优美，适合休闲游览。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
     "rating": 4.5
   },
   {
-    "name": "紫阳海鲜楼·传承闽味(外滩花园店)",
+    "name": "西湖公园",
     "city": "福州",
-    "category": "food",
-    "description": "紫阳海鲜楼·传承闽味(外滩花园店) 是福州的美食餐厅，位于仓山区。地址：闽江大道202号(金祥地铁站A东北口步行110米)。",
+    "category": "attraction",
+    "description": "西湖公园，位于湖滨路70号(西门地铁站B口步行533米)，鼓楼区，类型公园广场 公园。",
     "tags": [
-      "福州"
+      "公园广场",
+      "公园"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "全天",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "紫阳海鲜楼·传承闽味(华林路店)",
+    "name": "西湖公园",
     "city": "福州",
-    "category": "food",
-    "description": "紫阳海鲜楼·传承闽味(华林路店)是位于福州晋安区华林路的一家以闽菜和海鲜为特色的中餐厅，传承传统闽味，菜品新鲜，深受食客喜爱。",
+    "category": "attraction",
+    "description": "西湖公园，位于湖滨路70号(西门地铁站B口步行533米)，鼓楼区，类型公园广场 公园。",
     "tags": [
-      "海鲜",
-      "闽菜",
-      "中餐厅"
+      "公园广场",
+      "公园"
     ],
-    "avgCost": 150,
-    "duration": "2小时",
-    "openTime": "11:00-14:00, 17:00-21:00",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西湖公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "西湖公园，位于湖滨路70号(西门地铁站B口步行533米)，鼓楼区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西湖公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "西湖公园位于福州市鼓楼区湖滨路，是福州历史悠久的古典园林公园，景色优美，适合休闲游览。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
     "rating": 4.5
   },
   {
-    "name": "兴仙饭店·闽味海鲜(得贵路M17店)",
+    "name": "西湖公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于湖滨路70号(西门地铁站B口步行533米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西禅古寺",
+    "city": "福州",
+    "category": "attraction",
+    "description": "西禅古寺是福州著名的佛教古刹，始建于唐代，寺内有古荔树、百柱堂等景点，香火鼎盛，环境清幽。",
+    "tags": [
+      "古寺",
+      "佛教文化",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.6
+  },
+  {
+    "name": "西禅古寺",
+    "city": "福州",
+    "category": "attraction",
+    "description": "西禅古寺，位于工业路455号(凤凰池地铁站D口步行790米)，鼓楼区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西禅古寺",
+    "city": "福州",
+    "category": "attraction",
+    "description": "西禅古寺，位于工业路455号(凤凰池地铁站D口步行790米)，鼓楼区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西禅古寺",
+    "city": "福州",
+    "category": "attraction",
+    "description": "西禅古寺，位于工业路455号(凤凰池地铁站D口步行790米)，鼓楼区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西禅古寺",
+    "city": "福州",
+    "category": "attraction",
+    "description": "西禅古寺是福州著名的佛教古刹，始建于唐代，寺内有古荔树、百柱堂等景点，香火鼎盛，环境清幽。",
+    "tags": [
+      "古寺",
+      "佛教文化",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.6
+  },
+  {
+    "name": "西禅古寺",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于工业路455号(凤凰池地铁站D口步行790米)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西雅图影院公寓(福州火车南站店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于胪雷路南站阳光天地购物中心6号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达美乐比萨(东百中心店)",
     "city": "福州",
     "category": "food",
-    "description": "兴仙饭店·闽味海鲜(得贵路M17店)位于福州市鼓楼区得贵路26号M17文化广场4层，靠近东门地铁站C口，是一家主打海鲜和闽味的餐厅。",
+    "description": "位于八一七北路110号东百中心C馆第B2F层B2-A55-A56店铺",
     "tags": [
-      "海鲜",
-      "中餐厅",
-      "闽菜"
+      "050300"
     ],
-    "avgCost": 150,
-    "duration": "2小时",
-    "openTime": "10:00-22:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "醉仙楼",
+    "city": "福州",
+    "category": "food",
+    "description": "位于乌山西路乌山苑2座1号店",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金牛山",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于西洪路588号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金牛山公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于西洪路598号(金牛山地铁站B口步行36米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银芳水煮蛙(茶亭公园店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于茶亭街道广达路168号太平洋·茶亭里A1号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长乐下沙海滨度假村",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于江田镇海滨北路与下沙路交叉口东200米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闽侯莯茪民宿",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于广贤路荷塘名郡12号楼",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闽江之心-海丝广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于闽江之心",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闽江公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于江滨大道1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闽江公园北园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于江滨西大道133号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闽江公园南园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于闽江大道167号融侨水乡酒店附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈记牛来牛往潮汕牛肉自助火锅(大洋店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于八一七北路133号国际商厦6楼601",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "难得怪味·客家山宴(福州奥体店)",
@@ -247,126 +3625,248 @@
       "中餐厅",
       "山宴"
     ],
-    "avgCost": 80,
+    "avgCost": 80.0,
     "duration": "2小时",
     "openTime": "10:00-21:00",
     "rating": 4.5
   },
   {
-    "name": "南马唐鲜作闽南菜(烟台山店)",
+    "name": "难得怪味·客家山宴(福州奥体店)",
     "city": "福州",
     "category": "food",
-    "description": "南马唐鲜作闽南菜(烟台山店)位于福州市仓山区仓前街道仓前路7号M13号，是一家主打闽南菜的中餐厅，菜品以新鲜食材和传统做法为特色，深受食客喜爱。",
+    "description": "难得怪味·客家山宴(福州奥体店)，位于奥体阳光天地1楼5号门，仓山区，类型中餐厅 中餐厅。",
     "tags": [
-      "闽南菜",
       "中餐厅",
-      "福州",
-      "仓山区"
+      "中餐厅"
     ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "10:00-22:00",
-    "rating": 4.3
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "林江福·福建砂锅菜(善化坊店)",
+    "name": "难得怪味·客家山宴(福州奥体店)",
     "city": "福州",
     "category": "food",
-    "description": "林江福·福建砂锅菜(善化坊店) 是福州的景点",
-    "tags": [],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
+    "description": "难得怪味·客家山宴(福州奥体店)，位于奥体阳光天地1楼5号门，仓山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "琪辉餐厅(三坊七巷美食地标店)",
+    "name": "难得怪味·客家山宴(福州奥体店)",
     "city": "福州",
     "category": "food",
-    "description": "琪辉餐厅位于福州鼓楼区八一七北路，是一家以中餐为主的餐厅。",
+    "description": "难得怪味·客家山宴(福州奥体店)，位于奥体阳光天地1楼5号门，仓山区，类型中餐厅 中餐厅。",
     "tags": [
-      "中餐",
-      "三坊七巷"
+      "中餐厅",
+      "中餐厅"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "天龙客房(长乐店)",
+    "name": "难得怪味·客家山宴(福州奥体店)",
     "city": "福州",
-    "category": "hotel",
-    "description": "天龙客房(长乐店)位于福建省福州市长乐区吴航路56号，靠近十洋地铁站D东南口步行420米，提供住宿服务。",
+    "category": "food",
+    "description": "难得怪味·客家山宴位于福州奥体阳光天地，主打地道客家菜，以山珍野味和独特烹饪手法著称，环境雅致，适合家庭聚餐和商务宴请。",
     "tags": [
-      "住宿",
-      "旅馆",
-      "长乐"
+      "客家菜",
+      "中餐厅",
+      "山宴"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "慧住酒店(五一广场三坊七巷店)",
-    "city": "福州",
-    "category": "hotel",
-    "description": "慧住酒店位于福州市台江区茶亭街道五一中路36号高桥大厦2层，毗邻五一广场和三坊七巷，交通便利，设施齐全，是商务和旅游的理想下榻之处。",
-    "tags": [
-      "酒店",
-      "五一广场",
-      "三坊七巷",
-      "福州"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
-  },
-  {
-    "name": "福州格霖公寓",
-    "city": "福州",
-    "category": "hotel",
-    "description": "福州格霖公寓位于仓山区城门镇永南路98号领秀新城1号楼，提供住宿服务，环境舒适，交通便利。",
-    "tags": [
-      "公寓",
-      "仓山区",
-      "住宿"
-    ],
-    "avgCost": 200,
-    "duration": "不定",
-    "openTime": "24小时",
-    "rating": 4.0
-  },
-  {
-    "name": "平潭歌哥小院客栈(北部湾生态廊道店)",
-    "city": "福州",
-    "category": "hotel",
-    "description": "平潭歌哥小院客栈位于平潭县青峰村359号，靠近北部湾生态廊道，是一家提供住宿服务的特色客栈，环境优美，适合休闲度假。",
-    "tags": [
-      "民宿",
-      "海景",
-      "平潭"
-    ],
-    "avgCost": 300,
-    "duration": "1天",
-    "openTime": "全天",
+    "avgCost": 80.0,
+    "duration": "2小时",
+    "openTime": "10:00-21:00",
     "rating": 4.5
   },
   {
-    "name": "福州卫平公寓",
+    "name": "青年会",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于苍霞路13号",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青春广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于国货西路与广达路交叉口西北",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "韵华壹号(青口商业广场店)",
     "city": "福州",
     "category": "hotel",
-    "description": "福州卫平公寓位于仓山区城门镇胪雷路16号阳光天地B区1号楼，提供舒适的住宿服务。",
+    "description": "位于农光路1号华韵财富广场613室",
     "tags": [
-      "住宿",
-      "公寓",
-      "仓山区"
+      "100100"
     ],
-    "avgCost": 0,
-    "duration": "1晚",
-    "openTime": "24小时",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "食物家·超级居酒屋",
+    "city": "福州",
+    "category": "food",
+    "description": "位于雅道巷59号(西门地铁站D东南口步行460米)",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "食运茶餐厅(三坊七巷店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于安泰街道八一七北路268号冠亚广场1楼1层08店面",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鳄梨猫墨西哥餐厅(澳门路店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于澳门路1-5号",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹏隆酒店(福州南站店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于城门镇胪雷路阳光天地SOHO6号楼1617室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹿鸣影院公寓(福州南站店)",
+    "city": "福州",
+    "category": "hotel",
+    "description": "位于胪雷路16号南站·阳光天地购物中心F6层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(东百中心店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于八一七北路84-88号东百大厦B1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(烟台山店)",
+    "city": "福州",
+    "category": "food",
+    "description": "位于仓前路7号",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黎明湖公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于乌山路福州市委旁边(黎明戴斯大酒店)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓楼前公园",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于鼓西路16号冶金宿舍3座401",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙岭顶广场",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于星河巷星安桥路82号上下杭历史文化街区内(西侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙王头海滩",
+    "city": "福州",
+    "category": "attraction",
+    "description": "位于平潭龙凤山庄荣誉酒店东南侧410米",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

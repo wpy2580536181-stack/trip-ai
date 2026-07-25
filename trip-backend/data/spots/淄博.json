@@ -1,0 +1,782 @@
+[
+  {
+    "name": "7天酒店(淄博临淄方正2009银座店)",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于天齐路63号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国课本博物馆",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于中润大道255号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "串家烧烤(金晶大道店)",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于中心路金晶大道191号1楼北首沿街房",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "优客达酒店(新龙店)",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于黄河路与中心路交口东北角(车站宾馆对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "俏凳子江湖菜",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于潘南西路45号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八大局烧烤(淄博总店)",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于金晶大道140号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "再回首酸菜鱼龙虾馆(潘南路店)",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于潘南西路65甲2号(18中斜对面)",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华光国瓷文化艺术中心",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于高新区鲁泰大道55号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华荣哲绿豆饼(市府东一街店)",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于市府东一街5甲",
+    "tags": [
+      "050800"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "又一村上善坊大酒店",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于中心路166号",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "周村古商城",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于新建中路19号靠近周村公安分局大街派出所",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "唐库文创园",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于马尚镇和平路131号",
+    "tags": [
+      "120100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "圣鑫快捷主题宾馆",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于新世界商业步行街北段57号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夜明珠小海鲜(潘南路店)",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于潘南路西首路南,十八中斜对过",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天虹宾馆(永安南路店)",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于永安南路105号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孝妇河湿地公园",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于和平路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安居宾馆(北营路店)",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于北营北路南侧沿街房9号甲1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安居宾馆(淄博淄川区店)",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于商城西街18号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安舒精品酒店(山东理工大学店)",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于共青团西路228号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小三峡川渝菜馆",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于科苑街道办事处潘南西路2甲49号阳光春城小区5号楼2号甲49号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚客优酒店(淄博八大局明清街店)",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于张恒路97号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张店儿童公园",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于共青团东路30号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张店军屯空中草原",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于鲁山大道216号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张店市民公园",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于马尚街道张店区政府旁",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "昆仑宾馆(昆仑中心医院西南)",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于昆仑路81号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晚小玖",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于潘南西路47号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楚楚谡谡",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于市府西一街3号甲",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正旺宾馆(淄博万象汇火车站店)",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于西一路62-10号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沂源大酒店",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于振兴路6号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海岱楼",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于房镇镇中润大道齐盛湖公园",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淄博中齐宾馆(临淄炼厂中路店)",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于金山镇胜利路虎山生活区27栋",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淄博市博物馆",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于商场西街153号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淄博市植物园",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于世纪路28号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淄博情缘旅馆",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于步行街中段17号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淄博海珑商务宾馆(牛山路店)",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于雪宫路81号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淄博翔云宾馆",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于闻韶路1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淄博舒馨宾馆(新世界商业街八大局店)",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于科苑街道商业步行街北段63号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淄博花灯齐彩城",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于东郊6公里309国道北侧",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淄博高新区文体公园",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于四宝山街道政通路165号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "火炬公园",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于柳泉路与中润大道交汇处西北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牧羊村烧烤(潘南路店)",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于潘南西路1号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉龙湖湿地公园",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于齐新大道与北西五路交叉口西260米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "知味斋大酒店·齐文化主题酒店",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于人民西路11号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "礼禾私房菜",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于潘南西路2甲37号阳光春城小区5号楼2号甲44号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "纪林菜馆(八大局店)",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于银领国际商务中心北门东110米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老博山四四席(柳泉路店)",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于柳泉路西二巷10号广电医院门口",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老博山老菜馆(王府井店)",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于柳泉路156号茂业天地东门北行70米老博山老菜馆",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老翁烧烤(淄博总店)",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于柳泉路57号甲1号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚友斋(柳泉路店)",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于柳泉路青少年宫南邻166号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花山公园",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于尚军路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西边有个院",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于联通路与上海路交叉口东南角",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "许记蒙山炒鸡(潘南路店)",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于市府西一街8号13幢1-4号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "进京涮肉(潘庄店)",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于华光路47号民泰兴旺家园底商",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "都市118(淄博站南广场店)",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于南定镇张南路111号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金带公园",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于人民西路218号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金秋酸菜鱼家常菜",
+    "city": "淄博",
+    "category": "food",
+    "description": "位于潘南西路52号(科苑)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "风景华庭酒店",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于华光路62号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高青华夏商务宾馆",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于中心路25号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "齐盛湖公园",
+    "city": "淄博",
+    "category": "attraction",
+    "description": "位于中润大道",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "齐都宾馆",
+    "city": "淄博",
+    "category": "hotel",
+    "description": "位于齐都路88号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

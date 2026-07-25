@@ -1,0 +1,3473 @@
+[
+  {
+    "name": "DALI丨林夕·Sunny小院客栈(大理古城人民路店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于古城西门石门村110号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "HappyMiss花满楼·鲜花饼(大理古城洋人街店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于人民路与博爱路交叉口正北方向160米左右",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三哥·思茅菜(北区店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于太和街道大关邑社区居民委员会5组28号兴盛北路88号路",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三孃食坊",
+    "city": "大理",
+    "category": "food",
+    "description": "位于沙溪古镇东南小学西北100米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三月街夜市",
+    "city": "大理",
+    "category": "food",
+    "description": "位于观音路与Z005交叉口南200米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下关沱茶博物馆",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于建设路13号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东海度假村",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于塔村环海东路",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莲花马帮文化博物馆",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于西山公路",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "严家大院博物馆",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于喜洲镇富春里1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国大理农村电影历史博物馆",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于复兴路459号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丹凤亭",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于洱河南路1号洱海公园内(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽芬夜市",
+    "city": "大理",
+    "category": "food",
+    "description": "位于南涧镇金龙路龙凤丽都7号地1-21号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐野古镇酒店(喜洲店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于喜洲镇大丽线喜洲客运站南100米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云上村庄",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于光明村鸡茨坪社",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云南卤味土鸡米线(大理古城店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理古城旅游咨询服务中心东门西60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云南歧梦谷休闲度假山庄",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于苍山西镇河西上庄村歧梦谷休闲度假山庄",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云南省下关茶厂工业遗产展示中心",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于建设西路13号",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云县·岩胖乌鸡米线(金k海景店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于滨海大道1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云回香清真鲜花饼",
+    "city": "大理",
+    "category": "food",
+    "description": "位于九隆居商业步行街A7-1",
+    "tags": [
+      "061214"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云漫扎染博物馆",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于云南省 大理白族自治州 大理市 喜洲镇城北村12号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "依山客栈",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于海东镇上和村委会上和村5社39号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "俊莲温泉度假区",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "傣家人庭院餐厅",
+    "city": "大理",
+    "category": "food",
+    "description": "位于满江街道滨海大道石坪村47号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "傣家姑娘·西双版纳碳烤手抓饭",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理镇绿玉路1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "全鑫酒店(大理高铁站洱海公园店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于富海路太平洋保险北",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "关圣殿",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于S314(环海东路)双廊古镇景区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "关帝庙",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于一塔路42号大理古城内(西南角)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤仪庄园夜市麻辣香锅",
+    "city": "大理",
+    "category": "food",
+    "description": "位于凤中东路111号凤仪庄园",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤藏涧野奢温泉度假村(建设中)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于032乡道",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "剑川宾馆",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于景德路1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "剑川海缘客栈",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于中双龙巷国土资源局局斜对面",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千禧商务宾馆(锦兴名食街)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于锦兴名食街",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华营康乐酒家",
+    "city": "大理",
+    "category": "food",
+    "description": "位于白族自治州满江街道满江村五社399号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南涧云尚商务酒店",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于公郎镇公郎加油站旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南涧天天商务酒店",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于南涧镇金龙路44号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南诏大理国佛教艺术(二展厅)",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于兴盛北路与宾川路交叉口西北80米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南诏村·现炒云南菜",
+    "city": "大理",
+    "category": "food",
+    "description": "位于绿玉路农贸市场南入口145号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双廊古镇",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于S314(环海东路)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双廊古镇-本主庙",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于双廊镇大建旁村(近大建旁小平希望小学)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双廊古镇中心",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于双廊镇民族文化街与规划路交叉口东南320米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双廊古镇景区-北口服务亭",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于民族文化街与G5611大丽高速入口交叉口西南20米",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双廊魁星阁",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于双廊镇双廊村南(双廊镇政府)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双鸳溪",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于星期五超市东北侧130米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吾家客栈(苍山路店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于下关镇苍山路88号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "咚咚山菌米线(大理古城店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于人民路26号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "品大理.白族石板烧.野生菌火塘",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理古城玉洱路248号叶榆路与玉洱路交叉路口",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜洲古镇",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于清真路130号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜洲古镇-严家大院",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于喜洲镇里面的四方街旁边",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜洲杨记破酥粑粑",
+    "city": "大理",
+    "category": "food",
+    "description": "位于云南大理宏电变压器有限公司东南门西南200米",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜缘商务酒店(鹤庆文庙公园店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于云鹤镇朝阳小区",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉华鲜花饼(大理古城文庙店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理古城复兴路303号",
+    "tags": [
+      "050800"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城隍庙",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于护国路172号大理古城内(南侧)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塘宿海景客栈",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于挖色镇康廊村委会康廊村6社",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "壮羊桥黑山羊火锅",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理市开发区滨海大道石屏村35号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理不觉晓青旅",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于大院子村56号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理中草药博物馆",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于大理镇南国城石材加工园区B62",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理丰佑园海景度假",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于下关镇满江片区洱海天域别墅区畔山A16",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理乌萨的生活馆",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于观音塘大石庵对面",
+    "tags": [
+      "080400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理云想山",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理云朵墅客栈(大理古城店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于大理古城南门玉局村60号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理云风民宿(崇圣寺三塔店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于银桥镇1806E6栋138户",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理傣味轩餐厅",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理市开发区滨海大道26号",
+    "tags": [
+      "050114"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理公馆温泉度假村",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于大理创新工业园区满江街道凤仪镇满江片区石房子山大理公馆",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理南门清真寺",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于博爱路51号",
+    "tags": [
+      "110207"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理双廊.转光年客栈(双廊古镇内码头店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于双廊镇岛依旁256号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理双廊海景花园山庄(暂停营业)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于双廊镇大建旁村248号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理双廊磐石海景美宿客栈(环海东路分店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于双廊大建旁村旁",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理古城",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于护国路172号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理古城-值班室",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于古城区大理古城一塔路42号大理古城内(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理古城-南门楼",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于古城区大理古城一塔路42号大理古城内(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理古城-古城漫步",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于复兴路10附近",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理古城-古戏台",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于古城区大理古城一塔路42号大理古城内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理古城-大理西门清真寺",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于人民路11号",
+    "tags": [
+      "110207"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理古城-总统兵马大元帅府",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于复兴路111号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理古城-玉洱园",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于护国路172号大理古城",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理古城-碑廊",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于古城复兴路111号大理市博物馆内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理古城-红龙井门",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于大理镇一塔路42号大理古城(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理古城-诚心井",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于新民路与护国路交叉口",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理古城爱在如意客栈",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于大理古城南门双鹤路",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理古城红龙井",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于护国路172号大理古城(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理国际大酒店(品臻中餐厅)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于滨海大道28号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理城隍城",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于大理古城复兴路88号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理失恋博物馆",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于大理镇大理古城天龙八部影视城内(大辽街南端)",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理好来屋酒店(附属医院店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于下关雪人路荷花村95号(大理附属医院对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理家居商务酒店(大理火车站店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于大理市下关经济开发区金牛巷8号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理小桥流水人家客栈",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于北门街北段150号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理市言午客栈",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于满江街道红山村委会红山村二社292号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理平和旅馆",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于下关镇云鹤路234号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理平安客栈(大理汽车客运北站店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于下关镇大展屯村九组新北站背后平安客栈",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理弥渡美晨大酒店",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于弥城镇祥临高速公路北连接线与214国道交叉路口西北角",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理恒丰酒店(高铁站洱海公园店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于下关街道苍山路65号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理恒强商务酒店(大理州人民医院高铁站店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于南涧路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理慢吧客栈(大理古城博爱路店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于银苍路17号",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理方草客栈(大理大学第一附属医院店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于下关镇荷花村委会一组74号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理月亮居酒店(大理古城店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于古城西门三月街辅助小区(近苍山门)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理梦雅居客栈(大理古城店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于北门街20号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理泰豪酒店(大理大学第一附属医院店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于雪人路兴隆村59号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理洋洋客栈(大理古城南门店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于一塔路17号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理洱海旅游文化风情园",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于机场路与平安路交叉口西480米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理海月蓝山海景度假别墅",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于机场路洱海传奇B12-07",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理白族自治州博物馆",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于洱河南路8号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理白族自治州博物馆游客中心-影视厅",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于洱河南路8号大理白族自治州博物馆游客中心",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理白族自治州博物馆第六厅",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于兴盛北路与宾川路交叉口北120米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理石空国石博物馆",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于大理古城南门龙泉坊负一楼",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理苍山世界地质公园",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于Z013附近",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理苍洱怡韵民宿(理想邦店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于海东镇1806小镇",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理观山听海楼客栈(大理古城店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于南门新村71号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理路极主题公园",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于满江街道第二大道上山云想",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理遛云客栈(洱海生态廊道店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于下关小关邑村",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理金港酒店",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于金牛小区金牛巷南门西90米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理银华酒店(火车站店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于莲花路20号金贝商业城36栋C座一楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理隐仙居客栈",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于水碓村隐仙路附53号",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理龙龛村诗和远方的家客栈",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于大理镇龙龛村5组22号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大黑树夜市",
+    "city": "大理",
+    "category": "food",
+    "description": "位于金牛路214号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天井口袋公园",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于满江街道苍山东路434号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天龙台",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于洱河南路1号洱海公园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "妈祖海鲜港(大理下关店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于下关镇经济开发区滨海大道石屏村27号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安途度假村",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于乡情园超市东北侧",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "客来居客栈(大理古城南门店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于大理镇镇大理古城博爱路26号(一号院对面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宾川宏赢商务酒店",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于鑫福路166号(卓思幼儿园旁)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "将军洞",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于嘉士伯大道2号龙泉公园",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小土碗社区小火锅",
+    "city": "大理",
+    "category": "food",
+    "description": "位于龙山东路北侧金K海景商住小区1层A-1-17",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山喃集现炒云南菜·苍山露台花园餐厅(大理古城店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于绿玉路71号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山海汇南门总店",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理古城维护费稽查大队西北门旁",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山珍坊白族庭院野生菌火锅",
+    "city": "大理",
+    "category": "food",
+    "description": "位于石屏村2号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岛七白族人家火烧猪私房菜",
+    "city": "大理",
+    "category": "food",
+    "description": "位于古城北门双狮路下段洪家村41号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崇圣寺",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于大理镇三塔路",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崇圣寺三塔文化旅游区",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于大理镇三塔公园",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巍山好多鱼青旅民宿",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于文笔路1号链子桥南50米",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巍山新宾馆",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于南诏东路52号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巍山蓝梦阁客栈",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于南诏镇东新街44号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巍风小院(巍山古城店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于南诏镇蒙化北路6号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸会小仙女精品石板烧野生菌火锅(大理总店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理古城人民路下段洱海门南侧",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "建水香辣鸡脚王(总店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理古城复兴路592号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家庄夜市街",
+    "city": "大理",
+    "category": "food",
+    "description": "位于013乡道与012乡道交叉口东北40米",
+    "tags": [
+      "060501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怡安客栈(幸福路)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于建设西路52号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "我想菌菌野生菌火锅",
+    "city": "大理",
+    "category": "food",
+    "description": "位于下关镇滨海大道石坪村1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "才村烧烤",
+    "city": "大理",
+    "category": "food",
+    "description": "位于才村16组186号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "才村码头",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于月华路尽头",
+    "tags": [
+      "150300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "故十里客栈(大理古城店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于大理镇平等路105号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文庙",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于大理古城复兴路321号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "方舟胖子-野生菌火锅·手抓饭·古城旗舰店",
+    "city": "大理",
+    "category": "food",
+    "description": "位于人民路和叶瑜路路口",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "无量山野奢帐篷酒店",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于无量山Bodhi樱花谷度假村北侧",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "普贤寺",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于大理古城玉洱路青石桥下段",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨丽萍艺术空间",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于双廊镇民族文化街双廊镇玉几岛",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨小厨.秘制私厨",
+    "city": "大理",
+    "category": "food",
+    "description": "位于双廊镇大建旁村",
+    "tags": [
+      "050120"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨记砂锅米线",
+    "city": "大理",
+    "category": "food",
+    "description": "位于玉洱路437号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林公坊·野生菌·牦牛肉火锅(五华楼店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理古城复兴路一小正对面(复兴路211号附1号)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "树下小馆·云南经典过桥米线(叶榆路店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于护国路186号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栖山云舍·休闲庄园",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于博南镇新华街北门口往胜泉方向100米",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桃红小馆·特色云南菜·庭院花园餐厅",
+    "city": "大理",
+    "category": "food",
+    "description": "位于绿玉路36号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梅竹园",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于洱河南路1号洱海公园(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "榆城花园酒店(大理古城店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于博爱路181号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欧阳大院",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于沙溪古镇旅游景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正宗开远米线烧豆腐",
+    "city": "大理",
+    "category": "food",
+    "description": "位于平等路81号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正觉寺",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于双廊镇",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正阳夜市",
+    "city": "大理",
+    "category": "food",
+    "description": "位于正阳时代广场",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "段公子·大理白族菜·天龙八部店",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理古城人民路与博爱路交叉口(人民路24号)",
+    "tags": [
+      "050114"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "段公子·特色大理菜",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理古城南门村委会南门新村十社文献路1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水幕宫口袋公园",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于花甸路与云岭大道交叉口西40米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水花音秋·过桥米线·海景餐厅(大理港码头店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理港码头对面洱海天域国际公寓A座3层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沐云农场",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于喜洲镇",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沐府私厨·老大理菜头牌·野生菌汤锅(人民路店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理古城人民路468号(洱海门西行100米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙溪古镇",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于084县道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙溪古镇-四方街戏台",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于沙溪古镇内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙溪古镇·稻屿花墅",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于沙溪儒风轩民宿南侧210米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙溪古镇东寨门",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于沙溪古镇寺登街50号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙溪古镇天净沙客栈",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于沙溪镇寺登街88号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙溪古镇游子闲庭客栈",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于沙溪镇沙溪古镇寺登街北龙路119号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泰源晟地酒店",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于下关镇大展屯8组195号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洱海公园",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于洱河南路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洱海公园-动物园区",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于洱河南路1号洱海公园内(东侧)",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洱海公园-听涛亭",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于洱河南路1号洱海公园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洱海公园-团山",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于河洱路1号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洱海公园-小熊猫园",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于大理创新工业园区天井街道洱河南路1号洱海公园动物园区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洱海公园-杜鹃池",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于洱河南路1号洱海公园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洱海公园-远瞩",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于滨海大道洱海公园内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洱海公园-鬼城",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于滨海大道",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洱海大游船",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于洱河南路大理港码头",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洱海月湿地公园",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于鸡足山路东50米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洱海湿地公园",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于S314(环海东路)双廊古镇景区",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洱海玉白菜湿地公园",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于怡景尚居西北侧270米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洱海生态廊道",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于喜洲镇金河完小东侧250米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洱海门夜市",
+    "city": "大理",
+    "category": "food",
+    "description": "位于护国路172号大理古城内(东侧)",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洱源天和山庄",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于右所镇下山口村二一四国道加油站北50米路西",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浅色时光雅居酒店(洱海湿地公园店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于下关镇大关邑村委会四组201号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海东茄子烧烤(锦生店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于满江街道苑颐路锦生美食广场5-1-1号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海丽兴商务酒店(大理高铁站店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于锦云路与广丰路交叉口东北100米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海川酒店(大理高铁站店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于苍山路与风盛路交叉口南100米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(中红海峡广场店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于下关镇经济开发区登龙村中红海峡广场4楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(泰业国际店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于下关镇建设东路21号泰业国际广场6楼海底捞火锅",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海悦假日酒店",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于大理经济开发区锦云路中段",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清宏私厨·白族庭院野生菌火锅",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理古城南门文献路一组",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湿地公园",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于环海东路60号",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "源之原味•野生菌火锅(大理古城店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于博爱路4号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滇孃孃·云南小吃集合(古城南门店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理镇文献路76号(大理古城南门对面100米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滇师傅·野生菌火锅(南门总店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于文献路21号(古城南门正对面前行50米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滇师傅·野生菌火锅(大理总店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于满江街道富海路183号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "满江夜市",
+    "city": "大理",
+    "category": "food",
+    "description": "位于红山路与裕龙大道交叉口西南500米",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "火塘印象野生菌庭院火锅(大理古城总店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于绿玉路6号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "炊火令火锅店",
+    "city": "大理",
+    "category": "food",
+    "description": "位于满江街道山西村商贸街340号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烧鸟融合料理",
+    "city": "大理",
+    "category": "food",
+    "description": "位于机场路",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱膳菌锅锅",
+    "city": "大理",
+    "category": "food",
+    "description": "位于滨海大道1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牧野宠物度假村",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于大理翁之乐休闲垂钓园东侧240米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉几岛",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于双廊镇康海村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉檐客栈(大理州医院店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于下关镇人民南路36号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉龙听海酒店(大关邑村兴盛北路店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于下关镇兴盛路兴盛大桥北",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉龙智能民宿(大理古城南门店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于一塔路25号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王记私厨",
+    "city": "大理",
+    "category": "food",
+    "description": "位于双廊镇双廊村文化街74号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "理想邦",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于环海东路",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "璞真博物馆",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于周城村滇藏公路61号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白族小菜园",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理古城月牙塘小区13-1号14-1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白族文化展厅",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于洱河南路8号大理白族自治州博物馆",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盆景园",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于滨海大道洱海公园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "磻溪S弯景点",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于磻溪完全小学北侧90米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祥云神洲大酒店",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于城西社区完小旁",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "童话山海",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于环海东路梦云南·海东方三期以北",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿玉公园",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于下关镇四方街商贸有限公司",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翠麓野白族庭院私房菜",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理古城西门大纸房村131号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老渔家·白族石板烧·野生菌火锅(大理古城南门店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于绿玉社区绿玉路20号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老渔家白族石板烧·野生菌火锅(大理古城叶榆路店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理镇叶榆路124号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老爷爷的手工鲜花饼(总店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理镇才村月华路15组30号",
+    "tags": [
+      "050800"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老黄牛口缸米线(大理古城店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理古城玉局街19号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "股票博物馆",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于银桥镇新邑村委会二社32号附1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肥泉山自然博物馆",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于锦溪路",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花与菌野生菌火锅(大理古城人民路店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理镇人民路345号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花栗鼠语言博物馆",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于滨海大道1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苍山自然影像博物馆",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于银桥镇台湾村",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苍山路夜市",
+    "city": "大理",
+    "category": "food",
+    "description": "位于文华路与育才路交叉口北80米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苍山门",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于护国路172号大理古城内(西侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苏老三一古面",
+    "city": "大理",
+    "category": "food",
+    "description": "位于关圣街小吃步行街内",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "菌彩野生菌火锅(洱海店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于下关镇石坪村滨海大道24号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "菌膳府菌锅·梅仙画院(大理南门店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于苍坪街27号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "董金汉院",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于大理古城沿214国道或大丽线往北约22公里喜洲古镇(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "葫芦娃一家人火锅(大理店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理市经济开发区满江街道宾川路龙山花园4幢1-12号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙自小黄牛米线",
+    "city": "大理",
+    "category": "food",
+    "description": "位于玉洱路375号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙自小黄牛米线(S湾海景店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于银桥镇磻溪村委会十社5号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西窑夜市(暂停营业)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于苍山路与文华路交叉口东北80米",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诺斯顿酒店(大理高铁站洱海公园店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于下关街道兴盛社区四驿路11号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "边寨马铃·野生菌火锅·火塘烤肉",
+    "city": "大理",
+    "category": "food",
+    "description": "位于叶榆路49号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "醉琉璃藏好私房菜",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理古城人民路下段433号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野生菌博物馆",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于理想邦3楼",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野苏朵云南特色火锅(大理古城南门店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理古城南门文献路112号大理古城南门与文献楼之间临近洱海苍山双廊蝴蝶泉",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野菌皇海景餐厅",
+    "city": "大理",
+    "category": "food",
+    "description": "位于滨海大道石屏村14号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金傣苑现炒云南菜·手抓饭(南门总店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于一塔路39号(大理南门斜对面)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金利酒店(大理港洱海公园店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于登龙街121号(荣欣苑对面)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金悦宾馆(桑园路)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于金牛路38号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金鸡饭店",
+    "city": "大理",
+    "category": "food",
+    "description": "位于广武路8号左转广武巷6号梅园春晓隔壁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫鸿泰酒店(祥云钟鼓楼店)",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于祥城镇北中街164号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银米·云南传统过桥米线(大理古城店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理古城新民路15号(天主教堂旁边)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦华商务酒店",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于祥城镇西街下菜园344号众意通讯",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿婆情腊排骨火锅·野生菌季(古城洪武路店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理镇大理古城洪武路19号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿干镇夜市",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理东门蔬菜批发市场",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿鹏故事野生菌物料海景餐厅",
+    "city": "大理",
+    "category": "food",
+    "description": "位于石屏村2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈氏海稍鱼(古城三月街店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理镇西门水碓村",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "风车广场",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于环城南路35号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "飞来寺",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于大理创新工业园区满江办事处",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸡足山",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于鸡足山镇寺前村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿傣居·傣味主题餐厅(滨海大道店)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于大理创新工业园区天井办事处滨海大道石屏村27号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹤庆锦瑞商务酒店",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于大丽路鹤泰花园正对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(宾川路餐厅)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于宾川路中红海峡广场首层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄瓜营张家苑",
+    "city": "大理",
+    "category": "food",
+    "description": "位于黄瓜营张家苑175号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙尾关遗址",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于龙尾街81号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙山公园",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于行政办公区",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙山后厨农家菜(情归菜馆)",
+    "city": "大理",
+    "category": "food",
+    "description": "位于满江黄瓜营村",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙泉渡假村",
+    "city": "大理",
+    "category": "hotel",
+    "description": "位于马登镇剑兰公路龙泉度假村",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙龛码头",
+    "city": "大理",
+    "category": "attraction",
+    "description": "位于大理镇环海西路龙龛生态园(北侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

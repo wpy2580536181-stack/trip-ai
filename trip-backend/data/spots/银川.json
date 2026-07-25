@@ -1,0 +1,2160 @@
+[
+  {
+    "name": "5号酒店(银川高铁站店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于满城北街街道北京中路与惠北巷交叉口阿拉善广场5号楼2107室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "Duomo Bistro&Bar多魔餐酒馆(德丰大厦店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于亲宁巷德丰大厦裙楼西侧一层A1",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "OYO鸿运宾馆(南门楼清河南街店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于清河南街295号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "Smile观景民宿(银川高铁站店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于阿拉善广场5号楼1楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万叶料理店(银川店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于北京中路166号亘元万豪大厦F1层",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上一冰煮羊(万达中心店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于万达中心C座1-112",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东门韦州羊杂碎(玉皇阁店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于解放东街17-2号营业房-1",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国花博园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于花博园中阿友谊博览园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山公园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于湖滨西街203号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山公园-文化广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于北京东路152号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山公园-银川动物园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于北京东路152号",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中环广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于上海东路619号中环大厦(民族北街)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中阿之轴小微公园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于亲水北大街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中阿兰牛肉面(悦海新天地店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于枕水巷18号悦海新天地F1",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云端民宿(银川高铁站怀远观光夜市店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于满城北街街道阿拉善广场5号楼12层1225室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于北京中路与人民广场东街交叉处西侧",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场-孔雀庭",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于北京中路(人民广场)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元霖羊排砂锅面馆(鸣翠春天店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于泰康街鸣翠春天176号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光明广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于公园街10号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "公园华府北区",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于育慧路与礼贤街交叉口西南240米",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "典农河滨水景观公园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于亲水南大街与长城中路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "典味坊老灶火锅(金茂概念店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于新华东街塞上凝聚力29号楼5-9营业房",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰公园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于上海西路与亲水北大街交汇处东北侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯悦商务宾馆(宁源东路)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于宁东中心区东方龙商业广场12-28号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯美民宿(银川大阅城店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于正源北街建发大阅城9号楼8楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯都宾馆(银川市第一人民医院店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于长城东路315号(民族南街与长城东路交叉口)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北步园火锅(银川总店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于新华东街65号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北颂冰煮羊(旗舰店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于银川万达中心2号商铺111-112室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十六城旅宿店(银川鼓楼南门广场店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于宏佑巷95号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华雁湖公园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于紫檀水景西门正对面",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南薰门",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南门广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于南薰东街南门楼附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "后院私房火锅",
+    "city": "银川",
+    "category": "food",
+    "description": "位于唐徕小区47号东侧第一套",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "味之绝美蛙鱼头火锅·非遗(北安巷店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于北安巷71号银筑2商业楼1层01室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜沁 宴会•新中餐",
+    "city": "银川",
+    "category": "food",
+    "description": "位于德丰大厦5层A-01号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四叶寿司(银川店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于北京中路166号德宁国际中心一层底商",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国强手抓(贵宾楼店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于上海西路与尹家渠北街交口金海明月花园四号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塞上张记桂林米粉(银川总店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于利群东街164号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "墅礼私房火锅",
+    "city": "银川",
+    "category": "food",
+    "description": "位于正源南街与丰源街交叉口东100米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大团结广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于银古路街道丽景南街206号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大妈饺子馆(鼓楼)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于解放东街32号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大芊金重庆串串火锅·清真(新一中店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于紫微星座5号楼3号营业房",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大阅城鸽子广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于大阅城",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天乐百盛饭店(凤凰街总店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于凤凰北街168号领秀一居",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥斯曼辣糊糊(碧水蓝天小区店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于正源北街碧水蓝天小区18-6号营业房",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孟记小吃店",
+    "city": "银川",
+    "category": "food",
+    "description": "位于惠民巷1-6号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁夏博物馆",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于人民广场东街6号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁夏地质博物馆",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于人民广场东街301号区人大东侧",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁夏贺兰山国家森林公园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于贺兰山国家级自然保护区内",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁汕食牛道·鲜牛肉火锅(公园华府店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于富民路公园华府D2项目商业房10-201",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁百羊铜锅涮肉(万达中心店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于清水大街东侧万达中心C座1-110",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宜水园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于陶然东巷与上海西路交叉口南200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富鑫宾馆(欧语城邦小区东)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于习岗镇马家寨109国道居安苑西门",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "将军890小吃(北安小区店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于北安小区东门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚客优酒店(银川鼓楼步行街店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于解放东街71号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚文电竞酒店(新华百货店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于中心巷1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "屿山日料店(德丰大厦店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于亲宁巷12号德丰大厦南侧入口旁",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岚庭叙都市全景餐厅(德丰大厦店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于亲宁巷12号德丰大厦F4层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "左岸杞里民宿(银川一中敬德夜市店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于民族南街771号光耀广场F1层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "希曼民宿(银川高铁站怀远观光夜市店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于北京中路771号金凤新华联广场17号公寓20楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "希望之光素质广场(观湖壹号分部)",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于天平街与上海东路交叉口东北120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幻太奇海洋公园(北京华联购物中心店)",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于悦海新天地购物中心东区1-3层",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "建发大阅城喷泉广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于阅福路王府井赛特奥特莱斯",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张三花烫烤鸭(鸣翠春天总店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于鸣翠春天134号营业房",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德馨公园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于上海西路与人民广场东街交叉口西侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德馨公园(南区)",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于德馨公园",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(银川金凤店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于正源街万达广场2号楼一二层",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新凤楼小广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于上海西路与通达北街交叉口东北40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新城老转盘羊杂碎(总店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于通达南街11号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新达广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于通达南街59号",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日新公园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于正源北街与育安巷交叉口东300米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明城",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于镇北堡西部影城内(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明瑞苑书香餐厅(宁图店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于人民广场东街宁夏图书馆",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星辰野宿·露营小镇",
+    "city": "银川",
+    "category": "food",
+    "description": "位于良田镇银兴路101号",
+    "tags": [
+      "080504"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晨晚练广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于黄河东路与绿园巷交叉口北40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "智远酒店(银川高铁站文化城凤凰幻城店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于满城南街云景苑1号公寓楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朝阳商务宾馆(中兴路)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于中兴路乐祥国际家具汇展中心对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "极客电竞民宿(银川同心路店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于同心北街25号怡宁小区1号楼3楼304室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柚子酒店(灵武宁东店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于锦龙时代广场东南门东南80米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(沙海路店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于公园华府3期南1门东100米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "森林公园B岛",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于满城南街52号",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "森林公园太阳岛",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于亲水南大街36号",
+    "tags": [
+      "120300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "森林公园首府",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于亲水大街1号",
+    "tags": [
+      "120301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "森林公园鸣柳岛",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于人和巷与黄河东路交叉口北100米",
+    "tags": [
+      "120300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "森林公园鸣柳岛A区",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于黄河东路585号",
+    "tags": [
+      "120300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "毓秀公园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于兴泰巷与惠北巷交叉口东南100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(银川新百ccmall店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于解放东街50号鼓楼新华百货CCmall5层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(银川砂之船奥莱店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于六盘山东路与丽景南街交叉口砂之船(银川)奥莱4层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民航蓝天酒店",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于民族北街34号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水上公园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于亲水北大街与南海路交叉口东350米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水洞沟旅游区",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于临河镇",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永宁县新兴兰大酒店(望远四季鲜店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于永宁县望远工业园区(109国道东侧)14幢3层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沸山海·滩羊鱼汤火锅清·真(金茂店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于新华东街646号沸山海火锅店",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沸山海火锅·清真(阅彩城店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于正源北街福安巷277号(街边)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪三灌汤包",
+    "city": "银川",
+    "category": "food",
+    "description": "位于新华街街道新华东路凤凰商业广场C座1号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海宝文化广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于天平街114号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(康平路店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于康平路悦海新天地购物中心二层F2-11/12/13/14/15",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(新华联店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于通达北街新华联购物中心四层418号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(银川王府井店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于玉皇阁南街东方红广场7楼709号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(阅彩城店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于正源北街大阅城第5层535、536号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清廉广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于丽景北街与北京东路交叉口西南80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滚钟口风景区",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于麓滚苏路",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱家主题公寓酒店(悦海新天地店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于康平路悦海新天地6号公寓大厅",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白家牛肉面(福兴苑店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于利群东街10号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百草滩羊清水涮羊肉(银川阅彩城形象店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于阅彩城中街5号楼117A号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百草滩羊清水涮羊肉(长城路店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于庆祥街与长城中路交叉口东北40米",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百草滩羊清水涮羊肉(陶然水岸店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于陶然东巷北京中路191号陶然水岸东门",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "益兴轩·固原炒烩肉·手工面(兴州街店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于兴州南街丽子家园4号营业房",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "益兴轩·固原炒烩肉·手工面(天玺国际店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于凤凰北街济慈巷19号04号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "看见贺兰",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于镇北堡影城斜对面",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "纳家户李华羊排臊子面(泰康街店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于泰康街甲1号隆基商务大厦F1层",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老哈手抓",
+    "city": "银川",
+    "category": "food",
+    "description": "位于宜居巷上元名筑11号楼101",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老马子烧烤",
+    "city": "银川",
+    "category": "food",
+    "description": "位于泰康街甲1号隆基商务大厦F1层",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣恒园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于上海西路与泰康街交叉口西220米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "葡萄酒文化广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于北京中路269号银川文化城凤凰幻城(东南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西域古丽新疆菜拌面(鸣翠春天店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于上海西路203号鸣翠春天",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西夏陵国家考古遗址公园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于西夏陵景区内",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "见山喜度假民宿(西部影视城漫葡演绎小镇店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于镇北堡镇镇苏路303号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "览山公园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于亲水大街与沈阳路交叉口向西300米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贺兰宾馆",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于银河东路118号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贺兰山岩画",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于山东麓贺兰口贺兰山岩画遗址公园内",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "轻住·金月亮商务宾馆",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于兴庆区解放西街珠市巷1号(盛世春天对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆丰收鱼庄火锅总店",
+    "city": "银川",
+    "category": "food",
+    "description": "位于新华西街与庆丰街路口向西10米",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川JW万豪酒店-JW名厨",
+    "city": "银川",
+    "category": "food",
+    "description": "位于北京中路166号银川JW万豪酒店一层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川JW万豪酒店·宁馨阁中餐厅",
+    "city": "银川",
+    "category": "food",
+    "description": "位于北京中路街道北京中路166号银川JW万豪酒店3楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川万怡酒店·万荟轩餐厅",
+    "city": "银川",
+    "category": "food",
+    "description": "位于宁安大街与北京中路交叉口南160米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川凯宾斯基饭店-中·中餐厅",
+    "city": "银川",
+    "category": "food",
+    "description": "位于北京中路160号银川凯宾斯基饭店3层(近人民广场)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川凯悦宾馆",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于清和南街1356-13号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川吉运快捷酒店",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于北京中路798号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川国际会展中心-东广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于北京中路银川国际会展中心",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川国际会展中心-北广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于人民广场西街",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川塔东宾馆",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于利群西路87号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川天悦商务宾馆(西夏区店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于学知园西门19-7-8号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川如梦公寓",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于文昌路影视综合楼4-6号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川富丽都商务宾馆",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于玉皇阁街新运巷70号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川市金凤区尕拉牧东乡手抓羊肉泰康街店",
+    "city": "银川",
+    "category": "food",
+    "description": "位于上元名筑1号办公楼102室",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川文化城凤凰幻城",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于北京中路269号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川昊辉宾馆",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于清和南街926号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川晚枫林酒店",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于怀远西路1号宁阳文化商业广场C-3商务中心1401室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川来住·千寻民宿",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于湖滨东路鼓楼尚街公寓楼1号楼9楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川森林公园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于新昌西路与亲水南大街交汇处附近",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川浮游国际青年旅舍(新华街鼓楼店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于意志巷52号",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川玫缘招待所",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于同心北路同心苑小区26号楼营业房",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川福锦酒店(新华街鼓楼店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于居安巷46号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川纳美酒店(悦海新天地机场大巴站店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于康平路悦海新天地一号公寓14楼1405室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川艾斯公寓酒店(西夏万达火车站店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于金波北街75号银川西夏万达广场A座F19层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川都市商务宾馆",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于清和南街209号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川镇北府客栈(西部影视城贺兰演艺小镇店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于镇北堡镇瑞信天沐温泉小镇3号楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川驿尚民宿(火车站中关村店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于贺兰山西路街道贺兰山路与兴洲北街交汇处中关村创新中心C座1楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银川鸣翠湖国家湿地公园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于掌政镇东1公里",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "镇北堡西部影城",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于镇北堡110国道路东",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阅海国家湿地公园",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于环阅海湖公路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阅海国家湿地公园-西湖",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于环阅海湖公路阅海国家湿地公园内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阅海湾水上公园沙滩",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于水上公园内(西侧)",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳光花园酒店(民族南街)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于利群东街4号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿叶羊杂碎",
+    "city": "银川",
+    "category": "food",
+    "description": "位于前进街180号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青柚智能商务酒店(银川怀远夜市店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于同心南街嘉宝花园25号楼6号营业房",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马兰花广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于上海西路与惠北巷交叉口东北260米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马胖子羊杂碎",
+    "city": "银川",
+    "category": "food",
+    "description": "位于中和巷9号宁夏第三人民医院北门",
+    "tags": [
+      "050115"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "骏怡连锁酒店(鼓楼玉皇阁北街店)",
+    "city": "银川",
+    "category": "hotel",
+    "description": "位于玉皇阁北街80号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸽子浦宁夏菜",
+    "city": "银川",
+    "category": "food",
+    "description": "位于新昌东路蓝山名邸商业街B区54号",
+    "tags": [
+      "050115"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹿先生广场",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于丽景北街和杏水巷路口",
+    "tags": [
+      "120203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(银川金凤万达广场店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于正源北街22号万达广场1层1063,1065号",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(银川阅彩城店)",
+    "city": "银川",
+    "category": "food",
+    "description": "位于大阅城中街阅彩城1层(阅福路与大阅城中接交叉口南30米)",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄沙古渡原生态旅游区",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于G244国道旁(原S203省道旁)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓楼",
+    "city": "银川",
+    "category": "attraction",
+    "description": "位于解放东街和鼓楼南北街十字路口",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

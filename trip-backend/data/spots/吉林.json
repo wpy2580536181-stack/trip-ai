@@ -1,0 +1,2160 @@
+[
+  {
+    "name": "万科拾光公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于永宁路与东莱北街交叉口东420米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东大桥小国抻面烧烤(总店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于长通路48号东大桥(地铁站A口步行450米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于黑水路28号远东服装大厦",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东方饺子王(工农大路总店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于工农大路3858号(工农大路与人民大街交汇处工农广场)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东道煮东北酸菜火锅(临河街店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于临河街以西丙九路以南富奥B区20号楼105号房",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东道煮火锅(东盛大街店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于东盛大街与安乐路交汇亚泰杏花苑高1-高4号楼109号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东道煮火锅(创业大街店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于汽车开发区创业大街中润家园小区110-111号房",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东道煮牛肉火锅(卫星广场店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于卫星广场东南角丰茂烤串东侧",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "于记烤酱炖菜馆(北安小区店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于大经路235号北安小区",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "井家(百洋大厦店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于北京大街420号百洋大厦F1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亲亲公寓(长春北站地铁口店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于万达广场3号公寓21层21001",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于人民大街中段",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亿凡商务宾馆",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于柳影路1911号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "今日牛市潮汕牛肉火锅(自由大路总店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于自由大路509号吉林省吉剧院一楼东侧商业门面",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伪满洲国国务院旧址",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于新民大街126号(文化广场地铁站C1口步行90米)",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伪满皇宫博物院",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于光复北路5号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳美旅馆",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于硅谷大街西越达路富强C区1-101号门市",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侯哥自助盒饭",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于大经路12号鑫鹏大厦(西五马路)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元盛居(云琅店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于临河街与天合路交汇青怡坊云琅A座",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元盛居(亚泰大街店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于亚泰大街与东三马路交叉口西北角",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元盛居(欧亚新生活店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于延安大街99号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元盛居(生态大街店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于生态大街717号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六鼎山文化旅游区",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于沿江路1859号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六鼎山文化旅游区-金鼎大佛",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于佑安路附近",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兰朵儿公寓(长春西站店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于景阳大路与腾跃街交汇处中海·景阳公馆A区5栋4楼402室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "关东宾馆(长春火车站店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于东二条路与黄河路交汇",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "农安辽塔",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于农安镇宝塔街与黄龙路交汇处",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "农安辽金时尚宾馆",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于黄龙路与南六巷交叉口国良装潢10米路东",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冷大厨灌汤包",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于南湖大路与南湖新村中街交汇南行50米南湖中街1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "净月潭国家森林公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于净月大街5840号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京大街西历史文化街区",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于光耀胡同与清明街交叉口西40米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北山公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于德胜路51号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华赫快捷宾馆(火车站北出口店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于凯悦世纪广场C座161号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于南广场与珠江路交汇处东50米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于工农大路2715号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卷翻天·卷饼(亚泰店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于重庆胡同亚太饭店南门一楼",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "历史文化街区C区时光广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于呼伦路与呼伦路北二胡同交叉口东北40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉林市东大旺山公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于炮台山宾馆附近",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉林松花湖国家风景名胜区",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于丰满桥东侧松柏路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉柴文化广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于东盛大街与阜丰路交汇",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉祥日租公寓(长春红旗街万达广场店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于红旗街道红旗街万达广场1号公寓1506室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "名红商务宾馆(长春吉大一院店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于西朝阳路南胡同2055号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜三胖韩国自助烤肉(上海路万达店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于东二条街923号上海路万达广场3层",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜家德虾仁水饺(大经路店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于大经路138号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜铺破包子(鑫鹏大厦店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于四五小区5-1号楼门市",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "园中园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于青荫路731号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(长春市南关重庆路店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于重庆路健康胡同交汇(人民广场地铁站A口步行420米)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天嘉公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于清溪路与新竹路交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好温馨公寓(长春富苑盛世城店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于工农大路与延安大街交汇处富苑盛世城C区1单元1102室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "姜老五炒粉(重庆路店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于自强街道人民大街与重庆路交汇道口烧鸡旁",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孔子文化园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于亚泰大街与东头道交汇处(东天街239号)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孔子文化园-文庙广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于全安街道东头道街32号全安广场派出所",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙小楠麻辣香锅(万达广场店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于上海路577号万达广场长春上海路店F3层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宋记粥铺(北安路店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于北安路与人民大街交汇东行200米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宽城拾光公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于铁北二路359号(北亚泰大街地铁站B口步行290米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "密斯·棕熊民宿(长春硅谷大街动画学院店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于荷园路18号阳光硅谷一期A座",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小厨烤牛肉(东一条街)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于东一条街652号(胜利公园地铁站B1口步行410米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小布叮主题公寓(望云街分店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于望云街金街小公寓10号楼12幢",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小蓬莱时尚宾馆",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于同光路32号(近吉大口腔医院南门)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "工农广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于人民大街6969号(工农广场地铁站A口旁)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "帮煮野韭菜花涮肉(总店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于金川街与珠海路交汇口",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "帮煮野韭菜花涮肉(第三直营店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于西四道街帮煮野韭菜花涮肉",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庭院海派火锅(长春国际贸易中心喜事城店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于人民大街2027号国际贸易中心7楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "建设广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于朝阳区",
+    "tags": [
+      "190000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "彼人砂锅米粉(旺仕广场店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于红光胡同与文化街交汇西行50米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "护国般若寺",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于长春大街137号(人民广场地铁站C口步行310米)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾光公寓(长春砂之船中东奥莱店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于中东港5栋24楼接待室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾光集Loft民宿(长春阳光硅谷店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于飞跃街道荷园路1048号阳光硅谷A座1606室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于清和街道新民大街与解放大路交汇处",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文泰·祥和居Grassland家庭酒店(红旗街这有山店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于延安大街西二胡同258号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新兴园圆笼蒸饺(河南街店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于解放大路吉源商城80号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景阳广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于景阳大路1388号(景阳广场地铁站A口步行230米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曹师傅砂锅麻辣烫(中环十九区店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于亚泰大街与星光路交汇处东50米",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月荷广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于吉林街与滨河路交叉口东北20米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月荷文化公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于吉林街道滨河路与公平桥交汇北行200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "期遇公寓(长春硅谷大街动画学院店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于学府街栖乐荟购物广场8楼888室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杏花村公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于锦水路161号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杏花邨",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于东朝阳路与百汇街交叉口北60米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松涛园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于河堤路(听涛阁)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于学府大道",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "枫林饺子",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于红旗街1879号(长春市外国语学校对面)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(重庆路活力城店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于重庆小区8号楼1门",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林路不夜街小吃",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于桂林路677号长春小燕莎商场F1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楼外楼大刀肉传统火锅居(三道街店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于三义胡同",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楼外楼大刀肉传统火锅居(吉大南校店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于长春君怡酒店东门北50米",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楼外楼大刀肉传统火锅居(日新路店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于汽车开发区东风大街日新路口(近车百)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楼外楼大刀肉传统火锅居(生态大街店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于生态大街与世荣路交汇北行50米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "樱花小吃特色炒菜馆",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于磐石路工大南门24栋,樱花小吃",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比尔森自助烤肉火锅(红旗街店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于红旗街1772号",
+    "tags": [
+      "050215"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(长春上海路万达店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于上海路577号万达广场3层3038-3039",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(长春红旗街万达店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于红旗街616号万达广场3层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永宁湿地科普公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于河堤路与台北大街交叉口南340米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汇家自助式酒店公寓(吉大医院二部乐群院区店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于安乐路德展长春印1号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(摩天活力城店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于卫星路1777号摩天活力城5层511号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(红旗街万达店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于红旗街616号红旗街万达广场5层5006-5007号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(高新活力汇店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于华光街588号活力汇五层502号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海狮公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于凯旋路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溢香阁饺子城(临河街店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于临河街4581号(威海路地铁站B口步行160米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨河公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于临河街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烟火面馆•小吃烧烤(烟火三旬)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于天山路24号送配电小区吉林市丰满区天山路24号08幢",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱唯家主题宾馆(长春柳影路店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于柳影路798号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牡丹园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于人民大街3133号(解放大路地铁站A口步行230米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "田家大院文化广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于银行胡同与田家大院胡同交叉口西北100米",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "真香小锅饭(总店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于东一条街719号(胜利公园地铁站B1口步行330米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "简意智能酒店(净月大学城福祉大路店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于生态东街数字科技孵化基地建设项目A11号楼102号17层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红叶狗肉馆",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于东一条街692号(胜利公园地铁站B1口步行360米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老中利炸鸡(好旺角店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于鑫鹏大厦西南门旁",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老昌春饼(北安路分店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于北安路475号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肆季南河",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于畅溪街与天吉路交叉口西140米",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(福林店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于桂林路与同志街交汇",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胜利公园-主入口广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于人民大街955号长春市胜利公园(胜利公园地铁站A口旁)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡同同重庆老火锅",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于南关区经济技术开发区五区37栋2单元103室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花喜宾馆",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于硅谷大街与佳园路交汇处超达磐古15栋",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虹桥简约宾馆(农安站店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于农安粮食交易大厦北门旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西夏回族烧麦馆(长春韩国商业街店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于牡丹街与隆礼路交汇北30米",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于汉口大街与北京大街交汇处",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "轻住酒店·星辰优选(德惠胜利街店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于德惠路500号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达美乐比萨(万达广场店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于上海路577号万达广场长春上海路店B1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达达潮汕打冷砂锅粥(前进西街店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于前进西街红旗花园102房",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "近代博物馆",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于新发北胡同与新伦胡同交叉口东40米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邦尼宾馆(农安火车站店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于隆达·丽景新城北区西北门南300米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铭家时尚宾馆(长春火车站店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于站前金街2号楼109号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长影世纪城",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于永顺路路北",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春上海广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于西安大路2058号绿地蓝海",
+    "tags": [
+      "120200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春世界雕塑园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于人民大街9518号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春中泰海洋世界",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于清华路1399号(新民大街与清华路交汇)",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春云朵日租公寓",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于荷园路阳光硅谷A座1716室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春亿家合时尚宾馆",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于枫叶路和文冠街交汇望月山庄10栋",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春伽雅时尚宾馆",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于北湖街道光机路澳海澜郡A区19栋103号房201室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于皓月大路1411号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春公园-郁金香园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于皓月大路1411号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春兰馨宾馆",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于临河街3338号(浦东路地铁站A口步行350米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春凯乐时尚宾馆",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于凯旋路与长柳影路交汇南行200米凯旋花园小区",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春动植物公园-主入口广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于自由大路2121号长春市动植物公园内(南侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春动植物公园-西门前广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于自由大路2121号长春市动植物公园内(西侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春北湖湿地公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于天拓路666号(北湖公园地铁站A口步行270米)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春市儿童公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于民康街道树勋街248号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春市动植物公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于自由大路2121号",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春市宽城区君子兰公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于亚泰北大街1068号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春市胜利公园",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于人民大街955号(胜利公园地铁站A口步行50米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春市胜利公园-健身广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于人民大街955号长春市胜利公园内(西侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春市胜利公园-活动休闲广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于人民大街955号长春市胜利公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春广厦小旅馆",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于富强c区一栋104",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春广场",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于长春大街740号星月时尚酒店长春广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春德苑",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于红旗街道新民大街7号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春怡佳loft公寓",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于临河街道会展大街与东南湖大路交汇路西大众未来寓B座1320",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春新民大街",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于新民大街(海航长白山宾馆西)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春汤圆艺术酒店(身份广场店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于福祉大路君盈身份广场5号楼11层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春浩原宾馆",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于民康路与三道街交汇东行150米",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春添鑫时尚旅馆",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于长沈路685号(力旺康景商住小区1栋105号)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春美美伊林公寓",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于长新东路伊林公寓4楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春美途Home自助日租公寓",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于南湖中街华润橡树湾橡左橡右G3栋",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春翰林宾馆(长春站北出口店)",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于铁北二路与凯旋路凯悦世纪广场院内",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春蜗居之家公寓",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于皓月大路5333号锦绣溪城A9D栋701室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春金海旅店",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于崇智胡同278号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春金鼎时尚宾馆",
+    "city": "吉林",
+    "category": "hotel",
+    "description": "位于西一条街291号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长白山北景区",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于长白山池北区长白山景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长白山南景区",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于331国道与302省道交叉口东北",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长白山国家级自然保护区",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于二道白河镇",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长白山西景区",
+    "city": "吉林",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "韩一馆 한일관",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于重庆路与文化街交叉口北行150米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香积饭堂",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于龙江路82A号(胜利公园地铁站B1口步行330米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香里香自助快餐(全安广场店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于解放大路338号(全安广场旁)(南关地铁站C口旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(同志街餐厅)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于同志街2639威宝数码科技大厦1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(钻石活力汇餐厅)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于西安大路与光明路交汇(人民广场地铁站A口步行280米)",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(长春季平店)",
+    "city": "吉林",
+    "category": "food",
+    "description": "位于辽宁路162号国商百货1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

@@ -1,18 +1,2147 @@
 [
   {
-    "name": "解放碑步行街",
+    "name": "166舰陈列馆",
     "city": "重庆",
     "category": "attraction",
-    "description": "解放碑步行街位于重庆市渝中区，是重庆最繁华的商业街区之一，集购物、餐饮、娱乐于一体，拥有众多知名品牌店铺和特色小吃，是游客必到的打卡地。",
+    "description": "位于万象大道与万象三路交叉口东250米",
     "tags": [
-      "特色商业街",
-      "购物",
-      "步行街"
+      "140200"
     ],
-    "avgCost": 0,
-    "duration": "2小时",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "MOLLY·轻居酒店(弹子石老街国际社区店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于腾龙大道27号国际商务大厦C座19层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "TESTBED2贰厂文创公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于鹅岭正街1号",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一只烧鸡公(大礼堂总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于人民路170号2-3(大礼堂地铁站4号口步行160米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一品香·江湖菜(大礼堂店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于枣子岚垭143号(曾家岩地铁站3口步行370米)",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丁眼镜火锅",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于宏声巷9号楼1-1(巫山纸包鱼旁)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万寿宫",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于安居镇安居古镇大南门街安居古城景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万灵古镇",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于万灵镇大荣寨社区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上天池度假村",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于歌乐山上天池附近",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下浩里",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于南滨路与东水门长江大桥交叉口东北角",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中美合作所集中营旧址",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于红岩文化景区松林坡参观区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临华老面馆",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于临华路55号10号线坐直梯上来右侧巷道下行150米直梯在4号口不上扶梯",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽景酒店(重庆江北国际机场T3航站楼店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于凯歌一支路99号(距离3号线双龙地铁站500米)",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九园包子(上清寺店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于中山四路1号2层(人民小学旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九村烤脑花·两江非遗(解放碑店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于10号(美力大厦旁)较场口地铁站6A口步行100米",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二厂记忆博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于两路口街道两路口街道两路口街道两路口街道两路口街道鹅岭正街1号二厂文创公园内",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二厂记忆广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于鹅岭正街3435栋",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云阳诚信商务宾馆",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于云江大道1145号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "互生客栈(观音桥步行街店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于重庆市江北区观音桥建新东路4号附8号4楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五斗米·老字号川菜(上清寺店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于中山四路1号渝中大厦6层(牛角沱地铁站3号口步行490米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五星广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于中山四路与人民支路交叉口西60米(曾家岩地铁站2号口旁)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五里店广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于建新东路与万丰路交叉口东北40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "井串麻辣烫(照母山店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于鸳鸯街道湖彩路46号附15号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于重庆市朝天门街道公园路1号(小什字地铁站5A口步行300米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民解放纪念碑",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "人民解放纪念碑位于重庆市渝中区，是纪念中国人民抗日战争胜利的标志性建筑。",
+    "tags": [
+      "纪念碑",
+      "纪念馆",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "0.5小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "人民解放纪念碑",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "人民解放纪念碑，位于邹容路133号，渝中区，类型风景名胜 纪念馆。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民解放纪念碑",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "人民解放纪念碑，位于邹容路133号，渝中区，类型风景名胜 纪念馆。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民解放纪念碑",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "人民解放纪念碑，位于邹容路133号，渝中区，类型风景名胜 纪念馆。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民解放纪念碑",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "人民解放纪念碑位于重庆市渝中区，是纪念中国人民抗日战争胜利的标志性建筑。",
+    "tags": [
+      "纪念碑",
+      "纪念馆",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "0.5小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "人民解放纪念碑",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于邹容路133号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仙女山国家森林公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于双河乡",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "储奇门鳝鱼火锅(总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于顺城街39号钻石星座商务大厦2层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八一路美食街",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于八一路181号(临江门地铁站出入口步行410米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八嬢家常菜(南坪南湖店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于花园五村7栋附1号(南湖公园)",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "养瑞度假山庄",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于广福村郑家山组108号",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰丽都连锁酒店(重庆轻轨6号线花卉园站店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于松树桥花卉园西二路7号(花卉园地铁站2C口步行290米)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯风商务酒店(重庆南坪步行街店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于南岸区南坪西路的商务酒店，提供舒适住宿服务，周边交通便利。",
+    "tags": [
+      "商务酒店",
+      "南坪",
+      "重庆"
+    ],
+    "avgCost": 0.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "凯风商务酒店(重庆南坪步行街店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "凯风商务酒店(重庆南坪步行街店)，位于南坪西路35号，南岸区，类型宾馆酒店 三星级宾馆。",
+    "tags": [
+      "宾馆酒店",
+      "三星级宾馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯风商务酒店(重庆南坪步行街店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "凯风商务酒店(重庆南坪步行街店)，位于南坪西路35号，南岸区，类型宾馆酒店 三星级宾馆。",
+    "tags": [
+      "宾馆酒店",
+      "三星级宾馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯风商务酒店(重庆南坪步行街店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "凯风商务酒店(重庆南坪步行街店)，位于南坪西路35号，南岸区，类型宾馆酒店 三星级宾馆。",
+    "tags": [
+      "宾馆酒店",
+      "三星级宾馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯风商务酒店(重庆南坪步行街店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于南岸区南坪西路的商务酒店，提供舒适住宿服务，周边交通便利。",
+    "tags": [
+      "商务酒店",
+      "南坪",
+      "重庆"
+    ],
+    "avgCost": 0.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "北仓文创街区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于兴塔路与建北一支路交叉口东50米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北步园火锅村(总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于华新街道钢峰村202号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北步园老火锅(戴家巷筒子楼店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于戴家巷26-1单元(临江门地铁站1号口步行470米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北步园老火锅(洪崖洞店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于铁板巷6号(洪崖洞对面,铁板巷对面100米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北站归来民宿(玉兰路1号分店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于泰山大道中段华宇北城中央西1栋4单元2-1室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十八梯观景台",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于较场口临68-17号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十八梯邓凳面(八一路店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于八一路168号(优衣库正对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十八梯邓凳面(总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于潘家沟17号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华创步行街",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于人民南路88号",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华岩寺",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于中梁山街道华岩村5号附42号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华武阁度假村",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于回兴长河村附近",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华莱士·全鸡汉堡(大礼堂店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于大溪沟街道蒲草田9号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南城夜市",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于丝绸街89号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南城夜市朱朱大排档",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于丝绸西街96号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南山一棵树景区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于南山风景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南方花园夜市(南方花园C1区店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于余松路南方花园-C1区",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南方花园市级特色夜市(南方星空店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于渝州路30号(歇台子地铁站3A口步行360米)",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南滨游艇广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于南滨路27号附65号2-9正北方向50米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "博学商务酒店(重庆天星桥轻轨站西南医院店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于天马路99附4号(天星桥地铁站2号口步行120米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卡通尼乐园-可以玩的博物馆(来福士店)",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于接圣街8号重庆来福士L1层",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双星宾馆(双星大道)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于璧山区金剑路的宾馆，提供住宿服务，交通便利。",
+    "tags": [
+      "酒店",
+      "住宿",
+      "璧山"
+    ],
+    "avgCost": 150.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "双星宾馆(双星大道)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "双星宾馆(双星大道)，位于金剑路219号附2号，璧山区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双星宾馆(双星大道)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "双星宾馆(双星大道)，位于金剑路219号附2号，璧山区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双星宾馆(双星大道)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "双星宾馆(双星大道)，位于金剑路219号附2号，璧山区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双星宾馆(双星大道)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于璧山区金剑路的宾馆，提供住宿服务，交通便利。",
+    "tags": [
+      "酒店",
+      "住宿",
+      "璧山"
+    ],
+    "avgCost": 150.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "双星宾馆(双星大道)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于金剑路219号附2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合信石大酒店(重庆西站店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于华龙大道48号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "周公馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于上清寺中山四路曾家岩50号(曾家岩地铁站2号口步行90米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜洋洋(中山四路店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于上清寺中山四路79-14号(近曾家岩)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉陵三村台湾夜市小吃城",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于观音桥建新西路嘉陵三村(观音桥地铁站1号口步行250米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉陵公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于观音桥街道建新西路4号附1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四间火锅(上清寺老重庆店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于中山三路158号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四间火锅(观音桥总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于建北三支路38号附3号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国强牛肉(解放碑店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于临江路108号1-4室(大井巷牌坊坡下20米)唐红英火锅斜侧",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夜市一号(城中城广场店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于滨江大道333号城中城广场B1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夜市羊肉羊杂米线",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于双桥经开区四方井欧景华庭A幢12-1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夜市老烧烤(晴海荟购物广场店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于前进路夜市西郊路2号附9号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大唐广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于临江门魁星楼(临江门地铁站2号口步行100米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大彬火锅",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于建新北路三支路23号江强宾馆楼下",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大溪沟梯坎面",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于人民路71号大溪沟菜市场(大礼堂地铁站4号口步行260米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大田湾全民中心广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于四新路与牛角沱立交交叉口东南260米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大田湾贺龙广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于贺龙雕像(两路口地铁站1号口步行370米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天和宾馆(人民西路店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于人民西路人民医院交叉对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天棒老火锅(老店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于新华路磨房巷25号楼1楼1-2(近得意世界)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太阳堡夜市",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于铁山路20号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "央航.金鼎酒店(长寿客运站妇幼保健院店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于凤城街道金山街27号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威尔汀酒店(重庆观音桥步行街店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于观音桥街道西环路8号朗晴广场A塔39-5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孔二火锅(观音桥店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于两江新区建新北路三支路25号附2.3号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安居古城",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于安居镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安居古城-城隍庙",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于安居镇后河街20号附近",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安居古城-引凤门",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于安居镇安居古镇大南门街安居古城景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安居古城-拍摄古镇巷道花树与建筑(打卡点)",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于安居镇安居古城(东北角)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宏升商务宾馆(滨江大道宏升巷)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于滨江大道3090号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝轮寺",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于磁南街1号磁器口景区内",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宫味渝韩式自助烤肉馆(观音桥旗舰店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于两江新区江北区观音桥街道建北三支路8号(南山老火锅正对面)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小时代影视民宿(重庆大学城熙街店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于美丽熙街25号楼7楼718",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小毛肚老火锅总店",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于红球坝39号1-5号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚城酒店(鸳鸯轻轨站店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于金开大道1113号3幢附4号附2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山城步道",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "山城步道是重庆渝中区的一条特色步行道，沿途可欣赏山城风光和传统建筑。",
+    "tags": [
+      "步行",
+      "风景",
+      "人文"
+    ],
+    "avgCost": 0.0,
+    "duration": "1.5小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "山城步道",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "山城步道，位于中兴路234号旁，渝中区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山城步道",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "山城步道，位于中兴路234号旁，渝中区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山城步道",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "山城步道，位于中兴路234号旁，渝中区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山城步道",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "山城步道是重庆渝中区的一条特色步行道，沿途可欣赏山城风光和传统建筑。",
+    "tags": [
+      "步行",
+      "风景",
+      "人文"
+    ],
+    "avgCost": 0.0,
+    "duration": "1.5小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "山城步道",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于中兴路234号旁",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山里人度假村(南岸店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于南山植物园路63号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山野森林度假山庄",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴渝文化博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于融创白象街",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "布丁酒店(重庆解放碑洪崖洞步行街店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于帝都广场写字楼A栋11层(小什字地铁站6号口步行230米)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "帕维斯塔宠物度假村",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于两江新区铁山坪苍郁路6号(铁山坪森林公园内)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常春藤青年客栈(重庆解放碑洪崖洞店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于新华路142号万吉广场A栋8楼16号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广豪商务酒店(春晖路)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于环保局二楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廖掌柜老火锅",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于上清寺路16号(牛角沱地铁站1号口步行410米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张六老火锅",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于下罗家塆二巷1号附1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张鲜鲜·鲜虾·葱油鸡抄手(上清寺直营店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于上清寺中山三路165号附1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "归井老火锅(沙坪坝店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于天陈路43号(沙坪公园正对面)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "彦霖山庄",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于竹海景区内",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐州酒店(重庆大礼堂店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于上清寺枣子岚垭1号(曾家岩地铁站3号口步行380米)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "心旅酒店式公寓(重庆火车北站店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于华宇北城中央西区1栋7单元5层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "忠县乡情商务酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于白公路20号附7号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "思味鲜蹄花",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于渝建村1号(大礼堂地铁站4号口步行170米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恩来广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于中山四路与人民支路交叉口东40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "愚园度假村",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于204县道",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "我佳你家商务宾馆(重庆渡舟店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于渡舟街道政府对面(农商行楼上)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "手提串串香",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于人民支路11号1-2(近建设路)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "抄姐老火锅(洪崖洞店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于民族路114号(和平大厦旁停车场)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文亮火锅(解放碑店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于文化街116号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化宫中心广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于下罗家湾路与春森路交叉口东100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "易佰酒店重庆观音桥九街店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于兴隆路5-1-5",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星帝度假村",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于华岩镇中梁村玉仙路",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星期玖商务宾馆",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于弹子石街道弹子石新街1号宏声假日广场31栋2-1室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春红火锅(洪崖洞店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于临江路28号1-4室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晓彭肥肠鸡.江湖菜(解放碑总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于临江门西来寺4号1-1(临江门地铁站2号口步行270米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼哈顿广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于建新东路339号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曾家岩大桥南桥头广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于曾家岩隧道周公馆(曾家岩地铁站2号口旁)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朗瑞商务酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于石桥铺渝州路19号(近赛博数码城)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朝天阁",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于嘉陵江滨江路3号",
+    "tags": [
+      "120000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱儿面庄(洋河三路店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于观音桥洋河三路洋河二村3号附8号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李子坝抗战遗址公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于李子坝正街60-62号(李子坝地铁站1号口步行300米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杰友酒店(开州新世纪百货店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于汉丰街道安康街57号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松溉古镇",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于松溉镇横街子5号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "枇杷园食为鲜火锅店(南山总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于南山街道金竹村龙井榜社",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "武隆喀斯特旅游区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于银杏大道附近",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "武隆洪瑞民宿",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于白杨路8号5-1",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民心佳园夜市",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于惠民支路与民心支路交叉口东南40米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉堡王(重庆大礼堂店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于学田湾正街3号附1号-QW1",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江北嘴中央广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于江北城街道江北城街道江北城街道江北城街道江北城街道东升门路与庆云路交叉口西南100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江畔假日酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "江畔假日酒店位于丰都县三合街道滨江东路4号，提供舒适的住宿服务。",
+    "tags": [
+      "酒店",
+      "住宿"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "江畔假日酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "江畔假日酒店，位于三合街道滨江东路4号，丰都县，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江畔假日酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "江畔假日酒店，位于三合街道滨江东路4号，丰都县，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江畔假日酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "江畔假日酒店，位于三合街道滨江东路4号，丰都县，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江畔假日酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "江畔假日酒店位于丰都县三合街道滨江东路4号，提供舒适的住宿服务。",
+    "tags": [
+      "酒店",
+      "住宿"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "江畔假日酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于三合街道滨江东路4号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江边生态公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于菜园坝街道菜园坝街道菜园坝街道菜园坝街道菜园坝街道江边生态公园停车场",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪崖洞-大桥对面拍照打卡点",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于汇川门路6号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪崖洞夜市街区",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于洪崖洞民俗风貌区8号门西110米",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪崖洞夜景观景台",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "洪崖洞夜景观景台位于沧白路88号洪崖洞民俗风貌区11层，是渝中区观赏山城夜景的经典观景点。",
+    "tags": [
+      "风景名胜",
+      "观景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
     "openTime": "全天开放",
     "rating": 4.7
+  },
+  {
+    "name": "洪崖洞夜景观景台",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "洪崖洞夜景观景台，位于沧白路88号洪崖洞民俗风貌区11层，渝中区，类型风景名胜 观景点。",
+    "tags": [
+      "风景名胜",
+      "观景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪崖洞夜景观景台",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "洪崖洞夜景观景台，位于沧白路88号洪崖洞民俗风貌区11层，渝中区，类型风景名胜 观景点。",
+    "tags": [
+      "风景名胜",
+      "观景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪崖洞夜景观景台",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "洪崖洞夜景观景台，位于沧白路88号洪崖洞民俗风貌区11层，渝中区，类型风景名胜 观景点。",
+    "tags": [
+      "风景名胜",
+      "观景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪崖洞夜景观景台",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "洪崖洞夜景观景台位于沧白路88号洪崖洞民俗风貌区11层，是渝中区观赏山城夜景的经典观景点。",
+    "tags": [
+      "风景名胜",
+      "观景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.7
+  },
+  {
+    "name": "洪崖洞夜景观景台",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于沧白路88号洪崖洞民俗风貌区11层",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "洪崖洞民俗风貌区",
@@ -26,131 +2155,723 @@
       "美食街",
       "网红打卡"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "1-2小时",
     "openTime": "11:00-23:00",
     "rating": 4.6
   },
   {
-    "name": "重庆中国三峡博物馆",
+    "name": "洪崖洞民俗风貌区",
     "city": "重庆",
     "category": "attraction",
-    "description": "重庆中国三峡博物馆位于渝中区人民路236号，是一座集历史、文化、艺术于一体的综合性博物馆，展示三峡地区丰富的历史遗产和自然风貌。",
-    "tags": [
-      "博物馆",
-      "三峡",
-      "历史"
-    ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "09:00-17:00（周一闭馆）",
-    "rating": 4.5
-  },
-  {
-    "name": "重庆市人民大礼堂",
-    "city": "重庆",
-    "category": "attraction",
-    "description": "重庆市人民大礼堂位于渝中区，是重庆的标志性建筑之一，曾荣获多项建筑大奖，是集会议、展览、演出于一体的综合性建筑。",
-    "tags": [
-      "地标",
-      "建筑",
-      "历史",
-      "会展中心"
-    ],
-    "avgCost": 10,
-    "duration": "1-2小时",
-    "openTime": "08:00-18:00",
-    "rating": 4.5
-  },
-  {
-    "name": "山城步道",
-    "city": "重庆",
-    "category": "attraction",
-    "description": "山城步道是重庆渝中区的一条特色步行道，沿途可欣赏山城风光和传统建筑。",
-    "tags": [
-      "步行",
-      "风景",
-      "人文"
-    ],
-    "avgCost": 0,
-    "duration": "1.5小时",
-    "openTime": "全天开放",
-    "rating": 4.5
-  },
-  {
-    "name": "鹅岭公园",
-    "city": "重庆",
-    "category": "attraction",
-    "description": "鹅岭公园位于重庆市渝中区鹅岭正街，是重庆最古老的私家园林之一，也是观赏重庆夜景和两江风光的绝佳地点。园内绿树成荫，亭台楼阁，环境清幽，免费向公众开放。",
-    "tags": [
-      "公园",
-      "观景",
-      "城市公园"
-    ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "07:00-22:00",
-    "rating": 4.5
-  },
-  {
-    "name": "重庆十八梯传统风貌区",
-    "city": "重庆",
-    "category": "attraction",
-    "description": "重庆十八梯传统风貌区位于重庆市渝中区中兴路，是展示山城传统街巷风貌和市井生活的重要景点。这里保留了老重庆的梯坎、吊脚楼等建筑特色，融合了美食、文创和民俗体验，是游客感受巴渝文化的绝佳去处。",
+    "description": "洪崖洞民俗风貌区，位于嘉陵江滨江路88号(小什字地铁站9号口步行430米)，渝中区，类型风景名胜 风景名胜。",
     "tags": [
       "风景名胜",
-      "传统风貌",
-      "历史街区",
-      "重庆"
-    ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "全天开放",
-    "rating": 4.5
-  },
-  {
-    "name": "人民解放纪念碑",
-    "city": "重庆",
-    "category": "attraction",
-    "description": "人民解放纪念碑位于重庆市渝中区，是纪念中国人民抗日战争胜利的标志性建筑。",
-    "tags": [
-      "纪念碑",
-      "纪念馆",
       "风景名胜"
     ],
-    "avgCost": 0,
-    "duration": "0.5小时",
-    "openTime": "全天开放",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪崖洞民俗风貌区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "洪崖洞民俗风貌区，位于嘉陵江滨江路88号(小什字地铁站9号口步行430米)，渝中区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪崖洞民俗风貌区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "洪崖洞民俗风貌区，位于嘉陵江滨江路88号(小什字地铁站9号口步行430米)，渝中区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪崖洞民俗风貌区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "洪崖洞民俗风貌区位于重庆市渝中区嘉陵江滨江路，以巴渝传统建筑\"吊脚楼\"为主体，是观赏山城夜景、品尝地道美食的热门地标。",
+    "tags": [
+      "重庆",
+      "夜景",
+      "吊脚楼",
+      "美食街",
+      "网红打卡"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-23:00",
+    "rating": 4.6
+  },
+  {
+    "name": "洪崖洞民俗风貌区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于嘉陵江滨江路88号(小什字地铁站9号口步行430米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(北城天街广场店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于北城天街A馆-4F-001b、001f",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(来福士广场店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于接圣街8号4层90/91(朝天门地铁站2号口步行490米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渝大狮老火锅(南坪总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于南坪东路15号(新洲大厦2楼)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渝安宾馆(重庆沙坪坝店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于渝碚路街道小龙坎新街64号渝安宾馆307号房",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渣滓洞监狱旧址",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于壮志路歌乐山烈士陵园1公里处",
+    "tags": [
+      "110210"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖广会馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于长江滨江路芭蕉园1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨江公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于长江滨江路230号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灵洞湖山庄",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于中梁镇石院村犁盘岭社18号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熨斗糕老烧饼",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于和平路133号旁边梯坎儿(较场口地铁站5号口步行180米)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛角沱滨水公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于牛角沱滨水公园(牛角沱地铁站A口)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牟记江湖(鱼洞鲁能南渝星城店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于鱼轻路29号附18号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王琦美术博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于上清寺街道上清寺街道上清寺街道上清寺街道上清寺街道中山四路75号附60-67号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瑞都酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "瑞都酒店位于南岸区长生路9号附29号，提供住宿服务，环境舒适，交通便利。",
+    "tags": [
+      "住宿服务",
+      "宾馆酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "全天",
+    "openTime": "00:00-24:00",
+    "rating": 0.0
+  },
+  {
+    "name": "瑞都酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "瑞都酒店，位于长生路9号附29号，南岸区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瑞都酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "瑞都酒店，位于长生路9号附29号，南岸区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瑞都酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "瑞都酒店，位于长生路9号附29号，南岸区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瑞都酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "瑞都酒店位于南岸区长生路9号附29号，提供住宿服务，环境舒适，交通便利。",
+    "tags": [
+      "住宿服务",
+      "宾馆酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "全天",
+    "openTime": "00:00-24:00",
+    "rating": 0.0
+  },
+  {
+    "name": "白公馆旧址",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于童家桥街道壮志路治法三村63号",
+    "tags": [
+      "110210"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白土坝夜市",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于岳阳路96号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "相国寺滨江公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于北滨一路与金砂支路交叉口西南100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石柱新时代商务宾馆(人民街店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于重庆石柱后河街2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石油山庄",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于铁山坪",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石鱼商务客栈",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于石鱼镇石庆街310号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "磁器口-古镇第一锁",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于磁南街1号磁器口",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "磁器口古镇",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于磁南街1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "磁器口古镇影视作品",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于磁南街1号磁器口",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "磁器口古镇民俗馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于磁器口正街80号",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红岩革命历史博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于红岩村52号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿园公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于东升门路22号(江北城地铁站3号口步行270米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿梦酒店(重庆江北国际机场店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于双龙大道472号(双龙地铁站1号口步行380米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缘聚公寓(观音桥步行街店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于建北三支路8号港华7楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "罗氏罗非鱼·羊肉粉",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于人和街华福巷30号附5号(大礼堂地铁站2号口步行150米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "罗汉寺",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于解放碑街道罗汉寺街7号(小什字地铁站6号口旁)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美美商务宾馆(中南路)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于中南路139路(东门菜市口公交站斜对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美美老火锅(四海大厦店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于人民路113号四海大厦(大礼堂地铁站4号口步行110米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "群林公寓(重庆南坪店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于南坪街道南坪西路建玛特大厦22-5室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老君洞道观",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于崇文路彩瑞苑对面",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老字号洞亭火锅(防空洞店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于中山三路149号附1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老甘家小龙虾江湖菜(时代天街地标店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家小龙虾江湖菜是重庆知名的连锁餐厅，主打小龙虾与江湖菜，口味麻辣鲜香，深受食客喜爱。时代天街地标店位于渝中区石油路，交通便利，用餐环境舒适。",
+    "tags": [
+      "小龙虾",
+      "江湖菜",
+      "重庆",
+      "中餐厅"
+    ],
+    "avgCost": 100.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-22:00",
     "rating": 4.5
   },
   {
-    "name": "洪崖洞夜景观景台",
+    "name": "老甘家小龙虾江湖菜(时代天街地标店)",
     "city": "重庆",
-    "category": "attraction",
-    "description": "洪崖洞夜景观景台位于沧白路88号洪崖洞民俗风貌区11层，是渝中区观赏山城夜景的经典观景点。",
+    "category": "food",
+    "description": "老甘家小龙虾江湖菜(时代天街地标店)，位于石油路街道时代天街16号1-1，渝中区，类型中餐厅 中餐厅。",
     "tags": [
-      "风景名胜",
-      "观景点"
+      "中餐厅",
+      "中餐厅"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.7
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "魁星楼",
+    "name": "老甘家小龙虾江湖菜(时代天街地标店)",
     "city": "重庆",
-    "category": "attraction",
-    "description": "魁星楼位于重庆市渝中区临江门，是一座具有历史文化底蕴的风景名胜建筑，是重庆旅游的重要景点之一。",
+    "category": "food",
+    "description": "老甘家小龙虾江湖菜(时代天街地标店)，位于石油路街道时代天街16号1-1，渝中区，类型中餐厅 中餐厅。",
     "tags": [
-      "风景名胜",
-      "旅游景点",
-      "历史文化"
+      "中餐厅",
+      "中餐厅"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老甘家小龙虾江湖菜(时代天街地标店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家小龙虾江湖菜(时代天街地标店)，位于石油路街道时代天街16号1-1，渝中区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老甘家小龙虾江湖菜(时代天街地标店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家小龙虾江湖菜是重庆知名的连锁餐厅，主打小龙虾与江湖菜，口味麻辣鲜香，深受食客喜爱。时代天街地标店位于渝中区石油路，交通便利，用餐环境舒适。",
+    "tags": [
+      "小龙虾",
+      "江湖菜",
+      "重庆",
+      "中餐厅"
+    ],
+    "avgCost": 100.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "老甘家小龙虾螃蟹江湖菜(光环店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家小龙虾螃蟹江湖菜(光环店) 是重庆的美食餐厅，位于两江新区。地址：湖彩路63号附2号2-54(重光地铁站4A口步行230米)。",
+    "tags": [
+      "重庆"
+    ],
+    "avgCost": 0.0,
     "duration": "",
-    "openTime": "",
-    "rating": 0
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "老甘家小龙虾螃蟹江湖菜(光环店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家小龙虾螃蟹江湖菜(光环店)，位于湖彩路63号附2号2-54(重光地铁站4A口步行230米)，两江新区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老甘家小龙虾螃蟹江湖菜(光环店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家小龙虾螃蟹江湖菜(光环店)，位于湖彩路63号附2号2-54(重光地铁站4A口步行230米)，两江新区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老甘家小龙虾螃蟹江湖菜(光环店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家小龙虾螃蟹江湖菜(光环店)，位于湖彩路63号附2号2-54(重光地铁站4A口步行230米)，两江新区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老甘家小龙虾螃蟹江湖菜(光环店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家小龙虾螃蟹江湖菜(光环店) 是重庆的美食餐厅，位于两江新区。地址：湖彩路63号附2号2-54(重光地铁站4A口步行230米)。",
+    "tags": [
+      "重庆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
   },
   {
     "name": "老甘家小龙虾螃蟹江湖菜(洋河地标总店)",
@@ -164,24 +2885,67 @@
       "海鲜",
       "中餐厅"
     ],
-    "avgCost": 150,
+    "avgCost": 150.0,
     "duration": "2小时",
     "openTime": "11:00-22:00",
     "rating": 4.5
   },
   {
-    "name": "聂发财重庆江湖菜(解放碑店)",
+    "name": "老甘家小龙虾螃蟹江湖菜(洋河地标总店)",
     "city": "重庆",
     "category": "food",
-    "description": "聂发财重庆江湖菜位于解放碑商圈，主打地道重庆江湖菜，口味麻辣鲜香，深受本地人和游客喜爱。店铺装修风格怀旧，氛围热闹，适合朋友聚餐。推荐菜品包括招牌酸菜鱼、辣子鸡等。",
+    "description": "老甘家小龙虾螃蟹江湖菜(洋河地标总店)，位于洋河中路91号，两江新区，类型中餐厅 海鲜酒楼。",
     "tags": [
-      "重庆江湖菜",
-      "解放碑",
-      "美食",
-      "麻辣"
+      "中餐厅",
+      "海鲜酒楼"
     ],
-    "avgCost": 80,
-    "duration": "1-2小时",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老甘家小龙虾螃蟹江湖菜(洋河地标总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家小龙虾螃蟹江湖菜(洋河地标总店)，位于洋河中路91号，两江新区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老甘家小龙虾螃蟹江湖菜(洋河地标总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家小龙虾螃蟹江湖菜(洋河地标总店)，位于洋河中路91号，两江新区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老甘家小龙虾螃蟹江湖菜(洋河地标总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家小龙虾螃蟹江湖菜(洋河地标总店)是重庆两江新区的一家知名海鲜酒楼，以小龙虾和螃蟹为特色，同时提供多种江湖菜。环境舒适，适合聚餐。",
+    "tags": [
+      "小龙虾",
+      "螃蟹",
+      "江湖菜",
+      "海鲜",
+      "中餐厅"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
     "openTime": "11:00-22:00",
     "rating": 4.5
   },
@@ -196,26 +2960,68 @@
       "江湖菜",
       "海鲜"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "未知",
     "openTime": "未提供",
     "rating": 0.0
   },
   {
-    "name": "老甘家小龙虾江湖菜(时代天街地标店)",
+    "name": "老甘家小龙虾螃蟹江湖菜(黄泥塝地标店)",
     "city": "重庆",
     "category": "food",
-    "description": "老甘家小龙虾江湖菜是重庆知名的连锁餐厅，主打小龙虾与江湖菜，口味麻辣鲜香，深受食客喜爱。时代天街地标店位于渝中区石油路，交通便利，用餐环境舒适。",
+    "description": "老甘家小龙虾螃蟹江湖菜(黄泥塝地标店)，位于黄泥磅黄龙路35号附3号(黄泥塝地铁站3B口步行290米)，两江新区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老甘家小龙虾螃蟹江湖菜(黄泥塝地标店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家小龙虾螃蟹江湖菜(黄泥塝地标店)，位于黄泥磅黄龙路35号附3号(黄泥塝地铁站3B口步行290米)，两江新区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老甘家小龙虾螃蟹江湖菜(黄泥塝地标店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家小龙虾螃蟹江湖菜(黄泥塝地标店)，位于黄泥磅黄龙路35号附3号(黄泥塝地铁站3B口步行290米)，两江新区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老甘家小龙虾螃蟹江湖菜(黄泥塝地标店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家小龙虾螃蟹江湖菜位于重庆两江新区黄泥磅，以小龙虾、螃蟹等江湖菜为特色，是一家深受欢迎的海鲜酒楼。",
     "tags": [
       "小龙虾",
+      "螃蟹",
       "江湖菜",
-      "重庆",
-      "中餐厅"
+      "海鲜"
     ],
-    "avgCost": 100,
-    "duration": "1-2小时",
-    "openTime": "11:00-22:00",
-    "rating": 4.5
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未提供",
+    "rating": 0.0
   },
   {
     "name": "老甘家江湖菜·小龙虾(洪崖洞店)",
@@ -225,10 +3031,152 @@
     "tags": [
       "重庆"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "全天",
     "rating": 3.5
+  },
+  {
+    "name": "老甘家江湖菜·小龙虾(洪崖洞店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家江湖菜·小龙虾(洪崖洞店)，位于解放碑街道戴家巷16号1幢1层4号，渝中区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老甘家江湖菜·小龙虾(洪崖洞店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家江湖菜·小龙虾(洪崖洞店)，位于解放碑街道戴家巷16号1幢1层4号，渝中区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老甘家江湖菜·小龙虾(洪崖洞店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家江湖菜·小龙虾(洪崖洞店)，位于解放碑街道戴家巷16号1幢1层4号，渝中区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老甘家江湖菜·小龙虾(洪崖洞店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "老甘家江湖菜·小龙虾(洪崖洞店) 是重庆的美食餐厅，位于渝中区。地址：解放碑街道戴家巷16号1幢1层4号。",
+    "tags": [
+      "重庆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "老龙洞度假村",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于老龙洞景区东门旁",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聂发财重庆江湖菜(解放碑店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "聂发财重庆江湖菜位于解放碑商圈，主打地道重庆江湖菜，口味麻辣鲜香，深受本地人和游客喜爱。店铺装修风格怀旧，氛围热闹，适合朋友聚餐。推荐菜品包括招牌酸菜鱼、辣子鸡等。",
+    "tags": [
+      "重庆江湖菜",
+      "解放碑",
+      "美食",
+      "麻辣"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "聂发财重庆江湖菜(解放碑店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "聂发财重庆江湖菜(解放碑店)，位于大同巷28号1-5(临江门地铁站3号口步行410米)，渝中区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聂发财重庆江湖菜(解放碑店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "聂发财重庆江湖菜(解放碑店)，位于大同巷28号1-5(临江门地铁站3号口步行410米)，渝中区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聂发财重庆江湖菜(解放碑店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "聂发财重庆江湖菜(解放碑店)，位于大同巷28号1-5(临江门地铁站3号口步行410米)，渝中区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聂发财重庆江湖菜(解放碑店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "聂发财重庆江湖菜位于解放碑商圈，主打地道重庆江湖菜，口味麻辣鲜香，深受本地人和游客喜爱。店铺装修风格怀旧，氛围热闹，适合朋友聚餐。推荐菜品包括招牌酸菜鱼、辣子鸡等。",
+    "tags": [
+      "重庆江湖菜",
+      "解放碑",
+      "美食",
+      "麻辣"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.5
   },
   {
     "name": "联防食店家常菜(铁路一村店)",
@@ -239,23 +3187,505 @@
       "中餐",
       "家常菜"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "1-2小时",
     "openTime": "10:00-21:00",
-    "rating": 0
+    "rating": 0.0
   },
   {
-    "name": "老甘家小龙虾螃蟹江湖菜(光环店)",
+    "name": "联防食店家常菜(铁路一村店)",
     "city": "重庆",
     "category": "food",
-    "description": "老甘家小龙虾螃蟹江湖菜(光环店) 是重庆的美食餐厅，位于两江新区。地址：湖彩路63号附2号2-54(重光地铁站4A口步行230米)。",
+    "description": "联防食店家常菜(铁路一村店)，位于铁路一村28号附18号，九龙坡区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "联防食店家常菜(铁路一村店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "联防食店家常菜(铁路一村店)，位于铁路一村28号附18号，九龙坡区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "联防食店家常菜(铁路一村店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "联防食店家常菜(铁路一村店)，位于铁路一村28号附18号，九龙坡区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "联防食店家常菜(铁路一村店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "联防食店家常菜位于九龙坡区铁路一村，是一家提供家常菜的中餐厅。",
+    "tags": [
+      "中餐",
+      "家常菜"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-21:00",
+    "rating": 0.0
+  },
+  {
+    "name": "聚雄会议酒店康养中心",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于峰山镇玉峰村6组",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(大礼堂店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于大溪沟街道人民路133号",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芙蓉洞",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于芙蓉路88号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花中溪-柴火鸡-火盆烤肉-团建-宴席农家乐",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于南山街道放牛村老房子组31号",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花塘酒店度假村",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于峡口镇大石村花果社21号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芳香活海鲜夜市",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于彩云大道8号附80号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "英才假日酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "英才假日酒店 是重庆的住宿地点，位于开州区。地址：开州大道117号新天地广场A栋4层。",
     "tags": [
       "重庆"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "全天",
     "rating": 3.5
+  },
+  {
+    "name": "英才假日酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "英才假日酒店，位于开州大道117号新天地广场A栋4层，开州区，类型宾馆酒店 三星级宾馆。",
+    "tags": [
+      "宾馆酒店",
+      "三星级宾馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "英才假日酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "英才假日酒店，位于开州大道117号新天地广场A栋4层，开州区，类型宾馆酒店 三星级宾馆。",
+    "tags": [
+      "宾馆酒店",
+      "三星级宾馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "英才假日酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "英才假日酒店，位于开州大道117号新天地广场A栋4层，开州区，类型宾馆酒店 三星级宾馆。",
+    "tags": [
+      "宾馆酒店",
+      "三星级宾馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "英才假日酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "英才假日酒店 是重庆的住宿地点，位于开州区。地址：开州大道117号新天地广场A栋4层。",
+    "tags": [
+      "重庆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "范嬢嬢春森路糯米团",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于学田湾正街59号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣华大酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于长城路616号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莺花渡公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于北城路86号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(观音桥总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于观音桥街道东环路68号附1至附8号天天尚街6楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萤火虫港湾猫猫主题公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "董妈火锅(临江门总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于临江路8号商检大厦平层(临江门地铁站2号口步行290米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蔡家星空夜市",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于同康一路与同汇路交叉口西北140米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蚩尤九黎城",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于靛水街道张家坝居委1组",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观音桥好吃街",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于观音桥步行街8号星天广场3楼",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观音桥好吃街A区(星天广场店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于观音桥东环路59号星天广场F3层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观音桥步行街中心广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于观音桥地铁站5号口旁",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "解放碑步行街",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "解放碑步行街位于重庆市渝中区，是重庆最繁华的商业街区之一，集购物、餐饮、娱乐于一体，拥有众多知名品牌店铺和特色小吃，是游客必到的打卡地。",
+    "tags": [
+      "特色商业街",
+      "购物",
+      "步行街"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.7
+  },
+  {
+    "name": "解放碑步行街",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "解放碑步行街，位于民族路177号，渝中区，类型特色商业街 特色商业街。",
+    "tags": [
+      "特色商业街",
+      "特色商业街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "解放碑步行街",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "解放碑步行街，位于民族路177号，渝中区，类型特色商业街 特色商业街。",
+    "tags": [
+      "特色商业街",
+      "特色商业街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "解放碑步行街",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "解放碑步行街，位于民族路177号，渝中区，类型特色商业街 特色商业街。",
+    "tags": [
+      "特色商业街",
+      "特色商业街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "解放碑步行街",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "解放碑步行街位于重庆市渝中区，是重庆最繁华的商业街区之一，集购物、餐饮、娱乐于一体，拥有众多知名品牌店铺和特色小吃，是游客必到的打卡地。",
+    "tags": [
+      "特色商业街",
+      "购物",
+      "步行街"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.7
+  },
+  {
+    "name": "解放碑步行街",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于民族路177号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "解放碑江畔客栈",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于解放碑街道临江门22号怡景大厦B座11-6室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "誉亿朱记豌杂面",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于上清寺学田湾正街112号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诺亚森林度假山庄",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于新发路1号路边",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "超级李板凳面",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于朝千路41号(朝天门地铁站5号口步行240米)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "较场口夜市",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于中华路与八一路交叉口东南20米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "辣螃铠盆盆蟹大排档(总店)",
@@ -268,10 +3698,2018 @@
       "盆盆蟹",
       "重庆美食"
     ],
-    "avgCost": 100,
+    "avgCost": 100.0,
     "duration": "1-2小时",
     "openTime": "17:00-02:00",
     "rating": 4.5
+  },
+  {
+    "name": "辣螃铠盆盆蟹大排档(总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "辣螃铠盆盆蟹大排档(总店)，位于观音桥街道洋河北路洋河花园69号(黄泥塝地铁站3A口步行310米)，两江新区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辣螃铠盆盆蟹大排档(总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "辣螃铠盆盆蟹大排档(总店)，位于观音桥街道洋河北路洋河花园69号(黄泥塝地铁站3A口步行310米)，两江新区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辣螃铠盆盆蟹大排档(总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "辣螃铠盆盆蟹大排档(总店)，位于观音桥街道洋河北路洋河花园69号(黄泥塝地铁站3A口步行310米)，两江新区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辣螃铠盆盆蟹大排档(总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "辣螃铠盆盆蟹大排档(总店)位于重庆市两江新区观音桥街道洋河北路洋河花园69号，黄泥塝地铁站3A口步行310米。主打盆盆蟹等海鲜菜品，是当地热门的中式海鲜大排档，适合朋友聚餐。",
+    "tags": [
+      "海鲜",
+      "大排档",
+      "盆盆蟹",
+      "重庆美食"
+    ],
+    "avgCost": 100.0,
+    "duration": "1-2小时",
+    "openTime": "17:00-02:00",
+    "rating": 4.5
+  },
+  {
+    "name": "通远门城墙遗址公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于金汤街53号(七星岗地铁站1号口步行430米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "逢缘商务宾馆(观音桥步行街店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于观音桥街道洋河二村3号附43号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遇疆兰·新疆大锅抓饭(微电园店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于土主街道西双大道20号附49号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邹容公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于南区公园路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邹容广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于邹容路151号(临江门地铁站出入口步行110米)",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "都市广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于临江路(临江门地铁站2号口步行100米)",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "酱老麻抄手重庆小面馆(解放碑总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于民生路250号(海航保利国际中心正对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆2008金桥龙兴古镇客栈",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于龙兴镇天龙路59号(近华夏宗祠)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆8+1客栈(潼南莲花大桥店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于桂林街道办事处夏露街402-1402-2号东方大道18号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆·7天|WelcomeGoodSleepDailys酒店(石桥铺陈家坪地铁站店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于陈家坪科园三街132号6楼",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆·易佰|WARMWIPEWHLBATHMERGEMNIMALMOD酒店(观音桥地铁站店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于建新西路2号北城艺术大厦9层",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆两江商务公寓",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于华宇北城中央1栋2单元3层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆中国三峡博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "重庆中国三峡博物馆位于渝中区人民路236号，是一座集历史、文化、艺术于一体的综合性博物馆，展示三峡地区丰富的历史遗产和自然风貌。",
+    "tags": [
+      "博物馆",
+      "三峡",
+      "历史"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "09:00-17:00（周一闭馆）",
+    "rating": 4.5
+  },
+  {
+    "name": "重庆中国三峡博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "重庆中国三峡博物馆，位于人民路236号，渝中区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆中国三峡博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "重庆中国三峡博物馆，位于人民路236号，渝中区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆中国三峡博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "重庆中国三峡博物馆，位于人民路236号，渝中区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆中国三峡博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "重庆中国三峡博物馆位于渝中区人民路236号，是一座集历史、文化、艺术于一体的综合性博物馆，展示三峡地区丰富的历史遗产和自然风貌。",
+    "tags": [
+      "博物馆",
+      "三峡",
+      "历史"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "09:00-17:00（周一闭馆）",
+    "rating": 4.5
+  },
+  {
+    "name": "重庆中国三峡博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于人民路236号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆乌江·龚滩旅游度假区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于304省道",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆人民广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于人民路173号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆伊漫客栈",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于泰山大道56号华宇北城中央1栋3单元8楼4号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆伊顿酒店(南坪协信店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于协信城7栋18层(南坪地铁站6号口步行350米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆体育博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于体育村34号跳伞塔旁",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆儿童公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于鸿恩路25正对面",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆凯逸酒店(观音桥九街店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于建新东路249号2楼(东方灯饰广场斜对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆动物园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于西郊一村1号",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆十八梯传统风貌区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "重庆十八梯传统风貌区位于重庆市渝中区中兴路，是展示山城传统街巷风貌和市井生活的重要景点。这里保留了老重庆的梯坎、吊脚楼等建筑特色，融合了美食、文创和民俗体验，是游客感受巴渝文化的绝佳去处。",
+    "tags": [
+      "风景名胜",
+      "传统风貌",
+      "历史街区",
+      "重庆"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "重庆十八梯传统风貌区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "重庆十八梯传统风貌区，位于中兴路1号(较场口地铁站出入口旁)，渝中区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆十八梯传统风貌区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "重庆十八梯传统风貌区，位于中兴路1号(较场口地铁站出入口旁)，渝中区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆十八梯传统风貌区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "重庆十八梯传统风貌区，位于中兴路1号(较场口地铁站出入口旁)，渝中区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆十八梯传统风貌区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "重庆十八梯传统风貌区位于重庆市渝中区中兴路，是展示山城传统街巷风貌和市井生活的重要景点。这里保留了老重庆的梯坎、吊脚楼等建筑特色，融合了美食、文创和民俗体验，是游客感受巴渝文化的绝佳去处。",
+    "tags": [
+      "风景名胜",
+      "传统风貌",
+      "历史街区",
+      "重庆"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "重庆十八梯传统风貌区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于中兴路1号(较场口地铁站出入口旁)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆千岛酒店(沙坪坝三峡广场店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于渝碚路街道天陈路1号融汇新时代大厦15-35号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆南山植物园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于南山公园路101号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆南山风景区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于南山公园路101号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆史迪威博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于两路口街道嘉陵新路63号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆周记客栈",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于大坪电视塔村8号(大坪地铁站5号口步行380米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆喜都TopView公寓(重庆冉家坝大龙山轻轨店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于冉家坝余松一支路龙湖紫都星座B栋26F",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆嘉陵江索道博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于江北城街道重庆市文化和旅游国际交流中心院内(北站房)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆园博园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于鸳鸯街道龙景路1号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆壹沐民宿(大学城龙湖U城天街店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于大学城北路94号附48楼(尖顶坡地铁站1号口步行110米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆大世界商务酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于青杠镇白云大道工贸佳苑小区旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆大剧院广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于江北城文华街东路2号重庆大剧院",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆天梯客栈",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于中山镇常乐村8组40号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆奇澜公寓(沙坪坝三峡广场步行街店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于渝碚路街道双巷子街6号附10号煌华新纪元2号楼17-11",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆好吃街夜市",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于八一路高品美食广场176号(临江门地铁站出入口步行410米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆宝舒公寓(观音桥好吃街店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于观音桥东环路红鼎国际名苑B座一单元11楼1101号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆富津商务宾馆",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于鼎山大道784号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆尚美公寓",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于新村227号附6号(北碚地铁站4E口步行210米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆川剧博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于金山大道2号(人和地铁站1号口步行410米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆市人民大礼堂",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "重庆市人民大礼堂位于渝中区，是重庆的标志性建筑之一，曾荣获多项建筑大奖，是集会议、展览、演出于一体的综合性建筑。",
+    "tags": [
+      "地标",
+      "建筑",
+      "历史",
+      "会展中心"
+    ],
+    "avgCost": 10.0,
+    "duration": "1-2小时",
+    "openTime": "08:00-18:00",
+    "rating": 4.5
+  },
+  {
+    "name": "重庆市人民大礼堂",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "重庆市人民大礼堂，位于人民路173号(曾家岩地铁站3号口步行240米)，渝中区，类型会展中心 会展中心。",
+    "tags": [
+      "会展中心",
+      "会展中心"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆市人民大礼堂",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "重庆市人民大礼堂，位于人民路173号(曾家岩地铁站3号口步行240米)，渝中区，类型会展中心 会展中心。",
+    "tags": [
+      "会展中心",
+      "会展中心"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆市人民大礼堂",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "重庆市人民大礼堂，位于人民路173号(曾家岩地铁站3号口步行240米)，渝中区，类型会展中心 会展中心。",
+    "tags": [
+      "会展中心",
+      "会展中心"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆市人民大礼堂",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "重庆市人民大礼堂位于渝中区，是重庆的标志性建筑之一，曾荣获多项建筑大奖，是集会议、展览、演出于一体的综合性建筑。",
+    "tags": [
+      "地标",
+      "建筑",
+      "历史",
+      "会展中心"
+    ],
+    "avgCost": 10.0,
+    "duration": "1-2小时",
+    "openTime": "08:00-18:00",
+    "rating": 4.5
+  },
+  {
+    "name": "重庆市人民大礼堂",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于人民路173号(曾家岩地铁站3号口步行240米)",
+    "tags": [
+      "140300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆市江北嘴中央商务区中央公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于黄花园大桥北桥头江北嘴中央商务区",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆市江北嘴中央商务区中央公园B区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于江北嘴中央商务区中央公园(大剧院地铁站3号口步行270米)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆建川博物馆聚落",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于谢家湾街道鹤皋村1号(谢家湾地铁站1号口步行340米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆建川海疆博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于杨家坪九滨路7号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆开埠遗址公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于马鞍山56号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆快乐时光主题公寓",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于烈士墓地铁站2B出口",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆悦居商务宾馆(黔江区大十字购物广场店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于城东街道解放路86号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆抗战遗址博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于南山植物园路1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆拾一公寓",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于盛德路19号W公寓3楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆文德酒店(四公里地铁站店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于南坪镇青龙路96号附7号四公里永辉超市楼上3号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆春路源公寓(沙坪坝高铁站店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于石碾盘88号东原ARC中央广场3号楼22楼9室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆月友宾馆(江北北辰名都店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于建北四支路2号北辰名都15-16号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆朝天门广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于朝千路1号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆朱炳仁艺术博物馆(十八梯店)",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于重庆十八梯传统风貌区B区4号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆欢乐谷",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于礼嘉国际商务旅游城金渝大道29号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆沉香博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于九滨路8栋3层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆海燕客栈",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于泰山大道56号华宇.北城中央西区5号楼16层(火车北站附近)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆炫彩公寓",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于观音桥街道建北二支路金鹏北城旺角D栋6-9室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆牵牛洞园林度假山庄",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于102乡道牵牛洞社88号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆珊瑚公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于长江滨江路336号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆盛豪商务宾馆",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于万盛经开区万盛大道10号(步行街快尚菜旁)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆祝安公寓",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于小龙坎街道小龙坎新街29号附1单元6楼1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆祥元度假酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于铁山坪药材合作社",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆福居客栈",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于巷口镇芙蓉中路都市广场2号7层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆维可多商务酒店(巴南花溪理工大学店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于土桥新街3号附1号3层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆自由猫酒店(西南医院店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于覃家岗街道凤西路万科金色悦城5期9栋109室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆诚信宾馆(万州万达广场店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于白岩路281号(老年大学前行50米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆邻成酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于华岩寺6路9号(华岩寺地铁站1号口步行260米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆金福客栈",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于兴科四路29号金福花园C33号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆鑫情景酒店(观音桥九街店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于北城天街46号九街高屋B座6层",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆鑫鹏商务酒店(文汇路店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于文汇路104号近喜万家超",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆长江索道",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于新华路151号(小什字地铁站5B口旁),上新街4号(索道南站)",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆静一客栈(铜梁万达广场店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于莘路444号锦绣新城小区内(人民医院体检中心正对面)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆顺馨酒店(观音桥店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于-建新东路27号附1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆魔术博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于鹅岭正街一号36-35栋",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆鸿雁旅馆(华熙LIVE鱼洞金竹地铁站店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于鱼轻路新邮局11号2-1",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆龙虎休闲度假村",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于歌乐山镇牵牛洞社(歌乐山镇)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野路子火锅巷巷(中昂·世纪环岛店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于上清寺路1号中昂·世纪环岛F1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金山宾馆(石嘴街)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于汉葭镇北大街大转盘金山广场B栋4-5层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金水泊山庄.花椒鸡",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于两江新区铁山坪松香亭对面地块(自主承诺)",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金阳酒店(重庆大礼堂店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于人民路238号(大礼堂对面,近儿童医院)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金鼓楼酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于北山大道25号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫梦酒店",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于石坪桥后街1号(石坪桥地铁站2B口步行140米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁锅哥米线(重庆观音桥总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于两江新区江北区洋河新村5号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长寿菩提古镇-古戏台",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于桃兴路长寿菩提古镇文化旅游区内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长寿菩提古镇-喊泉",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于桃兴路长寿菩提古镇文化旅游区内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长寿菩提古镇-御龙潭",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于桃兴路长寿菩提古镇文化旅游区内(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长寿菩提古镇文化旅游区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于菩提街道桃兴路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长寿菩提古镇文化旅游区B区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于福寿东街长寿菩提古镇(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长寿菩提古镇文化旅游区E区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于长寿古镇E区8幢2-1号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长寿菩提古镇文化旅游区F区",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于长寿古镇F区27幢1-8号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闲暇空间客栈(武隆分店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于仙女山镇翠云路68号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "防空洞子老火锅(总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于人民路227号附2号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳光宾馆(武隆火车站店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于芙蓉东路2号南岳综合楼4层(苏家河桥头)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿嫂印象·民间江湖菜(大学城店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于市沙坪坝大学城龙湖U城B馆8组团5栋2楼(四川美术学院西门斜对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿福板凳面(大礼堂店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于大溪沟街道人民路168号1层105-2号(大礼堂公交站旁)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿福板凳面(解放碑店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于民生路244号(新华日报旧址前行10米,重庆JW万豪酒店对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈有良尖椒鸡(渝中旗舰店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于人和街枣子岚垭正街120号(焕鑫宾馆附近)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈胖子火锅(总店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于七星岗个捍卫路32号二楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈记夜市",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于巫峡镇国轻酒楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陶婆婆火锅(解放碑店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于解放碑临江门大井巷4号1-4(公安局幼儿园对面)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隐小二·鲜活点杀·江湖菜·农家菜(回兴创始店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于回兴街道宝圣东路76城北·蓝色星空2期",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺利快捷民宿(重庆北站店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于天宫殿街道泰山大道中段57号华宇北城中央2栋3单元11-2室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顾乡私房菜(北城天街店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于两江新区江北区北城天街10号北城天街购物广场B区5F层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "飞虎队博物馆",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于化龙桥街道渝中区嘉陵新路62号飞虎队博物馆",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香宇面庄",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于长江滨江路158号(美星酒店旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马房湾66号·江湖菜",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于覃家岗童家桥村马房湾组(杨公桥地铁站1B口步行330米)",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魁星楼",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "魁星楼位于重庆市渝中区临江门，是一座具有历史文化底蕴的风景名胜建筑，是重庆旅游的重要景点之一。",
+    "tags": [
+      "风景名胜",
+      "旅游景点",
+      "历史文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "魁星楼",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "魁星楼，位于临江门大唐广场17号(临江门地铁站2号口步行220米)，渝中区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魁星楼",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "魁星楼，位于临江门大唐广场17号(临江门地铁站2号口步行220米)，渝中区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魁星楼",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "魁星楼，位于临江门大唐广场17号(临江门地铁站2号口步行220米)，渝中区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魁星楼",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "魁星楼位于重庆市渝中区临江门，是一座具有历史文化底蕴的风景名胜建筑，是重庆旅游的重要景点之一。",
+    "tags": [
+      "风景名胜",
+      "旅游景点",
+      "历史文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "魁星楼",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于临江门大唐广场17号(临江门地铁站2号口步行220米)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸽子广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于人民路136号(曾家岩地铁站3号口步行240米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹅岭公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "鹅岭公园位于重庆市渝中区鹅岭正街，是重庆最古老的私家园林之一，也是观赏重庆夜景和两江风光的绝佳地点。园内绿树成荫，亭台楼阁，环境清幽，免费向公众开放。",
+    "tags": [
+      "公园",
+      "观景",
+      "城市公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "07:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "鹅岭公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "鹅岭公园，位于鹅岭正街176号(鹅岭地铁站2A口步行360米)，渝中区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹅岭公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "鹅岭公园，位于鹅岭正街176号(鹅岭地铁站2A口步行360米)，渝中区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹅岭公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "鹅岭公园，位于鹅岭正街176号(鹅岭地铁站2A口步行360米)，渝中区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹅岭公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "鹅岭公园位于重庆市渝中区鹅岭正街，是重庆最古老的私家园林之一，也是观赏重庆夜景和两江风光的绝佳地点。园内绿树成荫，亭台楼阁，环境清幽，免费向公众开放。",
+    "tags": [
+      "公园",
+      "观景",
+      "城市公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "07:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "鹅岭公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于鹅岭正街176号(鹅岭地铁站2A口步行360米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹅岭公园-莲池",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于鹅岭正街176号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(重庆麦当劳1089艺术美丽中心餐厅)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于重庆市重庆市渝中区八一路53号负一层B01号、第一层103号",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(青年广场FSDT餐厅)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于大学城青年广场14号",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄妈手撕烤兔(八一路店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于八一路53号大都会广场临街1楼(高品好吃街正对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄桷树下广场",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于江北嘴江滩公园",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄烟囱几大钵大排档(江北店)",
+    "city": "重庆",
+    "category": "food",
+    "description": "位于北城三路融景城郦苑东北侧北门下面50米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄金江景酒店(重庆巫山市政广场店)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于广东中路移民广场8楼235号3-1",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙兴古镇",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于龙兴镇南龙门001号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙头寺",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于黄泥磅龙头路86号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙头寺公园",
+    "city": "重庆",
+    "category": "attraction",
+    "description": "位于红土地地铁站1A口步行150米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙豪度假村(森馨花园南)",
+    "city": "重庆",
+    "category": "hotel",
+    "description": "位于龙华大道东河春天耍坝转盘下行200米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "龚德洪土菜鲜活馆(龙脊广场店)",
@@ -284,80 +5722,67 @@
       "川菜",
       "重庆美食"
     ],
-    "avgCost": 80,
+    "avgCost": 80.0,
     "duration": "2小时",
     "openTime": "11:00-22:00",
     "rating": 4.5
   },
   {
-    "name": "江畔假日酒店",
+    "name": "龚德洪土菜鲜活馆(龙脊广场店)",
     "city": "重庆",
-    "category": "hotel",
-    "description": "江畔假日酒店位于丰都县三合街道滨江东路4号，提供舒适的住宿服务。",
+    "category": "food",
+    "description": "龚德洪土菜鲜活馆(龙脊广场店)，位于两江新区渝北区大龙山街道松石支路49号，两江新区，类型中餐厅 火锅店。",
     "tags": [
-      "酒店",
-      "住宿"
+      "中餐厅",
+      "火锅店"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "双星宾馆(双星大道)",
+    "name": "龚德洪土菜鲜活馆(龙脊广场店)",
     "city": "重庆",
-    "category": "hotel",
-    "description": "位于璧山区金剑路的宾馆，提供住宿服务，交通便利。",
+    "category": "food",
+    "description": "龚德洪土菜鲜活馆(龙脊广场店)，位于两江新区渝北区大龙山街道松石支路49号，两江新区，类型中餐厅 火锅店。",
     "tags": [
-      "酒店",
-      "住宿",
-      "璧山"
+      "中餐厅",
+      "火锅店"
     ],
-    "avgCost": 150,
-    "duration": "全天",
-    "openTime": "24小时",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "英才假日酒店",
+    "name": "龚德洪土菜鲜活馆(龙脊广场店)",
     "city": "重庆",
-    "category": "hotel",
-    "description": "英才假日酒店 是重庆的住宿地点，位于开州区。地址：开州大道117号新天地广场A栋4层。",
+    "category": "food",
+    "description": "龚德洪土菜鲜活馆(龙脊广场店)，位于两江新区渝北区大龙山街道松石支路49号，两江新区，类型中餐厅 火锅店。",
     "tags": [
-      "重庆"
+      "中餐厅",
+      "火锅店"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "全天",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "凯风商务酒店(重庆南坪步行街店)",
+    "name": "龚德洪土菜鲜活馆(龙脊广场店)",
     "city": "重庆",
-    "category": "hotel",
-    "description": "位于南岸区南坪西路的商务酒店，提供舒适住宿服务，周边交通便利。",
+    "category": "food",
+    "description": "龚德洪土菜鲜活馆(龙脊广场店)是位于重庆两江新区的一家特色餐饮店，主营土菜和鲜活火锅，以地道的川渝风味和新鲜食材受到食客好评。店内环境舒适，适合朋友聚餐和家庭聚会。",
     "tags": [
-      "商务酒店",
-      "南坪",
-      "重庆"
+      "土菜",
+      "火锅",
+      "川菜",
+      "重庆美食"
     ],
-    "avgCost": 0,
-    "duration": "全天",
-    "openTime": "24小时",
-    "rating": 4.0
-  },
-  {
-    "name": "瑞都酒店",
-    "city": "重庆",
-    "category": "hotel",
-    "description": "瑞都酒店位于南岸区长生路9号附29号，提供住宿服务，环境舒适，交通便利。",
-    "tags": [
-      "住宿服务",
-      "宾馆酒店"
-    ],
-    "avgCost": 0,
-    "duration": "全天",
-    "openTime": "00:00-24:00",
-    "rating": 0
+    "avgCost": 80.0,
+    "duration": "2小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.5
   }
 ]

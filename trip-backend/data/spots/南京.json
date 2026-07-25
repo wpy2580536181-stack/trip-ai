@@ -1,149 +1,653 @@
 [
   {
-    "name": "古鸡鸣寺",
+    "name": "520学生运动纪念广场",
     "city": "南京",
     "category": "attraction",
-    "description": "古鸡鸣寺是位于南京玄武区的一座著名佛教寺庙，历史悠久，香火鼎盛。",
+    "description": "位于长江路107号附近",
     "tags": [
-      "寺庙",
-      "历史古迹",
-      "风景名胜"
+      "110105"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "玄武湖景区",
+    "name": "7天连锁酒店(南京大厂步行街店)",
     "city": "南京",
-    "category": "attraction",
-    "description": "玄武湖位于南京市玄武区，是钟山风景名胜区的重要组成部分，也是国家AAAA级旅游景区。湖光山色，风景秀丽，被誉为\"金陵明珠\"。",
+    "category": "hotel",
+    "description": "位于沿江工业开发区长冲步行街59号嘉泰大厦",
     "tags": [
-      "风景名胜",
-      "国家级景点",
-      "湖泊"
+      "100105"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "全天开放",
-    "rating": 4.7
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "总统府",
+    "name": "7天酒店(南京玄武湖虹桥地铁站店)",
     "city": "南京",
-    "category": "attraction",
-    "description": "南京总统府是中国近代史的重要遗址，曾是中华民国总统府所在地。建筑融合中西风格，保存了大量历史文物和文献，游客可以参观办公区、会客厅、花园等，了解民国时期的政治、军事和文化历史。",
+    "category": "hotel",
+    "description": "位于中山北路西流湾27号",
     "tags": [
-      "风景名胜",
-      "国家级景点"
+      "100105"
     ],
-    "avgCost": 40,
-    "duration": "2-3小时",
-    "openTime": "08:30-17:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "夫子庙秦淮风光带",
+    "name": "Club Med地中海白日方舟·南京仙林度假村",
     "city": "南京",
-    "category": "attraction",
-    "type": "风景名胜;风景名胜;国家级景点",
-    "address": "平江府路80-1(夫子庙地铁站2号口步行170米)",
-    "district": "秦淮区",
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5,
-    "avgCost": 0,
-    "description": "夫子庙秦淮风光带 是南京的景点"
+    "category": "hotel",
+    "description": "位于大浦塘东路3号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "夫子庙秦淮风光带",
+    "name": "GN公寓(南京浦口万汇城地铁站店)",
     "city": "南京",
-    "category": "attraction",
-    "description": "夫子庙秦淮风光带是南京著名的历史文化街区，以夫子庙为核心，秦淮河为纽带，集自然风光、人文景观、美食购物于一体，是游客了解南京历史文化的必到之处。",
+    "category": "hotel",
+    "description": "位于顶山街道浦口大道6号明发财富中心6栋A座506室",
     "tags": [
-      "历史文化",
-      "秦淮河",
-      "夫子庙",
-      "夜景"
+      "100100"
     ],
-    "avgCost": 0,
-    "duration": "未知",
-    "openTime": "全天",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "南京城墙景区-玄武门",
+    "name": "一绪寿喜烧(金陵天地店)",
     "city": "南京",
-    "category": "attraction",
-    "description": "南京城墙景区-玄武门是南京明城墙的一部分，位于玄武区，紧邻玄武湖公园，是登城游览和观赏湖光山色的热门景点。",
+    "category": "food",
+    "description": "位于中和路68号L2层L224铺位",
     "tags": [
-      "风景名胜",
-      "城墙"
+      "050202"
     ],
-    "avgCost": 30,
-    "duration": "1-2小时",
-    "openTime": "08:30-17:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "南京城墙台城景区",
+    "name": "七家湾牛肉锅贴(东南大学店)",
     "city": "南京",
-    "category": "attraction",
-    "description": "南京城墙台城景区是南京明城墙的一部分，位于玄武湖畔，是观赏玄武湖和紫金山的最佳地点。游客可以在这里感受历史沧桑，俯瞰城市美景。",
+    "category": "food",
+    "description": "位于成贤街103号-8(浮桥地铁站1号口步行320米)",
     "tags": [
-      "城墙",
-      "古迹",
-      "风景"
+      "050100"
     ],
-    "avgCost": 30,
-    "duration": "1-2小时",
-    "openTime": "08:00-17:00",
-    "rating": 4.6
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "玄武湖景区情侣园",
+    "name": "三山半·传统山野饭店",
     "city": "南京",
-    "category": "attraction",
-    "description": "玄武湖景区内的情侣园，是休闲游览的好去处。",
+    "category": "food",
+    "description": "位于明瓦廊80号",
     "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
+      "190108"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "南京城墙景区(神策门至太平门)",
+    "name": "上海精菜馆(虎踞关店)",
     "city": "南京",
-    "category": "attraction",
-    "description": "南京城墙景区(神策门至太平门)位于南京市玄武区解放门8号，是南京明城墙的重要组成部分，沿线风景优美，是感受历史与自然风光的绝佳去处。",
+    "category": "food",
+    "description": "位于虎踞关1号",
     "tags": [
-      "风景名胜"
+      "050107"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "红山森林动物园",
+    "name": "下马坊夜市",
+    "city": "南京",
+    "category": "food",
+    "description": "位于中山门大街99号3-1",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世凹桃源生态旅游休闲村",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于郑和文化园盛家路内",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中共代表团梅园新村纪念馆",
     "city": "南京",
     "category": "attraction",
-    "description": "红山森林动物园位于南京市玄武区，是集动物展示、科普教育、休闲娱乐为一体的综合性动物园。园内有大熊猫、金丝猴等珍稀动物，环境优美，适合亲子游玩。",
+    "description": "位于汉府街18-1",
     "tags": [
-      "动物园",
-      "公园",
-      "风景名胜",
-      "亲子"
+      "110204"
     ],
-    "avgCost": 40,
-    "duration": "3-4小时",
-    "openTime": "08:00-17:00",
-    "rating": 4.6
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中华门E青年公寓(雨花路分店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于雨花路66号",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国南京云锦博物馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于茶亭东街240号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国科举博物馆(江南贡院)",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于贡院街95号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国近代史遗址博物馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于长江路292号",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山陵景区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于石象路7号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "么哈MOJAR(环亚凯瑟琳广场店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于北京东路1号环亚凯瑟琳广场F2层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌龙潭公园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于广州路215号(省人民医院对面)",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐乐街(南京证大大拇指广场2期店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于民智路5号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九九聚家商务宾馆(南京站红山动物园店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于龙蟠路37-1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九华山公园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于九华山路21号钟山风景名胜区玄武湖景区内南侧(九华山地铁站1号口步行310米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九都宾馆(南京新民路店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于新民路140号(新民路美食一条街东300米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乡伴·苏家理想村",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于苏家文创小镇",
+    "tags": [
+      "080300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云间青年旅社(金轮大厦店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于汉中路108金轮大厦F3层",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五粮山房(西白菜园)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于文昌巷19-7号2幢、19-7号2幢辅房",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仙林夜市场",
+    "city": "南京",
+    "category": "food",
+    "description": "位于仙林街道文枢东路1号仙林美居生活广场地下负1楼",
+    "tags": [
+      "060700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛顶寺",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于秣陵街道秣陵街道秣陵街道佛城西路与宁丹路交叉口牛首风景区",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侵华日军南京大屠杀遇难同胞纪念馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于水西门大街418号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "倔老头川椒麻辣烫(总店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于太平北路130号(天桥下)",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光谷雅园酒店",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于黄家圩212号(红山动物园地铁站3号口步行170米)",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "全福楼商务酒店(珠江路店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于珠江路48号新月大厦3层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八卦洲假日山庄",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于二桥八卦洲服务区",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六朝博物馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于长江路302号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兰花草客栈(南京板桥消防培训中心店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于板桥街道青年路静华公寓5栋门面房",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "共和广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于长江路与太平北路交叉口东20米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "再宏宾馆",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于佛城西路11号江南青年城门面楚襄园1幢101",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘长兴(卫岗店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于卫岗55-22号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘长兴(鼓楼店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于高楼门6号(鼓楼地铁站4B口步行360米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "创赋广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于湖南路255号创赋广场7楼",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北极阁公园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于鸡鸣寺路1号钟山风景名胜区玄武湖景区内西南侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北极阁广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于北极阁公园内(西侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北步园火锅(江宁百家湖店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于西门子路88号胜泰工业园北门1栋",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "半山园快捷酒店(南京新街口店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于西方巷26号(张府园地铁站2号口步行460米)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京东部山庄",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于友谊路",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京中国科举博物馆北馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于贡院街118-4号附近",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京中国科举博物馆南馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于贡院街95号(近夫子庙邮局)南京中国科举博物馆(江南贡院)内",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京义乌美食街",
+    "city": "南京",
+    "category": "food",
+    "description": "位于天元东路388号江宁大学城商业广场C区4栋1层",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京二先生公寓(城东路分店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于淳化街道天元东路388号城市之光国际公寓A座527室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京仙林公寓",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于文枢东路仙林新村南区31幢106室,近学思路",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "南京博物院",
@@ -156,116 +660,421 @@
       "艺术",
       "文化"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "2-3小时",
     "openTime": "09:00-17:00（周一闭馆）",
     "rating": 4.8
   },
   {
-    "name": "李记清真馆(打钉巷店)",
+    "name": "南京博物院",
     "city": "南京",
-    "category": "food",
-    "description": "李记清真馆位于南京市秦淮区打钉巷1号，是一家以清真菜为特色的中餐厅。",
+    "category": "attraction",
+    "description": "南京博物院，位于中山东路321号，玄武区，类型博物馆 博物馆。",
     "tags": [
-      "清真菜馆",
-      "中餐厅",
-      "餐饮服务"
+      "博物馆",
+      "博物馆"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "红大龙虾·夫子庙老门东游园店(夫子庙店)",
+    "name": "南京博物院",
     "city": "南京",
-    "category": "food",
-    "description": "红大龙虾是南京知名龙虾连锁品牌，夫子庙老门东游园店位于秦淮区马道街，提供各种口味龙虾及海鲜。",
+    "category": "attraction",
+    "description": "南京博物院，位于中山东路321号，玄武区，类型博物馆 博物馆。",
     "tags": [
-      "龙虾",
-      "海鲜",
-      "中餐",
-      "夫子庙"
+      "博物馆",
+      "博物馆"
     ],
-    "avgCost": 150,
-    "duration": "2小时",
-    "openTime": "10:00-22:00",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京博物院",
+    "city": "南京",
+    "category": "attraction",
+    "description": "南京博物院，位于中山东路321号，玄武区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京博物院",
+    "city": "南京",
+    "category": "attraction",
+    "description": "南京博物院是中国三大博物院之一，坐落于南京市玄武区中山东路321号，是大型综合性的国家级博物馆。馆藏丰富，涵盖历史、艺术、民俗等多个领域，以青铜器、陶瓷、书画等文物最为著名。免费参观，需预约。",
+    "tags": [
+      "博物馆",
+      "历史",
+      "艺术",
+      "文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "09:00-17:00（周一闭馆）",
+    "rating": 4.8
+  },
+  {
+    "name": "南京博物院",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于中山东路321号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京吉家民宿(禄口机场店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于禄口街道石埝村门塘头一组24号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京国际展览中心-北广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于龙蟠路88号(近锁金村)南京国际展览中心内",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京国际展览中心-南广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于龙蟠路88号(近锁金村)南京国际展览中心内",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京地质博物馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于珠江路700号地质大厦",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京城墙博物馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于新民坊路边营1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京城墙台城景区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "南京城墙台城景区是南京明城墙的一部分，位于玄武湖畔，是观赏玄武湖和紫金山的最佳地点。游客可以在这里感受历史沧桑，俯瞰城市美景。",
+    "tags": [
+      "城墙",
+      "古迹",
+      "风景"
+    ],
+    "avgCost": 30.0,
+    "duration": "1-2小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.6
+  },
+  {
+    "name": "南京城墙台城景区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "南京城墙台城景区，位于玄武湖公园，玄武区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京城墙台城景区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "南京城墙台城景区，位于玄武湖公园，玄武区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京城墙台城景区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "南京城墙台城景区，位于玄武湖公园，玄武区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京城墙台城景区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "南京城墙台城景区是南京明城墙的一部分，位于玄武湖畔，是观赏玄武湖和紫金山的最佳地点。游客可以在这里感受历史沧桑，俯瞰城市美景。",
+    "tags": [
+      "城墙",
+      "古迹",
+      "风景"
+    ],
+    "avgCost": 30.0,
+    "duration": "1-2小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.6
+  },
+  {
+    "name": "南京城墙台城景区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于玄武湖公园",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京城墙景区(神策门至太平门)",
+    "city": "南京",
+    "category": "attraction",
+    "description": "南京城墙景区(神策门至太平门)位于南京市玄武区解放门8号，是南京明城墙的重要组成部分，沿线风景优美，是感受历史与自然风光的绝佳去处。",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "南京城墙景区(神策门至太平门)",
+    "city": "南京",
+    "category": "attraction",
+    "description": "南京城墙景区(神策门至太平门)，位于解放门8号，玄武区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京城墙景区(神策门至太平门)",
+    "city": "南京",
+    "category": "attraction",
+    "description": "南京城墙景区(神策门至太平门)，位于解放门8号，玄武区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京城墙景区(神策门至太平门)",
+    "city": "南京",
+    "category": "attraction",
+    "description": "南京城墙景区(神策门至太平门)，位于解放门8号，玄武区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京城墙景区(神策门至太平门)",
+    "city": "南京",
+    "category": "attraction",
+    "description": "南京城墙景区(神策门至太平门)位于南京市玄武区解放门8号，是南京明城墙的重要组成部分，沿线风景优美，是感受历史与自然风光的绝佳去处。",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "南京城墙景区(神策门至太平门)",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于解放门8号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京城墙景区-玄武门",
+    "city": "南京",
+    "category": "attraction",
+    "description": "南京城墙景区-玄武门是南京明城墙的一部分，位于玄武区，紧邻玄武湖公园，是登城游览和观赏湖光山色的热门景点。",
+    "tags": [
+      "风景名胜",
+      "城墙"
+    ],
+    "avgCost": 30.0,
+    "duration": "1-2小时",
+    "openTime": "08:30-17:00",
     "rating": 4.5
   },
   {
-    "name": "小厨娘淮扬菜·新街口艾尚天地店",
+    "name": "南京城墙景区-玄武门",
     "city": "南京",
-    "category": "food",
-    "description": "小厨娘淮扬菜是南京知名的江苏菜餐厅，位于新街口艾尚天地B座三层，提供正宗淮扬菜系。",
+    "category": "attraction",
+    "description": "南京城墙景区-玄武门，位于玄武门路1号玄武湖公园(玄武门地铁站3号口步行300米)，玄武区，类型风景名胜 风景名胜。",
     "tags": [
-      "淮扬菜",
-      "中餐厅",
-      "江苏菜"
+      "风景名胜",
+      "风景名胜"
     ],
-    "avgCost": 0,
-    "duration": "未知",
-    "openTime": "未知",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "小厨娘民国会客厅 (总统府1912店)",
+    "name": "南京城墙景区-玄武门",
     "city": "南京",
-    "category": "food",
-    "description": "小厨娘民国会客厅位于长江路288号，是一家以民国风情为主题的中餐厅。",
+    "category": "attraction",
+    "description": "南京城墙景区-玄武门，位于玄武门路1号玄武湖公园(玄武门地铁站3号口步行300米)，玄武区，类型风景名胜 风景名胜。",
     "tags": [
-      "中餐厅",
-      "民国风情"
+      "风景名胜",
+      "风景名胜"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "小厨娘金榜题名(夫子庙秦淮河店)",
+    "name": "南京城墙景区-玄武门",
     "city": "南京",
-    "category": "food",
-    "description": "小厨娘是南京知名的淮扬菜餐厅，夫子庙秦淮河店环境优雅，主打金陵风味。",
+    "category": "attraction",
+    "description": "南京城墙景区-玄武门，位于玄武门路1号玄武湖公园(玄武门地铁站3号口步行300米)，玄武区，类型风景名胜 风景名胜。",
     "tags": [
-      "淮扬菜",
-      "南京美食",
-      "夫子庙"
+      "风景名胜",
+      "风景名胜"
     ],
-    "avgCost": 100,
-    "duration": "1.5小时",
-    "openTime": "11:00-14:00,17:00-21:00",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京城墙景区-玄武门",
+    "city": "南京",
+    "category": "attraction",
+    "description": "南京城墙景区-玄武门是南京明城墙的一部分，位于玄武区，紧邻玄武湖公园，是登城游览和观赏湖光山色的热门景点。",
+    "tags": [
+      "风景名胜",
+      "城墙"
+    ],
+    "avgCost": 30.0,
+    "duration": "1-2小时",
+    "openTime": "08:30-17:00",
     "rating": 4.5
   },
   {
-    "name": "小厨娘淮扬菜 (南京博物院金城大厦店)",
+    "name": "南京城墙景区-玄武门",
     "city": "南京",
-    "category": "food",
-    "description": "小厨娘淮扬菜位于南京秦淮区龙蟠中路216号金城大厦B座4楼，是一家以江苏菜为特色的中餐厅，提供地道的淮扬菜美食。",
+    "category": "attraction",
+    "description": "位于玄武门路1号玄武湖公园(玄武门地铁站3号口步行300米)",
     "tags": [
-      "淮扬菜",
-      "中餐厅",
-      "江苏菜"
+      "110200"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "南京大牌档(鼓楼紫峰店)",
+    "name": "南京壹叁壹肆公寓(徐庄软件园仙林大学城店)",
     "city": "南京",
-    "category": "food",
-    "description": "南京大牌档是南京著名的连锁餐厅，以地道的金陵菜和秦淮小吃为特色，鼓楼紫峰店位于紫峰购物中心内，环境古色古香，菜品丰富，推荐招牌盐水鸭、美龄粥、桂花拉糕等。",
+    "category": "hotel",
+    "description": "位于仙林湖路万达茂中心D座3418室",
     "tags": [
-      "南京菜",
-      "小吃",
-      "中餐",
-      "连锁"
+      "100000"
     ],
-    "avgCost": 90,
-    "duration": "1.5小时",
-    "openTime": "11:00-14:00,17:00-21:00",
-    "rating": 4.3
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京大吉温泉度假村",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于汤泉街道汤泉旅游度假区凤凰路88号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "南京大牌档(夫子庙瞻园茂业店)",
@@ -278,10 +1087,3486 @@
       "夫子庙",
       "中式快餐"
     ],
-    "avgCost": 80,
+    "avgCost": 80.0,
     "duration": "1-2小时",
     "openTime": "11:00-21:00",
     "rating": 4.3
+  },
+  {
+    "name": "南京大牌档(夫子庙瞻园茂业店)",
+    "city": "南京",
+    "category": "food",
+    "description": "南京大牌档(夫子庙瞻园茂业店)，位于建康路2号南京茂业天地外街1F层01012A，秦淮区，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京大牌档(夫子庙瞻园茂业店)",
+    "city": "南京",
+    "category": "food",
+    "description": "南京大牌档(夫子庙瞻园茂业店)，位于建康路2号南京茂业天地外街1F层01012A，秦淮区，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京大牌档(夫子庙瞻园茂业店)",
+    "city": "南京",
+    "category": "food",
+    "description": "南京大牌档(夫子庙瞻园茂业店)，位于建康路2号南京茂业天地外街1F层01012A，秦淮区，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京大牌档(夫子庙瞻园茂业店)",
+    "city": "南京",
+    "category": "food",
+    "description": "南京大牌档是南京著名的本地菜连锁餐厅，夫子庙茂业店位于秦淮区，提供经典淮扬菜和南京特色小吃。",
+    "tags": [
+      "南京菜",
+      "小吃",
+      "夫子庙",
+      "中式快餐"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "南京大牌档(鼓楼紫峰店)",
+    "city": "南京",
+    "category": "food",
+    "description": "南京大牌档是南京著名的连锁餐厅，以地道的金陵菜和秦淮小吃为特色，鼓楼紫峰店位于紫峰购物中心内，环境古色古香，菜品丰富，推荐招牌盐水鸭、美龄粥、桂花拉糕等。",
+    "tags": [
+      "南京菜",
+      "小吃",
+      "中餐",
+      "连锁"
+    ],
+    "avgCost": 90.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "南京大牌档(鼓楼紫峰店)",
+    "city": "南京",
+    "category": "food",
+    "description": "南京大牌档(鼓楼紫峰店)，位于中山北路6号紫峰购物中心5楼A03，鼓楼区，类型中餐厅 江苏菜。",
+    "tags": [
+      "中餐厅",
+      "江苏菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京大牌档(鼓楼紫峰店)",
+    "city": "南京",
+    "category": "food",
+    "description": "南京大牌档(鼓楼紫峰店)，位于中山北路6号紫峰购物中心5楼A03，鼓楼区，类型中餐厅 江苏菜。",
+    "tags": [
+      "中餐厅",
+      "江苏菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京大牌档(鼓楼紫峰店)",
+    "city": "南京",
+    "category": "food",
+    "description": "南京大牌档(鼓楼紫峰店)，位于中山北路6号紫峰购物中心5楼A03，鼓楼区，类型中餐厅 江苏菜。",
+    "tags": [
+      "中餐厅",
+      "江苏菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京大牌档(鼓楼紫峰店)",
+    "city": "南京",
+    "category": "food",
+    "description": "南京大牌档是南京著名的连锁餐厅，以地道的金陵菜和秦淮小吃为特色，鼓楼紫峰店位于紫峰购物中心内，环境古色古香，菜品丰富，推荐招牌盐水鸭、美龄粥、桂花拉糕等。",
+    "tags": [
+      "南京菜",
+      "小吃",
+      "中餐",
+      "连锁"
+    ],
+    "avgCost": 90.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "南京夫子庙",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于贡院街152号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京失恋博物馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于中山南路122号大洋百货(新街口店)4层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京好基友彩虹客栈(三山街万象天地店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于双塘街道弓箭坊罗马假日2203室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京宝隆公寓",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于新浦路宝隆时代广场5幢4楼408室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京尊华宾馆",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于迈皋桥万寿沁苑二村E幢5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京市博物馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于冶山道院3号楼",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京明辉商务酒店",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于团山西路一号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京易居小憩客栈(禄口机场店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于禄口街道石埝社区庄盖村33号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京春雨商务宾馆(红山动物园店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于黄家圩29号(南京站地铁站11号口步行340米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京梧桐大道(陵园路)",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于四方城西路与陵园路交叉口西60米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京歌途·美家酒店(三江学院春江路地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于春江新城江艺路23号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京比华丽度假村",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于板桥街道板桥农场弘扬装饰城5号门对面",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京毛毛公寓(玄武湖店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于中央路141-17号(玄武门地铁站出入口步行220米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京流苏自助公寓(万达茂店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于西岗街道仙林大道181号万达茂中心B座21楼2130室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京消防博物馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于北京西路1号南京市消防救援支队机关大院内",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京清橙公寓(河西儿童医院升龙汇金店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于庐山路288号升龙汇金中心1栋",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京清雅别院客栈(禄口国际机场店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于禄口街道石埝社区石埝村31-1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京炫豪商务宾馆",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于西善桥北路98号近油坊桥地铁口",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京牛首山文化旅游区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于宁丹大道18号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京祥诚宾馆",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于东方城60号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京秦淮河画舫",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于夫子庙景区步行街泮池游船码头",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京紫金山昆虫博物馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于四方城西路26号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京美好家园宾馆(火车站小市地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于中央北路51号(小市地铁站2号口步行410米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京茂源客栈",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于饮马巷70号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京薪然宾馆(新街口店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于秣陵路1-8-9号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京金红旅社(延安北路店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "南京金红旅社(延安北路店)位于六合区薛营135号，紧邻方州广场地铁站，交通便利。提供经济实惠的住宿服务，适合商务出差或短途旅行。",
+    "tags": [
+      "经济型",
+      "旅馆",
+      "地铁附近"
+    ],
+    "avgCost": 100.0,
+    "duration": "1晚",
+    "openTime": "24小时",
+    "rating": 3.5
+  },
+  {
+    "name": "南京金红旅社(延安北路店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "南京金红旅社(延安北路店)，位于薛营135号(方州广场地铁站2号口步行360米)，六合区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京金红旅社(延安北路店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "南京金红旅社(延安北路店)，位于薛营135号(方州广场地铁站2号口步行360米)，六合区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京金红旅社(延安北路店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "南京金红旅社(延安北路店)，位于薛营135号(方州广场地铁站2号口步行360米)，六合区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京金红旅社(延安北路店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "南京金红旅社(延安北路店)位于六合区薛营135号，紧邻方州广场地铁站，交通便利。提供经济实惠的住宿服务，适合商务出差或短途旅行。",
+    "tags": [
+      "经济型",
+      "旅馆",
+      "地铁附近"
+    ],
+    "avgCost": 100.0,
+    "duration": "1晚",
+    "openTime": "24小时",
+    "rating": 3.5
+  },
+  {
+    "name": "南京金红旅社(延安北路店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于薛营135号(方州广场地铁站2号口步行360米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京钱家宾馆",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于双塘街道来凤街菱角市77号(国创园斜对面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京顺心宾馆",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于镇北路16号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京麓居民宿(浦口万汇城地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于顶山街道江畔都会上城20栋2楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南山湖旅游度假区",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于江宁滨江开发区铜井镇南山湖社区",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖夜市",
+    "city": "南京",
+    "category": "food",
+    "description": "位于文体路与南湖东路交叉口北侧长街",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南行拾光小栈女生青年旅舍(新街口店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于五老村街道中山东路198号龙台国际大厦9层917室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "友诚宾馆(南京江宁万达广场上元大街店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于招商街88号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城的灾难",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于水西门大街418号(近云锦路)侵华日军南京大屠杀遇难同胞纪念馆内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古的螺蛳粉(东南店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于蓁巷20号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古秦淮",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于秦淮小吃城负一楼(夫子庙地铁站2号口步行170米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古鸡鸣寺",
+    "city": "南京",
+    "category": "attraction",
+    "description": "古鸡鸣寺是位于南京玄武区的一座著名佛教寺庙，历史悠久，香火鼎盛。",
+    "tags": [
+      "寺庙",
+      "历史古迹",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "古鸡鸣寺",
+    "city": "南京",
+    "category": "attraction",
+    "description": "古鸡鸣寺，位于鸡鸣寺路1号钟山风景名胜区玄武湖景区内西南侧，玄武区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古鸡鸣寺",
+    "city": "南京",
+    "category": "attraction",
+    "description": "古鸡鸣寺，位于鸡鸣寺路1号钟山风景名胜区玄武湖景区内西南侧，玄武区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古鸡鸣寺",
+    "city": "南京",
+    "category": "attraction",
+    "description": "古鸡鸣寺，位于鸡鸣寺路1号钟山风景名胜区玄武湖景区内西南侧，玄武区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古鸡鸣寺",
+    "city": "南京",
+    "category": "attraction",
+    "description": "古鸡鸣寺是位于南京玄武区的一座著名佛教寺庙，历史悠久，香火鼎盛。",
+    "tags": [
+      "寺庙",
+      "历史古迹",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "古鸡鸣寺",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于鸡鸣寺路1号钟山风景名胜区玄武湖景区内西南侧",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "叶新小吃店(来凤小区总店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于金粟庵路5-8号(2号门)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉事利茶餐厅",
+    "city": "南京",
+    "category": "food",
+    "description": "位于峨嵋路北极西村9号103室(高楼门4号、近奶酪时光)",
+    "tags": [
+      "050305"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉祥酒店",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于禄口机场汇安南路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "听香影院公寓酒店(金马路地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于石狮路22号5幢(金马路地铁站1号口步行420米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "周园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于白马镇白袁路88号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和平公园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于北京东路43号(鸡鸣寺地铁站5号口旁)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "土桥古镇",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于金桥路与桂园南路交叉口东北20米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城市蚂蚁客栈(南京东部战区总院珠江路店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于珠江路603号(珠江小营车站斜对面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城市蚂蚁客栈(虹悦城店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于长虹路439号锦虹美苑15栋2层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夏记早点",
+    "city": "南京",
+    "category": "food",
+    "description": "位于张都堂巷1号101室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夜泊蘭亭·媚香酒店(南京夫子庙秦淮河店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于大石坝街156号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大东门夜市大排档",
+    "city": "南京",
+    "category": "food",
+    "description": "位于珍珠路与大东门街交叉口北80米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大行宫市民广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于中山东路298号大行宫",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大行宫见博物馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于中山东路235号大行宫市民广场地下BM1层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大钟亭公园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于大钟亭1号(鼓楼地铁站4B口步行110米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天下文枢",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于夫管办夫管办贡院街80-1号南京夫子庙",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天云湖生态园",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于东山街道佘村社区神凤路1167号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天浩商务宾馆(南京河海大学·佛城西路地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于秣陵街道佛城西路11号江南青年城楚襄园4幢105室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太平天国历史博物馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于夫子庙街道夫子庙街道瞻园路128号瞻园内(南侧)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太阳宫广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于湖岗子村阳光路3号(岗子村地铁站3号口步行290米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夫子庙-古秦淮西牌坊",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于贡院街152号南京夫子庙",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夫子庙秦淮风光带",
+    "city": "南京",
+    "category": "attraction",
+    "description": "夫子庙秦淮风光带是南京著名的历史文化街区，以夫子庙为核心，秦淮河为纽带，集自然风光、人文景观、美食购物于一体，是游客了解南京历史文化的必到之处。",
+    "tags": [
+      "历史文化",
+      "秦淮河",
+      "夫子庙",
+      "夜景"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "夫子庙秦淮风光带",
+    "city": "南京",
+    "category": "attraction",
+    "description": "夫子庙秦淮风光带，位于平江府路80-1(夫子庙地铁站2号口步行170米)，秦淮区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夫子庙秦淮风光带",
+    "city": "南京",
+    "category": "attraction",
+    "description": "夫子庙秦淮风光带，位于平江府路80-1(夫子庙地铁站2号口步行170米)，秦淮区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夫子庙秦淮风光带",
+    "city": "南京",
+    "category": "attraction",
+    "description": "夫子庙秦淮风光带，位于平江府路80-1(夫子庙地铁站2号口步行170米)，秦淮区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夫子庙秦淮风光带",
+    "city": "南京",
+    "category": "attraction",
+    "description": "夫子庙秦淮风光带 是南京的景点",
+    "tags": [],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "夫子庙秦淮风光带",
+    "city": "南京",
+    "category": "attraction",
+    "description": "夫子庙秦淮风光带是南京著名的历史文化街区，以夫子庙为核心，秦淮河为纽带，集自然风光、人文景观、美食购物于一体，是游客了解南京历史文化的必到之处。",
+    "tags": [
+      "历史文化",
+      "秦淮河",
+      "夫子庙",
+      "夜景"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "夫子庙秦淮风光带",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于平江府路80-1(夫子庙地铁站2号口步行170米)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "头陀岭景区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于中山门外石象路7号钟山风景区内",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好记·徐悲鸿画苑(鸡鸣寺店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于玄武门街道西家大塘46-1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好记·翰景轩书画餐厅(玄武湖店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于西家大塘46号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海路广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于宁海路32号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宅小窝女生青年旅舍(南京新街口店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于南京新街口金轮新天地，专为女生打造的温馨青年旅舍。",
+    "tags": [
+      "青年旅舍",
+      "女生",
+      "南京"
+    ],
+    "avgCost": 80.0,
+    "duration": "",
+    "openTime": "24小时",
+    "rating": 4.2
+  },
+  {
+    "name": "宅小窝女生青年旅舍(南京新街口店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "宅小窝女生青年旅舍(南京新街口店)，位于汉中路8号金轮新天地购物中心F4层，鼓楼区，类型旅馆招待所 青年旅舍。",
+    "tags": [
+      "旅馆招待所",
+      "青年旅舍"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宅小窝女生青年旅舍(南京新街口店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "宅小窝女生青年旅舍(南京新街口店)，位于汉中路8号金轮新天地购物中心F4层，鼓楼区，类型旅馆招待所 青年旅舍。",
+    "tags": [
+      "旅馆招待所",
+      "青年旅舍"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宅小窝女生青年旅舍(南京新街口店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "宅小窝女生青年旅舍(南京新街口店)，位于汉中路8号金轮新天地购物中心F4层，鼓楼区，类型旅馆招待所 青年旅舍。",
+    "tags": [
+      "旅馆招待所",
+      "青年旅舍"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宅小窝女生青年旅舍(南京新街口店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于南京新街口金轮新天地，专为女生打造的温馨青年旅舍。",
+    "tags": [
+      "青年旅舍",
+      "女生",
+      "南京"
+    ],
+    "avgCost": 80.0,
+    "duration": "",
+    "openTime": "24小时",
+    "rating": 4.2
+  },
+  {
+    "name": "宅小窝女生青年旅舍(南京新街口店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于汉中路8号金轮新天地购物中心F4层",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安家桂花汤圆(茶南店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于茶南兆园76号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宜家酒店(南京油坊桥地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于西善桥北路52-2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝顶",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于石象路7号中山陵园风景区明孝陵景区孝陵陵宫内",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝鸡张记凉皮(东南大学店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于四牌楼4-2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宽城子美蛙自助火锅(金銮大厦D栋店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于中山南路101号金銮大厦F3层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小厨娘民国会客厅 (总统府1912店)",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘民国会客厅位于长江路288号，是一家以民国风情为主题的中餐厅。",
+    "tags": [
+      "中餐厅",
+      "民国风情"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "小厨娘民国会客厅 (总统府1912店)",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘民国会客厅 (总统府1912店)，位于长江路288号，玄武区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小厨娘民国会客厅 (总统府1912店)",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘民国会客厅 (总统府1912店)，位于长江路288号，玄武区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小厨娘民国会客厅 (总统府1912店)",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘民国会客厅 (总统府1912店)，位于长江路288号，玄武区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小厨娘民国会客厅 (总统府1912店)",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘民国会客厅位于长江路288号，是一家以民国风情为主题的中餐厅。",
+    "tags": [
+      "中餐厅",
+      "民国风情"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "小厨娘淮扬菜 (南京博物院金城大厦店)",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘淮扬菜位于南京秦淮区龙蟠中路216号金城大厦B座4楼，是一家以江苏菜为特色的中餐厅，提供地道的淮扬菜美食。",
+    "tags": [
+      "淮扬菜",
+      "中餐厅",
+      "江苏菜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "小厨娘淮扬菜 (南京博物院金城大厦店)",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘淮扬菜 (南京博物院金城大厦店)，位于龙蟠中路216号金城大厦B座4楼，秦淮区，类型中餐厅 江苏菜。",
+    "tags": [
+      "中餐厅",
+      "江苏菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小厨娘淮扬菜 (南京博物院金城大厦店)",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘淮扬菜 (南京博物院金城大厦店)，位于龙蟠中路216号金城大厦B座4楼，秦淮区，类型中餐厅 江苏菜。",
+    "tags": [
+      "中餐厅",
+      "江苏菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小厨娘淮扬菜 (南京博物院金城大厦店)",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘淮扬菜 (南京博物院金城大厦店)，位于龙蟠中路216号金城大厦B座4楼，秦淮区，类型中餐厅 江苏菜。",
+    "tags": [
+      "中餐厅",
+      "江苏菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小厨娘淮扬菜 (南京博物院金城大厦店)",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘淮扬菜位于南京秦淮区龙蟠中路216号金城大厦B座4楼，是一家以江苏菜为特色的中餐厅，提供地道的淮扬菜美食。",
+    "tags": [
+      "淮扬菜",
+      "中餐厅",
+      "江苏菜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "小厨娘淮扬菜(鸡鸣寺凯瑟琳店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于北京东路1号环亚凯瑟琳广场F1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小厨娘淮扬菜·新街口艾尚天地店",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘淮扬菜是南京知名的江苏菜餐厅，位于新街口艾尚天地B座三层，提供正宗淮扬菜系。",
+    "tags": [
+      "淮扬菜",
+      "中餐厅",
+      "江苏菜"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "小厨娘淮扬菜·新街口艾尚天地店",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘淮扬菜·新街口艾尚天地店，位于中山路132号艾尚天地B座3层(地铁1号线珠江路4号出口)，玄武区，类型中餐厅 江苏菜。",
+    "tags": [
+      "中餐厅",
+      "江苏菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小厨娘淮扬菜·新街口艾尚天地店",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘淮扬菜·新街口艾尚天地店，位于中山路132号艾尚天地B座3层(地铁1号线珠江路4号出口)，玄武区，类型中餐厅 江苏菜。",
+    "tags": [
+      "中餐厅",
+      "江苏菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小厨娘淮扬菜·新街口艾尚天地店",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘淮扬菜·新街口艾尚天地店，位于中山路132号艾尚天地B座3层(地铁1号线珠江路4号出口)，玄武区，类型中餐厅 江苏菜。",
+    "tags": [
+      "中餐厅",
+      "江苏菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小厨娘淮扬菜·新街口艾尚天地店",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘淮扬菜是南京知名的江苏菜餐厅，位于新街口艾尚天地B座三层，提供正宗淮扬菜系。",
+    "tags": [
+      "淮扬菜",
+      "中餐厅",
+      "江苏菜"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "小厨娘金榜题名(夫子庙秦淮河店)",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘是南京知名的淮扬菜餐厅，夫子庙秦淮河店环境优雅，主打金陵风味。",
+    "tags": [
+      "淮扬菜",
+      "南京美食",
+      "夫子庙"
+    ],
+    "avgCost": 100.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "小厨娘金榜题名(夫子庙秦淮河店)",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘金榜题名(夫子庙秦淮河店)，位于平江府路夫子庙文源桥旁，秦淮区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小厨娘金榜题名(夫子庙秦淮河店)",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘金榜题名(夫子庙秦淮河店)，位于平江府路夫子庙文源桥旁，秦淮区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小厨娘金榜题名(夫子庙秦淮河店)",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘金榜题名(夫子庙秦淮河店)，位于平江府路夫子庙文源桥旁，秦淮区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小厨娘金榜题名(夫子庙秦淮河店)",
+    "city": "南京",
+    "category": "food",
+    "description": "小厨娘是南京知名的淮扬菜餐厅，夫子庙秦淮河店环境优雅，主打金陵风味。",
+    "tags": [
+      "淮扬菜",
+      "南京美食",
+      "夫子庙"
+    ],
+    "avgCost": 100.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "小李汤包(四牌楼校区东南大学店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于新街口街道大石桥4号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小潘记鸭血粉丝汤",
+    "city": "南京",
+    "category": "food",
+    "description": "位于中山东路198号龙台国际大厦星巴克旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚客优精选酒店(南京南站双龙大道地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于东山街道双龙大道577号名嘉佳园7幢1层",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚客优酒店(南京江宁禄口机场蓝天路店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于蓝天路6号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴奴毛肚火锅(南京金鹰新街口店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于汉中路89号金鹰国际购物中心B座八层B-01",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巷往客栈(南京新街口总统府店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于东箭道31号附1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "布丁酒店(南京仙林大学城店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于仙林大道118号a-21",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广东阿生鱼捞·斑鱼海鲜粥火锅(新街口店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于金銮巷2-2号(五高对面)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广东阿生鱼捞·斑鱼海鲜粥火锅(科巷店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于中山东路300号CFC生活广场长发中心店F1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康迪快捷宾馆",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于文思巷建康路409号建康花苑2幢",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "归沁零客栈(南京禄口国际机场店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于禄口街道石埝社区庄盖村14号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德基艺术博物馆(德基广场二期店)",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于新街口街道长江路社区中山路18号德基广场二期8层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徽派建筑观赏区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于周园东南侧120米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(南京环亚凯瑟琳店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于北京东路1号一层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "总统府",
+    "city": "南京",
+    "category": "attraction",
+    "description": "南京总统府是中国近代史的重要遗址，曾是中华民国总统府所在地。建筑融合中西风格，保存了大量历史文物和文献，游客可以参观办公区、会客厅、花园等，了解民国时期的政治、军事和文化历史。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 40.0,
+    "duration": "2-3小时",
+    "openTime": "08:30-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "总统府",
+    "city": "南京",
+    "category": "attraction",
+    "description": "总统府，位于新街口街道，玄武区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "总统府",
+    "city": "南京",
+    "category": "attraction",
+    "description": "总统府，位于新街口街道，玄武区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "总统府",
+    "city": "南京",
+    "category": "attraction",
+    "description": "总统府，位于新街口街道，玄武区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "总统府",
+    "city": "南京",
+    "category": "attraction",
+    "description": "南京总统府是中国近代史的重要遗址，曾是中华民国总统府所在地。建筑融合中西风格，保存了大量历史文物和文献，游客可以参观办公区、会客厅、花园等，了解民国时期的政治、军事和文化历史。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 40.0,
+    "duration": "2-3小时",
+    "openTime": "08:30-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "总统府",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于新街口街道",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "总统府前广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于毗邻大行宫广场(大行宫地铁站5号口步行290米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "愚园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于集庆路胡家花园1号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慢悠悠青年旅舍(南京南站双龙大道地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于东山街道双龙大道810号南方花园b组团4栋106号",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成贤里餐吧",
+    "city": "南京",
+    "category": "food",
+    "description": "位于成贤街115号(浮桥地铁站1号口步行370米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾柒号客栈(南京禄口国际机场店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于禄口街道石埝社区17-1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "挹江门",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于下关街道中山北路398号(绣球公园)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "探路者客栈(南京汉中门地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于华侨路街道汉中门大街1号汉中翠庭5号楼1单元403室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文鼎广场夜市",
+    "city": "南京",
+    "category": "food",
+    "description": "位于文鼎广场",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新百鸽子广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于中山东路与中山南路交叉口东南60米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "无名老卤面(中华门总店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于中华路533号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明城墙公园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于环湖路解放门8号(玄武门地铁站4号口步行410米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明孝陵博物馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于四方城1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明孝陵景区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于石象路7号",
+    "tags": [
+      "110201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "易佰良品酒店(南京东南大学诚信大道地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于诚信大道988-8栋殷巷华润苏果超市4楼",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星际青年旅舍(南京夫子庙秦淮河店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于中华路363号中华园商住楼5层510室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晚园·江南火锅.秦淮河景餐厅(夫子庙贡院街店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于夫子庙街道贡院街119号2层(肯德基右侧上楼梯)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "有山YOUSHAN·独栋别墅轰趴度假村",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于禄口镇令桥滩1号晨虹休闲度假村内别墅C栋",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朝天宫",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于朝天宫4号(朝天宫地铁站1号口步行210米)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "木马公寓广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于丹凤街木马公寓(珠江路地铁站3号口步行360米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱大州·江西小馆家常菜(三山街店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于弓箭坊40号-1",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李百蟹·江南蟹黄面(夫子庙总店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于夫子庙大石坝街68号(如家NEO酒店旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李记清真馆(打钉巷店)",
+    "city": "南京",
+    "category": "food",
+    "description": "李记清真馆位于南京市秦淮区打钉巷1号，是一家以清真菜为特色的中餐厅。",
+    "tags": [
+      "清真菜馆",
+      "中餐厅",
+      "餐饮服务"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "李记清真馆(打钉巷店)",
+    "city": "南京",
+    "category": "food",
+    "description": "李记清真馆(打钉巷店)，位于朝天宫街道评事街打钉巷1号，秦淮区，类型中餐厅 清真菜馆。",
+    "tags": [
+      "中餐厅",
+      "清真菜馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李记清真馆(打钉巷店)",
+    "city": "南京",
+    "category": "food",
+    "description": "李记清真馆(打钉巷店)，位于朝天宫街道评事街打钉巷1号，秦淮区，类型中餐厅 清真菜馆。",
+    "tags": [
+      "中餐厅",
+      "清真菜馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李记清真馆(打钉巷店)",
+    "city": "南京",
+    "category": "food",
+    "description": "李记清真馆(打钉巷店)，位于朝天宫街道评事街打钉巷1号，秦淮区，类型中餐厅 清真菜馆。",
+    "tags": [
+      "中餐厅",
+      "清真菜馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李记清真馆(打钉巷店)",
+    "city": "南京",
+    "category": "food",
+    "description": "李记清真馆位于南京市秦淮区打钉巷1号，是一家以清真菜为特色的中餐厅。",
+    "tags": [
+      "清真菜馆",
+      "中餐厅",
+      "餐饮服务"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "李记鲜切牛肉自助火锅(紫薇花园店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于金盛路60号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李香君故居",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于夫管办夫管办贡院街80-1号南京夫子庙",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳林生态度假区",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于南京八卦洲湿地公园东北(环洲路北)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栖霞古镇",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于栖霞街道栖霞街68号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栖霞古镇故事馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于20县道与栖霞街交叉口西北40米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栖霞山江乘古邑牌坊(栖霞古镇)",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于20县道与栖霞街交叉口西20米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栖霞山风景名胜区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于栖霞街88号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梅山宾馆",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于中华门外新建",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梧桐客栈(郁金香路店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于郁金香路22号君子兰花园75栋",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "殷巷夜市美食城",
+    "city": "南京",
+    "category": "food",
+    "description": "位于殷富商业街1幢1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水岸听风",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于环湖路附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉中门广场-古城墙遗迹",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于汉中门市民广场(汉中门地铁站3号口步行70米)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江宁区萌宠居宠物寄养度假村",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于淳化街道新陵北路1号新庄工业园区1幢1750室",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江宁织造博物馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于长江路123号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江苏警察博物馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于新街口街道",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汤山一号温泉度假区",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于温泉路18号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汤山涵田·春之谷",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于延祥路与经十路交叉口西北140米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汤山温泉国家级旅游度假区",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于美泉路8号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沃普·玄武湖探险营地 (Welope Camp 玄武湖)",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于龙蟠路100号玄武湖情侣园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沐雅·礼酒店(南京奥体东地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于新安街99号东渡新锐大厦2层",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河岸法国家庭餐厅",
+    "city": "南京",
+    "category": "food",
+    "description": "位于新街口街道文昌桥1-1号",
+    "tags": [
+      "050204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泰和宾馆(南京诚信大道地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于双龙大道2222号(诚信大道地铁站3C口步行490米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浆小白豆浆夜市(夫子庙店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于文思巷6号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浆小白豆浆夜市(格林豪泰南京新街口王府大街快捷酒店店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于朝天宫街道王府大街139号一层-4",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浦新夜市",
+    "city": "南京",
+    "category": "food",
+    "description": "位于天华东路与江山路交叉口东南80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(中山南路店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于中山南路501号通服大厦四楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(南京南站喜玛拉雅店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于明城大道喜玛拉雅购物中心L栋B座F5层05号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(新街口新百店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于中山南路1号南京新百A座8楼(新街口地铁站9号口旁)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(玄武区凯瑟琳店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于北京东路1号环亚凯瑟琳广场2层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮风逸仙楼·南京菜(中山东路店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于中山东路486号亚朵隔壁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清凉山公园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于清凉山路83号(近广州路)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清沐酒店(南京江宁万达新亭路地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "清沐酒店(南京江宁万达新亭路地铁站店)位于南京市江宁区竹山路97号，距离新亭路地铁站3号口步行约400米，是一家经济型连锁酒店，交通便利，适合商务和旅游出行。",
+    "tags": [
+      "经济型连锁酒店",
+      "江宁",
+      "地铁站"
+    ],
+    "avgCost": 200.0,
+    "duration": "1晚",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "清沐酒店(南京江宁万达新亭路地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "清沐酒店(南京江宁万达新亭路地铁站店)，位于竹山路97号(新亭路地铁站3号口步行400米)，江宁区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清沐酒店(南京江宁万达新亭路地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "清沐酒店(南京江宁万达新亭路地铁站店)，位于竹山路97号(新亭路地铁站3号口步行400米)，江宁区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清沐酒店(南京江宁万达新亭路地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "清沐酒店(南京江宁万达新亭路地铁站店)，位于竹山路97号(新亭路地铁站3号口步行400米)，江宁区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清沐酒店(南京江宁万达新亭路地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "清沐酒店(南京江宁万达新亭路地铁站店)位于南京市江宁区竹山路97号，距离新亭路地铁站3号口步行约400米，是一家经济型连锁酒店，交通便利，适合商务和旅游出行。",
+    "tags": [
+      "经济型连锁酒店",
+      "江宁",
+      "地铁站"
+    ],
+    "avgCost": 200.0,
+    "duration": "1晚",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "清沐酒店(南京江宁万达新亭路地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于竹山路97号(新亭路地铁站3号口步行400米)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清游晓驻公寓",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于泰山街道江山路8号金象城购物中心2栋10层1031A室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真·西北桥头拉面大王(丁家桥店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于丁家桥18号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真马祥兴菜馆",
+    "city": "南京",
+    "category": "food",
+    "description": "位于云南北路32号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "满艺居影院公寓(小行地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于小行里204号小行综合楼3楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨湖广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于锁金村街道(岗子村地铁站3号口步行280米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漆桥古村落",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于漆桥街道漆桥村523号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漆桥古村落-古建筑门洞及佛像雕塑(打卡点)",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于漆桥街道漆桥村523号漆桥古村落",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灰色博物馆",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于建康路2号茂业天地B2层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灵谷景区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于孝陵卫街道灵谷寺2号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熙住·新青年旅舍(钟山风景区苜蓿园地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于中山门大街9号(苜蓿园地铁站2号口旁)",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛总店·贵州黄牛肉馆(板桥红太阳总店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于弘阳大道弘阳装饰城D2-108-114号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛总店·贵州黄牛肉馆(澎湃力中心店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于江东中路300号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "猫仔屋青年旅社(南京夫子庙秦淮河风光带店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于升州路183号",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玄武湖公园-台菱堤",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于玄武巷1号玄武湖公园菱洲内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玄武湖情侣园-爱情长廊",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于展览西路与展馆路交叉口南100米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玄武湖景区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "玄武湖位于南京市玄武区，是钟山风景名胜区的重要组成部分，也是国家AAAA级旅游景区。湖光山色，风景秀丽，被誉为\"金陵明珠\"。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "湖泊"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.7
+  },
+  {
+    "name": "玄武湖景区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "玄武湖景区，位于玄武门路1号钟山风景名胜区西侧，玄武区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玄武湖景区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "玄武湖景区，位于玄武门路1号钟山风景名胜区西侧，玄武区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玄武湖景区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "玄武湖景区，位于玄武门路1号钟山风景名胜区西侧，玄武区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玄武湖景区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "玄武湖位于南京市玄武区，是钟山风景名胜区的重要组成部分，也是国家AAAA级旅游景区。湖光山色，风景秀丽，被誉为\"金陵明珠\"。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "湖泊"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.7
+  },
+  {
+    "name": "玄武湖景区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于玄武门路1号钟山风景名胜区西侧",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玄武湖景区-心廉心广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于玄武湖景区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玄武湖景区-爱神广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于龙蟠路100号(近玄武湖公园)玄武湖公园-情侣园内",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玄武湖景区-菱洲",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于玄武湖公园内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玄武湖景区情侣园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "玄武湖景区内的情侣园，是休闲游览的好去处。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "玄武湖景区情侣园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "玄武湖景区情侣园，位于龙蟠路100号，玄武区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玄武湖景区情侣园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "玄武湖景区情侣园，位于龙蟠路100号，玄武区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玄武湖景区情侣园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "玄武湖景区情侣园，位于龙蟠路100号，玄武区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玄武湖景区情侣园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "玄武湖景区内的情侣园，是休闲游览的好去处。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "玄武湖景区情侣园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于龙蟠路100号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王鼎有鱼旗舰店",
+    "city": "南京",
+    "category": "food",
+    "description": "位于北极西村25号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "环洲",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于玄武巷1号玄武湖公园内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珍珠泉旅游度假区-赏泉楼",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于珍珠街182号南京珍珠泉风景区内(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琥珀公寓(弘阳广场店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于泰山街道弘阳时代中心二期05幢",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琵琶湖公园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于石象路7号中山陵园风景区外缘景区前湖片区",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "登泰宾馆(小市地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "登泰宾馆位于南京市鼓楼区小市街188号，紧邻小市地铁站，交通便捷。宾馆提供舒适整洁的客房，设施齐全，适合商务和旅游出行。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "小市地铁站"
+    ],
+    "avgCost": 200.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "登泰宾馆(小市地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "登泰宾馆(小市地铁站店)，位于小市街188号(小市地铁站向东200米)，鼓楼区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "登泰宾馆(小市地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "登泰宾馆(小市地铁站店)，位于小市街188号(小市地铁站向东200米)，鼓楼区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "登泰宾馆(小市地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "登泰宾馆(小市地铁站店)，位于小市街188号(小市地铁站向东200米)，鼓楼区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "登泰宾馆(小市地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "登泰宾馆位于南京市鼓楼区小市街188号，紧邻小市地铁站，交通便捷。宾馆提供舒适整洁的客房，设施齐全，适合商务和旅游出行。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "小市地铁站"
+    ],
+    "avgCost": 200.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "登泰宾馆(小市地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于小市街188号(小市地铁站向东200米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白马公园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于锁金村街道白马山庄1号(近龙蟠路)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白马公园-南广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于龙蟠路与太平门路交叉口白马公园内(西南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白鹭洲公园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于夫子庙白鹭村1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百串烧烤城(鼓楼店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于将军庙40号1-2商铺",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百味斋素面馆",
+    "city": "南京",
+    "category": "food",
+    "description": "位于鸡鸣寺路1号",
+    "tags": [
+      "050120"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瞻园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于瞻园路128号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石山下村",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于晶桥镇芮家村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石榴青年民宿(南京火车站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于韶山路288号小区4幢101室",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧城轻奢(南京禄口国际机场店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于下浣溪24号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "神山湖风景区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于洪蓝街道洪蓝街道105县道",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "神策门公园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于锁金村街道龙蟠路2号钟山风景名胜区玄武湖景区内西北侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福斯特夜市",
+    "city": "南京",
+    "category": "food",
+    "description": "位于吉庆路与浦滨路辅路交叉口北80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "科巷美食市集",
+    "city": "南京",
+    "category": "food",
+    "description": "位于西白菜园29号(大行宫地铁站出入口步行270米)",
+    "tags": [
+      "060705"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秣陵托乐嘉商业街区夜市",
+    "city": "南京",
+    "category": "food",
+    "description": "位于翠屏山地铁站3号口步行180米",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦淮区夫子庙大成殿",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于南京夫子庙中心景区(夫子庙地铁站6号口步行450米)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "第五季大排档·龙虾·烧烤·炭锅羊肉(新街口店)",
@@ -294,10 +4579,515 @@
       "烧烤",
       "羊肉"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
+  },
+  {
+    "name": "第五季大排档·龙虾·烧烤·炭锅羊肉(新街口店)",
+    "city": "南京",
+    "category": "food",
+    "description": "第五季大排档·龙虾·烧烤·炭锅羊肉(新街口店)，位于秣陵路18号(丰富路与秣陵路交叉)，秦淮区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "第五季大排档·龙虾·烧烤·炭锅羊肉(新街口店)",
+    "city": "南京",
+    "category": "food",
+    "description": "第五季大排档·龙虾·烧烤·炭锅羊肉(新街口店)，位于秣陵路18号(丰富路与秣陵路交叉)，秦淮区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "第五季大排档·龙虾·烧烤·炭锅羊肉(新街口店)",
+    "city": "南京",
+    "category": "food",
+    "description": "第五季大排档·龙虾·烧烤·炭锅羊肉(新街口店)，位于秣陵路18号(丰富路与秣陵路交叉)，秦淮区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "第五季大排档·龙虾·烧烤·炭锅羊肉(新街口店)",
+    "city": "南京",
+    "category": "food",
+    "description": "第五季大排档位于南京市秦淮区秣陵路18号，以龙虾、烧烤和炭锅羊肉为特色，是一家适合聚餐的深夜食堂。",
+    "tags": [
+      "大排档",
+      "龙虾",
+      "烧烤",
+      "羊肉"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "等花开客栈新街口店(洪武路分店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于洪武路267号洪武大厦院内",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫妍公寓(新街口店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于朝天宫街道石鼓路42号建华大厦2002室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红厨巷淮扬菜(熙南里店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于双塘街道弓箭坊55号-5",
+    "tags": [
+      "050105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红大龙虾·夫子庙老门东游园店(夫子庙店)",
+    "city": "南京",
+    "category": "food",
+    "description": "红大龙虾是南京知名龙虾连锁品牌，夫子庙老门东游园店位于秦淮区马道街，提供各种口味龙虾及海鲜。",
+    "tags": [
+      "龙虾",
+      "海鲜",
+      "中餐",
+      "夫子庙"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "红大龙虾·夫子庙老门东游园店(夫子庙店)",
+    "city": "南京",
+    "category": "food",
+    "description": "红大龙虾·夫子庙老门东游园店(夫子庙店)，位于马道街16号，秦淮区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红大龙虾·夫子庙老门东游园店(夫子庙店)",
+    "city": "南京",
+    "category": "food",
+    "description": "红大龙虾·夫子庙老门东游园店(夫子庙店)，位于马道街16号，秦淮区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红大龙虾·夫子庙老门东游园店(夫子庙店)",
+    "city": "南京",
+    "category": "food",
+    "description": "红大龙虾·夫子庙老门东游园店(夫子庙店)，位于马道街16号，秦淮区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红大龙虾·夫子庙老门东游园店(夫子庙店)",
+    "city": "南京",
+    "category": "food",
+    "description": "红大龙虾是南京知名龙虾连锁品牌，夫子庙老门东游园店位于秦淮区马道街，提供各种口味龙虾及海鲜。",
+    "tags": [
+      "龙虾",
+      "海鲜",
+      "中餐",
+      "夫子庙"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "红山森林动物园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "红山森林动物园位于南京市玄武区，是集动物展示、科普教育、休闲娱乐为一体的综合性动物园。园内有大熊猫、金丝猴等珍稀动物，环境优美，适合亲子游玩。",
+    "tags": [
+      "动物园",
+      "公园",
+      "风景名胜",
+      "亲子"
+    ],
+    "avgCost": 40.0,
+    "duration": "3-4小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.6
+  },
+  {
+    "name": "红山森林动物园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "红山森林动物园，位于和燕路168号(红山动物园地铁站1号口步行400米)，玄武区，类型公园广场 动物园。",
+    "tags": [
+      "公园广场",
+      "动物园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山森林动物园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "红山森林动物园，位于和燕路168号(红山动物园地铁站1号口步行400米)，玄武区，类型公园广场 动物园。",
+    "tags": [
+      "公园广场",
+      "动物园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山森林动物园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "红山森林动物园，位于和燕路168号(红山动物园地铁站1号口步行400米)，玄武区，类型公园广场 动物园。",
+    "tags": [
+      "公园广场",
+      "动物园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山森林动物园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "红山森林动物园位于南京市玄武区，是集动物展示、科普教育、休闲娱乐为一体的综合性动物园。园内有大熊猫、金丝猴等珍稀动物，环境优美，适合亲子游玩。",
+    "tags": [
+      "动物园",
+      "公园",
+      "风景名胜",
+      "亲子"
+    ],
+    "avgCost": 40.0,
+    "duration": "3-4小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.6
+  },
+  {
+    "name": "红山森林动物园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于和燕路168号(红山动物园地铁站1号口步行400米)",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿柳居(兰园市场店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于北京东路36号-16兰园市场楼下",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美居美宿(马群地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于中山门大街698号中垠紫金观邸1号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老门东-步行街",
+    "city": "南京",
+    "category": "food",
+    "description": "位于剪子巷与箍桶巷交汇处",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟渔寨",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于淳化街道滨淮社区马场山66号",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芳婆糕团店(王府大街店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于王府大街50号(新街口地铁站21号口步行490米)",
+    "tags": [
+      "050800"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芳桥",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于玄武巷1号玄武湖公园梁洲内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苏博青年公寓(南京雨花门地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于宏光路118-1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茉莉阿姨(新街口店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于东方名苑东南门旁(新街口地铁站15号口步行240米)",
+    "tags": [
+      "050700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣记汕头牛肉火锅(中华路店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于中华路一号1-39号(红街内翠贝卡楼上)落汗堂",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫庭客栈(南京禄口机场店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于石埝社区中心村24号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于南京玄武湖公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(南京新街口店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于石鼓路明瓦廊133号福中大厦F1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(弘阳广场店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于泰山街道大桥北路48号南京弘阳广场B馆4层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(新尧金地广场店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于金尧路22号新尧金地广场5楼L5016-5017",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(浦口万汇城店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于浦口大道8号万汇城(北区)购物中心4楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(雨花客厅店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于铁心桥街道软件大道109号雨花客厅1号楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(鼓楼吾悦店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于湖北路51号吾悦广场南京鼓楼店F5层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营盘山公园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于中山门外石象路7号中山陵园风景区明孝陵景区内",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萨莉亚意式餐厅(环亚凯瑟琳广场店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于北京东路1号环亚凯瑟琳广场B1层",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "蓝湾酒店",
@@ -307,69 +5097,675 @@
     "tags": [
       "南京"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "全天",
     "rating": 3.5
   },
   {
-    "name": "登泰宾馆(小市地铁站店)",
+    "name": "蓝湾酒店",
     "city": "南京",
     "category": "hotel",
-    "description": "登泰宾馆位于南京市鼓楼区小市街188号，紧邻小市地铁站，交通便捷。宾馆提供舒适整洁的客房，设施齐全，适合商务和旅游出行。",
+    "description": "蓝湾酒店，位于板桥街道雄风路303号，雨花台区，类型宾馆酒店 经济型连锁酒店。",
     "tags": [
-      "住宿",
-      "宾馆",
-      "小市地铁站"
+      "宾馆酒店",
+      "经济型连锁酒店"
     ],
-    "avgCost": 200,
-    "duration": "全天",
-    "openTime": "24小时",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "宅小窝女生青年旅舍(南京新街口店)",
+    "name": "蓝湾酒店",
     "city": "南京",
     "category": "hotel",
-    "description": "位于南京新街口金轮新天地，专为女生打造的温馨青年旅舍。",
+    "description": "蓝湾酒店，位于板桥街道雄风路303号，雨花台区，类型宾馆酒店 经济型连锁酒店。",
     "tags": [
-      "青年旅舍",
-      "女生",
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝湾酒店",
+    "city": "南京",
+    "category": "hotel",
+    "description": "蓝湾酒店，位于板桥街道雄风路303号，雨花台区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝湾酒店",
+    "city": "南京",
+    "category": "hotel",
+    "description": "蓝湾酒店 是南京的住宿地点，位于雨花台区。地址：板桥街道雄风路303号。",
+    "tags": [
       "南京"
     ],
-    "avgCost": 80,
+    "avgCost": 0.0,
     "duration": "",
-    "openTime": "24小时",
-    "rating": 4.2
-  },
-  {
-    "name": "清沐酒店(南京江宁万达新亭路地铁站店)",
-    "city": "南京",
-    "category": "hotel",
-    "description": "清沐酒店(南京江宁万达新亭路地铁站店)位于南京市江宁区竹山路97号，距离新亭路地铁站3号口步行约400米，是一家经济型连锁酒店，交通便利，适合商务和旅游出行。",
-    "tags": [
-      "经济型连锁酒店",
-      "江宁",
-      "地铁站"
-    ],
-    "avgCost": 200,
-    "duration": "1晚",
-    "openTime": "24小时",
-    "rating": 4.0
-  },
-  {
-    "name": "南京金红旅社(延安北路店)",
-    "city": "南京",
-    "category": "hotel",
-    "description": "南京金红旅社(延安北路店)位于六合区薛营135号，紧邻方州广场地铁站，交通便利。提供经济实惠的住宿服务，适合商务出差或短途旅行。",
-    "tags": [
-      "经济型",
-      "旅馆",
-      "地铁附近"
-    ],
-    "avgCost": 100,
-    "duration": "1晚",
-    "openTime": "24小时",
+    "openTime": "全天",
     "rating": 3.5
+  },
+  {
+    "name": "蓝湾酒店",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于板桥街道雄风路303号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝铂湾民宿(南京禄口国际机场店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于张塘角131号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "行政院",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于东箭道19号总统府内(东北角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安门广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于龙蟠中路202号西安门遗址公园(东北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安门遗址公园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于龙蟠中路202号(西安门地铁站4号口步行130米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观澜中心万都广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于童家巷与平安里交叉口东南80米",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "许阿姨糕团店(南京总店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于延龄巷109号1楼(大行宫地铁站2号口步行370米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "许阿姨糕团店(福园街店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于福园街与茶南大街交叉口西北50米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "许阿姨糕团店(长白街店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于普华巷1号",
+    "tags": [
+      "050800"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诗宴",
+    "city": "南京",
+    "category": "food",
+    "description": "位于龙蟠路88号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(新街口IFCX店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于新街口汉中路1号IFCX新力场5层F5-5-1铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "都市驿家影院公寓(星火路地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于星火路地铁站3号口步行240米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金哥私家菜馆(建邺路总店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于张府园地铁站3号口步行150米",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金陵中山客栈(中山陵景区下马坊地铁站店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于小卫街216号东郊美树苑10栋1单元101室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金陵后厨·南京菜(新街口秣陵路店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于秣陵路111号(王府国际花园对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金陵小城",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于牛首大道199-1号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金陵梦华·宫宴(南京老门东店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于门东历史文化街区内靠近南京书画院金陵美术馆西门对面(下沉广场1层)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金陵饭店·梅苑",
+    "city": "南京",
+    "category": "food",
+    "description": "位于汉中路2号金陵楼2层(近中山路)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钟山风景区-文武方门",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于石象路7号中山陵园风景区明孝陵风景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钟山风景名胜区",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于石象路7号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钟山风景名胜区-明东陵遗址公园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于石象路7号中山陵园风景区明孝陵风景区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钟山风景名胜区中山陵景区音乐台",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于石象路7号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁塔广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于领智路56号",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦江之星(南京火车站玄武湖钟阜路地铁站酒店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于建宁路16号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦江之星酒店(南京新街口店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于中山南路219号(张府园地铁站1号口步行240米)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阅里时光公寓(南京工业大学店)",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于沿山大道199号6栋4楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳山碑材",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于汤山街道古泉村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雅苑酒家(文昌桥店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于成贤街文昌桥1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "静安古街",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于昌宁街与惠宁路交叉口南200米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "颂福楼(珠江路)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于珠江路675号",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "颜真卿碑林",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于石象路7号明孝陵景区内(北侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马厂老火锅(丰富路店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于丰富路163号F1-2",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马林广场",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于湖南路街道1920楼鼓楼医院一号楼旁",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(万汇城店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于浦口大道8号万汇城北区购物中心7幢一层118-1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(浦口万汇城店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于万汇城北区购物中心8幢1层101/102商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏虾神龙虾·江湖菜(北京东路店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于北京东路8号ME7BAR隔壁",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲍小仙·市井南京菜",
+    "city": "南京",
+    "category": "food",
+    "description": "位于文昌巷与太平南路交叉口蜜雪冰城隔壁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸡鸣汤包(南京总店)南京菜",
+    "city": "南京",
+    "category": "food",
+    "description": "位于三条营68-101号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸡鸣汤包(总店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于湖南路185号(青春广场地铁站1号口步行270米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸽味轩(高楼门店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于高楼门6号(官也龙凤对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹤鸣山·草本茶香火锅(南京首店)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于北门桥路5号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹿铃奇遇森林牧场",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于横溪街道西阳社区前草路中段",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(南京凯瑟琳广场餐厅)",
+    "city": "南京",
+    "category": "food",
+    "description": "位于北京东路1号环亚凯瑟琳广场F1层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓楼公园",
+    "city": "南京",
+    "category": "attraction",
+    "description": "位于北京西路1-2号(鼓楼地铁站6号口步行130米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙尚湖农业休闲中心",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于龙尚湖风景区",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙尚黑熊度假山庄",
+    "city": "南京",
+    "category": "hotel",
+    "description": "位于龙尚村6号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙湖紫金夜市",
+    "city": "南京",
+    "category": "food",
+    "description": "位于孝陵卫街龙湖紫金Mall",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

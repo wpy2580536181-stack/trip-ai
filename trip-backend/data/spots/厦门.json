@@ -1,118 +1,224 @@
 [
   {
-    "name": "海湾公园",
+    "name": "1955铁路公园",
     "city": "厦门",
     "category": "attraction",
-    "description": "海湾公园位于厦门市思明区西堤东路49号，是市民休闲娱乐的好去处。",
+    "description": "位于文屏路与文屏西路交叉口东北20米",
     "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
+      "110101"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "筼筜湖",
+    "name": "1980烧肉粽(中山路店)",
     "city": "厦门",
-    "category": "attraction",
-    "description": "筼筜湖是厦门市中心的一个城市湖泊公园，风景优美，适合休闲散步。湖上有白鹭洲公园，周边有现代建筑与自然景观相映成趣。",
+    "category": "food",
+    "description": "位于中山路353号",
     "tags": [
-      "风景名胜",
-      "旅游景点"
+      "050118"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "中山路步行街",
+    "name": "202特色排档(轮渡海景店)",
     "city": "厦门",
-    "category": "attraction",
-    "description": "中山路步行街是厦门著名的商业街，位于思明区，集购物、美食、休闲于一体。",
+    "category": "food",
+    "description": "位于鹭江道与厦禾路交叉口西南60米",
     "tags": [
-      "购物",
-      "特色商业街"
+      "050100"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "厦门山海健康步道",
+    "name": "7天酒店(厦门同安乐海城市广场店)",
     "city": "厦门",
-    "category": "attraction",
-    "description": "厦门山海健康步道是厦门市的一条空中步道，贯穿山海，景色优美，适合休闲散步和健身。步道串联多个公园和观景点，是市民和游客的热门打卡地。",
+    "category": "hotel",
+    "description": "位于银湖中路600号",
     "tags": [
-      "步道",
-      "风景",
-      "健身",
-      "厦门"
+      "100105"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "06:00-22:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "厦门白鹭洲公园",
+    "name": "BistroBotoru餐酒小馆",
     "city": "厦门",
-    "category": "attraction",
-    "description": "白鹭洲公园是厦门市思明区的一个公园，位于白鹭洲路，是市民休闲娱乐的好去处。",
+    "category": "food",
+    "description": "位于建业路22号-2商铺(建业路地铁站4号口步行240米)",
     "tags": [
-      "风景名胜",
-      "公园"
+      "080304"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "厦门园林植物园",
+    "name": "Coyote墨西哥餐厅",
     "city": "厦门",
-    "category": "attraction",
-    "description": "厦门园林植物园位于厦门市思明区虎园路25号，是一座集植物展示、科研科普、休闲游览于一体的综合性植物园。园内拥有丰富的植物种类和多个专类园区，如棕榈岛、沙生植物区、雨林世界等，景色优美，四季宜人，是厦门市民和游客亲近自然的热门去处。",
+    "category": "food",
+    "description": "位于官任路2-20号(建业路地铁站4号口步行480米)",
     "tags": [
-      "风景名胜",
-      "公园广场",
-      "植物园"
+      "050216"
     ],
-    "avgCost": 30,
-    "duration": "2-3小时",
-    "openTime": "06:30-18:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "鼓浪屿风景名胜区",
+    "name": "DVLN PaRK退化公园",
     "city": "厦门",
     "category": "attraction",
-    "description": "鼓浪屿风景名胜区位于厦门市思明区，是国家5A级旅游景区，以海岛风光、欧式建筑和音乐文化闻名。景区包括日光岩、菽庄花园、皓月园等多个景点，是厦门最著名的旅游胜地之一。",
+    "description": "位于斗西路156号祥和广场1楼和6楼",
     "tags": [
-      "风景名胜",
-      "国家级景点"
+      "050500"
     ],
-    "avgCost": 0,
-    "duration": "1天",
-    "openTime": "全天",
-    "rating": 4.7
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "厦门屿见闽南主题景区",
+    "name": "HZ PIZZA手作披萨(金榜店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于金榜路98号之29店面",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "LONE STAR孤星汉堡",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于湖滨北路42-4号102室",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "L’UNICO意家意大利餐厅(马可店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于建业路8号马哥孛罗东方大酒店1层104店面",
+    "tags": [
+      "050205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "Manuela",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于官任路与筼筜路交叉口北120米",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "OYO全洲商务酒店(祥平街道店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于祥平街道烧灰综合楼190号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "PATIO bar&dinner濱北院子(振兴大厦店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于湖滨北路118-6号振兴大厦一楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "SEL bistro",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于筼筜街道官任路2-10",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "㠭烎台式红烧牛肉面(滨北建兴路店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于建兴路91号102室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一刘汤包",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于阳翟二路阳翟小学附近",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万国建筑博览",
     "city": "厦门",
     "category": "attraction",
-    "description": "厦门屿见闽南主题景区 是厦门的旅游景点，位于湖里区。地址：东港北路15、17-19号。",
+    "description": "位于晃岩路35-6号鼓浪屿风景名胜区",
     "tags": [
-      "厦门"
+      "140100"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "全天",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "万石山国家重点风景名胜区",
@@ -123,26 +229,266 @@
       "风景名胜",
       "国家级景点"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 0
+    "rating": 0.0
   },
   {
-    "name": "南普陀寺",
+    "name": "万石山国家重点风景名胜区",
     "city": "厦门",
     "category": "attraction",
-    "description": "南普陀寺位于厦门市思明区，是一座历史悠久的佛教寺庙，始建于唐代，因供奉观世音菩萨而得名。寺内建筑宏伟，环境清幽，是厦门著名的旅游景点和佛教圣地。",
+    "description": "万石山国家重点风景名胜区，位于中山公园地铁站4号口步行460米，思明区，类型风景名胜 国家级景点。",
     "tags": [
-      "寺庙",
-      "佛教",
       "风景名胜",
-      "厦门"
+      "国家级景点"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "08:00-17:00",
-    "rating": 4.7
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万石山国家重点风景名胜区",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "万石山国家重点风景名胜区，位于中山公园地铁站4号口步行460米，思明区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万石山国家重点风景名胜区",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "万石山国家重点风景名胜区，位于中山公园地铁站4号口步行460米，思明区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万石山国家重点风景名胜区",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "万石山国家重点风景名胜区位于厦门思明区，是国家级风景名胜区，以奇石、幽谷、秀水为特色。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "万石山国家重点风景名胜区",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于中山公园地铁站4号口步行460米",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上屿水产(鼓浪屿店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于龙头路286号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上青夜市",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于湖光路与凤屿路交叉口西100米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上青本港海鲜",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于后江埭路29号-28",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东南兮donoxi",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于建兴小区建兴路81号101室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国唱片博物馆",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于鼓浪屿福建路32号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山公园史迹馆",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于公园西路中山公园(中山公园地铁站3A口步行280米)",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山路步行街",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "中山路步行街是厦门著名的商业街，位于思明区，集购物、美食、休闲于一体。",
+    "tags": [
+      "购物",
+      "特色商业街"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "中山路步行街",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "中山路步行街，位于中山路56号，思明区，类型特色商业街 特色商业街。",
+    "tags": [
+      "特色商业街",
+      "特色商业街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山路步行街",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "中山路步行街，位于中山路56号，思明区，类型特色商业街 特色商业街。",
+    "tags": [
+      "特色商业街",
+      "特色商业街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山路步行街",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "中山路步行街，位于中山路56号，思明区，类型特色商业街 特色商业街。",
+    "tags": [
+      "特色商业街",
+      "特色商业街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山路步行街",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "中山路步行街是厦门著名的商业街，位于思明区，集购物、美食、休闲于一体。",
+    "tags": [
+      "购物",
+      "特色商业街"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "中山路步行街",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于中山路56号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中茶海堤茶博物馆",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于漳州路50号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临家闽南菜(前埔店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于金山路6号",
+    "tags": [
+      "050110"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "临家闽南菜(环岛路店)",
@@ -155,58 +501,1868 @@
       "美食",
       "中餐厅"
     ],
-    "avgCost": 120,
+    "avgCost": 120.0,
     "duration": "1-2小时",
     "openTime": "11:00-14:00,17:00-21:00",
     "rating": 4.5
   },
   {
-    "name": "醉壹号海鲜大排档·老厦门特色菜(厦门美食地标店)",
+    "name": "临家闽南菜(环岛路店)",
     "city": "厦门",
     "category": "food",
-    "description": "醉壹号海鲜大排档是厦门知名的美食地标，主打老厦门特色海鲜菜肴。食材新鲜，口味地道，深受本地人和游客喜爱。",
+    "description": "临家闽南菜(环岛路店)，位于环岛南路308号-1号，思明区，类型中餐厅 福建菜。",
     "tags": [
-      "海鲜",
-      "大排档",
-      "厦门特色",
-      "老字号"
+      "中餐厅",
+      "福建菜"
     ],
-    "avgCost": 100,
-    "duration": "1-2小时",
-    "openTime": "10:00-22:00",
-    "rating": 4.5,
-    "address": "思明北路厦门美食地标第四市场1-3号店面",
-    "district": "思明区"
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "好食来大排档(32年美食航标店)",
+    "name": "临家闽南菜(环岛路店)",
     "city": "厦门",
     "category": "food",
-    "description": "好食来大排档是厦门一家经营多年的大排档，主打地道中餐，位于思明区湖滨南路，深受食客喜爱。",
+    "description": "临家闽南菜(环岛路店)，位于环岛南路308号-1号，思明区，类型中餐厅 福建菜。",
     "tags": [
-      "餐饮服务",
+      "中餐厅",
+      "福建菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临家闽南菜(环岛路店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "临家闽南菜(环岛路店)，位于环岛南路308号-1号，思明区，类型中餐厅 福建菜。",
+    "tags": [
+      "中餐厅",
+      "福建菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临家闽南菜(环岛路店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "临家闽南菜(环岛路店)位于环岛南路，是一家以正宗闽南菜为特色的中餐厅，菜品地道，环境舒适。",
+    "tags": [
+      "闽南菜",
+      "厦门",
+      "美食",
       "中餐厅"
     ],
-    "avgCost": 0,
+    "avgCost": 120.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "久鼎信度假山庄",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于莲花镇小坪村小坪128号",
+    "tags": [
+      "080400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌涂商业街",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于新民镇坝仔埔97号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌糖沙茶面",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于民族路76号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云顶休闲度假山庄",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于汀溪镇汪前村汪前小组8号",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云顶山三界碑",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于同安、安溪、南安交界处",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五兰沙茶面馆(曾厝垵店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于曾厝垵教堂街300号-1(基督教教堂正门口)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五通灯塔公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于仙岳路与环岛东路交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伊朵影院美宿(华天涉外学院店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于福祥路15号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳佳住宿(风景湖公园店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "佳佳住宿(风景湖公园店)位于厦门市集美区灌口大道809号，有居便利店与中国石化中间，提供舒适的住宿服务，交通便利。",
+    "tags": [
+      "住宿",
+      "便利"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "林四喜·闽南传家菜(鼓浪屿店)",
+    "name": "佳佳住宿(风景湖公园店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "佳佳住宿(风景湖公园店)，位于灌口大道809号有居便利店与中国石化中间，集美区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳佳住宿(风景湖公园店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "佳佳住宿(风景湖公园店)，位于灌口大道809号有居便利店与中国石化中间，集美区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳佳住宿(风景湖公园店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "佳佳住宿(风景湖公园店)，位于灌口大道809号有居便利店与中国石化中间，集美区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳佳住宿(风景湖公园店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "佳佳住宿(风景湖公园店)位于厦门市集美区灌口大道809号，有居便利店与中国石化中间，提供舒适的住宿服务，交通便利。",
+    "tags": [
+      "住宿",
+      "便利"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "佳佳住宿(风景湖公园店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于灌口大道809号有居便利店与中国石化中间",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳橙酒店(厦门火车站吕厝地铁站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于莲花北路菡青里4号(吕厝地铁站12号口步行500米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八合里潮汕鲜牛肉火锅(莲花路口店)",
     "city": "厦门",
     "category": "food",
-    "description": "林四喜·闽南传家菜是一家位于鼓浪屿龙头路的闽南风味餐厅，主打传统闽南家常菜，深受游客和 locals 喜爱。",
+    "description": "位于嘉禾路96号华厦国药大楼1层北侧之五",
     "tags": [
-      "鼓浪屿",
-      "闽南菜",
-      "中餐",
-      "厦门美食"
+      "050100"
     ],
-    "avgCost": 80,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八市阿杰五香",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于开禾路111号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六暮醺意式Bistro(特贸苑店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于官任路36-43号特贸苑",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京老门框爆肚四季涮肉(湖里店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于枋湖北二路891-101号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北站和福客栈(天水路地铁站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于后溪镇后埯村田厝田南2-1",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十里长堤",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于厦门大桥南",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千顿潮汕牛肉火锅(县后店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于县后社400号-101",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华侨博物院",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于思明南路493号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华莱士·全鸡汉堡(殿前夜市店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于殿前社1031-101号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南普陀寺",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "南普陀寺位于厦门市思明区，是一座历史悠久的佛教寺庙，始建于唐代，因供奉观世音菩萨而得名。寺内建筑宏伟，环境清幽，是厦门著名的旅游景点和佛教圣地。",
+    "tags": [
+      "寺庙",
+      "佛教",
+      "风景名胜",
+      "厦门"
+    ],
+    "avgCost": 0.0,
     "duration": "1-2小时",
-    "openTime": "11:00-21:00",
+    "openTime": "08:00-17:00",
+    "rating": 4.7
+  },
+  {
+    "name": "南普陀寺",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "南普陀寺，位于思明南路515号，思明区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南普陀寺",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "南普陀寺，位于思明南路515号，思明区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南普陀寺",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "南普陀寺，位于思明南路515号，思明区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南普陀寺",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "南普陀寺位于厦门市思明区，是一座历史悠久的佛教寺庙，始建于唐代，因供奉观世音菩萨而得名。寺内建筑宏伟，环境清幽，是厦门著名的旅游景点和佛教圣地。",
+    "tags": [
+      "寺庙",
+      "佛教",
+      "风景名胜",
+      "厦门"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.7
+  },
+  {
+    "name": "南普陀寺",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于思明南路515号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南普陀寺-大悲殿",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于思明南路515号(近厦门大学)南普陀寺内(东北角)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南普陀寺-大雄宝殿",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于思明南路515号南普陀寺内(南侧)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南普陀寺-天王殿",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于思明南路515号南普陀寺内(南侧)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于湖光路7-21号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南薰楼群",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于银江路183号集美学村景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦欣花园酒店(厦门人才中心地铁站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于湖滨东路313号之7号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门0重力观影酒店(厦门北站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于后溪镇岩内埔中央89号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门世茂双子塔",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于演武西路180-188号世茂海峡大厦",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门东山轻奢商务酒店",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于侨英街道东山里26号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门伊佳园旅馆",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于金尚路249号一元花园店面",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门佲家滨海度假村有限公司",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于龙虎山路382号",
+    "tags": [
+      "170200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门凤凰道院",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于湖滨北路66号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门半岛之夏民宿(环岛路黄厝沙滩店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于文兴超市旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门君临致远旅社",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于东宅宅尾里70号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门品尚公寓(翔安火炬高新区店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于马巷镇后滨村上庄里13-1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门哥尔曼酒店(厦门火车站湖滨东路地铁站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于梧村街道湖滨南路268号哥尔曼商务宾馆305室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门园林博览苑",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于苑亭路391号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门园林植物园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门园林植物园位于厦门市思明区虎园路25号，是一座集植物展示、科研科普、休闲游览于一体的综合性植物园。园内拥有丰富的植物种类和多个专类园区，如棕榈岛、沙生植物区、雨林世界等，景色优美，四季宜人，是厦门市民和游客亲近自然的热门去处。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "植物园"
+    ],
+    "avgCost": 30.0,
+    "duration": "2-3小时",
+    "openTime": "06:30-18:00",
     "rating": 4.5
+  },
+  {
+    "name": "厦门园林植物园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门园林植物园，位于虎园路25号，思明区，类型公园广场 植物园。",
+    "tags": [
+      "公园广场",
+      "植物园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门园林植物园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门园林植物园，位于虎园路25号，思明区，类型公园广场 植物园。",
+    "tags": [
+      "公园广场",
+      "植物园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门园林植物园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门园林植物园，位于虎园路25号，思明区，类型公园广场 植物园。",
+    "tags": [
+      "公园广场",
+      "植物园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门园林植物园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门园林植物园位于厦门市思明区虎园路25号，是一座集植物展示、科研科普、休闲游览于一体的综合性植物园。园内拥有丰富的植物种类和多个专类园区，如棕榈岛、沙生植物区、雨林世界等，景色优美，四季宜人，是厦门市民和游客亲近自然的热门去处。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "植物园"
+    ],
+    "avgCost": 30.0,
+    "duration": "2-3小时",
+    "openTime": "06:30-18:00",
+    "rating": 4.5
+  },
+  {
+    "name": "厦门园林植物园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于虎园路25号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门坤城汤岸康养度假村",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于坤城汤岸一里1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门大亿颐豪酒店",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于长浩路227号(殿前街道办旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门大学思明校区人类博物馆",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于滨海街道思明南路422号厦门大学内",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门大学思明校区生物博物馆",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于滨海街道滨海街道滨海街道滨海街道滨海街道思明南路422号厦门大学思明校区",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门天霖度假山庄",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于柯厝路48号之1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门宸欣如意客房",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "厦门宸欣如意客房位于翔安新店新莲路94-98号，提供住宿服务，类型为旅馆招待所。",
+    "tags": [
+      "旅馆",
+      "招待所",
+      "翔安区"
+    ],
+    "avgCost": 0.0,
+    "duration": "0小时",
+    "openTime": "00:00-24:00",
+    "rating": 0.0
+  },
+  {
+    "name": "厦门宸欣如意客房",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "厦门宸欣如意客房，位于翔安新店新莲路94-98号，翔安区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门宸欣如意客房",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "厦门宸欣如意客房，位于翔安新店新莲路94-98号，翔安区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门宸欣如意客房",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "厦门宸欣如意客房，位于翔安新店新莲路94-98号，翔安区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门宸欣如意客房",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "厦门宸欣如意客房位于翔安新店新莲路94-98号，提供住宿服务，类型为旅馆招待所。",
+    "tags": [
+      "旅馆",
+      "招待所",
+      "翔安区"
+    ],
+    "avgCost": 0.0,
+    "duration": "0小时",
+    "openTime": "00:00-24:00",
+    "rating": 0.0
+  },
+  {
+    "name": "厦门宸欣如意客房",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于翔安新店新莲路94-98号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门小时光度假客栈(北站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于埔中央里74号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门山海健康步道",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门山海健康步道是厦门市的一条空中步道，贯穿山海，景色优美，适合休闲散步和健身。步道串联多个公园和观景点，是市民和游客的热门打卡地。",
+    "tags": [
+      "步道",
+      "风景",
+      "健身",
+      "厦门"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "06:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "厦门山海健康步道",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门山海健康步道，位于邮轮码头(邮轮中心地铁站6号口步行470米)，湖里区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门山海健康步道",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门山海健康步道，位于邮轮码头(邮轮中心地铁站6号口步行470米)，湖里区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门山海健康步道",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门山海健康步道，位于邮轮码头(邮轮中心地铁站6号口步行470米)，湖里区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门山海健康步道",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门山海健康步道是厦门市的一条空中步道，贯穿山海，景色优美，适合休闲散步和健身。步道串联多个公园和观景点，是市民和游客的热门打卡地。",
+    "tags": [
+      "步道",
+      "风景",
+      "健身",
+      "厦门"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "06:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "厦门山海健康步道",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于邮轮码头(邮轮中心地铁站6号口步行470米)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门屿见闽南主题景区",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门屿见闽南主题景区 是厦门的旅游景点，位于湖里区。地址：东港北路15、17-19号。",
+    "tags": [
+      "厦门"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "厦门屿见闽南主题景区",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门屿见闽南主题景区，位于东港北路15、17-19号，湖里区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门屿见闽南主题景区",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门屿见闽南主题景区，位于东港北路15、17-19号，湖里区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门屿见闽南主题景区",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门屿见闽南主题景区，位于东港北路15、17-19号，湖里区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门屿见闽南主题景区",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门屿见闽南主题景区 是厦门的旅游景点，位于湖里区。地址：东港北路15、17-19号。",
+    "tags": [
+      "厦门"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "厦门屿见闽南主题景区",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于东港北路15、17-19号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门市博物馆",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于体育路95号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门市图书馆(文化艺术中心馆区)",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于体育路85号",
+    "tags": [
+      "140500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门市鼓浪屿风景名胜区-日光岩寺",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于鼓浪屿街道鼓浪屿街道鼓浪屿街道鼓浪屿街道鼓浪屿街道晃岩路62-64号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门悦海酒店",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于厦禾路1130号京华大厦14层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门新阳光公寓(高崎国际机场板尚路店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于坂尚路围里社723号宸鸿科技1号门斜对面",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门方特梦幻王国",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于石浔南路1111号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门易居公寓(高崎机场坂尚地铁站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于禾山街道围里社628号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门曾厝垵落脚点客栈",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于曾厝垵北二路与曾厝垵西路交叉口东北240米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门有缘豪客电梯公寓",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于马巷镇万家春路山亭侯阁里123号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门木子商务酒店(东渡邮轮中心厦鼓码头店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于仙岳路45号(厦门古玩城公交站)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门泊心客栈(曾厝垵店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于中山街曾厝埯社100号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门海西度假山庄",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于银鹭高科技园区创业路8号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门滨海水运动度假区",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于滨海西大道69号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门爱屋吉屋民宿(环岛路黄厝沙滩店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于黄厝村塔头社71号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门瑞家公寓",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于马巷镇巷西路58号-1(近马巷车站海澜之家旁)瑞家公寓",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门白鹭洲公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "白鹭洲公园是厦门市思明区的一个公园，位于白鹭洲路，是市民休闲娱乐的好去处。",
+    "tags": [
+      "风景名胜",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "厦门白鹭洲公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门白鹭洲公园，位于白鹭洲路，思明区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门白鹭洲公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门白鹭洲公园，位于白鹭洲路，思明区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门白鹭洲公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "厦门白鹭洲公园，位于白鹭洲路，思明区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门白鹭洲公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "白鹭洲公园是厦门市思明区的一个公园，位于白鹭洲路，是市民休闲娱乐的好去处。",
+    "tags": [
+      "风景名胜",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "厦门白鹭洲公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于白鹭洲路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门白鹭洲公园西公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于白鹭洲路565号白鹭洲公园内",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门益星公寓(湖里万达店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于金山街道仙岳路万达SOHO公寓D2栋一楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门相约民宿(黄厝海滩店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于黄厝中路79-2号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门祥来出租房",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于马巷镇巷东路83号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门福来公寓",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于侨英街道天凤路叶厝里41号楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门筱金酒店",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于西林路2-12号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门莲花罗汉山度假山庄",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于罗汉山景区内",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门融岸酒店",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于梧侣路16号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门金安旅馆",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于禾祥东路188号(厦门火车站地铁站6号口步行400米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厦门雨沐竹(曾厝垵店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于曾厝垵46-1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城山房",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于古城东路与中山路交叉口东南100米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城楼",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于香山路香山内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古山小镇",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于凤岗社古山里280号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台料大夜市(明发商业广场店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于莲坂商业广场中区49、50号",
+    "tags": [
+      "050122"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同安古城墙",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于三秀路238号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同安孔庙",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于大同街道三秀路216号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同安钟楼",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于同新北路与南门路交叉口东北20米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "后埔506夜市",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于后埔社415-3号D110室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "后田沙滩",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于滨海旅游浪漫绿道与观洲路交叉口东南80米",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "听鹭洲-新闽菜(白鹭洲天鹅酒店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于白鹭洲东路3号101室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴红英海鲜砂锅粥(厦门首店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于升平路与大中路交叉口西20米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴红英海鲜砂锅粥(沙坡尾店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于大学路177号恒达大厦",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和平古镇",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于莲前西路辅路与东浦一路交叉口西100米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和星公寓(厦门高崎国际机场湖里创新园地铁站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于县后社300号2楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哲菲·云居酒店(BRT潘涂站常青藤科技园店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于同集中路辅路与潘涂山头里39-1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜旺梨台湾菜(集美石鼓路店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于石鼓路166-111号",
+    "tags": [
+      "050122"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉禾园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于湖滨南路210号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四里沙茶面(原湖滨四里店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于槟榔西路146号-1",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四里沙茶面(故宫店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于厦禾路371号(故宫路与厦禾路交叉口)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国贸凤凰园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于虎园路16号东北方向100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大德记沙滩",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于鼓浪屿风景区漳州路3号之2号",
+    "tags": [
+      "080109"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大洋海鲜城(中山路步行街店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于镇邦路12号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大渔家海鲜牛肉火锅(五缘湾悦都汇购物广场店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于金湖路101号五缘湾悦都汇购物中心B1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大芊金火锅串串(101聚富店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于湖光路101号101聚厂101-29号116室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大鼎石锅鱼(春江里店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于马巷春江里26号101(中国农业银行旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天旌节孝",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于澳头路与澳东二路交叉口西南400米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天竺山森林公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于东孚镇洪塘村天竺山路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "好口味煎蟹馆(集源店)",
@@ -217,10 +2373,201 @@
       "中餐厅",
       "海鲜"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
+  },
+  {
+    "name": "好口味煎蟹馆(集源店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "好口味煎蟹馆(集源店)，位于集源路58号4楼，集美区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好口味煎蟹馆(集源店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "好口味煎蟹馆(集源店)，位于集源路58号4楼，集美区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好口味煎蟹馆(集源店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "好口味煎蟹馆(集源店)，位于集源路58号4楼，集美区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好口味煎蟹馆(集源店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "好口味煎蟹馆(集源店)位于厦门集美区集源路58号4楼，是一家以煎蟹为特色的中餐厅。",
+    "tags": [
+      "中餐厅",
+      "海鲜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "好食来大排档(32年美食航标店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "好食来大排档是厦门一家经营多年的大排档，主打地道中餐，位于思明区湖滨南路，深受食客喜爱。",
+    "tags": [
+      "餐饮服务",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "好食来大排档(32年美食航标店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "好食来大排档(32年美食航标店)，位于湖滨南路24号(市工商局对面)，思明区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好食来大排档(32年美食航标店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "好食来大排档(32年美食航标店)，位于湖滨南路24号(市工商局对面)，思明区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好食来大排档(32年美食航标店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "好食来大排档(32年美食航标店)，位于湖滨南路24号(市工商局对面)，思明区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好食来大排档(32年美食航标店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "好食来大排档是厦门一家经营多年的大排档，主打地道中餐，位于思明区湖滨南路，深受食客喜爱。",
+    "tags": [
+      "餐饮服务",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "如家派柏·云酒店(厦门同安城南路店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于城南大街299-1号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙厝步行街",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于孙厝乐安东路与集美大道辅路交叉口南240米",
+    "tags": [
+      "190301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "定安夜市",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于中华城南区西B门旁(镇海路地铁站3A口步行140米)",
+    "tags": [
+      "061212"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寨阳古镇",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于厦门市同安职业技术学校南侧250米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小田豆浆(集美店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于孙厝乐安东里1号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "小眼镜大排档(万佳东方店)",
@@ -233,7 +2580,65 @@
       "厦门",
       "中餐厅"
     ],
-    "avgCost": 120,
+    "avgCost": 120.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:00,17:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "小眼镜大排档(万佳东方店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "小眼镜大排档(万佳东方店)，位于虎园路1号(中山公园地铁站4号口步行340米)，思明区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小眼镜大排档(万佳东方店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "小眼镜大排档(万佳东方店)，位于虎园路1号(中山公园地铁站4号口步行340米)，思明区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小眼镜大排档(万佳东方店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "小眼镜大排档(万佳东方店)，位于虎园路1号(中山公园地铁站4号口步行340米)，思明区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小眼镜大排档(万佳东方店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "小眼镜大排档是厦门知名的海鲜大排档，以新鲜海鲜和地道闽南风味著称，深受本地人和游客喜爱。",
+    "tags": [
+      "海鲜",
+      "大排档",
+      "厦门",
+      "中餐厅"
+    ],
+    "avgCost": 120.0,
     "duration": "1-2小时",
     "openTime": "11:00-14:00,17:00-22:00",
     "rating": 4.5
@@ -248,10 +2653,1169 @@
       "大排档",
       "中餐"
     ],
-    "avgCost": 80,
+    "avgCost": 80.0,
     "duration": "1.5小时",
     "openTime": "11:00-14:00,17:00-22:00",
     "rating": 4.5
+  },
+  {
+    "name": "小眼镜大排档(汇成总店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "小眼镜大排档(汇成总店)，位于湖滨中路7-9号(文灶地铁站1号口步行120米)，思明区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小眼镜大排档(汇成总店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "小眼镜大排档(汇成总店)，位于湖滨中路7-9号(文灶地铁站1号口步行120米)，思明区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小眼镜大排档(汇成总店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "小眼镜大排档(汇成总店)，位于湖滨中路7-9号(文灶地铁站1号口步行120米)，思明区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小眼镜大排档(汇成总店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "小眼镜大排档(汇成总店)位于厦门市思明区湖滨中路7-9号(文灶地铁站1号口步行120米)，是一家以海鲜为特色的热门大排档，提供新鲜美味的中式菜肴，价格实惠，深受本地食客和游客欢迎。",
+    "tags": [
+      "海鲜",
+      "大排档",
+      "中餐"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-14:00,17:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "尚品商务酒店(厦门北站旺角商业街店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于学院路埔中央里8号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚品海鲜肥牛自助火锅(湖明店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于湖明路20号糖巢隔壁看到门牌尚品火锅请上二楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "局口拌面(中山路店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于思明南路28号-102号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "居六叁·老板来碗面",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于官任路63号102室(建业路地铁站4号口步行490米)",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "屿岁·过云山居",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于观音山路山谷里",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "布书·极美院子(厦门北站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于后溪镇何山埔33-106号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庭苑酒店(厦门中山路轮渡码头店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于厦禾路244号(大同小学对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "彩虹沙滩",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "心远酒店(厦门集美杏林东路店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于杏林东路31号(近文化宫、集美工业学校)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦来福东山海鲜(东渡店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于东渡路裕成大厦51号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "戴曼斯酒店(厦门集美学村店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于银江路122号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "斯维登精品度假公寓(同安山语听溪店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于汀溪镇山语听溪26号楼一楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新垵夜市",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于新垵村中路3号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新店聚集地夜市",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于新兴路102号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日光岩",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于晃岩路66之6-7号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月鲜海鲜大排档·厦门美食地标店",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于安兜社414-101号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "旺辉酒店",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于湖滨东路6号华龙大厦1-5层",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明发·海湾度假村",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于五缘湾东里3号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "易夏公寓(厦门后埔地铁站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "易夏公寓位于厦门市思明区吕岭路244号建群花园三层，提供舒适便捷的住宿服务，周边交通便利，靠近后埔地铁站。",
+    "tags": [
+      "公寓",
+      "厦门",
+      "思明区",
+      "后埔地铁站"
+    ],
+    "avgCost": 200.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.2
+  },
+  {
+    "name": "易夏公寓(厦门后埔地铁站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "易夏公寓(厦门后埔地铁站店)，位于吕岭路244号建群花园三层，思明区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "易夏公寓(厦门后埔地铁站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "易夏公寓(厦门后埔地铁站店)，位于吕岭路244号建群花园三层，思明区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "易夏公寓(厦门后埔地铁站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "易夏公寓(厦门后埔地铁站店)，位于吕岭路244号建群花园三层，思明区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "易夏公寓(厦门后埔地铁站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "易夏公寓(厦门后埔地铁站店) 是厦门的景点",
+    "tags": [],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "易夏公寓(厦门后埔地铁站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "易夏公寓位于厦门市思明区吕岭路244号建群花园三层，提供舒适便捷的住宿服务，周边交通便利，靠近后埔地铁站。",
+    "tags": [
+      "公寓",
+      "厦门",
+      "思明区",
+      "后埔地铁站"
+    ],
+    "avgCost": 200.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.2
+  },
+  {
+    "name": "易夏公寓(厦门后埔地铁站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于吕岭路244号建群花园三层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晓风客栈(曾厝垵店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于曾厝埯472号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼海居客栈(曾厝垵二店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于曾厝垵社507号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "木几文旅·花点时间度假区",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于花漾古坑三角梅景区内",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱富贵火锅(厦门思明欢乐颂店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于七星西路3号思明欢乐颂商场负一楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱富贵火锅(厦门湖里银泰店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于仙岳路4688号银泰百货B1层B101、B121-B124商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱富贵火锅(厦门火车站禹悦汇店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于禹悦汇A馆5楼(厦门火车站地铁站3号口步行80米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱富贵火锅(厦门集美银泰店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于同集南路68号332室3楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杏林村夜市",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于苑东路与杏林北二路交叉口西北80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨强芙蓉香骨鸡腿",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于祥桥后厝里269号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林四喜·闽南传家菜(鼓浪屿店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "林四喜·闽南传家菜是一家位于鼓浪屿龙头路的闽南风味餐厅，主打传统闽南家常菜，深受游客和 locals 喜爱。",
+    "tags": [
+      "鼓浪屿",
+      "闽南菜",
+      "中餐",
+      "厦门美食"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "林四喜·闽南传家菜(鼓浪屿店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "林四喜·闽南传家菜(鼓浪屿店)，位于龙头路300号，思明区，类型中餐厅 福建菜。",
+    "tags": [
+      "中餐厅",
+      "福建菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林四喜·闽南传家菜(鼓浪屿店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "林四喜·闽南传家菜(鼓浪屿店)，位于龙头路300号，思明区，类型中餐厅 福建菜。",
+    "tags": [
+      "中餐厅",
+      "福建菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林四喜·闽南传家菜(鼓浪屿店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "林四喜·闽南传家菜(鼓浪屿店)，位于龙头路300号，思明区，类型中餐厅 福建菜。",
+    "tags": [
+      "中餐厅",
+      "福建菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林四喜·闽南传家菜(鼓浪屿店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "林四喜·闽南传家菜是一家位于鼓浪屿龙头路的闽南风味餐厅，主打传统闽南家常菜，深受游客和 locals 喜爱。",
+    "tags": [
+      "鼓浪屿",
+      "闽南菜",
+      "中餐",
+      "厦门美食"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "桥梁博物馆",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于湖里街道东渡路127-31号(海沧大桥底下)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "槟榔健康公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于东明路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正当火重庆火锅(厦门首店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于嘉禾良库5号楼103",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "殿前村夜市",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于殿前六路与殿前二路交叉口东南280米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汕头牛基地鲜牛肉火锅(枋湖旗舰店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于梧桐路1号1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙坡尾",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于厦港街道大学路与民族路交叉口东南120米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沧江古镇",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于海沧横街与新街交叉口北220米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "津品味(厦门集美区)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于乐海路151号(近嘉农商贸)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浆小白豆浆夜市(枋湖店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于书香佳缘枋湖东路412号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海堤博物馆",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于湖滨中路160号中茶海堤滨北店旁",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海岛日记",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于文青路与曾厝垵北路交叉口南220米",
+    "tags": [
+      "061200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海岸线酒店(厦门北站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于后溪镇岩内埔中央59号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(SM城市广场店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于嘉禾路468号SM城市广场一期5层529号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(世贸商城店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于厦禾路884号禹洲世贸商城B座四层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(中山路店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于中山路步行街225号美都商厦2楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(五缘湾天虹店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于金湖路516号五缘湾天虹购物中心4层401",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海悦居(黄厝店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于黄厝村黄厝社123号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海沧湾公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于沧林东路与海沧大道交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海湾公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "海湾公园位于厦门市思明区西堤东路49号，是市民休闲娱乐的好去处。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "海湾公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "海湾公园，位于西堤东路49号，思明区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海湾公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "海湾公园，位于西堤东路49号，思明区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海湾公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "海湾公园，位于西堤东路49号，思明区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海湾公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "海湾公园位于厦门市思明区西堤东路49号，是市民休闲娱乐的好去处。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "海湾公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于西堤东路49号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海滨公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于鹭江街道鹭江道",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渐美夜市",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于渐美中路与兴港路辅路交叉口西南20米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖里公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于湖里工业区牛公岭山麓华泰路32号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖里步行街(凤湖街)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于湖里街(近竹坑路)",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溪上温泉度假村",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于朝元路401-1号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潮牛世家牛肉火锅(黎安店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于舫山北路与印斗山南路交叉口西南60米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "炮台远望-金门列岛",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于曾厝垵路2号胡里山炮台内(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛头山公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于东渡路185-1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狐尾山公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于湖滨中路狐尾山气象主题公园内",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狐尾山公园-和美园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于狐尾山公园(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狐尾山公园-观景台",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于狐尾山公园内(南侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狼群斯美式牛扒皇",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于建业路马哥孛罗东方大酒店101商铺",
+    "tags": [
+      "050211"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉龙酒店(厦门高崎机场店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于金尚路太微山庄759号二楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王繁星面馆(厦门万象城店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于梧村街道湖滨东路99号万象城W210王繁星面馆",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "球风海鲜餐厅",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于江头东路51号(江头地铁站1号口步行430米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "留下鼓浪屿客栈民宿(厦门鼓浪屿镇海路地铁站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于鼓浪屿内厝澳路459号(近三丘田码头)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白城沙滩",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于大学路",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白鹭洲公园东公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于湖滨中路100号之2号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百年鼓浪屿博物馆",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于鼓浪屿福建路62号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛之乡温泉度假村",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于汀溪镇朝元路1168号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "相约厦门平价海鲜城·姜母鸭厦门菜(八市美食地标店)",
@@ -266,23 +3830,630 @@
       "姜母鸭",
       "厦门菜"
     ],
-    "avgCost": 120,
+    "avgCost": 120.0,
     "duration": "2小时",
     "openTime": "10:00-22:00",
     "rating": 4.3
   },
   {
-    "name": "闽南大院-款待贵宾的闽南菜",
+    "name": "相约厦门平价海鲜城·姜母鸭厦门菜(八市美食地标店)",
     "city": "厦门",
     "category": "food",
-    "description": "闽南大院-款待贵宾的闽南菜 是厦门的美食餐厅，位于思明区。地址：环岛东路2188号。",
+    "description": "相约厦门平价海鲜城·姜母鸭厦门菜(八市美食地标店)，位于横竹路4号，思明区，类型中餐厅 海鲜酒楼。",
     "tags": [
-      "厦门"
+      "中餐厅",
+      "海鲜酒楼"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "全天",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "相约厦门平价海鲜城·姜母鸭厦门菜(八市美食地标店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "相约厦门平价海鲜城·姜母鸭厦门菜(八市美食地标店)，位于横竹路4号，思明区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "相约厦门平价海鲜城·姜母鸭厦门菜(八市美食地标店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "相约厦门平价海鲜城·姜母鸭厦门菜(八市美食地标店)，位于横竹路4号，思明区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "相约厦门平价海鲜城·姜母鸭厦门菜(八市美食地标店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "相约厦门平价海鲜城·姜母鸭厦门菜(八市美食地标店)位于厦门思明区横竹路4号，是一家以海鲜和姜母鸭为特色的厦门本地菜餐厅，主打平价海鲜和地道厦门风味，深受食客喜爱。",
+    "tags": [
+      "餐饮服务",
+      "中餐厅",
+      "海鲜酒楼",
+      "海鲜",
+      "姜母鸭",
+      "厦门菜"
+    ],
+    "avgCost": 120.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "磨鑫山度假山庄",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于前埔南路前埔社区新娘屋22号楼前浦社区",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福建省陨石博物馆",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于东渡路127-41",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福建省鼓浪屿盘古文化博物馆",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于晃岩路35-6号鼓浪屿风景名胜区内(东侧)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "站前公寓(厦门北站天水路地铁站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于后溪镇田厝田中72号(天水路地铁站4号口步行200米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "竹坝南洋风情度假区",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于竹坝华侨新村91-112",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "筼筜湖",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "筼筜湖是厦门市中心的一个城市湖泊公园，风景优美，适合休闲散步。湖上有白鹭洲公园，周边有现代建筑与自然景观相映成趣。",
+    "tags": [
+      "风景名胜",
+      "旅游景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "筼筜湖",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "筼筜湖，位于筼筜街道湖滨中路白鹭洲站旁，思明区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "筼筜湖",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "筼筜湖，位于筼筜街道湖滨中路白鹭洲站旁，思明区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "筼筜湖",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "筼筜湖，位于筼筜街道湖滨中路白鹭洲站旁，思明区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "筼筜湖",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "筼筜湖是厦门市中心的一个城市湖泊公园，风景优美，适合休闲散步。湖上有白鹭洲公园，周边有现代建筑与自然景观相映成趣。",
+    "tags": [
+      "风景名胜",
+      "旅游景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "筼筜湖",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于筼筜街道湖滨中路白鹭洲站旁",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绘梦地球自然艺术博物馆",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于七星西路3号B141室",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿野仙踪·日光岩畔文人题咏之地·自然野趣view设计百年秘境民宿",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于永春路12号(近日光岩,郑成功纪念馆)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老城沙茶面",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于尚南路美西巷6号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老溪岸沙茶面",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于溪岸路224号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(滨北店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于湖滨北路海湾新城一期一号楼一层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡里山炮台",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于曾厝垵路2号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舒心别苑·影院酒店(华天学生街店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于新店镇福祥路22号",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芋包王闽南茶楼",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于大元路27号(141大排档斜对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于凌香里7号(吕厝地铁站12号口步行390米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "菽庄花园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于晃岩路35-6号鼓浪屿风景名胜区(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萌溪谷宠物度假山庄",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于后溪镇前进苏营一里342号",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅.公路夜市(厦门翔安店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于汇景购物广场四楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(厦门爱琴海店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于智谷东一路99号厦门同安爱琴海购物中心F5层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(厦门首店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于金盛路宝龙一城2区2-1号楼L1层(8号门旁)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(嘉莲店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于嘉禾路170号夹层01室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜀都丰川菜·水煮活鱼(湖滨北店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于湖滨北路42号4号楼111",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西山岩",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于同安大道与717乡道交叉口西南340米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诚都酒店",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于乐安东里19号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵州幺妹农家豆米火锅",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于霞梧里2-1-104",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "趣淘微度假山庄",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于灌口镇坑内村杜行社220号(灌口双龙潭景区内)",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "轻旅·馨苑(厦门北站工艺美院店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于后溪镇岩内村埔中央里62号2-4楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遇龙闽粤菜(滨北颐豪店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于湖滨北路40-1号201室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑成功巨型石雕像",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于鼓浪屿风景名胜区-皓月园",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑有财海鲜砂锅粥",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于镇邦路28号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "醉壹号海鲜大排档·老厦门特色菜(厦门美食地标店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "醉壹号海鲜大排档是厦门知名的美食地标，主打老厦门特色海鲜菜肴。食材新鲜，口味地道，深受本地人和游客喜爱。",
+    "tags": [
+      "海鲜",
+      "大排档",
+      "厦门特色",
+      "老字号"
+    ],
+    "avgCost": 100.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "醉壹号海鲜大排档·老厦门特色菜(厦门美食地标店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "醉壹号海鲜大排档·老厦门特色菜(厦门美食地标店)，位于思明北路厦门美食地标第四市场1-3号店面，思明区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "醉壹号海鲜大排档·老厦门特色菜(厦门美食地标店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "醉壹号海鲜大排档·老厦门特色菜(厦门美食地标店)，位于思明北路厦门美食地标第四市场1-3号店面，思明区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "醉壹号海鲜大排档·老厦门特色菜(厦门美食地标店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "醉壹号海鲜大排档·老厦门特色菜(厦门美食地标店)，位于思明北路厦门美食地标第四市场1-3号店面，思明区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "醉壹号海鲜大排档·老厦门特色菜(厦门美食地标店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "醉壹号海鲜大排档是厦门知名的美食地标，主打老厦门特色海鲜菜肴。食材新鲜，口味地道，深受本地人和游客喜爱。",
+    "tags": [
+      "海鲜",
+      "大排档",
+      "厦门特色",
+      "老字号"
+    ],
+    "avgCost": 100.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "金榜公园",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于厦禾路与金榜路交叉口西南200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金门县政府旧址",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于大嶝街道田墘社区田墘村田墘北里137号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "鑫坞堂 海鲜热炒(中山路总店)",
@@ -294,10 +4465,132 @@
       "中餐",
       "热炒"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
+  },
+  {
+    "name": "鑫坞堂 海鲜热炒(中山路总店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "鑫坞堂 海鲜热炒(中山路总店)，位于镇邦路24号(两代人做一只鸭不好吃包退明星都来打卡店)，思明区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫坞堂 海鲜热炒(中山路总店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "鑫坞堂 海鲜热炒(中山路总店)，位于镇邦路24号(两代人做一只鸭不好吃包退明星都来打卡店)，思明区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫坞堂 海鲜热炒(中山路总店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "鑫坞堂 海鲜热炒(中山路总店)，位于镇邦路24号(两代人做一只鸭不好吃包退明星都来打卡店)，思明区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫坞堂 海鲜热炒(中山路总店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "鑫坞堂海鲜热炒，厦门中山路总店，主打海鲜和姜母鸭，明星打卡店。",
+    "tags": [
+      "海鲜",
+      "中餐",
+      "热炒"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "鑫龙谷森系民宿",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于东孚工业区诗山168号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钟鼓索道",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于虎园路25-110号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钢琴码头",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于鼓浪屿风景区鹿礁路6号之2号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锐枫酒店(厦门同安城南BRT站店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于城南大街大唐世家一期2号楼(同安大唐世家旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锐枫酒店(同安宝龙广场店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于大同街道凤山路凤山二里279-2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "锦江之星(厦门集美杏林店)",
@@ -308,68 +4601,368 @@
       "经济型连锁酒店",
       "住宿"
     ],
-    "avgCost": 200,
+    "avgCost": 200.0,
     "duration": "不限",
     "openTime": "24小时",
     "rating": 4.0
   },
   {
-    "name": "佳佳住宿(风景湖公园店)",
+    "name": "锦江之星(厦门集美杏林店)",
     "city": "厦门",
     "category": "hotel",
-    "description": "佳佳住宿(风景湖公园店)位于厦门市集美区灌口大道809号，有居便利店与中国石化中间，提供舒适的住宿服务，交通便利。",
+    "description": "锦江之星(厦门集美杏林店)，位于杏林文康路377号(纺织东路与交汇处)，集美区，类型宾馆酒店 经济型连锁酒店。",
     "tags": [
-      "住宿",
-      "便利"
+      "宾馆酒店",
+      "经济型连锁酒店"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦江之星(厦门集美杏林店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "锦江之星(厦门集美杏林店)，位于杏林文康路377号(纺织东路与交汇处)，集美区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦江之星(厦门集美杏林店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "锦江之星(厦门集美杏林店)，位于杏林文康路377号(纺织东路与交汇处)，集美区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦江之星(厦门集美杏林店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于厦门集美区杏林文康路，靠近纺织东路，提供经济型住宿服务。",
+    "tags": [
+      "经济型连锁酒店",
+      "住宿"
+    ],
+    "avgCost": 200.0,
+    "duration": "不限",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "锦江之星(厦门集美杏林店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于杏林文康路377号(纺织东路与交汇处)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闽南古镇文化广场",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于殿前街道长浩东路30号闽南古镇G部负一楼B1097",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闽南大院-款待贵宾的闽南菜",
+    "city": "厦门",
+    "category": "food",
+    "description": "闽南大院-款待贵宾的闽南菜 是厦门的美食餐厅，位于思明区。地址：环岛东路2188号。",
+    "tags": [
+      "厦门"
+    ],
+    "avgCost": 0.0,
     "duration": "",
-    "openTime": "",
+    "openTime": "全天",
     "rating": 3.5
   },
   {
-    "name": "易夏公寓(厦门后埔地铁站店)",
+    "name": "闽南大院-款待贵宾的闽南菜",
     "city": "厦门",
-    "category": "hotel",
-    "address": "吕岭路244号建群花园三层",
-    "district": "思明区",
-    "type": "住宿服务;宾馆酒店;宾馆酒店",
+    "category": "food",
+    "description": "闽南大院-款待贵宾的闽南菜，位于环岛东路2188号，思明区，类型中餐厅 福建菜。",
+    "tags": [
+      "中餐厅",
+      "福建菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闽南大院-款待贵宾的闽南菜",
+    "city": "厦门",
+    "category": "food",
+    "description": "闽南大院-款待贵宾的闽南菜，位于环岛东路2188号，思明区，类型中餐厅 福建菜。",
+    "tags": [
+      "中餐厅",
+      "福建菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闽南大院-款待贵宾的闽南菜",
+    "city": "厦门",
+    "category": "food",
+    "description": "闽南大院-款待贵宾的闽南菜，位于环岛东路2188号，思明区，类型中餐厅 福建菜。",
+    "tags": [
+      "中餐厅",
+      "福建菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闽南大院-款待贵宾的闽南菜",
+    "city": "厦门",
+    "category": "food",
+    "description": "闽南大院-款待贵宾的闽南菜 是厦门的美食餐厅，位于思明区。地址：环岛东路2188号。",
+    "tags": [
+      "厦门"
+    ],
+    "avgCost": 0.0,
     "duration": "",
-    "openTime": "",
-    "rating": 3.5,
-    "avgCost": 0,
-    "description": "易夏公寓(厦门后埔地铁站店) 是厦门的景点"
+    "openTime": "全天",
+    "rating": 3.5
   },
   {
-    "name": "易夏公寓(厦门后埔地铁站店)",
+    "name": "阿季海鲜酒食(官任路店)",
     "city": "厦门",
-    "category": "hotel",
-    "description": "易夏公寓位于厦门市思明区吕岭路244号建群花园三层，提供舒适便捷的住宿服务，周边交通便利，靠近后埔地铁站。",
+    "category": "food",
+    "description": "位于官任路酒吧一条街2-18",
     "tags": [
-      "公寓",
-      "厦门",
-      "思明区",
-      "后埔地铁站"
+      "050100"
     ],
-    "avgCost": 200,
-    "duration": "全天",
-    "openTime": "24小时",
-    "rating": 4.2
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "厦门宸欣如意客房",
+    "name": "陈嘉庚先生故居",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于嘉庚路149号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈嘉庚纪念馆",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于集美街道鳌园路24号集美鳌园景区(东北角)",
+    "tags": [
+      "110210"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "集美学村",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于集美街道银江路183号",
+    "tags": [
+      "141200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "集美学村牌坊",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于嘉庚路与岑西路交叉口东40米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷公山休闲山庄",
     "city": "厦门",
     "category": "hotel",
-    "description": "厦门宸欣如意客房位于翔安新店新莲路94-98号，提供住宿服务，类型为旅馆招待所。",
+    "description": "位于海沧疏港通道出口与海沧疏港通道交叉口南420米",
     "tags": [
-      "旅馆",
-      "招待所",
-      "翔安区"
+      "080300"
     ],
-    "avgCost": 0,
-    "duration": "0小时",
-    "openTime": "00:00-24:00",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "霞阳夜市",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于霞阳社区东路503号夜市",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青礁慈济祖宫",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于海沧台商投资区马青路青礁村岐山东鸣岭",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "静香Dining(滨北店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于建业路14号(建业路地铁站4号口步行220米)",
+    "tags": [
+      "050500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顶上度假村",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于顶村79号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高丽雅(官任店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于建兴路67号102室(建业路地铁站4号口步行480米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲜主·海鲜火锅(新景中心店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于嘉禾路27号1011室(紧邻磐基名品中心、希尔顿酒店)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹿港小镇(滨北店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于建业路阳明楼16号1b单元",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(集美石鼓餐厅)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于石鼓路120-122号集宏大厦1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄玉兰鱼丸",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于中山路75号(中山路安踏斜对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黑明餐厅(白鹭洲店)",
+    "city": "厦门",
+    "category": "food",
+    "description": "位于湖滨南路57号金源大厦一层A单元",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "鼓浪屿一浪·花园民宿(日光岩店)",
@@ -377,9 +4970,262 @@
     "category": "hotel",
     "description": "位于厦门鼓浪屿的民宿",
     "tags": [],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 0
+    "rating": 0.0
+  },
+  {
+    "name": "鼓浪屿一浪·花园民宿(日光岩店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "鼓浪屿一浪·花园民宿(日光岩店)，位于公平路17号，思明区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓浪屿一浪·花园民宿(日光岩店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "鼓浪屿一浪·花园民宿(日光岩店)，位于公平路17号，思明区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓浪屿一浪·花园民宿(日光岩店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "鼓浪屿一浪·花园民宿(日光岩店)，位于公平路17号，思明区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓浪屿一浪·花园民宿(日光岩店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于厦门鼓浪屿的民宿",
+    "tags": [],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "鼓浪屿一浪·花园民宿(日光岩店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于公平路17号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓浪屿海岸花旅馆(三丘田码头龙头路小吃街店)",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于泉州路87号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓浪屿海明乐海景民宿",
+    "city": "厦门",
+    "category": "hotel",
+    "description": "位于旗山路1号(世界名人馆南约100米处)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓浪屿片仔癀博物馆",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于安海路6号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓浪屿管风琴艺术中心",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于鼓浪屿街道三明路1-4号(和记洋行货栈遗址旁)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓浪屿钢琴博物馆",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于港仔后路7号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓浪屿钢琴博物馆二馆",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于港后路3号菽庄花园内(东侧)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓浪屿风景名胜区",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "鼓浪屿风景名胜区位于厦门市思明区，是国家5A级旅游景区，以海岛风光、欧式建筑和音乐文化闻名。景区包括日光岩、菽庄花园、皓月园等多个景点，是厦门最著名的旅游胜地之一。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "1天",
+    "openTime": "全天",
+    "rating": 4.7
+  },
+  {
+    "name": "鼓浪屿风景名胜区",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "鼓浪屿风景名胜区，位于晃岩路35-6号，思明区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓浪屿风景名胜区",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "鼓浪屿风景名胜区，位于晃岩路35-6号，思明区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓浪屿风景名胜区",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "鼓浪屿风景名胜区，位于晃岩路35-6号，思明区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓浪屿风景名胜区",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "鼓浪屿风景名胜区位于厦门市思明区，是国家5A级旅游景区，以海岛风光、欧式建筑和音乐文化闻名。景区包括日光岩、菽庄花园、皓月园等多个景点，是厦门最著名的旅游胜地之一。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "1天",
+    "openTime": "全天",
+    "rating": 4.7
+  },
+  {
+    "name": "鼓浪屿风景名胜区",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于晃岩路35-6号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓浪屿风琴博物馆",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于鼓新路43号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓浪石",
+    "city": "厦门",
+    "category": "attraction",
+    "description": "位于晃岩路35-6号鼓浪屿风景名胜区(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

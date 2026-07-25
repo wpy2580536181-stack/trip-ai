@@ -1,0 +1,2225 @@
+[
+  {
+    "name": "72家房客酒店公寓(沈阳中街大悦城D2店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于小东路9-2号中粮·大悦公寓D2座1层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一家小居精选公寓(沈阳大学店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于联合路42-1号熙旺广场C座",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一幕一帧重庆火锅",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于北一马路16号(沈阳站地铁站D口步行340米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一根筋鹤岗小串(全运路店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路70-20号10门",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丁香湖公园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于造化街道白山路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万科·浑南新都心公园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于桑林街与明德路交叉口西160米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三顺麻辣烫筋饼拌粉",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于小东路山东馆巷6号87-9幢313",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东北大学(浑南校区)小南湖公园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于创新路195号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国印广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于浑南中路辅路与浑南西路辅路交叉口东南140米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中央公园音乐喷泉",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于智慧二街浑南新城中央公园(南侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九·一八历史博物馆",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于望花南街46号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九岛湖",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于创新路与智慧二街交叉口东北160米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九岛湖-南广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于智慧三街浑南新城中央公园(南区)九岛湖",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五柳面馆(十一纬路店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于会武街1号1-1-1",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "休闲草地",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于浑南新城中央公园内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "全运会市民广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于全运四路浑南新城中央公园(南侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冷雾广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于全运四路浑南新城中央公园市民广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘牌牌小炉子烧烤(新市府店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路95号绿城青悦汇购物中心1F-01A",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘记光大火锅鸡(中街店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于中街路195号A7商铺(中街地铁口C口西行1分钟)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包富贵海鲜集市火锅店",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于艳华街2号(沈辽路地铁站B口步行250米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北丐先生·野馄饨·MALL烧烤(全运路万达店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路70号万达广场沈阳全运店F4层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北山圆广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于莫园环路莫子山体育公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北陵公园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于泰山路12号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "午休广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于浑南新城中央公园内(北侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "半天妖烤鱼(沈阳浑南万达广场店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路70号万达广场全运路店F4层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华樾公寓(羊安一街1号分店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于羊安一街新南站城市广场",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华润置地创新公园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于创新路与沈本二街交叉口东南80米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖公园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于文化路1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈丽咕丽比萨咖啡店(置地公馆店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于兴华北街47-1号东侧",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "圣火广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于五三街道五三街道五三街道五三街道朗云街",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "型型型毛肚自助火锅(全运路万达店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路70号万达广场(沈阳全运店)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔北城市公园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于沈营大街71-1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "声声肥牛(北站店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于友好街21号(金融中心地铁站B口步行420米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "声声肥牛(小西路新店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于小西路36号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大喜贵三味火锅·盛世如院(非遗店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于齐贤南街65号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天人合一",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于桃仙镇创新路莫子山公园(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原街步行街",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于太原北街110号附近",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太极广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于浑南新城中央公园内(北侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奚记·川菜·烧烤(新市府店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运北路99-51号8门",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安东阁(绿城喜来登店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于绿城喜来登酒店(安东阁酒楼)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宽窄巷子水煮鱼",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路99-47号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富龙快餐(大南店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于大南街106号(原潮州城)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富龙快餐店(云峰店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于云峰北街45号-1",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小董哥烤串(新市府店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路95号1层-04号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山荫游览区(北区)",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于智慧三街浑南新城中央公园山荫游览区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市民广场-升旗台",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于全运四路浑南新城中央公园市民广场",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康平康乐商务宾馆",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于康乐家电东50米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康平糖果公寓",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于迎宾路金通银座2615室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康平芒果公寓(新政府店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于胜利街道迎宾路99B号金通银座2609室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张学良旧居陈列馆",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于朝阳街少帅府巷46号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "弥陀寺",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于浑南新区白塔堡白塔公园内(南侧)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(万达广场店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路70号万达广场沈阳全运店F1层",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "护国延寿寺",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于北市场街道敦化一路55-2号西南80米",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新弘扬快捷宾馆(九部)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于辽河大街16甲号2-3轴",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新民天塬旅店",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于工人街33号(近书馨苑北门)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星寓广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于沈本大街与双深路交叉口南120米",
+    "tags": [
+      "120000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晚庭旅馆(沈北新区店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于人和街108-15号1-1门",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李家私房菜(全运店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路99-11号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李建霖广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于创新二路与白塔二南街交叉口东100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桃仙网红墙",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于辽宁百汇租车(沈阳机场店)东侧100米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "樱桃山",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于紫悦山庄东北侧约50米棋盘山风景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欢乐e家公寓(沈阳二十一世纪大厦店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于世纪路5-3号同方世纪大厦A座2901",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水晶广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于智慧三街浑南新城中央公园(南侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水秀湖广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于智慧二街莫子山路中央公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水秀湖广场-中央公园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于水秀湖广场内(北侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉堡王(绿城沈阳青悦里店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于桃仙街道全运路95号绿城青悦汇购物中心一楼1A-02号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉诺威公园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于园西三路信达尚城",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈辽涮肉(三经街店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于南三经街与西滨河路交叉口西北80米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈辽涮肉(总店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于彩塔街与文艺路辅路交叉口北20米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈辽涮肉火锅(沈辽路创始店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于沈辽中路37号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈辽涮肉火锅(金牛店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于艳华街5号2门(九林居小区西门)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳东东旅馆",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于长青南街15-1北3门",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳中街步行街",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于中街路212-214号(中街地铁站B1口步行280米)",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳优尚精品民宿(沈阳站太原街步行街店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于太原北街84-2号11楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳市浑南区三羊里老北京羊蝎子火锅店",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路99-22号门",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳市铁西区劳动公园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于肇工街南12号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳怪坡风景区",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于马刚街道辉山大街东侧",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳故宫博物院",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于沈阳路171号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳新兴旅社",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于新兴北街28号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳方特欢乐世界",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于盛京大街55号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳朋远旅馆",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于小十三路2号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳栖云客栈",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于东陵路126号农业大学南门左侧200米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳梦恋居公寓",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于营盘西街17-2号万达公寓A3座",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳棋盘山国际风景旅游开发区",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于满堂街道",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳森林动物园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于棋盘山国际风景旅游区内",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳植物园(沈阳世博园)",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于双园路301号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳泓悦公寓",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于东站街道东望街2号陶瓷公馆B座2410",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳瀚月旅馆",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于南十东路8号3门",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳爱度主题公寓",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于东北大马路392-1号瑞公馆1-11-6",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳硕果公寓",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于北海街83-2号俪城星座35-3号19楼13门",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳福满源宾馆",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于南山东堡路46-6号山东堡四巷",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳糖果公寓·住宿·民宿(保利香槟公寓店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于东陵路28-5号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳红楼茂源旅社",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于福州路45-6号3门",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳美景旅馆",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于华山路47号(大家购生鲜连锁超市东30米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳群海旅馆",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于大南街492号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳贝暧日租公寓",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于虎石台南大街北美公馆虎石台南大街48-25号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳金色港湾旅社",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于保工南街141之2-3",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳鑫海主题公寓(南塔店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于文化东路10号步阳国际公寓B座F1层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳鑫海旅社",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于阜新三街11号(和平国税局后面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳鑫玥公寓",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于兴工北街73-1号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳鑫鑫浪漫满屋旅馆",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于开发二十一号路13-2号网点4门",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浑南新城中央公园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于全运四路附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浑南新城中央公园-水秀湖广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于白塔河二路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浑南新城中央公园-阳光草坪",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于智慧三街与高深东路交叉口西120米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(印象城店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于中华路15号印象城4楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(大悦城店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于大什字街大悦城A座五层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(花园城店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于营盘北街7号沈阳招商花园城购物中心3楼L318-319-320号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(龙湖天街店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于智慧四街5-24号A栋4F-01-02号(近地铁2号线沈中大街站A口)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渝宗巷子重庆市井火锅(沈阳市沈河区三经小区店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于会武街35号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "游戏广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于智慧三街浑南新城中央公园山荫游览区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "游戏广场-喷泉",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于游戏广场",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湿地植物展区",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于智慧三街浑南新城中央公园(南区)九岛湖",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "满园烤鸭·春饼(沈阳浑南万达广场店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路70号万达广场沈阳浑南店F4层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "满满北·海胆汤包国民菜馆",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路70-20号20门",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊喵来了火锅(沈阳全运路万达店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路70-22号万达广场4F层4012,4013A号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱丽丝主题公寓(沈阳奥体万达店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于营盘西街17-2号奥体万达A3座14楼1417室",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉林串串香(沈阳大东区)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于滂江街37号1门(滂江街地铁站G口步行210米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王厚元新北味(万达广场沈阳全运店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路70号方达广场4003-4058",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王厚元饺子(故宫店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于正阳街128号1-3层北侧",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王厚元饺子(浑南店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于富民南街8-14号(天成街地铁站C口步行380米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王厚元饺子(高登店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于青年大街52号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王厚元饺子·烤鸭(沈河中金店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于和睦路115号(新惠街地铁站A口步行200米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王奋斗贵州酸汤牛肉火锅(南市场店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于十一纬路51号4门(南市场地铁站B口步行110米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "申记串道(绿城·沈阳全运村店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路99-23号1门(绿城喜来登对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白塔公园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于浑南新区白塔堡",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白鹤大冷面",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于宁山西路31号(淮河街沈医二院地铁站D口步行60米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百合广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于桃仙镇创新路莫子山公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百富源·海鲜辽菜(浑南喜来登店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运三路沈中大街101-1号1号楼二楼",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛京铜德涮肉(新市府店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于青悦汇青悦市集店北门东南60米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "知否精品公寓(沈北大学城店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于道义南大街68号皇家首座14号楼13楼8门",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福瑞广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于智慧二街400-51号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦记鸡架(沈阳总店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于鑫丰雍景豪城4号9门",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "稻梦空间",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于锡伯族镇兴光村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫色花园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于环山路莫子山公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美美公寓(沈阳瑞公馆店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于东北大马路384号瑞公馆A1座301号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老北市",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于皇寺路99号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老四季(云峰街店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于云峰北街30号(云峰北街地铁站D口步行280米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老四季(帅府店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于南顺城路37号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老四季(沈阳总店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于十三纬路88号(近大西菜行车站)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老灶堂全季火锅(大悦城店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于大什字街76号(老灶堂全季火锅)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老边饺子馆(中街店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于中街路208号1-3层(中街地铁站B1口旁)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "艺术广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于智慧三街浑南新城中央公园山荫游览区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荷花之夏夜市",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于迎春街97号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荷花池",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于智慧二街276号附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫子山公园-南山",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于莫子山公园(西南角)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝庭湾酒店式公寓(新城子店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于新城子杭州路新水湾河畔花园28号楼1门",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西落舌冒菜(总店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于会武街53号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辽宁省博物馆",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于智慧三街157号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辽宁省博物馆A区",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于智慧四街与全运四东路交叉口西北140米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达美乐比萨(沈阳中街盛京大家庭店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于中街路115号中街区1层Z126号(北1号门)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邂逅公寓(沈阳碧桂园虹寓店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于南京南街366号碧桂园虹寓公寓19-24室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邵汇大虾(沈阳全运万达广场店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路70号万达广场沈阳全运店F4层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金色阳光旅馆(惠工社区东)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于南山东堡路山东堡八巷4号4甲号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫盛快捷旅馆(山东堡路店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于团结路52-1(金融中心地铁站B口步行500米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫辉旅馆(五里河街店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于五里河街29-1号距市图书馆地铁站704米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁西广场",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于兴华南街与建设东路交汇处",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长白岛森林公园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于南堤西路附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳光绿地",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于全运会市民广场(省博物馆地铁站D口步行440米)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青年公园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于风雨坛街道青年大街111号(近文艺路)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "韩麦大冷面(中街旗舰店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于大西路238号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "首创滨河公园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于沈中大街首创光和城",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马格德堡公园",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于白塔三街东40米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高姐手擀面(八卦街店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于云集西巷云集社区八卦街(南市场地铁站B口步行280米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魁牛·潮汕牛肉自助火锅(奥体万达店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于营盘西街17号奥体万达广场2F2033(观光梯后侧)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魁牛潮汕牛肉自助火锅(沈辽路万达店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于兴华南街58-20号(沈辽路万达广场3号门扶梯上3楼)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲁迅美术学院美术博物馆",
+    "city": "沈阳",
+    "category": "attraction",
+    "description": "位于创新路168号",
+    "tags": [
+      "140400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(万达广场店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路70号万达广场沈阳全运店F1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黑金·寻焰自助百汇(全运路店)",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路70号万达广场沈阳全运店F4层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黔鱼摆摆贵州炭火烤鱼",
+    "city": "沈阳",
+    "category": "food",
+    "description": "位于全运路70-20号3门4门",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙湖假日公寓民宿(沈阳职业技术学院店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于东站街道东望街20-10号龙湖紫都城1期B1公寓楼606室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙湖宾馆(卧龙湖店)",
+    "city": "沈阳",
+    "category": "hotel",
+    "description": "位于中心路与滨湖四街交汇处",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

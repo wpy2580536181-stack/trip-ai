@@ -1,0 +1,782 @@
+[
+  {
+    "name": "一味烧烤(纪念路店)",
+    "city": "威海",
+    "category": "food",
+    "description": "位于纪念路20号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世家商务酒店(青山路店)",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于青山路129号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东海旅社(威海山东大学火炬八街店)",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于火炬路171号(北洋电器对面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乳山宇香旅馆",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于深圳路105号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳家旅馆(威海火车站店)",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于经济技术开发区青岛中路福祉家园1号楼101室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元祖李朝(市烤肉店)",
+    "city": "威海",
+    "category": "food",
+    "description": "位于海港路73号(光明路最东端)",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘公岛景区",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于海滨北路101-2号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "半月湾景区",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "半月湾海滩",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于孙家疃镇环海路43附近",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华洁麻辣烫火锅二部(府佑商厦店)",
+    "city": "威海",
+    "category": "food",
+    "description": "位于高山街2-5府佑商厦",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台北小城(财富广场店)",
+    "city": "威海",
+    "category": "food",
+    "description": "位于统一路29号财富广场F1层",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和不同潮汕牛肉火锅",
+    "city": "威海",
+    "category": "food",
+    "description": "位于鲸园街道高山街2-3号西北沟东街1层",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔山公园",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于统一路348-2号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大京园烤肉(纪念路店)",
+    "city": "威海",
+    "category": "food",
+    "description": "位于纪念路23号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天馨静园商务酒店(汽车火车站店)",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于皇冠街道韩乐坊西街乐天世纪城3号楼B座301室",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威海东港旅馆",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于海滨中路18号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威海公园",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于海滨中路58号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威海公园画中画雕塑",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于竹岛街道海滨中路威海公园(东南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威海兴博商务酒店(威海站韩乐坊店)",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于青岛中路乐天世纪城3号美乐家居F1",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威海国际海水浴场",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于北环海路178号",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威海望岛仙姑顶景区",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于望岛村西(仙姑顶山脚)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威海民俗文化邨",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于环翠楼街道环翠楼街道高区文化名居2-23附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威海港公园",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于鲸园街道海滨北路53号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威海白天鹅公寓(市政府威高广场店)",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于鲸园街道文化东路12-1,入口在高山街(亚朵酒店12号楼东侧往北20米进后院)",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威海知春旅馆",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于统一路97-5旋转楼梯上三楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孔记炭匠大片烤肉(市政府店)",
+    "city": "威海",
+    "category": "food",
+    "description": "位于高山街-2-5-7号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "家缘快捷旅馆(观海中路店)",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于观海中路139号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小熹客湘味牛肉粉",
+    "city": "威海",
+    "category": "food",
+    "description": "位于北沟东街7-109号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "帝国涮肚(市政府店)",
+    "city": "威海",
+    "category": "food",
+    "description": "位于高山街2-3号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸福公园",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于大众路与海滨北路交叉口东150米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松雅米肠汤饭韩式炭烤(府佑商厦店)",
+    "city": "威海",
+    "category": "food",
+    "description": "位于高山街2府佑商厦F1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林海公园",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于鞍山路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "格林豪泰(威海刘公岛码头威高广场店)",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于东城路54号(原威海夜市环翠区建委)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂花宾馆(韩乐坊威海站店)",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于泰山路长峰西区12号楼4层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海源公园-一战华工纪念馆",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于孙家疃镇连林岛路9号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "源福酒楼(家家悦店)",
+    "city": "威海",
+    "category": "food",
+    "description": "位于纪念路20号-2楼",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "火炬八街",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于火炬八街-1号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "炭火串烧酒场",
+    "city": "威海",
+    "category": "food",
+    "description": "位于新威路36号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "猫头山二号观景台",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于一号线路牌顺台阶走北100米",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉林串串香(威海一店)",
+    "city": "威海",
+    "category": "food",
+    "description": "位于高山街2号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "环翠楼",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于统一路120号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "环翠楼公园",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于统一路120号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百姓海鲜烧烤家常菜",
+    "city": "威海",
+    "category": "food",
+    "description": "位于鲸园街道纪念路22号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "真利味(纪念路店)",
+    "city": "威海",
+    "category": "food",
+    "description": "位于纪念路23号",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿洲酒店",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于石岛新汽车站东尹格庄14号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老妈疙瘩汤·威海海鲜家常菜(人民广场店)",
+    "city": "威海",
+    "category": "food",
+    "description": "位于高山街花园南路2-3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老锅桥海鲜酒楼·鲜活海鲜·三十年威海老字号(幸福门店)",
+    "city": "威海",
+    "category": "food",
+    "description": "位于海滨北路36号三角花园",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣成一家人快捷旅馆",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于成山大道中段-202号-1",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣成向日葵旅店",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于沿河南街300-1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣成福源旅馆",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于南山中路99号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣成鑫隆旅馆",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于成山镇大岗村",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "葡萄滩海水浴场",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于孙家疃镇环海路170-1号",
+    "tags": [
+      "080109"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "速8酒店(威海高铁站韩乐坊店)",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于青岛中路166号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "里口山风景名胜区",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于里口山路6号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金海滩",
+    "city": "威海",
+    "category": "attraction",
+    "description": "位于金海滩依海嘉园东区-339号楼",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银河精选酒店(市中心医院抱龙河店)",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于通和路37号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "韩香福烤肉庄园(光明路店)",
+    "city": "威海",
+    "category": "food",
+    "description": "位于光明路44号",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸡西金爱烤肉(高山街店)",
+    "city": "威海",
+    "category": "food",
+    "description": "位于鲸园街道高山街2-4号-1",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙继斑鱼火锅·始于2006(威胜店)",
+    "city": "威海",
+    "category": "food",
+    "description": "位于鲸园街道海滨北路-40号二层南屋",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙门旅馆(威海高铁北站店)",
+    "city": "威海",
+    "category": "hotel",
+    "description": "位于柳沟路28-7号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

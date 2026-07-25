@@ -1,0 +1,2069 @@
+[
+  {
+    "name": "313羊庄(临汾总店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于煤化巷171号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "My bread我的面包",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放路街道解放西路36号",
+    "tags": [
+      "050800"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "NEED创意韩国料理(临汾生龙国际店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于生龙国际悦享城F8-306",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一尊皇牛(东城四季花都店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放东路四季花都三期12号楼底商2单元1206",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七里峪风景区",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于上霍线",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三友园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于滨河西路辅路与平水街交叉口东南320米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东岳庙",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于东岳路8号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中骏国际社区1期中央公园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于鼓楼北大街与河汾路交叉口南60米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾佳苑住宿",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于解放东路粮食局东侧20米油脂巷内",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾博物馆",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于刘村镇滨河西路汾河公园九州广场南端",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾后院民宿(相如路店)",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于岳阳镇相如路165号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾哪吒传奇",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于108国道南侧",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾哪吒传奇景区",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于乔李镇108国道北永安村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾嘉欣公寓",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于刘村镇北芦村学校路南八巷9号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾天园聚民宿(山西电子科技学院店)",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于刘村镇南芦村水利路口北30米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾学府公寓",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于玖玖小居南50米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾宏康公寓(9号店)",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于涧桥商业街西池口加油站斜对面",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾市人民公园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于滨河西路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾市动物园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于环城南路秦蜀路十字路口西南角",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾市古城公园2期",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于常兴中街与公园南路交叉口东南160米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾市四龙壁文化广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于鼓楼北大街与古城路交叉口东南40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾市廉政文化广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于滨河办事处滨河路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾新华精品酒店",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于平阳北街1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾晶鑫民宿",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于环城南巷4号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾澜庭丽舍光影酒店(鼓楼广场贡院街店)",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于体育南街67号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾绿色时尚公寓(12号店)",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于南外环乔家庄门面路21号(万国家私广场对面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾舒雅宾馆",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于秦蜀路中级人民法院",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾锦尚快捷酒店",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于思麦尔信百年茶城北门东150米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾鼎悦商务快捷酒店",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于贾得乡乔家庄中大街1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临汾鼓楼休闲广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于解放路街道鼓楼广场步行街66号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九州公园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于鼓楼西街街道五一西路滨河路口汾河公园(西南角)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九州公园-九州广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于滨河西路附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乡宁云丘山喜来宾馆",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于关王庙乡大河村001号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云丘山景区",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于关王庙乡塔尔坡村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五岳大酒店(磁选机商贸大厦东南)",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于翔翼西街128号(鑫辰大楼对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五洲休闲广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于广奇财富中心a座五洲休闲广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "京临酒店(临汾平阳广场店)",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于平阳北街26号(平阳北街与车站街交叉口西南角,铁路体育馆对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伊村文体广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳园宾馆(滨河路店)",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于滨河北路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侯马聚源宾馆",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于火车站华翔明珠楼五单元",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兰湘子·湘菜小炒(临汾生龙时尚广场店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放路街道生龙国际时尚广场8楼008号",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "关帝庙",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于体育北街与何二西胡同交叉口西120米",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华门",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于尧庙村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双拥公园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于解放西路93号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城公园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于水塔街街道中大街8号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城公园-古民居游览景区",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于古城遗址(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城公园-戏曲广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于古城路与合欢路交叉口南160米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城遗址",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于水塔街街道中大街8号古城公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古晋面馆(浍滨街)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于南西庄家和超市北50米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合记潮汕牛肉火锅",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放西路55号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉县二轻宾馆",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于中心广场北(朝阳小区附近)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉县尚悦阁",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于吉昌镇林雨村加油站西侧50米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "名人广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于古城路古城公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "呷哺呷哺(临汾工贸)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放西路28号工贸购物中心第12层",
+    "tags": [
+      "050311"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "呼叫寿司",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于财神楼北街何二西胡同22号一层",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜鲜生自助小火锅(临汾王府井店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于王府井四层",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "圆梦广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于秦蜀路与同盛北路交叉口西420米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大红袍锦州烧烤",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于科委巷孙膑庙39号",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天寿山世尊院",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于魏村镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙膑庙125号门店",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于鼓楼北大街与古城路交叉口东南180米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寻牛记潮汕牛肉火锅(新百汇店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于尧庙镇新百汇商业广场3w-1003-1",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小天安门广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于鼓楼南大街887号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小姚面馆 (梧桐里店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于唐尧大道梧桐里5号商铺8号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小红渝老火锅(尧都店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放路街道孙膑庙路39号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小肥羊火锅(新百汇商业广场店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于新百汇1W-1001-2001号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小西天",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于广场街",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小象动悟公园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于河汾路8号王府井·尚城UP TOWN F3层",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小贝牛肉丸子面(鼓楼北总店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于鼓楼北大街139号农行金穗支行对面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小龙坎老火锅(中大街店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于中大街德和大厦1110号1层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小龙坎老火锅(临汾福利巷店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于福利巷与体育路交叉口",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚尧亿诺广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于尧都路与体育街交叉口西南80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚晋面面香(向阳路)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于合欢路与向阳西路交叉口北100米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尧井园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于滨河西路临汾市人民公园(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尧庙",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于尧庙村",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尧庙-尧都广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于尧庙镇霍侯一级公路西尧苑小区A4号楼6单元1O2号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尧庙地宫",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于尧都大道与秦蜀路交叉口西120米",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尧都公园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于华州路1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西师范大学巨人广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于行知路与学士路交叉口东南160米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西黄河壶口瀑布旅游区",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于壶口镇",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广胜寺",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于广胜寺镇",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康庄园林",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于康庄北街与康庄中心街交叉口北80米",
+    "tags": [
+      "170200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "彩虹公园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于桥东街13号附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德克士(临汾东城餐厅)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放东路与尧贤街交叉口东北角一层德克士餐厅",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德克士(新百汇餐厅)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于新百汇德克士东门东北角",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德克士(生龙国际时尚广场店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放路生龙时尚B1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "忆乡源民宿(大槐树店)",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于县城公园西街贾村074号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新时代文化娱乐广场(平阳广场南路店)",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于平阳广场通运市场2楼",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋十方面馆",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于丁陶步行街西口",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋十方面馆(临汾碧桂园店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于临汾碧桂园",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋十方面馆(百汇府邸店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于百汇府邸109-113号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋阳电竞客栈(生龙国际店)",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于平阳中街1号(东关大十字双来福饭店往南100米路西)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曲沃太和旅店",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于太和北路超群麻花店南侧巷内",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "望岳楼快捷宾馆(荀子文化园店)",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于沁河桥桥头",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(杨笃广场店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于迎旭中街杨笃广场后侧(杨笃后街04)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(洪家楼南街店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于贡院街与南洪街交叉口贡院尚都41号楼1层9号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栖隐园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于迎宾大道与中大街交叉口东北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梨乡小院",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于滨河西路小西天游客中心东北方向150米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "棋阁广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楠火锅(临汾新百汇商业广场店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于滨河南路新百汇商业广场西门(楠火锅)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(临汾尧都万达店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于常兴中街120号临汾尧都万达广场F4",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(临汾生龙国际店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放西路31号生龙国际时尚广场8F层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水塔游园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于鼓楼北大街与解放路交叉口的西北角处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永和黄河乾坤湾景区",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于东征旅游路附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汾城古城景区",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于汾城镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汾河公园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于鼓楼西街街道五一西路滨河路口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汾河公园-天幕广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于汾河公园-滨河文化生态景区",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汾河公园-樱花园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于鼓楼西街街道五一西路滨河路口汾河公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泽沐酒店(贡院街店)",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于小十字南街与贡院东路交叉口东北100米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洁康商务酒店",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于龙山路28号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪洞中粮宾馆",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于古槐南路31号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪洞大槐树寻根祭祖园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于古槐北路公园西街2号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪洞小巷人家民宿",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于大槐树镇一四四勘察院东门南200米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪洞槐树湾思乡民宿",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于古槐北路081号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪洞泊客湾艺术民宿",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于大槐树贾村",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(悦汇时光颂店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于经济开发区中大街德和悦汇广场4层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(生龙国际店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放路街道生龙国际二期悦享城六层F6-001号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅夜宵车(见贤里店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于大槐树镇牛站东街12号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "涝洰河生态公园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "润州园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于涝河和洰河的交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清华园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于水塔街街道公园北路清华园",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烂摊摊火锅集市(新百汇店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于新百汇商业广场南门旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玖洋精品客栈(五一路店)",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于五一西路南二巷3号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甬江烟火·砂锅焗海鲜(临汾首店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放路街道财神楼北街31号生龙悦享城二期8层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白老三牛肉丸子面(总店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于平阳中街7号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "码头故事火锅(向阳路店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于临汾开发区向阳西路向阳新城2号楼1号门面",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "码头故事火锅(迎春街店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于迎春南街煤化巷桥头往北50米(小广场对面)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "竹犇番茄火锅(临汾中骏国际店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于坂下路中骏国际社区4期",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "竹犇番茄牛肉火锅",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于恒美华庭4栋",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(临汾万达广场店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于常兴中街120号万达广场四楼4006B(扶梯口正前方,鲜果时间旁边)",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(临汾生龙国际店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放路街道解放西路33号生龙国际时尚广场8层018号悠购天地扶梯上8层往西走猴子山下麻辣香锅西侧",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(侯马锦都商业广场店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于程王路锦都商业广场一楼门市(家和超市入口东五十米)",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫藤公园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于广宣街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿茶餐厅(临汾生龙国际店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放路街道解放西路33号生龙国际时尚广场F8-001",
+    "tags": [
+      "050106"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翼城古城二号院民宿",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于古城社区潞公中街54号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翼城宾馆",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于红旗街668号(经贸大楼旁)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翼城金山酒店",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于翔翼东街舜尧商贸城北门马路对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖哥俩肉蟹煲(山西临汾生龙店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放西路31号生龙国际时尚广场8F层",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "能能美食",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于竹林苑小区东北门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苹果快捷酒店(平阳街)",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于平阳南街108号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于新百汇商业广场2区1005",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(临汾生龙店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放路街道解放西路33号生龙国际步行街1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝光体育文化公园",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于同盛北路与秦蜀路交叉口西北420米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "薛老五牛肉丸子面(总店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于彩虹龙街A栋301",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "裕祥花苑小广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于平阳南街与五一路交叉口南180米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄汾舒逸宾馆",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于108国道东侧(交通局南50米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "财神楼",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于鼓楼东大街跟财神楼街交汇处",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贾村文化广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于门楼南北街与贾村东西街交叉口南40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野果yeego(生龙国际店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放路街道生龙国际悦享城F8-308",
+    "tags": [
+      "050700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锣鼓广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于青兰线与滨河东路交叉口西160米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "际华商务宾馆",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于程王路52号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陌野艺术影宿(临汾吉县店)",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于桥南路177号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陶寺遗址博物馆",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于临襄线陶寺遗址发展中心东100米路南",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "韩村文化广场",
+    "city": "临汾",
+    "category": "attraction",
+    "description": "位于西外环11号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(鼓楼北大街店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于鼓楼北大街德克士一栋楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼酷活鱼烤鱼(临汾生龙国际店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放路31号生龙国际生龙悦享城8层",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(临汾解放路餐厅)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于解放路世纪百悦购物中心1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄上品烧饼",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于扁担巷南口",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(尧都生龙国际店)",
+    "city": "临汾",
+    "category": "food",
+    "description": "位于生龙国际生龙悦享城7楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙山宾馆(龙山路店)",
+    "city": "临汾",
+    "category": "hotel",
+    "description": "位于龙山路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

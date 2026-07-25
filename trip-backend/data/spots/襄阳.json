@@ -1,0 +1,782 @@
+[
+  {
+    "name": "cheer's burger起司汉堡",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于檀溪运动公园入口处",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一朵宾馆(襄阳沃尔玛民发广场店)",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于冠通上城东门附近",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东力公园",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于解放路2号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六〇三文创园",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于盛丰路6号",
+    "tags": [
+      "120100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "农发宾馆",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于马桥镇中心学校西南侧约200米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南漳君洋宾馆",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于水镜路458-5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古隆中",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于303省道隆中路461-1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉禾大酒店(人民路店)",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于人民路44号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城市之家快捷酒店(襄阳春园东路左岸春天店)",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于春园东路左岸春天门面1号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "壹加壹烧烤(檀溪新居南区店)",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于檀溪路171-15号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大炮面馆(山水檀溪·秀园店)",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于石家营路山水檀溪秀园2幢1层103室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大锅小灶(檀溪路店)",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于育才路7号马跃檀溪运动公园9栋",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "定中桥牛面",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于檀溪路卧龙山庄196号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宴襄阳精致湖北菜.礼宴(襄城国际商都店)",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于檀溪路198-1号国际商都A4区",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岘山文化广场",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于环城西路181号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康乐宾馆(襄阳火车站)",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于前进路火车站出站口旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张记烧烤(檀溪新居南区店)",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于檀溪路171-19号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "手提王串串香(檀溪路店)",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于檀溪路中檀园底商",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "旺旺烧烤(东方店)",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于马跃檀溪运动公园",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "昭明台",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于昭明街道昭明街道滨江大道北街128号襄阳古城(东南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曾欣欣旅店",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于宜宾路14号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月亮湾公园",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于柿铺街道人民西路8号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杜三饺子馆",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于育才路7号6-2",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "枣阳大德阳光商务酒店",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于人民路17号(人民法院旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桃园国际酒店",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于新华北路28号(科技馆斜对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欢喜食府",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于檀溪街道国投YUE襄水街区A区一号(拱桥边上)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉味有味砂锅串串",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于山水家园底商11-103",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海棠鹤隐",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于檀溪路168号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溪香阁主题餐厅(襄城店)",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于山水檀溪山水家园西1门东350米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碳鲜生东北大块烤肉(襄城店)",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于檀溪路86号山水檀溪F区檀园1幢1层006室门面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "神炭烧烤(檀溪滨湖路总店)",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于滨湖路山水家园南门11-102商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "篦梵椟珑玲宫迢",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于滨江大道与琵琶山路交叉口东北120米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米公祠",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于解放路2号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美易美家城市酒店(襄阳火车站店)",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于春园路10-2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老河口宾馆(沿江大道)",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于沿江北路3号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花溪里乡野庭院餐厅",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于育才路与檀溪路交叉口南180米",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝天商务酒店(襄阳火车站店)",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于前进路48号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄城二桥头",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于长虹南路与财苑路交叉口东60米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄王府",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于曲径巷绿影巷东端襄城南街60号(近南大街)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄阳e家风尚酒店",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于建新路中带64号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄阳一家宾馆",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于中原路2号卧龙新港3幢1层106室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄阳公园",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于古城街道环城东路122号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄阳博物馆",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于胜利街228号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄阳古城",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于古城街道滨江大道北街128号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄阳城墙",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于古城街道滨江大道北街128号襄阳古城内(东侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄阳百洋大酒店",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于长征路与丹江路交叉口",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄阳盛世唐城景区",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于唐城景区商业街6号楼",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄阳红光宾馆",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于大庆东路12号与丹江路交叉口",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄阳襄金楼宾馆(襄阳长征路华洋堂店)",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于长征路58号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄阳阳光宾馆",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于卧龙新港2写字楼三楼310",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄阳革命烈士陵园",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于铁佛寺路60号",
+    "tags": [
+      "071901"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诸葛亮广场",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于长虹北路16号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "谷城大成宾馆",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于三七九道中断与腾飞路22号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "谷城谷男商务宾馆",
+    "city": "襄阳",
+    "category": "hotel",
+    "description": "位于双雄路130号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赛家金多牛肉面(襄城二分店)",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于檀溪街道育才路7号东方小区西大门左侧门面房1-6号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郭淑芬鲜切牛肉自助老火锅(檀溪店)",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于龙虎路1-4号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银河运动公园",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于霁月路5-6号",
+    "tags": [
+      "080101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长虹路民发广场",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于长虹路与人民路交叉口西南60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "革命烈士纪念塔",
+    "city": "襄阳",
+    "category": "attraction",
+    "description": "位于铁佛寺路60号襄阳革命烈士陵园",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "骏德酒膳法式铁板烧(山水檀溪·檀园店)",
+    "city": "襄阳",
+    "category": "food",
+    "description": "位于檀溪路5号山水檀溪檀园底商",
+    "tags": [
+      "050204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

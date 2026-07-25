@@ -1,0 +1,2186 @@
+[
+  {
+    "name": "三春驴肉(永华店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于永华南大街845号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上关王华驴肉馆(徐水店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于城内北大街14号(近中心广场)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上谷厨院",
+    "city": "保定",
+    "category": "food",
+    "description": "位于裕康街21号(市场监督管理局东侧)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世纪广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于天鹅西路与朝阳北大街交叉口西60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐凯园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于东风西路附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐囍重庆火锅",
+    "city": "保定",
+    "category": "food",
+    "description": "位于和平路春风巷1号蜜雪冰城西侧胡同里",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "京门虎踞",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于东风东路169号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伊林罩饼(亢龙骏景B区店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于复兴中路亢龙骏景b区西侧底商982号(伊林罩饼)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定LOVE情趣公寓",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于金台驿街华创公馆小区2003室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定QQ公寓",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于七一东路尚德街大学城小区20号门店",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定e家公寓十七中店",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于七一东路河大新区大学城小区4号楼30号门脸",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定人民广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于东风西路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定会馆(中银店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于朝阳南大街16号中银大厦F2层",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定佳辉旅馆",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于西小庄村利民街豪飞美美超市东南50米(近保定物流中心)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定儒家公寓",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于志学路七一东路2801大学城小区",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定军校公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于东风东路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定军校纪念馆",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于东关街道东风东路585号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定北湖公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于保定国家高新区韩村乡向阳北大街与北堤路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定半岛自助公寓(保定华创店)",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于莲池区裕华西路银座商厦后面高楼5-30层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定好朋友公寓",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于博士园大学城小区28号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定宴饮食博物馆",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于保定国家高新区朝阳北大街2239号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定市动物园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于永华南大街688号",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定市林草生态园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于西二环与建国路西北角",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定市淮军公所博物馆(中国古戏楼博物馆)",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于兴华路331号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定市西湖公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于华西路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定德森旅馆",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于建华大街748号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定拾光公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于朝阳北大街和横滨路交叉口东北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定朗逸酒店日租公寓",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于裕华西路577号银座商城保定店F8层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定朝阳运动公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于朝阳南大街和百花东路交叉口东南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定木兮美宿",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于东金庄乡凤栖街腾飞路766号紫御尚都商务综合楼01-1211室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定植物园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于阳光北大街2121号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定植物园-主门广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于阳光北大街2121号保定植物园(西南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定洋洋公寓",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于河大新区大学城小区93号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定滨河公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于环城北路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定爱家日租公寓(瑞安路分店)",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于瑞安路秀兰·锦观城银色星座B座16楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定留法勤工俭学运动纪念馆",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于西关街道金台驿街86号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定登峰体育公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于韩村乡鲁岗路1955号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定直隶总督署博物馆",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于裕华西路301号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定禁毒宣传主题公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于永华南大街232号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定竞秀公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于五四西路127号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定米兰短租公寓",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于裕华西路577号华创公馆三单元1006室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定紫烟公寓",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于七一东路2861号园中苑小区东1号楼1单元403室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定绿竹民宿(保定火车站店)",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于裕华西路557号华创公馆(银座商城后排高层内)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定芳芳公寓",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于东关街道七一东路3027号大学城小区5号楼九单元201",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定茗畅园广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于天鹅西路178号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定莲池区旺旺公寓(2号店)",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于学苑街以东60米大学城小区5号楼58号接待室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定西雅图主题公寓",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于恒祥北大街与瑞安路交叉口东行100米路南秀兰锦观城北门银色星座B座2602室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定鲁岗公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于乐凯大街与北二环交口南侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定鸿翔旅馆",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于迎宾街市场东口",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定黄花沟公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于韩庄乡复兴苑路与明德街交叉口东北180米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保定龙潭公园广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于陵园路龙潭公园(东南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华春宾馆(温泉路店)",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于温泉路418号(温泉湖红绿灯北行300米路西)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双拥广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于七一中路68号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双龙斋涮肉(恒祥大街店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于恒祥北大街37号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古鲁特自助烤肉",
+    "city": "保定",
+    "category": "food",
+    "description": "位于朝阳南大街1号茂业百货7层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉野家(保定时代)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于朝阳南大街36号保定时代商厦一层",
+    "tags": [
+      "050309"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同心广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于阳光北大街和天鹅中路的交叉口附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "向家连锁公寓(保定那约店)",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于永华路那约小区1号楼1单元2017号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "向阳园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于天威西路与向阳南大街交叉口西120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和家快捷宾馆(红阳大街)",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于红阳路538号(红阳小区对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大吉利·潮汕鲜牛肉火锅(保定保百店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于五四路街道办事处复兴中路1029号保百购物商场四楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大吉利·潮汕鲜牛肉火锅(保定店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于七一东路未来石万达广场5F5008号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大慈阁",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于红星街道穿行楼街57号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大激店文化广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于烽火台东路79号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天翼广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于阳光北大街1666号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "娇俪园商务会馆",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于博明西路56号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安家罩饼(七一中路店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于七一中路11号(双拥广场正对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安家罩饼(易县店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于朝阳东路205号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安新宏源宾馆",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于永安大街",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宛虹亭",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于裕华西路古莲花池(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝硕园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于向阳北大街508号宝硕园",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小放牛炒菜馆(保定万博广场店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于东风路与朝阳大街交口东南角万博广场6楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小菜园新徽菜(保定竞秀万博店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于东风路街道朝阳大街99号万博广场铺位6022",
+    "tags": [
+      "050109"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小龙坎火锅(朗润路店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于寻环XLOOP",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴奴毛肚火锅(保定万博店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于朝阳北大街99号万博广场5层巴奴毛肚火锅",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常赢三兄弟·清真涮肉(东湖店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于东金庄乡锦湖北大街399号东湖文化中心C3号门脸",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅( 保定复兴中路店 )",
+    "city": "保定",
+    "category": "food",
+    "description": "位于复兴中路2778号一层3号门脸",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅( 保定永华南大街店 )",
+    "city": "保定",
+    "category": "food",
+    "description": "位于永华南大街101号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅( 涿州金品时代店 )",
+    "city": "保定",
+    "category": "food",
+    "description": "位于教军场街金品时代底商",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(保定万博店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于朝阳北大街99号万博广场负一层BC009号铺位",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "总督署广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于裕华路78号",
+    "tags": [
+      "060101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恋乡·太行水镇",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于安格庄乡政府对面",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "折纸公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于朝阳南大街和天威中路交叉口东北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "捞悦国际·火锅",
+    "city": "保定",
+    "category": "food",
+    "description": "位于长城北大街570号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文昌泰旅馆",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于东关街道七一东路2801号大学城小区1号楼1单元308",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文曲星饺子(大学城保定学院店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于七一东路2801号2号楼7号门脸",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新世纪广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于隆兴西路258号新世纪花园小区内",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "时光记忆公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于天鹅中路与恒祥北大街交叉路口西北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "易水湖景区",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于112国道金坡村金坡码头",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "极限运动公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于七一西路北侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(裕华金街店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于永华南大街555号路西",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "棋韵广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于长城南大街69号(近东风东路)保定市东风公园(西北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欣欣旅馆(顺平顺兴中路城外诚店)",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于北市场水利局斜对面",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(保定万博广场店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于万博广场6层6010-6011号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(保定商业大厦店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于裕华西路383号商业大厦6层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(高碑店店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于迎宾路家兴精品酒店一楼",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民谣集烧烤酒馆",
+    "city": "保定",
+    "category": "food",
+    "description": "位于朝阳南大街16号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永生号小吃(中华小区二区店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于东风中路156号中华小区二区",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永隆茂",
+    "city": "保定",
+    "category": "food",
+    "description": "位于永华南大街与兴华路交叉口",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉堡王(保定茂业)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于朝阳南大街1号茂业百货一层(保定茂业中心)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河北农业大学-中心广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于三丰中路与灵雨寺街交叉口东北200米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河北大学-公园广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于长城北大街193号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河大社区文化广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于五四东路与红阳北大街交叉口西北320米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浩客宾馆",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于燕赵北街与春台东路交叉口南80米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(万博广场店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于朝阳北大街99号万博广场6层A区",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(惠友购物中心店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于容城镇奥威路106号惠友购物中心四层D-A-65号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(未来石万达广场店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于七一东路1999号未来石万达广场3号楼4F次主1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(范阳中路君悦广场店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于范阳中路君悦广场四楼001,002,013h号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "涞水县百里峡艺术小镇",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于三坡镇百里峡站南80米(中心街)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "涿州壹鼎尊旅馆",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于清凉寺街道康复街27号2楼202室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "涿州桥东招待所",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于省华阳中路13号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "涿派炝锅鱼(范阳路店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于范阳中路广场西行200米路北",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮军公所A区",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于兴华路329号淮军公所",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清西陵",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于112国道附近",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渝娃子重庆美蛙鱼头火锅(秀兰城市美居店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于鲁岗路秀兰城市美居东区北门东行50米路南",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潮正和潮汕牛肉火锅(西大街店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于永华大街与西大街交口东南角DB01号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊喵来了火锅(保定万博店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于东风朝阳北大街99号万博广场5层5058号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狼牙山五勇士广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于长城北大街579号附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狼牙山景区",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于狼牙山镇东西水村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白家罩饼省级非遗(总店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于清河街府河家园2号楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白洋淀景区",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于旅游西路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白洋淀金龙宾馆",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于雁翎西路123号(地税局对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白洋淀长廊",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于大王镇中六村",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白石山国家地质公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于白石山镇风凉沟村村口",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白石山景区玻璃栈道",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于涞源镇涞源南收费站白石山景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白石的深夜食堂(保定万博广场店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于朝阳北大街99号河北万博广场F5-5070-5071",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百花园广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于百花西路383号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "直隶安家牛肉罩饼(国际店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于天鹅西路199号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "直隶安家罩饼(西大街店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于西大街11号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "相家重庆老火锅(翠园街总店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于天鹅路与翠园街交叉北行100米路东,翠园街337号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "竞秀公园甄大姐",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于时代路与朝阳南大街交叉口西140米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿溪谷乐园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于阳光北大街2121号(植物园西北角)",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿茶餐厅(保定万博广场店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于东风路街道办事处朝阳北大街99号万博广场6层6023A号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老王馄饨面精品驴肉",
+    "city": "保定",
+    "category": "food",
+    "description": "位于关西街与永华南大街交叉口西北50米",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老驴头驴肉火烧非遗店(时代商厦店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于先锋办时代路36号时代商厦南1号门脸",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚源宾馆",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于百泉路288号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖哥俩肉蟹煲(保定万博广场店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于东风办朝阳北大街99号万博广场6层6023号商铺",
+    "tags": [
+      "050106"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "腾春园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于莲池区保运医院附近",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花盛云贵川bistro中西餐厅",
+    "city": "保定",
+    "category": "food",
+    "description": "位于保定市住房和城乡建设局北门旁",
+    "tags": [
+      "050211"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲池书院",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于裕华街道莲池南大街538号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲池书院博物馆(古莲花池)",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于莲池南大街246号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西关人家粥源",
+    "city": "保定",
+    "category": "food",
+    "description": "位于五四西路152号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诚信快捷旅馆",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于中山西路政府西侧胡同内",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野三坡e时光家园",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于三坡镇下庄村49号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野三坡品野小院(百里峡店)",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于三坡镇泰和巷24号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野三坡百里峡景区",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于三坡镇苟各庄村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野三坡风景区",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于野三坡",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野三坡鱼谷洞泉景区",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于108国道",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银杏公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于朝阳北大街与银杏路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闫家驴肉火烧(五四路店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于五四中路1348号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隆合广场",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于锦绣街678号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雄安悦容公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于乐民街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雄安燕南堤公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于旅游西路白洋淀景区(东北角)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雄安郊野公园",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于八于乡云塘西路3号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雄安郊野公园邢台林",
+    "city": "保定",
+    "category": "attraction",
+    "description": "位于八于乡云塘西路3号雄安郊野公园(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雅居公寓(保定华电二校店)",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于华电路与光华街交叉口东20米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺平新悦宾馆",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于桃源西大街与联谊路交叉口南50米路西(旧汽车站东10米路南)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "馄饨崔之深夜食堂",
+    "city": "保定",
+    "category": "food",
+    "description": "位于复兴中路2925号门脸",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "驴肉火烧蓝牌驴客餐饮店",
+    "city": "保定",
+    "category": "food",
+    "description": "位于莲池南大街333号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "驿家365酒店(保定西大街直隶总督署店)",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于东关大街56号紧邻北国商城",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高碑店商业宾馆",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于南大街99号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高阳古城宾馆",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于北大街朝阳路大世界对面",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高阳宏升旅馆",
+    "city": "保定",
+    "category": "hotel",
+    "description": "位于三利大街与平安路交叉口南200米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼酷活鱼烤鱼(保定朝阳万博广场店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于朝阳北大街与东风路交叉口万博广场五楼鱼酷",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(容东盛容荟购物中心店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于乐安北二街178号雄安盛容荟购物中心容东店F1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(建华大街店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于建华大街670号保运大厦1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(茂业奥特莱斯店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于朝阳南大街58号茂业1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(万博广场店)",
+    "city": "保定",
+    "category": "food",
+    "description": "位于东风办朝阳北大街99号万博广场5层5068-5069C号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

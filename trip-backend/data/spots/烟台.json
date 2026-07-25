@@ -1,0 +1,782 @@
+[
+  {
+    "name": "万盛合(世纪华府店)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于观海路252号(世纪华府西门附近)",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东升商务宾馆",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于长途汽车站对面向西(通文街)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东炮台·海豹",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于滨海北路东炮台1-1号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东炮台公园",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于东山街道滨海路(近东炮台1号)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五百斤川小馆(莱山店)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于初迎春大街158号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "养马岛",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于天马路99号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰湖公园",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于初家凤凰湖公园(港城东大街南)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "半天妖烤鱼(永旺烟台购物中心店)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于观海路277号永旺购物中心2楼",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南山公园",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于环山路南山沟1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合丰烧烤(莱山店)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于初家大院后院",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "名都酒店(烟台市牟平区汽车站店)",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于政府大街686号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天悦宾馆(海政路店)",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于海政路与海阳步行街交叉口南80米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天越湾海水浴场",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于马山街道滨海中路(银和怡海天越湾对面)",
+    "tags": [
+      "071400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小海滩海鲜烧烤家常菜(莱山店)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于迎春街158号院内南侧",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小红桶烧烤(莱山二店)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于迎春大街143号国土资源局旁边",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(观海路店)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于观海路277号(永旺一层)T143-144",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怡家酒店",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于西关路458号(长途汽车站东门南20米路东)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "我家牛排(莱山佳世客店)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于观海路277号1层T136区",
+    "tags": [
+      "050211"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "招远大太阳旅社",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于温泉路303号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新成宾馆(黄务店)",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于黄务小区黄务隆中路5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "时尚精品酒店",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于东关路401号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月亮湾",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于滨海北路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉金城海鲜烤肉自助百汇(永旺烟台购物中心店)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于观海路277号永旺商场莱山店(佳世客)一楼东3门北侧",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪兴砂锅(莱山佳世客店)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于观海路277号永旺烟台购物中心2F层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渔跃万州烤鱼麻辣香锅(初家大院)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于迎春大街158号初家大院北11",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烟台五彩文化广场",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于港城东大街与长宁路交叉口",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烟台体育公园",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于滨海路街道观海路288号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烟台失重公园",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于百纳瑞汀天越湾酒店西北侧180米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烟台好日子旅馆",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于西油坊步行街路西",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烟台市岱王山公园",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于奇山街道鹿鸣小区南区西侧380米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烟台海昌渔人码头",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于滨海中路45号(第二海水浴场旁边)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烟台海昌鲸鲨海洋公园",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于滨海中路45号",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烟台自然博物馆",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于滨海中路2001号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烟台莱山山体公园",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于竹林路与翰文路交叉口东南380米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烟台长江旅馆",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于长江路208号鑫源大厦F1层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烟台龙达旅馆",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于福海路与永安街交汇处环宇小区15号楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福祚黑猪肉馄饨(南山世纪华府店)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于观海路264号(世纪华府西门)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "第一海水浴场(滨海北路)",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于大马路",
+    "tags": [
+      "080109"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "签哥签妹儿串串火锅(金海创业大厦店)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于黄海路街道迎春大街131号附7号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "素和乐素食自助餐厅(迎春大街店)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于迎春大街天合城20号楼104商铺迎春路中国银行正对面",
+    "tags": [
+      "050120"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红唇海滩",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于黄海路街道滨海路街道滨海中路1166号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "罗氏江上渔家铁锅炖鱼(初家大院店)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于迎春大街158号初家大院东2",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(观海路店)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于观海路277号佳世客1层肯德基",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣兴宾馆",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于机场路与黄务立交桥交叉口西北150米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莱州君临商务宾馆",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于沙河镇206国道中心红绿灯路口东南角",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莱州大成宾馆",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于土山镇",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莱州聚鑫旅馆",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于夏邱镇夏东村189号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓬莱北极光公寓",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于海滨东路(蓬莱碧桂园小区)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虞美人广场",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于新星北街与滨海中路交叉口南150米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜀门蜀香门第(鲁商悦海中心A座店)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于迎春大街98号悦海大厦(佳世客南100米)",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "趣浪国际沙滩公园",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于滨海中路1166号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "连合兴•烟台老字号灌浆包",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于长安路1号长安1号中央广场",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦阳商务宾馆(海阳站店)",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于黄海大道35号中房村东",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "颐和宾馆",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于渔港路中段(原万利盛超市东100米路北)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鳗道(永旺烟台购物中心店)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于观海路277号永旺烟台购物中心1F层",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(观海路餐厅)",
+    "city": "烟台",
+    "category": "food",
+    "description": "位于观海路277号佳世客烟台店1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄海明珠",
+    "city": "烟台",
+    "category": "attraction",
+    "description": "位于滨海中路184号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙口9号公寓",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于环翠大道海韵苑8号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙口凌晨商务宾馆",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于龙口开发区振兴中路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙口君悦宾馆",
+    "city": "烟台",
+    "category": "hotel",
+    "description": "位于东海旅游度假区碧海路碧海苑A3-5",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

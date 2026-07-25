@@ -1,34 +1,680 @@
 [
   {
-    "name": "哈尔滨融创乐园",
+    "name": "32坐·炖涮锅(总店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于安升街123-1号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一湖三岛",
     "city": "哈尔滨",
     "category": "attraction",
-    "description": "哈尔滨融创乐园是集游乐、表演、餐饮、购物于一体的大型主题乐园，拥有多项刺激的游乐设施和精彩的演艺表演。",
+    "description": "位于太阳岛西区外滩湿地公园(东南角)",
     "tags": [
-      "主题乐园",
-      "游乐",
-      "哈尔滨"
+      "110200"
     ],
-    "avgCost": 200,
-    "duration": "1天",
-    "openTime": "09:00-17:30",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丁香公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于群力大道与景江东路交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七公火锅鸡(哈尔滨松北万象汇店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世贸大道555号万象汇商场三楼七公火锅鸡",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七彩假日公寓(服装城店)(中兴大道6号分店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于中兴大道99号哈西家纺城B座2门20层(服装城旁,距离地铁1号线黑龙江大学站1号口80米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上和臻品中国菜(花园街店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于花园街附38-6号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下甸子古城遗址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于站前北亮丽大街010乡",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东北林业大学中国(哈尔滨)森林博物馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于和兴路26号东北林业大学",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东北虎林园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "东北虎林园位于哈尔滨市松北区，是集饲养、繁育、保护、科研、旅游于一体的东北虎天然园林景区。",
+    "tags": [
+      "东北虎",
+      "动物园",
+      "自然保护区"
+    ],
+    "avgCost": 100.0,
+    "duration": "2-3小时",
+    "openTime": "08:30-16:00",
     "rating": 4.5
   },
   {
-    "name": "哈尔滨融创文旅城",
+    "name": "东北虎林园",
     "city": "哈尔滨",
     "category": "attraction",
-    "description": "哈尔滨融创文旅城是集室内滑雪场、室外主题乐园、电影科技乐园、商业中心于一体的大型综合旅游度假区，位于哈尔滨松北区。",
+    "description": "东北虎林园，位于松北街88号，松北区，类型风景名胜 风景名胜。",
     "tags": [
-      "滑雪",
-      "主题乐园",
-      "室内滑雪",
-      "度假区"
+      "风景名胜",
+      "风景名胜"
     ],
-    "avgCost": 200,
-    "duration": "5-8小时",
-    "openTime": "10:00-21:00",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东北虎林园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "东北虎林园，位于松北街88号，松北区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东北虎林园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "东北虎林园，位于松北街88号，松北区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东北虎林园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "东北虎林园位于哈尔滨市松北区，是集饲养、繁育、保护、科研、旅游于一体的东北虎天然园林景区。",
+    "tags": [
+      "东北虎",
+      "动物园",
+      "自然保护区"
+    ],
+    "avgCost": 100.0,
+    "duration": "2-3小时",
+    "openTime": "08:30-16:00",
     "rating": 4.5
+  },
+  {
+    "name": "东北虎林园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于松北街88号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中东铁路公园(江北段)",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于滨水大道与剧院二路交叉口东160米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中华巴洛克历史文化街区",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于南头道街64号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九站公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于九站街1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九转小磨(宏伟路店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于宏伟路122号(宏图街口哈一机第八区楼房小区)",
+    "tags": [
+      "050113"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五国头城",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于依兰镇北大坑巷与坑沿巷交叉口",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亚沟摩崖石刻",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于经纬街与友谊路交口102号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仁合古城",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于037县道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伟大航路烤鱼(万象汇店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道555号哈尔滨松北万象汇L3层",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侵华日军第731部队遗址第二保护区",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于新疆街派出所东侧",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侵华日军第七三一部队遗址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于新疆大街23号(地铁1号线新疆大街站2号出口东向300米)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "俄罗斯琥珀博物馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于太阳岛街道太阳岛街3号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "俄罗斯童话博物馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于新一百购物商城5楼",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "公司街夜市",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于公司街27号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兰棱杀猪菜(堡旭大道店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "兰棱杀猪菜是东北特色传统菜肴，位于哈尔滨市双城区堡旭大道旭日嘉园楼下，提供正宗杀猪菜及东北家常菜，环境舒适，服务热情。",
+    "tags": [
+      "杀猪菜",
+      "东北菜",
+      "中餐"
+    ],
+    "avgCost": 60.0,
+    "duration": "1-2小时",
+    "openTime": "09:00-21:00",
+    "rating": 4.0
+  },
+  {
+    "name": "兰棱杀猪菜(堡旭大道店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "兰棱杀猪菜(堡旭大道店)，位于堡旭大道旭日嘉园楼下新公安局对面(旭日嘉园商服25号)，双城区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兰棱杀猪菜(堡旭大道店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "兰棱杀猪菜(堡旭大道店)，位于堡旭大道旭日嘉园楼下新公安局对面(旭日嘉园商服25号)，双城区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兰棱杀猪菜(堡旭大道店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "兰棱杀猪菜(堡旭大道店)，位于堡旭大道旭日嘉园楼下新公安局对面(旭日嘉园商服25号)，双城区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兰棱杀猪菜(堡旭大道店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "兰棱杀猪菜是东北特色传统菜肴，位于哈尔滨市双城区堡旭大道旭日嘉园楼下，提供正宗杀猪菜及东北家常菜，环境舒适，服务热情。",
+    "tags": [
+      "杀猪菜",
+      "东北菜",
+      "中餐"
+    ],
+    "avgCost": 60.0,
+    "duration": "1-2小时",
+    "openTime": "09:00-21:00",
+    "rating": 4.0
+  },
+  {
+    "name": "净土寺",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于平房镇松花路69号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰山国家森林公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于山河屯林业局凤凰山林场",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "初见公寓(哈尔滨大街1号分店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于哈尔滨大街爱达尊御",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "劳动公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于大庆路街道旭升南街景和社区斜对面",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北七夜市(大观园小区店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于北七道街79号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北之国公寓(中央大街店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于经纬街61号经纬360大厦B座10楼1011室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北方贵族度假村",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于泰顺街与三环路交叉口西北260米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北航夜市",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于北航街与学府路交叉口西20米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "半里城子古城遗址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于站前路49号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南土城子古城遗址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于506乡道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "友联度假村",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于长征村102国道(京哈公路段)12公里处",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双新老菜馆",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于丽江路1313号1-2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城子古城遗址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于古城北路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "可可主角·巧克力博物馆(哈尔滨中央大街店)",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于中央大街与西头道街交叉口东北20米",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉顺熏酱饺子东北菜(南岗店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于学兴路39-1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉顺熏酱饺子东北菜(宏伟路店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于宏伟路81-3号(桦树街地铁站4号口步行470米)",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同合居民间菜馆(中央大街松雷店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于中央大街66号2层B-1",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "呼口大桥夜市",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于张姐菜园子沙滩烧烤东北侧80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "哈尔滨冰雪大世界",
@@ -41,25 +687,727 @@
       "冰雕",
       "雪雕"
     ],
-    "avgCost": 330,
+    "avgCost": 330.0,
     "duration": "3-4小时",
     "openTime": "11:00-22:00",
     "rating": 4.8
   },
   {
-    "name": "太阳岛风景区",
+    "name": "哈尔滨冰雪大世界",
     "city": "哈尔滨",
     "category": "attraction",
-    "description": "太阳岛风景区是哈尔滨市松北区的一个著名旅游景点，以美丽的自然风光和休闲娱乐设施闻名。",
+    "description": "哈尔滨冰雪大世界，位于太阳大道1458号，松北区，类型风景名胜 风景名胜。",
     "tags": [
       "风景名胜",
-      "国家级景点",
-      "哈尔滨"
+      "风景名胜"
     ],
-    "avgCost": 50,
-    "duration": "3小时",
-    "openTime": "08:00-17:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨冰雪大世界",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨冰雪大世界，位于太阳大道1458号，松北区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨冰雪大世界",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨冰雪大世界，位于太阳大道1458号，松北区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨冰雪大世界",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨冰雪大世界位于松北区太阳大道1458号，是一座以冰雪为主题的大型游乐园，每年冬季开放，展示精美的冰雕和雪雕，并提供冰雪滑梯、冰上自行车等娱乐项目。",
+    "tags": [
+      "冰雪",
+      "主题公园",
+      "冰雕",
+      "雪雕"
+    ],
+    "avgCost": 330.0,
+    "duration": "3-4小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.8
+  },
+  {
+    "name": "哈尔滨冰雪大世界",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于太阳大道1458号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨北方森林动物园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于哈牡高速46公里处",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨合欣旅店",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "哈尔滨合欣旅店位于哈尔滨市道里区安松街43号，提供住宿服务，是一家旅馆招待所。",
+    "tags": [
+      "住宿",
+      "旅馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "哈尔滨合欣旅店",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "哈尔滨合欣旅店，位于安松街43号，道里区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨合欣旅店",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "哈尔滨合欣旅店，位于安松街43号，道里区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨合欣旅店",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "哈尔滨合欣旅店，位于安松街43号，道里区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨合欣旅店",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "哈尔滨合欣旅店位于哈尔滨市道里区安松街43号，提供住宿服务，是一家旅馆招待所。",
+    "tags": [
+      "住宿",
+      "旅馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "哈尔滨同翔公寓",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于哈尔滨大街与中兴左街交汇处以西地段华润凯旋门E11门市",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨向日葵公寓",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "哈尔滨向日葵公寓位于哈西万达公寓B座6层，提供舒适的住宿服务。",
+    "tags": [
+      "公寓",
+      "住宿"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "哈尔滨向日葵公寓",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "哈尔滨向日葵公寓，位于哈西万达公寓B座6层，南岗区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨向日葵公寓",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "哈尔滨向日葵公寓，位于哈西万达公寓B座6层，南岗区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨向日葵公寓",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "哈尔滨向日葵公寓，位于哈西万达公寓B座6层，南岗区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨向日葵公寓",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "哈尔滨向日葵公寓位于哈西万达公寓B座6层，提供舒适的住宿服务。",
+    "tags": [
+      "公寓",
+      "住宿"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "哈尔滨向日葵公寓",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于哈西万达公寓B座6层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨君康日租公寓(中华巴洛克店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于承德街361号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨喜光主题小宾馆",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于消防胡同12-4号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨嘉苑宾馆",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于滇池东路1010号群力家园C区",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨嘉诚旅店",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于民益街191号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨四益堂宾馆(冰雪大世界店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于河梁街18号(公路大桥地铁站3号口步行130米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨国防教育广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于九站街1号九站公园(西南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨墨野公寓(太阳岛融创乐园店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于世茂大道与祥安南大街交叉口钻石湾毅克拉公寓",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨天之缘快捷宾馆(医大一医院店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于燎原街道燎原街105号副一层(烟厂地铁站3号口旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨天翼快捷宾馆",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于南岗区比乐街22号，提供舒适的住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆"
+    ],
+    "avgCost": 100.0,
+    "duration": "入住期间",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "哈尔滨天翼快捷宾馆",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "哈尔滨天翼快捷宾馆，位于比乐街22号，南岗区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨天翼快捷宾馆",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "哈尔滨天翼快捷宾馆，位于比乐街22号，南岗区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨天翼快捷宾馆",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "哈尔滨天翼快捷宾馆，位于比乐街22号，南岗区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨天翼快捷宾馆",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于南岗区比乐街22号，提供舒适的住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆"
+    ],
+    "avgCost": 100.0,
+    "duration": "入住期间",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "哈尔滨天翼快捷宾馆",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于比乐街22号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨安宜公寓",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于新春街道闽江路与南直路交汇处华鸿国际1号楼605室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨尚志旅社",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于尚志大街副1-1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨工业大学博物馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于公司街59号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨市人民防洪胜利纪念塔",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于友谊路259-7号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨市兆麟公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于森林街41号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨市关道遗址文化公园(不对外开放)",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于北新街65号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨市南岗博物馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于花园街道联发街1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨市博物馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于柳树街13号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨市政府广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨市政府广场位于松北区，是市民休闲娱乐和举办大型活动的重要场所，广场开阔，环境优美。",
+    "tags": [
+      "公园广场",
+      "城市广场",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "1小时",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "哈尔滨市政府广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨市政府广场，位于松北街道世纪大道与泰山街交叉口西南340米，松北区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨市政府广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨市政府广场，位于松北街道世纪大道与泰山街交叉口西南340米，松北区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨市政府广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨市政府广场，位于松北街道世纪大道与泰山街交叉口西南340米，松北区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨市政府广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨市政府广场位于松北区，是市民休闲娱乐和举办大型活动的重要场所，广场开阔，环境优美。",
+    "tags": [
+      "公园广场",
+      "城市广场",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "1小时",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "哈尔滨市政府广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于松北街道世纪大道与泰山街交叉口西南340米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨师大夜市",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于文兴街与和兴三道街交叉口东120米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨文化中心公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于哈尔滨大剧院对面,东北虎林园西侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨文庙",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于文庙街25号(近黑河路)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨新区航天公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于黄灿路与智谷大街交口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨新潟友谊园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于太阳大道3号太阳岛风景区内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨星月时尚快捷旅馆",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于哈平路副147-4号(近哈尔滨医科大学附属肿瘤医院)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨晨星客栈(中央大街店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于安国街2号-1层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "哈尔滨极地公园",
@@ -72,10 +1420,81 @@
       "公园",
       "亲子"
     ],
-    "avgCost": 150,
+    "avgCost": 150.0,
     "duration": "3小时",
     "openTime": "09:00-17:00",
     "rating": 4.5
+  },
+  {
+    "name": "哈尔滨极地公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨极地公园，位于太阳大道277号(太阳岛地铁站2号口步行140米)，松北区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨极地公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨极地公园，位于太阳大道277号(太阳岛地铁站2号口步行140米)，松北区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨极地公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨极地公园，位于太阳大道277号(太阳岛地铁站2号口步行140米)，松北区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨极地公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨极地公园是一个以极地动物为主题的大型公园，位于哈尔滨市松北区太阳岛附近。",
+    "tags": [
+      "极地",
+      "动物",
+      "公园",
+      "亲子"
+    ],
+    "avgCost": 150.0,
+    "duration": "3小时",
+    "openTime": "09:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "哈尔滨极地公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于太阳大道277号(太阳岛地铁站2号口步行140米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "哈尔滨极地公园·极地馆",
@@ -89,25 +1508,1404 @@
       "极地",
       "动物表演"
     ],
-    "avgCost": 150,
+    "avgCost": 150.0,
     "duration": "2-3小时",
     "openTime": "09:00-17:00",
     "rating": 4.5
   },
   {
-    "name": "东北虎林园",
+    "name": "哈尔滨极地公园·极地馆",
     "city": "哈尔滨",
     "category": "attraction",
-    "description": "东北虎林园位于哈尔滨市松北区，是集饲养、繁育、保护、科研、旅游于一体的东北虎天然园林景区。",
+    "description": "哈尔滨极地公园·极地馆，位于太阳大道277号，松北区，类型公园广场 水族馆。",
     "tags": [
-      "东北虎",
-      "动物园",
-      "自然保护区"
+      "公园广场",
+      "水族馆"
     ],
-    "avgCost": 100,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨极地公园·极地馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨极地公园·极地馆，位于太阳大道277号，松北区，类型公园广场 水族馆。",
+    "tags": [
+      "公园广场",
+      "水族馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨极地公园·极地馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨极地公园·极地馆，位于太阳大道277号，松北区，类型公园广场 水族馆。",
+    "tags": [
+      "公园广场",
+      "水族馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨极地公园·极地馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨极地公园极地馆位于太阳大道277号，以极地动物展示和表演为特色，是哈尔滨知名的旅游景点。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "水族馆",
+      "极地",
+      "动物表演"
+    ],
+    "avgCost": 150.0,
     "duration": "2-3小时",
-    "openTime": "08:30-16:00",
+    "openTime": "09:00-17:00",
     "rating": 4.5
+  },
+  {
+    "name": "哈尔滨极地公园·极地馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于太阳大道277号",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨枫叶小镇温泉度假酒店",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于智谷三街5555号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨沁园春·雪小栈公寓(9号店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于学院路街道学院路南金泰蓝郡14栋6单元1层1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨浪漫樱花公寓(中央大街步行街松花江畔一店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于尚志街道经纬街69号经纬360大厦A座1410室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨理想家庭宾馆(中央大街店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于新阳路192号(新阳路与安发桥交叉口,步行到中央大街20分钟)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨瑞鑫快捷客栈",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于清滨胡同副13-5号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨甜蜜邮局青年旅舍(中央大街店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于通江街155号(友谊宫地铁站1号口步行220米)",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨百通旅店",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于群力四方台大道阳光颐养花园13栋9单元",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨禧悦快捷宾馆",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于菜艺街11号(116中学对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨美世拓展团建活动基地",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于太阳大道600号",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨美希宾馆(太平机场店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于哈双路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨群力星光耀公寓(3号店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于群力街道朗江路1039-3号群力星光耀广场一期办公1号楼2106室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨莱顺客栈(中央大街店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于红专街副22号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨融创乐园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨融创乐园是集游乐、表演、餐饮、购物于一体的大型主题乐园，拥有多项刺激的游乐设施和精彩的演艺表演。",
+    "tags": [
+      "主题乐园",
+      "游乐",
+      "哈尔滨"
+    ],
+    "avgCost": 200.0,
+    "duration": "1天",
+    "openTime": "09:00-17:30",
+    "rating": 4.5
+  },
+  {
+    "name": "哈尔滨融创乐园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨融创乐园，位于世茂大道99-1号，松北区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨融创乐园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨融创乐园，位于世茂大道99-1号，松北区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨融创乐园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨融创乐园，位于世茂大道99-1号，松北区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨融创乐园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨融创乐园是集游乐、表演、餐饮、购物于一体的大型主题乐园，拥有多项刺激的游乐设施和精彩的演艺表演。",
+    "tags": [
+      "主题乐园",
+      "游乐",
+      "哈尔滨"
+    ],
+    "avgCost": 200.0,
+    "duration": "1天",
+    "openTime": "09:00-17:30",
+    "rating": 4.5
+  },
+  {
+    "name": "哈尔滨融创乐园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于哈尔滨融创文旅城内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨融创文旅城",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨融创文旅城是集室内滑雪场、室外主题乐园、电影科技乐园、商业中心于一体的大型综合旅游度假区，位于哈尔滨松北区。",
+    "tags": [
+      "滑雪",
+      "主题乐园",
+      "室内滑雪",
+      "度假区"
+    ],
+    "avgCost": 200.0,
+    "duration": "5-8小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "哈尔滨融创文旅城",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨融创文旅城，位于丰源街与世茂大道交汇处，松北区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨融创文旅城",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨融创文旅城，位于丰源街与世茂大道交汇处，松北区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨融创文旅城",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨融创文旅城，位于丰源街与世茂大道交汇处，松北区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨融创文旅城",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "哈尔滨融创文旅城是集室内滑雪场、室外主题乐园、电影科技乐园、商业中心于一体的大型综合旅游度假区，位于哈尔滨松北区。",
+    "tags": [
+      "滑雪",
+      "主题乐园",
+      "室内滑雪",
+      "度假区"
+    ],
+    "avgCost": 200.0,
+    "duration": "5-8小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "哈尔滨融创文旅城",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于丰源街与世茂大道交汇处",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨贵人快捷旅馆",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于学海街银河小区1号楼3号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨金帝宾馆",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于道里区顾乡大街7号（加油站对面），提供舒适住宿服务。",
+    "tags": [
+      "宾馆",
+      "酒店",
+      "住宿"
+    ],
+    "avgCost": 200.0,
+    "duration": "-",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "哈尔滨金帝宾馆",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "哈尔滨金帝宾馆，位于顾乡大街7号(加油站对面)，道里区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨金帝宾馆",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "哈尔滨金帝宾馆，位于顾乡大街7号(加油站对面)，道里区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨金帝宾馆",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "哈尔滨金帝宾馆，位于顾乡大街7号(加油站对面)，道里区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨金帝宾馆",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于道里区顾乡大街7号（加油站对面），提供舒适住宿服务。",
+    "tags": [
+      "宾馆",
+      "酒店",
+      "住宿"
+    ],
+    "avgCost": 200.0,
+    "duration": "-",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "哈尔滨金源文化旅游区",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于金源路49号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨防洪纪念塔广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于斯大林街3号斯大林公园内(东侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨雅宿影院公寓(溪岸艺墅店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于群力第五大道2146号溪岸艺墅F01号公寓楼1307室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨音乐公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于群力街道上江街与友谊西路交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈尔滨音乐博物馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于滨水大道哈尔滨大剧院",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈缘旅馆(哈尔滨火车站店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于营部街17-3号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈药六版画博物馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于南直路326号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜家德虾仁水饺(哈尔滨万象汇店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于滨北街220号门",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜家德虾仁水饺(松北大润发店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道400号城市之星小区S1号综合体1-3层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喷泉广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于宏源街与世博路交叉口西240米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "团山子古城遗址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国强快捷宾馆(哈尔滨渤海路地铁站店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于联乡路7号(渤海路地铁站1号口步行330米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "圣·索菲亚教堂",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于透笼街129号",
+    "tags": [
+      "110206"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "坐井观天遗址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于北大坑巷与坑沿巷交叉口五国头城",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "坐龙广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于太阳大道3号太阳岛风景区(西南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "外婆小厨",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道146号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大吉利·潮汕鲜牛肉火锅(江北万象汇店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道555号哈尔滨松北万象汇L3层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大金古城",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天香饺子坊(工农大街总店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于工农大街695号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太合堂古城遗址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于G1211吉黑高速",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太阳岛中俄油画艺术创作交流基地",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于太阳岛街与西园街交叉口东北40米",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太阳岛绿色运动公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于雪乡街与冰峰路交叉口南260米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太阳岛风景区",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "太阳岛风景区是哈尔滨市松北区的一个著名旅游景点，以美丽的自然风光和休闲娱乐设施闻名。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "哈尔滨"
+    ],
+    "avgCost": 50.0,
+    "duration": "3小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "太阳岛风景区",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "太阳岛风景区，位于太阳大道3号，松北区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太阳岛风景区",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "太阳岛风景区，位于太阳大道3号，松北区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太阳岛风景区",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "太阳岛风景区，位于太阳大道3号，松北区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太阳岛风景区",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "太阳岛风景区是哈尔滨市松北区的一个著名旅游景点，以美丽的自然风光和休闲娱乐设施闻名。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "哈尔滨"
+    ],
+    "avgCost": 50.0,
+    "duration": "3小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "太阳岛风景区",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于太阳大道3号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太阳岛风景区俄罗斯风情小镇",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于平原街20号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太阳石广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于太阳岛街道太阳岛街道太阳大道3号太阳岛风景区(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好彩酒楼",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于天元街726号",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "娄富屯古城",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于延中公路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孝悌广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于新区中心公园(东北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "学府四夜市",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于学府东四道街366号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安发瞧麻辣烫总店",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于安发街副1-2号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安居夜市",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于工农大街与安居街交叉口西20米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安静市场早市夜市",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于安静街道",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宴上宴·宴宾礼客心动餐厅",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于聚源街121号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宽街博物馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于尚志街道中央大街西十三道街43号东和昶1917大楼内",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富东度假村",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于幸福路莫力村",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富隆快捷宾馆(医大二院店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于保健路142号医大二院家属楼35栋3单元202室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "将军牛排韩国餐厅(华润万象汇哈尔滨店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于哈尔滨华润万象汇L379号",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小味串店(松北店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于城市之星·豪布斯卡",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小怪兽肉蟹煲(万象汇店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道555号哈尔滨松北万象汇L3层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小江南农家院",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于民主镇胜利村滨江湿地风景区往东1公里",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚品公寓(哈西万达广场店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于中兴大道162号万达SOHOF11层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚志君都商务宾馆",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于双桥休闲广场三栋26号1-3层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川粹餐厅",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "一家提供正宗川菜的餐厅，位于龙江街40号。",
+    "tags": [
+      "川菜",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "川粹餐厅",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "一家提供正宗川菜的餐厅，位于龙江街40号。",
+    "tags": [
+      "川菜",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "川粹餐厅 (川菜馆 秋林/花园街)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "川粹餐厅 (川菜馆 秋林/花园街)，位于龙江街40号，南岗区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川粹餐厅 (川菜馆 秋林/花园街)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "川粹餐厅 (川菜馆 秋林/花园街)，位于龙江街40号，南岗区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川粹餐厅 (川菜馆 秋林/花园街)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "川粹餐厅 (川菜馆 秋林/花园街)，位于龙江街40号，南岗区，类型中餐厅 四川菜(川菜)。",
+    "tags": [
+      "中餐厅",
+      "四川菜(川菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巧克力星人博物馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于中央大街187号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "师大夜市",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于文兴街与和兴小十一道街交口",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "师大夜市爆肚张",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于文兴街和兴头道街街口南走三十米道东",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "希岸美宿客栈(黑龙江大学医大二院店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于征仪路322-1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常安金代古城遗址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "帽儿山风景区",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于帽儿山镇吕家围子村",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平乐古城(不对外开放)",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于哈南第八大道与松花路交叉口西380米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庆云晓春烤吧",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于会宁路415号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庆华古山寨遗址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庆赫隆融合菜馆(香坊万达店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于湘江路133号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张包铺(中华巴洛克总店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于南勋街与二道街交口",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "得莫利小雨炖鱼馆(通达店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于通达街329号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(松北万象汇店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道555号L2层L230号商铺",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦荟牛排餐厅(哈尔滨万象汇店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道555号华润万象汇3层",
+    "tags": [
+      "050211"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾叁号客栈(平房区万达华府店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于哈南十一路20-14号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "揽香老火锅",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于玉山路13号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "斯大林公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于斯大林街3号(近松花江畔)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "新区中心公园",
@@ -119,57 +2917,943 @@
       "休闲",
       "风景名胜"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "1-2小时",
     "openTime": "全天开放",
     "rating": 4.2
   },
   {
-    "name": "金河湾湿地植物园",
+    "name": "新区中心公园",
     "city": "哈尔滨",
     "category": "attraction",
-    "description": "金河湾湿地植物园位于哈尔滨市松北区江湾路5000号，是一个集湿地生态保护、植物观赏、休闲游览于一体的综合性植物园。园内拥有丰富的湿地植被和水生植物，是了解湿地生态系统、亲近自然的理想场所。",
+    "description": "新区中心公园，位于中源大道与江安街交汇处，松北区，类型公园广场 公园。",
     "tags": [
-      "风景名胜",
       "公园广场",
-      "植物园",
-      "湿地",
-      "生态"
+      "公园"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新区中心公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "新区中心公园，位于中源大道与江安街交汇处，松北区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新区中心公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "新区中心公园，位于中源大道与江安街交汇处，松北区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新区中心公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "新区中心公园位于哈尔滨市松北区，是一个集休闲、娱乐、健身于一体的综合性公园，环境优美，设施完善。",
+    "tags": [
+      "公园",
+      "休闲",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.2
+  },
+  {
+    "name": "新区中心公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于中源大道与江安街交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新宏村古城址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于兴旺路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "方正花溪客栈",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于松花江街160号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "昌龙宾馆(哈尔滨江北大学城店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于学院路三道街19号志华商城2号楼2门",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晓宇盒饭(总店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于民安街232号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月亮泉度假村",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于特来电汽车充电站(快易点充电服务公司-滨北桥充电站)东侧120米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本部旧址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于新疆街道新疆大街47号侵华日军第七三一部队遗址内(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松北区保密法治文化广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于创新一路与科技五街交口",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松北商大夜市",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于文明街8号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松北新区中心公园空竹园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于新区中心公园(西南角)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "极乐寺",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于燎原街道花园街道东大直街9号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "极乐寺-塔院",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于黑龙汇东大直街9号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "极乐寺-山门",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于东大直街7号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(哈尔滨哈西万达店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于兴达路51号哈西万达广场",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(松北世茂大道店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道143号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(滨江街店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于滨江街甲48号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桥根涮串(总店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于康安路201号(河山街地铁站3B口步行270米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桥根火锅(中央大街店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于红专街111号(中央大街地铁站1号口步行470米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桥根火锅(哈西宜家店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于哈西大街516-15号(哈西大街地铁站1号口左侧后方100米处)香缇雅诺二期后街",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桥根火锅(总店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于松发街与康安路辅路交叉口北80米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梅金肖克百年庭院",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于中央大街50号(中央大街地铁站1号口步行410米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椒爱水煮鱼川菜(松北万象汇店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道华润万象汇3层L335号店铺(枕水江南斜对面)",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "横道街夜市",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于横道街53-4号附近",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "橡果酒店式公寓(哈尔滨哈西大街店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于王岗镇哈西大街与复旦街交汇处南100米爱达壹号公寓楼14A22室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欢乐广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于哈尔滨融创乐园内欢庆时光",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正阳楼学府店特色东北菜 (地标美食名店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "正阳楼学府店特色东北菜，位于哈尔滨市南岗区学府三道街62号，是一家以地标美食名店著称的东北菜馆。",
+    "tags": [
+      "东北菜",
+      "地标美食"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "未知",
     "rating": 3.5
   },
   {
-    "name": "哈尔滨市政府广场",
-    "city": "哈尔滨",
-    "category": "attraction",
-    "description": "哈尔滨市政府广场位于松北区，是市民休闲娱乐和举办大型活动的重要场所，广场开阔，环境优美。",
-    "tags": [
-      "公园广场",
-      "城市广场",
-      "风景名胜"
-    ],
-    "avgCost": 0,
-    "duration": "1小时",
-    "openTime": "全天开放",
-    "rating": 4.0
-  },
-  {
-    "name": "老厨家(中央大街店)",
+    "name": "正阳楼学府店特色东北菜 (地标美食名店)",
     "city": "哈尔滨",
     "category": "food",
-    "description": "老厨家中央大街店位于哈尔滨道里区西七道街，是一家以正宗东北菜为特色的中餐厅。店内装修融合传统与现代元素，招牌菜包括锅包肉、东北大拉皮等，深受当地人和游客喜爱。",
+    "description": "正阳楼学府店特色东北菜 (地标美食名店)，位于学府三道街62号，南岗区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正阳楼学府店特色东北菜 (地标美食名店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "正阳楼学府店特色东北菜 (地标美食名店)，位于学府三道街62号，南岗区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正阳楼学府店特色东北菜 (地标美食名店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "正阳楼学府店特色东北菜 (地标美食名店)，位于学府三道街62号，南岗区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正阳楼学府店特色东北菜 (地标美食名店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "正阳楼学府店特色东北菜，位于哈尔滨市南岗区学府三道街62号，是一家以地标美食名店著称的东北菜馆。",
     "tags": [
       "东北菜",
-      "中餐厅",
-      "餐饮服务"
+      "地标美食"
     ],
-    "avgCost": 80,
+    "avgCost": 0.0,
     "duration": "1-2小时",
-    "openTime": "10:00-21:00",
-    "rating": 4.3
+    "openTime": "未知",
+    "rating": 3.5
+  },
+  {
+    "name": "比格比萨自助(哈尔滨松北万象汇店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道555号万象汇3层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(哈尔滨红博中央公园店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于红旗大街339号红博中央公园B2层17号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水云轩度假村",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于巨源镇山东屯",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水楼子鑫鑫砂锅居(大庆副路店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于健康路70号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永宁古城遗址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于西北外环路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江上城堡观光索道",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于通江街218号(通江广场)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江北人家度假村",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于利业镇玉林村大陶家1号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江岸湿地度假村",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于松浦镇东方红村",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "波塞冬旅游度假区",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于汇江路153号",
+    "tags": [
+      "080505"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "波斯特太阳岛度假村",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于太阳岛风景区西林街13号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泽园广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于阳明滩大道与友谊西路交叉口东北角哈尔滨外滩湿地",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(万象汇店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道555号华润万象汇L3层L319号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(新一百店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于石头街道尚志大街大商哈尔滨新一百购物广场6楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(松雷店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于东大直街329号松雷商业8层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(红博中央公园店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于黄河路红博中央公园1F",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "润福公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于中源大道辅路与松北大道辅路交叉口东北180米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "涵舍客栈(冰雪大世界凯利汽车广场店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于中源大道11088号凯利汽配广场东1-52号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真寺",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于南十二道街54号",
+    "tags": [
+      "110207"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溪水源泉民宿客栈(思源街分店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于中源大道凯利汽车广场东18-13",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "满族村寨度假村",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于东升路与东升南三路交叉口东北80米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨水公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于学海街近江路交口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "火车主题广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于斯大林街2-1号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "焱玖家麻辣猪蹄(理工店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于学兴路15号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "犹太商人索斯金故居",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于经纬四道街30号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百宠苑宠物度假村",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于纽纶德门窗有限公司西南侧200米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "益民招待所(北头道街店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于北头道街48号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛达山荘",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于新庆林场南侧170米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛鑫夜市(盛鑫嘉园店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于大千路与北环西路交叉口南60米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石人城子古城遗址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于803乡道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧海公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于智谷三街与赤诚路交口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福满源山庄度假村",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于长岭湖农家院附近",
+    "tags": [
+      "080400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "穆昆城古城遗址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于808乡道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "窑地街夜市",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于迎宾小区一区北区西北门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(松北万象汇店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道555号万象汇3楼L393号麦当劳那个门上去三楼直梯对面",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "索菲亚广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于透笼街88号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红旗夜市(红旗住宅新区店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于淮河路158号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绣北酒店式公寓(中央大街店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于尚志大街99号东七道街哈威广场威乐斯栋1单元9层912号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "缤圣源中国清真菜(哈西店)",
@@ -181,38 +3865,132 @@
       "中餐",
       "火锅"
     ],
-    "avgCost": 80,
+    "avgCost": 80.0,
     "duration": "1-2小时",
     "openTime": "10:00-21:00",
     "rating": 4.3
   },
   {
-    "name": "遇见便当(爱建店)",
+    "name": "缤圣源中国清真菜(哈西店)",
     "city": "哈尔滨",
     "category": "food",
-    "description": "遇见便当(爱建店)位于哈尔滨道里区爱建路8号11室，是一家提供便捷快餐的餐厅，主打各式便当，适合快速用餐。",
+    "description": "缤圣源中国清真菜(哈西店)，位于和谐大道351-1号，南岗区，类型中餐厅 清真菜馆。",
     "tags": [
-      "快餐",
-      "便当"
+      "中餐厅",
+      "清真菜馆"
     ],
-    "avgCost": 25,
-    "duration": "30分钟",
-    "openTime": "10:00-20:00",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "正阳楼学府店特色东北菜 (地标美食名店)",
+    "name": "缤圣源中国清真菜(哈西店)",
     "city": "哈尔滨",
     "category": "food",
-    "description": "正阳楼学府店特色东北菜，位于哈尔滨市南岗区学府三道街62号，是一家以地标美食名店著称的东北菜馆。",
+    "description": "缤圣源中国清真菜(哈西店)，位于和谐大道351-1号，南岗区，类型中餐厅 清真菜馆。",
     "tags": [
-      "东北菜",
-      "地标美食"
+      "中餐厅",
+      "清真菜馆"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缤圣源中国清真菜(哈西店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "缤圣源中国清真菜(哈西店)，位于和谐大道351-1号，南岗区，类型中餐厅 清真菜馆。",
+    "tags": [
+      "中餐厅",
+      "清真菜馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缤圣源中国清真菜(哈西店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "缤圣源中国清真菜(哈西店)位于哈尔滨市南岗区和谐大道351-1号，是一家提供清真中餐和火锅的餐厅。",
+    "tags": [
+      "清真",
+      "中餐",
+      "火锅"
+    ],
+    "avgCost": 80.0,
     "duration": "1-2小时",
-    "openTime": "未知",
-    "rating": 3.5
+    "openTime": "10:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "缤圣源中国清真菜(群力店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于银泰城悦街丽江路4106号",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "羊顺斋火锅",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于丰润街74号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美巢公寓(哈尔滨中山路店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于六顺街道中山路63号中山国际302室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美巢公寓(哈尔滨和祥路店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于和祥路38号(中北春城三期26号楼)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "群力外滩生态湿地",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于工农街道星光耀广场",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "老六杀猪菜(进乡街)",
@@ -224,7 +4002,136 @@
       "中餐厅",
       "杀猪菜"
     ],
-    "avgCost": 60,
+    "avgCost": 60.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "老六杀猪菜(进乡街)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "老六杀猪菜(进乡街)，位于进乡街133号，香坊区，类型中餐厅 东北菜。",
+    "tags": [
+      "中餐厅",
+      "东北菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老六杀猪菜(进乡街)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "老六杀猪菜(进乡街)，位于进乡街133号，香坊区，类型中餐厅 东北菜。",
+    "tags": [
+      "中餐厅",
+      "东北菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老六杀猪菜(进乡街)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "老六杀猪菜(进乡街)，位于进乡街133号，香坊区，类型中餐厅 东北菜。",
+    "tags": [
+      "中餐厅",
+      "东北菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老六杀猪菜(进乡街)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "老六杀猪菜是一家位于哈尔滨香坊区进乡街133号的东北菜餐厅，以杀猪菜为特色。",
+    "tags": [
+      "东北菜",
+      "中餐厅",
+      "杀猪菜"
+    ],
+    "avgCost": 60.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "老厨家(中央大街店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "老厨家中央大街店位于哈尔滨道里区西七道街，是一家以正宗东北菜为特色的中餐厅。店内装修融合传统与现代元素，招牌菜包括锅包肉、东北大拉皮等，深受当地人和游客喜爱。",
+    "tags": [
+      "东北菜",
+      "中餐厅",
+      "餐饮服务"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "老厨家(中央大街店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "老厨家(中央大街店)，位于西七道街55号巴拉斯美食城3楼，道里区，类型中餐厅 东北菜。",
+    "tags": [
+      "中餐厅",
+      "东北菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老厨家(中央大街店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "老厨家(中央大街店)，位于西七道街55号巴拉斯美食城3楼，道里区，类型中餐厅 东北菜。",
+    "tags": [
+      "中餐厅",
+      "东北菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老厨家(中央大街店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "老厨家(中央大街店)，位于西七道街55号巴拉斯美食城3楼，道里区，类型中餐厅 东北菜。",
+    "tags": [
+      "中餐厅",
+      "东北菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老厨家(中央大街店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "老厨家中央大街店位于哈尔滨道里区西七道街，是一家以正宗东北菜为特色的中餐厅。店内装修融合传统与现代元素，招牌菜包括锅包肉、东北大拉皮等，深受当地人和游客喜爱。",
+    "tags": [
+      "东北菜",
+      "中餐厅",
+      "餐饮服务"
+    ],
+    "avgCost": 80.0,
     "duration": "1-2小时",
     "openTime": "10:00-21:00",
     "rating": 4.3
@@ -239,10 +4146,340 @@
       "中餐厅",
       "东北菜"
     ],
-    "avgCost": 80,
+    "avgCost": 80.0,
     "duration": "1.5小时",
     "openTime": "10:00-21:00",
     "rating": 4.5
+  },
+  {
+    "name": "老厨家(友谊路总店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "老厨家(友谊路总店)，位于友谊路318号，道里区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老厨家(友谊路总店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "老厨家(友谊路总店)，位于友谊路318号，道里区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老厨家(友谊路总店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "老厨家(友谊路总店)，位于友谊路318号，道里区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老厨家(友谊路总店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "老厨家是哈尔滨知名的东北菜餐厅，位于道里区友谊路318号，以传统锅包肉等特色菜肴闻名。",
+    "tags": [
+      "餐饮",
+      "中餐厅",
+      "东北菜"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "老厨家(文政街总店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于文政新区17栋5门",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老富家度假村",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于龙江第一村315栋",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老康火锅(群力旗舰店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于丽江路2722号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老康火锅(黄河路总店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于黄河路信恒现代城馨园B栋",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老康金牛记",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于群力大道3335号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老昌春饼(松北万象汇店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道555号华润万象汇购物中心L3层L341号商铺",
+    "tags": [
+      "050113"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老昌春饼(西十三道街店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于西十三道街68-2号",
+    "tags": [
+      "050113"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老江沿清真炭火锅",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道247-1号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老牌坊云南鱼豆花火锅(世贸店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世贸大道190号地中海阳光",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老牌坊云南鱼豆花火锅(大成街店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于大成街229号(近东大直街花园街)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老牌坊云南鱼豆花火锅(红旗大街店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于红旗大街333号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老羊倌羊汤小馆",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世纪大道1181号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老韩甸杀猪菜(堡旭大道店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于堡旭大道旭日嘉园1号楼1S14号商服",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老韩甸杀猪菜世茂大道店(冰雪大世界店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道261号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(松北万象汇店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道与聚源街交汇处哈尔滨万象汇购物中心三楼L330号铺位",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "腰堡古城遗址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于腰堡中学北侧190米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "腾岳有间客栈(会展中心店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于南直路181号盟科视界9栋2单元4层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "艺雅快捷旅馆(中央大街店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于建化街2号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花墅客栈",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于保国街道南城九路绿色新城东区21号楼4单元102室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苏宁烈士塑像广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于九站街1号九站公园(西南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "草市街夜市(北兴教育园A区店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于北兴教育园A区西南门西北310米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "莱福双城杀猪菜(红旗总店)",
@@ -254,39 +4491,236 @@
       "东北菜",
       "中餐厅"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 0
+    "rating": 0.0
   },
   {
-    "name": "兰棱杀猪菜(堡旭大道店)",
+    "name": "莱福双城杀猪菜(红旗总店)",
     "city": "哈尔滨",
     "category": "food",
-    "description": "兰棱杀猪菜是东北特色传统菜肴，位于哈尔滨市双城区堡旭大道旭日嘉园楼下，提供正宗杀猪菜及东北家常菜，环境舒适，服务热情。",
+    "description": "莱福双城杀猪菜(红旗总店)，位于淮河路256号入口进来就看见了，南岗区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莱福双城杀猪菜(红旗总店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "莱福双城杀猪菜(红旗总店)，位于淮河路256号入口进来就看见了，南岗区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莱福双城杀猪菜(红旗总店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "莱福双城杀猪菜(红旗总店)，位于淮河路256号入口进来就看见了，南岗区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莱福双城杀猪菜(红旗总店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "莱福双城杀猪菜(红旗总店) 是哈尔滨的景点",
     "tags": [
       "杀猪菜",
       "东北菜",
-      "中餐"
-    ],
-    "avgCost": 60,
-    "duration": "1-2小时",
-    "openTime": "09:00-21:00",
-    "rating": 4.0
-  },
-  {
-    "name": "川粹餐厅",
-    "city": "哈尔滨",
-    "category": "food",
-    "description": "一家提供正宗川菜的餐厅，位于龙江街40号。",
-    "tags": [
-      "川菜",
       "中餐厅"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 0
+    "rating": 0.0
+  },
+  {
+    "name": "菱角泡度假村",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于南京路利民东四大街",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅(中央大街店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于中央大街58号6层(中央大街地铁站1号口步行340米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅(哈尔滨总店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于西宁南路81号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营城子古城",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于506乡道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萧红故居",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于萧红大道226号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "董大美麻辣烫总店(贵新街店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于贵新街146号(哈工大地铁站3号口步行390米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西落舌冒菜冒肚(哈尔滨首店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于海关街120号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观江广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于群力外滩生态湿地内(东侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赢客公寓(恒大国际中心丁香公园地铁站店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于恒大国际中心3栋1单元1层4号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "轻住酒店凯旋时代公馆(乐松广场店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于哈平路2-3号凯旋广场B栋底商",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辛焖道鸡公煲(全国总店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于测绘路62号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "通江广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于斯大林街3号斯大林公园内(西侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "通海俄式烧烤(世茂店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道194号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "遇见便当(会展店)",
@@ -298,55 +4732,610 @@
       "餐饮服务",
       "便当"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "哈尔滨天翼快捷宾馆",
+    "name": "遇见便当(会展店)",
     "city": "哈尔滨",
-    "category": "hotel",
-    "description": "位于南岗区比乐街22号，提供舒适的住宿服务。",
+    "category": "food",
+    "description": "遇见便当(会展店)，位于黄河路158号吉星商住城4栋91-5号门市，南岗区，类型中餐厅 中餐厅。",
     "tags": [
-      "住宿",
-      "宾馆"
+      "中餐厅",
+      "中餐厅"
     ],
-    "avgCost": 100,
-    "duration": "入住期间",
-    "openTime": "24小时",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遇见便当(会展店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "遇见便当(会展店)，位于黄河路158号吉星商住城4栋91-5号门市，南岗区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遇见便当(会展店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "遇见便当(会展店)，位于黄河路158号吉星商住城4栋91-5号门市，南岗区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遇见便当(会展店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "遇见便当(会展店)位于哈尔滨市南岗区黄河路158号吉星商住城4栋91-5号门市，是一家提供便当的中餐厅，适合快速用餐。",
+    "tags": [
+      "中餐厅",
+      "餐饮服务",
+      "便当"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "遇见便当(爱建店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "遇见便当(爱建店)位于哈尔滨道里区爱建路8号11室，是一家提供便捷快餐的餐厅，主打各式便当，适合快速用餐。",
+    "tags": [
+      "快餐",
+      "便当"
+    ],
+    "avgCost": 25.0,
+    "duration": "30分钟",
+    "openTime": "10:00-20:00",
     "rating": 4.0
   },
   {
-    "name": "哈尔滨向日葵公寓",
+    "name": "遇见便当(爱建店)",
     "city": "哈尔滨",
-    "category": "hotel",
-    "description": "哈尔滨向日葵公寓位于哈西万达公寓B座6层，提供舒适的住宿服务。",
+    "category": "food",
+    "description": "遇见便当(爱建店)，位于爱建路8号11室，道里区，类型快餐厅 快餐厅。",
     "tags": [
-      "公寓",
-      "住宿"
+      "快餐厅",
+      "快餐厅"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遇见便当(爱建店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "遇见便当(爱建店)，位于爱建路8号11室，道里区，类型快餐厅 快餐厅。",
+    "tags": [
+      "快餐厅",
+      "快餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遇见便当(爱建店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "遇见便当(爱建店)，位于爱建路8号11室，道里区，类型快餐厅 快餐厅。",
+    "tags": [
+      "快餐厅",
+      "快餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遇见便当(爱建店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "遇见便当(爱建店)位于哈尔滨道里区爱建路8号11室，是一家提供便捷快餐的餐厅，主打各式便当，适合快速用餐。",
+    "tags": [
+      "快餐",
+      "便当"
+    ],
+    "avgCost": 25.0,
+    "duration": "30分钟",
+    "openTime": "10:00-20:00",
+    "rating": 4.0
+  },
+  {
+    "name": "遇见便当(群力店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于景江东路1305号1-2层35号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "道外巴洛克博物馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于靖宇南二道街中华巴洛克五号院",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邵胖子麻辣烫(卓展购物中心B座店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于上海街99号卓展购物中心B座",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金上京皇城遗址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于C035与X005交叉口金上京会宁府遗址",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金代曲江古城遗址",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于古城屯西北角",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金刚山烧烤(中山路店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于中山路252-2号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金太祖陵",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于金源路49号哈尔滨金源文化旅游区内(西侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金河湾湿地植物园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "金河湾湿地植物园位于哈尔滨市松北区江湾路5000号，是一个集湿地生态保护、植物观赏、休闲游览于一体的综合性植物园。园内拥有丰富的湿地植被和水生植物，是了解湿地生态系统、亲近自然的理想场所。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "植物园",
+      "湿地",
+      "生态"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 0.0
+    "rating": 3.5
+  },
+  {
+    "name": "金河湾湿地植物园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "金河湾湿地植物园，位于江湾路5000号，松北区，类型公园广场 植物园。",
+    "tags": [
+      "公园广场",
+      "植物园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金河湾湿地植物园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "金河湾湿地植物园，位于江湾路5000号，松北区，类型公园广场 植物园。",
+    "tags": [
+      "公园广场",
+      "植物园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金河湾湿地植物园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "金河湾湿地植物园，位于江湾路5000号，松北区，类型公园广场 植物园。",
+    "tags": [
+      "公园广场",
+      "植物园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金河湾湿地植物园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "金河湾湿地植物园位于哈尔滨市松北区江湾路5000号，是一个集湿地生态保护、植物观赏、休闲游览于一体的综合性植物园。园内拥有丰富的湿地植被和水生植物，是了解湿地生态系统、亲近自然的理想场所。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "植物园",
+      "湿地",
+      "生态"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "金河湾湿地植物园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于江湾路5000号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金河湾湿地植物园-自然广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于江湾路西段金河湾湿地植物园内(西侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金港湾度假村",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于万宝大道与龙盛路交叉口西南角",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金麒麟披萨驿站",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于经纬九道街18号附近",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫国正快捷客栈(果戈里大街分店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于果戈里大街41号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫都旅馆(商业大学冰雪大世界店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于学海街1411号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长岭湖望湖楼度假村",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于长岭湖风景区环湖西路与南路交叉口进入环湖南路右侧",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阎守一大腰子志华夜市店",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于学院路二道街志华夜市",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿城市宝胜寺",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于阿什河街道延川大街宝胜寺",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雅居公寓(哈西万达店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于哈西街道中兴大道168号哈西万达公寓SOHOA座2717室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雪花广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于雪花南三路与创新二路交叉口东120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雪谷丽荣家·Snow Valley轻奢观景客栈(中国雪谷风景区店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于五常山河屯林业局东升林场",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雪谷国际青年客栈(雪谷风景区店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于五常山河屯林业局东升林场",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雪韵丁香火炬广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于太阳大道1458号哈尔滨冰雪大世界(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雾山板扎·云贵川Bistro(万象汇店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于松北街道世茂大道555号哈尔滨松北万象汇3楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青禾原度假山庄",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于四平路1号",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "音乐主题广场",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于哈尔滨音乐公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "音乐长廊",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于工农街道群力街道盛和天下S3号楼",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "顺心旅店(哈尔滨海城市场店)",
     "city": "哈尔滨",
     "category": "hotel",
-    "address": "文化街54号",
-    "area": "南岗区",
     "description": "位于哈尔滨南岗区文化街54号的旅店，提供住宿服务。",
     "tags": [
       "住宿服务",
       "宾馆酒店",
       "旅馆招待所"
     ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺心旅店(哈尔滨海城市场店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "顺心旅店(哈尔滨海城市场店)，位于文化街54号，南岗区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺心旅店(哈尔滨海城市场店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "顺心旅店(哈尔滨海城市场店)，位于文化街54号，南岗区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺心旅店(哈尔滨海城市场店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "顺心旅店(哈尔滨海城市场店)，位于文化街54号，南岗区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺心旅店(哈尔滨海城市场店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于哈尔滨南岗区文化街54号的旅店，提供住宿服务。",
+    "tags": [
+      "住宿服务",
+      "宾馆酒店",
+      "旅馆招待所"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 3.5,
-    "avgCost": 0
+    "rating": 3.5
   },
   {
     "name": "顺心旅店(哈尔滨海城市场店)",
@@ -358,38 +5347,269 @@
       "宾馆",
       "旅馆"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "哈尔滨金帝宾馆",
+    "name": "顺心旅店(哈尔滨海城市场店)",
     "city": "哈尔滨",
     "category": "hotel",
-    "description": "位于道里区顾乡大街7号（加油站对面），提供舒适住宿服务。",
+    "description": "位于文化街54号",
     "tags": [
-      "宾馆",
-      "酒店",
-      "住宿"
+      "100100"
     ],
-    "avgCost": 200,
-    "duration": "-",
-    "openTime": "24小时",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "哈尔滨合欣旅店",
+    "name": "顺航宾馆(哈尔滨太平国际机场店)",
     "city": "哈尔滨",
     "category": "hotel",
-    "description": "哈尔滨合欣旅店位于哈尔滨市道里区安松街43号，提供住宿服务，是一家旅馆招待所。",
+    "description": "位于太平镇大张家临时站对面",
     "tags": [
-      "住宿",
-      "旅馆"
+      "100100"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "全天",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顾乡饭店(建国店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于建国街307号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香叶山自助小火锅(哈尔滨松北万象汇店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于华润万象汇商场负一层(库迪咖啡旁)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香坊夜市",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于司徒街",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马迭尔啤酒博物馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于临江街与游览街交叉口西南20米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高粱红了铁锅炖(松北店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世贸大道271号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魁星楼",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于承旭公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魁牛·潮汕牛肉自助火锅(太平桥百盛店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于太平桥百盛购物中心5楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹿苑",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于太阳岛街道警备路3号太阳岛风景区内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(万象汇店)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于世茂大道555号华润万象汇L1层L1555号商铺",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(中华巴洛克餐厅)",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于靖宇街421-425号",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黑大夜市",
+    "city": "哈尔滨",
+    "category": "food",
+    "description": "位于学府东四道街360号路口进入",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黑龙江哈尔滨太阳岛国家湿地公园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于政府大厦对面",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黑龙江省博物馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于红军街50号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黑龙江省博物馆新馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于天马街(冰雪大世界地铁站2A口旁)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黑龙江省森林植物园",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于哈平路街道哈平路105号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黑龙江省民族博物馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于文庙街25号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黑龙江省计量博物馆",
+    "city": "哈尔滨",
+    "category": "attraction",
+    "description": "位于创新二路与科技南三街交叉口西南120米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙凤旅店(哈尔滨中央大街步行街店)",
+    "city": "哈尔滨",
+    "category": "hotel",
+    "description": "位于建国街159号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

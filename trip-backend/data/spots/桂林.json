@@ -1,303 +1,81 @@
 [
   {
-    "name": "桂林市山水公园",
-    "city": "桂林",
-    "category": "attraction",
-    "description": "桂林市山水公园位于桂林市临桂区西城大道，是一座融合自然山水与人文景观的城市公园。公园内绿树成荫，湖光山色相映成趣，是市民休闲健身和游客观光赏景的好去处。公园免费开放，全天候接待游客。",
-    "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
-    ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.0
-  },
-  {
-    "name": "桂林博物馆",
-    "city": "桂林",
-    "category": "attraction",
-    "description": "桂林博物馆是展示桂林历史文化的综合性博物馆，位于临桂区平桂西路，馆藏丰富，包括文物、书画、民俗等。",
-    "tags": [
-      "科教文化服务",
-      "博物馆"
-    ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "09:00-17:00",
-    "rating": 4.5
-  },
-  {
-    "name": "桂林新区环城水系景区",
-    "city": "桂林",
-    "category": "attraction",
-    "description": "桂林新区环城水系景区位于临桂区，依托山水公园，呈现自然与人文交融的水系景观。",
-    "tags": [
-      "风景名胜",
-      "旅游景点"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "桂林飞虎队遗址公园",
-    "city": "桂林",
-    "category": "attraction",
-    "description": "桂林飞虎队遗址公园是一个以飞虎队历史为主题的公园，位于临桂区。",
-    "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "市民广场",
-    "city": "桂林",
-    "category": "attraction",
-    "description": "市民广场 是桂林的景点",
-    "tags": [],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
-  },
-  {
-    "name": "市民公园",
-    "city": "桂林",
-    "category": "attraction",
-    "description": "市民公园位于临桂区，是一个集休闲、娱乐、健身于一体的综合性公园，适合市民和游客散步、游玩。",
-    "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
-    ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天",
-    "rating": 0
-  },
-  {
-    "name": "象鼻山景区",
-    "city": "桂林",
-    "category": "attraction",
-    "description": "象鼻山是桂林的城徽，因山形酷似一头大象站在江边伸鼻饮水而得名。",
-    "tags": [
-      "风景名胜",
-      "国家级景点"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "独秀峰·王城景区",
-    "city": "桂林",
-    "category": "attraction",
-    "description": "独秀峰·王城景区是桂林市秀峰区的一个国家级风景名胜区，以独秀峰和明代靖江王府为核心，融合自然景观与历史文化。",
-    "tags": [
-      "风景名胜",
-      "国家级景点"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
-  },
-  {
-    "name": "桂林山水甲天下",
-    "city": "桂林",
-    "category": "attraction",
-    "description": "桂林山水甲天下 是桂林的景点",
-    "tags": [
-      "风景名胜"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
-  },
-  {
-    "name": "桂林市两江四湖景区",
-    "city": "桂林",
-    "category": "attraction",
-    "description": "两江四湖是指漓江、桃花江、杉湖、榕湖、桂湖、木龙湖构成的环城水系，是桂林城市中心优美的环城风景带。游客可以乘船游览，欣赏桂林山水与城市夜景的完美结合。",
-    "tags": [
-      "风景名胜",
-      "国家级景点",
-      "湖泊",
-      "游船"
-    ],
-    "avgCost": 90,
-    "duration": "2-3小时",
-    "openTime": "08:00-22:00",
-    "rating": 4.5
-  },
-  {
-    "name": "椿记烧鹅(西街店)",
+    "name": "BOOCUR CHICKEN不可炸鸡(桂林临桂万达店)",
     "city": "桂林",
     "category": "food",
-    "description": "椿记烧鹅是一家以烧鹅为特色的中餐厅，位于阳朔县西街附近，深受当地人和游客喜爱。",
+    "description": "位于临桂镇西城大道西侧,公园北路北侧西城中路16号桂林临桂万达广场1层1037B号",
     "tags": [
-      "中餐厅",
-      "烧鹅",
-      "阳朔"
+      "050300"
     ],
-    "avgCost": 80,
-    "duration": "1.5小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "椿记烧鹅(叠彩店)",
-    "city": "桂林",
-    "category": "food",
-    "description": "椿记烧鹅是桂林知名的连锁中餐厅，以招牌烧鹅闻名，肉质鲜嫩多汁，深受当地人和游客喜爱。叠彩店位于中山北路，交通便利，环境优雅。",
-    "tags": [
-      "烧鹅",
-      "桂林",
-      "美食",
-      "中餐"
-    ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.5
-  },
-  {
-    "name": "凤凰山斑鱼馆",
-    "city": "桂林",
-    "category": "food",
-    "description": "凤凰山斑鱼馆位于恭城瑶族自治县，主打斑鱼火锅和特色中餐，是当地知名的餐饮场所。",
-    "tags": [
-      "中餐",
-      "斑鱼",
-      "火锅"
-    ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.2
-  },
-  {
-    "name": "阿甘酒家(依仁店)",
-    "city": "桂林",
-    "category": "food",
-    "description": "阿甘酒家(依仁店) 是桂林的景点",
-    "tags": [],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
-  },
-  {
-    "name": "阿甘酒家(解西店)",
-    "city": "桂林",
-    "category": "food",
-    "description": "阿甘酒家(解西店)位于桂林市秀峰区解放西路16-36号一至三层，是一家综合酒楼，提供中餐服务。",
-    "tags": [
-      "中餐厅",
-      "综合酒楼"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "椿记烧鹅(金水湾店)",
-    "city": "桂林",
-    "category": "food",
-    "description": "椿记烧鹅是桂林知名的中餐厅，以烧鹅为招牌菜品。",
-    "tags": [
-      "烧鹅",
-      "中餐",
-      "桂林美食"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "阿甘酒家(中山店)",
-    "city": "桂林",
-    "category": "food",
-    "description": "阿甘酒家(中山店)位于桂林市象山区中山中路5号宜尚酒店2楼餐厅，提供正宗中餐，是当地受欢迎的餐饮场所。",
-    "tags": [
-      "中餐厅"
-    ],
-    "avgCost": 0,
-    "duration": "未知",
-    "openTime": "未知",
-    "rating": 0
-  },
-  {
-    "name": "椿记烧鹅(南溪店)",
-    "city": "桂林",
-    "category": "restaurant",
-    "description": "椿记烧鹅是一家位于桂林象山区南溪广场的中餐厅，以烧鹅为特色。",
-    "tags": [
-      "烧鹅",
-      "中餐",
-      "桂林"
-    ],
-    "avgCost": 0,
-    "duration": "未知",
-    "openTime": "未知",
-    "rating": 0
-  },
-  {
-    "name": "椿记烧鹅(万象店)",
-    "city": "桂林",
-    "category": "food",
-    "description": "椿记烧鹅是桂林知名的中餐厅，以烧鹅为特色，位于秀峰区万象城附近。",
-    "tags": [
-      "烧鹅",
-      "中餐",
-      "桂林美食"
-    ],
-    "avgCost": 80,
-    "duration": "1.5小时",
-    "openTime": "11:00-14:00,17:00-21:00",
-    "rating": 4.5
-  },
-  {
-    "name": "椿记烧鹅(北门店)",
-    "city": "桂林",
-    "category": "food",
-    "description": "椿记烧鹅是桂林备受欢迎的中餐厅，以其招牌烧鹅闻名，口味正宗，服务周到。",
-    "tags": [
-      "餐饮服务",
-      "中餐厅",
-      "烧鹅"
-    ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.5
-  },
-  {
-    "name": "隐月宾馆(桂林七星公园景区店)",
+    "name": "Club Med地中海俱乐部桂林度假村",
     "city": "桂林",
     "category": "hotel",
-    "description": "位于桂林七星区穿山乡张家园14号的宾馆酒店，靠近七星公园，提供住宿服务。",
+    "description": "位于大雁路与026乡道交界处大埠乡鱼自乐园",
     "tags": [
-      "住宿",
-      "宾馆",
-      "七星区"
+      "080401"
     ],
-    "avgCost": 150,
-    "duration": "",
-    "openTime": "全天",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "M宿源酒店(阳朔店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于石马路76号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "OYO东岸商务酒店(叠彩伏波景区建干路店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于建杆路彭家岭397号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "bamboo leaf 阳朔边城漓谷度假山庄",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于石板桥村48号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一境山房度假村(阳朔遇龙河店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于骥马村10号(近西街、千古情)",
+    "tags": [
+      "100102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "一家宾馆(桂林电子科技大学金鸡岭校区店)",
@@ -310,38 +88,2198 @@
       "桂林电子科技大学",
       "金鸡岭"
     ],
-    "avgCost": 150,
+    "avgCost": 150.0,
     "duration": "按天",
     "openTime": "24小时",
     "rating": 4.0
   },
   {
-    "name": "阳朔思安酒店(西街漓江店)",
+    "name": "一家宾馆(桂林电子科技大学金鸡岭校区店)",
     "city": "桂林",
     "category": "hotel",
-    "description": "阳朔思安酒店(西街漓江店) 是桂林的住宿地点，位于阳朔县。地址：抗战路22-6号。",
+    "description": "一家宾馆(桂林电子科技大学金鸡岭校区店)，位于金鸡路唐家里2号(电子科技大学正门对面)，七星区，类型宾馆酒店 宾馆酒店。",
     "tags": [
-      "桂林"
+      "宾馆酒店",
+      "宾馆酒店"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "全天",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "阳朔华源旅店(20元人民币风景区店)",
+    "name": "一家宾馆(桂林电子科技大学金鸡岭校区店)",
     "city": "桂林",
     "category": "hotel",
-    "description": "位于阳朔兴坪镇漓江风景区内，靠近20元人民币背景图案取景地。",
+    "description": "一家宾馆(桂林电子科技大学金鸡岭校区店)，位于金鸡路唐家里2号(电子科技大学正门对面)，七星区，类型宾馆酒店 宾馆酒店。",
     "tags": [
-      "住宿",
-      "漓江",
-      "阳朔"
+      "宾馆酒店",
+      "宾馆酒店"
     ],
-    "avgCost": 0,
-    "duration": "",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一家宾馆(桂林电子科技大学金鸡岭校区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "一家宾馆(桂林电子科技大学金鸡岭校区店)，位于金鸡路唐家里2号(电子科技大学正门对面)，七星区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一家宾馆(桂林电子科技大学金鸡岭校区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "一家位于桂林电子科技大学金鸡岭校区对面的宾馆，提供舒适住宿，适合学生及访客。",
+    "tags": [
+      "宾馆",
+      "住宿",
+      "桂林电子科技大学",
+      "金鸡岭"
+    ],
+    "avgCost": 150.0,
+    "duration": "按天",
     "openTime": "24小时",
-    "rating": 0
+    "rating": 4.0
+  },
+  {
+    "name": "一家宾馆(桂林电子科技大学金鸡岭校区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于金鸡路唐家里2号(电子科技大学正门对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七星夜市美食城",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于普陀路52号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七星景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于漓江东岸七星路1号(近龙隐小学)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万万子·茶壶小火锅(桂林东西巷店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于正阳路与解放东路交叉口东100米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三叶草矿晶文化博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于相人山路",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三毛烧烤夜市城第八分店(川东三路店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于川东三路师大附中c107号",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世纪阳光(东兴广场店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于西城南路1号花样年·花生唐6F层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东漓古村-安人亭",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于东漓古村景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东漓古村景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于大圩镇357国道旷心园南350米",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东漓古村非遗中心",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于东漓古村景区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东西巷牌坊",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于正阳路与解放东路交叉口东北20米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "两江牛佬牛八宝(东江店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于华桥饮食街一号楼一栋1、2、3、12号门面",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国岩溶地质馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于漓东街道漓东街道七星路50号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临桂仙湖路夜市美食街",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于阳光北路10号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临桂冀龙度假山庄",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于106县道与瑞宁路交叉口东北100米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乔头牛八宝·新鲜现切(阳朔江景店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于田家河桥南侧",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九屋西岭生态度假景区",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于九屋镇西岭村(西岭生态度假景区)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九马画山峡谷景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于漓江景区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仁利米粉(施家园店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于施家园路38号东江花园1-2栋7号门面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伏波山景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于滨江路27号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "优悦酒店(桂林灌阳县惠丰大厦店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于胜利路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "会仙饭店·社区小火锅(会仙路店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于会仙路18号新天地小区T01栋12-1号商铺1号2号门面",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳佳夜市",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于民乐路与燕新路交叉口西80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "依波山庄",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于112县道",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "便捷宾馆(龙胜店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于浔江北区长田路4号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兄弟夜市",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于甲山路13号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八里街夜市",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于银庄巷与川东二路交叉口东南20米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴坪古镇",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于兴坪镇新街146号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴坪古镇-榕潭佳境",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于兴坪镇新街146号兴坪古镇内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴安友谊宾馆",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于兴桂路站前街31号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴安水街客栈(兴安灵渠水街店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于灵渠北路91号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴安银座商务宾馆",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于志玲路体育馆对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰山斑鱼馆",
+    "city": "桂林",
+    "category": "food",
+    "description": "凤凰山斑鱼馆位于恭城瑶族自治县，主打斑鱼火锅和特色中餐，是当地知名的餐饮场所。",
+    "tags": [
+      "中餐",
+      "斑鱼",
+      "火锅"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.2
+  },
+  {
+    "name": "凤凰山斑鱼馆",
+    "city": "桂林",
+    "category": "food",
+    "description": "凤凰山斑鱼馆，位于恭城镇茶东路234号，恭城瑶族自治县，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰山斑鱼馆",
+    "city": "桂林",
+    "category": "food",
+    "description": "凤凰山斑鱼馆，位于恭城镇茶东路234号，恭城瑶族自治县，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰山斑鱼馆",
+    "city": "桂林",
+    "category": "food",
+    "description": "凤凰山斑鱼馆，位于恭城镇茶东路234号，恭城瑶族自治县，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰山斑鱼馆",
+    "city": "桂林",
+    "category": "food",
+    "description": "凤凰山斑鱼馆位于恭城瑶族自治县，主打斑鱼火锅和特色中餐，是当地知名的餐饮场所。",
+    "tags": [
+      "中餐",
+      "斑鱼",
+      "火锅"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.2
+  },
+  {
+    "name": "凯恩斯精品酒店(桂林火车站象山公园店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于上海路26号枫丹丽苑",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯瑞商务宾馆(中心北路店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于中心北路40号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十里画廊",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于抗战路219号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千里江山图大型水墨画打卡地",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于葡萄镇杨梅岭下村路口东南2公里",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "半塘尾夜市城",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于半塘尾161号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华天商务酒店(电子科大金鸡岭机动车驾校店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于金鸡路骏达驾校旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华莱士·全鸡汉堡(花生唐店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于临桂镇西城南路1号花样年花样城4幢1-2层38、39号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南溪山公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于平山街道中山南路2号(近将军路)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "叠彩山",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于叠彩街道龙珠路815号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古南门",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于榕荫路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "君林宾馆(桂林电子科技大学店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于金鸡路30号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "味之绝热血美蛙鱼火锅店(富城商厦店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于解放东路137号富城商厦A栋1层A-02/B-12",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "味道制造·桂林菜(七星店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于漓江路17号凯宁七星大酒店旁1-2层(入口靠近客世界)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "地中海俱乐部桂林度假村",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于愚自乐园",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "地段为王公寓(桂林西城步行街店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于西城路步行街41号1-3-2室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "地球记忆·奇妙之旅博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于德天广场一期",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(桂林市城南万达店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于西城南路1号东兴广场1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "多味香夜市城",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于六合路汇丰村委一组世纪华联超市对面",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大圩古镇",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于临江路250号漓江景区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大圩古镇-关帝庙",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于大圩古镇",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大圩古镇-故居参观楼",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于大圩古镇",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大圩古镇观景楼",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于大圩古镇",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大好河山度假基地",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于东二环路与下梁江路交叉口东440米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大师傅金奖啤酒鱼(十里画廊店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于十里画廊景区大门左边4-11号门店(阳朔高铁专线客运站对面)",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大师傅金奖啤酒鱼(壹号店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于阳朔镇抗战路3号101室",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大师傅金奖啤酒鱼(景观店)·阳朔菜",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于西街与城中路综合楼岔口处",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大师傅金奖啤酒鱼(西街口总店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于西街德业楼1-7号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大美鸡血玉博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于崇信路46号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大自然矿物晶体博物院",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于平山街道平山北路9号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天基天著米先生的家公寓(五美路1号分店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于五美路天基天著",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天成山庄-农家乐餐饮住宿",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于321国道北50米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天目地学博物空间",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于相人山路1号桂林储运总公司2号库",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "姐妹砂锅饭·夜市宵夜",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于同安村村委会东南侧",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宏发宾馆(桂林北站店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于八里街广源南路32号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "容苑民宿(阳朔西街店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于观零路26号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寰宇自然矿晶博物馆(德天广场一楼店)",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于平山街道环城南二路以南、瓦窑以西、凯风路以东德天商业广场1-8栋一层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小媳妇油茶(东兴广场店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于临桂镇西城南路1号花样年花样城1幢东兴广场2层L201-L203号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小桌子卤味螺蛳粉",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于棠梓巷7号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小清迈天空之镜店(阳朔西街龙头山码头店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于城北路9-10号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小红帽糯米饭(尚水美食街店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于依仁路麦当劳对面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山味.本地农家菜",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于抗战路153号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岩洞餐厅.天然岩洞特色菜(千古情店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于阳朔镇骥马村委铁岭厄村(骥马村八口峡)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市民公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "市民公园位于临桂区，是一个集休闲、娱乐、健身于一体的综合性公园，适合市民和游客散步、游玩。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 0.0
+  },
+  {
+    "name": "市民公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "市民公园，位于市政府南250米(万福路北)，临桂区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市民公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "市民公园，位于市政府南250米(万福路北)，临桂区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市民公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "市民公园，位于市政府南250米(万福路北)，临桂区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市民公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "市民公园位于临桂区，是一个集休闲、娱乐、健身于一体的综合性公园，适合市民和游客散步、游玩。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 0.0
+  },
+  {
+    "name": "市民公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于市政府南250米(万福路北)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市民广场",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "市民广场 是桂林的景点",
+    "tags": [],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "市民广场",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "市民广场，位于万福路，临桂区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市民广场",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "市民广场，位于万福路，临桂区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市民广场",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "市民广场，位于万福路，临桂区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市民广场",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "市民广场 是桂林的景点",
+    "tags": [],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "市民广场",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于万福路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平乐夏威夷大酒店",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于新安街滨江道79号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平乐星期八客栈(魔方大厦店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于环城街16号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平安壮族梯田观景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于839乡道和151县道的交叉口附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸福宾馆(昭州医院西)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于新安街283号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广西桂林国家森林公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于万福路6号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庄里春·山里菜(临桂万达店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于临桂镇公园北路水一坊酒吧特色街区第3幢2层1号、2号、3号、4号、5号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廖土土下饭菜(花生唐店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于临桂镇西城南路1号花样年花样城3幢1-2层22号",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张老七高汤螺蛳粉",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于兰花路29号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "彰泰公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于凤凰路与山水大道交叉口西60米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德兵夜市",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于132乡道与大兴线交叉口北80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(临桂万达店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于临桂镇西城大道西侧、公园北路北侧临桂万达一层(1055,1056)号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(桂林中山店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于中山中路33号康美大厦2F",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恭城三庙两馆景区文庙",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于拱辰西路4号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恭城帝豪大酒店",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于印山北路103号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成都老王串串香(普陀路总店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于东环市场斜对面加油站旁边",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "探食的螺蛳鸭脚火锅(富城商厦店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于富城商厦A栋三楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新郭记油茶(五美路店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于五美路4号旁(五美路与中山中路交口西北角80米处)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "方记一品干锅",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于花生唐1-22",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月双塔",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于象山街道滨江路2号两江四湖内",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月双塔文化公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于文明路榕杉湖景区内",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明园精品酒店(桂林火车站两江四湖店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于中山南路59号(桂林火车站旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明晖酒店(桂林城中心两江四湖店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于乐群路4号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星光夜市(吾悦广场店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于临桂大道9号吾悦广场桂林店F1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星玉精品客栈(阳朔西街店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于蟠桃路66号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春晓夜市",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于万和路2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景瑞时尚酒店(桂林两江四湖象鼻山店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于江东村69号(近象鼻山、两江四湖)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景缘商务宾馆(桂林两江四湖象鼻山景区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于民主路新桥园33号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朝天岭-万里江山图",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于朝天岭",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "木龙湖",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于叠彩街道东镇路24号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李宗仁官邸",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于文明路4号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李宗仁故居",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于两江镇G357国道旁",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李记阳朔啤酒鱼·1992年创立 (象山店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于南环路15号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "板板车米粉店(临江府店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于万寿巷42号临江府",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "果味香阳光烧烤夜市城(金鸡路店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于桂林航天工业学院南校区北门西100米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "枫林夜市(时代枫林店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于西城北路9号时代枫林步行街",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂临大酒店",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于东安路9号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林七星雅云居民宿",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于七星路朝阳山庄17栋1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林乡谣里",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于良环西路",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林书画批发周末夜市",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于将军路3号",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林凯旋门宾馆(火车北站店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于定江镇盈丰路25号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林千古情景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于阳朔镇骥马村千古情大道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林博物馆是展示桂林历史文化的综合性博物馆，位于临桂区平桂西路，馆藏丰富，包括文物、书画、民俗等。",
+    "tags": [
+      "科教文化服务",
+      "博物馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "09:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "桂林博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林博物馆，位于平桂西路，临桂区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林博物馆，位于平桂西路，临桂区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林博物馆，位于平桂西路，临桂区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林博物馆是展示桂林历史文化的综合性博物馆，位于临桂区平桂西路，馆藏丰富，包括文物、书画、民俗等。",
+    "tags": [
+      "科教文化服务",
+      "博物馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "09:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "桂林博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于平桂西路",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林地学博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于相人山路11号",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林壶山岩洞",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于临桂镇公园北路与宏谋大道交叉口西南100米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林天景宾馆(七星公园店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于建干里67号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林小晓家庭旅馆",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于虞山桥三联街委会六狮洲290号(漓江之星幼儿园正对面)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林山水甲天下",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林山水甲天下 是桂林的景点",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "桂林山水甲天下",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林山水甲天下，位于王城路1号独秀峰·王城景区读书岩，秀峰区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林山水甲天下",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林山水甲天下，位于王城路1号独秀峰·王城景区读书岩，秀峰区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林山水甲天下",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林山水甲天下，位于王城路1号独秀峰·王城景区读书岩，秀峰区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林山水甲天下",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林山水甲天下 是桂林的景点",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "桂林山水甲天下",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于王城路1号独秀峰·王城景区读书岩",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林市两江四湖景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "两江四湖是指漓江、桃花江、杉湖、榕湖、桂湖、木龙湖构成的环城水系，是桂林城市中心优美的环城风景带。游客可以乘船游览，欣赏桂林山水与城市夜景的完美结合。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "湖泊",
+      "游船"
+    ],
+    "avgCost": 90.0,
+    "duration": "2-3小时",
+    "openTime": "08:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "桂林市两江四湖景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林市两江四湖景区，位于杉湖北路，秀峰区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林市两江四湖景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林市两江四湖景区，位于杉湖北路，秀峰区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林市两江四湖景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林市两江四湖景区，位于杉湖北路，秀峰区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林市两江四湖景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "两江四湖是指漓江、桃花江、杉湖、榕湖、桂湖、木龙湖构成的环城水系，是桂林城市中心优美的环城风景带。游客可以乘船游览，欣赏桂林山水与城市夜景的完美结合。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "湖泊",
+      "游船"
+    ],
+    "avgCost": 90.0,
+    "duration": "2-3小时",
+    "openTime": "08:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "桂林市两江四湖景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于杉湖北路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林市山水公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林市山水公园位于桂林市临桂区西城大道，是一座融合自然山水与人文景观的城市公园。公园内绿树成荫，湖光山色相映成趣，是市民休闲健身和游客观光赏景的好去处。公园免费开放，全天候接待游客。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "桂林市山水公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林市山水公园，位于西城大道，临桂区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林市山水公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林市山水公园，位于西城大道，临桂区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林市山水公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林市山水公园，位于西城大道，临桂区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林市山水公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林市山水公园位于桂林市临桂区西城大道，是一座融合自然山水与人文景观的城市公园。公园内绿树成荫，湖光山色相映成趣，是市民休闲健身和游客观光赏景的好去处。公园免费开放，全天候接待游客。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "桂林市山水公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于西城大道",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林市永远跟党走党建文化主题公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于西城大道桂林市山水公园",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "桂林德顺德宾馆(金水湾花园境界店)",
@@ -353,9 +2291,3090 @@
       "住宿",
       "临桂区"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "全天",
     "openTime": "24小时",
-    "rating": 0
+    "rating": 0.0
+  },
+  {
+    "name": "桂林德顺德宾馆(金水湾花园境界店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "桂林德顺德宾馆(金水湾花园境界店)，位于金水路222号，临桂区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林德顺德宾馆(金水湾花园境界店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "桂林德顺德宾馆(金水湾花园境界店)，位于金水路222号，临桂区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林德顺德宾馆(金水湾花园境界店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "桂林德顺德宾馆(金水湾花园境界店)，位于金水路222号，临桂区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林德顺德宾馆(金水湾花园境界店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "桂林德顺德宾馆（金水湾花园境界店）位于桂林市临桂区金水路222号，提供舒适的住宿服务，周边交通便利，适合商务和旅游出行。",
+    "tags": [
+      "宾馆",
+      "住宿",
+      "临桂区"
+    ],
+    "avgCost": 0.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 0.0
+  },
+  {
+    "name": "桂林德顺德宾馆(金水湾花园境界店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于金水路222号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林抗战文化名人博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于飞虎路8号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林新区环城水系景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林新区环城水系景区位于临桂区，依托山水公园，呈现自然与人文交融的水系景观。",
+    "tags": [
+      "风景名胜",
+      "旅游景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "桂林新区环城水系景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林新区环城水系景区，位于临桂镇西城大道桂林市山水公园内(东侧)，临桂区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林新区环城水系景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林新区环城水系景区，位于临桂镇西城大道桂林市山水公园内(东侧)，临桂区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林新区环城水系景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林新区环城水系景区，位于临桂镇西城大道桂林市山水公园内(东侧)，临桂区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林新区环城水系景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林新区环城水系景区位于临桂区，依托山水公园，呈现自然与人文交融的水系景观。",
+    "tags": [
+      "风景名胜",
+      "旅游景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "桂林新区环城水系景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于临桂镇西城大道桂林市山水公园内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林泰隆商务酒店(火车站店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于东安街北巷6号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林海岸酒店(火车北站店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于江北街道金石一路埔顶村雅寄苑1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林源丰宾馆(桂林理工大学屏风校区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于六合路上边村14号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林灵川松湖度假山庄",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于青狮潭水库边",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林燕宾宾馆",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于瓦窑西路23号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林甑皮岩遗址博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于万福路与甑皮岩路交叉口西220米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林秀峰非遗传承体验馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于滨江路15号",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林融创文旅城",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于环城南一路21号高新万达广场正对面",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林观石堂鸡血玉博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于甲山街道甲山街道芦笛岩停车场对面",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林设计师品牌酒店(桂林火车北站恒大广场店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于站前路2号恒大广场27栋9楼907号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林运达宾馆(穿山中学职教中心店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于穿山村委7组68号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林金安特旅游酒店",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于清秀路2号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林青年主题公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于琴潭道",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林飞虎队遗址公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林飞虎队遗址公园是一个以飞虎队历史为主题的公园，位于临桂区。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "桂林飞虎队遗址公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林飞虎队遗址公园，位于临桂镇飞虎路5号，临桂区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林飞虎队遗址公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林飞虎队遗址公园，位于临桂镇飞虎路5号，临桂区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林飞虎队遗址公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林飞虎队遗址公园，位于临桂镇飞虎路5号，临桂区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林飞虎队遗址公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "桂林飞虎队遗址公园是一个以飞虎队历史为主题的公园，位于临桂区。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "桂林飞虎队遗址公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于临桂镇飞虎路5号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林鸡血玉博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于骖鸾路33号盛景大厦",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林鸿丰商务酒店",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于建干路北99号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂海碑林博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于东江街道龙隐路1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂隐厨·私房家常菜(万象城店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于华润万象山水集街区1楼s101(2号楼)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桃花岛度假村",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于潮田乡百家村",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梁雨顺牛肉牛八宝火锅",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于新东安街以南丽景公寓C座5号-6号一层商铺1-2号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "森宝精品酒店",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于世纪大道15号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(万象店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅是桂林知名的中餐厅，以烧鹅为特色，位于秀峰区万象城附近。",
+    "tags": [
+      "烧鹅",
+      "中餐",
+      "桂林美食"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "椿记烧鹅(万象店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(万象店)，位于红岭路9号华润中央公园，秀峰区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(万象店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(万象店)，位于红岭路9号华润中央公园，秀峰区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(万象店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(万象店)，位于红岭路9号华润中央公园，秀峰区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(万象店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅是桂林知名的中餐厅，以烧鹅为特色，位于秀峰区万象城附近。",
+    "tags": [
+      "烧鹅",
+      "中餐",
+      "桂林美食"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "椿记烧鹅(中山店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于中山中路2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(北门店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅是桂林备受欢迎的中餐厅，以其招牌烧鹅闻名，口味正宗，服务周到。",
+    "tags": [
+      "餐饮服务",
+      "中餐厅",
+      "烧鹅"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "椿记烧鹅(北门店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(北门店)，位于中山北路167号，叠彩区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(北门店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(北门店)，位于中山北路167号，叠彩区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(北门店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(北门店)，位于中山北路167号，叠彩区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(北门店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅是桂林备受欢迎的中餐厅，以其招牌烧鹅闻名，口味正宗，服务周到。",
+    "tags": [
+      "餐饮服务",
+      "中餐厅",
+      "烧鹅"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "椿记烧鹅(南溪店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(南溪店)，位于崇信路南溪广场北楼1层，象山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(南溪店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(南溪店)，位于崇信路南溪广场北楼1层，象山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(南溪店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(南溪店)，位于崇信路南溪广场北楼1层，象山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(叠彩店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅是桂林知名的连锁中餐厅，以招牌烧鹅闻名，肉质鲜嫩多汁，深受当地人和游客喜爱。叠彩店位于中山北路，交通便利，环境优雅。",
+    "tags": [
+      "烧鹅",
+      "桂林",
+      "美食",
+      "中餐"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "椿记烧鹅(叠彩店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(叠彩店)，位于中山北路1号精通桂林大酒店旁，叠彩区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(叠彩店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(叠彩店)，位于中山北路1号精通桂林大酒店旁，叠彩区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(叠彩店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(叠彩店)，位于中山北路1号精通桂林大酒店旁，叠彩区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(叠彩店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅是桂林知名的连锁中餐厅，以招牌烧鹅闻名，肉质鲜嫩多汁，深受当地人和游客喜爱。叠彩店位于中山北路，交通便利，环境优雅。",
+    "tags": [
+      "烧鹅",
+      "桂林",
+      "美食",
+      "中餐"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "椿记烧鹅(西街店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅是一家以烧鹅为特色的中餐厅，位于阳朔县西街附近，深受当地人和游客喜爱。",
+    "tags": [
+      "中餐厅",
+      "烧鹅",
+      "阳朔"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "椿记烧鹅(西街店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(西街店)，位于叠翠路92号，阳朔县，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(西街店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(西街店)，位于叠翠路92号，阳朔县，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(西街店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(西街店)，位于叠翠路92号，阳朔县，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(西街店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅是一家以烧鹅为特色的中餐厅，位于阳朔县西街附近，深受当地人和游客喜爱。",
+    "tags": [
+      "中餐厅",
+      "烧鹅",
+      "阳朔"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "椿记烧鹅(金水湾店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅是桂林知名的中餐厅，以烧鹅为招牌菜品。",
+    "tags": [
+      "烧鹅",
+      "中餐",
+      "桂林美食"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "椿记烧鹅(金水湾店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(金水湾店)，位于金水路1号金水湾国际大酒店2层(近机场路)，临桂区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(金水湾店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(金水湾店)，位于金水路1号金水湾国际大酒店2层(近机场路)，临桂区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(金水湾店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅(金水湾店)，位于金水路1号金水湾国际大酒店2层(近机场路)，临桂区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(金水湾店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "椿记烧鹅是桂林知名的中餐厅，以烧鹅为招牌菜品。",
+    "tags": [
+      "烧鹅",
+      "中餐",
+      "桂林美食"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "民俗街夜市",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于湘桂路与滨江路交叉口东北80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永宁州古城",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于州古城百寿镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永宁广场夜市集合店",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于福星巷与八里四路交叉口西南60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泽霖宾馆(兴安店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于双灵路43号(近秦皇路)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪荒老桂林米粉",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于象塘路二塘初级中学对面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海天肠粉",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于太平路一巷与解放西路交叉口东北角",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(万象城店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于红岭路1号桂林万象城S3层S309商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(东西巷店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于解放东路东西巷时尚风情街E组",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(桂林临桂万达店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于临桂镇西城大道西侧桂林临桂万达广场3层1F-次主2单元商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(高新万达店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于穿山东路43号桂林高新万达广场4层-4F-02、主-4F-03",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海翔宾馆(桂林电子科技大学店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于六合路92附近",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "润东酒店(万达店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于骖鸾路33号润东大厦",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渔夫人家(东兴广场店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于西城大道东兴广场6号门3-24号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘城小院(临桂店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于锦秀路1号新城国奥小区10栋综合楼1楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘山寺",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于全州镇桂黄中路66号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "源欣宾馆",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于两江镇供电所与财政所对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "满香宜(两江四湖依仁路店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于依仁路22号L1-L2商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漓江农庄·柴火鱼柴火鸡·桂林土菜",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于阳朔镇木山村田园路75号(印象刘三姐附近)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漓江冠岩风景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于草坪乡漓江中段",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漓江景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于磨盘山",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漓江景区-大圩古镇毛州岛",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于大圩古镇",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漓江景区兴坪段漓江排筏游",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于兴坪镇朝板山码头",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漓江景区大圩古镇-德福桥",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于大圩古镇(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漓江纸上烤鱼(东兴广场店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于西城南路1号花样年花样城5幢1-2层17号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "澳门酒家(临桂金贸店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于临桂镇凤凰西路金贸中心",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "澳门酒家(高新店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于环城南一路26号盛丰国际二楼",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灵川县红桥渡假园",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灵川灵鸿快捷酒店",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于八里街八里二路5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "煲正点·老广州煲仔饭(花生唐店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于临桂镇西城南路1号花样年花样城4幢1-2层36号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛哈现切火锅",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于盛业大厦一层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "状元小满新派融合菜餐厅",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于临桂镇世纪东路中段桂林奥林匹克花园12号地块11幢1层07号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "状元新派灌阳油茶店",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于世纪东路41号桂林奥林匹克花园13号地块1幢1层10-11号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "状元桥",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于临桂田心",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "独秀峰",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于王城路1号靖江王城内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "独秀峰·王城景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "独秀峰·王城景区是桂林市秀峰区的一个国家级风景名胜区，以独秀峰和明代靖江王府为核心，融合自然景观与历史文化。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "独秀峰·王城景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "独秀峰·王城景区，位于王城路1号，秀峰区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "独秀峰·王城景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "独秀峰·王城景区，位于王城路1号，秀峰区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "独秀峰·王城景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "独秀峰·王城景区，位于王城路1号，秀峰区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "独秀峰·王城景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "独秀峰·王城景区是桂林市秀峰区的一个国家级风景名胜区，以独秀峰和明代靖江王府为核心，融合自然景观与历史文化。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "独秀峰·王城景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于王城路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "猫咪博物馆·华骊茗城",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于两江大道与西二环路交叉口西北460米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉龙山庄(穿山路)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于穿山路1号5栋",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王城博物馆(广西师范大学历史文化与旅游学院)",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于王城路1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王城里舍精品酒店",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于凤北路27号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "璞食·桂北融合菜(阳朔西街漓江店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于漓岸璞闲文旅酒店1楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瓦窑小游园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于瓦窑西路与瓦窑路交叉口东南60米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甑皮岩国家考古遗址公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于平山街道甑皮岩路26号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "田源米粉(三多店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于三多路28号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "町奶奶酱汁炸豆腐(尚水美食街店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于尚水美食街",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "町奶奶酱汁炸豆腐(阳朔西街店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于城中城18号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "相公山观景台",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于兴坪镇荷包山村",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碗碗都市香米粉店(铁西店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于翠竹路14号铁西一里铁西港酒楼对面",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祝圣寺",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于灵剑路",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福云矿鑫地质博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于奇峰路北侧",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福利古镇",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于福利镇正东街168号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福星宾馆(桂林临桂店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于榕山路17号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "禾田苑(东兴广场)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于西城南路1号花年花城花生唐L101-L103号商铺",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秀峰区尊神庙夜市爱心驿",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于B5B6块安置房13栋二单元楼下右侧门面",
+    "tags": [
+      "130408"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秀峰区荷韵生态体育公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于巾山路与琴潭道西巷交叉口南360米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秋福米粉(桂林市正阳路步行街店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于正阳步行街社工巷2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "穿山公园-明月峰",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于穿山小街55号穿山景区内(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "穿山景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于穿山小街55号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "穿山景区-塔山",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于临江路250号漓江景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "簸箕塘瑶家度假楼",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于九屋镇东源村委簸箕塘",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "粽子大王(太平路店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于太平路一巷和解放西路北50米路东(近解放西路)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "精灵度假村",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于大雁路398号桂林融创海世界内(西侧)",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "糯香驿站(施家园分店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于七星区卫生和计划生育局东南门旁",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫藤客栈(阳朔西街店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于府前巷41号(阳朔镇派出所旁)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红雅堂鸡血玉博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于崇信路50号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绝味鸭脖(桂林临桂花生唐店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于西城南路1号花样年福朋喜来登酒店1层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老东江米粉(施家园路店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于龙隐路3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老乡亲酒家(兴汇城店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于临桂镇三中路6号兴汇城15幢1-3层01号",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老北京涮羊肉火锅(桂林文化宫店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于解放东路137号文化宫内富城商厦A座二楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肥螺先生·螺蛳鸭脚煲·田螺牛排·广西菜",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于社公巷6号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "能仁禅寺",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于丽君街道丽君路6号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芦笛景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于甲山街道芦笛路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花桥荣记桂林米粉(寻根店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于自由路3号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花桥虹影客栈(桂林两江四湖象鼻山景区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于自由路3号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花里旅行客栈(桂林象鼻山公园火车站店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于中山南路110-25号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荔浦荔景花园主题酒店",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于沙园路66号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝宝石酒店",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于西城路步行街9号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝山民宿(永福苏桥金城广场店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于苏桥镇迎宾路12号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虞山公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于叠彩街道中山北路70号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "觉知青年民宿(栖霞路分店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于六合路5号建干里村7号(观景酒店旁)",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "解放桥",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于解放东路与滨江路交叉口东约60米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "象鼻山景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "象鼻山是桂林的城徽，因山形酷似一头大象站在江边伸鼻饮水而得名。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "象鼻山景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "象鼻山景区，位于民主路1号，象山区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "象鼻山景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "象鼻山景区，位于民主路1号，象山区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "象鼻山景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "象鼻山景区，位于民主路1号，象山区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "象鼻山景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "象鼻山是桂林的城徽，因山形酷似一头大象站在江边伸鼻饮水而得名。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "象鼻山景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于民主路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "象鼻山观景台",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于民主路1号象鼻山景区内(西南角)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金宝夜市",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于胜利路33号西北60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金山体育公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于金山路与金水路交叉口东360米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金水公园",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于临桂镇金水路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金碧优宿民宿(阳朔西街店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于碧莲巷12号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银子岩景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于马岭小青山",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银湖宾馆(会展中心店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于漓江路一巷2号(会展中心对面,检验检疫局旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔万利祥假日民宿",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于抗战路凤鸣小区43号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔伴山花园(西街漓江店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于蟠桃路15号(西街口对面的工商银行与达芙妮鞋店之间的巷子往里20米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔华源旅店(20元人民币风景区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于阳朔兴坪镇漓江风景区内，靠近20元人民币背景图案取景地。",
+    "tags": [
+      "住宿",
+      "漓江",
+      "阳朔"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "24小时",
+    "rating": 0.0
+  },
+  {
+    "name": "阳朔华源旅店(20元人民币风景区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "阳朔华源旅店(20元人民币风景区店)，位于兴坪镇画山厄根底村漓江风景区内，阳朔县，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔华源旅店(20元人民币风景区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "阳朔华源旅店(20元人民币风景区店)，位于兴坪镇画山厄根底村漓江风景区内，阳朔县，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔华源旅店(20元人民币风景区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "阳朔华源旅店(20元人民币风景区店)，位于兴坪镇画山厄根底村漓江风景区内，阳朔县，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔华源旅店(20元人民币风景区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于阳朔兴坪镇漓江风景区内，靠近20元人民币背景图案取景地。",
+    "tags": [
+      "住宿",
+      "漓江",
+      "阳朔"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "24小时",
+    "rating": 0.0
+  },
+  {
+    "name": "阳朔华源旅店(20元人民币风景区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于兴坪镇画山厄根底村漓江风景区内",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔双月桥客栈(西街店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于阳朔县前街38号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔天籁·蝴蝶泉",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于阳朔镇马骝湾十里画廊(东南角)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔峰泉山庄(遇龙河景区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于骥马朝阳村口(麒麟山庄对面)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔思安酒店(西街漓江店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "阳朔思安酒店(西街漓江店) 是桂林的住宿地点，位于阳朔县。地址：抗战路22-6号。",
+    "tags": [
+      "桂林"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "阳朔思安酒店(西街漓江店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "阳朔思安酒店(西街漓江店)，位于抗战路22-6号，阳朔县，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔思安酒店(西街漓江店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "阳朔思安酒店(西街漓江店)，位于抗战路22-6号，阳朔县，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔思安酒店(西街漓江店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "阳朔思安酒店(西街漓江店)，位于抗战路22-6号，阳朔县，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔思安酒店(西街漓江店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "阳朔思安酒店(西街漓江店) 是桂林的住宿地点，位于阳朔县。地址：抗战路22-6号。",
+    "tags": [
+      "桂林"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "阳朔懒人堂客栈(西街店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于府前巷41号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔望江楼餐吧",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于县西街滨江路25号望江楼客栈内(府前巷与交叉口南行50米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔漓江景区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于兴坪古镇兴坪码头附近",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔田园牧歌花园度假美宿(阳朔遇龙河景区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于朝隆村8号(近遇龙河骥马码头/夏棠码头)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔罗曼尼·电玩智能影院酒店(阳朔西街店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于将军路84号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔西街",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于西街117号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔西街老门客栈",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于桂花路19号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔西遇客栈·猫小屋",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于抗战路凤鸣小区15号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔遇龙河国家级旅游度假区",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于十里画廊北入口旁",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔金色港湾客栈(西街店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于县前街18号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔随缘城西客栈(西街店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于城西路北二巷11号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔驴窝客栈",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于阳朔镇荆凤南路94号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔鸿源酒店(西街店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于凤鸣小区74号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳朔龙泉度假山庄",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于葡萄镇",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿甘酒家(七星路店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于七星路30号三里店大圆盘东方花园旁1楼餐厅(近东方花园)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿甘酒家(中山店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "阿甘酒家(中山店)位于桂林市象山区中山中路5号宜尚酒店2楼餐厅，提供正宗中餐，是当地受欢迎的餐饮场所。",
+    "tags": [
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "阿甘酒家(中山店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "阿甘酒家(中山店)，位于中山中路5号宜尚酒店2楼餐厅，象山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿甘酒家(中山店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "阿甘酒家(中山店)，位于中山中路5号宜尚酒店2楼餐厅，象山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿甘酒家(中山店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "阿甘酒家(中山店)，位于中山中路5号宜尚酒店2楼餐厅，象山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿甘酒家(中山店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "阿甘酒家(中山店)位于桂林市象山区中山中路5号宜尚酒店2楼餐厅，提供正宗中餐，是当地受欢迎的餐饮场所。",
+    "tags": [
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "阿甘酒家(依仁店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "阿甘酒家(依仁店) 是桂林的景点",
+    "tags": [],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "阿甘酒家(依仁店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "阿甘酒家(依仁店)，位于依仁路3号1层门面，秀峰区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿甘酒家(依仁店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "阿甘酒家(依仁店)，位于依仁路3号1层门面，秀峰区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿甘酒家(依仁店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "阿甘酒家(依仁店)，位于依仁路3号1层门面，秀峰区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿甘酒家(依仁店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "阿甘酒家(依仁店) 是桂林的景点",
+    "tags": [],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "阿甘酒家(解西店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "阿甘酒家(解西店)位于桂林市秀峰区解放西路16-36号一至三层，是一家综合酒楼，提供中餐服务。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "阿甘酒家(解西店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "阿甘酒家(解西店)，位于解放西路16-36号一至三层，秀峰区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿甘酒家(解西店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "阿甘酒家(解西店)，位于解放西路16-36号一至三层，秀峰区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿甘酒家(解西店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "阿甘酒家(解西店)，位于解放西路16-36号一至三层，秀峰区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿甘酒家(解西店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "阿甘酒家(解西店)位于桂林市秀峰区解放西路16-36号一至三层，是一家综合酒楼，提供中餐服务。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "随缘小馆(七星店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于环城南一路16号(穿山派出所旁)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "随缘小馆(红岭店)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于红岭路与东安路交叉口北60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隐月宾馆(桂林七星公园景区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于桂林七星区穿山乡张家园14号的宾馆酒店，靠近七星公园，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "七星区"
+    ],
+    "avgCost": 150.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 4.0
+  },
+  {
+    "name": "隐月宾馆(桂林七星公园景区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "隐月宾馆(桂林七星公园景区店)，位于穿山乡张家园14号，七星区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隐月宾馆(桂林七星公园景区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "隐月宾馆(桂林七星公园景区店)，位于穿山乡张家园14号，七星区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隐月宾馆(桂林七星公园景区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "隐月宾馆(桂林七星公园景区店)，位于穿山乡张家园14号，七星区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隐月宾馆(桂林七星公园景区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于桂林七星区穿山乡张家园14号的宾馆酒店，靠近七星公园，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "七星区"
+    ],
+    "avgCost": 150.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 4.0
+  },
+  {
+    "name": "隐月宾馆(桂林七星公园景区店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于穿山乡张家园14号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "靖江王城古城墙",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于王城路1号独秀峰王城景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "靖江王陵博物馆",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于尧山靖江王陵景区",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺心夜市",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于穿山街道六合路上边村2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "食在香乡野本地菜",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于阳朔镇抗战路74号(全友家居对面)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高峰商务酒店(桂林电子科技大学店)",
+    "city": "桂林",
+    "category": "hotel",
+    "description": "位于东二环路146号(金鸡岭路口、激光通信研究所对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(桂林临桂万达餐厅)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于西城大道西侧、公园北路北侧",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(桂林王城商厦餐厅)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于解放东路王城商厦二层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(桂林西城南路餐厅)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于临桂镇西城南路1号东兴广场1栋1层L145/L146/L147号商铺",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(桂林阳朔益田假日餐厅)",
+    "city": "桂林",
+    "category": "food",
+    "description": "位于县西街116号城中路1楼沿街1-2号铺面",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙脊梯田风景名胜区",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于龙脊镇",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙虎古镇",
+    "city": "桂林",
+    "category": "attraction",
+    "description": "位于古镇(龙虎街南)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

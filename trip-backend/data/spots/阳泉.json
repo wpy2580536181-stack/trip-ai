@@ -1,0 +1,2121 @@
+[
+  {
+    "name": "119消防主题公园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于开发区大连街与晨曦巷交叉口西50米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "1947城市记忆博物馆",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于南庄路1947阳泉记忆文化园区",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "98K烧烤小海鲜(西河滩桃南中街店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于桃南中街一巷桃南中路22号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "JH佳和民宿(秀水西街分店)",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于秀水西街27号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万家灯火泊车公园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于泉中路511号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万州烤鱼蛙(富百家时尚购物广场店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于泉中路68号富百家时尚购物广场F1层",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三矿广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于矿区三矿职工书屋斜对面正北方向90米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下岗面皮",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于阳泉市第二中学校东门东北60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下岗面皮(大阳坡店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于大阳坡七天假日酒店旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东关村平安小区文体活动小广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于大林山路与府新街交叉口东260米",
+    "tags": [
+      "140800"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东兴酒店",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于秀水东街18号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东方烤串(开发区店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于开发区天津街景林1号楼2层202、203的各一部分底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九九兴客栈",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于娘子关镇娘子关村庄地街389号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云朵cloud公寓(南外环南一巷分店)",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于南外环南一巷钢管厂宿舍6号楼钢管厂宿舍-6号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云朵民宿(白草堰店)",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于南山北路4号5楼502室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五渡湿地公园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于桃北东街下五渡",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伯特利宾馆",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于梁家寨乡大崔家庄村",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "俏蓉城成都老火锅(阳泉万达广场店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于万达广场三楼3005-3006",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "公大星光文化广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于山西公大驾驶员培训学校有限公司训练场",
+    "tags": [
+      "170200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "农小锅(阳泉奥特莱斯店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于李家庄乡奥莱·中央公园10号楼104店铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冯校长老火锅(阳泉奥莱中央公园店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于平阳东街奥莱中央公园",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘记驴肉馆(新华东街店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于新华东街阳光小区18号楼19号楼",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北山公园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于大连街111号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北山公园-西广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于大连街111号北山公园(西北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千千岁川香火锅煮(阳泉万达店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于郊区郊区郊区阳泉万达四层4025号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千租汇民宿",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于常青园巷新华西街二区6号楼3单元203室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南山公园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于上站街道南大街58号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古井公园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于泉西路与青年街交叉口东北100米",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城公园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于开发区桃源街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "呷哺呷哺(阳泉滨河新天地)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于桃北东路4号滨河新天地商业广场F1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "品菜很下饭(盂县店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于金龙西街21号2楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "唞妞豆花鱼火锅(百货大楼店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于城区德胜东街70号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四矿广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于煤山路",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "固关长城",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于娘子关镇新关村内(石太高速和307国道旁)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国防教育广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于评梅西街与平阳路交叉口西220米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城南小院",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于巨兴街28号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城市中心公园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于城区北大街70号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城沟广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于城沟路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城隈公寓(巨兴路分店)",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于巨兴路上站街道巨兴街1号清真寺旁",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塞纳广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于大连街半山公馆",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "多禾馅饼(华盛街店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于兴隆步行街",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大汖村古村落",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于大汖村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大汖温泉度假景区",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于海天线",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大阳泉古村",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于南山南路与大阳泉街交叉口西北20米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天下第九关",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于娘子关镇关城景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天主堂",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于拥军路与狮脑山路交叉口西北160米",
+    "tags": [
+      "110206"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天和道一快捷酒店",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于福寿街17号(百纺购物中心对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如家酒店(阳泉平定广阳路冠山景区店)",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于西外环路冠山逸城转盘口往西50米",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "娘子关",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于娘子关镇315省道阳泉水帘洞瀑布",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "娘子关九关依山居精品民宿",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于娘子关旅游风景区内关城景区大口街49号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "娘子关宾馆",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于315省道附近娘子关镇",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "娘子关民宿一号院(水上人家店)",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于娘子关村临泉街8号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "娘子关漫相居(关城景区店)",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于通泉路中国邮政储蓄银行南侧5米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "娘子关瀑布",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于娘子关对面河边,更接近平阳湖",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宪法广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于平阳路与新建西路交叉口东北80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宫记四通东北杀猪菜",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于新建街与桃南一巷交叉口东40米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小木屋拌饭(阳泉1947文化园店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于南庄路1947商业街1103号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小木屋拌饭(阳泉盂县粮苑店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于藏山北路75号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小河古村评梅景区",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于义井街道河小线与阳铝街交叉口南60米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小龙坎老火锅(联丰大厦A店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于联丰大厦A北门旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崖上人家民宿",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于娘子关镇娘子关村兴隆街三林棠东南40米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴蜀院子·生态老火锅(盂县店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于秀水镇秀水村(李宾山路与桃园路交汇处14号商铺)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平定冠山森林公园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于城关镇内",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平定县文化中心广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于评梅街与环城西路交叉口东南200米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平定红岩岭玉皇洞自然风景区",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于岔口乡主铺掌村红岩岭自然风景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张亮麻辣烫(阳泉华盛街店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于华盛街2号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "彩石园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于南大街与南外环路交叉口东约120米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德克士(裕兴店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于裕新苑北门东210米",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德克士(阳泉平定)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于平阳路七一广场一层德克士餐厅",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(滨河店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于北大街新天地商业广场东侧北国商城一层二层",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦沁园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于开发区大连街与晨曦巷交叉口西北50米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "扶摇树下·椒麻鲜活虾(阳泉万达店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于万达3层3052",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾叁民宿(阳泉东站滨河豪庭店)",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于新泉北路中央别院16号楼1单元",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "掌灯里老北京铜锅涮肉(宏苑一区店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于郊区开发区大连街194号宏苑一区底商",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新城森林公园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新泉观广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于小阳泉巷43号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日谭炸串",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于日谭小区东侧道路旁边4号门店炸串",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "旱喷广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于大连街北山公园内(南侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曙光小吃店(兴隆步行街店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于福寿街58号(五一照相馆旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李先生牛肉面大王(阳泉百货大楼骏怡连锁酒店店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于德胜街78号(近火车站)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柒栖智慧民宿",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于东大街平定县人民医院东升分院北1门西30米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(平定东升太阳城店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于冠山镇罗家峪商业街44号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(阳泉兴隆步行街店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于下站街道桃南东路55号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桃林沟景区",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于平坦镇桃林沟村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桃花源里休闲公园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于洪魏线",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梅子快捷酒店",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于安康家园南门东南70米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "樱花园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于阳泉市口腔医院西100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正新鸡排",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于德胜路129号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水乡人家(水上人家店)",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于315省道绵山山麓娘子关旅游景区内",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水帘洞瀑布",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于东北的绵山山麓娘子关旅游景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水神山风景区",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于孙家庄镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汇通商务会馆",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于阳泉+郊区+李荫路黄砂岩路段+,近广汽本田福银店",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沁园春休闲民宿(阳泉娘子关站店)",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于娘子关镇九公里口南200米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "油麻港·辣子鸡手擀面(山西阳泉店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于长顺街城区幼儿园(兴隆步行街店)东南侧约30米",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "法治文化广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于荫营东大街与新城大道交叉口西南100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛九门洛阳涮牛肚(阳泉泉中路店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于泉中路银龙苑底商",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(滨河新天地店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于桃北东路滨河新天地二层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深夜食堂(富百家时尚购物广场店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于泉中路68号富百家时尚购物广场F1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渝味晓宇火锅(平定店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于政务大厅后院",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "炉渣山文化休闲广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛约堡-牛肉汉堡(山西阳泉一店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于下站街道华盛街11号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牡丹园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于南山路街道南山路街道朝阳街与南山南路交汇东100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狮脑山公园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于郊区狮脑山街北",
+    "tags": [
+      "190203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狮脑山百团大战战斗遗址",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于狮脑山路与狮脑山南路交叉口东480米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瓦窑沟文体活动小广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于东大街与医院街交叉口东北240米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百团大战纪念馆",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于狮脑山",
+    "tags": [
+      "110210"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盂县佳人旅馆",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于中医院往东旧街300米右边胡同",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盂县多乐福住宿",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于东太路多乐福超市2楼(金兰超市马路对面院内)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盂县天圆公寓",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于秀水西街11号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盂县天惠酒店",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于秀水西街95号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盂县学府商务酒店",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于金龙东街中段(近二中)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盂县桃园宾馆",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于秀水东街桃园路6号(人民银行向东100米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盂县盛世梅园酒店",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于金龙街十字路口",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盂县鸿玫桂旅馆",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于孙家庄镇交孙线中国农业银行西100米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祥禾大酒店",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于烟台街与学院路交汇处(阳泉市水务局东侧)",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福源平定菜馆(兴隆步行街店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于兴隆街兴盛巷2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦门西安小馆(阳泉万达店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于万达广场4F-4051",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "积源成观湖客栈",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于娘子关内(东侧)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "竹犇番茄火锅(盛世华府店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于阳泉经济技术开发区泉中北路3号楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(阳泉万达店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于李家庄乡万达广场4层4073号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红岩岭景区",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于岔口乡主铺掌村北沟",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "羊上树涮烤联盟",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于冠山镇中都商城四楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翠枫山自然风景区",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于后峪村翠枫山",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翼德广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于阳泉市郊区行政学校附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老家肉饼(南大街店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于上站街道南大街175号(市一院对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老家肉饼(泉西路店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于深圳街(近桃河公园)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老家肉饼湘君府(湘君府店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于新华东街",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芥小胖自助小火锅(阳泉万达店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于开发区平阳东街与保晋路辅路交叉口东180米万达广场四层4075号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芳竹园火锅(阳泉八中店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于泉中路与桃源街交叉口北140米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苹果园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于苹果园巷与北大街交叉口南140米",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "藏山旅游风景区",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于十八公里处苌池镇藏山村东",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛙一刀·麻椒鱼火锅",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于嘉瑞·星河皓月南门旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜀乡小吃(大兴矿小区店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于南山公园北门西490米",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁记串串香(天桥店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于新建街85号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西来顺包子铺",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于德胜东街61号",
+    "tags": [
+      "060200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西郊村文化广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于西郊村",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观象台",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于观象台巷",
+    "tags": [
+      "120300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "评梅广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于东大街77号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金兰民宿",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于东梁乡东梁村东太路金兰超市二楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金色海洋商务会馆",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于南外环街584号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金阳都盛宴(和义居小区店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于南外环和义居小区",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳光广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于新华东街南一巷阳光家园",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳泉博艺文化广场",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于泉西路与北大街交叉口北160米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳泉小利快捷宾馆",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于新建街320号(阳泉盐业公司)西10米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳泉市博物馆",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于北大街街道泉中路1号阳泉文化中心1-2层",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳泉市建市公园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于南大街与义泉街交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳泉市郊区镇中酒店",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于荫营镇政府对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳泉景泓宾馆",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于南山南路198号(4路汽车站旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳泉桃林欢乐世界",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于平坦镇桃林沟村桃林沟景区内(西侧)",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳泉欧式风情民宿",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于桃北东街33号(居然之家旁)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳泉正达宾馆",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于南大街157号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳泉海悦大酒店",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于德胜东街310号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳泉记忆·1947文化园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于南庄路118号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳泉金鼎电竞民宿",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于兴隆步行街日日新购物广场楼上",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳泉阿杰的温馨小屋",
+    "city": "阳泉",
+    "category": "hotel",
+    "description": "位于荫营西大街北100米(坪上馨宇园)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳泉龙柱公园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于义白路与广州路交汇处西南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香岛园",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于桃北东街与桃河大桥交叉口北100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿运楼老北京露台铜锅涮肉",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于巨兴路与南大街交叉口北120米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(山西阳泉桃北店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于桃北东路滨河世纪城阳泉新天地A区1段1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(阳泉万达广场店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于平阳东街李家庄乡冯家庄新村万达广场1050B,1051号商铺",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黔味道贵州酸汤火锅(兴隆步行街店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于下站街道华盛街34号底商",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(阳泉万达店)",
+    "city": "阳泉",
+    "category": "food",
+    "description": "位于阳泉万达广场",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙潭峡谷景区",
+    "city": "阳泉",
+    "category": "attraction",
+    "description": "位于董寨",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

@@ -1,0 +1,782 @@
+[
+  {
+    "name": "1532文化产业园",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于金宝街888号",
+    "tags": [
+      "120100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "239特色街区",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于蓉花路新北宫东街交叉口北50米路西",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东苑公园",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于胜利东街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东辰宾馆(潍坊火车站店)",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于胜利西街与向阳路交叉口向南100米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国杨家埠民间艺术大观园",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于富亭街1873号(富亭街与潍县路路口西北角)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临朐鸿源旅馆",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于龙泉路7号(鑫海宾馆南邻)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤溪地万物集夜市",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于健康东街人民广场内(北侧)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北辰绿洲湿地公园",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于民主街附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十笏园",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于胡家牌坊街49号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十笏园文化街区",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于东风西街446号(东风西街与向阳路路口东北角)",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吕氏疙瘩汤·新派鲁菜(潍坊银座店)",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于胜利东街4000号银座商城(潍坊店)4F层(北2门进入向右前方走30m,扶梯上到4F可见)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "味千拉面(潍坊银座店)",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于北海路街道胜利东街4000号银座商城B1层B1-055号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "围炉谷雨俄式西餐厅(银座店)",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于胜利东街4000号银座商城(潍坊店)4F层(北2门进入向右前方走30m,扶梯上到4F可见)",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塞纳至尊铁板烧(北海路店)",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于胜利东街与北海路交叉口东北角",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大亨居宾馆(潍坊职业学院店)",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于文化路人寿保险对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大叹号烤肉·朝鲜族料理(银座店)",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于胜利东街4000号银座商城(潍坊店)3F层(北2门进入向右前方走30m,扶梯上到3F可见)",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大虞文化村",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于虞河路2662号靠近名仕花园",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天府国麻辣香锅(银座广场店)",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于胜利东街4000号银座商城潍坊店B1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奎文门",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于东关街道东风东街360号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宏鑫宾馆",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于和平街16-8号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富华上宴",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于东风东街与北海路交叉口东50米路北",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富华游乐园",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于东风东街6611号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富华肥牛(富华游乐园店)",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于高新区东风东街6611号富华游乐园西侧",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富华肥牛新润大排档火锅",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于东风东街6611号富华游乐园(东南角)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富贵春饼·烤鸭(潍坊银座店)",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于胜利东街4000号潍坊银座购物中心4楼4012铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寿光光华旅社(同祥宾馆)",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于全福元百货东新兴家具商场后面",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小湘公·辣椒炒肉(潍坊银座商城店)",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于胜利东街4000号银座商城(潍坊店)4F层(北2门进入向右前方走30m,扶梯上到4F可见)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(北海路餐厅)",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于北海路以西胜利东街以南的银座商城1层",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新兴旅馆(偶园商业街店)",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于南门大街1069号(近阜财门)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "昌乐昌安宾馆",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于方山路与孤山街交叉路口",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春天宾馆",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于岞山街道春天宾馆",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月亮湾宾馆(潍坊学院店)",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于春华苑东门北60米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潍坊世界风筝博物馆",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于东关街道行政街66号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潍坊人民公园",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于青年路29号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潍坊十笏园博物馆",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于城关街道东风西街446号(东风西街与向阳路路口东北角)十笏园文化街区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潍坊吉星旅馆",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于农业局西家属院西北门旁",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潍坊天麦宾馆",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于向阳路与人民路路口向西60米路南",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潍坊如意客栈",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于樱前街潍安路金隅园9号楼1单元102室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潍坊市博物馆",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于东风东街6616号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潍坊植物园",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于北海路与宝通街交叉口",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潍坊玉龙招待所",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于和平路77号路东",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白浪绿洲湿地公园",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于望留街道机场路与宝通西街南200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(潍坊银座商城店)",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于胜利东街4000号潍坊银座商场B1层B1-037号商铺,银座-1楼北下沉口超市出口前100米",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老友时光·Pizza(银座潍坊店)",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于胜利东街4000号银座商城(潍坊店)2F层(东2门进入直行20m,扶梯上到2F可见)",
+    "tags": [
+      "050205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(北海路银座店)",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于胜利街北海路银座商城负一层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花都安家商务宾馆",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于云门山南路云门山花园斜对面6569号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花都宾馆",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于万红大道",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虞河",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于樱前街1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虞舜公园",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛮横鸡爪煲(潍坊银座店)",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于胜利东街4000号银座商城(潍坊店)4F层(北2门进入向右前方走30m,扶梯上到4F可见)",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西北媳妇市府广场店",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于北海路健康街市府南广场凤溪地滨河步行街D15号西北媳妇特色菜",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金宝乐园",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于潍州路2477号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金马商务宾馆(栗山路)",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于秦池路5210号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫兴宾馆(潍坊金沙广场店)",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于民生西街南关派出所向北50米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钳图龙虾(潍坊银座商城店)",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于胜利东街4000号潍坊银座店F1层1089商铺",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高密东升宾馆(利群路店)",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于利群路与创业街交叉路口往北100米路东",
+    "tags": [
+      "061210"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高密宏鑫宾馆",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于柏城镇晏子路与白杨山路交叉路口东50米路南",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼酷活鱼烤鱼(银座商城店)",
+    "city": "潍坊",
+    "category": "food",
+    "description": "位于胜利东街4000号银座商城F3-00873F0013号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸢都湖",
+    "city": "潍坊",
+    "category": "attraction",
+    "description": "位于环湖路4-2号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙腾商务宾馆(利群路店)",
+    "city": "潍坊",
+    "category": "hotel",
+    "description": "位于利群路883号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

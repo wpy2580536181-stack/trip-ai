@@ -1,0 +1,2108 @@
+[
+  {
+    "name": "2048香辣虾(晋城总店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于凤台西街1026号瑞信大厦正楼下",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三米粥铺(山西晋城店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于建东巷57号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九女仙湖",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于北留镇头南村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乡村酒店",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于马圪当乡武家湾村风景区",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛子山大峡谷风景区",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于日凤线",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "儿童公园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于瑞丰路与凤台西街交叉口西北",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光谷广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于金鼎路与金匠街北角",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六一小广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于文昌西街与景西南路交叉口东北40米",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "关帝庙",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于东大街963号(职教中心社区西北)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "农民文化活动广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于康乐街与富景路交叉口西南140米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰岭森林公园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于晋城开发区东上庄立交桥北侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤台公园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于红星东街与文博路交叉口东南角市政务中心北侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "别致民宿",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于古郊乡上上河村太行1号旅游公路驴充充充电站西北80米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前进路北游园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于前进路北游园(山西省泽州县人民医院东南)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南村冶铸文化广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于鑫达街与迎宾路交叉口西北160米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南洋广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于南洋花城",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双拥主题公园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于金村镇兰花路",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古道宾馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于双底村白陉古道双底蔬菜粮油批发部西北方150米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "司徒小镇",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于北环街宇光电缆厂对面",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "司徒小镇(南门售票处)",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于自由侠轰趴小馆南侧50米",
+    "tags": [
+      "070300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "司徒小镇-千年铁魂",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于北环路与畅安路交叉口西500米司徒小镇内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "君悦湾南广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于松林街君悦湾小区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴王山森林公园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于西环路2386号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜鲜生自助小火锅(晋城新时代广场店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于凤展新时代广场7层",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "回味牛(黄华街店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于五洋小区东门南50米",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国瑞宾馆(小东河)",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于新市西街小东河55号(白云商场背后)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大十字",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于南大街86号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大碗张晋城民间菜(万品汇生活广场店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于瑞丰路1006号万品汇生活广场F1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大米刘二十九道菜",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于钟家庄街道凤台东街197号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天下第一壶广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于南村冶铸文化广场(东北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天兴言民宿",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于兰花路大岭头村水韵幸福里",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太行一号旅游公路棋子山观景台",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于赵马线",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太行一号旅游公路高老庄观景台",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于赵马线",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太行锡崖沟旅游度假区",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于锡崖沟村锡崖沟(东南角)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太行音乐公路",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于赵马线",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "姜豆豆真下饭(凤鸣店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于文昌东街1202号西面第1间",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宇民番茄火锅(新北小区店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于新北小区13号铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "客家民宿",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于金村镇金村村委会东南方350米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西蟒河国家级自然保护区",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于蟒河镇蟒河村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岁穗稻香卷饼粥(白水店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于钟家庄街道白水西街白水印象3号楼商住楼6号二层商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岁穗羊馆儿(建设路店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于城区建设路1353号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岗头村活动广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于锡溪路东30米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岚郡银河广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于畅安路附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岳氏拉面(建设路店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于城区建设路社区",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川庄毛肚火锅",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于泽州路2313号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸福如意民宿(巴原街店)",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于巴公镇巴公二村集贸北区一巷7号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开门红·湖南菜",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于泽州路湖滨花园酒店后院",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德克士(喜临门精选店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于凤台东街197号大千新时代酒店门前",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德克士(山西富景1店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于新市东街366号富景酒店1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德华兴包子铺(向阳街店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于向阳街与泽州路辅路交叉口西40米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德华兴百年晋城菜馆",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于泽州路1855号1号办公楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德源旅店",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于嘉峰镇殷庄村门楼往里200米靠左",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恩小川",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于瑞泽巷与泽州路辅路交叉口西南80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "扶摇树下·椒麻鲜活虾(晋城万达店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于钟家庄街道文峰路1518号万达广场4层4030",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "扶摇树下·椒麻鲜活虾(晋城兰花城店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于黄华街北端新市西街南侧兰花城商场负一楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文笔峰禅寺",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于迎宾街笔峰寺附近",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "时家岭公园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于钟家庄办事处时家岭社区",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "时家岭公园北广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于白水街与泽州路交叉口西南时家岭社区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城人才公园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于金石路与金匠街西北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城创客旅馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于文昌东街828号望川楼小区西四路2号(凤鸣小区斜对面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城十大碗(白水西街店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于白水西街白水印象小区2号楼5号",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城博物馆",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于钟家庄街道凤台东街1263号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城味道(红星东街店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于红星东街育泽源酒店二楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城喜福华宾馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于景西路泰森商贸区60号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城市城区千仟捞潮汕坊特色牛肉火锅",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于泽州路1032号金辇休闲楼一楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城市城区王姓公寓",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于香槟蓝山西区1号楼3单元18楼顶",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城市城区福苑酒店",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于晋韩街万苑特色小吃街2号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城市城区非遗文化广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于新市西街与下元巷交叉口东100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城泊客小栈(泽州公园店)",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于红星西街",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城法治公园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于春晖路与祥云街交叉口西南160米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城温馨旅舍",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于颐博园D区6号楼一单元1703",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城爱巢宝贝主题酒店",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于建设路1183号(红星小学南侧)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城绿皮火车青年旅舍",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于南街街道红星西街金缘小区九单元202室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城薇客时光宾馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于新市西街231号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城鑫鑫宾馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于小东河246号(市运车站背后)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋城长虹旅馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于市医院东100米文昌东街望川楼社区西四路内100米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "普惠宾馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于府后路三甲镇敬老院东北约200米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景德公园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于景德路与西大街交叉口西北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曲江世家民宿农家院",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于凌云街装饰材料批发零售西北方向60米处",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月星茶文化广场(月星商业广场店)",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于金村镇湛家村月星商业广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "有家客栈(新建南路店)",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于南城街道新建路金峰幼儿园实验部南侧50米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李先生牛肉面大王(晋城雅得利店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于黄华街大拇指购物广场一楼西北角",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "析城山",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于横河镇附近",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(矿务局店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于北石店镇畅安路岚郡银河7-11号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(高平泫氏东街店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于泫氏东街262号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "棋园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于建东巷1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "棋子山国家森林公园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于侯庄乡",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "槐店王婆大虾",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于红星西街1955号4号5号商铺",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "槐店王婆大虾(高平店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于建设南路与锦华街交叉口向南10米",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "武家湾景区",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于马圪当乡武家湾村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "武松家(陵川店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于开云街141号",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(晋城凤展新时代店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于新市西街49号凤展新时代广场7层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水杉园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于太岳街与苑北路交叉口西南180米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江江江美蛙鱼火锅",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于凤台东街109号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河滨公园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于中原街与泽州路交叉口东南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泽州公园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于凤台东街711号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泽州公园文化广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于凤台东街711号泽州公园内(南侧)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泽州宴·晋城名吃·甩饼",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于兰花路1776号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(新凤展广场店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于新市西街49号凤展新时代广场6层6001号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖滨1950咖啡厅",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于泽州路1855号",
+    "tags": [
+      "050500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖滨六号",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于泽州路1855号(市邮政局对面湖滨花园酒店1层咖啡厅)",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漢舍国贸小馆",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于东街街道泽州路与红星街交叉处(国贸酒店一楼)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潮汕坊千仟捞(万达广场店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于钟家庄街道白水东街万达广场四楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "澜湾精品酒店",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于崇文学府1号楼2号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "煲仔先生(凤翔店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于凤台西街凤翔小区恒信大厦副楼一层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊喵来了火锅(晋城兰花城店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于西街街道新市西街1308号兰花城4层4-114-12(人民广场西侧)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "物茂广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于凤台东街物茂广场(晋城)附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "物贸小吃城",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于钟家庄街道泽州路1888号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉龙潭公园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于晋城市开发区凤台东街东段",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王大妈清汤饸饹(总店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于新华南巷188号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王莽岭景区",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于古郊乡营盘村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玖玖饺子·家宴(凤西店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于南街街道凤台西街与景西路交汇处景凤苑小区3号楼1单元101商铺",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玖玖饺子·家宴(红星东街店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于钟家庄街道红星东街滨湖花园C区一号楼A段1-2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "环城火锅(环城店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于环城凯斯顿酒店辅楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "现代城商业广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于栖凤路与红星西街交叉口西60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珏山青莲寺景区",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于珏山青莲寺旅游公路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "申夫子鸡蛋灌饼(晋城建设路店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于建设路1042号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白水河公园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于泽州路与白水街交叉口东南侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百丽园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于泽州路113附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百松园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于泽州路与北环街交叉口西南360米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇城相府",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于北留镇皇城村2号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇城相府曹小霞家庭旅馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于三号隧道世纪花园小区707号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇城相府生态文化旅游区",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "程颢书院广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于北街街道北街街道后书院路与书院西街交叉口北400米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "竹犇番茄火锅(高平店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于长平西街81号(原8688小商品批发市场)二楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红豆杉大峡谷小壶口瀑布",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于马圪当乡红豆杉大峡谷内",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绣楼广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于太岳街79号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老字号烧麦馆",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于钟家庄街道上辇钟府巷110号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(晋城国贸店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于红星街与泽州路交叉口国贸大厦B国贸大厦座",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舒雅快捷宾馆(新建西街店)",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于新建西街417号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "良栖花园公寓",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于临泽村287号原北石店中心院内",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "艺苑广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于太行路90号",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芥小胖自助小火锅(晋城万达店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于钟家庄街道白水东街万达广场四层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "英雄公园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于中原街与景西路交叉口东北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西秀园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于凤台西街辅路与新华巷交叉口南220米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贾晋阳饸饹馆(皇城相府店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于皇城相府古文化街53号景区观光车旁",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵树理公园",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于文昌西街流碑亭公园附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎宾鑫惠民宿",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于崇文镇红马背村",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金凤凰广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于城区开发区城区开发区城区开发区城区开发区城区开发区凤台东街辅路与文华路交叉口西北220米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金豪商务宾馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于凤城镇水村村安康路8号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金鸿翔旅店",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于大东沟镇东沟派出所对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锡崖沟",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于锡崖沟村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳电体育广场",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于钟家庄街道钟家庄街道钟家庄街道城区城区钟家庄街道凤台东街426号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陵川金福楼宾馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于梅园西街162号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "饸饹刘(丹河新城店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于丹河新城青山街职院2段102号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "饸饹刘(凤鸣店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于文昌东街812号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "饸饹刘(建设路店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于建设路923号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "饸饹刘(物贸广场店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于凤台东街197号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高平丽然旅馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于东关正街30号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高平如意来宾馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于东关正街6号(新华书店对面500米)",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高平当代旅馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于丹河南路116号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高平恒宇旅馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于广场西东关正街38号(工商银行后巷内50米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高平昌盛昌宾馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于南城办下玉井村",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高平星光旅馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于神农北路小北庄8排4号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高平永凌旅馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于东关正街门牌5号新华书店对面诚信中学向西120米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高平盛康旅馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于东城街道太洛路274号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高平龙城宾馆",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于南城街道长晋线",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麒云民宿",
+    "city": "晋城",
+    "category": "hotel",
+    "description": "位于东关街383号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(晋城文昌东街餐厅)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于文昌东街金辇时代广场一层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(晋城新市西街)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于黄华街北街、新市西街(1366号)南侧",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黑毛沟大峡谷",
+    "city": "晋城",
+    "category": "attraction",
+    "description": "位于横水村与双底村之间",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(晋城万达店)",
+    "city": "晋城",
+    "category": "food",
+    "description": "位于钟家庄街道文峰路1518号万达商业广场室内步行街3F层3001,3002号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

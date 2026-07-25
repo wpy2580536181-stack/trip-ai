@@ -1,0 +1,2186 @@
+[
+  {
+    "name": "80城市快捷宾馆(马鞍山解放路店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于解放路48号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "MAS CAKE&BBQ",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于康嘉大景城北区18栋07-08",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "“马小白\"口袋公园·真趣园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于花山路与真趣园路交叉口西北80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "“马小白”口袋公园·康泰游园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于康泰路康泰佳苑",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "“马小白”口袋公园·珍珠广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于湖东中路739号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一番居民宿(马鞍山万达广场店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于太白大道万达公寓6栋503室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七欣天(马鞍山印象汇店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于雨山东路863号三层1516号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东华广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于慈湖河体育公园内(南侧)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东方城广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于天宝路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中央花园广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于花雨路208号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中岗社区文化广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于矿西路中岗一村",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伍子胥古道景区",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于环峰镇褒山村褒禅山景区(东北角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳山公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于湖南东路920号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "儿童公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于平湖街道湖南路14号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "儿童公园无动力乐园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于平湖街道湖南路14号儿童公园(西南角)",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光海乡记酸菜黑鱼馆(湖西路店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于湖西路翡翠城市花园11-7号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兔先生的小窝民宿(马鞍山万达广场店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于万达广场6号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八角餐酒馆",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于康泰佳苑4栋120号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "公园驿街广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于公园路与公园巷交叉口南60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六衖石头部落",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于仙踪镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冬园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于桃源路街道江东大道中段冬园红星美凯龙一楼南厅",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凌云山公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于滨河路附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凌家滩考古遗址公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于铜闸镇五联行政村凌家滩自然村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凹山地质文化公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于凹山采场",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘胖胖家常菜",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于湖东中路雨丰花园底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华城公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于慈湖河路中加·国际华城国际华城二村",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华惠宾馆(当涂八六医院姑孰路店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于姑孰镇姑孰路262号(八六医院西门旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于艳阳路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "印巷里主题餐厅(马鞍山店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于雨山路与紫霞路交叉口建设银行对面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和县望江宾馆",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于望江路望江广场",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜居城市酒店(当涂东站店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于姑孰镇青莲东路东誉城中央湖景公寓3栋2713室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大华商圈团结广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于八佰伴(马鞍山店)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大四喜·鲜牛肉火锅(马鞍山万达店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于安民街道太白大道3315号马鞍山深业华府农贸市场2F-002",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大四喜潮汕牛肉火锅(一店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于霍里街道东方城二区9栋108-109",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大四喜潮汕牛肉火锅(三店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于解放路街道蓬莱路底商-357号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大渝火锅(华海广场店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于湖东中路31号华海城市广场F2层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大隐独栋影院民宿(马鞍山万达广场店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于安民街道映翠路万达公寓4栋1816号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天空之境",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于石臼湖东湖村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太湖山国家森林公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于铜闸镇",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宇杰宾馆",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于大江南路与塔岗西路交叉口西南60米",
+    "tags": [
+      "060200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安工大饼",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于湖东路一村东门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安徽大青山野生动物世界",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于太白镇永宁村花山",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富甲一方(康嘉大景城店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于桃源街道康嘉大景城6栋56号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小九华",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于船江大道与沿江大道交叉口东480米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小九华寺",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于采石镇",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小程面馆(珍珠园店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于艳阳路2一1",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小蓝书民宿(皖江工学院马鞍山理工学院店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于霍里山大道中段恒泰达观天下6栋14层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小赵面馆(佳山路店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于佳山路445-2号(保健医院对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小赵面馆三店(师苑路店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于平山新村23栋师苑路",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山中无老虎鱼蛙火锅(马鞍山店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于东晖路与华城北路交叉口西南100米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山水假日宾馆(提署路店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于姑孰镇提署中路446号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山缓缓火锅(马鞍山金鹰店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于马鞍山金鹰购物中心7楼电影院旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川中渝夫火锅(万达广场店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于太白大道3200号万达广场F3层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川中渝夫火锅(当涂振兴广场店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于广场中路",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市政公园酒店",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于太白大道2008号行政中心7号楼",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庐员外豆浆油条(康嘉大景城店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于朝晖东方城2区2栋106",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康乐游园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于康乐路与师苑路交叉口东北120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "当涂县惠民宾馆",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于经济开发区滨江小区三期",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "当涂县青柠栖息民宿",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于太白镇永宁村花山自然村52号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "当涂栖居城市HOMEFUNPARK·SOULMATE阳台湖景影音酒店(高铁东站店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于青莲东路东誉城三号楼25楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "当涂清风民宿",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于G4221沪武高速出口与三联路交叉口西80米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "当涂花岛民宿",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于江心乡吉余村吉二片自然村222号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "当涂酒家(雨丰花园店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于湖东路与采秣路交叉口雨丰花园南门11-104、105、106号门面房",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "当涂顺天快捷宾馆(大润发店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于姑孰镇青莲路青莲花园5栋1号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "彭计跳跳蛙(马鞍山总店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于桃源路街道湖东南路115号康嘉大景城",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐小厨新桥砂锅麻辣烫(和泰商业广场店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于和泰国际花园北门西100米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德化堂中国古床博物馆",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于九华路与康乐路交叉口处(东湖公园南门)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(马鞍山万达店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于安民街道太白大道3200号万达广场一楼",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(马鞍山新一城店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于雨山东路863号01-2-14号铺位",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怀远李记药膳鸡火锅",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于雨韵阁北门东60米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悠佳民宿(万达公寓店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于安民街道太白大道3200号万达公寓4栋2115室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦色轻奢民宿",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于万达公寓4栋1217室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈湖河体育公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于慈湖河路与旅游大道交叉口东北120米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾光名宿(马鞍山万达店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于太白大道3200号万达广场6号楼618室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春盛船家菜(大苏果店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于雨山街道雨山西路499号润佳购物广场F1003-F2001、F2002",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景澜广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于红旗北路99号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "智晴多肉民宿",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于环峰镇李家寨自选超市东20米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼迪新健康广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于中冶华天大文商座对面",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朗雅汇火锅龙虾烤肉(珍珠园店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于紫霞路珍珠园6村17栋1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱然家族墓地博物馆",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于朱然路18号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱然文化公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于雨山街道花园路与湖西路交叉路口",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李白文化园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于太白镇太白村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李达叔渣肉蒸饭(老八中店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于安徽工业大学附属中学东门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柚居·美宿(马鞍山万达店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于太白大道万达公寓4号楼1104",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "格林豪泰(马鞍山红旗南路蒙牛乳业店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于红旗南路与九华西路交叉口",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "格林豪泰智选酒店(马鞍山市采石矶公园万达广场店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于红旗南路鸳鸯三村20栋101号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "格豪酒店",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于湖南西路与湖西中路交汇处华东宁泽园11栋",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梁记粥铺(雨山路店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于雨山西路苏果超市东200米路南(安基大厦旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梅山公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于阳湖公园(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欣辰假日宾馆",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于巢宁路与龙潭北路交叉口西130米路北",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永一馨宾馆(马鞍山师范蒙牛工业园店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于映翠二村32栋108",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "法治广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于微山路与雨韵路交叉口北140米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(亲子主题金鹰店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于湖南西路8号金鹰购物中心6楼TF6-04",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(印象汇店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于雨山东路863号印象汇购物中心三楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清沐连锁酒店(马鞍山湖东北路体育馆店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于湖东北路1000号市体育馆东门斜对面",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清沐酒店(马鞍山二十二中市政府店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于康乐路46号(康乐路工行旁,师苑小学对面)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清沐酒店(马鞍山雨山西路华润苏果店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于安基大厦北门旁",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖·小隐城市酒店(马鞍山万达店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于太白大道3200号万达广场F8层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滇豌豌·云南铜锅米线·出自云南(金鹰佳山新村店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于湖东路街道佳山新村23栋103号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨江公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于采石镇唐贤街1号采石矶内(北侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "濮塘国家度假公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于濮塘老街与白母园路交叉口东100米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "濮塘怪坡",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于001县道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烟墩山文化遗址公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于九华东路与平山路交叉口西北220米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爷爷家的粥铺(当涂店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于姑孰镇振兴路226号商业楼101.102.112号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王家山孙记炸鸡腿(王家山路店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于王家山路朱家塘22-23栋1号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王富贵鲜货老火锅(新亚巷子店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于佳山新村33栋103室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珍珠游园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于华飞路与艳阳路交叉口东北100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "画里影宿(马鞍山华海3C广场店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于湖东路街道湖东路华海3C城市广场3栋724室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百分之栖民宿(华海广场店)",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于湖东北路华海3C广场3幢5层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛鲜生杀猪粉",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于瑞慈花园7栋110号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧云天广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于花山经济开发区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福旺季潮汕鲜切猪杂粥觅味馆(花山店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于佳山路桃园街道明都财富广场1-121号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秀山湖广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于汇金国际金融中心2号楼江东控股集团",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翠螺湾",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于唐贤街1号采石矶风景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翡翠盛宴",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于太白大道3980号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老乡鸡(雨山路店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于雨山路花园村5栋15号16号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老乡鸡(马鞍山市和泰国际广场店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于军民路与花园路交叉口和泰国际花园5幢106-108铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老家私房菜(名雅居店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于纺织新村16-1栋底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老陕面馆(春晖悦府店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于春晖悦府南门西80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肥牛先生(马鞍山店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于江东大道中段辅路与梅园路交叉口西北20米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(马鞍山欧尚店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于雨山路与江东大道交叉口大润发超市一楼",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖胖糊休闲小吃(明都财富广场店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于佳山路明都财富广场内(南侧)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡氏金湖龙虾大牌档(师苑路店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于桃源路街道师苑路纺织新村28栋",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡氏面馆",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于振兴南路198-199号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "致知园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于印山西路36号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "节庆广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于湖西南路附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芦塘生态公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于朱然路与映翠路交叉口东南140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花鸟市场大肉饼",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于团结路4号1栋15号门面房",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣悦荟洋房火锅黑珍珠店",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于创客加文化47栋",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙原聚主题火锅(华联店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于湖南东路1122号-101华联商厦五楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蔡老五面馆(泰和文苑店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于健康路泰和文苑11栋104号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜗牛尾",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于唐贤街1号采石矶风景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "褒禅山景区",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于环峰镇褒山村",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西楚霸王灵祠",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于乌江镇",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵大东北菜馆(康嘉大景城店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于康嘉大景城6栋47号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "超凡电竞酒店",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于环峰镇锦绣华城A区7号楼1018",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "运漕古镇",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于运漕镇西沿河街洪义泰码头",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "采石古镇(采石横江苑)",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于九华西路2333号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "采石矶",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于采石镇唐贤街1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "采石矶-马鞍山太白楼",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于采石镇唐贤街1号采石矶内(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "采石矶景区北广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于采石镇唐贤街1号采石矶内(西侧)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金域城大酒店",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于太湖山南路阳光世纪城西门",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阅见时光餐厅",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于文化广场路与太白大道交叉口东220米",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳湖公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于阳湖大桥西北方向",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿峰面馆",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于师苑路纺织新村28栋116号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雨山公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于花雨路西起点",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雨悦广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于花雨路123号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雨田广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于雨山西路1258号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "霍里山公园广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于马向路1467号霍里山公园(东北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "食肆(康泰佳苑店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于康泰路与印山西路辅路交叉口东北140米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香樟假日酒店",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于姑孰镇棉纺路与东营路交叉东营社区综合楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马小白口袋公园·南湖体育公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于紫霞路与花雨路交叉口东北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马小白口袋公园·暗香苑",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于雨山西路312号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马鞍山和平旅店",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于菊园路中岗二村十二栋西",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马鞍山市二零五老面馆",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于佳山路",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马鞍山市博物馆",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于太白大道2006号1栋",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马鞍山市政公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于花园路与太白大道交叉口东160米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马鞍山市文化广场",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于太白大道2008号市政公园附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马鞍山新空间精品宾馆",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于江南御花园1村37栋110号(江东大道旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马鞍山沙塘宾馆",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于沙塘路1号人民医院对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马鞍山润鑫宾馆",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于马鞍山沙塘路26栋人民医院对面巷内",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马鞍山遇见民宿",
+    "city": "马鞍山",
+    "category": "hotel",
+    "description": "位于安民街道太白大道3200号万达广场4号楼103室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魔石泡泡鱼(当涂店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于姑孰镇镇东营路312号(华润苏果斜对面)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魔石泡泡鱼(解放路店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于解放路19号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸡笼山国家森林公园",
+    "city": "马鞍山",
+    "category": "attraction",
+    "description": "位于巢宁公路北侧",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(马鞍山万达广场餐厅)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于太白大道3200号万达广场1层1038、2038、2039号",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(马鞍山湖东路餐厅)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于湖东南路与湖南西路交叉口大华国际广场1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(马鞍山金鹰店)",
+    "city": "马鞍山",
+    "category": "food",
+    "description": "位于湖东路街道湖南西路8号金鹰国际购物中心A07层F7011",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

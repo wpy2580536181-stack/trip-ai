@@ -1,0 +1,782 @@
+[
+  {
+    "name": "CP CAFE 巢植",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于海关南路东堤新都商业楼5栋1-4号",
+    "tags": [
+      "050500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "Hunter猎人(东堤新都店)",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于海关南路6号东堤新都商业楼5栋二楼",
+    "tags": [
+      "080304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三友大酒店",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于朝阳西路51号(靠近汽车站)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东化商务宾馆",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于屏山大道413号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东堤旅游码头",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于百里柳江旅游景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东村土菜馆",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于桂中大道南端2号阳光100城市广场10栋1-2-3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东篱田居(嘉逸财富大厦店)",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于晨华路嘉逸财富大厦A座3层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二间田村寨文化特色土菜馆(阳光100店)",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于桂中大道南端2号阳光一百城市广场26栋5楼",
+    "tags": [
+      "080304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于五一路8号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "今晚没老板烧烤吧(兆安店)",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于桂中大道南端10号兆安现代城57栋103部分",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "优程八桂酒店(柳州龙潭公园店)",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于柳石路330号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兆笙酒店-观景餐厅(兆安大厦店)",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于桂中大道南端8号兆安大厦24楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴国宾馆",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于基隆开发区兴国大道80号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "原生土味坊(阳光100店)",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于晨华路阳光100城市广场10栋2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉州北顺烧鸭粉",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于阳光壹佰城市广场8栋1-13号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和贵宾馆(柳州五星步行街店)",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于八一路19号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(柳州市城中阳光100店)",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于桂中大道南端2号阳光壹佰城市广场25栋1-6号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天开假日酒店",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于屏山大道339号金利达大厦1层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开心吧(阳光店)",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于桂中大道南端2号阳光壹佰城市广场26栋第一层1-11-2",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德镁宾馆(柳南万达店)",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于航一路5号2栋6号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "旺和旅馆",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于映山街22号999时装城二楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳侯公园",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于文惠路60号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳侯祠",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于文惠路60号柳侯公园内(南侧)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳宗宴(柳宗元餐饮活态博物馆)",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于蟠龙路218号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州博物馆",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于解放北路37号(柳侯公园对面)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州回家酒店(马鞍山公园谷埠街国际商城店)",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于文笔路18号兴业大厦F1层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州城南旅社(广西商业工艺美术学校店)",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于白莲街道一区39号城南旅社",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州大发旅社(燎原路小学白云小区店)",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于燎原路东一巷49号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州工业博物馆",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于柳东路220号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州市河东公园-市民广场",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于市民广场(文昌路北170米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州恒生宾馆(龙潭公园店)",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于柳石路119号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州意通宾馆(广西机电技师学院店)",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于屏山大道287-7号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州文庙",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于夫子路8号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州祥兴明净酒店",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于柳石路266号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州老渔村(阳光100店)",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于潭中街道桂中大道阳光100城市广场26栋乌托邦音乐城一楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州马鹿山奇石博览园",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于潭中街道潭中街道东环大道272号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂柳宾馆(马鞍山公园柳州职业技术学院店)",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于西江路16号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欢腾苗寨",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于柳东路220号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正和宾馆(中杨路西一巷)",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于南环路338号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江滨公园",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于驾鹤路82号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瑞安公园",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于东城路与瑞安路交叉口东北100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百里柳江旅游景区",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于潭中街道东堤旅游码头",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "益茂宾馆(柳州河东经济开发区凤凰岭大桥店)",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于桂中大道89号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石尚1966文化艺术园区",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于柳东路226号",
+    "tags": [
+      "120100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "窑埠古镇",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于蟠龙路9号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "窑埠古镇A区",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于蟠龙路与柳东路交叉口西北100米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(恒隆汇店)",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于瑞安路2号一层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "艺佳明园宾馆",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于跃进路东二巷16号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "螺螺大方鸭血螺蛳粉(柳州总店)",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于瑞安路2号恒隆广场一层肯德基旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "谷埠宾馆(柳州汽车总站店)",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于谷埠路11号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赖姐私厨(乌托邦店)",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于桂中大道2号阳光100城市广场26栋乌托邦音乐城1楼9号店铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闻厨喜湛(嘉逸财富店)",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于潭中街道晨华路10号嘉逸财富大厦B座3楼3-2号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闽居商务酒店(柳州五星步行街店)",
+    "city": "柳州",
+    "category": "hotel",
+    "description": "位于飞鹅二路谷埠街国际商城K1 C区一层",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雀儿山公园",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于雀儿山路5号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷记.潮汕雪花牛火锅",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于桂中大道南端6号九洲国际1-91-10",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马鞍山公园",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于天马街道屏山大道178号(近鱼峰公园)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马鹿山公园(临时综合避难所)",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于东环大道与高新一路交叉口东北200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼峰公园",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于天马街道鱼峰路59号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(兆安现代城店)",
+    "city": "柳州",
+    "category": "food",
+    "description": "位于桂中大道88号兆安现代城49-50栋北面1-1商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙潭公园",
+    "city": "柳州",
+    "category": "attraction",
+    "description": "位于龙潭路43号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

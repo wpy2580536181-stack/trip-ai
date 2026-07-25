@@ -1,0 +1,2212 @@
+[
+  {
+    "name": "139记忆公园",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于东三角巷与安宁东街交叉口",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "1919玫瑰的餐厅",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于晋华纺织厂",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一诺铜火锅(大学城店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于新建北路聂村别墅区2排2号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌金山国家森林公园",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于河沙沟东",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌金山狂欢谷",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于乌金山国家森林公园内(北侧)",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乔家大院",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于东观镇乔家堡村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乡正宾馆",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于友谊西路19号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二郎庙",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于北大街",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云竹湖(云簇湖)旅游度假区",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于河峪乡",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "享月汤皇·菌汤火锅(山西晋中店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于晋中经济开发区定阳路121新晋世家二楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人在北方菜馆",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于古陶镇南大街98号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳玉宾馆",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于轻院巷26号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "使赵文化广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于榆次区经济开发区使赵村",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "使赵门楼",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于使赵街与汇通北路交叉口西60米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "信義久饭店(一店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于南大街169号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "傅山广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于乌金山镇高校园区大学街121号山西中医学院南门",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "全盛园•老榆次菜馆(郭家堡店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于顺城西街柳东北街1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兰姐客栈",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于杨家庄文昌巷12号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兰州牛肉拉面(阳光写字楼店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于西南街道顺城街68号阳光写字楼F1层",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "农家福客栈",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于东观镇乔家大院停车场北",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千里飘香麻辣烫麻辣拌(锦纶路店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于锦纶路波达快捷酒店旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千里飘香麻辣王(榆次总店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于正太北路55号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华莱士·全鸡汉堡(榆次市商贸城店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于西南街道中都路45号2幢",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双林寺",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于双林正街28号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴记平遥碗砣(东湖井商城店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于文化街22号东湖井商城F1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜家德虾仁水饺(天美杉杉奥莱店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于晋中经济开发区龙湖大街1055号天美杉杉奥特莱斯广场F3层A-308号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(晋中市恒基城市广场店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于西南街道中都路85号同心桥南侧90米摩登美容美发一楼商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夏雨园",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于汇通路辅路与蕴华街交叉口北60米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大乘寺",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于府兴路225号榆次老城(东南角)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大众旅店(南尧西街店)",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于南尧西街145号(万博数码港巷内)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天主堂",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于新天地q区20号",
+    "tags": [
+      "110206"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天麟串串香",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于新集街138号",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原师范学院聚华广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于乌金山镇乌金路(太原师范大学)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原理工大学明向校区银杏广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于大学街209号太原理工大学(明向校区)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太谷时光印宾馆",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于大威村南大街15号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太谷星晴驿站",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于大威村致富路21号农业大学信息学院",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太谷端梅花园酒店",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于大威村南大街20号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太谷龙源宾馆",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于太洛路133号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好运来宾馆(聂村店)",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于新建北路聂村别墅区八排6号好运来宾馆",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安心羊汤馆(原侯家羊汤二部)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于恒信便利店里两店相通长城药店同心桥店",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "家琪旅馆(新建西路店)",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于绵山风景区新建东路火车站对面(中仁大酒店后)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于汇通北路191号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚得厅堂",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于晋华街33号原旧晋华纺织场院内23号库",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西医科大学-生命之源广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于乌金山镇大学街98号山西医科大学中都校区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西小胖面馆(总店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于西南街道新华街336号晋华199园区东侧9号库房",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西灵石王家大院",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于静升镇静升村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岭上公园",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于顺城东街东盛花园西院对面",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "工人俱乐部-迎宾广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于菜园西街二巷与菜园西街交叉口西北100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市楼",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于古城街道明清一条街",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平遥古城",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于古城街道",
+    "tags": [
+      "110201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平遥古城-平遥县署",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于平遥古城内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平遥古城墙",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于西大街和西马道街的交叉口附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平遥文庙",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于文庙街17号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平遥春来旅馆",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于中都路(火车站西侧200米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平遥永泰长客栈(平遥古城市楼店)",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于平遥古城明清街68号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平遥益兴和客栈",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于古陶镇北城村惠风路28号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平遥缘来居客栈(平遥古城店)",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于平遥北大街141号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平遥鑫德居客栈",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于古城外",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庙前广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于俞家街府兴路228号榆次城隍庙内",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张亮麻辣烫(恒基广场店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于中都路45号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张壁古堡",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于龙凤镇张壁村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德克士(君豪·国际商城店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于东顺城街君豪国际商城1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德福楼饭店(平遥古城店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于古城街道南大街66号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(中都店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于顺城街粮店街69号",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(晋中奥莱店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于榆次区开发区龙湖大街北侧、龙田路西侧天美杉杉奥特莱斯综合商业体一层",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "我们吧住宿(晋中太谷农业大学店)",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于杨家庄二队康乐巷4号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "扶摇树下·椒麻鲜活虾(定阳万达店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于定阳路与仁和街交汇处定阳万达广场4层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于机械园南街与高村路交叉口西80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新巨龙广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于汇通路辅路与迎宾西街交叉口北160米",
+    "tags": [
+      "120000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日昇昌旧址",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于内西大街38号(中国票号博物馆内)",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "昔阳迎宾旅社",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于迎宾路B区(中国电信营业厅旁)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋中佳人主题酒店(理工学院店)",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于张庆乡红马营村303号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋中佳苑宾馆",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于村南街53号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋中兴旺旅馆",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于轻院巷23号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋中大象主题酒店",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于新建北路聂村别墅区4排2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋中市博物馆",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于广安街188号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋中惠民宾馆",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于张庆乡红马营村晋中站南100米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋中新丽旅店",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于岭南街22号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋中菲菲时尚主题酒店",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于大学城聂村别墅区8排8号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋中西客栈(山西医科大学店)",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于乌金山镇聂店村佰川聚亿文化传媒公司西南50米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋华1919·中国营造大坊",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于新华街与商贸巷交叉口西100米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋商公园东区",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于凤翔街晋商公园(东侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋商公园中区",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于凤鸣街晋商公园(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋商公园西区",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于晋商公园内(西侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋商文化广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于迎宾西街109号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋堡广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于柳西西三巷与经纬北路交叉口东360米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "村职书铁锅炖(榆次5店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于东华世家西区东门旁",
+    "tags": [
+      "050113"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柿子树住宿",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于杨家庄庙巷1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂满堂烧麦馆·大同宴(雅园店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于安宁街530号雅园西区A座底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "榆次文化广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于顺城街文化中心",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "榆次桃花面",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于制氧厂宿舍东门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "榆次老城",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于府兴路225号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "榆次老城-县衙广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于小井巷与抽头巷交叉口南240米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "榆次老城-文庙广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于榆次老城-文庙(西门巷)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "榆次老城-榆次县衙",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于西南街道府兴路225号(榆次老城内)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "榆次老城-榆次城隍庙",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于府兴路225号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "榆次老城北门小吃街",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于榆次文化中心后面",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正新鸡排(晋中晋财店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于中都路45号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "武庙",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于书院街51号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(晋中万达店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于新建北路556号晋中万达广场4楼4052号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉堡王(晋中汇通风情)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于定阳路汇通风情商业广场3号楼109号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沾六串(新天地时尚购物广场店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于新天地步行街k区",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浪上鲜炭火边炉",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于安宁街雅园西区底商浪上鲜",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(晋中无限城店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于晋中开发区大学城产业园区龙湖大街998号6幢4层10401室-1",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(晋中漫乐城夜宵主题店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于榆次区经济技术开发区定阳路739号漫乐城南里四层401号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海盗传奇水世界",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于修文镇西郝村凤栖大街潇河湿地公园南岸海盗传奇玩水公园",
+    "tags": [
+      "080505"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潇河动物园",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于汇通南路601号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潇河带状公园",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于南关路西50米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潇河文艺小镇",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于西郝村潇河幸荣桥北50米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潇河湿地公园",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于潇河莲花湾(西南角)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潇河湿地公园(D区)",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于潇河湿地公园内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潇河湿地公园A区",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于潇河湿地公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潇河湿地公园B区",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于潇河湿地公园内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潇河湿地公园C区",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于潇河湿地公园内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潇河莲花湾",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于锦东大道潇河文艺小镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潇河莲花湾体育公园",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于潇河莲花湾(西南角)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潘记桃花面",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于东大街101号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灵石翠庭苑民宿",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于翠庭苑民宿",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊喵来了火锅(晋中天美杉杉奥莱店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于龙湖大街1055号天美杉杉奥特莱斯A-134号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熙来遥晋菜",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于西大街87号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱巢主题公寓",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于大威村直走400米左转(雅典娜后面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "状元楼老平遥铜火锅",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于古城街道南大街25号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉悦美宿酒店(晋中介休店)",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于韩屯村兴民街88号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉湖公园",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于校园路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珊珊花样馒头(新天地时尚购物广场店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于新天地步行街A区20号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瑞云镇礼宴中心",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于新华街336号晋华1919园区",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百膳囍",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于古城南大街81号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百草坡森林植物园",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于安宁东街东首",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "社火公园",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于迎宾西街晋商广场南侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祁县江海宾馆",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于昭馀镇西环南路23号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福晋广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于柳西西四巷",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "站前公园",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于站南路附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "竹犇番茄火锅(榆次店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于新建街道362号安宁商贸中心B座B1-1,B2-1,B2-2,B2-3",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(天美杉杉奥莱店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于龙湖大街1055号天美杉杉奥特莱斯广场2楼室内馆食美汇1号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "粥棚1号(老城店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于新集街安居小区1号楼4、5号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红崖峡谷景区",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于小柏沟村东",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "经纬公园",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于经纬街道经纬路150号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绵山农家庄园",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于绵山景区售票处200米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绵山风景区",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于南槐志村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "罗曼主题酒店(晋中山西大学城店)",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于新建北路聂村别墅区四排四号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老城遗园",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于府兴路225号榆次老城内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老赵家山西铜火锅",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于南大街112号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聂店惠民文化广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于聂店中心小学西南侧250米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(榆百店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于粮店街69号",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芙蓉酒楼(榆次顺城店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于顺城街6号市政府对面",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芥小胖自助小火锅(定阳万达店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于安宁街道仁和街536号万达广场1层1031",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花樵扔祉莲广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于花巨型国王婉毋艺东北侧220米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茶遇迹菜场火锅",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于安宁街站北路",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "董记炒碗托(裕成源店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于平遥古城衙门街41号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "薛二飞面馆城南店",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于南外环201号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "许府牛火锅(山西晋中榆次印象城店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于晋华街道安宁街290号印象城第F4层L4022-1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "谷养元八宝粥家常菜(平遥店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于春蕾路72号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "路易港海鲜姿造火锅(宏顺东苑店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于朝阳路283号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "轻纺美苑公园",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于安宁街道迎宾街113号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎宾绿苑",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于锦纶路迎宾街十字路口",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎宾路中心广场",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于迎宾街92号工人俱乐部(东北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎薰公园",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于照壁南街58号平遥古城内",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野人谷",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于026乡道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金绣源粥品专家(太谷店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于御锦华府10-2",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫隆宾馆(榆次店)",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于堡新街二巷12号(巷子里)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫颖住宿",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于杨家庄村聚富巷22号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雅馨苑民宿(太谷山西农业大学店)",
+    "city": "晋中",
+    "category": "hotel",
+    "description": "位于杨家庄村文昌巷22号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺城公园",
+    "city": "晋中",
+    "category": "attraction",
+    "description": "位于顺城街与府兴路交叉口西北100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺溜·山西刀削面(大学城店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于大学城万科朗润园生活广场A3-112号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(无限城店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于新建街道龙湖大街950号无限城F栋2楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(晋中田森汇店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于定阳路739号晋中漫乐城F1层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(榆次文化广场店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于顺城街文化广场魏斯理汉堡",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹿家烤肉餐厅",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于新华街336号晋华1919水塔西侧",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(大学城田森汇店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于大学城田森汇广场北里中廊桥1层北侧",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(晋中万达店)",
+    "city": "晋中",
+    "category": "food",
+    "description": "位于定阳路580号万达广场晋中定阳店F3层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

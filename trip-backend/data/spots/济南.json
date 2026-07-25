@@ -1,33 +1,120 @@
 [
   {
-    "name": "山东博物馆",
+    "name": "300+海鲜串店(奥体中心店)",
     "city": "济南",
-    "category": "attraction",
-    "description": "山东博物馆是山东省最大的综合性博物馆，收藏有大量珍贵文物。",
+    "category": "food",
+    "description": "位于经十路济南奥林匹克体育中心商业区3002-1",
     "tags": [
-      "博物馆",
-      "文物",
-      "文化"
+      "050100"
     ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "09:00-17:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "百花公园",
+    "name": "Bruce’s Pizza布鲁斯披萨(山师东路店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于文化东路79号山东电影洗印厂院内西北角",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一品香重庆小面馆",
+    "city": "济南",
+    "category": "food",
+    "description": "位于七里山南村一区15-1昆仑汇通气站南邻周一至周六营业周日全天不营业",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万象城下沉广场",
     "city": "济南",
     "category": "attraction",
-    "description": "百花公园位于历城区闵子骞路10号，是一个集自然景观与休闲娱乐为一体的城市公园，园内花木繁多，环境优美。",
+    "description": "位于姚家东路与姚家路交叉口东南约160米",
     "tags": [
-      "公园",
-      "休闲",
-      "风景"
+      "110105"
     ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "全天开放",
-    "rating": 4.3
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下沉广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于舜泰广场6号楼(舜泰广场地铁站A2口步行320米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东舜赶海·渔家菜(奥体店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于龙奥北路济南奥林匹克体育中心体育场A-106",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五岳宾馆(济南张庄路店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于张庄路老屯村494号(老屯地铁站A口步行310米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五龙潭公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于筐市街18号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛慧山北门广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于旅游路与千佛山东路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "儿童友好公园",
@@ -39,55 +126,106 @@
       "儿童友好",
       "风景名胜"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "1-2小时",
     "openTime": "全天",
     "rating": 4.5
   },
   {
-    "name": "葫芦顶公园",
+    "name": "儿童友好公园",
     "city": "济南",
     "category": "attraction",
-    "description": "葫芦顶公园 是济南的景点",
+    "description": "儿童友好公园，位于礼耕路和大辛河路口东北侧,历下区韶光小学对面,燕山新居西北角，历下区，类型公园广场 公园。",
     "tags": [
-      "风景名胜",
       "公园广场",
       "公园"
     ],
-    "avgCost": 0,
-    "duration": "未知",
-    "openTime": "未知",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "天下第一泉景区",
+    "name": "儿童友好公园",
     "city": "济南",
     "category": "attraction",
-    "description": "天下第一泉景区位于济南市历下区，是以趵突泉、大明湖、五龙潭等泉群为核心的风景名胜区，泉水众多，风景秀丽，是济南最具代表性的旅游胜地，被誉为\"泉城明珠\"。",
+    "description": "儿童友好公园，位于礼耕路和大辛河路口东北侧,历下区韶光小学对面,燕山新居西北角，历下区，类型公园广场 公园。",
     "tags": [
-      "风景名胜",
-      "国家级景点",
-      "趵突泉",
-      "大明湖"
+      "公园广场",
+      "公园"
     ],
-    "avgCost": 40,
-    "duration": "3小时",
-    "openTime": "08:00-18:00",
-    "rating": 4.7
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "趵突泉景区",
+    "name": "儿童友好公园",
     "city": "济南",
     "category": "attraction",
-    "description": "趵突泉位于济南市历下区，是济南七十二名泉之首，国家5A级旅游景区，以泉水景观为特色，享有\"天下第一泉\"的美誉。",
+    "description": "儿童友好公园，位于礼耕路和大辛河路口东北侧,历下区韶光小学对面,燕山新居西北角，历下区，类型公园广场 公园。",
     "tags": [
-      "风景名胜",
-      "国家级景点"
+      "公园广场",
+      "公园"
     ],
-    "avgCost": 40,
-    "duration": "2-3小时",
-    "openTime": "07:00-19:00",
-    "rating": 4.6
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "儿童友好公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "儿童友好公园位于济南市历下区，是集休闲、娱乐、自然景观于一体的城市公园，适合家庭游玩。",
+    "tags": [
+      "公园",
+      "儿童友好",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "儿童友好公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于礼耕路和大辛河路口东北侧,历下区韶光小学对面,燕山新居西北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冯校长老火锅(济南万象城总店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于姚家东路10号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤栖公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于德润·天玺小区与奥林逸城小区中间",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "千佛山风景名胜区",
@@ -100,170 +238,780 @@
       "佛教文化",
       "登山"
     ],
-    "avgCost": 30,
+    "avgCost": 30.0,
     "duration": "3-4小时",
     "openTime": "07:00-18:00",
     "rating": 4.5
   },
   {
-    "name": "牧牛山山体公园",
+    "name": "千佛山风景名胜区",
     "city": "济南",
     "category": "attraction",
-    "description": "牧牛山山体公园是位于济南市历下区的一处山体公园，集自然风光与休闲健身于一体，适合市民登山、散步、赏景。",
+    "description": "千佛山风景名胜区，位于经十一路18号，历下区，类型风景名胜 国家级景点。",
     "tags": [
-      "山体公园",
-      "自然景观",
-      "休闲健身"
+      "风景名胜",
+      "国家级景点"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千佛山风景名胜区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "千佛山风景名胜区，位于经十一路18号，历下区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千佛山风景名胜区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "千佛山风景名胜区，位于经十一路18号，历下区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千佛山风景名胜区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "千佛山风景名胜区位于山东省济南市历下区，是济南三大名胜之一。景区内拥有丰富的佛教文化遗迹和自然风光，包括兴国禅寺、千佛崖、弥勒胜苑等景点。登山可俯瞰济南市区全景，是感受齐鲁文化与自然美景的绝佳去处。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "佛教文化",
+      "登山"
+    ],
+    "avgCost": 30.0,
+    "duration": "3-4小时",
+    "openTime": "07:00-18:00",
+    "rating": 4.5
+  },
+  {
+    "name": "千佛山风景名胜区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于经十一路18号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千佛山风景名胜区-弥勒胜苑",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于经十一路18号千佛山风景名胜区内(东侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华山风景区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于华山街道将军路1455号华山片区中海华山珑城",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卧牛山地质公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于华山街道卧牛山路(中海御山首府南邻)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "印象济南·泉世界",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于一院三馆北邻青岛路2668号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "历下区新时代文明实践广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于洪山路20号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "历下广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于转山西路2号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双公羊·馕坑烤全羊(奥体店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于奥体中心西柳体育场A-109-2号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉祥宾馆(莱芜富民街店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于莱芜区万福路吕花园青草河美食街38号的宾馆，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "旅馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "吉祥宾馆(莱芜富民街店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "吉祥宾馆(莱芜富民街店)，位于万福路吕花园青草河美食街38号，莱芜区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉祥宾馆(莱芜富民街店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "吉祥宾馆(莱芜富民街店)，位于万福路吕花园青草河美食街38号，莱芜区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉祥宾馆(莱芜富民街店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "吉祥宾馆(莱芜富民街店)，位于万福路吕花园青草河美食街38号，莱芜区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉祥宾馆(莱芜富民街店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于莱芜区万福路吕花园青草河美食街38号的宾馆，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "旅馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "吉野家(济南银丰财富广场店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于龙奥西路1号银丰财富广场裙房B102室",
+    "tags": [
+      "050309"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同喜宾馆(济南济大会展中心店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于舜玉路舜玉小区北区95号楼1楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "商河咱家宾馆",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于郑路镇增源街与顺政路交汇处东50米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季明湖(奥体中心店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于奥林匹克体育中心中心商业区3004号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国品宴",
+    "city": "济南",
+    "category": "food",
+    "description": "位于荷宁路3005号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国茂宾馆(经十西路店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于腊山立交桥经十西路27509号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大千佛山景区佛慧山",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于旅游路中段",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大吉利·潮汕鲜牛肉火锅(世茂广场店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于厉下区泉城路26号世茂广场三层E357/349-1/349-2/349-3/349-4号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大吉利·潮汕鲜牛肉火锅(世茂芯环中心)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于舜华路881号济高·世茂芯环中心F3层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大吉利·潮汕鲜牛肉火锅(山东大学店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于山大路47号数码港大厦底商1-112号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天下第一泉景区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "天下第一泉景区位于济南市历下区，是以趵突泉、大明湖、五龙潭等泉群为核心的风景名胜区，泉水众多，风景秀丽，是济南最具代表性的旅游胜地，被誉为\"泉城明珠\"。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "趵突泉",
+      "大明湖"
+    ],
+    "avgCost": 40.0,
+    "duration": "3小时",
+    "openTime": "08:00-18:00",
+    "rating": 4.7
+  },
+  {
+    "name": "天下第一泉景区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "天下第一泉景区，位于大明湖街道明湖路271号，历下区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天下第一泉景区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "天下第一泉景区，位于大明湖街道明湖路271号，历下区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天下第一泉景区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "天下第一泉景区，位于大明湖街道明湖路271号，历下区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天下第一泉景区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "天下第一泉景区位于济南市历下区，是以趵突泉、大明湖、五龙潭等泉群为核心的风景名胜区，泉水众多，风景秀丽，是济南最具代表性的旅游胜地，被誉为\"泉城明珠\"。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "趵突泉",
+      "大明湖"
+    ],
+    "avgCost": 40.0,
+    "duration": "3小时",
+    "openTime": "08:00-18:00",
+    "rating": 4.7
+  },
+  {
+    "name": "天下第一泉景区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于大明湖街道明湖路271号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天润泉宾馆(山东省立医院店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于纬八路103号(经四路与纬八路交口北50米)近经四路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天辰广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于天辰路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥体中心北广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于经十路济南奥林匹克体育中心",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富强宾馆(济南火车站店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于,经二路292号经二纬五(金銮花园下商业房)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小牛滚滚贵州黄牛肉火锅(济南首店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于宽厚里1期5组团201(世茂购物广场东座9号门、肯德基斜对面)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山东博物馆",
+    "city": "济南",
+    "category": "attraction",
+    "description": "山东博物馆是山东省最大的综合性博物馆，收藏有大量珍贵文物。",
+    "tags": [
+      "博物馆",
+      "文物",
+      "文化"
+    ],
+    "avgCost": 0.0,
     "duration": "2小时",
-    "openTime": "全天开放",
+    "openTime": "09:00-17:00",
     "rating": 4.5
   },
   {
-    "name": "汉峪金谷A区嵩山广场",
+    "name": "山东博物馆",
     "city": "济南",
     "category": "attraction",
-    "description": "汉峪金谷A区嵩山广场位于济南市历城区凤新路汉峪金谷，是一个集商务、住宅于一体的商住两用楼宇群，周边配套完善。",
+    "description": "山东博物馆，位于经十路11899号，历下区，类型博物馆 博物馆。",
     "tags": [
-      "商务",
-      "住宅",
-      "济南"
+      "博物馆",
+      "博物馆"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "金璟广场",
+    "name": "山东博物馆",
     "city": "济南",
     "category": "attraction",
-    "description": "金璟广场 是济南的景点",
+    "description": "山东博物馆，位于经十路11899号，历下区，类型博物馆 博物馆。",
     "tags": [
-      "商务住宅"
+      "博物馆",
+      "博物馆"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "陈氏肥蛤(岔路街15号院店)",
+    "name": "山东博物馆",
     "city": "济南",
-    "category": "food",
-    "address": "小纬六路165号",
-    "region": "市中区",
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5,
-    "avgCost": 0,
-    "description": "陈氏肥蛤(岔路街15号院店) 是济南的景点"
+    "category": "attraction",
+    "description": "山东博物馆，位于经十路11899号，历下区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "陈氏肥蛤(岔路街15号院店)",
+    "name": "山东博物馆",
     "city": "济南",
-    "category": "food",
-    "description": "陈氏肥蛤是一家以肥蛤为特色的中餐厅，位于小纬六路165号，提供美味的肥蛤等海鲜菜品。",
+    "category": "attraction",
+    "description": "山东博物馆是山东省最大的综合性博物馆，收藏有大量珍贵文物。",
     "tags": [
-      "肥蛤",
-      "中餐",
-      "海鲜"
+      "博物馆",
+      "文物",
+      "文化"
     ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "10:00-22:00",
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "09:00-17:00",
     "rating": 4.5
   },
   {
-    "name": "春水锅贴·传统鲁菜(五龙潭公园店)",
+    "name": "山东博物馆",
     "city": "济南",
-    "category": "food",
-    "description": "春水锅贴·传统鲁菜位于济南市天桥区五龙潭公园附近，主营传统鲁菜和锅贴，是当地知名餐厅。",
+    "category": "attraction",
+    "description": "位于经十路11899号",
     "tags": [
-      "鲁菜",
-      "锅贴",
-      "中餐厅",
-      "济南美食"
+      "140100"
     ],
-    "avgCost": 50,
-    "duration": "1-2小时",
-    "openTime": "11:00-14:00,17:00-21:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "老济南济南菜(大明湖店)",
+    "name": "山东莱芜雪野湖国家湿地公园",
     "city": "济南",
-    "category": "food",
-    "description": "老济南济南菜(大明湖店)是一家位于济南市天桥区的餐厅，主打济南菜和海鲜。",
+    "category": "attraction",
+    "description": "位于雪野湖",
     "tags": [
-      "济南菜",
-      "中餐",
-      "海鲜"
+      "110200"
     ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "10:00-22:00",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "春水锅贴·传统鲁菜(大明湖店)",
+    "name": "巴奴毛肚火锅(济南万象城店)",
     "city": "济南",
     "category": "food",
-    "description": "春水锅贴·传统鲁菜（大明湖店）位于济南市天桥区铜元局后街28号，是一家以锅贴和传统鲁菜为特色的餐厅。店内锅贴皮薄馅大，底部酥脆，鲁菜口味正宗，深受当地食客喜爱。环境整洁，服务热情。",
+    "description": "位于经十路11111号华润中心万象城L-407",
     "tags": [
-      "锅贴",
-      "鲁菜",
-      "中餐厅"
+      "050117"
     ],
-    "avgCost": 50,
-    "duration": "1-2小时",
-    "openTime": "11:00-14:00,17:00-21:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "鲁南仔·滕州炒鸡(经三路店)",
+    "name": "平阴南门宾馆",
     "city": "济南",
-    "category": "food",
-    "description": "鲁南仔·滕州炒鸡(经三路店)位于济南市市中区经三路133号，是一家以滕州炒鸡为特色的中餐厅。",
+    "category": "hotel",
+    "description": "位于榆山路和金水河交叉口明达眼镜店南邻",
     "tags": [
-      "炒鸡",
-      "鲁菜",
-      "中餐厅"
+      "100100"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "春水锅贴·传统鲁菜(县西巷店)",
+    "name": "平阴金星宾馆",
     "city": "济南",
-    "category": "food",
-    "description": "春水锅贴·传统鲁菜(县西巷店) 是济南的美食餐厅，位于历下区。地址：县西巷9号泉乐坊D区荷芳里二层214-216。",
+    "category": "hotel",
+    "description": "位于锦水城西门南140米",
     "tags": [
-      "济南"
+      "100100"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "全天",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "超意兴·把子肉(泉城广场店)",
+    "name": "广智院",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于广智院146",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广梅汕潮汕牛肉火锅(奥体店)",
     "city": "济南",
     "category": "food",
-    "description": "超意兴是济南知名快餐品牌，以把子肉为特色，位于泉城广场附近榜棚街。店内提供多种鲁菜快餐，价格实惠，深受当地人喜爱。",
+    "description": "位于奥体中心东荷网球馆C-9-2号",
     "tags": [
-      "把子肉",
-      "快餐",
-      "济南美食",
-      "鲁菜"
+      "050117"
     ],
-    "avgCost": 20,
-    "duration": "1小时",
-    "openTime": "09:00-21:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅(济南印象济南店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于印象济南泉世界3区13号楼108室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅(济南县西巷店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于大明湖街道县西巷5号泉乐坊D地块商业综合楼217-218",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅(济南窑头路店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于窑头路1-27号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文明办住房",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于济南市高新区巨野河街道埠东商业街15号商铺",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新海渔港(奥体店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于奥体中心荷宁路3005号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "昌源大酒店(济微公路店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于昌源世纪家园一楼昌源酒店",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明水古城景区(大西门检票处)(内部专用)",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于明堂街2337号清照泉城·明水古城国际泉水旅游度假区(西北角)",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "明湖楼-经典鲁菜山东海鲜",
@@ -276,36 +1024,692 @@
       "山东菜",
       "中餐厅"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "舜和海鲜(天发店)",
+    "name": "明湖楼-经典鲁菜山东海鲜",
     "city": "济南",
     "category": "food",
-    "description": "舜和海鲜(天发店) 是济南的景点",
-    "tags": [],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "舜和海鲜(舜和国际店)",
-    "city": "济南",
-    "category": "food",
-    "description": "舜和海鲜(舜和国际店)位于济南市槐荫区经十路26008号舜和国际酒店内，主打巴西菜和海鲜，提供高品质的餐饮服务。",
+    "description": "明湖楼-经典鲁菜山东海鲜，位于明湖北路271号大明湖公园北门内，历下区，类型中餐厅 山东菜(鲁菜)。",
     "tags": [
-      "海鲜",
-      "巴西菜",
-      "外国餐厅"
+      "中餐厅",
+      "山东菜(鲁菜)"
     ],
-    "avgCost": 150,
-    "duration": "2小时",
-    "openTime": "11:00-21:00",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明湖楼-经典鲁菜山东海鲜",
+    "city": "济南",
+    "category": "food",
+    "description": "明湖楼-经典鲁菜山东海鲜，位于明湖北路271号大明湖公园北门内，历下区，类型中餐厅 山东菜(鲁菜)。",
+    "tags": [
+      "中餐厅",
+      "山东菜(鲁菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明湖楼-经典鲁菜山东海鲜",
+    "city": "济南",
+    "category": "food",
+    "description": "明湖楼-经典鲁菜山东海鲜，位于明湖北路271号大明湖公园北门内，历下区，类型中餐厅 山东菜(鲁菜)。",
+    "tags": [
+      "中餐厅",
+      "山东菜(鲁菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明湖楼-经典鲁菜山东海鲜",
+    "city": "济南",
+    "category": "food",
+    "description": "明湖楼位于济南大明湖公园北门内，是一家以经典鲁菜和山东海鲜为特色的中餐厅。餐厅依托大明湖的优美环境，提供地道的山东风味菜肴，是游客和本地人品尝鲁菜的好去处。",
+    "tags": [
+      "鲁菜",
+      "海鲜",
+      "山东菜",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "星月梦民宿",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于张庄路街道兴福寺南路恒大观澜国际1号楼2单元2007室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星辰(济南西站店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于齐鲁大道中骏尚城A座一楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春水锅贴·传统鲁菜(五龙潭公园店)",
+    "city": "济南",
+    "category": "food",
+    "description": "春水锅贴·传统鲁菜位于济南市天桥区五龙潭公园附近，主营传统鲁菜和锅贴，是当地知名餐厅。",
+    "tags": [
+      "鲁菜",
+      "锅贴",
+      "中餐厅",
+      "济南美食"
+    ],
+    "avgCost": 50.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
     "rating": 4.5
+  },
+  {
+    "name": "春水锅贴·传统鲁菜(五龙潭公园店)",
+    "city": "济南",
+    "category": "food",
+    "description": "春水锅贴·传统鲁菜(五龙潭公园店)，位于制锦市花店街25号(五龙潭西门西南100米)，天桥区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春水锅贴·传统鲁菜(五龙潭公园店)",
+    "city": "济南",
+    "category": "food",
+    "description": "春水锅贴·传统鲁菜(五龙潭公园店)，位于制锦市花店街25号(五龙潭西门西南100米)，天桥区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春水锅贴·传统鲁菜(五龙潭公园店)",
+    "city": "济南",
+    "category": "food",
+    "description": "春水锅贴·传统鲁菜(五龙潭公园店)，位于制锦市花店街25号(五龙潭西门西南100米)，天桥区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春水锅贴·传统鲁菜(五龙潭公园店)",
+    "city": "济南",
+    "category": "food",
+    "description": "春水锅贴·传统鲁菜位于济南市天桥区五龙潭公园附近，主营传统鲁菜和锅贴，是当地知名餐厅。",
+    "tags": [
+      "鲁菜",
+      "锅贴",
+      "中餐厅",
+      "济南美食"
+    ],
+    "avgCost": 50.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "春水锅贴·传统鲁菜(县西巷店)",
+    "city": "济南",
+    "category": "food",
+    "description": "春水锅贴·传统鲁菜(县西巷店) 是济南的美食餐厅，位于历下区。地址：县西巷9号泉乐坊D区荷芳里二层214-216。",
+    "tags": [
+      "济南"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "春水锅贴·传统鲁菜(县西巷店)",
+    "city": "济南",
+    "category": "food",
+    "description": "春水锅贴·传统鲁菜(县西巷店)，位于县西巷9号泉乐坊D区荷芳里二层214-216，历下区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春水锅贴·传统鲁菜(县西巷店)",
+    "city": "济南",
+    "category": "food",
+    "description": "春水锅贴·传统鲁菜(县西巷店)，位于县西巷9号泉乐坊D区荷芳里二层214-216，历下区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春水锅贴·传统鲁菜(县西巷店)",
+    "city": "济南",
+    "category": "food",
+    "description": "春水锅贴·传统鲁菜(县西巷店)，位于县西巷9号泉乐坊D区荷芳里二层214-216，历下区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春水锅贴·传统鲁菜(县西巷店)",
+    "city": "济南",
+    "category": "food",
+    "description": "春水锅贴·传统鲁菜(县西巷店) 是济南的美食餐厅，位于历下区。地址：县西巷9号泉乐坊D区荷芳里二层214-216。",
+    "tags": [
+      "济南"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "春水锅贴·传统鲁菜(和谐店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于经六路247-11号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春水锅贴·传统鲁菜(大明湖店)",
+    "city": "济南",
+    "category": "food",
+    "description": "春水锅贴·传统鲁菜（大明湖店）位于济南市天桥区铜元局后街28号，是一家以锅贴和传统鲁菜为特色的餐厅。店内锅贴皮薄馅大，底部酥脆，鲁菜口味正宗，深受当地食客喜爱。环境整洁，服务热情。",
+    "tags": [
+      "锅贴",
+      "鲁菜",
+      "中餐厅"
+    ],
+    "avgCost": 50.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "春水锅贴·传统鲁菜(大明湖店)",
+    "city": "济南",
+    "category": "food",
+    "description": "春水锅贴·传统鲁菜(大明湖店)，位于铜元局后街28号，天桥区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春水锅贴·传统鲁菜(大明湖店)",
+    "city": "济南",
+    "category": "food",
+    "description": "春水锅贴·传统鲁菜(大明湖店)，位于铜元局后街28号，天桥区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春水锅贴·传统鲁菜(大明湖店)",
+    "city": "济南",
+    "category": "food",
+    "description": "春水锅贴·传统鲁菜(大明湖店)，位于铜元局后街28号，天桥区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春水锅贴·传统鲁菜(大明湖店)",
+    "city": "济南",
+    "category": "food",
+    "description": "春水锅贴·传统鲁菜（大明湖店）位于济南市天桥区铜元局后街28号，是一家以锅贴和传统鲁菜为特色的餐厅。店内锅贴皮薄馅大，底部酥脆，鲁菜口味正宗，深受当地食客喜爱。环境整洁，服务热情。",
+    "tags": [
+      "锅贴",
+      "鲁菜",
+      "中餐厅"
+    ],
+    "avgCost": 50.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "智远利民广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于凤山路与长岭山路交叉口东北180米",
+    "tags": [
+      "060700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "枫浔法式铁板烧(银丰财富广场店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于银丰财富广场东2门旁",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柚徕青年旅舍(济南火车站店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于官扎营街道官扎营中街11号官扎营新区南区9号楼2层商铺",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(山师东路店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于文东街道山师东路8号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳荷居(奥体中心店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于荷宁路奥体中心商业区5003号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "次第花开素食雅宴",
+    "city": "济南",
+    "category": "food",
+    "description": "位于奥体中心体育场C入口西南60米",
+    "tags": [
+      "050104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正丰路公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于正丰路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "武岳庙把子肉(济南总店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于县西巷6号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助",
+    "city": "济南",
+    "category": "food",
+    "description": "位于大纬二路37号经四路与纬二路交叉口西南角",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汀泊酒店",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于龙海路41号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉峪金谷A区华山广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于华茂路与舜华南路交叉口东北140米",
+    "tags": [
+      "120203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉峪金谷A区嵩山广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "汉峪金谷A区嵩山广场位于济南市历城区凤新路汉峪金谷，是一个集商务、住宅于一体的商住两用楼宇群，周边配套完善。",
+    "tags": [
+      "商务",
+      "住宅",
+      "济南"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.0
+  },
+  {
+    "name": "汉峪金谷A区嵩山广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "汉峪金谷A区嵩山广场，位于凤新路汉峪金谷，历城区，类型楼宇 商住两用楼宇。",
+    "tags": [
+      "楼宇",
+      "商住两用楼宇"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉峪金谷A区嵩山广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "汉峪金谷A区嵩山广场，位于凤新路汉峪金谷，历城区，类型楼宇 商住两用楼宇。",
+    "tags": [
+      "楼宇",
+      "商住两用楼宇"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉峪金谷A区嵩山广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "汉峪金谷A区嵩山广场，位于凤新路汉峪金谷，历城区，类型楼宇 商住两用楼宇。",
+    "tags": [
+      "楼宇",
+      "商住两用楼宇"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉峪金谷A区嵩山广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "汉峪金谷A区嵩山广场位于济南市历城区凤新路汉峪金谷，是一个集商务、住宅于一体的商住两用楼宇群，周边配套完善。",
+    "tags": [
+      "商务",
+      "住宅",
+      "济南"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.0
+  },
+  {
+    "name": "汉峪金谷A区嵩山广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于凤新路汉峪金谷",
+    "tags": [
+      "120203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉峪金谷A区恒山广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于华茂路与凤颖路交叉口北100米",
+    "tags": [
+      "120203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉峪金谷A区泰山广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于华茂路与凤天路交叉口西北80米",
+    "tags": [
+      "120203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉峪金谷A区长江广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于经十路(汉峪金谷)",
+    "tags": [
+      "120203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉峪金谷A区黄河广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于经十路与舜华南路交叉口",
+    "tags": [
+      "120203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉城人才公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于茂岭山三号路西侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泰山王老三串店(奥体店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于龙奥北路奥体中心网球馆205入口处",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪山公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于龙洞街道旅游路22039号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪山广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于洪山路与名士北路交叉口西北50米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "流音融合料理日料",
+    "city": "济南",
+    "category": "food",
+    "description": "位于银丰财富市场东1门旁(龙奥大厦地铁站A口步行390米)",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南丰豪宾馆(英雄山路店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于英雄山路23号-3",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南佳家日租民宿(遥墙机场店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于济南市高新区遥墙街道办事处杨史道口村南",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "济南凯达旅馆(万寿路店)",
@@ -316,52 +1720,63 @@
       "旅馆",
       "住宿"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "吉祥宾馆(莱芜富民街店)",
+    "name": "济南凯达旅馆(万寿路店)",
     "city": "济南",
     "category": "hotel",
-    "description": "位于莱芜区万福路吕花园青草河美食街38号的宾馆，提供住宿服务。",
+    "description": "济南凯达旅馆(万寿路店)，位于英雄山路，市中区，类型旅馆招待所 旅馆招待所。",
     "tags": [
-      "住宿",
-      "宾馆",
-      "旅馆"
+      "旅馆招待所",
+      "旅馆招待所"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "济南鑫颖招待所(泉城广场趵突泉店)",
+    "name": "济南凯达旅馆(万寿路店)",
     "city": "济南",
     "category": "hotel",
-    "description": "位于历下区千佛山街道佛山街的一处经济型招待所，靠近泉城广场和趵突泉，交通便利。",
+    "description": "济南凯达旅馆(万寿路店)，位于英雄山路，市中区，类型旅馆招待所 旅馆招待所。",
     "tags": [
-      "住宿",
-      "招待所",
-      "济南",
-      "历下区"
+      "旅馆招待所",
+      "旅馆招待所"
     ],
-    "avgCost": 100,
-    "duration": "按天",
-    "openTime": "24小时",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "济南长安旅馆",
+    "name": "济南凯达旅馆(万寿路店)",
     "city": "济南",
     "category": "hotel",
-    "description": "济南长安旅馆位于历黄路菜市新村34号楼5单元，历下区，提供住宿服务。",
+    "description": "济南凯达旅馆(万寿路店)，位于英雄山路，市中区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南凯达旅馆(万寿路店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于英雄山路的住宿服务旅馆，提供舒适的住宿环境。",
     "tags": [
       "旅馆",
       "住宿"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
@@ -376,9 +1791,2132 @@
       "天桥区",
       "住宿"
     ],
-    "avgCost": 150,
+    "avgCost": 150.0,
     "duration": "全天",
     "openTime": "24小时",
     "rating": 4.2
+  },
+  {
+    "name": "济南天泉宾馆(解放军九六O医院店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "济南天泉宾馆(解放军九六O医院店)，位于师范路毕家小区61号楼东侧天泉宾馆，天桥区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南天泉宾馆(解放军九六O医院店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "济南天泉宾馆(解放军九六O医院店)，位于师范路毕家小区61号楼东侧天泉宾馆，天桥区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南天泉宾馆(解放军九六O医院店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "济南天泉宾馆(解放军九六O医院店)，位于师范路毕家小区61号楼东侧天泉宾馆，天桥区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南天泉宾馆(解放军九六O医院店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "济南天泉宾馆位于天桥区师范路毕家小区61号楼东侧，靠近解放军九六O医院，提供舒适的住宿服务。",
+    "tags": [
+      "宾馆",
+      "天桥区",
+      "住宿"
+    ],
+    "avgCost": 150.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.2
+  },
+  {
+    "name": "济南天泉宾馆(解放军九六O医院店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于师范路毕家小区61号楼东侧天泉宾馆",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南寒舍民宿(山东国际会展中心店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于张庄路街道日照路1号远大购物广场一期3号楼1单元710",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南市环城公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于南门大街2-1号(近护城河)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南市环城公园-黑虎泉",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于解放阁脚下护城河南岸",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南平安旅馆",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于经十西路10242号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南惠民旅馆",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于趵突泉南路22号楼2号102(齐鲁医院东门北150米)临近趵突泉南路",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南海岱旅社",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于纬三路9号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南燕山公寓",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于解放东路燕山新居小区3号楼3单元101室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南燕山新居公寓",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于燕山街道坤顺路燕山新居小区3号楼3单元101室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南百客旅宾馆",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于百客旅西门旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南聚满佳住房",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于埠东村商业街北排1-1号2楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南舒心小憩公寓",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于山大北路54号金泰花园",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南舒静旅馆",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于山大路215号(山大路南口地铁站A口步行320米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南舜泰广场体育公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于舜泰北路933号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南茂岭山公园山麓广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于茂岭山公园",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南融创乐园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于港沟街道经十路与凤鸣路交叉口融创乐园北门西侧接待中心101室内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南融创文旅城",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于经十路辅路",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南连顺公寓",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于二环东路南段西山坡127号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南野生动物世界",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于埠村街道埠西村(济南市植物园南邻)",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南金泉招待所",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于无影山南路黄屯小区1-2号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南鑫兄弟招待所",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于千佛山街道佛山街佛山苑三区22号楼1单元101室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南鑫颖招待所(泉城广场趵突泉店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于历下区千佛山街道佛山街的一处经济型招待所，靠近泉城广场和趵突泉，交通便利。",
+    "tags": [
+      "住宿",
+      "招待所",
+      "济南",
+      "历下区"
+    ],
+    "avgCost": 100.0,
+    "duration": "按天",
+    "openTime": "24小时",
+    "rating": 3.5
+  },
+  {
+    "name": "济南鑫颖招待所(泉城广场趵突泉店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "济南鑫颖招待所(泉城广场趵突泉店)，位于千佛山街道佛山街佛山苑小区三区16号楼2单元103室，历下区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南鑫颖招待所(泉城广场趵突泉店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "济南鑫颖招待所(泉城广场趵突泉店)，位于千佛山街道佛山街佛山苑小区三区16号楼2单元103室，历下区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南鑫颖招待所(泉城广场趵突泉店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "济南鑫颖招待所(泉城广场趵突泉店)，位于千佛山街道佛山街佛山苑小区三区16号楼2单元103室，历下区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南鑫颖招待所(泉城广场趵突泉店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于历下区千佛山街道佛山街的一处经济型招待所，靠近泉城广场和趵突泉，交通便利。",
+    "tags": [
+      "住宿",
+      "招待所",
+      "济南",
+      "历下区"
+    ],
+    "avgCost": 100.0,
+    "duration": "按天",
+    "openTime": "24小时",
+    "rating": 3.5
+  },
+  {
+    "name": "济南鑫颖招待所(泉城广场趵突泉店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于千佛山街道佛山街佛山苑小区三区16号楼2单元103室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南长安旅馆",
+    "city": "济南",
+    "category": "hotel",
+    "description": "济南长安旅馆位于历黄路菜市新村34号楼5单元，历下区，提供住宿服务。",
+    "tags": [
+      "旅馆",
+      "住宿"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "济南长安旅馆",
+    "city": "济南",
+    "category": "hotel",
+    "description": "济南长安旅馆，位于历黄路菜市新村34号楼5单元，历下区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南长安旅馆",
+    "city": "济南",
+    "category": "hotel",
+    "description": "济南长安旅馆，位于历黄路菜市新村34号楼5单元，历下区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南长安旅馆",
+    "city": "济南",
+    "category": "hotel",
+    "description": "济南长安旅馆，位于历黄路菜市新村34号楼5单元，历下区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南长安旅馆",
+    "city": "济南",
+    "category": "hotel",
+    "description": "济南长安旅馆位于历黄路菜市新村34号楼5单元，历下区，提供住宿服务。",
+    "tags": [
+      "旅馆",
+      "住宿"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "济南长安旅馆",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于历黄路菜市新村34号楼5单元",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南青春公寓",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于洪家楼西路39号智慧大厦1号楼802室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "济南黄金谷山水风景区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于浆水泉水库南岸",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浪花精致日本料理·放题(银丰财富广场店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于龙洞街道龙奥西路1号银丰财富广场裙楼B121",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(亲子主题汉峪金谷店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于经十东路7000号汉峪金谷A6-B1层23号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(明湖路店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于明湖路288号济南开元广场二期一层112、115",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(泉城路店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于泉城路77号希努尔大厦5层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(龙湖奥体天街店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于奥体西路奥体天街5层0405号(B馆-5F-04-05)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "涵玉公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于东荷路与辰嘉路交叉口南220米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清照泉城·明水古城国际泉水旅游度假区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于车站大街600-1号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真·德兴顺(趵突泉店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于共青团路12-1号(趵突泉北门西100米)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真德兴顺(高新店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于工业南路46号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渔家鲜·海鲜小炒·切馅煎包",
+    "city": "济南",
+    "category": "food",
+    "description": "位于十六里河街道万寿路2号产业园B座B1海外双创基地1层",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "温馨驿站翡翠郡酒店式公寓(济南汽车总站店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于无影山中路重汽翡翠郡南区32号楼15楼1515室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘鄂人家(奥体中心店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于经十东路奥体中心商业区5003",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "火车站爱巢主题公寓(堤口路3号分店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于堤口路南益名泉春晓西区-A1号楼天桥堤口路大润发西邻(十一中对面)南益名泉春晓A1",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灵岩寺景区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于万德街道",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "燕子山",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于解放路街道",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "燕翅山休闲广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于姚家路与姚家村路交叉口西300米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱家公寓(济南西站店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于大金新苑12号楼1单元17层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛贵川霸王牛肉粉",
+    "city": "济南",
+    "category": "food",
+    "description": "位于姚家街道绿地中央商务区A5地块2号楼1单元1层110号-2",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牧牛山山体公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "牧牛山山体公园是位于济南市历下区的一处山体公园，集自然风光与休闲健身于一体，适合市民登山、散步、赏景。",
+    "tags": [
+      "山体公园",
+      "自然景观",
+      "休闲健身"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "牧牛山山体公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "牧牛山山体公园，位于洪山路与霞景路交叉口东280米，历下区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牧牛山山体公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "牧牛山山体公园，位于洪山路与霞景路交叉口东280米，历下区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牧牛山山体公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "牧牛山山体公园，位于洪山路与霞景路交叉口东280米，历下区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牧牛山山体公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "牧牛山山体公园是位于济南市历下区的一处山体公园，集自然风光与休闲健身于一体，适合市民登山、散步、赏景。",
+    "tags": [
+      "山体公园",
+      "自然景观",
+      "休闲健身"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "牧牛山山体公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于洪山路与霞景路交叉口东280米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉兰谷山体公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于华峪路与汉峪东路交汇处南100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白杨羊清真火锅烧烤·龙虾",
+    "city": "济南",
+    "category": "food",
+    "description": "位于幸福街与二环西路交叉口东南120米",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百花公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "百花公园位于历城区闵子骞路10号，是一个集自然景观与休闲娱乐为一体的城市公园，园内花木繁多，环境优美。",
+    "tags": [
+      "公园",
+      "休闲",
+      "风景"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.3
+  },
+  {
+    "name": "百花公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "百花公园，位于闵子骞路10号，历城区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百花公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "百花公园，位于闵子骞路10号，历城区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百花公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "百花公园，位于闵子骞路10号，历城区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百花公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "百花公园位于历城区闵子骞路10号，是一个集自然景观与休闲娱乐为一体的城市公园，园内花木繁多，环境优美。",
+    "tags": [
+      "公园",
+      "休闲",
+      "风景"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.3
+  },
+  {
+    "name": "百花公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于闵子骞路10号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百花洲历史文化街区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于大明湖路(大明湖风景名胜区南)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "科创金融公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于舜华路939号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "穆得老周家牛肉烧饼",
+    "city": "济南",
+    "category": "food",
+    "description": "位于普利街77号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "箪食巷私房菜(奥体店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于经十路奥体中心柳康路和中心南路交叉口",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绸带公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于汉臣街与山左路交叉口西北220米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿地中央公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于星天路与天辰路交叉口东南80米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美树酒店(济南唐冶奥特莱斯店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于和润尚东企业公馆3号公寓楼20层2010室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美达迷你情景客房(济南大学店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于二环南路8355号2层房",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "義利永百年老号·牛肉烧饼(大明湖店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于大明湖街道县西巷5号泉乐坊D地块商业综合楼109",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老济南济南菜(大明湖店)",
+    "city": "济南",
+    "category": "food",
+    "description": "老济南济南菜(大明湖店)是一家位于济南市天桥区的餐厅，主打济南菜和海鲜。",
+    "tags": [
+      "济南菜",
+      "中餐",
+      "海鲜"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.0
+  },
+  {
+    "name": "老济南济南菜(大明湖店)",
+    "city": "济南",
+    "category": "food",
+    "description": "老济南济南菜(大明湖店)，位于北关北路7-7号(生产路地铁站C口步行410米)，天桥区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老济南济南菜(大明湖店)",
+    "city": "济南",
+    "category": "food",
+    "description": "老济南济南菜(大明湖店)，位于北关北路7-7号(生产路地铁站C口步行410米)，天桥区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老济南济南菜(大明湖店)",
+    "city": "济南",
+    "category": "food",
+    "description": "老济南济南菜(大明湖店)，位于北关北路7-7号(生产路地铁站C口步行410米)，天桥区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老济南济南菜(大明湖店)",
+    "city": "济南",
+    "category": "food",
+    "description": "老济南济南菜(大明湖店)是一家位于济南市天桥区的餐厅，主打济南菜和海鲜。",
+    "tags": [
+      "济南菜",
+      "中餐",
+      "海鲜"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.0
+  },
+  {
+    "name": "老福耶小草帽石锅鱼(奥体店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于经十东路济南奥体匹克体育中心中心商业区5区5003号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胶东人家(奥体中心店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于经十东路济南奥林匹克体育中心体育场(西柳)A-108",
+    "tags": [
+      "050104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "臻悦·海宴(奥体中心店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于奥林匹克体育场一层A-1019",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舜华三山森林公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于崇华路103号附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舜和海鲜(天发店)",
+    "city": "济南",
+    "category": "food",
+    "description": "舜和海鲜(天发店) 是济南的景点",
+    "tags": [],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "舜和海鲜(天发店)",
+    "city": "济南",
+    "category": "food",
+    "description": "舜和海鲜(天发店)，位于堤口路31号，天桥区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舜和海鲜(天发店)",
+    "city": "济南",
+    "category": "food",
+    "description": "舜和海鲜(天发店)，位于堤口路31号，天桥区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舜和海鲜(天发店)",
+    "city": "济南",
+    "category": "food",
+    "description": "舜和海鲜(天发店)，位于堤口路31号，天桥区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舜和海鲜(天发店)",
+    "city": "济南",
+    "category": "food",
+    "description": "舜和海鲜(天发店) 是济南的景点",
+    "tags": [],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "舜和海鲜(舜和国际店)",
+    "city": "济南",
+    "category": "food",
+    "description": "舜和海鲜(舜和国际店)位于济南市槐荫区经十路26008号舜和国际酒店内，主打巴西菜和海鲜，提供高品质的餐饮服务。",
+    "tags": [
+      "海鲜",
+      "巴西菜",
+      "外国餐厅"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "舜和海鲜(舜和国际店)",
+    "city": "济南",
+    "category": "food",
+    "description": "舜和海鲜(舜和国际店)，位于经十路26008号舜和国际酒店内(近段兴西路)，槐荫区，类型外国餐厅 巴西菜。",
+    "tags": [
+      "外国餐厅",
+      "巴西菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舜和海鲜(舜和国际店)",
+    "city": "济南",
+    "category": "food",
+    "description": "舜和海鲜(舜和国际店)，位于经十路26008号舜和国际酒店内(近段兴西路)，槐荫区，类型外国餐厅 巴西菜。",
+    "tags": [
+      "外国餐厅",
+      "巴西菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舜和海鲜(舜和国际店)",
+    "city": "济南",
+    "category": "food",
+    "description": "舜和海鲜(舜和国际店)，位于经十路26008号舜和国际酒店内(近段兴西路)，槐荫区，类型外国餐厅 巴西菜。",
+    "tags": [
+      "外国餐厅",
+      "巴西菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舜和海鲜(舜和国际店)",
+    "city": "济南",
+    "category": "food",
+    "description": "舜和海鲜(舜和国际店)位于济南市槐荫区经十路26008号舜和国际酒店内，主打巴西菜和海鲜，提供高品质的餐饮服务。",
+    "tags": [
+      "海鲜",
+      "巴西菜",
+      "外国餐厅"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "舜奥公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于龙奥北路709号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "艾布精致酒店(济南大明湖超然楼店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于明湖北路1号(大明湖北门对面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莱芜吉祥宾馆",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于万福路吕花园青草河美食街38号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "葫芦顶公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "葫芦顶公园 是济南的景点",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "葫芦顶公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "葫芦顶公园，历下区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "葫芦顶公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "葫芦顶公园，历下区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "葫芦顶公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "葫芦顶公园，历下区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "葫芦顶公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "葫芦顶公园 是济南的景点",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "葫芦顶公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赛赛公寓",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于济微公路389号党家庄镇西力明学院対面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "超意兴·把子肉(泉城广场店)",
+    "city": "济南",
+    "category": "food",
+    "description": "超意兴是济南知名快餐品牌，以把子肉为特色，位于泉城广场附近榜棚街。店内提供多种鲁菜快餐，价格实惠，深受当地人喜爱。",
+    "tags": [
+      "把子肉",
+      "快餐",
+      "济南美食",
+      "鲁菜"
+    ],
+    "avgCost": 20.0,
+    "duration": "1小时",
+    "openTime": "09:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "超意兴·把子肉(泉城广场店)",
+    "city": "济南",
+    "category": "food",
+    "description": "超意兴·把子肉(泉城广场店)，位于榜棚街华鲁大厦南门头房5-3号，历下区，类型快餐厅 快餐厅。",
+    "tags": [
+      "快餐厅",
+      "快餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "超意兴·把子肉(泉城广场店)",
+    "city": "济南",
+    "category": "food",
+    "description": "超意兴·把子肉(泉城广场店)，位于榜棚街华鲁大厦南门头房5-3号，历下区，类型快餐厅 快餐厅。",
+    "tags": [
+      "快餐厅",
+      "快餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "超意兴·把子肉(泉城广场店)",
+    "city": "济南",
+    "category": "food",
+    "description": "超意兴·把子肉(泉城广场店)，位于榜棚街华鲁大厦南门头房5-3号，历下区，类型快餐厅 快餐厅。",
+    "tags": [
+      "快餐厅",
+      "快餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "超意兴·把子肉(泉城广场店)",
+    "city": "济南",
+    "category": "food",
+    "description": "超意兴是济南知名快餐品牌，以把子肉为特色，位于泉城广场附近榜棚街。店内提供多种鲁菜快餐，价格实惠，深受当地人喜爱。",
+    "tags": [
+      "把子肉",
+      "快餐",
+      "济南美食",
+      "鲁菜"
+    ],
+    "avgCost": 20.0,
+    "duration": "1小时",
+    "openTime": "09:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "趵突泉景区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "趵突泉位于济南市历下区，是济南七十二名泉之首，国家5A级旅游景区，以泉水景观为特色，享有\"天下第一泉\"的美誉。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 40.0,
+    "duration": "2-3小时",
+    "openTime": "07:00-19:00",
+    "rating": 4.6
+  },
+  {
+    "name": "趵突泉景区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "趵突泉景区，位于趵突泉南路1号，历下区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "趵突泉景区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "趵突泉景区，位于趵突泉南路1号，历下区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "趵突泉景区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "趵突泉景区，位于趵突泉南路1号，历下区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "趵突泉景区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "趵突泉位于济南市历下区，是济南七十二名泉之首，国家5A级旅游景区，以泉水景观为特色，享有\"天下第一泉\"的美誉。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 40.0,
+    "duration": "2-3小时",
+    "openTime": "07:00-19:00",
+    "rating": 4.6
+  },
+  {
+    "name": "趵突泉景区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于趵突泉南路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "转山山体公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于奥体西路与柳西路交叉口西南240米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达美乐比萨(老商埠店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于大观园街道经四路333号融汇老商埠商业广场7号楼101",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢记老婆爱吃螺蛳粉(碧桂园总店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于碧桂园凤凰中心东门北80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金房子水饺城",
+    "city": "济南",
+    "category": "food",
+    "description": "位于张庄路162号(森林公园对面)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金璟广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "金璟广场 是济南的景点",
+    "tags": [
+      "商务住宅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "金璟广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "金璟广场，位于书昌街657号，历下区，类型商务住宅相关 商务住宅相关。",
+    "tags": [
+      "商务住宅相关",
+      "商务住宅相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金璟广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "金璟广场，位于书昌街657号，历下区，类型商务住宅相关 商务住宅相关。",
+    "tags": [
+      "商务住宅相关",
+      "商务住宅相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金璟广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "金璟广场，位于书昌街657号，历下区，类型商务住宅相关 商务住宅相关。",
+    "tags": [
+      "商务住宅相关",
+      "商务住宅相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金璟广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "金璟广场 是济南的景点",
+    "tags": [
+      "商务住宅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "金璟广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于书昌街657号",
+    "tags": [
+      "120000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金鼎中心下沉广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于金鼎中心(奥体中心地铁站B2口旁)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫李记缘菏泽原汁羊汤",
+    "city": "济南",
+    "category": "food",
+    "description": "位于凤凰路与花园东路交叉口徐家庄南门门头房",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫龙火锅",
+    "city": "济南",
+    "category": "food",
+    "description": "位于北园大街445号如家院内",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫龙火锅城(环山路店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于环山路43-1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银荷大厦中心广场",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于新泺大街2008号",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦屏东山公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于龙景路23号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈氏肥蛤(岔路街15号院店)",
+    "city": "济南",
+    "category": "food",
+    "description": "陈氏肥蛤是一家以肥蛤为特色的中餐厅，位于小纬六路165号，提供美味的肥蛤等海鲜菜品。",
+    "tags": [
+      "肥蛤",
+      "中餐",
+      "海鲜"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "陈氏肥蛤(岔路街15号院店)",
+    "city": "济南",
+    "category": "food",
+    "description": "陈氏肥蛤(岔路街15号院店)，位于小纬六路165号，市中区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈氏肥蛤(岔路街15号院店)",
+    "city": "济南",
+    "category": "food",
+    "description": "陈氏肥蛤(岔路街15号院店)，位于小纬六路165号，市中区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈氏肥蛤(岔路街15号院店)",
+    "city": "济南",
+    "category": "food",
+    "description": "陈氏肥蛤(岔路街15号院店)，位于小纬六路165号，市中区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈氏肥蛤(岔路街15号院店)",
+    "city": "济南",
+    "category": "food",
+    "description": "陈氏肥蛤(岔路街15号院店) 是济南的景点",
+    "tags": [],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "陈氏肥蛤(岔路街15号院店)",
+    "city": "济南",
+    "category": "food",
+    "description": "陈氏肥蛤是一家以肥蛤为特色的中餐厅，位于小纬六路165号，提供美味的肥蛤等海鲜菜品。",
+    "tags": [
+      "肥蛤",
+      "中餐",
+      "海鲜"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "雪野湖",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于雪野航空科技体育公园",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "馨悦兰亭精选民宿(济南万虹广场店)",
+    "city": "济南",
+    "category": "hotel",
+    "description": "位于王舍人街道万虹广场1号公寓10楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马家泉水包子铺",
+    "city": "济南",
+    "category": "food",
+    "description": "位于泺源回民小区",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马山坡景区",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于舜华三山森林公园内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(绿地国金天地店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于姚家街道齐音路966号绿地国金天地东园湾1栋1层101",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲁南仔·滕州炒鸡(经三路店)",
+    "city": "济南",
+    "category": "food",
+    "description": "鲁南仔·滕州炒鸡(经三路店)位于济南市市中区经三路133号，是一家以滕州炒鸡为特色的中餐厅。",
+    "tags": [
+      "炒鸡",
+      "鲁菜",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "鲁南仔·滕州炒鸡(经三路店)",
+    "city": "济南",
+    "category": "food",
+    "description": "鲁南仔·滕州炒鸡(经三路店)，位于经三路133号(经三纬四交叉口)，市中区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲁南仔·滕州炒鸡(经三路店)",
+    "city": "济南",
+    "category": "food",
+    "description": "鲁南仔·滕州炒鸡(经三路店)，位于经三路133号(经三纬四交叉口)，市中区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲁南仔·滕州炒鸡(经三路店)",
+    "city": "济南",
+    "category": "food",
+    "description": "鲁南仔·滕州炒鸡(经三路店)，位于经三路133号(经三纬四交叉口)，市中区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲁南仔·滕州炒鸡(经三路店)",
+    "city": "济南",
+    "category": "food",
+    "description": "鲁南仔·滕州炒鸡(经三路店)位于济南市市中区经三路133号，是一家以滕州炒鸡为特色的中餐厅。",
+    "tags": [
+      "炒鸡",
+      "鲁菜",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "鼎厨(奥体中心店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于龙洞街道奥体中心东荷网球馆1030号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼎渔和牛姿造火锅(银丰店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于龙奥西路1号银丰财富广场裙楼A115",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(济南万象城店)",
+    "city": "济南",
+    "category": "food",
+    "description": "位于万象城L2层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙奥公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于龙鼎大道西",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙鼎体育公园",
+    "city": "济南",
+    "category": "attraction",
+    "description": "位于龙鼎大道与龙飞路交叉口东南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

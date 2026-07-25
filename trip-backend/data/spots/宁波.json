@@ -1,31 +1,224 @@
 [
   {
-    "name": "宁波文化广场",
+    "name": "N 辣子牛肉面(文化广场店)",
     "city": "宁波",
-    "category": "attraction",
-    "description": "宁波文化广场 是宁波的旅游景点，位于鄞州区。地址：中山东路2109号(海晏北路地铁站C口步行400米)。",
+    "category": "food",
+    "description": "位于嘉恒广场B1860",
     "tags": [
-      "宁波"
+      "050000"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "全天",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "五一广场",
+    "name": "howhow好好面馆",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于堇山中路1549号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七塔禅寺",
     "city": "宁波",
     "category": "attraction",
-    "description": "五一广场位于宁波市鄞州区，是集商务办公、商业休闲于一体的城市广场，周边有市民广场等设施。",
+    "description": "位于百丈路183号",
     "tags": [
-      "商务写字楼",
-      "广场",
-      "鄞州区"
+      "110205"
     ],
-    "avgCost": 0,
-    "duration": "未知",
-    "openTime": "全天开放",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万博鱼度假区",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于春晓街道春晓大道999号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三北夜市(三北市场店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于三北市场东门旁",
+    "tags": [
+      "060700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三回头·衢州菜(金融硅谷建宁街店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于建宁街94号(海晏北路地铁站A口步行420米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三横汇盛夜市街",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于汇茂路231号世纪一百广场路面停车场",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三横王生煎(锦绣东城店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于雅戈尔锦绣东城二号组团西北1门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上林湖",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于桥头镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下沉广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于五一广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世界这么大我想去看看公寓(宁波慈溪杭州湾世纪城方特度假区店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于贵安路129号梦想公寓3栋18层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东海怡品海鲜豆捞(东部新城店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于福明街道中山东路2111号045幢2-1宁波文化广场A1-101-201号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东海怡品海鲜豆捞(天一广场店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于中山东路145-151号2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东海怡品海鲜豆捞(江东店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于中山东路678号(樱花公园地铁站C口步行360米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东海怡品海鲜豆捞(鄞州店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于贸城中路635号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东裕夜市",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于中河街道贸城东路192号(东裕商业街)8号楼8-4",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东裕社区文化体育广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于东裕路1008号(南高教园区地铁站D口步行330米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "东部新城市民广场",
@@ -37,87 +230,1202 @@
       "公园广场",
       "城市广场"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "2小时",
     "openTime": "全天开放",
     "rating": 4.0
   },
   {
-    "name": "生态走廊",
+    "name": "东部新城市民广场",
     "city": "宁波",
     "category": "attraction",
-    "description": "生态走廊是位于宁波鄞州区邱隘大道的一处风景名胜，适合休闲游览。",
+    "description": "东部新城市民广场，位于宁穿路(福庆北路地铁站D口步行160米)，鄞州区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东部新城市民广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "东部新城市民广场，位于宁穿路(福庆北路地铁站D口步行160米)，鄞州区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东部新城市民广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "东部新城市民广场，位于宁穿路(福庆北路地铁站D口步行160米)，鄞州区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东部新城市民广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "东部新城市民广场是宁波市鄞州区的一个大型城市广场，集休闲、娱乐、文化活动于一体，周边交通便利，靠近福庆北路地铁站。",
     "tags": [
       "风景名胜",
-      "旅游景点"
+      "公园广场",
+      "城市广场"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "宁波罗城",
-    "city": "宁波",
-    "category": "attraction",
-    "description": "宁波罗城是宁波古城墙遗址，位于海曙区公园路与镇明路交叉口附近，是宁波历史文化的重要标志。这里保留有明清时期的城墙残段，周边环境优美，融合了历史遗迹与现代城市景观，是了解宁波城市发展脉络的绝佳去处。",
-    "tags": [
-      "风景名胜",
-      "旅游景点",
-      "古城墙",
-      "历史遗迹"
-    ],
-    "avgCost": 0,
-    "duration": "1小时",
-    "openTime": "全天开放",
-    "rating": 4.5
-  },
-  {
-    "name": "宁波老外滩",
-    "city": "宁波",
-    "category": "attraction",
-    "description": "宁波老外滩位于浙江省宁波市江北区，是宁波著名的历史街区，融合了中西建筑风格，夜晚灯光璀璨，是游客休闲娱乐的好去处。",
-    "tags": [
-      "风景名胜",
-      "历史街区",
-      "夜景"
-    ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "全天开放",
-    "rating": 4.5
-  },
-  {
-    "name": "宁波海洋世界",
-    "city": "宁波",
-    "category": "attraction",
-    "description": "宁波海洋世界位于浙江省宁波市鄞州区，是一座集海洋生物展示、科普教育、休闲娱乐为一体的现代化水族馆。这里拥有丰富的海洋生物种类和精彩的表演，是游客了解海洋知识的好去处。",
-    "tags": [
-      "水族馆",
-      "海洋馆",
-      "公园",
-      "科普",
-      "宁波"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "宁波法国园",
-    "city": "宁波",
-    "category": "attraction",
-    "description": "宁波法国园位于鄞州区生态走廊内，是一处体现法国园林风格的景点，园内种植了多种花卉植物，适合休闲散步。",
-    "tags": [
-      "公园",
-      "法国风情",
-      "园林"
-    ],
-    "avgCost": 0,
-    "duration": "1小时",
+    "avgCost": 0.0,
+    "duration": "2小时",
     "openTime": "全天开放",
     "rating": 4.0
+  },
+  {
+    "name": "东部新城市民广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于宁穿路(福庆北路地铁站D口步行160米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东钱湖沙滩营地",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于东钱湖环湖南线",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东钱湖风景名胜区",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于大堰路188号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东钱湖风景名胜区-小普陀",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于东钱湖陶公路小普陀景区(近陶公村)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国保险博物馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于白沙路126号",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国虫草博物馆-生活馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于潘火路与福庆南路交叉口西60米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中央公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "中央公园位于宁波市鄞州区，是一个集休闲、娱乐、观光于一体的城市公园。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "中央公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "中央公园，位于海晏北路251弄与和源路交叉口西南角，鄞州区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中央公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "中央公园，位于海晏北路251弄与和源路交叉口西南角，鄞州区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中央公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "中央公园，位于海晏北路251弄与和源路交叉口西南角，鄞州区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中央公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "中央公园位于宁波市鄞州区，是一个集休闲、娱乐、观光于一体的城市公园。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "中央公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于海晏北路251弄与和源路交叉口西南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山广场-小花厅",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于解放北路148号中山广场内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中法友谊园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于邱隘大道8-28号生态走廊内(北侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临溪民宿(百丈路1号分店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于溪口镇百丈路6幢8号(近蒋氏故里)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丹凤社区文化广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于兴宁路辅路与兴宁路172弄交叉口北160米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐亭日本料理(东部店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于中山东路2279号",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐佳民宿(利时广场店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于前湾新区崇寿镇机电路金瑞豪庭5栋701室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐橙广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于乐橙荟",
+    "tags": [
+      "080300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐民商务宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于周巷镇环城北路1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九峰山度假村",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于陆家28号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二十四间走马楼",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于鸣兴西路鸣鹤古镇(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云创夜市",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于风华路928弄与风华路辅路交叉口东南140米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五一广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "五一广场位于宁波市鄞州区，是集商务办公、商业休闲于一体的城市广场，周边有市民广场等设施。",
+    "tags": [
+      "商务写字楼",
+      "广场",
+      "鄞州区"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "五一广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "五一广场，位于邱隘镇江东东临福庆北路西起河清路南面中山路北临市民广场，鄞州区，类型楼宇 商务写字楼。",
+    "tags": [
+      "楼宇",
+      "商务写字楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五一广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "五一广场，位于邱隘镇江东东临福庆北路西起河清路南面中山路北临市民广场，鄞州区，类型楼宇 商务写字楼。",
+    "tags": [
+      "楼宇",
+      "商务写字楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五一广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "五一广场，位于邱隘镇江东东临福庆北路西起河清路南面中山路北临市民广场，鄞州区，类型楼宇 商务写字楼。",
+    "tags": [
+      "楼宇",
+      "商务写字楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五一广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "五一广场位于宁波市鄞州区，是集商务办公、商业休闲于一体的城市广场，周边有市民广场等设施。",
+    "tags": [
+      "商务写字楼",
+      "广场",
+      "鄞州区"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "五一广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于邱隘镇江东东临福庆北路西起河清路南面中山路北临市民广场",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五马馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于滨江望品",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民代表大会制度主题公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于福庆南路与环城南路交叉口西北140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伊来顺",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于黄河路大路美食城国汇旁边",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "余姚单家客栈",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于梁弄镇雅贤村下坞155号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "余姚正蒙客栈",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于正蒙街117号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "余姚永家商务宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于余马路21号(汽车西站往西2-3公里)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "余姚江南商务宾馆(汽车南站店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于四明西路139号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "余姚阳明夜市",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于阳明西路373号",
+    "tags": [
+      "060700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "余姚香泉湾度假山庄",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于鹿亭乡香泉湾路1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳洁民宿",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于庵东镇福州路35号杭州湾世纪城翠湖苑20栋202室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "依佳客栈",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于丹东街道梅岙村6号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "健乐旅馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于骆驼街道慈海南路400号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前童古镇",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于前童镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "勇红缘泡椒牛蛙(仙峰环合中心店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于瑞庆路163仙峰环合中心F1层",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包玉书广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于斯同路与苍水路交叉口东北200米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北仑大夜市",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于伟业驾驶员培训学校备碶分校西南门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北仑渡假村",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于霞浦街道大胡西路",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十有六冒菜",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于君子街58号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十里四香景区",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于东钱湖旅游度假区环湖东路(近下水西村)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十里街区夜市街",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于中河街道贸城东路192号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华茂艺术教育博物馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于东钱湖镇连心路99号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南苑e家精选酒店(宁波天一广场SHOPING彩虹南路店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于彩虹南路261号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "印创广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于文康路与新晖南路交叉口西南140米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台小馆(东方一品店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于东方一品潇碧轩1号院东北门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "启新度假村",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于东钱湖环湖南路788号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "周尧昆虫博物馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于日丽西路336号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和新客房",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于洪塘中路231号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "唐老鸭民宿(宁波火车站店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于苍松路299弄22号柳汀星座商务楼F5层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四明山国家森林公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于四明山镇甘竹岭",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国展中心广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于会展路宁波国际贸易展览中心",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城市之光广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于海晏南路与海晏南路116弄交叉口西南80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城隍夜市",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于县学街与解放南路交叉口东80米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(宁波市鄞州金融硅谷店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于实怡中心25号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夏中公寓(周巷汽车站店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于环城南路295号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "多彩夜市(世纪联华)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于丹峰东路26号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夜夜夜市(城隍庙店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于开明街与县学街交叉口西南40米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夜市烧烤",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于古塘街道开发大道967号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大东江公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于创苑路与扬帆路交叉口东北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大唐客栈(宁波高教园区店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于钱湖南路666弄181号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大夫第",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于观海卫镇禹皇路999号鸣鹤古镇(东南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大渔铁板烧(宁波东银泰城店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于中山东路2338弄01050宁波东银泰城L4层",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天一阁·月湖",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于长春路92号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天一阁博物院",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于天一街10号(西门口地铁站D口步行430米)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天天家缘宾馆(溪口1887广场店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于溪口镇中兴东路569弄1幢7-8号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天童寺",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于东吴镇太白山",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天逸湾城市休闲度假区",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于洋山古村古道1号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奉化鑫苑宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于中兴中路31号工贸城3段6号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如家派柏云酒店(北仑明州路店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于高凤路450号太平洋花园广场B座",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如辉奉化点心(天一店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于竺家巷23号1-36",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孔岳冒菜(金融硅谷店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于宁穿路1811号(实怡中心20号)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波东海旅社",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波东海旅社位于宁波市北仑区大矸镇大路110号，提供住宿服务。",
+    "tags": [
+      "旅馆招待所"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "宁波东海旅社",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波东海旅社，位于大矸镇大路110号，北仑区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波东海旅社",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波东海旅社，位于大矸镇大路110号，北仑区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波东海旅社",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波东海旅社，位于大矸镇大路110号，北仑区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波东海旅社",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波东海旅社位于宁波市北仑区大矸镇大路110号，提供住宿服务。",
+    "tags": [
+      "旅馆招待所"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "宁波东部新城中央广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于福明街道东部新城",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波东钱湖旅游度假区(吉古婚庆店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于莫枝北路嘉悦生活广场",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "宁波儿童公园",
@@ -131,70 +1439,1399 @@
       "儿童",
       "亲子"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "2小时",
     "openTime": "全天开放",
     "rating": 4.3
   },
   {
-    "name": "中央公园",
+    "name": "宁波儿童公园",
     "city": "宁波",
     "category": "attraction",
-    "description": "中央公园位于宁波市鄞州区，是一个集休闲、娱乐、观光于一体的城市公园。",
+    "description": "宁波儿童公园，位于兴宁路321号(儿童公园地铁站G口步行280米)，鄞州区，类型公园广场 公园。",
     "tags": [
-      "风景名胜",
       "公园广场",
       "公园"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波儿童公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波儿童公园，位于兴宁路321号(儿童公园地铁站G口步行280米)，鄞州区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波儿童公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波儿童公园，位于兴宁路321号(儿童公园地铁站G口步行280米)，鄞州区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波儿童公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波儿童公园位于宁波市鄞州区兴宁路321号，紧邻儿童公园地铁站G口，步行仅需280米。公园以儿童游乐为主题，集自然景观、休闲娱乐和亲子活动于一体，适合家庭游玩。园内绿树成荫，拥有多个儿童游乐设施和活动区域，是市民休闲放松的好去处。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园",
+      "儿童",
+      "亲子"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
     "openTime": "全天开放",
-    "rating": 4.5
+    "rating": 4.3
   },
   {
-    "name": "宁海食府(望京路店)",
+    "name": "宁波儿童公园",
     "city": "宁波",
-    "category": "food",
-    "description": "宁海食府(望京路店)位于宁波市海曙区望京路9496号，西门口地铁站B口步行约300米可达，是一家以海鲜为主的中餐厅，提供新鲜地道的宁海风味菜肴，深受当地食客喜爱。",
+    "category": "attraction",
+    "description": "位于兴宁路321号(儿童公园地铁站G口步行280米)",
     "tags": [
-      "海鲜",
-      "中餐厅",
-      "宁波美食"
+      "110101"
     ],
-    "avgCost": 120,
-    "duration": "1-2小时",
-    "openTime": "11:00-14:00,17:00-21:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "宁海食府(奥体旗舰店)",
+    "name": "宁波典雅倾城时尚酒店",
     "city": "宁波",
-    "category": "food",
-    "description": "位于宁波市江北区机场北路299弄55号万科滨悦中心，是一家以海鲜为特色的中餐厅。",
+    "category": "hotel",
+    "description": "位于中山路51号(招宝山地铁站A口步行320米)",
     "tags": [
-      "餐饮服务",
-      "中餐厅"
+      "100100"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波半山伴水渡假村",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于龙观乡龙兴路299号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波博物院",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于首南中路1000号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波古月民宿",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于象山新桥镇影视城上灵岙村100号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波园林博物馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于文教街道环城北路西段481号绿岛公园内(北侧)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波国际礼拜堂",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于会展路915号",
+    "tags": [
+      "110206"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波堇山居度假酒店",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于塘溪镇雁村",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波多米乐青年民宿(天一广场店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于大梁街118号1519(鼓楼地铁站H口步行250米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波大鹰宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于广平路233号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波天福宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于大碶镇高田王街6号天福宾馆旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波奉化银河宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于宁波奉化区光明路32幢6号的宾馆，提供住宿服务。",
+    "tags": [
+      "住宿服务",
+      "宾馆酒店"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "宁海食府(镇海开元店)",
+    "name": "宁波奉化银河宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波奉化银河宾馆，位于光明路32幢6号，奉化区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波奉化银河宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波奉化银河宾馆，位于光明路32幢6号，奉化区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波奉化银河宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波奉化银河宾馆，位于光明路32幢6号，奉化区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波奉化银河宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于宁波奉化区光明路32幢6号的宾馆，提供住宿服务。",
+    "tags": [
+      "住宿服务",
+      "宾馆酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "宁波奉化银河宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于光明路32幢6号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波小南门宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于新典路160号2层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波市保国寺古建筑博物馆景区",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于洪塘街道鞍山村",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波市甬剧艺术博物馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于北东安路城东院11号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波市鄞州区千工甬式家具博物馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于邱隘镇人民南路200号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波市鄞州区甬宝斋锡镴器熨斗博物馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于沧海路蔡氏宗祠2938号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波帮博物馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于庄市街道思源路255号(近宁波大学)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波府城隍庙",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于县学街1-3号(城隍庙地铁站D口步行120米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波得利假日宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于闽江路336号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波志江商务宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于马园路329号(宁波火车站地铁站F口步行430米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波悦来客栈",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于环岛南路22-24号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波慈溪市步行街",
     "city": "宁波",
     "category": "food",
-    "description": "宁海食府是位于宁波镇海区开元广场的一家知名中餐厅，主打地道宁波菜和海鲜，菜品新鲜，口味正宗，环境雅致，适合家庭聚餐和商务宴请。",
+    "description": "位于浒山路与解放西街交汇处",
     "tags": [
-      "中餐厅",
-      "宁波菜",
-      "海鲜",
-      "餐饮"
+      "061001"
     ],
-    "avgCost": 100,
-    "duration": "1.5小时",
-    "openTime": "11:00-14:00,17:00-21:00",
-    "rating": 4.3
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波教育博物馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于和义路106号(近万豪大酒店)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波文化广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波文化广场 是宁波的旅游景点，位于鄞州区。地址：中山东路2109号(海晏北路地铁站C口步行400米)。",
+    "tags": [
+      "宁波"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "宁波文化广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波文化广场，位于中山东路2109号(海晏北路地铁站C口步行400米)，鄞州区，类型楼宇 商住两用楼宇。",
+    "tags": [
+      "楼宇",
+      "商住两用楼宇"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波文化广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波文化广场，位于中山东路2109号(海晏北路地铁站C口步行400米)，鄞州区，类型楼宇 商住两用楼宇。",
+    "tags": [
+      "楼宇",
+      "商住两用楼宇"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波文化广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波文化广场，位于中山东路2109号(海晏北路地铁站C口步行400米)，鄞州区，类型楼宇 商住两用楼宇。",
+    "tags": [
+      "楼宇",
+      "商住两用楼宇"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波文化广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波文化广场 是宁波的旅游景点，位于鄞州区。地址：中山东路2109号(海晏北路地铁站C口步行400米)。",
+    "tags": [
+      "宁波"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "宁波文化广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于中山东路2109号(海晏北路地铁站C口步行400米)",
+    "tags": [
+      "120203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波春成客栈(天一广场鼓楼店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于呼童街66号三楼(鼓楼地铁站E口步行400米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波服装博物馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于下应街道湾底村天工路蓝海巷80号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波松兰山滨海旅游度假区",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于松兰山枫涛路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波松兰山滨海旅游度假区·南沙滩",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于松兰山枫涛路1号宁波松兰山滨海旅游度假区内(东侧)",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波梅景苑度假村",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于鄞江镇梅景苑11幢14号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波法国园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波法国园位于鄞州区生态走廊内，是一处体现法国园林风格的景点，园内种植了多种花卉植物，适合休闲散步。",
+    "tags": [
+      "公园",
+      "法国风情",
+      "园林"
+    ],
+    "avgCost": 0.0,
+    "duration": "1小时",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "宁波法国园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波法国园，位于邱隘大道8-28号生态走廊内(北侧)，鄞州区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波法国园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波法国园，位于邱隘大道8-28号生态走廊内(北侧)，鄞州区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波法国园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波法国园，位于邱隘大道8-28号生态走廊内(北侧)，鄞州区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波法国园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波法国园位于鄞州区生态走廊内，是一处体现法国园林风格的景点，园内种植了多种花卉植物，适合休闲散步。",
+    "tags": [
+      "公园",
+      "法国风情",
+      "园林"
+    ],
+    "avgCost": 0.0,
+    "duration": "1小时",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "宁波法国园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于邱隘大道8-28号生态走廊内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波海洋世界",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波海洋世界位于浙江省宁波市鄞州区，是一座集海洋生物展示、科普教育、休闲娱乐为一体的现代化水族馆。这里拥有丰富的海洋生物种类和精彩的表演，是游客了解海洋知识的好去处。",
+    "tags": [
+      "水族馆",
+      "海洋馆",
+      "公园",
+      "科普",
+      "宁波"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "宁波海洋世界",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波海洋世界，位于桑田路936号，鄞州区，类型公园广场 水族馆。",
+    "tags": [
+      "公园广场",
+      "水族馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波海洋世界",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波海洋世界，位于桑田路936号，鄞州区，类型公园广场 水族馆。",
+    "tags": [
+      "公园广场",
+      "水族馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波海洋世界",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波海洋世界，位于桑田路936号，鄞州区，类型公园广场 水族馆。",
+    "tags": [
+      "公园广场",
+      "水族馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波海洋世界",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波海洋世界位于浙江省宁波市鄞州区，是一座集海洋生物展示、科普教育、休闲娱乐为一体的现代化水族馆。这里拥有丰富的海洋生物种类和精彩的表演，是游客了解海洋知识的好去处。",
+    "tags": [
+      "水族馆",
+      "海洋馆",
+      "公园",
+      "科普",
+      "宁波"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "宁波海洋世界",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于桑田路936号",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波温馨客房",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于榭南邻里中心2号楼海湾路27弄244-245号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波状元楼酒店(宁波鄞州万达广场店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于钟公庙街道四明中路999号宁波鄞州万达广场F1",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波狮山宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于姜山镇环镇北路54号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波祥龙商务宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于人民北路165号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波简尚宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于溪口镇工贸城一段23号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波绿水宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波绿水宾馆位于溪口镇沿江北路5号，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "宁波绿水宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波绿水宾馆，位于溪口镇沿江北路5号，奉化区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波绿水宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波绿水宾馆，位于溪口镇沿江北路5号，奉化区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波绿水宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波绿水宾馆，位于溪口镇沿江北路5号，奉化区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波绿水宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波绿水宾馆位于溪口镇沿江北路5号，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "宁波绿水宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于溪口镇沿江北路5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波罗城",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波罗城是宁波古城墙遗址，位于海曙区公园路与镇明路交叉口附近，是宁波历史文化的重要标志。这里保留有明清时期的城墙残段，周边环境优美，融合了历史遗迹与现代城市景观，是了解宁波城市发展脉络的绝佳去处。",
+    "tags": [
+      "风景名胜",
+      "旅游景点",
+      "古城墙",
+      "历史遗迹"
+    ],
+    "avgCost": 0.0,
+    "duration": "1小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "宁波罗城",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波罗城，位于公园路与镇明路交叉口东北60米，海曙区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波罗城",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波罗城，位于公园路与镇明路交叉口东北60米，海曙区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波罗城",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波罗城，位于公园路与镇明路交叉口东北60米，海曙区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波罗城",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波罗城是宁波古城墙遗址，位于海曙区公园路与镇明路交叉口附近，是宁波历史文化的重要标志。这里保留有明清时期的城墙残段，周边环境优美，融合了历史遗迹与现代城市景观，是了解宁波城市发展脉络的绝佳去处。",
+    "tags": [
+      "风景名胜",
+      "旅游景点",
+      "古城墙",
+      "历史遗迹"
+    ],
+    "avgCost": 0.0,
+    "duration": "1小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "宁波罗城",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于公园路与镇明路交叉口东北60米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波老外滩",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波老外滩位于浙江省宁波市江北区，是宁波著名的历史街区，融合了中西建筑风格，夜晚灯光璀璨，是游客休闲娱乐的好去处。",
+    "tags": [
+      "风景名胜",
+      "历史街区",
+      "夜景"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "宁波老外滩",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波老外滩，位于中马路157号-159号，江北区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波老外滩",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波老外滩，位于中马路157号-159号，江北区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波老外滩",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波老外滩，位于中马路157号-159号，江北区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波老外滩",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "宁波老外滩位于浙江省宁波市江北区，是宁波著名的历史街区，融合了中西建筑风格，夜晚灯光璀璨，是游客休闲娱乐的好去处。",
+    "tags": [
+      "风景名胜",
+      "历史街区",
+      "夜景"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "宁波老外滩",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于中马路157号-159号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波联港商务宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于丽园北路18号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波自由Home青年公寓",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于大梁街118号世纪广场B座506室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波菜博物馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于南门街道船埠巷138号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波豪廷商务酒店",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于广平路235号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波超乐宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于古林礼嘉桥142号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波逸佳商务宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于东钱湖旅游度假区万金人家131-1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波邱二公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于庙新路与葡萄园路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波邻家客栈",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于宋诏路27号(黄鹂新村附近)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波都会宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波都会宾馆位于北仑区新碶街道长江路1000号，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "宁波都会宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波都会宾馆，位于新碶街道长江路1000号，北仑区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波都会宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波都会宾馆，位于新碶街道长江路1000号，北仑区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波都会宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波都会宾馆，位于新碶街道长江路1000号，北仑区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波都会宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "宁波都会宾馆位于北仑区新碶街道长江路1000号，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "宁波都会宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于新碶街道长江路1000号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波鄞南宾馆(南塘老街火车站店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于中国石化加油站正对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波野生动物园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于东钱湖梅湖村",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波鑫源宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于北路一村东南1门旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波长江宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于明州路608-612号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波阳光旅馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于钟公庙路108号(钟公庙地铁站B口步行460米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波阿明宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于卖鱼路79-1号(西门口地铁站B口步行480米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁波鼓楼客栈",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于中山西路75号鼓楼大厦西侧(范宅旁边)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海前童古镇观农点",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于前童镇前童古镇",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海县前童镇舒松客栈",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于前童镇鹿分村675号宁海舒松客栈",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "宁海食府(东部高新店)",
@@ -205,7 +2842,63 @@
       "餐饮服务",
       "中餐厅"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "宁海食府(东部高新店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(东部高新店)，位于翡翠湾18号楼(扬帆路与院士路交叉口)，鄞州区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(东部高新店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(东部高新店)，位于翡翠湾18号楼(扬帆路与院士路交叉口)，鄞州区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(东部高新店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(东部高新店)，位于翡翠湾18号楼(扬帆路与院士路交叉口)，鄞州区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(东部高新店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于鄞州区翡翠湾18号楼(扬帆路与院士路交叉口)的宁海食府，是一家提供中餐的餐厅。",
+    "tags": [
+      "餐饮服务",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
@@ -220,26 +2913,798 @@
       "宁波",
       "中餐厅"
     ],
-    "avgCost": 150,
+    "avgCost": 150.0,
     "duration": "2小时",
     "openTime": "11:00-14:00,17:00-21:00",
     "rating": 4.5
   },
   {
-    "name": "鱼满仓海鲜人家(石浦一店)",
+    "name": "宁海食府(南站店)",
     "city": "宁波",
     "category": "food",
-    "description": "鱼满仓海鲜人家(石浦一店)是一家位于象山县石浦镇的海鲜酒楼，主营中餐及海鲜菜品。",
+    "description": "宁海食府(南站店)，位于柳汀街555号，海曙区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(南站店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(南站店)，位于柳汀街555号，海曙区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(南站店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(南站店)，位于柳汀街555号，海曙区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(南站店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府是宁波知名的海鲜餐厅，南站店位于海曙区柳汀街，提供新鲜美味的海鲜和地道的宁波菜，环境舒适，服务周到。",
+    "tags": [
+      "海鲜",
+      "宁波",
+      "中餐厅"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "宁海食府(四明中路店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于四明中路613号(近锦寓路)",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(大剧院店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(大剧院店)，位于大闸路58号北岸财富中心1楼65号(宁波大剧院对面)，江北区，类型中餐厅 浙江菜。",
+    "tags": [
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(大剧院店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(大剧院店)，位于大闸路58号北岸财富中心1楼65号(宁波大剧院对面)，江北区，类型中餐厅 浙江菜。",
+    "tags": [
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(大剧院店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(大剧院店)，位于大闸路58号北岸财富中心1楼65号(宁波大剧院对面)，江北区，类型中餐厅 浙江菜。",
+    "tags": [
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(奥体旗舰店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于宁波市江北区机场北路299弄55号万科滨悦中心，是一家以海鲜为特色的中餐厅。",
     "tags": [
       "餐饮服务",
-      "中餐厅",
-      "海鲜酒楼",
-      "象山"
+      "中餐厅"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
+  },
+  {
+    "name": "宁海食府(奥体旗舰店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(奥体旗舰店)，位于机场北路299弄55号万科滨悦中心，江北区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(奥体旗舰店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(奥体旗舰店)，位于机场北路299弄55号万科滨悦中心，江北区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(奥体旗舰店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(奥体旗舰店)，位于机场北路299弄55号万科滨悦中心，江北区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(奥体旗舰店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于宁波市江北区机场北路299弄55号万科滨悦中心，是一家以海鲜为特色的中餐厅。",
+    "tags": [
+      "餐饮服务",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "宁海食府(望京路店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(望京路店)位于宁波市海曙区望京路9496号，西门口地铁站B口步行约300米可达，是一家以海鲜为主的中餐厅，提供新鲜地道的宁海风味菜肴，深受当地食客喜爱。",
+    "tags": [
+      "海鲜",
+      "中餐厅",
+      "宁波美食"
+    ],
+    "avgCost": 120.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "宁海食府(望京路店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(望京路店)，位于望京路9496号(西门口地铁站B口步行300米)，海曙区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(望京路店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(望京路店)，位于望京路9496号(西门口地铁站B口步行300米)，海曙区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(望京路店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(望京路店)，位于望京路9496号(西门口地铁站B口步行300米)，海曙区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(望京路店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(望京路店)位于宁波市海曙区望京路9496号，西门口地铁站B口步行约300米可达，是一家以海鲜为主的中餐厅，提供新鲜地道的宁海风味菜肴，深受当地食客喜爱。",
+    "tags": [
+      "海鲜",
+      "中餐厅",
+      "宁波美食"
+    ],
+    "avgCost": 120.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "宁海食府(镇海开元店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府是位于宁波镇海区开元广场的一家知名中餐厅，主打地道宁波菜和海鲜，菜品新鲜，口味正宗，环境雅致，适合家庭聚餐和商务宴请。",
+    "tags": [
+      "中餐厅",
+      "宁波菜",
+      "海鲜",
+      "餐饮"
+    ],
+    "avgCost": 100.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "宁海食府(镇海开元店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(镇海开元店)，位于庄市街道同心路888号近明海大道开元广场1005号，镇海区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(镇海开元店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(镇海开元店)，位于庄市街道同心路888号近明海大道开元广场1005号，镇海区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(镇海开元店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府(镇海开元店)，位于庄市街道同心路888号近明海大道开元广场1005号，镇海区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁海食府(镇海开元店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "宁海食府是位于宁波镇海区开元广场的一家知名中餐厅，主打地道宁波菜和海鲜，菜品新鲜，口味正宗，环境雅致，适合家庭聚餐和商务宴请。",
+    "tags": [
+      "中餐厅",
+      "宁波菜",
+      "海鲜",
+      "餐饮"
+    ],
+    "avgCost": 100.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "宁理坊-大学城云创夜市",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于学府路1号宁理坊云创夜市",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富邦荪湖山庄",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于荪湖路666号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小普陀度假村",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于玉泉南路与兴凯路交叉口西北120米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小渔厂私厨(保利悠悦汇店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于舒波路355号保利悠悦汇F2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小象Family影音民宿(宁波大学地铁站店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于风华路791号富力广场公寓楼10楼10-13-2",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川玺锦尚·自贡下饭菜(金融硅谷店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于宁波中心·兰园中区南门旁",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴邑火锅(天一广场店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于天一广场华楼巷19号(2-12)中山东路134号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巾帼园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于宁穿路与安波路交叉口南100米",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "座.呷奔(东部新城店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于宁穿路1699号(海晏北路地铁站A口步行210米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张府记(天一店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "张府记(天一店)位于宁波海曙区解放南路188号，靠近城隍庙地铁站，是一家提供地道宁波菜的中餐厅。菜品口味正宗，环境优雅，适合家庭聚餐和朋友聚会。",
+    "tags": [
+      "中餐",
+      "宁波菜"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.2
+  },
+  {
+    "name": "张府记(天一店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "张府记(天一店)，位于解放南路188号(城隍庙地铁站D口步行180米)，海曙区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张府记(天一店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "张府记(天一店)，位于解放南路188号(城隍庙地铁站D口步行180米)，海曙区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张府记(天一店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "张府记(天一店)，位于解放南路188号(城隍庙地铁站D口步行180米)，海曙区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张府记(天一店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "张府记(天一店)位于宁波海曙区解放南路188号，靠近城隍庙地铁站，是一家提供地道宁波菜的中餐厅。菜品口味正宗，环境优雅，适合家庭聚餐和朋友聚会。",
+    "tags": [
+      "中餐",
+      "宁波菜"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.2
+  },
+  {
+    "name": "影视城秀亚客栈",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于新桥镇黄公岙村振新路79号(近象山影视城景区)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "御海民宿(杭州湾世纪城店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于庵东镇滨海四路御海苑19栋704室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(宁波文化广场店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于宁穿路1800号宁波科学探索中心一层C2-105、C2-106",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恒逸民宿",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于庵东镇福州路世纪城翠湖苑23栋3101",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦居民宿(杭州湾世纪城店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于滨海四路980号赏江苑17栋2713",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈城县衙",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于慈城镇中华路82号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈城古县城",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于慈城镇",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈溪如玉民宿(吉利研究院店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于世纪城御海苑17栋",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈溪市五磊山风景区",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于湖滨东路",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈溪市金仙寺",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于观海卫镇禹皇路999号鸣鹤古镇(西北角)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈溪旺都客房",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于环城南路396号金海旺都2层205室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈溪蓝天客房",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于镇横街戎家东区5号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈溪道易青年公寓",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于庵东镇福州路杭州湾世纪新城翠湖苑23号楼1单元102室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈溪郡王府客栈",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于龙山镇范市人民北路13号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成事家常饭",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于溪口镇牌门北路92号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拙味兄弟龙虾·活龙虾·江湖菜·烧烤(东裕店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于中河街道贸城东路192号十里街区216-11号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拙味兄弟龙虾·活龙虾·江湖菜·烧烤(孙塘北路店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于古塘街道孙塘北路州761-767号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拙味兄弟龙虾·活龙虾·江湖菜·烧烤(旗舰店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于白云街道环城西路南段256号1-10",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾野·私房菜",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于中马路68弄4号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新居民宿(慈溪杭州湾世纪城店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于庵东镇芦苇路杭州湾新区慈溪观澜苑10栋1704室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新纪元大酒店(气象北路)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于气象北路202号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "新荣记(宁波国华金融中心店)",
@@ -249,10 +3714,657 @@
     "tags": [
       "宁波"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "全天",
     "rating": 3.5
+  },
+  {
+    "name": "新荣记(宁波国华金融中心店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "新荣记(宁波国华金融中心店)，位于福明街道松下街223号宁波国华金融中心2层2-52-6室，鄞州区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新荣记(宁波国华金融中心店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "新荣记(宁波国华金融中心店)，位于福明街道松下街223号宁波国华金融中心2层2-52-6室，鄞州区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新荣记(宁波国华金融中心店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "新荣记(宁波国华金融中心店)，位于福明街道松下街223号宁波国华金融中心2层2-52-6室，鄞州区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新荣记(宁波国华金融中心店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "新荣记(宁波国华金融中心店) 是宁波的美食餐厅，位于鄞州区。地址：福明街道松下街223号宁波国华金融中心2层2-52-6室。",
+    "tags": [
+      "宁波"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "方中山胡辣汤(宁波百丈路店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于百丈路102号(江厦桥东地铁站出入口步行450米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "时代广场(和义路)",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于连江北路56号(东门口地铁站1号口步行360米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明日商务宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于东一路240号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明昕公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于沧海路134号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明珠宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于阳明西路374-2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明阁",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于中山东路2109号朗豪酒店3楼(近文化广场)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星海公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于新明街道星海南路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月湖公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于镇明路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "望京门城墙遗址博物馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于望京路和中山路交叉口东北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "木木鲜海鲜面(天一店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于解放南路269号(鼓楼地铁站H口步行210米)",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "木木鲜海鲜面(鼓楼店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于镇明路631号(鼓楼地铁站F口步行280米)",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱富贵火锅(宁波海曙天街店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于环城西路南段858号龙湖海曙天街二层",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱富贵火锅(宁波环球银泰店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于天童南路1088号宁波环球银泰城三层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(鼓楼店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于呼童街80号(鼓楼地铁站E口步行480米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "格林豪泰酒店(宁波东钱湖鄞县大道店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于莫枝北路588号(莫枝北路与介甫路交叉口)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桃园商务宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于横街镇横街中路22号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "横溪人家·九龙湖特色农家菜",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于九龙湖镇长寿村墙头10号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "樱花公园-入口广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于中山东路705号樱花公园(东南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民泰民宿",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于雅戈尔大道87号(轻纺城地铁站B口步行140米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "氧气公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于海晏北路与杨木碶路交叉口南120米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永昌宾馆(宁波溪口蒋氏故居店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于宁波溪口镇武岭东路，靠近蒋氏故居，环境安静，交通便利。",
+    "tags": [
+      "溪口",
+      "蒋氏故居",
+      "宾馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "永昌宾馆(宁波溪口蒋氏故居店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "永昌宾馆(宁波溪口蒋氏故居店)，位于溪口镇武岭东路106号，奉化区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永昌宾馆(宁波溪口蒋氏故居店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "永昌宾馆(宁波溪口蒋氏故居店)，位于溪口镇武岭东路106号，奉化区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永昌宾馆(宁波溪口蒋氏故居店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "永昌宾馆(宁波溪口蒋氏故居店)，位于溪口镇武岭东路106号，奉化区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永昌宾馆(宁波溪口蒋氏故居店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于宁波溪口镇武岭东路，靠近蒋氏故居，环境安静，交通便利。",
+    "tags": [
+      "溪口",
+      "蒋氏故居",
+      "宾馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "永昌宾馆(宁波溪口蒋氏故居店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于溪口镇武岭东路106号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永顺商务宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于朝阳路387号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉堡王(宁波东部银泰城)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于邱隘镇中山东路2266号宁波东银泰城L1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江东公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于姚隘路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河姆渡遗址",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于河姆渡镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河姆渡遗址博物馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于江经段209县道",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河清公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于会展路和河清北路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洋山夜市购物中心",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于洋山夜市路与周家段路交叉口东北100米",
+    "tags": [
+      "060101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪塘夜市",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于宁沁路348号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浆小白豆浆夜市(杭州湾世纪城揽月苑店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于杭州湾新区金合路219号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浙东海事民俗博物馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于江东北路156号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浙海关旧址博物馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于中马路542号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海味世家(东部店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于中山东路文化广场2111号45栋",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(东部银泰店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于中山东路2266号东部银泰城4楼429号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(天一广场亚细亚夜宵主题店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于药行街169号亚细亚A座5层9号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(宝龙广场店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于中河街道钱湖北路199号宝龙广场负一楼M1-B1-031号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(明州里店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于宁南北路1200号明州里3楼327-330号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海曙银鱼民宿(龙兴路分店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于龙观乡桓村龙兴路43号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深蓝广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于百合路绿城深蓝公寓(盎孟港地铁站C口步行430米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渔满仓·海鲜面馆·海鲜家宴(石浦五店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于石浦镇大庆路138号北起1-6间",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "渔满仓海鲜渔家(象山二店)",
@@ -265,109 +4377,1550 @@
       "象山",
       "聚餐"
     ],
-    "avgCost": 120,
+    "avgCost": 120.0,
     "duration": "2小时",
     "openTime": "10:00-21:00",
     "rating": 4.5
   },
   {
-    "name": "张府记(天一店)",
+    "name": "渔满仓海鲜渔家(象山二店)",
     "city": "宁波",
     "category": "food",
-    "description": "张府记(天一店)位于宁波海曙区解放南路188号，靠近城隍庙地铁站，是一家提供地道宁波菜的中餐厅。菜品口味正宗，环境优雅，适合家庭聚餐和朋友聚会。",
-    "tags": [
-      "中餐",
-      "宁波菜"
-    ],
-    "avgCost": 80,
-    "duration": "1.5小时",
-    "openTime": "10:00-21:00",
-    "rating": 4.2
-  },
-  {
-    "name": "宁海食府(大剧院店)",
-    "city": "宁波",
-    "category": "restaurant",
-    "description": "宁海食府(大剧院店)位于宁波大剧院对面，主打浙江菜，提供正宗的中式餐饮服务。环境优雅，适合家庭聚餐和朋友聚会。",
+    "description": "渔满仓海鲜渔家(象山二店)，位于丹东街道中家河21号，象山县，类型中餐厅 海鲜酒楼。",
     "tags": [
       "中餐厅",
-      "浙江菜"
+      "海鲜酒楼"
     ],
-    "avgCost": 0,
-    "duration": "未知",
-    "openTime": "未知",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "宁波都会宾馆",
+    "name": "渔满仓海鲜渔家(象山二店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "渔满仓海鲜渔家(象山二店)，位于丹东街道中家河21号，象山县，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渔满仓海鲜渔家(象山二店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "渔满仓海鲜渔家(象山二店)，位于丹东街道中家河21号，象山县，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渔满仓海鲜渔家(象山二店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "渔满仓海鲜渔家(象山二店)位于宁波象山县丹东街道中家河21号，是一家以新鲜海鲜为特色的中餐厅。餐厅主打象山本地海鲜，菜品丰富，口味地道，深受当地居民和游客喜爱。环境舒适，服务周到，适合家庭聚餐和朋友聚会。",
+    "tags": [
+      "海鲜",
+      "中餐厅",
+      "象山",
+      "聚餐"
+    ],
+    "avgCost": 120.0,
+    "duration": "2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "湘记烧烤(十里街区夜市街店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于中河街道贸城东路192号十里街区夜市街",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溪口银凤度假村",
     "city": "宁波",
     "category": "hotel",
-    "description": "宁波都会宾馆位于北仑区新碶街道长江路1000号，提供住宿服务。",
+    "description": "位于溪口镇沙堤村(银凤股份有限公司内)",
     "tags": [
-      "住宿",
-      "宾馆",
-      "酒店"
+      "100102"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溪口锦溪商务宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于中兴东路680-688",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滕小院·乡野菜",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于福明街道瑞庆路5号金融硅谷9号楼2F",
+    "tags": [
+      "050106"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滚池砂锅麻辣烫·炸串·精酿咖啡(印象城店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于中河街道馨园路7号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨江水韵公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于梅墟街道甬江大道滨江花苑东北侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潘火文体公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于思涌巷1号思涌巷与东迪巷交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛味香天·潮汕老牌牛肉火锅(天一旗舰店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于右营巷43号酷购B馆1楼(李宁旁边)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛哒寿喜烧·和牛海鲜自助火锅(东部银泰店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于邱隘镇中山东路2266号东部新城4楼",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狗尾巴宠物度假村",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于千亩方田稻甜里",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉成窑非遗馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于新马路22号",
+    "tags": [
+      "141300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王守仁故居",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于阳明西路36号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "生态走廊",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "生态走廊是位于宁波鄞州区邱隘大道的一处风景名胜，适合休闲游览。",
+    "tags": [
+      "风景名胜",
+      "旅游景点"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "永昌宾馆(宁波溪口蒋氏故居店)",
+    "name": "生态走廊",
     "city": "宁波",
-    "category": "hotel",
-    "description": "位于宁波溪口镇武岭东路，靠近蒋氏故居，环境安静，交通便利。",
+    "category": "attraction",
+    "description": "生态走廊，位于邱隘大道8-28号，鄞州区，类型风景名胜相关 旅游景点。",
     "tags": [
-      "溪口",
-      "蒋氏故居",
-      "宾馆"
+      "风景名胜相关",
+      "旅游景点"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "宁波奉化银河宾馆",
+    "name": "生态走廊",
     "city": "宁波",
-    "category": "hotel",
-    "description": "位于宁波奉化区光明路32幢6号的宾馆，提供住宿服务。",
+    "category": "attraction",
+    "description": "生态走廊，位于邱隘大道8-28号，鄞州区，类型风景名胜相关 旅游景点。",
     "tags": [
-      "住宿服务",
-      "宾馆酒店"
+      "风景名胜相关",
+      "旅游景点"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "生态走廊",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "生态走廊，位于邱隘大道8-28号，鄞州区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "生态走廊",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "生态走廊是位于宁波鄞州区邱隘大道的一处风景名胜，适合休闲游览。",
+    "tags": [
+      "风景名胜",
+      "旅游景点"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "宁波绿水宾馆",
+    "name": "生态走廊",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于邱隘大道8-28号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "生态长廊2期",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于福庆北路与宁穿路交叉口东80米",
+    "tags": [
+      "120000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甬上名灶·宁波小鲜(文化广场店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于福明街道中山东路1999号文化广场2区1幢一层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甬上名灶·宁波小鲜(环城西路店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于环城西路南段359号(金都国际一楼)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甬上名灶翠柏店",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于西门街道体育场路43号16号楼1层(1-2)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甬新河公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于世纪大道辅路与宁穿路交叉口南80米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白鹤金凤文化广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于白鹤街道甬港南路249号(白鹤地铁站A口步行350米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百敏客栈",
     "city": "宁波",
     "category": "hotel",
-    "description": "宁波绿水宾馆位于溪口镇沿江北路5号，提供住宿服务。",
+    "description": "位于新桥镇黄公岙村沙坑路7号",
     "tags": [
-      "住宿",
-      "宾馆",
-      "酒店"
+      "100200"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "矮子馅饼(鼓楼旗舰店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于呼童街64号(中心菜市场对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石浦渔港古城",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于石浦镇江心街4号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石浦渔港古城-三官堂寺庙",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于人民路244号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石浦渔港古城-侍郎府",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于石浦镇江心街4号石浦渔港古城(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石浦渔港古城-关帝庙",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于石浦渔镇金山路石浦渔港古城景区内",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石浦渔港古城-古城渔讯",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于石浦渔镇金山路石浦渔港古城景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石浦渔港古城-名人轶事",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于石浦渔镇金山路石浦渔港古城景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石浦渔港古城-明代战船",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于石浦渔镇金山路石浦渔港古城景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石浦渔港古城-江心寺",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于石浦镇象山县渔港古城前门中街10号车库",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石浦渔港古城-石浦老街",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于石浦镇港中路55号(石浦休闲捕鱼码头)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石浦渔港古城-艺苑",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于石浦镇人民路34号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石浦渔港古城-观正堂",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于石浦渔镇金山路石浦渔港古城景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石浦渔港古城-财神庙",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于石浦渔镇金山路石浦渔港古城景区内",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石浦渔港古城景区-展示中心",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于石浦镇石浦渔港古城景区石浦社区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石浦渔港古城景区-彩魔术",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于石浦镇江心街4号石浦渔港古城(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧秀山庄",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于金家太河路东北侧",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福民公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于民安路688号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福泉山景区",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于环湖东路",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "科技公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于院士路与凌云路交叉口西北20米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红灯笼龙凤饭店",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于中山西路188号",
+    "tags": [
+      "050106"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缘起客栈(宁波藕池地铁站店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于启运路129号(藕池地铁站B出口)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老芳斋海鲜面·宁波小海鲜",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于老实巷32号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(宁波文化广场店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于河清北路宁波文化广场D区101",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舌间锦绣.贵州黄牛肉馆NO:001店",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于五乡镇爱民南路50号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舒记·云南风味米线(中山西路店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于中山西路374号-2",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莉莉安·花园Park of Lilian",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于东钱湖旅游度假区横街村赵家",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(天一广场店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于天一广场8号门华楼巷46号二层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒋氏故居",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于牌门南路195号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜗牛旅行家·优享影视民宿(万达48克拉店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于天童北路1388号万达广场48克拉F1层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西门大馒头",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于解放西街与上房路交叉口西100米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诗铂岚酒店式公寓(体育馆地铁店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于中兴路269号世纪龙腾二楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "象山南门夜市",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于步南路6号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "象山叶子宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于石浦镇海鲜街1-6号(近观景台)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "象山影视城",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于新桥镇影视大道8号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "象山影视城东篱下客栈",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于新桥镇黄公岙村黄新路128号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "象山影视城南门客栈",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于上灵岙村95号(象山影视城南大门旁)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "象山石浦人家宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于兴港路201号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "象山聚龙湾宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于新丰路209号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "象山苏园客栈",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于新桥中灵岙村33号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "象山蓝天商务宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于丹东街道步行街步东路35号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辣哭饼(鼓楼沿历史文化街区店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于公园路22号(鼓楼城门进来十字路口东南角)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达美乐比萨(开明街店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于开明街302号宁波天一广场服装区1层LB112室",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达蓬山庄",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于三北镇达蓬山",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "远教广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于杨木碶路宁波市国家高新区实验学校",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遇延·延边烧烤(品牌总店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于杭州湾新区世纪城福州路77号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邱隘公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于文卫路与邱隘北路交叉口东南100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邱隘方庄社区文化广场公园",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于邱隘镇青年路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑氏十七房景区",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于开源路777号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郭巨渔港·宁波菜小海鲜(西河街店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于西河街95-97号鼓楼,千年秀水街毗邻700米",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郭巨渔港·宁波菜小海鲜(青林湾店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于风华乐活中心北区东门北90米",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鄞南稻香里临享夜市",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于姜山镇南大西路姜山未来社区核心20号地块(原南大路停车场)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鄞州区东吴镇镜湖山庄1号会所",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于镜湖山庄停车场",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鄞州非遗馆",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于下应街道天宫庄园西江古村8号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金岛宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于乌山南路8号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金枫山庄",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于洪魏路与东二路交叉口西南300米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "镇海音乐广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于思源路455号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长寿禅寺",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于中河街道春园路",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闲暇小筑(松兰山风景区店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于丹东街道寨梅村梅岙55号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿拉名灶(镇明路店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于镇明路326号近水楼台底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿拉小宴",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于兆龙路与大叶界路交叉口东40米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿拉民宿",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于丹东街道梅岙村78号松兰旅游风景区门口",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿毛饭店(宁波文化广场店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于文化广场中山东路1999号4号楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿水小甜水(柠檬奶文化广场店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于福明街道宁穿路1888号040幢1-1宁波文化广场D1-119",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿育王寺",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于五乡镇宝幢明伦村五乡东路1999号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈有春鲜活牛肉店·土黄牛肉潮汕价·沙茶金蒜潮汕味(来福士店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于江安路451幢006幢1-11室",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈有春鲜活牛肉店·土黄牛肉潮汕价·沙茶金蒜潮汕味(鄞州店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于钟公庙街道麟寓8-1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陶公岛旅游景区",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于安石路777号东钱湖风景名胜区内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雄风宾馆(会展中心桑田路店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于桑田路314号(福民公园地铁站B3口步行480米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雅•割烹料理",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于五一广场2319号",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雅戈尔达蓬山旅游度假区-塔脑山",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于龙山镇徐福村雅戈尔达蓬山旅游度假区(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "集盒广场",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于东胜街道徐戎路临39号",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雪窦山",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于溪口镇",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雪窦山-雪窦寺",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于溪口镇雪窦山风景区内",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "韩宫宴炭火烤肉(东部新城银泰店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于邱隘镇中山东路2266号宁波东银泰城L4层",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "食源探访(浅水湾店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于坎墩街道人和路56号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香山教寺",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于九龙湖镇横溪村雅戈尔达蓬山旅游度假区内(东侧)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香逸宾馆(余姚高铁北站店)",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于高铁北站(南广场售票处对面楼梯上二楼)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "骆驼阿三饭店(迪赛·邻里店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于骆驼街道西大河南路177号迪赛邻里2号2-30-33室2-1-10室2-25-37室",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼满仓海鲜人家(石浦一店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "鱼满仓海鲜人家(石浦一店)是一家位于象山县石浦镇的海鲜酒楼，主营中餐及海鲜菜品。",
+    "tags": [
+      "餐饮服务",
+      "中餐厅",
+      "海鲜酒楼",
+      "象山"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "宁波东海旅社",
+    "name": "鱼满仓海鲜人家(石浦一店)",
     "city": "宁波",
-    "category": "hotel",
-    "description": "宁波东海旅社位于宁波市北仑区大矸镇大路110号，提供住宿服务。",
+    "category": "food",
+    "description": "鱼满仓海鲜人家(石浦一店)，位于石浦镇渔港北路26号26-1、-2.28-1、-2号，象山县，类型中餐厅 海鲜酒楼。",
     "tags": [
-      "旅馆招待所"
+      "中餐厅",
+      "海鲜酒楼"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼满仓海鲜人家(石浦一店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "鱼满仓海鲜人家(石浦一店)，位于石浦镇渔港北路26号26-1、-2.28-1、-2号，象山县，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼满仓海鲜人家(石浦一店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "鱼满仓海鲜人家(石浦一店)，位于石浦镇渔港北路26号26-1、-2.28-1、-2号，象山县，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼满仓海鲜人家(石浦一店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "鱼满仓海鲜人家(石浦一店)是一家位于象山县石浦镇的海鲜酒楼，主营中餐及海鲜菜品。",
+    "tags": [
+      "餐饮服务",
+      "中餐厅",
+      "海鲜酒楼",
+      "象山"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
+  },
+  {
+    "name": "鸡毛兑糖·家宴(百丈东路店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于东柳街道百丈东路909弄1-3号",
+    "tags": [
+      "050106"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸣鹤古镇",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于观海卫镇禹皇路999号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸣鹤古镇-彭公祠",
+    "city": "宁波",
+    "category": "attraction",
+    "description": "位于观海卫镇禹皇路999号鸣鹤古镇内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(宁波天一广场店)",
+    "city": "宁波",
+    "category": "food",
+    "description": "位于日新街86号(天一广场华润万家旁)",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼎峰商务宾馆",
+    "city": "宁波",
+    "category": "hotel",
+    "description": "位于佰佳乐购物广场东北门东100米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

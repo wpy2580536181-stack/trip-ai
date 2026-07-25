@@ -1,0 +1,2108 @@
+[
+  {
+    "name": "8秒鲜活牛肉火锅",
+    "city": "营口",
+    "category": "food",
+    "description": "位于建丰街道中心街28-4号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一勺一碗·好粥道(红运家园店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于渤海大街红运家园2号楼11甲-4号",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万科·慢悠悠亲子海景公寓(营口山海广场店)",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于万科拉维海岸7号楼10号底商",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万科海岛海景公寓(鲅鱼圈山海广场店)",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于万科海港城二期22号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东湖广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于东湖大街与富民路交叉口西南260米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中天市府广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于惠宾路东",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二界沟渔家海鲜小吃(智胜新家园店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于智胜新家园南门旁",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "于记串串香",
+    "city": "营口",
+    "category": "food",
+    "description": "位于海星花园西门15号楼1",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于公园路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仙人岛赶海场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于桃源度假村东北侧",
+    "tags": [
+      "080300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仙人岛风景区",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于九垄地镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "何记包子铺(中天英伦名邸店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于中天英伦名邸",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光华路慧泉广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于金牛山大街101号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兰州牛肉拉面(中天英伦名邸店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于中天英伦名邸",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "农人老弟儿·野火锅(营口店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于金牛山大街东16-4号(南窑市场北门)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北峰公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于辽河大街西63号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北海禅寺",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于团山国家级海洋公园景区内",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北海红海滩",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于团山管理区北海村辽宁团山国家级海洋公园内(东侧)",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华阳宾馆(华阳公寓盖州店)",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于商业区红旗大街61号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于建丰街道市府路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "口袋公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于东升路与太和北街东南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合和顺中式快餐(上海新城店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于新力大街117号甲7号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "启航广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于天成脂肪醇化工公司北侧480米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜子肥牛·萨日勒草原传统涮",
+    "city": "营口",
+    "category": "food",
+    "description": "位于盼盼路北22号(何氏眼科医院北侧)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜家德虾仁水饺(盼盼路店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于盼盼路南6号-15",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜家德虾仁水饺(营口沿海店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于民生路28号3号楼一层105号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉盈粥铺&鸡公煲",
+    "city": "营口",
+    "category": "food",
+    "description": "位于民生路15-甲5号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "多禧老式麻辣烫手工炸串(星汇奥城店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于新联北大街127-甲6号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大石桥大汉宾馆",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于火车站南300米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大石桥鑫鑫成宾馆",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于和平大街西段银河小区北门西侧50米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大石桥银河招待所(文体街店)",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于振兴中路附近",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大石桥镁都宾馆(大石桥站前店)",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于大石桥振兴中路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大辽河入海口",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于渔市街道渤海大街西段116号西炮台公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连渔港(智胜新家园店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于东海大街西21号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天天美食坊(星汇奥城店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于新联北大街129-甲2西北方向140米星汇奥城",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好再来快餐厅",
+    "city": "营口",
+    "category": "food",
+    "description": "位于沿海产业基地上海新城小区西门口6号甲13号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富强惠民广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于复兴路与新兴大街交叉口南60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小俩口大盘菜",
+    "city": "营口",
+    "category": "food",
+    "description": "位于沿海中天英伦名邸小区北门市",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小木屋拌饭(营口珑城一街店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于民生路与新力大街交叉口南140米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小锅清涮(嘉和店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于桃花潭路嘉和庄园1号楼3号门市",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "希望广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于渤海大街与学府路交叉口东北80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "希望广场-少年宫广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于希望广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平安广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于滨河大街与平安路交叉口东北40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "得胜公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于得胜路与新兴大街交叉口北160米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "御府肥牛(金座D区店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于10-金座D区3号楼北数1网点",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德明饺子王餐厅",
+    "city": "营口",
+    "category": "food",
+    "description": "位于华海佳苑东1门旁",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(万达财富店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于市府路南1号万达广场一层",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "思拉堡温泉小镇",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于虹溪谷思拉堡温泉小镇",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "您作煮火锅(宋屯新区店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于金果果双语幼儿园东南门东北200米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾光海景民宿(山海广场万科店)",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于万科海港城二期15号楼4号门市",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "捞喜自助小火锅(万达店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于市府路南1号万达广场营口店3F层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明湖广场智慧化体育公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于新联大街151号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春兰旅社",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于蓝郡小区西门南阳里1号楼五单元二楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月亮湖公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于红海街道辽东湾大街南段",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "望儿山",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于熊岳镇望儿山村",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "望儿山母亲湖",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于望儿山景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李三胖烧烤火锅烤肉",
+    "city": "营口",
+    "category": "food",
+    "description": "位于民和路与新和大街交叉口南80米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李云鸿基海景公寓(营口鲅鱼圈店)",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于红海街道蝴蝶泉路营口鸿基海岸A幢1203室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李先生牛肉面大王(大石桥大润发店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于朝阳路31号大润发1楼李先生餐厅",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李先生牛肉面大王(营口大润发店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于东升路29号11-12门市",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李先生牛肉面大王(财富春天购物中心店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于市府路北3号财富中心D座一层4号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(昆仑大街店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于昆仑大街北16-5号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "树人公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于聪慧路与青花大街交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "森林公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于平安路与青花大街交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楞严寺公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于惠宾路附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "樱溪公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于营口职业技术学院西100米路北侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欢乐时光口袋公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于国宝首府北侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(营口站前街万达店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于市府路南1号营口站前万达广场3层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民兴河广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于海澜街与市府路交叉口东南160米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永进社区广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于新兴大街39号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泰和园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于东新路与太和北街交叉口南150米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(万隆·海比岸店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于昆仑大街18号万隆生活中心5层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(站前区万达广场店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于万达广场4楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海螺广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于渤海大街西头南行",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清风海景公寓",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于辽东湾大街与蝴蝶泉路交汇处鸿基海岸公寓B座22层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渔歌小巷",
+    "city": "营口",
+    "category": "food",
+    "description": "位于辽东湾大街御海明珠G13-3号皇家园林正对面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渡口广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于辽河大街与得胜路交叉口东380米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "满口香·洪霞麻辣烫",
+    "city": "营口",
+    "category": "food",
+    "description": "位于中天英伦名邸",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潜龙广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于辽河大桥西123号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "澄湖公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于澄湖东路与新联南大街东段交叉口西北140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "焱火锅·地道重庆味(龙港花园店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于龙港花园三期A2号楼-3",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊喵来了火锅(营口万达店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于市府路1号万达广场(营口店)3F层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊岳植物园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于熊岳镇铁东街",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牧合家牛肉工厂直营店",
+    "city": "营口",
+    "category": "food",
+    "description": "位于新联北大街99丁-甲13号",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "犇犇捞潮汕牛肉火锅(营口市渤海大街店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于少年宫南里23号1层、2层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白沙湾黄金海岸",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于归州镇西",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "科普文化广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于公园路10号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红旗广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于清华路与辽河大街交汇处北100米路东",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老牌坊鱼豆花火锅(盼盼路店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于盼盼路北23-9号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖嫂饺子馆",
+    "city": "营口",
+    "category": "food",
+    "description": "位于西关1042号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡同涮肉营口站前店",
+    "city": "营口",
+    "category": "food",
+    "description": "位于盼盼路北20-3号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫斯汉堡(民和路店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于沿海综合市场",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口.鲅鱼圈万科佳佳海景公寓(山海广场店)",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于金沙滩万科海港城1-4、7、24号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口一品阁海景公寓(鲅鱼圈山海广场店)",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于辽东湾大街金泰城海岸线4号楼2单元",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口万科听海轩海景公寓",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于熊岳镇金星村金沙滩街万科海港城24号楼一单元2006号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口万达酒店式公寓",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于渤海大街与市府路交汇万达广场5号公寓5层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口亚马逊精选酒店(全都有超级购物市场店)",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于建设街纱厂北里14号(建设街小雨嘉园北门对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口八号客栈",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于沿海产业基地星汇奥城A组团A8楼东单元一楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口华府宾馆",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于盼盼路南10-23号(长途客运站西门北边)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口博物馆",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于履合门街少年宫里21号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口哆来咪海景公寓",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于中房金沙滩澜湾E2栋10号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口地产矿石园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于渔市街道渤海大街西段116号西炮台公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口城市广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于辽河大街与通惠路交叉口东140米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口宁静休闲公寓",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于华一综合楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口宏达旅馆(火车站农业大学店)",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于熊岳火车站售票处对面",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口小海豚海景公寓",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于万科海港城12号楼108",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口悦麟商务酒店",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于海华路平安西街",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口晟鼎裕龙阁商务酒店三部",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于盼盼路与中心街交叉口南200米",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口正大商务宾馆",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于中南海鑫苑西北2门旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口水跃客舍",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于博文路星汇奥城31栋1-2层/甲2号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口熊岳天沐温泉度假村",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于熊岳镇温泉村(近望儿山)铁东街天沐路",
+    "tags": [
+      "100102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口红叶皇冠大酒店",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于长江路中段",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口老港主题乐园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于货场里营口老港区内5号码头",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口腾达旅店",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于明珠B区西18",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口西海岸浴场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于新建大街7号",
+    "tags": [
+      "080109"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口西炮台遗址陈列馆",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于营口高新技术产业开发区渔市街道渤海大街西段116号西炮台公园(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口辽河大厦宾馆",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于建设街17号辽河大厦F1层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口鲅鱼圈万科自由海海景公寓",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于金沙滩万科海港城",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口鸟浪广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于新海大街与观海路交叉口东南20米",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "营口鸿基海景公寓",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于红海街道蝴蝶泉路鸿基海景公寓A座13楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萨米特运动餐吧",
+    "city": "营口",
+    "category": "food",
+    "description": "位于水岸新都56号楼甲2北门",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓬间亭",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于枝梅路镜湖公园(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蚝事发生烧烤海鲜生腌(中大·海韵郦城店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于中大·海韵郦城",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蟠龙山公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于哈大中路2号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "裕龙阁酒店",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于盼盼路南12-19号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西炮台公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于渔市街道渤海大街西段116号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西落舌冒菜冒肚(营口店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于泳波里5-28号奥林大酒店南侧西落舌冒菜(风味居正对面)",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西落舌冒菜冒肚(鲅鱼圈店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于西红海街滨海花园6号门市",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤山风景区",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于万福镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辉姐鸡排小肉串(中天英伦名邸店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于中天英伦名邸",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辽宁团山国家级海洋公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于团山管理区北海村",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辽宁团山国家级海洋公园-观景台",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于新区西部滨海旅游带西崴子村南辽宁团山国家级海洋公园(西北角)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辽宁营口职工文化广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于南海路北46甲得胜街道红运社区市民学校附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辽河公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于辽河大街东14-5号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辽河公园(南园)",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于清华路与辽河大街交汇处北行100米路西",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辽河广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于建设街与市府路交汇处",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辽河老街",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于渔市街道渔市街道渔市街道渔市街道渔市街道繁荣里,辽河大街西段",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迷镇山娘娘庙",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于金桥街道金龙路",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "速8酒店(营口鲅鱼圈店)",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于闽江路中段金伟大厦4-5层(闽江人家东侧)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邵汇大虾(鲅鱼圈店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于闽江路",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金沙·滩畔|Vanke|海景民宿(鲅鱼圈山海广场店)",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于熊岳镇万科海港城二期19号楼1单元1204室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金海民宿(山海广场店)",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于七星公馆公寓C座15层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金溪谷乡村旅游风景区",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于小石棚乡周屯村",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金顺达烧烤(滨河郦都店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于新和大街42-甲5号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫姐早餐店(中天英伦名邸店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于中天英伦名邸",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铜禧涮肉(新龙逸家园店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于新龙逸家园2号楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "镜湖公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于金牛山大街(近万都酒店)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隐食潮汕味稻砂锅粥店",
+    "city": "营口",
+    "category": "food",
+    "description": "位于金牛山大街东21-甲10号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "霍大侠地摊火锅",
+    "city": "营口",
+    "category": "food",
+    "description": "位于路南镇白庙子村",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青龙山公园",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于长江路誉龙华府小区附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青龙山小吃窝",
+    "city": "营口",
+    "category": "food",
+    "description": "位于长江路48-7号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "靶场休闲广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于富康路与智泉街交叉口南200米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "韩记海鲜饺子(双台子店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于双台镇黄旗堡村",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "韩记海鲜饺子(御海明珠店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于御海明珠东北门西170米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "韩记海鲜饺子旗舰店",
+    "city": "营口",
+    "category": "food",
+    "description": "位于红旗满族镇平安东街红海新区61-67号门市",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "音乐喷泉广场",
+    "city": "营口",
+    "category": "attraction",
+    "description": "位于博文路46号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲅鱼圈·万科亿江南海景公寓(营口山海广场店)",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于万科拉维海岸18号楼一单元2616房",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿宾日租公寓",
+    "city": "营口",
+    "category": "hotel",
+    "description": "位于中海小区综合楼四层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(营口麦当劳万达广场餐厅)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于市府路南1号",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(鲅鱼圈青龙山大街餐厅)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于蝴蝶泉路45号万达广场一层1062号",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙继斑鱼庄(营口店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于学府路北24甲6号(近春泉市场)",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙继斑鱼庄(龙逸家园店)",
+    "city": "营口",
+    "category": "food",
+    "description": "位于红海新区f区对面新龙逸家园2号楼1号门",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

@@ -1,213 +1,61 @@
 [
   {
-    "name": "五四广场",
-    "city": "青岛",
-    "category": "attraction",
-    "description": "五四广场是青岛的标志性城市广场，因纪念五四运动而得名。广场上矗立着象征青岛城市精神的红色雕塑\"五月的风\"，是游客和市民休闲观光的热门地点。",
-    "tags": [
-      "风景名胜",
-      "公园广场",
-      "城市广场"
-    ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.7
-  },
-  {
-    "name": "海滨风景区",
-    "city": "青岛",
-    "category": "attraction",
-    "description": "海滨风景区是青岛市南区沿海一线的风景名胜区，包括栈桥、五四广场等景点，以碧海蓝天和沙滩闻名。",
-    "tags": [
-      "海滨",
-      "风景",
-      "自然"
-    ],
-    "avgCost": 0,
-    "duration": "半天至1天",
-    "openTime": "全天开放",
-    "rating": 4.5
-  },
-  {
-    "name": "青岛奥帆海洋文化旅游区",
-    "city": "青岛",
-    "category": "attraction",
-    "description": "青岛奥帆海洋文化旅游区位于青岛市市南区清远路1号，是一处集帆船、海洋文化于一体的国家级风景名胜区。",
-    "tags": [
-      "风景名胜",
-      "国家级景点"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "奥林匹克帆船中心·奥帆海洋文化旅游区",
-    "city": "青岛",
-    "category": "attraction",
-    "description": "奥林匹克帆船中心·奥帆海洋文化旅游区 是青岛的景点",
-    "tags": [
-      "风景名胜"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
-  },
-  {
-    "name": "青岛第三海水浴场",
-    "city": "青岛",
-    "category": "attraction",
-    "description": "青岛第三海水浴场位于市南区湛山五路5号，是青岛著名的海滨浴场之一。沙滩细腻，海水清澈，设有更衣、淋浴等配套设施，适合游泳、日光浴和海上娱乐活动。夏季开放期间游客众多，是享受海滨风光的理想去处。",
-    "tags": [
-      "海滨浴场",
-      "游泳",
-      "日光浴",
-      "青岛"
-    ],
-    "avgCost": 30,
-    "duration": "2-3小时",
-    "openTime": "7月1日-9月30日 09:00-18:00",
-    "rating": 4.3
-  },
-  {
-    "name": "五四广场五月的风",
-    "city": "青岛",
-    "category": "attraction",
-    "description": "五四广场是青岛的地标性景点，以五月的风雕塑闻名，象征着青岛的城市精神。",
-    "tags": [
-      "风景名胜",
-      "海滨",
-      "广场"
-    ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.5
-  },
-  {
-    "name": "青岛湛山寺",
-    "city": "青岛",
-    "category": "attraction",
-    "description": "湛山寺位于青岛市市南区芝泉路2号，是一座著名的佛教寺庙，始建于1934年，是青岛市区内唯一的佛教寺院。寺内建筑古朴典雅，环境清幽，香火旺盛，是游客和信徒朝拜游览的好去处。",
-    "tags": [
-      "寺庙",
-      "风景名胜",
-      "宗教文化"
-    ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "08:00-17:00",
-    "rating": 4.3
-  },
-  {
-    "name": "八大关风景区",
-    "city": "青岛",
-    "category": "attraction",
-    "description": "八大关风景区 是青岛的景点",
-    "tags": [
-      "风景名胜"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
-  },
-  {
-    "name": "情人坝",
-    "city": "青岛",
-    "category": "attraction",
-    "description": "情人坝是青岛奥帆中心旁的一条景观堤坝，以其浪漫的海景和灯塔而闻名，是情侣、游客打卡的热门地点。",
-    "tags": [
-      "海滨",
-      "灯塔",
-      "浪漫",
-      "观海"
-    ],
-    "avgCost": 0,
-    "duration": "1小时",
-    "openTime": "全天开放",
-    "rating": 4.7
-  },
-  {
-    "name": "太平山中央公园",
-    "city": "青岛",
-    "category": "attraction",
-    "description": "太平山中央公园位于青岛市市南区太平山景区内，是一处集自然风光与人文景观于一体的城市公园。",
-    "tags": [
-      "风景名胜",
-      "公园",
-      "休闲"
-    ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "全天开放",
-    "rating": 4.5
-  },
-  {
-    "name": "双合园.海鲜水饺青岛菜(上街里店)",
+    "name": "33号大院·青岛本帮菜(青岛旗舰店)",
     "city": "青岛",
     "category": "food",
-    "description": "双合园海鲜水饺青岛菜(上街里店)位于青岛市市北区四方路39号，主打海鲜水饺和青岛地方菜。",
+    "description": "33号大院·青岛本帮菜(青岛旗舰店)位于青岛市市南区香港中路40号，主打正宗鲁菜，以青岛本帮菜为特色，环境优雅，适合家庭聚餐和商务宴请。",
     "tags": [
-      "海鲜",
-      "水饺",
-      "青岛菜",
-      "中餐"
+      "鲁菜",
+      "中餐厅",
+      "山东菜",
+      "青岛美食"
     ],
-    "avgCost": 80,
-    "duration": "2小时",
-    "openTime": "10:00-21:00",
-    "rating": 4.4
-  },
-  {
-    "name": "前海沿·海鲜水饺青岛菜(中山路天主教堂店)",
-    "city": "青岛",
-    "category": "food",
-    "description": "前海沿·海鲜水饺青岛菜位于中山路天主教堂附近，提供正宗青岛海鲜、特色水饺及经典青岛菜，是体验本地风味的优质餐厅。",
-    "tags": [
-      "海鲜",
-      "水饺",
-      "青岛菜",
-      "中餐厅"
-    ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.2
-  },
-  {
-    "name": "等俺船靠岸·老船蒸鲜·渔家菜(全球创始店)",
-    "city": "青岛",
-    "category": "food",
-    "description": "等俺船靠岸·老船蒸鲜·渔家菜(全球创始店)位于青岛市市南区清远路1号，是一家专注于海鲜蒸鲜和渔家菜的特色餐厅。店内食材新鲜，以蒸制方式保留原汁原味，提供地道的渔家风味体验。",
-    "tags": [
-      "海鲜",
-      "蒸鲜",
-      "渔家菜"
-    ],
-    "avgCost": 100,
-    "duration": "2小时",
+    "avgCost": 120.0,
+    "duration": "1.5小时",
     "openTime": "11:00-21:00",
     "rating": 4.5
   },
   {
-    "name": "双合园·海鲜水饺青岛菜(上清路店)",
+    "name": "33号大院·青岛本帮菜(青岛旗舰店)",
     "city": "青岛",
     "category": "food",
-    "description": "双合园是青岛知名的连锁餐厅，以海鲜水饺和正宗青岛菜闻名。水饺馅料丰富，鲅鱼、墨鱼等海鲜水饺是招牌，口感鲜美。餐厅环境整洁，服务周到，深受当地人和游客喜爱。",
+    "description": "33号大院·青岛本帮菜(青岛旗舰店)，位于香港中路40号101户一楼二楼，市南区，类型中餐厅 山东菜(鲁菜)。",
     "tags": [
-      "海鲜水饺",
-      "青岛菜",
-      "连锁",
-      "人气餐厅"
+      "中餐厅",
+      "山东菜(鲁菜)"
     ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "33号大院·青岛本帮菜(青岛旗舰店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "33号大院·青岛本帮菜(青岛旗舰店)，位于香港中路40号101户一楼二楼，市南区，类型中餐厅 山东菜(鲁菜)。",
+    "tags": [
+      "中餐厅",
+      "山东菜(鲁菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "33号大院·青岛本帮菜(青岛旗舰店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "33号大院·青岛本帮菜(青岛旗舰店)，位于香港中路40号101户一楼二楼，市南区，类型中餐厅 山东菜(鲁菜)。",
+    "tags": [
+      "中餐厅",
+      "山东菜(鲁菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "33号大院·青岛本帮菜(青岛旗舰店)",
@@ -220,10 +68,621 @@
       "山东菜",
       "青岛美食"
     ],
-    "avgCost": 120,
+    "avgCost": 120.0,
     "duration": "1.5小时",
     "openTime": "11:00-21:00",
     "rating": 4.5
+  },
+  {
+    "name": "MOKJO魔局·川渝冒肚(上杭路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于珠海路街道上杭路56号(高雄路地铁站A口步行180米)",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "NEED创意韩国料理(青岛万象城店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于山东路6号甲青岛万象城LG层173号商铺(青岛啤酒1903右边)",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东镇老火锅(长春路首店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于长春路12号丁和沾华路路口",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国(青岛)水彩画博物馆(筹)",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于金口路街道大学路7号(人民会堂地铁站B口步行280米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国人民解放军海军博物馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于琴屿路22号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国海洋大学鱼山校区海洋生物博物馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于鱼山路5号中国海洋大学鱼山校区",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山公园-小西湖",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于文登路28号青岛中山公园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山路综合商业街",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于中山路与天津路交叉口(中山路地铁站D口步行220米)",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中阳酒店(青岛西海岸朝阳山路店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于朝阳山路357号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云朵机场公寓(青岛胶东国际机场店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于胶东街道办事处和平路9号三木空港小镇璟云小区12号楼商业1层商业105户",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五四广场",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "五四广场是青岛的标志性城市广场，因纪念五四运动而得名。广场上矗立着象征青岛城市精神的红色雕塑\"五月的风\"，是游客和市民休闲观光的热门地点。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.7
+  },
+  {
+    "name": "五四广场",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "五四广场，位于东海西路(五四广场地铁站C口步行170米)，市南区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五四广场",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "五四广场，位于东海西路(五四广场地铁站C口步行170米)，市南区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五四广场",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "五四广场，位于东海西路(五四广场地铁站C口步行170米)，市南区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五四广场",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "五四广场是青岛的标志性城市广场，因纪念五四运动而得名。广场上矗立着象征青岛城市精神的红色雕塑\"五月的风\"，是游客和市民休闲观光的热门地点。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.7
+  },
+  {
+    "name": "五四广场",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于东海西路(五四广场地铁站C口步行170米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五四广场五月的风",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "五四广场是青岛的地标性景点，以五月的风雕塑闻名，象征着青岛的城市精神。",
+    "tags": [
+      "风景名胜",
+      "海滨",
+      "广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "五四广场五月的风",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "五四广场五月的风，位于东海西路35号，市南区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五四广场五月的风",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "五四广场五月的风，位于东海西路35号，市南区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五四广场五月的风",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "五四广场五月的风，位于东海西路35号，市南区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五四广场五月的风",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "五四广场是青岛的地标性景点，以五月的风雕塑闻名，象征着青岛的城市精神。",
+    "tags": [
+      "风景名胜",
+      "海滨",
+      "广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "五四广场五月的风",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于东海西路35号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亨伯大酒店",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于迎宾路1号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "众品老方子锅贴甜沫(台东店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于和兴路59号万佳广场(台东店)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "众品老方子锅贴甜沫(总店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于延吉路111号-15号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "众品老方子锅贴甜沫(李村店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于伟东·乐客城北门旁(李村地铁站B口步行320米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "众品老方子锅贴甜沫(栈桥店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于广西路与广西支路交叉口西北40米",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "众品老方子锅贴甜沫(麦岛店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于麦岛路1号锦园北区13号楼3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳辰商务酒店(广州南路店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于广州南路268号(胶州火车站,大润发周边)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "信号山公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于龙山路16号甲",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八大关风景区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "八大关风景区 是青岛的景点",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "八大关风景区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "八大关风景区，位于武胜关支路10号，市南区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八大关风景区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "八大关风景区，位于武胜关支路10号，市南区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八大关风景区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "八大关风景区，位于武胜关支路10号，市南区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八大关风景区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "八大关风景区 是青岛的景点",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "八大关风景区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于武胜关支路10号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八大关风景区-公主楼",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于八大关街道南区居庸关路10号八大关风景区内",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八大别墅区-蝴蝶楼",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于山海关路21号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八大湖公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于太湖路19号(宁夏路地铁站C口步行470米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘家村便民市场",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于青岛工学院东南",
+    "tags": [
+      "060400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前海沿·海鲜水饺青岛菜(中山路天主教堂店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "前海沿·海鲜水饺青岛菜位于中山路天主教堂附近，提供正宗青岛海鲜、特色水饺及经典青岛菜，是体验本地风味的优质餐厅。",
+    "tags": [
+      "海鲜",
+      "水饺",
+      "青岛菜",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.2
+  },
+  {
+    "name": "前海沿·海鲜水饺青岛菜(中山路天主教堂店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "前海沿·海鲜水饺青岛菜(中山路天主教堂店)，位于中山路67号悦喜客来广场F2层，市南区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前海沿·海鲜水饺青岛菜(中山路天主教堂店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "前海沿·海鲜水饺青岛菜(中山路天主教堂店)，位于中山路67号悦喜客来广场F2层，市南区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前海沿·海鲜水饺青岛菜(中山路天主教堂店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "前海沿·海鲜水饺青岛菜(中山路天主教堂店)，位于中山路67号悦喜客来广场F2层，市南区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前海沿·海鲜水饺青岛菜(中山路天主教堂店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "前海沿·海鲜水饺青岛菜位于中山路天主教堂附近，提供正宗青岛海鲜、特色水饺及经典青岛菜，是体验本地风味的优质餐厅。",
+    "tags": [
+      "海鲜",
+      "水饺",
+      "青岛菜",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.2
   },
   {
     "name": "前海沿·海鲜水饺青岛菜(五四广场永旺店)",
@@ -236,25 +695,476 @@
       "青岛菜",
       "中餐厅"
     ],
-    "avgCost": 80,
+    "avgCost": 80.0,
     "duration": "1-2小时",
     "openTime": "10:00-21:00",
     "rating": 4.5
   },
   {
-    "name": "聚缘大院·小船海鲜·青岛菜(崂山店)",
+    "name": "前海沿·海鲜水饺青岛菜(五四广场永旺店)",
     "city": "青岛",
     "category": "food",
-    "description": "位于崂山区的海鲜酒楼，提供正宗青岛菜。",
+    "description": "前海沿·海鲜水饺青岛菜(五四广场永旺店)，位于香港中路72号永旺佳世客2层，市南区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前海沿·海鲜水饺青岛菜(五四广场永旺店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "前海沿·海鲜水饺青岛菜(五四广场永旺店)，位于香港中路72号永旺佳世客2层，市南区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前海沿·海鲜水饺青岛菜(五四广场永旺店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "前海沿·海鲜水饺青岛菜(五四广场永旺店)，位于香港中路72号永旺佳世客2层，市南区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前海沿·海鲜水饺青岛菜(五四广场永旺店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "前海沿·海鲜水饺青岛菜位于青岛五四广场附近的永旺佳世客2层，是一家以海鲜水饺和青岛菜为特色的中餐厅。餐厅环境舒适，菜品新鲜，深受当地人和游客喜爱。",
     "tags": [
       "海鲜",
+      "水饺",
       "青岛菜",
       "中餐厅"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "前海沿·海鲜水饺青岛菜(五四广场银座店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于香港中路29号银座6楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前海沿·海鲜水饺青岛菜(栈桥前海利群店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于贵州路40号前海利群购物广场F1层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十月商务宾馆(青岛烹饪职业学校小村庄地铁站店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于人民一路2号方中园商业街内",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华严寺",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于王哥庄街道崂山风景区(东侧)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "即墨古城",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于东关街",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "即墨古城(栗行街)-偏殿",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于中山街5号即墨古城内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "即墨古城(栗行街)-即墨县衙",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于中山街5号即墨古城内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "即墨古城(栗行街)-奎明楼",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于中山街5号即墨古城内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "即墨古城(栗行街)-山海名邦坊",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于中山街5号即墨古城内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "即墨古城(栗行街)-崇圣祠",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于中山街5号即墨古城内(东侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "即墨古城(栗行街)-总督三边坊",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于通济街与营流路交叉口东200米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "即墨古城(栗行街)-礼部",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于中山街5号即墨古城内(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "即墨古城-亚魁牌坊",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于中山街5号即墨古城内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "即墨古城-凉亭",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于中山街5号即墨古城内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "即墨古城-牌坊",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于东关街即墨古城",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "即墨古城文庙",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于中山街5号即墨古城内(东侧)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双台度假村",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于王哥庄街道办港西社区仰口风景区",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双合园.海鲜水饺青岛菜(上街里店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "双合园海鲜水饺青岛菜(上街里店)位于青岛市市北区四方路39号，主打海鲜水饺和青岛地方菜。",
+    "tags": [
+      "海鲜",
+      "水饺",
+      "青岛菜",
+      "中餐"
+    ],
+    "avgCost": 80.0,
+    "duration": "2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.4
+  },
+  {
+    "name": "双合园.海鲜水饺青岛菜(上街里店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "双合园.海鲜水饺青岛菜(上街里店)，位于四方路39号，市北区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双合园.海鲜水饺青岛菜(上街里店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "双合园.海鲜水饺青岛菜(上街里店)，位于四方路39号，市北区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双合园.海鲜水饺青岛菜(上街里店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "双合园.海鲜水饺青岛菜(上街里店)，位于四方路39号，市北区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双合园.海鲜水饺青岛菜(上街里店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "双合园海鲜水饺青岛菜(上街里店)位于青岛市市北区四方路39号，主打海鲜水饺和青岛地方菜。",
+    "tags": [
+      "海鲜",
+      "水饺",
+      "青岛菜",
+      "中餐"
+    ],
+    "avgCost": 80.0,
+    "duration": "2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.4
+  },
+  {
+    "name": "双合园·海鲜水饺青岛菜(上清路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "双合园是青岛知名的连锁餐厅，以海鲜水饺和正宗青岛菜闻名。水饺馅料丰富，鲅鱼、墨鱼等海鲜水饺是招牌，口感鲜美。餐厅环境整洁，服务周到，深受当地人和游客喜爱。",
+    "tags": [
+      "海鲜水饺",
+      "青岛菜",
+      "连锁",
+      "人气餐厅"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "双合园·海鲜水饺青岛菜(上清路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "双合园·海鲜水饺青岛菜(上清路店)，位于上清路12号，市北区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双合园·海鲜水饺青岛菜(上清路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "双合园·海鲜水饺青岛菜(上清路店)，位于上清路12号，市北区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双合园·海鲜水饺青岛菜(上清路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "双合园·海鲜水饺青岛菜(上清路店)，位于上清路12号，市北区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双合园·海鲜水饺青岛菜(上清路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "双合园是青岛知名的连锁餐厅，以海鲜水饺和正宗青岛菜闻名。水饺馅料丰富，鲅鱼、墨鱼等海鲜水饺是招牌，口感鲜美。餐厅环境整洁，服务周到，深受当地人和游客喜爱。",
+    "tags": [
+      "海鲜水饺",
+      "青岛菜",
+      "连锁",
+      "人气餐厅"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "双合园·海鲜水饺青岛菜(书院路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于李村书院路129-10号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双合园·海鲜水饺青岛菜(南丰路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于南丰路25-2号清水湾花园附近",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双合园·海鲜水饺青岛菜(大尧三路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于大尧三路19号甲(近市南图书馆)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "双合园·海鲜水饺青岛菜(金茂湾店)",
@@ -267,26 +1177,1348 @@
       "鲁菜",
       "青岛"
     ],
-    "avgCost": 80,
+    "avgCost": 80.0,
     "duration": "1-2小时",
     "openTime": "11:00-21:00",
-    "rating": 4.5,
-    "address": "四川路23号金茂湾购物中心二层L201铺位",
-    "area": "市南区"
+    "rating": 4.5
   },
   {
-    "name": "良友青岛菜(五四广场店)",
+    "name": "双合园·海鲜水饺青岛菜(金茂湾店)",
     "city": "青岛",
     "category": "food",
-    "description": "良友青岛菜(五四广场店)位于青岛市市南区东海西路37-8号金都购物中心，是一家提供中餐和综合酒楼的餐厅。",
+    "description": "双合园·海鲜水饺青岛菜(金茂湾店)，位于四川路23号金茂湾购物中心二层L201铺位，市南区，类型中餐厅 山东菜(鲁菜)。",
     "tags": [
       "中餐厅",
-      "综合酒楼"
+      "山东菜(鲁菜)"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双合园·海鲜水饺青岛菜(金茂湾店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "双合园·海鲜水饺青岛菜(金茂湾店)，位于四川路23号金茂湾购物中心二层L201铺位，市南区，类型中餐厅 山东菜(鲁菜)。",
+    "tags": [
+      "中餐厅",
+      "山东菜(鲁菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双合园·海鲜水饺青岛菜(金茂湾店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "双合园·海鲜水饺青岛菜(金茂湾店)，位于四川路23号金茂湾购物中心二层L201铺位，市南区，类型中餐厅 山东菜(鲁菜)。",
+    "tags": [
+      "中餐厅",
+      "山东菜(鲁菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双合园·海鲜水饺青岛菜(金茂湾店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "双合园是青岛知名的海鲜水饺餐厅，提供正宗鲁菜，以海鲜水饺为招牌。",
+    "tags": [
+      "海鲜",
+      "水饺",
+      "鲁菜",
+      "青岛"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "古城基督教堂",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于万寿宫街52号",
+    "tags": [
+      "110206"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城顶遗址公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于梅庵九路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古镇口炮台",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于团结路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台东步行街",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于台东三路(台东地铁站E口步行160米)",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台东海鲜夜市一条街",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于台东五路与大名路交叉口东20米",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台东记忆博物馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于辽宁路与郭口路交叉口西北20米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吕家庄夜市",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于吕家庄社区北门西70米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吕氏疙瘩汤·海鲜新鲁菜(青岛万象城店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于山东路6号甲华润万象城1期6楼L610号(天空之城扶梯口旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "听涛轩客栈(青岛城市阳台店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于水城路67号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜至喜家自助小火锅(万象城店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于山东路6号甲青岛万象城L5层(五四广场地铁站出入口旁)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四方机车公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于杭州路16号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四海来嗨步行街",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于海景路3号",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "回澜阁",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于太平路14号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "墨城串串香【七星街夜市】",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于大同街33号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "外贸度假村",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于崂山支路与海庙路交叉口西南260米",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太和山庄",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于夏庄街道太和社区太和山风景区(西北角)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太平山",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于八大关街道文登路28号青岛中山公园内",
+    "tags": [
+      "190203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太平山中央公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "太平山中央公园位于青岛市市南区太平山景区内，是一处集自然风光与人文景观于一体的城市公园。",
+    "tags": [
+      "风景名胜",
+      "公园",
+      "休闲"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "太平山中央公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "太平山中央公园，位于太平山景区内，市南区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太平山中央公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "太平山中央公园，位于太平山景区内，市南区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太平山中央公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "太平山中央公园，位于太平山景区内，市南区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太平山中央公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "太平山中央公园位于青岛市市南区太平山景区内，是一处集自然风光与人文景观于一体的城市公园。",
+    "tags": [
+      "风景名胜",
+      "公园",
+      "休闲"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "太平山中央公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于太平山景区内",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥帆博物馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于奥帆路3号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥帆海岸公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于澳门路与清远路交叉口东140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥林匹克帆船中心·奥帆海洋文化旅游区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "奥林匹克帆船中心·奥帆海洋文化旅游区 是青岛的景点",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 3.5
+    "rating": 0.0
+  },
+  {
+    "name": "奥林匹克帆船中心·奥帆海洋文化旅游区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "奥林匹克帆船中心·奥帆海洋文化旅游区，位于澳门路86号奥帆中心，市南区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥林匹克帆船中心·奥帆海洋文化旅游区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "奥林匹克帆船中心·奥帆海洋文化旅游区，位于澳门路86号奥帆中心，市南区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥林匹克帆船中心·奥帆海洋文化旅游区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "奥林匹克帆船中心·奥帆海洋文化旅游区，位于澳门路86号奥帆中心，市南区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥林匹克帆船中心·奥帆海洋文化旅游区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "奥林匹克帆船中心·奥帆海洋文化旅游区 是青岛的景点",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "奥林匹克帆船中心·奥帆海洋文化旅游区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于澳门路86号奥帆中心",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如家快捷酒店(青岛栈桥人民会堂地铁站龙口路店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于龙口路36号甲(龙口路与江苏路交汇处)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如家派柏·云(青岛胶州福州南路宝龙购物广场店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于阜安街道福州南路41号如家派柏云酒店",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如家派柏云酒店(青岛五四广场江西路地铁站徐州路店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于徐州路38号(江西路地铁站B口步行360米)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝泽林宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于北京路71号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝龙广场",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于福州南路97号",
+    "tags": [
+      "060101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "客家美宿公寓(青岛胶东国际机场胶东地铁站店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于胶东街道办事处腊行社区4号门头",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宴小馆(福泰广场A座店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于香港中路18号福泰广场A座隔壁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "家佳源夜市",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于正阳中路与靖城路交叉口东100米",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小鱼山",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于八大关街道福山支路24号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚客优快捷酒店(青岛崇明岛路店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于崇明岛西路286号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚客优酒店(莱西南京路莱西月湖公园店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于威海东路20富隆大厦F1层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尹记鸿运啤酒屋",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于大名路96号-1",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "屏海临峰度假村",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于峰山东附近",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山也听风(青岛万象城店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于山东路6号青岛万象城LG层(2号门外)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崂山区那海边休闲旅游度假中心",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于王哥庄街道长岭村171号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崂山印象•青岛•海鲜家常菜",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于青山路700号(鼎世华府沿街商铺)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崂山太清宫",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于王哥庄街道东南蟠桃峰下",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崂山太清宫-老子像",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于崂山太清宫内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崂山风景区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于崂山景区旅游专用路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崂山风景区仰口游览区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于王哥庄街道曲家庄社区683号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崂山风景区太清游览区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于崂山风景区内(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崂山风景区巨峰游览区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于大河东",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巢小筑轻奢公寓(青岛云鼎国际店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于瑞阳路99号云鼎国际1号楼5楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巧克巧蔻巧克力博物馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于中山路139号(中山路地铁站D口步行230米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴奴毛肚火锅(青岛万象城店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于山东路6号万象城L541(商场4号门停车B3层A05车位)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开海·红岛海鲜虾水饺店(万象城店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于山东路6号华润万象城一期四层中庭L422",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开海·红岛海鲜虾水饺店(八大关店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于湛山街道新湛路8号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张氏小土屋涮毛肚(中城路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于中城路452号网点(正阳中路地铁站C口步行350米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张氏小土屋涮毛肚(时光里店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于泰城路516号(泰城路与崇阳路交界处西北角北20米时光里小区东门)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐州路步行街",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于徐州路与红旗路交叉口至徐州路与胜利路交叉口",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怡居酒店(平度新河店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于新昌路19号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦行365客栈(流亭机场·洼里店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于流亭街道15号银河路",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "情人坝",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "情人坝是青岛奥帆中心旁的一条景观堤坝，以其浪漫的海景和灯塔而闻名，是情侣、游客打卡的热门地点。",
+    "tags": [
+      "海滨",
+      "灯塔",
+      "浪漫",
+      "观海"
+    ],
+    "avgCost": 0.0,
+    "duration": "1小时",
+    "openTime": "全天开放",
+    "rating": 4.7
+  },
+  {
+    "name": "情人坝",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "情人坝，位于珠海路街道金湾路7号，市南区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "情人坝",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "情人坝，位于珠海路街道金湾路7号，市南区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "情人坝",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "情人坝，位于珠海路街道金湾路7号，市南区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "情人坝",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "情人坝是青岛奥帆中心旁的一条景观堤坝，以其浪漫的海景和灯塔而闻名，是情侣、游客打卡的热门地点。",
+    "tags": [
+      "海滨",
+      "灯塔",
+      "浪漫",
+      "观海"
+    ],
+    "avgCost": 0.0,
+    "duration": "1小时",
+    "openTime": "全天开放",
+    "rating": 4.7
+  },
+  {
+    "name": "情人坝",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于珠海路街道金湾路7号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "旅游山庄",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于崂山路403号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日欣家常菜馆",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于新源路新世纪学校南一百米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "时代商务宾馆(常州路)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于南京路127号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星溪辰度假民宿",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于城阳街道春阳路19号青特小镇D区82号楼601室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晨晨蒸汽石锅鱼(万年泉路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于万年泉路96号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李家河夜市",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于兰州东路与景尚名都商业街交叉口东南80米",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李德修小儿推拿中医博物馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于文登路1号青岛汇泉商业广场2层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李村乐客城夜街",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于李村地铁站B口步行110米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栈桥景区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于太平路12号(青岛站地铁站G口步行320米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "榉林公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于龙潭路西100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "樾汀·YOHO森林度假村",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于宜川路158号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "樾江森林度假村",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于天水路与唐山路交叉口东260米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "橙子拾光公寓(青岛胶东国际机场店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于和平路9号三木空港小镇璟云小区12号楼商业105号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比利时领事馆旧址",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于太平角一路21号(太平角公园地铁站B口步行480米)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江西路游园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于江西路18-24附近(芝泉路地铁站B口步行380米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "法海寺",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于夏庄街道源头社区26号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浩运海鲜大排档(石老人海水浴场店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于海口路289号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浪漫澜海海景公寓(青岛火车站店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于新泰安路27号如意大厦F23层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海之恋Park",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于东海东路与海兴路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海佳小院海鲜家常菜",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于延安三路206号(芝泉路地铁站C口步行160米)",
+    "tags": [
+      "050104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海信探索中心",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于江西路11号(芝泉路地铁站B口步行400米)",
+    "tags": [
+      "140600"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海右博物馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于中央CBD商圈连云港路26号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海合安·青岛极地海洋公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于东海东路60号",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(CBD万达广场店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于延吉路112号青岛CBD万达广场4F层百4F次主2室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(中山路天主教堂店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于中山路67号悦喜客来中山购物中心4层01号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(银座广场店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于香港中路31号银座中心6楼(浮山所地铁站C口旁)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(黄岛家佳源店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于长江中路308号家佳源购物中心负一楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海晴度假公寓(连云港路2号分店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于连云港路37号万达广场商务楼A座2832室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "海港甄宴·海鲜青岛菜(石老人店)",
@@ -299,25 +2531,192 @@
       "鲁菜",
       "中餐厅"
     ],
-    "avgCost": 150,
+    "avgCost": 150.0,
     "duration": "1-2小时",
     "openTime": "11:00-21:00",
     "rating": 4.5
   },
   {
-    "name": "青岛金叶宾馆",
+    "name": "海港甄宴·海鲜青岛菜(石老人店)",
     "city": "青岛",
-    "category": "hotel",
-    "description": "青岛金叶宾馆位于城阳区春阳路163号，提供住宿服务。",
+    "category": "food",
+    "description": "海港甄宴·海鲜青岛菜(石老人店)，位于仙霞岭路16-6号，崂山区，类型中餐厅 海鲜酒楼。",
     "tags": [
-      "住宿",
-      "宾馆",
-      "酒店"
+      "中餐厅",
+      "海鲜酒楼"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海港甄宴·海鲜青岛菜(石老人店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "海港甄宴·海鲜青岛菜(石老人店)，位于仙霞岭路16-6号，崂山区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海港甄宴·海鲜青岛菜(石老人店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "海港甄宴·海鲜青岛菜(石老人店)，位于仙霞岭路16-6号，崂山区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海港甄宴·海鲜青岛菜(石老人店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "海港甄宴·海鲜青岛菜(石老人店)位于青岛市崂山区仙霞岭路16-6号，主打青岛本地海鲜及传统鲁菜，食材新鲜，环境优雅，适合家庭聚餐或商务宴请。",
+    "tags": [
+      "海鲜",
+      "青岛菜",
+      "鲁菜",
+      "中餐厅"
+    ],
+    "avgCost": 150.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "海滨风景区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "海滨风景区是青岛市南区沿海一线的风景名胜区，包括栈桥、五四广场等景点，以碧海蓝天和沙滩闻名。",
+    "tags": [
+      "海滨",
+      "风景",
+      "自然"
+    ],
+    "avgCost": 0.0,
+    "duration": "半天至1天",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "海滨风景区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "海滨风景区，位于沿海一线，市南区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海滨风景区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "海滨风景区，位于沿海一线，市南区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海滨风景区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "海滨风景区，位于沿海一线，市南区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海滨风景区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "海滨风景区是青岛市南区沿海一线的风景名胜区，包括栈桥、五四广场等景点，以碧海蓝天和沙滩闻名。",
+    "tags": [
+      "海滨",
+      "风景",
+      "自然"
+    ],
+    "avgCost": 0.0,
+    "duration": "半天至1天",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "海滨风景区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于沿海一线",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海燕小吃",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于河南路25号101室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海燕私房菜馆",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于保定路10号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海琴购物广场",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于商丘路28号",
+    "tags": [
+      "060102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "海畔之家宾馆",
@@ -329,38 +2728,1269 @@
       "酒店",
       "住宿"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 0
+    "rating": 0.0
   },
   {
-    "name": "青岛都市商务宾馆(五四广场店)",
+    "name": "海畔之家宾馆",
     "city": "青岛",
     "category": "hotel",
-    "description": "青岛都市商务宾馆(五四广场店)位于青岛市市南区徐州路12号，是一家提供优质住宿服务的酒店，靠近五四广场，交通便利。",
+    "description": "海畔之家宾馆，位于海西中路204号，黄岛区，类型宾馆酒店 宾馆酒店。",
     "tags": [
-      "住宿",
-      "酒店"
+      "宾馆酒店",
+      "宾馆酒店"
     ],
-    "avgCost": 300,
-    "duration": "按天",
-    "openTime": "24小时",
-    "rating": 4.2
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "青岛筱筱旅馆",
+    "name": "海畔之家宾馆",
     "city": "青岛",
     "category": "hotel",
-    "description": "青岛筱筱旅馆位于青岛市市南区金门路街道宁夏路279号302户，提供住宿服务。",
+    "description": "海畔之家宾馆，位于海西中路204号，黄岛区，类型宾馆酒店 宾馆酒店。",
     "tags": [
-      "旅馆",
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海畔之家宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "海畔之家宾馆，位于海西中路204号，黄岛区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海畔之家宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "海畔之家宾馆位于青岛市黄岛区海西中路204号，提供舒适的住宿服务。",
+    "tags": [
+      "宾馆",
+      "酒店",
       "住宿"
     ],
-    "avgCost": 0,
-    "duration": "未知",
-    "openTime": "未知",
-    "rating": 0
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "海畔之家宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于海西中路204号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海趣园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于东海西路8号(延安三路地铁站C口步行390米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海边客老街客栈(青岛栈桥天主教堂店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于四方路1号(中山路地铁站B口步行350米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真马家火锅(延安三路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于延安三路111号甲(海佳小院斜对面)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "澳门陈光记烧味饭店(闽江路美食街店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于香港中路街道闽江路12号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "濠洼夜市",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于九华山路与香江路交叉口东北120米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "濠洼步行街",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于香江路与九华山路交叉口(香江路地铁站B口步行70米)",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灵山庙",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于灵山路4号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "燕儿岛智慧公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于珠海路街道澳门路138号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "燕岛山公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于青岛奥帆中心景区东侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱宝酒店(青岛妇女儿童医院店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于同福路23号妇幼儿童医院2号门对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛贰油炸社",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于永安路52-5号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牡丹园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于八大关街道文登路26号青岛中山公园",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王台古镇旧址",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于巨洋路与王台路交叉口西北20米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王姐烧烤·海鲜家常菜(莱阳路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于莱阳路61号(人民会堂地铁站D口步行110米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王繁星面馆(青岛万象城店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于山东路6号甲青岛万象城1期L6层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "登巴客栈(台东步行街啤酒博物馆店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于和兴路13号当代惠祥商场F6层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石湾大士寺",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于沙子口街道石湾村",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石老人国家旅游度假区",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于崂山路1号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧轩精品连锁酒店公寓(泰山路地铁站店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于商河路24号宁升公寓(泰山路地铁站B口步行330米)",
+    "tags": [
+      "170200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福多多家常菜馆(无棣二路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于无棣二路10乙(观象山市立医院地铁站C口步行400米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "等俺船靠岸·老船蒸鲜·渔家菜(全球创始店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "等俺船靠岸·老船蒸鲜·渔家菜(全球创始店)位于青岛市市南区清远路1号，是一家专注于海鲜蒸鲜和渔家菜的特色餐厅。店内食材新鲜，以蒸制方式保留原汁原味，提供地道的渔家风味体验。",
+    "tags": [
+      "海鲜",
+      "蒸鲜",
+      "渔家菜"
+    ],
+    "avgCost": 100.0,
+    "duration": "2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "等俺船靠岸·老船蒸鲜·渔家菜(全球创始店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "等俺船靠岸·老船蒸鲜·渔家菜(全球创始店)，位于清远路1号，市南区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "等俺船靠岸·老船蒸鲜·渔家菜(全球创始店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "等俺船靠岸·老船蒸鲜·渔家菜(全球创始店)，位于清远路1号，市南区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "等俺船靠岸·老船蒸鲜·渔家菜(全球创始店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "等俺船靠岸·老船蒸鲜·渔家菜(全球创始店)，位于清远路1号，市南区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "等俺船靠岸·老船蒸鲜·渔家菜(全球创始店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "等俺船靠岸·老船蒸鲜·渔家菜(全球创始店)位于青岛市市南区清远路1号，是一家专注于海鲜蒸鲜和渔家菜的特色餐厅。店内食材新鲜，以蒸制方式保留原汁原味，提供地道的渔家风味体验。",
+    "tags": [
+      "海鲜",
+      "蒸鲜",
+      "渔家菜"
+    ],
+    "avgCost": 100.0,
+    "duration": "2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "粹华阁海鲜大排档(五四广场店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于云霄路18号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红岛休闲渔村",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于红岛街道西大洋社区",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿洲宾馆(泰山三路店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于开发区泰山三路29号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美达尔烤肉店",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于金岭新村29号楼西一号网点",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老戳子肉海鲜大排档(中山路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于大沽路28号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老板恋上鱼(青岛万象城)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于山东路6号万象城6楼(五四广场地铁站出入口旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老舍故居",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于黄县路12号(人民会堂地铁站B口步行350米)",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老青岛大排档·青岛家常菜(五四广场店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于香港中路18号五四外贸广场B1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老青岛戳子肉·海鲜大排档(青岛总店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于闽江路42号(万象城东200米)",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚宝源青岛首店(崂山店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于合肥路860号青岛北都广场L1-1A",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚益友家常菜(高鼎小区店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于郑州路53号科技大学南2门",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚缘大院·小船海鲜·青岛菜(五四广场店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于香港中路26号远雄国际广场南门东侧",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚缘大院·小船海鲜·青岛菜(崂山店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于崂山区的海鲜酒楼，提供正宗青岛菜。",
+    "tags": [
+      "海鲜",
+      "青岛菜",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "聚缘大院·小船海鲜·青岛菜(崂山店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "聚缘大院·小船海鲜·青岛菜(崂山店)，位于新锦路与新鹏路交叉口东北160米，崂山区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚缘大院·小船海鲜·青岛菜(崂山店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "聚缘大院·小船海鲜·青岛菜(崂山店)，位于新锦路与新鹏路交叉口东北160米，崂山区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚缘大院·小船海鲜·青岛菜(崂山店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "聚缘大院·小船海鲜·青岛菜(崂山店)，位于新锦路与新鹏路交叉口东北160米，崂山区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚缘大院·小船海鲜·青岛菜(崂山店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于崂山区的海鲜酒楼，提供正宗青岛菜。",
+    "tags": [
+      "海鲜",
+      "青岛菜",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "肥三土菜馆(五四广场店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于东海西路35号青岛啤酒大厦F1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖子烧烤(鸡腿夜市店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于长岛中路67号(夜市十字路口南五十米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胶州世博商务宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于张应镇大朱戈村",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "船歌·鱼水饺青岛菜(中山路大鲍岛店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于海泊路24号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "船歌·鱼水饺青岛菜(青岛万象城店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于山东路华润万象城B1",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "良友青岛菜(五四广场店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "良友青岛菜(五四广场店)位于青岛市市南区东海西路37-8号金都购物中心，是一家提供中餐和综合酒楼的餐厅。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "良友青岛菜(五四广场店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "良友青岛菜(五四广场店)，位于东海西路37-8号金都购物中心，市南区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "良友青岛菜(五四广场店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "良友青岛菜(五四广场店)，位于东海西路37-8号金都购物中心，市南区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "良友青岛菜(五四广场店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "良友青岛菜(五四广场店)，位于东海西路37-8号金都购物中心，市南区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "良友青岛菜(五四广场店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "良友青岛菜(五四广场店)位于青岛市市南区东海西路37-8号金都购物中心，是一家提供中餐和综合酒楼的餐厅。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "芙蓉居宾馆(台东步行街店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于芙蓉路96号甲近19中台东步行街",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花石楼",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于黄海路18号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "英子旅馆(辽宁路店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于辽宁路248号-6(泰山路地铁站F口步行160米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莱西正顺商务宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于水集三村青岛路35-9号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(青岛万象城店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于山东路6号甲青岛万象城B1层B123室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(青岛金狮广场店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于金狮广场L3-51",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(青岛首店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于香港中路69号(漳州二路)2层F2S29",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝岸客栈(青岛国际会展中心石老人海水浴场店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于中韩街道松岭路51-6号瑞海花园",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛮涮自助小火锅·糖水铺子集合店(台东利群店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于台东三路利群商厦(原台东万达)2楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西镇臭豆腐·电烤肉(汶上路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于汶上路15号(西镇地铁站A口步行160米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵客来旅馆(丰盛路店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于丰盛路65号(台东地铁站G口步行410米)",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "超意兴快餐(万象城店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于闽江路48号超意兴快餐店",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辛家庄北山体育文化公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于莆田路与龙岩路交叉口西北100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辛家火锅·手切鲜肉·涮海鲜(石老人店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于深圳路230-3号一层(苗岭路地铁站E口步行320米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达美乐比萨(青岛万象城店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于山东路6号甲万象城B1-148商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "通用风华(青岛惠国)度假中心",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于巫峡路与刘家峡路交叉口西北60米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "通用风华(青岛石老人)度假中心",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于东海东路87号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "通用风华(青岛麦岛)度假中心",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于基隆路与台北路交叉口东120米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑庄脂渣海鲜楼(九水路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于九水东路182-6号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金沙滩",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于金沙滩路",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金海角度假村",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于太平角一路27号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金海角度假村青岛会客厅",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于太平角一路与湛山三路交叉口西80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫古城",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于广州南路119号",
+    "tags": [
+      "060502"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铭宴·静园·海鲜·私房菜",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于九水路126-1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铭家家宴·海鲜青岛菜·院子餐厅(麦岛店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于麦岛路1-1号(铭家)",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦昌宴·粤菜·海鲜",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于香港东路99号(海安路地铁站A出口)",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦江之星(胶南海水浴场朝阳山路店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于朝阳山路489号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿强·旷野潮汕牛肉火锅(合肥路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于合肥路668号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿强·旷野火锅(万年泉路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于万泉路237号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿强·旷野火锅(漳州二路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于香港中路69号一层协友卖区F1S04-1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雄崖古城博物馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于雄崖所古城内(南侧)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雄崖所古城",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于田横镇雄崖所故城",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青小园海遇园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于太平角一路与湛山四路交叉口西南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛37号公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于香港中路37号(香港中路与云霄路交汇处)",
+    "tags": [
+      "120100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛E捷商务宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于南京路448-5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛一战遗址博物馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于京山路26号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛万豪商务宾馆(台东步行街店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于内蒙古路39号-2内蒙古长途汽车站对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛万达时尚公寓",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于敦化路街道连云港路37号万达广场商务楼A座10楼1023室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "青岛东方宾馆",
@@ -372,9 +4002,1586 @@
       "旅馆招待所",
       "宾馆酒店"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 0
+    "rating": 0.0
+  },
+  {
+    "name": "青岛东方宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛东方宾馆，位于蓝村镇振兴路12号，即墨区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛东方宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛东方宾馆，位于蓝村镇振兴路12号，即墨区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛东方宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛东方宾馆，位于蓝村镇振兴路12号，即墨区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛东方宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛东方宾馆位于青岛市即墨区蓝村镇振兴路12号，提供住宿服务，属于旅馆招待所和宾馆酒店类型，环境舒适，适合商务和旅游住宿。",
+    "tags": [
+      "住宿服务",
+      "旅馆招待所",
+      "宾馆酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "青岛东方宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于蓝村镇振兴路12号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛中山公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于八大关街道文登路26号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛亚赛商务宾馆(五四广场店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于云霄路90号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛亨泰宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于双珠路1767号亨泰宾馆",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛候鸟青年客栈",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于中城路656号无名自助烧烤旁边",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛军海情商务宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于内蒙古路39号(内蒙古路长途站正对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛十米阳光宾馆(山东大学青岛校区店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于山东大学青岛校区西门西侧",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛华林商务宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于同福路23号(洪山坡妇儿医院地铁站B口步行280米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛双合丰宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于广州路47号(青岛站地铁站A口步行370米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛吉兴缘宾馆啤酒街店",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于广饶路25号(广饶路地铁站C口步行390米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛吉祥佳旅馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于杭州路中海临安府28号-55",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛同福客栈",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于热河路51号乙(近市立医院)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛啤酒博物馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于登州路56-1",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛啤酒博物馆A馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于登州路56号青岛啤酒厂内",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛啤酒博物馆B馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于登州路街道登州路街道登州路街道登州路街道登州路街道登州路56号青岛啤酒厂内",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛四海一家宾馆(浦口路店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于浦口路20号(海泊桥海慈医疗地铁站A口步行370米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛大珠山景区石门寺",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于滨海街道办事处",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛大集戳子肉(五四广场店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于香港中路18号101户",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛天舒太空舱客栈(凯德广场清江路地铁站店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于台柳路和达城上城218-26号1层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛太平角公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于湛山路8号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛奥帆海洋文化旅游区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "青岛奥帆海洋文化旅游区位于青岛市市南区清远路1号，是一处集帆船、海洋文化于一体的国家级风景名胜区。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "青岛奥帆海洋文化旅游区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "青岛奥帆海洋文化旅游区，位于清远路1号，市南区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛奥帆海洋文化旅游区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "青岛奥帆海洋文化旅游区，位于清远路1号，市南区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛奥帆海洋文化旅游区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "青岛奥帆海洋文化旅游区，位于清远路1号，市南区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛奥帆海洋文化旅游区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "青岛奥帆海洋文化旅游区位于青岛市市南区清远路1号，是一处集帆船、海洋文化于一体的国家级风景名胜区。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "青岛奥帆海洋文化旅游区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于清远路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛山一战遗址公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于八大关街道京山路26号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛山炮台遗址",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于京山路26号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛崂山国家级风景名胜区-华楼游览区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛巧克力博物馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于台东路台东三路",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛市海泊河公园",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于康宁路1号(海泊桥海慈医疗地铁站A口步行210米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛市音乐广场",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于澳门路12号(近五四广场)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛德国总督楼旧址博物馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于龙山路26号(信号山青大附院地铁站B2口步行190米)",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛德国监狱旧址博物馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于常州路23号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛悦聚苑商务宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于雒口路18号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛悦舍彩虹青旅(中央商务区店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于敦化路街道山东路130号嘉合新兴一号楼一单元809户",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛成盛美宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于烟青路886号(汽车总站北300米路东)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛明泽苑度假村",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于崂山风景区九水游览区",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛晨添温馨客栈",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于黄海学院南200米学院路3085号104号网点",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛望云度假村",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于唐家埠村398省道",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛李村夜市",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于古镇路30号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛桂莲客栈",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于燕儿岛路64号101户",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛海底世界",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于莱阳路2号",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛海景花园大酒店",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于彰化路2号",
+    "tags": [
+      "100102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛海边三间房客栈",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于火车站太平路69号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛消防博物馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于金湖路16号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛湛山寺",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "湛山寺位于青岛市市南区芝泉路2号，是一座著名的佛教寺庙，始建于1934年，是青岛市区内唯一的佛教寺院。寺内建筑古朴典雅，环境清幽，香火旺盛，是游客和信徒朝拜游览的好去处。",
+    "tags": [
+      "寺庙",
+      "风景名胜",
+      "宗教文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.3
+  },
+  {
+    "name": "青岛湛山寺",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "青岛湛山寺，位于芝泉路2号，市南区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛湛山寺",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "青岛湛山寺，位于芝泉路2号，市南区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛湛山寺",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "青岛湛山寺，位于芝泉路2号，市南区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛湛山寺",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "湛山寺位于青岛市市南区芝泉路2号，是一座著名的佛教寺庙，始建于1934年，是青岛市区内唯一的佛教寺院。寺内建筑古朴典雅，环境清幽，香火旺盛，是游客和信徒朝拜游览的好去处。",
+    "tags": [
+      "寺庙",
+      "风景名胜",
+      "宗教文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.3
+  },
+  {
+    "name": "青岛湛山寺",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于芝泉路2号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛溪边树商务宾馆(泰山路地铁站店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于大港一路1号(泰山路地铁站B口步行230米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛澜庭精品公寓(鲁邦风情街店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于城阳街道正阳中路162号鲁邦国际风情街2单元604室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛爱群公寓",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于即墨路街道连云港路37号万达广场A座33楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛玉皇庙古村落景区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于玉皇庙村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛琅琊台风景名胜区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于琅琊镇登台路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛电视塔",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于太平山路1号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛盛鑫源宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于兴国路12-7号(兴国路地铁站A口步行460米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛福庭客栈",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于世纪大道1329号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛福鑫家宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于书院路4-26号(李村地铁站D口步行190米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛竹子宾馆(五四广场店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于徐州路20号(邻青岛市政府、家乐福、奥帆基地)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛第三海水浴场",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "青岛第三海水浴场位于市南区湛山五路5号，是青岛著名的海滨浴场之一。沙滩细腻，海水清澈，设有更衣、淋浴等配套设施，适合游泳、日光浴和海上娱乐活动。夏季开放期间游客众多，是享受海滨风光的理想去处。",
+    "tags": [
+      "海滨浴场",
+      "游泳",
+      "日光浴",
+      "青岛"
+    ],
+    "avgCost": 30.0,
+    "duration": "2-3小时",
+    "openTime": "7月1日-9月30日 09:00-18:00",
+    "rating": 4.3
+  },
+  {
+    "name": "青岛第三海水浴场",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "青岛第三海水浴场，位于湛山五路5号，市南区，类型运动场馆 海滨浴场。",
+    "tags": [
+      "运动场馆",
+      "海滨浴场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛第三海水浴场",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "青岛第三海水浴场，位于湛山五路5号，市南区，类型运动场馆 海滨浴场。",
+    "tags": [
+      "运动场馆",
+      "海滨浴场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛第三海水浴场",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "青岛第三海水浴场，位于湛山五路5号，市南区，类型运动场馆 海滨浴场。",
+    "tags": [
+      "运动场馆",
+      "海滨浴场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛第三海水浴场",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "青岛第三海水浴场位于市南区湛山五路5号，是青岛著名的海滨浴场之一。沙滩细腻，海水清澈，设有更衣、淋浴等配套设施，适合游泳、日光浴和海上娱乐活动。夏季开放期间游客众多，是享受海滨风光的理想去处。",
+    "tags": [
+      "海滨浴场",
+      "游泳",
+      "日光浴",
+      "青岛"
+    ],
+    "avgCost": 30.0,
+    "duration": "2-3小时",
+    "openTime": "7月1日-9月30日 09:00-18:00",
+    "rating": 4.3
+  },
+  {
+    "name": "青岛第三海水浴场",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于湛山五路5号",
+    "tags": [
+      "080109"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛第二海水浴场",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于山海关路6号(近花石楼)",
+    "tags": [
+      "080109"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛筱筱旅馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛筱筱旅馆位于青岛市市南区金门路街道宁夏路279号302户，提供住宿服务。",
+    "tags": [
+      "旅馆",
+      "住宿"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "青岛筱筱旅馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛筱筱旅馆，位于金门路街道宁夏路279号302户，市南区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛筱筱旅馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛筱筱旅馆，位于金门路街道宁夏路279号302户，市南区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛筱筱旅馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛筱筱旅馆，位于金门路街道宁夏路279号302户，市南区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛筱筱旅馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛筱筱旅馆位于青岛市市南区金门路街道宁夏路279号302户，提供住宿服务。",
+    "tags": [
+      "旅馆",
+      "住宿"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "青岛红树林度假世界",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于隐珠街道滨海大道3588号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛纳佰福客栈",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于九水东路631-1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛莱客商务酒店",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于辽阳西路6号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛蓝鲸Loft公寓(家佳源店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于城阳街道靖城路青特赫府2期6号楼1122室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛西海岸度假区",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于金孔雀路与东岳东路交叉口东180米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛诚信家宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于九水东路与常川路交叉口",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛豆蔓LOFT公寓(城阳万象汇店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于城阳街道青特赫府2期11号楼820室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛贝林自然博物馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于辽宁路280号少年宫对面",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛邮电博物馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于安徽路5号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛都市商务宾馆(五四广场店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛都市商务宾馆(五四广场店)位于青岛市市南区徐州路12号，是一家提供优质住宿服务的酒店，靠近五四广场，交通便利。",
+    "tags": [
+      "住宿",
+      "酒店"
+    ],
+    "avgCost": 300.0,
+    "duration": "按天",
+    "openTime": "24小时",
+    "rating": 4.2
+  },
+  {
+    "name": "青岛都市商务宾馆(五四广场店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛都市商务宾馆(五四广场店)，位于徐州路12号，市南区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛都市商务宾馆(五四广场店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛都市商务宾馆(五四广场店)，位于徐州路12号，市南区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛都市商务宾馆(五四广场店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛都市商务宾馆(五四广场店)，位于徐州路12号，市南区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛都市商务宾馆(五四广场店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛都市商务宾馆(五四广场店)位于青岛市市南区徐州路12号，是一家提供优质住宿服务的酒店，靠近五四广场，交通便利。",
+    "tags": [
+      "住宿",
+      "酒店"
+    ],
+    "avgCost": 300.0,
+    "duration": "按天",
+    "openTime": "24小时",
+    "rating": 4.2
+  },
+  {
+    "name": "青岛都市商务宾馆(五四广场店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于徐州路12号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛都市驿家度假公寓(融创茂店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于灵山卫街道滨海大道2059号融创公馆9号楼1615室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛金叶宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛金叶宾馆位于城阳区春阳路163号，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "青岛金叶宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛金叶宾馆，位于春阳路163号，城阳区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛金叶宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛金叶宾馆，位于春阳路163号，城阳区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛金叶宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛金叶宾馆，位于春阳路163号，城阳区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛金叶宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "青岛金叶宾馆位于城阳区春阳路163号，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "青岛金叶宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于春阳路163号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛金蜜果宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于舞阳路1号(胜利桥桥头)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛鑫桥商务宾馆",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于重庆北路汽车北站东门",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛青山湾养生度假村",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于青山社区退役军人服务站西北侧120米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岛齐长城百果园风景区",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于西海岸新区铁山街道杨家山里大下庄村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青芒果日租公寓(莱西济南中路店)",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于水集街道济南路翡翠城桂花苑1号楼1单元101室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "非常好海鲜家常菜馆(大尧店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于大尧一路2号寅",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "韦小螺螺蛳粉",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于香港中路13号(五四广场地铁站C口往东步行430米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "食鱼港·青岛菜·海鲜大咖",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于保定路12号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香江之星商务酒店",
+    "city": "青岛",
+    "category": "hotel",
+    "description": "位于青岛经济技术开发区香江路80号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香江路夜市",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于香江路67号长江购物广场(香江路一店)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "骆驼祥子博物馆",
+    "city": "青岛",
+    "category": "attraction",
+    "description": "位于黄县路12号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼汤馄饨(市政府店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于香港中路13号-2号(五四广场地铁站C口步行460米)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(五四外贸广场店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于香港中路18号五四外贸广场F1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(青岛万象城餐厅)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于山东路6号甲青岛万象城B1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄二火锅(凯德店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于宁安路1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄二火锅(浮山后店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于同兴路626号(劲松三路地铁站C口步行390米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(麦凯乐店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于漳州二路50号(燕儿岛路地铁站B口步行290米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙继斑鱼火锅(宁夏路店)",
+    "city": "青岛",
+    "category": "food",
+    "description": "位于宁夏路289号甲",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

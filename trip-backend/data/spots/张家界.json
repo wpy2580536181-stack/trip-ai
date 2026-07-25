@@ -1,0 +1,3109 @@
+[
+  {
+    "name": "1号青年旅舍(天门山火车站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于峡洞口6组3巷35号",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "7天优品酒店(张家界天门山索道大庸古城店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于崇文办事处维港十字街5栋(步步高百货7楼)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "7天酒店(张家界大庸古城天门山索道站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于回龙路203号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一品香粉馆(官黎路)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于天门小学旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一围小火锅(张家界奇峰广场店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于永定街道奇峰广场4层418号商场中庭",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七十二奇楼景区",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于武陵山大道1号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七星山风景区",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于天门山镇东南边",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "业华湘·特色菜",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于桂花路98号",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国工农红军第二方面军长征出发地纪念碑",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于刘家坪附近",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乡里人(三下锅)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于东门巷201门面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于解放路70号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兄弟夜市城",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于陈家河派出所东北侧80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光明酒店(交通局店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于零阳中路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六奇阁",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于军地坪武陵源风景名胜区黄石寨景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "关水坪度假村",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于关水坪度假村百姓超市南侧",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冯校长老火锅(张家界永定回龙路店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于回龙路99号附近",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "几多全新鲜食品商店(张家界奇峰广场店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于永定街道解放路奇峰广场1楼L1007、L1108号",
+    "tags": [
+      "060200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘聋子粉馆(张家界总店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于商业步行街1094号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十里香夜市(八达小区店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于官黎路与尚武街交叉口西140米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华悦宾馆(天门山索道店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于官黎路火车站旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南天门",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于军地坪街道军地坪街道军地坪张家界国家森林公园武陵源风景名胜区(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卧虎洞公园",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于崇文街道子午路永定派出所路口驶入5公里",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "印象老灶台(天门山索道店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于官黎坪办事处华天城华天金铺S4号S5号",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "印象鲵宴(溪布街购物广场店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于天子路宝峰桥头溪布街入口(水车旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "印象鲵宴·天门山索道店",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于官黎坪办事处官黎坪居委会(华天城)S1栋S06",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厂花翠翠九宫格老火锅(张家界总店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于南门口美食街中央石拱桥下方",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴冠中像",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于军地坪武陵源风景名胜区张家界国家森林公园内(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "味到家夜市(韦斯特城市花园店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于韦斯特城市花园",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和园宾馆(慈利火车站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于皇朝连锁酒店旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四宝夜市(紫御山水壹号院店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于帅乡东路与创业路交叉口西南360米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四宝夜市城",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于文明路与高尚路交叉口东南20米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "回味夜市城",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于溪口镇财政所西南侧130米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国际张夜市(南苑小区店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于南苑小区1号门面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "土司行宫博物馆",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于大庸路与大桥路交叉口西南200米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "土家织锦文化创意园",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于武陵山大道辅路与沙提大道交叉口西280米",
+    "tags": [
+      "120100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(张家界市天门奥莱广场店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于解放路41号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "墉城十八子(北正街店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于古庸路104号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "壹品源餐厅(武陵源标志门店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于军地坪街道军邸路397号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大庸古城(暂停开放)",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于滨河路老南门口(步行街附近)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大庸府城-一月公园",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于oasw//)张家界市永定区北正街与解放路交叉口北150米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大庸桥公园",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于子午路东",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大栗坡公园",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于峪口村西侧",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天之蓝民宿(张家界西站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于宁邦广场22栋104门面",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天子大酒店",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于武陵大道中段548号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天子阁",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于天子山风景区(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天星酒店(后溶街店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于后溶东街五巷93号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天然长城观景台",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于杨家界风景区",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天门商务酒店",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于崇文路禾家山社区迎宾路与解放路十字西口天门大厦5层",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天门山国家森林公园",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于天门路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天门山国家森林公园-倚虹关",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于官黎坪天门山国家森林公园内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天门山国家森林公园-方丈",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于大坪镇官黎坪天门山国家森林公园天门山寺内(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天门山国家森林公园-珙桐园",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于天门山国家森林公园-东线",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天门山国家森林公园-珙桐园商亭",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于大坪镇天门山国家森林公园-捭阖",
+    "tags": [
+      "060200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天门山国家森林公园-箭杆峰",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于天门山国家森林公园内(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天门山国家森林公园C线索道",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于国家电网汽车充电站(张家界天门山充电站)东北侧",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天门山寺",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于天门山索道站天门山",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天门山寺(正门)",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于天门山寺内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天门山鬼谷峡洞风景区",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于官黎坪天门山国家森林公园",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夫妻农家夜市餐馆",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于迎宾路中保巷与大庸路万和天琴巷交叉口西北40米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好品味土菜馆",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于军邸路22号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威杰夜市美食新场景(市集)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于澧阳路与慈利大道交汇处",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "子午公园",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于子午路373号宏力大厦",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙开华故居",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于岩泊渡镇星明岗村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安逸商务酒店(火车站荷花机场店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于南庄坪156号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝塔岗公园",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于滨河路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝峰寺",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于索溪镇宝峰路8号宝峰湖风景区内(东北角)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "家旺小吃(解放路店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于解放路313号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "容儿家小炒馆(南庄坪店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于南庄坪南庄路53号山水豪庭",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富正毅三下锅(南岸晶都店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于南庄坪南岸晶都第1栋101、102(颐而康楼下)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富正毅三下锅(桔子全季店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于迎宾路与大庸路交叉口西80米南城金座2栋",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富正毅三下锅(索道公司店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于官黎坪办事处官黎坪居委会六组",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富蓝特·乐酒店(天门山凤湾路口店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于子午路27号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富蓝特·乐酒店(慈利店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于零阳西路加油站旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寨嫂当家(天门山索道店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于兴民路华天城S2-06(索道公司后门斜对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小天鹅商务酒店",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于零阳中路84号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "屈记夜市城",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于阳湖坪镇工业园茅岩莓旁边",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山水悦客栈(天门山索道站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于南庄坪开发区大庸路花苑221号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山语城民宿(张家界西站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于沙堤街道沙堤大道宁邦广场二期文华里22栋501室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "屿见民宿(张家界高铁西站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于向家岗路宁邦广场二期文化里21栋1201",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康迪地质博物馆",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于高桥村188号红晶山庄旁",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庸都园",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于解放路和教场路交汇处",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张嘎盖鲜肉水饺武陵源店",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于武陵路394号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于永定区",
+    "tags": [
+      "190000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界万福温泉度假村",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于常张高速东出口东500米万福温泉",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界世界地质公园博物馆",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于协合乡302乡道军地坪武陵源风景名胜区张家界国家森林公园内",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界之窗地质博物馆",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于大庸路与高远路交叉口西北260米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界云上田园度假山庄(暂停营业)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于天门山镇土木溪村张家组附近",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界云来客栈(天门山鬼谷峡洞风景区分店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于官黎路黄金塔安置区",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界亲亲客栈",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于回龙路维港十字街12栋1单元20楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界人和客栈",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于教场路85号邮电公寓旁",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界凤姐客栈(天门山索道店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于官黎坪办事处官黎坪居委会七组",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界古韵溪度假休闲山庄",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于溪口镇坪坦村樟树组",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界国家森林公园",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于金鞭路279号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界国家森林公园-云青岩",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于军地坪街道军地坪街道武陵源风景名胜区西北部天子山风景区贺龙公园内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界国际青年旅舍",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于古庸路825号",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界土司城",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于南庄坪土家风情园风景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界土家农庄",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于黄龙洞旅游区向西510米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界天门山",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于永定区",
+    "tags": [
+      "190700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界市博物馆",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于大庸桥街道",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界市民广场",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于澧兰中路与澧兰西路交叉口西160米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界市永定区南庄坪景上禾原生态餐饮",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于永定区景上禾原生态餐饮",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界市消防主题公园",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于宝塔岗公园内",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界德馨阁酒店",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于官黎平办事处天门山索道公司乘坐处300米老煤厂巷内",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界心窝客栈(天门山索道店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于官黎坪索道公司对面二巷",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界新隆商务酒店",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于古庸路499号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界暮林溪民宿(天门山索道店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于官黎坪街道黄金塔安置小区二巷南01号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界未来博物馆",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于大庸路与高远路交叉口西北240米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界梅苑商务宾馆(吉首大学店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于教场居委会十二组三角坪加油站旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界森木年华设计酒店(天门山店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于华天城铂金公寓4层",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界植觉艺术客舍(天门山索道站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于官黎路官黎坪黄金塔小区",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界武陵源国际森林康养基地",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于凤雅居·湘西特色美食南侧100米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界民族大酒店(张家界火车站天门山索道店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于官黎路街道国际旅游商业城C2栋",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界水芸客栈(高铁西站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于大庸桥街道武陵山大道宁邦广场1栋203室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界江南宾馆",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于崇文街道维港十字街10栋311室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界江汉山庄",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于武陵大道(武陵源区质监局东)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界涧外栖境度假村",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于中湖乡张家界国家森林公园(西门)杨家界门票站入口旁",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界涧山客栈(国家森林公园标志门店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于军邸路吴家峪口安置区一巷23号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界百年古庸客栈",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于黄金塔小区第5排",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界禾田湾客栈(天门山店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于官黎路彭家铺小区",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界美程商务酒店",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于永定街道北正街58号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界花沐湾度假山庄(张家界西站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于沙堤办事处氽水溪村新屋组",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界荷花主题酒店",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于南庄坪大庸路旺角佳园二期旁",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界蓝栖客栈(张家界站天门山索道店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于大庸路赵家院一巷",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界途乐民宿客栈(天门山索道站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于官黎坪居委会二组",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界鑫泉商务宾馆",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于教场路商大时代广场",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界银博物馆",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于沙堤办事处郝坪社区旅游商品产业园6号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界锁爱·桃花岛度假山庄",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于武陵山大道西30米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界雅和商务酒店",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于古庸路416号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界雨栖民宿(天门山国家森林公园店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于大庸路天门山索道西南70米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界顺梦客栈",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于南庄评办事处个体商业城101号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家界龙洞湖度假村",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于教字垭镇龙洞湖村",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "微馨客栈(张家界高铁西站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于沙堤办事处宁邦广场22栋1102",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "心之所巷民宿(天门山索道站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于大庸路天门山索道公司对面花灯巷三巷",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(解放路店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于东方·曼哈顿北门旁",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悬崖花开养生度假村",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于金桂村16组",
+    "tags": [
+      "080400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈利博物馆",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于枞阳路与笔架路交叉口北180米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈利县热火朝天夜市城",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于零阳街道白公城社区居委会军民路34号(陈建幸私房第一层)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈利宾馆",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于零阳东街38号(近胜汉步行街)",
+    "tags": [
+      "100102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈利江南特色客栈",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于零阳中路皂角树",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈利米娅商务酒店",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于零阳东路88号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈利米粉(老字号)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于古庸院子2栋S-108门面",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈利龙门养生山庄",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于阳和土家族乡渔浦村11组",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾木民宿(天门山火车站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于官黎路彭家铺小区A13栋",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "携程度假农庄(张家界缦心联营店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于协合乡插旗峪居委会李家湾组",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新天大酒店(广场西街)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于澧源镇和平西路",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新码头夜市城",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于滨河路教堂旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "方石岩",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "早晚要来慈利米粉",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于驼峰路与未央路交叉口西南40米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春去秋来度假山庄",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于101乡道",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李嘎三下锅(天门山亚朵店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于新松领地机器人欢乐城",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李嘎饭铺·三下锅(逸臣广场店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于回龙路湘韵酒店旁边",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李憨憨三下锅(七十二奇楼店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于大庸桥办事处热水坑居委会张家界七十二奇楼6栋6-1-03B号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李憨憨三下锅(天门山华天城店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于官黎坪街道官黎坪居委会(华天城S3)S01、S02",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李憨憨三下锅(天门山索道店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于官黎坪街道新松机器人欢乐城1幢1层S107、S108、S109",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李憨憨三下锅(武陵源标志门店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于军地坪街道吴家峪居委会未央路6-17号(武陵源宾馆门面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨家溪体育公园",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于朝阳路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨家界野溪河畔度假营",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于杨家界大道",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳杨溪休闲度假村",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于305省道西北侧",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梦季客栈(张家界天门山索道站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于官黎坪街道梦季客栈",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "樊厨当家菜(天门山索道店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于官黎坪街道官黎坪居委会(华天城S2栋S03)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "武陵源夜市街",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于白鹭路",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "武陵源风景名胜区",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于军地坪",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "武陵源风景名胜区-乱窜坡",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于军地坪武陵源风景名胜区袁家界景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "武陵源风景名胜区-鹞子寨",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于军地坪武陵源风景名胜区张家界国家森林公园内(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "毛氏小馆·特色菜",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于军地坪街道吴家峪七组300号",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江垭温泉度假村",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于江垭镇305省道附近",
+    "tags": [
+      "080400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉水石锅鱼",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于官黎坪华天城s07号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(东方曼哈顿店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于解放路东方曼哈顿6楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘健土菜馆",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于湘小伍土特产旁边",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘窖度假山庄",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于大庸桥居委会木鱼山(华都山庄)H栋101号别墅",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘西饮食文化博物馆",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于溪布老街西门旁",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溪岸客栈(张家界紫霞观店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于宝峰路紫霞观正对面",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "澧兰公园",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于澧兰中路与澧兰西路交叉口北40米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "澧水广场",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于大桥路辅路与南庄路交叉口北120米",
+    "tags": [
+      "060102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灶灶小钵菜(72奇楼店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于72奇楼景区入口近天门壹号小区",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灶灶小钵菜(步行街店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于中国银行张家界分行综合大楼北门西北70米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灶灶小钵菜(西溪坪店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于西溪坪街道打鼓台居委会张家界国际建材城S121-122",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊氏草帽面(46年老店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于人民路50号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "特色慈利米粉",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于恬雅智诚酒店旁边",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "猪脑壳凉面(南正街)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于南正街212号(新明珠演艺旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "猪脑壳凉面(天子路店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于军地坪街道天子路周大生珠宝旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉皇洞石窟",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于大庸桥街道丁家溶社区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玩味居夜市",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于永定街道香港城",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白羊古刹",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于崇文街道解放路70号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白虎堂北固乡游击队遗址",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于白虎堂村五组29号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛香亭转转热卤(张家界中商广场店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于解放路151号中商广场L1-A035-036",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛香亭转转热卤(张家界南正街路店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于南正街",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "知音宾馆",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于和平西路(梅尼购物中心对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祥祥夜市",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于黄金塔站台",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福之味湘菜馆",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于武陵源宾馆西南门旁300米",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦大妈传家菜·始于1999(天门山索道一店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于华天城住宅小区一期西门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦大妈私房菜(机场路店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于机场路安置小区旁",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦大妈老字号 (南庄坪店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于南庄路25号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "索溪山寨·湘西民间土菜(天门山索道店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于官黎坪街道南城金座5栋2号门面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "索溪山寨·湘西民间土菜(标志门店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于吴家峪居委会七组驼峰路交叉口东南角",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "索溪山寨·湘西民间土菜(溪布街店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于溪布老街西门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "索溪山寨·湘西民间土菜(魅力湘西店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于高云路魅力湘西斜对面(高云桥头)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫舞公园",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于后溶街巷168号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "维也纳国际酒店(72奇楼奇幻大庸城店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于子午西路18号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "维也纳酒店(城市公园店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于火车北站站前路1号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美槿北斗星酒店(天门山教场路店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于教场路142号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老农村家常菜馆(商业步行街店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于解放路51号商业步行街",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老媽下饭菜(张家界中天鹭鸶湾一期店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于崇文街道宝塔岗崇文路南侧滨河路西侧(龙庭国际一期A区)7号栋1层-S101-102-103a",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老张家三下锅(天门居旗舰店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于官黎坪街道官黎路北侧",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老张家三下锅西街店",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于官黎坪街道宜黎坪居委会四组",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老杜三下锅",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于解放路3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老梁土菜馆(天门山索道店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于官黎坪办事处天门山索道下站(华天城S02号门面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老王三下锅",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于宝峰路66号",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老王夜市",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于崇文街道解放路58号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖子夜市",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于大德酒店后面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芳芳老火锅",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芷园",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茗月度假村",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于索溪峪土家族乡宝峰路",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虾扫光夜市城(南门裕店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于澧源镇南门峪原社保局门面金码头",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贺龙墓",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于天子山风景区内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贺龙故居",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于洪家关乡洪家关村",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迴龙公园",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于迎宾路与崇文路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迷家主题客栈(张家界天门山索道站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于天门山索道公司对面",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "通达国际酒店",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于永定路鹭鸶湾大桥旁",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "逸乡居客栈(高铁西站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于沙堤街道向家岗路宁邦广场2期20栋1103室",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑二佬土菜馆",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于中共张家界市税务局小区西门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "醉湘亲私房菜(天门山三店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于官黎坪街道官黎坪社区六组甘溪桥加油站旁",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "醉湘亲私房菜(武陵源店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于军地坪武陵路武陵大道581号",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金慈夜市",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于金慈实验小学东门东50米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金群酒家(南庄坪派出所)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于张家界市文化旅游广电体育局东门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦宝.酱子夜市(九号店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于澧源镇文明路(九天超市对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈坛子灶锅鱼(溪布街店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于索溪路65号免费停车正宗柴火灶招牌柴火鸡柴火鱼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈坛子灶锅鱼车站店",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于军地坪街道办事处吴家峪居委会桂花路汽车站军邸路259号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隐溪·随意居客栈(张家界武陵源国家森林公园店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于军地坪街道宝峰路五巷15号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青柠檬民宿(张家界高铁西站店)",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于沙堤乡向家岗路宁邦广场16栋1303室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "食尚汇源(南庄路一巷)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于张家界市人民对外友好协会南门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲵童·湘西大排档(南门口店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于永定街道回龙路社区南门口B区6栋4.5.6.7号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸟儿岭康旅小镇",
+    "city": "张家界",
+    "category": "hotel",
+    "description": "位于353国道与305省道交叉口南120米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(天门中心广场店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于方圆荟·武陵山珍馆广场1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(张家界天子山餐厅)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于军地坪武陵源风景名胜区天子山景区内",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(泊富国际文化广场店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于解放路188号泊富国际文化广场F1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黑哥鸭王(天子路店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于天子路",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黔阳古城-同善社",
+    "city": "张家界",
+    "category": "attraction",
+    "description": "位于十里画廊景点内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龚婆婆土厨(索道店)",
+    "city": "张家界",
+    "category": "food",
+    "description": "位于大庸路富蓝特和酒店旁边花灯里巷子进去10米(木子青年旅舍旁边)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

@@ -1,0 +1,2108 @@
+[
+  {
+    "name": "99号潮汕牛肉自助火锅",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于青云街18号印象城F2层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万里行宾馆(马山县汽车总站店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于白山镇同富街10号(原汽车站旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三个椰子·现砍椰子鸡(南宁三街两巷店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于民族大道37号三街两巷金狮巷A区一层至二层107号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三个椰子·现砍椰子鸡(南宁金源CBD店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金湖路63号金源CBD现代城2楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三品王(J092南宁佳和大厦店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于嘉湖巷6号佳和大厦一层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上林银泉宾馆",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于银泉路与智城路交汇处一桥客运站后门旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下沉广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于民族大道辅路与凤翔路交叉口东40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云栖小筑(南宁火车站朝阳广场店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于共和路99号格兰云天23楼",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云顶观光",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于金湖路59号地王大厦59层",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亭子码头",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于白沙大道2号4号商务中心二楼",
+    "tags": [
+      "150000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "今太顺·紫菜包饭(水晶城店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于南湖街道金湖路61号梦之岛百货一楼外铺面",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "会展航洋城南广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于民族大道131号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "假日都市景点",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于汇春路与越秀立交桥交叉口西南100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "僖悦酒店(金象地铁站店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于广西南宁市良庆区白鹤街33号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六六民宿酒店(广西大学动物园店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于大学东路75号盛标·陈东购物中心F1层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冯校长老火锅(南宁百盛店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于朝阳路131号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤岭儿童公园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于云景路25号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯逸轩(地王店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金湖路59号地王大厦1-5-6层",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "加勒比水世界",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于大学东路72号",
+    "tags": [
+      "080505"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "勤寓连锁公寓(南宁总部基地地铁站万科大厦店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于金龙路2号万科大厦B座F12层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "包仔文•海鲜排档火锅(南宁航洋城店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于民族大道131号南宁航洋购物中心L2-029A",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华超精品酒店",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于白山镇中学街357号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁Tammy拾光公寓",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于南湖街道通达东路1号高铁时代广场2号楼601室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁人民公园九曲桥",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于民生街道民生街道人民东路1号南宁市人民公园(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁初见酒店(南宁北站康和城商业广场店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于灵源路80号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁动物园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于大学东路73号",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁吉庆旅馆(江南客运站地铁站店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于江南路烟墩岭22号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁园博园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于蒲兴大道20号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁安都宾馆(安吉客运站地铁站店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于安吉大道46号综合楼(近安吉客运站)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁市人民公园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于人民东路1号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁市人民公园相亲角",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于人民东路1号南宁市人民公园(西南角)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁市体育休闲公园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于凤岭南路11号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁市城市广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于长湖路13号(东葛路地铁站C口步行340米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁市武鸣区佳恒旅馆",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于城厢镇东鸣路345号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁市金花茶公园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于建政街道葛村路3-5号金花茶大厦",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁朝鑫宾馆(富德商业广场店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于五一西路今朝大厦斜对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁民歌湖国际音乐小镇A区",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于金浦路民歌湖国际音乐小镇",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁美蓝太空舱青年公寓(广西大学店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于大学东路31号时代天骄A座20楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁聖翔公寓(师范大学武鸣校区店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于城厢镇红岭社区五里路126号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁莱茵公寓(莱茵湖畔琅东客运站店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于民族大道青林路莱茵湖畔小区B5幢2单元1103号房",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁金山旭升短租公寓(朝阳广场店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于民生街道朝阳路68号金山广场D座1502室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁锦都旅馆(武鸣东盟经济技术开发区店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于人民路43号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁雅源民宿",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于大沙田街道庆歌路20号富雅国际商务大厦B栋2430室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁雅高商务宾馆",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于上尧街道大学东路77-1号陈东综合商业城二楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁青秀区南宁绿地中央广场B3号楼1208~1209",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于绿地中央广场B3栋",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁青秀山东盟友谊园大草坪",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于邕江江畔",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁青秀山兰园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于青秀山风景区北1门附近",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宁驿站民宿",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于通达东路1号高铁时代广场2号楼13层1321号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖公园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于双拥路1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖公园-水幕电影广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于双拥路南湖公园(东北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖公园南湖南广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于双拥路1号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖公园名树博览园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于双拥路1号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厢竹立交体育公园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于厢竹大道44号",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "发源地桂林米粉",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于38-18号新竹小区27栋1单元1层101号房",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "啫啫堡·生料啫啫煲(琅西店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金洲路琅西二组5栋3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喷泉广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于长湖路与东葛路交叉口东60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季花园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于双拥路1号南湖公园内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季酒店(南宁广西大学东门店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于秀灵路71号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大明山",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于两江镇明山路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天华宾馆(中尧南路店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于中尧南路47号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天昌广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于青秀路16-8号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天海宾馆(思贤路店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于思贤路5-2号(阳光100城市广场)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于津头街道青山路5号广西南宁市第三中学",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太古丽.美宿(江南蓝鲸世界店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于那洪街道金凯路7号绿港双创城1栋B座807号房",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富强民宿(南宁吴圩国际机场店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于吴圩镇明阳金洋街2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小杜果酱烧烤(金湖店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金湖路63号金源CBD现代城",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山楂树宾馆",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于星光大道160号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巡耕记(金源店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金湖路63号金源&号8226现代城2层L2-1-004号、L2-1-005号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广西壮族自治区博物馆",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于民族大道34号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广西壮族自治区药用植物园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于长堽路189号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广西民族博物馆",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于青环路11号(近荔园山庄)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅(凤翔路)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于凤翔路14号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅(南宁五象店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于玉凤路15号邕熙华府3号楼地下一层B107,B109,B110号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅(南宁北大珑廷店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于北大北路26号建发·鼎华北大珑廷",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(南宁朝阳印象城店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于青云街18号万达商业广场D座百盛百货1-2层",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦朋公寓(南宁火车东站店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于通达东路1号高铁时代广场2号楼16楼1616房",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "故湘·品质湖南菜(地王大厦店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金湖北路59号地王大厦F4层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化创意园广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于东葛路与长湖路交叉口东北60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新实惠牛肉牛杂火锅(东葛店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于茅桥路2号(润华四季酒店1层)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新实惠牛肉牛杂火锅(思贤店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于思贤路45-2号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新实惠牛肉牛杂火锅(明秀店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于明秀东路238号1楼(原天妃酒店一楼)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "旺庆广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于金洲路与金洲路南二里交叉口东北60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景秀广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于青秀山管理委员会",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李宁体育园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于凤岭南路13号",
+    "tags": [
+      "080101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李明瑞韦拔群等革命烈士纪念馆",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于双拥路1号南湖公园(西南角)",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柒不柒螺蛳粉",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于秀灵路23号(秀灵路地铁站A口步行260米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柬埔寨园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于朱槿路11号",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栖悦民宿(东方广场店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于开泰路100号恓悦民宿",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂小厨广西菜(水晶城店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金湖广场梦之岛水晶城B1层",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂花园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于凤岭南路6-6号青秀山风景区内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梁阿婆廿年老牌扣肉糯米饭",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于永宁街华兴里1-4号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椿记烧鹅(金湖店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金湖路58北部湾保险大厦F2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "横县金银花宾馆",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于长安大道那阳大桥客运站西侧约120米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "橄榄宿酒店",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于西乡塘灵秀北路68-8号1号楼",
+    "tags": [
+      "120000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欧蔓·IMAX影音.静谧空间.轻奢民宿(大帽山公园店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于武华大道与建设路交叉口华侨新区别墅区2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "武鸣英俊大峡谷",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于两江镇明山路1号大明山(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民族广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于民族大道49-2号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民歌湖-叶脉广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于竹溪立交西南方向民歌湖国际音乐小镇内(北侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民歌湖国际音乐小镇",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于金浦路23号民歌广场旁",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民生广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于华强街道华强街道民生路131号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水一方宾馆(五一西路)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于沙井大道90号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水锦顺庄大峡谷旅游景区",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于古零镇乐平村水锦屯",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "池饭饭",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于悦宾路埌东",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙江河湿地公园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于长堽路161-1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泰象莱·泰国菜餐厅(滨湖路店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于滨湖路8-4号(滨湖路地铁站B口步行340米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(东盟盛天地店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于中越路8号盛天华府地下室B3311-B3319号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(安吉万达店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于高新大道55号安吉万达广场3楼3058号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(星光大道店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于星光大道4号广西文创大厦L3层307-1号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(步行街广场店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于朝阳路9号步行街广场六楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "港上囍市·海鲜大排档(金湖店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于发展大厦111号港上囍市(金湖店)",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨湖广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于民族大道与滨湖路交叉口北150米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牧萄桂式Bistro & Wine bar",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金湖路61号梦之岛百货水晶城店B1层",
+    "tags": [
+      "080304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狮山公园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于朝阳街道邕武路4号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "疍家人鱼仔店(水晶城店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于梦之岛百货(水晶城店)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百悦便捷公寓(仙葫东方广场店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于德圣路西一巷2号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "相思小镇",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于相思湖东路31号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "真好吃牛杂(白沙店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于白沙大道13号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石门公园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于民族大道118号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "禹杰酒店",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于南武大道伊岭工业集中区B-16号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秀才米粉(悦宾路埌东店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于南湖街道埌东村十二组悦宾路11栋",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "粥王·地标老排档(凤翔老店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于凤翔路12号粥王·地标老排挡",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "粥王·地标老排档(埌西总店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于埌西二组1栋2号(大店)",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老陈婆手工面庄",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于西大街美食长廊",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "联友宾馆(南宁火车站店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于苏州路8号摩根国际大厦1层8-1-1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚丰宾馆(民主路南三里分店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于民主路南三里13号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(南宁地王店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金湖路59号地王国际商会中心一层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胜记海鲜煲仔粥(五象店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金龙路2号南宁万科大厦B1层(雷记饭店旁下沉广场)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胜记海鲜煲仔粥(江南盛天地店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于江南盛天地(金凯路地铁站C出口旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花坛广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于南国弈园(南宁市凤岭儿童公园西南)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苏格里岛自助烧烤火锅(南宁步行街广场店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于朝阳路9号南宁步行街广场第4层L4-22至25号铺",
+    "tags": [
+      "061200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荫生植物园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于凤翼路青秀山风景区(西北角)",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫奈花园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于青秀山风景区内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莱茉莉·粤芥(金湖店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于东悦巷11号K国际酒店二楼(南宁社保局对面)",
+    "tags": [
+      "061100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虎邱广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于朝阳街道明秀东路125号",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛙公鱼婆·鲜切牛肉自助火锅(新朝阳商业广场店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于新朝阳商业广场4楼蛙公鱼婆",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛙小侠(水晶城店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金湖路61号梦之岛水晶城负一楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜀小滋·市井火锅(三街两巷店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于三街两巷(朝阳广场地铁站E口步行400米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "螺遇牛.牛杂螺蛳粉(七星店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于七星路129-1-5号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "覃记生榨米粉(南铁一巷)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于南铁六街4号(秀灵路地铁站B口步行410米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诚如金·南宁本地菜(金源CBD现代城店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金湖路63号金源名店中心F2层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贤宾湖公园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于滨湖路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "越南粉",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于超市碧园10号11A",
+    "tags": [
+      "050206"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "越雅鸡肉粉(民生路步行街店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于新华路14号-1",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达美乐比萨(南宁广西大学南百NGS店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于西乡塘街道大学东路98号世贸西城广场A区1楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达美乐比萨(南宁水晶城店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金湖北路61号水晶城第一层L1-005",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邕江北岸公园",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于荔滨大道1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆乡水源火锅(梦之岛水晶城店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金湖路61号梦之岛水晶城2楼(星巴克楼上)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金凯宾馆(广西国际职业技术学院医科大二附院店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于大学东路168号2层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金湖广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于民族大道98-3号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金湖广场-北区",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于金湖北路与文浦路交叉口西20米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铛牛佬牛杂火锅城(祥宾店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金湖路与祥宾路交汇处(雅斯特酒店旁)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铛牛佬牛肉牛杂火锅(古城店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于古城路33号6栋综合楼1楼5-6-7号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银新宾馆(南宁东葛葛村路店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于东葛葛村路口(葛村路三巷26号)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雅阁商务宾馆(上林汽车总站店)",
+    "city": "南宁",
+    "category": "hotel",
+    "description": "位于明山路南段244号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青秀山风景区",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于凤岭南路6-6号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青秀山风景区-壮锦广场",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于凤岭南路6-6号青秀山风景区内(西侧)",
+    "tags": [
+      "120304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青秀山风景区东区",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于凤岭南路青秀山风景区内(东北角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青秀山风景区观音禅寺",
+    "city": "南宁",
+    "category": "attraction",
+    "description": "位于青秀山管理委员会津头街道凤岭南路6号青秀山风景区内",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼酱泼奇OKIEDOKIE",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于凤翔路2号香谢里花园二期XXL-2-1-14A铺面鱼酱泼奇OKIEDOKIE",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿福酒家(地王店)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金湖北路59号地王大厦53层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(南宁金湖餐厅)",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于金湖路63号金源CBD首层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙上水现炒生料",
+    "city": "南宁",
+    "category": "food",
+    "description": "位于柳沙路16号三兴花园小区B3栋6号",
+    "tags": [
+      "060703"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

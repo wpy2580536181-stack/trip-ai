@@ -1,0 +1,782 @@
+[
+  {
+    "name": "下一站牛池湾港式茶餐厅",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于金鱼街37号之三",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丑男拉面(禅城店)",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于祖庙街道普澜二街1号首层之二",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山公园",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于中山路12号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山鸽皇(普君店)",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于普君北路6号普君新城步行街二楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于厚源路13号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛山7天住房(益万家超市店)",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于鼎安路76号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛山万豪公寓(三水一环西高新产业园店)",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于西南街道上官员新村二桥公路佛山一环西高新产业园对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛山乐园",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于体育路50号(同济路地铁站B口步行450米)",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛山君来住宿",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于杏坛镇光华村西岸西路2号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛山大湾商务公寓",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于乐平镇横岗创新路东18号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛山宏天宾馆",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于杏坛镇齐杏社区居民委员会河北五路北1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛山宏琦公寓(平洲玉器街地铁站店)",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于平洲永安中路63号2-5层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛山岭南天地",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于祖庙大街2号",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛山市祖庙博物馆",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于祖庙街道祖庙路21号(祖庙地铁站出入口步行460米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛山平安住宿(百花时代广场店)",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于东区一巷1号南兴坊大楼南门",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛山悦来城公寓",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于桂城地铁站B口步行340米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛山海璟酒店(凤池装饰材料市场店)",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于城南二路金雅轩广场A区G36号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛山纪胜公寓(玉器街店)",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于桂城平南梅园新圩北7巷5号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛山网缘住宿",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于均安镇仓门常安路2号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛山远盛公寓",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于丹灶镇金沙城区文沙路C4小区2-6楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛山金福来租房(顺德清晖园博物馆店)",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于建港路八巷5号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兆祥公园",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于普君北路地铁站A口步行100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八重胜洋食屋(垂虹小区北区店)",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于垂虹六街7号首层7-12轴之2自编001",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴华里茶记(禅城祖庙店)",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于祖庙街道福宁路102号5号铺",
+    "tags": [
+      "050600"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千灯湖公园",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于灯湖西路28号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南记食粥坊·宵夜大排档(岭南店)",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于岭南大道北52号首层之三",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南风古灶",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于高庙路5-34号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "叠滘水乡",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于南一路时代名轩",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜客莱宾馆",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于杏头市场往东100米信科陶瓷机械设备厂旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜铺破包子(普君新城店)",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于祖庙街道新风路8号首层13号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "垂虹公园",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于垂虹路29座610号(同济路地铁站A口步行320米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大沙角·海鲜楼(岭悦中心店)",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于祖庙街道同济东路26号一座三层",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大笨象小吃店",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于福宁路142-144号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "季华园",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于石湾镇街道季华新景园季华五路16号西",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尊宝比萨(普君店)",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于祖庙街道普君新城步行街(普君北路)3号首层P5",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康都公寓(佛山盐步大道店)",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于盐步大道114号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张槎文化广场",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于张槎三路与仙槎南路交叉口西北角",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "思佳公寓(佛山禅城店)",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于叠滘地铁站C口步行390米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文华公园",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于文华中路与彩虹路交叉口对面",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文华公园-佛山电视塔",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于季华六路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景鑫宾馆(佛山市中医院汾江中路店)",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于汾江中路59号中医院对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "有记家厨(后龙西街店)",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于后龙西街1号一座31、32号铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "有记餐厅(金鱼街店)",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于金鱼街24号106",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林广记潮汕促肉粿条汤店",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于祖庙街道金鱼街73号102房",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梁园",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于松风路先锋古道93号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "池枣·咖啡西厨",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于普君西路35-39号",
+    "tags": [
+      "050500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘村民肴·湖南土菜(禅城岭悦荟店)",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于同济东路26号岭悦中心F2层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石湾公园",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于石湾镇街道和平路6号(石湾地铁站D口步行320米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祖庙",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于祖庙路21号(祖庙地铁站出入口步行260米)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苏格酒店式公寓(金色里程佛山火车站店)",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于祖庙街道郊边一路2号万科金色里程公寓二区3座7楼722室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄王府面馆(普君西路店)",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于普君西路与普君北路交叉口西120米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诺菲尔国际公寓(佛山万科金色领域礌岗地铁站店)",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于万科金色领域1座102铺(地下停车场入口处)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "豪庭公馆(黄岐公园店)",
+    "city": "佛山",
+    "category": "hotel",
+    "description": "位于大沥镇黄岐岐西永诚路36号岐西综合楼2-3,5-7楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "通济",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于金鱼街(近洛水河)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "通济桥",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于通济内(西侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金源酒家(福宁路店)",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于福宁路171号(地铁广佛线普君北路站A出口步行360米)",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈腔慢调·台式料理食堂",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于普澜一街5号首层",
+    "tags": [
+      "050122"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香港食盈碗仔翅(金湖店)",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于普澜二路23号金湖酒店一层L1-01",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(岭悦荟店)",
+    "city": "佛山",
+    "category": "food",
+    "description": "位于祖庙街道同济东路26号岭悦荟一层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙塘诗社",
+    "city": "佛山",
+    "category": "attraction",
+    "description": "位于祖庙大街15-19号佛山岭南天地",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

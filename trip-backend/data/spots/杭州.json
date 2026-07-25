@@ -1,136 +1,42 @@
 [
   {
-    "name": "湖滨步行街",
+    "name": "3号仓库·创意中国菜(钱江新城店)",
     "city": "杭州",
-    "category": "attraction",
-    "description": "湖滨步行街位于杭州市上城区，紧邻西湖，是集购物、休闲、娱乐于一体的特色商业街。这里汇聚了众多品牌店铺和美食，是游客和市民的热门打卡地。",
+    "category": "food",
+    "description": "位于解放东路45号高德商场F5层",
     "tags": [
-      "购物",
-      "商业街",
-      "步行街",
-      "杭州"
+      "050100"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "全天",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "钱江世纪公园",
+    "name": "7017浙菜·建德味((钱江新城店)",
     "city": "杭州",
-    "category": "attraction",
-    "description": "钱江世纪公园是位于杭州萧山区的一个城市公园，集休闲、观光、娱乐于一体，拥有优美的江景和丰富的植被。",
+    "category": "food",
+    "description": "位于解放东路45号高德置地广场购物中心3层308室",
     "tags": [
-      "公园",
-      "风景名胜",
-      "萧山"
+      "050100"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "全天",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "清河坊历史文化特色街区",
+    "name": "9度阳光客栈",
     "city": "杭州",
-    "category": "attraction",
-    "description": "清河坊历史文化特色街区位于杭州市上城区河坊街180号，是杭州著名的历史文化街区。",
+    "category": "hotel",
+    "description": "位于长江中路52附近",
     "tags": [
-      "风景名胜",
-      "国家级景点"
+      "100200"
     ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "全天开放",
-    "rating": 4.5
-  },
-  {
-    "name": "五柳巷历史街区",
-    "city": "杭州",
-    "category": "attraction",
-    "description": "五柳巷历史街区是杭州上城区的一个历史街区，保留了许多传统建筑。",
-    "tags": [
-      "风景名胜"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
-  },
-  {
-    "name": "清河坊步行街",
-    "city": "杭州",
-    "category": "attraction",
-    "description": "清河坊步行街位于杭州市上城区河坊街，是杭州著名的历史文化街区，集购物、美食、旅游于一体。",
-    "tags": [
-      "步行街",
-      "购物",
-      "美食",
-      "历史街区"
-    ],
-    "avgCost": 0,
-    "duration": "2-4小时",
-    "openTime": "全天",
-    "rating": 4.5
-  },
-  {
-    "name": "杭州西湖风景名胜区-断桥残雪",
-    "city": "杭州",
-    "category": "attraction",
-    "description": "断桥残雪是西湖十景之一，位于杭州西湖白堤的东端。桥身横跨在湖面上，冬季雪后桥面若隐若现，别具意境。",
-    "tags": [
-      "西湖十景",
-      "断桥",
-      "残雪",
-      "名胜古迹"
-    ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.7
-  },
-  {
-    "name": "吴山景区",
-    "city": "杭州",
-    "category": "attraction",
-    "description": "吴山景区位于杭州市上城区，是一处融合自然风光与历史文化的风景名胜区，可俯瞰西湖和城市景观。",
-    "tags": [
-      "风景名胜",
-      "自然风光",
-      "历史文化"
-    ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "全天开放",
-    "rating": 4.5
-  },
-  {
-    "name": "胡雪岩旧居",
-    "city": "杭州",
-    "category": "attraction",
-    "description": "胡雪岩旧居位于杭州市上城区元宝街18号，是清代红顶商人胡雪岩的故居。这座宅邸融合了中西建筑风格，内部装饰精美，展示了清末江南园林与豪宅的典范。游客可以欣赏到精湛的木雕、石雕和砖雕艺术，了解胡雪岩传奇的一生。",
-    "tags": [
-      "纪念馆",
-      "风景名胜",
-      "清代建筑"
-    ],
-    "avgCost": 30,
-    "duration": "1-2小时",
-    "openTime": "08:00-17:00",
-    "rating": 4.5
-  },
-  {
-    "name": "鼓楼",
-    "city": "杭州",
-    "category": "attraction",
-    "description": "杭州鼓楼位于上城区中山南路，是历史文化景点。",
-    "tags": [
-      "风景名胜"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "CBD公园",
@@ -142,70 +48,223 @@
       "公园广场",
       "公园"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "1-2小时",
     "openTime": "全天开放",
     "rating": 4.5
   },
   {
-    "name": "湘香蒸菜馆(湘湖路店)",
+    "name": "CBD公园",
     "city": "杭州",
-    "category": "food",
-    "description": "湘香蒸菜馆位于萧山区湘湖路，主打湘菜蒸菜。",
+    "category": "attraction",
+    "description": "CBD公园，位于五星路181号(市民中心地铁站N3B口步行460米)，上城区，类型公园广场 公园。",
     "tags": [
-      "湘菜",
-      "蒸菜",
-      "中餐厅"
+      "公园广场",
+      "公园"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "四灶儿·地道杭帮菜(湖墅南路店)",
+    "name": "CBD公园",
     "city": "杭州",
-    "category": "food",
-    "description": "四灶儿·地道杭帮菜(湖墅南路店)位于杭州市拱墅区湖墅南路228号，是一家以地道杭帮菜为特色的中餐厅。店内环境优雅，菜品口味正宗，深受食客喜爱。",
+    "category": "attraction",
+    "description": "CBD公园，位于五星路181号(市民中心地铁站N3B口步行460米)，上城区，类型公园广场 公园。",
     "tags": [
-      "杭帮菜",
-      "中餐厅",
-      "浙江菜"
+      "公园广场",
+      "公园"
     ],
-    "avgCost": 80,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "CBD公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "CBD公园，位于五星路181号(市民中心地铁站N3B口步行460米)，上城区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "CBD公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "杭州CBD公园位于上城区五星路，地处钱江新城核心区，是一个集休闲、观光于一体的城市公园，紧邻市民中心，环境优美。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
     "duration": "1-2小时",
-    "openTime": "11:00-14:00,17:00-21:00",
+    "openTime": "全天开放",
     "rating": 4.5
   },
   {
-    "name": "绿茶餐厅(灵隐路店·品牌旗舰店)",
+    "name": "CBD公园",
     "city": "杭州",
-    "category": "food",
-    "description": "绿茶餐厅是知名中式餐厅，以江南菜为主，环境优雅，位于灵隐路1号，是品牌旗舰店。",
+    "category": "attraction",
+    "description": "位于五星路181号(市民中心地铁站N3B口步行460米)",
     "tags": [
-      "中餐",
-      "杭州菜",
-      "西湖区"
+      "110101"
     ],
-    "avgCost": 80,
-    "duration": "1.5小时",
-    "openTime": "10:00-21:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "赵府私厨·老杭帮菜(西湖老店)",
+    "name": "CBD公园-下沉广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于五星路181号CBD公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "Club Med地中海白日方舟·杭州龙坞度假村",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于采青路200号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "Fu里·桐心",
     "city": "杭州",
     "category": "food",
-    "description": "赵府私厨·老杭帮菜(西湖老店)位于杭州上城区学士路92号，是一家提供正宗老杭帮菜的中餐厅。菜品地道，深受当地人和游客喜爱。",
+    "description": "位于新桐乡包家淇村东923米",
     "tags": [
-      "老杭帮菜",
-      "浙江菜",
-      "中餐厅"
+      "060000"
     ],
-    "avgCost": 120,
-    "duration": "2小时",
-    "openTime": "10:00-21:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "HOMELESS(来福士店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于新业路228号来福士T2栋52楼-HOMELESS",
+    "tags": [
+      "050400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "RUICH",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于来福士T1天御56楼02室",
+    "tags": [
+      "061101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万茂精品酒店(文泽路地铁站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于凌霄街108号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上房火鍋(杭州来福士中心店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于新业路228号来福士中心1幢5001、5002、5004室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世纪广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于秋韵路a7-2号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世纪花园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于世纪花园北门",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国丝绸博物馆",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于玉皇山路73-1号(近南山路)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国围棋博物馆",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于钱潮路2号天元大厦1层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "中国杭帮菜博物馆(虎玉路店)",
@@ -217,81 +276,571 @@
       "博物馆",
       "中餐"
     ],
-    "avgCost": 150,
+    "avgCost": 150.0,
     "duration": "2小时",
     "openTime": "10:00-22:00",
     "rating": 4.5
   },
   {
-    "name": "如院餐厅",
+    "name": "中国杭帮菜博物馆(虎玉路店)",
     "city": "杭州",
     "category": "food",
-    "description": "如院餐厅 是杭州的美食餐厅，位于西湖区。地址：玉泉路11号。",
+    "description": "中国杭帮菜博物馆(虎玉路店)，位于虎玉路9号，上城区，类型中餐厅 中餐厅。",
     "tags": [
-      "杭州"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "全天",
-    "rating": 3.5
-  },
-  {
-    "name": "赵府私厨·老杭帮菜(河坊街店)",
-    "city": "杭州",
-    "category": "food",
-    "description": "赵府私厨·老杭帮菜位于杭州高银街111号，是一家老杭帮菜餐厅。",
-    "tags": [
-      "杭帮菜",
-      "中餐"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "新白鹿(杭州湖滨in77店)",
-    "city": "杭州",
-    "category": "food",
-    "description": "新白鹿是杭州知名的浙江菜餐厅，提供传统杭帮菜，环境优雅，价格适中。",
-    "tags": [
-      "浙江菜",
       "中餐厅",
-      "冷饮店"
-    ],
-    "avgCost": 80,
-    "duration": "1.5小时",
-    "openTime": "11:00-14:00,17:00-21:00",
-    "rating": 4.5
-  },
-  {
-    "name": "四灶儿·地道杭帮菜(西湖景区·吴山广场店)",
-    "city": "杭州",
-    "category": "food",
-    "description": "四灶儿·地道杭帮菜位于杭州市上城区延安路22号（吴山古玩城对面），是一家主打地道杭帮菜的中餐厅。",
-    "tags": [
-      "杭帮菜",
       "中餐厅"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "新白鹿餐厅(湖滨88店)",
+    "name": "中国杭帮菜博物馆(虎玉路店)",
     "city": "杭州",
     "category": "food",
-    "description": "新白鹿餐厅是杭州知名的平价杭帮菜餐厅，湖滨88店位于平海路124号，以性价比高、口味地道著称，推荐菜品有蛋黄鸡翅、糖醋里脊等。",
+    "description": "中国杭帮菜博物馆(虎玉路店)，位于虎玉路9号，上城区，类型中餐厅 中餐厅。",
     "tags": [
-      "浙江菜",
-      "杭州美食",
-      "餐厅"
+      "中餐厅",
+      "中餐厅"
     ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "10:00-21:00",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国杭帮菜博物馆(虎玉路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "中国杭帮菜博物馆(虎玉路店)，位于虎玉路9号，上城区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国杭帮菜博物馆(虎玉路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "中国杭帮菜博物馆是一家以杭帮菜为特色的中餐厅，位于杭州市上城区虎玉路9号，可以品尝到正宗杭帮菜并了解其文化。",
+    "tags": [
+      "杭帮菜",
+      "博物馆",
+      "中餐"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
     "rating": 4.5
+  },
+  {
+    "name": "中山公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于西湖街道孤山北路3号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临平夜市(红丰综合市场店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于红丰路和超峰东路交叉口",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乔司夜市",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于乔司街道南街67号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乔村二十八道(未来科技城店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于良睦路鼎创财富中心1幢A2座1楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乔村二十八道(钱江世纪城店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于盈丰街道左右商务中心2幢",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九号街夜市",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于萧山经济技术开发区鸿达路358号9号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云栖竹径",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于梅灵南路8号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云石度假山庄",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于狮山村",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五七公社夜市",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于萧杭路615号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五柳巷历史街区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "五柳巷历史街区是杭州上城区的一个历史街区，保留了许多传统建筑。",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "五柳巷历史街区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "五柳巷历史街区，位于小营街道斗富二桥西河下9号附近，上城区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五柳巷历史街区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "五柳巷历史街区，位于小营街道斗富二桥西河下9号附近，上城区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五柳巷历史街区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "五柳巷历史街区，位于小营街道斗富二桥西河下9号附近，上城区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五柳巷历史街区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "五柳巷历史街区是杭州上城区的一个历史街区，保留了许多传统建筑。",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "五柳巷历史街区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于小营街道斗富二桥西河下9号附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亚琦商务酒店(西湖清泰街店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "亚琦商务酒店位于杭州市上城区清泰街456-1号，靠近西湖，提供舒适的住宿服务。",
+    "tags": [
+      "商务酒店",
+      "西湖",
+      "上城区"
+    ],
+    "avgCost": 350.0,
+    "duration": "1晚",
+    "openTime": "24小时前台",
+    "rating": 4.2
+  },
+  {
+    "name": "亚琦商务酒店(西湖清泰街店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "亚琦商务酒店(西湖清泰街店)，位于清泰街456-1号，上城区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亚琦商务酒店(西湖清泰街店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "亚琦商务酒店(西湖清泰街店)，位于清泰街456-1号，上城区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亚琦商务酒店(西湖清泰街店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "亚琦商务酒店(西湖清泰街店)，位于清泰街456-1号，上城区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亚琦商务酒店(西湖清泰街店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "亚琦商务酒店位于杭州市上城区清泰街456-1号，靠近西湖，提供舒适的住宿服务。",
+    "tags": [
+      "商务酒店",
+      "西湖",
+      "上城区"
+    ],
+    "avgCost": 350.0,
+    "duration": "1晚",
+    "openTime": "24小时前台",
+    "rating": 4.2
+  },
+  {
+    "name": "亚琦商务酒店(西湖清泰街店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于清泰街456-1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "京杭大运河杭州景区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于环城北路226号武林门码头",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "传家(骆家庄西苑一区店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于文一西路551号骆家庄西苑一区1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "余荫堂",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于龙门镇牌楼龙门古镇内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "你好广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于观澜路1号钱江世纪公园(东北角)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "假日一场(Holiday Haven)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于瓶窑镇塘埠村一堡村200号",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "入江南·金奖杭帮菜·浙江菜(虎跑店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于虎跑路四眼井228号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八合里潮汕鲜牛肉火锅(杭州来福士店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于四季青街道新业路228号杭州来福士中心3层15/16号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六和塔文化公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于之江路16号(近钱塘江)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凡小白客栈(小和山地铁站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于留下街道石马新村154号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千岛湖山人居",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于千岛湖镇青溪新城",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千岛湖风景区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于千岛湖镇",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千岛湖风景区中心湖区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于千岛湖镇梦姑路348号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "升旗广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于亚残运村七区1号楼南面(丰北地铁站B1口步行420米)",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宋官窑博物馆",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于南复路60号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宋御街陈列馆",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于中山中路112号",
+    "tags": [
+      "140200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宋德寿宫遗址博物馆",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于望江路228-264号(江城路地铁站E口步行460米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "可可主角·杭州巧克力博物馆",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于东太平巷与高银街交叉口南80米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "可见时光·望达斯旅舍(杭州西湖湖滨河坊街店)",
@@ -304,10 +853,1586 @@
       "杭州西湖",
       "河坊街"
     ],
-    "avgCost": 120,
+    "avgCost": 120.0,
     "duration": "1晚",
     "openTime": "24小时",
     "rating": 4.5
+  },
+  {
+    "name": "可见时光·望达斯旅舍(杭州西湖湖滨河坊街店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "可见时光·望达斯旅舍(杭州西湖湖滨河坊街店)，位于小井巷21号(吴山广场地铁站D口步行360米)，上城区，类型旅馆招待所 青年旅舍。",
+    "tags": [
+      "旅馆招待所",
+      "青年旅舍"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "可见时光·望达斯旅舍(杭州西湖湖滨河坊街店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "可见时光·望达斯旅舍(杭州西湖湖滨河坊街店)，位于小井巷21号(吴山广场地铁站D口步行360米)，上城区，类型旅馆招待所 青年旅舍。",
+    "tags": [
+      "旅馆招待所",
+      "青年旅舍"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "可见时光·望达斯旅舍(杭州西湖湖滨河坊街店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "可见时光·望达斯旅舍(杭州西湖湖滨河坊街店)，位于小井巷21号(吴山广场地铁站D口步行360米)，上城区，类型旅馆招待所 青年旅舍。",
+    "tags": [
+      "旅馆招待所",
+      "青年旅舍"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "可见时光·望达斯旅舍(杭州西湖湖滨河坊街店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于杭州上城区小井巷21号，靠近吴山广场地铁站D口，步行约360米。这家青年旅舍提供舒适的住宿服务，适合背包客和旅行者入住。",
+    "tags": [
+      "青年旅舍",
+      "住宿",
+      "杭州西湖",
+      "河坊街"
+    ],
+    "avgCost": 120.0,
+    "duration": "1晚",
+    "openTime": "24小时",
+    "rating": 4.5
+  },
+  {
+    "name": "可见时光·望达斯旅舍(杭州西湖湖滨河坊街店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于小井巷21号(吴山广场地铁站D口步行360米)",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "叶老头碳炉草本鸡煲(杭州滨江店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于闻涛路1852号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吃饭皇帝大土家民族菜(杭州湖滨in77店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于延安路185号杭州湖滨银泰E区3层301室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合宜精品客栈(下沙大学城店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于高沙社区46号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴山夜市",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于仁和路(龙翔桥地铁站D口步行490米)",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴山广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于延安南路1号附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴山景区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "吴山景区位于杭州市上城区，是一处融合自然风光与历史文化的风景名胜区，可俯瞰西湖和城市景观。",
+    "tags": [
+      "风景名胜",
+      "自然风光",
+      "历史文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "吴山景区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "吴山景区，位于清波街道吴山广场2号杭州吴山艺术团附近，上城区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴山景区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "吴山景区，位于清波街道吴山广场2号杭州吴山艺术团附近，上城区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴山景区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "吴山景区，位于清波街道吴山广场2号杭州吴山艺术团附近，上城区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴山景区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "吴山景区位于杭州市上城区，是一处融合自然风光与历史文化的风景名胜区，可俯瞰西湖和城市景观。",
+    "tags": [
+      "风景名胜",
+      "自然风光",
+      "历史文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "吴山景区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于清波街道吴山广场2号杭州吴山艺术团附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴记餐厅·杭帮菜·私房菜(西湖湖滨店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于湖滨街道学士路77号(龙翔桥地铁站B出口步行170米)",
+    "tags": [
+      "050106"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "周姐焦烤鸡架·东北烧烤夜宵(市心中路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于城厢街道市心中路世纪名家家居广场114号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "品回味清真西北菜(西湖景区银泰店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于清波街道定安路27-1号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "啪嗒公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于新业路与民心路交叉口东140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉和公寓(临平银泰城店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于南苑街道世纪大道理想银泰城A座711室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四灶儿·地道杭帮菜(湖墅南路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "四灶儿·地道杭帮菜(湖墅南路店)位于杭州市拱墅区湖墅南路228号，是一家以地道杭帮菜为特色的中餐厅。店内环境优雅，菜品口味正宗，深受食客喜爱。",
+    "tags": [
+      "杭帮菜",
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "四灶儿·地道杭帮菜(湖墅南路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "四灶儿·地道杭帮菜(湖墅南路店)，位于湖墅南路228号，拱墅区，类型中餐厅 浙江菜。",
+    "tags": [
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四灶儿·地道杭帮菜(湖墅南路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "四灶儿·地道杭帮菜(湖墅南路店)，位于湖墅南路228号，拱墅区，类型中餐厅 浙江菜。",
+    "tags": [
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四灶儿·地道杭帮菜(湖墅南路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "四灶儿·地道杭帮菜(湖墅南路店)，位于湖墅南路228号，拱墅区，类型中餐厅 浙江菜。",
+    "tags": [
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四灶儿·地道杭帮菜(湖墅南路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "四灶儿·地道杭帮菜(湖墅南路店)位于杭州市拱墅区湖墅南路228号，是一家以地道杭帮菜为特色的中餐厅。店内环境优雅，菜品口味正宗，深受食客喜爱。",
+    "tags": [
+      "杭帮菜",
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "四灶儿·地道杭帮菜(西湖景区·吴山广场店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "四灶儿·地道杭帮菜位于杭州市上城区延安路22号（吴山古玩城对面），是一家主打地道杭帮菜的中餐厅。",
+    "tags": [
+      "杭帮菜",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "四灶儿·地道杭帮菜(西湖景区·吴山广场店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "四灶儿·地道杭帮菜(西湖景区·吴山广场店)，位于延安路22号(吴山古玩城对面)，上城区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四灶儿·地道杭帮菜(西湖景区·吴山广场店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "四灶儿·地道杭帮菜(西湖景区·吴山广场店)，位于延安路22号(吴山古玩城对面)，上城区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四灶儿·地道杭帮菜(西湖景区·吴山广场店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "四灶儿·地道杭帮菜(西湖景区·吴山广场店)，位于延安路22号(吴山古玩城对面)，上城区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四灶儿·地道杭帮菜(西湖景区·吴山广场店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "四灶儿·地道杭帮菜位于杭州市上城区延安路22号（吴山古玩城对面），是一家主打地道杭帮菜的中餐厅。",
+    "tags": [
+      "杭帮菜",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "城东公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于艮山西路401号(近贴沙河)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大佳公寓(新天地店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于石祥路239号太阳城F1层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大岩山风景旅游度假区",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于进化镇大岩山",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奎元馆(钱江新城市民中心店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于解放东路18号杭州钱江新城市民中心H座南区F1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如涵文化地广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于四季青街道解放东路45号高德置地广场A2幢37F",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如院餐厅",
+    "city": "杭州",
+    "category": "food",
+    "description": "如院餐厅 是杭州的美食餐厅，位于西湖区。地址：玉泉路11号。",
+    "tags": [
+      "杭州"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "如院餐厅",
+    "city": "杭州",
+    "category": "food",
+    "description": "如院餐厅，位于玉泉路11号，西湖区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如院餐厅",
+    "city": "杭州",
+    "category": "food",
+    "description": "如院餐厅，位于玉泉路11号，西湖区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如院餐厅",
+    "city": "杭州",
+    "category": "food",
+    "description": "如院餐厅，位于玉泉路11号，西湖区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如院餐厅",
+    "city": "杭州",
+    "category": "food",
+    "description": "如院餐厅 是杭州的美食餐厅，位于西湖区。地址：玉泉路11号。",
+    "tags": [
+      "杭州"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "宁夏滩羊手抓馆(清真)西北烧烤·羊肉炉",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于联兴路208号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宫宴(杭州店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于曙光路122号(浙江世界贸易中心)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宽马记大排档·热鲜牛肉海鲜火锅(杭州首店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于春秋北路635号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富阳鸿鑫宾馆",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于春秋北路181之11-13号(川德火锅对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小时光精品客栈(小和山地铁站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于留下街道留和路石马新村65-1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小牛滔滔贵州黄牛肉火锅(钱江新城店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于钱江新城万潮星汇1幢101-102",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小营公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于马市街401号(万安桥地铁站D口步行410米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "少年宫广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于北山街与环城西路交汇处西150米",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "屠夫汉堡(中山北路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于中山北路243号(中河北路地铁站B2口步行370米)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山城客栈(十门峡景区店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于清凉峰镇石长城村细亩内25号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "左岸万国花园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于长河街道闻涛路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴奴毛肚火锅(杭州湖滨in77店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于延安路258号杭州湖滨银泰in77C1区F3层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市民广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于四季青街道解放东路8号砂之船奥特莱斯市民广场地下一楼人马街18号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "布丁严选酒店(杭州滨江高教园杨家墩地铁站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于浦沿街道明德路727号杨家墩综合大楼1楼大厅",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "布丁严选酒店(杭州黄龙体育中心文三路地铁站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于万塘路266号(文三路地铁站D3口步行190米)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "布丁严选酒店(西湖文化广场地铁站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于河东路85号(近文晖路口朝晖三区、紧靠农业银行)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "席作·福建会馆(杭州高德置地广场店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于解放东路45号高德置地广场A1幢58楼席作·福建会馆",
+    "tags": [
+      "050110"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常安山庄",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于五云东路18号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幻觉博物馆(杭州大厦购物城·中央商城店)",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于体育场路208号武林广场B2层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庆善堂",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于龙门镇龙门古镇内(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庆春里(杭州嘉里中心店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于延安路385号杭州嘉里中心L1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "建德米亭客栈(新安江老广场店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于环城北路与菜市路交叉口西北20米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "径山寺",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于径山镇径山顶",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "很久以前羊肉串(杭州来福士店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于新业路228号来福士6层",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "御湘湖国际健康城",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于闻堰街道湘湖路3333号",
+    "tags": [
+      "120100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德寿宫慈福宫广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于望江路与中河中路交叉口东100米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德悦海鲜·包厢宴会(杭州滨江店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于滨盛路1766号星光大道二期5楼",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怡雅居民宿(西湖店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于古井一路102号(四眼井)",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "抖舍公寓(杭州小和山店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于闲林街道安邦大厦14楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拱宸桥",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于桥弄街1号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新丰小吃(庆春路分店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于庆春路209号天阳明珠商业中心1-2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新周记·巷子里的江南味(平海路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于平海路36号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新城夜市",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于新塘街道新城路1382号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新年禧酒店",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于武林路跟万寿亭街交叉口",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新白鹿(杭州湖滨in77店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "新白鹿是杭州知名的浙江菜餐厅，提供传统杭帮菜，环境优雅，价格适中。",
+    "tags": [
+      "浙江菜",
+      "中餐厅",
+      "冷饮店"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "新白鹿(杭州湖滨in77店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "新白鹿(杭州湖滨in77店)，位于解放路238号湖滨银泰C3区3F，上城区，类型冷饮店 冷饮店。",
+    "tags": [
+      "冷饮店",
+      "冷饮店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新白鹿(杭州湖滨in77店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "新白鹿(杭州湖滨in77店)，位于解放路238号湖滨银泰C3区3F，上城区，类型冷饮店 冷饮店。",
+    "tags": [
+      "冷饮店",
+      "冷饮店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新白鹿(杭州湖滨in77店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "新白鹿(杭州湖滨in77店)，位于解放路238号湖滨银泰C3区3F，上城区，类型冷饮店 冷饮店。",
+    "tags": [
+      "冷饮店",
+      "冷饮店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新白鹿(杭州湖滨in77店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "新白鹿是杭州知名的浙江菜餐厅，提供传统杭帮菜，环境优雅，价格适中。",
+    "tags": [
+      "浙江菜",
+      "中餐厅",
+      "冷饮店"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "新白鹿餐厅(湖滨88店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "新白鹿餐厅是杭州知名的平价杭帮菜餐厅，湖滨88店位于平海路124号，以性价比高、口味地道著称，推荐菜品有蛋黄鸡翅、糖醋里脊等。",
+    "tags": [
+      "浙江菜",
+      "杭州美食",
+      "餐厅"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "新白鹿餐厅(湖滨88店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "新白鹿餐厅(湖滨88店)，位于平海路124号(湖滨88店)，上城区，类型中餐厅 浙江菜。",
+    "tags": [
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新白鹿餐厅(湖滨88店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "新白鹿餐厅(湖滨88店)，位于平海路124号(湖滨88店)，上城区，类型中餐厅 浙江菜。",
+    "tags": [
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新白鹿餐厅(湖滨88店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "新白鹿餐厅(湖滨88店)，位于平海路124号(湖滨88店)，上城区，类型中餐厅 浙江菜。",
+    "tags": [
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新白鹿餐厅(湖滨88店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "新白鹿餐厅是杭州知名的平价杭帮菜餐厅，湖滨88店位于平海路124号，以性价比高、口味地道著称，推荐菜品有蛋黄鸡翅、糖醋里脊等。",
+    "tags": [
+      "浙江菜",
+      "杭州美食",
+      "餐厅"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "方老大",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于江城路629号(地铁站H口步行350米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "早市夜市(金家渡综合市场店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于良渚街道朱家路8号金家渡综合市场",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "时运商务酒店",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于丰庆路与灯彩街交叉口都市水乡水映苑38-5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星光大道一期中心广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于长河街道江南大道228号星光国际广场3幢4楼",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景芳三堡公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于钱环路东",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景芳公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于景东路附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景芳园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于昙花庵路238号景芳四区(新塘地铁站B口步行500米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朝晖新市街夜市",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于新市街与文昌巷交叉口东40米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱富贵火锅(杭州中大银泰店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于石桥街道石祥路138号中大银泰城B1层B131A号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱富贵火锅(杭州拱墅万达店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于祥符街道万达广场4层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱炳仁铜雕艺术博物馆",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于河坊街207-221号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李百蟹·园林湖景蟹黄面(雷峰塔店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于西湖街道南山路15号(湖景餐厅,距西湖10米,雷峰塔10米)",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李百蟹·蟹黄面(西湖店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于西湖街道西湖东北角天书楼独栋湖景",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭儿风餐厅(来福士店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于新业路228号来福士中心04层02号",
+    "tags": [
+      "050106"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州E家公寓(西湖店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于武林街道中山北路60号仙林福座913室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州一栈民宿(5号店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于留下镇小和山新苑1区4号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州下沙宝龙广场",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于25号大街55号",
+    "tags": [
+      "120203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州之江度假区",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于白龙路(小和山43号)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州亚运会博物馆",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于杭州奥体中心体育场西南角B1层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州佳境商务酒店",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于隐秀路256号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州偶忆客房",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于杨家墩商业街5号楼(杨家墩地铁站A口步行380米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州八星宾馆",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于红友桥路211号(临近瓜沥镇文化体育中心体育馆)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州凯泽精品酒店(拱宸桥东地铁站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于上塘路863号2楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州华东客房",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于萧绍路1098号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州博物馆",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于粮道山18号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州博物馆北馆",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于吴山景区(吴山广场地铁站D口步行190米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州博物馆南馆",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于粮道山18号杭州博物馆",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州友联商务宾馆",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于九堡家苑二区3排6号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州名仁商务酒店",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于缤纷西苑",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州听雨阁影院酒店(九堡客运中心店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于九堡家苑二区四排8-9号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州基督教会崇一堂",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于新塘路26号(近庆春广场)",
+    "tags": [
+      "110206"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州奥体中心公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于滨盛路和扬帆路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州她他1314青年客栈(火车东站西广场店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于新风路288号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "杭州好运宾馆(萧山火车南站店)",
@@ -318,25 +2443,222 @@
       "住宿",
       "旅馆"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "全天",
     "openTime": "24小时",
-    "rating": 0
+    "rating": 0.0
   },
   {
-    "name": "亚琦商务酒店(西湖清泰街店)",
+    "name": "杭州好运宾馆(萧山火车南站店)",
     "city": "杭州",
     "category": "hotel",
-    "description": "亚琦商务酒店位于杭州市上城区清泰街456-1号，靠近西湖，提供舒适的住宿服务。",
+    "description": "杭州好运宾馆(萧山火车南站店)，位于萧绍路806号，萧山区，类型旅馆招待所 旅馆招待所。",
     "tags": [
-      "商务酒店",
-      "西湖",
-      "上城区"
+      "旅馆招待所",
+      "旅馆招待所"
     ],
-    "avgCost": 350,
-    "duration": "1晚",
-    "openTime": "24小时前台",
-    "rating": 4.2
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州好运宾馆(萧山火车南站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "杭州好运宾馆(萧山火车南站店)，位于萧绍路806号，萧山区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州好运宾馆(萧山火车南站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "杭州好运宾馆(萧山火车南站店)，位于萧绍路806号，萧山区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州好运宾馆(萧山火车南站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "杭州好运宾馆位于萧山区萧绍路806号，毗邻萧山火车南站，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "旅馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 0.0
+  },
+  {
+    "name": "杭州好运宾馆(萧山火车南站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于萧绍路806号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州宏发民宿(高教园店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于七格小区5幢479号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州富春山居度假村大堂",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于环赤路与环民线交叉口东440米",
+    "tags": [
+      "100102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州富豪宾馆",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于乔司街道乔莫东路39号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州尼可城市酒店",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于中山中路288号(与西湖900米河访街800米定安路地铁口380米)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州市特色文化广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于西兴街道江南大道101号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州广汇酒店(大悦城和睦地铁站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于和东路8号三楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州易捷商务酒店(九堡客运中心四季青服装大市场店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于九堡家苑一区5排6-9号(普格路)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州景宽酒店",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于振华路247号(女儿桥旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州曼禾客栈(西湖青芝坞店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于青芝坞74号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州未见杉民宿(西湖青芝坞店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于青芝坞69号-2",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州机场大酒店(永盛路地铁站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于国际机场东靖江商贸街133号(农村信用社对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "杭州果派酒店",
@@ -347,10 +2669,959 @@
       "经济型",
       "连锁酒店"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
+  },
+  {
+    "name": "杭州果派酒店",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "杭州果派酒店，位于灯彩路水映苑39-8号，拱墅区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州果派酒店",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "杭州果派酒店，位于灯彩路水映苑39-8号，拱墅区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州果派酒店",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "杭州果派酒店，位于灯彩路水映苑39-8号，拱墅区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州果派酒店",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于拱墅区灯彩路水映苑的经济型连锁酒店",
+    "tags": [
+      "经济型",
+      "连锁酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "杭州果派酒店",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于灯彩路水映苑39-8号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州武林夜市",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于武林街道武林路143号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州江南明珠酒店",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于玉古路141号(距浙大玉泉校区10米,近黄龙体育中心)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州洪园·栖溪隐秀度假山庄",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于五常街道问溪路86号-11室(西溪湿地洪园景区检票口旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州海诗阁客栈",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于钱江新城钱江路628号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州湘湖瀚峰山庄",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于湘湖路80-8号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州玖盛影院酒店(九堡客运中心店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于九堡家苑二区3排12号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州生命奥秘博物馆",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于武林广场中央商城地下一层(地铁D口楼上)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州甲乙丙丁时尚酒店(西湖青芝坞店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于青芝坞16号近玉古路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州百事通公寓(城站地铁站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于城头巷83号6-10幢(城站地铁站出入口步行450米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州皋澜滨野营度假村",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于丁兰街道皋亭山景区千桃园T2",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州祥云山庄",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于龙岗镇大峡谷村22号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州福来客栈",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于西溪路东岳街32号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州窝里民宿(西湖风景区店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于凤凰山脚路161-2号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州笕桥特色夜市(机场路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于机场路258号笕桥农副产品综合市场",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州糖包公寓(钱江世纪城地铁站店4号店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于鸿宁路2327号新世界·丽晶国际1幢3003室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州紫馨港客房",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于古墩路温州村45幢3号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州荣耀客栈(西溪湿地东岳地铁站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于西溪路大龙驹坞16号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于西湖街道龙井路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区-万松书院",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于万松岭路81号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区-三潭印月",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于龙井路1号杭州西湖风景名胜区内(东北角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区-乌龟潭",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于龙井路1号杭州西湖风景名胜区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区-太子湾公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于南星街道南山路1-1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区-岳王庙",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于北山街80号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区-岳飞墓",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于北山街",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区-敕建净慈禅寺",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于南山路56号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区-断桥残雪",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "断桥残雪是西湖十景之一，位于杭州西湖白堤的东端。桥身横跨在湖面上，冬季雪后桥面若隐若现，别具意境。",
+    "tags": [
+      "西湖十景",
+      "断桥",
+      "残雪",
+      "名胜古迹"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.7
+  },
+  {
+    "name": "杭州西湖风景名胜区-断桥残雪",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "杭州西湖风景名胜区-断桥残雪，位于龙井路1号杭州西湖风景名胜区内(东北角)，西湖区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区-断桥残雪",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "杭州西湖风景名胜区-断桥残雪，位于龙井路1号杭州西湖风景名胜区内(东北角)，西湖区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区-断桥残雪",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "杭州西湖风景名胜区-断桥残雪，位于龙井路1号杭州西湖风景名胜区内(东北角)，西湖区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区-断桥残雪",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "断桥残雪是西湖十景之一，位于杭州西湖白堤的东端。桥身横跨在湖面上，冬季雪后桥面若隐若现，别具意境。",
+    "tags": [
+      "西湖十景",
+      "断桥",
+      "残雪",
+      "名胜古迹"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.7
+  },
+  {
+    "name": "杭州西湖风景名胜区-断桥残雪",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于龙井路1号杭州西湖风景名胜区内(东北角)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区-曲院风荷",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于杭州西湖风景名胜区杨公堤38号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区-柳浪闻莺",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于清波街道南山路87号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区-湖滨公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于龙井路1号杭州西湖风景名胜区内(东北角)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区-湖边小广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于南山路147号西湖天地内滨湖一带",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区-郭庄",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于杨公堤28号(卧龙桥旁)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区-钱王祠",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于南山路11号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州西湖风景名胜区北高峰",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于法云弄1号灵隐寺后",
+    "tags": [
+      "190203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州酒家(钱江新城市民中心店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于解放东路18号钱江新城市民中心H座南区F1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州金帝商务酒店(萧然东路店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于城厢街道萧然东路329号1-7",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州银盛酒店",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于宁安路10号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州雏菊青年旅舍(四眼井店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于虎跑路四眼井65号",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州领寓酒店公寓",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于复兴路88号供销兴合大厦东侧3楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭州龙门古镇农家客栈",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于中樟线328号(S307省道边龙门古镇停车场对面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭师大夜市",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于余杭塘路1600号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杭越小鲜(杭州来福士中心店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于新业路228号来福士中心B1层15/16号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柠莱酒店(杭州店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于文渊路295号文盛公寓",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(文二路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于文二路华星发展大厦B座324号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(萧山宝龙店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于经济技术开发区宝龙城市中心2幢101、102、103室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳来原味螺蛳粉(枫香路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于枫香路66号园区内",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂花山庄(满觉陇路)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于满觉陇路73号(近满陇桂雨儿童公园)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桐庐银杏树下客栈",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桐湾大院·桐庐菜(明星路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于建设三路杨时路口裕隆大厦2楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桥头烧烤夜市大排档",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于新华学校马路对面向东15米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梦娜斯庄园",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于河上镇凤凰坞588号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "極上萬膳·日料放题(来福士中心店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于新业路228号来福士广场中心03层07号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "横河公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于环城东路22-13号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "武林广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于天水街道天水街道体育场路208号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民谣集烧烤酒馆(未来里店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于长浜路666号时代星火城2幢2层F2-01室",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永乐夜市",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于余昌路54号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江南驿",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于西溪路550号西溪新座7幢B座二层江南驿",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈厨臭鳜鱼·山野徽州土菜(高德置地店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于高德置地广场三楼(市民中心地铁站出入口旁)",
+    "tags": [
+      "050109"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉市鲜活牛肉店(钱江新城店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于民心路与新业路交叉路口往东北约150米中国人寿大厦2号楼2层206室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "法华寺",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于西马路57号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泥湾头度假部落",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于径山镇求是村(小古城区块)钱家滩",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泮芳春煎饺(龙翔桥店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于延安路298号龙翔大厦F1层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泮芳春煎饺·米其林餐厅(中山南路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于中山南路479号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "泰至宾馆(杭州桂花西路地铁站店)",
@@ -362,9 +3633,2264 @@
       "住宿",
       "富阳区"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
+  },
+  {
+    "name": "泰至宾馆(杭州桂花西路地铁站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "泰至宾馆(杭州桂花西路地铁站店)，位于富春街道春秋北路39-1号，富阳区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泰至宾馆(杭州桂花西路地铁站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "泰至宾馆(杭州桂花西路地铁站店)，位于富春街道春秋北路39-1号，富阳区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泰至宾馆(杭州桂花西路地铁站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "泰至宾馆(杭州桂花西路地铁站店)，位于富春街道春秋北路39-1号，富阳区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泰至宾馆(杭州桂花西路地铁站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于杭州富阳区富春街道春秋北路39-1号的宾馆，靠近桂花西路地铁站。",
+    "tags": [
+      "宾馆",
+      "住宿",
+      "富阳区"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "济公殿",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于灵隐路法云弄1号灵隐景区东北角",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浙江省博物馆(孤山馆区)",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于孤山路25号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浙江自然博物院",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于西湖文化广场6号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浙西大峡谷畔山小居",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于浙西大峡谷售票处正对面",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浙金广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于潮鸣街道凤起路78号浙金广场3楼300室",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浩海火燒雲傣家菜(杭州湖滨in77店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于湖滨街道湖滨路8号银泰in77E区3楼301室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(杭州三花国际店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于明月桥路三花国际大厦2层09号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(杭州天虹购物中心店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于新塘路108号天虹购物中心A座5楼506号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(杭州湖滨in77D区店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于延安路239号in77D区五层01商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(杭州萧山归谷中心店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于宁围街道归谷大厦4F-04号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海鲨岛海鲜豆捞餐厅",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于港龙悠乐城益汇路与明月桥路交叉口东北角",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深巷幽居",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于龙门镇龙门古镇内(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清河坊历史文化特色街区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "清河坊历史文化特色街区位于杭州市上城区河坊街180号，是杭州著名的历史文化街区。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "清河坊历史文化特色街区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "清河坊历史文化特色街区，位于河坊街180号，上城区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清河坊历史文化特色街区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "清河坊历史文化特色街区，位于河坊街180号，上城区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清河坊历史文化特色街区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "清河坊历史文化特色街区，位于河坊街180号，上城区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清河坊历史文化特色街区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "清河坊历史文化特色街区位于杭州市上城区河坊街180号，是杭州著名的历史文化街区。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "清河坊历史文化特色街区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于河坊街180号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清河坊步行街",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "清河坊步行街位于杭州市上城区河坊街，是杭州著名的历史文化街区，集购物、美食、旅游于一体。",
+    "tags": [
+      "步行街",
+      "购物",
+      "美食",
+      "历史街区"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-4小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "清河坊步行街",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "清河坊步行街，位于河坊街，上城区，类型特色商业街 步行街。",
+    "tags": [
+      "特色商业街",
+      "步行街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清河坊步行街",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "清河坊步行街，位于河坊街，上城区，类型特色商业街 步行街。",
+    "tags": [
+      "特色商业街",
+      "步行街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清河坊步行街",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "清河坊步行街，位于河坊街，上城区，类型特色商业街 步行街。",
+    "tags": [
+      "特色商业街",
+      "步行街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清河坊步行街",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "清河坊步行街位于杭州市上城区河坊街，是杭州著名的历史文化街区，集购物、美食、旅游于一体。",
+    "tags": [
+      "步行街",
+      "购物",
+      "美食",
+      "历史街区"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-4小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "清河坊步行街",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于河坊街",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖滨步行街",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "湖滨步行街位于杭州市上城区，紧邻西湖，是集购物、休闲、娱乐于一体的特色商业街。这里汇聚了众多品牌店铺和美食，是游客和市民的热门打卡地。",
+    "tags": [
+      "购物",
+      "商业街",
+      "步行街",
+      "杭州"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "湖滨步行街",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "湖滨步行街，位于凤起路539-4号(龙翔桥地铁站C口步行120米)，上城区，类型特色商业街 步行街。",
+    "tags": [
+      "特色商业街",
+      "步行街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖滨步行街",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "湖滨步行街，位于凤起路539-4号(龙翔桥地铁站C口步行120米)，上城区，类型特色商业街 步行街。",
+    "tags": [
+      "特色商业街",
+      "步行街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖滨步行街",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "湖滨步行街，位于凤起路539-4号(龙翔桥地铁站C口步行120米)，上城区，类型特色商业街 步行街。",
+    "tags": [
+      "特色商业街",
+      "步行街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖滨步行街",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "湖滨步行街位于杭州市上城区，紧邻西湖，是集购物、休闲、娱乐于一体的特色商业街。这里汇聚了众多品牌店铺和美食，是游客和市民的热门打卡地。",
+    "tags": [
+      "购物",
+      "商业街",
+      "步行街",
+      "杭州"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "湖滨步行街",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于凤起路539-4号(龙翔桥地铁站C口步行120米)",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖滨步行街",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于凤起路539-4号(龙翔桥地铁站C口步行120米)",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘湖旅游度假区-青山张船埠",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于湘湖路132号湘湖旅游度假区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘香蒸菜馆(湘湖路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "湘香蒸菜馆位于萧山区湘湖路，主打湘菜蒸菜。",
+    "tags": [
+      "湘菜",
+      "蒸菜",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "湘香蒸菜馆(湘湖路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "湘香蒸菜馆(湘湖路店)，位于湘湖路84-8号，萧山区，类型中餐厅 湖南菜(湘菜)。",
+    "tags": [
+      "中餐厅",
+      "湖南菜(湘菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘香蒸菜馆(湘湖路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "湘香蒸菜馆(湘湖路店)，位于湘湖路84-8号，萧山区，类型中餐厅 湖南菜(湘菜)。",
+    "tags": [
+      "中餐厅",
+      "湖南菜(湘菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘香蒸菜馆(湘湖路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "湘香蒸菜馆(湘湖路店)，位于湘湖路84-8号，萧山区，类型中餐厅 湖南菜(湘菜)。",
+    "tags": [
+      "中餐厅",
+      "湖南菜(湘菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘香蒸菜馆(湘湖路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "湘香蒸菜馆位于萧山区湘湖路，主打湘菜蒸菜。",
+    "tags": [
+      "湘菜",
+      "蒸菜",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "溪畔人家",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于龙门镇牌楼龙门古镇内(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灰色博物馆(杭州解百A座店)",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于解百A座5层(定安路地铁站B口步行440米)",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灵隐寺",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于法云弄1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛New寿喜烧(大悦城店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于隐秀路1号杭州大悦城购物中心7层L717号(DQ冰淇淋旁观光电梯)",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛New寿喜烧(来福士店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于新业路228号杭州来福士中心六楼",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王胜利长沙家菜馆(杭州首店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于新业路228号杭州来福士中心7F层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "留恋旅馆(下沙电子科技大学店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于高沙小区66号留恋旅馆",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百家鸡味馆(清泰店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于清泰街571号金泰商务大厦裙楼(中河中路与西湖大道交叉口)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "知味观(延安路二店卤味中点)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于延安路249号(龙翔桥公交站旁)",
+    "tags": [
+      "050800"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "章家坝运河公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于运河东路501号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "粤榕轩·君宴",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于来福士中心1幢5801室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绝美嘉海鲜馄饨(杭州总店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于万寿亭街31号(近武林路)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿茶餐厅(灵隐路店·品牌旗舰店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "绿茶餐厅是知名中式餐厅，以江南菜为主，环境优雅，位于灵隐路1号，是品牌旗舰店。",
+    "tags": [
+      "中餐",
+      "杭州菜",
+      "西湖区"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "绿茶餐厅(灵隐路店·品牌旗舰店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "绿茶餐厅(灵隐路店·品牌旗舰店)，位于灵隐路1号，西湖区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿茶餐厅(灵隐路店·品牌旗舰店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "绿茶餐厅(灵隐路店·品牌旗舰店)，位于灵隐路1号，西湖区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿茶餐厅(灵隐路店·品牌旗舰店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "绿茶餐厅(灵隐路店·品牌旗舰店)，位于灵隐路1号，西湖区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿茶餐厅(灵隐路店·品牌旗舰店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "绿茶餐厅是知名中式餐厅，以江南菜为主，环境优雅，位于灵隐路1号，是品牌旗舰店。",
+    "tags": [
+      "中餐",
+      "杭州菜",
+      "西湖区"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "罗氏京東盛·老北京铜锅涮肉·烤串(西湖总店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于星远里二弄8号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "罗莱夏朵·杭州紫萱度假村",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于八盘岭路1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "罗马广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于杭州西湖风景名胜区内(东侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老秦凉都黄牛肉馆(市心北路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于宁围街道市心北路236.238号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老秦凉都黄牛肉馆(滨江总店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于伟业路298号(伟业路地铁站A口步行340米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老秦凉都黄牛肉馆(萧山店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于明星路125号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(工联平海路店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于延安路292号一层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(市民中心1号店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于四季青街道解放东路18号市民中心H座南区一层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(杭州来福士店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于江干区来福士广场BF",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(杭州灵隐店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于灵隐路38号",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(杭州砂之船奥莱店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于四季青街道解放东路8号砂之船奥特莱斯人马街030号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡庆余堂中药博物馆",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于大井巷95号(吴山广场地铁站D口步行450米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡雪岩旧居",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "胡雪岩旧居位于杭州市上城区元宝街18号，是清代红顶商人胡雪岩的故居。这座宅邸融合了中西建筑风格，内部装饰精美，展示了清末江南园林与豪宅的典范。游客可以欣赏到精湛的木雕、石雕和砖雕艺术，了解胡雪岩传奇的一生。",
+    "tags": [
+      "纪念馆",
+      "风景名胜",
+      "清代建筑"
+    ],
+    "avgCost": 30.0,
+    "duration": "1-2小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "胡雪岩旧居",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "胡雪岩旧居，位于元宝街18号，上城区，类型风景名胜 纪念馆。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡雪岩旧居",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "胡雪岩旧居，位于元宝街18号，上城区，类型风景名胜 纪念馆。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡雪岩旧居",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "胡雪岩旧居，位于元宝街18号，上城区，类型风景名胜 纪念馆。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡雪岩旧居",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "胡雪岩旧居位于杭州市上城区元宝街18号，是清代红顶商人胡雪岩的故居。这座宅邸融合了中西建筑风格，内部装饰精美，展示了清末江南园林与豪宅的典范。游客可以欣赏到精湛的木雕、石雕和砖雕艺术，了解胡雪岩传奇的一生。",
+    "tags": [
+      "纪念馆",
+      "风景名胜",
+      "清代建筑"
+    ],
+    "avgCost": 30.0,
+    "duration": "1-2小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "胡雪岩旧居",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于元宝街18号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舒家酒店(杭州站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于刀茅巷83号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "良渚古城数智体验馆",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于良渚古城遗址公园",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "良渚古城遗址公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于瓶窑镇凤都路与104国道辅路交叉口西北200米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "良渚古城遗址公园-河道与作坊",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于良渚古城遗址公园内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "良渚古城遗址公园-莫角山(打卡点)",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于良渚古城遗址公园(东北角)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "良渚古城遗址公园内城区域-观景台",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于良渚古城遗址公园内(东北角)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花田赞酒店(西湖浙一医院店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于中河中路168号浙江国贸大厦F7层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花筑·杭州福居度假庄园(径山花海店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于径山镇漕雅线求是村5组61号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芳明小吃",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于光复路169号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茶人村·西湖醋鱼(西湖龙井店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于龙井路99号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(临安店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于锦城街道城中街368号临安共富广场二层F2-0102商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "落日夜市",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于浙农·东巢艺术公园(东南角)",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虎跑公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于虎跑路39号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜂窝酒店(西湖南星桥地铁站店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于秋涛路18号中针商务大厦3层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西子火锅(来福士店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于西子火锅·钱塘江江景餐厅(来福士店)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西湖博物馆",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于南山路89号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西湖博览会博物馆",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于北山路41-42号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西湖天地",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于南山路147号9C",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西湖文化广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于环城北路47号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西湖风景区-苏堤",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于龙井路1号杭州西湖风景名胜区内(东侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西溪国家湿地公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于天目山路518号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观音塘公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于清江路268号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "觅隐·千寻",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于解放东路高德置地广场A1幢19层",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "記憶旅行酒店(西湖店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于中山中路306号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "豪苑商务宾馆",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于育才路269号(萧山客运总站西大门对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贴沙河公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于环城东路与翰林街交叉口东南140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵府私厨·老杭帮菜(河坊街店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "赵府私厨·老杭帮菜位于杭州高银街111号，是一家老杭帮菜餐厅。",
+    "tags": [
+      "杭帮菜",
+      "中餐"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "赵府私厨·老杭帮菜(河坊街店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "赵府私厨·老杭帮菜(河坊街店)，位于高银街111号，上城区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵府私厨·老杭帮菜(河坊街店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "赵府私厨·老杭帮菜(河坊街店)，位于高银街111号，上城区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵府私厨·老杭帮菜(河坊街店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "赵府私厨·老杭帮菜(河坊街店)，位于高银街111号，上城区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵府私厨·老杭帮菜(河坊街店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "赵府私厨·老杭帮菜位于杭州高银街111号，是一家老杭帮菜餐厅。",
+    "tags": [
+      "杭帮菜",
+      "中餐"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "赵府私厨·老杭帮菜(西湖老店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "赵府私厨·老杭帮菜(西湖老店)位于杭州上城区学士路92号，是一家提供正宗老杭帮菜的中餐厅。菜品地道，深受当地人和游客喜爱。",
+    "tags": [
+      "老杭帮菜",
+      "浙江菜",
+      "中餐厅"
+    ],
+    "avgCost": 120.0,
+    "duration": "2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "赵府私厨·老杭帮菜(西湖老店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "赵府私厨·老杭帮菜(西湖老店)，位于学士路92号，上城区，类型中餐厅 浙江菜。",
+    "tags": [
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵府私厨·老杭帮菜(西湖老店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "赵府私厨·老杭帮菜(西湖老店)，位于学士路92号，上城区，类型中餐厅 浙江菜。",
+    "tags": [
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵府私厨·老杭帮菜(西湖老店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "赵府私厨·老杭帮菜(西湖老店)，位于学士路92号，上城区，类型中餐厅 浙江菜。",
+    "tags": [
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵府私厨·老杭帮菜(西湖老店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "赵府私厨·老杭帮菜(西湖老店)位于杭州上城区学士路92号，是一家提供正宗老杭帮菜的中餐厅。菜品地道，深受当地人和游客喜爱。",
+    "tags": [
+      "老杭帮菜",
+      "浙江菜",
+      "中餐厅"
+    ],
+    "avgCost": 120.0,
+    "duration": "2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "超火锅(杭州萧山总店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于奔竞大道470号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "超火锅(滨江店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于闻涛路1861号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达盟山庄",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于保俶路39号",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎春·东北老菜儿(西湖店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于文三路408号中电·万谷",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "运河·塘栖古镇",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于塘栖镇广济路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邻趣客栈(杭州火车西站杭师大店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于仓兴街57-1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "都锦生织锦博物馆",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于凤起路519号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "采荷公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于五安路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "采荷文化园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于五安路9号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金牌•钓台野鱼馆(高德置地广场店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于解放东路45号高德置地广场4楼408",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫耀假日酒店",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于齐飞路279号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫隆商务酒店(萧绍路)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于萧绍路1007号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钱江世纪公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "钱江世纪公园是位于杭州萧山区的一个城市公园，集休闲、观光、娱乐于一体，拥有优美的江景和丰富的植被。",
+    "tags": [
+      "公园",
+      "风景名胜",
+      "萧山"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "钱江世纪公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "钱江世纪公园，位于秋韵路a7-2号，萧山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钱江世纪公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "钱江世纪公园，位于秋韵路a7-2号，萧山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钱江世纪公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "钱江世纪公园，位于秋韵路a7-2号，萧山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钱江世纪公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "钱江世纪公园是位于杭州萧山区的一个城市公园，集休闲、观光、娱乐于一体，拥有优美的江景和丰富的植被。",
+    "tags": [
+      "公园",
+      "风景名胜",
+      "萧山"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "钱江世纪公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于秋韵路a7-2号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钱江世纪公园彩虹跑道",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于盈丰街道钱江世纪公园",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钱江世纪城沿江公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于萧山区",
+    "tags": [
+      "190301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钱江世纪城沿江公园绿道观景平台",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于秋韵路a7-2号钱江世纪公园(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钱江新城灯光秀",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于新业路39号(市民中心地铁站M1口或N2口)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钱江龙-射潮广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于闻涛路与光辉路交叉口西100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钱潮夜市(地铁东城购物中心店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于九沙大道与杭乔路交叉口西180米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闻炉",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于新业路402号T1天域40层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳明谷度假村",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于常陇路",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿毛饭店·传统宁波菜(杭州来福士中心店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于新业路228号杭州来福士中心6楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雕塑广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于钱潮路与三新路交叉口西北220米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷峰塔景区",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于南山路15号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷峰塔景区雷峰塔",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于南山路15号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青年公园",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于环城东路(近金衙庄公园)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香积寺",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于香积寺巷1号(近信义坊)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马岭古道",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于210省道与百步街1交叉口西南380米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马记永·兰州牛肉面(杭州来福士中心店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于富春路与丹桂街交叉口西160米杭州来福士广场B1层",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(杭州城北招商花园城店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于崇杭街777号杭州城北招商花园城F1层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(杭州西溪印象城店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于西溪印象城B座(洪园地铁站B口步行370米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(西溪印象城店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于西溪印象城B座L1层海底捞对面",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸟鸟好吃店·成都土砂锅串串(杭州总店)",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于钱江世纪城世纪公园A4-4号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹿柴小院",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于里鸡笼山58号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄公望休闲度假村",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于东洲街道",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼎御商务酒店(西湖河坊街店)",
+    "city": "杭州",
+    "category": "hotel",
+    "description": "位于中山中路123号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓楼",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "杭州鼓楼位于上城区中山南路，是历史文化景点。",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "鼓楼",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "鼓楼，位于中山南路501号(近十五奎巷)，上城区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓楼",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "鼓楼，位于中山南路501号(近十五奎巷)，上城区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓楼",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "鼓楼，位于中山南路501号(近十五奎巷)，上城区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓楼",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "杭州鼓楼位于上城区中山南路，是历史文化景点。",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "鼓楼",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于中山南路501号(近十五奎巷)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓楼小广场",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于中山中路6号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "齐心老弄堂面馆",
+    "city": "杭州",
+    "category": "food",
+    "description": "位于长生路29号(龙翔桥地铁站B口步行230米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙门古镇",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于307省道",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙门古镇-万熙亭",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于307省道龙门古镇内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙门古镇-天子堂",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于龙门镇牌楼龙门古镇内(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙门古镇-孙氏宗祠",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于古镇中路166号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙门古镇-官房厅",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于龙门镇牌楼龙门古镇内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙门古镇-石桥头",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于龙门镇牌楼龙门古镇内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙门古镇-龙门石碑",
+    "city": "杭州",
+    "category": "attraction",
+    "description": "位于307省道龙门古镇(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

@@ -1,0 +1,2147 @@
+[
+  {
+    "name": "EA现代西班牙餐厅(鸿泰城市广场店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于鸿泰城市广场3号楼115",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "STARHOUSE星宿韩雅客房",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于高新开发区修正路1017号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万寿寺",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于长春北湖湿地公园",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三佳湖公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于飞跃街道吉林大学前卫校区南区(中心校区)西门对面",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三角广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于谊民路与华弘街交叉口东120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "不怂烤串•牛蛙•江湖菜",
+    "city": "长春",
+    "category": "food",
+    "description": "位于蔚山路瑞邦家居广场",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东大桥小国抻面烧烤(总店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于长通路48号东大桥(地铁站A口步行450米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东方饺子王(工农大路总店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于工农大路3858号(工农大路与人民大街交汇处工农广场)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东道煮东北酸菜火锅(临河街店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于临河街以西丙九路以南富奥B区20号楼105号房",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东道煮火锅(东盛大街店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于东盛大街与安乐路交汇亚泰杏花苑高1-高4号楼109号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东道煮火锅(创业大街店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于汽车开发区创业大街中润家园小区110-111号房",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东道煮牛肉火锅(卫星广场店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于卫星广场东南角丰茂烤串东侧",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "主入口休闲广场区",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于人民大街10111号友谊公园(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亲亲公寓(长春北站地铁口店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于万达广场3号公寓21层21001",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "今日牛市潮汕牛肉火锅(自由大路总店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于自由大路509号吉林省吉剧院一楼东侧商业门面",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伪满皇宫博物院",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于光复北路5号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳美旅馆",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于硅谷大街西越达路富强C区1-101号门市",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "俪璟园港式餐厅(万豪·汇景新城店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于人民大街9699号俪璟园港式餐厅",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元盛居(云琅店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于临河街与天合路交汇青怡坊云琅A座",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元盛居(亚泰大街店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于亚泰大街与东三马路交叉口西北角",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元盛居(欧亚新生活店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于延安大街99号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元盛居(生态大街店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于生态大街717号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光明公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于南四环路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "公主岭大和商务宾馆",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于东四道街弘扬裕府东南侧190米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "公主岭天缘宾馆",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于西头道街温州城一区正东门(乔丹对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兰朵儿公寓(长春西站店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于景阳大路与腾跃街交汇处中海·景阳公馆A区5栋4楼402室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兰桡湖公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于幸福乡南部新城至前进大街、西至丙六十四路、南至金宇大路、北至丙四十七路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "农安辽塔",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于农安镇宝塔街与黄龙路交汇处",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冷大厨灌汤包",
+    "city": "长春",
+    "category": "food",
+    "description": "位于南湖大路与南湖新村中街交汇南行50米南湖中街1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "净月潭国家森林公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于净月大街5840号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前进广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于长春市高新技术产业开发区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北海湿地公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于堤顶东路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华信旅店(经开区店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于经开一区东5门北470米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南庭音乐餐厅(瑞邦家居店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于瑞邦家居11号门东北50米",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于工农大路2715号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖公园-金沙滩",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于工农大路与昂昂溪路交汇处西100米",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南溪湿地公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于富裕街道畅溪路与荷香路交叉口",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南溪湿地公园-光影岛",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于南溪湿地公园(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南溪湿地公园-沙滩区",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于南溪湿地公园(东北角)",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "博文湖公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于华新街与政兴路交叉口西180米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卫星广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于卫星路与人民大街交汇处",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "叁煨蹄花自贡菜馆(卫星广场店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于幸福二路196号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "友源宾馆(东环城路店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于东环城路7778号(东环城路地铁站C口步行460米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "友谊公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于政府南侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉林大学(前卫南区)鼎新南广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于双德街道吉林大学(前卫校区南区)鼎新楼南",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉林大学前卫南区五月花广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于高新技术产业开发区前进大街2699号吉林大学(前卫南区)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉林大学考古与艺术博物馆分馆",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于华弘街111号2-3层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉祥日租公寓(长春红旗街万达广场店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于红旗街道红旗街万达广场1号公寓1506室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "周记烤肉",
+    "city": "长春",
+    "category": "food",
+    "description": "位于蔚山路与华新街交汇上鲸水产院内",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和平广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于人民大街9518号长春世界雕塑公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和润记忆酒店-雅歌·精酿爱乐餐厅",
+    "city": "长春",
+    "category": "food",
+    "description": "位于谊民路与翠语路交叉口西北160米",
+    "tags": [
+      "080304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "咱屯子铁锅炖(上鲸水产店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于南环城路2163号上鲸水产2号门旁",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜家德虾仁水饺(南三环欧亚店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于亚泰大街与南环城路交汇欧亚三环购物中心一层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城投·南溪里",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于听溪路与溪畔街交汇城投南溪里文旅小镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好温馨公寓(长春富苑盛世城店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于工农大路与延安大街交汇处富苑盛世城C区1单元1102室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝地宾馆(大兴路)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于大兴路与万宝街交汇处(文化广场地铁站A口步行320米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "密斯·棕熊民宿(长春硅谷大街动画学院店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于荷园路18号阳光硅谷一期A座",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富强旅店(长德大街店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于米沙子镇西朝阳大街镇政府东70米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小油饼老菜坊旗舰店",
+    "city": "长春",
+    "category": "food",
+    "description": "位于幸福街1082号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小芙蓉融合菜餐饮店(警官公寓店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于人民大街西街1257号(市政府地铁站A口步行210米)",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山水湾公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于湖畔路与警港路交叉口西北200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "工农广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于人民大街6969号(工农广场地铁站A口旁)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "帮煮野韭菜花涮肉(总店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于金川街与珠海路交汇口",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "帮煮野韭菜花涮肉(第三直营店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于西四道街帮煮野韭菜花涮肉",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广程宾馆(长春净月大街东北师大店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于长春净月开发区博硕路555号仁德小区别墅区",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "彪哥溜达串(南三环店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于南环城路1886号幸福大院",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德惠客运宾馆",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于对站街德惠公路客运站附近",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾光公寓(长春砂之船中东奥莱店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于中东港5栋24楼接待室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾光集Loft民宿(长春阳光硅谷店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于飞跃街道荷园路1048号阳光硅谷A座1606室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于清和街道新民大街与解放大路交汇处",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文泰·祥和居Grassland家庭酒店(红旗街这有山店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于延安大街西二胡同258号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "昌火火现炒牛油老火锅(三环店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于南环城路1886号幸福大院",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春天广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于人民大街9518号长春世界雕塑公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春江晓璟(人民大街店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于人民大街9899号(市政府地铁站B1口步行220米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晴季寿司(欧亚三环购物中心店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于亚泰大街与南环城路交汇处欧亚三环购物中心6层",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曹师傅砂锅麻辣烫(中环十九区店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于亚泰大街与星光路交汇处东50米",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "期遇公寓(长春硅谷大街动画学院店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于学府街栖乐荟购物广场8楼888室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "枫林饺子",
+    "city": "长春",
+    "category": "food",
+    "description": "位于红旗街1879号(长春市外国语学校对面)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(世光路店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于园丁花园2栋1单元107号房",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(重庆路活力城店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于重庆小区8号楼1门",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳桥边驴肉老店(人民大街店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于人民大街以西南环路以北汇景新城14幢1401号(人民大街西街警官公寓1号门对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂林路不夜街小吃",
+    "city": "长春",
+    "category": "food",
+    "description": "位于桂林路677号长春小燕莎商场F1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梨花园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于明珠街道华运街与华昌路交汇",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楼外楼大刀肉传统火锅居(三道街店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于三义胡同",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楼外楼大刀肉传统火锅居(吉大南校店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于长春君怡酒店东门北50米",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楼外楼大刀肉传统火锅居(幸福街店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于隆德华府西北门东北60米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楼外楼大刀肉传统火锅居(日新路店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于汽车开发区东风大街日新路口(近车百)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楼外楼大刀肉传统火锅居(生态大街店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于生态大街与世荣路交汇北行50米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "榆树宏远宾馆(榆树客运总站店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于向阳路7773号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "樱花小吃特色炒菜馆",
+    "city": "长春",
+    "category": "food",
+    "description": "位于磐石路工大南门24栋,樱花小吃",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "樱花岛",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于东南湖大路220号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比尔森自助烤肉火锅(红旗街店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于红旗街1772号",
+    "tags": [
+      "050215"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(长春上海路万达店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于上海路577号万达广场3层3038-3039",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(长春红旗街万达店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于红旗街616号万达广场3层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水文化广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于亚泰大街净水路交汇北行长春水文化生态园内(西侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汇家自助式酒店公寓(吉大医院二部乐群院区店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于安乐路德展长春印1号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "治河广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于伊通河西侧(樱花岛北侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(摩天活力城店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于卫星路1777号摩天活力城5层511号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(红旗街万达店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于红旗街616号红旗街万达广场5层5006-5007号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(高新活力汇店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于华光街588号活力汇五层502号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清水音公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于新明街附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渔航文化公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于南部快速路入口与卫星路交叉口南400米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溢香阁饺子城(临河街店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于临河街4581号(威海路地铁站B口步行160米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烙鲜生(警官公寓店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于人民大街西街1051号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烟雨江南(幸福店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于幸福街1100号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烤回味(蔚山路直营店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于东蔚山路与华新街交叉口",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白瘸子过桥米线总店(永昌路总部)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于永昌路30号(盼盼砂锅对面)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百木园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于明珠街道前进大街4146号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百草园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于丙十七路与翠语路交汇",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "硅谷广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于朝阳区",
+    "tags": [
+      "190700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "神鹿峰旅游度假区",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于山河街道旅游路18888号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "简意智能酒店(净月大学城福祉大路店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于生态东街数字科技孵化基地建设项目A11号楼102号17层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老闫记烤牛肉面片馆(总店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于长春豪园山水湾东门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肆季南河",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于畅溪街与天吉路交叉口西140米",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肆季南河粉色沙滩",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于畅溪街与勤学路交叉口西南360米",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡同同重庆老火锅",
+    "city": "长春",
+    "category": "food",
+    "description": "位于南关区经济技术开发区五区37栋2单元103室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西夏回族烧麦馆(长春韩国商业街店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于牡丹街与隆礼路交汇北30米",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西落舌冒菜冒肚(桂林路店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于桂林路胡同与长庆街交汇西15米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "轻住酒店·星辰优选(德惠胜利街店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于德惠路500号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达达潮汕打冷砂锅粥(前进西街店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于前进西街红旗花园102房",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "远大宠物公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于新明街3333号远大购物中心(长春店)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长影世纪城",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于永顺路路北",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长影旧址博物馆",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于红旗街1118号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春世界雕塑公园-米开朗基罗广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于人民大街9518号长春世界雕塑园内(北侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春世界雕塑园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于人民大街9518号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春世界雕塑园-友谊喷泉广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于人民大街9518号长春世界雕塑公园内",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春世界雕塑园-罗丹广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于人民大街9518号长春世界雕塑公园内",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春云朵日租公寓",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于荷园路阳光硅谷A座1716室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春亿家合时尚宾馆",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于枫叶路和文冠街交汇望月山庄10栋",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春伽雅时尚宾馆",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于北湖街道光机路澳海澜郡A区19栋103号房201室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于皓月大路1411号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春公园-郁金香园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于皓月大路1411号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春农业博览园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于净月大街4775号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春动植物公园-主入口广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于自由大路2121号长春市动植物公园内(南侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春北湖湿地公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于天拓路666号(北湖公园地铁站A口步行270米)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春博物馆",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于华弘街111号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春和家时尚宾馆(吉大一院店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于安达街与南昌胡同交汇(南昌路地铁站出入口步行400米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春宜家时尚客房",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于远达大街与长新街交汇吴中家天下20栋",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春家庭式旅店",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于东惠街道远达大街梓林小区2栋106室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春工业轨迹公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于东岭南街长春工业轨迹公园",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春市动植物公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于自由大路2121号",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春市宽城区华阳宾馆(合隆店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于合顺路与青年路交汇太平洋加油站南",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春市百花园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于南三环蔚山路与芳草街交会处",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春市胜利公园",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于人民大街955号(胜利公园地铁站A口步行50米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春广厦小旅馆",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于富强c区一栋104",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春怡佳loft公寓",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于临河街道会展大街与东南湖大路交汇路西大众未来寓B座1320",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春新民大街",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于新民大街(海航长白山宾馆西)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春水文化生态园-主入口广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于亚泰大街净水路交汇北行长春水文化生态园内(西侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春汤圆艺术酒店(身份广场店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于福祉大路君盈身份广场5号楼11层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春添鑫时尚旅馆",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于长沈路685号(力旺康景商住小区1栋105号)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春美美伊林公寓",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于长新东路伊林公寓4楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春美途Home自助日租公寓",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于南湖中街华润橡树湾橡左橡右G3栋",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春翰林宾馆(长春站北出口店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于铁北二路与凯旋路凯悦世纪广场院内",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春莲花岛影视城",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于永春镇柳家村文化路1777号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春蜗居之家公寓",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于皓月大路5333号锦绣溪城A9D栋701室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春邂逅遇见公寓(长春远大购物中心店)",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于南湖中街与华远街交汇华润橡树湾G3栋601-604室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长春金鼎时尚宾馆",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于西一条街291号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿粤老菜坊(恒大御景北区店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于幸福街与汇福路交汇恒大御景北区12栋",
+    "tags": [
+      "050123"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雅居宾馆",
+    "city": "长春",
+    "category": "hotel",
+    "description": "位于兴隆大路6798号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香里香自助快餐(全安广场店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于解放大路338号(全安广场旁)(南关地铁站C口旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高科技广场",
+    "city": "长春",
+    "category": "attraction",
+    "description": "位于前进大街与火炬路交叉口东北120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(同志街餐厅)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于同志街2639威宝数码科技大厦1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(钻石活力汇餐厅)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于西安大路与光明路交汇(人民广场地铁站A口步行280米)",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(长春季平店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于辽宁路162号国商百货1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼎原力量吊炉烧鸽主题餐厅PLUS店(幸福街店)",
+    "city": "长春",
+    "category": "food",
+    "description": "位于长春高速公路客运站西门南90米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

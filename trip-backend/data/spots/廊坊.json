@@ -1,0 +1,2121 @@
+[
+  {
+    "name": "1982夜市广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于解放道44号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丁香园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于广阳道与西昌路交汇处自然公园西区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万物田园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于永兴北路与广阳道交叉口东北80米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三河梦享宾馆",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于燕郊燕灵路327号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三河豪婷住宿",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于神威北大街启来商店东侧",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三河贝美旅店",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于燕郊金燕大街金燕农贸市场对面",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三河金廷宾馆",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于燕郊镇海油大街华北科技学院北门东200米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三角地·市集文化休闲广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于建国道43号",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下沉广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于西昌路148号江南水郡18号楼",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世纪广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于和平路85号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国红木城",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于津保路",
+    "tags": [
+      "060602"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐八自助烧烤",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于燕郊经济技术开发区海油大街福成福鼎源59b-11",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐行自行车运动乐园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于106国道固安检查站西侧200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九天休闲谷",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于光明西道街道西昌路西环花卉市场西侧",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二宽中国兰州拉面(幸福城店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于华夏幸福城雅园25号楼1-101号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二宽中国兰州牛肉拉面(狮子城店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于狮子城黄金城道步行街S2号楼一层125-126-127号商铺",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云锦广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于和平路261号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五环公园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于蒋谭路165号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "京南华美胜地旅游度假区",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于国营界围农场",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于银河北路98号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园-东广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于银河北路98号人民公园内(东侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园-西广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于银河北路98号人民公园内(西侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "体育公园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于和平路廊坊体育场盛和商务会馆西北",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八亿宾馆",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于正隆嘉园小区西门",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴安湖生态运动公园-兴安湖",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于乐行自行车运动乐园内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "初见·酒店式公寓(大学城店)",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于李四光道旭辉十九城邦98号楼2单元",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北安园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于北凤道与银河北路交叉口东120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "半天妖烤鱼(万向城商场店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于广阳道和裕华路交汇处万向城商场四层B010",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华美旅馆(廊坊新华路店)",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于新华路6号服装一条街南1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华苑园广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于广阳道与九香街交叉口西南60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南来顺非遗清真肉饼(秀水街店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于淑阳镇阎庄村76号",
+    "tags": [
+      "060703"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南门涮肉(廊坊八大街店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于高第小区第1幢1单元1层1-103房",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南门涮肉(廊坊开发区店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于祥云道182号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "友谊园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于大官庄村丰盛路",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双盛烧烤(幸福城店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于永兴北路117号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "叠翠园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于新华路185号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古洼一锅鲜(华夏幸福城朗园店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于永兴北路118号朗园底商",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "只有红楼梦·戏剧幻城",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于和平路268号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉野家(万象城)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于裕华路188号万象城美食街MSJF1-002号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "呷哺呷哺(廊坊万向城店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于广阳道与裕华路交口西南角万向城三层",
+    "tags": [
+      "050311"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "唯家宾馆",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于燕郊开发区燕灵路口与京榆大街交叉口西北角",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "善美国际社区民宿(冯家府店)",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于燕郊镇冯家府村0621号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "回回香小吃",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于祁各庄商业街(亚慷加油站对面)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "固安华夏宾馆",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于新中街民得利超市对面门洞内",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "固安坤丰快捷宾馆",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于新昌街107号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "固安孔雀城大湖公园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于北开发区孔雀城大湖示范区",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "固安星辰民宿",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于英国宫四期悦园20号楼2单元402房间",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "固安爱琴海快捷公寓",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于固安镇东街村007号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国安第一城",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于香河开发区平安大街",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国安第一城大明幻境-永乐大观",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于平安大街6号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城与晚酒店(万达广场店)",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于银河南路188号K2狮子城2期北区N1栋2单元27楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城五公寓(丰泽步行街店)",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于北门街实验中学附近旁",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大厂影视小镇",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于中轴南路3号",
+    "tags": [
+      "120100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大城慕嘉快捷宾馆",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于大城汽车站南门西80米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大城津保旅馆",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于平舒镇老汽车站",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大方旅馆(新开街店)",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于新开街65-4号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天域园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于双港镇微山路延长线富力桃园",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好望村•河北烙饼熬鱼村",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于上善颐圆·沁芳苑南区南门",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "姑奶家厨坊(万向城店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于裕华路万向城商场4楼华谊兄弟影院对面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "姜胖胖首尔自助烤肉·街头小吃大排档(万向城店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于裕华路45号万向城三楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于荣福道26号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝池旅馆",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于津保西路88号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宽板凳老灶火锅(燕郊店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于迎夏路东方夏威夷底商5-7宽板凳重庆火锅",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寓稻鱼小锅饭(幸福城店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于幸福城·朗园北门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚居公寓",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于太平道银顺交通加油站东北60米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴奴毛肚火锅(廊坊广阳万达广场店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于新华路50号万达广场室内步行街3F层3038A,3038B,3039,3040A号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸福禾牛·西餐厨房",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于万向城商场3楼",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廊坊兴业公寓",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于开发区桐柏村龙升超市隔壁",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廊坊博物馆",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于和平路238-1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廊坊天意旅馆",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于新华路华阳小区2号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廊坊学苑宾馆(永兴路店)",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于永兴路廊坊市公安局安次区分局向北70米路东",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廊坊市文化艺术公园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于和平路廊坊体育场西侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廊坊市自然公园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于西昌路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廊坊师范学院东院-小广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于学院路廊坊师范学院东院",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廊坊师范学院星空广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于英华路与弘毅道交叉口东南20米",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廊坊归家公寓",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于东方大学城四光道8号旭辉十九城邦98号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廊坊恩典电梯公寓(东方大学城店)",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于经济技术开发区桐柏村路南",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廊坊枫铃民宿",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于廊和坊金融城1座二单元",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廊坊海逸宾馆(廊坊万达广场高铁站店)",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于建国道与建设路交汇处西南",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廊坊金锐宾馆",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于第八大街西区北街馨境界小区南门106号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廊坊隆福寺",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于古县村西",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廊坊隐约美宿",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于南尖塔镇艺术大道汇景轩西区14号楼21层2101室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廊坊顺华旅馆",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于新华路4号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廣順興(神威北大街店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于神威北路南侧三河文峰园林绿化有限公司北侧3号商业西5号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开新广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于华祥路与汇源道交叉口东南角",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张岐肉饼(迎春小区西区店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于迎春小区30号楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅(固安永定路店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于永定路与新昌街交叉口北220米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅(霸州市民广场店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于宏瑞御景西3门旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "得趣园(北凤道)",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于新华路211号东北方向120米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "御龙河公园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于杨税务乡安次开发区",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(万向城商场店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于裕华路188号万向城购物中心1层-Y013B号",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恋花园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于南尖塔镇廊万路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文安高逸世嘉民宿(钟楼店)",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于馨语舞院戏楼大街73号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星之河旅馆",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于常甫路长富吉第A5-5",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星屿湾民宿(艺术大道店)",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于艺术大道汇景轩25号楼1单元309室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月色广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于新华路57号",
+    "tags": [
+      "060102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "未来广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于开发区新奥艺术大道与和平路交汇处",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(燕顺路店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于神威北路118号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桃花岛",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于广阳道与西昌路交汇处自然公园西区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桐花凤非遗香河肉饼·香河菜(03年创始店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于红星美凯龙家居行家博览中心西门西60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桐花凤非遗香河肉饼·香河菜(全国总店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于淑阳镇五一路南段西侧",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欢乐动物园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于广阳道与西昌路交汇处自然公园东区",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(廊坊月色广场店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于新华路57号月色广场二层F201",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(燕达东方广场店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于燕郊经济开发区燕顺路与化工大街交叉口北侧弘阳广场5层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(燕郊诺亚大厦店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于燕郊经济技术开发区北蔡街诺亚大厦二楼",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河北东方学院-喷泉广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于廊坊开发区河北东方学院医学院(新校区)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(万向城店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于广阳道万向城购物中心四层F4-B015/016/017号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(天洋广场店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于燕郊开发区规划路南侧天洋城天洋广场北区商业A馆四层F4A-01号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(宝德店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于新中东街北侧102号宝德购物中心6层601号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(新朝阳广场店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于爱民东道109号新朝阳广场2期4层4002-4003号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海棠园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于和平路与爱民东道交叉口东南50米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清溪园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于北凤道与裕华路交叉口西200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘一回辣椒炒肉(裕华路店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于南尖塔镇翟各庄村张玉兰家",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溢心园非遗香河肉饼(总店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于五一路南段西侧",
+    "tags": [
+      "050111"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潮白河燕郊公园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于星河皓月西侧",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灵山寺",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于黄土庄镇灵山医院附近",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灶座小锅烀饼(华夏幸福城店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于华夏幸福城朗园西门北80米",
+    "tags": [
+      "050113"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "燕郊公园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于迎宾北路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牡丹园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于光明西道街道光明西道街道广阳道与西昌路交汇处自然公园西区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狮城沧州火锅鸡(建设路店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于建设北路新民小区65号狮城沧州火锅鸡",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉祥府牛肉罩饼(新开路店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于新开路42号佰元宾馆底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉祥府牛肉罩饼(金光道总店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于光明西道街道菜庄村北",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瑞丰公园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于北史家务镇常甫路与瑞丰道交叉口西北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百花园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于和平路与金光道交叉口西北100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祥记蒸饺店(富中路)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于经济技术开区富中路10号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老天桥公园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于永华道附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(万向城店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于广阳道南侧裕华路西侧(万向城项目)一、二层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胜芳古镇",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于胜芳镇武庙前街文昌阁",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胜芳镇张家大院",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于胜芳古镇(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "自然公园-东区",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于广阳道与西昌路交汇处自然公园",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "自然公园东区-健身广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于广阳道与西昌路交汇处自然公园东区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "自然公园牡丹园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于廊坊市自然公园-西区",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "自然公园西区-东入口广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于广阳道与西昌路交汇处自然公园西区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "致青春酒店民宿(瑞丰道分店)",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于瑞丰道狮子城银河湾二期K2·狮子城二期(北区)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣华如家宾馆",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于东马圈集贸市场东南方向200米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁记串串香(廊坊广阳区)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于新世纪步行街二大街北外街D座84号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西湖会馆(永兴路店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于永兴北路87号",
+    "tags": [
+      "050106"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观音院",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于永华道34附近",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "跃华春火锅烤肉城(夏垫总店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于夏垫京东第一温泉度假酒店西50米路北",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "轻帆公寓式酒店(艺术大道店)",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于裕华路355号汇景轩14号楼1单元",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达美乐比萨(廊坊万向城店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于裕华路176号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "过桥缘·过桥米线(廊坊万向城店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于广阳道与裕华路交叉路口往西南约100米(万向城北侧约50米)万向城商场F4层",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎春北路休闲广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于迎春路20号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "酥胖子绿豆饼(新华路店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于尚秀街6号门东北70米",
+    "tags": [
+      "050800"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "采四机关楼广场",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于奉献路与平安路交叉口西220米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野姑娘肉汁水饺",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于大世界音乐广场一楼西侧",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金沙银贝海鲜火锅(上善颐园店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于上善颐园沁芳苑14座105-108号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金福宾馆(人民医院店)",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于永清镇医院对过",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫宇宾馆(廊坊万向城店)",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于裕华路143号(华夏经典西门)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银泉园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于廊万支路与廊万路交叉口北160米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦漾·设计师影院Loft公寓(燕京理工学院店)",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于燕郊镇燕顺路757号燕郊弘阳广场8号楼3层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳阳中国饭(北京大兴国际机场2店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于大兴国际机场航站楼三层S-AL03-001",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雀麺上海本帮面(廊坊万向城店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于万向城4楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "霸州宏源宾馆",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于益津南路盛达华苑小区西南侧约50米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺新公寓(市政府店)",
+    "city": "廊坊",
+    "category": "hotel",
+    "description": "位于天祥南路和谐道温情胡同5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(万向城商场店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于裕华路145号万向城F1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(北环道DT)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于北环道金运路西南角北京荟8号楼1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(廊坊麦当劳燕郊燕灵路餐厅)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于燕郊燕灵路与北蔡街交叉口方舟购物广场一层南侧",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "齐福季羊蝎子火锅(廊坊首店•锦绣大道店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于固安镇106与锦绣大道交叉口向西100米路南侧B01",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(三河富达广场店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于迎宾北路2号-富达购物广场3层西侧M3001-4M3001-5号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(廊坊万向城店)",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于万向城四楼龙歌自助小火锅",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙四爷铜锅涮肉",
+    "city": "廊坊",
+    "category": "food",
+    "description": "位于幸福城龙四爷铜锅涮肉(大合唱旁)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙河中央公园",
+    "city": "廊坊",
+    "category": "attraction",
+    "description": "位于富余道与龙盘路交叉口西南500米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

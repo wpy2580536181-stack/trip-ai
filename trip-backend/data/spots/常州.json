@@ -1,0 +1,2160 @@
+[
+  {
+    "name": "246精品小火锅(星河国际店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于星河国际七区24-26",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "52 Sky Restaurant&Chill Lounge",
+    "city": "常州",
+    "category": "food",
+    "description": "位于现代传媒中心一号楼52楼",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "7+7私家饭堂(嘉业国贸店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于延陵西路99-1号101室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "CFINE初饭新轻餐(文化广场店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于龙城大道艺象天地文化广场负一楼124号",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三井街道文体活动中心中心广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于秦岭路与前桥路交叉口东北140米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三江口公园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于龙虎塘西街10号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东坡园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于延陵中路9号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东方盐湖城·道天下景区",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于金坛茅山旅游度假区访仙路9号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东润时尚宾馆",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于光华路100号(朝阳二小旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东苑宾馆",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于前黄人民法庭西北门东60米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中华孝道园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于太湖湾旅游度假区环太湖路101号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中华恐龙园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于三井街道河海东路60号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中华恐龙园-中心广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于三井街道三井街道三井街道河海东路60号中华恐龙园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中华恐龙园-库克苏克",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于河海东路60号中华恐龙园内(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中华恐龙园-魔幻雨林",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于河海东路60号中华恐龙园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中央公园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于珠江路130号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云雅民宿(新北区高铁北站)",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于龙虎塘街道壹号天禧花园1幢106号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五星桥原切肥牛火锅(全国总店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于太湖东路府翰苑7幢214-216号(近市政府)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五星桥原切肥牛火锅(怀德桥店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于南大街街道河景花园8385号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五星桥原切肥牛火锅(湖塘店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于武北路和古方路交叉口114号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仙渔舫(清潭店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于清潭新村中央大道西清潭商场",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伊斯坦布尔土耳其餐厅(府西花园店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于太湖东路府西花园北门商铺1-104号",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "勤业旋转小火锅(常州总店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于花之园17幢3号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北塘河健身公园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于北塘河路与青丰路交叉口西300米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华山公园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于三井街道龙城大道与秦岭路交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "博爱广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于龙锦路与绿洲路交叉口北40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嗨茫茫火锅串串",
+    "city": "常州",
+    "category": "food",
+    "description": "位于湖塘万达广场12栋110号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "回回锅贴(小河沿店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于小河沿6-13号鼎鑫记西侧弄堂内",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "在山野·山葵烤肉",
+    "city": "常州",
+    "category": "food",
+    "description": "位于大渡河路126号府翰苑西区",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天目湖南山竹海景区",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于戴埠镇李家园村下场园10号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天目湖心怡阁雅致民宿(溧阳市-天目湖山水园景区店)",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于天目湖镇东陵村50号心怡阁民宿酒店201室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天目湖旅游度假区",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于天目湖镇环湖东路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天目湖旅游度假区天目湖山水园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于环湖西路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太湖湾旅游度假区",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于雪堰镇太湖湾旅游度假区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太湖湾露营谷",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于雪堰镇太北路6号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寻淮味·猛火现炒浇头面",
+    "city": "常州",
+    "category": "food",
+    "description": "位于典雅花园9-8",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小时光青年公寓",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于三井街道晋陵北路217号现代城一期4027室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小黄山风景区",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于孟河镇Y203(小水线)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州万豪酒店(都汇尚膳自助餐厅)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于龙锦路1590号常州万豪酒店内1楼(传媒大厦)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州伴假美宿(宝龙广场店)",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于北港街道宝龙城市广场2幢2624室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州兰庭宾馆",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于乾盛兰庭13幢A3-1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州单身公寓",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于牛塘镇虹西路29号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州南山旅馆",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于新丰街西楼2栋(博爱路地铁站3号口步行70米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州博物馆",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于龙城大道1288号(市民广场西侧)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州古运河南大街文化旅游区",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于西瀛里运河3号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州吉安旅馆(吾悦广场店)",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于湖塘人民中路681号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州太湖湾竺山湖小镇",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于竺山路1号太湖湾旅游度假区(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州如归宾馆(北环西路店)",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于北环西路3号金沙大桥旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州宏盛旅馆",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于湖塘镇鸣凰鸣新中路85-2号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州客来轩民宿",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于经济开发区梧桐路18号宝龙城市广场2栋1702室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州巴洛克公寓",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于梧桐路18号宝龙广场4栋424号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州市武进区东湖旅馆",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于湖塘镇鸣新中路65-1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州市民广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于龙城大道1288号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州市钟楼区丰臣海悦广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于芦墅星苑",
+    "tags": [
+      "120200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州悠然居景观店",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于龙沧北路时代上院东门左手6甲14楼01",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州文化广场一期",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于锦绣路2号常州市文化广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州月亮湾旅馆",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于鸣新中路77-5号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州月伴放心居",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于鸣新中路30-9号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州歌林公园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于常州经济开发区潞城街道东方东路165号",
+    "tags": [
+      "060101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州相聚旅馆",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于湖塘镇鸣新中路85-5号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州糕团店",
+    "city": "常州",
+    "category": "food",
+    "description": "位于官保巷13-19号(南大街地铁站4号口步行360米)",
+    "tags": [
+      "050800"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州红星旅馆",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于湟里镇村西村委巷头村102号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州金佳招待所",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于金城镇焦园村25号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州金华旅社",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于区薛埠镇盘古路14一5",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州金盛宾馆(高铁北站店)",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于新桥镇新立名园114号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州银丝面馆(府琛店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于太湖中路府琛花园2-17",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州银丝面馆(麻巷店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于麻巷公寓1号甲单元102室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州锦东旅馆",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于锦绣路37号锦绣东苑北区26号楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州香槟客栈",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于黄河西路香槟广场10幢7-101",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州馨兰宾馆",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于兰陵北路522-3号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州高铁生态公园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于华山中路288-6号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常州龙江旅馆",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于龙虎塘南街96号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常鲜德乐购迎桂馒头店",
+    "city": "常州",
+    "category": "food",
+    "description": "位于麻巷公寓1幢丙单元102室(近海胜网吧)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德天雪花肥牛海鲜火锅(五星·星韵荟店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于星韵城1-1幢101号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德天雪花肥牛海鲜火锅(新北区店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于河海街道星海银园14幢105号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "想园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于龙江中路131号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈善广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于南大街88号(南大街地铁站4号口步行490米)",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文明旅舍(常州大学城店)",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于湖塘镇永安花苑7幢甲单元302室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文笔塔广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于丹青路28号红梅公园内(南侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新北中心公园-下沉广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于庐山路新北中心公园(南侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新北中心公园-青年广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于汉江路299号新北中心公园(东北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "普希金牛排馆(文化广场店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于新北区文化广场地下一层艺象天地130-132",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景仁公园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于飞龙东路与新堂路交叉口西北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曹二哥面馆(新北总店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于太湖东路8号府琛花园2-12号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "木西轻奢美宿(常州恐龙园店)",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于三井街道太湖东路9号龙湖星图4幢1412号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱螺记卤味螺蛳粉",
+    "city": "常州",
+    "category": "food",
+    "description": "位于和平中路411号(清凉寺地铁站4号口步行210米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱螺记卤味螺蛳粉太湖路店",
+    "city": "常州",
+    "category": "food",
+    "description": "位于太湖东路186-2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李佩琳重庆火锅(常州首店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于清潭路119号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梅园大酒店",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于西环一路2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欣基民宿",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于别桥镇后周集镇新兴街20号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(常州星耀城吾悦店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于新桥街道星耀城吾悦广场5层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "氿宜轻居民宿(常州恐龙园店)",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于晋陵北路511号保纳商业广场F2层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉江路国际街区西广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于晋陵北路45号(新区公园地铁站2号口步行90米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沄溪庭院火锅餐厅",
+    "city": "常州",
+    "category": "food",
+    "description": "位于永红街道迎宾路",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(丰臣国际店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于通江中路108号丰臣国际广场7层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(又一城店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于湖塘镇花园街33号(又一城)4层4A-01、4A-10号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(新城吾悦广场店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于武宜中路188号新城吾悦广场5层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(龙湖天街店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于勤业路295号龙湖常州龙城天街5层19号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淘淘鸡煲",
+    "city": "常州",
+    "category": "food",
+    "description": "位于陈渡镇南2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清沐酒店(常州孟河星光城店)",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于小河镇兴镇路389号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渔仓",
+    "city": "常州",
+    "category": "food",
+    "description": "位于太湖东路101常发广场F1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溧阳华丰宾馆",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于昆仑南路50号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溧阳华宇宾馆",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于罗庄路60号(东兰小区旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溧阳来往客栈",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于上兴镇兴医巷7号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溧阳美拍美宿浪漫公寓",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于溧城街道平陵中路226号平陵大厦720室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滆湖公园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于清影路与阳湖西路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "無名川小馆(新北店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于太湖东路101常发广场F1层",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱家面馆(常州总店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于浦前东路和平美景10-4号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狗发豆富",
+    "city": "常州",
+    "category": "food",
+    "description": "位于三井街道典雅商业广场1幢-115号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "环球动漫嬉戏谷",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于太北路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "环球广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于衡山路与浦江路交叉口东北140米",
+    "tags": [
+      "120200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "环球恐龙城",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于河海东路60号中华恐龙园",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛兴面馆",
+    "city": "常州",
+    "category": "food",
+    "description": "位于盛兴面馆县学街87号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瞿秋白纪念馆",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于荷花池街道延陵西路188号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祥龙绿地",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于小塘路祥龙苑西南侧约90米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福缘大酒店(横林店)",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于横林镇公园路8号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秋广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于海辰街与金融大街交叉口东南60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "穿越侏罗纪",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于河海东路60号中华恐龙园",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(常州武进万达店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于花园街301号武进万达广场室内步行街三层3033-3035号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫荆公园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于三丰路与竹林北路交汇处附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红梅·假日广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于竹林南路56号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红梅公园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于丹青路28号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红梅公园-文笔塔",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于罗汉路1号红梅公园(红梅公园地铁站1号口步行180米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红梅公园-笔架山",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于罗汉路1号红梅公园内(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红红小吃店(斜桥巷小区店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于斜桥巷10号106室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缤纷亚洲休闲广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于南大街50号(南大街地铁站1号口步行490米)",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美怡宾馆",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于朝阳桥南逸东仓桥弄2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翠竹公园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于翠虹路2号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖胖民宿",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于红梅街道北环新村77幢戊单元101室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舒静民宿",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于上黄镇东桥南路75号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舜山小镇",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于郑陆镇舜平东路29-1号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花悦豆香(府琛大厦店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于太湖东路8号府琛大厦F1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苏梅鲜派泰国菜",
+    "city": "常州",
+    "category": "food",
+    "description": "位于新北区文化广场5号楼",
+    "tags": [
+      "050206"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茅山森林世界",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于茅山旅游度假区茅东林场169号(白茅线)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荆川公园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于清潭路281号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荔粥记潮汕砂锅粥(府翰苑东区店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于太湖路154号",
+    "tags": [
+      "050123"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荷园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于新闸路附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荷花池街道·荷悦体育公园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于运河路101号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝港广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于通江中路563号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虎火锅·怀旧商店(常州总店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于清潭路与广仁路交叉口西南角(国光1937科技文化创意园沿街商铺1层)园区内可免费停车两小时",
+    "tags": [
+      "060200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蚝享鲍泥炉烤肉",
+    "city": "常州",
+    "category": "food",
+    "description": "位于太湖东路212号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁山山重庆火锅(迎宾路店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于迎宾路58-18号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观赏金鱼",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于丹青路28号红梅公园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "豆宝铺(会馆浜店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于怀德苑30幢会馆浜路上店面房",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "豫锦民宿(常州高铁北站店)",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于龙虎塘街道壹号天禧花园1幢乙单元1001室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "财记牛腩(新北店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于太湖东路府琛花园2-6号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贤都青年广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于华山中路5号",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辣之府火锅(杨柳巷店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于南大街街道杨柳巷39-1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达美乐比萨(浒路敦路店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于湖塘镇花园街33号(又一城)一层1A-01-2商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "运河五号创意街区",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于三堡街141号(近西仓桥)",
+    "tags": [
+      "120100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "近园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于晋陵中路418号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迪诺水镇",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于河海东路60号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "醉胡桃小馆(常发广场店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于太湖东路101常发广场F1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金色新城广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于常新路16号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金诚宾馆",
+    "city": "常州",
+    "category": "hotel",
+    "description": "位于中吴大道芳庄段20号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫震源·苏式大虾生煎(传媒大厦店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于三井街道府琛花园2-5",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青山广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于晋陵中路辅路与关河西路交叉口西北40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青年广场",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于怀德北路32号(南大街地铁站2号口步行450米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青果巷历史文化街区",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于和平北路100号(文化宫地铁站5B口步行290米)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青果虾饼(杨柳巷店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于杨柳巷48-5号(南大街地铁站3号口步行160米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青枫公园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于星港路钟楼区政府对面(青枫公园地铁站5A口步行70米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "飞龙体育公园",
+    "city": "常州",
+    "category": "attraction",
+    "description": "位于飞龙路358号(银河湾第一城对面)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿姐老火锅(常州总店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于太湖东路府琛大厦2幢13号(传媒中心北门星巴克对面)门口可免费停车两小时",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(常州江南环球港餐厅)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于通江中路598号江南环球港一层L1017、三层L3072商铺",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(常州现代传媒中心店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于龙锦路1590号5号楼一层101/102号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄屿渤青岛小鲜(常发广场店)",
+    "city": "常州",
+    "category": "food",
+    "description": "位于太湖路101号常发广场南广场",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

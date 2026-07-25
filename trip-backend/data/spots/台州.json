@@ -1,0 +1,2277 @@
+[
+  {
+    "name": "2号特色民宿",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于海游街道马湖前郭老区278号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "349潜艇观光基地",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于工人西路1188号(渔家乐停车场小木屋)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "CHOI",
+    "city": "台州",
+    "category": "food",
+    "description": "位于鑫泰街81号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一江山岛登陆战纪念馆",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于海门街道海门街道海门街道海门街道青年路518号",
+    "tags": [
+      "110210"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七欣天(温岭万昌中路一店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于万昌中路1269号(第一层西边)",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七里香东北饺子馆",
+    "city": "台州",
+    "category": "food",
+    "description": "位于康平路219-221-223号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三出山火锅",
+    "city": "台州",
+    "category": "food",
+    "description": "位于中心大道555号台州青悦城购物中心F3层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三甲村文化广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于滨海路与东升街交叉口北20米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三门恒祥宾馆",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于六敖镇大墩路1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三门新城宾馆",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于海游镇朝晖路70-26号(金森伯兰西餐厅旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世纪广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于腾达路台州市路桥区文体中心1号馆",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东山儿童乐园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于中山东路3号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东湖",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于古城街道东郭巷56号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中央CBD广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于府中路与天和路交叉口东100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临海八方宾馆",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于大田街道北达路238号(大田交警大队旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临海星语轻奢美宿(台州学院店)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于临海市大洋街道临东村120号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "久祖牛肉小火锅(十里长街店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于十里长街北234-3号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九峰公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于九峰路295号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云逸时光·精品音影民宿(台州站店)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于葭沚街道内环东路上北山小区68栋4单元",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五丰新村公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于经中路五丰新村",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人口文化公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于枫南路317号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仙居山景民宿",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于金桥村附近",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仙居沂霖居民宿",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于横溪镇垟庄村4-7号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仙居清馨幽舍",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于白塔镇景园村关后自然村20号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伊晨民宿",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于北城街道站前村下埠二区14-2号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳佳洪池嵌糕店",
+    "city": "台州",
+    "category": "food",
+    "description": "位于崇和门广场古城街道洪池路8号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于解放南路113号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰公园-凤凰广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于解放南路台州银行旁边",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刻龙果木烤鸭餐厅(鑫泰街店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于广场南路168号鑫泰广场3楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前所文化人口公园-远教广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于椒北大街6-16号前所文化人口公园内(东侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前郭1号民宿",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于西区大道373号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十尾鲜·自助小火锅(温岭银泰店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于中华路728号银泰百货4楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华顶国家森林公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于石梁镇华顶景区",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双江宾馆(五洞桥店)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于世纪大道玉兰新村15幢1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州书馨精品民宿(万达广场店)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于白云街道开发大道799号万达广场3号楼1317室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州仙人居宾馆",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于永安街77号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州侨宾旅馆",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于南洋路194-196号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州博物馆",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于爱华路与群韵路交汇处西100米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州双拥广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于教五路55号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州台山宾馆",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于市府大道137号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州君悦商务酒店",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于东浦路8号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州学院椒江校区至善广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于市府大道1139号台州学院椒江校区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州小瑞士公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于洪龙路与昌平路交叉口北160米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州市市民广场-九孔桥",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于耀达路与和谐路交叉口西南80米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州市市民广场-水景公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于市府大道与中心大道交汇处东北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州市青少年文化广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于经中路与开元路交叉口南220米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州府城文化旅游区",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于江滨中路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州新康平宾馆",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于康平路13号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州明华宾馆",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于红旗新村186-187号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州来缘精品公寓酒店(椒江万达店)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于白云街道开发大道799号万达广场2号楼1604室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州植物(雕塑)园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于葭沚街道桐东线",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州海洋世界",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于广场中路38号",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台州老粮坊文创园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于枫山路与沙门路交叉口北180米",
+    "tags": [
+      "120100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合胜广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于爱华路18号爱华·新台州大厦",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "后街里公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于东海大道与安康路交叉口西100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "味晨小吃·特色姜汤面",
+    "city": "台州",
+    "category": "food",
+    "description": "位于横街路移动营业厅后面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和合公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于中心大道与东海大道交汇处西北方",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和合公园-东侧入口公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于和合公园",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和合公园-休息亭",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于和合公园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和合大院",
+    "city": "台州",
+    "category": "food",
+    "description": "位于白云街道鑫泰街333号一楼内铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和合广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于开投大厦、泰隆金融大厦之间",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜鹊民谣·烧烤酒馆(台州店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于天和路33号1层",
+    "tags": [
+      "080304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "固山居民宿(临海新时代学校店)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于古城街道后岭下路35号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "地锅印象(天和路店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于白云街道广场南路83-3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "多功能健身广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于星明路与白云北巷交叉口西南80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天台山国家级风景名胜区",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于和合街1号(奇石王宫景区东南45.3公里)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天台山国家级风景名胜区石梁飞瀑",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于石梁镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天台山国清景区",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于赤城街道国清寺村国赤路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天台山大瀑布",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于山大瀑布(琼台仙谷东南50米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天台山石梁景区",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于石梁镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天台延茹青年旅舍(天台山风景区店)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于赤城街道天桐路119号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天台徐家小吃",
+    "city": "台州",
+    "category": "food",
+    "description": "位于始丰街道济公大道303号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天台日之星宾馆",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于天台山西路365号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天台烤叔民宿",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于始丰街道龙园门村彩平烧烤门口",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天台驿站(清心驿站)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于国清路150号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥都宾馆(中大街)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于石粘路319号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "姥家地锅鸡(台州总店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于康平路306-308号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "客来香川味坊(广场南路店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于广场南路69-6号(高原小区西大门近康平路100米)",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宣誓广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于西大街17号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宪法驿站",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于祥和路8号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "对戒观景平台",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于石塘半岛旅游度假区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小王油炸糖醋铁板烧(台州府城旅游区店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于古城街道摆酒营社区东门后街19号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岩屿公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于云西路149号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岩屿文化广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于岩屿路台州市中医院",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川渝部落重庆火锅(椒江店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于白云街道天和路33号川渝部落重庆火锅",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川渝部落重庆火锅(玉环泰安路店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于泰安路15号川渝部落重庆火锅(玉环店)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川渝部落重庆火锅(黄岩店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于青年西路145号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平桥小吃街",
+    "city": "台州",
+    "category": "food",
+    "description": "位于学院路",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "府城轻居酒店",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于回浦路59号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廉政文化主题公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于鸿州大道与车站街交叉口西北240米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "御牛道日式烤肉料理(台州椒江店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于东商务区天和路33号联合商厦1F-01",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "意可轻奢酒店(台州万达广场店)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于白云街道万达广场3号楼21楼2117室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "战江南·囍牛家烤肉馆(椒江店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于东商务区下马新村北区西北康平路321号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于育苗路与前大路交叉口东南40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文御宴(椒江店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于康平路128号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新鞑烤羊腿",
+    "city": "台州",
+    "category": "food",
+    "description": "位于康平路356-358号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明天见·美宿公寓(台州医院东院区店)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于大洋街道新桑园小区14幢2单元3201室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星星广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于东环大道君悦大厦a幢",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星际轻奢酒店(台州万达广场店)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于白云街道开发大道799号万达广场2幢604室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱富贵火锅(经开万达店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于台州经开万达广场3层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林家铺子(康平路店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于康平路326号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柏加张村文化广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于柏嘉徐小学西侧约240米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(临海银泰店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于东方大道1号银泰百货外街副楼1楼1-28-1",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(台州巨鼎店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于耀达路124号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梦8商务宾馆(西路桥大道)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于西路桥大道118号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椒江云西公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于云西路27-29号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椒江云西公园-白云山体育公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于云西路27-29号椒江云西公园(东南角)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椒江广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于广场南路50弄4号台州市金顺商务大厦",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椒江邢记炸鸡店",
+    "city": "台州",
+    "category": "food",
+    "description": "位于白云街道花园菜市场39号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江南长城景区",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于西门街280一1号对面",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江滨公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于白云街道江滨路736号附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "波特·万豪宾馆(西路桥大道)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于西路桥大道256号(近星光耀广场)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洞下沙滩",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于松门镇东侧",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(中盛城市广场店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于星悦街67号中盛城市广场C10号楼二层201号-202号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(临海银泰城店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于古城街道东方大道1号银泰城1F0062F",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(温岭银泰城店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于中华路728号银泰城5F001铺位",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(青悦城店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于中心大道555号青悦城4层405-408",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海门老街",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于海门街道人民路86号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海门老街广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于海门老街南门",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "温岭山海之境灯塔书咖(石塘金沙滩)",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于石塘镇金沙滩山海之境",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "温岭市石塘半岛旅游度假区",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于石塘镇324省道与东海大道交叉口南",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "温粥人(康平路店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于康平路376号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灵湖景区",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于大洋街道临海大道",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "炸炸聚乐部(九龙店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于九龙汇曙光东路11号(VIPROOM酒吧西边)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛很鲜潮汕牛肉火锅(市府大道店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于市府大道302-322号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛很鲜潮汕牛肉火锅(路桥店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于星悦街101号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉环新世纪宾馆",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于长兴路111号(城关劳动保障管理所东北)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉环福康宾馆",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于长康路191号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王天顺海苔饼",
+    "city": "台州",
+    "category": "food",
+    "description": "位于紫阳街81号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琼台仙谷",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于赤城街道天桐路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白沙湾海滨公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于上盘镇镇头门港新区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百姓人家(康平路店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于康平路400号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "神仙居景区",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于下街线与321省道交叉口南180米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福来地影院民宿",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于白云街道下洋潘小区35幢6号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫阳九九海苔饼(台州府城文化旅游区店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于紫阳古街99号",
+    "tags": [
+      "050800"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绚珠小宾馆",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于东塍镇绚珠村环镇西路3-2号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老台州(时间广场一店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于市府大道535号第一时间生活广场101号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老年公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于江枫山路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老街泡虾(光明小区店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于南新椒街178号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚缘坊特色名小吃(天元西街店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于始丰街道天元西街35号聚缘坊特色名小吃",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "草巷包子",
+    "city": "台州",
+    "category": "food",
+    "description": "位于天长北路71号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "葭沚泾文化长廊",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于市府大道609号",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "葭沚老街",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于西浦岸路与前王巷交叉口东北120米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝天宾馆(横滨大道店)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于横滨大道145号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蔚蓝海岸",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于中山西路119号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衢味家(台州总店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于广场南路83号3-7",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观海楼",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于中山东路3号东山儿童乐园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赣味煌.江西小炒(椒江店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于白云街道广场南路57、59、61号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤城景区",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于国赤路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤龙山环山绿道公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于康平路与界牌路交叉口北180米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "路桥十里长街",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于富仕广场路桥十里长街(月河南街)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达美乐比萨(南官新天地店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于观澜上城北门西120米",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "进港村远教广场",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于梅丰路与进港路交叉口东200米",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑大钱居民楼火锅(万华城店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于新康路51号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金都小宾馆(楚门客运中心店)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于新塘里1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锅兴兴·地锅鸡",
+    "city": "台州",
+    "category": "food",
+    "description": "位于广场南路45-51号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闸口公园",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于工人西路1216号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿拉丁商务宾馆",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于城东街道曙光路443号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈记乌饭麻糍",
+    "city": "台州",
+    "category": "food",
+    "description": "位于天宁路70号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "静静民宿",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于北城街道下埠村38-7号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "饥肠辘鱼蛙火锅(平桥店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于广场西路471号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "饥肠辘鱼蛙火锅(机场路店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于机场北路392号(车管所斜对面)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香江宾馆(玉环广陵路店)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于广陵路240-252号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马路桥臭豆腐",
+    "city": "台州",
+    "category": "food",
+    "description": "位于永泰街111号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鮨御和寿司(巨鼎广场店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于白云街道巨鼎广场商铺105号",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿记清汤牛肉火锅",
+    "city": "台州",
+    "category": "food",
+    "description": "位于安康路858号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(台州路桥DT店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于西路桥大道460号",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(官河水街店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于洞天路46号麦当劳",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄岩东城康乐旅馆(东浦路辅路店)",
+    "city": "台州",
+    "category": "hotel",
+    "description": "位于东城街道东浦路32号康乐旅馆",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄岩姐妹酸菜鱼(椒江东商务区店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于广场南路69号(鑫泰广场斜对面)",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄岩石窟",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于江口街道山下郎村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黔家婆·贵州酸汤鲜牛肉火锅(椒江天和路店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于天和路21号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黔家婆酸汤鲜牛肉火锅店",
+    "city": "台州",
+    "category": "food",
+    "description": "位于路桥街道南官新天地观澜上城23幢",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(温岭银泰城店)",
+    "city": "台州",
+    "category": "food",
+    "description": "位于温岭银泰城6F(宴请烤肉铺子对面)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙兴寺",
+    "city": "台州",
+    "category": "attraction",
+    "description": "位于古城街道赤诚路3-3号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

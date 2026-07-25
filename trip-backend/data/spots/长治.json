@@ -1,0 +1,2212 @@
+[
+  {
+    "name": "119消防主题公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于太行西路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "7天酒店(长治上党区凯德世家广场店)",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于韩店街道府后东街21号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "7天酒店(长治屯留会堂店)",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于建设北路058号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "Duoroo植物园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于英雄中路街道桥北(花郎跆拳道旁)",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一米阳光回转小火锅",
+    "city": "长治",
+    "category": "food",
+    "description": "位于中营街24号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七十二行自助火锅盛宴(紫金西路店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于常青街道紫金西街5号东",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万福楼铜锅涮肉",
+    "city": "长治",
+    "category": "food",
+    "description": "位于潞州区南街转盘西南角",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上党门",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于府坡街与西斜街交叉口东北50米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下秦公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于漳泽湖国家城市湿地公园(西南角)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东北烧烤王(西营街店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于城市之光",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东方文化广场",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于潞阳门中路与县前巷交叉口东北60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐居旅馆(长治医学院店)",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于东关街北二巷5号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云山宾馆(长兴南路)",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于长兴南路62号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五一美食文化广场",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于威远门南路64号五一生活广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于西大街254号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仙堂山",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于井背村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伊鸿斋·真味太行(延安路店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于延安中路209号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佰味仟和人文餐堂(长兴中路)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于紫金街街道长兴中路城市生活家160号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八一广场-东游园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于太东一巷八一广场(东侧)",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六府公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于解放西街116号星悦国际东北方向150米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六府塔",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于六府公园",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "关村文化广场",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于东环路辅路西北30米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "农家小院(太行山大峡谷店)",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于大峡谷镇下石破村",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凡境民宿",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于紫坊村西二路1号附2号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "化家庄村文化广场",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于长治高新区",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华安羊汤馆(城市之光店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于英雄中路街道潞州剧院南西营西街24号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华莱士·全鸡汉堡(英雄路店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于英雄中路76号(润通通讯一楼西南1号)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南广场",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于延安南路街道城南生态苑",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南耀离绿豆饼(桥北店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于潞州区桥北英华小区7号楼三单元102市",
+    "tags": [
+      "050800"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厨禾坊(紫东店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于紫金东街59号电影小区家属院",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "叠翠庄孝道园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于南营五巷与和平西街交叉口东北60米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "味之绝热血美蛙鱼火锅(长治店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于紫金花园小区27号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "咱大牛潮汕鲜牛肉火锅1940(城隍庙店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于东大街城隍庙对面",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "咱大牛潮汕鲜牛肉火锅1940(正则广场店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于正则广场北区",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "咱妈烀饼铁锅炖(长治店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于铁香炉巷125号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "唞妞豆花鱼火锅(凯旋都汇广场店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于长兴中路凯旋都汇广场西门",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜来·红都坊餐厅(紫金店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于紫金西街5号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜来红都坊家宴紫金店(二部)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于紫金西街5号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜鲜生自助小火锅(长治万达店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于英雄北路222号万达广场长治高新店F4层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季源休闲广场(世纪嘉园A区店)",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于西环路北段建行旁",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城南生态苑",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于五针街与英雄南路交叉口南400米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城隍庙广场",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于东大街与杨家巷交叉口北120米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "壶关宋雅·未央民宿(八泉峡店)",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于桥上村",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "复源全羊肉汤馆(营口小区店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于西大街营口小区首层(石油公司对面)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大咖涮肉(总店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于威远门中路66号繁花隔壁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天空之城",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于太行东路2号天空·之城",
+    "tags": [
+      "120100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太行一号公路",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于327省道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太行山半山缘民宿",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于大峡谷镇桥上村半山缘民宿",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太行山大峡谷八泉峡景区",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于桥上乡",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太行山大峡谷王莽峡十八盘",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于桥上乡太行山大峡谷内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太行山青龙峡大河漂流",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于桥上乡大河村青龙峡景区内(青龙峡旁边)",
+    "tags": [
+      "080505"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太行溶洞",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于蟠龙镇石泉村太行龙洞",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太行赤壁悬流",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于阳高乡奥治村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太行赤壁悬流景区-碧水丹崖",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于阳高乡奥治村赤壁悬流景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如家睿柏·云酒店(长治高铁东站和济医院店)",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于景里街99号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宪法公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于西环路与太行西街交口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寨子村文化广场",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于上党区工业园区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小糊涂老面馆(捉马西大街店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于捉马西大街与威远门北路十字西南角(飞路公司南门对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小糊涂老面馆(新营街店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于雅然居西南门西70米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小飞烧烤饭店",
+    "city": "长治",
+    "category": "food",
+    "description": "位于城市之光",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚客优酒店(黎城黎侯古城店)",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于黎侯古城96栋",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山前月下民宿(大峡谷镇店)",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于大峡谷镇桥上村89号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山缘居民宿",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于大峡谷镇桥上村081",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西太行山大峡谷-红豆峡景区",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于桥上乡阴山坝村太行山大峡谷",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西太行山大峡谷-青龙峡景区",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于桥上乡青龙峡景区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西太行山大峡谷-黑龙潭景区",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于桥上乡太行山大峡谷",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西太行山大峡谷旅游景区",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于大峡谷镇",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西通天峡景区",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于S76平长高速",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山野.营地烤肉",
+    "city": "长治",
+    "category": "food",
+    "description": "位于英雄中路和合人家下沉广场01号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴山印象山野牛肉火锅(天空之城店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于太行东街2号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巷子口铜锅涮肉",
+    "city": "长治",
+    "category": "food",
+    "description": "位于紫金街道分水岭91号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅( 长治保宁门西街店 )",
+    "city": "长治",
+    "category": "food",
+    "description": "位于保宁门西街佳美绿洲东35米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德克士(长治商厦店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于长兴中路东大街交叉口长治商厦1层(城隍庙)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德馨广场",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于城北西街152号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠丰公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于延安南路与惠丰街交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "扶摇树下·椒麻鲜活虾(长治城隍庙店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于东大街城隍庙广场C2-2",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "振东宾馆",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于国税局旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "摩登浪漫满屋公寓(城隍庙店)",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于英雄中路摩登时代10楼C1001室(近嘉汇购物广场)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "故川水牛毛肚火锅(旗舰店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于英雄南路与五针路交叉口城南国际花园1楼2楼两层商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "故川水牛毛肚火锅(襄垣店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于开元西街时代名居1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化广场",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于化家庄北头巷与化家庄西头巷交叉口北100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星湖湾城市广场",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于望湖路与捉马西大街交叉口东北460米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月半湾·暖心饺(沁芳苑店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于沁芳苑北侧商铺01-58",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月半湾暖心饺(景苑华府店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于景里街25号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "有家客栈(淮海小吃街店)",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于淮海街165号邮政储蓄银行旁边",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱记汤馆(今港花园店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于紫金街街道长兴中路后东营一号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李白涮肉·烧鸟·酒堂",
+    "city": "长治",
+    "category": "food",
+    "description": "位于府后东街与长兴中路交叉口西120米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(史家庄潞泽嘉园店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于长治高新区潞泽嘉园108号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(摩坊金街店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于潞华街道中华西街139号摩坊金街9号楼一层10-11-34号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栖栖民宿酒店(壶关县中医院店)",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于西城路宜盛宏院东北20米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "根元甩饼(捉马店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于英雄北路95号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欢乐太行谷",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于李东线",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民族广场",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于天晚集北路与西大街交叉口西100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉堡王(长治天空之城店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于潞州区高新技术产业开发区太行东街2号天空之城院内1号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沁州宾馆",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于东风街53号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沁源明日旅店",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于北园村桃园街",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沐光森林生活公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于城南生态苑内(东侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泽馨公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于小常村漳北线",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洱火云南酸菜牛肉火锅(长治首店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于长治高新技术产业开发区捉马东大街36号潞鼎庄园小区6号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(潞鼎广场店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于太行西街66号潞鼎广场1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮海公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于德化门东街附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮海小公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于延安南路街道延安南路街道延安南路街道延安南路街道",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮海小吃街云香心派新派臭豆腐(淮海小吃街店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于淮海街与淮西二路交叉口南20米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清华文化广场",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于清华街与旧延安南路交汇处",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清山精致自助料理(长治店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于延安中路202号",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真马老大胡辣汤(御龙庭店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于长邯北路御龙庭小区1号楼11号一层商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨河公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于太行东街街道长治市十中家属院对面",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漳泽湖国家城市湿地公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于滨湖大道与北环西街交叉口北80米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漳泽湖湿地十里风荷",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于漳泽湖国家城市湿地公园(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潞城宾馆",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于中华东街218号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潞安府城隍庙",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于东街庙道巷13号宏门西20米",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潞广椒盐甩饼",
+    "city": "长治",
+    "category": "food",
+    "description": "位于合意街利国巷93号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "炎帝广场",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于沿山路与太行东街交叉口东40米",
+    "tags": [
+      "120304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊喵来了火锅(长治高新万达)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于长治高新技术产业开发区英雄北路222号万达广场4001号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛佰牛·重庆火锅",
+    "city": "长治",
+    "category": "food",
+    "description": "位于长兴北路盛德世家1617号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛倌王·鲜牛肉四川火锅",
+    "city": "长治",
+    "category": "food",
+    "description": "位于常青街道正则时代广场南区25号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玛格利塔·现烤披萨(长治英雄街店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于英雄街桥北巷英华小区1号商铺",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "神龙湾挂壁公路观景台",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于东寺头乡石玉线",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "竹番茄火锅(长治店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于太行东街168号(永盛大厦底商东)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老顶山国家森林公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于001乡道北100米",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老顶山炎帝像",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于东老顶山上",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(英雄店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于英雄中路嘉汇广场一层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(长治万达店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于英雄北路222号万达广场一层1029号商铺",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虹霓村(古村落)",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于虹梯关乡虹霓村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁记串串香(延安路店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于延安中路200号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "裕龙快捷酒店",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于店上镇裕龙快捷酒店",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "襄垣皇都宾馆",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于新建西路1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西街街道全民健身广场",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于西街街道西大街民族广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观音堂文化广场",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于捉马东大街13号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "谷养元八宝粥家常菜(长治店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于府后西街43号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵小宝·贵州活油烙锅",
+    "city": "长治",
+    "category": "food",
+    "description": "位于紫金花园东南门东北80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "转皎遇到民宿(长治高铁南站店)",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于苏店镇南董村东北街146号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遇见馨月民宿",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于紫金西街邱村东一区24号楼1楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郭氏羊汤(古城南路商业街店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于古城路68号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫鑫宾馆(东大街)",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于东大街东关岗楼东50米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长子门公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于华丰南路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长子雅宿",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于永康小区80号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治婴西旅馆",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于西华南路17号婴西旅馆",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治家缘旅馆",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于高新区捉马村广开巷63号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治巷往民宿",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于常青街道",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治市中医药文化公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于府后西街与威远门中路交叉口西北200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治市交通安全主题公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于延安中路附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治市体育公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于府后东街与英雄中路交叉口东北侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治市儿童公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于工农巷与科委巷交叉口东120米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治市八一广场观礼台",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于纬七路1号八一广场",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治市博物馆",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于迎宾大街9号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治市太行太岳烈士陵园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于英雄南路东华门67号",
+    "tags": [
+      "071901"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治星禾民宿",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于紫坊村东街84号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治春城旅店",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于和平西街60号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治杨帆驿站",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于县前巷92号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治欢聚时光公寓",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于英雄中路摩登时代18楼D区1809",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治气象雷达观光塔",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于漳泽湖国家城市湿地公园内(东侧)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治祥瑞旅馆(万达广场店)",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于高新区捉马村飞龙巷90号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治紫明旅店",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于紫金西街紫坊东街39号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治紫燕旅馆",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于紫东街52号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长治阳光民宿",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于东街街道东关街北2巷45号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雅庭民宿(长治客运中心店)",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于紫坊中街14号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青年公园",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于青年公园附近",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青羊大酒店",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于东关路与兴华东街交叉口西50米",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "饸饹刘(泽馨苑店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于大辛庄街道北二环西街456号泽馨苑小区58-60号楼下9号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高平十大碗(城市生活家店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于云步街60号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲜耗王雪花啤酒文化广场",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于城东路420号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿记潞城甩饼店",
+    "city": "长治",
+    "category": "food",
+    "description": "位于东华门街14号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿运潮牛潮汕牛肉火锅(总店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于捉马东大街36号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿运潮牛潮汕牛肉火锅(科创城店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于科创城底商一层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹏飞农家客栈(太行山大峡谷店)",
+    "city": "长治",
+    "category": "hotel",
+    "description": "位于005乡道",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹿家庄池口休闲广场",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于鹿家庄正街与010乡道交叉口西140米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(君悦·新天地店)",
+    "city": "长治",
+    "category": "food",
+    "description": "位于长兴中路619号君悦·新天地F1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄崖洞文化旅游区",
+    "city": "长治",
+    "category": "attraction",
+    "description": "位于上赤峪村168号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄牛煌重庆火锅重庆烧烤",
+    "city": "长治",
+    "category": "food",
+    "description": "位于长治市潞州区美隆国际C区8号楼1号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

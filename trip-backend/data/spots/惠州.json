@@ -1,0 +1,782 @@
+[
+  {
+    "name": "7天连锁酒店(惠州西湖东站水东街店)",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于南坛南路2号南坛大厦1楼",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下埔滨江公园",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于惠沙堤一路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东昇宾馆(上圩西路)",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于白云五路5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东江公园",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于东江二路与水北四路交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中区酒店",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于爱民东路43号(交通局斜对面)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山公园",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于中山北路17号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐凯撒披萨( 佳兆业广场店 )",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于江北街道惠州大道佳兆业商业中心1楼L128-L129室",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九潭公馆",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于福园路629号",
+    "tags": [
+      "080306"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳兆业广场木槿钰创意韩餐",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于惠州大道11号4层01号",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元妙古观",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于江南街道元妙观8号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千花洲度假区",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于汝湖镇金石四路6号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华园电梯公寓",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于东华大道华园休闲会所后面",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合江楼",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于水西东路40号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜姐炸串佳兆业店",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于文明一路5号意生国际广场一层01号之7A1",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大云寺",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于东江三路与东江二路交叉口东北500米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天骑客家宴江北店",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于江北街道云山东路云山大院停车场2号楼1楼",
+    "tags": [
+      "050115"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "客语-客家菜(佳兆业广场店)",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于惠州大道11号佳兆业广场五楼510号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市民公园",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于云山西路与市民乐园东路交叉口西南140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市民公园广场",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于市民公园",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸福公寓(下角中路店)",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于下角中路9号(建行对面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康源商务酒店(陈江大道南)",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于陈江镇陈江大道南20号(人人乐斜对面)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "御龙湾酒店",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于石湾镇石湾大道409号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(佳兆业广场店)",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于惠州大道11号佳兆业广场1层L111号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠东金利宾馆(平山街道天虹店)",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于华侨城华景路32号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠州东升客栈",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于下埔南三街3号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠州博物馆",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于市民乐园西路3号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠州市儿童公园",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于金石一路48号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠州惠城1号公寓",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于水口大道38号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠州植物园",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于环城西路2号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠州聪权旅馆",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于螺仔湖二路北街32-4号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠州西湖红花湖景区",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于上排红花湖路92号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠州西湖风景名胜区",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于环城西路2号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠州西湖风景名胜区-丰渚园",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于环城西路2号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠州豪威大酒店(西湖东站龙丰公园店)",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于鹅岭东路10号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠州鄱湖旅馆",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于下角中路1号公安分局旁",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠康旅馆(淡水市政广场店)",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于淡水街道人民四路126号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新亨手工面(云山西路店)",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于云山西路老爹岭",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新华文化广场",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于华辉铭铸旁(新江路与新沥路的交汇处)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新湖公园",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于新湖一路(近伟豪领域、云山花园)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明珠商务酒店",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于大湖溪龙湖大道南中国农业银行旁边",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朝京门",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于环北西一路3号(近东江边)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉堡王(惠州意生国际广场)",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于文明一路5号意生国际广场1层10号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉阳廷自助烤肉(佳兆业店)",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于惠州大道11号佳兆业广场4层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海楠里·椰子鸡火锅(惠州佳兆业店)",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于惠州大道11号佳兆业广场5层01号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琼都宾馆",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于博罗大道中791-792号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "粒上皇(惠州惠城佳兆业中心店)",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于惠州大道11号(佳兆业中心二期地下第5层至6层)1层01号X7-1号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花边岭广场",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于桥西街道麦地路60号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛙小侠(佳兆业广场店)",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于惠州大道11号佳兆业广场五楼L507a",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "豪华公寓(博罗桥西七路店)",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于西站附近人民医院西门旁边桥西七路85号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "费拉拉·全日西餐(佳兆业广场店)",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于惠州大道11号佳兆业广场F4层",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赛百味(惠州佳兆业广场店)",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于三新环路与三新南路交叉口东南60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "酸渡老坛子酸菜鱼(佳兆业店)",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于惠州大道11号佳兆业中心二期2层11号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金山湖公园",
+    "city": "惠州",
+    "category": "attraction",
+    "description": "位于惠沙堤二路(近珑湖湾)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金桥宾馆(惠州马安镇店)",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于马安镇泰安路81号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿皇仔烧鹅烧鸭(佳兆业店)",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于云山西路2号帝景国际商务中心综合楼1层01号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿皇仔烧鹅烧鸭(双子星店)",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于十四号小区东南门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿皇仔现烤脆皮烧鹅餐厅(江北双子星店)",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于云山西路18号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顶峰香港茶餐厅(佳兆业店)",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于惠州大道11号佳兆业中心2期B5层-6层、4层01号L438-439号",
+    "tags": [
+      "050305"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(佳兆业广场店)",
+    "city": "惠州",
+    "category": "food",
+    "description": "位于惠州大道11号佳兆业广场F2层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙珠宾馆",
+    "city": "惠州",
+    "category": "hotel",
+    "description": "位于百合路11号(百合路和百湾路交叉口西南角)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

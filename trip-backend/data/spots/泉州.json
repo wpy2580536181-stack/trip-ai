@@ -1,0 +1,782 @@
+[
+  {
+    "name": "不二斋(海星小区店)",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于海星街50号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东方旅馆",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于和平中路463-1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中渌广场",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于泉泰路与府东路交叉口",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丰泽广场",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于田安北路与丰泽街交汇处西北角",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丰鲤楼.闽南茶楼(东海店)",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于ITC万科中心A座三楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐家公寓(阳光广场店)",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于陈埭镇坊脚村沟西工业路7号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴华旅馆",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于青阳街道青华社区泉安中路789号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "功牛泉州牛肉小吃店(东海香缤店)",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于滨海街139号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华廷商务宾馆",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于祥芝镇大堡工业区北一片4-4号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华盛电竞酒店(阳光广场店)",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于泉安中路771号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南安园丰宾馆",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于梅山汽车站斜对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "周麻婆(泉州丰泽海星街店)",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于海星街62-66号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉隆宾馆(晋江第二中学店)",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于池店镇池店村凤西区68-1",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(泉州市东海海星店)",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于海星小区一期20栋14号店铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大河水浒烤肉(东海1+1广场店)",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于东海大街1+1",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天后宫",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于临江街道天后路1号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宋小谨(东海ITC万科中心店)",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于东海ITC万科中心写字楼B座3楼",
+    "tags": [
+      "050110"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小黑の吐司店·西餐料理(东海店)",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于东海街道翡翠园翡翠街97号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴黎公寓(仰恩大学店)",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于仰恩大学新区学生街慢时光酒吧同栋",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦来酒家(丰泽东海店)",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于海星街8号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠胜旅馆",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于螺城镇霞张综合大厦东霞路140号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋江兴旺旅馆",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于德泰路308号万兴大厦",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋江英瑞大酒店(英林镇人民政府店)",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于英林镇龙英路1193号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋江雅文精品公寓(泉州职业技术大学店)",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于内坑镇柑市村景阳东路5-2号2楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(东海1+1广场店)",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于东海大街526号一加一广场F132",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉堡王(泉州金花广场)",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于府西路科技馆负一层入口",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉州东海悦华酒店·闽筵1984中餐厅",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于滨海街辅路与丰海路交叉口西北220米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉州东海金花人民广场",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于大兴街与府西路交叉口北120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉州大开元寺",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于西街176号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉州市政务服务中心市民广场",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于公共文化中心",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉州树鹰太空舱客栈",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于玉犀巷5号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉州森林公园",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于通港路410号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉州海外交通史博物馆",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于东湖街道东湖街425号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉州荣誉国际酒店·中餐厅",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于丰海路1688号泉州荣誉国际酒店3楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉州荣誉国际酒店云海旋转自助餐厅",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于荣誉国际酒店33层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉州西街",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于开元街道城西路与西街交叉口",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉州酷6酒店(洛江海峡体育馆医高专店)",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于五金机电城12栋安吉路居然之家大润发旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉州钟楼",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于东西街十字路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉州非物质文化遗产馆",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于东湖街648号侨乡体育中心东北侧",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛阳桥",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清源山国家重点风景名胜区",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于泉山路",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "港湾宾馆(南山中路店)",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于南山中路236号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨海烟火广场",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于丰海路1118号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百味轩铜炉鸡锅(东海店)",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于石竹路与古港北路交叉口北80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石狮永兴酒店",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于香江路1129号(现代医院斜对面霞泽路口)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石狮金狮商务酒店",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于群英中路135号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石狮金诚商务宾馆",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于宝盖科技园锦峰路128号锦荣文化综合楼四楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绝味宫廷石锅鱼(东海湾1+1广场店)",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于东海大街526号东海湾1+1广场F1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老嗲沙茶面(师院店)",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于石壁小区3号楼106号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝色海湾-沙趣园",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于沿海大通道与三号路交叉口北240米",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蟳埔村蚵壳厝",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于海华路767号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蟳埔民俗文化村",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于丰海路东30米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西头宗祠",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于丰海路382附近",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "通淮关岳庙",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于涂门街186号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铭捷宾馆",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于张坂镇上塘村雕艺街6-1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿牛泉牛馆(东海旗舰店)",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于金花广场大剧院负一层售票厅对面",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "领SHOW天地",
+    "city": "泉州",
+    "category": "attraction",
+    "description": "位于泉秀街道刺桐路112号",
+    "tags": [
+      "120100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿洋宾馆(晋江店)",
+    "city": "泉州",
+    "category": "hotel",
+    "description": "位于青阳街道阳光广场新村19排6号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(泉州师范学院餐厅)",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于东海街道东海大街398号泉州师院学院第三餐厅4层D9商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麻舅姜母鸭·闽南小馆(东海店)",
+    "city": "泉州",
+    "category": "food",
+    "description": "位于海星街12号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

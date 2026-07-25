@@ -1,0 +1,2173 @@
+[
+  {
+    "name": "1939西餐咖啡",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于新城路53-1栋1单元2号",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "32坐·炖涮锅(本溪小市店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于友谊街130-36号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "CASSEROLE麻辣烫",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于市府北街与人民路交叉口东100米",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一家人川菜馆(铁运小区店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于铁运小区北门旁",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一家民宿",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于小市镇本桓公路同江峪村72号1-2号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三千里烧烤韩式烤肉(东明路店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于东明路40号",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三姐妹烧烤炸串吧(银座购物广场店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于平山路5栋C211号(银座后门)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "不怂撸串公司(东明三路店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于东明三路灯光球场上行100米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东吉馆韩式餐厅(站前店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于铁运街7号",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东芬广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于解放北路东芬转盘路口附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽园休闲广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于胜利路25号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽梅羊汤馆(河畔花园店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于康泰街与春光路交汇处北行40米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九宫格张家火锅(西芬路店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于明山区消防三角地",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九旺烧烤江湖菜",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于崔东路7号铁路崔西小区",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九鼎铁刹山风景区",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于田师付镇铁刹山村4组35号1-1",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云水阁民宿",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于卧龙街道卧龙村三组卧龙小学东北侧100米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五女山山城",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于桓仁镇刘家沟村五女山景区(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五女山景区",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于桓仁镇刘家沟村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亚溪朵宾馆(南地店)",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于解放路141号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仁达花园酒店",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于彩屯二路2-3栋(近彩屯消防队)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仲夏广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于市府北街26号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "何记羊汤馆(丽水佳源二区店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于民族路11-2栋3",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳乐旅店(本溪县小市镇店)",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于小市镇过境路惠泽园10号1-4-1-2",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八宝云光洞",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于田师府镇铁刹山风景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "关门山国家森林公园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于小市镇关山湖",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰山公园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于卧龙街道卧龙街道卧龙街道卧龙街道卧龙街道",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘记鸿大火锅鸡(石桥子店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于石桥子乡下石村五村民小组",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "勤道商务宾馆",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于长江大街章樾公园旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华严寺",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于工人街道工人街道工人街道环山路125号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华夏公园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于丹阜高速",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华福羊汤馆(小市总店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于春光路66号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南芬区人民广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于中心路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "原三角地豆腐脑筋饼",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于市府南街与解放南二路交叉口西60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉野家(本溪大商吉野家店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于人民路友谊巷8栋大商超市一层",
+    "tags": [
+      "050309"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "名都晓荷塘主题火锅(春光路店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于阳光花园小区2期11号门旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "名都晓荷塘主题火锅(桓仁店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于桓仁镇向阳街09组1幢0单元9号10号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吾悦肥牛",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于紫金路15-2栋1层2-6号门市",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季羊汤(小市总店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于春光路中医院南行100米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大冰沟国家地质森林公园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于思山岭街道办事处南沟村三组",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大石湖",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于东营坊乡新城子村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大石湖风景名胜区-观景台",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于东营坊乡新城子村大石湖内(东侧)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安小胖韩国烤肉(平山区东明店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于东明路与北光路交叉口西北120米",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安居广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于新欣街32-4号附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝山游园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于后湖二道岗大众超市",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "实华·新时代广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于胜利路3-5号附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小信卤炸串",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于东山二道5栋5号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小华山公园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于阳光花园1号楼",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小市一庄",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于小市镇本桓公路同江峪水洞旁(本桓线本溪远航加油站西南150米)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小市一庄网红打卡地",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于迎宾路东南侧",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小市小七羊汤",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于春光路阳光一期",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小市小小羊汤总店",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于小市客运站迎宾路173号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小木屋拌饭(本溪平山银座店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于平山路5号银座购物广场F4层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "工字楼坛肉馆(长江购物广场店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于体育路华联商厦长江店(西门)旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市府广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于人民路31号人大综合楼",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平山区月下三旬日常料理餐厅",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于平山路30栋1门1层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平顶山森林公园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于天门路西50米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平顶山森林公园(西城口)",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于环山路60-2号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平顶山森林公园-青云关",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于天门路平顶山森林公园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平顶山索道",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于平顶山庄对面",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸福里四季火锅城(地工路店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于碧春园2号门旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "建设广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于樱花街与华程路交叉口西北120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(新玛特店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于解放南路8号新玛特1-2层",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于中兴路23号附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "斜坡道广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于小阳沟铁矿",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪万鹏商务旅馆",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于望溪公园6号门对面嘉城新居80号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪世家快捷宾馆",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于樱花路36号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪东风湖旅游度假村",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于东风街道新兴村",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪关山湖景区",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于小市镇陈英村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪关山湖景区心洞",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于小市镇关山湖关门山国家森林公园(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪博物馆",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于峪明路324-1",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪县时达商务宾馆",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于小市镇观音阁向阳街(惠泽园南侧50米客运站对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪大峡谷",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于思山岭街道解放村本溪大峡谷内",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪峰岳时尚快捷旅馆",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于消防路53栋1-2层4号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪工会辽宁职工文化广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于唐家路与卫育街交叉口西40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪巴里岛国际酒店",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于峪明路银亿家园三期22号楼银亿商务中心",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪市动植物园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于宾馆路平顶山西北麓",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪市园林管理处望溪公园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于人民路望溪公园(西北角)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪开元客栈",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于开元大厦4单元平台1层1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪枫叶商务酒店(火车站店)",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于广裕路2号(铁路转盘旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪樱花浴池民宿",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于樱花街与育龙路交叉口西北260米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪水洞-乘船处",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于本溪水洞乘船处(本溪水洞风景区)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪水洞景区",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于谢家崴子村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪汤沟绿石谷国家森林公园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于胡汤线与569乡道交叉口东",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪泽缘快捷宾馆",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于消防路78号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪湖公园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于溪湖西路212号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪湖工业遗产群",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于溪湖东路与大明山街交叉口西360米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪湖景区国家地质公园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于河西街道溪湖西路路208号本溪湖景区",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪溪源居民宿(小市一桩店)",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于小市镇同江峪村三组中国石油加油站东北150米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪爱情公寓",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于胜利路与解放北二路交叉口世佳商务大厦19楼12号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪环城国家森林公园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪玻璃栈道",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于本溪大峡谷内(西侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪私人山庄",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于老边沟三组1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪聚贤楼客栈",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于过境路惠泽园10号-02",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪良缘精品公寓",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于解放北路联胜巷九栋一单元三楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪速伍宾馆",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于消防路68号2层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪陈家宾馆(消防路店)",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于消防路78号新地公寓2层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本溪青云山风景区",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于天门路2-20号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李先生牛肉面大王(银座购物广场店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于平山路5号银座购物广场F1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李顺玉朝鲜冷面店(水塔路店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于站前街道水塔路1号",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "枫叶广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于翠溪路与华溪路交叉口西南140米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "枫桦园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于明西小区13号楼4单元6-11",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栖迟客栈(本溪县小市镇客运站店)",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于小市镇中国石油加油站东南40米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桓仁华壹宾馆",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于民族一条街",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桓仁富祥招待所",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于桓仁客运站南(长江大街北)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桓仁曈曐商务之家",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于汇丰街37栋567号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桓仁满族自治县鹏利多铜锅涮肉有限公司",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于桓仁镇正阳街01组12幢0单元33号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桓仁鑫悦客栈",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于长江大街章悦公园左侧",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桓仁鑫旭旅店",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于桓仁客运站后身(民族路南)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欢喜岭文化广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于欢思线",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欧罗巴(永丰店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于解放南路2号",
+    "tags": [
+      "050400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "武山游园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于矿院街30号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳药科大学(南校区)旱喷广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于华佗大街26号沈阳药科大学(南校区)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈阳药科大学南校区药文化交流广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于枫叶路与华佗大街交叉口南300米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "治沉广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于彩兴街16号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪源小市羊汤(榆林华苑店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于石桥子街道银石街1-41栋-3",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海联商务宾馆",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于解放北路29号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溪山居民宿(本溪铁刹山站店)",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于田师付镇G506(本桓线)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溪湖人防文化广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于峪中三道街",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "满宝馄饨(站前店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于市府南街2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "焦妹儿重庆火锅",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于华程路与一中街交叉口东北100米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊喵来了火锅(本溪万达店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于万达广场四楼4307、4308",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱情公寓(本溪县中兴店)",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于小市镇中兴小区2期10号门市",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛毛岭景区国家地质公园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于柳彩线附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "环保园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于溪湖东路与河畔巷交叉口南40米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瑞枫山居民宿",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于小市镇同江峪村三组本恒线小市一庄游客中心东北方向260米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百花园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于人民路望溪公园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "相盈商务宾馆",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于水塔路32号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祥云公寓拾光民宿",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于福民街16号楼2单元10-13号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦氏环球炸鸡(环球商场店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于解放北路17号环球商场F1层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "简爱时尚公寓(桃源居店)",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于东坟桃源居",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "纯本溪县老林极品羊汤(水塔总店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于水塔路62号聚点烧烤正对面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老八民宿(田师傅镇铁刹山村大张堡店)",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于田师付镇铁刹山村东组供品鲜花北50米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老北京铜火锅(平山路店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于建工农贸大厅下行30米(渤海渔港酒店隔壁)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老太太豆皮(南芬店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于郭家路聚鑫源大酒店南30米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老张羊汤(滨河西路店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于小市镇丽水嘉园26楼-101",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老红军美味火锅(消防店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于水塔路90号(与武安路交叉口)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老边沟风景区",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于东营坊乡南营坊村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(华联店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于永丰商业区华联街1号",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(小市店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于观音阁街道长江路396号华龙购物中心一层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(本大店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于解放北路4号(商业大商一楼肯德基)",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡同涮肉(本溪水塔店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于水塔路与矿院街交叉口西60米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡同涮肉本溪二店",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于解放北路127栋一1层1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "良辰民宿店",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于黄山路12号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花隐居日式烧肉店(本溪市东明文化旅游商业街店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于东明路东明小学上行30米",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苗可秀烈士纪念广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于河东路175号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "薛家牛肉面",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于北光路66栋公建5号",
+    "tags": [
+      "050500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "藏龙寺",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于居仁路",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西芬城建小花园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于西芬路与新胜巷交叉口东北80米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "财富广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于长江路396号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辽宁本溪铁刹山景区-国家地质公园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于田师傅镇铁刹山",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎宾广场",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于迎宾路209-2-7-1号附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邵汇大虾(本溪万达广场店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于万达广场(本溪店)4栋",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金山公园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于紫金北街1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金氏韩国城炭火烤肉专门店(东明店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于东明路21号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金港大酒店(民族路)",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于民族路m11号(阳光池典对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫城炸串大排档",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于欧洲城一期后门下行50米鑫城炸串大排档",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铜小主老北京铜火锅(富祥店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于富祥家园B座左侧",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铜小主老北京铜火锅(永丰旗舰店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于解放南路33号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铜火涮肉馆",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于北光路34栋一层(军转大厦后身)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青年园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于明山路133号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "静云园",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于转山新家源小区",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高峪山公园-百合门",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于百合新城(合峪街北)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿鑫民宿旅店(本溪火车站店)",
+    "city": "本溪",
+    "category": "hotel",
+    "description": "位于",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(胜利路DT店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于胜利路5栋1号站前联营三角地",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(金圆大厦店)",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于永丰街2栋1层13门33号",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼎香府鲜肉火锅",
+    "city": "本溪",
+    "category": "food",
+    "description": "位于西芬路与体育路交叉口东60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙门峡景区",
+    "city": "本溪",
+    "category": "attraction",
+    "description": "位于小市镇关门山国家森林公园内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

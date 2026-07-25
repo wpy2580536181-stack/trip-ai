@@ -1,0 +1,2251 @@
+[
+  {
+    "name": "Looklike·z鹿莱酒店(上虞万达广场店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于高铁新城万达商业广场J4-A2地块2幢14楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "WePlus电竞公寓(诸暨店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于浣东街道高湖东路69号万达广场C座23楼2307",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "㹧犭茶湖避塘",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于环湖路避风塘",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一溜下",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于沃洲路124-126号(近西区电信大楼)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七欣天(绍兴世茂广场店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于世茂广场绍兴越城店南停车场都泗门路与环城东路交叉口西北20米",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东方山水乐园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于柯岩街道鉴水南路118号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东浦广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于体育场路93号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东街绿化广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于解放北路与千金弄交叉口东80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "书圣故里",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于胜利东路117号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五泄风景区",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于五泄镇",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仓桥直街历史街区",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于仓桥直街",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "会稽山兜率天景区",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于湖塘街道大香林天宫景区",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "你好牛潮汕鲜切牛肉火锅体验馆(镜湖店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于解放大道158号镜湖星城大厦2层(凤林地铁站A口旁)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侯三岁美蛙鱼头火锅(城南总店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于城南大道515号(城南大道地铁站A口步行300米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兰亭景区",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于兰亭街道兰亭村(奇石王宫景区西北49.1公里)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十九峰景区",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于澄潭街道左于村(奇石王宫景区东南20.6公里)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十里荷塘",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于国家城市湿地公园",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南村党建广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于东浦街道南村",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卢记小先肉香酥鸡烧饼(鲁迅故里店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于解放南路223-2号(鲁迅故里地铁站B口步行160米)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "友谊宾馆(兴越路店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于兴越路868号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同心楼",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于解放北路434号(城市广场地铁站G口步行270米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "周恩来祖居",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于劳动路369号(周恩来纪念馆)",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "周恩来祖居-周恩来纪念广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于劳动路369号周恩来纪念馆内(南侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "周恩来纪念馆",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于劳动路369号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜在山舍·老宅吊锅·川卤酒馆(绍兴天地店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于马臻南路18号绍兴天地L2层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔山文化广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于耀应弄与解放南路交叉口西100米",
+    "tags": [
+      "060501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大佛寺风景名胜区",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于人民西路117号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大滩公园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于大滩路与解放大道交叉口东南360米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好好公园 OK PARK",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于灵芝街道越西路1555号镜湖直江滨河公园直江水岸D座D6商铺",
+    "tags": [
+      "050700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安昌古镇",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于安昌街道安昌古镇入口广场",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "官渎滨水公园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于洋观路与观南路交叉口东南20米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "家外之家宾馆(绍兴柯桥瓜渚湖公园店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于耶溪路376号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宽马记·热鲜牛肉海鲜火锅(绍兴店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于湖东路2558号绍兴柯桥宝龙广场F1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嵊州市西桥米果",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于鹿山街道长春路83号",
+    "tags": [
+      "060704"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴奴毛肚火锅(绍兴苏宁广场店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于浙江省绍兴市越城区灵芝街道解放大道190号4楼457、458号铺位",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴奴毛肚火锅(绍兴金帝银泰城店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于塔山街道金帝银泰城1幢F4层4F013",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴邑火锅(朗臻·新天地店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于苎萝东路122号朗臻·新天地B座1013",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平乐宴",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于灵芝街道梅山春晓2-1号楼S205、S328室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸福面馆(金滩大厦店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于金滩大厦一楼102室(凤林地铁站B口步行410米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张亮麻辣烫(佳源悦城店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于佳源广场(梅山广场地铁站C口步行410米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐渭艺术馆",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于后观巷32号",
+    "tags": [
+      "140400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐记次坞打面(门头红底白字马弄店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于马弄68号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拓荒牛广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于马山街道越东路水乡文化公园内(北侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敏姐鲜牛肉火锅",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于佳源广场17幢114号",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新昌梅苑宾馆",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于东昌西路21-1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "旧故里影院自助入住公寓(绍兴长电集成电路店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于皋埠街道漫池路樾芯城2幢",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月池坊广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于胜利东路与解放北路交叉口(城市广场地铁站G口旁)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朝阳早餐店特色蒸汤包",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于南明街道育才路43号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨浜村党建文化广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "果树广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于后墅路与润沁路交叉口南120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柯福麻辣烫(柯桥旗舰店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于港越路622号2幢101一104",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柯福麻辣烫(镜湖店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于灵芝街道佳源悦城25幢109号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(金帝银泰店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于解放南路687号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栖上未来巨幕影院式公寓(袍江大润发店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于斗门街道世纪东街57号永利中心2211室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梅山江休闲公园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于树兰路与本觉路交叉口西北40米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梅龙湖公园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于黄金时代附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梦都宾馆(诸暨市第二人民医院东北)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于步森大道304号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "森林宾馆(诸暨市商务综合行政执法大队西)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于浣东北路143弄3-1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "次坞阿生手工打面(新泽大厦店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于灵芝街道洋江西路288号新泽大厦(后墅路地铁站B2口旁)全季酒店旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水乡文化公园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于马山街道越东路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江东饺子馆",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于江东路101号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沃洲路62号羊骨头",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于南明街道沃洲路62号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈氏园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于鲁迅中路318号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "治水广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于绍兴治水纪念馆西北",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "波影绍兴宴(镜湖店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于解放大道与凤林西路交叉口(凤林地铁站B口步行90米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浙东运河文化园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于东浦街道云集路1388号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(万风新天地店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于浣东街道苎萝东路555号万风新天地1-B1层南区商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(大通购物中心店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于市民大道路689号大通购物中心6楼6F-01",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(柯桥银泰店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于笛扬路1531号银泰百货6层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(绍兴银泰城店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于解放南路777号金帝银泰城五楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海越人家菜馆",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于海樾府东区西门西南70米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "添添公寓(绍兴国际会展中心店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于迎驾桥路迎驾桥村907号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湿地公园梅山景区",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于解放大道",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潮牛海记(绍兴柯桥店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于兴越路1296号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛小丫潮汕鲜牛肉火锅(城北店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于暨阳街道康庄路32号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛小丫潮汕鲜牛肉火锅(城西店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于艮塔西路135号(万塘汇东面瑞幸咖啡左边)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛小丫潮汕鲜牛肉火锅(广和商业大厦店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于艮塔东路179-181号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王氏蒸饺(水沟营店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于塔山街道水沟营102号(近鲁迅故里地铁站B口)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玖味坊大糕(鲁迅中路店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于鲁迅中路575-2号(沈氏园斜对面)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "生态广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于阳明北路与延安东路交叉口东140米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "界树坊文化广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于后墅路152号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石舍玄武岩",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于801县道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "禧客潮牛火锅",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于柯桥街道湖西路宝龙天地4号楼103室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "禧客潮牛火锅(佳源广场店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于镜湖佳源广场16幢101-4室(梅山广场地铁站C口步行370米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦晋美味面馆(镜湖中新广场店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于灵芝街道御和园15幢1单元10号(后墅路地铁站D口旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米莱轻奢酒店(诸暨宝龙广场店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于陶朱街道祥云路宝龙广场商业裙房B幢1518室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紹越鄉宴飯莊(御公馆)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于洋江西路255号御和园15幢2F(御公馆2 F)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴·隐史桥",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于梅山公路与洋江西路交口镜湖国家城市湿地公园内(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴东湖风景区",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于皋埠街道云东路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴伟业广场国际风情街区",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于绸缎东路与站前大道交叉口东北140米",
+    "tags": [
+      "120000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴供销旅馆",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于新世界大酒店旁",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴便民酒楼",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于京福线与上风路交叉口东北260米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴凯铭民宿",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于环镇北路2号桥",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴博物馆新馆",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于斗门街道解放大道566号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴宏阳客房",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于中兴北路247-1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴宏飞客房",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于中兴北路263-1号(近客运中心)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴悦来客栈",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于港越路越华大厦二楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴朗轩宾馆(前梅地铁站店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于钱清镇永通国贸中心-3幢文化路307号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴永佳客栈(鲁迅故里仓桥直街店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于人民西路作揖坊52号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴汇金生活艺术广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于府山街道解放北路199号绍兴汇金生活艺术广场一楼1011号商铺",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴男生躺平民宿(东江小区店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于育贤路东江小区37栋023室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴白玉公寓",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于迎宾大道259号(上虞国际大酒店斜对面,嘉年华娱乐城旁)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴竞旅电竞公寓(天悦城越秀外国语学院镜湖校区店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于东浦街道天悦城创客中心9层9009室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴美旅酒店(鲁迅故里店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于剡溪路337号3楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴胜利宾馆(鲁迅故里度假区店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于胜利西路771号胜利大桥旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴袍江金袍客栈",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于斗门镇汤公路61号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴迎驾桥公寓",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于迎驾桥小区15幢2501",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴锦绣宾馆",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于金扬路225号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绍兴镜湖海洋世界",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于群贤中路与后墅路交叉路口",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿格民宿(绍兴迎驾桥店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于迎驾桥社区862号楼民格民宿",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老乡鸡(绍兴祥源广场店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于后墅路299号105室",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老木子鸡(江东路店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于暨阳小学西北门东北80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老袁炒年糕(富豪路店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于富豪路278号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肥牛先生火锅(诸暨店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于东一路78号尚鼎铭座1楼2楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(柯桥万达店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于柯桥镇钱陶公路与湖中路交叉口万达广场1-2F肯德基餐厅",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(绍兴环宇一号店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于凤林西路302号一层302-2号商铺",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(绍兴镜湖新天地店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于解放大道与洋江西路交叉口镜湖新天地商务广场1幢113号、114号、115号",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖大姐黄泽豆腐馒头",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于越秀路96-98号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舜泉澜海壹号·新派海鲜豆捞·空中花园江景餐厅",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于曹娥街道惠普广场E幢1楼105",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茉莉·轻奢公寓(诸暨宝龙广场店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于陶朱街道艮塔西路122号宝龙广场B幢11楼1115号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫泰酒店(绍兴客运中心鲁迅故里店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于中兴北路195号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝莲花开·国际青年旅舍(新昌大佛寺店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于南街城市记忆区西21、22号",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蔡元培广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于解放北路(城市广场地铁站G口步行380米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蔡记绍兴土菜(镜湖店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于灵芝镇凤林西路金滩大厦103-104号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蕺山公园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于石家池沿133号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袍江文化体育广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于马山镇世纪街",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袍江洋泾湖公园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于群贤路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西施故里",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于苎萝东路2号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "覆卮山景区",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于岭南乡东澄村2号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诸暨五星宾馆",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于暨东路20号(绍兴银行对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诸暨五泄泄源乡间别院农家乐",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于应店街镇丰周村9号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诸暨华力快捷大酒店",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于大唐镇商城路1-9号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诸暨华安大酒店",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于东兴支路104号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诸暨友谊宾馆(大唐袜业城店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于大唐开元西路236号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诸暨如祥宾馆",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于东二路71-2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诸暨美都宾馆(西施故里店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于暨阳街道东兴路5号美都宾馆",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "越小馆",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于解放大道与树兰路交叉口西南120米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "越王城文化广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于偏门直街35号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达达客房",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于袍江育贤路135号天一小区2幢201",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎恩门",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于环城北路19号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "运河文化公园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于绍三公路与洋江西路辅路交叉口西南140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迪荡湖公园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于迪荡街道二环北路与越东路交汇处西侧(东湖派出所对面)",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "适南亭",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于梅山公路与洋江西路交口镜湖国家城市湿地公园内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑阿公顺德鸡煲饭双皮奶(金帝银泰店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于金帝银泰城5幢7-2.8室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "醉玖兰亭·精细绍兴菜",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于佳源广场一楼(梅山广场地铁站C口步行350米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鉴湖旅游度假区",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于杨绍公路与支路交叉口西北340米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鉴湖景区",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于柯岩大道558号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铭都酒店(诸暨小商品市场店)",
+    "city": "绍兴",
+    "category": "hotel",
+    "description": "位于暨阳街道艮塔西路12-1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "镜海宴星光餐厅",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于灵芝街道镜湖之星大厦(洋江西路180号)301-330室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "镜湖中心广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于横湖路",
+    "tags": [
+      "120000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "镜湖国家城市湿地公园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于解放大道与体育路交汇口东100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "镜湖国家城市湿地公园-梅园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于梅山公路与洋江西路交口镜湖国家城市湿地公园内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "镜湖广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于洋江西路530号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "镜湖本塘我家酸菜鱼(镜湖奥体店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于凤林西路372联合大厦1-2楼",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "镜湖渔猎公园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于灵芝镇解放大道",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "镜湖直江公园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于官渎路与凤林西路交叉口南280米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "镜湖直江公园·镜湖里",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于越西路1600号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "镜湖直江滨河公园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于越西路与灵芝路交叉口南400米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳明故里",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于府山街道上大路300号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿丁豆腐包(富豪路店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于富豪路204号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香胖子重庆老火锅(柯桥万达店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于金柯商汇小区金柯商苑",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香胖子重庆老火锅(柯桥古镇店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于万商路924号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香胖子重庆老火锅(解放路店)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于塔山街道恒大商务楼105室",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马拉松主题公园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于国家城市湿地公园",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲁迅故里",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于塔山街道鲁迅中路241号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲁迅故里-百草园",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于鲁迅中路241号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲁迅故里-绍兴古城",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于鲁迅中路241号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲁迅故里-鲁迅故居",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于鲁迅中路241号(鲁迅故里地铁站A2口步行480米)",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲁迅文化广场",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于鲁迅中路与中兴南路交叉口西40米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲁镇牌坊",
+    "city": "绍兴",
+    "category": "attraction",
+    "description": "位于柯岩大道558号绍兴柯岩风景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(柯桥万达餐厅)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于柯桥万达广场1-102,1-103号麦当劳餐厅",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(柯桥华联餐厅)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于柯桥街道笛扬路1288号华联国际商贸城1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(绍兴紫金广场餐厅)",
+    "city": "绍兴",
+    "category": "food",
+    "description": "位于越发紫金广场东北门旁(凤林地铁站C口步行120米)",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

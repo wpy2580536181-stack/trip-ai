@@ -1,0 +1,2186 @@
+[
+  {
+    "name": "A'GU阿顾西餐·融合料理(半岛店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于半岛书香底商14-2(燕大西校区南门斜对面)",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东发宾馆(火车站店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于红旗路319-2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仙螺岛假日酒店",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于南戴河胜利路5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仙螺岛景区",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于南戴河旅游度假区环海路1号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳之星快捷酒店(和平大街店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于和平大街96号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元鼎斑鱼火锅(森林逸城店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于白塔岭街道森林逸城便民市场1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元鼎斑鱼火锅(秦皇东大街店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于秦皇东大街与迎宾路交叉口东150米路南(服务北里18栋6号)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴旺来宾馆(北戴河刘庄夜市店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于刘庄北里11栋9号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冀香园精品家常菜",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于横断山路288号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "农大超越火锅鸡(秦皇岛店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于秦海路69号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冰塘峪",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于大新寨镇梁家湾村东附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯达饺子(滨河湾店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于秦皇东大街滨河湾东南侧约30米",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯达饺子天成锦江苑店",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于经济技术开发区祁连山南路74号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "劳模广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于秦皇西大街汤河旁",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北戴河东海岸民宿(刘庄海鲜市场店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于联峰北路赤土山新村21栋2单元402",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北戴河亚地宾馆(刘庄夜市街店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于刘庄北里8栋12号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北戴河曹秀珍民宿(金港大道分店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于金港大道戴河镇菜各庄村北片东街",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北戴河欣怡家庭公寓",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于育花路赤土山新村(近育花路)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北戴河海滩",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于滨海大道",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北戴河碧螺塔海上酒吧公园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于海滨东海滩路中段",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北戴河花清池民宿",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于大薄荷寨中西街15号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北戴河那鹿湾旅馆(刘庄夜市店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于育花二区19-5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "半岛公园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于南岭东路60号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华通宾馆(燕山大街)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于燕山大街372号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南戴河国际娱乐中心",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于南戴河旅游度假区沿海路999号",
+    "tags": [
+      "080300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南戴河海岸别苑宾馆(仙螺岛店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于金海道3号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南门涮肉(阿那亚·北戴河店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于昌黄连接线3号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卢龙顺心旅馆",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于宏屹·国际城东南门东北130米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "原下庄美味牛肉板面馆",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于金海湾森林逸城西2门北230米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "口袋公园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于横断山路与山东堡路东北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "叶存利非遗海鲜大馅饺子(西港路店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于西港路42-11号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "君山一品海鲜大咖海鲜烧烤(燕山大学店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于横断山路283号",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四条包子(南大街店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于南大街9-8号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "回记-清真铜锅涮肉烧烤",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于红旗大街18号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "圣顶山旅游度假区",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于大新寨镇大石窟村背牛顶旅游区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城墙海鲜烧烤",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于森林家园横断山路282号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔山公园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于纬中路燕山大学里仁教学楼北侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大潮坪湿地",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于鸽赤路25号鸽子窝公园内(西侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大秦印像",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于南岭东路60号半岛公园北侧",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大门凤火锅鸡(半岛店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于半岛书香247号",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天女小镇",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于石门寨镇祖山风景区内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天泽饭店",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于横断山路294号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天翔宾馆(北环路)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于北环路街道565号(土台子站点对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥体街广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于岭前街与文泰路交叉口北160米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥林匹克公园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于东山街道联峰路113号北戴河景区内",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥林匹克公园-广场主雕",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于滨海大道奥林匹克公园内(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好人广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于康健路1号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "子鲤海鲜烧烤·海鲜大咖·蒸汽海鲜(八三市场店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于燕山大街238-5(二层)",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孟家店火锅(徐凤芹饭店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于孟家店村72号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "季风之旅宾馆(粮臣燕大小吃街店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于河北大街西段136号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小楼昨夜宾馆(燕山大街店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于燕山大街364之1-2",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小猪查理烤肉自助(仙螺岛店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于南戴河保利观潮B座103门店",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小财猫旅馆(刘庄夜市鸽子窝店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于单庄新区41号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "居山水岸民宿(刘庄夜市店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于刘庄北里63号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山河屯铁锅炖(南岭东路店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于南岭东路83号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山海关合喜浑锅(古城总店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于古城南大街11-1号(四条包子铺旁边山海关浑锅好评第一)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山海关头条浑锅",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于古城南大街30-4号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山海关景区",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于东大街1号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山海关景区·天下第一关",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于东大街1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山海关景区·老龙头",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于龙海大道1号老龙头景区内",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴依老爷新疆餐厅(秦皇岛店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于归提寨商业街",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市隐于市·成都饭店(半岛大厦店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于白塔岭街道横断山路235号101号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常品轩火锅烧烤",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于南关街道山海关人民医院东侧门市房1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "延边烧烤(秦皇岛总店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于横断山路南段金屋大厦楼下秦皇国际商业街290号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开放广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于秦皇西大街",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德胜农家菜·家庭民宿园",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于大新镇梁家湾新村",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德贤天空之境社区公园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于河北大街西段S267号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(秦皇岛茂业天地店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于河北大街以北文昌路以西茂业天地一层F01002X号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "志刚涮园(海鲜浑锅荤锅)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于关城南路46号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦居宾馆",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于江苏南路(渤海农贸市场旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "情人岛",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于海滨东北角鸽赤路鸽子窝公园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "抚宁小布丁公寓",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于骊城大街121号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晓起闻涛民宿(联峰路分店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于联峰路北戴河王淑芳旅馆",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晓麦穗大馅蒸饺",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于滨海新大道阿那亚社区生活区四期2栋1层106-108号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "木林森酒店(北戴河刘庄夜市街店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于刘庄育花小区二区17排9号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "板厂峪长城公园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于驻操营镇板厂峪村板厂峪长城公园内",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柒已汣·糟粕醋酸汤火锅",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于阿那亚社区北岸中区商业街97栋",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(燕山大学店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于西港镇河北大街西段273号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栖云山",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于云栖樾舍山顶度假酒店西北侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "森澜·SEABREEZE海滨度假民宿(北戴河刘庄夜市街店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于刘庄北里5栋8号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永平宾馆(卢龙县人口和计划生育局行政执法大队西北)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于永平大街1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汤河公园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于西港路西200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沉思广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于珠江道与太行山路交叉口西南280米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河北秦皇岛柳江国家地质公园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "法云寺",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于新店子村",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海宴饺子",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于横断山路284号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于秦皇东大街138号世纪港湾购物广场AL3层309-1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(茂业中心店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于河北大街368号茂业天地五层F05027X号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海滨国家森林公园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于海滨大道中段",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海澜广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于河滨路与秦海路交叉口东南60米",
+    "tags": [
+      "080109"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海饺先生(逸城店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于西港镇河北大街西段431号金海湾森林逸城便民市场",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渔岛海洋度假区",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于北戴河新区赤洋口片区滨海新大道D4段东侧",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渔田七里海度假区",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于北戴河新区七里海片区现状道路S364南侧大韩庄西侧",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渤海味道手工饺子馆",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于海阳路106-1号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "港丽餐厅灌汤包(河北大街西段燕山大学店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于河北大街西段456号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "澜曦阁民宿(北戴河店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于北岭新区5排2号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熙成烧烤·三十三年(半岛大厦店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于横断山路235号半岛大厦201",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱驻我家·海滨度假民宿(北戴河刘庄夜市街店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于刘庄北里8栋10号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百味饺子城",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于秦皇东大街328号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧螺塔",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于东海滩路北戴河碧螺塔海上酒吧公园内(东侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祖山风景区",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于京秦第二高速石门寨出口北4公里",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "科普展园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于六盘山北路与秦皇西大街交叉口西150米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦家味老菜馆(半岛店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于横断山路239号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇之眼摩天轮",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于白塔岭街道奥体中心南08号",
+    "tags": [
+      "080305"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇小巷",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于奥体街与文育路交叉口东侧",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇岛人防公园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于横断山路与青龙河道交叉口西南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇岛北戴河怪楼奇园景区",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于联峰路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇岛博物馆",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于河北大街西段521号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇岛天峰宾馆(北戴河火车站店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于火车站售票厅东50米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇岛小时光客栈",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于葡萄园酒店南行50米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇岛市人民广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于康乐街21号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇岛市山海关区一口猪快餐店",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于新影小区6号楼一层门市房",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇岛市文化广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于秦皇东大街80号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇岛悦如宾馆",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于开发区漓江道39号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇岛新澳海底世界",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于河滨路81号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇岛星光公寓",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于白塔岭街道河北大街西段远洋海逸世家46栋1单元2楼210室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇岛海岸逸舍海景公寓",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于金海湾森林逸城B区29栋迪欣超市旁边",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇岛海舜宾馆",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于东山街综合楼5号(临近秦皇岛港口医院)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇岛港口工业旅游区",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于太平湾停车场",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇岛祥云旅店",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于西沙滩19栋",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇岛野生动物园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于滨海大道62号",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦皇岛野生动物园-中心广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于滨海大道中段秦皇岛野生动物园内(北侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "竹园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于滨海大道中段秦皇岛野生动物园内(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(新茂业天地店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于西岗镇河北大街西段368号茂业天地第四层F04016X号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "索伦旗纯羊涮肉坊(半岛店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于南岭东路54-3号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "索伦旗纯羊涮肉坊(建设大街店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于建设大街231号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "索伦旗纯羊涮肉坊(开发区店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于昆仑山南路107号香邑溪谷西侧",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "索伦旗羊汤·烧饼(漓江道店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于漓江道71号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红太阳广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于西港镇南岭东路归提寨",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老君顶景区",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于石门寨镇房庄村西",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚鑫宾馆(鼓楼东街店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于一街鼓楼东街8号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(北戴河店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于海宁路29号",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖妹面庄(阿那亚店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于听海假日生活区九区22栋107-110号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芥川千鹤",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于南岭路富立半岛七区30-1底商",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花果山景区",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于花果山村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花梨坎老北京火锅店(半岛店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于南岭东路54-1(金屋售楼处斜对面)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒸蒸日上(金海湾森林逸城店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于白塔岭街道金湾环路21号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蔡各庄村文化广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于蔡各庄小区东侧120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西浴场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于河滨路81号",
+    "tags": [
+      "080109"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西环体育公园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于西环南路与文坛路交叉口西南140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "费饭时间太子锅(半岛店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于海港区白塔岭街道横断山路253号一层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "轻食光餐厅(归提寨森林家园一区店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于海港区森林家园一区南门(前程门)西7号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金屋浴场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于滨海大道中段(森林逸城南门)",
+    "tags": [
+      "080109"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金梦海湾1号",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于岭前街与秦海路交叉口西南200米",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金梦海湾浴场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于河北大街西段49号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金梦海湾海情广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于河滨路39号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金梦海湾海螺广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于秦海路132号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金梦海湾海誓广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于河滨路与山东堡立交桥交叉口东南40米",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金梦海湾海韵广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于河滨路65号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金梦海湾章鱼广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于秦海路130号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金海湾森林公园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于金湾环路金海湾森林逸城对面",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫园广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于海阳路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁饭碗(庐山路店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于庐山路19号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁饭碗火锅(西港路店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于西港路393-395号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦江公园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于西环南路与文坛路交叉口西北220米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长宏旅馆",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于大薄荷寨村南街东10号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿那亚第六食堂(文创街区店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于阿那亚七期海之镜北侧120米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陕北雷·雷师傅肉夹馍",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于海二路陕北雷肉夹馍店",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青龙三鑫宾馆",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于燕山路180号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "颐锦宾馆(北戴河区刘庄夜市店)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于刘庄北里7-6号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸽子窝公园",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于鸽赤路25号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸽子窝公园-主席像广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于海滨东北角鸽赤路鸽子窝公园内(东侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸽子窝公园-鸽子广场",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于海滨东北角鸽赤路鸽子窝公园内(东南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸽子窝公园-鹰角岩",
+    "city": "秦皇岛",
+    "category": "attraction",
+    "description": "位于海滨东北角鸽赤路鸽子窝公园内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿姐老火锅(秦皇岛店)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于文宏路2号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(秦皇岛河北大街餐厅)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于市河北大街105号",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(秦皇岛麦当劳茂业餐厅)",
+    "city": "秦皇岛",
+    "category": "food",
+    "description": "位于河北大街西段368号秦皇岛茂业中心一层F01051X铺位",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓楼宾馆(鼓楼西街)",
+    "city": "秦皇岛",
+    "category": "hotel",
+    "description": "位于武装部斜对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

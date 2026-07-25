@@ -1,0 +1,782 @@
+[
+  {
+    "name": "K23 kitchen融合创意简餐",
+    "city": "中山",
+    "category": "food",
+    "description": "位于东区龙井街32号9-11卡",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "OYO百合住宿(中山小榄店)",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于升平西路40号之2-6楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山世昌酒店(古镇车站南路店)",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于古镇车站后车站南路7-2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山人才公园",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于东区蝴蝶桥社区体育公园东",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山供销社宾馆",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于火炬开发区张家边大庙街227号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山公园",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于石岐街道孙文西路步行街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山凯悦公寓(东凤镇政府店)",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于东凤镇伯公社河尾街12号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山小枫酒店(小榄大信新都汇店)",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于小榄镇升平东路34号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山小榄园丰旅馆",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于小榄镇大道北37号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山小港湾公寓",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于石岐区街道太平路接熊里巷14号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山市儿童公园",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于东区街道沙石公路与新安路交叉口往西南约250米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山市华侨公园",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于桃苑路与利来街交叉口北180米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山市博物馆",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于石岐街道孙文中路197号(近中国收音机博物馆)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山新时代公寓",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于民新路北35号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山树木园",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于东区永安一路20号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山浩明宾馆",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于西区街道烟洲新村莲苑巷4号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山濠悦主题酒店(天奕国际广场店)",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于火炬开发区濠头村濠头大道59号2至4层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山烨丽宾馆(中山沙朗彩虹大道店)",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于西区街道彩虹大道92号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山美玲宾馆",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于文化东路白石商业小区2幢",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山铂斯曼宾馆",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于鸿发中路2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丰味馆",
+    "city": "中山",
+    "category": "food",
+    "description": "位于雅景街5号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亚金金(柏苑路店)",
+    "city": "中山",
+    "category": "food",
+    "description": "位于柏苑新村明珠坊",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "众山炸猪排(松苑彩虹阁店)",
+    "city": "中山",
+    "category": "food",
+    "description": "位于彩虹阁3幢底层11-12号之一",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴中园",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于康乐三横街与康乐街交叉口北20米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴中广场B1座",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于兴中广场B座",
+    "tags": [
+      "060102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴隆住宿(中山曹三店)",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于古镇曹三工业大道北与观音大街交叉口89号兴隆住宿",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南园咖喱(东区店)",
+    "city": "中山",
+    "category": "food",
+    "description": "位于东区街道松苑金龙横街26号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古香林公园",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于中山市儿童公园南侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四喜东南亚餐厅(盛兴大厦店)",
+    "city": "中山",
+    "category": "food",
+    "description": "位于孙文东路68号109卡",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "圣母无原罪堂",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于孙文中路与寿山里交叉口西南60米",
+    "tags": [
+      "110206"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙文纪念公园",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于东区街道城桂路与公园路交叉口以东",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岐江公园",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于西区街道中山一路与大桥横街交叉口东200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岐江桥",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于孙文西路与南基路交叉口西80米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广东中山国家森林公园",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于旱坑正街与南外环路辅路交叉口西南200米",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恒远海立方·中山海洋馆",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于石岐街道兴中广场C座1-3层",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "时代客栈(阜沙店)",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于阜沙市场生发路3号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "木槿花韩式熟成烤肉店(孙文东路店)",
+    "city": "中山",
+    "category": "food",
+    "description": "位于石岐区街道孙文东路60号",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "来龙宴龙文化博物餐厅(假日广场店)",
+    "city": "中山",
+    "category": "food",
+    "description": "位于南朗街道兴中道6号假日广场北塔2F",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "来龙点心",
+    "city": "中山",
+    "category": "food",
+    "description": "位于石岐区街道兴中道6号假日广场南塔2F(博雅书店旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松本寿司工坊(假日店)",
+    "city": "中山",
+    "category": "food",
+    "description": "位于兴中道6号假日广场F1层",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汇泉酒店",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于起湾道3号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潤omakase",
+    "city": "中山",
+    "category": "food",
+    "description": "位于东区康乐横街5号2卡",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "煲煲掂风味煲仔饭餐厅(孙文东路店)",
+    "city": "中山",
+    "category": "food",
+    "description": "位于孙文东路211-213号(金鹰广场,假日广场对面,康乐大街口)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盈喜海鲜酒楼",
+    "city": "中山",
+    "category": "food",
+    "description": "位于石岐区兴中道5号颐和君利酒店副楼3-4层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盏簋品味馆(东区店)",
+    "city": "中山",
+    "category": "food",
+    "description": "位于东区东苑路15-17卡(松苑横街7号楼下)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫马岭动物园",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于东区街道中山五路紫马岭公园内(西侧)",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缤纷幻彩摩天轮",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于凤鸣路3号兴中广场C座5层",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老北国饺子馆(松苑店)",
+    "city": "中山",
+    "category": "food",
+    "description": "位于松苑新村朝霞阁3栋8-9卡",
+    "tags": [
+      "050113"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老味小串烧烤·东北烧烤(孙文东路店)",
+    "city": "中山",
+    "category": "food",
+    "description": "位于石岐街道孙文东路68号底层110卡商铺",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西山寺",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于孙文中路197号正西方向160米民族路商业街",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遂园食府",
+    "city": "中山",
+    "category": "food",
+    "description": "位于豪程路雅观街3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金沙酒店公寓(西区沙朗中心市场店)",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于彩虹大道98号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金钟水库(金钟湖)",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于新安村第一工区7号厂房驰行电力",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫都酒店公寓(中山坦洲壹加壹店)",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于坦洲镇金斗大街121号市",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "霓虹",
+    "city": "中山",
+    "category": "food",
+    "description": "位于松苑新村朝霞阁1幢3卡",
+    "tags": [
+      "080304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺客公寓(灯都古镇店)",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于古镇曹三工业大道中路29号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马喽叔烤肉铺(石岐店)",
+    "city": "中山",
+    "category": "food",
+    "description": "位于孙文东路68号底层107卡",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马新宾馆",
+    "city": "中山",
+    "category": "hotel",
+    "description": "位于黄圃兴马路西街1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(假日广场餐厅)",
+    "city": "中山",
+    "category": "food",
+    "description": "位于石岐区街道孙文东路假日广场部分首层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙舟文化公园",
+    "city": "中山",
+    "category": "attraction",
+    "description": "位于石岐街道青溪路169号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

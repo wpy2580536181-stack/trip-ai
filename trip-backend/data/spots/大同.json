@@ -1,0 +1,2108 @@
+[
+  {
+    "name": "Wepark爱情公园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于恒安街1025号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东关削面王(泗庄家园店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于太和路与云山街西北处(云山街545号)泗庄家园",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东南邑丝路广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于东门大巷与广府角交叉口东北60米",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东南邑历史文化街区",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于太平楼南",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东庭味道老火锅(新中佳苑西区店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于永泰街道魏都御苑",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐窝窝精品家庭宾馆(大同古城店)",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于魏都大道红卫里小区5号楼1单元6号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九龙壁",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于大同古城大东街18号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二七广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于新华街道新华街26号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二青会主题体育公园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于滨河路与广德街交叉口东160米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云冈石窟",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于晋福花园东北侧",
+    "tags": [
+      "110201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云新文化活动广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于和宁街与平德路交叉口东北",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云锦会大同小馆(鼓楼店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于鼓楼东门东60米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "代王府·大明百戏园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于大同古城皇城街18号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "任记七中刀削面(大同总店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于宋庄北路25号院2层1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "儿童公园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于迎宾街与云中路交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯鸽火锅城(迎宾西路店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于迎宾西路北馨花园2号楼37号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯鸽肥牛火锅城(迎宾东路店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于迎宾东路116号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北岳恒山",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于恒山南路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北木南烤肉和酒(大同大学御东校区店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于文瀛湖街道永固街玖街时光里二层西南角268-270号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北魏明堂遗址公园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于友谊南街与南环交叉口东北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北魏涮肉",
+    "city": "大同",
+    "category": "food",
+    "description": "位于北都街752号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华严寺",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于下寺坡街459号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华严广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于大同古城华严街与清远街交叉口东南120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "原小破屋早点",
+    "city": "大同",
+    "category": "food",
+    "description": "位于雁运家属院东南门东北50米",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古都青年旅舍",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同乐楼火锅(华严寺店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于清远街南侧B区48号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同乐楼火锅(大同大学店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于永固街209号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同乐楼火锅(大同市政府博物馆店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于太和路162号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同乐楼火锅(御锦源店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于御河西路东侧御锦源北区13号楼商业楼三层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和阳门广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于大同古城-城墙带状公园东侧",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "啊婆罐罐粉",
+    "city": "大同",
+    "category": "food",
+    "description": "位于玖街时光里167号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "善化古寺",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于大同古城南寺街6号(近楼房巷)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜晋道·面馆(凯德世家店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于迎宾东街凯德世家国金中心B座",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜晋道·面馆(华严寺店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于清远街(钟楼)南侧B区1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜晋道·面馆(大同御锦源店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于向阳街65号御锦源北区",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜晋道面馆(百盛店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于百盛商场6楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜晋道面馆(绿地缤纷汇店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于南环东路80号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四牌楼",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于大同古城清远西街6-7",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城墙带状公园-大同东城墙",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于大同古城武庙街3号院",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同9527主题客栈",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于新旺街道魏都大道东信广场红星美凯龙东信店2号公寓楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同三和民宿(大同火车站店)",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于新华街三和小区3号楼三单元2号商铺",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同东关家庭宾馆",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于兴和路119号龙升园小区4号楼一单元11层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同久缘公寓",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于魏都大道金湖国际B座9层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同云饺子(市政府博物馆店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于太和路全季酒店院内西侧",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同元太旅馆",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于魏都大道东风里福园小区1-10号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同古城",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于古城街道御河西路西",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同古城城墙外带状公园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于古城街道大同古城-北都街友谊街口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同古城墙",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于和阳街与和阳门内街交叉口东100米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同大学美食街",
+    "city": "大同",
+    "category": "food",
+    "description": "位于玖街时光里",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同宏源旅店",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于新建北路50号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同左邻右舍快捷酒店",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于昌宁街491号东信广场小区1号楼1单元3层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同市博物馆",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于太和路506号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同市御河生态林·东岸",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于御河东路辅路与永固街交叉口西360米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同市文瀛湖芍药园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于文瀛北路太阳广场内(北侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同市火山群-老虎山",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于大同火山群国家地质公园内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同希悦快捷宾馆(大同火车站店)",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于魏都大道金湖国际B座14层1418室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同幸福公寓",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于北关街道魏都大道红卫里小区7号楼5单元1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同悦客宾馆",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于城区魏都大道金湖国际B座501室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同慢时光太空舱公寓",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于永泰街道永泰南路格兰云天E座1015室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同方特欢乐世界",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于永乐路13号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同方特欢乐世界-魔法城堡",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于南环东路大同文化科技产业基地内方特欢乐世界",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同昌隆快捷公寓",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于魏都大道金湖国际B座5楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同有你大不同简约时尚民宿",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于操场城街小北门嘉鑫园小区内宾利国际公馆",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同桥西浴园酒店",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于拥军北路桥西浴园",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同泽然旅店",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于长青街御北园南商铺5号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同温馨宾馆",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于昊阳南路大南街19号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同火山群-金山",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于大同火山群国家地质公园(西北角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同火山群国家地质公园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于109国道与339省道交叉口北150米",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同红东宾馆",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于东风后街与东风西街交叉口南50米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同红卫里公寓",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于武定街道红卫里小区三号楼三单元一号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同舒安家庭旅馆",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于红卫里7号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同金城快捷公寓",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于魏都大道金湖国际12层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同风情假日家庭宾馆",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于北都街与西环路交汇处东160米路南",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同鹏慧公寓",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于魏都大道金湖国际B座7层706室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大同黄花公园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于御河东路266号御河东岸平城桥北",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天骄功勋冰煮羊火锅(御西景苑店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于平城街74号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太阳广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于文瀛北路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥宇厅",
+    "city": "大同",
+    "category": "food",
+    "description": "位于文瀛湖街道兴云街大同大学御东校区南校区",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "学而思吾悦广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于南环西路6206号吾悦广场(大同店)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宇雁宾馆",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于同泉路西路228号(政府旁)(近名都广场)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小媳妇凉粉(鼓楼旗舰店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于鼓楼东街(关帝庙旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小谷姐姐麻辣拌·麻辣烫(大同大学店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于大同大学南校区奥宇餐厅二楼一号档口",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西神溪国家湿地公园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于永安镇神溪村",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "峭壁羊倌.羊肉羊杂(华严寺广场店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于古城街道清远街华严寺广场北廷12号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "峭壁羊倌.羊肉羊杂(善化寺店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于古城街道永泰门内街府学里Q11号铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广灵延陵宾馆",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于延陵路中段武装部南20米路东",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廣順興(亲水湾龙园店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于文兴路与兴云街交叉口南200米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "御东家宴(瀛泽嘉苑店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于文盛街铁一中岗东北角",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "御河园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于御河南路花园路20号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "御河生态林",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于御河东路西侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "御河生态林-孔雀园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于御河生态林(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "御河生态林乌金广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于滨河路与云林街交叉口东南140米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德味羊杂馆(古城店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于清远门内街与教场街交叉口东北角",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恒山风景名胜区-天峰岭景区",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于203省道北岳恒山内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悬空寺",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于大磁窑镇203省道恒山山腰",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "捧起滋味养生素食馆(睿和锦城东区店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于睿和锦城东区",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于003乡道与大灵线交叉口西北500米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文瀛广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于西京街与文瀛南路交叉口东200米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文瀛湖森林公园喇叭口广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于文瀛湖森林公园内(西侧)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文瀛湖沙滩",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于富安路b15-207号",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新世纪广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于魏都大道与开源街交叉口北60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新升削面(龙港苑店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于云中路211号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新马泰·翡翠湾围炉火锅",
+    "city": "大同",
+    "category": "food",
+    "description": "位于迎宾东路40号永泰学府A座01号底商",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新马泰东城铜锅涮肉(锦瑞文源店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于永和路锦瑞文源小区6号楼5号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "方特城堡",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于南环路3666号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明城墙遗址广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于尚都购物工场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明月轩·传统老火锅",
+    "city": "大同",
+    "category": "food",
+    "description": "位于御鑫花城2号楼8号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "易缘电竞公寓(大同百盛店)",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于永泰南路盛座空间B座1507室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋控煤业广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于新晋公路与大石线交叉口西北120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "智家堡公园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于开源街与友谊街交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李二鲜鱼火锅(华北星店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于华北星城北区南门东240米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(大同大学店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于鸿儒小区东侧外围11号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(源茂街店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于茂源街光明佳苑外围253号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梓家村森林公园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于北环桥附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梧桐面食(瀛泽嘉苑店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于文盛街655号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欣悦楼饭店",
+    "city": "大同",
+    "category": "food",
+    "description": "位于瑞兴大厦南侧1号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "氢都文化公园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于云州街",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水之浯公园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于恒安街461号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永泰广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于柳航里与友谊街交叉口西320米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汇智公园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于园丰街与汇智西路交叉口东北180米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "法华寺",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于大同古城大东街137号8单元4号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浑源南野民宿",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于恒荫东街早市东门进来往右100米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浑源古城",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于永安东西街和恒山南北路十字路口",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浑源忠义旅馆",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于红卫旅馆附近",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浑源李家客栈",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于民安街红波巷251号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浪漫满屋主题宾馆",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于恒安新区Q2区西南角20号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海力广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于文华路与云州街交叉口北160米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(星茂汇店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于永泰南路路西侧3333号星茂汇VOVO PARK层号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "添辉砂锅居(大同旗舰店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于绿地世纪城二期西门商铺B58号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真大寺广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于大西街九楼巷5号清真大寺",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真福兴斋烧麦",
+    "city": "大同",
+    "category": "food",
+    "description": "位于棋盘街与教场街交叉口西60米路北",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清远门广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于大同古城魏都大道东侧",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爽炭火边炉(碧水云天·博雅府店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于友谊街与柳航里交叉口西北220米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福来山庄羊蝎子(东风里店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于魏都大道348号(新建北路30号院西门东北130米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "站北快捷宾馆(大同火车站店)",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于新华街道火车站站北街3号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿轴公园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于西京街路北",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老平城小馆",
+    "city": "大同",
+    "category": "food",
+    "description": "位于鸿儒小区北1门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老库火锅",
+    "city": "大同",
+    "category": "food",
+    "description": "位于迎宾西街93号钱柜旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老柴削面(总店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于永泰南路与向阳街交叉口北50米路东",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老柴削面海力西苑店",
+    "city": "大同",
+    "category": "food",
+    "description": "位于文盛街4号楼6号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚宝源(大同店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于文瀛湖街道兴云街南侧同瑞里9栋1层101号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(大同大学店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于兴云街405号大同大学北校区文兴餐厅",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(大同永固店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于永固街南侧玖街时光里商业一层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "自然醒全女青年旅舍(大同古城永泰门店)",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于迎宾街桐城中央商务公寓20层",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花正开青年旅舍(大同古城乾楼店)",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于新华街道花园里北街104号",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荟聚青年旅舍",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于延昌路E家公寓5层",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣盛源家宴",
+    "city": "大同",
+    "category": "food",
+    "description": "位于兴源东街29号",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "裕隆食府(瀛泽嘉苑店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于瀛泽嘉苑南2门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西花园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于南寺街6号(近楼房巷)善化古寺内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观澜华府-星汉广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于御河西路80号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "豆面老号刘姥姥(003部)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于龙新花园西门旁",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎宾广场",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于迎宾街与府南街交叉口西北120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "采凉山森林公园",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于G55(二广高速)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺鑫宾馆",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于文瀛湖街道文兴路175号恒祥园A区5号楼3号商铺",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "须尽欢青年旅舍(大同古城火车站店)",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于武定北路173号二楼",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "风情假日公寓(北都街分店)",
+    "city": "大同",
+    "category": "hotel",
+    "description": "位于北都街宏洋美都1号楼顺达小区(永宁街)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "馋嘴乐大盘鸡(鸿儒小区店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于文瀛湖街道大同大学鸿儒小区外围一层商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓楼",
+    "city": "大同",
+    "category": "attraction",
+    "description": "位于大同古城永泰街(南街)中段",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍聚祥烧麦馆(西京店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于文兴路天泰街208号(西京府小区北)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙聚祥烧麦馆(古城西门店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于清远西街111号百盛中央公园店F3层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙聚祥烧麦馆(明堂公园店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于明堂公园商铺S4-106",
+    "tags": [
+      "050115"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙聚祥烧麦馆(鼓楼分店)",
+    "city": "大同",
+    "category": "food",
+    "description": "位于鼓楼北门西50米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

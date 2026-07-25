@@ -1,0 +1,2082 @@
+[
+  {
+    "name": "V5唯沃连锁酒店(四平铁东欧亚一店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于南二经街387号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一品堂云南过桥米线(铁东区)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于中央东路与九马路交汇东行50米(市医院住院处对面)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一品江南餐厅",
+    "city": "四平",
+    "category": "food",
+    "description": "位于河南路与南迎宾街交叉口西160米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一江山岛军事主题公园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于英雄大路附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一马树森林公园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于辽东街道红旗街100号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七星湖公园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于辽南街道福耀路南50米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万和民宿(四平万达广场店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于烟厂路与平东中街交叉口东北40米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三友居酒屋(拥军社区店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于拥军社区西北门西南100米",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东方粥店(北三经街南三经街步行街店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于北三经街338北三经街北三经街南三经街步行街",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌拉满族炭火锅(四平店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于天福家园西南1门旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐活公园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于新开街68号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九星川椒麻辣烫(卫校路市场店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于地直街道卫校路市场鑫宇国际九号楼商网",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二龙湖(不对外开放)",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于061县道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二龙湖(四平市伊通县部分)",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伊通满族博物馆",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于人民大路1129号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侯记风味抻面冷面(中兴店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于北方生活广场西北门东北80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "倾城时光私人公寓(东丰路店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于佳源·东方明珠17号楼5-6单元",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "偶买噶民宿(中央西路分店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于中央西路蓝天华府喜健水果超市",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八品牛潮汕鲜牛肉火锅(海银御景店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于海银御景南门西110米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八品牛潮汕鲜牛肉火锅(铁东店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于中央东路与东山路交叉口东方花园小区市场3号楼一层门市",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "公元城市宾馆(四平火车站店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于辘轱把路站前街",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冯校长老火锅(四平华宇城店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于华宇·蓝山英郡西北门西60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘记火锅鸡(四平地区总店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于英雄街致富委阳光兴海花园2号楼1层113号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "利剑酒店(万达广场店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于平东街东山委万达公寓F2幢1楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北桥公园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于北一经街与北二经街交叉口西420米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北河公园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于北河西路北",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千禧宾馆(树本街店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于顺达街1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南山风景区",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于的伊通镇二道岭子村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖公园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于南新华大街1328号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖公园2期",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于南新华大街1328号南湖公园",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卫校路菜串",
+    "city": "四平",
+    "category": "food",
+    "description": "位于分区南路52附近",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双亭园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于毓秀路吉林师范大学",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双辽糖果民宿(南运路分店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于南运路华申理想城邦17号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双辽聚缘商务宾馆",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于昌晟轿车维修保养中心东北门旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双辽金秋宾馆",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于郑家屯街道迎春街(四中北)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "口袋公园匠心园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于紫气大路1849号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "口袋公园境园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于北二经街1938号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "口袋公园逸园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于中央西路135号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "叶赫古城-叶赫那拉城",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于叶赫镇转山湖畔",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "叶赫那拉古城苍鹭岛",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于叶赫古城-叶赫那拉城",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉卤熟食店",
+    "city": "四平",
+    "category": "food",
+    "description": "位于南迎宾街10号鑫宇国际",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉林四平国家地质公园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于049县道",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "品爱自助主题日租公寓",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于人民大路在水一方二期4幢A314",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜家德虾仁水饺(四平欧亚店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于中央东路948号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜家煮串串香火锅",
+    "city": "四平",
+    "category": "food",
+    "description": "位于青年路466号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平520公寓",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于日新路金宇和园小区",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平521时尚旅舍",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平会堂广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于市府路1号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平坝上人家时尚旅店",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于仁兴街道北迎宾街电业新村9818号楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平如来寺",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于四平铁东下三台水库旁",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平市博物馆",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于南新华大街647号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平市新华公园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于北新华大街82号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平市浪漫之夜民宿",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于东山大街星缘圣府12号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平市烈士纪念塔",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于南新华大街729号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平市西湖水上公园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于西郊街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平市近现代铁路博物馆",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于北体育街与大顺路交叉口南40米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平市铁路文化广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于北仁兴街83号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平战役纪念馆",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于英雄大街60号",
+    "tags": [
+      "110210"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平战役纪念馆售票处",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于英雄大街60号四平战役纪念馆内(西侧)",
+    "tags": [
+      "070300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平桃源居公寓",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于海丰大街凯虹市场三楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平爱家精品日租公寓",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于站前街4号综合楼名仕汇公寓8层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平红石榴广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于四平市公安局西侧",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平经济开发区沁草园小洞天火锅城",
+    "city": "四平",
+    "category": "food",
+    "description": "位于四平市经济开发区顺达东樾府小区S5/947幢SW0109号房",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平过客民宿",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于万达广场F区1号楼B2603",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平遇见私人公寓(吉林师范大学店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于金宇和园小区C8号楼110商网",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城东一屯广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于基石路与自强路交叉口东南300米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔子山红色党性教育基地",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于山门镇303国道塔子山",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大军早点快餐店",
+    "city": "四平",
+    "category": "food",
+    "description": "位于南河花园南门西北80米",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大树电竞公寓(四平万达广场店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于紫气大路万达广场F区F3号楼20楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大鹰雕塑",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于经济开发区铁东经济开发区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于二里街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如家派柏·云酒店(双辽商业街店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于中兴路与迎春街交汇处中国农业银行对面",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如家酒店(四平火车站店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于站前街9号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "季掌门牛骨火锅(梨树店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于顺天园北门东120米",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小懒猫全民自助快餐",
+    "city": "四平",
+    "category": "food",
+    "description": "位于铁东区一马路北一委路口",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小红渝老火锅",
+    "city": "四平",
+    "category": "food",
+    "description": "位于地直街利群委4号楼1层5单元102",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山门风景区",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于山门镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庆岭活鱼馆(南迎宾街店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于南迎宾街与富才路交叉口北40米",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(四平万达店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于紫气大路与南九经街交汇处万达广场",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(巨展活力城店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于巨展活力城东门旁",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新发村文化广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新豪酒店(四平中心医院七道街店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于南新华大街5号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新食谱粥城",
+    "city": "四平",
+    "category": "food",
+    "description": "位于地直街与中央西路辅路交叉口西南80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "旗帜广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于开发区大路3766号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "时光里私人主题公寓(师院店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于文苑路金宇和园C8号楼12层1单元1216号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星澜·设计师民宿(四平万达广场店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于平东街万达广场F区F3号楼F2012底商",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晟家大院紫铜火锅海鲜烧烤",
+    "city": "四平",
+    "category": "food",
+    "description": "位于大禹加州湾北门西行200米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朗月商务宾馆",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于华亿明珠101商网",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李先生牛肉面大王(四平万达广场店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于南九经街与紫气大路交汇万达广场1层(4号门北侧20米)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李先生牛肉面大王(四平万达广场金街餐厅)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于南九经街与紫气大路交汇万达广场1层(4号门北侧20米)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李先生牛肉面大王(四平公园路餐厅)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于公园北街与地直街交汇处",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李先生牛肉面大王(四平恒客隆店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于仁兴商厦东北门北50米",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李连贵熏肉大饼(市府路店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于南河花园南门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李连贵熏肉大饼(总部店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于站前街与轱辘把路交叉口西50米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(伊通一中店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于伊通大街2010号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(地直街店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于地直街公园北路合味原往东50米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梦回头涮串店",
+    "city": "四平",
+    "category": "food",
+    "description": "位于地直街道地直街长征社区卫校路乡企楼4单元1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梨树万兴商务宾馆(四乾线店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于榆树台镇岳泰饲料旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梨树南河公园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梨树汇鑫商务宾馆",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于朝阳北大路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梨树舒馨时尚宾馆(一中店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于紫玉华府东南门北50米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梨树韩州公园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于奉和南路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "植物园音乐广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于烟厂路2255-299号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楚氏凉皮",
+    "city": "四平",
+    "category": "food",
+    "description": "位于英雄街长征委人防小区2楼2单元1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正平广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于市府路1号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(四平万达店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于沥山路1268号万达广场四平店F3层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永保顺清真火锅•始于1986(华宇店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于英雄街河西委华宇城小区IIE网点1至2层104",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉堡王(四平万达)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于紫气大路分北侧万达广场一层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈老头包子(鑫宇国际店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于南迎宾街西侧富豪鑫宇国际3号楼商网103号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "法治文化公园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于中央西路933号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海丰广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于海丰大街与大禹西胡同交叉口西南240米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(万达广场店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于沥山路1268号四平万达广场3F层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海鲜小厨酸菜火锅(拥军社区店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于拥军社区",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湿地公园休闲广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于中央西路1008号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溢香阁盛宴汇(阳光新城店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于阳光新城西1门西南110米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨河家园居民广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于爱民路与北地直街交叉口北380米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊喵来了火锅(四平万达店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于南九经街与紫气大道交汇处万达广场三楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱心公园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于中央西路70号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛头山·鲜切牛肉火锅自助",
+    "city": "四平",
+    "category": "food",
+    "description": "位于万达广场三楼东侧",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牧人烟火烤涮牛肋条自助(四平店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于南仁兴街1825号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牧鼎牛鲜牛肉火锅烤肉(卫校店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于南迎宾街西侧富豪鑫宇国际3号楼123,124号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "猪莉叶家烤肉料理(拥军社区店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于铁西区四中附近青年路与迎新中街交汇处",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛源商务宾馆(奉化东大街)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于奉化东大街259号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "示肴涮肉(星缘圣府店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于星源圣府42号楼门市110",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "立业文化广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于质佳五金产品经销处西南侧80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(四平铁东区万达店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于万达广场购物中心三楼3035米村拌饭,一楼6号门上扶梯3楼左手侧,伟大航路烤鱼旁",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红嘴广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于平西乡兴红路1515号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红格子茶餐厅(华亿·明珠店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于英雄街道红格子茶餐厅(华亿·明珠店)华亿·明珠",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美元居酒店(四平万达广场高铁站店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于万达公寓F3座2011室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美途公寓(四平万达广场店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于南九经街与紫气大道交汇万达广场F3公寓24层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老佛爷铜炉蛙锅(No171店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于欧屹金城西北门北60米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老回民清真炖菜馆",
+    "city": "四平",
+    "category": "food",
+    "description": "位于迎宾街小学西侧",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老田熏肉大饼",
+    "city": "四平",
+    "category": "food",
+    "description": "位于人民路与北体育街交叉口东南60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "耻钟广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于北仁兴街384号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚源时尚宾馆(四平站店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于站前街站前广场(四平火车站南100米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胜利广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于东山路与中央东路交汇处",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "腾飞广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于滨河路与公园北路交叉口西南320米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "英城涮肉-客到英城涮鲜羊(阳光新城店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于南迎宾街1558号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "英雄广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于英雄大路附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝之坊火锅店",
+    "city": "四平",
+    "category": "food",
+    "description": "位于北沟街北站委新华大街小区16号楼7单元1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝奢公寓(四平万达广场店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于紫气大路万达广场F3公寓",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西湖湿地公园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于平西乡社会福利服务中心",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西雅图宾馆(伊通大街)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于伊通大街伊通卫校南",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "警民广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于北一经街与水泥二胡同交叉口西南100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎宾风味大饼(迎宾店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于拥军社区东南门东70米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邵汇大虾(铁西店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于英雄街道拥军委鑫鼎世家小区ABCD号楼1至2层114",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "醉爱主题公寓(四平万达广场店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于紫气大路万达公寓F3座7层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫苑宾馆",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于第三小学西侧胡同口农广校家属楼小区1号楼1层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫鼎华肥牛(鑫鼎世家店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于英雄大街华亿鑫鼎世家北门东侧",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁东区塔山战斗遗址",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于303国道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁东文化公园",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于南三纬路与南八经街交叉口西南120米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦江之星(四平平东大路万达广场店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于平东大路854号(钨钼丝厂旁)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈记鸿·水浒烤肉(四平华宇城店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于河南路0528酒吧",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陌上花开主题公寓(吉林师范大学店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于英雄街道日新路金宇和园公寓C8号楼1214室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雅梦时尚宾馆(四平火车站店)",
+    "city": "四平",
+    "category": "hotel",
+    "description": "位于军政宾馆对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "颐乐谷景区",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于乐山镇西行3.5公里",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马仁兴铜像广场",
+    "city": "四平",
+    "category": "attraction",
+    "description": "位于北新华大街78号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马家烧鸡(富才路店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于鑫宇国际东北门西北90米",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(南仁兴街四平百货分店)",
+    "city": "四平",
+    "category": "food",
+    "description": "位于南仁兴街389号四平百货大楼一层BJ06号商铺",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼎鼎砂锅原味粉",
+    "city": "四平",
+    "category": "food",
+    "description": "位于鲁班逸苑南门东南130米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

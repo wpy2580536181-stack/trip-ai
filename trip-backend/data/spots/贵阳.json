@@ -1,32 +1,795 @@
 [
   {
-    "name": "观山湖公园",
+    "name": "丁孃孃火锅(贵阳店)",
     "city": "贵阳",
-    "category": "attraction",
-    "description": "观山湖公园是位于贵阳市观山湖区的一个大型城市公园，以观山湖为核心，环境优美，适合休闲散步。",
+    "category": "food",
+    "description": "位于文昌北路九华路3号",
     "tags": [
-      "公园",
-      "风景名胜",
-      "休闲"
+      "050117"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "全天开放",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "贵州省博物馆",
+    "name": "七彩公寓(贵阳世纪城店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于世纪城龙泽苑28栋3单元2楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七彩湖公园",
     "city": "贵阳",
     "category": "attraction",
-    "description": "贵州省博物馆位于贵阳市观山湖区林城东路107号，是展示贵州历史文化和民族风情的重要场所。馆内收藏丰富，包括古生物化石、民族服饰、书画等珍贵文物。",
+    "description": "位于铝建路与同心路交汇处",
     "tags": [
-      "博物馆",
-      "贵州文化"
+      "110101"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "09:00-17:00（周一闭馆）",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三谷里小黑猪地摊火锅",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于龙海路与碧海南路交叉口西南160米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东林公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于金朱东路恒大中央公园B区11号12号门面西南方向160米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东林寺",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于金朱东路(东林公园北侧约50米)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中天会展城B区金融商务区-南广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于林城东路155号国贸CC PARK",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临境广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于诚信南路与牧歌街交叉口东北100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二七路小吃街",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于二七路84号(贵阳火车站地铁站C口步行430米)",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云境智能影院",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于小车河街道小车河路花果园财富广场3号楼40楼25号",
+    "tags": [
+      "080601"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "他先生豆米豆豉酸辣烫(绿地联盛店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于长岭街道诚信北路绿地联盛国际第9号楼1层17号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "余孃脆皮洋芋粑",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于正新街1号(中山西路地铁站F口步行460米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六广门毛阿姨糯米饭(沙河街店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于沙河街138号利美康整形医院停车场入口旁边",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴义张记清真全牛王火锅城",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于石标路金华园A区2号门出口二楼(市政府侧)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘嘉牛全牛汤锅",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于富力中心C3栋负1层056",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南门口肠旺面(护国路店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于下护国路(近电力大楼)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双拥广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于金阳北路2号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "唐记豆米火锅",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于旭东路101号(阳明祠地铁站C口步行200米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜食集·云贵米线(富力中心店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于富力中心(诚信路地铁站C口步行490米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "土风豆米火锅店(黔灵东路店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于黔灵东路35、51号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夕宿·金融城盛佰嘉精品酒店(观山湖区会展城银行北街店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于会展城B区银行北街金融soho东座6楼前台",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "多彩贵州城",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于龙洞堡老里坡1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天河潭旅游度假区",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于石板镇",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥体中心北广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于云潭南路与兴筑路交叉口",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好厨艺一锅香",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于石标路77号金华园(南园)A区17栋1层26-27号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小不点麻辣烫(师大店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于文昌北路华宫巷",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小平香辣老素粉(贵山苑B栋店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于省府路贵山苑B幢2-1-4",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小康旅社",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "小康旅社位于贵州省贵阳市息烽县永靖镇下阳朗村虎城大道中段26号，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "旅馆招待所"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "小康旅社",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "小康旅社，位于永靖镇下阳朗村虎城大道中段26号，息烽县，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小康旅社",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "小康旅社，位于永靖镇下阳朗村虎城大道中段26号，息烽县，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小康旅社",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "小康旅社，位于永靖镇下阳朗村虎城大道中段26号，息烽县，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小康旅社",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "小康旅社位于贵州省贵阳市息烽县永靖镇下阳朗村虎城大道中段26号，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "旅馆招待所"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "小康旅社",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于永靖镇下阳朗村虎城大道中段26号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小湾河1号广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于长岭南路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尹三顺自助烤肉屋(绿地联盛店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于诚信北路8号沃尔玛(贵阳林城西路分店)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山典水餐厅",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于西南美食文化广场D区1层84号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "布衣梅姐地摊火锅(贵阳总店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于黔灵东路化龙桥20号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开阳顺航酒店",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于正街51号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "弱水亭",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于临城东路观山湖公园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "心悦致远公寓(花果园购物中心店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于中山南路花果园中山公馆E2栋1单元31楼3101室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "心源168公寓(沙冲中路1号分店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于沙冲北路6号金达花园16楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "息烽心怡旅社",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于镇镇府路16号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦湖城市广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于云潭北路与观山西路交叉口",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文昌阁",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于文昌街8号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文记打边炉·蒸汽冬瓜粥底火锅(观山湖店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于金龙国际花园西2门南50米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新大新豆米火锅1993(南国花锦店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于南国花锦购物中心7楼(喷水池地铁站H口步行300米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "时代假日酒店(贵阳龙洞堡机场店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于客运东站旁高楼安置房3栋1单元3层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星火土灶柴火鸡肥肠鸡(观山湖店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于贵阳建勘大厦东1门旁",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨永权毛肚火锅(金龙国际花园店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于金阳北路金龙国际花园1号楼1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "樱花园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于碧海社区服务中心碧海社区服务中心梨园路与诚信南路交叉口东20米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "毛辣果虾酸牛肉(甲秀楼店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于护国路180号2层2单元2号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永笠板筋饭",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于陕西路黔康医院旁四川巷2栋",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江辉酒店",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于观山街道宏运大道北大资源梦想城一期7号地块A03栋1单元1610室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江边渔村(小十字总店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "一家位于云岩区中山东路的海鲜酒楼，提供中餐服务。",
+    "tags": [
+      "海鲜",
+      "中餐",
+      "酒楼"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "江边渔村(小十字总店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "江边渔村(小十字总店)，位于中山东路58号2楼，云岩区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江边渔村(小十字总店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "江边渔村(小十字总店)，位于中山东路58号2楼，云岩区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江边渔村(小十字总店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "江边渔村(小十字总店)，位于中山东路58号2楼，云岩区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江边渔村(小十字总店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "一家位于云岩区中山东路的海鲜酒楼，提供中餐服务。",
+    "tags": [
+      "海鲜",
+      "中餐",
+      "酒楼"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "江龙和合苑",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于南苑路与金阳北路交叉口西南",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河滨公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于瑞金南路31号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "泉湖公园",
@@ -37,10 +800,131 @@
       "风景名胜",
       "国家级景点"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
+  },
+  {
+    "name": "泉湖公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "泉湖公园，位于云峰大道142号，白云区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉湖公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "泉湖公园，位于云峰大道142号，白云区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉湖公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "泉湖公园，位于云峰大道142号，白云区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉湖公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "泉湖公园位于贵阳市白云区云峰大道142号，是一处国家级风景名胜区，以优美的泉湖景观和自然风光著称，是休闲游览的好去处。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "泉湖公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于云峰大道142号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "法治文化广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于金阳北路2号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(云上方舟店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于数博大道长岭北路贵阳国际会议展览中心AB区地下商业1号云上方舟2层1314号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(汇金星力城店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于延安西路66号汇金国际广场五层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(花溪万科店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于田园路666号万科花溪大都会S2栋2层201号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "混沌广场",
@@ -52,10 +936,496 @@
       "楼宇",
       "商务写字楼"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "暂无",
     "openTime": "",
-    "rating": 0
+    "rating": 0.0
+  },
+  {
+    "name": "混沌广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "混沌广场，位于金阳北路与南苑路交叉口西120米，观山湖区，类型楼宇 商务写字楼。",
+    "tags": [
+      "楼宇",
+      "商务写字楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "混沌广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "混沌广场，位于金阳北路与南苑路交叉口西120米，观山湖区，类型楼宇 商务写字楼。",
+    "tags": [
+      "楼宇",
+      "商务写字楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "混沌广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "混沌广场，位于金阳北路与南苑路交叉口西120米，观山湖区，类型楼宇 商务写字楼。",
+    "tags": [
+      "楼宇",
+      "商务写字楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "混沌广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "混沌广场位于贵阳市观山湖区金阳北路与南苑路交叉口西侧，是一个集商务办公、商业配套于一体的综合写字楼群。周边交通便利，配套设施完善，适合企业办公和商务活动。",
+    "tags": [
+      "商务住宅",
+      "楼宇",
+      "商务写字楼"
+    ],
+    "avgCost": 0.0,
+    "duration": "暂无",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "混沌广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于金阳北路与南苑路交叉口西120米",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "猴耳天坑",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于城关镇石头村桃子窝",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉溪宾馆(花溪学士路地铁站店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于清溪苑西门旁(学士路地铁站C口步行50米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉珍酸汤火锅(黔灵山公园店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于银海元隆B区11栋一楼2号(云上西湖旁)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉珍酸笋火锅(北京路店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于北京路205号银海元隆10栋商铺(黔灵山路)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉珍酸笋火锅(喷水池店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于青禾路慈善巷(喷水池地铁站H口步行430米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甲秀楼",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于翠微巷8号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白云动感地带广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于白云南路275号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白鹭湖·创客广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于毕节路与湖滨路交叉口(高新区人才酒店旁)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白鹭湖湿地公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于金岭社区服务中心金岭社区服务中心交勘院100号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "真味咖喱",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于富力中心B7栋1层33号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "矮子馅饼(贵阳总店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于圆通街与富水北路交叉口东北20米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "社会牛肉粉(喷水池店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于文昌阁街道办事处富水北路39号B-34",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "笔记安顺夺夺粉",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于醒狮路18号小区西北门旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米克假日公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于观山湖区富力中心A7栋1楼",
+    "tags": [
+      "060100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绣球园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于云潭南路4号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缤纷广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于林城西路与碧海南路交叉口西北约180米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "群升世纪广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于诚信路1号金阳·红街",
+    "tags": [
+      "120200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老凯俚酸汤鱼(省府店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于省府路石板街55号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老贵阳全牛粉(遵义路34号院店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于尚义路85号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "艳山红广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于金园路176号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花溪公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于花溪大道南段3108号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花溪十里河滩国家城市湿地公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于花溪大道南段辅路与郎萝桥交叉口东220米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花溪国家城市湿地公园-南区",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于花溪十里河滩国家城市湿地公园内(南侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花溪夜郎谷",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于思杨路122县",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花溪湖公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于花溪公园南侧,迎宾馆东侧,毗邻花溪区行政中心",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花溪王记牛肉粉店(十字街总店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于金榕商住楼东门西北90米",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苗大爷-干锅牛肉-烧椒牛肉(绿地联盛店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于碧海南路与龙海路交叉口西南160米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荷城美味羊肉粉(碧海南路店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于林城西路绿地联盛国际内",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲廉广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于碧海南路与玫瑰路交叉口附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒋家肠旺面馆(原上合群路老店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于城市之光60号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虎炊素食",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于富力中心一楼A3栋斜对面",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西南民族美食文化广场(金阳行政中心二期综合办公大楼店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于黔云路(观山湖公园地铁站B口步行280米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "西普陀寺",
@@ -67,84 +1437,403 @@
       "佛教",
       "风景名胜"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "1-2小时",
     "openTime": "08:00-17:00",
     "rating": 4.5
   },
   {
-    "name": "贵州省地质博物馆",
+    "name": "西普陀寺",
     "city": "贵阳",
     "category": "attraction",
-    "description": "贵州省地质博物馆是展示地质矿产和古生物化石的专业博物馆。",
+    "description": "西普陀寺，位于云峰大道龙井路8号(泉湖公园地铁站A口步行400米)，白云区，类型风景名胜 寺庙道观。",
     "tags": [
-      "博物馆",
-      "地质",
-      "科教"
+      "风景名胜",
+      "寺庙道观"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "09:00-17:00（周一闭馆）",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西普陀寺",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "西普陀寺，位于云峰大道龙井路8号(泉湖公园地铁站A口步行400米)，白云区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西普陀寺",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "西普陀寺，位于云峰大道龙井路8号(泉湖公园地铁站A口步行400米)，白云区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西普陀寺",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "西普陀寺位于贵阳市白云区，是一座历史悠久的佛教寺庙，依山而建，环境清幽。寺内建筑古朴典雅，供奉多尊佛像，香火旺盛。游客可在此感受宁静的宗教氛围，俯瞰城市景色。",
+    "tags": [
+      "寺庙",
+      "佛教",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "08:00-17:00",
     "rating": 4.5
   },
   {
-    "name": "贵阳欢乐世界",
+    "name": "西普陀寺",
     "city": "贵阳",
     "category": "attraction",
-    "description": "贵阳欢乐世界位于白云区，是一个集游乐、休闲、体育于一体的大型主题乐园，拥有多种游乐设施，适合家庭游玩。",
+    "description": "位于云峰大道龙井路8号(泉湖公园地铁站A口步行400米)",
     "tags": [
-      "体育休闲",
-      "休闲场所",
-      "游乐场"
+      "110205"
     ],
-    "avgCost": 80,
-    "duration": "3小时",
-    "openTime": "09:00-18:00",
-    "rating": 4.2
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "贵阳市观山湖公园民族大联欢广场",
+    "name": "观山湖公园",
     "city": "贵阳",
     "category": "attraction",
-    "description": "贵阳市观山湖公园内的民族大联欢广场是一个集文化展示、休闲娱乐于一体的城市广场，经常举办各类民族节庆活动，是游客感受贵州民族文化的好去处。",
+    "description": "观山湖公园是位于贵阳市观山湖区的一个大型城市公园，以观山湖为核心，环境优美，适合休闲散步。",
     "tags": [
+      "公园",
       "风景名胜",
-      "公园广场",
-      "城市广场"
+      "休闲"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
+    "avgCost": 0.0,
+    "duration": "2-3小时",
     "openTime": "全天开放",
     "rating": 4.5
   },
   {
-    "name": "贵阳喀斯特公园",
+    "name": "观山湖公园",
     "city": "贵阳",
     "category": "attraction",
-    "description": "贵阳喀斯特公园位于观山湖区石林东路与金阳南路交叉口，是一个以喀斯特地貌为特色的城市公园。园内拥有独特的石林景观和丰富的植被，是市民休闲娱乐的好去处。",
+    "description": "观山湖公园，位于观山大桥南北两侧，观山湖区，类型公园广场 公园。",
     "tags": [
-      "喀斯特",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观山湖公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "观山湖公园，位于观山大桥南北两侧，观山湖区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观山湖公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "观山湖公园，位于观山大桥南北两侧，观山湖区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观山湖公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "观山湖公园是位于贵阳市观山湖区的一个大型城市公园，以观山湖为核心，环境优美，适合休闲散步。",
+    "tags": [
       "公园",
-      "风景",
+      "风景名胜",
       "休闲"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "2-3小时",
-    "openTime": "08:00-18:00",
+    "openTime": "全天开放",
     "rating": 4.5
   },
   {
-    "name": "黔灵山公园",
+    "name": "观山湖公园",
     "city": "贵阳",
     "category": "attraction",
-    "description": "黔灵山公园是贵阳市区著名的综合性公园，集自然风光、文物古迹和民俗风情于一体，园内山清水秀，猕猴成群，是游客休闲观光的理想去处。",
+    "description": "位于观山大桥南北两侧",
     "tags": [
-      "风景名胜",
-      "国家级景点"
+      "110101"
     ],
-    "avgCost": 5,
-    "duration": "2-3小时",
-    "openTime": "08:00-18:00",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观山湖公园-畅吟亭",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于临城东路观山湖公园内(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观山湖公园-贵州生态体育公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于林城东路与黔云路交叉口东80米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观山湖公园-锦鸡铜鼓广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于观山湖公园内(西侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观山湖公园梅园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于观山湖公园(观山湖公园地铁站D口步行420米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观山湖区双拥公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于金岭南街与将军山路交叉口西南200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观山湖区口袋花园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于金阳街道奥兴路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观山湖民族广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于林城东路9号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(CCPARK店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(CCPARK店)位于观山湖区林城东路155号贵阳城投CCPARKB馆，是一家以酸汤牛肉为特色的云贵菜餐厅。酸汤牛肉是贵州经典菜肴，汤底酸辣开胃，牛肉鲜嫩，深受食客喜爱。店内环境舒适，服务周到，是品尝地道贵州风味的好去处。",
+    "tags": [
+      "云贵菜",
+      "酸汤牛肉",
+      "贵阳美食",
+      "火锅"
+    ],
+    "avgCost": 60.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "贵厨酸汤牛肉(CCPARK店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(CCPARK店)，位于林城东路155号贵阳城投CCPARKB馆(交通银行对面)，观山湖区，类型中餐厅 云贵菜。",
+    "tags": [
+      "中餐厅",
+      "云贵菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(CCPARK店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(CCPARK店)，位于林城东路155号贵阳城投CCPARKB馆(交通银行对面)，观山湖区，类型中餐厅 云贵菜。",
+    "tags": [
+      "中餐厅",
+      "云贵菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(CCPARK店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(CCPARK店)，位于林城东路155号贵阳城投CCPARKB馆(交通银行对面)，观山湖区，类型中餐厅 云贵菜。",
+    "tags": [
+      "中餐厅",
+      "云贵菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(CCPARK店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(CCPARK店)位于观山湖区林城东路155号贵阳城投CCPARKB馆，是一家以酸汤牛肉为特色的云贵菜餐厅。酸汤牛肉是贵州经典菜肴，汤底酸辣开胃，牛肉鲜嫩，深受食客喜爱。店内环境舒适，服务周到，是品尝地道贵州风味的好去处。",
+    "tags": [
+      "云贵菜",
+      "酸汤牛肉",
+      "贵阳美食",
+      "火锅"
+    ],
+    "avgCost": 60.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "贵厨酸汤牛肉(世纪金源店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉是贵阳特色酸汤牛肉火锅店，位于世纪金源购物中心C区4层，主打正宗黔味酸汤牛肉，汤底酸辣开胃，牛肉鲜嫩。",
+    "tags": [
+      "酸汤牛肉",
+      "贵州菜",
+      "火锅",
+      "中餐厅"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "贵厨酸汤牛肉(世纪金源店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(世纪金源店)，位于世纪金源购物中心C区4层，观山湖区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(世纪金源店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(世纪金源店)，位于世纪金源购物中心C区4层，观山湖区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(世纪金源店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(世纪金源店)，位于世纪金源购物中心C区4层，观山湖区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(世纪金源店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉是贵阳特色酸汤牛肉火锅店，位于世纪金源购物中心C区4层，主打正宗黔味酸汤牛肉，汤底酸辣开胃，牛肉鲜嫩。",
+    "tags": [
+      "酸汤牛肉",
+      "贵州菜",
+      "火锅",
+      "中餐厅"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "10:00-21:00",
     "rating": 4.5
   },
   {
@@ -156,7 +1845,63 @@
       "餐饮服务",
       "中餐厅"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "贵厨酸汤牛肉(小十字店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(小十字店)，位于中山东路40号银座商务大厦裙楼2层2-6至2-20、2-24至2-30号，南明区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(小十字店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(小十字店)，位于中山东路40号银座商务大厦裙楼2层2-6至2-20、2-24至2-30号，南明区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(小十字店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(小十字店)，位于中山东路40号银座商务大厦裙楼2层2-6至2-20、2-24至2-30号，南明区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(小十字店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(小十字店)是一家位于贵阳市南明区的中餐厅，以酸汤牛肉为特色，提供地道的贵州美食。",
+    "tags": [
+      "餐饮服务",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
@@ -172,12 +1917,68 @@
       "火锅",
       "中餐厅"
     ],
-    "avgCost": 70,
+    "avgCost": 70.0,
     "duration": "1.5小时",
     "openTime": "11:00-21:00",
-    "rating": 4.5,
-    "address": "新建路1号汇金星力城F6层",
-    "region": "云岩区"
+    "rating": 4.5
+  },
+  {
+    "name": "贵厨酸汤牛肉(汇金星力城店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(汇金星力城店)，位于新建路1号汇金星力城F6层，云岩区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(汇金星力城店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(汇金星力城店)，位于新建路1号汇金星力城F6层，云岩区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(汇金星力城店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(汇金星力城店)，位于新建路1号汇金星力城F6层，云岩区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(汇金星力城店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉位于汇金星力城六楼，是一家以贵州酸汤牛肉为特色的中餐厅。酸汤采用传统发酵工艺，汤底酸爽开胃，配以鲜嫩牛肉，口感丰富。环境整洁，服务热情，适合朋友聚餐或家庭用餐。",
+    "tags": [
+      "酸汤牛肉",
+      "贵州菜",
+      "火锅",
+      "中餐厅"
+    ],
+    "avgCost": 70.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
   },
   {
     "name": "贵厨酸汤牛肉(甲秀楼店)",
@@ -189,10 +1990,152 @@
       "贵州菜",
       "中餐厅"
     ],
-    "avgCost": 80,
+    "avgCost": 80.0,
     "duration": "1-2小时",
     "openTime": "10:00-22:00",
     "rating": 4.5
+  },
+  {
+    "name": "贵厨酸汤牛肉(甲秀楼店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(甲秀楼店)，位于富水南路荔星名店A馆2楼，南明区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(甲秀楼店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(甲秀楼店)，位于富水南路荔星名店A馆2楼，南明区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(甲秀楼店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(甲秀楼店)，位于富水南路荔星名店A馆2楼，南明区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(甲秀楼店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(甲秀楼店)是位于贵阳市南明区甲秀楼附近的一家酸汤牛肉餐厅，提供地道的贵州酸汤牛肉等美食。",
+    "tags": [
+      "酸汤牛肉",
+      "贵州菜",
+      "中餐厅"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "贵厨酸汤牛肉(美的悦然广场店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉是一家以酸汤牛肉为特色的火锅店，位于美的悦然广场三楼，提供地道贵州酸汤火锅体验。",
+    "tags": [
+      "酸汤牛肉",
+      "火锅",
+      "贵阳美食"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "贵厨酸汤牛肉(美的悦然广场店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(美的悦然广场店)，位于金岭社区服务中心长岭南路2号美的悦然广场3楼L3004-3005号，观山湖区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(美的悦然广场店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(美的悦然广场店)，位于金岭社区服务中心长岭南路2号美的悦然广场3楼L3004-3005号，观山湖区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(美的悦然广场店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(美的悦然广场店)，位于金岭社区服务中心长岭南路2号美的悦然广场3楼L3004-3005号，观山湖区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(美的悦然广场店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉是一家以酸汤牛肉为特色的火锅店，位于美的悦然广场三楼，提供地道贵州酸汤火锅体验。",
+    "tags": [
+      "酸汤牛肉",
+      "火锅",
+      "贵阳美食"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "贵厨酸汤牛肉(花果园一期店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于花果园一期14栋20号门面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "贵厨酸汤牛肉(花果园旗舰店)",
@@ -205,85 +2148,275 @@
       "火锅",
       "中餐"
     ],
-    "avgCost": 80,
+    "avgCost": 80.0,
     "duration": "2小时",
     "openTime": "10:00-22:00",
     "rating": 4.5
   },
   {
-    "name": "贵厨酸汤牛肉(CCPARK店)",
+    "name": "贵厨酸汤牛肉(花果园旗舰店)",
     "city": "贵阳",
     "category": "food",
-    "description": "贵厨酸汤牛肉(CCPARK店)位于观山湖区林城东路155号贵阳城投CCPARKB馆，是一家以酸汤牛肉为特色的云贵菜餐厅。酸汤牛肉是贵州经典菜肴，汤底酸辣开胃，牛肉鲜嫩，深受食客喜爱。店内环境舒适，服务周到，是品尝地道贵州风味的好去处。",
+    "description": "贵厨酸汤牛肉(花果园旗舰店)，位于花果园国际中心3号楼A座B1层，南明区，类型中餐厅 中餐厅。",
     "tags": [
-      "云贵菜",
-      "酸汤牛肉",
-      "贵阳美食",
-      "火锅"
-    ],
-    "avgCost": 60,
-    "duration": "1.5小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.5
-  },
-  {
-    "name": "江边渔村(小十字总店)",
-    "city": "贵阳",
-    "category": "food",
-    "description": "一家位于云岩区中山东路的海鲜酒楼，提供中餐服务。",
-    "tags": [
-      "海鲜",
-      "中餐",
-      "酒楼"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "贵厨酸汤牛肉(美的悦然广场店)",
-    "city": "贵阳",
-    "category": "food",
-    "description": "贵厨酸汤牛肉是一家以酸汤牛肉为特色的火锅店，位于美的悦然广场三楼，提供地道贵州酸汤火锅体验。",
-    "tags": [
-      "酸汤牛肉",
-      "火锅",
-      "贵阳美食"
-    ],
-    "avgCost": 0,
-    "duration": "未知",
-    "openTime": "未知",
-    "rating": 0
-  },
-  {
-    "name": "黔渔翁豆花渎鱼(喷水池店)",
-    "city": "贵阳",
-    "category": "food",
-    "description": "黔渔翁豆花渎鱼(喷水池店)是一家位于贵阳市云岩区的中餐厅，主打豆花渎鱼。",
-    "tags": [
+      "中餐厅",
       "中餐厅"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "贵厨酸汤牛肉(世纪金源店)",
+    "name": "贵厨酸汤牛肉(花果园旗舰店)",
     "city": "贵阳",
     "category": "food",
-    "description": "贵厨酸汤牛肉是贵阳特色酸汤牛肉火锅店，位于世纪金源购物中心C区4层，主打正宗黔味酸汤牛肉，汤底酸辣开胃，牛肉鲜嫩。",
+    "description": "贵厨酸汤牛肉(花果园旗舰店)，位于花果园国际中心3号楼A座B1层，南明区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(花果园旗舰店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(花果园旗舰店)，位于花果园国际中心3号楼A座B1层，南明区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵厨酸汤牛肉(花果园旗舰店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵厨酸汤牛肉(花果园旗舰店)是一家位于贵阳市南明区花果园的中餐厅，主打贵州特色酸汤牛肉，口味酸辣开胃，深受当地食客喜爱。",
     "tags": [
       "酸汤牛肉",
       "贵州菜",
       "火锅",
-      "中餐厅"
+      "中餐"
     ],
-    "avgCost": 80,
-    "duration": "1.5小时",
-    "openTime": "10:00-21:00",
+    "avgCost": 80.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
     "rating": 4.5
+  },
+  {
+    "name": "贵厨酸汤牛肉(青云市集店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于青云路与兴关路交叉口东南140米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵城烙锅",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于花果园狮峰路39号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵州张绝干香板筋王(绿地·联盛国际店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于金华园街道诚信北路8号绿地联盛国际3-4号楼1层11号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵州省博物馆",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵州省博物馆位于贵阳市观山湖区林城东路107号，是展示贵州历史文化和民族风情的重要场所。馆内收藏丰富，包括古生物化石、民族服饰、书画等珍贵文物。",
+    "tags": [
+      "博物馆",
+      "贵州文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "09:00-17:00（周一闭馆）",
+    "rating": 4.5
+  },
+  {
+    "name": "贵州省博物馆",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵州省博物馆，位于林城东路107号，观山湖区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵州省博物馆",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵州省博物馆，位于林城东路107号，观山湖区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵州省博物馆",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵州省博物馆，位于林城东路107号，观山湖区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵州省博物馆",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵州省博物馆位于贵阳市观山湖区林城东路107号，是展示贵州历史文化和民族风情的重要场所。馆内收藏丰富，包括古生物化石、民族服饰、书画等珍贵文物。",
+    "tags": [
+      "博物馆",
+      "贵州文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "09:00-17:00（周一闭馆）",
+    "rating": 4.5
+  },
+  {
+    "name": "贵州省博物馆",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于林城东路107号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵州省地质博物馆",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵州省地质博物馆是展示地质矿产和古生物化石的专业博物馆。",
+    "tags": [
+      "博物馆",
+      "地质",
+      "科教"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "09:00-17:00（周一闭馆）",
+    "rating": 4.5
+  },
+  {
+    "name": "贵州省地质博物馆",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵州省地质博物馆，位于云潭南路601号，观山湖区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵州省地质博物馆",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵州省地质博物馆，位于云潭南路601号，观山湖区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵州省地质博物馆",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵州省地质博物馆，位于云潭南路601号，观山湖区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵州省地质博物馆",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵州省地质博物馆是展示地质矿产和古生物化石的专业博物馆。",
+    "tags": [
+      "博物馆",
+      "地质",
+      "科教"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "09:00-17:00（周一闭馆）",
+    "rating": 4.5
+  },
+  {
+    "name": "贵州省地质博物馆",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于云潭南路601号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "贵州西江传说苗侗餐饮活态博物馆",
@@ -293,25 +2426,117 @@
     "tags": [
       "贵阳"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "全天",
     "rating": 3.5
   },
   {
-    "name": "贵阳墅国际青年旅舍",
+    "name": "贵州西江传说苗侗餐饮活态博物馆",
     "city": "贵阳",
-    "category": "hotel",
-    "description": "贵阳墅国际青年旅舍位于中山南路86号，云岩区，提供经济实惠的住宿服务。青年旅舍氛围轻松，适合背包客和旅行者。",
+    "category": "food",
+    "description": "贵州西江传说苗侗餐饮活态博物馆，位于小河小孟工业园区同为物流园2栋，花溪区，类型中餐厅 中餐厅。",
     "tags": [
-      "青年旅舍",
-      "住宿",
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵州西江传说苗侗餐饮活态博物馆",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵州西江传说苗侗餐饮活态博物馆，位于小河小孟工业园区同为物流园2栋，花溪区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵州西江传说苗侗餐饮活态博物馆",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵州西江传说苗侗餐饮活态博物馆，位于小河小孟工业园区同为物流园2栋，花溪区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵州西江传说苗侗餐饮活态博物馆",
+    "city": "贵阳",
+    "category": "food",
+    "description": "贵州西江传说苗侗餐饮活态博物馆 是贵阳的美食餐厅，位于花溪区。地址：小河小孟工业园区同为物流园2栋。",
+    "tags": [
       "贵阳"
     ],
-    "avgCost": 100,
-    "duration": "全天",
-    "openTime": "24小时",
-    "rating": 4.0
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "贵阳108公寓(花果园购物中心店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于松花路花果园E1区中山公馆1栋1单元10层2号(购物中心对面)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳万丽酒店百味餐厅(林城东路)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于金阳街道林城东路8号贵阳万丽酒店二楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳东景希尔顿酒店-青雅中餐厅",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于金阳北路与南苑路交叉口西北120米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳丽梦宾馆",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于盐务街宅吉小区金仓路3号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "贵阳云贵招待所",
@@ -322,10 +2547,105 @@
       "住宿服务",
       "旅馆招待所"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "00:00-24:00",
     "rating": 0.0
+  },
+  {
+    "name": "贵阳云贵招待所",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "贵阳云贵招待所，位于沙冲北路145号(加州阳光新城内)，南明区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳云贵招待所",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "贵阳云贵招待所，位于沙冲北路145号(加州阳光新城内)，南明区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳云贵招待所",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "贵阳云贵招待所，位于沙冲北路145号(加州阳光新城内)，南明区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳云贵招待所",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "贵阳云贵招待所位于南明区沙冲北路，是一家提供住宿服务的旅馆招待所。",
+    "tags": [
+      "住宿服务",
+      "旅馆招待所"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "00:00-24:00",
+    "rating": 0.0
+  },
+  {
+    "name": "贵阳云贵招待所",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于沙冲北路145号(加州阳光新城内)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳佳华公寓",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于世纪城街道龙泉苑街龙禧苑6栋1604室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳依然在青旅(火车站店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于沙冲北路169号加州阳光新城G栋24楼2405",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "贵阳兴源酒店",
@@ -337,24 +2657,890 @@
       "住宿",
       "乌当区"
     ],
-    "avgCost": 200,
+    "avgCost": 200.0,
     "duration": "1天",
     "openTime": "全天",
     "rating": 4.2
   },
   {
-    "name": "小康旅社",
+    "name": "贵阳兴源酒店",
     "city": "贵阳",
     "category": "hotel",
-    "description": "小康旅社位于贵州省贵阳市息烽县永靖镇下阳朗村虎城大道中段26号，提供住宿服务。",
+    "description": "贵阳兴源酒店，位于新添寨新创路1号，乌当区，类型宾馆酒店 宾馆酒店。",
     "tags": [
-      "住宿",
-      "旅馆招待所"
+      "宾馆酒店",
+      "宾馆酒店"
     ],
-    "avgCost": 0,
-    "duration": "未知",
-    "openTime": "未知",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳兴源酒店",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "贵阳兴源酒店，位于新添寨新创路1号，乌当区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳兴源酒店",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "贵阳兴源酒店，位于新添寨新创路1号，乌当区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳兴源酒店",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "贵阳兴源酒店位于贵阳市乌当区新添寨新创路1号，提供舒适的住宿服务。",
+    "tags": [
+      "酒店",
+      "住宿",
+      "乌当区"
+    ],
+    "avgCost": 200.0,
+    "duration": "1天",
+    "openTime": "全天",
+    "rating": 4.2
+  },
+  {
+    "name": "贵阳兴源酒店",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于新添寨新创路1号(新添地铁站A口步行340米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳华南宾馆(花果园白宫店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于花溪大道北段128号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳华宛商务酒店(青云市集店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于市南路100号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳华泰酒店(中大国际大营坡店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于贵乌北路91号B栋2楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳喀斯特公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵阳喀斯特公园位于观山湖区石林东路与金阳南路交叉口，是一个以喀斯特地貌为特色的城市公园。园内拥有独特的石林景观和丰富的植被，是市民休闲娱乐的好去处。",
+    "tags": [
+      "喀斯特",
+      "公园",
+      "风景",
+      "休闲"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "08:00-18:00",
+    "rating": 4.5
+  },
+  {
+    "name": "贵阳喀斯特公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵阳喀斯特公园，位于石林东路与金阳南路交叉口，观山湖区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳喀斯特公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵阳喀斯特公园，位于石林东路与金阳南路交叉口，观山湖区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳喀斯特公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵阳喀斯特公园，位于石林东路与金阳南路交叉口，观山湖区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳喀斯特公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵阳喀斯特公园位于观山湖区石林东路与金阳南路交叉口，是一个以喀斯特地貌为特色的城市公园。园内拥有独特的石林景观和丰富的植被，是市民休闲娱乐的好去处。",
+    "tags": [
+      "喀斯特",
+      "公园",
+      "风景",
+      "休闲"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "08:00-18:00",
+    "rating": 4.5
+  },
+  {
+    "name": "贵阳喀斯特公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于石林东路与金阳南路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳喀斯特石林恐龙乐园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于石林东路喀斯特公园广场",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳墅国际青年旅舍",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "贵阳墅国际青年旅舍位于中山南路86号，云岩区，提供经济实惠的住宿服务。青年旅舍氛围轻松，适合背包客和旅行者。",
+    "tags": [
+      "青年旅舍",
+      "住宿",
+      "贵阳"
+    ],
+    "avgCost": 100.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "贵阳墅国际青年旅舍",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "贵阳墅国际青年旅舍，位于中山南路86号，云岩区，类型旅馆招待所 青年旅舍。",
+    "tags": [
+      "旅馆招待所",
+      "青年旅舍"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳墅国际青年旅舍",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "贵阳墅国际青年旅舍，位于中山南路86号，云岩区，类型旅馆招待所 青年旅舍。",
+    "tags": [
+      "旅馆招待所",
+      "青年旅舍"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳墅国际青年旅舍",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "贵阳墅国际青年旅舍，位于中山南路86号，云岩区，类型旅馆招待所 青年旅舍。",
+    "tags": [
+      "旅馆招待所",
+      "青年旅舍"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳墅国际青年旅舍",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "贵阳墅国际青年旅舍位于中山南路86号，云岩区，提供经济实惠的住宿服务。青年旅舍氛围轻松，适合背包客和旅行者。",
+    "tags": [
+      "青年旅舍",
+      "住宿",
+      "贵阳"
+    ],
+    "avgCost": 100.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "贵阳墅国际青年旅舍",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于中山南路86号",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳天一商务宾馆",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于兴关路100号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳安居公寓(世纪城店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于世纪城社区北京西路龙吉苑3栋1单元",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳家和公寓",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于太慈桥街道花果园路花果园S1区10栋二单元405房",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳市森林公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于园林路90号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳市行政中心广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于林城东路贵阳市政府",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳市观山湖公园民族大联欢广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵阳市观山湖公园内的民族大联欢广场是一个集文化展示、休闲娱乐于一体的城市广场，经常举办各类民族节庆活动，是游客感受贵州民族文化的好去处。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "贵阳市观山湖公园民族大联欢广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵阳市观山湖公园民族大联欢广场，位于观山大桥观山湖公园，观山湖区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳市观山湖公园民族大联欢广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵阳市观山湖公园民族大联欢广场，位于观山大桥观山湖公园，观山湖区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳市观山湖公园民族大联欢广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵阳市观山湖公园民族大联欢广场，位于观山大桥观山湖公园，观山湖区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳市观山湖公园民族大联欢广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵阳市观山湖公园内的民族大联欢广场是一个集文化展示、休闲娱乐于一体的城市广场，经常举办各类民族节庆活动，是游客感受贵州民族文化的好去处。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "贵阳市观山湖公园民族大联欢广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于观山大桥观山湖公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳常宏宾馆",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于三桥路街道白云大道南段110号常宏宾馆三楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳明德网络酒店",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于黔灵镇茶店村黄山冲路127号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳星宇宾馆",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于花果园社区服务中心花溪大道130号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳梦山梦里(贵州大学西校区店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于吉林村碧云窝7号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳欢乐世界",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵阳欢乐世界位于白云区，是一个集游乐、休闲、体育于一体的大型主题乐园，拥有多种游乐设施，适合家庭游玩。",
+    "tags": [
+      "体育休闲",
+      "休闲场所",
+      "游乐场"
+    ],
+    "avgCost": 80.0,
+    "duration": "3小时",
+    "openTime": "09:00-18:00",
+    "rating": 4.2
+  },
+  {
+    "name": "贵阳欢乐世界",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵阳欢乐世界，位于白云南路483号，白云区，类型休闲场所 游乐场。",
+    "tags": [
+      "休闲场所",
+      "游乐场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳欢乐世界",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵阳欢乐世界，位于白云南路483号，白云区，类型休闲场所 游乐场。",
+    "tags": [
+      "休闲场所",
+      "游乐场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳欢乐世界",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵阳欢乐世界，位于白云南路483号，白云区，类型休闲场所 游乐场。",
+    "tags": [
+      "休闲场所",
+      "游乐场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳欢乐世界",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "贵阳欢乐世界位于白云区，是一个集游乐、休闲、体育于一体的大型主题乐园，拥有多种游乐设施，适合家庭游玩。",
+    "tags": [
+      "体育休闲",
+      "休闲场所",
+      "游乐场"
+    ],
+    "avgCost": 80.0,
+    "duration": "3小时",
+    "openTime": "09:00-18:00",
+    "rating": 4.2
+  },
+  {
+    "name": "贵阳欢乐世界",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于白云南路483号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳欢乐海世界",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于梵华里小镇4号-负1F2",
+    "tags": [
+      "080300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳清镇来福旅社",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于红新社区服务中心云岭中路50号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳湘雅宾馆(花果园白宫店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于花溪大道368号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳百花湖风景名胜区",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于朱昌镇金朱西路路头",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳盛和公寓宾馆",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于花溪大道北段锦绣星城1号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳福城宾馆",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于延安西路46号裕华公寓7楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳简约民宿",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于世纪城街道福州街128号世纪城龙嘉苑5栋10-2号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳网络酒店(中华北路店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于中华北路242号(北京路地铁站H口步行390米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳舒点民宿",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于北大资源梦想城7A05栋12楼9号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳舟之湾公寓(中天未来方舟店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于尚礼东路未来方舟D13组团4栋30楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳花舍公寓(花果园购物中心松花路地铁站店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于松花路花果园E区中山公馆1栋3单元23层2号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳逸宿家公寓",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于公园中路花果园L1区2栋",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳金源商务宾馆(贵州人民医院店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于宝山北路金融巷东山村东兴组86号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳鑫泽商务宾馆",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于旭东路151号(近贵州师范大学,师大附中)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵阳隐居园民宿",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于清溪街道田园南路贵高速花溪26度(2A号地)A6栋1单元18层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赛点体育公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于金朱西路新世界酒店对面",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辣椒广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于林城东路观山湖公园内(西南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎宾广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于君侠路观山湖公园内(西侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "通源·越野公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于云潭北路20号(得来速)旁",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金华湖",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于百年路观山湖公园内(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金牌罗记肠旺面(蔡家街店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于蔡家街与中山东路交叉口建设银行旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金顶山小耳朵清水烫(温馨小院店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于松山路与沙滩巷交叉口南60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银都酒店(贵阳小河平桥店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于黄河路410号招商大厦1楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "锦程尚佳酒店(贵阳花果园财富广场店)",
@@ -366,9 +3552,490 @@
       "连锁酒店",
       "花果园"
     ],
-    "avgCost": 200,
+    "avgCost": 200.0,
     "duration": "全天",
     "openTime": "24小时",
     "rating": 4.2
+  },
+  {
+    "name": "锦程尚佳酒店(贵阳花果园财富广场店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "锦程尚佳酒店(贵阳花果园财富广场店)，位于小车河街道花果园五里冲项目R1区4栋1单元2层，南明区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦程尚佳酒店(贵阳花果园财富广场店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "锦程尚佳酒店(贵阳花果园财富广场店)，位于小车河街道花果园五里冲项目R1区4栋1单元2层，南明区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦程尚佳酒店(贵阳花果园财富广场店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "锦程尚佳酒店(贵阳花果园财富广场店)，位于小车河街道花果园五里冲项目R1区4栋1单元2层，南明区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦程尚佳酒店(贵阳花果园财富广场店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "锦程尚佳酒店(贵阳花果园财富广场店)位于贵阳市南明区花果园财富广场，是一家经济型连锁酒店，提供舒适的住宿服务。",
+    "tags": [
+      "经济型酒店",
+      "连锁酒店",
+      "花果园"
+    ],
+    "avgCost": 200.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.2
+  },
+  {
+    "name": "锦程尚佳酒店(贵阳花果园财富广场店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于小车河街道花果园五里冲项目R1区4栋1单元2层",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳关立交桥龙家小吃(桥下老店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于阳关地铁站C口步行490米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿甘小筑(白云北路分店)",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于白云北路北尚御景G区4栋夜间锁门从停车场进入大门右边十米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈氏人家豆米火锅(会展城店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于会展东路中天会展城第D3栋B1层2号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈氏人家豆米火锅(喷水池店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于省府北街1号省府北街1号院(园通街)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈氏人家豆米火锅(恒丰步行街总店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于贵阳市第二十四中学南门旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈记绿色肉饼店(贵棉小区店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于兴关社区服务中心兴关路224号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷锋广场",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于碧海南路119号百佳碧海商业广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岩古镇",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于青岩镇",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青岩古镇吉祥客栈",
+    "city": "贵阳",
+    "category": "hotel",
+    "description": "位于青岩镇交通路169号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马小九全牛火锅城(石标路二店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于金华园(南园)A区17栋2层4号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马记麻辣牛肉香锅(金龙国际花园店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于金龙国际花园36栋1层10号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马鞍山公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于云环路与泉湖路交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹅生菌富力中心店",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于金华园街道富力中心B6栋",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹿冲关森林公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于盐沙大道附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麒麟洞",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于枣山路187号黔灵山公园内(东侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(观山湖区林城西路绿地联盛沃尔玛)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于诚信北路8号绿地联盛国际1、2号1层144号、2层188号",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(鲜花广场店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于中南社区服务中心中华南路1号盛筑花广场",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黔上姨孃老贵阳牛肉粉",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于陕西路6号(喷水池地铁站J口步行480米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黔渔翁豆花渎鱼(喷水池店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "黔渔翁豆花渎鱼(喷水池店)是一家位于贵阳市云岩区的中餐厅，主打豆花渎鱼。",
+    "tags": [
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "黔渔翁豆花渎鱼(喷水池店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "黔渔翁豆花渎鱼(喷水池店)，位于大同街80号1层1号(喷水池地铁站H口步行110米)，云岩区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黔渔翁豆花渎鱼(喷水池店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "黔渔翁豆花渎鱼(喷水池店)，位于大同街80号1层1号(喷水池地铁站H口步行110米)，云岩区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黔渔翁豆花渎鱼(喷水池店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "黔渔翁豆花渎鱼(喷水池店)，位于大同街80号1层1号(喷水池地铁站H口步行110米)，云岩区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黔渔翁豆花渎鱼(喷水池店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "黔渔翁豆花渎鱼(喷水池店)是一家位于贵阳市云岩区的中餐厅，主打豆花渎鱼。",
+    "tags": [
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "黔灵山公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "黔灵山公园是贵阳市区著名的综合性公园，集自然风光、文物古迹和民俗风情于一体，园内山清水秀，猕猴成群，是游客休闲观光的理想去处。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 5.0,
+    "duration": "2-3小时",
+    "openTime": "08:00-18:00",
+    "rating": 4.5
+  },
+  {
+    "name": "黔灵山公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "黔灵山公园，位于枣山路187号，云岩区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黔灵山公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "黔灵山公园，位于枣山路187号，云岩区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黔灵山公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "黔灵山公园，位于枣山路187号，云岩区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黔灵山公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "黔灵山公园是贵阳市区著名的综合性公园，集自然风光、文物古迹和民俗风情于一体，园内山清水秀，猕猴成群，是游客休闲观光的理想去处。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 5.0,
+    "duration": "2-3小时",
+    "openTime": "08:00-18:00",
+    "rating": 4.5
+  },
+  {
+    "name": "黔灵山公园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于枣山路187号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黔灵山公园动物园",
+    "city": "贵阳",
+    "category": "attraction",
+    "description": "位于枣山路187号黔灵山公园内(东侧)",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黔言·精品黔菜(金阳店)",
+    "city": "贵阳",
+    "category": "food",
+    "description": "位于金阳北路金龙国际花园34-36号楼2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

@@ -1,0 +1,2095 @@
+[
+  {
+    "name": "1840广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于竹山门路与环城南路交叉口南100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东城门广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于环城东路与新桥路交叉口西北40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东山公园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于颜家蛟路99号旁",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东极岛景区",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于东极镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东极岛景区-东海第一哨灯塔",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于东极岛庙子湖岛",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东极岛景区-青浜岛",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于东极镇东极岛景区(西北角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东海云廊",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于临城街道临城街道庆丰路31-3号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌石塘",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于朱家尖街道乌塘路8号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云栖民宿(普陀山店)",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于环岛小森公寓(龙沙路分店)西侧",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "任老六·山野鲜货老火锅(定海古城店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于昌国街道东大街90号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛顶山景区",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于普陀山镇梅芩路1号普陀山风景名胜区(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兰魅坊休闲小聚餐厅(新城凯虹店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于海宇道111号凯虹广场新城店F2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十字亭",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于翁山公园内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千岛公园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于翁山路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千岛薛记鲜活牛肉店(定海古城店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于东大街100号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千步沙景区",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于普陀山镇梅芩路1号普陀山风景名胜区内(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华三爷干拌面(舟山银泰店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于海宇道99号银泰百货F1-1007号东门口",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南城旅馆(环城南路)",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于环城南路246号(三国公园以南50米,舟山水警区招待所西50米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南山宾馆(白泉路店)",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于白泉路42号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南洞艺谷火车广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于干览镇新建村新建社区南洞艺谷(东北角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南海观音大佛",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于普陀山镇梅芩路1号普陀山风景名胜区内南侧",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南苑商务宾馆(兴建路店)",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于兴建路89号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双拥广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于解放东路170号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城海景屋雅致民宿(定海区店)",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于沿港东路与卫海路交叉口东南220米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "君豪商务宾馆(铭都花园西)",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于东港街道贸易城旅游品市场42-48号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和府捞面(舟山慈航广场店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于朱家尖街道慈航路55号3幢6-7号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜来登绿城酒店盛宴标帜餐厅",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于千岛路101号喜来登绿城酒店1层",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(舟山市新城银泰店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于临城街道海宇道路99号1F1006号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如心公园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于长峙岛新城大桥下",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如心广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于景观大道与丹枫路交叉口西南20米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如愿·Dream海景美宿(大乌石塘店)",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于朱家尖街道乌石塘景区里湾路19号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "妈妈菜(临城店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于临城街道海宇道111号凯虹广场2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "定海古城",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于东关路8号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宫廷蟹黄汤包(人民北路店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于人民北路7号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小媳妇火锅(银泰百货店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于海宇道99号银泰百货舟山临城店F1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小媳妇重庆火锅(岱山店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于康嘉路38号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小媳妇重庆火锅(海莲路店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于东港街道海莲路305-307号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小媳妇重庆火锅(白泉店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于白泉镇白泉路25号缤纷天地广场1202室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小媳妇重庆火锅(长峙岛店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于临城街道如心广场850号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小干岛花溪公园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于无径之林东侧70米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小蜜蜂面馆",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于东港街道金城街21-25号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山缓缓火锅(舟山东港凯虹店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于海天大道凯虹广场L5-02",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岱山一百宾馆",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于人民路2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岱山天鸿旅馆",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于高亭镇山外路87-2号(近高亭车渡码头)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岱山家禾宾馆",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于剧院弄25-2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张阿三馄饨店",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于新街175号北侧",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新区人才公园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于新城大道与高云路交叉口西北260米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新城郊野公园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于东西快速路辅路与临长路交叉口西420米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明珠园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于明珠路18号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星马社区远教广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于鹤扬路与白展线交叉口北320米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "普济禅寺",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于普陀山镇梅岑路1号普陀山风景名胜区(西南角)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "普陀山匠心·心居民宿(龙沙路分店)",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于普陀山镇龙沙新村一区7幢3单元",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "普陀山宝陀讲寺",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于普陀山镇梅芩路1号普陀山风景名胜区内(北侧)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "普陀山来舍民宿",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于普陀山镇梅岑路97弄2号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "普陀山海萍客栈",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于普陀山六峤路西山二区65幢82号101室",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "普陀山观音法界",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于舟山群岛朱家尖白山山麓",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "普陀山风景名胜区",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于普陀山镇梅芩路1号(奇石王宫景区东北166.9公里)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱家尖-慈航广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于朱家尖客运中心附近",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱家尖佑岸民宿",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于朱家尖东荷嘉园109幢102号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱家尖南沙景区",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于龙眼线朱家尖国际沙雕艺术广场(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱家尖听寒居民宿",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于朱家尖街道香莲路48号荷塘嘉苑56幢102室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱家尖大青山景区",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于南沙路45号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱家尖宏恩精品民舍",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于朱家尖镇南沙景区南沙路12号(近南沙海滨浴场)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱家尖归臻轻奢民宿(大同路分店)",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于朱家尖大同路江南明珠苑二期香墅41幢",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱家尖景区",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱家尖沙中园民宿(南沙景区店)",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于朱家尖镇南沙路79一1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱家尖海上码头客栈",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于朱家尖镇泗苏村24号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱家尖花缘静舍民宿(观音圣坛店)",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于朱家尖街道香荷小区中欣路25号48幢",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朱家尖青丝民宿",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于朱家尖镇乌石塘关爷殿20号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "来一碗(老店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于朱家尖街道金沙路41号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "来必堡(新城店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于千岛街道体育路159-15号淘味城内",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "枸杞景区",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于枸杞乡",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳永文化广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于环南街道竹山门路1号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栖熹谷·喜上美舍禅意轻奢民宿(朱家尖南沙店)",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于泽山村东湾路83号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桥畔公园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于滨海大道与体育路交叉口东50米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梅花公园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于千岛街道海天大道(海天大道与港岛路交叉口西侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "樟州湾景区",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "樱花公园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于临城街道舟山日报社南侧文昌路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉堡王(舟山宝龙广场)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于定沈路与体育路交界处的舟山宝龙广场M2-L1-050号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江湾滨海公园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于滨海大道普陀段",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汤岛涮(舟山淘味城店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于体育路159号淘味城1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈家门新大地宾馆",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于沈家门东海中路141号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "法华洞",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于梅芩路115号普陀山",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浙江海洋大学-成功广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于杨存国会展中心西南侧150米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海城广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于体育路与定沈路交叉口南120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海山广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于解放西路与县府弄交叉口西南40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(宝龙广场店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于定沈路699号舟山宝龙广场3楼030-2号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海湾公园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于临城街道千岛路与滨海大道交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海湾公园市民中心广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于海湾公园内(东侧)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海珠广场(惠乐多优鲜超市)",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于兴海路18号华隆·海珠苑",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海里面面馆(兴海园店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于东海路332号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "润兴宾馆",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于人民路281号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "港务广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于卫海路57号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖滨广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于东港街道望湖街100号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "满食汇(银泰百货店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于千岛街道海宇道99号(舟山银泰百货1F-1-4)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玲珑港式茶餐厅(银泰店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于千岛街道海宇道99号(银泰百货1F-1-7-1)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白云宾馆(环城南路店)",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于环城南路65号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白山景区",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于朱家尖镇朱家尖岛北部",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盐仓街道法治广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于海龙路与翁洲大道交叉口东南80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫竹林景区",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于普陀山镇梅芩路1号普陀山风景名胜区内(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "羊其正单县羊肉汤(舟山银泰店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于千岛街道海宇道99号(舟山银泰百货F1-1007-1)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翁山公园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于定沈路与金岛路交叉口西北300米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翁浦公园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于临城街道海天大道570号附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老国强面馆(菜市路店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于沈家门菜市路24号(近西大街)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肉士家自助烤肉(新城凯虹广场店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于海宇道111号凯虹广场临城店F3层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(朱家尖慈航店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于朱家尖街道普渡路4号慈航广场二期一层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(欧尚东港店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于兴普大道266号欧尚超市1层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟山东海青年旅舍",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于朱家尖共建路4号",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟山中天商务宾馆(沈家门半升洞码头店)",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于东河路90号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟山乐惠小旅馆",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于人民南路122号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟山儿童公园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于怡岛路与新城大道交叉路口东北角",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟山博物馆",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于新城海天大道610号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟山国际水产城中国渔都广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于沈家门街道滨港西路158号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟山嵊泗列岛风景名胜区",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于李五线",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟山市普陀区东港市民广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于莲花洋公园(西南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟山望景阁民宿",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于樟州村里湾路31号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟山海星宾馆",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于沈家门街道兴建路590号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟山秀秀客栈",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于泗苏村52号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟山米墅独栋别墅",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于朱家尖街道糯米村里畈新区62号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟山红楼宾馆",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于人民中路182号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟山自在居别墅",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于朱家尖街道香莲路东昇嘉苑二期72幢102室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟山芙蓉宾馆(芙蓉洲路店)",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于芙蓉洲路16号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟山财富大酒店自助餐厅",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于海宇道29号舟山财富大酒店F1",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舟山迎宾小庄",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于环城南路242号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舢鲜海鲜面(长峙岛如心广场店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于临城街道长峙岛如心广场820号、822号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舢鲜舟山海鲜面(新城凯虹店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于临城街道海宇道111号(新城凯虹广场L1W-05)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舢鲜舟山海鲜面(朱家尖东沙店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于朱家尖街道假日路902号东荷嘉园67幢101",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花鸟岛",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于李五线舟山嵊泗列岛风景名胜区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芸记舟山海鲜面(锦元华庭店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于安澜一弄38号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茶山浦公园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于临城绿岛路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "菲滋意式餐厅(新城凯虹店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于千岛街道海宇道111号新城凯虹广场内L1W-01-1",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西天景区",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于普陀山镇梅芩路1号普陀山风景名胜区(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "见海舟山海鲜面(临城店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于体育路159号-20(淘味城1楼)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "许船长",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于临城街道海宇道99号银泰百货(舟山临城店)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辣都火锅(六横店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于六横镇新菜场路151号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辣都火锅(宋都店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于环城南路蓝郡国际花园A幢111室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辣都火锅(日达广场店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于长河路348号日达商场F1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辣都脆毛肚火锅(嘉域店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于兴海路345号嵊泗嘉域生活中心F1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辣都脆毛肚火锅(浦西店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于东港街道东海西路2031-1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辣都鲜货火锅",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于芙蓉州路92号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "逸香海鲜面疙瘩(嵊泗店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于东海路283号(竺凌宾馆对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郭淑芬鲜切牛肉自助老火锅(新城凯虹广场店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于千岛街道海宇道111号凯虹广场(新城店)3楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "里岛烤鱼(新城凯虹广场店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于海宇道111号凯虹广场新城店F3层",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金叶宾馆(食品厂路店)",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于食品厂路81号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金平山庄休闲广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于城西路29号金平山庄内",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金海滩宾馆(嵊泗基湖沙滩店)",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于菜园镇基湖村金沙路63号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锅儿欢海鲜火锅烤肉自助餐(东港店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于东港街道海天大道2755号凯虹广场一层L1-22商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锅儿欢海鲜烤肉小火锅自助餐厅(新城凯虹广场店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于海宇道111号凯虹广场新城店F2层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锅儿欢自助烧烤火锅餐厅(定海凯虹店)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于东瀛路199号凯虹广场4层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长峙岛如心樱花公园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于长峙岛新城大桥下",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿杰面馆",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于金沙路37-39号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿红面店",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于展茅镇柴家小区7号楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "飞珠面店",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于海莲路260号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香格商务宾馆",
+    "city": "舟山",
+    "category": "hotel",
+    "description": "位于东港街道",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香樟湖广场",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于香樟街玫瑰园酒店香樟街店121号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲜者为王·海鲜打边炉",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于海印路850号杉杉普陀天地A3区一层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(东港得来速餐厅)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于东港站公交站南门旁",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(舟山定海凯虹广场)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于东瀛路199号定海凯虹广场购物中心负一层L1-16号商铺",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(舟山麦当劳临城凯虹餐厅)",
+    "city": "舟山",
+    "category": "food",
+    "description": "位于临城街道海宇道111号新城凯虹广场L1-23号麦当劳餐厅",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓吹山公园",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼠来宝主题乐园(新城凯虹广场店)",
+    "city": "舟山",
+    "category": "attraction",
+    "description": "位于海宇道111号凯虹广场临城店F3层",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

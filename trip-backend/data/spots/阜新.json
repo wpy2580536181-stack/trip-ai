@@ -1,0 +1,2095 @@
+[
+  {
+    "name": "一八年鲜肉菜市火锅",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于前进路40-2-109",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三一八公园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于育红路22-6-1门",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三一八曹家炸串总店(新华路)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于新华路143号108(三一八公园东门)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三羊好客羊蝎锅(阜蒙县店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于阳光新城小区8号楼网点16号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东苑小区公园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于玫瑰巷9号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东道煮牛肉火锅",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于工业街绿地小区东北门对面",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "义斌客家客栈",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于创业路23-17-9门",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌兰木图山",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于宫八线",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云朵民宿",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于矿工大街69号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云朵泊月庭",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于人民大街37号时利和南走50米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五龙健身广场",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于原五龙派出所后身",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于民族街40号(近花园市场东门)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场(人民大街)",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于人民大街",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佟二哥火锅馆(阜新旗舰店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于解放大街21号商贸城B103",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佟富贵老火锅·老妈蹄花(商贸城店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于新建路19-6号108",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佟富贵老火锅·老妈蹄花(西市场店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于西山九郡东北门西北70米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "健康主题公园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于园林路与民族街交叉口东北60米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "健晟星期天火锅(人民大街店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于人民大街27号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "健晟星期天火锅(阜蒙店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于智发益民2期西北1门旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "关山沟景区",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于市环线东瓦村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯文国际商务酒店",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于创业路42号(客运站东500米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "利民园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于建设路与荣胜街交汇北30米",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "半山幺鲜货火锅(水岸新城店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于新华路133号1门",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华莱士·全鸡汉堡(解放店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于解放大街35-6门",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华莱士·全鸡汉堡(阜新千盛店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于新华路108号104网(大世界斜对面50米)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卓越广场",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于中华路88-2号城建雅馨",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古香园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于矿工大街9-1-205号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉野家(阜新大润发店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于中华路65-1306阜新大润发超市1层",
+    "tags": [
+      "050309"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴记田园菜馆(前进路店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于前进路44号",
+    "tags": [
+      "050113"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "味里香(中华路店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于中华路6号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "唯爱主题宾馆",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于南环路彰武第二初级中学北门东南方向约50米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉和过桥米线(仁和小区店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于仁和小区北区",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城西健身广场",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于煤城西路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔山风景区",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于905县道西100米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塞云佰味火锅(阜新总店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于青年街47-1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大唐荣城小区健身小广场",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于人民大街辅路与潜龙路辅路交叉口西北260米",
+    "tags": [
+      "080100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大清沟",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大渝山重庆牛油火锅",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于常青街18-4门",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大贺抻面(总店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于东苑街道工业街59-14",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大隐艺术影宿民宿(中华路店)",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于中华路76号附4号兴隆大家庭B座16层11610室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太平体育公园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于红河街以西,红工路以北,玉带园小区以东,细河以南",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好朋涮肉",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于新建路10号104号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如鑫温泉民宿(东梁镇店)",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于王东线阜新宝地斯帕温泉度假区",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安鑫商务宾馆",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于振兴路44号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宜家快捷宾馆(彰武火车站店)",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于清真路12-2",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富煜香烧烤店",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于前进路46-1号101",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "少年强科技文化广场",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于东风路(紫金财富广场)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山涧鲜味火锅(鑫世纪玉龙时代广场店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于玉龙时代广场",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川人川味(辽工大东门老店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于辽宁工程技术大学东门东60米",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巨龙湖",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市北森林公园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于龙湖路与解放大街交叉口西南400米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市北游园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于市北新村",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "希日塔拉公园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于人民大街73号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "希日塔拉公园-成吉思汗广场",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于城区街道希日塔拉公园(东北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸福广场",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于东光路与高东二街交叉口东北300米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "建设广场",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于红树路106号312号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德力格尔风景区",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于大德镇德力格尔草原风景区售票处北侧190米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(万达广场店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于解放大街甲17号万达广场F1层",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恒山公园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于延安路与衡山街交叉口西南80米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化广场",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于站东街50-4-313号附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新蚝记海鲜串吧",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于人民街东12号105号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日落极限体育公园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于海河新村16号楼8门",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星钥·东方料理",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于人民桥北时利和后身",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月亮广场",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于细河公园(西南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月亮湾森林公园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于西环路北头",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "有财炸串",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于利民街39号104",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朗悦商务宾馆(人民大街)",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于人民大街60号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "来黔道贵州豆米火锅",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于城建雅馨东北门东南80米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨大肚子烧烤海鲜大排档",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于工业街79号15门",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松涛湖",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于四合镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林家小馆酱骨手擀面(和平路店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于和平路22号5门",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "查海遗址博物馆",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于沙拉镇查海村",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(阜新商贸城店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于花园小区西门北120米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欧里山观景台",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于洞子地",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "歌慕丽舍主题公寓",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于中华路76-3号1166室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永和大王(中华路)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于中华路63号大润发一层永和大王",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海州庙",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于海州街113号海州庙会",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海州庙会",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于海州街113号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海州露天矿国家矿山公园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于高德街道煤城路与太平大街交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海棠山风景区",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于大板镇大板村西北2公里处",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清兮坊民宿",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于容大印象江南29号栋121-12823门",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘小院湘味水煮鱼",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于人民大街27号",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漫7民宿",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于兴工路51号15号楼152室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "火炉奴奴炭火烤肉",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于人民大街与前进路交叉口南50米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊喵来了火锅(阜新万达店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于万达广场四层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熙·设计师民宿",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于解放大街73号银座大厦19层1197号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛霸王筋头巴脑一锅香(辽工大总店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于人民大街40号112网点",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珂茂洞炸酱面店",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于世纪花园西北门东北90米",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瑞应寺",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于佛寺镇佛寺村本街",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇城老妈火锅(红树广场店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于红树路46号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "社会主义新农村(金城花园店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于前进路33-8银通华府南门",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祝惜墨广场",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于太平大街与红南路交叉口东260米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福宇博物馆",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于孙家湾街道东光路36号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "站前宾馆",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于创业路767号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "站前游园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于振兴路与站东街交叉口南80米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米兰西点(阜新店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于人民大街23号(近爱地大厦)",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(阜新万达店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于解放大街甲17号万达广场四楼4053B(中间位置700CC旁边)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红树广场",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于红树路33号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "细河公园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于利民路与滨河路交汇北200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "细河区体育公园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于华东街122号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老孟头孟家鸡味抻面(菜市街店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于经纬路26号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老家饺子馆(前进路)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于银通华府东南门西南330米",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老诚一锅(西出口店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于西山路与通达路交叉口东100米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚源旅店",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于丹霍路5-14门",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(阜润发店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于玉龙街道中华路63号大润发细河店1层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖妹小面馆",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于前进路46-1-102",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙古贞广场",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于文化路与光华路交汇处",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙古馅饼(西华园店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于西华园小区东南门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙族馅饼店(人民大街店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于人民大街73号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "融柳大铁牛螺蛳粉(阜新辽工大店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于辽宁工程技术大学北校区南门东90米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "街心广场(电工街)",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于中华路86号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁记云饺(海州区解放大街店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于和平街道解放大街57号一楼西侧二门",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西山水塔公园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于开源路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西山阳光公寓",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于经纬路29号附4号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西扣莫小河",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于阜蒙县宏祥气体有限公司东侧330米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西落舌冒菜冒肚(阜新店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于兴顺夜市排挡2号院",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "解放广场",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于西山路与解放广场交汇处",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "论煮老鸭汤",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于西市场不夜城商业综合楼121号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "谭三娘鲜切牛肉自助火锅(阜新万达广场店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于解放大街17号室内步行街4层4015B-4017号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "路客民宿(兴隆店)",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于和平街道中华路兴隆财富大厦B座12310室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辽宁省章古台自然保护区",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于大冷蒙古族镇板清线",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎宾广场(迎宾大街)",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于迎宾广场与阜锦公路交叉口东60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "通达商务宾馆(利民街)",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于东市小区3街坊2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邵汇大虾(万达广场店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于玉龙街道解放大街甲17号万达广场4F4020室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金桥宾馆(彰武县运输管理所北)",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于解放大街107号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铂晶公寓(辽宁工程技术大学店)",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于中华路财富大厦27层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新万人坑死难矿工纪念馆",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于新园街1号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新华美大酒店",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于振兴路48号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新县二十五小时温泉公寓",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于东梁镇吐呼噜村宝地·斯帕温泉小镇55-12号楼301室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新喜尚民宿",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于中华路阜新兴隆大家庭B座11210室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新宝地斯帕温泉度假区",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于东梁镇宝地斯帕温泉小镇(阜锦高速口南行3.5公里)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新市中西部煤矿区公园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于孙家湾路附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新市博物馆",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于工业街44-2号(东苑小区西门)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新懿客栈精品宾馆",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于西山路75-2-6",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新暖汤温泉酒店",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于S204阜新宝地斯帕温泉度假区温泉公寓C座5楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新森居露营公园",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于四合镇新地村",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新欧尚旅馆",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于电工路与新建路交口北50米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新水韵宏都宾馆",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于青年街27号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新汇都精品宾馆",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于前进路70-N-01",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新添香小筑酒窝精致公寓(兴隆店)",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于中华路76-4号兴隆财富大厦B座1186室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新温馨短租公寓",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于北新路71-10号592房",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新爱尊客宾馆",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于前进路47号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新玉龙湖公园健身广场",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于玉龙湖公园(东南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新玛瑙文化博物馆",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于红纬路34-238号楼",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新益丰旅店",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于长客车站东门",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新紫叶商务休闲宾馆",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于新建路新建小区北门",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新职工文化广场",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于人民大街与顺吉路交叉口西南300米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新邮电招待所",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于迎宾大街105号(邮政储蓄银行站前支行旁边)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新鑫日月商务宾馆",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于阜新市药品检验所西南门旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新雅客商务快捷宾馆",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于园林路21号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新饼王(和平路店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于常青园西南2门东南140米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜新馨家温泉公寓",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于东梁镇南荒村二组宝地斯帕温泉公寓C栋3层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿鲍烤鱼(东门外市场店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于前进路40-2-5-102",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青年创业广场",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于中华路104号14附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "面道居酒屋(宁泽园店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于宁泽园北门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "食在人家地道东北菜(东苑小区店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于工业街55号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高山风电景区",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于南高线",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹏鹏妈妈公寓(工农路分店)",
+    "city": "阜新",
+    "category": "hotel",
+    "description": "位于街心路阜新兴隆大家庭-B座兴隆大家庭楼上",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(万达广场店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于万达广场1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄家沟旅游度假区",
+    "city": "阜新",
+    "category": "attraction",
+    "description": "位于黄家沟村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼎汇鑫重庆老火锅(上品店)",
+    "city": "阜新",
+    "category": "food",
+    "description": "位于祥宇尚品和平派出所对面50米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

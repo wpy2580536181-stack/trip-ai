@@ -1,0 +1,3330 @@
+[
+  {
+    "name": "一棵树早餐店",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于临春河一横路7号一楼一号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万国会古玩系列博物馆",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于海榆西线与225国道交叉口西100米",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚·中交凤凰岛",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于河西街道三亚湾路6号",
+    "tags": [
+      "190202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚·棠舍民宿(蜈支洲后海店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于藤海街海角7号便利店东边20米处",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚万吉度假公寓",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于解放四路嘉盛花园2层万吉度假主题公寓(月川桥往农垦医院方向走100米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚三夏光年客栈",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于老铁路东巷21号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚东岸湿地公园",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于凤凰路东",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚丽海居海景公寓",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于大东海海韵路19号金陵海景花园2栋2层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚亚龙湾99号套房度假酒店",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于亚龙湾路99号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚亚龙湾人间天堂-鸟巢度假村",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于亚龙湾国际旅游度假区",
+    "tags": [
+      "100102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚京亚公寓",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于商品街5巷34号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚凤凰岭海誓山盟景区",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于凤凰岭公园狗岭路300号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚千古情景区",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于河东区街道迎宾路333号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚半山半岛海边边度假区",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于鹿回头路16号",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚南山非遗博物馆",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于南山文化旅游区内南山国际非遗中心2层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚南油度假村",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于榆亚路786号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚南都商务酒店",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于商品街一巷18号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚品得香美食店",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于解放四路南海苑公寓1栋1层1103号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚夏沫Mosummer民宿(三亚湾吉祥街有轨电车站店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于吉祥街老铁路东巷44号",
+    "tags": [
+      "060501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚大东海壹号酒店",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于榆海路10号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚大东海精品海景度假公寓",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于大东海金茂海景花园1号楼A栋703室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚大东海花语海景度假公寓",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于大东海金茂海景花园2B704",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚天昊城商务酒店(海旅免税城店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于荔枝沟工商所旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚天涯度假村",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于三亚湾路海坡开发区189号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚威阁大酒店",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于解放路256号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚山海贝文化博物馆",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于榆亚路680号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚巴哥度假屋",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于三亚湾路88号兰海花园一期B座CD单元3D房",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚市丰兴隆党群主题公园",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于春光路丰兴隆桥头",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚市博物馆(建设中)",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于海润路与火车头大道中交叉口西320米三亚市文化中心",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚市廉洁文化主题公园",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于鹿回头滨河公园西南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚市穆斯林古墓群",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于鲁能·三亚湾兆亨海坡度假村海岸艺墅",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚德钰海景公寓(椰梦长廊店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于三亚湾路昌达海景花园A区4单元7楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚忆乡人雨林民宿(亚龙湾博后店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于博后南路博后村委会新坡二队20号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚恐龙博物馆",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于育秀路2号夏日站商业5楼",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚新兴海景大酒店(第一市场店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于解放一路2号(三亚大桥旁)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚星悦度假酒店(千古情店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于荔枝沟路139号(农业银行北10米、千古情西北500米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚林海海景公寓",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于河西区街道三亚湾路37号昌达雅华香榭花园C栋二单元4楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚梦之旅海景设计美宿(三亚湾椰梦长廊店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于三亚湾路156-1号美丽新海岸小区9栋3单元301(近椰梦长廊)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚民俗博物馆(建设中)",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于学院路与036乡道交叉口东北300米",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚河国家湿地公园百年红树林观景点",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于春光路15-33号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚海之都版画博物馆(装修中)",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于海榆西线99号",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚海时间轻奢酒店(大东海店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于大东海海韵路内江别墅9号(夏日百货必胜客对面)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚海棠湾茅台度假村",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于海棠南路6号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚海花度假公寓(大东海店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于大东海海韵路9号蓝海豪苑B座10层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚海辉旅租(三亚凤凰机场店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于三环路22号凤凰机场附近酒店离机场最近的酒店",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚淋森商务酒店",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于榆亚大道红土坎140号(木棉楼左侧)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚湾",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于三亚湾路189-9号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚湾9号·city sea海景民宿(椰梦长廊店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于三亚湾友谊路6号擎天半岛一楼大厅",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚湾海忆时光海景公寓(三亚湾椰梦长廊店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于三亚湾路碧海蓝天B栋(海日阁)26FA7房",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚湾海星度假屋",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于三亚湾路155号美丽新海岸小区",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚湾海水浴场",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于新大洲",
+    "tags": [
+      "080109"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚湾红树林PADI潜水度假村",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于凤凰路与景园巷交叉口东南320米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚澳妮斯酒店(商品街店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于商品街33-1-2",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚牧马人酒店",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于河东路66号碧海国际2层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚特菲酒店(解放路店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于解放路312号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚玉阙宾馆(三亚湾店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于月川河东路456号党校路口",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚田独红运莱商务酒店",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于迎宾大道吉阳镇政府后侧",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚盘云水和民宿(亚龙湾热带森林公园店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于亚龙湾六盘村红色2组50号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚福居旅馆",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于建设街6号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚科宝酒店(解放路步行街店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于解放二路316号科宝大厦1层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚红树林公园",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于三亚河西路与文明路交叉口东120米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚自然博物馆",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于崖城镇三亚大小洞天旅游区内",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚蓝海广场游乐场",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于新风街与祥和路交叉口西北120米",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚观来酒店",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于解放一路122号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚贰尺浪海景旅租(蜈支洲岛后海店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于海棠湾藤海社区东村130号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚轻住悦客居酒店(三亚湾椰梦长廊店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于吉祥街铁路东巷47号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚闻浪轩客栈",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于解放路群众街12号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚青年城夜市",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于青年中路与人才路交汇处向东人才创业基地B13区临街底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三亚青艺术雅筑客栈(三亚湾店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于铁路街儋州三巷3号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "不仔客海鲜·大排档(三亚湾店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于新城路39号A区",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东北桦南满街香大碗麻辣烫",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于金鸡岭社区金鸡东一巷美食街45号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东升快捷商务酒店(三亚高铁站店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于河东路480号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东岸夜市",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于东岸路与丹州北路交汇",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临春岭森林公园",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于河东区街道凤凰路临春段(近艺术家新村)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临春岭森林公园环山步道",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于临春岭森林公园内(西侧)",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临春岭瞭望塔",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于临春岭森林公园(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临春岭逐鹿台",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于临春岭森林公园(东南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临春河公园",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于河西区街道临春河路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐天城",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于荔枝沟路868号",
+    "tags": [
+      "060100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亚龙湾夜市(亚龙湾亚泰商业中心店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于亚龙湾路115号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亚龙湾爱琴海PADI潜水度假村",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于龙海路3号爱琴海精品套房度假酒店",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人人捞火锅(商品街店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于河东区街道商品街十三巷98号总统公寓一楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亿恒夜市",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于海润路22号亿恒购物中心B区美食区",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亿点足迹青年旅舍",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于商品街十二巷4号对面桃子公寓里面2楼",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "依海观景客栈(海月广场店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于迎宾路70号(东大医院斜对面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侨乡南洋风味老爸茶(三亚湾·椰梦长廊店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于辰光克拉码头酒店一楼南洋风味餐厅",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六盘度假村",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于吉阳镇六盘路36号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六盘村夜市",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于六盘路与博后路交叉口北100米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰岛桥头公园",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于三亚湾路与光明街交叉口西60米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘记大院农家菜",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于桶井桃园路248号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "创味·民间海南菜(南山店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于科技城百泰生物科技园4号楼101",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "创味·民间海南菜(藤桥·免税城店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于新民路藤桥西大桥头旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "创味·民间海南菜·海鲜(林旺店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于海岸大道与林旺大道交叉口(灶仔二组16号)",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "匠子烤鱼(蓝海购物广场店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于新风路261号蓝海购物广场F3层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十八碗(蓝海购物广场店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于新风路261号蓝海购物广场F4层",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华利宾馆(亚龙湾路店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于吉阳镇亚龙湾路28号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华姐养生粥(建设小吃街店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于建设街111号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华姐炸串(荔枝沟店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于荔枝沟路130号天南货仓超市旁",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南山寺",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于南山文化旅游区内",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南山寺-地藏殿",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于南山寺",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南山文化旅游区-空海像",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于南山寺景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南山文化旅游区-鼓楼",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于南山寺",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南山文化旅游区-龙五爷财神殿",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于南山文化旅游区内",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南山文化旅游区南山海上观音",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于观音岛2层",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南开清真寺",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于凤凰镇回新村",
+    "tags": [
+      "110207"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南海山庄",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于南边海路44号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南海文化博物馆",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于慎思路与创新路交叉口东约100米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南海黎村·海南民族菜(百花谷店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于亚龙湾路百花谷一层B103",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南海黎村·海南民族菜·海景餐厅(椰梦长廊店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于景利莱度假酒店南门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南海黎村·海南民族菜·船屋海景餐厅(海棠湾店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于海棠北路18号万达嘉华酒店内泳池旁入海通道",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南海龙王神洲庙",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于南边海路",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南繁博物馆(建设中)",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于五号路与还金路交叉口东200米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "博后夜市",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于亚龙湾博后村",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厨彩阳光(阳光大厦店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于河东路284号三亚阳光大酒店1层大堂南侧",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城门",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于崖城村崖保路(G225)崖州古城",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉阳社区公园特色夜市",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于荔枝沟路",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "名花公园",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于美丽之冠·大树公馆东北(凤凰路西)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "后海夜市",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于渔港路与藤海街交叉口南140米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "呈祥酒店",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于荔枝沟路122号,近琼州学院路口",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "味之绝美蛙鱼火锅",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于商品街66号(12巷路口)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "呼啦啦烧烤店",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于三永凤凰城一楼铺面",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和风商务公寓",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于群众街一巷87号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哪里那里海岸精品客栈(三亚亚龙湾店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于吉阳镇亚龙湾六盘村内",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哪里那里海岸精品客栈(三亚湾店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于团结街45号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嗲嗲的椰子鸡(亚龙湾店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于亚龙湾亚泰商业中心",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嗲嗲的椰子鸡(大东海店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于榆海路1号大东海酒店一楼中国银行傍101商铺(近大东海旅游区)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嗲嗲的椰子鸡(椰梦长廊店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于三亚湾路蓝色海岸商铺B栋B308商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嗲嗲的椰子鸡(海昌不夜城美食街店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于海岸大道168号海昌不夜城美食街内A01号商铺(朱光玉火锅傍)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城市乐园",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于三亚河西路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "墨舍影音酒店(三亚凤凰国际机场店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于凤凰路417号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夜市小吃一条街(东榕美食广场店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于湾月路1号下海通道旁(喜来登,希尔顿酒店隔壁)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大东海广场",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于东海路与榆亚路交汇处东南150米",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大东海旅游区",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于榆亚大道(明月广场西南400米至大东海广场2.9公里海岸线)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大东海旅游区",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于榆亚大道(明月广场西南400米至大东海广场2.9公里海岸线)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大东海海水浴场",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于大东海旅游区大东海广场旁",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大东海海边度假公寓(榆亚路2号分店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于榆海路11号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大云寺遗址",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于文化路与振州路交叉口西400米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大卓撸串儿(三亚店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于商品街大道82号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天涯海角-石刻",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于225国道西150米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天涯海角游览区-天涯石",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于马岭街116号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太琼糟粕醋·海南百年传统火锅(大东海店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于榆海路1号三亚大东海酒店1楼102号商铺(中国银行旁,嗲嗲的椰子鸡旁)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太琼糟粕醋火锅•海南老爸茶(椰梦长廊店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于金鸡岭路三亚湾路交叉口兰海花园2期3号(87号渔船旁,近鲜芒夜市)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好渔味吃饭公司",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于榕根路51号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如家商旅酒店(三亚椰梦长廊三亚湾店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于解放路696号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝集全球海洋珠宝(三亚)博物馆",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于头塘路与振州路交叉口东北60米",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小东海",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于小东海旅游度假区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小海鲜渔民排档·农家海南菜",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于环岛旅游公路与博后南路交叉口西240米",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小鱼温泉旅游度假区",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于三亚市综合行政执法局天涯分局扣没场南侧280米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小鹿辰客·海澜湾酒店(三亚凤凰机场店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于凤凰路167号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崖州古城",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于崖城村崖保路(G225)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崖州古城-古城墙",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于崖城村崖保路(G225)崖州古城内(南侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崖州古城-文明门",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于崖城村崖保路(G225)崖州古城内(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崖州古城·崖城学宫",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于古崖州城内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川味海鲜亿恒商户夜市东岸夜市",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于荔枝沟路52号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(百花谷店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于亚龙湾大道百花谷商业中心二层",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "忆游尤近精致体验客栈",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于青龙街78号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "情人桥",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "想住下来酒店(天涯海角店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于马岭二横巷东街319小组",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慢时光青年客栈(三亚湾人民医院店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于解放路535号阿里山美食城五楼",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "找商机青年旅舍(三亚湾椰梦长廊店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于解放路813号唐南大厦",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "抱坡溪湿地公园",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于荔枝沟路三亚体育中心旁",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾味馆(蓝海购物广场)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于新风街261号蓝海购物广场三层C001-C002商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文昌小老弟糟粕醋·海南椰子鸡椰奶鸡(三亚湾外贸路店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于外贸路12号海湾公寓",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文昌小老弟糟粕醋·海南椰子鸡椰奶鸡(明珠创始店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于河西路249号明珠广场后门",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "斑斓馒头(第一市场店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于新建街与红旗街交叉口东40米",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新太二·鲜料川菜(三亚蓝海华庭分店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于蓝海购物广场3层(星巴克旁观光梯上3楼左手边手扶梯对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新宇iio·智能酒店(三亚湾解放路步行街店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于市中心解放三路669号明珠广场对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新建大云寺",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于大雲寺遗址",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新花小食店(南新广场店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于南新农场南新街254-K号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星野民宿(海棠湾免税城店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于龙海风情小镇N7-17",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春记渔村炸鸡店",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于渔村路97号春记渔村炸鸡店",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晨阳驿站(三亚天涯店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于天涯镇马岭社区东二街铁路二巷357号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "暖风居青年旅社",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于友谊路39号面粉厂A2栋603",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月川体育公园",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于G223(迎宾路)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月川法治公园",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于月川南区安置区月光中路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月川生态绿道公园",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于溪泽南路18山",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "有颗糖民宿(大东海旅游区店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于海花路鹿鸣小区四型五号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朋派烤肉自助料理(蓝海购物广场店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于新风路261号蓝海购物广场F3层",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林旺夜市广场",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于三亚海棠区林旺路(林旺社区水果市场东北侧约250米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(解放四路店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于解放四路锦江都城旁3-2号铺面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "格林豪泰(三亚亚龙湾店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于兆龙南路14-15号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椰小鸡·椰子鸡(海棠68环球美食店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于海棠北路海棠68环球美食街椰小鸡-椰子鸡(海棠68环球美食店)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椰梦·海鲜糟粕醋·椰子鸡(大东海店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于榆亚路海天荟源大厦103号铺面",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椰梦·海鲜糟粕醋·椰子鸡(椰梦长廊店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于海龙路6号蒂诺康逸酒店15楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椰梦长廊",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于三亚湾路116号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椰椰椰·椰子鸡(亚特兰蒂斯店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于海棠北路76号南海印象",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "槟榔温泉度假村",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于凤凰镇槟榔村官坝一组槟榔河文化旅游区",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正宗抱罗粉店",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于西河西路33-34号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永成七仙酒店(三亚海旅免税城店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于吉阳镇迎宾路466-8号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江南百悦商务大酒店(千古情店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于同心路四巷",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海之岛海鲜砂锅粥总店",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于西岛社区中片50号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海南京润珍珠博物馆",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于凤凰镇凤凰机场路口西侧京润珍珠博物馆",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海南同职疗休养中心",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于三亚湾路128号",
+    "tags": [
+      "080400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海南椰子鸡饭店(大东海店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于海韵路金茂海景花园11-4",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(万悦新天地店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于育秀路8号万悦新天地四层CL4-1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(亚龙湾店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于龙海路1号亚龙湾滨海公园F5、F6、F7号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(时代海岸店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于榆亚路2号鸿洲时代海岸埃德瑞度假酒店隔壁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(青春颂店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于迎宾路川北巷y2-5商铺二楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海月广场",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于迎宾路九号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潮膳夜粥潮汕超级大排档",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于解放路1361号鲜芒购物中心",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉皇大帝天上第一玄德庙",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于麒麟坡",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琼小琼·糟粕醋海鲜火锅(三亚湾店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于新城路93号丽禾广场S13商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琼小琼·糟粕醋海鲜火锅(亚特兰蒂斯店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于海棠北路76号南海印象101综合体",
+    "tags": [
+      "060703"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琼小琼·糟粕醋海鲜火锅(亚龙湾夜市店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于亚龙湾路与百花路交叉口东南140米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琼禧小馆·海南菜",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于三亚湾路116号蓝色海岸",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "疆徕雅苑新疆清真度假村",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于槟榔村黄猄四组49-2号",
+    "tags": [
+      "080400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "疍家佬味道·海南船家菜(亚龙湾店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于华宇度假酒店RT05一层E105A",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百花夜市(百花谷商业中心店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于百花谷商业街与龙海路交叉口北140米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "第一市场夜市",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于红旗街95号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "第一市场缤纷四季夜市",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于解放路建港新城小区1栋楼下",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "简栖小筑(天涯小镇店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于马岭社区西二街120号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红太阳酒楼(榕根路店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于吉阳镇榕根路11号",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红树林生态公园",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于河东区街道",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿茶餐厅(三亚蓝海购物广场店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于新风路261号蓝海购物广场4层D016",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老渔村海鲜大排档·砂锅海鲜粥",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于后海街西村93号郑远元旁边",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老陈后安粉汤海鲜焖面",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于椰风巷59号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(蓝海华庭店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于新风街蓝海购物广场一层A028商铺",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖哥俩肉蟹煲(三亚蓝海购物广场店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于新风路261号蓝海购物广场3楼c003号",
+    "tags": [
+      "050106"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花姐扒肉(金鸡岭店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于金鸡领综合商贸大厦13号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花姐海鲜大排档(第一市场店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于新民街123号1-2层",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲寿司(蓝海购物广场店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于新风路261号蓝海购物广场F4层",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(中交店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于迎宾路中交国际自贸中心T3栋L1号店铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍水沙滩",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于三亚湾路189-9号三亚湾(东南角)",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "落笔度假村",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于吉阳镇半岭二路温泉二路交叉口",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "落笔洞",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于田独镇荔枝沟乡印岭(近三亚学院)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒋大鸿自助小火锅(蓝海购物广场店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于新风路261号蓝海购物广场F3层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虎婆香草鸭·海南大排档(椰梦长廊店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于三亚湾路128号龙兴海鲜广场2层3号铺位",
+    "tags": [
+      "050700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛙小侠(蓝海购物广场店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于新风路261号蓝海购物广场F4层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛙蛙坊(商品街店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于三亚河东路216-5号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "许府牛火锅(海南三亚吉阳蓝海购物广场店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于蓝海购物广场B1层直梯后方",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "豪约客牛排(蓝海店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于新风街261号蓝海广场三楼",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赣江之星快捷酒店(千古情店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于南新街221号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "走走停停精品酒店(三亚大东海店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于下洋田大真岭巷2号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "醋小椰·椰子鸡·糟粕醋(珠江花园店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于东海路1号珠江花园酒店二楼(北彩虹桥)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁炉港口庙",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于腾海村铁炉港口",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿三靓汤(迎春一巷店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于区月川中路林荫河畔小区1-A-4",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿俊糟粕醋抱罗粉",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于林旺大道47-1",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿道小串(丹州小区店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于河东区街道凤凰路与詹州小区交叉口三永凤凰成商服1021",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "馨族商务宾馆",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于商品街二巷42号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(三亚中环广场)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于凤凰路与迎宾路交叉口中环广场1号楼1楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼与蛙·干蒸砂锅煲·海南本地大排档(东岸夜市店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于丹州北路东岸夜市美食加工坊8号档位",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲜芒夜市(美食珠宝街)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于解放四路1381号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲜芒文旅夜市",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于解放路1361号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸟巢度假村云顶",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于亚龙湾路100号亚龙湾国家旅游度假区内(北侧)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿韵旅租(三亚湾店)",
+    "city": "三亚",
+    "category": "hotel",
+    "description": "位于吉祥街鸿文巷1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹿回头滨河公园",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于河东区街道市民游客中心对面",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹿回头雕像",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于鹿回头公园内",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹿回头风景区",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于鹿岭路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹿栖春亭",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于凤凰路146号临春岭森林公园登山口区域场地商铺",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麒麟村玉皇庙",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于晒经坡路与大云寺路交叉口西北200米",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麒麟湘粤楼",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于河东路216号亚朵酒店D栋一楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦锦记牛肉后安粉",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于求雨一路与博后南路交叉口西60米",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黎想•海南黎族菜(海棠湾店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于林旺海岸大道红绿灯南面店面350号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "齐庆美蛙鱼头(三亚商品街店)",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于商品街大道63号(12巷路口)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙海风情小镇夜市",
+    "city": "三亚",
+    "category": "food",
+    "description": "位于龙海风情小镇",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙王庙",
+    "city": "三亚",
+    "category": "attraction",
+    "description": "位于崖城镇保港路与疏港大道交叉口东80米",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

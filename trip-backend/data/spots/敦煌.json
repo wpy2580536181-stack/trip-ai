@@ -1,0 +1,2459 @@
+[
+  {
+    "name": "七星楼果木烤全羊",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙州北路292号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三只猫·轻奢民宿(敦煌夜市店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于敦煌夜市景区风情城信义街18号楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五味香驴肉黄面馆",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙洲市场内91号门面房",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伊品顺转转火锅(清真)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙州镇沙州南路367号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "传奇老马",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙洲镇阳关西路2223号102号商铺",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "体育公园",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于金达中路8号4栋西北方向150米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佬羊倌西北羔王·西北菜·烧烤(鸣山北路店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于鸣山北路999号一层104号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八菜一汤西北菜",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于月牙泉镇润梓苑南区1号楼102",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六和园",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于七里镇杜家墩村一组56号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六尊肥牛火锅店(银河小区店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于滨河世纪家园2期西门旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤记老厨房·胡羊焖饼·西北民间菜(沙州夜市店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙洲南路综合楼一楼",
+    "tags": [
+      "050115"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘记靖远羊羔肉",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于敦煌饭店后门东侧刘记靖远羊羔肉西域西路515号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北颂冰煮羊敦煌旗舰店",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于肃州镇天河湾A段5号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "叁宝火锅敦煌店",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于佛光西路富森西侧凌云公寓楼下104商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古舍利塔",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于莫高窟景区(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同盛楼私房菜(党河东路店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于滨河路华盛宾馆隔壁",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉年华国际酒店",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于鸣山北路756号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉鑫商务酒店",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于七里镇建安路口新油苑小区36号楼对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "回味斋古法胡羊焖饼旗舰店",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于鸣山北路248-103号",
+    "tags": [
+      "050115"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国辉胡羊焖饼",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于市场巷356号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城边边烧烤(敦煌总店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于天润花园3号商业楼2号商铺1-2楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "壹阁胡羊焖饼(敦煌特色小吃一条街店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于天润花园社区综合楼6号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夏家合汁",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙州镇天润花园3号商业楼6号门店",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夜光杯博物馆",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于鸣山南路与文博西路交叉口东南80米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大牌坊",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于莫高窟景区(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宏鑫锦华尚品酒店",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于文昌南路4号(风情城东门对面)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富森广场夜市金山巷",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于佛光西路与甘泉路交叉口北40米",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小华烧烤店(敦煌夜市分店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙州镇沙洲镇商业街93号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小龙坎老火锅(敦煌店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于滨河世纪家园二期三号楼102",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广源品尚酒店(敦煌阳关中路店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于阳关中路1618号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广源大酒店(敦煌鸣山北路店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于鸣山北路619号(近党河风情线、敦煌博物馆)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "御禾仓·胡羊焖饼·驴肉黄面·炭火烧烤(海峡卫视专访店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于天马街一层商铺御禾仓",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(敦煌新飞天店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙洲镇鸣山路2号飞天大酒店1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悬泉置遗址景区",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于悬泉置服务区南区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "戈途羊肉·胡羊焖饼(敦煌店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙州镇鸣山路芙蓉园西侧2号门面房",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦游记烧烤",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于文昌南路风情城274号16栋102铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于敦煌石窟文物保护研究陈列中心北侧200米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌169客栈(沙州夜市店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于高台巷169号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌万祥宾馆",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于万祥宾馆",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌且留下客栈(沙州夜市店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于沙州镇文庙巷1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌世界地质公园博物馆",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于敦煌世界地质公园雅丹景区内(东侧)",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌世界地质公园雅丹景区",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于距玉门关西北80余公里处",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌丝路遗产城",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于七里镇G215(红格线)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌云客来客栈(沙洲夜市店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于沙州镇文昌南路274号11栋1单元202室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌亦旅行人青年旅舍",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于鸣山村一组47号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌佳园客栈",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于市医院2路公交车站向右转第一个口",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌公园",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于215国道",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌公园-西云观管理委员会",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于沙州镇平吉路与白马塔路交叉口东北400米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌军民商务酒店",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于金山路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌博物馆",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于沙州镇鸣山北路1390号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌古城",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于西南18公里处的大漠戈壁滩上",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌和谐客栈(鸣沙山月牙泉店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于月牙泉镇兰州五组13号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌唐轩青年客栈(鸣沙山月牙泉店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于月牙泉镇杨家桥村三组13号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌唯爱假日酒店(敦煌夜市店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于沙州市场4层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌在路上主题客栈",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于月牙泉镇月牙泉村2组53号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌地质公园",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于阳关玉门关旅游区",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌城市体育公园",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于215国道敦煌公园(西南角)",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌墨青客栈(莫高窟数字中心店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于莫高镇314国道新墩林场15号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌夏乐客栈(沙州夜市店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于莫高镇窦家墩五组70号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌夜市·沙州食坊美食街",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙州镇文昌南路112号(敦煌夜市东门)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌大宏瑞酒店",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于阳关中路2260号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌妙街",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于沙州镇党河东路与西河坝巷交叉口西北100米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌宏润商务宾馆",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于215国道龙德胜市场向东300米,钢材市场西侧",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌小镇",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于月牙泉镇党河东路南769号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌山佑阁民宿",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于七里镇杜家墩村四组51号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌市天府惠串串香(富森家苑店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于佛光西路292号1栋107",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌市沙洲夜市南门甜哟哟冷饮小吃店",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于南牌坊仓门巷8号",
+    "tags": [
+      "050700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌市生态体育公园",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于鸣山北路与合水路交叉口北40米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌市禧来登餐厅(万盛公馆店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙州北路十三号万盛公馆",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌市陇鑫园",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于党河东路东侧博物馆西侧润梓苑14号楼2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌市顺阖黄面馆",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙州镇敦煌夜市大红门东侧1号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌开泰商务酒店",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于兰泰花园北门西110米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌开泰精品酒店(敦煌夜市店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于明珠嘉园南侧",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌悦兰庄度假民宿(鸣沙山月牙泉店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于月牙泉镇兰州6组20号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌悦水源商务宾馆",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于阳关中路附近",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌敦来顺客栈",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于月牙泉镇兰州村一组77号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌新华客栈",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于沙洲镇新敦巷25号(近小吃街、敦煌夜市)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌旅行纪轻奢酒店",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于鸣山路9号敦煌商业步行街A座4层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌月下客栈(鸣沙山月牙泉景区店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于月牙泉村二组48号付一号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌欣硕商务宾馆",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于215国道旁北门万盛国际家具市场向北200米处",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌武氏田园乐客栈(鸣沙山月牙泉店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于中渠一组137号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌民俗博物馆",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于鸣沙山月牙泉入口南190米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌汉华国际酒店",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于党河南路362号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌润泰酒店",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于七里镇阳关西路3841-1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌港湾商务酒店(敦煌夜市店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于天河湾A段4号商铺",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌满仓川味营地火锅",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于祥云西路288号-101",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌漠上花主题客栈(敦煌鸣沙山月牙泉店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于月牙泉小镇4号楼2楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌胡杨客栈(鸣沙山月牙泉景区店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于月牙泉镇鸣山村一组40号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌茉雅庄精品酒店",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于环城南路11号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌荣华宾馆",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于七里镇老区口(派出所斜对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌莫高窟-九层楼",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于莫高窟景区(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌莫高窟-功德林",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于莫高窟景区(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌莫高窟-千佛洞",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于莫高窟景区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌董小姐的客栈(沙洲夜市店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于沙州镇文昌南路风情城20号楼1单元301室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌西行部落·房车自驾游营地",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于月牙泉镇中渠村四组65号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌觅山云宿(莫高窟数字中心店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于莫高窟数字中心东侧314省国道南侧2号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌轻语居客栈",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于万盛家居D区2007",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌金成宾馆",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于阳关西路1706号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌金龙精品酒店(敦煌夜市店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于党河北路1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌鑫河商务酒店(沙洲市场敦煌夜市店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于阳关西路180号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌阳光商务宾馆",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于七里镇老区口(派出所旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌风沙渡驿馆(鸣沙山月牙泉店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于月牙泉村三组54号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌馨和商务酒店",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于七里镇三号桥村一组60号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌鸣山里客栈(月牙泉东门店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于月牙泉镇鸣山村三组30号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "敦煌鸣月山庄(鸣沙山月牙泉店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于鸣山路月牙泉村二组1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月牙泉/博物馆",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于三危路与揽月路交叉口北120米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月牙泉小镇",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于月牙泉镇鸣山南路敦煌山庄南侧",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "本味宅(天福苑小区店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于天福苑小区东门南侧",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李长再重庆老火锅(敦煌店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于佛光西路7号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨老七羊肉粉汤",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于祁连南路122号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨老五羊肉粉汤馆",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于小北街住宅小区西门南210米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨记干粮(天润店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于西域路义乌商贸城东侧10米",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栖云大酒店",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于滨河北路86号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桐福轩客栈(敦煌莫高窟数字展示中心店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于莫高镇苏家堡一组105号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梧桐墅客栈(沙洲夜市店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于沙洲镇新敦巷付84号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙州乐园",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于北台巷79号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙州夜市",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙州南路与新敦巷交叉口东160米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙州夜市烧烤区",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于西域西路与商业街交叉口东60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙州食驿·非遗小吃夜市",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于夜市步行街中段中心广场",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙洲古城",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于七里镇白马塔南侧300米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河西走廊西端起点",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于Z305附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真·敦来顺·手抓羊肉",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙州镇祥云西路239号1层111铺(敦煌维景大酒店左侧)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真•尕古丽西域风味餐厅",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于风情城天马街06号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渔滋香鱼蛙火锅(敦煌店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于西河坝巷与西域西路交叉口南100米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漠北北焖饼私房菜",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于鸣山北路108号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漠北烤鱼(沙洲食驿.非遗小吃夜市)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙州食驿·非遗小吃夜市内D区",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "澜乐坊广式打边炉",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于敦煌小镇西门北120米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瀚海云庭酒店(白马塔敦煌公园店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于阳关中路422乡",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛小牛现切鲜牛肉烤串",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙洲镇滨河东路大唐文化街C1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛师傅.胡羊焖饼.驴肉黄面",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于特色小吃一条街东头市场巷338号一层102",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛萍萍渣渣牛肉",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于天福苑东门南第三门面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉门关小方盘城遗址",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于阳关玉门关旅游区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "益和居胡羊焖饼",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于鸣山路市场巷小吃一条街338号101室(入东口第三家)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米记·30年老字号羊肉粉汤(敦煌店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于佛光西路6号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "粮票年代串串香合作社(滨河路店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于大唐文化街C3号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美尔敦大酒店",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于敦七公路500号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老字号江海早餐店",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于栖云大酒店西门旁",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚·火锅精品火锅城",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于祁连大酒店东门西50米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "臻品香胡羊焖饼(敦煌总店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于阳关中路400号益旺国际5层A区018号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苏尼特冰煮羊",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于敦煌风情城东门东北80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "范记靖远羊羔肉",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于祥云西路339号1栋102",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫高农业公园",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于S314(阳关大道)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫高度春风客栈",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于甘家堡村一组8号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫高窟景区",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于314省道太阳温泉酒店13.6公里处",
+    "tags": [
+      "110201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫高窟景区-慈氏之塔",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于莫高窟景区内(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫高窟景区-王圆箓塔",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于莫高窟景区千佛洞(110专道南)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫高窟景区-石室宝藏",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于莫高窟景区内(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫高窟景区售票处",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于314省道敦煌莫高窟数字展示中心内",
+    "tags": [
+      "070306"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫高窟景区游客中心",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于莫高窟景区",
+    "tags": [
+      "070201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜀大侠火锅(敦煌店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于西域路天润国际大酒店物业楼103-104、202-206商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西千佛洞",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于西部边境(215国道近党河水库)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "转渠口镇雷家墩生态农业公园",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于华夏通轿车汽车托运(敦煌市)西南侧210米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达记酱驴肉黄面馆",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于天润国际大酒店南门旁",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "这一刻青年旅舍(敦煌沙州夜市店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于沙洲南路仓门巷10-3号,蒋氏臊子面对面巷内100米",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "醉码头火锅店",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于215国道南侧蓝宝石酒店旁边",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆食沣火锅(敦煌小镇店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于敦煌小镇1号楼102-204-206号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野玫瑰公园",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于敦煌市商业街与天马街交叉口东北120米",
+    "tags": [
+      "061100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金山宾馆(阳关中路店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于阳关中路29号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金张掖香再来麻辣烫(敦煌店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于高台巷87号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金擀杖西北菜",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于龙勒路天福园东门1-105",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金铲铲焖饼",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙洲北路818号黄河啤酒厂北侧(公交站牌背后)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金龙大酒店(党河东路)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于阳关中路1274号(靠近滨河路)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长罗候·沙葱牛肉饼",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于敦煌夜市沙州食驿A1档口",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳关博物馆",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于阳关镇阳关景区(西北角)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳关玉门关旅游区(玉门关)",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于地质公园内",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳关玉门关旅游区(阳关)",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于南湖乡西侧",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿西娅·西北妈妈拿手菜(敦煌店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于月牙泉镇鸣山路1386号南楼第三间一二层楼1-2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隆丰小吃广场夜市",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于阳关西路10号隆丰大酒店后侧巷道内",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷音寺",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于鸣山路28号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷音寺-大光明殿",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于月牙泉镇雷音寺内",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷音寺-大悲殿",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于鸣山路28号雷音寺(西南角)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷音寺-大智殿",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于雷音寺内(南侧)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷音寺-大雄宝殿",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于鸣山南路与景观大道交叉口北260米",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷音寺-天王殿",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于鸣山路28号雷音寺内(西侧)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷音寺-钟楼",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于鸣山路28号雷音寺(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青牧堂牦牛铜锅涮(敦煌店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于鸣山北路999号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "靖远尕六美味羊羔肉",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于北台巷沙州乐园东门口隔壁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "靖远羊羔肉酒家",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于飞天客运公司门面房(莫高镇靖远路西侧)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺张黄面馆",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于金山路滨河世纪家园1号楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "飞天公园",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于月牙泉镇飞天嘉园西侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "馨雅居客栈(沙州夜市店)",
+    "city": "敦煌",
+    "category": "hotel",
+    "description": "位于莫高镇窦家墩村一组6号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马建忠烤肉餐厅(敦煌夜市店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙州镇敦煌夜市商业街103号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马有鱼·馕坑烤全鱼(敦煌店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于沙州镇阳关中路645号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马良成烧烤美食餐厅(敦煌夜市店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于风情城富强街杨老三牛肉面斜对面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马路牙子兰州牛肉面(富森时代广场店)",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于党河东路南769号富森时代广场F4层",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼丽七里美乐公园",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸣沙山月牙泉",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于鸣山路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸣沙山月牙泉景区游客中心",
+    "city": "敦煌",
+    "category": "attraction",
+    "description": "位于杨家桥乡月牙泉内古建群鸣沙山月牙泉内(西北角)",
+    "tags": [
+      "070201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙桥老火锅",
+    "city": "敦煌",
+    "category": "food",
+    "description": "位于党河东路敦煌小镇4号楼2层南",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

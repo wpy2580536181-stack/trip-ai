@@ -1,5 +1,148 @@
 [
   {
+    "name": "OYO金沙客舍(虎滩路店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于虎滩路57号(近渔人码头,老虎滩)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "Uhome精臻青年社区(七贤岭店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于高新园区礼贤街一号礼贤壹品1楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一城一味粤菜(大胜街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于大胜街30号董萍美容对面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一朵阳光客栈(金石滩发现王国店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于金石路55-52号(金石滩地铁站B口步行270米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万蓬商务酒店",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于复州城永丰广场塔前小区2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三元康乐广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于一二九街2号(一二九街地铁站B口步行180米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三里桥海鲜烧烤",
+    "city": "大连",
+    "category": "food",
+    "description": "位于大同街161号(人民广场地铁站出入口步行360米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上善若水商务酒店",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于站前街道有泉路19号(近傅氏集团,科球公司)绿诺科技",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上游SY型蒸汽机车",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于会展路10号大连博物馆外",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世界音乐文化博物馆",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于港浦路102号东方水城二期S13号楼",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世纪广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于东北路辅路与新华街交叉口北约100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
     "name": "东关街历史文化街区",
     "city": "大连",
     "category": "attraction",
@@ -9,127 +152,210 @@
       "购物",
       "历史文化"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "2小时",
     "openTime": "全天",
     "rating": 4.5
   },
   {
-    "name": "劳动公园",
+    "name": "东关街历史文化街区",
     "city": "大连",
     "category": "attraction",
-    "description": "劳动公园位于大连市中山区昆明街道解放路58号，是当地知名的城市公园，集休闲、娱乐、观光于一体，园内植被丰富，设有多个活动区域，适合市民和游客散步、锻炼、赏景。",
+    "description": "东关街历史文化街区，位于大龙街775号，西岗区，类型特色商业街 特色商业街。",
     "tags": [
-      "公园",
-      "休闲",
-      "观光"
+      "特色商业街",
+      "特色商业街"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东关街历史文化街区",
+    "city": "大连",
+    "category": "attraction",
+    "description": "东关街历史文化街区，位于大龙街775号，西岗区，类型特色商业街 特色商业街。",
+    "tags": [
+      "特色商业街",
+      "特色商业街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东关街历史文化街区",
+    "city": "大连",
+    "category": "attraction",
+    "description": "东关街历史文化街区，位于大龙街775号，西岗区，类型特色商业街 特色商业街。",
+    "tags": [
+      "特色商业街",
+      "特色商业街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东关街历史文化街区",
+    "city": "大连",
+    "category": "attraction",
+    "description": "东关街历史文化街区位于大连市西岗区，是一条充满历史底蕴的特色商业街，保留了大量近代建筑，融合了购物、餐饮、文化体验等多种功能，游客可以在此感受大连的百年风貌。",
+    "tags": [
+      "特色商业街",
+      "购物",
+      "历史文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天",
     "rating": 4.5
   },
   {
-    "name": "星海广场",
+    "name": "东关街历史文化街区",
     "city": "大连",
     "category": "attraction",
-    "description": "星海广场是位于大连沙河口区的著名城市广场。",
+    "description": "位于大龙街775号",
     "tags": [
-      "风景名胜",
-      "公园广场",
-      "城市广场"
+      "061000"
     ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "全天开放",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "大连森林动物园",
+    "name": "东方宫中国兰州牛肉拉面(大连店)",
     "city": "大连",
-    "category": "attraction",
-    "description": "大连森林动物园是一个集野生动物观赏、科普教育、休闲娱乐为一体的国家AAAA级旅游景区。",
+    "category": "food",
+    "description": "位于黄河好多鱼是对的路九三街83号",
     "tags": [
-      "风景名胜",
-      "公园广场",
-      "动物园"
+      "050121"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "白云山山体公园",
+    "name": "东方音乐文化博物馆",
     "city": "大连",
     "category": "attraction",
-    "description": "白云山山体公园位于大连市西岗区白云街道，是一处集自然风光与休闲健身于一体的城市山体公园。公园内绿树成荫，步道蜿蜒，可俯瞰城市景观，是市民日常锻炼和亲近自然的理想场所。",
+    "description": "位于白云街道亿达新世界B座",
     "tags": [
-      "公园",
-      "风景名胜",
-      "休闲"
+      "140100"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "全天开放",
-    "rating": 4.3
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "友好广场",
+    "name": "东港音乐喷泉广场",
     "city": "大连",
     "category": "attraction",
-    "description": "友好广场是大连市中心的一个著名广场，周围有现代建筑和商业设施，是市民休闲娱乐的好去处。",
+    "description": "位于五五路9号(近大连国际会议中心)",
     "tags": [
-      "广场",
-      "公园",
-      "风景名胜"
+      "110105"
     ],
-    "avgCost": 0,
-    "duration": "1小时",
-    "openTime": "全天开放",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "金沙滩",
+    "name": "中南商务宾馆(汇景天地松花街店)",
     "city": "大连",
-    "category": "attraction",
-    "description": "金沙滩位于大连市西岗区滨海路53号，是一处风景优美的海滩景点。",
+    "category": "hotel",
+    "description": "位于松花街9号",
     "tags": [
-      "海滩",
-      "风景"
+      "100200"
     ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "全天开放",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "儿童公园",
+    "name": "中酒博物馆",
     "city": "大连",
     "category": "attraction",
-    "description": "儿童公园位于大连市中山区，是一个以儿童游乐为主题的公园，拥有丰富的游乐设施和绿化环境，适合家庭亲子活动。",
+    "description": "位于中华文化促进会西南侧160米",
     "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
+      "140100"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "松山寺",
+    "name": "丽源宾馆(新华路)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于大连新华路二段29号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "久時•生鱼饭•刺身",
+    "city": "大连",
+    "category": "food",
+    "description": "位于绥德街3号(隆达停车场左后方)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "久隆缘客舍(玉情街店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于玉情街17号(BRT车站对面)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九州国际大酒店",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于胜利广场18号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "书馨广场",
     "city": "大连",
     "category": "attraction",
-    "description": "松山寺 是大连的旅游景点，位于西岗区。地址：唐山街。",
+    "description": "位于绕山路86号",
     "tags": [
-      "大连"
+      "110105"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "全天",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "五四广场",
@@ -141,174 +367,1258 @@
       "公园广场",
       "城市广场"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "未知",
     "openTime": "全天",
     "rating": 0.0
   },
   {
-    "name": "旅大印象·大连本帮菜馆(星海店)",
+    "name": "五四广场",
     "city": "大连",
-    "category": "food",
-    "description": "旅大印象·大连本帮菜馆(星海店)位于大连市沙河口区中山路688号辰熙星海国际大厦4层，是一家以大连本帮菜和海鲜为特色的中餐厅。餐厅环境优雅，菜品地道，深受当地食客和游客喜爱。招牌菜包括海鲜大咖、锅包肉、海胆饺子等，味道鲜美，分量十足。适合家庭聚餐、朋友聚会和商务宴请。",
+    "category": "attraction",
+    "description": "五四广场，位于西安路(兴工街地铁站A口步行290米)，沙河口区，类型交通地名 环岛名。",
     "tags": [
-      "大连本帮菜",
-      "海鲜",
-      "中餐厅",
-      "聚餐"
+      "交通地名",
+      "环岛名"
     ],
-    "avgCost": 120,
-    "duration": "1.5小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "日月昇渔家菜(星海公园店)",
+    "name": "五四广场",
     "city": "大连",
-    "category": "food",
-    "description": "日月昇渔家菜(星海公园店)是一家位于大连沙河口区的海鲜酒楼，主营各类海鲜菜肴。",
+    "category": "attraction",
+    "description": "五四广场，位于西安路(兴工街地铁站A口步行290米)，沙河口区，类型交通地名 环岛名。",
     "tags": [
-      "海鲜",
-      "酒楼",
-      "中餐"
+      "交通地名",
+      "环岛名"
     ],
-    "avgCost": 100,
-    "duration": "2小时",
-    "openTime": "09:00-21:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "王慧洁开口虾水饺·地道东北菜(银泰城店)",
+    "name": "五四广场",
     "city": "大连",
-    "category": "food",
-    "description": "王慧洁开口虾水饺是一家地道东北菜餐厅，主打开口虾水饺等特色东北菜肴，位于大连市中山区银泰城。",
+    "category": "attraction",
+    "description": "五四广场，位于西安路(兴工街地铁站A口步行290米)，沙河口区，类型交通地名 环岛名。",
     "tags": [
-      "东北菜",
-      "水饺",
-      "银泰城"
+      "交通地名",
+      "环岛名"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "小船渔村·大连菜(人民路店)",
+    "name": "五四广场",
     "city": "大连",
-    "category": "food",
-    "description": "小船渔村·大连菜(人民路店)是一家位于大连中山区福寿街的中餐厅，主打地道的大连菜。",
+    "category": "attraction",
+    "description": "五四广场是位于大连市沙河口区的一个城市广场，附近有兴工街地铁站，是市民休闲娱乐的好去处。",
     "tags": [
-      "餐饮",
-      "中餐厅",
-      "大连菜"
+      "风景名胜",
+      "公园广场",
+      "城市广场"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "日月明小渔村(马栏店)",
-    "city": "大连",
-    "category": "food",
-    "description": "日月明小渔村(马栏店)位于大连市沙河口区黄河路858号，是一家以海鲜为主的中餐厅。餐厅环境舒适，提供丰富的海鲜菜品和传统中式菜肴，深受当地食客喜爱。",
-    "tags": [
-      "海鲜",
-      "中餐",
-      "酒楼"
-    ],
-    "avgCost": 150,
-    "duration": "2小时",
-    "openTime": "10:00-22:00",
-    "rating": 4.5
-  },
-  {
-    "name": "日月昇渔家菜(万达华府店)",
-    "city": "大连",
-    "category": "food",
-    "description": "日月昇渔家菜(万达华府店)位于大连市沙河口区民政街131号，是一家以新鲜海鲜为特色的本地渔家菜馆，提供正宗的大连渔家风味。",
-    "tags": [
-      "海鲜",
-      "渔家菜",
-      "中餐"
-    ],
-    "avgCost": 100,
-    "duration": "1.5小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.5
-  },
-  {
-    "name": "欣欣餐厅(武昌街店)",
-    "city": "大连",
-    "category": "food",
-    "description": "欣欣餐厅是一家以东北菜为主的中餐厅，位于大连市中山区解放路297号，靠近劳动公园地铁站C口，步行约450米可达。",
-    "tags": [
-      "东北菜",
-      "中餐",
-      "大连美食"
-    ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "10:00-21:00",
-    "rating": 4.3
-  },
-  {
-    "name": "日月昇渔家菜(山东路店)",
-    "city": "大连",
-    "category": "food",
-    "description": "日月昇渔家菜(山东路店) 是大连的美食餐厅，位于甘井子区。地址：山东路178-6号双合美食城(千山路地铁站D口步行110米)。",
-    "tags": [
-      "大连"
-    ],
-    "avgCost": 0,
-    "duration": "",
+    "avgCost": 0.0,
+    "duration": "未知",
     "openTime": "全天",
-    "rating": 3.5
+    "rating": 0.0
   },
   {
-    "name": "林之六八·6886大连老菜馆",
+    "name": "五四广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于西安路(兴工街地铁站A口步行290米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亚惠美食(北京街综合楼店)",
     "city": "大连",
     "category": "food",
-    "description": "林之六八·6886大连老菜馆是一家位于大连中山区的中餐厅，提供地道的大连本地菜肴，深受食客喜爱。",
+    "description": "位于黄河路263号北京街综合楼F1层",
     "tags": [
-      "中餐厅",
-      "大连菜"
+      "050100"
     ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "10:00-21:00",
-    "rating": 4.3
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "王慧洁开口虾水饺·地道东北菜(和平广场店)",
-    "city": "大连",
-    "category": "food",
-    "description": "王慧洁开口虾水饺·地道东北菜(和平广场店)位于大连市沙河口区凯德和平广场4层，是一家以开口虾水饺为特色的东北菜餐厅。店内提供正宗东北风味菜肴，水饺现包现煮，口感鲜美，深受食客喜爱。",
-    "tags": [
-      "东北菜",
-      "水饺",
-      "中餐厅",
-      "特色风味"
-    ],
-    "avgCost": 60,
-    "duration": "1.5小时",
-    "openTime": "10:00-21:00",
-    "rating": 4.5
-  },
-  {
-    "name": "龙祥宾馆",
+    "name": "亚细亚度假村",
     "city": "大连",
     "category": "hotel",
-    "description": "位于庄河汽车站对面的宾馆酒店。",
+    "description": "位于八一路157号",
     "tags": [
-      "住宿",
-      "宾馆",
-      "酒店"
+      "120302"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "交大夜市海鲜烧烤小吃大排档(交大小吃一条街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于西林街83号(交通大学地铁站A口步行170米)",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "优雅电竞酒店(金马路轻轨站店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于城润万家3栋-8号(金马路地铁站A口步行160米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳泰商务宾馆(大连庄河店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于迎宾大街西段12号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "便民夜市(林茵国际广场店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于林茵国际广场",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "儿童公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "儿童公园位于大连市中山区，是一个以儿童游乐为主题的公园，拥有丰富的游乐设施和绿化环境，适合家庭亲子活动。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 0.0
+  },
+  {
+    "name": "儿童公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "儿童公园，位于哈尔滨街1-88号(南山路129-225号)，中山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "儿童公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "儿童公园，位于哈尔滨街1-88号(南山路129-225号)，中山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "儿童公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "儿童公园，位于哈尔滨街1-88号(南山路129-225号)，中山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "儿童公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "儿童公园位于大连市中山区，是一个以儿童游乐为主题的公园，拥有丰富的游乐设施和绿化环境，适合家庭亲子活动。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 0.0
+  },
+  {
+    "name": "儿童公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于哈尔滨街1-88号(南山路129-225号)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "儿童公园-明泽湖",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于哈尔滨街1-88号(南山路129-225号)儿童公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "全记山海·大连海鲜·烤鸭·融合菜(高新总店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于海创·芝麻街北门旁(七贤岭地铁站B1口步行410米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六合梧桐海景公寓(大连高新万达店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于黄浦路500号万达广场SOHO公寓2号楼12层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "再现博物馆",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于青三街1号大连商场F5层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯悦宾馆(大连金州火车站店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于金州站盛滨花园(速8酒店斜对面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯悦度假村",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于滨海路与丰秋路交叉口西南20米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯旋新公寓(凯旋广场店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于建设街3号凯旋广场F8层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘久记牛杂肠粉",
+    "city": "大连",
+    "category": "food",
+    "description": "位于新起街与同仁街交叉口北20米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "劳动公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "劳动公园位于大连市中山区昆明街道解放路58号，是当地知名的城市公园，集休闲、娱乐、观光于一体，园内植被丰富，设有多个活动区域，适合市民和游客散步、锻炼、赏景。",
+    "tags": [
+      "公园",
+      "休闲",
+      "观光"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "劳动公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "劳动公园，位于昆明街道解放路58号，中山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "劳动公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "劳动公园，位于昆明街道解放路58号，中山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "劳动公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "劳动公园，位于昆明街道解放路58号，中山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "劳动公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "劳动公园位于大连市中山区昆明街道解放路58号，是当地知名的城市公园，集休闲、娱乐、观光于一体，园内植被丰富，设有多个活动区域，适合市民和游客散步、锻炼、赏景。",
+    "tags": [
+      "公园",
+      "休闲",
+      "观光"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "劳动公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于昆明街道解放路58号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北京公园东区",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于泰公街40号",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北李妈妈菜(开发区黄海西路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于黄海西路195号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北海公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于先进街34号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北海旅游度假村",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于滨海公路与稻荞线交叉口西360米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十张桌市井火锅",
+    "city": "大连",
+    "category": "food",
+    "description": "位于昌平街82号(西安路地铁站B2口步行370米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千品渔港(菜市街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于菜市街26号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千朋度假村",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于双台沟营平路(辽宁警官学校对面)",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华仔铁板小串(北京小区店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于北京街与民权街交叉口东北20米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华君酒店",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于二老线",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华晟山城火锅(英华街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于黄河路43-1日新社区医院",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华晟山城火锅·鼎味(东港店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于港隆路71B-8(东港第二小学对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华龙宾馆(铁山西路店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于铁山西路43号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "印象海景公寓(大连星海广场店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于星海广场B3区壹品星海14栋",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "友好广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "友好广场是大连市中心的一个著名广场，周围有现代建筑和商业设施，是市民休闲娱乐的好去处。",
+    "tags": [
+      "广场",
+      "公园",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "1小时",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "友好广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "友好广场，位于友好路158号(近一德街)(友好广场地铁站C1口旁)，中山区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "友好广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "友好广场，位于友好路158号(近一德街)(友好广场地铁站C1口旁)，中山区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "友好广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "友好广场，位于友好路158号(近一德街)(友好广场地铁站C1口旁)，中山区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "友好广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "友好广场是大连市中心的一个著名广场，周围有现代建筑和商业设施，是市民休闲娱乐的好去处。",
+    "tags": [
+      "广场",
+      "公园",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "1小时",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "友好广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于友好路158号(近一德街)(友好广场地铁站C1口旁)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "友好广场-水晶球",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于友好广场(友好广场地铁站C2口步行60米)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "友谊宾馆(大连旅顺店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于得胜街72-5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双拥文化广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于黄河街与九三街路口处",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "发现王国",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于金石滩国家旅游度假区金石路36号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城关帝庙",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于老店街86号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于孛兰路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城鑫风文化广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于老店街与中心路一段交叉口西80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "台湾牛肉汤(新起街)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于新起街29-23号",
+    "tags": [
+      "050122"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "君霖私家(春柳店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于华北路362号(机电设备总公司)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "君霖私家菜(中山店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于明泽街75号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "启新街夜市",
+    "city": "大连",
+    "category": "food",
+    "description": "位于启新街与启新街西一巷交叉口西南20米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴姑城",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "唐人客栈(瓦房店火车站店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于文圣社区水果街9号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "唐银酒店",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于兴业街10-12号(地铁大连站地铁站B口步行320米)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜鼎海胆水饺(东港店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于海之韵路49号第B31幢1单元1跃3层1号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜鼎海胆水饺(星海湾壹号店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于星海广场C3区31号2层",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城山古城",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于城山镇万德屯附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城山古城-法华寺",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于城山镇",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "壮壮家常菜(南山店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于解放街59号1层3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "壮壮家常菜(西安路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于广平街108号(西安路地铁站B2口步行450米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "声蕴万相收音机博物馆",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于兴民街9号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "复州古城",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于复州城镇",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "复州古城-古城墙",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于复州城镇复州古城",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大唐美食",
+    "city": "大连",
+    "category": "food",
+    "description": "位于新开路新起街26号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大水夜市",
+    "city": "大连",
+    "category": "food",
+    "description": "位于玉山路7号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大羊螺蛳粉",
+    "city": "大连",
+    "category": "food",
+    "description": "位于南山路65号1-4号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连一家客舍",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于虹港路36号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连佳缘旅馆(东山街店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于东山街35号8-1-1(文体街东翠鸣苑门口)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连凯元商务宾馆(金马路民族大学店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于马桥子街道金马路156号世元国际公寓1层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连北马度假山庄",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于金石滩龙山村北马山庄临山路",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连博物馆",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于会展路10号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连古德酒店式公寓(万达广场店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于凌水街道黄浦路10号万达广场海景公寓2号楼2114室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连嘉旅客舍",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于武昌街武昌公寓6号(劳动公园地铁站C口步行460米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连圣亚海洋世界",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于中山路608-6-8号",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连大黑石良子旅游度假村",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于学府街与枫叶学院路交叉口西100米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连好友客舍",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于玉情街36附近",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连客来顺旅店",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于经济技术开发区倚山里52号公建1层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连市中山博爱书画博物馆",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连市奥林匹克广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于中山路9号(人民广场地铁站出入口步行220米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连德和客舍",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于双兴街17-1",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连怡美旅社",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于玉情街36号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连斑海豹度假营地",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于夏家河海边浴场女神像往东50米",
+    "tags": [
+      "080504"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连新满意客栈",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于202国道与兴海路交叉口东北120米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连新龙门客栈",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于新龙门客栈",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "大连日月旅社(龙王塘轻轨站店)",
@@ -321,24 +1631,3428 @@
       "旅馆",
       "住宿"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 0
+    "rating": 0.0
   },
   {
-    "name": "顺丰旅社(二部)",
+    "name": "大连日月旅社(龙王塘轻轨站店)",
     "city": "大连",
     "category": "hotel",
-    "description": "位于大连西岗区连平街4号1-2号商铺，靠近大连站地铁站F口，提供住宿服务。",
+    "description": "大连日月旅社(龙王塘轻轨站店)，位于龙王塘街道官房村雅迪电动车西北30米，旅顺口区，类型旅馆招待所 旅馆招待所。",
     "tags": [
-      "住宿服务",
-      "旅社"
+      "旅馆招待所",
+      "旅馆招待所"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连日月旅社(龙王塘轻轨站店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "大连日月旅社(龙王塘轻轨站店)，位于龙王塘街道官房村雅迪电动车西北30米，旅顺口区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连日月旅社(龙王塘轻轨站店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "大连日月旅社(龙王塘轻轨站店)，位于龙王塘街道官房村雅迪电动车西北30米，旅顺口区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连日月旅社(龙王塘轻轨站店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "大连日月旅社位于旅顺口区龙王塘街道官房村，靠近雅迪电动车西北30米，邻近龙王塘轻轨站，提供便利的住宿服务。旅社环境温馨，适合商务或旅游出行。",
+    "tags": [
+      "旅顺口区",
+      "龙王塘",
+      "旅馆",
+      "住宿"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "大连星宿青旅(高尔基路店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于高尔基路243号",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连星辰客栈",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于锦绣路锦华中园7-1-4",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连有间民宿(西安路店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于光华街69号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连朴庐客栈",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于迎春街664号23-1",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连森林动物园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "大连森林动物园是一个集野生动物观赏、科普教育、休闲娱乐为一体的国家AAAA级旅游景区。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "动物园"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
+  },
+  {
+    "name": "大连森林动物园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "大连森林动物园，位于迎春路60号，西岗区，类型公园广场 动物园。",
+    "tags": [
+      "公园广场",
+      "动物园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连森林动物园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "大连森林动物园，位于迎春路60号，西岗区，类型公园广场 动物园。",
+    "tags": [
+      "公园广场",
+      "动物园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连森林动物园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "大连森林动物园，位于迎春路60号，西岗区，类型公园广场 动物园。",
+    "tags": [
+      "公园广场",
+      "动物园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连森林动物园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "大连森林动物园是一个集野生动物观赏、科普教育、休闲娱乐为一体的国家AAAA级旅游景区。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "动物园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "大连森林动物园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于迎春路60号",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连武术文化博物馆",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于仲夏路16号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连海之恋精品主题酒店",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于马桥子街道抚顺街43号东电大厦中区6楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连理工夜市",
+    "city": "大连",
+    "category": "food",
+    "description": "位于软件园路与北辰路交叉口西100米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连瑞祥园客舍",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于新成巷15-1号(大连站地铁站F口步行170米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连益恒居商务宾馆",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于金州区开发区大地街32-3",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连米兰假日宾馆(大连火车站东关街历史文化街区店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于建设街40号1层(大连站地铁站G1口步行130米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连老虎滩海洋公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于滨海中路9号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连老虎滩海洋公园极地馆",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于虎滩街3号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连自然博物馆",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于黑石礁西村街40号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连英歌石植物园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于高新园区旅顺中路南侧山谷里(过鞍子岭隧道3公里)",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连菜博物馆",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于华北路与周山街交叉口西北100米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连观光夜市",
+    "city": "大连",
+    "category": "food",
+    "description": "位于昆明街与玉光街交叉口西40米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连设计师影宿公寓",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于百年港湾7号楼15楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连足球文化博物馆",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于梭鱼湾足球场2层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连连池宾馆(星海公园店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于西南路188号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连那些年西海湾客栈",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连金州古城",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于斯大林路397号附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连金州古城遗址",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于古城",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连金石滩国家旅游度假区",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于金石路65号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连鑫缘左岸经典公寓",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于开发区正恒园小区3号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连铭门商务酒店(开发区轻轨站万达广场店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于金州区经济技术开发区辽宁街4号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连阿联客舍",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于姚家路5-4号(近大连北站)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连飞扬公寓宾馆",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于西南路499号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连鸿升客栈(大连北站店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于金线泉街与清泉街交叉口东南40米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连龙口山荘",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于三十里堡龙口水库",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大集夜市",
+    "city": "大连",
+    "category": "food",
+    "description": "位于数字一路与大地街交叉口东160米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大马猴都市青年民宿客栈",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于八一路鸣鹤西巷43号",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大黑山主峰",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于湾里街道湾里街道凤祥路大黑山景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大黑山景区",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于凤祥路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大黑石旅游度假村",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于大连枫叶职业技术学院-大连市甘井子区营城子镇",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天安宾馆(瓦房店站前汽车站店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于瓦房店汽车站南门旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津街广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于天津街与友好路交叉口东南40米",
+    "tags": [
+      "060100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津街广场公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于天津街广场(中山广场地铁站D1口步行380米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津街步行购物一条街(天植商城店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于天津街58-3号(中山广场地铁站D口步行470米)",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖度假村",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于金石路65号大连金石滩国家旅游度假区(东南角)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如家派柏·云巷子酒店(大连千山路地铁站店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于山东路218-6号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "妮妮民宿(庄河北站店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于三寰大街秀丽家常菜馆东面5米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宅小馆大连海鲜大连市井菜(解放路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于解放路363-2号(石葵路地铁站C口步行210米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安达酒店",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于大连湾后盐村姚家路721号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宜君阁商务宾馆",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于观海园2-24",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "家宝轩紫坛博物馆(民生·松竹苑店)",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于民生街85号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富国公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于星海湾街道星海街173号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富国公园最高观景台",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于星海湾街道星海街173号富国公园(东北角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尊王智宿度假广场",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于金普新区前石村天籁湾",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尊瑞影音商旅酒店(大连开发区万达商业街中天云璟店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于辽河西路125号中天云璟15楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小船渔村·大连菜(人民路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "小船渔村·大连菜(人民路店)是一家位于大连中山区福寿街的中餐厅，主打地道的大连菜。",
+    "tags": [
+      "餐饮",
+      "中餐厅",
+      "大连菜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "小船渔村·大连菜(人民路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "小船渔村·大连菜(人民路店)，位于福寿街4号，中山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小船渔村·大连菜(人民路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "小船渔村·大连菜(人民路店)，位于福寿街4号，中山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小船渔村·大连菜(人民路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "小船渔村·大连菜(人民路店)，位于福寿街4号，中山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小船渔村·大连菜(人民路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "小船渔村·大连菜(人民路店)是一家位于大连中山区福寿街的中餐厅，主打地道的大连菜。",
+    "tags": [
+      "餐饮",
+      "中餐厅",
+      "大连菜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "小船渔村·大连菜(北京街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于北京街86号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小郭海肠捞饭(凯德和平广场店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于凯德和平广场四楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山海奇幻谷",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于金石滩国家旅游度假区海滨东路31号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴蜀人家(东关街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于福德街7-1号",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巷往主题宾馆(大连香工街地铁站店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于中长街18号-1号(中长街地铁站C1口步行240米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "希望广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于中山路与高明街交汇处东100米",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庄河方圆宾馆",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于迎宾大街客运站东100米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庄河龙祥宾馆",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于庄河汽车站对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庖厨串烧烧烤",
+    "city": "大连",
+    "category": "food",
+    "description": "位于同仁街77号1层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开发区步行街",
+    "city": "大连",
+    "category": "food",
+    "description": "位于金州区开发区金马路220号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张店古城遗址",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于皮长高速与花张线交叉路口往南约160米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐记锅鲜坊·粥底火锅",
+    "city": "大连",
+    "category": "food",
+    "description": "位于西南路190号1-2层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "思想公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于中山路427-a-2(富国街地铁站D口步行120米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成仁商业街",
+    "city": "大连",
+    "category": "food",
+    "description": "位于成仁街297号1-3-1号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成仁街夜市",
+    "city": "大连",
+    "category": "food",
+    "description": "位于成仁街297号1-3-1号成仁商业街",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化科技博物馆",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于团结街20号(上海路艺术展览馆北侧)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文苑广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于长春路208号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新月湾酒店式公寓(大连万达广场店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于黄浦路500号万达广场大连高新店F9层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新生路三宝早夜市",
+    "city": "大连",
+    "category": "food",
+    "description": "位于新生路185号",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "方城小吃店(二部)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于白山路109号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "方新村一品大锅盖(北京街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于北京街108号西岗区政府侧面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "旅大印象·大连本帮菜馆(星海店)",
+    "city": "大连",
+    "category": "food",
+    "description": "旅大印象·大连本帮菜馆(星海店)位于大连市沙河口区中山路688号辰熙星海国际大厦4层，是一家以大连本帮菜和海鲜为特色的中餐厅。餐厅环境优雅，菜品地道，深受当地食客和游客喜爱。招牌菜包括海鲜大咖、锅包肉、海胆饺子等，味道鲜美，分量十足。适合家庭聚餐、朋友聚会和商务宴请。",
+    "tags": [
+      "大连本帮菜",
+      "海鲜",
+      "中餐厅",
+      "聚餐"
+    ],
+    "avgCost": 120.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "旅大印象·大连本帮菜馆(星海店)",
+    "city": "大连",
+    "category": "food",
+    "description": "旅大印象·大连本帮菜馆(星海店)，位于中山路688号辰熙星海国际大厦4层，沙河口区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "旅大印象·大连本帮菜馆(星海店)",
+    "city": "大连",
+    "category": "food",
+    "description": "旅大印象·大连本帮菜馆(星海店)，位于中山路688号辰熙星海国际大厦4层，沙河口区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "旅大印象·大连本帮菜馆(星海店)",
+    "city": "大连",
+    "category": "food",
+    "description": "旅大印象·大连本帮菜馆(星海店)，位于中山路688号辰熙星海国际大厦4层，沙河口区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "旅大印象·大连本帮菜馆(星海店)",
+    "city": "大连",
+    "category": "food",
+    "description": "旅大印象·大连本帮菜馆(星海店)位于大连市沙河口区中山路688号辰熙星海国际大厦4层，是一家以大连本帮菜和海鲜为特色的中餐厅。餐厅环境优雅，菜品地道，深受当地食客和游客喜爱。招牌菜包括海鲜大咖、锅包肉、海胆饺子等，味道鲜美，分量十足。适合家庭聚餐、朋友聚会和商务宴请。",
+    "tags": [
+      "大连本帮菜",
+      "海鲜",
+      "中餐厅",
+      "聚餐"
+    ],
+    "avgCost": 120.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "旅顺博物馆",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于列宁街42号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月昇渔家菜(万达华府店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月昇渔家菜(万达华府店)位于大连市沙河口区民政街131号，是一家以新鲜海鲜为特色的本地渔家菜馆，提供正宗的大连渔家风味。",
+    "tags": [
+      "海鲜",
+      "渔家菜",
+      "中餐"
+    ],
+    "avgCost": 100.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "日月昇渔家菜(万达华府店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月昇渔家菜(万达华府店)，位于民政街131号1层8号、9号(长春路印象城后身)，沙河口区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月昇渔家菜(万达华府店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月昇渔家菜(万达华府店)，位于民政街131号1层8号、9号(长春路印象城后身)，沙河口区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月昇渔家菜(万达华府店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月昇渔家菜(万达华府店)，位于民政街131号1层8号、9号(长春路印象城后身)，沙河口区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月昇渔家菜(万达华府店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月昇渔家菜(万达华府店)位于大连市沙河口区民政街131号，是一家以新鲜海鲜为特色的本地渔家菜馆，提供正宗的大连渔家风味。",
+    "tags": [
+      "海鲜",
+      "渔家菜",
+      "中餐"
+    ],
+    "avgCost": 100.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "日月昇渔家菜(山东路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月昇渔家菜(山东路店) 是大连的美食餐厅，位于甘井子区。地址：山东路178-6号双合美食城(千山路地铁站D口步行110米)。",
+    "tags": [
+      "大连"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "日月昇渔家菜(山东路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月昇渔家菜(山东路店)，位于山东路178-6号双合美食城(千山路地铁站D口步行110米)，甘井子区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月昇渔家菜(山东路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月昇渔家菜(山东路店)，位于山东路178-6号双合美食城(千山路地铁站D口步行110米)，甘井子区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月昇渔家菜(山东路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月昇渔家菜(山东路店)，位于山东路178-6号双合美食城(千山路地铁站D口步行110米)，甘井子区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月昇渔家菜(山东路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月昇渔家菜(山东路店) 是大连的美食餐厅，位于甘井子区。地址：山东路178-6号双合美食城(千山路地铁站D口步行110米)。",
+    "tags": [
+      "大连"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "日月昇渔家菜(星海公园店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月昇渔家菜(星海公园店)是一家位于大连沙河口区的海鲜酒楼，主营各类海鲜菜肴。",
+    "tags": [
+      "海鲜",
+      "酒楼",
+      "中餐"
+    ],
+    "avgCost": 100.0,
+    "duration": "2小时",
+    "openTime": "09:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "日月昇渔家菜(星海公园店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月昇渔家菜(星海公园店)，位于中山路672号(黑石礁工商银行对面)，沙河口区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月昇渔家菜(星海公园店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月昇渔家菜(星海公园店)，位于中山路672号(黑石礁工商银行对面)，沙河口区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月昇渔家菜(星海公园店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月昇渔家菜(星海公园店)，位于中山路672号(黑石礁工商银行对面)，沙河口区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月昇渔家菜(星海公园店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月昇渔家菜(星海公园店)是一家位于大连沙河口区的海鲜酒楼，主营各类海鲜菜肴。",
+    "tags": [
+      "海鲜",
+      "酒楼",
+      "中餐"
+    ],
+    "avgCost": 100.0,
+    "duration": "2小时",
+    "openTime": "09:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "日月明小渔村(马栏店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月明小渔村(马栏店)位于大连市沙河口区黄河路858号，是一家以海鲜为主的中餐厅。餐厅环境舒适，提供丰富的海鲜菜品和传统中式菜肴，深受当地食客喜爱。",
+    "tags": [
+      "海鲜",
+      "中餐",
+      "酒楼"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "日月明小渔村(马栏店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月明小渔村(马栏店)，位于黄河路858号(辽师二干旁)，沙河口区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月明小渔村(马栏店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月明小渔村(马栏店)，位于黄河路858号(辽师二干旁)，沙河口区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月明小渔村(马栏店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月明小渔村(马栏店)，位于黄河路858号(辽师二干旁)，沙河口区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月明小渔村(马栏店)",
+    "city": "大连",
+    "category": "food",
+    "description": "日月明小渔村(马栏店)位于大连市沙河口区黄河路858号，是一家以海鲜为主的中餐厅。餐厅环境舒适，提供丰富的海鲜菜品和传统中式菜肴，深受当地食客喜爱。",
+    "tags": [
+      "海鲜",
+      "中餐",
+      "酒楼"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "日月明小渔村·海肠捞饭·大连菜(星海广场店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于西南路2甲号中山路与交叉口星海大厦一楼",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月明小渔村•海肠捞饭•大连海鲜(和平广场店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于新华街191号(近白山路)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月明小渔村•海肠韭菜盒子•27年老店(周水前店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于华北路东特购物广场北走50米路西",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "昕悦商务公寓(大连金州瑞柏中心店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于胜利路178号瑞栢中心1栋6楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星海广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "星海广场是位于大连沙河口区的著名城市广场。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "星海广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "星海广场，位于中山路572号(西南路口)，沙河口区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星海广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "星海广场，位于中山路572号(西南路口)，沙河口区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星海广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "星海广场，位于中山路572号(西南路口)，沙河口区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星海广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "星海广场是位于大连沙河口区的著名城市广场。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "星海广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于中山路572号(西南路口)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋妈面馆(东港店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于港兴路37-9晋妈面馆东港店",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋妈面馆(中山店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于桃源街25b号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晨曦沙滩",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于迎宾路1号棒棰岛风景区",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月亮湾夜市",
+    "city": "大连",
+    "category": "food",
+    "description": "位于兴城路37-9号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朵拉客栈(大连星海公园店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于黑石礁街道中山路688号辰熙星海国际大厦二楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松山寺",
+    "city": "大连",
+    "category": "attraction",
+    "description": "松山寺 是大连的旅游景点，位于西岗区。地址：唐山街。",
+    "tags": [
+      "大连"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "松山寺",
+    "city": "大连",
+    "category": "attraction",
+    "description": "松山寺，位于唐山街，西岗区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松山寺",
+    "city": "大连",
+    "category": "attraction",
+    "description": "松山寺，位于唐山街，西岗区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松山寺",
+    "city": "大连",
+    "category": "attraction",
+    "description": "松山寺，位于唐山街，西岗区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松山寺",
+    "city": "大连",
+    "category": "attraction",
+    "description": "松山寺 是大连的旅游景点，位于西岗区。地址：唐山街。",
+    "tags": [
+      "大连"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "松山寺",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于唐山街",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林之六八·6886大连老菜馆",
+    "city": "大连",
+    "category": "food",
+    "description": "林之六八·6886大连老菜馆是一家位于大连中山区的中餐厅，提供地道的大连本地菜肴，深受食客喜爱。",
+    "tags": [
+      "中餐厅",
+      "大连菜"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "林之六八·6886大连老菜馆",
+    "city": "大连",
+    "category": "food",
+    "description": "林之六八·6886大连老菜馆，位于新生街4C-82单元1层12号，中山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林之六八·6886大连老菜馆",
+    "city": "大连",
+    "category": "food",
+    "description": "林之六八·6886大连老菜馆，位于新生街4C-82单元1层12号，中山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林之六八·6886大连老菜馆",
+    "city": "大连",
+    "category": "food",
+    "description": "林之六八·6886大连老菜馆，位于新生街4C-82单元1层12号，中山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林之六八·6886大连老菜馆",
+    "city": "大连",
+    "category": "food",
+    "description": "林之六八·6886大连老菜馆是一家位于大连中山区的中餐厅，提供地道的大连本地菜肴，深受食客喜爱。",
+    "tags": [
+      "中餐厅",
+      "大连菜"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "枫林十月loft酒店式公寓(大连体育中心店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于南关岭街道岭西路中海41克拉25号楼公寓710",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(兴工街地铁站店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于长江路946-5号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梭鱼湾滨海体育公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于钻石海湾北岸(东北路鹏辉道口东300米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "棒棰岛风景区",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于迎宾路1号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "樱花林",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于解放路5号劳动公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欣欣餐厅(武昌街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "欣欣餐厅是一家以东北菜为主的中餐厅，位于大连市中山区解放路297号，靠近劳动公园地铁站C口，步行约450米可达。",
+    "tags": [
+      "东北菜",
+      "中餐",
+      "大连美食"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "欣欣餐厅(武昌街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "欣欣餐厅(武昌街店)，位于解放路297号(劳动公园地铁站C口步行450米)，中山区，类型中餐厅 东北菜。",
+    "tags": [
+      "中餐厅",
+      "东北菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欣欣餐厅(武昌街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "欣欣餐厅(武昌街店)，位于解放路297号(劳动公园地铁站C口步行450米)，中山区，类型中餐厅 东北菜。",
+    "tags": [
+      "中餐厅",
+      "东北菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欣欣餐厅(武昌街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "欣欣餐厅(武昌街店)，位于解放路297号(劳动公园地铁站C口步行450米)，中山区，类型中餐厅 东北菜。",
+    "tags": [
+      "中餐厅",
+      "东北菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欣欣餐厅(武昌街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "欣欣餐厅是一家以东北菜为主的中餐厅，位于大连市中山区解放路297号，靠近劳动公园地铁站C口，步行约450米可达。",
+    "tags": [
+      "东北菜",
+      "中餐",
+      "大连美食"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "欣鑫旅店",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于格林小镇西门,16号公建",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民族饭店明德斋清真餐厅",
+    "city": "大连",
+    "category": "food",
+    "description": "位于北京街98-104号清真寺右侧",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水仙拉面馆(水仙街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于水仙街16-1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永顺社区健康文化广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于中山公园街道抚顺街永顺社区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汇佳客舍(大连中山广场地铁站店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于白兰街16号(民生银行东北方向)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉城酒店式公寓(大连亿合城店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于汇通街12号华南亿合城A1号楼14楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉巴味德(印象城店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于中山路281-291号B1层(人民广场地铁站D口旁)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海之韵公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于滨海北路1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海厨的湘·湖南土菜(北京街总店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于新起街11-1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(亿合城购物中心店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于山东路235号亿合城购物中心四层Y40015/16/17/18号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(大连商场店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于青泥街7号大连商场五层CY5F-1号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(西安路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于西安路103号(中央大道六层即第五夹层)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(高新万达店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于甘井子区高新园区黄浦路500号万达广场三楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海昌·东方水城",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于港浦路114号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海滨世界美术博物馆",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于港浦路114-116-118号东方威尼斯水城二期",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海誓广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于石葵北一巷与天富街交叉口东北340米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淡蓝色客栈(大连宜和店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于龙头街道海鲜街98号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "添福来墨鱼水饺·海鲜东北菜(锦绣店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于河口街道西北路255号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "添福来饺子城(凌水店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于黄浦路359号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渔人码头",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于滨海东路80-2号",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渝利·秘宗火锅(黄河路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于黄河路767号(盖州街路口)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滋味馆·大连老菜(新起街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于新起街25号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱佳家庭公寓",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于凌秀路52号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牡丹园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于解放路5号劳动公园(青泥洼桥地铁站G1口步行440米)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狮子广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于解放路5号劳动公园(东侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王慧洁开口虾水饺·地道东北菜(和平广场店)",
+    "city": "大连",
+    "category": "food",
+    "description": "王慧洁开口虾水饺·地道东北菜(和平广场店)位于大连市沙河口区凯德和平广场4层，是一家以开口虾水饺为特色的东北菜餐厅。店内提供正宗东北风味菜肴，水饺现包现煮，口感鲜美，深受食客喜爱。",
+    "tags": [
+      "东北菜",
+      "水饺",
+      "中餐厅",
+      "特色风味"
+    ],
+    "avgCost": 60.0,
+    "duration": "1.5小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "王慧洁开口虾水饺·地道东北菜(和平广场店)",
+    "city": "大连",
+    "category": "food",
+    "description": "王慧洁开口虾水饺·地道东北菜(和平广场店)，位于高尔基路673号凯德和平广场4层，沙河口区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王慧洁开口虾水饺·地道东北菜(和平广场店)",
+    "city": "大连",
+    "category": "food",
+    "description": "王慧洁开口虾水饺·地道东北菜(和平广场店)，位于高尔基路673号凯德和平广场4层，沙河口区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王慧洁开口虾水饺·地道东北菜(和平广场店)",
+    "city": "大连",
+    "category": "food",
+    "description": "王慧洁开口虾水饺·地道东北菜(和平广场店)，位于高尔基路673号凯德和平广场4层，沙河口区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王慧洁开口虾水饺·地道东北菜(和平广场店)",
+    "city": "大连",
+    "category": "food",
+    "description": "王慧洁开口虾水饺·地道东北菜(和平广场店)位于大连市沙河口区凯德和平广场4层，是一家以开口虾水饺为特色的东北菜餐厅。店内提供正宗东北风味菜肴，水饺现包现煮，口感鲜美，深受食客喜爱。",
+    "tags": [
+      "东北菜",
+      "水饺",
+      "中餐厅",
+      "特色风味"
+    ],
+    "avgCost": 60.0,
+    "duration": "1.5小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "王慧洁开口虾水饺·地道东北菜(银泰城店)",
+    "city": "大连",
+    "category": "food",
+    "description": "王慧洁开口虾水饺是一家地道东北菜餐厅，主打开口虾水饺等特色东北菜肴，位于大连市中山区银泰城。",
+    "tags": [
+      "东北菜",
+      "水饺",
+      "银泰城"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "王慧洁开口虾水饺·地道东北菜(银泰城店)",
+    "city": "大连",
+    "category": "food",
+    "description": "王慧洁开口虾水饺·地道东北菜(银泰城店)，位于解放路19号银泰城5F层，中山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王慧洁开口虾水饺·地道东北菜(银泰城店)",
+    "city": "大连",
+    "category": "food",
+    "description": "王慧洁开口虾水饺·地道东北菜(银泰城店)，位于解放路19号银泰城5F层，中山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王慧洁开口虾水饺·地道东北菜(银泰城店)",
+    "city": "大连",
+    "category": "food",
+    "description": "王慧洁开口虾水饺·地道东北菜(银泰城店)，位于解放路19号银泰城5F层，中山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王慧洁开口虾水饺·地道东北菜(银泰城店)",
+    "city": "大连",
+    "category": "food",
+    "description": "王慧洁开口虾水饺是一家地道东北菜餐厅，主打开口虾水饺等特色东北菜肴，位于大连市中山区银泰城。",
+    "tags": [
+      "东北菜",
+      "水饺",
+      "银泰城"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "环卫公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于莲花山路53-1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珊珊麻辣烫",
+    "city": "大连",
+    "category": "food",
+    "description": "位于山庄北三街48号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珍奥五二三厂健康服务中心",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于海北路21号",
+    "tags": [
+      "090000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白云山山体公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "白云山山体公园位于大连市西岗区白云街道，是一处集自然风光与休闲健身于一体的城市山体公园。公园内绿树成荫，步道蜿蜒，可俯瞰城市景观，是市民日常锻炼和亲近自然的理想场所。",
+    "tags": [
+      "公园",
+      "风景名胜",
+      "休闲"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.3
+  },
+  {
+    "name": "白云山山体公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "白云山山体公园，位于白云街道长白街7-2号附近，西岗区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白云山山体公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "白云山山体公园，位于白云街道长白街7-2号附近，西岗区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白云山山体公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "白云山山体公园，位于白云街道长白街7-2号附近，西岗区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白云山山体公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "白云山山体公园位于大连市西岗区白云街道，是一处集自然风光与休闲健身于一体的城市山体公园。公园内绿树成荫，步道蜿蜒，可俯瞰城市景观，是市民日常锻炼和亲近自然的理想场所。",
+    "tags": [
+      "公园",
+      "风景名胜",
+      "休闲"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.3
+  },
+  {
+    "name": "白云山山体公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于白云街道长白街7-2号附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白云彩林公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于南石巷与威华街交叉口南40米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白云雁水健身公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于白云街道迎春路60号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇城老妈(西安路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于升平街41号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇城老妈火锅(港湾店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于港湾桥港湾广场3A号(港湾广场地铁站D口步行60米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "益盛商务酒店(大连火车站东关街历史文化街区店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于建设街76号(近火车站北广场)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福禄面庄",
+    "city": "大连",
+    "category": "food",
+    "description": "位于九三街56号一楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "科学技术博物馆",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于长白街与长春路交叉口西南180米",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红叶广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于桂林街道山林街枫林苑",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "维多利亚国际酒店",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于黄海西路140号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿茵庄园",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于革镇堡镇夏丽高尔夫左转",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美丽园海鲜涮肉(佳兆业广场店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于天津街271号佳兆业北门",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翔龙山庄",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于营城子街道南沟村",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老东财夜市",
+    "city": "大连",
+    "category": "food",
+    "description": "位于大连开发区37号老东财对面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老云龙传统泥炉烤肉(新起街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于新起街15号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老大连·大连海鲜大连菜(星海·自然博物馆店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于中山路700号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老大连·大连海鲜大连菜(西安路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于同泰街91号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老板的坛坛罐罐",
+    "city": "大连",
+    "category": "food",
+    "description": "位于新开路福德街2-6号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老码头电车博物馆",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于人民东路与港浦路交叉口西260米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肥仔螺蛳粉",
+    "city": "大连",
+    "category": "food",
+    "description": "位于大胜街61号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(越秀店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于新开路82号越秀大厦1层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胜美斋带皮羊肉·羊汤(北京街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于新起街19号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "良玖文化艺术广场(赛维利大厦店)",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于长江路442号",
+    "tags": [
+      "060102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花园广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于新开路与高尔基路交叉口北40米",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "英雄纪念公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于纪念街96号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茂隆湾旅游度假区",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于登沙河镇范家屯范家村200号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荞麦山海滨度假村",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于大魏家镇荞麦山村",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荷花池",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于解放路5号劳动公园(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花山公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于白云街道白云街道白云街道白云街道威华街134号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝海湾度假村",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于南湖街70号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜀道叁冒菜冒肚",
+    "city": "大连",
+    "category": "food",
+    "description": "位于广平街118号(西安路地铁站B2口步行360米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜜和糖主题酒店式公寓",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于光中街道胜利路178号瑞柏中心1号公寓613室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "血与火'雕塑广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于英雄纪念公园(东北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观澜逸阁民宿(大连旅顺大学城店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于保利拾光年",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "谭三娘鲜切牛肉自助火锅(中央大道店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于西安路107号中央大道商场四楼西侧",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "跨海大桥观景点",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于滨海西路311号",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辽B:小串总部",
+    "city": "大连",
+    "category": "food",
+    "description": "位于广平街与泉涌街交叉口南50米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辽宁天巳历史博物馆",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于华北路1005号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "连国海鲜饭店(联合路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于联合路8-3号(十洲云水大酒店旁)",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆老太太麻辣烫(大湾市场店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于千山路29号阳光大地购物广场底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野力肥牛火锅(新开路店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于新开路99珠江国际大厦1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金佰国际酒店",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于五五路7号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金州步行街",
+    "city": "大连",
+    "category": "food",
+    "description": "位于斯大林路188号",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金桔酒店式公寓(大连金石滩发现王国店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于枫洋街1-3号2单元4层3号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金沙滩",
+    "city": "大连",
+    "category": "attraction",
+    "description": "金沙滩位于大连市西岗区滨海路53号，是一处风景优美的海滩景点。",
+    "tags": [
+      "海滩",
+      "风景"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "金沙滩",
+    "city": "大连",
+    "category": "attraction",
+    "description": "金沙滩，位于滨海路53号，西岗区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金沙滩",
+    "city": "大连",
+    "category": "attraction",
+    "description": "金沙滩，位于滨海路53号，西岗区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金沙滩",
+    "city": "大连",
+    "category": "attraction",
+    "description": "金沙滩，位于滨海路53号，西岗区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金沙滩",
+    "city": "大连",
+    "category": "attraction",
+    "description": "金沙滩位于大连市西岗区滨海路53号，是一处风景优美的海滩景点。",
+    "tags": [
+      "海滩",
+      "风景"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "金沙滩",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于滨海路53号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金沙滩度假村",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于滨海路金沙滩",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金沙滩度假村",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于滨海路金沙滩",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金海湾旅社",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于金海湾5-2",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金湾便民夜市",
+    "city": "大连",
+    "category": "food",
+    "description": "位于东城南路与东城街交叉口东180米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金石温泉度假村",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于金石路65号大连金石滩国家旅游度假区内(南侧)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金石滩双鑫宾馆",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于金石滩金石明珠39-5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金石滩阿曼波商务宾馆(发现王国店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于金石滩街道枫洋街1-2-7号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金秋旅店(开发区轻轨站五彩城店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于五彩城C区2栋5号(开发区地铁站B口步行210米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫源旅馆(大连明泽街店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于明泽街警后大院20号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银沙滩公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于滨海西路76号",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦绣早市(锦城园店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于南松路45号锦城东园",
+    "tags": [
+      "060700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦隆商务宾馆",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于开发区双地港青国青城15-8",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长兴里小吃街(大连中央大道店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于西安路101-1-1号中央大道购物广场B1",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长兴里小吃街西安路夜市",
+    "city": "大连",
+    "category": "food",
+    "description": "位于兴工街地铁站出入口旁",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长河悦湖夜市",
+    "city": "大连",
+    "category": "food",
+    "description": "位于长河悦湖",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "阳光小屋客栈(大连金石滩店)",
@@ -349,10 +5063,318 @@
       "住宿",
       "旅馆"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 0
+    "rating": 0.0
+  },
+  {
+    "name": "阳光小屋客栈(大连金石滩店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "阳光小屋客栈(大连金石滩店)，位于金石路55-21号，金州区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳光小屋客栈(大连金石滩店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "阳光小屋客栈(大连金石滩店)，位于金石路55-21号，金州区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳光小屋客栈(大连金石滩店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "阳光小屋客栈(大连金石滩店)，位于金石路55-21号，金州区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳光小屋客栈(大连金石滩店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "阳光小屋客栈位于大连金石滩，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "旅馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "阳光小屋客栈(大连金石滩店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于金石路55-21号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隐市·李东北杀猪菜(大连新起街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于新起街与九三街交叉口东南20米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺丰旅社(二部)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于大连西岗区连平街4号1-2号商铺，靠近大连站地铁站F口，提供住宿服务。",
+    "tags": [
+      "住宿服务",
+      "旅社"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "顺丰旅社(二部)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "顺丰旅社(二部)，位于连平街4号1-2号商铺(大连站地铁站F口步行60米)，西岗区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺丰旅社(二部)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "顺丰旅社(二部)，位于连平街4号1-2号商铺(大连站地铁站F口步行60米)，西岗区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺丰旅社(二部)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "顺丰旅社(二部)，位于连平街4号1-2号商铺(大连站地铁站F口步行60米)，西岗区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺丰旅社(二部)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于大连西岗区连平街4号1-2号商铺，靠近大连站地铁站F口，提供住宿服务。",
+    "tags": [
+      "住宿服务",
+      "旅社"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "顺丰旅社(二部)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于连平街4号1-2号商铺(大连站地铁站F口步行60米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "颐和居客栈(大连金石滩店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于金石滩御景园51-12",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "颐家公寓(大连中山广场地铁站店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于青泥洼桥街道明泽街82号嘉和广场A座3812室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "颠倒博物馆(福佳购物广场西安路店)",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于中长东四街34号福佳新天地广场西安路店F2层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "食那山·野生菌火锅(民主店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于长江路24-1号1单元1跃2层5号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "食那山野生菌火锅(太原街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于太原街177-7号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "食那山野生菌火锅(甘井子万达店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于红霞路138号(1跃2)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "食那山野生菌火锅(青云街店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于中青街32号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "馋猫夜海鲜烧烤(同泰花园店)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于成仁街124号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香炉礁社区广场",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于香川街29号(香炉礁地铁站A口步行390米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马栏河运动公园",
+    "city": "大连",
+    "category": "attraction",
+    "description": "位于星海湾街道连华街77号附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高城山夜市",
+    "city": "大连",
+    "category": "food",
+    "description": "位于高志街与淮河中路交叉口南100米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "鸿利客舍(连平街店)",
@@ -365,9 +5387,191 @@
       "大连",
       "地铁站旁"
     ],
-    "avgCost": 100,
+    "avgCost": 100.0,
     "duration": "全天",
     "openTime": "24小时",
     "rating": 4.0
+  },
+  {
+    "name": "鸿利客舍(连平街店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "鸿利客舍(连平街店)，位于连平街5-1号(大连站地铁站F口步行60米)，西岗区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿利客舍(连平街店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "鸿利客舍(连平街店)，位于连平街5-1号(大连站地铁站F口步行60米)，西岗区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿利客舍(连平街店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "鸿利客舍(连平街店)，位于连平街5-1号(大连站地铁站F口步行60米)，西岗区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿利客舍(连平街店)",
+    "city": "大连",
+    "category": "hotel",
+    "description": "鸿利客舍位于大连市西岗区连平街5-1号，紧邻大连站地铁站F口，步行仅60米，交通便利，适合商务和旅行住宿。",
+    "tags": [
+      "住宿",
+      "经济型",
+      "大连",
+      "地铁站旁"
+    ],
+    "avgCost": 100.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "鹿鸣岛度假村",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于海翔路1号",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(荣盛餐厅)",
+    "city": "大连",
+    "category": "food",
+    "description": "位于荣盛街38长波大厦(青泥洼桥地铁站E1口步行190米)",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄金宝海鲜自选火锅",
+    "city": "大连",
+    "category": "food",
+    "description": "位于长江路128号1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙海度假村",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于革镇堡街道革镇堡镇夏家河子",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙祥宾馆",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于庄河汽车站对面的宾馆酒店。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "龙祥宾馆",
+    "city": "大连",
+    "category": "hotel",
+    "description": "龙祥宾馆，位于庄河汽车站对面，庄河市，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙祥宾馆",
+    "city": "大连",
+    "category": "hotel",
+    "description": "龙祥宾馆，位于庄河汽车站对面，庄河市，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙祥宾馆",
+    "city": "大连",
+    "category": "hotel",
+    "description": "龙祥宾馆，位于庄河汽车站对面，庄河市，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙祥宾馆",
+    "city": "大连",
+    "category": "hotel",
+    "description": "位于庄河汽车站对面的宾馆酒店。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
   }
 ]

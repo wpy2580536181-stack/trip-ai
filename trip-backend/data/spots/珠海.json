@@ -1,0 +1,782 @@
+[
+  {
+    "name": "Comfort·品居酒店(珠海金湾机场店)",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于三灶镇海澄正表村东平街一巷15号之楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七叔公饭庄(豪园大厦店)",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于东风路27号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八合里潮汕鲜牛肉火锅(扬名广场店)",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于凤凰南路1060号1楼(扬名广场二期锦江之星酒店1层)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华莱士·全鸡汉堡(珠海凤凰店)",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于凤凰南路1030号瀚高大厦一楼4号铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和利源牛肉火锅凤凰南店",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于凤凰南路1147号一楼商铺之六",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哈啰轻酒店(珠海唐人街市场店)",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于三灶镇机场西路23号(近嘉珠时代广场,唐人街)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉瑞棋酒店(金湾国际机场店)",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于三灶镇海澄正表村东平街三巷139号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "圆明新园",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于兰埔路与白石路交界处",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太阳与海(湾仔沙店)",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于碧海路109号",
+    "tags": [
+      "050305"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威尼斯西餐厅(扬名广场店)",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于凤凰南路1066号扬名广场2期F7层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "娜咖公寓(珠海北理工店)",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于唐家湾镇宁堂村259号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝岛阿嬷 A mà",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于人民东路150号",
+    "tags": [
+      "050700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小荣大胜茶餐厅(扬名广场店)",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于凤凰南路1066号扬名广场二期6楼L6006商铺",
+    "tags": [
+      "050305"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小蘭居餐厅(顺德鱼生)",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于碧海路1号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸福湘遇•湘菜·海鲜(情侣中路店)",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于碧海路1号1栋1楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "情侣路",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于情侣中路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月贝拍照点",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于情侣中路与东风路交叉口东北120米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景山公园",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于吉大海滨北路1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景山公园-石景山观光索道",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于吉大海滨北路景山公园内(东侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "暖阁酒店(拱北口岸店)",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于迎宾南路2144号暖阁酒店",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "望海亭",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于香湾街道香湾街道海滨北路7号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柠溪文化广场",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于柠溪路284号",
+    "tags": [
+      "060101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浪漫之城精品酒店",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于珠海大道3023号广生商业楼C栋4楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(扬名广场夜宵主题店)",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于扬名广场二期8楼L8001、L8008号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海滨公园",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于海滨南路108号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海滨泳场",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于情侣中路88号",
+    "tags": [
+      "080109"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海韵奢居公寓(石花西路1号分店)",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于石花西路万科石花66号A单元二楼206室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "润鸿酒店公寓(珠海高栏港店)",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于南水镇兴南路26号1栋",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渔惑中山脆肉鲩(扬名广场店)",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于凤凰南路1066号扬名广场二期地面停车场海燕路出口左侧",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潮香兴煲仔饭(湾仔沙店)",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于东风路29号",
+    "tags": [
+      "050123"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "濠轩阁特色生蚝火锅(扬名广场店)",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于先烈路43号之一",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱情邮局",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于情侣中路88号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠海丫一公寓",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于唐家湾宁堂村87号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠海九龙商务酒店(三灶唐人街市场店)",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于三灶镇机场西路23号(近嘉珠时代广场,唐人街)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠海博物馆",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于海虹路88号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠海友谊旅馆(香洲汽车长途站店)",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于紫荆路311号(香洲总站正对面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠海名店坊住宿",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于新民路118号名店坊3层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠海大剧院",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于渔湾路129号",
+    "tags": [
+      "080603"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠海市香洲区野狸捣西餐厅",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于凤凰南路1014号",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠海心悦宾馆",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于斗门镇大道南126号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠海日月贝",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于环岛路3号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠海明珠旅店(民康街店)",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于三灶镇民康街48号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠海月亮湾公寓",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于宁堂村116号(北理北师大对过)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠海有家客栈吉林大学店",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于三灶镇安堂村安兴街二巷2号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠海活体自然博物馆",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于情侣路商圈党群服务中心",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠海渔女",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于情侣中路香炉湾",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠海相宿国际公寓(国际会展中心店)",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于宝顺路6号朗廷广场1栋12楼1207室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠海鑫悦公寓(唐家湾大学城店)",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于唐家湾镇宁堂村东26号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠海领峰公寓(金湾机场店)",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于三灶镇正表村升平街6号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瑞缘国际酒店公寓(珠海奥园广场店)",
+    "city": "珠海",
+    "category": "hotel",
+    "description": "位于珠海金发购物中心(金桔路西100米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白莲洞公园",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于九洲大道中段北侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "社会主义核心价值观主题广场",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于人民东路与新光里三街交叉口西20米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫氏鸡煲·祯厨娘",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于凤凰南路1014号凤凰路停车楼112商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "菠萝街36#",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于新光里二街36号首层(嘉仪士多)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野狸岛公园",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于情侣路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隆都四季香饭店(碧海路店)",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于碧海路18号(香洲医院湾仔沙门诊部直入10米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香山公园",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于园山路8号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香炉湾沙滩",
+    "city": "珠海",
+    "category": "attraction",
+    "description": "位于香湾街道情侣中路",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼民·现造寿司(扬名广场店)",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于翠海路124号鱼民寿司",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(吉之岛餐厅)",
+    "city": "珠海",
+    "category": "food",
+    "description": "位于凤凰南路1088号扬名广场2层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

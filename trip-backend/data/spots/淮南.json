@@ -1,0 +1,2186 @@
+[
+  {
+    "name": "26号牛肉汤(总店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于田家庵区朝阳西路,朝阳西村1号楼",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "7天优品酒店(淮南商贸文化广场店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于朝阳中路24号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "E水系体育公园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于和风大街88号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "E水系带状公园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于民祥街与瓦埠湖路交叉口东140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一只羊徐州烧烤(拓基店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于山南拓基广场S6商铺东头",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七欣天(淮南京澳广场店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于朝阳中路97号京澳广场1层103号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万茂湖公园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于万茂商业中心西侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三角广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于朝阳中路28号商贸文化广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东方广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于金家岭路与矿三院路交叉口西南120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "两琴相悦",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于淮河大道188-1号",
+    "tags": [
+      "140200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九田家黑牛烤肉料理(拓基广场店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于淮河大道中段淮河路拓基金座",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九龙岗民国小镇",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于九龙岗镇九大路188号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云溪花海山居乐游谷",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于237国道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园下沉广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于人民公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园健身广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于人民公园内(北侧)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于和悦街(人民政府南)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亿间居(阳光半岛店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于新桥大道信达华宇阳光湖樾18栋2203号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亿间居公寓(三星路分店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于寿县蜀溪湾S7-120",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仙女湖",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于三和乡洞山东路南侧舜耕山风景区内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "会战路东方广场(售楼部)",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于金家岭路与矿三院路交叉口西南100米",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "体育文化中心广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于新体育场广场北路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元宝铜锅涮肉(山南万茂店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于高新技术产业开发区万茂华府K号118+218号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "党建主题公园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于民裕大街71号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "党建廉政文化园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于和悦街与瓦埠湖路交叉口西北200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "公园里H区",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于三和乡淮南高新区泉山湖",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "公园里I区",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于三和乡泉山湖(民慧街北)",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兰亭广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于G328兰亭小区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兰雅精品酒店",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于中山北路与望淮路交叉口西北50米",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "其萃楼商务酒店",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冯校长老火锅(淮南朝阳中路店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于新世界4层8号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤台客来馨民宿",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于新民街与102省道交叉口南40米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤台拉菲假日酒店",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于滨河大道与农水西路交口滨河湾南区商贸城2号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤台朋客宾馆",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于203省道",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤城宾馆(劳动保险大厦西)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于凤城大道修正堂大药房西侧",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凰成成鷄湯小馆",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于拓基金座F座S6-114",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘家牛肉汤(淮南总店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于柳郢路清水湾小区27楼106-107商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前锋小吃街",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前锋社区文体广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于康居南路与朝阳东路交叉口西北300米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "博士土菜馆(山南店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于和风大街88号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双宝木炭铜火锅涮肉(山南二中店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于西湖春天西北门旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "后湖生态园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于泥河镇",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "君豪宴酒店",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于三和镇民裕大街108号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "君雅轩影院酒店(安徽理工大学店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于艺山南公寓楼上13栋商铺113室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喵小居公寓(朝阳中路分店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于朝阳街道东方国际购物中心3栋19层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "圣地星座民宿(新世界休闲生活广场店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于朝阳街道陈洞南路与朝阳西路交口圣地新都会7栋1303室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "壹品人家",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于万茂华府A栋商业112号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大舜广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于致远路与博学大道交叉口北100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大通万人坑教育馆",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于园艺路1号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大通区法治文化广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于居庆路9号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大通区鸳鸯湖健康主题公园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于园艺路9号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天天特色牛肉汤(舜耕小街店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于人民南路与舜耕小街交叉口西150米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如意公园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于民裕大街108号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孔庙",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于寿春镇西大街(寿县博物馆对面)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孞作创作料理",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于民生西街与淮河大道中段交叉口东北120米",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安丰塘",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于022县道附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安徽上窑国家森林公园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于上窑镇",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安徽楚文化博物馆",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于明珠大道1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安徽理工大学淮南校区仰山广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于安徽理工大学",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寿县北街宾馆",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于寿春镇北街59号店内",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寿县古城",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于北大街与西大街交叉口北280米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寿县古城二十四节气馆",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于寿县西大街64号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寿县古城墙",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于内环路与北大街交汇处北",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寿县美宿民宿",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于财苑小区东南门南80米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寿县花园浴池民宿",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于寿春路与紫金路交叉口北200米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小凤阁鸡虾煲(淮南吾悦广场店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于洞山东路8号吾悦广场淮南店F4层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小勇牛肉汤(原沿矿路老店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于新社东村东南1门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小段牛肉汤",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于舜耕小街",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小段牛肉汤(供电局店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于淮舜南路供电局对面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小段牛肉汤(新康医院店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于淮舜南路新康医院南门对面小段牛肉汤",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小薛牛肉汤(望峰岗北路店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于望峰岗镇北路",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚渔味双拼烤鱼",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于拓基广场s6栋135-136",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山南儿童公园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于春分街168号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山南梅园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于三和镇五层山",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山南银杏公园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于洛河大道与004乡道交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山城老泡(淮南吾悦广场店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于洞山东路8号吾悦广场1号门东侧30米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平圩古阳广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于淮潘公路182号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张亮麻辣烫(淮南拓基广场店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于拓基广场S7-116号125号126号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德庄火锅(未来城店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于康宁未来城东门北140米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德庄火锅(潘集店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于长江路312号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德庄火锅(环球港店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于南湖北路凤台环球港三楼3008-3009号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徽牛纪淮南牛肉汤",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于拓基广场s7栋101",
+    "tags": [
+      "050109"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(淮南东方广场店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于朝阳中路40号新世界休闲生活广场一层",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(淮南山南拓基店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于淮河大道东侧拓基广场S9号楼101号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慈母溪",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于沿山路舜耕山风景区内(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拓扑电竞民宿(西城国际广场店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于卧龙山路与唐山路交叉口西220米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "提莫家的披萨(万茂中心店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于万茂环湖2-115-116商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新故里鲜牛坊",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于柏园新村机电楼南门东70米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晚安酒店(淮南田家庵区商贸文化广场店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于国庆中路291号(和睦医院东侧)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月季园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于南山路9号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朴大叔拌饭(淮南拓基金座店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于拓基金座S7栋一楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李想大虾火锅(山南拓基店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于淮河大道中段淮河大道9号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柒味麻小(淮南拓基店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于山南拓基金座S6-113",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(家乐福时代广场店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于家乐福时代广场162,163号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梦想沙滩",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于人民公园(西南角)",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椒椒铜炉火锅鸡",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于洞山中路师范学院对面76号门市",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(淮南吾悦店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于洞山东路8号淮南吾悦广场4层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "毛旦牛肉汤",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于十涧湖东路50号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民祥公园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于民裕大街b号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水尚轻居酒店(新达广场店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于三星路蜀溪湾公寓B1栋103商铺",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉化快捷宾馆(淮南十九中店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于泉化快捷宾馆东门旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉山刘家牛肉汤(拓基店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于淮河大道与民裕大街交口拓基广场",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洞山公园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于洞山中路18号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洞山路会战纪念广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于洞山中路32号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(新世界广场店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于朝阳中路40号新世界生活广场5楼004号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海纳广场(安徽理工大学)",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于安徽理工大学厚德馆与自强体育馆之间",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南88快捷旅店",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于泉山路66号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南八公山风景区",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于八南路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南博客快捷宾馆(东城市场店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于淮滨路86附近",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南友佳自有民宿",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于三和镇淮河大道南段金大地英伦联邦20栋一单元101室",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南四季和宾馆",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于学院南路淮南图书馆斜对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南墨香阁客栈",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于泉山村273号(师范大学对面,近菜鸟驿站)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南大隐艺术影宿民宿",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于朝阳中路40号东方国际广场三号楼20楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南小洱海",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于洞山东路辅路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南市博物馆",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于洞山中路15号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南市菊苑宾馆",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于长江路194号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南师范学院(学院南路)-广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于益民巷与淮河大道交叉口东280米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南明珠商务宾馆(万达广场汽车站店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于香港街130号附近",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南牛肉汤一店",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于龙湖北路与淮滨西路交叉口(龙湖公园南门)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南牛肉汤非遗示范店(宋记)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于西大寺巷",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南睡8客栈",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于三和街道东235号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南胖胖宾馆",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于舜耕中路92号-94号(火车站向东50米北侧)(火车站)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南阳光快捷宾馆",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于袁庄黄河路52号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南飞天主题宾馆",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于李郢孜河西小区",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南高新区E水系带状公园-北区",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于民祥街与瓦埠湖路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "淮南龙祥宾馆(安徽理工大北校区店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于湖滨西路(紧临安徽理工大北校区)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "焦岗湖影视城",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于毛集实验区焦岗湖南路1号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "焦岗湖景区",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于毛集实验区兴湖路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱晴海影院公寓(安徽理工大学店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于春华街104号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛厨百味全牛涮锅(寿县店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于紫金路楚都御花园小区109-112号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛厨百味火锅店(寿春环球港店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于寿春环球港三楼3031号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛市坎火锅(淮南凤台店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于城关镇凤城大道金地华府南门十八号楼101号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛市坎火锅(淮河新城店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于淮河新城五期15栋102",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王老三清真牛肉汤",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王记牛百味牛肉汤",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "田家庵区法治文化园林广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于洞山中路32号洞山路会战纪念广场(西北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百烤汇(万茂中心店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于万茂环湖商铺5号楼106",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祥馨宾馆(Z001店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于岳张集镇绿洲医院东北40米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "私享家融创餐厅",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于拓基广场西门S3商铺106-107室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "笨姐居民楼火锅(凤台县店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于凤城大道20号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫燕百味鸡(淮南万茂店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于高新技术产业开发区万茂华府D栋112商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美雅民宿(商贸文化广场店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于朝阳街道学院南路龙湖中心3号楼1809室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老乡鸡(新天地中央广场店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于朝阳中路新天地广场一楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老龙眼湿地公园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于金家岭路南300米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胜芝长城大酒店",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于胶州路108号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舜耕山大通湿地公园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于林场路106号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舜耕山自行车公园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于舜耕山",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舜耕山风景区",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于洞山东路南侧",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芳草栖民宿(安徽理工大学店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于淮河大道中段与泰宁大街交叉口东北420米艺山南13号楼24层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茅仙洞风景区",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于民族乡省道102旁",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荷花淀",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于毛集实验区兴湖路1号焦岗湖景区(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁记云饺(田家庵区淮河大道拓基金座店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于田家庵区高新区拓基广场S7栋123-124商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西园路健身活动广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于西园路2-1号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "许府牛火锅(安徽淮南田家庵拓基广场店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于高新技术产业开发区拓基广场S6栋110、111、129、130",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "趙吨吨的餐馆",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于淮河大道与民裕大街交叉口拓基金座赵吨吨的餐馆",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "转念花开·台州小馆",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于瓦埠湖路与民生西街交叉口西北140米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆刘一手火锅(淮南吾悦广场店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于新城吾悦广场3楼",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银杏林公园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于山南银杏公园内(东侧)",
+    "tags": [
+      "170403"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦江之星(淮南火车站舜耕中路店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于舜耕中路89-95号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "镇南广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于合淮路与镇南路交叉口西北100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈记元宝铜锅涮肉(淮河新城店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于淮河新城湖兴北路26幢108-109号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隐居酒店(盛港广场店)",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于京奥广场公寓楼16楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雅客亨腾宾馆",
+    "city": "淮南",
+    "category": "hotel",
+    "description": "位于新华二村北门东北200米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "风筝草坪",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于西支一路和沿山路交口西北方向",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马庙文化广场",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于国庆东路与沿淮路交叉口南180米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(华联商厦店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于龙湖中路1号",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(淮南万达店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于舜耕镇国庆中路68号万达广场1楼",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(田家庵新世界广场店)",
+    "city": "淮南",
+    "category": "food",
+    "description": "位于朝阳中路40号中暖新世界广场",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙湖公园",
+    "city": "淮南",
+    "category": "attraction",
+    "description": "位于人民北路160号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

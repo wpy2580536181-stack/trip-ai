@@ -1,33 +1,159 @@
 [
   {
-    "name": "碧沙岗公园",
+    "name": "万方公寓(郑州工商学院店)",
     "city": "郑州",
-    "category": "attraction",
-    "description": "碧沙岗公园是郑州市中原区的一个大型综合性公园，原名白沙岗，是冯玉祥将军为纪念北伐阵亡将士而修建，园内有纪念亭、碑林等历史遗迹，风景优美，是市民休闲娱乐的好去处。",
+    "category": "hotel",
+    "description": "位于凤栖街与瑞云路交叉口豫兴家苑二号院南门10号楼一单元五楼501室",
     "tags": [
-      "公园",
-      "历史纪念",
-      "休闲"
+      "100000"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.4
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "碧沙岗",
+    "name": "三只猫青年旅舍(金成时代广场店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于姚砦路133号金成时代广场13号楼5层568号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三皇寨",
     "city": "郑州",
     "category": "attraction",
-    "description": "碧沙岗是位于郑州市中原区的一座集纪念、休闲、娱乐于一体的城市公园，原名白沙岗，为北伐战争烈士陵园，现为市民休闲健身的好去处。",
+    "description": "位于西南15公里的少室山西南侧",
     "tags": [
-      "公园",
-      "风景名胜",
-      "纪念地"
+      "110200"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三磨所健身广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于中原中路177号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下沉喷泉广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于化工路郑州西流湖公园北园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东城火锅店(东明路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于东明路与东沈街交叉口东南角",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东陈伍寨公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于金水西路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中原文化广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于桐柏南路与中原中路交汇处南100米路西",
+    "tags": [
+      "120203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中原福塔",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于经济技术开发区航海东路1206号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中牟悦美·观影酒店(方特绿博园店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于白沙镇郑开大道与芦医庙大街上东国际3号楼4楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中铁·泰和里火车公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于陇海中路5号附6号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽景园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于汝河路与文化宫路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "二七广场",
@@ -41,84 +167,95 @@
       "历史",
       "纪念塔"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "1-2小时",
     "openTime": "全天开放",
     "rating": 4.5
   },
   {
-    "name": "郑州市月季公园",
+    "name": "二七广场",
     "city": "郑州",
     "category": "attraction",
-    "description": "郑州市月季公园位于中原区西站路80号，以月季花为主题，是集观赏、休闲、娱乐为一体的城市公园。园内种植大量月季品种，四季花开不断，是市民休闲散步的好去处。",
+    "description": "二七广场，位于西大街21号，二七区，类型公园广场 城市广场。",
     "tags": [
-      "风景名胜",
-      "公园",
-      "月季"
+      "公园广场",
+      "城市广场"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.2
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "郑州市人民公园",
+    "name": "二七广场",
     "city": "郑州",
     "category": "attraction",
-    "description": "郑州市人民公园位于二七区北二七路97号，是一座集休闲、娱乐、观光于一体的综合性公园，园内绿树成荫，设有湖泊、花坛、游乐设施等，是市民日常休闲的好去处。",
+    "description": "二七广场，位于西大街21号，二七区，类型公园广场 城市广场。",
     "tags": [
-      "公园",
-      "风景名胜",
-      "休闲"
+      "公园广场",
+      "城市广场"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二七广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "二七广场，位于西大街21号，二七区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二七广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "二七广场位于郑州市中心，是纪念京汉铁路工人大罢工的标志性地点，广场中央矗立着二七纪念塔，是郑州的城市象征。广场周边商业繁华，是游客和市民休闲购物的好去处。",
+    "tags": [
+      "郑州",
+      "地标",
+      "广场",
+      "历史",
+      "纪念塔"
+    ],
+    "avgCost": 0.0,
     "duration": "1-2小时",
-    "openTime": "06:00-22:00",
+    "openTime": "全天开放",
     "rating": 4.5
   },
   {
-    "name": "郑州二砂文化创意园",
+    "name": "二七广场",
     "city": "郑州",
     "category": "attraction",
-    "description": "郑州二砂文化创意园位于郑州市中原区，是利用原中国第二砂轮厂旧址改造而成的文化创意产业园区。园区保留了工业遗址风貌，融合现代艺术元素，集创意办公、艺术展览、休闲娱乐于一体，是郑州标志性的文创地标之一。",
+    "description": "位于西大街21号",
     "tags": [
-      "文创",
-      "工业遗址",
-      "创意园",
-      "打卡地"
+      "110105"
     ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "全天开放",
-    "rating": 4.2
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "德化步行街",
+    "name": "二七米房时尚创意街区",
     "city": "郑州",
     "category": "attraction",
-    "description": "德化步行街是郑州市二七区的一条著名商业步行街，集购物、休闲、娱乐于一体。",
+    "description": "位于行云路赣江路西南角",
     "tags": [
-      "特色商业街",
-      "购物"
+      "080000"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天",
-    "rating": 4.0
-  },
-  {
-    "name": "郑州二七纪念馆",
-    "city": "郑州",
-    "category": "attraction",
-    "description": "郑州二七纪念馆位于二七广场，纪念二七罢工的重要历史事件。",
-    "tags": [
-      "风景名胜",
-      "纪念馆"
-    ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "09:00-17:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "二七纪念馆-纪念塔",
@@ -131,39 +268,1773 @@
       "历史",
       "二七区"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "1-2小时",
     "openTime": "09:00-17:00",
     "rating": 4.5
   },
   {
-    "name": "郑州市西流湖公园(北区)",
+    "name": "二七纪念馆-纪念塔",
     "city": "郑州",
     "category": "attraction",
-    "description": "西流湖公园是郑州市一个大型城市公园，位于中原区化工路，风景优美，适合休闲游览。",
+    "description": "二七纪念馆-纪念塔，位于郑州二七纪念馆(二七广场地铁站D口步行90米)，二七区，类型风景名胜 风景名胜。",
     "tags": [
       "风景名胜",
-      "公园",
-      "中原区"
+      "风景名胜"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "全天开放",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二七纪念馆-纪念塔",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "二七纪念馆-纪念塔，位于郑州二七纪念馆(二七广场地铁站D口步行90米)，二七区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二七纪念馆-纪念塔",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "二七纪念馆-纪念塔，位于郑州二七纪念馆(二七广场地铁站D口步行90米)，二七区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二七纪念馆-纪念塔",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "二七纪念塔位于郑州市二七区，是为纪念京汉铁路工人大罢工而修建的标志性建筑。塔身雄伟，内部设有纪念馆，展示二七历史和相关文物。游客可登塔俯瞰城市风光，感受革命精神。",
+    "tags": [
+      "风景名胜",
+      "纪念馆",
+      "历史",
+      "二七区"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "09:00-17:00",
     "rating": 4.5
   },
   {
-    "name": "裕丰源豫食雅宴",
+    "name": "二七纪念馆-纪念塔",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于郑州二七纪念馆(二七广场地铁站D口步行90米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "交通宾馆(郑州大学南校区三附院店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于交通路75号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "京都老蔡记(伊河路店)",
     "city": "郑州",
     "category": "food",
-    "description": "一家以豫菜为主的中餐厅，环境雅致，菜品地道。",
+    "description": "位于工人路伊河路交叉口西150米路北",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伏羲山",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于米村镇月寨村四组",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "众易广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于大学路街道大学路80号长城康桥华城11号楼",
+    "tags": [
+      "120203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佰人王串串香(工人路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于工人路103-1号",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侯记生煎(伊河路生煎)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于伊河路36-1号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "保安宾馆(新密第三人民医院西)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于新华路街道东站",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "儿童公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于陇海西路与桐柏南路交汇处向西250米路南",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "农家地锅鸡(工人路总店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于工人路93号勘查机械厂东门北50米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华悦酒店(郑州商贸路店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于英协路与凤仪路交叉口东北40米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华润万象城东广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于五彩路与民主路交叉口西60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厨到粗粮小厨(百花路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于百花路37号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双合园·海鲜水饺青岛菜(郑州九如路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于农业东路九如路交叉口向北100米路东",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "只有河南·戏剧幻城",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于平安大道与广信街交叉口西北角",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合记烩面(东区店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于众意路与东风东路交叉口南200米路东",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "品品味凉粉店(互助路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于互助路28号楼6单元1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四厂烩面(总店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于百花路48号楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(郑州市中原工人路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于林山寨街道工人路30号1号楼1层附8号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安乐居日租房",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于德化步行街二七广场友谊大厦14层1410室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝正臻包子总店",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于天明路与群办路向南50米路西",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小V家火锅鸡(郑州总店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于芙蓉花苑东门旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小背篓酒楼(商务外环店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于自贸试验区郑州片区(郑东)商务外环路12号3层2号",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小马炸鸡(法院西街店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于裴昌庙街8号楼2单元",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "少林寺",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于嵩山少林风景区",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "少林景区",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于207国道旁",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚客优酒店(郑州高铁东站店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于高铁站东站北街与普惠路交叉口北150米(绿地之窗云峰B座一楼)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西麦香园馒头",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于百花路11号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山重浪重庆耙火锅(总店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于未来路街道玉凤路361号商铺9-10号楼1层10号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嵩山国家重点风景名胜区",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于嵩山",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴奴毛肚火锅(商城路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于东明路商城路交叉口东北角10-5",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴奴毛肚火锅(概念餐厅店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于金水路7号河南省金河宾馆院内一栋三层独立餐饮楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴奴毛肚火锅(郑州商鼎路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于郑东新区和光街2号东方鼎盛时代1号楼附1-1",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴奴毛肚火锅(金水东路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于河南自贸试验区郑州片区(郑东)金水东路16号万鼎商业广场二层201号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "布孃孃·云南酸菜牛肉火锅(郑州银泰inPARK店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于郑州金融岛银泰inPARK2区3楼(2号停车场1号直梯直达)",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "帖老大羊肉汤烩面(总店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于康复后街5号(医学院地铁站K口步行320米)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "序园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于淮河西路与工人路交汇处东18",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "建华小区-文化广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于交通路与保全街交叉口西60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张福记(五一公园店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "张福记(五一公园店)位于郑州中原区市场街1号，靠近五一公园和市中医院地铁站C口，是一家集餐饮服务、中餐与综合酒楼于一体的餐厅，提供多样化的菜品和舒适的就餐环境。",
     "tags": [
       "中餐厅",
-      "豫菜"
+      "综合酒楼"
     ],
-    "avgCost": 0,
+    "avgCost": 60.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "张福记(五一公园店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "张福记(五一公园店)，位于市场街1号(五一公园·市中医院地铁站C口步行300米)，中原区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张福记(五一公园店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "张福记(五一公园店)，位于市场街1号(五一公园·市中医院地铁站C口步行300米)，中原区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张福记(五一公园店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "张福记(五一公园店)，位于市场街1号(五一公园·市中医院地铁站C口步行300米)，中原区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张福记(五一公园店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "张福记(五一公园店)位于郑州中原区市场街1号，靠近五一公园和市中医院地铁站C口，是一家集餐饮服务、中餐与综合酒楼于一体的餐厅，提供多样化的菜品和舒适的就餐环境。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": 60.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "张福记(五一公园店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于市场街1号(五一公园·市中医院地铁站C口步行300米)",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张福记(航海店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于郑州二七区航海中路96-5号的浙江菜中餐厅",
+    "tags": [
+      "餐饮服务",
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
+  },
+  {
+    "name": "张福记(航海店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "张福记(航海店)，位于航海中路96-5号，二七区，类型中餐厅 浙江菜。",
+    "tags": [
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张福记(航海店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "张福记(航海店)，位于航海中路96-5号，二七区，类型中餐厅 浙江菜。",
+    "tags": [
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张福记(航海店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "张福记(航海店)，位于航海中路96-5号，二七区，类型中餐厅 浙江菜。",
+    "tags": [
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张福记(航海店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于郑州二七区航海中路96-5号的浙江菜中餐厅",
+    "tags": [
+      "餐饮服务",
+      "中餐厅",
+      "浙江菜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "德克士(绿城广场店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于兴华北街12-30(绿城广场地铁站B口步行120米)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德化步行街",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "德化步行街是郑州市二七区的一条著名商业步行街，集购物、休闲、娱乐于一体。",
+    "tags": [
+      "特色商业街",
+      "购物"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.0
+  },
+  {
+    "name": "德化步行街",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "德化步行街，位于德化街85附71号(二七广场地铁站F口步行480米)，二七区，类型特色商业街 特色商业街。",
+    "tags": [
+      "特色商业街",
+      "特色商业街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德化步行街",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "德化步行街，位于德化街85附71号(二七广场地铁站F口步行480米)，二七区，类型特色商业街 特色商业街。",
+    "tags": [
+      "特色商业街",
+      "特色商业街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德化步行街",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "德化步行街，位于德化街85附71号(二七广场地铁站F口步行480米)，二七区，类型特色商业街 特色商业街。",
+    "tags": [
+      "特色商业街",
+      "特色商业街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德化步行街",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "德化步行街是郑州市二七区的一条著名商业步行街，集购物、休闲、娱乐于一体。",
+    "tags": [
+      "特色商业街",
+      "购物"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.0
+  },
+  {
+    "name": "德化步行街",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于德化街85附71号(二七广场地铁站F口步行480米)",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新密港湾宾馆(青屏广场店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于青屏街街道港湾宾馆(祥云街)新建灯饰建材城对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新郑新若家酒店(华南城奥特莱斯店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于龙湖镇华南城一路中央公园小区13号楼125号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新郑阳光商务宾馆(高坡岩郑州经贸学院店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "新郑阳光商务宾馆(高坡岩郑州经贸学院店)位于双湖大道高坡岩菜市场向西60米，提供舒适的住宿服务。宾馆设施齐全，适合商务和旅行客人。",
+    "tags": [
+      "宾馆",
+      "酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "新郑阳光商务宾馆(高坡岩郑州经贸学院店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "新郑阳光商务宾馆(高坡岩郑州经贸学院店)，位于双湖大道高坡岩菜市场向西60米，新郑市，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新郑阳光商务宾馆(高坡岩郑州经贸学院店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "新郑阳光商务宾馆(高坡岩郑州经贸学院店)，位于双湖大道高坡岩菜市场向西60米，新郑市，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新郑阳光商务宾馆(高坡岩郑州经贸学院店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "新郑阳光商务宾馆(高坡岩郑州经贸学院店)，位于双湖大道高坡岩菜市场向西60米，新郑市，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新郑阳光商务宾馆(高坡岩郑州经贸学院店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "新郑阳光商务宾馆(高坡岩郑州经贸学院店)位于双湖大道高坡岩菜市场向西60米，提供舒适的住宿服务。宾馆设施齐全，适合商务和旅行客人。",
+    "tags": [
+      "宾馆",
+      "酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "新郑阳光商务宾馆(高坡岩郑州经贸学院店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于双湖大道高坡岩菜市场向西60米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "方中山胡辣汤(总店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于紫荆山路3号(紫荆山地铁站C口步行190米)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "易伯酒店(新郑龙湖万佳商业广场店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于龙湖镇高坡岩西二街二巷口西1门4-8层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "昕奕酒店(新郑人民路西亚斯学院店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于渔夫子路渔公3街9号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星期8民宿(省肿瘤医院燕庄地铁站店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于未来路街道纬四路聂庄B区13号楼18楼",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春沅饭店",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于伊河路1号院1排3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月季公园-东广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于西站路80号月季公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月季公园-南广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于西站路80号月季公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月季公园-西广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于西站路80号月季公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "椒盐香豆腐(工人路总店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于工人路105-3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欣城宾馆(中原工学院中心医院店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于林山寨街道工人路巨人学校楼上",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正弘城如馨家公寓(科源路分店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于文博西路北段正弘数码公寓2号楼1106室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(郑州国贸360店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于新田360广场郑州国贸店6层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(郑州绿地360店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于郑东新区金水东路绿地新田360广场A馆5层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水月广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于黄河路与沙口路交叉口北280米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "没名炸串(中原东路101号院店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于中原东路101号院地铁1号线绿城广场站D口旁",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河南南水北调博物馆",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于嵩山南路168号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河南博物院",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于农业路8号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉舜城市公益广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于黄河路46号附1号附近(海滩寺地铁站A口步行220米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(二七万达苏宁易购店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于大学路8号二七万达苏宁易购第4层第W4006号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(二七广场大观国贸店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于乔家门路1号大观国贸B座11层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(华润万象城店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于民主路10号华润万象城购物中心7层705号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(龙子湖店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于平安大道南尚德街北永和龙子湖中央广场5层5F03号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真火牛阵古法果木烤肉",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于友爱路三号中原商贸城1楼A区101号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渝老四鲜切牛肉火锅(工人路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于工人路伊河路向北100米路西",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨河公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于陇海西路50号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王嘉主烤官海鲜大咖·烧烤·美食(工人路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于工人路与伊河路交叉口向北300米路西",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瓦舍茶馆(伊河路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于伊河路与嵩山路交叉口向西300米路北",
+    "tags": [
+      "050600"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百年家和饺子东北私房菜",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于工人路伊河路交叉口向西二百米",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百年阿哥土豆粉(百花路总店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于嵩山北路28号中原商贸城F1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百花蒸饺(百花路总店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于百花路31号(碧沙岗地铁站B口步行230米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧沙岗",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "碧沙岗是位于郑州市中原区的一座集纪念、休闲、娱乐于一体的城市公园，原名白沙岗，为北伐战争烈士陵园，现为市民休闲健身的好去处。",
+    "tags": [
+      "公园",
+      "风景名胜",
+      "纪念地"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.0
+  },
+  {
+    "name": "碧沙岗",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "碧沙岗，位于嵩山北路15号，中原区，类型热点地名 热点地名。",
+    "tags": [
+      "热点地名",
+      "热点地名"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧沙岗",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "碧沙岗，位于嵩山北路15号，中原区，类型热点地名 热点地名。",
+    "tags": [
+      "热点地名",
+      "热点地名"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧沙岗",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "碧沙岗，位于嵩山北路15号，中原区，类型热点地名 热点地名。",
+    "tags": [
+      "热点地名",
+      "热点地名"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧沙岗",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "碧沙岗是位于郑州市中原区的一座集纪念、休闲、娱乐于一体的城市公园，原名白沙岗，为北伐战争烈士陵园，现为市民休闲健身的好去处。",
+    "tags": [
+      "公园",
+      "风景名胜",
+      "纪念地"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.0
+  },
+  {
+    "name": "碧沙岗",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于嵩山北路15号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧沙岗-棕榈园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于建设东路31号碧沙岗公园(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧沙岗-牡丹园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于建设东路31号碧沙岗公园(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧沙岗公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "碧沙岗公园是郑州市中原区的一个大型综合性公园，原名白沙岗，是冯玉祥将军为纪念北伐阵亡将士而修建，园内有纪念亭、碑林等历史遗迹，风景优美，是市民休闲娱乐的好去处。",
+    "tags": [
+      "公园",
+      "历史纪念",
+      "休闲"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.4
+  },
+  {
+    "name": "碧沙岗公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "碧沙岗公园，位于建设东路31号(绿城广场地铁站J口步行50米)，中原区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧沙岗公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "碧沙岗公园，位于建设东路31号(绿城广场地铁站J口步行50米)，中原区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧沙岗公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "碧沙岗公园，位于建设东路31号(绿城广场地铁站J口步行50米)，中原区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧沙岗公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "碧沙岗公园是郑州市中原区的一个大型综合性公园，原名白沙岗，是冯玉祥将军为纪念北伐阵亡将士而修建，园内有纪念亭、碑林等历史遗迹，风景优美，是市民休闲娱乐的好去处。",
+    "tags": [
+      "公园",
+      "历史纪念",
+      "休闲"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.4
+  },
+  {
+    "name": "碧沙岗公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于建设东路31号(绿城广场地铁站J口步行50米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧沙岗公园-休息亭",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于建设东路31号碧沙岗公园(西南角)",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧沙广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于林山寨街道建设西路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "神仙洞景区",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于尖山乡神仙洞村沙一丁路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福泽公寓(郑州中苑名都店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于大学路与康复后街交叉口中苑名都6号楼9层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦岭便民生活服务广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于郑上路40号院东侧50米",
+    "tags": [
+      "060703"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "稻田·理想栖居酒店(河南工业大学店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于枫杨街道长椿路万和城E区1号楼A单元1418室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "穆彦华逍遥镇胡辣汤(岗坡路总店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于秦岭路街道秦岭路岗坡路菜市场对面",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "童记米皮",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于林山寨街道伊河路36号附3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫荆山公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于金水路108号(紫荆山地铁站B口步行270米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红星宾馆(龙子湖高校区店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于姚桥路与姚夏路交汇处路北100米时埂社区七号楼二单元",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿博园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于人文路020乡",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖娃川菜馆(工人路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于市委家属院西门北100米",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖娃川菜馆(文化宫路总店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于中原中路31-1号中原路文化宫路东北角",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "艾美民宿(新郑双湖大道龙湖锦艺城店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于龙湖镇锦艺城购物中心B座16层1625室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荥阳居易快捷酒店(郑上路店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "荥阳居易快捷酒店(郑上路店)位于郑上路与塔山路交叉口，提供住宿服务。",
+    "tags": [
+      "住宿服务",
+      "宾馆酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "荥阳居易快捷酒店(郑上路店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "荥阳居易快捷酒店(郑上路店)，位于郑上路与塔山路交叉口，荥阳市，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荥阳居易快捷酒店(郑上路店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "荥阳居易快捷酒店(郑上路店)，位于郑上路与塔山路交叉口，荥阳市，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荥阳居易快捷酒店(郑上路店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "荥阳居易快捷酒店(郑上路店)，位于郑上路与塔山路交叉口，荥阳市，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荥阳居易快捷酒店(郑上路店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "荥阳居易快捷酒店(郑上路店)位于郑上路与塔山路交叉口，提供住宿服务。",
+    "tags": [
+      "住宿服务",
+      "宾馆酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "萤火虫观影酒店(郑州庙里商业中心海洋馆店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于丰庆路与博卉路交叉口东北角庙李商业中心9号楼25楼2532室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "葛记焖饼(伏牛路总店)",
@@ -174,12 +2045,66 @@
       "中餐厅",
       "特色/地方风味餐厅"
     ],
-    "address": "建设西路100号院(路东)",
-    "district": "中原区",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "葛记焖饼(伏牛路总店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "葛记焖饼(伏牛路总店)，位于建设西路100号院(路东)，中原区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "葛记焖饼(伏牛路总店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "葛记焖饼(伏牛路总店)，位于建设西路100号院(路东)，中原区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "葛记焖饼(伏牛路总店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "葛记焖饼(伏牛路总店)，位于建设西路100号院(路东)，中原区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "葛记焖饼(伏牛路总店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "葛记焖饼是郑州的老字号餐厅，以独特的焖饼技艺和浓郁的地方风味闻名，位于建设西路伏牛路口，深受食客喜爱。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 3.5,
-    "avgCost": 0
+    "rating": 3.5
   },
   {
     "name": "葛记焖饼(伏牛路总店)",
@@ -189,7 +2114,7 @@
     "tags": [
       "郑州"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "全天",
     "rating": 3.5
@@ -204,10 +2129,1419 @@
       "郑州美食",
       "地方风味"
     ],
-    "avgCost": 50,
+    "avgCost": 50.0,
     "duration": "1.5小时",
     "openTime": "11:00-14:00,17:00-21:00",
     "rating": 4.3
+  },
+  {
+    "name": "葛记焖饼(经一路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "葛记焖饼(经一路店)，位于丰产路街道经一路北59号乾坤花园一期1号楼一单元2楼，金水区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "葛记焖饼(经一路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "葛记焖饼(经一路店)，位于丰产路街道经一路北59号乾坤花园一期1号楼一单元2楼，金水区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "葛记焖饼(经一路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "葛记焖饼(经一路店)，位于丰产路街道经一路北59号乾坤花园一期1号楼一单元2楼，金水区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "葛记焖饼(经一路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "葛记焖饼是郑州特色小吃，以焖饼为主打，历史悠久，味道鲜美。",
+    "tags": [
+      "焖饼",
+      "郑州美食",
+      "地方风味"
+    ],
+    "avgCost": 50.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "蛮涮自助小火锅·糖水铺子集合店(二七万达店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于长江路街道大学南路二七万达室内步行街3楼",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁山山重庆火锅(蜜油创意园店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于宁平街与沙口路辅路交叉口东220米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁山山重庆火锅(高新玉兰街店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于郑州高新区玉兰街5号院内西侧平房-101B号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "裕丰源(桐柏路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于桐柏路与伊河路交叉口西北角路西",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "裕丰源豫食雅宴",
+    "city": "郑州",
+    "category": "food",
+    "description": "一家以豫菜为主的中餐厅，环境雅致，菜品地道。",
+    "tags": [
+      "中餐厅",
+      "豫菜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "裕丰源豫食雅宴",
+    "city": "郑州",
+    "category": "food",
+    "description": "裕丰源豫食雅宴，位于心怡路278号3层301，管城回族区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "裕丰源豫食雅宴",
+    "city": "郑州",
+    "category": "food",
+    "description": "裕丰源豫食雅宴，位于心怡路278号3层301，管城回族区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "裕丰源豫食雅宴",
+    "city": "郑州",
+    "category": "food",
+    "description": "裕丰源豫食雅宴，位于心怡路278号3层301，管城回族区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "裕丰源豫食雅宴",
+    "city": "郑州",
+    "category": "food",
+    "description": "一家以豫菜为主的中餐厅，环境雅致，菜品地道。",
+    "tags": [
+      "中餐厅",
+      "豫菜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "西流湖公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于建设西路与湖西路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西湖庄园·莫山小馆(百花店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于豫欣公司生活小区东1门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "解家河南菜(碧沙岗店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于百花路建设路交叉口向南100路东",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "豫雅园·烤鸭烩面(东站店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于商鼎路73号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "豫雅园·烤鸭烩面(雅宝东方国际广场店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于金水东路与心怡路交汇处东南角东方雅宝国际广场院内A岛1-3层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贾鲁河公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于丹水大道与渠南路交叉口正南方向938米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赏花区",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于人文路020乡绿博园(绿博园地铁站A口步行460米)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辣炮泡·自助鱼蛙火锅馆(总店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于沈庄新城南区361号8-10号楼1层6号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "逍遥镇刘相五胡辣汤.豆沫(康复中街店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于中原路112号(医学院地铁站K口步行420米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "速8优选酒店",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于渔公四街2号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遇见公寓(郑大一附院河医院店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于五里堡街道建设东路金源大都汇1号楼2512室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遇见山海城市度假区",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于南阳路300号(海滩寺地铁站C口步行100米)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "那些年潮汕牛肉火锅(健康路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于大石桥街道体育馆西侧优胜南路1号天下城",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "那些年潮汕牛肉火锅(国贸店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于花园路与农业路交叉口关虎屯地铁C口向西100米路北临街店铺1-1号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "那些年潮汕牛肉火锅(贵人步行街店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于东风路世豪小公馆B座大门南悦来悦喜超市隔壁2层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州21快捷公寓(国贸360广场店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于花园路39号国贸酒店公寓1号楼1单元21层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州QQ宾馆(郑州高铁东站店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "郑州QQ宾馆位于金水东路贾岗社区21号楼2单元1层，地处郑州高铁东站附近，提供住宿服务，适合商务和旅游出行。",
+    "tags": [
+      "住宿",
+      "经济型",
+      "高铁站"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "郑州QQ宾馆(郑州高铁东站店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "郑州QQ宾馆(郑州高铁东站店)，位于金水东路贾岗社区21号楼2单元1层，金水区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州QQ宾馆(郑州高铁东站店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "郑州QQ宾馆(郑州高铁东站店)，位于金水东路贾岗社区21号楼2单元1层，金水区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州QQ宾馆(郑州高铁东站店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "郑州QQ宾馆(郑州高铁东站店)，位于金水东路贾岗社区21号楼2单元1层，金水区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州QQ宾馆(郑州高铁东站店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "郑州QQ宾馆位于金水东路贾岗社区21号楼2单元1层，地处郑州高铁东站附近，提供住宿服务，适合商务和旅游出行。",
+    "tags": [
+      "住宿",
+      "经济型",
+      "高铁站"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "郑州QQ宾馆(郑州高铁东站店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于金水东路贾岗社区21号楼2单元1层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州中州之星公寓酒店",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于中原路大学路交叉口东南中苑名都6号楼12层1204室，二七区。",
+    "tags": [
+      "住宿",
+      "公寓酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "郑州中州之星公寓酒店",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "郑州中州之星公寓酒店，位于中原路大学路交叉口东南中苑名都6号楼12层1204室，二七区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州中州之星公寓酒店",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "郑州中州之星公寓酒店，位于中原路大学路交叉口东南中苑名都6号楼12层1204室，二七区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州中州之星公寓酒店",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "郑州中州之星公寓酒店，位于中原路大学路交叉口东南中苑名都6号楼12层1204室，二七区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州中州之星公寓酒店",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于中原路大学路交叉口东南中苑名都6号楼12层1204室，二七区。",
+    "tags": [
+      "住宿",
+      "公寓酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "郑州中州之星公寓酒店",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于中原路大学路交叉口东南中苑名都6号楼12层1204室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州九天时尚公寓(东风路轻工业学院店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于东风路郑州轻工业大学斜对面风尚公寓1层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州二七纪念馆",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州二七纪念馆位于二七广场，纪念二七罢工的重要历史事件。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "09:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "郑州二七纪念馆",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州二七纪念馆，位于德化街街道二七路230号二七广场(近火车站)，二七区，类型风景名胜 纪念馆。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州二七纪念馆",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州二七纪念馆，位于德化街街道二七路230号二七广场(近火车站)，二七区，类型风景名胜 纪念馆。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州二七纪念馆",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州二七纪念馆，位于德化街街道二七路230号二七广场(近火车站)，二七区，类型风景名胜 纪念馆。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州二七纪念馆",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州二七纪念馆位于二七广场，纪念二七罢工的重要历史事件。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "09:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "郑州二七纪念馆",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于德化街街道二七路230号二七广场(近火车站)",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州二砂文化创意园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州二砂文化创意园位于郑州市中原区，是利用原中国第二砂轮厂旧址改造而成的文化创意产业园区。园区保留了工业遗址风貌，融合现代艺术元素，集创意办公、艺术展览、休闲娱乐于一体，是郑州标志性的文创地标之一。",
+    "tags": [
+      "文创",
+      "工业遗址",
+      "创意园",
+      "打卡地"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.2
+  },
+  {
+    "name": "郑州二砂文化创意园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州二砂文化创意园，位于华山路与颍河西路交叉口西500米路北，中原区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州二砂文化创意园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州二砂文化创意园，位于华山路与颍河西路交叉口西500米路北，中原区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州二砂文化创意园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州二砂文化创意园，位于华山路与颍河西路交叉口西500米路北，中原区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州二砂文化创意园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州二砂文化创意园位于郑州市中原区，是利用原中国第二砂轮厂旧址改造而成的文化创意产业园区。园区保留了工业遗址风貌，融合现代艺术元素，集创意办公、艺术展览、休闲娱乐于一体，是郑州标志性的文创地标之一。",
+    "tags": [
+      "文创",
+      "工业遗址",
+      "创意园",
+      "打卡地"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.2
+  },
+  {
+    "name": "郑州二砂文化创意园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于华山路与颍河西路交叉口西500米路北",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州入梦客栈(郑大一附院郑东院区店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于龙湖街道龙兴嘉苑一号院六号楼1楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州商都国家考古遗址公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于城南路商都遗址公园(郑州文庙地铁站B口步行80米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州国际友谊广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于二七德化街68号友谊大厦(彩虹路)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州大观音寺",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于国基路76号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州奇梦之旅公寓",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于迎宾路街道文化北路与英才街交汇处西南角美景麟起城2号楼1421号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州好来屋民宿(郑州火车站二七广场店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于二七广场友谊大厦17层1788室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州市人民公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州市人民公园位于二七区北二七路97号，是一座集休闲、娱乐、观光于一体的综合性公园，园内绿树成荫，设有湖泊、花坛、游乐设施等，是市民日常休闲的好去处。",
+    "tags": [
+      "公园",
+      "风景名胜",
+      "休闲"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "06:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "郑州市人民公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州市人民公园，位于北二七路97号，二七区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州市人民公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州市人民公园，位于北二七路97号，二七区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州市人民公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州市人民公园，位于北二七路97号，二七区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州市人民公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州市人民公园位于二七区北二七路97号，是一座集休闲、娱乐、观光于一体的综合性公园，园内绿树成荫，设有湖泊、花坛、游乐设施等，是市民日常休闲的好去处。",
+    "tags": [
+      "公园",
+      "风景名胜",
+      "休闲"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "06:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "郑州市人民公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于北二七路97号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州市人民公园-莲花池广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于北二七路97号郑州市人民公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州市动物园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于花园路103号(关虎屯地铁站A口步行120米)",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州市月季公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州市月季公园位于中原区西站路80号，以月季花为主题，是集观赏、休闲、娱乐为一体的城市公园。园内种植大量月季品种，四季花开不断，是市民休闲散步的好去处。",
+    "tags": [
+      "风景名胜",
+      "公园",
+      "月季"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.2
+  },
+  {
+    "name": "郑州市月季公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州市月季公园，位于西站路80号(桐柏路西站街81号院旁)，中原区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州市月季公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州市月季公园，位于西站路80号(桐柏路西站街81号院旁)，中原区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州市月季公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州市月季公园，位于西站路80号(桐柏路西站街81号院旁)，中原区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州市月季公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州市月季公园位于中原区西站路80号，以月季花为主题，是集观赏、休闲、娱乐为一体的城市公园。园内种植大量月季品种，四季花开不断，是市民休闲散步的好去处。",
+    "tags": [
+      "风景名胜",
+      "公园",
+      "月季"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.2
+  },
+  {
+    "name": "郑州市月季公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于西站路80号(桐柏路西站街81号院旁)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州市滨河公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于兴华北街8号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州市碧沙岗公园-南广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于建设东路31号郑州市碧沙岗公园内(南侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州市碧沙岗公园-南草坪",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于建设东路31号郑州市碧沙岗公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州市西流湖公园(北区)",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "西流湖公园是郑州市一个大型城市公园，位于中原区化工路，风景优美，适合休闲游览。",
+    "tags": [
+      "风景名胜",
+      "公园",
+      "中原区"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "郑州市西流湖公园(北区)",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州市西流湖公园(北区)，位于化工路，中原区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州市西流湖公园(北区)",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州市西流湖公园(北区)，位于化工路，中原区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州市西流湖公园(北区)",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "郑州市西流湖公园(北区)，位于化工路，中原区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州市西流湖公园(北区)",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "西流湖公园是郑州市一个大型城市公园，位于中原区化工路，风景优美，适合休闲游览。",
+    "tags": [
+      "风景名胜",
+      "公园",
+      "中原区"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "郑州市西流湖公园(北区)",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于化工路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州方特旅游度假区",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于郑汴物流通道与人文路交叉口",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州暖暖青旅(花园路店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于花半里东区1号楼1单元1层1号",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州永发公寓",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于莲花街师新庄社区4号楼2单元3层西户",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州永恒快捷宾馆",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于南台路逸泉小区25号楼4单元1楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州泓福公寓(姚砦地铁站)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于金城时代广场3号楼2单元10层1004",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州海昌海洋公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于大孟街道平安大道东1号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州电影小镇",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于文创路与百花街交叉口",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州管城区真好宾馆",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于航海东路与腾飞路交叉口南200米七里河小区8号楼3单元2楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州蒂达自助公寓(铭功路店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于铭功路太康路交叉口太康机电城4层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州融鑫民宿",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于陇海路与通泰路交叉口小邢屯社区5号楼8单元",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州金水蜜油创意园西广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于沙口路98号(沙口路地铁站C口步行390米)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州鑫隆公寓",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于文博西路白庙小区1号楼2单元501",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州银基国际旅游度假区",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于刘寨镇大鸿路1号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州雕塑公园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于化工路28号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州龙湖金融岛",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于北三环众意路(金融岛北地铁站A1口步行150米)",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑州龙祥公寓",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于龙翔八街龙兴嘉苑1号院3号楼1单元8层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑淮游园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于淮河西路与郑密路交叉口东南60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金沙月季园",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于金水路48号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锐朋连锁酒店(中原万达保利久街店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于中原中路86号保利心语三期心苑5号楼19层1934室",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜民里广场",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于城南路101号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳光宾馆(郑州庙张南院店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "位于相济路与中兴路交口向南50米路西庙张南院17号楼3单元",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "阿五黄河大鲤鱼(纬三路店)",
@@ -220,8 +3554,140 @@
       "海鲜",
       "郑州美食"
     ],
-    "avgCost": 120,
+    "avgCost": 120.0,
     "duration": "2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "阿五黄河大鲤鱼(纬三路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿五黄河大鲤鱼(纬三路店)，位于经八路街道经五路与纬三路交叉口中州国际饭店三楼，金水区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿五黄河大鲤鱼(纬三路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿五黄河大鲤鱼(纬三路店)，位于经八路街道经五路与纬三路交叉口中州国际饭店三楼，金水区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿五黄河大鲤鱼(纬三路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿五黄河大鲤鱼(纬三路店)，位于经八路街道经五路与纬三路交叉口中州国际饭店三楼，金水区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿五黄河大鲤鱼(纬三路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿五黄河大鲤鱼(纬三路店)位于郑州市金水区经八路街道经五路与纬三路交叉口中州国际饭店三楼，是一家以黄河大鲤鱼为特色的中餐厅，提供海鲜酒楼服务。",
+    "tags": [
+      "黄河大鲤鱼",
+      "中餐",
+      "海鲜",
+      "郑州美食"
+    ],
+    "avgCost": 120.0,
+    "duration": "2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "阿五黄河大鲤鱼(郑州天泽街店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿五黄河大鲤鱼(郑州天泽街店)是郑州知名的中餐厅，以黄河大鲤鱼为特色，环境优雅，适合家庭聚餐和商务宴请。",
+    "tags": [
+      "中餐",
+      "河南菜",
+      "鱼",
+      "海鲜"
+    ],
+    "avgCost": 120.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "阿五黄河大鲤鱼(郑州天泽街店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿五黄河大鲤鱼(郑州天泽街店)，位于郑东新区东风路与天泽街交汇南200米，金水区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿五黄河大鲤鱼(郑州天泽街店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿五黄河大鲤鱼(郑州天泽街店)，位于郑东新区东风路与天泽街交汇南200米，金水区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿五黄河大鲤鱼(郑州天泽街店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿五黄河大鲤鱼(郑州天泽街店)，位于郑东新区东风路与天泽街交汇南200米，金水区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿五黄河大鲤鱼(郑州天泽街店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿五黄河大鲤鱼(郑州天泽街店)是郑州知名的中餐厅，以黄河大鲤鱼为特色，环境优雅，适合家庭聚餐和商务宴请。",
+    "tags": [
+      "中餐",
+      "河南菜",
+      "鱼",
+      "海鲜"
+    ],
+    "avgCost": 120.0,
+    "duration": "1-2小时",
     "openTime": "11:00-14:00,17:00-21:00",
     "rating": 4.5
   },
@@ -235,52 +3701,64 @@
       "海鲜",
       "黄河大鲤鱼"
     ],
-    "avgCost": 120,
+    "avgCost": 120.0,
     "duration": "1-2小时",
     "openTime": "11:00-14:00,17:00-21:00",
     "rating": 4.5
   },
   {
-    "name": "阿庄新豫菜(通泰路店)",
+    "name": "阿五黄河大鲤鱼(陇海西路店)",
     "city": "郑州",
     "category": "food",
-    "description": "阿庄新豫菜(通泰路店)位于郑州金水区通泰路，是一家提供新派豫菜的中餐厅。",
+    "description": "阿五黄河大鲤鱼(陇海西路店)，位于陇海西路306-34号，中原区，类型中餐厅 海鲜酒楼。",
     "tags": [
-      "豫菜",
-      "中餐"
-    ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "10:00-22:00",
-    "rating": 4.5
-  },
-  {
-    "name": "张福记(航海店)",
-    "city": "郑州",
-    "category": "food",
-    "description": "位于郑州二七区航海中路96-5号的浙江菜中餐厅",
-    "tags": [
-      "餐饮服务",
       "中餐厅",
-      "浙江菜"
+      "海鲜酒楼"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "阿五黄河大鲤鱼(郑州天泽街店)",
+    "name": "阿五黄河大鲤鱼(陇海西路店)",
     "city": "郑州",
     "category": "food",
-    "description": "阿五黄河大鲤鱼(郑州天泽街店)是郑州知名的中餐厅，以黄河大鲤鱼为特色，环境优雅，适合家庭聚餐和商务宴请。",
+    "description": "阿五黄河大鲤鱼(陇海西路店)，位于陇海西路306-34号，中原区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿五黄河大鲤鱼(陇海西路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿五黄河大鲤鱼(陇海西路店)，位于陇海西路306-34号，中原区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿五黄河大鲤鱼(陇海西路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿五黄河大鲤鱼是郑州知名的餐饮品牌，主打黄河大鲤鱼及各类豫菜，位于中原区陇海西路。",
     "tags": [
       "中餐",
-      "河南菜",
-      "鱼",
-      "海鲜"
+      "海鲜",
+      "黄河大鲤鱼"
     ],
-    "avgCost": 120,
+    "avgCost": 120.0,
     "duration": "1-2小时",
     "openTime": "11:00-14:00,17:00-21:00",
     "rating": 4.5
@@ -294,24 +3772,240 @@
       "中餐厅",
       "豫菜"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "张福记(五一公园店)",
+    "name": "阿庄新豫菜(航海东路店)",
     "city": "郑州",
     "category": "food",
-    "description": "张福记(五一公园店)位于郑州中原区市场街1号，靠近五一公园和市中医院地铁站C口，是一家集餐饮服务、中餐与综合酒楼于一体的餐厅，提供多样化的菜品和舒适的就餐环境。",
+    "description": "阿庄新豫菜(航海东路店)，位于经开区航海东路与八大街交汇处富田财富广场1号楼2层，管城回族区，类型中餐厅 中餐厅。",
     "tags": [
       "中餐厅",
-      "综合酒楼"
+      "中餐厅"
     ],
-    "avgCost": 60,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿庄新豫菜(航海东路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿庄新豫菜(航海东路店)，位于经开区航海东路与八大街交汇处富田财富广场1号楼2层，管城回族区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿庄新豫菜(航海东路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿庄新豫菜(航海东路店)，位于经开区航海东路与八大街交汇处富田财富广场1号楼2层，管城回族区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿庄新豫菜(航海东路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿庄新豫菜(航海东路店)是一家位于郑州管城回族区的中餐厅，提供新派豫菜美食。",
+    "tags": [
+      "中餐厅",
+      "豫菜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "阿庄新豫菜(通泰路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿庄新豫菜(通泰路店)位于郑州金水区通泰路，是一家提供新派豫菜的中餐厅。",
+    "tags": [
+      "豫菜",
+      "中餐"
+    ],
+    "avgCost": 80.0,
     "duration": "1-2小时",
     "openTime": "10:00-22:00",
-    "rating": 4.3
+    "rating": 4.5
+  },
+  {
+    "name": "阿庄新豫菜(通泰路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿庄新豫菜(通泰路店)，位于通泰路66-3商都路(通泰路地铁站C口步行490米)，金水区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿庄新豫菜(通泰路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿庄新豫菜(通泰路店)，位于通泰路66-3商都路(通泰路地铁站C口步行490米)，金水区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿庄新豫菜(通泰路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿庄新豫菜(通泰路店)，位于通泰路66-3商都路(通泰路地铁站C口步行490米)，金水区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿庄新豫菜(通泰路店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "阿庄新豫菜(通泰路店)位于郑州金水区通泰路，是一家提供新派豫菜的中餐厅。",
+    "tags": [
+      "豫菜",
+      "中餐"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "阿康小吃(郑州总店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于百花路21-3号(碧沙岗地铁站B口步行180米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隋河宋肆",
+    "city": "郑州",
+    "category": "attraction",
+    "description": "位于陇海中路与嵩山路交又口往北100米左右,路西即到",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(紫荆山百货店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于金水路与紫荆山路交叉口西南角紫荆山百货1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(郑州万科城店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于科学大道万科城小世界D栋1楼07号(祥营地铁站C口旁)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮汽车东站店",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于郑州汽车东站一层1516号铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(国弘巨正广场店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于郑东新区商鼎路八里庙社区国弘巨正广场C座1层L1-1号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(金成国贸店)",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于紫荆山58号西南侧2号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲍三·羊肉炝锅面烧烤",
+    "city": "郑州",
+    "category": "food",
+    "description": "位于伊河路38-3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "鸿运宾馆(新密溱洧水城店)",
@@ -322,66 +4016,78 @@
       "住宿",
       "宾馆"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "荥阳居易快捷酒店(郑上路店)",
+    "name": "鸿运宾馆(新密溱洧水城店)",
     "city": "郑州",
     "category": "hotel",
-    "description": "荥阳居易快捷酒店(郑上路店)位于郑上路与塔山路交叉口，提供住宿服务。",
+    "description": "鸿运宾馆(新密溱洧水城店)，位于青屏街街道西汽车站进站口对面鸿运宾725号，新密市，类型宾馆酒店 宾馆酒店。",
     "tags": [
-      "住宿服务",
+      "宾馆酒店",
       "宾馆酒店"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "新郑阳光商务宾馆(高坡岩郑州经贸学院店)",
+    "name": "鸿运宾馆(新密溱洧水城店)",
     "city": "郑州",
     "category": "hotel",
-    "description": "新郑阳光商务宾馆(高坡岩郑州经贸学院店)位于双湖大道高坡岩菜市场向西60米，提供舒适的住宿服务。宾馆设施齐全，适合商务和旅行客人。",
+    "description": "鸿运宾馆(新密溱洧水城店)，位于青屏街街道西汽车站进站口对面鸿运宾725号，新密市，类型宾馆酒店 宾馆酒店。",
     "tags": [
-      "宾馆",
-      "酒店"
+      "宾馆酒店",
+      "宾馆酒店"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "郑州QQ宾馆(郑州高铁东站店)",
+    "name": "鸿运宾馆(新密溱洧水城店)",
     "city": "郑州",
     "category": "hotel",
-    "description": "郑州QQ宾馆位于金水东路贾岗社区21号楼2单元1层，地处郑州高铁东站附近，提供住宿服务，适合商务和旅游出行。",
+    "description": "鸿运宾馆(新密溱洧水城店)，位于青屏街街道西汽车站进站口对面鸿运宾725号，新密市，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿运宾馆(新密溱洧水城店)",
+    "city": "郑州",
+    "category": "hotel",
+    "description": "鸿运宾馆位于新密市青屏街街道西汽车站进站口对面，提供住宿服务，交通便利。",
     "tags": [
       "住宿",
-      "经济型",
-      "高铁站"
+      "宾馆"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "郑州中州之星公寓酒店",
+    "name": "鸿运宾馆(新密溱洧水城店)",
     "city": "郑州",
     "category": "hotel",
-    "description": "位于中原路大学路交叉口东南中苑名都6号楼12层1204室，二七区。",
+    "description": "位于青屏街街道西汽车站进站口对面鸿运宾725号",
     "tags": [
-      "住宿",
-      "公寓酒店"
+      "100100"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

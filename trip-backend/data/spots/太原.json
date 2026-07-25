@@ -1,5 +1,1532 @@
 [
   {
+    "name": "东门广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于城坊街28号龙潭公园(东侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国煤炭博物馆",
+    "city": "太原",
+    "category": "attraction",
+    "description": "中国煤炭博物馆位于太原市迎泽西大街2号，是一座以煤炭为主题的博物馆，展示煤炭形成、开采、利用等知识。",
+    "tags": [
+      "博物馆",
+      "煤炭",
+      "科教"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "中国煤炭博物馆",
+    "city": "太原",
+    "category": "attraction",
+    "description": "中国煤炭博物馆，位于迎泽西大街2号，万柏林区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国煤炭博物馆",
+    "city": "太原",
+    "category": "attraction",
+    "description": "中国煤炭博物馆，位于迎泽西大街2号，万柏林区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国煤炭博物馆",
+    "city": "太原",
+    "category": "attraction",
+    "description": "中国煤炭博物馆，位于迎泽西大街2号，万柏林区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国煤炭博物馆",
+    "city": "太原",
+    "category": "attraction",
+    "description": "中国煤炭博物馆位于太原市迎泽西大街2号，是一座以煤炭为主题的博物馆，展示煤炭形成、开采、利用等知识。",
+    "tags": [
+      "博物馆",
+      "煤炭",
+      "科教"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "中国煤炭博物馆",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于迎泽西大街2号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临钢太原招待所(儿童医院店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "临钢太原招待所位于太原市杏花岭区新民北街15号，紧邻山西省妇幼医院，西行150米路南即到。该招待所提供住宿服务，适合就医陪护或商务出行。周边交通便利，环境安静，基础房型设施齐全。",
+    "tags": [
+      "招待所",
+      "医院附近",
+      "经济住宿"
+    ],
+    "avgCost": 150.0,
+    "duration": "1天",
+    "openTime": "24小时",
+    "rating": 3.8
+  },
+  {
+    "name": "临钢太原招待所(儿童医院店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "临钢太原招待所(儿童医院店)，位于新民北街15号(山西省妇幼医院西150米路南)，杏花岭区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临钢太原招待所(儿童医院店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "临钢太原招待所(儿童医院店)，位于新民北街15号(山西省妇幼医院西150米路南)，杏花岭区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临钢太原招待所(儿童医院店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "临钢太原招待所(儿童医院店)，位于新民北街15号(山西省妇幼医院西150米路南)，杏花岭区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临钢太原招待所(儿童医院店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "临钢太原招待所位于太原市杏花岭区新民北街15号，紧邻山西省妇幼医院，西行150米路南即到。该招待所提供住宿服务，适合就医陪护或商务出行。周边交通便利，环境安静，基础房型设施齐全。",
+    "tags": [
+      "招待所",
+      "医院附近",
+      "经济住宿"
+    ],
+    "avgCost": 150.0,
+    "duration": "1天",
+    "openTime": "24小时",
+    "rating": 3.8
+  },
+  {
+    "name": "义井小吃一条街",
+    "city": "太原",
+    "category": "food",
+    "description": "位于长风西街与和平南路交叉口东160米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九斤面皮(众鑫商业街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于先锋街6号门面房",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云际臻选酒店(太原北美新天地学府街地铁站店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于寇庄西路西百万庄园10排3号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "交通安全宣传主题公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于新建路与桃园二巷交叉口东南40米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳源宾馆(唐城公路店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于晋源街办古城营村庙南街2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "健身广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于滨河东路太原市汾河景区内(北侧)",
+    "tags": [
+      "080100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六合涮肉坊",
+    "city": "太原",
+    "category": "food",
+    "description": "位于胜利街兵工南马路",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "关帝庙(东庙巷)",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于庙前街36号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴华街公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于胜利桥西北环路与滨河西路辅路交叉口西南140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "前门涮肉(钟楼街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于柳巷酱园巷中段",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "匹夫涮肉城(广场店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于迎泽南街50号2-3层(长途汽车站后门)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "匹夫涮肉城(桃园北路国风店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于三桥街道桃园二巷一号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "匹夫涮肉城(长风店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于人口大厦北门旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "半圆广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于绿柳巷与西二道巷交叉口西南220米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宫广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "南宫广场位于太原市迎泽区迎泽大街，是大南门地铁站附近的城市广场。",
+    "tags": [
+      "广场",
+      "城市地标"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.0
+  },
+  {
+    "name": "南宫广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "南宫广场，位于迎泽大街248号(大南门地铁站A口步行150米)，迎泽区，类型公园广场 公园广场。",
+    "tags": [
+      "公园广场",
+      "公园广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宫广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "南宫广场，位于迎泽大街248号(大南门地铁站A口步行150米)，迎泽区，类型公园广场 公园广场。",
+    "tags": [
+      "公园广场",
+      "公园广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宫广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "南宫广场，位于迎泽大街248号(大南门地铁站A口步行150米)，迎泽区，类型公园广场 公园广场。",
+    "tags": [
+      "公园广场",
+      "公园广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南宫广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "南宫广场位于太原市迎泽区迎泽大街，是大南门地铁站附近的城市广场。",
+    "tags": [
+      "广场",
+      "城市地标"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.0
+  },
+  {
+    "name": "南宫广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于迎泽大街248号(大南门地铁站A口步行150米)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南海子公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于水西门南二巷南段",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "双塔公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于郝庄镇南内环东街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉羊斋(亲贤店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于亲贤北街160号附近",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "向阳羊汤(千峰店)总店",
+    "city": "太原",
+    "category": "food",
+    "description": "位于千峰南路2号千峰商务大厦1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "呷哺呷哺(太原华宇生活广场)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于府西街45号华宇生活广场项目第一层",
+    "tags": [
+      "050311"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和谐宾馆(太原府东街店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于巴黎大街A区18号(府西街地铁站C口步行400米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜院",
+    "city": "太原",
+    "category": "food",
+    "description": "喜院位于太原市小店区体育北街建设路口西20米，是一家提供中餐的餐厅。",
+    "tags": [
+      "中餐厅",
+      "餐饮"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "喜院",
+    "city": "太原",
+    "category": "food",
+    "description": "喜院，位于体育北街建设路口西20米(山姆士超市北侧)，小店区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜院",
+    "city": "太原",
+    "category": "food",
+    "description": "喜院，位于体育北街建设路口西20米(山姆士超市北侧)，小店区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜院",
+    "city": "太原",
+    "category": "food",
+    "description": "喜院，位于体育北街建设路口西20米(山姆士超市北侧)，小店区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜院",
+    "city": "太原",
+    "category": "food",
+    "description": "喜院位于太原市小店区体育北街建设路口西20米，是一家提供中餐的餐厅。",
+    "tags": [
+      "中餐厅",
+      "餐饮"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "囝囝粗粮(桃园店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于桃园二巷市人民政府北门往北50米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "土包滋.太原菜(文兴路店)",
+    "city": "太原",
+    "category": "food",
+    "description": "土包滋.太原菜(文兴路店)位于太原市尖草坪区汇丰街办文兴路126号华润国际3号楼-4层，提供地道太原菜，环境舒适，适合朋友聚餐和家人用餐。",
+    "tags": [
+      "太原菜",
+      "中餐厅",
+      "太原美食"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "土包滋.太原菜(文兴路店)",
+    "city": "太原",
+    "category": "food",
+    "description": "土包滋.太原菜(文兴路店)，位于汇丰街办文兴路126号华润国际3号楼-4层，尖草坪区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "土包滋.太原菜(文兴路店)",
+    "city": "太原",
+    "category": "food",
+    "description": "土包滋.太原菜(文兴路店)，位于汇丰街办文兴路126号华润国际3号楼-4层，尖草坪区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "土包滋.太原菜(文兴路店)",
+    "city": "太原",
+    "category": "food",
+    "description": "土包滋.太原菜(文兴路店)，位于汇丰街办文兴路126号华润国际3号楼-4层，尖草坪区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "土包滋.太原菜(文兴路店)",
+    "city": "太原",
+    "category": "food",
+    "description": "土包滋.太原菜(文兴路店)位于太原市尖草坪区汇丰街办文兴路126号华润国际3号楼-4层，提供地道太原菜，环境舒适，适合朋友聚餐和家人用餐。",
+    "tags": [
+      "太原菜",
+      "中餐厅",
+      "太原美食"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "土包滋·太原菜(南中环店)",
+    "city": "太原",
+    "category": "food",
+    "description": "土包滋·太原菜(南中环店)位于太原小店区体育路锦绣苑23栋，是一家提供太原菜的中餐厅。",
+    "tags": [
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "土包滋·太原菜(南中环店)",
+    "city": "太原",
+    "category": "food",
+    "description": "土包滋·太原菜(南中环店)，位于坞城街道体育路锦绣苑23栋，小店区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "土包滋·太原菜(南中环店)",
+    "city": "太原",
+    "category": "food",
+    "description": "土包滋·太原菜(南中环店)，位于坞城街道体育路锦绣苑23栋，小店区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "土包滋·太原菜(南中环店)",
+    "city": "太原",
+    "category": "food",
+    "description": "土包滋·太原菜(南中环店)，位于坞城街道体育路锦绣苑23栋，小店区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "土包滋·太原菜(南中环店)",
+    "city": "太原",
+    "category": "food",
+    "description": "土包滋·太原菜(南中环店)位于太原小店区体育路锦绣苑23栋，是一家提供太原菜的中餐厅。",
+    "tags": [
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "土包滋·太原菜(长治路店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于长风街辅路与长治路交叉口西南80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "土包滋·太原菜(长风西街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "土包滋·太原菜(长风西街店)是一家位于太原市万柏林区的快餐厅，主打太原地方特色菜肴，提供快捷方便的餐饮服务。",
+    "tags": [
+      "太原菜",
+      "快餐",
+      "山西菜"
+    ],
+    "avgCost": 50.0,
+    "duration": "1小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.0
+  },
+  {
+    "name": "土包滋·太原菜(长风西街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "土包滋·太原菜(长风西街店)，位于千峰南路长风西街50号(晋联国际大厦底商)，万柏林区，类型快餐厅 快餐厅。",
+    "tags": [
+      "快餐厅",
+      "快餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "土包滋·太原菜(长风西街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "土包滋·太原菜(长风西街店)，位于千峰南路长风西街50号(晋联国际大厦底商)，万柏林区，类型快餐厅 快餐厅。",
+    "tags": [
+      "快餐厅",
+      "快餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "土包滋·太原菜(长风西街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "土包滋·太原菜(长风西街店)，位于千峰南路长风西街50号(晋联国际大厦底商)，万柏林区，类型快餐厅 快餐厅。",
+    "tags": [
+      "快餐厅",
+      "快餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "土包滋·太原菜(长风西街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "土包滋·太原菜(长风西街店)是一家位于太原市万柏林区的快餐厅，主打太原地方特色菜肴，提供快捷方便的餐饮服务。",
+    "tags": [
+      "太原菜",
+      "快餐",
+      "山西菜"
+    ],
+    "avgCost": 50.0,
+    "duration": "1小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.0
+  },
+  {
+    "name": "壹冒冒菜(市二院店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于桃园一巷南三条13号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原世季风快捷酒店(太原火车站店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于府东街红沟北街20-2",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原五寨三岔宾馆",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于建设北路28号五龙口商务小区F座西单元二楼右手门上写着东单元3楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原动物园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于东山马路2号",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原双塔寺",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于双塔南巷甲字8号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原古县城",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于凤城东街19号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原和平公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于千峰南路附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原唐城酒店(太原古县城店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于新晋祠路与唐城街交叉口西北角50米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原如宾宾馆",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于亲贤西街10号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原小店优尚精选酒店",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于北营许东路锦东佳苑4号楼北单元23层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原市五一广场-南区",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于迎泽大街30号五一广场(五一广场地铁站B口旁)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原市森林公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于大同路北36号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原市汾河景区",
+    "city": "太原",
+    "category": "attraction",
+    "description": "太原市汾河景区位于滨河东路晋源区，是国家级风景名胜区，以汾河沿岸的生态风光与人文景观为特色。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "太原市汾河景区",
+    "city": "太原",
+    "category": "attraction",
+    "description": "太原市汾河景区，位于滨河东路，晋源区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原市汾河景区",
+    "city": "太原",
+    "category": "attraction",
+    "description": "太原市汾河景区，位于滨河东路，晋源区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原市汾河景区",
+    "city": "太原",
+    "category": "attraction",
+    "description": "太原市汾河景区，位于滨河东路，晋源区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原市汾河景区",
+    "city": "太原",
+    "category": "attraction",
+    "description": "太原市汾河景区位于滨河东路晋源区，是国家级风景名胜区，以汾河沿岸的生态风光与人文景观为特色。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "太原市汾河景区",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于滨河东路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原平阳鑫盛宾馆",
+    "city": "太原",
+    "category": "hotel",
+    "description": "太原平阳鑫盛宾馆 是太原的景点",
+    "tags": [
+      "住宿服务",
+      "宾馆酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "太原平阳鑫盛宾馆",
+    "city": "太原",
+    "category": "hotel",
+    "description": "太原平阳鑫盛宾馆，位于平阳路肛肠医院巷内43号，小店区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原平阳鑫盛宾馆",
+    "city": "太原",
+    "category": "hotel",
+    "description": "太原平阳鑫盛宾馆，位于平阳路肛肠医院巷内43号，小店区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原平阳鑫盛宾馆",
+    "city": "太原",
+    "category": "hotel",
+    "description": "太原平阳鑫盛宾馆，位于平阳路肛肠医院巷内43号，小店区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原平阳鑫盛宾馆",
+    "city": "太原",
+    "category": "hotel",
+    "description": "太原平阳鑫盛宾馆 是太原的景点",
+    "tags": [
+      "住宿服务",
+      "宾馆酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "太原平阳鑫盛宾馆",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于平阳路肛肠医院巷内43号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原探朵酒店(太原南站山西大学店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于太榆路73号学府逸居A座对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原植物园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于晋源街道太古路",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原橡树林酒店(太原长风街北美新天地店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于寇庄西路百万庄园西区12排6号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原汾河公园-轮之舞广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于北中环街与北中环街出口交叉口北380米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原理工大学迎西校区中西广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于迎泽大街79号太原理工大学(迎西校区)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原理工大学迎西校区清泽广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于清泽东路与宗复路交叉口北200米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原瑞平酒店",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于迎泽南街清心雅苑7号楼负1-3层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原维尔宾馆",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于清心雅苑6号楼3单元9层904室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原缘梦住宿",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于康乐南街北一巷11号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原金家电竞酒店(火车站店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于中正悦湾东门旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太原鑫吉祥宾馆",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于许西南街15号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太钢喷泉广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于尖草坪立交桥西(尖草坪地铁站A口步行320米)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好想来顺鑫酒店(太原南站店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于站北街灯泡厂小区7栋1单元102号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好梦住宿",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于昌盛街加州小镇东侧约120米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好梦宾馆(平阳路东巷店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "好梦宾馆位于太原市小店区营盘街道老军营新村61号，提供舒适的住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "好梦宾馆(平阳路东巷店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "好梦宾馆(平阳路东巷店)，位于营盘街道老军营新村61号，小店区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好梦宾馆(平阳路东巷店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "好梦宾馆(平阳路东巷店)，位于营盘街道老军营新村61号，小店区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好梦宾馆(平阳路东巷店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "好梦宾馆(平阳路东巷店)，位于营盘街道老军营新村61号，小店区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好梦宾馆(平阳路东巷店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "好梦宾馆位于太原市小店区营盘街道老军营新村61号，提供舒适的住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "好梦宾馆(平阳路东巷店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于营盘街道老军营新村61号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如一坊豆捞(学府街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于学府街108号(学府街地铁站D4口步行220米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如家住宿(太原中北大学店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于中北大学七道门附近",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "娄烦东兴旅馆",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于南大街一段12号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "学生时代公寓小窗口民宿(长风街亲贤商圈二店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于长治路亲贤街龙兆远景3号楼12层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安隆民宿(晋阳苑小区店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于晋源街道风峪新村风峪南路晋阳苑小区5号楼1单元101室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "家缘快捷酒店(太原火车南站武宿国际机场店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于黄陵路19号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "察院后包子(柳巷太原总店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于铜锣湾A座110房(清和元旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寻牛记潮汕牛肉火锅(首开店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于龙城南街268号(龙城公园地铁站B口步行420米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小溅沾串",
+    "city": "太原",
+    "category": "food",
+    "description": "位于开化寺街81号南区1层4号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
     "name": "山西博物院",
     "city": "太原",
     "category": "attraction",
@@ -8,24 +1535,79 @@
       "科教文化服务",
       "博物馆"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 0
+    "rating": 0.0
   },
   {
-    "name": "迎泽公园",
+    "name": "山西博物院",
     "city": "太原",
     "category": "attraction",
-    "description": "迎泽公园是太原市迎泽区的一个大型城市公园，环境优美，适合休闲散步。",
+    "description": "山西博物院，位于滨河西路13号，万柏林区，类型博物馆 博物馆。",
     "tags": [
-      "风景名胜",
-      "公园"
+      "博物馆",
+      "博物馆"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "全天开放",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西博物院",
+    "city": "太原",
+    "category": "attraction",
+    "description": "山西博物院，位于滨河西路13号，万柏林区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西博物院",
+    "city": "太原",
+    "category": "attraction",
+    "description": "山西博物院，位于滨河西路13号，万柏林区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西博物院",
+    "city": "太原",
+    "category": "attraction",
+    "description": "山西博物院 是太原的景点",
+    "tags": [
+      "科教文化服务",
+      "博物馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "山西博物院",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于滨河西路13号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "山西督军府旧址(晋商博物院)",
@@ -37,67 +1619,80 @@
       "晋商",
       "历史建筑"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "纯阳宫",
+    "name": "山西督军府旧址(晋商博物院)",
     "city": "太原",
     "category": "attraction",
-    "description": "纯阳宫又称吕祖庙，位于太原市迎泽区起凤街1号，是供奉道教全真派祖师吕洞宾的祠庙，为省级文物保护单位。宫内建筑精美，古朴典雅，是太原市区内重要的道教文化景点。",
+    "description": "山西督军府旧址(晋商博物院)，位于鼓楼街道府东街101号(山西省眼科医院对面)，杏花岭区，类型风景名胜 风景名胜。",
     "tags": [
       "风景名胜",
-      "省级景点",
-      "道教文化"
-    ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "09:00-17:00",
-    "rating": 4.5
-  },
-  {
-    "name": "太原市汾河景区",
-    "city": "太原",
-    "category": "attraction",
-    "description": "太原市汾河景区位于滨河东路晋源区，是国家级风景名胜区，以汾河沿岸的生态风光与人文景观为特色。",
-    "tags": [
-      "风景名胜",
-      "国家级景点"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "文瀛公园",
-    "city": "太原",
-    "category": "attraction",
-    "description": "文瀛公园位于太原市迎泽区，是太原市著名的综合性公园，历史悠久，风景优美。",
-    "tags": [
-      "公园",
       "风景名胜"
     ],
-    "avgCost": 0,
-    "duration": "暂无",
-    "openTime": "全天开放",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西督军府旧址(晋商博物院)",
+    "city": "太原",
+    "category": "attraction",
+    "description": "山西督军府旧址(晋商博物院)，位于鼓楼街道府东街101号(山西省眼科医院对面)，杏花岭区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西督军府旧址(晋商博物院)",
+    "city": "太原",
+    "category": "attraction",
+    "description": "山西督军府旧址(晋商博物院)，位于鼓楼街道府东街101号(山西省眼科医院对面)，杏花岭区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西督军府旧址(晋商博物院)",
+    "city": "太原",
+    "category": "attraction",
+    "description": "山西督军府旧址位于太原市杏花岭区，现为晋商博物院，展示了晋商文化和历史建筑风貌。",
+    "tags": [
+      "风景名胜",
+      "晋商",
+      "历史建筑"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "南宫广场",
+    "name": "山西督军府旧址(晋商博物院)",
     "city": "太原",
     "category": "attraction",
-    "description": "南宫广场位于太原市迎泽区迎泽大街，是大南门地铁站附近的城市广场。",
+    "description": "位于鼓楼街道府东街101号(山西省眼科医院对面)",
     "tags": [
-      "广场",
-      "城市地标"
+      "110200"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "山西自然博物馆",
@@ -110,25 +1705,1041 @@
       "科普",
       "山西"
     ],
-    "avgCost": 30,
+    "avgCost": 30.0,
     "duration": "2小时",
     "openTime": "09:00-17:00",
     "rating": 4.5
   },
   {
-    "name": "中国煤炭博物馆",
+    "name": "山西自然博物馆",
     "city": "太原",
     "category": "attraction",
-    "description": "中国煤炭博物馆位于太原市迎泽西大街2号，是一座以煤炭为主题的博物馆，展示煤炭形成、开采、利用等知识。",
+    "description": "山西自然博物馆，位于兴华街道滨河西路北段17号，万柏林区，类型博物馆 博物馆。",
     "tags": [
       "博物馆",
-      "煤炭",
-      "科教"
+      "博物馆"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西自然博物馆",
+    "city": "太原",
+    "category": "attraction",
+    "description": "山西自然博物馆，位于兴华街道滨河西路北段17号，万柏林区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西自然博物馆",
+    "city": "太原",
+    "category": "attraction",
+    "description": "山西自然博物馆，位于兴华街道滨河西路北段17号，万柏林区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山西自然博物馆",
+    "city": "太原",
+    "category": "attraction",
+    "description": "山西自然博物馆位于太原市万柏林区，是一座集自然科学展览、科普教育、收藏研究于一体的综合性博物馆。馆内展品丰富，涵盖地质、古生物、动植物等多个领域，是了解山西自然历史与生态环境的绝佳场所。",
+    "tags": [
+      "自然",
+      "博物馆",
+      "科普",
+      "山西"
+    ],
+    "avgCost": 30.0,
+    "duration": "2小时",
+    "openTime": "09:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "山西自然博物馆",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于兴华街道滨河西路北段17号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "崇善寺",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于文庙巷9号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴奴毛肚火锅(太原万象城店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于长兴路5号万象城四楼L425号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巷子里民宿(太原古城营村店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于古城营村庙东街2巷28号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "并州小院",
+    "city": "太原",
+    "category": "food",
+    "description": "位于府西街35号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "归家民宿(康宁街店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于小店街道小店村北园街西二巷8号106商铺",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅(太原食品街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于食品街41-2号(开化寺街地铁站D口步行430米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐沟贾记灌肠(总店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于半坡东街23号一层南起第二间门面房",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "御河伍号(非遗传承店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于水西关街92号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "披萨行者PIZZAWALKER.STEAK",
+    "city": "太原",
+    "category": "food",
+    "description": "位于长治路180号百万庄园东区15排3号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文瀛公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "文瀛公园位于太原市迎泽区，是太原市著名的综合性公园，历史悠久，风景优美。",
+    "tags": [
+      "公园",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "暂无",
+    "openTime": "全天开放",
+    "rating": 3.5
+  },
+  {
+    "name": "文瀛公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "文瀛公园，位于海子边东街28号，迎泽区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文瀛公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "文瀛公园，位于海子边东街28号，迎泽区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文瀛公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "文瀛公园，位于海子边东街28号，迎泽区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文瀛公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "文瀛公园位于太原市迎泽区，是太原市著名的综合性公园，历史悠久，风景优美。",
+    "tags": [
+      "公园",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "暂无",
+    "openTime": "全天开放",
+    "rating": 3.5
+  },
+  {
+    "name": "文瀛公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于海子边东街28号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋一卤四巷串串",
+    "city": "太原",
+    "category": "food",
+    "description": "位于桃园四巷56号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋心悦居民宿(晋祠公园店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于索村文萃路2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋祠博物馆",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于晋祠天龙山景区内(东侧)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋祠天龙山景区",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于晋祠镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋祠景区",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于晋祠镇",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋美大掌柜(新建路店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于新建路59号(市政府南100米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋阳湖公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于金胜镇董茹村",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋阳湖公园一号码头",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于金胜镇董茹村晋阳湖公园内(东侧)",
+    "tags": [
+      "150000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋阳湖桃花岛",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于金胜镇晋阳湖公园内(南侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月老广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于迎泽西大街175号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李家绛州铜火锅",
+    "city": "太原",
+    "category": "food",
+    "description": "位于桃园四巷58号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林香斋(千峰南路店)",
+    "city": "太原",
+    "category": "food",
+    "description": "林香斋位于太原市万柏林区千峰南路，是一家提供正宗中餐的餐厅，环境优雅，菜品丰富。",
+    "tags": [
+      "中餐",
+      "餐厅",
+      "太原"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 3.5
+    "rating": 0.0
+  },
+  {
+    "name": "林香斋(千峰南路店)",
+    "city": "太原",
+    "category": "food",
+    "description": "林香斋(千峰南路店)，位于千峰南路111号(唐明茶城南侧)，万柏林区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林香斋(千峰南路店)",
+    "city": "太原",
+    "category": "food",
+    "description": "林香斋(千峰南路店)，位于千峰南路111号(唐明茶城南侧)，万柏林区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林香斋(千峰南路店)",
+    "city": "太原",
+    "category": "food",
+    "description": "林香斋(千峰南路店)，位于千峰南路111号(唐明茶城南侧)，万柏林区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林香斋(千峰南路店)",
+    "city": "太原",
+    "category": "food",
+    "description": "林香斋位于太原市万柏林区千峰南路，是一家提供正宗中餐的餐厅，环境优雅，菜品丰富。",
+    "tags": [
+      "中餐",
+      "餐厅",
+      "太原"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(铜锣湾店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于柳巷街道铜锣湾宝地小区C0座一层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桃园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于桃园北路97号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梅园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于梅园二条与永乐北街交叉口北80米",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(太原北美N1店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于体育南路196号北美N1新奥莱F3层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汇锦便民广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于兴华北巷与汇丰街交叉口东南80米",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉堡王(太原华宇)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于三桥街道府西街45号华宇国际精品商厦1层104",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汾河公园沙滩碧水",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于康乐街和滨河东路口处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汾河湿地公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于汾河两侧太原汾河景区",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汾河雁丘园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于汾河雁丘园内",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河东月轩烙馍村",
+    "city": "太原",
+    "category": "food",
+    "description": "位于平阳路368号10幢1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泊客宾馆(阳曲站店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "泊客宾馆(阳曲站店)位于阳曲县城新阳东街农机公司门面2-3层，靠近阳曲站，提供舒适住宿服务。宾馆房间干净整洁，设施齐全，适合商务和旅行旅客入住。",
+    "tags": [
+      "宾馆",
+      "阳曲",
+      "住宿"
+    ],
+    "avgCost": 150.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "泊客宾馆(阳曲站店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "泊客宾馆(阳曲站店)，位于县城新阳东街农机公司门面2-3层，阳曲县，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泊客宾馆(阳曲站店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "泊客宾馆(阳曲站店)，位于县城新阳东街农机公司门面2-3层，阳曲县，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泊客宾馆(阳曲站店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "泊客宾馆(阳曲站店)，位于县城新阳东街农机公司门面2-3层，阳曲县，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泊客宾馆(阳曲站店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "泊客宾馆(阳曲站店)位于阳曲县城新阳东街农机公司门面2-3层，靠近阳曲站，提供舒适住宿服务。宾馆房间干净整洁，设施齐全，适合商务和旅行旅客入住。",
+    "tags": [
+      "宾馆",
+      "阳曲",
+      "住宿"
+    ],
+    "avgCost": 150.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "泊客宾馆(阳曲站店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于县城新阳东街农机公司门面2-3层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "津渡鲁宴胶东菜",
+    "city": "太原",
+    "category": "food",
+    "description": "位于羊市街58号(西海子公园对面)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(亲贤北街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于亲贤北街79号茂业天地一期6层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(太原南站店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于太榆路88号万科城E3号楼万科城生活广场3、4层3001、4001号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(太原国金店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于综改示范区太原学府园区南中环街426号国际金融中心A座二层AF201、AF202、AF209、AF210号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(钟楼街华宇购物中心店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于开化寺街87号华宇购物中心8层(地铁2号线开化寺街站C口)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海旺黄酱面馆",
+    "city": "太原",
+    "category": "food",
+    "description": "位于玉河街大唐世家一期2号楼6号店",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海煜宾馆",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于凤仪南街13号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "涛涛卤面馆(桃园店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于桃园正街3号(农业大厦对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真巴哈尔新疆餐厅",
+    "city": "太原",
+    "category": "food",
+    "description": "位于羊市街48号底商",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真老刘蒸饺",
+    "city": "太原",
+    "category": "food",
+    "description": "位于半坡东街26号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨河体育公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于环网巷与环网西巷交叉口东南160米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨河公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于三桥街道三桥街道三桥街道三桥街道北沙河北沿岸",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨河味道(南内环店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于太原市迎泽区南内环街97号1层的中餐厅，提供餐饮服务。",
+    "tags": [
+      "中餐厅",
+      "餐饮服务"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "滨河味道(南内环店)",
+    "city": "太原",
+    "category": "food",
+    "description": "滨河味道(南内环店)，位于南内环街97号1层，迎泽区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨河味道(南内环店)",
+    "city": "太原",
+    "category": "food",
+    "description": "滨河味道(南内环店)，位于南内环街97号1层，迎泽区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨河味道(南内环店)",
+    "city": "太原",
+    "category": "food",
+    "description": "滨河味道(南内环店)，位于南内环街97号1层，迎泽区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨河味道(南内环店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于太原市迎泽区南内环街97号1层的中餐厅，提供餐饮服务。",
+    "tags": [
+      "中餐厅",
+      "餐饮服务"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "漪汾公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于千峰北路88号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "火辣辣麻辣粉(桃园二巷南社区店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于桃园二巷68号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熹香斋•传统清真菜",
+    "city": "太原",
+    "category": "food",
+    "description": "位于太原市人民政府北门西70米",
+    "tags": [
+      "170200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱之缘住宿(大马中路店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于平阳南路大马村19号心连心对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牡丹园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于迎泽大街218号迎泽公园(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉门河公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于和平北路80号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王萍面皮(桃园二巷总店一部)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于桃园二巷杂技团西侧20米处",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠林园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于迎泽大街398号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "碑林公园",
@@ -141,169 +2752,179 @@
       "书法",
       "文化"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "1-2小时",
     "openTime": "08:00-18:00",
     "rating": 4.2
   },
   {
-    "name": "老太原菜馆(钟楼街店)",
+    "name": "碑林公园",
     "city": "太原",
-    "category": "food",
-    "description": "老太原菜馆是太原知名的中餐厅，提供正宗山西菜和太原特色美食，位于钟楼街步行街。",
+    "category": "attraction",
+    "description": "碑林公园，位于康乐街56号，迎泽区，类型公园广场 公园。",
     "tags": [
-      "太原菜",
-      "中餐厅",
-      "山西菜"
+      "公园广场",
+      "公园"
     ],
-    "avgCost": 80,
-    "duration": "1.5小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "龙聚祥烧麦馆(钟楼街店)",
+    "name": "碑林公园",
     "city": "太原",
-    "category": "food",
-    "description": "龙聚祥烧麦馆是太原知名的烧麦连锁店，以传统烧麦闻名，皮薄馅大，味道鲜美。",
+    "category": "attraction",
+    "description": "碑林公园，位于康乐街56号，迎泽区，类型公园广场 公园。",
     "tags": [
-      "烧麦",
-      "太原美食",
-      "中餐"
+      "公园广场",
+      "公园"
     ],
-    "avgCost": 50,
-    "duration": "1小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "老太原菜馆(南宫店)",
+    "name": "碑林公园",
     "city": "太原",
-    "category": "food",
-    "description": "老太原菜馆(南宫店)是太原市迎泽区的一家知名中餐厅，位于迎泽大街236号，靠近大南门地铁站。",
+    "category": "attraction",
+    "description": "碑林公园，位于康乐街56号，迎泽区，类型公园广场 公园。",
     "tags": [
-      "中餐厅",
-      "餐饮"
+      "公园广场",
+      "公园"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "老太原菜馆(汾河公园店)",
+    "name": "碑林公园",
     "city": "太原",
-    "category": "food",
-    "description": "老太原菜馆位于太原市晋源区，是一家提供中餐的餐厅。",
+    "category": "attraction",
+    "description": "碑林公园位于太原市迎泽区康乐街56号，是一座以碑刻为主题的文化公园，园内收藏了大量历代书法碑刻，环境清幽，适合休闲游览。",
     "tags": [
-      "中餐厅",
-      "餐饮服务"
+      "公园",
+      "碑刻",
+      "书法",
+      "文化"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "林香斋(千峰南路店)",
-    "city": "太原",
-    "category": "food",
-    "description": "林香斋位于太原市万柏林区千峰南路，是一家提供正宗中餐的餐厅，环境优雅，菜品丰富。",
-    "tags": [
-      "中餐",
-      "餐厅",
-      "太原"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
-  },
-  {
-    "name": "土包滋.太原菜(文兴路店)",
-    "city": "太原",
-    "category": "food",
-    "description": "土包滋.太原菜(文兴路店)位于太原市尖草坪区汇丰街办文兴路126号华润国际3号楼-4层，提供地道太原菜，环境舒适，适合朋友聚餐和家人用餐。",
-    "tags": [
-      "太原菜",
-      "中餐厅",
-      "太原美食"
-    ],
-    "avgCost": 80,
+    "avgCost": 0.0,
     "duration": "1-2小时",
-    "openTime": "11:00-14:00,17:00-21:00",
-    "rating": 4.3
+    "openTime": "08:00-18:00",
+    "rating": 4.2
   },
   {
-    "name": "滨河味道(南内环店)",
+    "name": "碑林公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于康乐街56号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "纯阳宫",
+    "city": "太原",
+    "category": "attraction",
+    "description": "纯阳宫又称吕祖庙，位于太原市迎泽区起凤街1号，是供奉道教全真派祖师吕洞宾的祠庙，为省级文物保护单位。宫内建筑精美，古朴典雅，是太原市区内重要的道教文化景点。",
+    "tags": [
+      "风景名胜",
+      "省级景点",
+      "道教文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "09:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "纯阳宫",
+    "city": "太原",
+    "category": "attraction",
+    "description": "纯阳宫，位于起凤街1号，迎泽区，类型风景名胜 省级景点。",
+    "tags": [
+      "风景名胜",
+      "省级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "纯阳宫",
+    "city": "太原",
+    "category": "attraction",
+    "description": "纯阳宫，位于起凤街1号，迎泽区，类型风景名胜 省级景点。",
+    "tags": [
+      "风景名胜",
+      "省级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "纯阳宫",
+    "city": "太原",
+    "category": "attraction",
+    "description": "纯阳宫，位于起凤街1号，迎泽区，类型风景名胜 省级景点。",
+    "tags": [
+      "风景名胜",
+      "省级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "纯阳宫",
+    "city": "太原",
+    "category": "attraction",
+    "description": "纯阳宫又称吕祖庙，位于太原市迎泽区起凤街1号，是供奉道教全真派祖师吕洞宾的祠庙，为省级文物保护单位。宫内建筑精美，古朴典雅，是太原市区内重要的道教文化景点。",
+    "tags": [
+      "风景名胜",
+      "省级景点",
+      "道教文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "09:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "纯阳宫",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于起凤街1号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美轩养生火锅(体育南路店)",
     "city": "太原",
     "category": "food",
-    "description": "位于太原市迎泽区南内环街97号1层的中餐厅，提供餐饮服务。",
+    "description": "位于南中环与体育路交界处",
     "tags": [
-      "中餐厅",
-      "餐饮服务"
+      "050117"
     ],
-    "avgCost": 0,
-    "duration": "未知",
-    "openTime": "未知",
-    "rating": 0
-  },
-  {
-    "name": "喜院",
-    "city": "太原",
-    "category": "food",
-    "description": "喜院位于太原市小店区体育北街建设路口西20米，是一家提供中餐的餐厅。",
-    "tags": [
-      "中餐厅",
-      "餐饮"
-    ],
-    "avgCost": 0,
-    "duration": "未知",
-    "openTime": "未知",
-    "rating": 0
-  },
-  {
-    "name": "土包滋·太原菜(南中环店)",
-    "city": "太原",
-    "category": "food",
-    "description": "土包滋·太原菜(南中环店)位于太原小店区体育路锦绣苑23栋，是一家提供太原菜的中餐厅。",
-    "tags": [
-      "中餐厅"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "土包滋·太原菜(长风西街店)",
-    "city": "太原",
-    "category": "food",
-    "description": "土包滋·太原菜(长风西街店)是一家位于太原市万柏林区的快餐厅，主打太原地方特色菜肴，提供快捷方便的餐饮服务。",
-    "tags": [
-      "太原菜",
-      "快餐",
-      "山西菜"
-    ],
-    "avgCost": 50,
-    "duration": "1小时",
-    "openTime": "10:00-21:00",
-    "rating": 4.0
-  },
-  {
-    "name": "泊客宾馆(阳曲站店)",
-    "city": "太原",
-    "category": "hotel",
-    "description": "泊客宾馆(阳曲站店)位于阳曲县城新阳东街农机公司门面2-3层，靠近阳曲站，提供舒适住宿服务。宾馆房间干净整洁，设施齐全，适合商务和旅行旅客入住。",
-    "tags": [
-      "宾馆",
-      "阳曲",
-      "住宿"
-    ],
-    "avgCost": 150,
-    "duration": "全天",
-    "openTime": "24小时",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "美途酒店(太原站西广场地铁站店)",
@@ -316,53 +2937,980 @@
       "地铁",
       "迎泽区"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "1天",
     "openTime": "24小时",
     "rating": 4.0
   },
   {
-    "name": "好梦宾馆(平阳路东巷店)",
+    "name": "美途酒店(太原站西广场地铁站店)",
     "city": "太原",
     "category": "hotel",
-    "description": "好梦宾馆位于太原市小店区营盘街道老军营新村61号，提供舒适的住宿服务。",
+    "description": "美途酒店(太原站西广场地铁站店)，位于公寓路16号(近火车站2号自助取票厅,中铁快运南200米)，迎泽区，类型宾馆酒店 宾馆酒店。",
     "tags": [
-      "住宿",
-      "宾馆",
-      "酒店"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "太原平阳鑫盛宾馆",
-    "city": "太原",
-    "category": "hotel",
-    "description": "太原平阳鑫盛宾馆 是太原的景点",
-    "tags": [
-      "住宿服务",
+      "宾馆酒店",
       "宾馆酒店"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美途酒店(太原站西广场地铁站店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "美途酒店(太原站西广场地铁站店)，位于公寓路16号(近火车站2号自助取票厅,中铁快运南200米)，迎泽区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美途酒店(太原站西广场地铁站店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "美途酒店(太原站西广场地铁站店)，位于公寓路16号(近火车站2号自助取票厅,中铁快运南200米)，迎泽区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美途酒店(太原站西广场地铁站店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "美途酒店位于太原迎泽区，靠近太原站西广场地铁站，交通便利，提供舒适的住宿环境。",
+    "tags": [
+      "经济型",
+      "火车站",
+      "地铁",
+      "迎泽区"
+    ],
+    "avgCost": 0.0,
+    "duration": "1天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "美途酒店(太原站西广场地铁站店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于公寓路16号(近火车站2号自助取票厅,中铁快运南200米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老军营小吃街",
+    "city": "太原",
+    "category": "food",
+    "description": "位于老军营东巷6号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老太原菜馆(南宫店)",
+    "city": "太原",
+    "category": "food",
+    "description": "老太原菜馆(南宫店)是太原市迎泽区的一家知名中餐厅，位于迎泽大街236号，靠近大南门地铁站。",
+    "tags": [
+      "中餐厅",
+      "餐饮"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "临钢太原招待所(儿童医院店)",
+    "name": "老太原菜馆(南宫店)",
+    "city": "太原",
+    "category": "food",
+    "description": "老太原菜馆(南宫店)，位于迎泽大街236号(大南门地铁站A口步行210米)，迎泽区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老太原菜馆(南宫店)",
+    "city": "太原",
+    "category": "food",
+    "description": "老太原菜馆(南宫店)，位于迎泽大街236号(大南门地铁站A口步行210米)，迎泽区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老太原菜馆(南宫店)",
+    "city": "太原",
+    "category": "food",
+    "description": "老太原菜馆(南宫店)，位于迎泽大街236号(大南门地铁站A口步行210米)，迎泽区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老太原菜馆(南宫店)",
+    "city": "太原",
+    "category": "food",
+    "description": "老太原菜馆(南宫店)是太原市迎泽区的一家知名中餐厅，位于迎泽大街236号，靠近大南门地铁站。",
+    "tags": [
+      "中餐厅",
+      "餐饮"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "老太原菜馆(府西街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于府西街33号1-3层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老太原菜馆(汾河公园店)",
+    "city": "太原",
+    "category": "food",
+    "description": "老太原菜馆位于太原市晋源区，是一家提供中餐的餐厅。",
+    "tags": [
+      "中餐厅",
+      "餐饮服务"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "老太原菜馆(汾河公园店)",
+    "city": "太原",
+    "category": "food",
+    "description": "老太原菜馆(汾河公园店)，位于滨河西路以东、长风桥以南500米处，晋源区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老太原菜馆(汾河公园店)",
+    "city": "太原",
+    "category": "food",
+    "description": "老太原菜馆(汾河公园店)，位于滨河西路以东、长风桥以南500米处，晋源区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老太原菜馆(汾河公园店)",
+    "city": "太原",
+    "category": "food",
+    "description": "老太原菜馆(汾河公园店)，位于滨河西路以东、长风桥以南500米处，晋源区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老太原菜馆(汾河公园店)",
+    "city": "太原",
+    "category": "food",
+    "description": "老太原菜馆位于太原市晋源区，是一家提供中餐的餐厅。",
+    "tags": [
+      "中餐厅",
+      "餐饮服务"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "老太原菜馆(钟楼街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "老太原菜馆是太原知名的中餐厅，提供正宗山西菜和太原特色美食，位于钟楼街步行街。",
+    "tags": [
+      "太原菜",
+      "中餐厅",
+      "山西菜"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "老太原菜馆(钟楼街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "老太原菜馆(钟楼街店)，位于柳巷街道钟楼街步行街1号，迎泽区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老太原菜馆(钟楼街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "老太原菜馆(钟楼街店)，位于柳巷街道钟楼街步行街1号，迎泽区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老太原菜馆(钟楼街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "老太原菜馆(钟楼街店)，位于柳巷街道钟楼街步行街1号，迎泽区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老太原菜馆(钟楼街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "老太原菜馆是太原知名的中餐厅，提供正宗山西菜和太原特色美食，位于钟楼街步行街。",
+    "tags": [
+      "太原菜",
+      "中餐厅",
+      "山西菜"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "老院子·地道山西味·民歌表演(羊市街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于羊市街49号(全季酒店正对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肆海藏间民宿(太原世贸店)",
     "city": "太原",
     "category": "hotel",
-    "description": "临钢太原招待所位于太原市杏花岭区新民北街15号，紧邻山西省妇幼医院，西行150米路南即到。该招待所提供住宿服务，适合就医陪护或商务出行。周边交通便利，环境安静，基础房型设施齐全。",
+    "description": "位于长治路世贸中心B座18层",
     "tags": [
-      "招待所",
-      "医院附近",
-      "经济住宿"
+      "100100"
     ],
-    "avgCost": 150,
-    "duration": "1天",
-    "openTime": "24小时",
-    "rating": 3.8
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "致青年宾馆(山西师范大学店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于太榆路山西师范大学往南",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁山山重庆火锅(龙城北街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于龙城北街与长治路辅路交叉口东80米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "认一力非遗蒸饺·百年老字号·一日三餐·清真",
+    "city": "太原",
+    "category": "food",
+    "description": "位于南中环街200号(与体育南路十字路口东南侧10米)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "许西美食一条街",
+    "city": "太原",
+    "category": "food",
+    "description": "位于太榆路辅路与许坦东街交叉口西280米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵师傅面馆(长风SOHO店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于太堡街72号71栋",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "跻汾桥",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于学府街附近",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎泽公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "迎泽公园是太原市迎泽区的一个大型城市公园，环境优美，适合休闲散步。",
+    "tags": [
+      "风景名胜",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "迎泽公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "迎泽公园，位于迎泽大街218号，迎泽区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎泽公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "迎泽公园，位于迎泽大街218号，迎泽区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎泽公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "迎泽公园，位于迎泽大街218号，迎泽区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎泽公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "迎泽公园是太原市迎泽区的一个大型城市公园，环境优美，适合休闲散步。",
+    "tags": [
+      "风景名胜",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "迎泽公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于迎泽大街218号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎泽公园-北入口广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于迎泽大街218号迎泽公园内(北侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎泽公园牡丹芍药园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于迎泽大街218号迎泽公园(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "那家招牌麻辣拌",
+    "city": "太原",
+    "category": "food",
+    "description": "位于开化寺东夹道(开化寺街地铁站C口步行380米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郝刚刚羊杂割(柳巷店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于柳巷83号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金星宾馆(太榆路店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于太榆路许西南街7号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金泽荟精致涮肉火锅",
+    "city": "太原",
+    "category": "food",
+    "description": "位于南中环街455号(南中环地铁站C1口步行170米)",
+    "tags": [
+      "071400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫之源民宿(太原长风街北美新天地店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于寇庄西路百万庄园西区五排三号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫客优酒店(太原长风街北美新天地店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于寇庄西路百万庄园西区9排1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦上云山西面馆(太原钟楼街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于柳巷街道钟楼步行街S138商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长风广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于柳巷南路43号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长风广场(太原)",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于广经路6号长风·国贸第六馆",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳曲爱之旅宾馆",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于城市假日14号楼底5号6号门面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青年园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于大桥西北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青春缤秀园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于千峰街道千峰街道千峰街道迎泽西大街街心公园",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青苹果公寓(太原茂业店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于长治路王村南街龙兆远景4号楼2单元1501",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺溜·山西刀削面(桃北店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于桃园北路府西街口132号",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "饮马河公园",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于旱西门22号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "馨竹雅居(太原古县城店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于晋源街道中营街五巷6号2户",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(铜锣湾店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于柳巷北路24号铜锣湾广场二号馆1-3层b05号房",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(华夏广场店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于南内环西街和千峰南路交叉口东南角",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(泰享里店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于敦化北路18号泰享里5号楼1001",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼鳞坝",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于金桥东街与柴村桥交叉口西南100米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麻步姐·小海鲜火锅排档铂金(晋阳街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于云水·世纪明珠东区北门东70米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麻步姐·小海鲜火锅排档黑金(许东路店)",
+    "city": "太原",
+    "category": "food",
+    "description": "位于许东路与许东北街交叉口北80米",
+    "tags": [
+      "061100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓楼世纪广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于鼓楼街33号(府西街地铁站D口步行390米)",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓楼广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于鼓楼街(府西街地铁站D口步行110米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙团斋",
+    "city": "太原",
+    "category": "food",
+    "description": "位于西海街11号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙城宾馆(太原火车南站山西大学店)",
+    "city": "太原",
+    "category": "hotel",
+    "description": "位于许西西街46号(山西大学旁,近太原南站)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙潭公园-大鼎广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于龙潭公园(东南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙潭公园-西门广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于龙潭公园内(西侧)",
+    "tags": [
+      "120304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙潭公园-龙潭广场",
+    "city": "太原",
+    "category": "attraction",
+    "description": "位于杏花岭区商业中心城坊街龙潭公园(东南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙聚祥烧麦馆(钟楼街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "龙聚祥烧麦馆是太原知名的烧麦连锁店，以传统烧麦闻名，皮薄馅大，味道鲜美。",
+    "tags": [
+      "烧麦",
+      "太原美食",
+      "中餐"
+    ],
+    "avgCost": 50.0,
+    "duration": "1小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "龙聚祥烧麦馆(钟楼街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "龙聚祥烧麦馆(钟楼街店)，位于酱园巷S128商铺，迎泽区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙聚祥烧麦馆(钟楼街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "龙聚祥烧麦馆(钟楼街店)，位于酱园巷S128商铺，迎泽区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙聚祥烧麦馆(钟楼街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "龙聚祥烧麦馆(钟楼街店)，位于酱园巷S128商铺，迎泽区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙聚祥烧麦馆(钟楼街店)",
+    "city": "太原",
+    "category": "food",
+    "description": "龙聚祥烧麦馆是太原知名的烧麦连锁店，以传统烧麦闻名，皮薄馅大，味道鲜美。",
+    "tags": [
+      "烧麦",
+      "太原美食",
+      "中餐"
+    ],
+    "avgCost": 50.0,
+    "duration": "1小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
   }
 ]

@@ -1,36 +1,68 @@
 [
   {
-    "name": "越秀公园",
+    "name": "7天连锁酒店(广州街口镇北路店)",
     "city": "广州",
-    "category": "attraction",
-    "description": "越秀公园是广州最大的综合性公园，拥有五羊石像、镇海楼等著名景点。",
+    "category": "hotel",
+    "description": "位于街口镇北路26号之二",
     "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
+      "100105"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "06:00-22:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "大佛寺",
+    "name": "StarAsia星亚酒店(广州北站西进站口店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于新街大道61-1(近布心牌坊、距广州北站地铁A出口200米)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一米阳光青年旅舍(广州体育西地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于天河南街道广利路57号聚侨苑104房",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万佳公寓(广州汉溪长隆地铁站)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于汉溪村汉溪路137号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万凌广场",
     "city": "广州",
     "category": "attraction",
-    "type": "风景名胜;风景名胜;寺庙道观",
-    "address": "惠新中街21号",
-    "region": "越秀区",
-    "description": "广州大佛寺是一座历史悠久的佛教寺庙，位于越秀区，以其宏伟的大佛和古建筑闻名。",
+    "description": "位于大新路与相公巷交叉口东北140米",
     "tags": [
-      "佛教",
-      "寺庙",
-      "历史建筑"
+      "120000"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "08:00-17:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "三元宫",
@@ -41,10 +73,183 @@
       "风景名胜",
       "寺庙道观"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "未知",
-    "rating": 0
+    "rating": 0.0
+  },
+  {
+    "name": "三元宫",
+    "city": "广州",
+    "category": "attraction",
+    "description": "三元宫，位于应元路11号(地铁2号线纪念堂站C出口步行140米)，越秀区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三元宫",
+    "city": "广州",
+    "category": "attraction",
+    "description": "三元宫，位于应元路11号(地铁2号线纪念堂站C出口步行140米)，越秀区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三元宫",
+    "city": "广州",
+    "category": "attraction",
+    "description": "三元宫，位于应元路11号(地铁2号线纪念堂站C出口步行140米)，越秀区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三元宫",
+    "city": "广州",
+    "category": "attraction",
+    "description": "三元宫是广州市越秀区的一座著名道教寺庙，位于应元路，历史悠久，香火鼎盛。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "三元宫",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于应元路11号(地铁2号线纪念堂站C出口步行140米)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上下九-第十甫历史文化街区",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于下九路29号(华林寺地铁站E口步行400米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上下九广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于下九路92号(地铁8号线华林寺站E出口步行370米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世外桃源度假村",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于钟落潭镇寮采村093乡道(近激流赛场)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丘大·喜粤酒家(大夫山店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于钟村街道诜敦大围开发区18号",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东山湖公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于东湖路123号(东湖地铁站B3口旁)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东江万豪国际大酒店",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于江燕路268号万宝大厦",
+    "tags": [
+      "100102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东濠涌博物馆",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于越秀北路78号(近东濠涌)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于中山公园前路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "中山纪念堂",
@@ -57,9 +262,341 @@
       "广州",
       "国家级景点"
     ],
-    "avgCost": 10,
+    "avgCost": 10.0,
     "duration": "1-2小时",
     "openTime": "08:00-18:00",
+    "rating": 4.5
+  },
+  {
+    "name": "中山纪念堂",
+    "city": "广州",
+    "category": "attraction",
+    "description": "中山纪念堂，位于东风中路299号(纪念堂地铁站C口步行130米)，越秀区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山纪念堂",
+    "city": "广州",
+    "category": "attraction",
+    "description": "中山纪念堂，位于东风中路299号(纪念堂地铁站C口步行130米)，越秀区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山纪念堂",
+    "city": "广州",
+    "category": "attraction",
+    "description": "中山纪念堂，位于东风中路299号(纪念堂地铁站C口步行130米)，越秀区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山纪念堂",
+    "city": "广州",
+    "category": "attraction",
+    "description": "中山纪念堂是广州人民和海外华侨为纪念孙中山先生而筹资兴建的纪念性建筑物，位于广州市越秀区东风中路299号。主体建筑为八角形宫殿式建筑，具有浓厚的民族风格。",
+    "tags": [
+      "纪念馆",
+      "历史建筑",
+      "广州",
+      "国家级景点"
+    ],
+    "avgCost": 10.0,
+    "duration": "1-2小时",
+    "openTime": "08:00-18:00",
+    "rating": 4.5
+  },
+  {
+    "name": "中山纪念堂",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于东风中路299号(纪念堂地铁站C口步行130米)",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "临江带状公园-露营地",
+    "city": "广州",
+    "category": "food",
+    "description": "位于临江大道与海文路交叉口西南80米",
+    "tags": [
+      "080504"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九龙冰室(动漫星城店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于吉祥路1号动漫星城广场B1层1004室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云台花园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于云山南路5号(地铁11号线云台花园站C2出口步行280米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云栖酒店(天河智慧城店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于华观路万科智慧商业广场米酷公寓c5栋101",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云溪植物园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于白云大道南1028号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亚濠酒店(广州增城新塘地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于新塘镇新塘大道中18号明和楼1楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园-南广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于连新路2号(地铁1,2号线公园前站G出口旁边)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伦文叙纪念广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于中山六路225号(西门口地铁站B口步行80米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "何小东面馆(广州首店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于体育西横街142号104",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侨美食家(沙面总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "侨美食家(沙面总店)位于广州市荔湾区沙面南街52号，是一家知名中餐厅，以粤菜为主，环境优雅，深受食客喜爱。",
+    "tags": [
+      "粤菜",
+      "中餐厅",
+      "沙面"
+    ],
+    "avgCost": 120.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "侨美食家(沙面总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "侨美食家(沙面总店)，位于沙面南街52号，荔湾区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侨美食家(沙面总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "侨美食家(沙面总店)，位于沙面南街52号，荔湾区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侨美食家(沙面总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "侨美食家(沙面总店)，位于沙面南街52号，荔湾区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侨美食家(沙面总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "侨美食家(沙面总店)位于广州市荔湾区沙面南街52号，是一家知名中餐厅，以粤菜为主，环境优雅，深受食客喜爱。",
+    "tags": [
+      "粤菜",
+      "中餐厅",
+      "沙面"
+    ],
+    "avgCost": 120.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "侨美食家(珠江新城店)",
+    "city": "广州",
+    "category": "food",
+    "description": "侨美食家是广州知名的粤菜餐厅，位于珠江新城兴盛路，提供正宗广东菜。",
+    "tags": [
+      "粤菜",
+      "中餐厅",
+      "珠江新城"
+    ],
+    "avgCost": 150.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-14:30,17:00-21:30",
+    "rating": 4.5
+  },
+  {
+    "name": "侨美食家(珠江新城店)",
+    "city": "广州",
+    "category": "food",
+    "description": "侨美食家(珠江新城店)，位于珠江新城兴盛路隽峰苑10号，天河区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侨美食家(珠江新城店)",
+    "city": "广州",
+    "category": "food",
+    "description": "侨美食家(珠江新城店)，位于珠江新城兴盛路隽峰苑10号，天河区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侨美食家(珠江新城店)",
+    "city": "广州",
+    "category": "food",
+    "description": "侨美食家(珠江新城店)，位于珠江新城兴盛路隽峰苑10号，天河区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侨美食家(珠江新城店)",
+    "city": "广州",
+    "category": "food",
+    "description": "侨美食家是广州知名的粤菜餐厅，位于珠江新城兴盛路，提供正宗广东菜。",
+    "tags": [
+      "粤菜",
+      "中餐厅",
+      "珠江新城"
+    ],
+    "avgCost": 150.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-14:30,17:00-21:30",
     "rating": 4.5
   },
   {
@@ -71,10 +608,274 @@
       "寺庙",
       "风景名胜"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "1-2小时",
     "openTime": "08:00-17:00",
     "rating": 4.5
+  },
+  {
+    "name": "光孝寺",
+    "city": "广州",
+    "category": "attraction",
+    "description": "光孝寺，位于光孝路109号，越秀区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光孝寺",
+    "city": "广州",
+    "category": "attraction",
+    "description": "光孝寺，位于光孝路109号，越秀区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光孝寺",
+    "city": "广州",
+    "category": "attraction",
+    "description": "光孝寺，位于光孝路109号，越秀区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光孝寺",
+    "city": "广州",
+    "category": "attraction",
+    "description": "光孝寺是广州著名古刹，位于越秀区光孝路，历史悠久，是岭南佛教建筑的代表。",
+    "tags": [
+      "寺庙",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "光孝寺",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于光孝路109号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "全美公寓(江夏地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于白社直街5号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六榕寺",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于六榕路87号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六榕街文化广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于六榕路与广德路交叉口西60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冠华商务酒店(广州南岗万达广场店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于广深大道西658号新墩村下基市场逸富广场旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凌记(泮塘路店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于泮塘路13号(仁威庙对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凯盛私厨",
+    "city": "广州",
+    "category": "food",
+    "description": "位于兴南大道874号",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "加州时尚驿站(机场北门店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于花东镇凤祥路5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华哥新鲜猪精品美食",
+    "city": "广州",
+    "category": "food",
+    "description": "位于翠园道105号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华唐夜市(水利学院站)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于迎宾大道1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华意商务酒店(广州健康方舟店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于东沙环翠北路23号A",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华都精选美宿(广州白云国际机场店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于花东镇商达街25号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南村柴火鸡饭",
+    "city": "广州",
+    "category": "food",
+    "description": "位于樟边环村街40号102",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南沙天后宫",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于港湾街道天后路88号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南沙天后宫-妈祖阁",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于港湾街道天后路88号南沙天后宫",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南沙旧镇",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于珠江中路2巷3号",
+    "tags": [
+      "120000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "南越王博物院(王墓展区)",
@@ -87,10 +888,2905 @@
       "考古",
       "历史"
     ],
-    "avgCost": 10,
+    "avgCost": 10.0,
     "duration": "2小时",
     "openTime": "09:00-17:30（周一闭馆）",
     "rating": 4.6
+  },
+  {
+    "name": "南越王博物院(王墓展区)",
+    "city": "广州",
+    "category": "attraction",
+    "description": "南越王博物院(王墓展区)，位于解放北路867号(地铁2号线越秀公园站E出口步行150米)，越秀区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南越王博物院(王墓展区)",
+    "city": "广州",
+    "category": "attraction",
+    "description": "南越王博物院(王墓展区)，位于解放北路867号(地铁2号线越秀公园站E出口步行150米)，越秀区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南越王博物院(王墓展区)",
+    "city": "广州",
+    "category": "attraction",
+    "description": "南越王博物院(王墓展区)，位于解放北路867号(地铁2号线越秀公园站E出口步行150米)，越秀区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南越王博物院(王墓展区)",
+    "city": "广州",
+    "category": "attraction",
+    "description": "南越王博物院（王墓展区）位于广州市越秀区，是展示南越国历史文化的专题博物馆，以1983年发现的南越王赵眜墓为核心，展出大量珍贵出土文物。",
+    "tags": [
+      "博物馆",
+      "南越国",
+      "考古",
+      "历史"
+    ],
+    "avgCost": 10.0,
+    "duration": "2小时",
+    "openTime": "09:00-17:30（周一闭馆）",
+    "rating": 4.6
+  },
+  {
+    "name": "南越王博物院(王墓展区)",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于解放北路867号(地铁2号线越秀公园站E出口步行150米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南越王博物院(王宫展区)",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于中山四路316号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南麓园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于麓湖公园(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南麓园广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于麓湖路白云山麓湖景区内南麓园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卡尔曼国际公寓(广州万科里店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于黄埔东路融悦汇C1栋大堂",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卡洛精品酒店(广州增城挂绿广场店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于荔城街富安路29号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "叙下旧·海鲜大排档·烧烤·啫煲",
+    "city": "广州",
+    "category": "food",
+    "description": "位于天河东路163号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古镇书斋",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于沙湾镇北村沙湾古镇内",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "启航公寓",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于钟村镇谢村44号(近钟村地铁站,广州长隆旅游度假区)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴财记",
+    "city": "广州",
+    "category": "food",
+    "description": "位于大同路和隆里20号(见大同路84号旁边小巷进入50米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "味之绝美蛙鱼头火锅(东晓南店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于南洲北路5号东晓胜汇里D区101-103(东晓南地铁站B出口)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "味食家(市师鸡专门店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于解放北路598号(迎宾馆对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哥林多(荔湾店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于西华路223-4号(彩虹桥地铁站A口步行310米)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "唐荔园食艺馆",
+    "city": "广州",
+    "category": "food",
+    "description": "位于黄沙大道如意坊路口荔湾湖公园内(南侧)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜势点·粤式茶居",
+    "city": "广州",
+    "category": "food",
+    "description": "位于解放北路537号110铺(宜致酒店旁)",
+    "tags": [
+      "050600"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉华商务宾馆(广州北站花城路地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于新华街花城路58号一8",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉望公寓(上胜东街店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于上胜东街6号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉禾夜市美食城",
+    "city": "广州",
+    "category": "food",
+    "description": "位于大岭东街1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉禾望岗夜市",
+    "city": "广州",
+    "category": "food",
+    "description": "位于嘉禾街8号嘉禾广场",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四哥家常菜",
+    "city": "广州",
+    "category": "food",
+    "description": "位于光复北路591(西门口地铁站A口步行340米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国云商务宾馆(广州花山店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于花山镇106国道东1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "圆梦酒店(广州市桥地铁站钻汇广场店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于桥兴大道5号江南大厦2层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城隍庙忠佑广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于忠佑大街48号(地铁1,2号线公园前站E出口步行410米)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塱头古村",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于塱头村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塱头古村-仰拍古建筑屋檐(打卡点)",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于塱头村塱头古村内(东侧)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塱头古村-宣重光门楼",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于炭步塱头村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塱头古村-菽圃公书室",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于塱头村塱头古村内(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "增埗公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于福州路8号(岭南湾畔隔壁)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夕阳红广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于解放北路988号越秀公园(东北角)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "多福美食馆·鱼生多福",
+    "city": "广州",
+    "category": "food",
+    "description": "位于广州越秀区司马街32号的多福美食馆，主打鱼生和粤式美食。",
+    "tags": [
+      "中餐厅",
+      "粤菜",
+      "鱼生"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "多福美食馆·鱼生多福",
+    "city": "广州",
+    "category": "food",
+    "description": "多福美食馆·鱼生多福，位于司马街32号，越秀区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "多福美食馆·鱼生多福",
+    "city": "广州",
+    "category": "food",
+    "description": "多福美食馆·鱼生多福，位于司马街32号，越秀区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "多福美食馆·鱼生多福",
+    "city": "广州",
+    "category": "food",
+    "description": "多福美食馆·鱼生多福，位于司马街32号，越秀区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "多福美食馆·鱼生多福",
+    "city": "广州",
+    "category": "food",
+    "description": "位于广州越秀区司马街32号的多福美食馆，主打鱼生和粤式美食。",
+    "tags": [
+      "中餐厅",
+      "粤菜",
+      "鱼生"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "夜明珠广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于北京路步行街",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大众住宿(石桥店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于萝岗街道石桥中街一巷17号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大佛寺",
+    "city": "广州",
+    "category": "attraction",
+    "description": "广州大佛寺是一座历史悠久的佛教寺庙，位于越秀区，以其宏伟的大佛和古建筑闻名。",
+    "tags": [
+      "佛教",
+      "寺庙",
+      "历史建筑"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "大佛寺",
+    "city": "广州",
+    "category": "attraction",
+    "description": "大佛寺，位于惠新中街21号，越秀区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大佛寺",
+    "city": "广州",
+    "category": "attraction",
+    "description": "大佛寺，位于惠新中街21号，越秀区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大佛寺",
+    "city": "广州",
+    "category": "attraction",
+    "description": "大佛寺，位于惠新中街21号，越秀区，类型风景名胜 寺庙道观。",
+    "tags": [
+      "风景名胜",
+      "寺庙道观"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大佛寺",
+    "city": "广州",
+    "category": "attraction",
+    "description": "广州大佛寺是一座历史悠久的佛教寺庙，位于越秀区，以其宏伟的大佛和古建筑闻名。",
+    "tags": [
+      "佛教",
+      "寺庙",
+      "历史建筑"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "大佛寺",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于惠新中街21号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大佛寺-大雄宝殿",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于惠新中街21号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大夫山森林公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于禺山西路668号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大良毋米粥·粥水火锅(猎德店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于珠江新城海文路20号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大良毋米粥·粥水火锅(珠江新城冼村店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于金穗路72号盈嘉花园103号-201号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大鸽饭(北京路店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于西湖路68号201、301房",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大鸽饭(岗顶店)",
+    "city": "广州",
+    "category": "food",
+    "description": "大鸽饭(岗顶店)位于天河区天河路633号桔子酒店3层，是一家以广东菜(粤菜)为主的中餐厅，主打鸽饭等特色菜品。",
+    "tags": [
+      "中餐厅",
+      "广东菜",
+      "粤菜"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:30,17:00-21:30",
+    "rating": 4.3
+  },
+  {
+    "name": "大鸽饭(岗顶店)",
+    "city": "广州",
+    "category": "food",
+    "description": "大鸽饭(岗顶店)，位于天河路633号桔子酒店3层，天河区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大鸽饭(岗顶店)",
+    "city": "广州",
+    "category": "food",
+    "description": "大鸽饭(岗顶店)，位于天河路633号桔子酒店3层，天河区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大鸽饭(岗顶店)",
+    "city": "广州",
+    "category": "food",
+    "description": "大鸽饭(岗顶店)，位于天河路633号桔子酒店3层，天河区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大鸽饭(岗顶店)",
+    "city": "广州",
+    "category": "food",
+    "description": "大鸽饭(岗顶店)位于天河区天河路633号桔子酒店3层，是一家以广东菜(粤菜)为主的中餐厅，主打鸽饭等特色菜品。",
+    "tags": [
+      "中餐厅",
+      "广东菜",
+      "粤菜"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:30,17:00-21:30",
+    "rating": 4.3
+  },
+  {
+    "name": "大鸽饭(梅花园店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于广州大道北梅花园酒店首层",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天发商务酒店(新塘总店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于新塘镇东坑三横路68号(99旅馆对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥体夜市",
+    "city": "广州",
+    "category": "food",
+    "description": "位于新塘镇陈家林奥体中心",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好望角电竞公寓(增城东汇城店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于观翠路东汇城国际公寓8层814房",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如意住宿(广州黄埔店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于永和街新庄小东新村二横一街57号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宁远楼",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于瓜岭村瓜岭古村落内(东侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宏新住宿",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于石岗东村球山东二巷20号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宜家公寓(永和开发区店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于永和开发区小东二横一街22号1楼夹层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝墨园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于沙湾街道紫坭村东安路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝墨园-石牌坊",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于紫坭村宝墨园内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝花商务宾馆(广州北站花城路地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于新华镇五花直街12号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富华旅店(站前路)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于站前路36-13号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富贵食饭公司(北京路店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于中山五路70号捷登都会广场4层L4012",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚九酒店(上下九十三行广场店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于上九路八甫水脚15号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岭南金融博物馆",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于小马街7号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴奴毛肚火锅(广州天河城店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于天河路208号第七层708号商铺",
+    "tags": [
+      "050206"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市政府广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于北京街道北京街道北京街道北京街道北京街道府前路1号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平安公寓(广东财经大学华商学院店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于荔湖街道太平新村同星七街14号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸福住宿(广州洛浦店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于东乡村民乐路五街一巷三横巷6号瑞年大药房旁",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸福里公寓(广州大学城店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于贝岗村大街大学城贝岗村小谷围青云坊2巷8号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广东体育博物馆(文创馆)",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于较场东路13号(烈士陵园地铁站A口步行260米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广东民间工艺博物馆",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于恩龙里34号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广东省博物馆",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于珠江东路2号(大剧院地铁站B口步行180米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广东革命历史博物馆",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于陵园西路2号大院2号(烈士陵园地铁站D口步行210米)",
+    "tags": [
+      "110210"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州PVGO客栈",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于贝岗村康衢大街4巷16号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州东晟商务宾馆(花都广场店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于茶园路55-33(茶园55-33号)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州东盈宾馆(时代城店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于东逸二街2-4号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州中大校友公寓",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于下渡西街76号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州丽丰酒店(白江地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于新塘镇新塘大道西华馨苑A2栋31号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州仔潮汕仔特色店(广州总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "广州仔潮汕仔特色店(广州总店)位于广州天河区，是一家以潮汕菜为特色的中餐厅，提供正宗潮汕美食。",
+    "tags": [
+      "潮汕菜",
+      "中餐厅"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.2
+  },
+  {
+    "name": "广州仔潮汕仔特色店(广州总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "广州仔潮汕仔特色店(广州总店)，位于广州大道北991号之1栋107-108号，天河区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州仔潮汕仔特色店(广州总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "广州仔潮汕仔特色店(广州总店)，位于广州大道北991号之1栋107-108号，天河区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州仔潮汕仔特色店(广州总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "广州仔潮汕仔特色店(广州总店)，位于广州大道北991号之1栋107-108号，天河区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州仔潮汕仔特色店(广州总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "广州仔潮汕仔特色店(广州总店)位于广州天河区，是一家以潮汕菜为特色的中餐厅，提供正宗潮汕美食。",
+    "tags": [
+      "潮汕菜",
+      "中餐厅"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.2
+  },
+  {
+    "name": "广州偶寓Hotel(广州柯木塱地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于背坪窑屋地西街一巷一号之3号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州兰圃",
+    "city": "广州",
+    "category": "attraction",
+    "description": "广州兰圃位于广州市越秀区，是一个以兰花为主题的专类公园，园内收集了众多兰花品种，环境清幽。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 20.0,
+    "duration": "1.5小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.3
+  },
+  {
+    "name": "广州兰圃",
+    "city": "广州",
+    "category": "attraction",
+    "description": "广州兰圃，位于解放北路901号，越秀区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州兰圃",
+    "city": "广州",
+    "category": "attraction",
+    "description": "广州兰圃，位于解放北路901号，越秀区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州兰圃",
+    "city": "广州",
+    "category": "attraction",
+    "description": "广州兰圃，位于解放北路901号，越秀区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州兰圃",
+    "city": "广州",
+    "category": "attraction",
+    "description": "广州兰圃位于广州市越秀区，是一个以兰花为主题的专类公园，园内收集了众多兰花品种，环境清幽。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 20.0,
+    "duration": "1.5小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.3
+  },
+  {
+    "name": "广州兰圃",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于解放北路901号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州加州国际",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于商达街108号",
+    "tags": [
+      "141400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州动物园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于先烈中路120号",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州十三行博物馆",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于岭南街道西堤二马路37号文化公园管理处",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州华侨博物馆",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于沿江西路183号(海珠广场地铁站D口步行100米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州博物馆(仲元楼展区)",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于镇海路99号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州博物馆(镇海楼展区)",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于镇海路9号(越秀公园地铁站A口步行250米)",
+    "tags": [
+      "140200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州友腾公寓(番禺厦滘地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于上漖沙滘西路41号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州吉田公馆",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于吉山新路街23号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州吉盛公寓(黄埔时代城店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于东悦四街10号B栋(近时代城南门)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州塔",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于阅江西路222号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州大学城南亭尚品青宿(广东工业大学店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于广州大学城南亭大道25号",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州好运来公寓(广州石井地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于石门街红星亭岗路32号三楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州安心客栈(火车站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于矿泉街道站西路89号1梯702",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州寒舍公寓",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于贝岗康衢大街12号(近黄埔军校广外大学)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州川渝客栈(广州火车站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于矿泉街道站西路67号506",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州市白云山风景名胜区",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于广园中路801号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州市越秀儿童公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于人民南路88号(一德路地铁站A口步行230米)",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州快乐東方度假村",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于九佛街道重岗村后山西侧自编01号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州快捷商务电梯住宿(太石综合市场店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于太南路自编8巷横五街1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州怡安旅馆",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于鹤洞路203-209号3层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州文化公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于西堤二马路37号(近西堤邮局)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州春田家家青年旅舍LAZY GAGA",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于海珠中路215号(西门口地铁站B口步行390米)",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州海心沙度假区(广州塔度假区)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于临江大道海心沙亚运公园(海心沙地铁站A口步行200米)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州火车站城市客栈(站前路店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于站前路160号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州瑶兰国际公寓(南沙万达店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于环市大道中金洲地铁站万达广场B1栋12层1204",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州石桥住宿(石桥中街店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于石桥中街二巷23号(佳缘百货后面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州福安宾馆",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于中华大道200号(近沙湾东区市场公交站)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州维景商务宾馆",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于云山大道16号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州胜兰家庭公寓",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于站西路骏马4楼443",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州艾尚一栈(大学城GOGO新天地店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于广州大学城贝岗大街八巷4号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州芒果公寓(植物园地铁站龙洞步行街店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于龙洞步行街翠竹五巷1号2层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州萤泉谷度假村",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于太和镇头陂赤边缪新村一街12号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州近代史博物馆",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于陵园西路2号大院(烈士陵园地铁站D口步行390米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州途优精品民宿",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于站前路25号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州逸米轻享公寓(朱村地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于朱村街道文明路33号(朱村地铁站D口步行420米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州都兴公寓(华立学院店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于增江街初溪荔枝山2号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州酒家(越华路店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于越华路112号珠江国际大厦5-6层",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州金福公寓(白云同和地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于同和蟹山蟹岗北路25号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州铁路博物馆",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于黄沙大道誉江路3-5号(御景壹号D区,地铁6、11号线如意坊站B出口步行约10分钟)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州长隆旅游度假区",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于汉溪大道东299号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州雕塑公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于下塘西路545号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州顺发旅馆火车站",
+    "city": "广州",
+    "category": "hotel",
+    "description": "广州顺发旅馆火车站位于广州越秀区矿泉街道站西路87号骏马商务大楼4层，提供住宿服务。",
+    "tags": [
+      "旅馆",
+      "招待所"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "广州顺发旅馆火车站",
+    "city": "广州",
+    "category": "hotel",
+    "description": "广州顺发旅馆火车站，位于矿泉街道站西路87号骏马商务大楼4层，越秀区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州顺发旅馆火车站",
+    "city": "广州",
+    "category": "hotel",
+    "description": "广州顺发旅馆火车站，位于矿泉街道站西路87号骏马商务大楼4层，越秀区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州顺发旅馆火车站",
+    "city": "广州",
+    "category": "hotel",
+    "description": "广州顺发旅馆火车站，位于矿泉街道站西路87号骏马商务大楼4层，越秀区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州顺发旅馆火车站",
+    "city": "广州",
+    "category": "hotel",
+    "description": "广州顺发旅馆火车站位于广州越秀区矿泉街道站西路87号骏马商务大楼4层，提供住宿服务。",
+    "tags": [
+      "旅馆",
+      "招待所"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "广州顺发旅馆火车站",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于矿泉街道站西路87号骏马商务大楼4层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州飙峰酒店(花都湖店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于新华路153号,近兴华幼儿园",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州香博",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于沙面二街4号2层",
+    "tags": [
+      "170200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州马沥静雅公寓",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于马沥南街东三巷23号(广东机电职业技术学院北校区旁)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州高领宾馆(黄庄南路店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于黄庄南路自编5号高领大厦",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州鲁迅纪念馆",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于大塘街道文明路215号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州鸣泉居度假村",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于茉莉智慧母婴护理中心(鸣泉居店)西侧50米",
+    "tags": [
+      "100102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州鸿泰商务宾馆(广州北站花城路地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于新华街站前路21-1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广州龙逸山庄度假村",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于迎龙路1203号(近龙洞公园)",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "彩虹文化广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于荔湾路与西华路交叉口西南80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "御品轩休闲度假山庄",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于太和镇头陂桔洞北街九巷",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦禾轻奢公寓(广州南站地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于石兴大道南288号展创商务中心A1公寓2楼217房",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠食佳(滨江西店)",
+    "city": "广州",
+    "category": "food",
+    "description": "惠食佳是广州知名的粤菜餐厅，以传统粤菜和生猛海鲜为特色，深受食客喜爱。",
+    "tags": [
+      "粤菜",
+      "海鲜",
+      "老字号"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "惠食佳(滨江西店)",
+    "city": "广州",
+    "category": "food",
+    "description": "惠食佳(滨江西店)，位于滨江西路172号，海珠区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠食佳(滨江西店)",
+    "city": "广州",
+    "category": "food",
+    "description": "惠食佳(滨江西店)，位于滨江西路172号，海珠区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠食佳(滨江西店)",
+    "city": "广州",
+    "category": "food",
+    "description": "惠食佳(滨江西店)，位于滨江西路172号，海珠区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "惠食佳(滨江西店)",
+    "city": "广州",
+    "category": "food",
+    "description": "惠食佳是广州知名的粤菜餐厅，以传统粤菜和生猛海鲜为特色，深受食客喜爱。",
+    "tags": [
+      "粤菜",
+      "海鲜",
+      "老字号"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "扬韬广场东广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于中山七路12号(陈家祠地铁站B口步行70米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "扬韬广场中央广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于中山七路14号(陈家祠地铁站A口步行100米)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拍档大排档",
+    "city": "广州",
+    "category": "food",
+    "description": "位于捷登都会负一层(公园前地铁站F口步行80米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文溪公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于越秀中路与中山四路交叉口南200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新丰公寓(员村店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于员村二横路成龙花园1栋(员村地铁站C口旁)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新莲夜市(商业美食街店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于广东省 广州市 花都区 新华街莲塘市场右侧27号铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新都商务酒店(市桥地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于捷进中路与桥兴大道交叉口东北50米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月泉度假山庄·帽峰山特色菜",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于良田日月泉餐厅西南侧",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "时代公寓(广州白云站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于祥岗后街23号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星夜集市(步行街)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于旺村地铁站C口",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星悦住宿(石碁文化广场店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于广州市番禺区石基镇富怡路59号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星耀两龙夜市",
+    "city": "广州",
+    "category": "food",
+    "description": "位于两龙南街与菊花石大道交叉口西北20米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春园-中共中央机关旧址",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于东山街道东山街道东山街道新河浦路24号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春源公寓(广州龙归南岭店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于龙归南岭村翕和新村大街1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晓港公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于前进路146号(晓港地铁站A口步行490米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "智美居时尚公寓(从化碧桂园1960店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于河滨北路86号碧桂园·从化1960 F1层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "未来方洲x及象咖啡·亚洲烧烤夜市Bistro",
+    "city": "广州",
+    "category": "food",
+    "description": "位于渡东大街1号之一",
+    "tags": [
+      "050500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "東園·廣州味·點心與燒鵝(北京路五月花店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于中山五路68号五月花商业广场F8层",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松苑·浓汤广府菜(总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于鹤洞路14-1号A101、A201铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "植村夜市",
+    "city": "广州",
+    "category": "food",
+    "description": "位于新置路32号旁边(大石地铁站C口步行320米)",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楼热火锅",
+    "city": "广州",
+    "category": "food",
+    "description": "位于南村镇登云大路2号之三120房至125房",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "橙子酒店(迎龙路)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于迎龙路180号(龙洞巨幕影城斜对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欧记大排档·江西景德菜(广州首店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于体育东路41号(体育中心地铁站D3口步行470米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正果兰溪兰一坊别墅民宿",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于正果镇兰溪村山塘路1号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(广州时尚天河店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于天河路299号时尚天河商业广场时尚天河B1东一街036号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民记煲仔饭(体育西二店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于广利路80号(体育西路地铁站G口步行230米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民记煲仔饭(北京路店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于惠福东路452号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永庆坊",
+    "city": "广州",
+    "category": "attraction",
+    "description": "永庆坊位于广州市荔湾区恩宁路，是广州最具代表性的历史文化街区之一，融合了岭南建筑、老城风情与现代文创，被誉为\"广州最美老街\"。这里保留了大量西关大屋、骑楼等传统建筑，同时引入了许多特色小店、咖啡馆和艺术空间，是游客体验广府文化、品味老广生活的必到之处。",
+    "tags": [
+      "风景名胜",
+      "广州",
+      "历史文化街区"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "永庆坊",
+    "city": "广州",
+    "category": "attraction",
+    "description": "永庆坊，位于恩宁路99号，荔湾区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永庆坊",
+    "city": "广州",
+    "category": "attraction",
+    "description": "永庆坊，位于恩宁路99号，荔湾区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永庆坊",
+    "city": "广州",
+    "category": "attraction",
+    "description": "永庆坊，位于恩宁路99号，荔湾区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永庆坊",
+    "city": "广州",
+    "category": "attraction",
+    "description": "永庆坊位于广州市荔湾区恩宁路，是广州最具代表性的历史文化街区之一，融合了岭南建筑、老城风情与现代文创，被誉为\"广州最美老街\"。这里保留了大量西关大屋、骑楼等传统建筑，同时引入了许多特色小店、咖啡馆和艺术空间，是游客体验广府文化、品味老广生活的必到之处。",
+    "tags": [
+      "风景名胜",
+      "广州",
+      "历史文化街区"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "永庆坊",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于恩宁路99号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沐枫精选(广州大学城店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于小谷围街道南亭村松山街4号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙头夜市",
+    "city": "广州",
+    "category": "food",
+    "description": "位于禺山西路108号",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙涌北牌坊",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于三元里大道",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙湾古镇",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于福北路2号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙湾古镇-亭子",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于沙湾镇北村沙湾古镇内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙湾古镇-何树享住宅",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于福北路2号沙湾古镇(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙湾古镇-何炳林故居",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于安宅里1号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙湾古镇-珠海何公祠",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于沙湾镇鹤鸣街14号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙湾古镇-碑刻",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于福北路2号沙湾古镇(东北角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙湾古镇-福堂祖",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于沙湾镇安宁西街12号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙湾古镇-镇南祠",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于沙湾镇安宁西街20号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙面公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于沙面南街3号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙面岛",
+    "city": "广州",
+    "category": "attraction",
+    "description": "沙面岛是广州著名的风景名胜区，位于荔湾区，岛上建筑风格独特，环境优美。",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "沙面岛",
+    "city": "广州",
+    "category": "attraction",
+    "description": "沙面岛，位于沙面南街52号，荔湾区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙面岛",
+    "city": "广州",
+    "category": "attraction",
+    "description": "沙面岛，位于沙面南街52号，荔湾区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙面岛",
+    "city": "广州",
+    "category": "attraction",
+    "description": "沙面岛，位于沙面南街52号，荔湾区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙面岛",
+    "city": "广州",
+    "category": "attraction",
+    "description": "沙面岛是广州著名的风景名胜区，位于荔湾区，岛上建筑风格独特，环境优美。",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "沙面岛",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于沙面南街52号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙面旅游区-沙面建筑群",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于白鹅潭北岸沙面旅游区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泰华商务酒店(朱村地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于朱村大道中262号(近地铁21号线朱村站c出口)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泰美丽泰式小馆(北京路五月花店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于中山五路68号五月花商业广场F3层",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洛溪食街",
+    "city": "广州",
+    "category": "food",
+    "description": "位于北环路",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪桥街科普文化宣传广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于小北路豆腐寮小区东北(越秀公园附近)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "流浪泡泡·破破烂烂的烤肉店(北京路五月花店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于中山五路68号五月花商业广场F5层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "流花中心南广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于流花路与人民北路交叉口东北140米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "流花湖公园",
@@ -103,67 +3799,394 @@
       "休闲",
       "湖泊"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "1-2小时",
     "openTime": "06:00-22:00",
     "rating": 4.3
   },
   {
-    "name": "沙面岛",
+    "name": "流花湖公园",
     "city": "广州",
     "category": "attraction",
-    "description": "沙面岛是广州著名的风景名胜区，位于荔湾区，岛上建筑风格独特，环境优美。",
+    "description": "流花湖公园，位于东风西路163号，越秀区，类型公园广场 公园。",
     "tags": [
-      "风景名胜"
-    ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "全天开放",
-    "rating": 4.5
-  },
-  {
-    "name": "广州兰圃",
-    "city": "广州",
-    "category": "attraction",
-    "description": "广州兰圃位于广州市越秀区，是一个以兰花为主题的专类公园，园内收集了众多兰花品种，环境清幽。",
-    "tags": [
-      "风景名胜",
       "公园广场",
       "公园"
     ],
-    "avgCost": 20,
-    "duration": "1.5小时",
-    "openTime": "08:00-17:00",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "流花湖公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "流花湖公园，位于东风西路163号，越秀区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "流花湖公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "流花湖公园，位于东风西路163号，越秀区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "流花湖公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "流花湖公园是广州越秀区的一个大型综合性公园，以湖光花影为特色，园内植被茂盛，有多个主题景区，适合休闲散步和亲子游玩。",
+    "tags": [
+      "公园",
+      "风景名胜",
+      "休闲",
+      "湖泊"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "06:00-22:00",
     "rating": 4.3
   },
   {
-    "name": "永庆坊",
+    "name": "流花湖公园",
     "city": "广州",
     "category": "attraction",
-    "description": "永庆坊位于广州市荔湾区恩宁路，是广州最具代表性的历史文化街区之一，融合了岭南建筑、老城风情与现代文创，被誉为\"广州最美老街\"。这里保留了大量西关大屋、骑楼等传统建筑，同时引入了许多特色小店、咖啡馆和艺术空间，是游客体验广府文化、品味老广生活的必到之处。",
+    "description": "位于东风西路163号",
     "tags": [
-      "风景名胜",
-      "广州",
-      "历史文化街区"
+      "110101"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "广州仔潮汕仔特色店(广州总店)",
+    "name": "流花湖公园-东北门广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于东风西路163号流花湖公园(东北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "流花湖公园-蒲林广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于流花路100号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "流花西苑",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于流花路88号(彩虹桥地铁站H口步行480米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞大排档火锅(番禺万达店)",
     "city": "广州",
     "category": "food",
-    "description": "广州仔潮汕仔特色店(广州总店)位于广州天河区，是一家以潮汕菜为特色的中餐厅，提供正宗潮汕美食。",
+    "description": "位于南村镇汉溪大道东381号番禺万达广场外围沿万达1号门名创优品前行50米",
     "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(佳兆业广场店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于体育西路191号石化大厦4楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(北京路店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于中山四路395号5楼(公园前地铁站出入口步行220米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(琶洲万胜围脆鲩鱼主题店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于新港东路1222号万胜广场6楼601号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(颐高广场店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于天河路490号壬丰大厦颐高数码广场4层1号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海门鱼仔店(珠江新城店)",
+    "city": "广州",
+    "category": "food",
+    "description": "海门鱼仔店是广州一家知名潮汕菜餐厅，以新鲜海鲜和潮汕特色菜肴闻名。",
+    "tags": [
+      "中餐厅",
       "潮汕菜",
+      "海鲜"
+    ],
+    "avgCost": 120.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "海门鱼仔店(珠江新城店)",
+    "city": "广州",
+    "category": "food",
+    "description": "海门鱼仔店(珠江新城店)，位于猎德大道26号珠江道商业广场，天河区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
       "中餐厅"
     ],
-    "avgCost": 80,
-    "duration": "1.5小时",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海门鱼仔店(珠江新城店)",
+    "city": "广州",
+    "category": "food",
+    "description": "海门鱼仔店(珠江新城店)，位于猎德大道26号珠江道商业广场，天河区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海门鱼仔店(珠江新城店)",
+    "city": "广州",
+    "category": "food",
+    "description": "海门鱼仔店(珠江新城店)，位于猎德大道26号珠江道商业广场，天河区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海门鱼仔店(珠江新城店)",
+    "city": "广州",
+    "category": "food",
+    "description": "海门鱼仔店是广州一家知名潮汕菜餐厅，以新鲜海鲜和潮汕特色菜肴闻名。",
+    "tags": [
+      "中餐厅",
+      "潮汕菜",
+      "海鲜"
+    ],
+    "avgCost": 120.0,
+    "duration": "1-2小时",
     "openTime": "11:00-14:00,17:00-21:00",
-    "rating": 4.2
+    "rating": 4.3
+  },
+  {
+    "name": "海鸥岛",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于石楼镇海鸥公路",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海鸥岛渔人码头公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于东郊(石楼镇东部、地处珠江入海口、面临狮子洋)海鸥岛内(北侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清湖牌坊",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于清湖牌坊路",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖畔豪庭客栈(广州南站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于广州南站附近的湖畔豪庭客栈，提供舒适的住宿服务，周边环境宁静。",
+    "tags": [
+      "住宿",
+      "客栈",
+      "广州南站"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "湖畔豪庭客栈(广州南站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "湖畔豪庭客栈(广州南站店)，位于石壁街韦涌村环塘街26号之2号，番禺区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖畔豪庭客栈(广州南站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "湖畔豪庭客栈(广州南站店)，位于石壁街韦涌村环塘街26号之2号，番禺区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖畔豪庭客栈(广州南站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "湖畔豪庭客栈(广州南站店)，位于石壁街韦涌村环塘街26号之2号，番禺区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖畔豪庭客栈(广州南站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于广州南站附近的湖畔豪庭客栈，提供舒适的住宿服务，周边环境宁静。",
+    "tags": [
+      "住宿",
+      "客栈",
+      "广州南站"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "湖畔豪庭客栈(广州南站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于石壁街韦涌村环塘街26号之2号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘容民宿(南浦综合市场店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于洛浦街沿沙路149号盈邦大厦A栋",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "滋粥楼·顺德菜(南村万博长隆商圈店)",
@@ -176,55 +4199,68 @@
       "中餐厅",
       "广州美食"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "惠食佳(滨江西店)",
+    "name": "滋粥楼·顺德菜(南村万博长隆商圈店)",
     "city": "广州",
     "category": "food",
-    "description": "惠食佳是广州知名的粤菜餐厅，以传统粤菜和生猛海鲜为特色，深受食客喜爱。",
+    "description": "滋粥楼·顺德菜(南村万博长隆商圈店)，位于南村镇兴南大道33号2层，番禺区，类型中餐厅 广东菜(粤菜)。",
     "tags": [
-      "粤菜",
-      "海鲜",
-      "老字号"
-    ],
-    "avgCost": 150,
-    "duration": "2小时",
-    "openTime": "11:00-14:00,17:00-21:00",
-    "rating": 4.5
-  },
-  {
-    "name": "炳胜品味(海印总店)",
-    "city": "广州",
-    "category": "food",
-    "description": "炳胜品味是广州知名的粤菜餐厅，以地道粤菜和精致点心闻名，深受本地食客喜爱。",
-    "tags": [
-      "粤菜",
-      "老字号",
-      "海珠区"
-    ],
-    "avgCost": 150,
-    "duration": "2小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.5
-  },
-  {
-    "name": "侨美食家(沙面总店)",
-    "city": "广州",
-    "category": "food",
-    "description": "侨美食家(沙面总店)位于广州市荔湾区沙面南街52号，是一家知名中餐厅，以粤菜为主，环境优雅，深受食客喜爱。",
-    "tags": [
-      "粤菜",
       "中餐厅",
-      "沙面"
+      "广东菜(粤菜)"
     ],
-    "avgCost": 120,
-    "duration": "2小时",
-    "openTime": "10:00-22:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滋粥楼·顺德菜(南村万博长隆商圈店)",
+    "city": "广州",
+    "category": "food",
+    "description": "滋粥楼·顺德菜(南村万博长隆商圈店)，位于南村镇兴南大道33号2层，番禺区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滋粥楼·顺德菜(南村万博长隆商圈店)",
+    "city": "广州",
+    "category": "food",
+    "description": "滋粥楼·顺德菜(南村万博长隆商圈店)，位于南村镇兴南大道33号2层，番禺区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滋粥楼·顺德菜(南村万博长隆商圈店)",
+    "city": "广州",
+    "category": "food",
+    "description": "滋粥楼·顺德菜位于广州市番禺区南村镇兴南大道33号2层，是一家专注于传统顺德菜和广东粤菜的中餐厅。餐厅以粥品和经典粤菜为特色，环境优雅，适合家庭聚餐和朋友聚会。",
+    "tags": [
+      "粤菜",
+      "顺德菜",
+      "中餐厅",
+      "广州美食"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
   },
   {
     "name": "滋粥楼·顺德菜(番禺广场总店)",
@@ -237,114 +4273,764 @@
       "粤菜",
       "中餐厅"
     ],
-    "avgCost": 120,
+    "avgCost": 120.0,
     "duration": "1-2小时",
     "openTime": "11:00-14:00,17:00-21:00",
     "rating": 4.5
   },
   {
-    "name": "海门鱼仔店(珠江新城店)",
+    "name": "滋粥楼·顺德菜(番禺广场总店)",
     "city": "广州",
     "category": "food",
-    "description": "海门鱼仔店是广州一家知名潮汕菜餐厅，以新鲜海鲜和潮汕特色菜肴闻名。",
+    "description": "滋粥楼·顺德菜(番禺广场总店)，位于兴泰路239号(番禺广场地铁站E口步行170米)，番禺区，类型中餐厅 广东菜(粤菜)。",
     "tags": [
       "中餐厅",
-      "潮汕菜",
-      "海鲜"
+      "广东菜(粤菜)"
     ],
-    "avgCost": 120,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滋粥楼·顺德菜(番禺广场总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "滋粥楼·顺德菜(番禺广场总店)，位于兴泰路239号(番禺广场地铁站E口步行170米)，番禺区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滋粥楼·顺德菜(番禺广场总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "滋粥楼·顺德菜(番禺广场总店)，位于兴泰路239号(番禺广场地铁站E口步行170米)，番禺区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滋粥楼·顺德菜(番禺广场总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "滋粥楼·顺德菜(番禺广场总店)位于番禺区兴泰路，靠近番禺广场地铁站，是一家以顺德菜为主的知名中餐厅。主打粥底火锅和经典粤菜，口味地道，深受食客喜爱，适合家庭聚餐和朋友聚会。",
+    "tags": [
+      "顺德菜",
+      "粥底火锅",
+      "粤菜",
+      "中餐厅"
+    ],
+    "avgCost": 120.0,
     "duration": "1-2小时",
     "openTime": "11:00-14:00,17:00-21:00",
-    "rating": 4.3
-  },
-  {
-    "name": "多福美食馆·鱼生多福",
-    "city": "广州",
-    "category": "food",
-    "description": "位于广州越秀区司马街32号的多福美食馆，主打鱼生和粤式美食。",
-    "tags": [
-      "中餐厅",
-      "粤菜",
-      "鱼生"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "大鸽饭(岗顶店)",
-    "city": "广州",
-    "category": "food",
-    "description": "大鸽饭(岗顶店)位于天河区天河路633号桔子酒店3层，是一家以广东菜(粤菜)为主的中餐厅，主打鸽饭等特色菜品。",
-    "tags": [
-      "中餐厅",
-      "广东菜",
-      "粤菜"
-    ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "11:00-14:30,17:00-21:30",
-    "rating": 4.3
-  },
-  {
-    "name": "侨美食家(珠江新城店)",
-    "city": "广州",
-    "category": "food",
-    "description": "侨美食家是广州知名的粤菜餐厅，位于珠江新城兴盛路，提供正宗广东菜。",
-    "tags": [
-      "粤菜",
-      "中餐厅",
-      "珠江新城"
-    ],
-    "avgCost": 150,
-    "duration": "1.5小时",
-    "openTime": "11:00-14:30,17:00-21:30",
     "rating": 4.5
   },
   {
-    "name": "广州顺发旅馆火车站",
+    "name": "滨寿司(广州五月花店)",
     "city": "广州",
-    "category": "hotel",
-    "description": "广州顺发旅馆火车站位于广州越秀区矿泉街道站西路87号骏马商务大楼4层，提供住宿服务。",
+    "category": "food",
+    "description": "位于中山五路68号负一层(公园前地铁站E出口步行120米)",
     "tags": [
-      "旅馆",
-      "招待所"
+      "050202"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "荔明宾馆(广州新塘地铁站新塘高铁站店)",
+    "name": "潇湘客栈(太和金铂广场天地店)",
     "city": "广州",
     "category": "hotel",
-    "description": "荔明宾馆位于广州市增城区新塘镇富丽路45号，靠近新塘地铁站和新塘高铁站，提供住宿服务。宾馆内设有旅馆招待所和宾馆酒店设施，适合商务和旅行客人。",
+    "description": "位于太和兴太一路91号",
     "tags": [
-      "住宿服务",
-      "旅馆招待所",
-      "宾馆酒店"
+      "100000"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "湖畔豪庭客栈(广州南站店)",
+    "name": "潭洲市场灯光夜市(沃美百货店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于欣荣路89号",
+    "tags": [
+      "060700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潮发潮汕牛肉店(万博敏捷广场店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于番禺大道北331号敏捷广场敏捷R7栋L2层205商铺地铁7/18号线南村万博站A口步行270m",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潮发潮汕牛肉店(北京路店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于珠光路201-203号(北京路地铁站A出口南行60米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灯光夜市(盈中路店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于盈翠路与盈中路交叉口东60米",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "炭步圩夜市街",
+    "city": "广州",
+    "category": "food",
+    "description": "位于南街路与繁华路交叉口南20米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "炳胜品味(海印总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "炳胜品味是广州知名的粤菜餐厅，以地道粤菜和精致点心闻名，深受本地食客喜爱。",
+    "tags": [
+      "粤菜",
+      "老字号",
+      "海珠区"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "炳胜品味(海印总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "炳胜品味(海印总店)，位于东晓路33号，海珠区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "炳胜品味(海印总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "炳胜品味(海印总店)，位于东晓路33号，海珠区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "炳胜品味(海印总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "炳胜品味(海印总店)，位于东晓路33号，海珠区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "炳胜品味(海印总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "炳胜品味是广州知名的粤菜餐厅，以地道粤菜和精致点心闻名，深受本地食客喜爱。",
+    "tags": [
+      "粤菜",
+      "老字号",
+      "海珠区"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "炳胜私厨(中达旗舰店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于兴国路21号保利中达广场201",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "点都德(北京路贰店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于北京路352、354号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "炽昌堂",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于福北路2号沙湾古镇(东北角)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "热水阁农家客栈",
     "city": "广州",
     "category": "hotel",
-    "description": "位于广州南站附近的湖畔豪庭客栈，提供舒适的住宿服务，周边环境宁静。",
+    "description": "位于派潭镇达开北路58号",
     "tags": [
-      "住宿",
-      "客栈",
-      "广州南站"
+      "100200"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "24小时",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熹愉精品公寓(广州白云机场店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于人和村暹边街四巷2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱尚公寓(广州天河珠吉路店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于珠吉街道吉山新路街87号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛一安格斯牛扒(府前大楼店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于北京街道街府前路15号",
+    "tags": [
+      "050211"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狮岭夜市街",
+    "city": "广州",
+    "category": "food",
+    "description": "位于狮岭东升商业步行街2-17号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珍珍小食店(西华路)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于西华路183号1层(彩虹桥地铁站A口步行190米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠村牌坊",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于珠村brt鸿宇广场左边就是南门社新街28号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珠江夜游(天字码头)",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于沿江中路200号省总工会对面(解放桥西侧100米处)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瓜岭古村落",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于瓜岭村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "田美夜市好吃街",
+    "city": "广州",
+    "category": "food",
+    "description": "位于碧秀路自编101号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "番禺南村牌坊",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于南村镇市新路",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "登巴客栈(广州上下九步行街店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于观绿路11号(光塔派出所斜对面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "登巴客栈(广州中山大学店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于江怡路299号新凤凰",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百花古寺",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于九丰路63号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛香亭新式热卤(动漫星城店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于吉祥路1号地下一层102(广州动漫星城广场西区负一层)自编1WS017D",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛香亭转转热卤(天河智慧城广百广场店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于华观路1932号B114,B115铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛香亭转转热卤(广州海珠中大城市之丘店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于中大门城市之丘东1507号铺(中大地铁站C1口旁)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "矿泉山庄",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于沙田帽峰路603号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祈福新邨度假俱乐部(祈福酒店西南)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于市广路8号祈福新村内(市广路地铁站B口步行400米)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "禄运茶居·手工点心(体育西店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于六运一街17号文昌商务楼1-3层(六运幼儿园旁近天环广场)",
+    "tags": [
+      "050600"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福星租房(石井地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于石井镇红星村文昌街4号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "禧缘金宴(解放北路店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于解放北路603号(公园前地铁站I2口步行320米)",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "禾府酒家(员岗店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于南村镇兴南大道389号106",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "穗丰生态度假山庄",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于太和镇穗丰村罗布洞路23号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "第一岭私厨",
+    "city": "广州",
+    "category": "food",
+    "description": "位于琶洲大道华新中心三楼",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米庄·囍宴私房菜(鹤洞店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于鹤洞路12号D101D201",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "粤剧艺术博物馆",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于恩宁路127号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "粤海关",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于岭南街道沿江西路29号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "粤陈记·煲仔粥(天河南二路店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于天河南二路19-21号宏发大厦首层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "粤陈记·煲仔粥(白云三元里店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于三元里大道268号102房自编1L-08-01单元",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "粤陈记·煲仔粥(荔湾陈家祠店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于中山七路333号(陈家祠地铁站A口步行170米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "粤陈记煲仔粥(天河棠东店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于泰安北路13号101铺(棠东地铁站D出口右后方)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "粤陈记煲仔粥(番禺总店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于金欧大道善学青创园20号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红星夜市美食广场",
+    "city": "广州",
+    "category": "food",
+    "description": "位于石岑路39号101室(石井地铁站B口步行300米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿茶餐厅(广州越秀五月花店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于中山五路68号五月花商场5楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美悦轻居(广州庆达广场钟落潭地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于福龙路5号105号商铺",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老地方优选公寓(香雪地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于萝塱路五巷2号(近香雪地铁站E出口)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老表坊-江西小炒",
+    "city": "广州",
+    "category": "food",
+    "description": "位于尖彭路10号101铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "耐斯顿公寓(广州南站店)",
@@ -356,10 +5042,158 @@
       "广州南站",
       "番禺区"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "00:00-24:00",
-    "rating": 0
+    "rating": 0.0
+  },
+  {
+    "name": "耐斯顿公寓(广州南站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "耐斯顿公寓(广州南站店)，位于韦涌村田心大街七巷一号，番禺区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "耐斯顿公寓(广州南站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "耐斯顿公寓(广州南站店)，位于韦涌村田心大街七巷一号，番禺区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "耐斯顿公寓(广州南站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "耐斯顿公寓(广州南站店)，位于韦涌村田心大街七巷一号，番禺区，类型住宿服务相关 住宿服务相关。",
+    "tags": [
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "耐斯顿公寓(广州南站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "耐斯顿公寓位于广州南站附近，提供舒适的住宿环境。",
+    "tags": [
+      "公寓",
+      "广州南站",
+      "番禺区"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "00:00-24:00",
+    "rating": 0.0
+  },
+  {
+    "name": "耐斯顿公寓(广州南站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于韦涌村田心大街七巷一号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚芳园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于麓湖公园",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(远景店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于远景路172号时代新都会首、二层肯德基",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胜安饭店(广东环保大厦店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于东风中路331号德源里1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舒心客栈(天河客运站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于上元岗西街2号(零食有鸣零食店同栋,元岗医院东100米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "艺龙瑞云酒店(广州东汇城万达广场店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于荔城街荔乡路68号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芙蓉度假村",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于狮岭山前大道",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "苏豪酒店(广州北京路团一大广场地铁站店)",
@@ -372,9 +5206,926 @@
       "商务",
       "旅游"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "住一晚",
     "openTime": "24小时",
     "rating": 4.0
+  },
+  {
+    "name": "苏豪酒店(广州北京路团一大广场地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "苏豪酒店(广州北京路团一大广场地铁站店)，位于越秀南路30号(团一大广场地铁站A口步行180米)，越秀区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苏豪酒店(广州北京路团一大广场地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "苏豪酒店(广州北京路团一大广场地铁站店)，位于越秀南路30号(团一大广场地铁站A口步行180米)，越秀区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苏豪酒店(广州北京路团一大广场地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "苏豪酒店(广州北京路团一大广场地铁站店)，位于越秀南路30号(团一大广场地铁站A口步行180米)，越秀区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苏豪酒店(广州北京路团一大广场地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "苏豪酒店位于广州市越秀区越秀南路，靠近团一大广场地铁站，交通便利，周边有北京路步行街等景点，是商务和旅游的理想选择。酒店提供舒适的住宿环境和完善的设施。",
+    "tags": [
+      "酒店",
+      "广州越秀",
+      "商务",
+      "旅游"
+    ],
+    "avgCost": 0.0,
+    "duration": "住一晚",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "苏豪酒店(广州北京路团一大广场地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于越秀南路30号(团一大广场地铁站A口步行180米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荔园山庄",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于S378高速路出口新口味农庄旁",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荔明优客酒店(广州增城挂绿广场店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于荔城大道8号(近挂绿广场)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荔明宾馆(广州新塘地铁站新塘高铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "荔明宾馆位于广州市增城区新塘镇富丽路45号，靠近新塘地铁站和新塘高铁站，提供住宿服务。宾馆内设有旅馆招待所和宾馆酒店设施，适合商务和旅行客人。",
+    "tags": [
+      "住宿服务",
+      "旅馆招待所",
+      "宾馆酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "荔明宾馆(广州新塘地铁站新塘高铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "荔明宾馆(广州新塘地铁站新塘高铁站店)，位于新塘镇富丽路45号，增城区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荔明宾馆(广州新塘地铁站新塘高铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "荔明宾馆(广州新塘地铁站新塘高铁站店)，位于新塘镇富丽路45号，增城区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荔明宾馆(广州新塘地铁站新塘高铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "荔明宾馆(广州新塘地铁站新塘高铁站店)，位于新塘镇富丽路45号，增城区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荔明宾馆(广州新塘地铁站新塘高铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "荔明宾馆位于广州市增城区新塘镇富丽路45号，靠近新塘地铁站和新塘高铁站，提供住宿服务。宾馆内设有旅馆招待所和宾馆酒店设施，适合商务和旅行客人。",
+    "tags": [
+      "住宿服务",
+      "旅馆招待所",
+      "宾馆酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "荔湾博物馆",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于逢源北街84号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荔湾湖公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于龙津西路155号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花山休假村",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于莲花山利丰大道16号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花山旅游区",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于西门路123号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花渡假山庄酒店",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于鲤鱼岗路5号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萨莉亚意式餐厅(五月花商业广场店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于中山五路五月花商业广场负1楼",
+    "tags": [
+      "050205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛮涮自助小火锅·糖水铺子集合店(海珠万达店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于逸景路海珠万达广场4层",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "裕豪主题式公寓(广州南沙塘坑地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于环市大道西134号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西华路夜市",
+    "city": "广州",
+    "category": "food",
+    "description": "位于西华路与和安街交叉口东50米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西汉南越王博物馆",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于象岗山与解放北路辅路交叉口西北140米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赛楠酒店(广州西华路陈家祠地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于荔湾路78号(陈家祠地铁F出口步行480米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "越秀公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "越秀公园是广州最大的综合性公园，拥有五羊石像、镇海楼等著名景点。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "06:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "越秀公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "越秀公园，位于解放北路988号，越秀区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "越秀公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "越秀公园，位于解放北路988号，越秀区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "越秀公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "越秀公园，位于解放北路988号，越秀区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "越秀公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "越秀公园是广州最大的综合性公园，拥有五羊石像、镇海楼等著名景点。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "06:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "越秀公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于解放北路988号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "越秀公园-正门广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于洪桥街道解放北路988号越秀公园(西北角)",
+    "tags": [
+      "120304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "越秀公园-越秀山",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于解放北路988号越秀公园",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辽邴家辽A东北夜市",
+    "city": "广州",
+    "category": "food",
+    "description": "位于远景路88号远景花园停车场门口",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "过楼热大排档(万博店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于南村镇汇智一路8号106-109铺锦麟万博一楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邑家人·岭南四合院",
+    "city": "广州",
+    "category": "food",
+    "description": "位于105国道谢村路段3号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金港酒店(广州南沙进港大道店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于金洲进港路117号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金鑫公寓(广州香雪地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于萝塱路27号(近香雪地铁站E出口、宝能演艺中心)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫华酒店(广州西门口地铁站西华路店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于西华路393号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钟新公寓(广州钟村地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于钟村街钟新路4号钟新公寓",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铭少·食鸡专门店(北京路店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于文明路8号宝升大厦2楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银城酒店(广州花都店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于秀全街广杨庄前街2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银灯食府(丽丰国际中心店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于解放南路33号丽丰国际中心3楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银记肠粉(北京路店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于惠福东路519号(北京路地铁站B口步行490米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银记肠粉店(百灵分店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于百灵路86号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长洲岛",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于长江路28号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长洲文化旅游度假村",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于海洋路1号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长隆旅游度假区",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于兴边街与海堤路交叉口西南180米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长隆欢乐世界",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于汉溪大道299号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长隆水上乐园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于汉溪大道299号",
+    "tags": [
+      "080505"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长隆野生动物世界",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于大石街道",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长隆飞鸟乐园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于大石镇大边村石北大道",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈家祠东广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于中山七路304-2号(地铁1,8号线陈家祠站D出口旁)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈家祠广场",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于中山七路恩龙里34号(陈家祠地铁站D口步行90米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陶陶居酒家(丽影广场店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于新港中路352号丽影广场C区三楼306",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陶陶居酒家(解放北路店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于解放北路801号桂冠大厦二楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雅尚电竞酒店(广州南沙大岗店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于繁荣路9号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "韩国园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于解放北路988号越秀公园(西北角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺得来(中山五路店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于中山五路68号(五月花广场后面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马一家东北家常菜(百汇广场店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于大丰窝美食广场(百汇广场店)(公园前地铁站B2口旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麓湖公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于登峰街道云山南路白云山风景区",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(今日广场店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于体育西路79-83号今日广场1-2层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(动漫星城店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于吉祥路1号广州动漫星城B1层(公园前地铁站出入口旁)",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(广州交易广场店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于北京街道东风中路268号广州交易广场F1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄埔军校旧址纪念馆",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于军校路170号大院",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄埔区谷丰园渡假村",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于丰彩街33号附近",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄花岗公园",
+    "city": "广州",
+    "category": "attraction",
+    "description": "位于先烈中路79号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙城主题公寓(龙归地铁站店)",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于太和镇鹤龙四路83号(龙归地铁站B2口步行330米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙庭琇厨(珠江国际大厦店)",
+    "city": "广州",
+    "category": "food",
+    "description": "位于越华路112号珠江国际大厦4楼",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙林度假邨",
+    "city": "广州",
+    "category": "hotel",
+    "description": "位于化龙镇龙津路10号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙洞商业步行街",
+    "city": "广州",
+    "category": "food",
+    "description": "位于天源路龙洞又一城旁",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

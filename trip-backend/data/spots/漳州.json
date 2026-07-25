@@ -1,0 +1,782 @@
+[
+  {
+    "name": "PINGYUAN平原·汤咖喱",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于大同路与胜利西路交叉口北260米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世纪广场",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于南昌路",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东山裕兴宾馆",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于铜陵镇龙潭街营前区482号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云水谣圆楼客栈(云水谣景区店)",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于云水谣古镇-怀远楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "优家酒店(漳州古城店)",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于天下广场美食街A1幢12号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伟记牛肉馆(大通北路和平里总店)",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于大通北路和平里21栋底商(一品鲜粥隔壁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳德饭店(芝山路店)",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于芝山路金湖村湖内29-2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "供联宾馆(供销宾馆店)",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于人民路137号(土楼专线车站对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "信华-元气99(大通北店)",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于大通北路41-15至17号店",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六煌记诏安鲜牛馆(延安店)",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于延安北路40号41-43号店铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "再回闽南",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于炮仔街与北京路交叉口东60米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "利群宾馆(平和车站店)",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于小溪镇灵通村16号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千叶咖喱(漳州芗城区)",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于大通北路58-10号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南山禅寺",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于双庵路11号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南楼笑(土楼客家菜)-古城店",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于佳苑花园2期西门北50米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(漳州市瑞京路店)",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于瑞京路93-9号和93-10号店",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天主堂",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于芳华北路20号",
+    "tags": [
+      "110206"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如家公寓(福家园店)",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于胜利东路福家园1105号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "威镇阁",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于新华南路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "客家楼(大通北店)",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于大通北路51号芝山小楼1-2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小东北水饺",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于91-20",
+    "tags": [
+      "050113"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "建国蚵煎蚵面",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于新华西路239号第6.7(近中山公园西大门)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德发宾馆(漳州吾悦店)",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于腾飞路229号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文昌门",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于新华西路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江滨公园",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于江滨路厦门路与解放路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "满香舒·漳州小馆(学生街店)",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于县后路(学生街)9-10号店面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漳州365快捷酒店",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于胜利东路30-5号金河广场9层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漳州三馆",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于琥珀路10-11号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漳州六六达商务宾馆",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于漳华路与北环交界处北200米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漳州古城",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于北京路与新华西路交叉路口往南约200米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漳州古城-中山公园",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于新华西路182号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漳州古城西门广场",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于振成巷与钟法路交叉口东南40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漳州宜居宾馆(古城店)",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于元光南路1号1栋2层(水立方国际会所对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漳州市博物馆",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于蜈蚣山路与琥珀路交叉口",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漳州文庙",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于修文西路2号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漳州石牌坊",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于西桥街道西桥街道香港路181号之一",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灵通宾馆(鸿西路)",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于鸿东路181-182号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百花村",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于长福村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碧湖生态公园",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于江滨路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "章记美味鸡饭(通北店)",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于大通北路北桥新村11幢8号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老茶头牛腩煲(钟法店)",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于钟法店3-3号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芙蓉农家饭店",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于云水谣景区坎下村上南72号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芝山公园",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于大通北路55-14旧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西溪亲水公园",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于江滨路10号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诏之味羊肉馆诏安菜馆(将军花园店)",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诏安漳州星冠商务旅馆",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于闽粤综合市场1幢16号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长泰东园宾馆",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于建设北路45号3层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长泰佳旅宾馆",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于兴泰西路果蔬市场旁边",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长泰冠合商务宾馆",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于鹤亭村南坂社口",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长泰港湾宾馆(长泰哈啰广场店)",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于锦都路乐丫丫食品公司对面",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闽南水乡",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于蓝田街道水仙大街与石仓南路交叉口",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿芳卤面(瑞京花园店)",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于建设路5号瑞京花园9幢16号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿蛤正宗洋老洲卤面",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于大通北路和平里5号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "食野SAYYEAH创意轻食",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于芝山路与胜利西路交叉口北380米",
+    "tags": [
+      "050120"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "首尔大排挡(胜利西路店)",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于胜利西路12-2号",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(漳州麦当劳胜利西路餐厅)",
+    "city": "漳州",
+    "category": "food",
+    "description": "位于胜利西路68号新玑广场一楼",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙江岁月",
+    "city": "漳州",
+    "category": "attraction",
+    "description": "位于南江滨路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙海广泽旅馆",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于人民西路76号10号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙海悦来登酒店",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于角美镇龙田村龙田435号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙海龙山旅馆",
+    "city": "漳州",
+    "category": "hotel",
+    "description": "位于角海路德邦物流东行50米(丰泰财富广场东侧)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

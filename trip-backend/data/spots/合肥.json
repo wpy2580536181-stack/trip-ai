@@ -1,18 +1,1409 @@
 [
   {
-    "name": "安徽博物院",
+    "name": "OYO家慧宾馆(合肥和平路市二院店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于和平路165号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一味清歡·觀園",
+    "city": "合肥",
+    "category": "food",
+    "description": "地址：中海央墅环宇天地西出入口旁，区域：包河区，类型：餐饮服务;中餐厅;中餐厅",
+    "tags": [],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "一味清歡·觀園",
+    "city": "合肥",
+    "category": "food",
+    "description": "一味清歡·觀園，位于中海央墅环宇天地西出入口旁，包河区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一味清歡·觀園",
+    "city": "合肥",
+    "category": "food",
+    "description": "一味清歡·觀園，位于中海央墅环宇天地西出入口旁，包河区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一味清歡·觀園",
+    "city": "合肥",
+    "category": "food",
+    "description": "一味清歡·觀園，位于中海央墅环宇天地西出入口旁，包河区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一味清歡·觀園",
+    "city": "合肥",
+    "category": "food",
+    "description": "地址：中海央墅环宇天地西出入口旁，区域：包河区，类型：餐饮服务;中餐厅;中餐厅",
+    "tags": [],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "丁姐鸭血粉丝",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于益民街与舒城路交叉口西北50米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七十七号家宴(佳源店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "七十七号家宴(佳源店)位于合肥市包河区佳源小区，是一家以家常菜和家宴为主的中餐厅，环境优雅，适合家庭聚餐。",
+    "tags": [
+      "中餐",
+      "家宴",
+      "合肥"
+    ],
+    "avgCost": 80.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "七十七号家宴(佳源店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "七十七号家宴(佳源店)，位于湖北路与长沙路交口西南角佳源小区1幢1号，包河区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七十七号家宴(佳源店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "七十七号家宴(佳源店)，位于湖北路与长沙路交口西南角佳源小区1幢1号，包河区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七十七号家宴(佳源店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "七十七号家宴(佳源店)，位于湖北路与长沙路交口西南角佳源小区1幢1号，包河区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七十七号家宴(佳源店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "七十七号家宴(佳源店)位于合肥市包河区佳源小区，是一家以家常菜和家宴为主的中餐厅，环境优雅，适合家庭聚餐。",
+    "tags": [
+      "中餐",
+      "家宴",
+      "合肥"
+    ],
+    "avgCost": 80.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "三河古镇",
     "city": "合肥",
     "category": "attraction",
-    "description": "安徽博物院是安徽省最大的综合性博物馆，位于合肥市蜀山区怀宁路87号，馆藏丰富，包括青铜器、陶瓷、书画等珍贵文物，展示了安徽悠久的历史文化。",
+    "description": "位于三河镇三杭路",
     "tags": [
-      "博物馆",
-      "科教文化",
-      "安徽历史"
+      "110202"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下沉广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于荷叶地街道政务区潜山路与高河东路交叉口绿地蓝海大厦c座",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "不给叫美蛙鱼头丨酸汤鲜牛肉火锅(六安路店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于六安路安庆路116号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "不给叫美蛙鱼头丨酸汤鲜牛肉火锅(政务区店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于天鹅湖万达金街特步2层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "与梦同居宾馆(华南城店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于华南城紫荆名都四期锦园22栋2001室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "严大头牛杂馆(徽昌苑店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于滨湖世纪城徽昌苑33栋商118号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国科学技术大学东校区郭沫若广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于金寨路96号中国科学技术大学(本部东校区)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中庙寺",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于巢湖国家重点风景名胜区",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云边小栈公寓(安徽医科大学第一附属医院高新院区店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于喜尔美大厦909室",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光辉宾馆(大学城店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于经济技术开发区丹霞路与翡翠路交口天时广场B2-106号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "全好食潮汕牛肉火锅(泗洲路店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于泗州路芳邻家园1幢",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴园北区广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于高新技术产业开发区银杏路20号兴园北区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凡爱客民宿(龙湾路分店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于芙蓉社区翡翠路3698号天时广场1804号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤曦府公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于祁门路298号(天鹅湖东地铁站D口步行180米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刀板香·徽菜餐厅(长江东路店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "刀板香·徽菜餐厅(长江东路店)是合肥一家以徽菜为特色的中餐厅，提供正宗徽州风味菜肴，环境优雅，适合聚会和宴请。",
+    "tags": [
+      "徽菜",
+      "中餐厅",
+      "合肥美食"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "刀板香·徽菜餐厅(长江东路店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "刀板香·徽菜餐厅(长江东路店)，位于长江东路1137号圣大国际商贸中心3幢3-201，瑶海区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刀板香·徽菜餐厅(长江东路店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "刀板香·徽菜餐厅(长江东路店)，位于长江东路1137号圣大国际商贸中心3幢3-201，瑶海区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刀板香·徽菜餐厅(长江东路店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "刀板香·徽菜餐厅(长江东路店)，位于长江东路1137号圣大国际商贸中心3幢3-201，瑶海区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刀板香·徽菜餐厅(长江东路店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "刀板香·徽菜餐厅(长江东路店)是合肥一家以徽菜为特色的中餐厅，提供正宗徽州风味菜肴，环境优雅，适合聚会和宴请。",
+    "tags": [
+      "徽菜",
+      "中餐厅",
+      "合肥美食"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "包公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于芜湖路72号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华仑文化广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于海恒社区始信路183号",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华祥宾馆(合肥望江西路店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "协鑫广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于潜山路辅路与万佛湖路交叉口西南80米",
+    "tags": [
+      "120000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南站宾馆(合肥南站店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于常青街道美丹路梅兰家园1栋202室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南艳湖公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于习友路与观海路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古逍遥津",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于寿春路16号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合柴1972",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "合柴1972是国内首个由监狱旧址改造的文创园，保留工业建筑风格，融合艺术展览、创意市集、咖啡书店等业态，是合肥热门的打卡地。",
+    "tags": [
+      "文创园",
+      "工业遗址",
+      "艺术展览"
+    ],
+    "avgCost": 0.0,
     "duration": "2-3小时",
-    "openTime": "09:00-17:00（周一闭馆）",
-    "rating": 4.6
+    "openTime": "09:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "合柴1972",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "合柴1972，位于金寨南路310号，包河区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合柴1972",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "合柴1972，位于金寨南路310号，包河区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合柴1972",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "合柴1972，位于金寨南路310号，包河区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合柴1972",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "合柴1972是国内首个由监狱旧址改造的文创园，保留工业建筑风格，融合艺术展览、创意市集、咖啡书店等业态，是合肥热门的打卡地。",
+    "tags": [
+      "文创园",
+      "工业遗址",
+      "艺术展览"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "09:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "合柴1972",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于金寨南路310号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥520我爱你主题公寓酒店(火车站信地广场店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于信地·城市广场3号楼13层1301室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥乐都运宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于黄山路403号(近合肥学院、中科大)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥体育中心北广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于习友路附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥华盛雅地公寓(合肥南站店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于骆岗街道繁华大道6525号华盛格林雅地A座1102",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥华路宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥华路宾馆位于合肥市包河区九华山路7号，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "合肥华路宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥华路宾馆，位于九华山路7号，包河区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥华路宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥华路宾馆，位于九华山路7号，包河区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥华路宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥华路宾馆，位于九华山路7号，包河区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥华路宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥华路宾馆位于合肥市包河区九华山路7号，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "合肥华路宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于九华山路7号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥南国旅馆(北一环路店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于南国城市花园2栋210单元",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥双福宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于磨店街道文忠路文忠苑23幢304室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥君安精品酒店",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于大通路34号(铜陵路西侧)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥园博园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于骆岗生态公园",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥园博园安徽园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于庐州大道4号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥安超宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥安超宾馆位于合肥市蜀山区绩溪路金溪苑小区2栋，提供住宿服务。",
+    "tags": [
+      "住宿服务",
+      "宾馆酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "合肥安超宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥安超宾馆，位于绩溪路金溪苑小区2栋，蜀山区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥安超宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥安超宾馆，位于绩溪路金溪苑小区2栋，蜀山区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥安超宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥安超宾馆，位于绩溪路金溪苑小区2栋，蜀山区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥安超宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥安超宾馆位于合肥市蜀山区绩溪路金溪苑小区2栋，提供住宿服务。",
+    "tags": [
+      "住宿服务",
+      "宾馆酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "合肥怡佳宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥怡佳宾馆 是合肥的住宿地点，位于瑶海区。地址：胜利路与明光路交口处怡康园一栋二单元14楼整层。",
+    "tags": [
+      "合肥"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "合肥怡佳宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥怡佳宾馆，位于胜利路与明光路交口处怡康园一栋二单元14楼整层，瑶海区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥怡佳宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥怡佳宾馆，位于胜利路与明光路交口处怡康园一栋二单元14楼整层，瑶海区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥怡佳宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥怡佳宾馆，位于胜利路与明光路交口处怡康园一栋二单元14楼整层，瑶海区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥怡佳宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥怡佳宾馆 是合肥的住宿地点，位于瑶海区。地址：胜利路与明光路交口处怡康园一栋二单元14楼整层。",
+    "tags": [
+      "合肥"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "合肥怡佳宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于胜利路与明光路交口处怡康园一栋二单元14楼整层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥悠度时光青年公寓",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于长淮街道胜利路光大国际广场九龙财富公寓楼8楼818-821",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥惠民宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于颍河路与武里山路交口,天柱山路东湖山庄碧云阁15栋101号商铺",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥新站旅社",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于长江东路88号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥桂林旅馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于合肥市肥西县石门路4号（经济开发区明珠广场），提供住宿服务。",
+    "tags": [
+      "住宿",
+      "旅馆",
+      "招待所"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "合肥桂林旅馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥桂林旅馆，位于石门路4号(经济开发区明珠广场)，肥西县，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥桂林旅馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥桂林旅馆，位于石门路4号(经济开发区明珠广场)，肥西县，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥桂林旅馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "合肥桂林旅馆，位于石门路4号(经济开发区明珠广场)，肥西县，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥桂林旅馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于合肥市肥西县石门路4号（经济开发区明珠广场），提供住宿服务。",
+    "tags": [
+      "住宿",
+      "旅馆",
+      "招待所"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "合肥桂林旅馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于石门路4号(经济开发区明珠广场)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥植物园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于环湖东路123号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥正大桐山国际广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于芙蓉路291号正大广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥正海宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于光明顶路239号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥海洋世界",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于蜀山经济技术开发区繁华大道321号",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥滨湖国家森林公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于环湖北路观景平台北侧",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥荛菀公寓(华侨城店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于高刘镇长岗社区浦东路启航北苑27栋1单元903室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥野生动物园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于望江西路600号",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "合肥青苹果快捷公寓",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于北二环与西二环交叉口草塘小区(合肥经济技术职业学院南20米处)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同庆楼(天鹅湖万达店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于天鹅湖万达B2-E-F区(乘坐同庆楼专梯至6层)",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "味特美蒸饺",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于曙光新村东3门南200米",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘎嘎鸭下巴(绿地蓝海店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于潜山路绿地蓝海A座下沉广场105号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四顶山森林公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于长临河店忠路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "壹号饭店·合肥老味道(潜水街店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "壹号饭店·合肥老味道(潜水街店)是位于合肥市蜀山区的一家主打本地风味的中餐厅，以其经典合肥老味道菜肴而闻名。",
+    "tags": [
+      "合肥",
+      "老味道",
+      "中餐",
+      "潜水街"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "壹号饭店·合肥老味道(潜水街店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "壹号饭店·合肥老味道(潜水街店)，位于潜山路316号新华金融广场2栋101室商铺，蜀山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "壹号饭店·合肥老味道(潜水街店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "壹号饭店·合肥老味道(潜水街店)，位于潜山路316号新华金融广场2栋101室商铺，蜀山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "壹号饭店·合肥老味道(潜水街店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "壹号饭店·合肥老味道(潜水街店)，位于潜山路316号新华金融广场2栋101室商铺，蜀山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "壹号饭店·合肥老味道(潜水街店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "壹号饭店·合肥老味道(潜水街店)是位于合肥市蜀山区的一家主打本地风味的中餐厅，以其经典合肥老味道菜肴而闻名。",
+    "tags": [
+      "合肥",
+      "老味道",
+      "中餐",
+      "潜水街"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "大学城·簋街美食城",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于经开区大学城丹霞路与百鸟路交口",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天乐公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于科学大道97号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖人工沙滩",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "天鹅湖人工沙滩是位于合肥市蜀山区天鹅湖公园内的人工沙滩景点，以细腻的沙质和清澈的水域著称，是市民休闲娱乐、亲子游玩的热门去处。",
+    "tags": [
+      "海滩",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "天鹅湖人工沙滩",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "天鹅湖人工沙滩，位于祁门路(天鹅湖地铁站A口步行260米)，蜀山区，类型风景名胜 海滩。",
+    "tags": [
+      "风景名胜",
+      "海滩"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖人工沙滩",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "天鹅湖人工沙滩，位于祁门路(天鹅湖地铁站A口步行260米)，蜀山区，类型风景名胜 海滩。",
+    "tags": [
+      "风景名胜",
+      "海滩"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖人工沙滩",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "天鹅湖人工沙滩，位于祁门路(天鹅湖地铁站A口步行260米)，蜀山区，类型风景名胜 海滩。",
+    "tags": [
+      "风景名胜",
+      "海滩"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖人工沙滩",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "天鹅湖人工沙滩是位于合肥市蜀山区天鹅湖公园内的人工沙滩景点，以细腻的沙质和清澈的水域著称，是市民休闲娱乐、亲子游玩的热门去处。",
+    "tags": [
+      "海滩",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "天鹅湖人工沙滩",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于祁门路(天鹅湖地铁站A口步行260米)",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "天鹅湖体育公园",
@@ -26,25 +1417,95 @@
       "体育",
       "休闲"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "2小时",
     "openTime": "全天开放",
     "rating": 4.5
   },
   {
-    "name": "合柴1972",
+    "name": "天鹅湖体育公园",
     "city": "合肥",
     "category": "attraction",
-    "description": "合柴1972是国内首个由监狱旧址改造的文创园，保留工业建筑风格，融合艺术展览、创意市集、咖啡书店等业态，是合肥热门的打卡地。",
+    "description": "天鹅湖体育公园，位于笔架山街道天鹅湖路与聚云峰路交口，蜀山区，类型公园广场 公园。",
     "tags": [
-      "文创园",
-      "工业遗址",
-      "艺术展览"
+      "公园广场",
+      "公园"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "09:00-21:00",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖体育公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "天鹅湖体育公园，位于笔架山街道天鹅湖路与聚云峰路交口，蜀山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖体育公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "天鹅湖体育公园，位于笔架山街道天鹅湖路与聚云峰路交口，蜀山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖体育公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "天鹅湖体育公园位于合肥市蜀山区，是一处集自然景观和体育设施于一体的城市公园，拥有湖泊、绿地、步道以及多种运动场地，适合市民休闲健身。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园",
+      "体育",
+      "休闲"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
     "rating": 4.5
+  },
+  {
+    "name": "天鹅湖体育公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于笔架山街道天鹅湖路与聚云峰路交口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖体育公园-景观水域",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于怀宁路与天鹅湖路交叉口天鹅湖体育公园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "天鹅湖公园",
@@ -52,25 +1513,265 @@
     "category": "attraction",
     "description": "天鹅湖公园 是合肥的景点",
     "tags": [],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 0
+    "rating": 0.0
   },
   {
-    "name": "金大地东西街",
+    "name": "天鹅湖公园",
     "city": "合肥",
     "category": "attraction",
-    "description": "金大地东西街是合肥市蜀山区的一条特色商业街，集购物、餐饮、娱乐于一体，是市民休闲购物的好去处。",
+    "description": "天鹅湖公园，位于天鹅湖东路56号，蜀山区，类型公园广场 公园。",
     "tags": [
-      "购物",
-      "特色商业街",
-      "合肥"
+      "公园广场",
+      "公园"
     ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "10:00-22:00",
-    "rating": 4.3
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "天鹅湖公园，位于天鹅湖东路56号，蜀山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "天鹅湖公园，位于天鹅湖东路56号，蜀山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "天鹅湖公园 是合肥的景点",
+    "tags": [],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "天鹅湖公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于天鹅湖东路56号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖公园-亲水平台",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于怀宁路与天鹅湖路交叉口天鹅湖公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖公园-四个小铜人",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于怀宁路与天鹅湖路交叉口天鹅湖公园(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖公园-清风亭",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于怀宁路与天鹅湖路交叉口天鹅湖公园(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖公园-观景平台",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于怀宁路与天鹅湖路交叉口天鹅湖公园(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖社区志愿服务广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于聚云峰路与徽班路交叉口西180米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天龙广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于潜山路888号百利中心",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "姥山岛景区",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于中庙街道中庙街道巢湖湖心",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安居苑中心广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于青阳路靠近安居苑东村小区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安徽博物院",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "安徽博物院是安徽省最大的综合性博物馆，位于合肥市蜀山区怀宁路87号，馆藏丰富，包括青铜器、陶瓷、书画等珍贵文物，展示了安徽悠久的历史文化。",
+    "tags": [
+      "博物馆",
+      "科教文化",
+      "安徽历史"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "09:00-17:00（周一闭馆）",
+    "rating": 4.6
+  },
+  {
+    "name": "安徽博物院",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "安徽博物院，位于怀宁路87号，蜀山区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安徽博物院",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "安徽博物院，位于怀宁路87号，蜀山区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安徽博物院",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "安徽博物院，位于怀宁路87号，蜀山区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安徽博物院",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "安徽博物院是安徽省最大的综合性博物馆，位于合肥市蜀山区怀宁路87号，馆藏丰富，包括青铜器、陶瓷、书画等珍贵文物，展示了安徽悠久的历史文化。",
+    "tags": [
+      "博物馆",
+      "科教文化",
+      "安徽历史"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "09:00-17:00（周一闭馆）",
+    "rating": 4.6
+  },
+  {
+    "name": "安徽博物院",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于怀宁路87号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "安徽省地质博物馆",
@@ -83,66 +1784,406 @@
       "地质",
       "化石"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "2-3小时",
     "openTime": "09:00-17:00",
     "rating": 4.2
   },
   {
-    "name": "绿轴公园",
+    "name": "安徽省地质博物馆",
     "city": "合肥",
     "category": "attraction",
-    "description": "绿轴公园位于安徽省合肥市蜀山区祁门路，是一个结合风景名胜、公园广场等多种功能的城市公园，适合休闲散步和户外活动。",
+    "description": "安徽省地质博物馆，位于笔架山街道嘉和路999号(安徽省文化博物园内)，蜀山区，类型博物馆 博物馆。",
     "tags": [
-      "公园",
-      "休闲",
-      "风景"
+      "博物馆",
+      "博物馆"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安徽省地质博物馆",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "安徽省地质博物馆，位于笔架山街道嘉和路999号(安徽省文化博物园内)，蜀山区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安徽省地质博物馆",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "安徽省地质博物馆，位于笔架山街道嘉和路999号(安徽省文化博物园内)，蜀山区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安徽省地质博物馆",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "安徽省地质博物馆位于合肥市蜀山区笔架山街道嘉和路999号，是安徽省文化博物园内的一座专业地质博物馆。馆内收藏了大量珍贵的地质标本和化石，展示了地球演化和安徽地质变迁的历史。适合科普教育和亲子游览。",
+    "tags": [
+      "博物馆",
+      "科教文化",
+      "地质",
+      "化石"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "09:00-17:00",
+    "rating": 4.2
+  },
+  {
+    "name": "安徽省地质博物馆",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于笔架山街道嘉和路999号(安徽省文化博物园内)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安扬快捷宾馆(合肥站第六十三中学店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "安扬快捷宾馆位于合肥市瑶海区，靠近合肥站和第六十三中学，提供便捷住宿服务。",
+    "tags": [
+      "宾馆",
+      "快捷酒店",
+      "住宿"
+    ],
+    "avgCost": 150.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "安扬快捷宾馆(合肥站第六十三中学店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "安扬快捷宾馆(合肥站第六十三中学店)，位于龙门岭路与瑶海西路北150米路东，瑶海区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安扬快捷宾馆(合肥站第六十三中学店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "安扬快捷宾馆(合肥站第六十三中学店)，位于龙门岭路与瑶海西路北150米路东，瑶海区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安扬快捷宾馆(合肥站第六十三中学店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "安扬快捷宾馆(合肥站第六十三中学店)，位于龙门岭路与瑶海西路北150米路东，瑶海区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安扬快捷宾馆(合肥站第六十三中学店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "安扬快捷宾馆位于合肥市瑶海区，靠近合肥站和第六十三中学，提供便捷住宿服务。",
+    "tags": [
+      "宾馆",
+      "快捷酒店",
+      "住宿"
+    ],
+    "avgCost": 150.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "安扬快捷宾馆(生态公园店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于龙门岭路与瑶海西路北150米路东",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "官亭路小吃一条巷",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于官亭路178号(三里庵地铁站A口步行100米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宿老大羊肉馆(政务店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于潜山路绿地蓝海国际大厦B103",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小考拉青年民宿(合工大南区店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于包公街道马鞍山路1号东环广场B座606室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小菜园新徽菜(合肥天鹅湖万达店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于万达广场商业中心三层3027A",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小菜园新徽菜(合肥银泰城店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于荷叶地街道潜山路190号合肥银泰城4楼404室",
+    "tags": [
+      "050109"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岭南说粥底火锅(安徽首店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于笔架山街道南二环路3818号天鹅湖万达广场3F层3028号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巢湖国家重点风景名胜区",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于006县道与024县道交叉口西南240米",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巢湖银屏山景区",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于巢湖国家重点风景名胜区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴奴毛肚火锅(合肥万象城店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于潜山路与习友西路交叉口万象城6楼L607(夜市通道由商场1号门西侧进商场)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴奴毛肚火锅(合肥银泰中心店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于长江中路98号合肥银泰中心二期8层805号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市民公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于黄山路与怀宁路交叉口东南120米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "常青体育公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于金寨路与休宁路交叉口东北100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广东阿生鱼捞·斑鱼海鲜粥火锅(银泰中心1期店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于长江中路98号银泰中心1期6楼观光电梯旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庐尹记·安徽菜",
+    "city": "合肥",
+    "category": "food",
+    "description": "庐尹记·安徽菜是一家位于合肥体育中心内的中餐厅，主打安徽菜。",
+    "tags": [
+      "安徽菜",
+      "中餐",
+      "合肥美食"
+    ],
+    "avgCost": 80.0,
     "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.3
+    "openTime": "11:00-21:00",
+    "rating": 4.5
   },
   {
-    "name": "徽园",
+    "name": "庐尹记·安徽菜",
     "city": "合肥",
-    "category": "attraction",
-    "description": "徽园是合肥市蜀山区的一处国家级风景名胜区，集徽派建筑与自然风光于一体。",
+    "category": "food",
+    "description": "庐尹记·安徽菜，位于习友路与潜山路交口合肥体育中心内，蜀山区，类型中餐厅 中餐厅。",
     "tags": [
-      "风景名胜",
-      "国家级景点"
+      "中餐厅",
+      "中餐厅"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庐尹记·安徽菜",
+    "city": "合肥",
+    "category": "food",
+    "description": "庐尹记·安徽菜，位于习友路与潜山路交口合肥体育中心内，蜀山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庐尹记·安徽菜",
+    "city": "合肥",
+    "category": "food",
+    "description": "庐尹记·安徽菜，位于习友路与潜山路交口合肥体育中心内，蜀山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庐尹记·安徽菜",
+    "city": "合肥",
+    "category": "food",
+    "description": "庐尹记·安徽菜是一家位于合肥体育中心内的中餐厅，主打安徽菜。",
+    "tags": [
+      "安徽菜",
+      "中餐",
+      "合肥美食"
+    ],
+    "avgCost": 80.0,
     "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.3
-  },
-  {
-    "name": "天鹅湖人工沙滩",
-    "city": "合肥",
-    "category": "attraction",
-    "description": "天鹅湖人工沙滩是位于合肥市蜀山区天鹅湖公园内的人工沙滩景点，以细腻的沙质和清澈的水域著称，是市民休闲娱乐、亲子游玩的热门去处。",
-    "tags": [
-      "海滩",
-      "风景名胜"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
-  },
-  {
-    "name": "蜀山森林公园",
-    "city": "合肥",
-    "category": "attraction",
-    "description": "蜀山森林公园位于合肥市蜀山区玉兰大道8号，是一处集自然风光与休闲娱乐于一体的城市公园。",
-    "tags": [
-      "公园",
-      "风景名胜"
-    ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "全天",
+    "openTime": "11:00-21:00",
     "rating": 4.5
   },
   {
@@ -155,36 +2196,402 @@
       "中餐厅",
       "徽菜"
     ],
-    "avgCost": 150,
+    "avgCost": 150.0,
     "duration": "2小时",
     "openTime": "11:00-21:00",
     "rating": 4.5
   },
   {
-    "name": "一味清歡·觀園",
+    "name": "庐州荟·原著合肥味(骆岗公园店)",
     "city": "合肥",
     "category": "food",
-    "description": "地址：中海央墅环宇天地西出入口旁，区域：包河区，类型：餐饮服务;中餐厅;中餐厅",
-    "tags": [],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
+    "description": "庐州荟·原著合肥味(骆岗公园店)，位于大连路与园博大道交口园博小镇一期S1区骆岗机场航站楼旁，包河区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "庐尹记·安徽菜",
+    "name": "庐州荟·原著合肥味(骆岗公园店)",
     "city": "合肥",
     "category": "food",
-    "description": "庐尹记·安徽菜是一家位于合肥体育中心内的中餐厅，主打安徽菜。",
+    "description": "庐州荟·原著合肥味(骆岗公园店)，位于大连路与园博大道交口园博小镇一期S1区骆岗机场航站楼旁，包河区，类型中餐厅 中餐厅。",
     "tags": [
-      "安徽菜",
-      "中餐",
-      "合肥美食"
+      "中餐厅",
+      "中餐厅"
     ],
-    "avgCost": 80,
-    "duration": "1-2小时",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庐州荟·原著合肥味(骆岗公园店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "庐州荟·原著合肥味(骆岗公园店)，位于大连路与园博大道交口园博小镇一期S1区骆岗机场航站楼旁，包河区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庐州荟·原著合肥味(骆岗公园店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "庐州荟·原著合肥味(骆岗公园店)位于合肥市包河区骆岗公园园博小镇，是一家以合肥本地菜为特色的中餐厅。餐厅环境优雅，主打地道合肥味道，深受食客喜爱。",
+    "tags": [
+      "合肥菜",
+      "中餐厅",
+      "徽菜"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
     "openTime": "11:00-21:00",
     "rating": 4.5
+  },
+  {
+    "name": "庐江东营宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于庐城镇黄山南路14号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庐江天怡宾馆",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于城中东路57号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张小妹面馆总店",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于和煦园南村北门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "彩虹之家民宿(合肥五里墩地铁站中国人民解放军第901医院店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于长江西路与青阳路交口彩虹家园1棟14楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徽园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "徽园是合肥市蜀山区的一处国家级风景名胜区，集徽派建筑与自然风光于一体。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.3
+  },
+  {
+    "name": "徽园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "徽园，位于繁华大道11178号，蜀山区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徽园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "徽园，位于繁华大道11178号，蜀山区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徽园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "徽园，位于繁华大道11178号，蜀山区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徽园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "徽园是合肥市蜀山区的一处国家级风景名胜区，集徽派建筑与自然风光于一体。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.3
+  },
+  {
+    "name": "徽园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于繁华大道11178号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徽姑娘砂锅菜(中环城店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "徽姑娘砂锅菜(中环城店)位于合肥市蜀山区石门路260号106商铺，是一家提供正宗砂锅菜的中餐厅，口味地道，环境温馨。",
+    "tags": [
+      "砂锅菜",
+      "中餐"
+    ],
+    "avgCost": 50.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "徽姑娘砂锅菜(中环城店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "徽姑娘砂锅菜(中环城店)，位于石门路260号106商铺，蜀山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徽姑娘砂锅菜(中环城店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "徽姑娘砂锅菜(中环城店)，位于石门路260号106商铺，蜀山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徽姑娘砂锅菜(中环城店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "徽姑娘砂锅菜(中环城店)，位于石门路260号106商铺，蜀山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徽姑娘砂锅菜(中环城店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "徽姑娘砂锅菜(中环城店)位于合肥市蜀山区石门路260号106商铺，是一家提供正宗砂锅菜的中餐厅，口味地道，环境温馨。",
+    "tags": [
+      "砂锅菜",
+      "中餐"
+    ],
+    "avgCost": 50.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "必胜客(合肥天鹅湖万达店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于怀宁路与南二环路交口天鹅湖万达广场之室内步行街二层2-01商铺",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "息巢客栈(北城世纪金源购物中心店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于双墩镇蒙河社区街裕徽苑13栋20层2002号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化传媒广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于翡翠路1118号(图书馆地铁站8号口步行140米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文慧牛店",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于颍上路与义井路交口向北100米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新太二·鲜料川菜(合肥天鹅湖万达分店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于南二环路3818号天鹅湖万达广场3楼DQ冰激凌店旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新安文化广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于桐城路与庐江路交口",
+    "tags": [
+      "120203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新月公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于金炉路与壶天路交叉口北40米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星际体育公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于G4001合肥绕城高速与G4001合肥绕城高速入口交叉口东北180米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晨旻快捷宾馆(合肥宜家家居海棠地铁站店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于临泉路和煦园商业1号80-12号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "智力广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于祁门路辅路与齐云山路交叉口西北100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "木桶记臭鳜鱼·徽菜餐厅(南七店)",
@@ -196,24 +2603,418 @@
       "徽菜",
       "中餐"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "门匠火锅(芜湖路店)",
+    "name": "木桶记臭鳜鱼·徽菜餐厅(南七店)",
     "city": "合肥",
     "category": "food",
-    "description": "门匠火锅(芜湖路店)位于合肥市包河区芜湖路街道马冲路387号城小蜗酒店楼下，是一家火锅店，提供中餐服务。",
+    "description": "木桶记臭鳜鱼·徽菜餐厅(南七店)，位于稻香村街道望江西路与肥西路交口金隅南七汇商街2046号商铺，蜀山区，类型中餐厅 中餐厅。",
     "tags": [
-      "火锅",
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "木桶记臭鳜鱼·徽菜餐厅(南七店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "木桶记臭鳜鱼·徽菜餐厅(南七店)，位于稻香村街道望江西路与肥西路交口金隅南七汇商街2046号商铺，蜀山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "木桶记臭鳜鱼·徽菜餐厅(南七店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "木桶记臭鳜鱼·徽菜餐厅(南七店)，位于稻香村街道望江西路与肥西路交口金隅南七汇商街2046号商铺，蜀山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "木桶记臭鳜鱼·徽菜餐厅(南七店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "木桶记臭鳜鱼·徽菜餐厅(南七店)位于合肥市蜀山区，是一家以臭鳜鱼为特色的徽菜餐厅。餐厅环境优雅，菜品地道，深受食客喜爱。",
+    "tags": [
+      "臭鳜鱼",
+      "徽菜",
       "中餐"
     ],
-    "avgCost": 80,
-    "duration": "2小时",
-    "openTime": "11:00-22:00",
-    "rating": 4.5
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "杜岗游园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于金寨路与休宁路交汇处西北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨家火锅(庐阳白水坝店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于濉溪路168号新天地广场1层102号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨家火锅(政务店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于潜山路绿地蓝海国际大厦B幢商102",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨家火锅(长江西路店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于长江西路501号(西七里塘地铁站D口步行150米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(三孝口店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于金寨路425号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(港澳广场店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于蜀山区经济技术开发区芙蓉社区芙蓉路港澳广场E区131号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梅兰家园住宿(合肥高铁南站店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于徽州大道与龙川路交汇处",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梦想大草坪",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于合肥园博园",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欧洲风情街(金寨南路店)",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于金寨路与北海路交口",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(合肥坝上吾悦店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于光明路街道芜湖路12号合肥坝上吾悦广场5层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(合肥天鹅湖万达店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于南二环路3818号天鹅湖万达广场三层霸王茶姬对面",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民政宾馆(交通南路)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于庐城镇交通路21号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江河里麻辣烤鱼(天鹅湖万达店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于笔架山街道南二环路3818号合肥天鹅湖万达广场购物中心3F3035AB,3035BB,3036AA,3037B号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪石公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于石台路与孔塘支路交叉口东南140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "派河家园民宿(合肥大地学校店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于上派镇派河大道与东融路交汇处派河家园8栋二单元2605室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浪里寻·臻牛(政务银泰百货店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于南二环路与潜山路交口银泰城4层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浮槎山景区",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于石塘镇甘露寺路",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(之心城店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于长江西路189号之心城购物中心5F",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(宝业东城广场店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于当涂路325号宝业东城广场D区三层301-310四层401-417、460、461号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(漫乐城夜宵主题店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于徽州大道838号漫乐城购物中心5层502-504号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(金大地1912店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于黄山路与怀宁路路口中皖金大地1912A区7号楼一楼二楼局部A7-6商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(银泰百货店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于蜀山区政务区潜山路190银泰城3层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海恒社区习友志愿服务广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于习友路与繁华大道交叉口北150米盛习友纪念馆附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "無燎鲜货火锅自助(天鹅湖万达店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于天鹅湖万达3层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "煲王粤菜餐厅(中侨中心店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于潜山路与休宁路交口中侨中心一号楼G层街区C区商铺C-1058",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛角大圩",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于烟墩街道徽州大道南端",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "环城公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于芜湖路街道环城南路29号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "琥珀老六龙虾(四里河路店)",
@@ -226,140 +3027,910 @@
       "中餐",
       "庐阳区"
     ],
-    "avgCost": 100,
+    "avgCost": 100.0,
     "duration": "2小时",
     "openTime": "10:00-22:00",
     "rating": 4.5
   },
   {
-    "name": "刀板香·徽菜餐厅(长江东路店)",
+    "name": "琥珀老六龙虾(四里河路店)",
     "city": "合肥",
     "category": "food",
-    "description": "刀板香·徽菜餐厅(长江东路店)是合肥一家以徽菜为特色的中餐厅，提供正宗徽州风味菜肴，环境优雅，适合聚会和宴请。",
+    "description": "琥珀老六龙虾(四里河路店)，位于四里河路与潜山北路交口万科城市公馆四里河路商业街6号楼102商铺，庐阳区，类型中餐厅 海鲜酒楼。",
     "tags": [
-      "徽菜",
       "中餐厅",
-      "合肥美食"
+      "海鲜酒楼"
     ],
-    "avgCost": 80,
-    "duration": "1.5小时",
-    "openTime": "11:00-21:00",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琥珀老六龙虾(四里河路店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "琥珀老六龙虾(四里河路店)，位于四里河路与潜山北路交口万科城市公馆四里河路商业街6号楼102商铺，庐阳区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琥珀老六龙虾(四里河路店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "琥珀老六龙虾(四里河路店)，位于四里河路与潜山北路交口万科城市公馆四里河路商业街6号楼102商铺，庐阳区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琥珀老六龙虾(四里河路店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "琥珀老六龙虾是合肥一家知名的海鲜酒楼，主打小龙虾等海鲜菜品，位于庐阳区四里河路万科城市公馆商业街。",
+    "tags": [
+      "小龙虾",
+      "海鲜",
+      "中餐",
+      "庐阳区"
+    ],
+    "avgCost": 100.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "皖巷广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于荷叶地街道凯旋门社区潜山路111号合肥万象城",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皖荟庐中粤·徽粤传承(政务区店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于荷叶地街道潜山路与高河东路交口绿地蓝海国际大厦A座1层101室",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石台路公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于石台路与天鹅湖东路交口东南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "竹清民宿(武里山天街店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于七里塘街道武里山天街4幢1117室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿轴公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "绿轴公园位于安徽省合肥市蜀山区祁门路，是一个结合风景名胜、公园广场等多种功能的城市公园，适合休闲散步和户外活动。",
+    "tags": [
+      "公园",
+      "休闲",
+      "风景"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
     "rating": 4.3
   },
   {
-    "name": "壹号饭店·合肥老味道(潜水街店)",
+    "name": "绿轴公园",
     "city": "合肥",
-    "category": "food",
-    "description": "壹号饭店·合肥老味道(潜水街店)是位于合肥市蜀山区的一家主打本地风味的中餐厅，以其经典合肥老味道菜肴而闻名。",
+    "category": "attraction",
+    "description": "绿轴公园，位于祁门路，蜀山区，类型公园广场 公园。",
     "tags": [
-      "合肥",
-      "老味道",
-      "中餐",
-      "潜水街"
+      "公园广场",
+      "公园"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "七十七号家宴(佳源店)",
+    "name": "绿轴公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "绿轴公园，位于祁门路，蜀山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿轴公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "绿轴公园，位于祁门路，蜀山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿轴公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "绿轴公园位于安徽省合肥市蜀山区祁门路，是一个结合风景名胜、公园广场等多种功能的城市公园，适合休闲散步和户外活动。",
+    "tags": [
+      "公园",
+      "休闲",
+      "风景"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.3
+  },
+  {
+    "name": "绿轴公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于祁门路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美乐园商业文化广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于井岗镇长江西路788号",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老乡鸡(合肥市政府店)",
     "city": "合肥",
     "category": "food",
-    "description": "七十七号家宴(佳源店)位于合肥市包河区佳源小区，是一家以家常菜和家宴为主的中餐厅，环境优雅，适合家庭聚餐。",
+    "description": "位于政务环路与高河东路交叉口西100米",
     "tags": [
-      "中餐",
-      "家宴",
+      "050109"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老京門涮肉·屠宰场直供(恒大中央广场店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于胜利路街道明光路518号恒大广场24幢商业商104-105号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老京門涮肉·屠宰场直供(阜南路店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于阜南路45号(合肥市体育局隔壁)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(天鹅湖万达店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于天鹅湖万达广场1号门2楼、6",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡记·九米羊肉炉(总店·天鹅湖万达)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于天鹅湖万达金街西门一楼5-102号(马路边,水墨兰亭东门对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芈重山老火锅",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于长江东路559号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花甲王(总店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于淮河路新安商城44号位",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莱悦公寓(合肥武里山店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于七里塘街道抚疏路武里山天街D区4栋2801室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝戒指青旅(圣联时代广场店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于高新技术产业开发区创新大道2808号圣联时代广场A2座1101室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜀山森林公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "蜀山森林公园位于合肥市蜀山区玉兰大道8号，是一处集自然风光与休闲娱乐于一体的城市公园。",
+    "tags": [
+      "公园",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "蜀山森林公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "蜀山森林公园，位于玉兰大道8号，蜀山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜀山森林公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "蜀山森林公园，位于玉兰大道8号，蜀山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜀山森林公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "蜀山森林公园，位于玉兰大道8号，蜀山区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜀山森林公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "蜀山森林公园位于合肥市蜀山区玉兰大道8号，是一处集自然风光与休闲娱乐于一体的城市公园。",
+    "tags": [
+      "公园",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "蜀山森林公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于玉兰大道8号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜀山烈士陵园-入口广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于玉兰大道87号蜀山烈士陵园内",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜀峰湾体育公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于黄山路与香樟大道交口西北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西园出租公寓(安大店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于三里庵街道龙河路西园新村71号101室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "见南山重庆火锅(庐阳旗舰店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于国文大厦入口东北70米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诚梦远青旅酒店(淮河路步行街店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于花园街4号安徽科技大厦F14层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵卟赵冒菜小灶(四牌楼店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于庐江路72号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "远程教育文化广场",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于望江西路与环山路交叉口东南340米",
+    "tags": [
+      "120000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遇南三·重庆火锅",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于习友路399号安徽合肥体育中心体育场C区A14号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金大地东西街",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "金大地东西街是合肥市蜀山区的一条特色商业街，集购物、餐饮、娱乐于一体，是市民休闲购物的好去处。",
+    "tags": [
+      "购物",
+      "特色商业街",
       "合肥"
     ],
-    "avgCost": 80,
+    "avgCost": 0.0,
     "duration": "2小时",
     "openTime": "10:00-22:00",
     "rating": 4.3
   },
   {
-    "name": "徽姑娘砂锅菜(中环城店)",
+    "name": "金大地东西街",
     "city": "合肥",
-    "category": "food",
-    "description": "徽姑娘砂锅菜(中环城店)位于合肥市蜀山区石门路260号106商铺，是一家提供正宗砂锅菜的中餐厅，口味地道，环境温馨。",
+    "category": "attraction",
+    "description": "金大地东西街，位于黄山路543号北100米，蜀山区，类型特色商业街 特色商业街。",
     "tags": [
-      "砂锅菜",
-      "中餐"
+      "特色商业街",
+      "特色商业街"
     ],
-    "avgCost": 50,
-    "duration": "1-2小时",
-    "openTime": "10:00-21:00",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金大地东西街",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "金大地东西街，位于黄山路543号北100米，蜀山区，类型特色商业街 特色商业街。",
+    "tags": [
+      "特色商业街",
+      "特色商业街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金大地东西街",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "金大地东西街，位于黄山路543号北100米，蜀山区，类型特色商业街 特色商业街。",
+    "tags": [
+      "特色商业街",
+      "特色商业街"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金大地东西街",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "金大地东西街是合肥市蜀山区的一条特色商业街，集购物、餐饮、娱乐于一体，是市民休闲购物的好去处。",
+    "tags": [
+      "购物",
+      "特色商业街",
+      "合肥"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
     "rating": 4.3
   },
   {
-    "name": "合肥安超宾馆",
+    "name": "金大地东西街",
     "city": "合肥",
-    "category": "hotel",
-    "description": "合肥安超宾馆位于合肥市蜀山区绩溪路金溪苑小区2栋，提供住宿服务。",
+    "category": "attraction",
+    "description": "位于黄山路543号北100米",
     "tags": [
-      "住宿服务",
-      "宾馆酒店"
+      "061000"
     ],
-    "avgCost": 0,
-    "duration": "全天",
-    "openTime": "24小时",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "合肥怡佳宾馆",
+    "name": "金罍广场",
     "city": "合肥",
-    "category": "hotel",
-    "description": "合肥怡佳宾馆 是合肥的住宿地点，位于瑶海区。地址：胜利路与明光路交口处怡康园一栋二单元14楼整层。",
+    "category": "attraction",
+    "description": "位于酒船路与水阳江路交叉口东北80米",
     "tags": [
-      "合肥"
+      "110105"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "全天",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "安扬快捷宾馆(合肥站第六十三中学店)",
+    "name": "铜冠广场",
     "city": "合肥",
-    "category": "hotel",
-    "description": "安扬快捷宾馆位于合肥市瑶海区，靠近合肥站和第六十三中学，提供便捷住宿服务。",
+    "category": "attraction",
+    "description": "位于翡翠路与龙湾路交叉口东南180米",
     "tags": [
-      "宾馆",
-      "快捷酒店",
-      "住宿"
+      "120201"
     ],
-    "avgCost": 150,
-    "duration": "全天",
-    "openTime": "24小时",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "合肥华路宾馆",
+    "name": "门匠火锅(石台路店)",
     "city": "合肥",
-    "category": "hotel",
-    "description": "合肥华路宾馆位于合肥市包河区九华山路7号，提供住宿服务。",
+    "category": "food",
+    "description": "位于石台路西城花园C5栋119号",
     "tags": [
-      "住宿",
-      "宾馆"
+      "050117"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "合肥桂林旅馆",
+    "name": "门匠火锅(芜湖路店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "门匠火锅(芜湖路店)位于合肥市包河区芜湖路街道马冲路387号城小蜗酒店楼下，是一家火锅店，提供中餐服务。",
+    "tags": [
+      "火锅",
+      "中餐"
+    ],
+    "avgCost": 80.0,
+    "duration": "2小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "门匠火锅(芜湖路店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "门匠火锅(芜湖路店)，位于芜湖路街道马冲路387号城小蜗酒店楼下，包河区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "门匠火锅(芜湖路店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "门匠火锅(芜湖路店)，位于芜湖路街道马冲路387号城小蜗酒店楼下，包河区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "门匠火锅(芜湖路店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "门匠火锅(芜湖路店)，位于芜湖路街道马冲路387号城小蜗酒店楼下，包河区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "门匠火锅(芜湖路店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "门匠火锅(芜湖路店)位于合肥市包河区芜湖路街道马冲路387号城小蜗酒店楼下，是一家火锅店，提供中餐服务。",
+    "tags": [
+      "火锅",
+      "中餐"
+    ],
+    "avgCost": 80.0,
+    "duration": "2小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "闽道海鲜面(义仓巷店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于宿州路与义仓巷交口13幢13室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "零壹名宿(合肥高铁南站汇美广场店)",
     "city": "合肥",
     "category": "hotel",
-    "description": "位于合肥市肥西县石门路4号（经济开发区明珠广场），提供住宿服务。",
+    "description": "位于繁华大道与宿松路交叉口南20米汇美广场D座",
     "tags": [
-      "住宿",
-      "旅馆",
-      "招待所"
+      "100100"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "霸都大橙子老火锅·一人食火锅(曙光路总店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于曙光南路小隐于野5号(曙光路菜市场正对面巷内50m)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺鹿青旅(合肥南站店)",
+    "city": "合肥",
+    "category": "hotel",
+    "description": "位于庐州大道56号大摩华尔街生活广场4号楼16层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "骆岗公园",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于包河大道",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(合肥坝上吾悦广场店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于坝上吾悦广场底商1038-040",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(合肥安粮国贸店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于稻香村街道金寨南路811号安粮国贸中心1层F1017号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(合肥时埠里)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于龙岗综合经济开发区文一时埠里文化旅游街区C5-102号房屋",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于金寨南路310合柴1972文创园东部商业街101号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(罍街南区)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于明月路与殷汇路交叉口东北120米",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼水之源",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于怀宁路与天鹅湖路交叉口天鹅湖公园(东侧)",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼水情雕塑",
+    "city": "合肥",
+    "category": "attraction",
+    "description": "位于怀宁路与天鹅湖路交叉口天鹅湖公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(政务区银泰城)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于潜山路190号银泰城F1层173",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(银泰百货店)",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于荷叶地街道潜山路190号银泰百货商业广场4层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙太子庐州鲜匠心土菜",
+    "city": "合肥",
+    "category": "food",
+    "description": "位于潜山路绿地蓝海大厦B座停车场内",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

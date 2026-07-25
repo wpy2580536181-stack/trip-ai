@@ -1,0 +1,1848 @@
+[
+  {
+    "name": "313羊庄(凤凰西路店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于凤凰西路202号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七欣天(天长吾悦广场店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于南城区天长吾悦广场室外街天长印巷S2-1",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中新苏滁体育公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于滨河北路与九梓大道交叉口东100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人防广场(CCAD)",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于中都大道412号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "会峰公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于南谯中路1979号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佑安公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于全椒南路与醉翁路交叉口东北",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佑安公园南广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于佑安公园内(南侧)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "全椒太平古城",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于襄河镇新华路延伸段(吴敬梓故居旁)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "全椒好人缘假日旅馆",
+    "city": "滁州",
+    "category": "hotel",
+    "description": "位于吴敬梓路公交站旁二楼肯德基对面",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六零年(龙山路店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于发能·凤凰城南1门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北步园火锅(滁州苏宁店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于南谯北路苏宁广场星尚街800号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华亭宾馆",
+    "city": "滁州",
+    "category": "hotel",
+    "description": "位于车站路288号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "协商文化公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于龙兴路辅路与南谯南路交叉口西240米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南京太仆寺",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于天长西路与西涧北路交叉口",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于环城路与南谯北路交叉口东南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和顺楼酒店(东坡西路店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于凯迪置业广场三楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四合路特色小吃街(金光大道广场店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于四合路与天长东路交叉口北40米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四牌楼社区市民文化乐园广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于西大街181号滁州清流街商业文化街区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四牌楼社区志愿服务广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于四牌楼街与丰乐大道交叉口东北20米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "圣琴面馆(总店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于儒林路417号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "圣琴面馆(高速·东方天地店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于阳明北路高速东方天地项目新街口13栋商业街91号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城南湿地公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于仁和路东",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城南绿廊公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于紫云路与敬梓西路交叉口东北140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城南老式碳烤小串(正东·中央公馆店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于安徽省南谯区同乐路正东中央公馆北门商业街102号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城市之家精选酒店(明光火车站店)",
+    "city": "滁州",
+    "category": "hotel",
+    "description": "位于明光街道车站南路299号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(滁州市金鹏玖玖广场店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于金鹏玖玖广场购物中心F1层1A-025号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大明园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于永乐北路龙蟠河公园(东北角)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大王公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于大王街道常州路与清流路交叉口东南",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天长徽园宾馆",
+    "city": "滁州",
+    "category": "hotel",
+    "description": "位于千秋路26号(学府路与琉璃北街交叉口附近)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天长承鼎药膳鸡火锅",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于平安北路8号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天长的海",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好家酒店(滁州中州广场国际商城店)",
+    "city": "滁州",
+    "category": "hotel",
+    "description": "位于上海北路607号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好记药膳鸡(吾悦广场天长店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于吾悦广场3层",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好记药膳鸡(玫瑰花园店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于广陵路南侧天佳路东侧天一玫瑰花园4栋4-07",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如意湖公园-东广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于如意湖公园内(东侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如意湖公园-南广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于如意湖公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "定远古城",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于永康路与岱山路交汇处向东300米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "定远宾馆",
+    "city": "滁州",
+    "category": "hotel",
+    "description": "位于长征东路1号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富都餐厅(高速·东方天地店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于高速·东方天地南门西170米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寻味(高速·东方天地店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于康乐路37号(滁州政务中心地铁站4号口步行220米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小岗村乡村旅游区",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于小溪河镇小岗村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小食候蚝油串(康乐路店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于康乐路101号商业(高速东方天苏果便利店向西20米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小龙坎火锅(银花店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于中都大道银花新村东区西门(银花东区西门)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尹小姐的西餐厅(凯迪广场店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于中都大道与东坡路交叉口凯迪置地广场苏果超市一楼",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴扎抓饭",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于凯迪置地广场",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸福商务酒店(滁州北站店)",
+    "city": "滁州",
+    "category": "hotel",
+    "description": "位于花园街15号汽车中心站售票厅对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广兴记·鲜切猪杂粥潮味馆",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于凤凰西路37号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(滁州吾悦店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于同乐街道敬梓东路678号吾悦广场滁州南谯店F1层",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(滁州新百餐厅)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于南谯北路与琅琊大道交口西南大金新百1-2层",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "忆江南面馆(紫金城店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于襄河镇儒林路908号紫金城东区东门105号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新姑塘廉政文化广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于姑塘幼儿园西北侧约90米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明中都皇故城国家考古遗址公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于东华路附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明光光荣旅社",
+    "city": "滁州",
+    "category": "hotel",
+    "description": "位于健康巷20号(嘉山宾馆对面,池河大道526号附近)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明光天怡大酒店",
+    "city": "滁州",
+    "category": "hotel",
+    "description": "位于池河大道128号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明湖公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明湖公园北广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于滁州大道辅路与凤阳路交叉口南240米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明皇陵",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于057县道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "来安野马旅社",
+    "city": "滁州",
+    "category": "hotel",
+    "description": "位于014县道附近",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨世仁狗肉面馆(东方天地店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于东方天地商铺111号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨家火锅(滁州店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于南谯北路628号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(天长东路店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于琅琊街道天长东路新苑小区1幢210室",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(滁州吾悦广场店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于敬梓东路678号S3号楼商业101号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "格林豪泰智选酒店(滁州市来安建阳北路店)",
+    "city": "滁州",
+    "category": "hotel",
+    "description": "位于新安镇建阳北路6号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楠火锅(定远店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于长征中路136号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永乐路公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于永乐南路凯迪塞纳河畔",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "法华村文化广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于008县道东50米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(亲子主题苏宁广场店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于天长西路54号苏宁广场5层517号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(天长市吾悦广场夜宵主题店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于千秋大道与园林路交叉口天长吾悦广场3楼3017-3021室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(金鹏99广场店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于南谯区经济技术开发区龙蟠大道1号金鹏九九广场3A-024号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清流公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于清流街道南谯中路1123号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清流河公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于滁河路48号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清流花谷公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于滨河北路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滁州博物馆",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于中都大道与龙蟠大道交叉口东北100米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滁州市农歌会广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于龙蟠大道180号附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滁州市消防主题公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于幼安路与醉翁西路交叉口西南80米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滁州政务中心北广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于龙蟠大道滁州市政府",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滁州格林豪泰(世贸广场龙蟠快捷酒店)",
+    "city": "滁州",
+    "category": "hotel",
+    "description": "位于全椒路和东坡西路交汇处(龙蟠南苑)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滁州琅琊久久广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于金山路与扬子大道交叉口东北140米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滁州琅琊商务宾馆",
+    "city": "滁州",
+    "category": "hotel",
+    "description": "位于滁州北站旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滁州程诚之家快捷宾馆",
+    "city": "滁州",
+    "category": "hotel",
+    "description": "位于龙蟠大道金鹏99广场14-15层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滁州花博园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于腰铺镇丰乐大道附近",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滁州金财宾馆",
+    "city": "滁州",
+    "category": "hotel",
+    "description": "位于天长东路188号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滁州银红旅馆",
+    "city": "滁州",
+    "category": "hotel",
+    "description": "位于紫薇北路1238号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滁州长城梦世界影视基地",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于腰铺镇梅铺村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛约堡(滁州凯迪置地广场店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于龙蟠街道中都大道1555号(凯迪置地广场)商业109室",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狼巷迷谷",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于殷涧镇城东南30公里处",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琅琊山旅游区(琅琊山古道)",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于琅琊古道18-30号琅琊山景区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琅琊山景区",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于琅琊古道18-30号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琅琊山景区-南天门",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于市西琅琊古道28号琅琊山景区内(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琅琊山景区-深秀湖",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于琅琊古道18-30号琅琊山景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琅琊山景区-琅琊古寺",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于琅琊山古道",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琅琊山景区-醉翁亭",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于琅琊山半山腰琅琊古道旁",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琅琊山森林漂流",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于西涧中路4306号",
+    "tags": [
+      "080505"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琅琊山飞越丛林探险乐园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于西涧中路4306号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "琅琊甲·头牌甲鱼·招牌炒鸡(旗舰店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于中环国际广场688号A区一层1001",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白云宾馆(南谯北路店)",
+    "city": "滁州",
+    "category": "hotel",
+    "description": "位于南谯北路738号(天长路附近白云商厦旁)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百合商业广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于艾尚美医疗美容南侧80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇甫山国家森林公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于大柳镇皇甫山森林公园",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米德宝家庭快餐(凯迪置地广场店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于中都大道与东坡路交叉口购物广场一层L10003、10004号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫云广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于紫云路与府西路交叉口东南侧",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老乡鸡(全椒城南大道店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于城南大道北侧王曹小区二期SB2幢101号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老乡鸡(滁州凯迪置地广场店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于中都大道1555号凯迪置地广场1层102商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老乡鸡(滁州永乐北路店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于永乐北路173号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老乡鸡(滁州紫金广场店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于阳明北路1338号紫金商业广场C区1楼C103-C104商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老成老火锅(凤凰西路店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于凤凰西路168号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老成老火锅(天长店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于炳辉路南侧天一阳光城7栋01号9栋08号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "腰铺镇姑塘村志愿服务广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于020乡道与创业南路交叉口西400米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花园社区市民文化广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于同乐东路同乐东苑",
+    "tags": [
+      "080108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "菱溪湖公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于菱溪北路与九江西路交口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅(翰林府店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于襄河镇襟襄南路翰林府小区13幢101号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "董福和酒店(天逸华府杏园店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于永乐北路194号(天逸华府桂园西门对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蚌全面馆(三里亭人家店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于丰乐大道558号三里亭人家",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蚌全面馆(城东总店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于全柴对面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁记云饺(滁州市南谯区凯迪置地广场店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于凯迪置地广场1层L10002号商铺",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "要德烧鸡公(高速·东方天地店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于高速地产东边",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诗词苑广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于全椒北路龙蟠河公园(西侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "谷味香餐厅",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于中都大道凯迪置地广场B座谷味香餐厅",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赣婆婆江西小炒(凯迪广场店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于凯迪置地广场172",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "逗妮开心小广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于龙蟠街道盛世华庭怡园47栋",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑记南门口(中央名邸店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于明光西路碧桂园中央名邸2号楼底商1101室",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑记南门口(天逸华府店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于龙蟠街道永乐北路213、215商业",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑记南门口(山水人家店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于丰乐大道1872号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑记南门口(左岸店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于新生路2-4号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郑记南门口(银花店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于中都大道115号银花东区西门口小龙坎向北60米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郭铁柱·泥炉老火锅(凤阳店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于名都·帝景东北门西200米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金源汤包",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于永乐北路169号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金鹏皇庆湖旅游度假区",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于文慧路与安宁路交口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银泰乐家城市广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于天长西路172号",
+    "tags": [
+      "120000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦绣太平景区",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于太平古城",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "镜园公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于东坡西路与西涧南路交叉口西北50米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高老太东北饺子(皖东国际车城)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于丰乐大道1899号(长江商贸城)A1号楼商业135号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鮨·鲸川日式料理",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于凯迪置地广场C座162商铺",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼尾狮公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于双城路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鳌鱼塘公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于全椒路以西与敬梓路以南",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(滁州南谯吾悦广场店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于敬梓东路678号吾悦广场滁州南谯店F1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(滁州南谯路店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于天长路693号香港城一楼",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(南谯吾悦店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于吾悦广场4层4052-4053",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(滁州天长吾悦店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于吾悦广场",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(琅琊苏宁店)",
+    "city": "滁州",
+    "category": "food",
+    "description": "位于琅琊街道苏宁广场第6层第606.606A号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙岗古镇",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于076县道附近",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙池文化广场",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于西涧北路与明光西路交叉口西100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙蟠河公园",
+    "city": "滁州",
+    "category": "attraction",
+    "description": "位于永乐北路与花事路交叉口西南160米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

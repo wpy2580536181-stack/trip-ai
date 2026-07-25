@@ -1,0 +1,769 @@
+[
+  {
+    "name": "Thy yeah·泰嘢西泰料理(莞香印巷店)",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于南城街道元美东路1号莞香印巷四栋1层003室商铺",
+    "tags": [
+      "050206"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东北酱骨头馆(东莞南城街道)",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于胜和莞太大道35号",
+    "tags": [
+      "050113"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东城体育公园",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于东城街道旗盛社区新源路31号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莞33小镇",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于东城街道主山社区乌石岗村东昇路33号",
+    "tags": [
+      "120000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莞中心公园",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于南城街道东莞中心公园南路与东莞大道辅路交叉口西北300米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莞乐家公寓",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于厚街村禾仓路32号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莞人民公园",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于莞城街道公园路1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莞如嘉公馆",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于企石镇振兴路92号103室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莞市科学技术博物馆",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于元美中路2号(青少年活动中心旁)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莞市虎英郊野公园",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于东城街道迎宾大道",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莞市黄旗山城市公园",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于东城街道东城中路2号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莞景成商务宾馆(万江人民医院店)",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于万江街道共联商业街3号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莞植物园",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于南城街道绿色路99号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莞海洋馆·恒远海立方环游城",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于万江街道万道路万江段24号华南摩尔主题购物公园9栋1009室",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莞祥福商务酒店",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于道滘镇振兴路114号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莞美梦公寓",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于桥头镇广场街31号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莞聚豪酒店",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于振兴南路31号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莞记忆",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于莞城街道西隅社区中兴路101号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莞金源公寓",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于茶山镇茶兴中路97号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东莞锦隆公寓",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于大岭山镇大岭山教育路170号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中心广场",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于鸿福路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元美公园",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于南城街道元美中路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元通寿司(南城盈锋店)",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于东城街道南城街道体育路盈锋商务中心105-108号",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "又一川水煮鱼馆(南城簪花岭店)",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于华凯活力中心1层8号173",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "可园博物馆",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于莞城街道西隅社区可园路32号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉拉面研究所",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于南城街道凯名轩簪花路6号113",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "同沙湖城市公园",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于东城街道莞长路东城段86号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "名雅公馆(国际展览中心珊美地铁站店)",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于厚街镇厚沙路50号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "向荣住宿",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于工业路4号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "啊爆热炒云贵小馆",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于广华路万科瑧湾汇8号楼103室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉庭顺德菜(达鑫龙庭店)",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于南城街道簪花路达鑫龙庭4栋(东方客栈1楼)",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚优公寓(大朗里悦里店)",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于长盛南路288号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德仔烤肉工场",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于南城街道塘贝村北十二巷1号之四105室(花街正对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怡莎酒店",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于赤岭莞太路6号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "抓住全日餐室",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于簪花路8号135铺",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "振业时尚公寓",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于汀山村前进路27号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "旗峰公园-旗峰山",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于旗峰路旗峰公园内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "旗峰公园-黄旗观音古寺",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于旗峰公园",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杜乐丽TUILERIES餐厅酒廊",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于莞香印巷1栋102室",
+    "tags": [
+      "080304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松林.Inkwood",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于华凯豪庭5栋B13号铺",
+    "tags": [
+      "080304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桥鸿客房",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于莲城宏达步行街12号206号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨江体育公园",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于万江街道坝头东江大道旁",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潔keep life(东莞店)",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于南城街道元美东路1号莞香印巷四栋二层017铺",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱回家优选公寓",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于厚街镇宝屯社区康乐北路6号厚街万达广场5号楼1618室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白与白切(中孚大厦店)",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于东城街道南城街道簪花路11号1单元103室",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "篁胜酒家",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于南城街道体育路11号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚天酒店",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于运河东一路3号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莱尔曼牛扒(体育路店)",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于南城街道体育路15号晓南大厦二楼莱尔曼牛扒",
+    "tags": [
+      "050211"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西城楼公园",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于莞城街道市桥社区运河东二路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观想堂Cici家宴(市政府店)",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于南城街道石竹路5号臻湾汇18号楼二层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎宾住宿(香芒东路店)",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于香芒东路86号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金记烧鹅(华凯活力中心店)",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于南城区簪花路8号179室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金雅利商务公寓",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于大岭山镇教育路182号东升网吧旁",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "银泉商务宾馆(东莞南城店)",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于英联路口篁村综合楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳光商务公寓(东莞厚街店)",
+    "city": "东莞",
+    "category": "hotel",
+    "description": "位于汀山前进路11-12号(福东路与前进路交汇处北行50米路东)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "食餐饱酒楼·地道特色粤菜",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于石竹路3号东实停车楼2楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鳒鱼洲文创园",
+    "city": "东莞",
+    "category": "attraction",
+    "description": "位于莞城街道博厦社区鳒鱼洲路8号",
+    "tags": [
+      "120100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿禧酒家·顺德菜",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于南城街道元岭路南城段4号2栋101室",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(东莞瑧湾汇餐厅)",
+    "city": "东莞",
+    "category": "food",
+    "description": "位于南城街道石竹路5号瑧湾汇花园22号楼105室",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

@@ -1,0 +1,2225 @@
+[
+  {
+    "name": "万好酒店(西宁火车站下南关店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于夏都府邸西区1号楼190-12号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下沉广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于五四西路88号唐道637号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中华枸杞养生苑",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于昆仑东路21号三江雪广场",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国兰州老达家纯汤牛肉面",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于宁张路46号46-334号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中心广场北广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于七一路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丹噶尔古城",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于明清老街",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "义龙宾馆(青海店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于砖厂路122号(近青海艺校大门)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九眼泉自然旅游区",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于金桥路与开科路交叉口西南360米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五一路花园广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于五一路20号附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五彩瀑布",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于凤凰山路211号南山公园(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于胜利路72号(小桥大街口)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于祁连路与朝阳西路交叉口东300米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光彩广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于西大街6号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冶家新派抓面牛杂羊杂(中房·城北国际村春桃园店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于中房·城北国际村春桃园南门东110米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘家沟生态公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于青海卓然工程机械租赁有限公司西侧160米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘阿姨螺蛳粉(西宁城北店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于小桥大街街道城北国际村一期南门48-48号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "初见民宿",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于宁大路259号青海大学教师公寓16号楼2单元28楼2283室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "到家尝知味餐馆(夏荷园店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于国际村二期9号楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北山美丽园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于林家崖路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北川河湿地公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于北海公园(宁张路东)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北川河湿地公园(正门)",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于北川河湿地公园内(南侧)",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北川河湿地公园水帘洞",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于北川河湿地公园内(南侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千紫缘",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于田家寨镇千紫缘",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华莱士·全鸡汉堡(宁张路店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于宁张路52号7号楼1层52-114号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南山公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于凤凰山路211号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "友兴宾馆(西宁火车站店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于建国大街23号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城木桥牛肉面(兴海路店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于兴海路28号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "唐道火车头广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于西关大街与文汇路交叉口西北120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城北廿里铺村文化中心广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于宁张路57号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "墨脱石锅鱼(中房·城北国际村春桃园店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于宁张路97号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大有山3队广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大通国家森林公园鹞子沟风景区",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于东峡路1号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大通鑫源宾馆",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于安门路360号(中汇花园北100米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津小笼包(西宁城北区)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于新世纪花园西门北80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安仔包(中房·城北国际村店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于·国际村春桃园南门旁",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝葫芦西北茶食铺(新华联购物中心店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于文汇路15号新华联购物中心F4层",
+    "tags": [
+      "050400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "家林宾馆(南川西路店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于南川西路97号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尕张尔炕锅面食馆",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于经一路1-27号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "布丁酒店(西大街大十字店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于民主街1号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张氏姊妹麻辣烫(城北国际村店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于宁张路城北国际村50-86号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德克士(香格里拉店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于香格里拉大道8号商业广场一楼",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(王府井店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于西大街40号王府井百货1层(中心广场附近)",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于海晏路72号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新华联童梦乐园综合旅游度假区",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于多巴镇韦家庄村600-17号新华联国际旅游城",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新辉宾馆(丹噶尔古城店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于新城大道国际花园1楼大厅",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "日月山景区",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于日月山村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼境堂",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于经二路63号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朝阳公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于门源路44号对面",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朝阳广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于门源路17号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "朝阳绿岛公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于兰西高速公路北",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(力盟商业街店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于五四大街力盟商业街41-25号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(海湖万达店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于西关大街132号9号楼132-76室",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柴达木公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于海西路19号东北方向100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "根据地柴火鸡(城北国际村店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于宁张路石头磊村沿街A1-301三楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江漓白芷民宿(西宁火车站店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于周家泉街道建国路5号8号楼3单元3091室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沈那公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于勤勉街与小桥大街交叉口西南360米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河湟忠合炸酱面",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泉城宾馆",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于饮马街街道东大街10号华翼大厦三楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泰宁花园涮羊肉",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于康西一路9号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洋嘉休闲广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于胜利路81号华润万家生活超市附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(唐道637店夜宵主题店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于西关大街130号美伦城市广场3层A-302号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(国芳购物中心店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于西关大街42-52号国芳百货4层01号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海湖广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于五四西路72号海湖新区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海湖广场西广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于海湖广场内(西侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真·东串串火锅",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于力盟商业街大食记美食城2层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真军邺金富苑毛肚火锅(时代盛华店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于兴海路街道胜利路4号时代盛华二楼4-48-4-82号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真军邺金富苑肥牛",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于古城台街道五四大街37号二楼",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真军邺金富苑肥牛城(海湖新区精品店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于文成路16号B区16-96二层(海湖星城)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真蜀味传旗鸭爪爪干锅·火锅(海湖店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于文成路15-43号(海湖星城东门)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真蜀味传旗鸭爪爪干锅·火锅(青旅大厦店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于胜利路53号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湟水湿地公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于海晏路绿地云香郡北",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湟源宏源宾馆",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于县交警大队车管所东50米处",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溪格格牦牛大骨汤(力盟店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于五四大街37号18栋",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溪格格牦牛大骨汤(总店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于门源路思学巷中海和山郡西区北门",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "烟火湘厨-湘味小炒(新世纪花园店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于宁张路10号新世纪花园",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱尊客公寓(西宁火车站店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于建国南路66号新千国际广场20号楼24层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱尚宁民宿(西宁火车站店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于滨河南路67号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛多多兰州牛肉面(中房·城北国际村春桃园店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于宁张路62号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狼窝沟公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于宁大路247号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉桥商务酒店(新千夜市店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于大众街105号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "生物园广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于纬二路与经二路交汇处西南130米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白沙滩公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于文逸路4号西北方向120米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石沿传奇特色烤肉面片(中房·城北国际村夏荷园店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于宁张路50号夏荷园9号楼50-78",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祁串串火锅",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于文汇路街道五四西路64号红星美凯龙综合馆F2-B8050、B8051号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祁记手工面片坊(三号店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于五四大街41号力盟步行街17楼一层104号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "祁记手工面片坊(二号店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于西关大街130号G-107",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "禾裕汤皇",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于海湖新区国投广场B座",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秀水路城市公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于七一西路辅路与同仁路交叉口东240米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿地广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于胜利路与中华巷交叉口南60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "群加国家森林公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于扎哈公路东200米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老方桌烂蹄花(西宁海湖新区万达店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于文汇路街道广场路1号5号楼-459-461室",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老马家吃肉退骨牛肉面(能源小区店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于兴海路71号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖姑舅手工拉面(中房·城北国际村春桃园店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于宁张路48号11号楼48-114号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫家路拜酿皮(兴海路店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于兴海路尕寺巷1号楼1号铺",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萨尔斯堡西区二期广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于美丽水街与湟水北路交叉口西200米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛮涮自助小火锅·糖水铺子集合店(西宁王府井店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于礼让街街道区西大街40号王府井B馆负一层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西北马家优质包子",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于为民巷13号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁云栖青年民宿(西宁火车站店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于下滨河路195号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁京尚家庭宾馆",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于建国路13号百力豪庭8号楼1单元5F",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁北山大墩岭景区",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于西宁北山美丽园北山烟雨景区附近",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁南凉虎台遗址公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于虎台公交站附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁圣都宾馆",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于互助中路389-9号(火车站东南500米,小商品批发市场斜对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁好运来日租房(火车站店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于祁连路37号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁宁梦家庭宾馆",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于周家泉街道建国路5号和谐家园15号楼1单元1114室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁市人民公园-东北门广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于秀水路西宁市人民公园(东侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁市体育公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于海湖大道附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁市博物馆",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于门源路与西海路交叉口东北110米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁市大墩岭建设公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于远山与风野奢露营基地西北侧170米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁市漫星民宿(花园北街大新街夜市店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于花园北街28号4号楼5楼502号商铺",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁思云宾馆(大新街夜市店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于北大街10号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁怡家宾馆(下南关街店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于共和南路12号(青海昆仑中学对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁星鑫家庭民宿",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于建国北路和谐家园小区10号楼19楼2197室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁朝夕家庭宾馆",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于西川南路50号晟锦花园1号楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁植物园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于虎台街道古城台街道西山三巷5号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁永成宾馆(南山路店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于南山路95号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁润君民宿(火车站店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于建国路5号和谐家园8号楼3单元9楼3222室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁温馨酒店公寓(西宁火车站店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于建国路滨河南路交叉口玖鹰大饭店楼上玖鹰大厦23楼3232室(从派酒店电梯上23楼)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁湟水国家湿地公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于海晏路72号文化公园内(北侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁爱尚青年家庭公寓",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于和谐家园倾城15号楼1单元24楼1244",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁玉山客栈",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于下滨河路326号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁珍珠酒店(城南会展中心店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于同安路与总丹段交叉路口往北60米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁百德宾馆",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于小桥大街107号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁绿叶商务宾馆(西宁站高铁站店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于大众街105号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁腾海日租房住宿",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于下滨河路149号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁西山招待所",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于昆仑路37号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁野生动物园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于行知路9号",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁野生动物园(浣熊)",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于行知路9号西宁野生动物园内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁金珠宾馆",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于清泉路22号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁金雅居商务宾馆",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于花园南街21号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁鑫皓商务宾馆",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于汇宁路16号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁雅洁民宿",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于毛胜寺街小桥新村一期6号楼1单元501室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁韩梅民宿(火车站店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于建国路5号和谐家园8号楼3单元27楼3274室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁馥裕商务宾馆(青海大学附属医院力盟店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于红房巷1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁高原明珠家庭民宿",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于长江路89号国际能源小区1号楼1单元",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西宁龙朝宾馆",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于园树巷14号(距南川西路客运站963米、青海大学附属医院768米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西湖宾馆(开发区店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于开元路15号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西郊乐园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于湟水湿地公园内(东侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西门文化广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于长江路与西关大街交叉口西南80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "豪龙宾馆",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于建国路17号(青藏铁路公司对面)",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贾小巷子涮羊肉(城北康美店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于经二路65号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贾小巷涮羊肉·青海地标美食(百年老院)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于贾小庄小学丁字路口贾小巷12号肖婆婆隔壁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "醉青稞牦牛火锅",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于新宁路34号省投资大厦北侧(丁香家园东门)",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金富苑肥牛(朝阳民惠店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于门源路12-78-112号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金富苑肥牛城(石坡街旗舰店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于石坡街2号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫源宾馆(建设东路)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于建设东路4号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锅庄庆典广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于五四西路88号唐道637号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿串串老火锅(五矿店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于文汇路街道文博路6号五矿天地巷子21栋1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿串串老火锅(城北西格广场店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于西海路51号碧桂园旁西格广场店",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿串串老火锅(海湖星城店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于文成路16号一楼(海湖金富苑楼下)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈厨老饭铺(宁张路店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于国际村第四期52-220号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陌上流年高级青旅民宿(西宁火车站店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于大众街街道建国大街中发源时代广场12号楼4单元16楼4162室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青唐街不夜广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于刘家沟路与苏木莲路交叉口西南320米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青唐街撒野广场",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于苏木莲路与刘家沟路交叉口南240米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青海省博物馆",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于西关大街58号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青海藏医药文化博物馆北馆",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于经二路36号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青海藏文化博物院",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于生物科技产业园区经二路36号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青海藏文化馆",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于迎宾路A1号,塔尔寺以东约1公里",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青甘线甘南线旅游",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于人民街与北斗宫街交叉口南140米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青藏高原自然博物馆",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于生物科技产业园区经二路21号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青谱牦牛拉面(中房·城北国际村店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于国际村春桃园48-100",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青谱牦牛拉面(海湖店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺天府餐饮",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于宁张路48号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "饭点湘遇(城北国际村店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于宁张路50号3号楼50-54号",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马伊撒烤肉面片(中房·城北国际村春桃园店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于宁张路48号铺面马伊撒烤肉手工面片",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马尔沙牛杂(海一大厦店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于海一大厦附近",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马相卿特色烤肉面食馆",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于虎台二巷9号(近盐湖路)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲁青水上公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于同仁路2号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹤鹏客栈(西宁火车站店)",
+    "city": "西宁",
+    "category": "hotel",
+    "description": "位于青海西宁城东区祁连路39号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麒麟湾公园",
+    "city": "西宁",
+    "category": "attraction",
+    "description": "位于黄河路昆仑壹号东侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(海湖广场店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于文景街98号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麻一刀烧烤(城北国际村店)",
+    "city": "西宁",
+    "category": "food",
+    "description": "位于廿里铺镇宁张路50号4号楼50-64号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

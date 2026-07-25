@@ -1,60 +1,55 @@
 [
   {
-    "name": "河北博物院",
+    "name": "一品渝香干锅鸭头(辣欢天店)",
     "city": "石家庄",
-    "category": "attraction",
-    "description": "河北博物院 是石家庄的旅游景点，位于长安区。地址：东大街4号(博物院地铁站C西南口步行360米)。",
+    "category": "food",
+    "description": "位于范西路与青园街交叉口北行20米路东",
     "tags": [
-      "石家庄"
+      "050102"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "全天",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "长安公园",
+    "name": "七七情侣公寓(万豪大厦店)",
     "city": "石家庄",
-    "category": "attraction",
-    "description": "长安公园位于石家庄市长安区，是一个集休闲、娱乐、健身于一体的综合性公园。",
+    "category": "hotel",
+    "description": "位于中华南大街万豪大厦8层",
     "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
+      "100100"
     ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "全天开放",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "人民广场",
+    "name": "万象天成音乐广场",
     "city": "石家庄",
     "category": "attraction",
-    "description": "人民广场 是石家庄的景点",
+    "description": "位于中山街道裕华西路15号万象天成商务广场C座7楼",
     "tags": [
-      "风景名胜",
-      "公园广场",
-      "城市广场"
+      "110105"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "石家庄市博物馆",
+    "name": "下沉广场",
     "city": "石家庄",
     "category": "attraction",
-    "description": "石家庄市博物馆位于长安区建设北大街11号，是一座综合性博物馆，收藏和展示石家庄地区的历史文物和自然标本，举办各类临时展览。",
+    "description": "位于建设南大街与建强路交叉口南180米",
     "tags": [
-      "博物馆",
-      "文化"
+      "120304"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "09:00-17:00（周一闭馆）",
-    "rating": 4.2
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "世纪公园",
@@ -66,109 +61,1140 @@
       "休闲",
       "石家庄"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "2小时",
     "openTime": "全天开放",
     "rating": 4.5
   },
   {
-    "name": "石门公园",
+    "name": "世纪公园",
     "city": "石家庄",
     "category": "attraction",
-    "description": "位于石家庄市裕华区的城市公园，环境优美，适合休闲散步。",
+    "description": "世纪公园，位于槐底街道体育南大街267号，裕华区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世纪公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "世纪公园，位于槐底街道体育南大街267号，裕华区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世纪公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "世纪公园，位于槐底街道体育南大街267号，裕华区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世纪公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "世纪公园是石家庄市裕华区的一座大型城市公园，集休闲、娱乐、健身于一体，环境优美。",
     "tags": [
       "公园",
       "休闲",
-      "城市公园"
+      "石家庄"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.0
-  },
-  {
-    "name": "花卉园",
-    "city": "石家庄",
-    "category": "attraction",
-    "description": "花卉园位于西安市长安区华清南街9号，是一处集观赏、休闲于一体的公园广场，适合市民和游客游览。",
-    "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "全天开放",
-    "rating": 3.5
-  },
-  {
-    "name": "欧韵公园",
-    "city": "石家庄",
-    "category": "attraction",
-    "description": "欧韵公园位于石家庄市裕华区汇通路与建设大街交叉口，是一座环境优美的城市公园。",
-    "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
-    ],
-    "avgCost": 0,
-    "duration": "未知",
-    "openTime": "全天",
-    "rating": 0
-  },
-  {
-    "name": "清真寺",
-    "city": "石家庄",
-    "category": "attraction",
-    "description": "位于石家庄新华区清真寺街25号的清真寺，是一座具有回教建筑风格的风景名胜。",
-    "tags": [
-      "清真寺",
-      "回教",
-      "风景名胜"
-    ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天",
-    "rating": 4.0
-  },
-  {
-    "name": "石家庄解放纪念碑",
-    "city": "石家庄",
-    "category": "attraction",
-    "description": "石家庄解放纪念碑位于石家庄市新华区公里街29号，是为纪念石家庄解放而修建的标志性建筑，具有重要的历史意义和纪念价值。",
-    "tags": [
-      "纪念馆",
-      "纪念碑",
-      "红色旅游"
-    ],
-    "avgCost": 0,
-    "duration": "1小时",
+    "avgCost": 0.0,
+    "duration": "2小时",
     "openTime": "全天开放",
     "rating": 4.5
   },
   {
-    "name": "孙大厨鸽子馆(自强店)",
+    "name": "世纪公园",
     "city": "石家庄",
-    "category": "food",
-    "description": "孙大厨鸽子馆(自强店)位于石家庄桥西区自强路117号中山体育馆1层，是一家以鸽子为特色的中餐厅。",
+    "category": "attraction",
+    "description": "位于槐底街道体育南大街267号",
     "tags": [
-      "中餐厅",
-      "鸽子馆"
+      "110101"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "孙大厨鸽子馆(西环店)",
+    "name": "世纪公园-世纪广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于槐底街道体育南大街267号世纪公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世纪公园-电视塔广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于槐底街道体育南大街267号世纪公园",
+    "tags": [
+      "120304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东源宾馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于高邑大街",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东翟庄火锅鸡(裕华万达店)",
     "city": "石家庄",
     "category": "food",
-    "description": "孙大厨鸽子馆(西环店) 是石家庄的美食餐厅，位于桥西区。地址：中山西路506号(长城桥地铁站C西南口步行200米)。",
+    "description": "位于槐中路308号石家庄裕华万达广场B1-8号商业111-1层、112-118-2层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东风旅馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "东风旅馆位于井陉矿区矿市街，365生活超市往北100米，提供住宿服务。作为一家旅馆招待所，环境简洁，适合商务出行或短暂停留。",
+    "tags": [
+      "住宿",
+      "旅馆",
+      "招待所"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "东风旅馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "东风旅馆，位于矿市街(365生活超市往北100米)，井陉矿区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东风旅馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "东风旅馆，位于矿市街(365生活超市往北100米)，井陉矿区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东风旅馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "东风旅馆，位于矿市街(365生活超市往北100米)，井陉矿区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东风旅馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "东风旅馆位于井陉矿区矿市街，365生活超市往北100米，提供住宿服务。作为一家旅馆招待所，环境简洁，适合商务出行或短暂停留。",
+    "tags": [
+      "住宿",
+      "旅馆",
+      "招待所"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "东风旅馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于矿市街(365生活超市往北100米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中和轩饭庄(中山店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山东路300号,博物馆西侧",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中央绿色体育公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于塔南路16号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山党建广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于中山东路39号勒泰中心",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐汇城酒店式公寓(南三条店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于中山东路与大经街交口东北角乐汇城B座26楼2608",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云雅民宿",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于世纪大道河北省农村信用社(大同信用社)西20米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亚洲风自助餐厅(西美店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于建设南大街6号西美酒店2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "人民广场 是石家庄的景点",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "人民广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "人民广场，位于青园街51-36524号，长安区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "人民广场，位于青园街51-36524号，长安区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "人民广场，位于青园街51-36524号，长安区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "人民广场 是石家庄的景点",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "人民广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于青园街51-36524号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场-毛主席雕像",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于中山东路与青园街交叉口西行50米路北",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "优客家酒店",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "优客家酒店 是石家庄的住宿地点，位于灵寿县。地址：工业路与十字街交叉口东100米。",
     "tags": [
       "石家庄"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "优客家酒店",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "优客家酒店，位于工业路与十字街交叉口东100米，灵寿县，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "优客家酒店",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "优客家酒店，位于工业路与十字街交叉口东100米，灵寿县，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "优客家酒店",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "优客家酒店，位于工业路与十字街交叉口东100米，灵寿县，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "优客家酒店",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "优客家酒店 是石家庄的住宿地点，位于灵寿县。地址：工业路与十字街交叉口东100米。",
+    "tags": [
+      "石家庄"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "优客家酒店",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于工业路与十字街交叉口东100米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "会清宾馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于平涉路强隆机械向南20米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元南公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于元南大街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元氏县旅安住宿店",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于马村镇万年村振兴大街5号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光明渔港(裕东店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "光明渔港(裕东店)位于石家庄裕华区裕华东路148-1号，是一家以海鲜为主的中餐厅，提供各类新鲜海产和地道中式菜品，环境优雅，适合家庭聚餐和商务宴请。",
+    "tags": [
+      "海鲜",
+      "中餐",
+      "酒楼"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "光明渔港(裕东店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "光明渔港(裕东店)，位于裕华东路148-1号，裕华区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光明渔港(裕东店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "光明渔港(裕东店)，位于裕华东路148-1号，裕华区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光明渔港(裕东店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "光明渔港(裕东店)，位于裕华东路148-1号，裕华区，类型中餐厅 海鲜酒楼。",
+    "tags": [
+      "中餐厅",
+      "海鲜酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光明渔港(裕东店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "光明渔港(裕东店)位于石家庄裕华区裕华东路148-1号，是一家以海鲜为主的中餐厅，提供各类新鲜海产和地道中式菜品，环境优雅，适合家庭聚餐和商务宴请。",
+    "tags": [
+      "海鲜",
+      "中餐",
+      "酒楼"
+    ],
+    "avgCost": 150.0,
+    "duration": "2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "凌云楼宾馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "凌云楼宾馆位于元氏县蟠龙路26号县中医院东侧，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "凌云楼宾馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "凌云楼宾馆，位于蟠龙路26号县中医院东侧，元氏县，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凌云楼宾馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "凌云楼宾馆，位于蟠龙路26号县中医院东侧，元氏县，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凌云楼宾馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "凌云楼宾馆，位于蟠龙路26号县中医院东侧，元氏县，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凌云楼宾馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "凌云楼宾馆位于元氏县蟠龙路26号县中医院东侧，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "凤凰酒楼",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于建设南大街6号西美酒店4F",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北国优客城市广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于中山东路265号东尚年轻力中心",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华北军区烈士陵园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于中山西路与师范街交叉口西60米",
+    "tags": [
+      "071901"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华夏家园文化健身广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于彭后东风路华夏家园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华星公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于南新街与华星路交叉口东南140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南仓口王家烧麦(总店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山西路4号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "印象公寓(石家庄新百广场店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于新华路街道民族路77号华强公寓C座2305室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "味香缘烙饼卷肉",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于金利街28号0-128商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和平公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于中山西路343号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜福料理",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于建设南大街6号西美酒店F5层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜缤商务宾馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于喜缤商务宾馆3楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四叶草民宿(石家庄吾寓优品店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于铜冶镇金河东路吾寓优品1号楼2830室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国际博览中心广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于国际博览中心(博物院地铁站B东南口步行220米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大吉利·潮汕鲜牛肉火锅(东尚店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山东路265号东尚年轻力中心1009-1011商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大吉利·潮汕鲜牛肉火锅(石家庄桥西勒泰广场店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于槐安西路与城角街交口处勒泰广场4楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大吉利·潮汕鲜牛肉火锅(裕华店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于富强大街与塔北路交口西行50米路南",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天园酒店",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于241省道附近",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天宁寺",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于中山东路51号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(三元店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(三元店)位于新华区和平路与友谊大街交叉口539号，是一家以鸽子为特色的中餐厅。",
+    "tags": [
+      "中餐厅",
+      "鸽子",
+      "餐饮"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "孙大厨鸽子馆(三元店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(三元店)，位于和平路与友谊大街交叉口539号，新华区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(三元店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(三元店)，位于和平路与友谊大街交叉口539号，新华区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(三元店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(三元店)，位于和平路与友谊大街交叉口539号，新华区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(三元店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(三元店)位于新华区和平路与友谊大街交叉口539号，是一家以鸽子为特色的中餐厅。",
+    "tags": [
+      "中餐厅",
+      "鸽子",
+      "餐饮"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "孙大厨鸽子馆(丰收店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(丰收店)位于石家庄市长安区丰收路，是一家以鸽子为特色的中餐厅。",
+    "tags": [
+      "中餐厅",
+      "餐饮服务"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:30",
+    "rating": 4.3
+  },
+  {
+    "name": "孙大厨鸽子馆(丰收店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(丰收店)，位于丰收路1号01号商铺，长安区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(丰收店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(丰收店)，位于丰收路1号01号商铺，长安区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(丰收店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(丰收店)，位于丰收路1号01号商铺，长安区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(丰收店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(丰收店)位于石家庄市长安区丰收路，是一家以鸽子为特色的中餐厅。",
+    "tags": [
+      "中餐厅",
+      "餐饮服务"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:30",
+    "rating": 4.3
+  },
+  {
+    "name": "孙大厨鸽子馆(友谊店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(友谊店)，位于友谊北大街99号，新华区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(友谊店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(友谊店)，位于友谊北大街99号，新华区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(友谊店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(友谊店)，位于友谊北大街99号，新华区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(天山店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(天山店) 是石家庄的美食餐厅，位于裕华区。地址：东城国际广场南门东70米。",
+    "tags": [
+      "石家庄"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "孙大厨鸽子馆(天山店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(天山店)，位于东城国际广场南门东70米，裕华区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(天山店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(天山店)，位于东城国际广场南门东70米，裕华区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(天山店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(天山店)，位于东城国际广场南门东70米，裕华区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(天山店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(天山店) 是石家庄的美食餐厅，位于裕华区。地址：东城国际广场南门东70米。",
+    "tags": [
+      "石家庄"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "全天",
     "rating": 3.5
@@ -183,10 +1209,205 @@
       "中餐",
       "石家庄"
     ],
-    "avgCost": 60,
+    "avgCost": 60.0,
     "duration": "1-2小时",
     "openTime": "10:00-22:00",
     "rating": 4.2
+  },
+  {
+    "name": "孙大厨鸽子馆(维明店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(维明店)，位于维明大街与新石南路交口南行100米路东4层，桥西区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(维明店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(维明店)，位于维明大街与新石南路交口南行100米路东4层，桥西区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(维明店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(维明店)，位于维明大街与新石南路交口南行100米路东4层，桥西区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(维明店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(维明店)是位于石家庄市桥西区维明大街的一家知名中餐厅，以鸽子菜肴为特色，深受食客喜爱。",
+    "tags": [
+      "鸽子",
+      "中餐",
+      "石家庄"
+    ],
+    "avgCost": 60.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.2
+  },
+  {
+    "name": "孙大厨鸽子馆(自强店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(自强店)位于石家庄桥西区自强路117号中山体育馆1层，是一家以鸽子为特色的中餐厅。",
+    "tags": [
+      "中餐厅",
+      "鸽子馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "孙大厨鸽子馆(自强店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(自强店)，位于自强路117号中山体育馆1层，桥西区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(自强店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(自强店)，位于自强路117号中山体育馆1层，桥西区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(自强店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(自强店)，位于自强路117号中山体育馆1层，桥西区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(自强店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(自强店)位于石家庄桥西区自强路117号中山体育馆1层，是一家以鸽子为特色的中餐厅。",
+    "tags": [
+      "中餐厅",
+      "鸽子馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "孙大厨鸽子馆(西环店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(西环店) 是石家庄的美食餐厅，位于桥西区。地址：中山西路506号(长城桥地铁站C西南口步行200米)。",
+    "tags": [
+      "石家庄"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "孙大厨鸽子馆(西环店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(西环店)，位于中山西路506号(长城桥地铁站C西南口步行200米)，桥西区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(西环店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(西环店)，位于中山西路506号(长城桥地铁站C西南口步行200米)，桥西区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(西环店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(西环店)，位于中山西路506号(长城桥地铁站C西南口步行200米)，桥西区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(西环店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(西环店) 是石家庄的美食餐厅，位于桥西区。地址：中山西路506号(长城桥地铁站C西南口步行200米)。",
+    "tags": [
+      "石家庄"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
   },
   {
     "name": "孙大厨鸽子馆(金马店)",
@@ -198,126 +1419,805 @@
       "鸽子馆",
       "石家庄美食"
     ],
-    "avgCost": 80,
+    "avgCost": 80.0,
     "duration": "1-2小时",
     "openTime": "10:00-22:00",
     "rating": 4.2
   },
   {
-    "name": "胡家大厨(永昌里店)",
+    "name": "孙大厨鸽子馆(金马店)",
     "city": "石家庄",
     "category": "food",
-    "description": "胡家大厨(永昌里店)位于石家庄市裕华区富强大街与塔北路交叉口西行200米，是一家提供正宗中餐的餐厅，环境舒适，菜品丰富，适合家庭聚餐和朋友聚会。",
-    "tags": [
-      "中餐",
-      "家常菜"
-    ],
-    "avgCost": 50,
-    "duration": "1.5小时",
-    "openTime": "10:00-22:00",
-    "rating": 4.0
-  },
-  {
-    "name": "孙大厨鸽子馆(丰收店)",
-    "city": "石家庄",
-    "category": "food",
-    "description": "孙大厨鸽子馆(丰收店)位于石家庄市长安区丰收路，是一家以鸽子为特色的中餐厅。",
+    "description": "孙大厨鸽子馆(金马店)，位于槐安东路143号，裕华区，类型中餐厅 中餐厅。",
     "tags": [
       "中餐厅",
-      "餐饮服务"
+      "中餐厅"
     ],
-    "avgCost": 80,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(金马店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(金马店)，位于槐安东路143号，裕华区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(金马店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(金马店)，位于槐安东路143号，裕华区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "孙大厨鸽子馆(金马店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "孙大厨鸽子馆(金马店)是一家位于石家庄裕华区的中餐厅，以鸽子菜肴为特色，环境干净整洁，适合家庭聚餐和朋友聚会。",
+    "tags": [
+      "中餐厅",
+      "鸽子馆",
+      "石家庄美食"
+    ],
+    "avgCost": 80.0,
     "duration": "1-2小时",
-    "openTime": "11:00-21:30",
-    "rating": 4.3
-  },
-  {
-    "name": "光明渔港(裕东店)",
-    "city": "石家庄",
-    "category": "food",
-    "description": "光明渔港(裕东店)位于石家庄裕华区裕华东路148-1号，是一家以海鲜为主的中餐厅，提供各类新鲜海产和地道中式菜品，环境优雅，适合家庭聚餐和商务宴请。",
-    "tags": [
-      "海鲜",
-      "中餐",
-      "酒楼"
-    ],
-    "avgCost": 150,
-    "duration": "2小时",
     "openTime": "10:00-22:00",
-    "rating": 4.3
+    "rating": 4.2
   },
   {
-    "name": "孙大厨鸽子馆(三元店)",
+    "name": "宏泰宾馆",
     "city": "石家庄",
-    "category": "food",
-    "description": "孙大厨鸽子馆(三元店)位于新华区和平路与友谊大街交叉口539号，是一家以鸽子为特色的中餐厅。",
+    "category": "hotel",
+    "description": "位于世纪花园小区东门东行80米新世纪商城北5区19号",
     "tags": [
-      "中餐厅",
-      "鸽子",
-      "餐饮"
+      "100100"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "孙大厨鸽子馆(天山店)",
+    "name": "宜居酒店(石家庄红旗大街汇华学院店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于红旗大街388号(高教区市场南门旁,近祥隆泰超市)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "客悦民宿(西部长青店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于冰雪路西部长青旅游度假区",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富强公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于富强大街39号(塔冢地铁站D西北口步行210米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富淞·和牛焼肉(北国店)",
     "city": "石家庄",
     "category": "food",
-    "description": "孙大厨鸽子馆(天山店) 是石家庄的美食餐厅，位于裕华区。地址：东城国际广场南门东70米。",
+    "description": "位于中山东路195号美居酒店一楼西侧",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚如短租公寓(石家庄凯嘉店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于中山东路126号凯嘉大厦20层B09室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚客优酒店(石家庄平山县回舍镇店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于行政西路与迎宾北街交叉口西60米",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "布鲁克林披萨餐厅",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于金马路通园街交叉口东行100米路北",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开元寺",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于正定镇燕赵南大街109号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(东尚店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山东路269号东尚年轻力中心1层",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "快乐小羊火锅料理(自强路店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于自强街35号(南小街与自强路交叉口)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "快乐小羊火锅餐厅(建华店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山东路473号民航大酒店西楼-6号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怀梦广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于康宁街与槐中路交叉口南100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怀特文化广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于槐岭路与富强大街交叉口东80米",
+    "tags": [
+      "120000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成老灶新派浇头火锅鸡·自助岛(北国店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山东路188号北国商城七层21-7F-01号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成老灶火锅鸡(全国总店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于红旗大街与南二环西路交叉口西行200米路南",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "抱犊寨风景区",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于太平河北路与观景大街交叉口",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拉菲精品公寓(新火车站店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于新石中路36号水晶郦城1号楼1单元502室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拾光智慧体育公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于和平东路与和华街交叉口东南120米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化广场北广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于中山东路316号河北省会文化广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新乐爱家快捷宾馆(新乐市医院店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于育才街28号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "方中山胡辣汤(石家庄店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山西路南小街交叉口西南角",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星河宾馆(柏坡西路店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于龙城花园北门西150米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春诚之家(石家庄河北医科大学第四医院东院店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于留村南区22号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "晋州金冠宾馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于金世纪商城北区3排25号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "暴锅锅酸汤牛肉火锅",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于旺泉南街61号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曙光园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于裕华西路231号(东里地铁站D1西北口步行180米)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "月季公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于北二环东路135号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(湾里庙步行街店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于民族路69号颐高数码广场西侧109、110号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梦港宾馆(东方文化体育市场店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于正东路33号东方文化体育市场5层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欧韵公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "欧韵公园位于石家庄市裕华区汇通路与建设大街交叉口，是一座环境优美的城市公园。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "全天",
+    "rating": 0.0
+  },
+  {
+    "name": "欧韵公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "欧韵公园，位于汇通路与建设大街交叉口，裕华区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欧韵公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "欧韵公园，位于汇通路与建设大街交叉口，裕华区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欧韵公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "欧韵公园，位于汇通路与建设大街交叉口，裕华区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欧韵公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "欧韵公园位于石家庄市裕华区汇通路与建设大街交叉口，是一座环境优美的城市公园。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "全天",
+    "rating": 0.0
+  },
+  {
+    "name": "欧韵公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于汇通路与建设大街交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正定古城",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于镇州南街与常山东路交叉口西南约140米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正定如意旅馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于恒山西路93号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(石家庄勒泰中心店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山东路39号泰中心三层F3-13",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(石家庄益庄店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于胜利北街289号北国商城益庄购物中心5F层",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民生路游园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于休门街与民生路交口东南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民防公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于长丰街道体育大街与丰收路交口东行500米路南建佳地产",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水上公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于联盟街道联盟路500号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永信楼大鱼泡饼旺泉店",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于正定镇墅洋居礼小区底商",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙湿地(儿童乐园)",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于中山东路39号勒泰商业中心三层F3-18C/18D/18E/20/21号商铺",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河北博物院",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "河北博物院 是石家庄的旅游景点，位于长安区。地址：东大街4号(博物院地铁站C西南口步行360米)。",
     "tags": [
       "石家庄"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "全天",
     "rating": 3.5
   },
   {
-    "name": "孙大厨鸽子馆(友谊店)",
+    "name": "河北博物院",
     "city": "石家庄",
-    "category": "restaurant",
-    "description": "孙大厨鸽子馆(友谊店)是一家位于石家庄新华区友谊北大街99号的中餐厅，主打鸽子菜肴，深受食客喜爱。",
+    "category": "attraction",
+    "description": "河北博物院，位于东大街4号(博物院地铁站C西南口步行360米)，长安区，类型博物馆 博物馆。",
     "tags": [
-      "鸽子馆",
-      "中餐厅",
-      "新华区"
+      "博物馆",
+      "博物馆"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河北博物院",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "河北博物院，位于东大街4号(博物院地铁站C西南口步行360米)，长安区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河北博物院",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "河北博物院，位于东大街4号(博物院地铁站C西南口步行360米)，长安区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河北博物院",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "河北博物院 是石家庄的旅游景点，位于长安区。地址：东大街4号(博物院地铁站C西南口步行360米)。",
+    "tags": [
+      "石家庄"
+    ],
+    "avgCost": 0.0,
     "duration": "",
-    "openTime": "",
+    "openTime": "全天",
     "rating": 3.5
   },
   {
-    "name": "赵县业华旅馆",
+    "name": "河北博物院",
     "city": "石家庄",
-    "category": "hotel",
-    "description": "赵县业华旅馆位于永通西路汽车站北十字路口西北角，提供住宿服务，适合商务和旅行旅客。",
+    "category": "attraction",
+    "description": "位于东大街4号(博物院地铁站C西南口步行360米)",
     "tags": [
-      "旅馆",
-      "住宿",
-      "招待所"
+      "140100"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "凌云楼宾馆",
+    "name": "河北省会儿童少年活动中心",
     "city": "石家庄",
-    "category": "hotel",
-    "description": "凌云楼宾馆位于元氏县蟠龙路26号县中医院东侧，提供住宿服务。",
+    "category": "attraction",
+    "description": "位于兴凯路金凯园(市二中地铁站C西南口步行490米)",
     "tags": [
-      "住宿",
-      "宾馆",
-      "酒店"
+      "140800"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(勒泰店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山东路39号勒泰中心L4层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(天山海世界店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于石家庄高新区天山大街116号天山海世界5层5FH003号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(天河方圆荟店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于景悦街6号天河方圆荟购物中心5层0F5S014号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(裕华万达店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于槐安东路123号万达广场万达百货楼5F-A-02",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "深泽希伯商务快捷宾馆",
@@ -329,37 +2229,1691 @@
       "快捷",
       "宾馆"
     ],
-    "avgCost": 150,
+    "avgCost": 150.0,
     "duration": "全天",
     "openTime": "00:00-24:00",
     "rating": 4.0
   },
   {
-    "name": "优客家酒店",
+    "name": "深泽希伯商务快捷宾馆",
     "city": "石家庄",
     "category": "hotel",
-    "description": "优客家酒店 是石家庄的住宿地点，位于灵寿县。地址：工业路与十字街交叉口东100米。",
+    "description": "深泽希伯商务快捷宾馆，位于府前东路文庙东，深泽县，类型宾馆酒店 宾馆酒店。",
     "tags": [
-      "石家庄"
+      "宾馆酒店",
+      "宾馆酒店"
     ],
-    "avgCost": 0,
-    "duration": "",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深泽希伯商务快捷宾馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "深泽希伯商务快捷宾馆，位于府前东路文庙东，深泽县，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深泽希伯商务快捷宾馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "深泽希伯商务快捷宾馆，位于府前东路文庙东，深泽县，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深泽希伯商务快捷宾馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "深泽希伯商务快捷宾馆位于府前东路文庙东，提供便捷舒适的住宿服务，适合商务和旅行客人。宾馆设施齐全，服务周到，是深泽县性价比较高的快捷酒店。",
+    "tags": [
+      "商务",
+      "快捷",
+      "宾馆"
+    ],
+    "avgCost": 150.0,
+    "duration": "全天",
+    "openTime": "00:00-24:00",
+    "rating": 4.0
+  },
+  {
+    "name": "深泽希伯商务快捷宾馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于府前东路文庙东",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深韓泽熟成烤五花肉专门店",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于建设南大街11号联建胡同1-8商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真寺",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于石家庄新华区清真寺街25号的清真寺，是一座具有回教建筑风格的风景名胜。",
+    "tags": [
+      "清真寺",
+      "回教",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
     "openTime": "全天",
+    "rating": 4.0
+  },
+  {
+    "name": "清真寺",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "清真寺，位于清真寺街25号，新华区，类型风景名胜 回教寺。",
+    "tags": [
+      "风景名胜",
+      "回教寺"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真寺",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "清真寺，位于清真寺街25号，新华区，类型风景名胜 回教寺。",
+    "tags": [
+      "风景名胜",
+      "回教寺"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真寺",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "清真寺，位于清真寺街25号，新华区，类型风景名胜 回教寺。",
+    "tags": [
+      "风景名胜",
+      "回教寺"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真寺",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于石家庄新华区清真寺街25号的清真寺，是一座具有回教建筑风格的风景名胜。",
+    "tags": [
+      "清真寺",
+      "回教",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天",
+    "rating": 4.0
+  },
+  {
+    "name": "清真寺",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于清真寺街25号",
+    "tags": [
+      "110207"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真肥肥串老二(振头店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于友谊南大街219号友谊综合楼2楼南区206",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湾里庙水幕广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于南大街与湾里庙步行街交叉口西南20米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滹沱河生态区(城区段)滹沱花海",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于车站南大街滹沱河生态区(城区段)内(东侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滹沱河生态旅游景区",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于车站南大街",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漫山花溪谷",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于五岳寨景区边上",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瀛洲酒店(辛集兴华路电视塔店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于兴华北路230号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "火社火锅(东胜商务广场B座写字楼店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于平安北大街158号东胜商务广场商业1号楼201号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "火社火锅(裕华万达店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于万达公馆西门南行50米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灵寿华夏宾馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于人民东路93-2号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玖玖民宿",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于新中街86号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皖尊一头牛板面总店",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于泰丰观湖东门2号底商101-102",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "直隶安家罩饼(新石店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于新石北路328号天下玉苑21-23号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄临家民宿",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于长江街道天山大街东城国际广场2号楼1801室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄体育公园(北园)",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于维多丽亚丽晶园东(塔南路北)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄夜阑珊主题公寓(铁道大学益庄店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于胜利北大街289号财富天下小区2号楼2单元208室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄天山海世界文化旅游城",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于天山大街116号(留村地铁站D西北口旁)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄工业遗址公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于谈固北大街与贤明路交叉口东240米",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄市动物园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于观景大街99号",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄市博物馆",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "石家庄市博物馆位于长安区建设北大街11号，是一座综合性博物馆，收藏和展示石家庄地区的历史文物和自然标本，举办各类临时展览。",
+    "tags": [
+      "博物馆",
+      "文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "09:00-17:00（周一闭馆）",
+    "rating": 4.2
+  },
+  {
+    "name": "石家庄市博物馆",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "石家庄市博物馆，位于建设北大街11号，长安区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄市博物馆",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "石家庄市博物馆，位于建设北大街11号，长安区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄市博物馆",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "石家庄市博物馆，位于建设北大街11号，长安区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄市博物馆",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "石家庄市博物馆位于长安区建设北大街11号，是一座综合性博物馆，收藏和展示石家庄地区的历史文物和自然标本，举办各类临时展览。",
+    "tags": [
+      "博物馆",
+      "文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "09:00-17:00（周一闭馆）",
+    "rating": 4.2
+  },
+  {
+    "name": "石家庄市博物馆",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于建设北大街11号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄文化广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于中山东路316号(博物院地铁站C西南口步行100米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄植物园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于植物园街60号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄水云间驿栈",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于学府支路132号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄温馨之家公寓",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于长江街道天山南大街与闽江道交汇处西南角周通家园5号楼1单元301室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄玉龙小驻家庭公寓(3号店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于玉村玉龙小区",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄解放纪念碑",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "石家庄解放纪念碑位于石家庄市新华区公里街29号，是为纪念石家庄解放而修建的标志性建筑，具有重要的历史意义和纪念价值。",
+    "tags": [
+      "纪念馆",
+      "纪念碑",
+      "红色旅游"
+    ],
+    "avgCost": 0.0,
+    "duration": "1小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "石家庄解放纪念碑",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "石家庄解放纪念碑，位于公里街29号，新华区，类型风景名胜 纪念馆。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄解放纪念碑",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "石家庄解放纪念碑，位于公里街29号，新华区，类型风景名胜 纪念馆。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄解放纪念碑",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "石家庄解放纪念碑，位于公里街29号，新华区，类型风景名胜 纪念馆。",
+    "tags": [
+      "风景名胜",
+      "纪念馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄解放纪念碑",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "石家庄解放纪念碑位于石家庄市新华区公里街29号，是为纪念石家庄解放而修建的标志性建筑，具有重要的历史意义和纪念价值。",
+    "tags": [
+      "纪念馆",
+      "纪念碑",
+      "红色旅游"
+    ],
+    "avgCost": 0.0,
+    "duration": "1小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "石家庄解放纪念碑",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于公里街29号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄解放纪念馆",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于中山街道中山街道解放广场",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄鑫源家庭旅馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于汇通街道胜利南街257号东丹庭院14号楼2单元102室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石家庄阿英短租公寓",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于桃园路2号1-402号(胜利大街与桃园路交口工商银行对面)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石门侯馄饨总店(革新北街店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于维明大街与兴凯路交叉口南行80米往东第三间底商",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石门公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于石家庄市裕华区的城市公园，环境优美，适合休闲散步。",
+    "tags": [
+      "公园",
+      "休闲",
+      "城市公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "石门公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "石门公园，位于富强大街49号，裕华区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石门公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "石门公园，位于富强大街49号，裕华区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石门公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "石门公园，位于富强大街49号，裕华区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石门公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于石家庄市裕华区的城市公园，环境优美，适合休闲散步。",
+    "tags": [
+      "公园",
+      "休闲",
+      "城市公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "石门公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于富强大街49号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "科苑广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于建设南大街与槐北路交汇处西行80米路南",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(丽华商场店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山西路87号-A号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(北国商城店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山东路188号北国商城商场里9楼906号米村拌饭",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫晶公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于学前街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红尖椒食府(北国店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于联建胡同6号(西美商务酒店东)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红星包子(石家庄省博物馆店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山东路306号(博物院地铁站C西南口步行120米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿荫广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于谈固北大街167号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "联邦·空中花园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于翟营南大街386号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚宝源(东尚店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山东路265号省博物馆西行200米路北东尚广场5F-Z502号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚宝源(胜利店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于阜康街道胜利北街172号鑫利广场A栋3楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚宝源(谈固大街总店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于谈固南大街256号小马新村底商北2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肥肥串老二(红旗店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于南二环与红旗大街交叉口西南角",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖子和瘦子农场西餐(石家庄北国商城店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山东路188号北国商城7层L709号",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡家大厨(永昌里店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "胡家大厨(永昌里店)位于石家庄市裕华区富强大街与塔北路交叉口西行200米，是一家提供正宗中餐的餐厅，环境舒适，菜品丰富，适合家庭聚餐和朋友聚会。",
+    "tags": [
+      "中餐",
+      "家常菜"
+    ],
+    "avgCost": 50.0,
+    "duration": "1.5小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.0
+  },
+  {
+    "name": "胡家大厨(永昌里店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "胡家大厨(永昌里店)，位于富强大街与塔北路交叉口西行200米，裕华区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡家大厨(永昌里店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "胡家大厨(永昌里店)，位于富强大街与塔北路交叉口西行200米，裕华区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡家大厨(永昌里店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "胡家大厨(永昌里店)，位于富强大街与塔北路交叉口西行200米，裕华区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡家大厨(永昌里店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "胡家大厨(永昌里店)位于石家庄市裕华区富强大街与塔北路交叉口西行200米，是一家提供正宗中餐的餐厅，环境舒适，菜品丰富，适合家庭聚餐和朋友聚会。",
+    "tags": [
+      "中餐",
+      "家常菜"
+    ],
+    "avgCost": 50.0,
+    "duration": "1.5小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.0
+  },
+  {
+    "name": "舒雅民宿(南关街分店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于公园西路付46号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花卉园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "花卉园位于西安市长安区华清南街9号，是一处集观赏、休闲于一体的公园广场，适合市民和游客游览。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天开放",
     "rating": 3.5
   },
   {
-    "name": "东风旅馆",
+    "name": "花卉园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "花卉园，位于华清南街9号，长安区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花卉园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "花卉园，位于华清南街9号，长安区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花卉园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "花卉园，位于华清南街9号，长安区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花卉园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "花卉园位于西安市长安区华清南街9号，是一处集观赏、休闲于一体的公园广场，适合市民和游客游览。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天开放",
+    "rating": 3.5
+  },
+  {
+    "name": "花卉园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于华清南街9号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苍岩山风景名胜区",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于胡家滩村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苏达咖喱(博物院店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于范西路与青园街交口东行200米路南",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣国府",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于兴荣路51号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "藁城区周梅民宿",
     "city": "石家庄",
     "category": "hotel",
-    "description": "东风旅馆位于井陉矿区矿市街，365生活超市往北100米，提供住宿服务。作为一家旅馆招待所，环境简洁，适合商务出行或短暂停留。",
+    "description": "位于廉州镇前进路(系井小学西北侧约170米)",
     "tags": [
-      "住宿",
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁记串串香(北国店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于联建胡同8号(北国商城地铁站B2东南口步行330米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "裕园公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于裕华西路63号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "褚小白·小白烧烤(同祥城店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于祁连街58号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西山森林公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于上庄镇山前大道",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西柏坡景区",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于西柏坡村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西柏坡纪念馆",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于西柏坡镇",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "谷连天八宝粥家常菜(勒泰店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山东路172号西侧1层-1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵云庙",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于正定镇兴荣东路77号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵县业华旅馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "赵县业华旅馆位于永通西路汽车站北十字路口西北角，提供住宿服务，适合商务和旅行旅客。",
+    "tags": [
       "旅馆",
+      "住宿",
       "招待所"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
+  },
+  {
+    "name": "赵县业华旅馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "赵县业华旅馆，位于永通西路(汽车站北十字路口西北角)，赵县，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵县业华旅馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "赵县业华旅馆，位于永通西路(汽车站北十字路口西北角)，赵县，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵县业华旅馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "赵县业华旅馆，位于永通西路(汽车站北十字路口西北角)，赵县，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵县业华旅馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "赵县业华旅馆位于永通西路汽车站北十字路口西北角，提供住宿服务，适合商务和旅行旅客。",
+    "tags": [
+      "旅馆",
+      "住宿",
+      "招待所"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "赵县业华旅馆",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于永通西路(汽车站北十字路口西北角)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵州桥景区",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于赵州镇大石桥村石桥大街",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "达美乐比萨(石家庄北国商城店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山东路188号北国商城B1层(北国商城地铁站C2西南口旁)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鄧硬雄性食材研究所(石家庄直营店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于建设南大街16号",
+    "tags": [
+      "141300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金春禧(北国商城店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于建设南大街北国商城7层(北国商城地铁站C1西南口旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金满堂·罩火烧·罩饼·牛肉饭",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于裕华东路171号",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫隆驿栈(石家庄火车站店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于新石中路与京广街交口路北建工集团宿舍1号楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长安公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "长安公园位于石家庄市长安区，是一个集休闲、娱乐、健身于一体的综合性公园。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "长安公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "长安公园，位于青园街道青园街道建设北大街13号，长安区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长安公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "长安公园，位于青园街道青园街道建设北大街13号，长安区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长安公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "长安公园，位于青园街道青园街道建设北大街13号，长安区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长安公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "长安公园位于石家庄市长安区，是一个集休闲、娱乐、健身于一体的综合性公园。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "长安公园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于青园街道青园街道建设北大街13号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长安公园牡丹园",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于长安公园内(长安公园地铁站A东北口步行340米)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿朱串串锅(兴凯路总店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于北后小区西区北门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隆兴寺",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于中山东路109号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青园小区-文化广场",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于青园街与建强路交叉口东280米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "驼梁风景区",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于合河口乡前大地村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "驿家365连锁酒店(西大街博物院地铁站店)",
+    "city": "石家庄",
+    "category": "hotel",
+    "description": "位于西大街56号(博物院地铁站C西南口步行220米)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高建民驴肉火烧(谈北路店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于谈北路与谈中街交叉口东行二十米路南",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于翟营南大街空中花园北行50米路西",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(红旗大街店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于红旗大街天和服饰广场一楼(肯德基南侧)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(东方新世界店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山东路118号(平安大街地铁站B东南口步行150米)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(中山东路北国餐厅)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山东路188号北国商城B1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(北国商城店)",
+    "city": "石家庄",
+    "category": "food",
+    "description": "位于中山东路188号北国商城",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙泉古寺",
+    "city": "石家庄",
+    "category": "attraction",
+    "description": "位于茶仓路3号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

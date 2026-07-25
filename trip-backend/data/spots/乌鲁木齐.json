@@ -1,50 +1,532 @@
 [
   {
-    "name": "红山公园",
+    "name": "lazy周末民宿(天山职业技术大学店)",
     "city": "乌鲁木齐",
-    "category": "attraction",
-    "description": "红山公园是乌鲁木齐市的标志性公园，位于红山路北一巷，以红山塔和城市全景闻名。",
+    "category": "hotel",
+    "description": "位于葛家沟西路621号",
     "tags": [
-      "公园",
-      "风景",
-      "地标"
+      "100200"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "07:00-22:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "新疆维吾尔自治区博物馆",
+    "name": "napoli·袁先生的窑炉披萨(天津路店)",
     "city": "乌鲁木齐",
-    "category": "attraction",
-    "description": "新疆维吾尔自治区博物馆位于乌鲁木齐市沙依巴克区西北路581号，是收藏和展示新疆历史文物的重要场所，馆藏丰富，包括干尸、丝织品等珍贵文物，是了解新疆历史文化的好去处。",
+    "category": "food",
+    "description": "位于天津南路一号美食街b区314号",
     "tags": [
-      "博物馆",
-      "历史",
-      "文化",
-      "文物"
+      "050000"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "10:00-18:00（周一闭馆）",
-    "rating": 4.7
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "新疆国际大巴扎",
+    "name": "一头牛潮汕牛肉火锅(南湖店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖南路水清木华C座66号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一炮成功",
     "city": "乌鲁木齐",
     "category": "attraction",
-    "description": "新疆国际大巴扎位于乌鲁木齐市天山区解放南路518号，是新疆最大的集市，集中体现了维吾尔族建筑风格和民俗文化。这里汇集了各种干果、手工艺品、服装等，是游客必去的景点之一。",
+    "description": "位于水磨沟风景区内西南角的景点，具有历史纪念意义。",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "一炮成功",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "一炮成功，位于水磨沟风景区内(西南角)，水磨沟区，类型风景名胜 风景名胜。",
     "tags": [
       "风景名胜",
-      "国家级景点",
-      "购物",
-      "服装鞋帽"
+      "风景名胜"
     ],
-    "avgCost": 0,
-    "duration": "1-3小时",
-    "openTime": "10:00-22:00",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一炮成功",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "一炮成功，位于水磨沟风景区内(西南角)，水磨沟区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一炮成功",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "一炮成功，位于水磨沟风景区内(西南角)，水磨沟区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一炮成功",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于水磨沟风景区内西南角的景点，具有历史纪念意义。",
+    "tags": [
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "未知",
+    "rating": 0.0
+  },
+  {
+    "name": "一炮成功",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于水磨沟风景区内(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上头局·烧烤江湖菜大排档",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖南路东四巷与绿苑七巷交叉口东20米",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东方宴(南湖店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖西路197号天津港大厦2层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东来顺饭庄",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于文化路69号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丝路东方虾仁水饺(铁路局汇嘉店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于北京中路81号101号汇嘉时代南侧近停车场出口",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丝路东方虾仁水饺(长青店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖东路95号龙海钻石广场F1层",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丝路有约·优雅新疆菜(万宴城店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "丝路有约是一家以优雅环境和新派新疆菜为特色的餐厅，位于乌鲁木齐市天山区万宴城二楼。",
+    "tags": [
+      "新疆菜",
+      "中餐",
+      "优雅"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-22:00",
     "rating": 4.5
+  },
+  {
+    "name": "丝路有约·优雅新疆菜(万宴城店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "丝路有约·优雅新疆菜(万宴城店)，位于中山路与解放北路十字路口万宴城二楼，天山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丝路有约·优雅新疆菜(万宴城店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "丝路有约·优雅新疆菜(万宴城店)，位于中山路与解放北路十字路口万宴城二楼，天山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丝路有约·优雅新疆菜(万宴城店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "丝路有约·优雅新疆菜(万宴城店)，位于中山路与解放北路十字路口万宴城二楼，天山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丝路有约·优雅新疆菜(万宴城店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "丝路有约是一家以优雅环境和新派新疆菜为特色的餐厅，位于乌鲁木齐市天山区万宴城二楼。",
+    "tags": [
+      "新疆菜",
+      "中餐",
+      "优雅"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "丰岚粒粒香抓饭(南湖店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖东路北二巷139号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "久福民宿",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于葛家沟村卧龙岗片区28号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌拉斯台草原",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于甘沟乡白杨沟388号南山牧场西白杨沟景区",
+    "tags": [
+      "080300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐丽海商旅酒店(植物园地铁站店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于乌鲁木齐新市区北京北路136号，靠近植物园地铁站，提供舒适的商旅住宿服务。",
+    "tags": [
+      "住宿",
+      "商旅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "乌鲁木齐丽海商旅酒店(植物园地铁站店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "乌鲁木齐丽海商旅酒店(植物园地铁站店)，位于北京北路136号，新市区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐丽海商旅酒店(植物园地铁站店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "乌鲁木齐丽海商旅酒店(植物园地铁站店)，位于北京北路136号，新市区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐丽海商旅酒店(植物园地铁站店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "乌鲁木齐丽海商旅酒店(植物园地铁站店)，位于北京北路136号，新市区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐丽海商旅酒店(植物园地铁站店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于乌鲁木齐新市区北京北路136号，靠近植物园地铁站，提供舒适的商旅住宿服务。",
+    "tags": [
+      "住宿",
+      "商旅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "乌鲁木齐丽海商旅酒店(植物园地铁站店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于北京北路136号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐今美居宾馆(天山国际机场店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于太原北路736号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐十三月民宿",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于水西沟镇庙尔沟村147号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐县屋礼民宿",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于水西沟镇庙尔沟村206号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐喜悦驿站",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于大草滩115号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐嘉怡宾馆",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "乌鲁木齐嘉怡宾馆位于新市区河北东路北四巷23号，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "乌鲁木齐嘉怡宾馆",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "乌鲁木齐嘉怡宾馆，位于河北东路北四巷23号，新市区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐嘉怡宾馆",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "乌鲁木齐嘉怡宾馆，位于河北东路北四巷23号，新市区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐嘉怡宾馆",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "乌鲁木齐嘉怡宾馆，位于河北东路北四巷23号，新市区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐嘉怡宾馆",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "乌鲁木齐嘉怡宾馆位于新市区河北东路北四巷23号，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "乌鲁木齐嘉怡宾馆",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于河北东路北四巷23号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐小渠子青龙潭景区",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于甘沟乡高潮村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "乌鲁木齐市儿童公园",
@@ -57,10 +539,268 @@
       "休闲",
       "游乐场"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "2-3小时",
     "openTime": "08:00-20:00",
     "rating": 4.2
+  },
+  {
+    "name": "乌鲁木齐市儿童公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "乌鲁木齐市儿童公园，位于友好北路29号，沙依巴克区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐市儿童公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "乌鲁木齐市儿童公园，位于友好北路29号，沙依巴克区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐市儿童公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "乌鲁木齐市儿童公园，位于友好北路29号，沙依巴克区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐市儿童公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "乌鲁木齐市儿童公园位于沙依巴克区友好北路29号，是一个集休闲娱乐、亲子活动于一体的公园广场。园内绿化优美，设有儿童游乐设施，适合家庭出游。",
+    "tags": [
+      "公园",
+      "儿童",
+      "休闲",
+      "游乐场"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "08:00-20:00",
+    "rating": 4.2
+  },
+  {
+    "name": "乌鲁木齐市儿童公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于友好北路29号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐市博物馆",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于凤起街111号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐市植物园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于北京中路916号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐市海尔巴格餐饮美都",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "乌鲁木齐市海尔巴格餐饮美都位于天山区延安路2号，是一家提供新疆特色美食的中餐厅。",
+    "tags": [
+      "餐饮服务",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "乌鲁木齐市海尔巴格餐饮美都",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "乌鲁木齐市海尔巴格餐饮美都，位于延安路2号海尔巴格餐饮5层，天山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐市海尔巴格餐饮美都",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "乌鲁木齐市海尔巴格餐饮美都，位于延安路2号海尔巴格餐饮5层，天山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐市海尔巴格餐饮美都",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "乌鲁木齐市海尔巴格餐饮美都，位于延安路2号海尔巴格餐饮5层，天山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐市海尔巴格餐饮美都",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "乌鲁木齐市海尔巴格餐饮美都位于天山区延安路2号，是一家提供新疆特色美食的中餐厅。",
+    "tags": [
+      "餐饮服务",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "乌鲁木齐市红光山大佛寺",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于米东南路红光山路1077号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐市苜蓿台生态公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于103省道",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐新福家宾馆(地窝堡机场店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于北站东路北7巷7号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐皇家宾馆(机场店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于百园路10号104团1区5栋5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乌鲁木齐美苑小宾馆(肿瘤医院店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于天津南路175号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐游南山民宿",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于南水路150号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五谷虫子鸡(南湖北路店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖北路2号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "人民公园",
@@ -72,40 +812,93 @@
       "公园广场",
       "公园"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "2小时",
     "openTime": "08:00-22:00",
     "rating": 4.5
   },
   {
-    "name": "水塔山公园",
+    "name": "人民公园",
     "city": "乌鲁木齐",
     "category": "attraction",
-    "description": "水塔山公园位于乌鲁木齐市水磨沟区，是集风景名胜、公园广场于一体的城市公园，适合休闲散步、亲子游玩。",
+    "description": "人民公园，位于友好南路3号，沙依巴克区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "人民公园，位于友好南路3号，沙依巴克区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "人民公园，位于友好南路3号，沙依巴克区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "人民公园位于乌鲁木齐市沙依巴克区友好南路3号，是一处集休闲、娱乐、健身于一体的综合性公园，园内绿树成荫，环境优美，是市民和游客休闲放松的好去处。",
     "tags": [
       "风景名胜",
       "公园广场",
       "公园"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "2小时",
-    "openTime": "全天",
+    "openTime": "08:00-22:00",
     "rating": 4.5
   },
   {
-    "name": "鲤鱼山公园",
+    "name": "人民公园",
     "city": "乌鲁木齐",
     "category": "attraction",
-    "description": "鲤鱼山公园位于乌鲁木齐市新市区，是一座集自然景观与休闲娱乐为一体的城市公园，园内有湖泊、绿地和步道，适合散步、晨练和家庭出游。",
+    "description": "位于友好南路3号",
     "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
+      "110101"
     ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "全天开放",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园李白雕塑",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于人民公园朝阳阁前",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "人民广场",
@@ -117,38 +910,1274 @@
       "公园广场",
       "城市广场"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "1-2小时",
     "openTime": "全天开放",
     "rating": 4.5
   },
   {
-    "name": "红山公园北园",
+    "name": "人民广场",
     "city": "乌鲁木齐",
     "category": "attraction",
-    "description": "红山公园北园位于乌鲁木齐市水磨沟区红山路北一巷，是红山公园的北侧园区，以优美的自然风光和丰富的休闲设施著称，是市民和游客休闲游览的好去处。",
+    "description": "人民广场，位于东风路与和平北路交叉口，天山区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "人民广场，位于东风路与和平北路交叉口，天山区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "人民广场，位于东风路与和平北路交叉口，天山区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "人民广场位于乌鲁木齐市天山区东风路与和平北路交叉口，是市民休闲娱乐的重要场所，广场开阔，适合散步、拍照和举办各类活动。",
     "tags": [
       "风景名胜",
-      "公园",
-      "广场"
+      "公园广场",
+      "城市广场"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "全天",
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
     "rating": 4.5
   },
   {
-    "name": "一炮成功",
+    "name": "人民广场",
     "city": "乌鲁木齐",
     "category": "attraction",
-    "description": "位于水磨沟风景区内西南角的景点，具有历史纪念意义。",
+    "description": "位于东风路与和平北路交叉口",
     "tags": [
-      "风景名胜"
+      "110105"
     ],
-    "avgCost": 0,
-    "duration": "未知",
-    "openTime": "未知",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人间三月(南湖路店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖东路附近",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "住一晚民宿(新疆天山职业技术大学店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于葛家沟村井沟路三巷444号105室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佳和美快捷宾馆(新兴街地铁站店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于西虹东路和悦一巷16号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "供销广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于扬子江路314号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "健身广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于河坝巷白玉华庭",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "半日闲豆花火锅",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖北路东一巷10号门106",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于新华南路1689号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南山牧场西白杨沟景区",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于甘沟乡白杨沟388号",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南林居民宿(水西沟镇店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于水西沟镇闸滩村南滩路北8巷7号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖南路街道睦邻中心口袋公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于南湖南路77号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖味当家鱼头泡饼",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "南湖味当家鱼头泡饼位于乌鲁木齐水磨沟区南湖南路，是一家以鱼头泡饼为特色的中餐馆，菜品美味，深受当地食客喜爱。",
+    "tags": [
+      "中餐",
+      "鱼头泡饼"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "南湖味当家鱼头泡饼",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "南湖味当家鱼头泡饼，位于南湖南路66号水清木华精品社区B-1-2，水磨沟区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖味当家鱼头泡饼",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "南湖味当家鱼头泡饼，位于南湖南路66号水清木华精品社区B-1-2，水磨沟区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖味当家鱼头泡饼",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "南湖味当家鱼头泡饼，位于南湖南路66号水清木华精品社区B-1-2，水磨沟区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖味当家鱼头泡饼",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "南湖味当家鱼头泡饼位于乌鲁木齐水磨沟区南湖南路，是一家以鱼头泡饼为特色的中餐馆，菜品美味，深受当地食客喜爱。",
+    "tags": [
+      "中餐",
+      "鱼头泡饼"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "南湖味当家鱼头泡饼",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖南路66号水清木华精品社区B-1-2",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖市民广场-南湖绿色广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于南湖南路186号(近南湖绿色广场)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卫星广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于中亚南路与卫星路交汇处北侧路东",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和阗玫瑰抓饭",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于青新三巷3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "啊臻味道米粉(总店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于吐鲁番路66号(近阿勒泰办事处)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喀什一把抓",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于和田二街与乌苏路交叉口东20米",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "囍相逢",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖东路59号(近南湖花苑)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季秋民宿",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于南水路水西沟中学东北230米处",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城南一号精品餐饮文化广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于黑龙江路12号新界大厦",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大厨子芦花鸡排骨",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖北路101号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大巴扎达瓦孜欢乐广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于解放南路西一巷与解放南路交叉口西100米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大河宴·椒麻鱼火锅(总店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于红山路西路161号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天天小宾馆(新华南路店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于新华南路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天山大峡谷",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于板房沟乡灯草沟村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天山大峡谷-灯草沟旅游风景区",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于板房沟镇南峡路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天山明月城",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于八道湾街道腾汇三路186号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天成广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于万宴城(南门地铁站A西北口步行220米)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夺食冰煮羊私房火锅(天津路店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于新市区高新区天津北路162号紫金长安二期北区二栋1层商业房1-11",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夺食冰煮羊私房火锅(宝山路店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于宝山路275号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好运山广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于兴乐三巷146号",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宏大广场-圣丹亚舞文化广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于新民路554号宏大广场",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宏大广场-春芳霞舞文化广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于新民东街与新民路交叉口南60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝风楼战友之家民宿",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于古牧地镇皇渠沿村北十九巷23号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "家盛和宾馆(和田二街德汇万达广场店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于奇台路392号(冷库十字路对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小葡萄科技广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于体育馆路与幸福路南三巷交叉口东南60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "就叫小火锅5.0创始总店",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于御园世家A区东门北90米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山禾民宿",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于南府路板房沟镇七工村104号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "川富商务宾馆",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于安居南路华盛1巷16号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "帕米尔街小游园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于六道湾路与帕米尔街交叉口东北40米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平顶山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于阿勒泰路西一巷与阿勒泰路辅路交叉口西440米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸福的烤包子·新疆菜",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于二工街道天津北路西五巷99号阳光酒店1层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸福花园七期小广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于金沙滩街南二巷西100米",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廊桥快捷酒店",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于康和三巷15号1栋1号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开帝锐抓饭",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于和田街33号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "彦海大盘三黄鸡(南湖北路总店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖北路西一巷10号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徕疆青旅民宿(石化医院五十八中学店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于东瑞北路九巷1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恺撒烤包子",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于七纺街",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文庙",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于前进路231号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新大地广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于五星北路与水塔山街交叉口西160米",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新市区探索广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于科学二街181南",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新疆人民剧场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于建中路2号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新疆古生态园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于昆明路158号野马大厦后鲤鱼山上",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新疆国际大巴扎",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "新疆国际大巴扎位于乌鲁木齐市天山区解放南路518号，是新疆最大的集市，集中体现了维吾尔族建筑风格和民俗文化。这里汇集了各种干果、手工艺品、服装等，是游客必去的景点之一。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "购物",
+      "服装鞋帽"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-3小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "新疆国际大巴扎",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "新疆国际大巴扎，位于解放南路518号，天山区，类型服装鞋帽皮具店 服装鞋帽皮具店。",
+    "tags": [
+      "服装鞋帽皮具店",
+      "服装鞋帽皮具店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新疆国际大巴扎",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "新疆国际大巴扎，位于解放南路518号，天山区，类型服装鞋帽皮具店 服装鞋帽皮具店。",
+    "tags": [
+      "服装鞋帽皮具店",
+      "服装鞋帽皮具店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新疆国际大巴扎",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "新疆国际大巴扎，位于解放南路518号，天山区，类型服装鞋帽皮具店 服装鞋帽皮具店。",
+    "tags": [
+      "服装鞋帽皮具店",
+      "服装鞋帽皮具店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新疆国际大巴扎",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "新疆国际大巴扎位于乌鲁木齐市天山区解放南路518号，是新疆最大的集市，集中体现了维吾尔族建筑风格和民俗文化。这里汇集了各种干果、手工艺品、服装等，是游客必去的景点之一。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "购物",
+      "服装鞋帽"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-3小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "新疆国际大巴扎",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于解放南路518号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新疆国际大巴扎-观光塔",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于解放南路510号",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新疆天山野生动物园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于芨芨槽子东5公里附近",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新疆维吾尔自治区博物馆",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "新疆维吾尔自治区博物馆位于乌鲁木齐市沙依巴克区西北路581号，是收藏和展示新疆历史文物的重要场所，馆藏丰富，包括干尸、丝织品等珍贵文物，是了解新疆历史文化的好去处。",
+    "tags": [
+      "博物馆",
+      "历史",
+      "文化",
+      "文物"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "10:00-18:00（周一闭馆）",
+    "rating": 4.7
+  },
+  {
+    "name": "新疆维吾尔自治区博物馆",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "新疆维吾尔自治区博物馆，位于西北路581号，沙依巴克区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新疆维吾尔自治区博物馆",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "新疆维吾尔自治区博物馆，位于西北路581号，沙依巴克区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新疆维吾尔自治区博物馆",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "新疆维吾尔自治区博物馆，位于西北路581号，沙依巴克区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新疆维吾尔自治区博物馆",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "新疆维吾尔自治区博物馆位于乌鲁木齐市沙依巴克区西北路581号，是收藏和展示新疆历史文物的重要场所，馆藏丰富，包括干尸、丝织品等珍贵文物，是了解新疆历史文化的好去处。",
+    "tags": [
+      "博物馆",
+      "历史",
+      "文化",
+      "文物"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "10:00-18:00（周一闭馆）",
+    "rating": 4.7
+  },
+  {
+    "name": "新疆维吾尔自治区博物馆",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于西北路131号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新粮宾馆(乌鲁木齐国际机场店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于新市区阿勒泰路，靠近乌鲁木齐国际机场，提供便捷的住宿服务。",
+    "tags": [
+      "机场",
+      "经济型",
+      "住宿"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "24小时",
+    "rating": 3.5
+  },
+  {
+    "name": "新粮宾馆(乌鲁木齐国际机场店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "新粮宾馆(乌鲁木齐国际机场店)，位于阿勒泰路283号附1号新粮房产小区内综合楼三楼，新市区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新粮宾馆(乌鲁木齐国际机场店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "新粮宾馆(乌鲁木齐国际机场店)，位于阿勒泰路283号附1号新粮房产小区内综合楼三楼，新市区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新粮宾馆(乌鲁木齐国际机场店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "新粮宾馆(乌鲁木齐国际机场店)，位于阿勒泰路283号附1号新粮房产小区内综合楼三楼，新市区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新粮宾馆(乌鲁木齐国际机场店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于新市区阿勒泰路，靠近乌鲁木齐国际机场，提供便捷的住宿服务。",
+    "tags": [
+      "机场",
+      "经济型",
+      "住宿"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "24小时",
+    "rating": 3.5
+  },
+  {
+    "name": "新粮宾馆(乌鲁木齐国际机场店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于阿勒泰路283号附1号新粮房产小区内综合楼三楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "有家民宿(东山街分店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于人民庄子村七组西一巷89号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "木姐家民宿",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于水塔山街152号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨记拌面(卫星路店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于外运司社区卫生站附近酒店",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "林韵民宿",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于石人子沟街道办事处葛家沟村井沟路7号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(天山民主路店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于民主路",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柴屿麦HiOrium·好吃不止披萨(明园店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于明园西路石油花园三期3F",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柴窝堡22号辣子鸡新疆菜",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "柴窝堡22号辣子鸡新疆菜位于乌鲁木齐市沙依巴克区明园西路61号，是一家以辣子鸡为特色的新疆菜中餐厅。这里的辣子鸡香辣可口，搭配新疆特色面食，深受食客喜爱。店内环境舒适，服务热情，适合家庭聚餐和朋友聚会。",
+    "tags": [
+      "辣子鸡",
+      "新疆菜",
+      "中餐厅"
+    ],
+    "avgCost": 70.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "柴窝堡22号辣子鸡新疆菜",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "柴窝堡22号辣子鸡新疆菜，位于明园西路61号，沙依巴克区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柴窝堡22号辣子鸡新疆菜",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "柴窝堡22号辣子鸡新疆菜，位于明园西路61号，沙依巴克区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柴窝堡22号辣子鸡新疆菜",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "柴窝堡22号辣子鸡新疆菜，位于明园西路61号，沙依巴克区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柴窝堡22号辣子鸡新疆菜",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "柴窝堡22号辣子鸡新疆菜位于乌鲁木齐市沙依巴克区明园西路61号，是一家以辣子鸡为特色的新疆菜中餐厅。这里的辣子鸡香辣可口，搭配新疆特色面食，深受食客喜爱。店内环境舒适，服务热情，适合家庭聚餐和朋友聚会。",
+    "tags": [
+      "辣子鸡",
+      "新疆菜",
+      "中餐厅"
+    ],
+    "avgCost": 70.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "格林威治城钟楼广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于赣江路",
+    "tags": [
+      "080100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "楼兰秘烤(迎宾路店)",
@@ -160,10 +2189,1334 @@
       "餐饮相关场所",
       "餐饮相关"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
+  },
+  {
+    "name": "楼兰秘烤(迎宾路店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "楼兰秘烤(迎宾路店)，位于迎宾路丑马一号园区内，新市区，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楼兰秘烤(迎宾路店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "楼兰秘烤(迎宾路店)，位于迎宾路丑马一号园区内，新市区，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楼兰秘烤(迎宾路店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "楼兰秘烤(迎宾路店)，位于迎宾路丑马一号园区内，新市区，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楼兰秘烤(迎宾路店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "楼兰秘烤是位于乌鲁木齐新市区迎宾路丑马一号园区内的一家餐饮店，主打新疆特色烧烤。",
+    "tags": [
+      "餐饮服务",
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "楼兰青旅(乌鲁木齐南湖店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "楼兰青旅位于乌鲁木齐市水磨沟区南湖南路华盛街二巷14号，是一家以青年旅舍为主题的住宿服务场所，提供舒适、经济的住宿体验，适合旅行者和背包客。",
+    "tags": [
+      "青年旅舍",
+      "住宿",
+      "乌鲁木齐"
+    ],
+    "avgCost": 80.0,
+    "duration": "1晚",
+    "openTime": "24小时",
+    "rating": 4.2
+  },
+  {
+    "name": "楼兰青旅(乌鲁木齐南湖店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "楼兰青旅(乌鲁木齐南湖店)，位于南湖南路华盛街二巷14号，水磨沟区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楼兰青旅(乌鲁木齐南湖店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "楼兰青旅(乌鲁木齐南湖店)，位于南湖南路华盛街二巷14号，水磨沟区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楼兰青旅(乌鲁木齐南湖店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "楼兰青旅(乌鲁木齐南湖店)，位于南湖南路华盛街二巷14号，水磨沟区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楼兰青旅(乌鲁木齐南湖店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "楼兰青旅位于乌鲁木齐市水磨沟区南湖南路华盛街二巷14号，是一家以青年旅舍为主题的住宿服务场所，提供舒适、经济的住宿体验，适合旅行者和背包客。",
+    "tags": [
+      "青年旅舍",
+      "住宿",
+      "乌鲁木齐"
+    ],
+    "avgCost": 80.0,
+    "duration": "1晚",
+    "openTime": "24小时",
+    "rating": 4.2
+  },
+  {
+    "name": "楼兰青旅(乌鲁木齐南湖店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于南湖南路华盛街二巷14号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "歹歹的加个面贵州路店",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于贵州路103号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水上乐园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于燕儿窝路4号",
+    "tags": [
+      "080505"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水塔山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "水塔山公园位于乌鲁木齐市水磨沟区，是集风景名胜、公园广场于一体的城市公园，适合休闲散步、亲子游玩。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "水塔山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "水塔山公园，位于温泉西路南一巷与塔山十巷交叉口南340米，水磨沟区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水塔山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "水塔山公园，位于温泉西路南一巷与塔山十巷交叉口南340米，水磨沟区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水塔山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "水塔山公园，位于温泉西路南一巷与塔山十巷交叉口南340米，水磨沟区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水塔山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "水塔山公园位于乌鲁木齐市水磨沟区，是集风景名胜、公园广场于一体的城市公园，适合休闲散步、亲子游玩。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "水塔山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于温泉西路南一巷与塔山十巷交叉口南340米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水磨河滨河景观带",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于沿河路与沿河路东一巷交叉口西北240米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江源道韩国自助料理",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖南路66号水清木华A座1层(近南湖家乐福)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汤秀·人文雅集餐厅",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖西路197号天津港大厦5楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "法明寺",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于板房沟乡附近",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(CCMALL时代广场店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于CCMALL时代广场购物中心4楼西区W-4002铺位",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(会展吾悦广场店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于红光山路1666号吾悦广场4层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海成文体广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于宝山路西三巷与宝山路交叉口西280米",
+    "tags": [
+      "060102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海记品鸽(南湖广场店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖北路海大酒店对面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "温州渔港海鲜",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于会展中街浩源御邸世家商业8号楼二楼",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘曦湘菜优选食材(水清木华店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖南路66号水清木华·精品社区",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "火炬广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于高新街街道高新街街道高新街街道高新街街道火炬大厦对面",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "煲匠.金牌玖煲(南湖广场店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖南路66号水清木华小区B座",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱包尔萨克(乐巴扎店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于星湾乐巴扎4号电梯3楼",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛华老阿婆火锅串串(新天润旗舰店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于常州街与扬州路交叉口西南120米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玲玲米粉(大十字总店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于解放北路311号(南门地铁站A西北口旁)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "田园旅馆(广兴东街店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "田园旅馆（广兴东街店）位于乌鲁木齐米东区广兴东街160号，提供舒适的住宿服务，环境整洁，适合商务和休闲旅客。",
+    "tags": [
+      "住宿",
+      "旅馆",
+      "米东区"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "田园旅馆(广兴东街店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "田园旅馆(广兴东街店)，位于广兴东街160号，米东区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "田园旅馆(广兴东街店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "田园旅馆(广兴东街店)，位于广兴东街160号，米东区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "田园旅馆(广兴东街店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "田园旅馆(广兴东街店)，位于广兴东街160号，米东区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "田园旅馆(广兴东街店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "田园旅馆（广兴东街店）位于乌鲁木齐米东区广兴东街160号，提供舒适的住宿服务，环境整洁，适合商务和休闲旅客。",
+    "tags": [
+      "住宿",
+      "旅馆",
+      "米东区"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "田园旅馆(广兴东街店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于广兴东街160号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇庭宾馆(乌鲁木齐米东区人民公园店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于明苑巷1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石榴家园火锅店(喀什西路店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于新疆乌鲁木齐经济技术开发区喀什西路499号龙海新综合楼301室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "碱泉街游园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于碱泉二街113号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "磐龙居客栈(水磨沟公园店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于七道湾南路788号水韵康居苑一期3栋2层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福瑞宾馆(百园路)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于百园路10号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "竹溪一号(南湖北路店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖北路36号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米娜早餐馆",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于观澜景苑二期s104",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "糊涂婶麻辣烫·炸串(南湖东路店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖东路北二巷31号102室",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红健宾馆(新医路师大店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于西八家户448号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红光山景区",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于红光山生态园近郊七道湾(近五建家属院)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "红山公园是乌鲁木齐市的标志性公园，位于红山路北一巷，以红山塔和城市全景闻名。",
+    "tags": [
+      "公园",
+      "风景",
+      "地标"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "07:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "红山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "红山公园，位于红山路北一巷40号，水磨沟区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "红山公园，位于红山路北一巷40号，水磨沟区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "红山公园，位于红山路北一巷40号，水磨沟区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "红山公园是乌鲁木齐市的标志性公园，位于红山路北一巷，以红山塔和城市全景闻名。",
+    "tags": [
+      "公园",
+      "风景",
+      "地标"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "07:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "红山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于红山路北一巷40号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山公园-南园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于红山路北一巷40号红山公园",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山公园-红山宝塔",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于红山路北一巷40号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山公园-西区",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于红山路北1巷40号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山公园北园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "红山公园北园位于乌鲁木齐市水磨沟区红山路北一巷，是红山公园的北侧园区，以优美的自然风光和丰富的休闲设施著称，是市民和游客休闲游览的好去处。",
+    "tags": [
+      "风景名胜",
+      "公园",
+      "广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "红山公园北园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "红山公园北园，位于红山路北一巷40号，水磨沟区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山公园北园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "红山公园北园，位于红山路北一巷40号，水磨沟区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山公园北园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "红山公园北园，位于红山路北一巷40号，水磨沟区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山公园北园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "红山公园北园位于乌鲁木齐市水磨沟区红山路北一巷，是红山公园的北侧园区，以优美的自然风光和丰富的休闲设施著称，是市民和游客休闲游览的好去处。",
+    "tags": [
+      "风景名胜",
+      "公园",
+      "广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "全天",
+    "rating": 4.5
+  },
+  {
+    "name": "红山公园北园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于红山路北一巷40号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红山公园北园-南湖泛舟",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于红山路北1巷40号红山公园内(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "罗二火锅(新疆总店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于七道湾南路1247号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翠幽园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于温泉西北三巷",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老四九鼎民宿(苜蓿沟北路1号分店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于苜蓿沟北路九鼎农贸批发市场蔬菜区-2号楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖老汉椒麻鸡南门店",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "胖老汉椒麻鸡南门店位于乌鲁木齐天山区人民路314号1层，是一家以椒麻鸡为特色的中餐厅。",
+    "tags": [
+      "中餐",
+      "椒麻鸡"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "胖老汉椒麻鸡南门店",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "胖老汉椒麻鸡南门店，位于人民路314号1层，天山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖老汉椒麻鸡南门店",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "胖老汉椒麻鸡南门店，位于人民路314号1层，天山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖老汉椒麻鸡南门店",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "胖老汉椒麻鸡南门店，位于人民路314号1层，天山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖老汉椒麻鸡南门店",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "胖老汉椒麻鸡南门店位于乌鲁木齐天山区人民路314号1层，是一家以椒麻鸡为特色的中餐厅。",
+    "tags": [
+      "中餐",
+      "椒麻鸡"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "胖老汉椒麻鸡河南路店",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "胖老汉椒麻鸡河南路店是一家位于乌鲁木齐新市区的清真菜馆，提供中餐。",
+    "tags": [
+      "清真菜馆",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "胖老汉椒麻鸡河南路店",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "胖老汉椒麻鸡河南路店，位于河南东路518号(康尔佳超市东侧70米)，新市区，类型中餐厅 清真菜馆。",
+    "tags": [
+      "中餐厅",
+      "清真菜馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖老汉椒麻鸡河南路店",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "胖老汉椒麻鸡河南路店，位于河南东路518号(康尔佳超市东侧70米)，新市区，类型中餐厅 清真菜馆。",
+    "tags": [
+      "中餐厅",
+      "清真菜馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖老汉椒麻鸡河南路店",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "胖老汉椒麻鸡河南路店，位于河南东路518号(康尔佳超市东侧70米)，新市区，类型中餐厅 清真菜馆。",
+    "tags": [
+      "中餐厅",
+      "清真菜馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖老汉椒麻鸡河南路店",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "胖老汉椒麻鸡河南路店是一家位于乌鲁木齐新市区的清真菜馆，提供中餐。",
+    "tags": [
+      "清真菜馆",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "胖马骐拌面馆(南湖总店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖东路北3巷-8号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "菊香民宿(乌鲁木齐店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于石人子沟街道葛家沟村1队井沟路西6巷富民安置房11栋",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅(漫街店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于中天翰林诚品西南门旁",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖南路66号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝天宾馆(南湖兽医站店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于南湖西路14号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛮涮自助小火锅(会展吾悦店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于吾悦广场5楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛮涮自助小火锅(德汇万达广场店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于奇台路657号万达广场乌鲁木齐德汇店F5层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西域烈焰·新疆汉堡(美美店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于友好北路579号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观景平台",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于新民路街道新民路街道红山路北1巷40号红山公园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辰星宾馆(阿勒泰路)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于阿勒泰路1606号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆酒家(南湖东路辅路店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于南湖东路22号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金兰香·纯汤牛肉面(会展中心店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于中海·会展九里南门北300米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫淼之家客栈(金戈壁路分店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于学苑路1582号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫阳光快捷宾馆(二宫体育馆财经大学店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于河北东路26号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钟璐紫菜包饭南湖店",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于青翠巷与南湖东路北二巷交叉口西60米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁路花园-花园文化广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于江苏西路铁路花园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长青招待所(长青四队店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于南湖东路北五巷101号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿布拉的馕(西北路店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于西北路104号(金都大厦外面)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隆丰宾馆(乌鲁木齐医学院师大附中店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于银川路东侧374号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雅玛里克山森林公园-久久世纪亭",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于宝塔路雅玛里克山森林公园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "雪莲山餐饮•新疆地方菜(河南路店)",
@@ -176,68 +3529,146 @@
       "中餐厅",
       "聚会"
     ],
-    "avgCost": 80,
+    "avgCost": 80.0,
     "duration": "1.5小时",
     "openTime": "11:00-22:00",
     "rating": 4.5
   },
   {
-    "name": "马风花大盘鸡新疆菜",
+    "name": "雪莲山餐饮•新疆地方菜(河南路店)",
     "city": "乌鲁木齐",
     "category": "food",
-    "description": "马风花大盘鸡新疆菜是一家位于天山区建设路234号的中餐厅，主打新疆大盘鸡等特色菜肴。",
+    "description": "雪莲山餐饮•新疆地方菜(河南路店)，位于河南路581号二宫乡政府旁，新市区，类型中餐厅 清真菜馆。",
     "tags": [
-      "新疆菜",
-      "大盘鸡",
-      "中餐厅"
+      "中餐厅",
+      "清真菜馆"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "乌鲁木齐市海尔巴格餐饮美都",
+    "name": "雪莲山餐饮•新疆地方菜(河南路店)",
     "city": "乌鲁木齐",
     "category": "food",
-    "description": "乌鲁木齐市海尔巴格餐饮美都位于天山区延安路2号，是一家提供新疆特色美食的中餐厅。",
+    "description": "雪莲山餐饮•新疆地方菜(河南路店)，位于河南路581号二宫乡政府旁，新市区，类型中餐厅 清真菜馆。",
     "tags": [
-      "餐饮服务",
-      "中餐厅"
+      "中餐厅",
+      "清真菜馆"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "丝路有约·优雅新疆菜(万宴城店)",
+    "name": "雪莲山餐饮•新疆地方菜(河南路店)",
     "city": "乌鲁木齐",
     "category": "food",
-    "description": "丝路有约是一家以优雅环境和新派新疆菜为特色的餐厅，位于乌鲁木齐市天山区万宴城二楼。",
+    "description": "雪莲山餐饮•新疆地方菜(河南路店)，位于河南路581号二宫乡政府旁，新市区，类型中餐厅 清真菜馆。",
+    "tags": [
+      "中餐厅",
+      "清真菜馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雪莲山餐饮•新疆地方菜(河南路店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "雪莲山餐饮•新疆地方菜(河南路店)位于乌鲁木齐市新市区河南路581号二宫乡政府旁，是一家以新疆地方菜为特色的清真餐厅。餐厅环境具有浓郁民族风格，提供大盘鸡、手抓饭、烤羊肉串等经典新疆美食，食材新鲜，味道正宗。服务热情，适合家庭聚餐、朋友聚会。",
     "tags": [
       "新疆菜",
-      "中餐",
-      "优雅"
+      "清真",
+      "中餐厅",
+      "聚会"
     ],
-    "avgCost": 80,
+    "avgCost": 80.0,
     "duration": "1.5小时",
     "openTime": "11:00-22:00",
     "rating": 4.5
   },
   {
-    "name": "南湖味当家鱼头泡饼",
+    "name": "青之口自助火锅城",
     "city": "乌鲁木齐",
     "category": "food",
-    "description": "南湖味当家鱼头泡饼位于乌鲁木齐水磨沟区南湖南路，是一家以鱼头泡饼为特色的中餐馆，菜品美味，深受当地食客喜爱。",
+    "description": "位于长春北路三工村蔬菜副食品市场楼下",
     "tags": [
-      "中餐",
-      "鱼头泡饼"
+      "050117"
     ],
-    "avgCost": 80,
-    "duration": "1.5小时",
-    "openTime": "10:00-22:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "颐中园美食公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于公园北街与文化宫路交叉口东北140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "额尔敦传统涮(爱地大新店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于额尔敦传统涮(爱地大新店)新疆维吾尔自治区乌鲁木齐市玄武湖路277号爱地大新中心写字楼一层商业277号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "馨洁快捷宾馆(乌鲁木齐金华路店)",
+    "city": "乌鲁木齐",
+    "category": "hotel",
+    "description": "位于金华路60号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马菲菲卤味火锅(会展吾悦店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于吾悦广场金街B5栋1楼(乌鲁木齐会展店)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马菲菲卤味火锅(新疆总店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于米古里商业中心401",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "马风花大盘鸡·露天烧烤·新疆菜",
@@ -249,126 +3680,288 @@
       "大盘鸡",
       "烧烤"
     ],
-    "avgCost": 60,
+    "avgCost": 60.0,
     "duration": "1-2小时",
     "openTime": "11:00-22:00",
     "rating": 4.0
   },
   {
-    "name": "胖老汉椒麻鸡南门店",
+    "name": "马风花大盘鸡·露天烧烤·新疆菜",
     "city": "乌鲁木齐",
     "category": "food",
-    "description": "胖老汉椒麻鸡南门店位于乌鲁木齐天山区人民路314号1层，是一家以椒麻鸡为特色的中餐厅。",
+    "description": "马风花大盘鸡·露天烧烤·新疆菜，位于维多利亚园区F座马风花大盘鸡，新市区，类型中餐厅 中餐厅。",
     "tags": [
-      "中餐",
-      "椒麻鸡"
+      "中餐厅",
+      "中餐厅"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "柴窝堡22号辣子鸡新疆菜",
+    "name": "马风花大盘鸡·露天烧烤·新疆菜",
     "city": "乌鲁木齐",
     "category": "food",
-    "description": "柴窝堡22号辣子鸡新疆菜位于乌鲁木齐市沙依巴克区明园西路61号，是一家以辣子鸡为特色的新疆菜中餐厅。这里的辣子鸡香辣可口，搭配新疆特色面食，深受食客喜爱。店内环境舒适，服务热情，适合家庭聚餐和朋友聚会。",
+    "description": "马风花大盘鸡·露天烧烤·新疆菜，位于维多利亚园区F座马风花大盘鸡，新市区，类型中餐厅 中餐厅。",
     "tags": [
-      "辣子鸡",
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马风花大盘鸡·露天烧烤·新疆菜",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "马风花大盘鸡·露天烧烤·新疆菜，位于维多利亚园区F座马风花大盘鸡，新市区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马风花大盘鸡·露天烧烤·新疆菜",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "马风花大盘鸡位于新市区维多利亚园区F座，是一家提供新疆菜和露天烧烤的餐厅，以大盘鸡为特色。",
+    "tags": [
       "新疆菜",
-      "中餐厅"
+      "大盘鸡",
+      "烧烤"
     ],
-    "avgCost": 70,
-    "duration": "1.5小时",
+    "avgCost": 60.0,
+    "duration": "1-2小时",
     "openTime": "11:00-22:00",
-    "rating": 4.3
+    "rating": 4.0
   },
   {
-    "name": "胖老汉椒麻鸡河南路店",
+    "name": "马风花大盘鸡新疆菜",
     "city": "乌鲁木齐",
     "category": "food",
-    "description": "胖老汉椒麻鸡河南路店是一家位于乌鲁木齐新市区的清真菜馆，提供中餐。",
+    "description": "马风花大盘鸡新疆菜是一家位于天山区建设路234号的中餐厅，主打新疆大盘鸡等特色菜肴。",
     "tags": [
-      "清真菜馆",
+      "新疆菜",
+      "大盘鸡",
       "中餐厅"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
-  },
-  {
-    "name": "楼兰青旅(乌鲁木齐南湖店)",
-    "city": "乌鲁木齐",
-    "category": "hotel",
-    "description": "楼兰青旅位于乌鲁木齐市水磨沟区南湖南路华盛街二巷14号，是一家以青年旅舍为主题的住宿服务场所，提供舒适、经济的住宿体验，适合旅行者和背包客。",
-    "tags": [
-      "青年旅舍",
-      "住宿",
-      "乌鲁木齐"
-    ],
-    "avgCost": 80,
-    "duration": "1晚",
-    "openTime": "24小时",
-    "rating": 4.2
-  },
-  {
-    "name": "田园旅馆(广兴东街店)",
-    "city": "乌鲁木齐",
-    "category": "hotel",
-    "description": "田园旅馆（广兴东街店）位于乌鲁木齐米东区广兴东街160号，提供舒适的住宿服务，环境整洁，适合商务和休闲旅客。",
-    "tags": [
-      "住宿",
-      "旅馆",
-      "米东区"
-    ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "乌鲁木齐丽海商旅酒店(植物园地铁站店)",
+    "name": "马风花大盘鸡新疆菜",
     "city": "乌鲁木齐",
-    "category": "hotel",
-    "description": "位于乌鲁木齐新市区北京北路136号，靠近植物园地铁站，提供舒适的商旅住宿服务。",
+    "category": "food",
+    "description": "马风花大盘鸡新疆菜，位于建设路234号，天山区，类型中餐厅 中餐厅。",
     "tags": [
-      "住宿",
-      "商旅"
+      "中餐厅",
+      "中餐厅"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马风花大盘鸡新疆菜",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "马风花大盘鸡新疆菜，位于建设路234号，天山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马风花大盘鸡新疆菜",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "马风花大盘鸡新疆菜，位于建设路234号，天山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马风花大盘鸡新疆菜",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "马风花大盘鸡新疆菜是一家位于天山区建设路234号的中餐厅，主打新疆大盘鸡等特色菜肴。",
+    "tags": [
+      "新疆菜",
+      "大盘鸡",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "新粮宾馆(乌鲁木齐国际机场店)",
+    "name": "鲤鱼山公园",
     "city": "乌鲁木齐",
-    "category": "hotel",
-    "description": "位于新市区阿勒泰路，靠近乌鲁木齐国际机场，提供便捷的住宿服务。",
+    "category": "attraction",
+    "description": "鲤鱼山公园位于乌鲁木齐市新市区，是一座集自然景观与休闲娱乐为一体的城市公园，园内有湖泊、绿地和步道，适合散步、晨练和家庭出游。",
     "tags": [
-      "机场",
-      "经济型",
-      "住宿"
+      "风景名胜",
+      "公园广场",
+      "公园"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "24小时",
-    "rating": 3.5
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.0
   },
   {
-    "name": "乌鲁木齐嘉怡宾馆",
+    "name": "鲤鱼山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "鲤鱼山公园，位于鲤鱼山南路177号，新市区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲤鱼山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "鲤鱼山公园，位于鲤鱼山南路177号，新市区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲤鱼山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "鲤鱼山公园，位于鲤鱼山南路177号，新市区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲤鱼山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "鲤鱼山公园位于乌鲁木齐市新市区，是一座集自然景观与休闲娱乐为一体的城市公园，园内有湖泊、绿地和步道，适合散步、晨练和家庭出游。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.0
+  },
+  {
+    "name": "鲤鱼山公园",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于鲤鱼山南路177号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸽子广场",
+    "city": "乌鲁木齐",
+    "category": "attraction",
+    "description": "位于高新街北二巷与高新街交叉口东北80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(友好·城市奥莱店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于钱塘江路168号友好城市奥莱1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(友好商场店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于友好北路518号友好商场1层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麻辣空间(新医路店)",
+    "city": "乌鲁木齐",
+    "category": "food",
+    "description": "位于西八家户路508号诚信大厦2楼",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍家小院民宿",
     "city": "乌鲁木齐",
     "category": "hotel",
-    "description": "乌鲁木齐嘉怡宾馆位于新市区河北东路北四巷23号，提供住宿服务。",
+    "description": "位于井沟路西三巷富民安居6号",
     "tags": [
-      "住宿",
-      "宾馆",
-      "酒店"
+      "100000"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

@@ -1,0 +1,782 @@
+[
+  {
+    "name": "OYO·馨园商务宾馆(南康家具城店)",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于蓝田二路与蓝田大道辅路交叉口西北120米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐厨U你(赞贤路店)",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于赞贤路8-5号(市体育中心北门对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "于都福德隆宾馆",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于爱莲北路育英大道路口财政局左侧(财政局)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五龙客家风情园",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于沙河大道18号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五龙客家风情园赣州森林动物园",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于沙河大道附近",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "先锋烧烤",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于赞贤路8-73号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南河浮桥",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于黄金广场斜对面",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南门广场",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于文清路1号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卡芭蒂娜小西餐(招商花园城店)",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于长征大道1号招商花园城1层(肯德基旁)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "味界·精致赣菜",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于长征大道1号赣州招商花园城B1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(赣州市九方店)",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于长征大道东侧北端丰德园小区B栋35号门面",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大余烫皮店(梅州路店)",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于梅州路6号富地中心9栋4号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宋城公园",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于濂溪路55号(近八镜公园)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宋城壹号文化创意产业园",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于文明大道8号",
+    "tags": [
+      "120100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宋潮不夜城",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于建国路8-6号(郁孤台历史文化街区)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "定南金都宾馆(大世界购物广场店)",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于建设东路29号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "客官·赣南客家菜(万盛店)",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于京华苑8号楼2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "寻乌万豪宾馆",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于江东大道1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小欣私房菜(赞贤路店)",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于赞贤路8-6号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小财神·老派赣州菜(赣州招商花园城店)",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于九方购物中心西1门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚客优精选酒店(兴国将军大道汽车站店)",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于将军大道688号G319厦成线",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚客优连锁酒店(于都火车站店)",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于站前南路火车站B8栋",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "居民楼口味小馆",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于黄金时代B区西北门东110米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "廣老板(富地中心店)",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于梅州路6号富地中心12栋7号店面",
+    "tags": [
+      "060604"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(翠微路店)",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于九方购物中心一楼",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新世纪公园",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于赣南大道与滨江东大道交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "有家商务宾馆",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于蓉江街道办事处东门南路28号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "流浪泡泡·破破烂烂的烤肉店(赣州招商花园店)",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于长征大道1号赣州招商花园城F4",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "源鸿大酒店(健康路)",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于健康路13号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "火魔王烧烤(达芬奇店)",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于路文林苑36-1号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灶儿巷",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于和平路附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瑞金国际大酒店",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于红都大道金塘下282号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇厨荣升.名厨家宴.江西餐饮50强",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于水南街道长征大道12号(金鹏怡和园旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石城鑫城商务宾馆",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石城马金宾馆",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于清华大道566-6",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福寿沟博物馆",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于赣江街道厚德路22号发达集团公司(门卫室)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "章江国家湿地公园",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于大吉山路与章江南大道交叉口东100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "笨姐居民楼火锅(赣州九方店)",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于赞贤路8-36号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老船长肉蟹煲(招商花园城店)",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于翠微路长征大道1号赣州招商花园城4层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老赣味(黄金时代店)",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于赞贤路9号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍乡味道",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于梅州路5-1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赣州三和宾馆(江南宋城历史文化旅游区店)",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于至圣路4号-3",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赣州中成宾馆",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于工业三路杨坑新村10排2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赣州华峰宾馆",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于金水路5号(赣州汽车南站旁对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赣州城墙",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于解放街道建国路8-6号江南宋城历史文化旅游区内",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赣州城市中央公园健康主题公园",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于章江新区商务中心区域",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赣州宋代古浮桥遗址",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于中山路与马齐巷交汇处东北100米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": "",
+    "openTime": "",
+    "rating": 5.0
+  },
+  {
+    "name": "赣州市博物馆",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于赣康路21号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赣州忆家宾馆",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于杨坑返迁房安置小区5栋1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赣州文庙",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于厚德路42号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赣州旭东公寓(新上犹路店)",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于新上犹路28号(县中医院对面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赣州章贡客家宾馆",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于蟠龙镇杨坑A区返迁房十三排1.2号客家宾馆",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赣州郁孤台历史文化街区",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于解放街道建国路8-6号江南宋城历史文化旅游区(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赣州鹏远商务酒店",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于唐江镇步行街11号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郁孤台公园",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于赣州郁孤台历史文化街区内(南侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": 0.0,
+    "duration": "3 小时",
+    "openTime": "",
+    "rating": 5.0
+  },
+  {
+    "name": "金城商务宾馆",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于东门北路33号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长征广场",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于章江南大道",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "飞龙岛公园",
+    "city": "赣州",
+    "category": "attraction",
+    "description": "位于章江北大道76号-a座",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "饭爷私厨",
+    "city": "赣州",
+    "category": "food",
+    "description": "位于客家大道岭头上1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙南市新兴酒店",
+    "city": "赣州",
+    "category": "hotel",
+    "description": "位于346省道(滨江广场斜对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

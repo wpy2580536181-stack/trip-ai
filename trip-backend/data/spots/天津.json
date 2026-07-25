@@ -1,92 +1,1249 @@
 [
   {
-    "name": "天津五大道文化旅游区",
+    "name": "24ROOM电竞公寓",
     "city": "天津",
-    "category": "attraction",
-    "description": "天津五大道文化旅游区拥有众多历史风貌建筑，是天津著名的文化旅游区。",
+    "category": "hotel",
+    "description": "位于南市大街与福安大街交汇处天汇中心4号楼815",
     "tags": [
-      "历史建筑",
-      "风景区",
-      "文化旅游"
+      "100200"
     ],
-    "avgCost": 0,
-    "duration": "3小时",
-    "openTime": "全天开放",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "天津博物馆",
+    "name": "41号小院(无锡道大楼店)",
     "city": "天津",
-    "category": "attraction",
-    "description": "天津博物馆位于天津市河西区平江道62号，是展示天津历史和文化的重要场馆，馆藏丰富，包括古代青铜器、陶瓷、书画等。",
+    "category": "food",
+    "description": "位于南昌路与浦口道交叉口南100米",
     "tags": [
-      "博物馆",
-      "天津",
-      "文化",
-      "历史"
+      "050100"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "09:00-16:30",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "天津自然博物馆",
+    "name": "ZOOZ PASTA",
     "city": "天津",
-    "category": "attraction",
-    "description": "天津自然博物馆是一座集收藏、研究、展示于一体的综合性自然博物馆。",
+    "category": "food",
+    "description": "位于沿河路12号",
     "tags": [
-      "自然",
-      "博物馆"
+      "050000"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "09:00-17:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "民园广场",
+    "name": "万新天山夜市",
     "city": "天津",
-    "category": "attraction",
-    "description": "民园广场位于天津市和平区重庆道83号，是一座具有历史风貌的城市广场，以其独特的欧式建筑和休闲氛围吸引游客。",
+    "category": "food",
+    "description": "位于天山夜市M27号",
     "tags": [
-      "城市广场",
-      "风景名胜",
-      "公园广场"
+      "050000"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "天津水上公园",
+    "name": "万里行宾馆(天津河北工业大学北洋桥地铁站店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于榆关道712号(北洋桥地铁站C口步行310米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下伍旗古城墙遗址",
     "city": "天津",
     "category": "attraction",
-    "description": "天津水上公园是位于天津市南开区的著名风景名胜，被列为国家级景点。",
+    "description": "位于苗圃公路",
     "tags": [
-      "风景名胜",
-      "国家级景点"
+      "110000"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "世纪钟广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于光复道街道建国道1号(津湾广场地铁站B口步行230米)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东丽湖度假村",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于东丽之光大道北侧",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东海怡品海鲜豆捞(梅江店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于李七庄街卫津南路259号津兰大厦B座313室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东疆亲海公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于新港八号路与观澜路交叉口东南侧",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国梦广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于环湖南道与环湖西路交叉口东北140米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国楹联博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于吴家窑二号路42号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国银行博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于解放北路与营口道交叉口南40米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中新生态城妈祖文化园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于永定新河特大桥附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中栗华栗子蒸饼(滨江道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于友谊新天地广场B座北1门东南210米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "久福住宿(天津站店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "久福住宿位于天津市河东区华昌道久福园八号楼五门四楼，靠近天津站，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "旅馆",
+      "天津站"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "天津动物园",
+    "name": "久福住宿(天津站店)",
     "city": "天津",
-    "category": "attraction",
-    "description": "位于天津市南开区水上公园东路1号，类型包括风景名胜、公园广场、动物园。",
+    "category": "hotel",
+    "description": "久福住宿(天津站店)，位于华昌道久福园八号楼五门四楼，河东区，类型旅馆招待所 旅馆招待所。",
     "tags": [
-      "风景名胜",
-      "公园广场",
-      "动物园"
+      "旅馆招待所",
+      "旅馆招待所"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "久福住宿(天津站店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "久福住宿(天津站店)，位于华昌道久福园八号楼五门四楼，河东区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "久福住宿(天津站店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "久福住宿(天津站店)，位于华昌道久福园八号楼五门四楼，河东区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "久福住宿(天津站店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "久福住宿位于天津市河东区华昌道久福园八号楼五门四楼，靠近天津站，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "旅馆",
+      "天津站"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 0
+    "rating": 3.5
+  },
+  {
+    "name": "久福住宿(天津站店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于华昌道久福园八号楼五门四楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐家住宿(天津站店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于新兆路惠森花园3-4-6底商",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九河登赢天津捞面(天津总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于友谊商厦L1层-4",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云海情·海鲜火锅",
+    "city": "天津",
+    "category": "food",
+    "description": "位于中北镇中聚商业中心卉康道与万卉路交叉口西北80米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云锦快捷酒店(市民广场地铁站店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于开发区第一大街7号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五大道公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于南京路与新华路交口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五大道历史博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于五大道民园广场旅游客服中心2层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五大道文化旅游区-疙瘩楼",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于河北路287-289号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "京津新城帝景温泉度假村",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于周良庄京津新城帝景温泉",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津市河西区的一座公园，内有亭台楼阁和游乐设施，是市民休闲的好去处。",
+    "tags": [
+      "公园",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "06:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "人民公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "人民公园，位于徽州道29号(下瓦房地铁站C口步行430米)，河西区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "人民公园，位于徽州道29号(下瓦房地铁站C口步行430米)，河西区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "人民公园，位于徽州道29号(下瓦房地铁站C口步行430米)，河西区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津市河西区的一座公园，内有亭台楼阁和游乐设施，是市民休闲的好去处。",
+    "tags": [
+      "公园",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "06:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "人民公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于徽州道29号(下瓦房地铁站C口步行430米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "但丁广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于光复道街道自由道与民生路交口",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "体西公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于环湖中路49号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佛罗伦萨小镇度假区",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于建设路与强国道交叉口南80米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佟楼文化公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于贵州路与围堤道交叉口东南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佰俪商务酒店(天津大学海光寺地铁站店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于西湖村大街35号(农业银行斜对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "元明清天妃宫遗址博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于大直沽中路与八纬路交口",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "共创未来广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于谦德庄",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冯记卷圈(鹤园里店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于鹤园里东北门旁",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凌奥夜市",
+    "city": "天津",
+    "category": "food",
+    "description": "位于凌奥产业园停车场(凌宾路地铁站C口步行280米)",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "利顺德博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于台儿庄路33号天津利顺德大饭店B1层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "加拉塔土耳其餐厅(恒基广场店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于恒基商业广场A座一楼A15(迎宾馆地铁站C口步行210米)",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北塘古镇",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于天津市北塘经济区杨北大街(彩虹桥西南侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北塘古镇盛园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于北塘经济区北塘大街",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北疆博物院",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于马场道117号现天津外国语学院校内",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华夏未来儿童公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于环湖南路华夏未来南门",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华盛寺",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于双桥河镇东泥沽村",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华阳精品酒店",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于渔阳南路69号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南楼煎饼(南楼总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于隆昌路与围堤道交口新跃里4门109",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南楼煎饼(滨江道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于哈尔滨道与河北路交叉口西50米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南翠屏公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于水上公园西路与红旗南路交汇处西200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "博窑古镇(城运乘云广场)",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于曲阜道38号城运乘云广场F2(小白楼地铁站A口步行330米)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "卧佛山庄(石马路)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于石马路和马营公路交汇处附近",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古镇双街",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于双街村文化历史展览馆(双新大道北)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古镇遗风",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于龙顺大道与景观西路交叉口东60米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古香斋刨冰栗子汤圆.天津总店",
+    "city": "天津",
+    "category": "food",
+    "description": "位于金沙江路236号101-112",
+    "tags": [
+      "061201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "可可主角·天津巧克力博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于滨江道143号(和平路地铁站D口步行350米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉吉客栈(天津西青大学城店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于精武镇姚村文博园3号楼802室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "周恩来邓颖超纪念馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于水上公园西路9号(周邓纪念馆地铁站B口步行60米)",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和助(恒基广场店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于友谊路16号恒基广场A2-15",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四季餐厅•新津菜(友谊路店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于友谊路23-25号科技大厦",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "四平旅店",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于四平东道17号(四平东道与山东路交口)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "团圆粘食坊(睦和里店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于卫华里小区北门旁",
+    "tags": [
+      "050900"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国家海洋博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于海轩道377号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "土山公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于新兴街道土山花园社区岳阳道132号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塘沽夜市(银泰大厦店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于解放西路贻城",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "复兴河公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于沐江道与洪泽南路交叉口东南120米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夜市",
+    "city": "天津",
+    "category": "food",
+    "description": "位于文昌街与中昌北大道交叉口西220米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夜市美食街",
+    "city": "天津",
+    "category": "food",
+    "description": "位于国宜道宜梦道市场",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大吉利·潮汕鲜牛肉火锅(全国总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于万德庄大街123号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大吉利·潮汕鲜牛肉火锅(和平店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于南京路219号华开城1层F1-02号(南京路与贵阳路交叉口东南角)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大吉利·潮汕鲜牛肉火锅(天河城店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于天河城4楼401大吉利潮汕牛肉火锅",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大吉利·潮汕鲜牛肉火锅(河西店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于大沽南路519号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大悲禅院",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于天纬路40号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大悲禅院-大胜寺",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于天纬路40号大悲禅院",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大柴·宴宾楼(芥园西道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "大柴·宴宾楼(芥园西道店)是一家位于天津南开区的综合酒楼，提供中餐服务。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "大柴·宴宾楼(芥园西道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "大柴·宴宾楼(芥园西道店)，位于长虹街道芥园西道三元村6号，南开区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大柴·宴宾楼(芥园西道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "大柴·宴宾楼(芥园西道店)，位于长虹街道芥园西道三元村6号，南开区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大柴·宴宾楼(芥园西道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "大柴·宴宾楼(芥园西道店)，位于长虹街道芥园西道三元村6号，南开区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大柴·宴宾楼(芥园西道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "大柴·宴宾楼(芥园西道店)是一家位于天津南开区的综合酒楼，提供中餐服务。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "大沽口炮台遗址博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于东炮台路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大港夜市一条街",
+    "city": "天津",
+    "category": "food",
+    "description": "位于胜利街与石化路交叉口东南20米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大邱庄尧舜度假村",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于百亿道10号附近",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大铁勺新津菜(迎水道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "大铁勺新津菜(迎水道店)是一家位于天津西青区的中餐厅，提供新津菜系。",
+    "tags": [
+      "中餐",
+      "新津菜",
+      "餐饮"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "大铁勺新津菜(迎水道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "大铁勺新津菜(迎水道店)，位于迎水道138号物美生活广场3层(华苑地铁站B口步行100米)，西青区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大铁勺新津菜(迎水道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "大铁勺新津菜(迎水道店)，位于迎水道138号物美生活广场3层(华苑地铁站B口步行100米)，西青区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大铁勺新津菜(迎水道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "大铁勺新津菜(迎水道店)，位于迎水道138号物美生活广场3层(华苑地铁站B口步行100米)，西青区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大铁勺新津菜(迎水道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "大铁勺新津菜(迎水道店)是一家位于天津西青区的中餐厅，提供新津菜系。",
+    "tags": [
+      "中餐",
+      "新津菜",
+      "餐饮"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "天勤电竞影院客栈(西青大学城店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于精武镇慧学道姚村秋鼎园7号楼4门302",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天圆广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于梅江街道郁江道与紫金山路交口",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "天塔湖风景区",
@@ -99,24 +1256,3405 @@
       "电视塔",
       "观景"
     ],
-    "avgCost": 50,
+    "avgCost": 50.0,
     "duration": "2-3小时",
     "openTime": "08:30-21:00",
     "rating": 4.5
   },
   {
-    "name": "人民公园",
+    "name": "天塔湖风景区",
     "city": "天津",
     "category": "attraction",
-    "description": "天津市河西区的一座公园，内有亭台楼阁和游乐设施，是市民休闲的好去处。",
+    "description": "天塔湖风景区，位于卫津南路1号，河西区，类型风景名胜 国家级景点。",
     "tags": [
-      "公园",
-      "风景名胜"
+      "风景名胜",
+      "国家级景点"
     ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "06:00-22:00",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天塔湖风景区",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天塔湖风景区，位于卫津南路1号，河西区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天塔湖风景区",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天塔湖风景区，位于卫津南路1号，河西区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天塔湖风景区",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天塔湖风景区位于天津市河西区卫津南路1号，以天津广播电视塔（天塔）和环塔湖泊为主要景观，是集观光、休闲、娱乐于一体的城市公园。天塔高415.2米，为亚洲第四高塔，塔上有旋转餐厅和观景台，可俯瞰天津全景。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "电视塔",
+      "观景"
+    ],
+    "avgCost": 50.0,
+    "duration": "2-3小时",
+    "openTime": "08:30-21:00",
     "rating": 4.5
+  },
+  {
+    "name": "天塔湖风景区",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于卫津南路1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天塔街好邻居文化广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于环湖中路3号华夏未来东门",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津·海河意式风情区",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于进步道34号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津之眼",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于三岔河口永乐桥上",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津五大道文化旅游区",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津五大道文化旅游区拥有众多历史风貌建筑，是天津著名的文化旅游区。",
+    "tags": [
+      "历史建筑",
+      "风景区",
+      "文化旅游"
+    ],
+    "avgCost": 0.0,
+    "duration": "3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "天津五大道文化旅游区",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津五大道文化旅游区，位于重庆道83号，和平区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津五大道文化旅游区",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津五大道文化旅游区，位于重庆道83号，和平区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津五大道文化旅游区",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津五大道文化旅游区，位于重庆道83号，和平区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津五大道文化旅游区",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津五大道文化旅游区拥有众多历史风貌建筑，是天津著名的文化旅游区。",
+    "tags": [
+      "历史建筑",
+      "风景区",
+      "文化旅游"
+    ],
+    "avgCost": 0.0,
+    "duration": "3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "天津五大道文化旅游区",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于重庆道83号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津五环公寓",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于五环花园1号楼8门6楼(602室)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津佳瑞客栈",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于育秀街19-10号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津凤来小筑民宿",
+    "city": "天津",
+    "category": "hotel",
+    "description": "天津凤来小筑民宿位于天津市东丽区朗钜·天域广场，提供舒适的住宿服务。民宿靠近百优便利店楼上，房间布置温馨，适合商务和旅游客人。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "旅馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "天津凤来小筑民宿",
+    "city": "天津",
+    "category": "hotel",
+    "description": "天津凤来小筑民宿，位于朗钜·天域广场百优便利店楼上(蜜糖A座205、214室)，东丽区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津凤来小筑民宿",
+    "city": "天津",
+    "category": "hotel",
+    "description": "天津凤来小筑民宿，位于朗钜·天域广场百优便利店楼上(蜜糖A座205、214室)，东丽区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津凤来小筑民宿",
+    "city": "天津",
+    "category": "hotel",
+    "description": "天津凤来小筑民宿，位于朗钜·天域广场百优便利店楼上(蜜糖A座205、214室)，东丽区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津凤来小筑民宿",
+    "city": "天津",
+    "category": "hotel",
+    "description": "天津凤来小筑民宿位于天津市东丽区朗钜·天域广场，提供舒适的住宿服务。民宿靠近百优便利店楼上，房间布置温馨，适合商务和旅游客人。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "旅馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "天津凤来小筑民宿",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于朗钜·天域广场百优便利店楼上(蜜糖A座205、214室)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津凯悦宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于中昌路友好医院旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津动物园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于天津市南开区水上公园东路1号，类型包括风景名胜、公园广场、动物园。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "动物园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "天津动物园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津动物园，位于水上公园东路1号，南开区，类型公园广场 动物园。",
+    "tags": [
+      "公园广场",
+      "动物园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津动物园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津动物园，位于水上公园东路1号，南开区，类型公园广场 动物园。",
+    "tags": [
+      "公园广场",
+      "动物园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津动物园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津动物园，位于水上公园东路1号，南开区，类型公园广场 动物园。",
+    "tags": [
+      "公园广场",
+      "动物园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津动物园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于天津市南开区水上公园东路1号，类型包括风景名胜、公园广场、动物园。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "动物园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "天津动物园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于水上公园东路1号",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津博物馆位于天津市河西区平江道62号，是展示天津历史和文化的重要场馆，馆藏丰富，包括古代青铜器、陶瓷、书画等。",
+    "tags": [
+      "博物馆",
+      "天津",
+      "文化",
+      "历史"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "09:00-16:30",
+    "rating": 4.5
+  },
+  {
+    "name": "天津博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津博物馆，位于平江道62号，河西区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津博物馆，位于平江道62号，河西区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津博物馆，位于平江道62号，河西区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津博物馆位于天津市河西区平江道62号，是展示天津历史和文化的重要场馆，馆藏丰富，包括古代青铜器、陶瓷、书画等。",
+    "tags": [
+      "博物馆",
+      "天津",
+      "文化",
+      "历史"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "09:00-16:30",
+    "rating": 4.5
+  },
+  {
+    "name": "天津博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于平江道62号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津博物馆服务中心",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于平江道62号天津博物馆内",
+    "tags": [
+      "070201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津卫码头(水上公园店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于水上公园东路与霞光道交口公园东南门内200米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津卫老菜馆",
+    "city": "天津",
+    "category": "food",
+    "description": "位于吉庆里西区西南门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津友缘客栈",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于咸水沽镇津沽公路金旭里小区3号楼1单元202",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津古文化街",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于古文化街内",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津嘉悦快捷99客栈",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于旭华道",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津国贤旅馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于津塘公路1863号(塘沽大五金西侧100米,泰和楼正对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津大学卫津路校区冯骥才博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于太雷路与益智道交叉口北160米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津大学卫津路校区北洋广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于卫津路92号天津大学",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津大学卫津路校区校史博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于卫津路92号天津大学(卫津路校区)内",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津孙姐日租房",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于天塔街道黑牛城道吉兴大厦7号门202室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津居巢商务酒店(东丽开发区地铁站店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于东丽开发区四经路与丽北路交口四合新屯1号楼4栋101号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津市体育博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于大理道与河北路交叉口西100米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津市华天湖度假村",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于联顺公路2号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津心舒旅店",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于河西区台儿庄南路天津胸科医院西侧的旅馆招待所",
+    "tags": [
+      "旅馆",
+      "招待所"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "天津心舒旅店",
+    "city": "天津",
+    "category": "hotel",
+    "description": "天津心舒旅店，位于台儿庄南路天津胸科医院西侧，河西区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津心舒旅店",
+    "city": "天津",
+    "category": "hotel",
+    "description": "天津心舒旅店，位于台儿庄南路天津胸科医院西侧，河西区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津心舒旅店",
+    "city": "天津",
+    "category": "hotel",
+    "description": "天津心舒旅店，位于台儿庄南路天津胸科医院西侧，河西区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津心舒旅店",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于河西区台儿庄南路天津胸科医院西侧的旅馆招待所",
+    "tags": [
+      "旅馆",
+      "招待所"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "天津悦时光投影公寓",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于精武镇潘馨园1号楼4门402",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津悦来客栈",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于胡家园街道欣美园小区68-2",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津悦水梦园度假区",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于穿芳峪镇小辛庄村北侧喜邦线路北200米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津情有独钟民宿(北城街分店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于东北角艺术公寓C座1楼112室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津惠森快捷住宿",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于惠森花园10号楼底商(天津站地铁站5号口步行340米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津数字艺术博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于承德道12号(和平路地铁站G口步行340米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津文化中心海底世界",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于友谊路文化中心光屿城B1层(文化中心地铁站F口步行390米)",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津文博客栈",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于精武镇姚村文博园3号楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津方特旅游度假区",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于中生大道与静湖西路交叉口东北400米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津方特欢乐世界",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于中生大道4888号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津无名家庭温馨宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于三马路与四马路交口华都大厦11层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津朝阳林旅店",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于东方红路民信里3排3号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津杨柳青博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于御河道石家大院附近",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津杨柳青木版年画博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于佟楼三合里111号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津松衫来客住宿",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于春华街道新兆路惠森花园3-5-底商08",
+    "tags": [
+      "061100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津柏栎公寓",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于张家窝镇祥和大道瑞欣家园南区50号楼1单元202",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津欢乐谷",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于东丽之光大道2号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津欣悦宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于张家窝杰盛里69号11门",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津水上公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津水上公园是位于天津市南开区的著名风景名胜，被列为国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "天津水上公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津水上公园，位于水上公园北路33号，南开区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津水上公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津水上公园，位于水上公园北路33号，南开区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津水上公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津水上公园，位于水上公园北路33号，南开区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津水上公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津水上公园是位于天津市南开区的著名风景名胜，被列为国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "天津水上公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于水上公园北路33号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津水上公园-水晶广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于水上公园东路水上公园",
+    "tags": [
+      "120304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津水上公园-牡丹园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于水上公园东路1号天津水上公园登瀛邀月内",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津水高庄园度假村",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于辛口镇水高庄村(近千尊玉佛寺)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津沉香艺术博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于大理道63号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津泰达航母主题公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于汉北路269号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津津川快捷宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于大件路1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津海滨旅游度假区",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于临港工业区临港工业区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津清雅客栈",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于四化河道鑫奥老年公寓1-5-503",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津湾公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于台儿庄南路和古海道交口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津爱琪奕电竞客栈",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于精武镇工一号路姚村景福花园仁德里1号楼2单元201室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津珍惜日租公寓",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于周良街道宝白大道京津新城上京嘉园5号楼506室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津甜橙美寓民宿",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于鼓楼街道鼓楼东街4-1-401",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津盘山户外主题庄园",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于官庄镇石佛村盘山大道蓟跨线桥南100米路东",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津盘山风景名胜区",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于官庄镇莲花岭村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津盛鑫宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于上海道和平路十字路口西30米路北",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津盛鑫快捷宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "天津盛鑫快捷宾馆，位于上海道和平路十字路口西30米路北，提供住宿服务。",
+    "tags": [
+      "宾馆",
+      "酒店",
+      "滨海新区"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "天津盛鑫快捷宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "天津盛鑫快捷宾馆，位于上海道和平路十字路口西30米路北，滨海新区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津盛鑫快捷宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "天津盛鑫快捷宾馆，位于上海道和平路十字路口西30米路北，滨海新区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津盛鑫快捷宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "天津盛鑫快捷宾馆，位于上海道和平路十字路口西30米路北，滨海新区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津盛鑫快捷宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "天津盛鑫快捷宾馆，位于上海道和平路十字路口西30米路北，提供住宿服务。",
+    "tags": [
+      "宾馆",
+      "酒店",
+      "滨海新区"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "天津程姐住宿",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于卫津南路与红旗南路交叉口西北金福里3号楼5单元1层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津红苹果日租公寓",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于黑牛城道吉兴大厦4门301室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津美佳客栈",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于建设路42号,介于唐山道与保定道中间位置",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津自然博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津自然博物馆是一座集收藏、研究、展示于一体的综合性自然博物馆。",
+    "tags": [
+      "自然",
+      "博物馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "09:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "天津自然博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津自然博物馆，位于友谊路31号，河西区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津自然博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津自然博物馆，位于友谊路31号，河西区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津自然博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津自然博物馆，位于友谊路31号，河西区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津自然博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津自然博物馆是一座集收藏、研究、展示于一体的综合性自然博物馆。",
+    "tags": [
+      "自然",
+      "博物馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "09:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "天津自然博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于友谊路31号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津艺轩旅店",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于建设路源茂里3号(滨江道东800米,小白楼地铁站西北800米)茂源电力有限公司南侧20米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津艾特主题公寓",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于精武镇工一号路姚村春风园6-2-302",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津蓝天旅店",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于新盛园路60号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津豪华碧水公寓",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于中北镇侯台碧水家园B区2号楼4门401室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津轩麟阁公寓",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于周良街道宝白大道京津新城上京嘉园10号楼605室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津邮政博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于解放北路109号(近口腔医院)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津金宜商务酒店",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于华明工业园华明大道26号(EOD总部港对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津金谷商务酒店",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于津京科技谷康园道210号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津铭禹主题宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于咸水沽镇红旗路富源里59号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天津高尔夫公寓",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于珠江东环路东150米京津新城上京嘉园附近",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天鹅湖温泉度假村",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于武清开发区福源道20号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太亨商务大酒店",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于静文路与泰山路交口",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太守宴·蘭院(天塔店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于宾水道18号(天津宾馆地铁站C口步行370米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太平寨",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于下营镇黄崖关村津围公路黄崖关长城风景区内(东侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奇思电竞公寓(天津西青大学城店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于精武镇姚村文博园9号楼3楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奥体中心公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于体育中心街道凌宾路(天津奥林匹克中心)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如家睿柏·云酒店(天津滨海新区第五大街店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于宝山道688号(第五大街与金江路交口蓝山国际东侧,邻近欧美小镇)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "姚村夜市",
+    "city": "天津",
+    "category": "food",
+    "description": "位于工一号路与慧学道交叉口",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安家大院",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于杨柳青镇石家大院西侧",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝德福海鲜·天津菜",
+    "city": "天津",
+    "category": "food",
+    "description": "位于双桥河镇茶金路18号",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "家宝旅馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于围堤道200号(同望小学旁)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宽记老门口(塘沽店)",
+    "city": "天津",
+    "category": "food",
+    "description": "宽记老门口(塘沽店) 是天津的景点",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "宽记老门口(塘沽店)",
+    "city": "天津",
+    "category": "food",
+    "description": "宽记老门口(塘沽店)，位于塘沽广州道198号，滨海新区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宽记老门口(塘沽店)",
+    "city": "天津",
+    "category": "food",
+    "description": "宽记老门口(塘沽店)，位于塘沽广州道198号，滨海新区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宽记老门口(塘沽店)",
+    "city": "天津",
+    "category": "food",
+    "description": "宽记老门口(塘沽店)，位于塘沽广州道198号，滨海新区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宽记老门口(塘沽店)",
+    "city": "天津",
+    "category": "food",
+    "description": "宽记老门口(塘沽店) 是天津的景点",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "富奥宠物度假村",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于西台大街38号棉三创意街区2-16",
+    "tags": [
+      "061211"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富民体育公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于海河东路与国泰桥交汇处东北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小古林饭莊",
+    "city": "天津",
+    "category": "food",
+    "description": "位于大港海鲜街889号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小四川餐厅(纪庄子店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于天塔街道纪庄子北道",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小满海鲜·别院(开发区店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于盛达街99号",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小满海鲜·皮皮虾锅贴王(南市店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于新世界花园(鼓楼地铁站D口步行470米)",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小白楼",
+    "city": "天津",
+    "category": "attraction",
+    "description": "小白楼是天津著名的地标性建筑和商业区，位于和平区南京路，靠近小白楼地铁站。周边有众多购物、餐饮和娱乐场所，是游客和市民喜爱的休闲区域。",
+    "tags": [
+      "风景名胜",
+      "旅游景点",
+      "商业区"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.3
+  },
+  {
+    "name": "小白楼",
+    "city": "天津",
+    "category": "attraction",
+    "description": "小白楼，位于南京路(小白楼地铁站A口步行80米)，和平区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小白楼",
+    "city": "天津",
+    "category": "attraction",
+    "description": "小白楼，位于南京路(小白楼地铁站A口步行80米)，和平区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小白楼",
+    "city": "天津",
+    "category": "attraction",
+    "description": "小白楼，位于南京路(小白楼地铁站A口步行80米)，和平区，类型风景名胜相关 旅游景点。",
+    "tags": [
+      "风景名胜相关",
+      "旅游景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小白楼",
+    "city": "天津",
+    "category": "attraction",
+    "description": "小白楼是天津著名的地标性建筑和商业区，位于和平区南京路，靠近小白楼地铁站。周边有众多购物、餐饮和娱乐场所，是游客和市民喜爱的休闲区域。",
+    "tags": [
+      "风景名胜",
+      "旅游景点",
+      "商业区"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.3
+  },
+  {
+    "name": "小白楼",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于南京路(小白楼地铁站A口步行80米)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小白楼1902欧式风情街",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于开封道小白楼商业区(近滨江购物中心)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小站古镇",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于津歧公路津南·小站钻石公园西南侧约30米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小站练兵园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于小站镇津岐公路东",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小鲜肉铜锅(宾馆西路店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于黑牛城道160号(宾馆西路可园东里)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚客优连锁酒店(天津静海县医院店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于南纬一路与胜利大街交叉口西北50米",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚客客栈(翠阜新村地铁站店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于顺航路2号(翠阜新村地铁站B口步行250米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "局儿·烧烤火锅(生态城店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于生态城天和新乐汇5号楼102-103号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "峰山药王古寺",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于大寺镇王村",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市民广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于文化中心地铁站G口旁",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庆王府",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于重庆道55号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于鞍山道59号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张学良故居",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于赤峰道78号(和平路地铁站D口步行370米)",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张爱玲旧居",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于劝业场街道金街(和平路地铁站D口步行430米)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "心舒旅馆(胸科医院环湖医院店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于台儿庄南路天津胸科医院西侧",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怡家瑞轩快捷宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "怡家瑞轩快捷宾馆位于静海区北外环北华路恒兴钢业1层，提供住宿服务。",
+    "tags": [
+      "住宿服务",
+      "宾馆酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "全天",
+    "openTime": "00:00-24:00",
+    "rating": 0.0
+  },
+  {
+    "name": "怡家瑞轩快捷宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "怡家瑞轩快捷宾馆，位于北外环北华路恒兴钢业1层，静海区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怡家瑞轩快捷宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "怡家瑞轩快捷宾馆，位于北外环北华路恒兴钢业1层，静海区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怡家瑞轩快捷宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "怡家瑞轩快捷宾馆，位于北外环北华路恒兴钢业1层，静海区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怡家瑞轩快捷宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "怡家瑞轩快捷宾馆位于静海区北外环北华路恒兴钢业1层，提供住宿服务。",
+    "tags": [
+      "住宿服务",
+      "宾馆酒店"
+    ],
+    "avgCost": 0.0,
+    "duration": "全天",
+    "openTime": "00:00-24:00",
+    "rating": 0.0
+  },
+  {
+    "name": "恩宏德餐馆(意式风情街店)",
+    "city": "天津",
+    "category": "food",
+    "description": "恩宏德餐馆位于天津意式风情街，是一家主打清真菜的中餐厅。店内环境整洁，菜品口味地道，推荐菜有牛肉拉面、羊肉串等，适合家庭聚餐和朋友小聚。",
+    "tags": [
+      "清真",
+      "中餐",
+      "天津"
+    ],
+    "avgCost": 60.0,
+    "duration": "2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "恩宏德餐馆(意式风情街店)",
+    "city": "天津",
+    "category": "food",
+    "description": "恩宏德餐馆(意式风情街店)，位于自由道68号1F09.1F10，河北区，类型中餐厅 清真菜馆。",
+    "tags": [
+      "中餐厅",
+      "清真菜馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恩宏德餐馆(意式风情街店)",
+    "city": "天津",
+    "category": "food",
+    "description": "恩宏德餐馆(意式风情街店)，位于自由道68号1F09.1F10，河北区，类型中餐厅 清真菜馆。",
+    "tags": [
+      "中餐厅",
+      "清真菜馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恩宏德餐馆(意式风情街店)",
+    "city": "天津",
+    "category": "food",
+    "description": "恩宏德餐馆(意式风情街店)，位于自由道68号1F09.1F10，河北区，类型中餐厅 清真菜馆。",
+    "tags": [
+      "中餐厅",
+      "清真菜馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恩宏德餐馆(意式风情街店)",
+    "city": "天津",
+    "category": "food",
+    "description": "恩宏德餐馆位于天津意式风情街，是一家主打清真菜的中餐厅。店内环境整洁，菜品口味地道，推荐菜有牛肉拉面、羊肉串等，适合家庭聚餐和朋友小聚。",
+    "tags": [
+      "清真",
+      "中餐",
+      "天津"
+    ],
+    "avgCost": 60.0,
+    "duration": "2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "悦雅民宿(天津西青大学城店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于精武镇姚村冬盛园4号楼1门102号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "拜石博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于天津市体育博物馆东南门东北60米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于水上公园东路1号天津水上公园内夏净云香",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新五爱道夜市",
+    "city": "天津",
+    "category": "food",
+    "description": "位于光荣道原大同门封闭市场(大舞台对面)",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新华饭店·新津菜·酥皮烤鸭(津湾广场店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于解放北路52号(津湾广场地铁站C口步行270米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星耀五洲旅游度假区",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于星耀五洲枫情阳光城东南侧330米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杉姐老火锅(天津总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于福安大街保利广场2号门(金街地铁站D口步行290米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨柳青古镇",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于杨柳青镇",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨柳青古镇5A级景区创建指挥部",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于青远路与尊美街交叉口南20米",
+    "tags": [
+      "170200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨柳青古镇抱鱼广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于明清街与青远路交叉口南60米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨柳青庄园",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于津同公路20号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(哈尔滨道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于小白楼街道哈尔滨道106号,文兴里25号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳真真云贵山岭烤肉",
+    "city": "天津",
+    "category": "food",
+    "description": "位于万象城(乐园道地铁站D2口步行490米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "格林豪泰酒店(天津之眼大悲院店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于三马路290号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "格林豪泰酒店(天津滨海新区塘沽地铁站店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于河北路3-1752号(绿岛公园对过)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂园餐厅(五大道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "桂园餐厅位于天津和平区成都道62号，是一家以中餐为主的综合性酒楼，提供多种经典菜品和舒适的用餐环境，深受当地食客喜爱。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼",
+      "天津美食"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.2
+  },
+  {
+    "name": "桂园餐厅(五大道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "桂园餐厅(五大道店)，位于成都道62号，和平区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂园餐厅(五大道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "桂园餐厅(五大道店)，位于成都道62号，和平区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂园餐厅(五大道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "桂园餐厅(五大道店)，位于成都道62号，和平区，类型中餐厅 综合酒楼。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂园餐厅(五大道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "桂园餐厅位于天津和平区成都道62号，是一家以中餐为主的综合性酒楼，提供多种经典菜品和舒适的用餐环境，深受当地食客喜爱。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼",
+      "天津美食"
+    ],
+    "avgCost": 80.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.2
+  },
+  {
+    "name": "梅江公园二期",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于梅江西路富力津门湖西子花园西北侧约230米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "棠宫·经典中国菜(天津首店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于昆明路150-152号",
+    "tags": [
+      "061100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "榕树广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于黑牛城道222号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正月十五(河东店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于卫国道132号增7号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民园广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "民园广场位于天津市和平区重庆道83号，是一座具有历史风貌的城市广场，以其独特的欧式建筑和休闲氛围吸引游客。",
+    "tags": [
+      "城市广场",
+      "风景名胜",
+      "公园广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "民园广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "民园广场，位于重庆道83号，和平区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民园广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "民园广场，位于重庆道83号，和平区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民园广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "民园广场，位于重庆道83号，和平区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民园广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "民园广场位于天津市和平区重庆道83号，是一座具有历史风貌的城市广场，以其独特的欧式建筑和休闲氛围吸引游客。",
+    "tags": [
+      "城市广场",
+      "风景名胜",
+      "公园广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "民园广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于重庆道83号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水上记忆博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于水上公园路48号天津水上公园内(西北角)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水西公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于中北镇碧欣路侯台装饰城旁",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉枫商务酒店",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于人民街52号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河西区体育公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于华夏未来海河中心附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河西区危改广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于谦德庄",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "津城静园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于鞍山道70号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "津湾广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于解放北路48号(滨江道口)(津湾广场地铁站C口旁)",
+    "tags": [
+      "120201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "津湾广场夜市",
+    "city": "天津",
+    "category": "food",
+    "description": "位于解放北路与长春道交叉口东北60米(津湾广场地铁站A口旁)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "津门如意包子铺(宾西路店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于宾馆西路1号育学里底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "津门张记包子铺(华昌道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于华昌道7号华馨公寓1号楼底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "津门故里",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于天津古文化街",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "派酒店(天津塘沽滨海高铁站店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于新港一号路2-1689号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "派酒店(天津宾馆地铁站市政府店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于紫金山路67号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海合安天津极地海洋公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于响螺湾商务区61号",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海岛海鲜·海胆水饺(津南旗舰)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于咸水沽镇银岛商业街尚德路以北坤元路以南17-2345",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(万象城店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于乐园道9号万象城层(L5107/108/109)号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(华清店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于劝业场街滨江道170号米莱欧百货华清店4层01号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(南开大悦城店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于南门外大街6号大悦城购物中心南区4F-48号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(新开路店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于春华街道新开路与华越道交叉口远洋新天地2层201",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(红星美凯龙店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于京津路312号红星美凯龙北辰商场一层A8002-1",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海河文化广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "润泽园饭庄(古文化街店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于东马路66号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真又一顺火锅城(宾西路店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于宾西路10号天宾公寓(天津宾馆地铁站A口步行290米)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真古丽花儿·新疆美食(万象城店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于乐园道9号天津万象城5层106海底捞旁",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真青琅轩水饺(万德庄店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于万德庄南北街43号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渌水道早市",
+    "city": "天津",
+    "category": "food",
+    "description": "位于浯水道78号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渔公渔婆铁锅炖烧烤",
+    "city": "天津",
+    "category": "food",
+    "description": "位于西园西里东北2门西北50米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渤海度假村2期",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于滨宇东道与谐海路交叉口东220米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖苑(水上公园总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "湖苑(水上公园总店)是一家位于天津南开区水上东路1号的中餐厅。",
+    "tags": [
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "湖苑(水上公园总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "湖苑(水上公园总店)，位于水上东路1号，南开区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖苑(水上公园总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "湖苑(水上公园总店)，位于水上东路1号，南开区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖苑(水上公园总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "湖苑(水上公园总店)，位于水上东路1号，南开区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖苑(水上公园总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "湖苑(水上公园总店)是一家位于天津南开区水上东路1号的中餐厅。",
+    "tags": [
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "湖苑餐厅(碧水店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于新科道与碧祥路交叉口东行20米处",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "源宗盛粽子汤圆麻花(朝华园店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于常州道229号(朝华园底商)(靖江路地铁站D口步行300米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "源记蟹皇大汤包(宾西·西园西里店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于宾馆西路西园西里38门104号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "满记·老满家海鲜·清真天津菜",
+    "city": "天津",
+    "category": "food",
+    "description": "位于福州道996号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潮音寺",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于泰达街道顺河路1920号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瀚金佰·天池延边朝鲜族烤串夜宵(总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于友谊路16号(弘阳家居正门西100米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狗不理(天津总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于山东路77号",
+    "tags": [
+      "050116"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "独乐寺",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于内武定街41号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "王庄夜市",
+    "city": "天津",
+    "category": "food",
+    "description": "位于龙泉道与双环西路交叉口西南80米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玖融湖院(河东区店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于六纬路117号(六纬路地铁站B口步行70米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珍宝天津菜馆津门饺子一绝(天津总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "珍宝天津菜馆津门饺子一绝(天津总店)位于天津市河北区平安街19号，紧邻德云社，是一家以天津菜和手工饺子为特色的中餐厅。店内环境雅致，菜品丰富，主打津门饺子系列，馅料多样，皮薄馅大，深受食客喜爱。",
+    "tags": [
+      "天津菜",
+      "饺子",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "珍宝天津菜馆津门饺子一绝(天津总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "珍宝天津菜馆津门饺子一绝(天津总店)，位于平安街19号(近德云社)，河北区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珍宝天津菜馆津门饺子一绝(天津总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "珍宝天津菜馆津门饺子一绝(天津总店)，位于平安街19号(近德云社)，河北区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珍宝天津菜馆津门饺子一绝(天津总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "珍宝天津菜馆津门饺子一绝(天津总店)，位于平安街19号(近德云社)，河北区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珍宝天津菜馆津门饺子一绝(天津总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "珍宝天津菜馆津门饺子一绝(天津总店)位于天津市河北区平安街19号，紧邻德云社，是一家以天津菜和手工饺子为特色的中餐厅。店内环境雅致，菜品丰富，主打津门饺子系列，馅料多样，皮薄馅大，深受食客喜爱。",
+    "tags": [
+      "天津菜",
+      "饺子",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "瑞皇台酒店(天津钰华街店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于钰华街191号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瓷房子",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于赤峰道64号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "生态城便民市场(夜市)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于安明路与海旭道交叉口西南60米",
+    "tags": [
+      "060700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "登瀛邀月",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于水上公园东路1号天津水上公园内(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白塔寺",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于白塔寺街8号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛德利美食府(河西时尚街淘宝城店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于时尚街淘宝城河西店南门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "睦南公园",
@@ -129,126 +4667,305 @@
       "天津",
       "休闲"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "1小时",
     "openTime": "全天开放",
     "rating": 4.3
   },
   {
-    "name": "小白楼",
+    "name": "睦南公园",
     "city": "天津",
     "category": "attraction",
-    "description": "小白楼是天津著名的地标性建筑和商业区，位于和平区南京路，靠近小白楼地铁站。周边有众多购物、餐饮和娱乐场所，是游客和市民喜爱的休闲区域。",
+    "description": "睦南公园，位于大理道68号附近，和平区，类型公园广场 公园。",
     "tags": [
-      "风景名胜",
-      "旅游景点",
-      "商业区"
+      "公园广场",
+      "公园"
     ],
-    "avgCost": 0,
-    "duration": "1-2小时",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "睦南公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "睦南公园，位于大理道68号附近，和平区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "睦南公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "睦南公园，位于大理道68号附近，和平区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "睦南公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "睦南公园位于天津市和平区大理道68号附近，地处五大道文化旅游区，是一座以月季花为主题的欧式园林公园。园内绿树成荫，花团锦簇，是市民休闲散步的好去处。",
+    "tags": [
+      "公园",
+      "五大道",
+      "天津",
+      "休闲"
+    ],
+    "avgCost": 0.0,
+    "duration": "1小时",
     "openTime": "全天开放",
     "rating": 4.3
   },
   {
-    "name": "大铁勺新津菜(迎水道店)",
+    "name": "睦南公园",
     "city": "天津",
-    "category": "food",
-    "description": "大铁勺新津菜(迎水道店)是一家位于天津西青区的中餐厅，提供新津菜系。",
+    "category": "attraction",
+    "description": "位于大理道68号附近",
     "tags": [
-      "中餐",
-      "新津菜",
-      "餐饮"
+      "110101"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "珍宝天津菜馆津门饺子一绝(天津总店)",
+    "name": "碧玺别苑(天津蓟州黄崖关长城店)",
     "city": "天津",
-    "category": "food",
-    "description": "珍宝天津菜馆津门饺子一绝(天津总店)位于天津市河北区平安街19号，紧邻德云社，是一家以天津菜和手工饺子为特色的中餐厅。店内环境雅致，菜品丰富，主打津门饺子系列，馅料多样，皮薄馅大，深受食客喜爱。",
+    "category": "hotel",
+    "description": "位于黄崖关村西区97号",
     "tags": [
-      "天津菜",
-      "饺子",
-      "中餐厅"
+      "100000"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "宽记老门口(塘沽店)",
+    "name": "社会山国民夜市",
     "city": "天津",
     "category": "food",
-    "description": "宽记老门口(塘沽店) 是天津的景点",
+    "description": "位于知景道198号城南往市国民主题街区",
     "tags": [
-      "中餐厅",
-      "综合酒楼"
+      "061000"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "恩宏德餐馆(意式风情街店)",
+    "name": "神户园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于水上公园东路1号天津水上公园内(东南角)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦城古城址",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于宝坻区殡仪馆附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "空港小吃夜市(SM天津滨海城市广场店)",
     "city": "天津",
     "category": "food",
-    "description": "恩宏德餐馆位于天津意式风情街，是一家主打清真菜的中餐厅。店内环境整洁，菜品口味地道，推荐菜有牛肉拉面、羊肉串等，适合家庭聚餐和朋友小聚。",
+    "description": "位于环河北路168号SM天津滨海城市广场2F层",
     "tags": [
-      "清真",
-      "中餐",
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "筷活林串场-环湖中路店",
+    "city": "天津",
+    "category": "food",
+    "description": "位于天塔街道·环湖中路·51号-53号(原津奥大厦)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫光园·烤鸭·北京菜(天津总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "紫光园·烤鸭·北京菜(天津总店) 是天津的美食餐厅，位于河西区。地址：南北大街海景商业楼1号楼。",
+    "tags": [
       "天津"
     ],
-    "avgCost": 60,
-    "duration": "2小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.5
-  },
-  {
-    "name": "桂园餐厅(五大道店)",
-    "city": "天津",
-    "category": "food",
-    "description": "桂园餐厅位于天津和平区成都道62号，是一家以中餐为主的综合性酒楼，提供多种经典菜品和舒适的用餐环境，深受当地食客喜爱。",
-    "tags": [
-      "中餐厅",
-      "综合酒楼",
-      "天津美食"
-    ],
-    "avgCost": 80,
-    "duration": "1.5小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.2
-  },
-  {
-    "name": "大柴·宴宾楼(芥园西道店)",
-    "city": "天津",
-    "category": "food",
-    "description": "大柴·宴宾楼(芥园西道店)是一家位于天津南开区的综合酒楼，提供中餐服务。",
-    "tags": [
-      "中餐厅",
-      "综合酒楼"
-    ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
-    "openTime": "",
-    "rating": 0
-  },
-  {
-    "name": "湖苑(水上公园总店)",
-    "city": "天津",
-    "category": "food",
-    "description": "湖苑(水上公园总店)是一家位于天津南开区水上东路1号的中餐厅。",
-    "tags": [
-      "中餐厅"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
+    "openTime": "全天",
     "rating": 3.5
+  },
+  {
+    "name": "紫光园·烤鸭·北京菜(天津总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "紫光园·烤鸭·北京菜(天津总店)，位于南北大街海景商业楼1号楼，河西区，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫光园·烤鸭·北京菜(天津总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "紫光园·烤鸭·北京菜(天津总店)，位于南北大街海景商业楼1号楼，河西区，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫光园·烤鸭·北京菜(天津总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "紫光园·烤鸭·北京菜(天津总店)，位于南北大街海景商业楼1号楼，河西区，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫光园·烤鸭·北京菜(天津总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "紫光园·烤鸭·北京菜(天津总店) 是天津的美食餐厅，位于河西区。地址：南北大街海景商业楼1号楼。",
+    "tags": [
+      "天津"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "紫金广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于卫津南路1号天塔湖景区内",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红光公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于资水道与泰山路交口(土城地铁站B口步行310米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿道公园(友谊南路)",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于郁江道与友谊南路辅路交叉口西北60米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美好生活水滴夜市",
+    "city": "天津",
+    "category": "food",
+    "description": "位于奥林匹克中心北门(水上公园东路地铁站A入口步行190米)",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翠屏湖度假中心",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于翠屏湖日升农家院南侧180米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老四长沙菜洞庭过江鱼",
+    "city": "天津",
+    "category": "food",
+    "description": "位于十五经路鸿运里底商3-01号(直沽地铁站B口步行250米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "老渔民(新港远洋店)",
@@ -258,7 +4975,62 @@
     "tags": [
       "中餐厅"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "老渔民(新港远洋店)",
+    "city": "天津",
+    "category": "food",
+    "description": "老渔民(新港远洋店)，位于新港二号路36号远洋宾馆一楼，滨海新区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老渔民(新港远洋店)",
+    "city": "天津",
+    "category": "food",
+    "description": "老渔民(新港远洋店)，位于新港二号路36号远洋宾馆一楼，滨海新区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老渔民(新港远洋店)",
+    "city": "天津",
+    "category": "food",
+    "description": "老渔民(新港远洋店)，位于新港二号路36号远洋宾馆一楼，滨海新区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老渔民(新港远洋店)",
+    "city": "天津",
+    "category": "food",
+    "description": "老渔民(新港远洋店)位于天津市滨海新区新港二号路36号远洋宾馆一楼，是一家以中餐为主的餐厅。",
+    "tags": [
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
@@ -272,95 +5044,767 @@
       "中餐",
       "天津"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 0
+    "rating": 0.0
   },
   {
-    "name": "紫光园·烤鸭·北京菜(天津总店)",
+    "name": "耳朵眼会馆(鼓楼商业街店)",
     "city": "天津",
     "category": "food",
-    "description": "紫光园·烤鸭·北京菜(天津总店) 是天津的美食餐厅，位于河西区。地址：南北大街海景商业楼1号楼。",
+    "description": "耳朵眼会馆(鼓楼商业街店)，位于鼓楼东街12号，南开区，类型中餐厅 中餐厅。",
     "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "耳朵眼会馆(鼓楼商业街店)",
+    "city": "天津",
+    "category": "food",
+    "description": "耳朵眼会馆(鼓楼商业街店)，位于鼓楼东街12号，南开区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "耳朵眼会馆(鼓楼商业街店)",
+    "city": "天津",
+    "category": "food",
+    "description": "耳朵眼会馆(鼓楼商业街店)，位于鼓楼东街12号，南开区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "耳朵眼会馆(鼓楼商业街店)",
+    "city": "天津",
+    "category": "food",
+    "description": "耳朵眼会馆位于天津市南开区鼓楼东街12号，提供中餐服务。",
+    "tags": [
+      "中餐",
       "天津"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "全天",
-    "rating": 3.5
-  },
-  {
-    "name": "天津盛鑫快捷宾馆",
-    "city": "天津",
-    "category": "hotel",
-    "description": "天津盛鑫快捷宾馆，位于上海道和平路十字路口西30米路北，提供住宿服务。",
-    "tags": [
-      "宾馆",
-      "酒店",
-      "滨海新区"
-    ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
-    "rating": 3.5
+    "rating": 0.0
   },
   {
-    "name": "久福住宿(天津站店)",
+    "name": "肯德基(体北店)",
     "city": "天津",
-    "category": "hotel",
-    "description": "久福住宿位于天津市河东区华昌道久福园八号楼五门四楼，靠近天津站，提供住宿服务。",
+    "category": "food",
+    "description": "位于宾水道75号",
     "tags": [
-      "住宿",
-      "旅馆",
-      "天津站"
+      "050301"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "怡家瑞轩快捷宾馆",
+    "name": "胖子菜馆",
     "city": "天津",
-    "category": "hotel",
-    "description": "怡家瑞轩快捷宾馆位于静海区北外环北华路恒兴钢业1层，提供住宿服务。",
+    "category": "food",
+    "description": "位于平江道文玥北里旁",
     "tags": [
-      "住宿服务",
-      "宾馆酒店"
+      "050100"
     ],
-    "avgCost": 0,
-    "duration": "全天",
-    "openTime": "00:00-24:00",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "天津凤来小筑民宿",
+    "name": "花和日本料理(河西店)",
     "city": "天津",
-    "category": "hotel",
-    "description": "天津凤来小筑民宿位于天津市东丽区朗钜·天域广场，提供舒适的住宿服务。民宿靠近百优便利店楼上，房间布置温馨，适合商务和旅游客人。",
+    "category": "food",
+    "description": "位于友谊路23号天津科技大厦25号2层",
     "tags": [
-      "住宿",
-      "宾馆",
-      "旅馆"
+      "050202"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "天津心舒旅店",
+    "name": "花园广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于马场道170号(佟楼地铁站A2口步行160米)",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(世纪都会店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于南京路世纪都会一楼132号(营口道地铁站C3口步行140米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(天津大港大学城店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于东环路1号万达悦华酒店1楼内侧(麦当劳旁)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝海夜市",
+    "city": "天津",
+    "category": "food",
+    "description": "位于天昊汇川商贸城B座北2门旁",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓟州区毛家裕长寿村",
     "city": "天津",
     "category": "hotel",
-    "description": "位于河西区台儿庄南路天津胸科医院西侧的旅馆招待所",
+    "description": "位于毛家裕长寿村",
     "tags": [
-      "旅馆",
-      "招待所"
+      "080500"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓟州古城",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于文昌街与渔阳北路交叉口东20米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛮涮自助小火锅·糖水铺子集合店(天津恒隆店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于小白楼街道兴安路166号和恒隆广场5楼",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "融遇广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于美岸广场7号楼与21号楼之间",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西北角(新春花苑店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于鼓楼西街659号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西北角夜市",
+    "city": "天津",
+    "category": "food",
+    "description": "位于西马路10号民族楼(西北角地铁站C口步行190米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西域榻榻幂(恒基广场店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于友谊路恒基广场(迎宾馆地铁站C口步行80米)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西岸河西区文化广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于新围堤道与湘阳大街交叉口西南60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西湖道",
+    "city": "天津",
+    "category": "food",
+    "description": "位于西湖道与白堤路交叉口东南60米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西钓台古城址",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于天津家香调味品有限公司西侧150米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "贵达卧牛湖度假村",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于芦台曹庄道口三公里处",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵鲜记·宝藏鲜牛肉·自助火锅(陆家嘴黑金店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于陆家嘴中心6楼(星巴克旁电梯直达)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "速8酒店(天津刘园地铁站儿童医院店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于辰昌路(刘园地铁站A出口步行150米)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金山海鲜·火锅(天佑城店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于天佑城5楼(西南角地铁站A口步行80米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金山海鲜鲜牛肉火锅(总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于解放路1212号一楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金缘梦公寓(天津熙悦汇购物中心店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于延安路17号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金色原野旅游度假休闲山庄",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于下营镇段庄村6区23号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金色港湾客栈(天津南站店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于张家窝镇杰盛里69号楼7门",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金色阳光客栈(天津武清佛罗伦萨小镇店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于泉州路18号市场西北门老工商所办公楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫泰湖度假村",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于金牛镇清水白村",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫达客栈(天津西青大学城店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于慧学道冬盛园5号楼2门201",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁真·无分店·刨冰红焖羊肉·正宗老字号",
+    "city": "天津",
+    "category": "food",
+    "description": "位于气象台路1号(电台道口)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦江之星(天津中新生态城国家海博馆店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于动漫中路713号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦江之星(天津新开路店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于新兆路139号(远洋国际中心地铁站B口步行340米)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦江之星(天津滨海新区塘沽地铁站店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于河北路2-98号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦江之星(天津站津湾广场店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于进步道17号近解放桥",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦江之星(天津西站洪湖里地铁站店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于光荣道105号(洪湖里地铁站B口步行400米)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雨花石电竞影院客栈(西青大学城店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于精武镇慧学道姚村文博园5号楼504室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青年公社(恒基广场店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于友谊路16号恒基广场F1层(迎宾馆地铁站C口旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青琅轩水饺",
+    "city": "天津",
+    "category": "food",
+    "description": "位于南运河南路与闸桥南路交口米兰弘丽园1号楼底商(近人民医院)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺兴德·天津菜馆(和平店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于陕西路1号(多伦道口)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺水牛市·鲜活牛肉火锅(梅江龙水园店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于龙水园3号楼8号-4楼(友谊南路地铁站B口步行300米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "馋嘴蛙火锅(天塔道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于天塔道上谷商业街D座20号(天塔地铁站E2口步行240米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马可波罗广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于天津市光复道街道光复道街道民族路与自由道交口意大利风情区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "驿家365连锁酒店(天津西青开发区梅江会展中心店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于大寺镇爱尚街商业广场1号楼(津港公路与宏源道交叉口东北300米)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(体育中心店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于凌宾路奥城商业广场8号楼彩柒汇生活广场1F层L1-8102",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(富力广场店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于北马路127号富力广场一层116临街商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(祈年大厦店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于万全道123号祈年大厦F1层(鞍山道地铁站A口旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(天津乐宾百货店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于南京路128号乐宾百货(营口道地铁站B1口步行370米)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(天津富力广场店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于北马路127号富力广场F1层(西北角地铁站D口步行280米)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(体北餐厅)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于安达公寓13号安达公寓A座",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(天津张自忠路餐厅)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于津湾广场3号楼A门西90米(津湾广场地铁站B口旁)",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(天津麦当劳友谊恒基餐厅)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于友谊路16号恒基广场B座1层(迎宾馆地铁站C口步行90米)",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄崖关长城风景区",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于黄崖关村津围公路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄崖关长城风景区-古城墙遗址",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于下营镇黄崖关村黄崖关长城风景区内(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼓楼商业街",
+    "city": "天津",
+    "category": "food",
+    "description": "位于鼓楼北街1号",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(和平天河城店)",
+    "city": "天津",
+    "category": "food",
+    "description": "位于天河城8楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

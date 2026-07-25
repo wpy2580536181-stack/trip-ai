@@ -1,18 +1,881 @@
 [
   {
-    "name": "西安城市运动公园",
+    "name": "3511夜市",
+    "city": "西安",
+    "category": "food",
+    "description": "位于民洁路与民新路交叉口东40米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "3·Lin Camp 城市集合营地",
+    "city": "西安",
+    "category": "food",
+    "description": "位于宣平里南门对面",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "OYO西安龙腾商务宾馆",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于宫园壹号1期东南2门旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一品古城",
     "city": "西安",
     "category": "attraction",
-    "description": "西安城市运动公园位于西安市未央区，是一个集运动、休闲、观光于一体的城市公园。",
+    "description": "位于251村道与子午大道交叉口东400米",
     "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
+      "110000"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一宅溪畔",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于汤峪河村第一村小组21号",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上水缘度假山庄",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于五台街道留村",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "不为夜市鸡尾酒",
+    "city": "西安",
+    "category": "food",
+    "description": "位于四府街与太阳庙门交叉口北40米",
+    "tags": [
+      "080304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东北小二东北菜(白桦林居店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于未央区经开区凤城九路白桦林居43幢1单元10204室",
+    "tags": [
+      "050113"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东拓商务宾馆(西安洪庆地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于洪庆街办赵东村一组194号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东来顺·非遗火锅(交大店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于南二环与兴庆路十字东北角交大出版传媒大厦1层105室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东来顺·非遗火锅(高新店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于高新路80号(木塔寺地铁站D口步行460米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东门夜市小吃(电力公司家属院店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于环城东路43号电力公司家属院",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国秦腔艺术博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于西一路282号易俗社文化街区1A栋2层(方言广场东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中心广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于凤城四路附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丹凤门遗址博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于自强东路585号大明宫国家遗址公园内(南侧)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九门民宿(西安钟鼓楼回民街店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于大麦市街45号(桥梓口地铁站D1口步行280米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云居客栈(太白南路地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于太白南路235号(太白南路地铁站C2东南口步行70米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五台古镇",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于五台街道五台街道五台街道238乡道西",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "今天商务宾馆",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于火炬路2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "俯仰堂甲鱼馆(永阳公园店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于雁塔区高新区丈八东路与唐延南路交叉口东南角永阳公园内(北侧)",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八百里秦川·正宗陕菜(大唐不夜城锦安坊店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于雁南一路曲江锦安坊A1馆1层(近大唐不夜城步行街)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "六艺场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于永庆路与永敏路东北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兰湖",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于未央路168号西安城市运动公园(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴庆宫公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于咸宁西路55号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴庆斋(白桦林居店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于文景路86号兴庆斋(文景路地铁站D东北口步行340米)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤城八路绿地广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于凤城八路与文景路西北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤城广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于十路与朱宏路十字东北角",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北客站未央温馨家园公寓(建元路分店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于尚新路长乐东苑小区A区5号楼2306室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北张古镇城隍庙",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于兴隆街道北张一村卫生室西北侧270米",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北苑夜市",
+    "city": "西安",
+    "category": "food",
+    "description": "位于凤城北路100号(北苑地铁站B西南口旁)",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华夏文旅海洋公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于浐灞国际港华文路1518号",
+    "tags": [
+      "110104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华夏文旅西安度假区",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于浐灞国际港华文路1518号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华清宫",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于华清路38号",
+    "tags": [
+      "110201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华清宫-杨妃池",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于骊山街道骊山街道华清路38号华清池景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华清宫-老母殿",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于环城东路3号骊山国家森林公园",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南湖1号 曲江池东路分店",
+    "city": "西安",
+    "category": "food",
+    "description": "位于曲江池东路曲江池遗址公园内云韶居(寒窑地铁站B1口步行250米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "厚畛子古镇",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于厚畛子镇黑河国家森林公园(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古城堡",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于310国道与连天线交叉口西240米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吃货青年旅舍(陕西历史博物馆小寨地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于小寨路街道兴善寺东街6号蓝溪都市花园4号楼B座101室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉味轩陕南菜(创汇社区C区南门店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于创汇社区C区东南1门西70米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉祥宾馆(西安何家营店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于何家营西新村(陕西教育学院东门)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "向云滇·菌子汤锅(凤城七路店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于凤城七路旭辉中心底商",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "君缘客栈",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于子午镇曹村纬二街1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "君驿酒店",
+    "city": "西安",
+    "category": "hotel",
+    "description": "君驿酒店位于西安未央区大庆路西段29号，阿房路交汇处，是一家三星级宾馆。",
+    "tags": [
+      "住宿",
+      "宾馆酒店",
+      "三星级宾馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 3.5
+  },
+  {
+    "name": "君驿酒店",
+    "city": "西安",
+    "category": "hotel",
+    "description": "君驿酒店，位于大庆路西段29号(阿房路交汇处)，未央区，类型宾馆酒店 三星级宾馆。",
+    "tags": [
+      "宾馆酒店",
+      "三星级宾馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "君驿酒店",
+    "city": "西安",
+    "category": "hotel",
+    "description": "君驿酒店，位于大庆路西段29号(阿房路交汇处)，未央区，类型宾馆酒店 三星级宾馆。",
+    "tags": [
+      "宾馆酒店",
+      "三星级宾馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "君驿酒店",
+    "city": "西安",
+    "category": "hotel",
+    "description": "君驿酒店，位于大庆路西段29号(阿房路交汇处)，未央区，类型宾馆酒店 三星级宾馆。",
+    "tags": [
+      "宾馆酒店",
+      "三星级宾馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "君驿酒店",
+    "city": "西安",
+    "category": "hotel",
+    "description": "君驿酒店位于西安未央区大庆路西段29号，阿房路交汇处，是一家三星级宾馆。",
+    "tags": [
+      "住宿",
+      "宾馆酒店",
+      "三星级宾馆"
+    ],
+    "avgCost": 0.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 3.5
+  },
+  {
+    "name": "君驿酒店",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于大庆路西段29号(阿房路交汇处)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "周至水街",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉宸民宿(西安国际会展中心店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于新筑街道港务大道1668号新时代广场A区南区A2栋17层11724室",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "回民街",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于北院门125号1-51(钟楼地铁站出入口步行430米)",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "围着寿喜烧(汉神店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于汉神购物广场一楼中央大街中1门",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "国人川菜(李家村店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于雁塔北路23号(和平门地铁站B西南口步行420米)",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城市中央公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于元光路与元朔路交叉路口往南约180米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城边边烧烤·西北江湖特色菜(大唐不夜城店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于曲江新区雁南一路1111号10103号商铺",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塘子古镇旅游区",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于秦岭北麓汤峪镇塘子村南面大兴汤院遗址公园内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "复兴坊",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于潘家村北路9号(玉祥门地铁站A西北口步行240米)",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "外婆印象(博乐里购物广场店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于凤城八路与文景路十字博乐里3层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "夜市广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于凤城三路与贞观路交叉口西120米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大兴善寺",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于小寨兴善寺西街55号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大华博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于太华南路251号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大吉利·潮汕鲜牛肉火锅(西安店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于东二路与尚勤路交汇处西行50米路南",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大唐不夜城",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于雁塔南路428号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大唐芙蓉园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于曲江新区芙蓉西路99号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大唐西市博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于劳动南路118号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大慈恩寺",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于慈恩路1号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "大明宫国家遗址公园",
@@ -23,231 +886,144 @@
       "风景名胜",
       "世界遗产"
     ],
-    "avgCost": 60,
+    "avgCost": 60.0,
     "duration": "2-3小时",
     "openTime": "08:30-18:00",
     "rating": 4.5
   },
   {
-    "name": "汉城湖旅游风景区",
+    "name": "大明宫国家遗址公园",
     "city": "西安",
     "category": "attraction",
-    "description": "汉城湖旅游风景区位于西安市未央区，依托汉代城墙遗址和园林景观建成，融合了历史文化与自然风光，是西安著名的风景名胜区和国家级景点。景区内设有汉文化展示区、水景园林、休闲步道等，适合游客游览、休闲和拍照。",
+    "description": "大明宫国家遗址公园，位于自强东路585号，新城区，类型风景名胜 世界遗产。",
     "tags": [
       "风景名胜",
-      "国家级景点",
-      "汉文化",
-      "公园"
+      "世界遗产"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大明宫国家遗址公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "大明宫国家遗址公园，位于自强东路585号，新城区，类型风景名胜 世界遗产。",
+    "tags": [
+      "风景名胜",
+      "世界遗产"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大明宫国家遗址公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "大明宫国家遗址公园，位于自强东路585号，新城区，类型风景名胜 世界遗产。",
+    "tags": [
+      "风景名胜",
+      "世界遗产"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大明宫国家遗址公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "大明宫国家遗址公园是唐朝皇宫遗址，位于西安市新城区，是世界文化遗产，包含含元殿、宣政殿等遗迹，是了解唐代历史的重要景点。",
+    "tags": [
+      "风景名胜",
+      "世界遗产"
+    ],
+    "avgCost": 60.0,
     "duration": "2-3小时",
-    "openTime": "08:00-18:00",
+    "openTime": "08:30-18:00",
     "rating": 4.5
   },
   {
-    "name": "宣平里景区",
+    "name": "大明宫国家遗址公园",
     "city": "西安",
     "category": "attraction",
-    "description": "宣平里景区位于西安市未央区汉城街道丰产路稳江仓储正对面，是一处集风景名胜与摩托车服务为一体的综合区域。景区环境独特，适合休闲游览。",
+    "description": "位于自强东路585号",
     "tags": [
-      "风景名胜",
-      "摩托车服务",
-      "摩托车销售"
+      "110201"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "未央城市广场",
+    "name": "大明宫国家遗址公园-玄武门广场",
     "city": "西安",
     "category": "attraction",
-    "description": "未央城市广场位于西安市未央区张家堡环岛赛高城市广场东北侧约190米，是一处风景名胜、公园广场类型的地标性城市广场。广场环境优美，适合休闲散步和观赏城市景观。",
+    "description": "位于自强东路585号大明宫国家遗址公园内(北侧)",
     "tags": [
-      "风景名胜",
-      "公园广场",
-      "城市广场"
+      "110105"
     ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "全天开放",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "西安城墙",
-    "city": "西安",
-    "category": "attraction",
-    "description": "西安城墙 是西安的景点",
-    "tags": [
-      "风景名胜",
-      "国家级景点"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
-  },
-  {
-    "name": "红旗铁路公园",
-    "city": "西安",
-    "category": "attraction",
-    "description": "红旗铁路公园位于西安市未央区，是一座以铁路为主题的公园。",
-    "tags": [
-      "公园",
-      "风景名胜"
-    ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.2
-  },
-  {
-    "name": "文化中心广场",
-    "city": "西安",
-    "category": "attraction",
-    "description": "文化中心广场位于西安市未央区鱼藻路21号，是一个集休闲、娱乐、文化展示于一体的城市广场，适合市民散步、健身和举办各类文化活动。",
-    "tags": [
-      "城市广场",
-      "休闲",
-      "文化"
-    ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.3
-  },
-  {
-    "name": "开元公园",
-    "city": "西安",
-    "category": "attraction",
-    "description": "开元公园位于西安市未央区，是当地一个风景优美的公园。",
-    "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
-    ],
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5,
-    "avgCost": 0
-  },
-  {
-    "name": "开元公园",
-    "city": "西安",
-    "category": "attraction",
-    "description": "开元公园位于西安市未央区，是一个集休闲、娱乐、健身于一体的城市公园。",
-    "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
-    ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "全天开放",
-    "rating": 4.5
-  },
-  {
-    "name": "文景公园",
-    "city": "西安",
-    "category": "attraction",
-    "description": "文景公园位于西安市未央区，是一个风景优美的城市公园，适合休闲散步和观光游览。",
-    "tags": [
-      "公园",
-      "休闲",
-      "风景"
-    ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.5
-  },
-  {
-    "name": "虎子水盆羊肉(翠华路总店)",
+    "name": "大秦御鼎雪花牛肉养生火锅(博乐里购物广场店)",
     "city": "西安",
     "category": "food",
-    "description": "虎子水盆羊肉是西安著名的水盆羊肉店，位于翠华路总店，深受当地人和游客的喜爱。",
+    "description": "位于凤城八路国金中心E座博乐里购物广场二楼D02/03商铺",
     "tags": [
-      "水盆羊肉",
-      "西安美食",
-      "翠华路"
+      "050117"
     ],
-    "avgCost": 40,
-    "duration": "1-2小时",
-    "openTime": "10:00-22:00",
-    "rating": 4.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "蓝田印象",
+    "name": "大雁塔",
     "city": "西安",
-    "category": "food",
-    "description": "蓝田印象位于蓝丰家园南门东南50米，提供餐饮服务。",
+    "category": "attraction",
+    "description": "位于慈恩路1号大慈恩寺内",
     "tags": [
-      "餐饮"
+      "110200"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "莲花餐饮(高新店)",
+    "name": "天翼公寓(西京医院店)",
     "city": "西安",
-    "category": "food",
-    "description": "莲花餐饮(高新店)位于西安市雁塔区高新路南段89号，是一家以正宗陕菜和本地小吃为特色的中餐厅。环境典雅，服务周到，适合家庭聚餐或商务宴请。",
+    "category": "hotel",
+    "description": "位于长乐西路44号丹尼尔文体城19层11903",
     "tags": [
-      "中餐厅",
-      "陕菜",
-      "高新",
-      "雁塔区"
+      "100200"
     ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "11:00-21:30",
-    "rating": 4.3
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "莲花餐饮(朱雀店)",
+    "name": "天隆商务宾馆(三桥地铁站店)",
     "city": "西安",
-    "category": "food",
-    "description": "莲花餐饮(朱雀店)位于朱雀路中段1号皇冠假日酒店旁，是一家提供中餐服务的餐厅。",
+    "category": "hotel",
+    "description": "位于三桥安置新村四排一栋三号",
     "tags": [
-      "中餐厅",
-      "餐饮服务"
+      "100100"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "奔跑吧陕菜·雁塔长安(大雁塔店)",
-    "city": "西安",
-    "category": "food",
-    "description": "奔跑吧陕菜·雁塔长安(大雁塔店) 是西安的景点",
-    "tags": [
-      "中餐厅"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
-  },
-  {
-    "name": "邢老三肉丸糊辣汤腊牛肉夹馍总店",
-    "city": "西安",
-    "category": "food",
-    "description": "邢老三肉丸糊辣汤腊牛肉夹馍总店位于西安莲湖区劳动西路总店，是一家提供地道西安肉丸糊辣汤和腊牛肉夹馍的中餐厅。店内肉丸糊辣汤口感浓郁，腊牛肉夹馍肉质鲜美，深受食客喜爱。",
-    "tags": [
-      "肉丸糊辣汤",
-      "腊牛肉夹馍",
-      "西安小吃",
-      "中餐厅"
-    ],
-    "avgCost": 20,
-    "duration": "1小时",
-    "openTime": "06:00-14:00",
-    "rating": 4.3
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "奔跑吧陕菜·常来长安(钟楼南大街店)",
@@ -260,68 +1036,555 @@
       "钟楼",
       "南大街"
     ],
-    "avgCost": 80,
+    "avgCost": 80.0,
     "duration": "1-2小时",
     "openTime": "11:00-21:00",
     "rating": 4.3
   },
   {
-    "name": "澄城崇斌水盆羊肉(后宰门店)",
+    "name": "奔跑吧陕菜·常来长安(钟楼南大街店)",
     "city": "西安",
     "category": "food",
-    "description": "澄城崇斌水盆羊肉(后宰门店) 是西安的美食餐厅，位于新城区。地址：筑梦幼儿园南门旁。",
+    "description": "奔跑吧陕菜·常来长安(钟楼南大街店)，位于南大街54号二层，碑林区，类型中餐厅 中餐厅。",
     "tags": [
-      "西安"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "全天",
-    "rating": 3.5
-  },
-  {
-    "name": "西安饭庄·非遗(东大街总店)",
-    "city": "西安",
-    "category": "food",
-    "description": "西安饭庄·非遗(东大街总店)是西安著名的老字号餐厅，以地道的陕菜和传统非遗美食闻名。餐厅位于东大街298号，靠近大差市地铁站，交通便利。店内环境典雅，菜品丰富，招牌菜有葫芦鸡、泡泡油糕等，是品尝西安美食的绝佳去处。",
-    "tags": [
-      "陕菜",
-      "非遗",
       "中餐厅",
-      "老字号"
-    ],
-    "avgCost": 120,
-    "duration": "1.5小时",
-    "openTime": "11:00-21:00",
-    "rating": 4.5
-  },
-  {
-    "name": "老西安·西安菜(西关正街店)",
-    "city": "西安",
-    "category": "food",
-    "description": "老西安·西安菜(西关正街店)位于莲湖区西关正街西关一小东隔壁，靠近安定门地铁站A口，是一家提供西北菜的餐厅。",
-    "tags": [
-      "西北菜",
       "中餐厅"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奔跑吧陕菜·常来长安(钟楼南大街店)",
+    "city": "西安",
+    "category": "food",
+    "description": "奔跑吧陕菜·常来长安(钟楼南大街店)，位于南大街54号二层，碑林区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奔跑吧陕菜·常来长安(钟楼南大街店)",
+    "city": "西安",
+    "category": "food",
+    "description": "奔跑吧陕菜·常来长安(钟楼南大街店)，位于南大街54号二层，碑林区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奔跑吧陕菜·常来长安(钟楼南大街店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于西安碑林区南大街的陕菜餐厅，主打地道陕西美食，环境优雅，适合品尝地方风味。",
+    "tags": [
+      "陕菜",
+      "中餐",
+      "钟楼",
+      "南大街"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "奔跑吧陕菜·雁塔长安(大雁塔店)",
+    "city": "西安",
+    "category": "food",
+    "description": "奔跑吧陕菜·雁塔长安(大雁塔店) 是西安的景点",
+    "tags": [
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "奔跑吧陕菜·雁塔长安(大雁塔店)",
+    "city": "西安",
+    "category": "food",
+    "description": "奔跑吧陕菜·雁塔长安(大雁塔店)，位于大雁塔北广场E座1层16号商铺，雁塔区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奔跑吧陕菜·雁塔长安(大雁塔店)",
+    "city": "西安",
+    "category": "food",
+    "description": "奔跑吧陕菜·雁塔长安(大雁塔店)，位于大雁塔北广场E座1层16号商铺，雁塔区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奔跑吧陕菜·雁塔长安(大雁塔店)",
+    "city": "西安",
+    "category": "food",
+    "description": "奔跑吧陕菜·雁塔长安(大雁塔店)，位于大雁塔北广场E座1层16号商铺，雁塔区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "奔跑吧陕菜·雁塔长安(大雁塔店)",
+    "city": "西安",
+    "category": "food",
+    "description": "奔跑吧陕菜·雁塔长安(大雁塔店) 是西安的景点",
+    "tags": [
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "好心情宾馆",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于湘子庙街9号院",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "姜胖胖无限自助烤肉",
+    "city": "西安",
+    "category": "food",
+    "description": "位于凤城八路168号汉神购物广场F4层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "子午路张记肉夹馍(翠华路店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于翠花南路229号挚友大厦一楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安特大世界(四海唐人街购物中心店)",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于四海唐人街商业中心三楼(余家寨地铁站F东北口步行120米)",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宣平里景区",
+    "city": "西安",
+    "category": "attraction",
+    "description": "宣平里景区位于西安市未央区汉城街道丰产路稳江仓储正对面，是一处集风景名胜与摩托车服务为一体的综合区域。景区环境独特，适合休闲游览。",
+    "tags": [
+      "风景名胜",
+      "摩托车服务",
+      "摩托车销售"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "君驿酒店",
+    "name": "宣平里景区",
+    "city": "西安",
+    "category": "attraction",
+    "description": "宣平里景区，位于汉城街道丰产路稳江仓储正对面，未央区，类型摩托车销售 摩托车销售。",
+    "tags": [
+      "摩托车销售",
+      "摩托车销售"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宣平里景区",
+    "city": "西安",
+    "category": "attraction",
+    "description": "宣平里景区，位于汉城街道丰产路稳江仓储正对面，未央区，类型摩托车销售 摩托车销售。",
+    "tags": [
+      "摩托车销售",
+      "摩托车销售"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宣平里景区",
+    "city": "西安",
+    "category": "attraction",
+    "description": "宣平里景区，位于汉城街道丰产路稳江仓储正对面，未央区，类型摩托车销售 摩托车销售。",
+    "tags": [
+      "摩托车销售",
+      "摩托车销售"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宣平里景区",
+    "city": "西安",
+    "category": "attraction",
+    "description": "宣平里景区位于西安市未央区汉城街道丰产路稳江仓储正对面，是一处集风景名胜与摩托车服务为一体的综合区域。景区环境独特，适合休闲游览。",
+    "tags": [
+      "风景名胜",
+      "摩托车服务",
+      "摩托车销售"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "宣平里景区",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于汉城街道丰产路稳江仓储正对面",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宽肚茶肴(凤城八路店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于未央区经开区凤城八路国金华府裙楼2楼",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小南门夜市",
+    "city": "西安",
+    "category": "food",
+    "description": "位于邱记开心涮涮小南门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小杨烤肉(凤城九路店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于凤城九路65号8幢1单元10109",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚优客酒店(西安后卫寨地铁站店)",
     "city": "西安",
     "category": "hotel",
-    "description": "君驿酒店位于西安未央区大庆路西段29号，阿房路交汇处，是一家三星级宾馆。",
+    "description": "位于三桥启航时代广场C座12楼",
     "tags": [
-      "住宿",
-      "宾馆酒店",
-      "三星级宾馆"
+      "100105"
     ],
-    "avgCost": 0,
-    "duration": "全天",
-    "openTime": "24小时",
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚寨嫽扎咧面馆(钟楼店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于柏树林街道兴正元广场D座底商",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平绪度假山庄(牡丹路分店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于牡丹路行驶老母宫车场向南走80米即到",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幸福老火锅(总店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于东六道巷21号一楼(大差市地铁站C东南口步行340米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广仁寺",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于城墙西北角西北一路152号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康乐园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于未央路168号西安城市运动公园(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "康桥",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于凤城八路西安城市运动广场",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "建平休闲度假山庄",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于甫十路东北侧",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开元公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "开元公园位于西安市未央区，是当地一个风景优美的公园。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开元公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "开元公园，位于开元路与渭清路交叉口东150米，未央区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开元公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "开元公园，位于开元路与渭清路交叉口东150米，未央区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开元公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "开元公园，位于开元路与渭清路交叉口东150米，未央区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开元公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "开元公园位于西安市未央区，是当地一个风景优美的公园。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
     "rating": 3.5
+  },
+  {
+    "name": "开元公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "开元公园位于西安市未央区，是一个集休闲、娱乐、健身于一体的城市公园。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "开元公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于开元路与渭清路交叉口东150米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家堡广场-凤城九路口",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于海博广场(凤城十路地铁站B西南口步行490米)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "很多人客栈(西安市图书馆地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于凤城二路天地时代广场C座16楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐北宾馆",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于徐家庄43号3楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "德玛西亚酒店(西安大雁塔小寨地铁站店)",
@@ -335,10 +1598,3362 @@
       "小寨",
       "地铁站"
     ],
-    "avgCost": 300,
+    "avgCost": 300.0,
     "duration": "1晚",
     "openTime": "24小时前台",
     "rating": 4.2
+  },
+  {
+    "name": "德玛西亚酒店(西安大雁塔小寨地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "德玛西亚酒店(西安大雁塔小寨地铁站店)，位于西旅国际西区电梯20楼(小寨地铁站D口往北步行470米)，雁塔区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德玛西亚酒店(西安大雁塔小寨地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "德玛西亚酒店(西安大雁塔小寨地铁站店)，位于西旅国际西区电梯20楼(小寨地铁站D口往北步行470米)，雁塔区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德玛西亚酒店(西安大雁塔小寨地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "德玛西亚酒店(西安大雁塔小寨地铁站店)，位于西旅国际西区电梯20楼(小寨地铁站D口往北步行470米)，雁塔区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德玛西亚酒店(西安大雁塔小寨地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "德玛西亚酒店位于西安雁塔区小寨商圈，靠近大雁塔，交通便利，提供舒适的住宿环境。酒店设施齐全，服务周到，适合商务和旅游出行。",
+    "tags": [
+      "住宿",
+      "西安",
+      "大雁塔",
+      "小寨",
+      "地铁站"
+    ],
+    "avgCost": 300.0,
+    "duration": "1晚",
+    "openTime": "24小时前台",
+    "rating": 4.2
+  },
+  {
+    "name": "德玛西亚酒店(西安大雁塔小寨地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于西旅国际西区电梯20楼(小寨地铁站D口往北步行470米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(文景店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于凤城八路以北文景路以西盐东村改造项目(博乐里)一二层",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "志亮灌汤蒸饺·清真",
+    "city": "西安",
+    "category": "food",
+    "description": "位于庙后街200号",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怡家商务宾馆(西安南康新村店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于凤城一路332号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦见民宿(复兴大道南地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于斗门街道沣东复兴大道368号华侨城创想中心1号楼214室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦豪商务宾馆(城西客运站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于大兴西路邓家村付148号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "成山广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于常青路与渭滨街交叉口东北20米",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "护林山庄",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于狄寨街道水安路101县道拐弯处",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化中心广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "文化中心广场位于西安市未央区鱼藻路21号，是一个集休闲、娱乐、文化展示于一体的城市广场，适合市民散步、健身和举办各类文化活动。",
+    "tags": [
+      "城市广场",
+      "休闲",
+      "文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.3
+  },
+  {
+    "name": "文化中心广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "文化中心广场，位于鱼藻路21号，未央区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化中心广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "文化中心广场，位于鱼藻路21号，未央区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化中心广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "文化中心广场，位于鱼藻路21号，未央区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文化中心广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "文化中心广场位于西安市未央区鱼藻路21号，是一个集休闲、娱乐、文化展示于一体的城市广场，适合市民散步、健身和举办各类文化活动。",
+    "tags": [
+      "城市广场",
+      "休闲",
+      "文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.3
+  },
+  {
+    "name": "文化中心广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于鱼藻路21号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文景公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "文景公园位于西安市未央区，是一个风景优美的城市公园，适合休闲散步和观光游览。",
+    "tags": [
+      "公园",
+      "休闲",
+      "风景"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "文景公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "文景公园，位于张家堡街道凤城三路与文景路交汇处向南100米，未央区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文景公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "文景公园，位于张家堡街道凤城三路与文景路交汇处向南100米，未央区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文景公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "文景公园，位于张家堡街道凤城三路与文景路交汇处向南100米，未央区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文景公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "文景公园位于西安市未央区，是一个风景优美的城市公园，适合休闲散步和观光游览。",
+    "tags": [
+      "公园",
+      "休闲",
+      "风景"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "文景公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于张家堡街道凤城三路与文景路交汇处向南100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文景山公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于西安北站北广场东北侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新桃花源休闲山庄",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于未央湖街道东风路1号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "昆明池·七夕公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于昆明池七夕公园内",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "暖居客栈(比亚迪二厂店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于民主街195号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曲江寒窑遗址公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于寒窑路18号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曲江池遗址公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于曲江池西路与曲江池北路交叉口东南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曲江池遗址公园中和广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于曲江池遗址公园(西北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "有才叔的小馆(长乐公园店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于东二环路23号长乐公园内(西侧)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "未央城市广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "未央城市广场位于西安市未央区张家堡环岛赛高城市广场东北侧约190米，是一处风景名胜、公园广场类型的地标性城市广场。广场环境优美，适合休闲散步和观赏城市景观。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "未央城市广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "未央城市广场，位于张家堡环岛赛高城市广场东北侧约190米，未央区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "未央城市广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "未央城市广场，位于张家堡环岛赛高城市广场东北侧约190米，未央区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "未央城市广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "未央城市广场，位于张家堡环岛赛高城市广场东北侧约190米，未央区，类型公园广场 城市广场。",
+    "tags": [
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "未央城市广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "未央城市广场位于西安市未央区张家堡环岛赛高城市广场东北侧约190米，是一处风景名胜、公园广场类型的地标性城市广场。广场环境优美，适合休闲散步和观赏城市景观。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "城市广场"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "未央城市广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于张家堡环岛赛高城市广场东北侧约190米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "未央朱宏体育运动公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于朱宏路324号汉清明门广场内(东侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李想大虾(文景路&凤城八路店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于凤城八路盐东商业街中段电梯二层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柠檬公寓(西安长乐西苑店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于长乐西苑11号楼8层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳巷面",
+    "city": "西安",
+    "category": "food",
+    "description": "位于案板街18号吉庆大厦(钟楼地铁站6号口步行420米)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栖岸尚品酒店(西安泾渭工业园店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于姬家社区杨官寨三组",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂宫苑",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于石化大道中段18号",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桂花载久露台花园青年旅舍(钟鼓楼回民街店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于大皮院84号巷内",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梵琪媛酒店(西安高陵泾渭路店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于姬家街道杨官寨七组书亦烧仙草对面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楠火锅(博乐里店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于文景路与凤城八路交叉口西北国金中心E座四层D17号商铺(博乐里)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉城湖喷泉广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于朱宏路198号汉城湖附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉城湖旅游风景区",
+    "city": "西安",
+    "category": "attraction",
+    "description": "汉城湖旅游风景区位于西安市未央区，依托汉代城墙遗址和园林景观建成，融合了历史文化与自然风光，是西安著名的风景名胜区和国家级景点。景区内设有汉文化展示区、水景园林、休闲步道等，适合游客游览、休闲和拍照。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "汉文化",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "08:00-18:00",
+    "rating": 4.5
+  },
+  {
+    "name": "汉城湖旅游风景区",
+    "city": "西安",
+    "category": "attraction",
+    "description": "汉城湖旅游风景区，位于北二环与朱宏路交汇处西北角，未央区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉城湖旅游风景区",
+    "city": "西安",
+    "category": "attraction",
+    "description": "汉城湖旅游风景区，位于北二环与朱宏路交汇处西北角，未央区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉城湖旅游风景区",
+    "city": "西安",
+    "category": "attraction",
+    "description": "汉城湖旅游风景区，位于北二环与朱宏路交汇处西北角，未央区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉城湖旅游风景区",
+    "city": "西安",
+    "category": "attraction",
+    "description": "汉城湖旅游风景区位于西安市未央区，依托汉代城墙遗址和园林景观建成，融合了历史文化与自然风光，是西安著名的风景名胜区和国家级景点。景区内设有汉文化展示区、水景园林、休闲步道等，适合游客游览、休闲和拍照。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "汉文化",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "08:00-18:00",
+    "rating": 4.5
+  },
+  {
+    "name": "汉城湖旅游风景区",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于北二环与朱宏路交汇处西北角",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉城湖景区封禅天下广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于汉城湖旅游风景区内(北侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉清明门广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于朱宏路324号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉苑",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于石化大道与东杨善南路交叉口南260米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉长安城未央宫国家考古遗址公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于大兴西路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉长安城遗址西安门广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于未央宫街道大兴西路西安门遗址",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉长安城长乐宫五号建筑遗址博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于罗高路与丰景路交叉口北180米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "池街夜市",
+    "city": "西安",
+    "category": "food",
+    "description": "位于北池头二路101号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汤峪御丰苑度假村",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于汤峪镇塘子村大兴遗址公园内",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汤峪旅游度假区",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于温泉大道与昌延路交叉口东北80米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汤峪温泉滨河居度假区",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于唐义路5号汤峪温泉碧水湾",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汤峪温泉碧水湾",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于唐义路5号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沁园精致酒店(钟鼓楼北大街店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于通济中坊14号中7(北大街地铁站B西南口步行390米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(博乐里店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于未央区经济技术开发区文景路116号博乐里四层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(悦秀城店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于学府大街777号鹏润悦秀城二期4F",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(解放路店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于解放路63号民乐新都会商城四层裙楼A区和B区",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(钟楼银泰店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于西大街48号中环广场7层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清水湾都市温泉度假中心",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于凤城一路与明光路交汇处东南角",
+    "tags": [
+      "071400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清真学习巷串串",
+    "city": "西安",
+    "category": "food",
+    "description": "位于大学习巷68号,70号",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清逸雅舍酒店(西安火车站五路口地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于中山门街道解放路与东二路交汇处东南角皇城壹号大厦4层415室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "温州风味美食(冰窖巷店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于甜水井街61号10109室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘子庙",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于南院门街道湘子街18号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溪源山庄",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于临蓝路兵马俑东3公里",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "澄城崇斌水盆羊肉(后宰门店)",
+    "city": "西安",
+    "category": "food",
+    "description": "澄城崇斌水盆羊肉(后宰门店) 是西安的美食餐厅，位于新城区。地址：筑梦幼儿园南门旁。",
+    "tags": [
+      "西安"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "澄城崇斌水盆羊肉(后宰门店)",
+    "city": "西安",
+    "category": "food",
+    "description": "澄城崇斌水盆羊肉(后宰门店)，位于筑梦幼儿园南门旁，新城区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "澄城崇斌水盆羊肉(后宰门店)",
+    "city": "西安",
+    "category": "food",
+    "description": "澄城崇斌水盆羊肉(后宰门店)，位于筑梦幼儿园南门旁，新城区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "澄城崇斌水盆羊肉(后宰门店)",
+    "city": "西安",
+    "category": "food",
+    "description": "澄城崇斌水盆羊肉(后宰门店)，位于筑梦幼儿园南门旁，新城区，类型中餐厅 特色/地方风味餐厅。",
+    "tags": [
+      "中餐厅",
+      "特色/地方风味餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "澄城崇斌水盆羊肉(后宰门店)",
+    "city": "西安",
+    "category": "food",
+    "description": "澄城崇斌水盆羊肉(后宰门店) 是西安的美食餐厅，位于新城区。地址：筑梦幼儿园南门旁。",
+    "tags": [
+      "西安"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "灞河边小龙虾烧烤",
+    "city": "西安",
+    "category": "food",
+    "description": "位于浐灞生态区灞柳西路01号三河一山碧水驿一层",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灰色博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于柏树林街道骡马市1号星悦MALLF6层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱骅裤带面馆( 总店 )",
+    "city": "西安",
+    "category": "food",
+    "description": "位于柏树林街道城市之心一层六号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱骅裤带面馆(钟楼店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于南大街51号文物大厦一层(钟楼地铁站J口步行360米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "犀牛公寓(西安北苑地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于首创国际城6号楼1单元",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "申记东北烧烤",
+    "city": "西安",
+    "category": "food",
+    "description": "位于凤城八路盐东社区商业街东侧四楼",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白鹿原影视城-滋水县城",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于焦岱镇南门广场白鹿原影视城内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白鹿古镇(暂停开放)",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于狄寨东路与锦竹路交叉口西140米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福苗小骆驼烧烤(凤八店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于经济技术开发区凤城八路123号海荣盐东小区商业楼A-02-05号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秋林度假村",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于沣峪口",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦始皇兵马俑博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于秦陵北路",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦始皇帝陵",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于秦陵北路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦始皇帝陵博物院",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于秦陵北路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦始皇帝陵博物院丽山园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于标缝路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦岭悠然山旅游度假区",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于二环南路西段财富中心I期",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦悦客栈(西安咸宁中路店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于金花南路金花南小区45号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秦骊宾馆(西安火车站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于西七路100号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "粤珍轩(凤城九路店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于文景路魏玛公馆(凤城九路西北口)",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫葵夜市",
+    "city": "西安",
+    "category": "food",
+    "description": "位于凤城六路102号乾唐华府",
+    "tags": [
+      "060703"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫葵美食街",
+    "city": "西安",
+    "category": "food",
+    "description": "位于张家堡街道凤城六路102乾塘华府东侧1楼东北方向40米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫薇湖",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于六村堡街道咸阳湖景区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红旗广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于徐家湾街道徐家湾街道红旗路与渭滨路交叉路口东北侧",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红旗铁路公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "红旗铁路公园位于西安市未央区，是一座以铁路为主题的公园。",
+    "tags": [
+      "公园",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.2
+  },
+  {
+    "name": "红旗铁路公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "红旗铁路公园，位于新兴路与八府庄园商业街交叉口西北20米，未央区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红旗铁路公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "红旗铁路公园，位于新兴路与八府庄园商业街交叉口西北20米，未央区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红旗铁路公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "红旗铁路公园，位于新兴路与八府庄园商业街交叉口西北20米，未央区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红旗铁路公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "红旗铁路公园位于西安市未央区，是一座以铁路为主题的公园。",
+    "tags": [
+      "公园",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.2
+  },
+  {
+    "name": "红旗铁路公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于新兴路与八府庄园商业街交叉口西北40米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红旗铁路公园-团结里",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于红旗铁路公园内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红旗铁路公园-永信园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于红旗铁路公园内(北侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "纺科路智翔广场夜市",
+    "city": "西安",
+    "category": "food",
+    "description": "位于纺科路智翔广场附近",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老刘家泡馍.陕西老字号(钟鼓楼广济街)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于北广济街101号(广济街地铁站A1口步行290米)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老西安·西安菜(西关正街店)",
+    "city": "西安",
+    "category": "food",
+    "description": "老西安·西安菜(西关正街店)位于莲湖区西关正街西关一小东隔壁，靠近安定门地铁站A口，是一家提供西北菜的餐厅。",
+    "tags": [
+      "西北菜",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "老西安·西安菜(西关正街店)",
+    "city": "西安",
+    "category": "food",
+    "description": "老西安·西安菜(西关正街店)，位于西关正街西关一小东隔壁(安定门地铁站A口步行60米)，莲湖区，类型中餐厅 西北菜。",
+    "tags": [
+      "中餐厅",
+      "西北菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老西安·西安菜(西关正街店)",
+    "city": "西安",
+    "category": "food",
+    "description": "老西安·西安菜(西关正街店)，位于西关正街西关一小东隔壁(安定门地铁站A口步行60米)，莲湖区，类型中餐厅 西北菜。",
+    "tags": [
+      "中餐厅",
+      "西北菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老西安·西安菜(西关正街店)",
+    "city": "西安",
+    "category": "food",
+    "description": "老西安·西安菜(西关正街店)，位于西关正街西关一小东隔壁(安定门地铁站A口步行60米)，莲湖区，类型中餐厅 西北菜。",
+    "tags": [
+      "中餐厅",
+      "西北菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老西安·西安菜(西关正街店)",
+    "city": "西安",
+    "category": "food",
+    "description": "老西安·西安菜(西关正街店)位于莲湖区西关正街西关一小东隔壁，靠近安定门地铁站A口，是一家提供西北菜的餐厅。",
+    "tags": [
+      "西北菜",
+      "中餐厅"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "肯德基(西安凤八店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于凤城八路与文景路十字汉神百货一层沿街",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖嫂洋芋片夹馍",
+    "city": "西安",
+    "category": "food",
+    "description": "位于东环城路532号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡龙飞酸菜串串(总店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于北池头东北2门旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "良元福宴(行政中心店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于西安经济技术开发区凤城八路158号风景御园24幢1单元10101室",
+    "tags": [
+      "060706"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "艾朵观影酒店(西安比亚迪二厂店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于西安市高新区草堂街办宋南村中心街321号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花园夜市",
+    "city": "西安",
+    "category": "food",
+    "description": "位于长十路与长乐东路交叉口西北380米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花餐饮(朱雀店)",
+    "city": "西安",
+    "category": "food",
+    "description": "莲花餐饮(朱雀店)位于朱雀路中段1号皇冠假日酒店旁，是一家提供中餐服务的餐厅。",
+    "tags": [
+      "中餐厅",
+      "餐饮服务"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "莲花餐饮(朱雀店)",
+    "city": "西安",
+    "category": "food",
+    "description": "莲花餐饮(朱雀店)，位于朱雀路中段1号皇冠假日酒店旁，碑林区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花餐饮(朱雀店)",
+    "city": "西安",
+    "category": "food",
+    "description": "莲花餐饮(朱雀店)，位于朱雀路中段1号皇冠假日酒店旁，碑林区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花餐饮(朱雀店)",
+    "city": "西安",
+    "category": "food",
+    "description": "莲花餐饮(朱雀店)，位于朱雀路中段1号皇冠假日酒店旁，碑林区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花餐饮(朱雀店)",
+    "city": "西安",
+    "category": "food",
+    "description": "莲花餐饮(朱雀店)位于朱雀路中段1号皇冠假日酒店旁，是一家提供中餐服务的餐厅。",
+    "tags": [
+      "中餐厅",
+      "餐饮服务"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "莲花餐饮(高新店)",
+    "city": "西安",
+    "category": "food",
+    "description": "莲花餐饮(高新店)位于西安市雁塔区高新路南段89号，是一家以正宗陕菜和本地小吃为特色的中餐厅。环境典雅，服务周到，适合家庭聚餐或商务宴请。",
+    "tags": [
+      "中餐厅",
+      "陕菜",
+      "高新",
+      "雁塔区"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:30",
+    "rating": 4.3
+  },
+  {
+    "name": "莲花餐饮(高新店)",
+    "city": "西安",
+    "category": "food",
+    "description": "莲花餐饮(高新店)，位于高新路南段89号(近云顶园小区)，雁塔区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花餐饮(高新店)",
+    "city": "西安",
+    "category": "food",
+    "description": "莲花餐饮(高新店)，位于高新路南段89号(近云顶园小区)，雁塔区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花餐饮(高新店)",
+    "city": "西安",
+    "category": "food",
+    "description": "莲花餐饮(高新店)，位于高新路南段89号(近云顶园小区)，雁塔区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花餐饮(高新店)",
+    "city": "西安",
+    "category": "food",
+    "description": "莲花餐饮(高新店)位于西安市雁塔区高新路南段89号，是一家以正宗陕菜和本地小吃为特色的中餐厅。环境典雅，服务周到，适合家庭聚餐或商务宴请。",
+    "tags": [
+      "中餐厅",
+      "陕菜",
+      "高新",
+      "雁塔区"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:30",
+    "rating": 4.3
+  },
+  {
+    "name": "萍姐火锅·公路夜市(吾悦广场店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于昆明路西咸吾悦广场6楼6001/6002",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(西安首店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于凤城七路未央国际3层3012号",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萍姐火锅·公路夜市(长安万科广场店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于西长安街919号长安万科广场4F-07号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "葛牌古镇",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于葛牌镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝天宾馆(西安沙井村店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于电子城街道科创路沙井村北口302号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝田印象",
+    "city": "西安",
+    "category": "food",
+    "description": "蓝田印象位于蓝丰家园南门东南50米，提供餐饮服务。",
+    "tags": [
+      "餐饮"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "蓝田印象",
+    "city": "西安",
+    "category": "food",
+    "description": "蓝田印象，位于蓝丰家园南门东南50米，蓝田县，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝田印象",
+    "city": "西安",
+    "category": "food",
+    "description": "蓝田印象，位于蓝丰家园南门东南50米，蓝田县，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝田印象",
+    "city": "西安",
+    "category": "food",
+    "description": "蓝田印象，位于蓝丰家园南门东南50米，蓝田县，类型餐饮相关场所 餐饮相关。",
+    "tags": [
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝田印象",
+    "city": "西安",
+    "category": "food",
+    "description": "蓝田印象位于蓝丰家园南门东南50米，提供餐饮服务。",
+    "tags": [
+      "餐饮"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "藤原豆腐店(骊山)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于仁宗街道张河组",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虎子水盆羊肉(翠华路总店)",
+    "city": "西安",
+    "category": "food",
+    "description": "虎子水盆羊肉是西安著名的水盆羊肉店，位于翠华路总店，深受当地人和游客的喜爱。",
+    "tags": [
+      "水盆羊肉",
+      "西安美食",
+      "翠华路"
+    ],
+    "avgCost": 40.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "虎子水盆羊肉(翠华路总店)",
+    "city": "西安",
+    "category": "food",
+    "description": "虎子水盆羊肉(翠华路总店)，位于曲江新区翠华南路229号擎友大厦综合楼临街商铺，雁塔区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虎子水盆羊肉(翠华路总店)",
+    "city": "西安",
+    "category": "food",
+    "description": "虎子水盆羊肉(翠华路总店)，位于曲江新区翠华南路229号擎友大厦综合楼临街商铺，雁塔区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虎子水盆羊肉(翠华路总店)",
+    "city": "西安",
+    "category": "food",
+    "description": "虎子水盆羊肉(翠华路总店)，位于曲江新区翠华南路229号擎友大厦综合楼临街商铺，雁塔区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虎子水盆羊肉(翠华路总店)",
+    "city": "西安",
+    "category": "food",
+    "description": "虎子水盆羊肉是西安著名的水盆羊肉店，位于翠华路总店，深受当地人和游客的喜爱。",
+    "tags": [
+      "水盆羊肉",
+      "西安美食",
+      "翠华路"
+    ],
+    "avgCost": 40.0,
+    "duration": "1-2小时",
+    "openTime": "10:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "蛮涮自助小火锅·糖水铺子集合店(汉神广场店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于凤城八路168号汉神购物广场F4层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蜀仟串火锅串串(旗舰店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于开元路12号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "街心公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于凤城路派出所东",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁山山重庆火锅(丈八北路店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于丈八北路3号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁山山重庆火锅(大明宫店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于太华北路与凤城一路交叉口北180米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁山山重庆火锅(芙蓉新天地店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于芙蓉南路芙蓉新天地1号楼L1-3东门",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁山山重庆火锅(首创未央里店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于凤城北路与北三环交叉路以南首创未央里第60d栋2层40201",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西大街夜市",
+    "city": "西安",
+    "category": "food",
+    "description": "位于北环路十字(北十字)盛唐酒店对面",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安三木凯撒青年旅舍(钟鼓楼回民街店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于北广济街74号(回民街口)",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安世博园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于世博大道1号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安中国书法艺术博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于自强东路585号大明宫国家遗址公园内(西南角)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安丰阳宾馆(三桥地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "西安丰阳宾馆位于沣东新城三桥街道安置新村，提供住宿服务，靠近三桥地铁站，交通便利。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "地铁站"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "西安丰阳宾馆(三桥地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "西安丰阳宾馆(三桥地铁站店)，位于沣东新城三桥街道安置新村6排1栋2号，未央区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安丰阳宾馆(三桥地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "西安丰阳宾馆(三桥地铁站店)，位于沣东新城三桥街道安置新村6排1栋2号，未央区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安丰阳宾馆(三桥地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "西安丰阳宾馆(三桥地铁站店)，位于沣东新城三桥街道安置新村6排1栋2号，未央区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安丰阳宾馆(三桥地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "西安丰阳宾馆位于沣东新城三桥街道安置新村，提供住宿服务，靠近三桥地铁站，交通便利。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "地铁站"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "西安丰阳宾馆(三桥地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于沣东新城三桥街道安置新村6排1栋2号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安临潼旅游度假区",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于凤凰大道3号(芷阳广场地铁站A西北口步行420米)",
+    "tags": [
+      "080300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安丽晶家庭公寓",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于华豪丽晶2号楼7层707室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安乐享精美主题酒店(大雁塔赛格国际店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于长安中路215号西旅国际24楼2459室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安九龙泉度假山庄",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于滦镇喂子坪村桥西",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安公社大院度假村",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于太平口村太平河东岸(交警大队附近、近葡萄研究所)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安北站秦海公寓宾馆",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于草滩街道尚新路长乐东苑小区A区7号楼903室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安北门宾馆",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于北关正街阳光村3号(安远门地铁站C东南口步行420米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安华祥商务宾馆",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于南郭四路18号(南稍门地铁站D口步行290米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安博物院",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于友谊西路76号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安古城客栈(城东其他店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于十里铺村三组(华清东路十里铺小学东)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安后海",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于华文路与锦堤六路交叉口西南420米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安唐皇城墙含光门遗址博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于北院门街道南大街2号西安城墙(西南角)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安城墙",
+    "city": "西安",
+    "category": "attraction",
+    "description": "西安城墙 是西安的景点",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "西安城墙",
+    "city": "西安",
+    "category": "attraction",
+    "description": "西安城墙，位于南大街2号，新城区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安城墙",
+    "city": "西安",
+    "category": "attraction",
+    "description": "西安城墙，位于南大街2号，新城区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安城墙",
+    "city": "西安",
+    "category": "attraction",
+    "description": "西安城墙，位于南大街2号，新城区，类型风景名胜 国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安城墙",
+    "city": "西安",
+    "category": "attraction",
+    "description": "西安城墙 是西安的景点",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "西安城墙",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于南大街2号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安城墙-西门瓮城",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于西大街与西举院巷交叉口附近西安城墙(环城西路)内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安城墙·碑林历史文化景区",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于顺城巷27号(钟楼地铁站D口步行270米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安城墙永宁门城楼",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于南大街2号西安城墙内(南侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安城市运动公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "西安城市运动公园位于西安市未央区，是一个集运动、休闲、观光于一体的城市公园。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "西安城市运动公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "西安城市运动公园，位于未央路168号(行政中心地铁站B5口旁)，未央区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安城市运动公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "西安城市运动公园，位于未央路168号(行政中心地铁站B5口旁)，未央区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安城市运动公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "西安城市运动公园，位于未央路168号(行政中心地铁站B5口旁)，未央区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安城市运动公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "西安城市运动公园位于西安市未央区，是一个集运动、休闲、观光于一体的城市公园。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0.0
+  },
+  {
+    "name": "西安城市运动公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于未央路168号(行政中心地铁站B5口旁)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安城市运动公园-五环广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于未央路168号西安城市运动公园内(南侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安城市运动公园-凤翼广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于未央路168号西安城市运动公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安城市运动公园-南区",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于未央路168号西安城市运动公园(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安城市运动公园-桂花广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于未央路168号西安城市运动公园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安城市运动公园-竹岛",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于未央路168号西安城市运动公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安大屋小栈",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于韦曲街道航拓路紫禁长安1栋二单元2603室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安好洁公寓",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于西安西京医院向东50米丹尼尔世纪广场文体城5层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安市城市记忆博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于西仓南巷146号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安市民俗博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于二环路沿线商业经济带东大街57号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安市莲湖区天合宾馆(钟鼓楼回民街地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于北大街宏府嘉会公寓A座12040室或13036室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安市青少年活动中心航空博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于连心路与凤城二路交叉口北220米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安希诚智能酒店(天台路店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于陕西省西安未央区三桥街道天台四路36号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安建筑科技大学南门夜市",
+    "city": "西安",
+    "category": "food",
+    "description": "位于科技路与创新大道交叉口南160米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安悦东客栈",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于勇进西巷4号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安悦客商务宾馆",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于育才路2号近与翠华北路交汇东",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安时代宾馆",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于大庞路872村",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安星奥酒店(朱宏路大风阁地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于朱宏路与纬二十九街交叉口范南小区2号楼8号线大风阁地铁站C口50米",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安春天里公寓(2号店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于雁塔区高新区领先时代广场B栋三单元",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安未央布丁客栈",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于西咸新区沣东新城三桥安置新村三排一栋一号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安梦幻岛",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于未央宫街道阁老门村东1号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安横山人家公寓(西京医院店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于长乐西路44号世纪广场小区西门1楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安江川客栈",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于张家坡村一组6-1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安浐灞国家湿地公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于启源三路1号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安清雅客栈(世纪广场)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于兴庆路144号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安溢美青年公寓",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于电子城街道吉祥路183号太白居401室402室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安玖家休闲宾馆",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于科技大学吊庄路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安碑林博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于三学街15号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安秦人居客栈(临潼兵马俑旅游区店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于秦俑村爱电广场北同轨巷02号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安秦岭野生动物园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于滦镇107省道南500米",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安秦豪宾馆(兵马俑店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于桥王村东晏组(秦陵北路兵马俑停车场东北300米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安秦风客栈",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于凤城一路158号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安缔一太空舱客栈",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于咸宁西路29号咸宁国际广场4单元28层2802室",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安缘遇商务宾馆",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于和平门外安西街100号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安美都艺术博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于丰景路长乐宫",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安聚华宾馆(太白南路地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于白沙路沙井村正街316号(水果超市附近)科创路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安脸谱青年旅舍(钟楼地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于南新街南长巷4号",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安艺居风情酒店(大雁塔地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于大雁塔北广场乐游路后村小区1号楼801室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安花儿客栈(市图书馆店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于大明宫街道凤城二路与未央路十字东北角天地时代广场C座612室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安花样年华民宿(小寨地铁站陕西历史博物馆店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于长安中路215号西旅国际西区16层1659室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安轩轩住宿",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于凤城二路10号天地时代广场C座205室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安钟楼",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于西安地铁2号线钟楼站C出口正对面",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安钟馗故里欢乐谷度假村",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于石井镇西安市鄠邑区鄠邑区C250",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安银都精选酒店(航天城地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于韦曲街道韦曲老街9号银都商务宾馆5楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安长庆客栈(市图书馆地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安雁塔金鑫商务宾馆(丈八六路地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于丈八西路东滩社区45排二号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安雅安宾馆(付村花园店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于锦业二路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安饭庄·非遗(东大街总店)",
+    "city": "西安",
+    "category": "food",
+    "description": "西安饭庄·非遗(东大街总店)是西安著名的老字号餐厅，以地道的陕菜和传统非遗美食闻名。餐厅位于东大街298号，靠近大差市地铁站，交通便利。店内环境典雅，菜品丰富，招牌菜有葫芦鸡、泡泡油糕等，是品尝西安美食的绝佳去处。",
+    "tags": [
+      "陕菜",
+      "非遗",
+      "中餐厅",
+      "老字号"
+    ],
+    "avgCost": 120.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "西安饭庄·非遗(东大街总店)",
+    "city": "西安",
+    "category": "food",
+    "description": "西安饭庄·非遗(东大街总店)，位于东大街298号(大差市地铁站F口步行360米)，碑林区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安饭庄·非遗(东大街总店)",
+    "city": "西安",
+    "category": "food",
+    "description": "西安饭庄·非遗(东大街总店)，位于东大街298号(大差市地铁站F口步行360米)，碑林区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安饭庄·非遗(东大街总店)",
+    "city": "西安",
+    "category": "food",
+    "description": "西安饭庄·非遗(东大街总店)，位于东大街298号(大差市地铁站F口步行360米)，碑林区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西安饭庄·非遗(东大街总店)",
+    "city": "西安",
+    "category": "food",
+    "description": "西安饭庄·非遗(东大街总店)是西安著名的老字号餐厅，以地道的陕菜和传统非遗美食闻名。餐厅位于东大街298号，靠近大差市地铁站，交通便利。店内环境典雅，菜品丰富，招牌菜有葫芦鸡、泡泡油糕等，是品尝西安美食的绝佳去处。",
+    "tags": [
+      "陕菜",
+      "非遗",
+      "中餐厅",
+      "老字号"
+    ],
+    "avgCost": 120.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "西安鸿福宾馆(钟鼓楼回民街店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于北院门143号北院门派出所对面",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "豫东烩面夜市(丰禾路店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于丰禾路火烧碑西村五三三西家属院对面",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赫柏酒店(电视塔会展中心地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于长安南路196号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "轻住联盟·瑞达精选酒店(西安城西客运站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于大庆路西段983号(原大世界游乐场对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迷屿鹿民宿(西安美术学院长安校区店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于郭杜街道子午大道恒大养生谷12号楼2单元1307室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "速8酒店(西安火车站机场巴士店)",
@@ -350,10 +4965,362 @@
       "火车站",
       "机场巴士"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "24小时前台",
     "rating": 3.5
+  },
+  {
+    "name": "速8酒店(西安火车站机场巴士店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "速8酒店(西安火车站机场巴士店)，位于解放路东七路口丹尼尔国贸大厦9-12层(近阳光国际大酒店)，新城区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "速8酒店(西安火车站机场巴士店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "速8酒店(西安火车站机场巴士店)，位于解放路东七路口丹尼尔国贸大厦9-12层(近阳光国际大酒店)，新城区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "速8酒店(西安火车站机场巴士店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "速8酒店(西安火车站机场巴士店)，位于解放路东七路口丹尼尔国贸大厦9-12层(近阳光国际大酒店)，新城区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "速8酒店(西安火车站机场巴士店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "速8酒店(西安火车站机场巴士店)位于解放路东七路口丹尼尔国贸大厦9-12层，靠近阳光国际大酒店，提供经济型住宿服务。",
+    "tags": [
+      "经济型连锁酒店",
+      "火车站",
+      "机场巴士"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "24小时前台",
+    "rating": 3.5
+  },
+  {
+    "name": "速8酒店(西安火车站机场巴士店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于解放路东七路口丹尼尔国贸大厦9-12层(近阳光国际大酒店)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢老三肉丸糊辣汤腊牛肉夹馍总店",
+    "city": "西安",
+    "category": "food",
+    "description": "邢老三肉丸糊辣汤腊牛肉夹馍总店位于西安莲湖区劳动西路总店，是一家提供地道西安肉丸糊辣汤和腊牛肉夹馍的中餐厅。店内肉丸糊辣汤口感浓郁，腊牛肉夹馍肉质鲜美，深受食客喜爱。",
+    "tags": [
+      "肉丸糊辣汤",
+      "腊牛肉夹馍",
+      "西安小吃",
+      "中餐厅"
+    ],
+    "avgCost": 20.0,
+    "duration": "1小时",
+    "openTime": "06:00-14:00",
+    "rating": 4.3
+  },
+  {
+    "name": "邢老三肉丸糊辣汤腊牛肉夹馍总店",
+    "city": "西安",
+    "category": "food",
+    "description": "邢老三肉丸糊辣汤腊牛肉夹馍总店，位于劳动西路总店，莲湖区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢老三肉丸糊辣汤腊牛肉夹馍总店",
+    "city": "西安",
+    "category": "food",
+    "description": "邢老三肉丸糊辣汤腊牛肉夹馍总店，位于劳动西路总店，莲湖区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢老三肉丸糊辣汤腊牛肉夹馍总店",
+    "city": "西安",
+    "category": "food",
+    "description": "邢老三肉丸糊辣汤腊牛肉夹馍总店，位于劳动西路总店，莲湖区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "邢老三肉丸糊辣汤腊牛肉夹馍总店",
+    "city": "西安",
+    "category": "food",
+    "description": "邢老三肉丸糊辣汤腊牛肉夹馍总店位于西安莲湖区劳动西路总店，是一家提供地道西安肉丸糊辣汤和腊牛肉夹馍的中餐厅。店内肉丸糊辣汤口感浓郁，腊牛肉夹馍肉质鲜美，深受食客喜爱。",
+    "tags": [
+      "肉丸糊辣汤",
+      "腊牛肉夹馍",
+      "西安小吃",
+      "中餐厅"
+    ],
+    "avgCost": 20.0,
+    "duration": "1小时",
+    "openTime": "06:00-14:00",
+    "rating": 4.3
+  },
+  {
+    "name": "那家土灶·土菜·铁锅炖(总店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于滦镇沣峪口紫薇山庄斜对面",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郭老三面庄·biangbiang面(大雁塔店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于大雁塔小学南隔壁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "都市118·精选酒店(周至集贤工业园店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于集贤镇新城村集贤信用社东侧70米",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "都江堰石锅鱼",
+    "city": "西安",
+    "category": "food",
+    "description": "位于滦镇沣峪口",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鄠邑区钟楼",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于东街南街西街北街交汇处",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "醉长安(永宁门店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于南门里永宁里二层(书院门大牌楼旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "重庆川江石锅鱼",
+    "city": "西安",
+    "category": "food",
+    "description": "位于金沣瑞院东北门南70米",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金昆阁·铜锅涮肉(凤城九路店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于凤城九路魏玛公馆23幢10301室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金易酒店(西安钟鼓楼店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于西大街146号建设小区1幢10201室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫悦欣宾馆(西安丈八六路地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于丈八街道袁旗寨新村26栋2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫源碟串串香西安总店",
+    "city": "西安",
+    "category": "food",
+    "description": "位于唐延路唐延中心城L层唐3商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "钟楼小区美食街",
+    "city": "西安",
+    "category": "food",
+    "description": "位于竹笆市与马坊门交叉口东60米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铭家家宴·海鲜水饺·青岛菜·院子餐厅(高新店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于锦业路与丈八二路十字北200米(吉的堡幼儿园南)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦江|派酒店(钟楼地铁站回民街店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于钟楼地铁站站A口出往北50米左转5米星程酒店隔壁宏府嘉会广场C座北门进1楼",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦绣商务酒店(西安西京医院店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于胡家庙街道长缨西路45号2幢10201室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "镇东夜市一家人烧烤",
+    "city": "西安",
+    "category": "food",
+    "description": "位于地母宫南门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "長·安丨Boutique·铁通精品商务酒店(西安小寨电子科技大学店)",
@@ -367,24 +5334,497 @@
       "西安",
       "雁塔区"
     ],
-    "avgCost": 300,
+    "avgCost": 300.0,
     "duration": "全天",
     "openTime": "24小时",
     "rating": 4.0
   },
   {
-    "name": "西安丰阳宾馆(三桥地铁站店)",
+    "name": "長·安丨Boutique·铁通精品商务酒店(西安小寨电子科技大学店)",
     "city": "西安",
     "category": "hotel",
-    "description": "西安丰阳宾馆位于沣东新城三桥街道安置新村，提供住宿服务，靠近三桥地铁站，交通便利。",
+    "description": "長·安丨Boutique·铁通精品商务酒店(西安小寨电子科技大学店)，位于二环南路西段96号，雁塔区，类型宾馆酒店 三星级宾馆。",
     "tags": [
-      "住宿",
-      "宾馆",
-      "地铁站"
+      "宾馆酒店",
+      "三星级宾馆"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "長·安丨Boutique·铁通精品商务酒店(西安小寨电子科技大学店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "長·安丨Boutique·铁通精品商务酒店(西安小寨电子科技大学店)，位于二环南路西段96号，雁塔区，类型宾馆酒店 三星级宾馆。",
+    "tags": [
+      "宾馆酒店",
+      "三星级宾馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "長·安丨Boutique·铁通精品商务酒店(西安小寨电子科技大学店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "長·安丨Boutique·铁通精品商务酒店(西安小寨电子科技大学店)，位于二环南路西段96号，雁塔区，类型宾馆酒店 三星级宾馆。",
+    "tags": [
+      "宾馆酒店",
+      "三星级宾馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "長·安丨Boutique·铁通精品商务酒店(西安小寨电子科技大学店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于西安雁塔区二环南路西段96号的商务住宿酒店，提供三星级住宿服务。",
+    "tags": [
+      "商务",
+      "酒店",
+      "三星级",
+      "西安",
+      "雁塔区"
+    ],
+    "avgCost": 300.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.0
+  },
+  {
+    "name": "長·安丨Boutique·铁通精品商务酒店(西安小寨电子科技大学店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于二环南路西段96号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长安云·秦岭昆虫博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于长安云北馆5楼",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长安唐村·中国农业公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于王曲街道办南堡寨村1号长安唐村·南堡古寨",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳光宾馆(西安咸宁东路店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于咸宁东路496号(卫星测控中心地铁站A口步行440米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳阳老火锅",
+    "city": "西安",
+    "category": "food",
+    "description": "位于保吉巷东区1号楼1幢2单元20203室",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈府汉中菜(香辣黄辣丁)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于南二环西段98号铁通商务酒店2楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陕西历史博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于小寨东路91号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陕西唐三彩艺术博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于咸宁路55号兴庆宫公园南薰阁",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陕西科技大学西安未央校区中国轻工业博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于大学园区陕西科技大学图书馆东边",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "隆泰商务电竞酒店(西安大明宫西地铁站店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于未央路名京九合院8号楼3单元7层(城北客运站斜对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷寨梦广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于石化大道雷寨村",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青西社区南广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于朱宏路辅路与凤城九路交叉口东南180米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青龙寺遗址博物馆",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于西影路铁炉庙村北1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "食上东新街美食街区(民乐新都会店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于解放路63号民乐新都会商城F1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香积寺",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于香积寺村",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马洪小炒泡馍馆",
+    "city": "西安",
+    "category": "food",
+    "description": "位于红埠街46号(近莲湖区区委)",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高冠避暑度假山庄",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于高冠景区北侧",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高家大院",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于北院门144号(鼓楼向北200米、回民街内)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高档夜市刘禄烤肉(总店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于高陵一中十字西北角",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "高铁寨街心公园",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于凤城八路与贞观路交叉口东南120米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(嘉汇大厦店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于长安中路111号嘉汇大厦一层自北向南第一间房",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(秦飞大厦店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于东木头市192号秦飞大厦1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家凉皮(西大街店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于西大街125号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(凤城十二路店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于经济技术开发区凤城北路首创中心项目59栋1层10112-10114号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(博乐里店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于文景路116号博乐里购物广场F1层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(小寨军区服务社店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于长安中路30号陕西融通军民服务社购物中心北侧01号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(紫薇风尚店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于凤城五路260号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏斯理汉堡(西安文艺路地铁站店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于友谊东路393号(文艺路地铁站A口步行60米)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼藻广场",
+    "city": "西安",
+    "category": "attraction",
+    "description": "位于开成路与未央路交叉口东北80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸟人飞翔度假",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于石砭峪口村1组12号",
+    "tags": [
+      "170200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸽子侯·家宴(绿地店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于雁塔区高新区丈八四路10号罗马景福城小区商业场地S-066-041号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸽子侯·礼宴(运动公园店)",
+    "city": "西安",
+    "category": "food",
+    "description": "位于未央区经济技术开发区凤城九路鼎正中央领郡5栋1单元2层10201室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麒麟·观影酒店(汉唐新都汇B座店)",
+    "city": "西安",
+    "category": "hotel",
+    "description": "位于三桥街道武警路社区双拥路汉唐新都汇B座14层1419室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

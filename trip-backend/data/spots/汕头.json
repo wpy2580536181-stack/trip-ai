@@ -1,0 +1,782 @@
+[
+  {
+    "name": "Tiamo·爱你青年旅舍(万象城店)",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于长平东路丹阳庄东区59栋1003室",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丰盛发酒店(谷饶店)",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于谷饶镇第一工业区",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "乐乐卤水火锅",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于同益路26号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "人民广场西广场",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于人民广场海滨路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侨批文物馆",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于外马路18号",
+    "tags": [
+      "140200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北国饭店(跃进店)",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于跃进路26号(市政府西侧)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北都食园(跃进路店)",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于利安路10号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华庭酒店(汕头澄海区政府店)",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于玉亭路与泰安路交界处太安里CBD一楼6号铺",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华都宾馆(金砂中路店)",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于金砂路44号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南澳海家旅社",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于336省道",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "君临公寓",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于金砂路90号(即君华酒店对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉顺鹅肉饭(跃进路店)",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于跃进路19号04房(嘉顺狮头鹅)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天马大酒店(司马浦镇人力资源和社会保障服务所东)",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于司马浦镇司下广汕公路边",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如如糯米铺(十二中店)",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于跃进路6号03分号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小公园",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于小公园街道延寿一横街14号(近国平路)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广场正宗原汁薏米店",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于同益路4号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广场潮州粿汁店",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于同益路6号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广场老牌豆花甜汤(总店)",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于公园路汇涛花园1楼(近人民广场)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "弟仔煲仔饭砂锅粥(商业街店)",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于海安街道商业街6号F幢104房",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "方记洪顺牛肉火锅(利安路店)",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于利安北路利安花园6栋首层101号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "昇林商务酒店(潮阳高铁站店)",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于谷饶镇有源路275号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "来啫里吃·啫啫煲(金平十二中店)",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于跃进里3号104号房",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "榕香蚝烙",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于外马路183号(近新兴路)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汕头嘉泰公寓",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于安和街",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汕头左岸精选住宿(汕头大学店)",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于鮀江街道庵揭公路1号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汕头市博物馆",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于月眉路与韩堤路交界处",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汕头市电视塔",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于潮汕路和金湖西路交界处",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汕头开埠文化陈列馆",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于小公园街道永平路1号(近邮政集团)",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汕头柏林精品公寓",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于峡山街道南里山尾尖45幢二至五层",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汕头瑞雅酒店(上堡店)",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于谷饶镇上堡居委四合区东三巷1号(香港城)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汕头百时捷酒店(汕头站店)",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于金泰庄北区37栋1层",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汕头米兰快捷民宿",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于龙祥街道洋滨北门外巷1号之二",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汕头老城",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于小公园街道至平路86号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汕头辉达商务公寓",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于谷饶镇新兴谷贵路31号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汕头金利商务住宿",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于谷饶镇上堡居委谷丰路34号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汕头鑫浦公寓",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于金浦街道金梅路梅东交界乐旺佳购物广场旁",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海滨长廊公园",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于海安街道海滨路与同益路交口处东",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "物碗粥·潮汕菜·始于1996(小公园店)",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于利安北路7号101房",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "瑞雅商务酒店(汕头国际纺织城店)",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于潮阳区谷饶镇华里工业区",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "石炮台公园",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于石炮台街道石炮台街道海滨路20号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "礐石风景名胜区",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于礐石海旁路",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "礐石风景名胜区-海滨公园",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于礐石海旁路4号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "礐石风景名胜区-礐石塔山景区",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于礐石街道确石海旁路4号礐石风景名胜区内(西北角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "礐石风景名胜区-飞来石",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于海关顶39号附近塔山景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秋盛小吃店",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于跃进路23-11号(跃进路与利安路交叉口西南角)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "维雅斯精品公寓(汕头潮阳关埠店)",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于关埠镇沿堤路港底路段133号-2",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "群兴旅社(长平路店)",
+    "city": "汕头",
+    "category": "hotel",
+    "description": "位于长平路梅园23-24栋二楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老二炒粿(信逸雅园店)",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于信逸雅园5幢105房",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老妈宫戏台",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于升平路1号",
+    "tags": [
+      "080603"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(中山店)",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于中山路莱莉大厦1层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蔡记大排档(新兴路)",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于新兴路15号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "裕记烧腊连锁餐饮(外马分店)",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于同益街道利安路26号(与外马路交界)外马新华书店隔壁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西堤公园",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于小公园街道安平路259号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观海长廊",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于石炮台街道海滨路31号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观音庙",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于外马路存心学校",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金砂公园",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于金砂路42号(近鮀岛宾馆)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陶芳酒楼旧址",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于至平路12号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "骑楼建筑",
+    "city": "汕头",
+    "category": "attraction",
+    "description": "位于永泰路109-129号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿福牛肉火锅",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于中山路13号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(汕头外马路香园分店)",
+    "city": "汕头",
+    "category": "food",
+    "description": "位于外马路155号4栋101-105",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

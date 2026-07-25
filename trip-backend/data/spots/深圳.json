@@ -1,18 +1,2318 @@
 [
   {
-    "name": "莲花山公园",
+    "name": "A PARK深圳数字艺术公园",
     "city": "深圳",
     "category": "attraction",
-    "description": "莲花山公园位于深圳市福田区，是市中心的一座大型市政公园，以山顶的邓小平铜像和开阔的观景平台闻名，是市民休闲娱乐和游客观光的好去处。",
+    "description": "位于下梅林梅丽路9号(下梅林地铁站A口步行90米)",
     "tags": [
-      "公园",
-      "风景名胜",
-      "福田区"
+      "080500"
     ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "06:00-22:00",
-    "rating": 4.7
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "BeaconHillSportsPark",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "BeaconHillSportsPark位于深圳市福田区笔架山公园内福田河以西，是一个集体育和休闲于一体的公园广场，适合户外运动与散步。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "BeaconHillSportsPark",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "BeaconHillSportsPark，位于笔架山公园内福田河以西，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "BeaconHillSportsPark",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "BeaconHillSportsPark，位于笔架山公园内福田河以西，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "BeaconHillSportsPark",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "BeaconHillSportsPark，位于笔架山公园内福田河以西，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "BeaconHillSportsPark",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "BeaconHillSportsPark位于深圳市福田区笔架山公园内福田河以西，是一个集体育和休闲于一体的公园广场，适合户外运动与散步。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "BeaconHillSportsPark",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于笔架山公园内福田河以西",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "Catorini猫猫度假村",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于梦海大道5109号前海卓悦INTOWN购物中心",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "GPU历史博物馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于中康路136号深圳新一代产业园1栋13楼",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "OYO快8连锁酒店(松岗立业店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于立业路42-7号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "Shenzhen City·盐港夜市",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于青云路空翠台",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "VAI意大利葡萄酒博物馆(福田石厦店)",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于福保街道石厦社区石厦六街新天石厦铭苑2B43",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "gaga鲜语(深圳书城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于福中一路中心书城南区1层S141",
+    "tags": [
+      "050201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "sunny宠物乐园",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于甘李路与甘坑新村一路交叉口西南140米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万景楼",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于新桥街道万丰社区沙井中心路19号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三村夜市步行街",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于繁华路与富塘路交叉口东南20米",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三趟快车博物馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于清水河街道清水河一路112号铁路仓库9仓",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上梅林文体公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于梅秀路与梅林路交界处(梅村地铁站A口步行230米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下沙博物馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于大围路与1路交叉口(下沙地铁站B口步行370米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "不自然博物馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于梅丽路9号A Park数字艺术公园L108",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东园宾馆(深圳大剧院红岭南地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于南园街道东园路巴丁街16号3楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东山寺",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于大鹏东山路(近大鹏所城)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东江海鲜大排档.潮汕菜.砂锅粥",
+    "city": "深圳",
+    "category": "food",
+    "description": "东江海鲜大排档主打潮汕菜和砂锅粥，提供新鲜海鲜和地道潮汕风味，适合夜宵聚餐。",
+    "tags": [
+      "海鲜",
+      "潮汕菜",
+      "砂锅粥",
+      "大排档"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "17:00-03:00",
+    "rating": 4.0
+  },
+  {
+    "name": "东江海鲜大排档.潮汕菜.砂锅粥",
+    "city": "深圳",
+    "category": "food",
+    "description": "东江海鲜大排档.潮汕菜.砂锅粥，位于西丽南支路77号，南山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东江海鲜大排档.潮汕菜.砂锅粥",
+    "city": "深圳",
+    "category": "food",
+    "description": "东江海鲜大排档.潮汕菜.砂锅粥，位于西丽南支路77号，南山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东江海鲜大排档.潮汕菜.砂锅粥",
+    "city": "深圳",
+    "category": "food",
+    "description": "东江海鲜大排档.潮汕菜.砂锅粥，位于西丽南支路77号，南山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东江海鲜大排档.潮汕菜.砂锅粥",
+    "city": "深圳",
+    "category": "food",
+    "description": "东江海鲜大排档主打潮汕菜和砂锅粥，提供新鲜海鲜和地道潮汕风味，适合夜宵聚餐。",
+    "tags": [
+      "海鲜",
+      "潮汕菜",
+      "砂锅粥",
+      "大排档"
+    ],
+    "avgCost": 80.0,
+    "duration": "1-2小时",
+    "openTime": "17:00-03:00",
+    "rating": 4.0
+  },
+  {
+    "name": "九虹快捷酒店",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于爱国路1002号外贸轻工大厦1楼(办理入住)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "二十四史书院",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于甘坑古镇北区",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云海天使湾",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于水沙路15号内",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五稻厨房(福华店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于福华一路6号免税商务大厦F2层(福田地铁站8号口旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "京炙坊(江苏大厦店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于益田路6013号江苏大厦五楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "依兰时尚精品酒店",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于宝龙二路5号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "先记烧鹅王·本地粤菜(福永创始店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于福永街道龙翔北路42号2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八合里潮汕鲜牛肉火锅(深圳中心书城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于莲花街道福中社区福中一路深圳书城中心层首层号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "八合里潮汕鲜牛肉火锅(深圳购物公园店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于福田街道民田路购物公园北园A区220-228号八合里牛肉店购物公园店",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冯校长老火锅(深圳总店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于深南东路123号东门町百货广场大厦F2层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冯校长老火锅(深圳福田店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于民田路138号深圳购物公园",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰古村",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于福永街道凤凰山大道172号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰塔",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于凤凰山大道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰山-凤岩古庙",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于福永街道凤凰村凤凰山森林公园内",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰山森林公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于福永街道凤凰社区凤凰山大道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "创客108民宿(深圳国际会展中心北帝堂二路店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于沙井街道北帝堂二路108号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "创客空间青年客栈",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于西乡街道固兴社区嘉禧时代广场232室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "初相遇青年旅舍旅社客栈(油松路分店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于油松路油富商城综合楼9楼917",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华富社区公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于梅岗路1南门华富北屋村",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华强北博物馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于华强北路1058号广博现代之窗大厦5层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南联夜市场(邱屋小区店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于银株路47-2号",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南门涮肉(深圳首店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于欢乐海岸曲水湾11栋",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "友佳宾馆(深圳龙华店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于建设路185号(锦秀花园,龙华地铁站D出口)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "发财·烧肉·日料·酒场(领展中心城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于福华一路3号领展中心城F1层",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉家青旅(民德路1号分店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于民治街道民德路南景新村C7栋304",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "名墅海景度假村",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于大鹏新区大鹏街道棕榈大道6号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "向日葵公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于福华一路3号市民广场南广场(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和平夜市街",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于永和路38-21号",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "哥二广西米粉店",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于南油第四工业区7栋1楼(南山地铁站C口步行160米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嗨小喵酸汤牛肉火锅",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于深南大道2008号中国凤凰大厦2栋B1层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "嘉华小吃(蛇口市场店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于蛇口街道渔村路1号之二(东角头地铁站A口步行320米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大万世居",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于马峦街道坪环社区大万路33号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大与文体度假中心",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于新园路88号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大二街粉店广西小吃集市",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于清泉路110-7(清湖地铁站C1口步行190米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大梅沙凌海全海景公寓",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于大梅沙环梅路6号凌海酒店公寓2A1房",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大梅沙海滨度假村",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于京基天涛轩西侧180米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大梅沙海滨栈道",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于盐梅路",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大煲贝夜市火锅集合店(沙尾总店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于沙尾村(沙尾地铁站A口步行230米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大鹏古城小区-左堂古井",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于南门西路大鹏所城内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大鹏古城小区-西门赖氏将军第",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于十字街40号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大鹏所城",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于大鹏新区南门东路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大鹏金沙湾度假区",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于大鹏街道",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天后古庙",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于沙井大街178号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天寓·青年国际社区(深圳清湖北地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于龙华街道清湖路68号1105房",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "如归住宿",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于南新路2191号3层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "姊妹豆花(南海明珠店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于南山街道南光路南海明珠1栋104D",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安琪公寓(布吉东站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于布吉镇莲花路88号3楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安田夜市(人和百货店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于碧岭社区",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宜家客栈(深圳盐田港西地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于深盐路东部阳光花园A栋1-2层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝安西湾红树林公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于西乡街道金湾大道与西海堤交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小凉帽农场",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于布吉吉华街道甘李路18号甘坑古镇内(西北角)",
+    "tags": [
+      "170400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小火璽",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于粤海街道蔚蓝海岸社区创业路1777号海信南方大厦3层02户",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小金湾沙滩海滨度假区",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于大鹏街道月半湾海滨广场",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴奴毛肚火锅(深圳卓悦中心店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于福华路与岗厦一路交叉口西北角卓悦中心东区二楼L231号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市民中心公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于深南大道市民中心广场前(近市民中心)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "平安住宿(深圳富联新村一区店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于清龙路13号6号商铺(清湖地铁站B1口步行320米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幻觉博物馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于欢乐海岸购物中心LG-025",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "广东梧桐山风景名胜区",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于茂仔村137号梧桐山景区",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "弘源寺",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于星湖路170号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(中心书城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于红荔路深圳中心书城",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怡心住宿",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于蚝业路13号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怡源酒店",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于洲石路558-2号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恩上湿地公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于惠深沿海高速",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "摆渡客栈(深圳东站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于布吉街道吉华路宝基商业大厦二楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新桥夜市",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于桥头南路28号",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新黄田商务宾馆(深圳新航站楼店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于黄田路36号(黄田地铁站D口步行320米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "时光空间青年客栈(深圳机场福永地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于榕树路9号中锦万业科技园F栋宿舍二层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "时光青年客栈(深圳福永地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于榕树路与桥立路交叉口东40米",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "昌记隆江猪脚饭",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于白石龙地铁站惠鑫公寓e180铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星屿青年旅舍(南油地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "星屿青年旅舍(南油地铁站店)位于深圳市南山区登良路18号龙城花园6栋202室，是一家经济型连锁青年旅舍，提供干净舒适的住宿环境，适合背包客和预算有限的旅行者。",
+    "tags": [
+      "青年旅舍",
+      "经济型",
+      "连锁",
+      "南山区"
+    ],
+    "avgCost": 100.0,
+    "duration": "1晚",
+    "openTime": "全天",
+    "rating": 4.0
+  },
+  {
+    "name": "星屿青年旅舍(南油地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "星屿青年旅舍(南油地铁站店)，位于登良路18号龙城花园6栋202室，南山区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星屿青年旅舍(南油地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "星屿青年旅舍(南油地铁站店)，位于登良路18号龙城花园6栋202室，南山区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星屿青年旅舍(南油地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "星屿青年旅舍(南油地铁站店)，位于登良路18号龙城花园6栋202室，南山区，类型宾馆酒店 经济型连锁酒店。",
+    "tags": [
+      "宾馆酒店",
+      "经济型连锁酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星屿青年旅舍(南油地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "星屿青年旅舍(南油地铁站店)位于深圳市南山区登良路18号龙城花园6栋202室，是一家经济型连锁青年旅舍，提供干净舒适的住宿环境，适合背包客和预算有限的旅行者。",
+    "tags": [
+      "青年旅舍",
+      "经济型",
+      "连锁",
+      "南山区"
+    ],
+    "avgCost": 100.0,
+    "duration": "1晚",
+    "openTime": "全天",
+    "rating": 4.0
+  },
+  {
+    "name": "星屿青年旅舍(南油地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于登良路18号龙城花园6栋202室",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星期一商务酒店(深圳国际会展中心福海西地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于永和路45号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星辰美宿青年客栈(龙岗吉祥地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于西埔路88号万科天誉花园二期南区10栋A座29楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景蜜公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于景田北三街66号(梅景地铁站A2口步行280米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "来福农家院子·广府特色菜·瓦缸焗鸡饭(国际会展中心店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于福园一路30号美生云谷福海楼鹏城宴1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨梅坑",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于南澳镇桔钓沙",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "枫盛楼·湖北鲜(深圳市数字技术园B区店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于深圳数字技术园B2栋一层A区",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "栖游太空舱青年旅舍(深圳中心公园华强北店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于振兴路113号新欣大厦B座4层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桃源街道夜市",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于笃学路9号(深大丽湖地铁站A口步行300米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "極上萬膳·日料放题(领展中心城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于福华一路3号领展中心城L1层中庭-FL1025号铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "横岗园山度假村",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于横岗镇大康村公园路园山风景区(西北角)",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欢乐港湾",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于海天路15-4号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欣欣青年客栈(深圳世界之窗店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于沙河街道潮州西街8号荔园新村13栋4单元107室",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欧记大排档(领展中心城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于福田街道福安小区福华一路3号领展中心城L1层FL1019",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欧记大排档-江西景德菜(hop天地店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于新安街道兴华一路19号前海hop天地1F",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欧记大排档·江西景德菜(南山保利店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于粤海街道文心六路4号保利文化广场2楼A2-32",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欧记大排档·江西景德菜(罗湖东门町店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于深南东路3020百货广场2层221老街地铁口C出口300米电玩城2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "欧记大排档•江西景德菜(深圳首店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于泰然六路213栋(下沙地铁站C口步行360米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民间小吃新夜市",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于大鹏新区比亚迪前门",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水围夜市",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于水围村水围九街(皇岗村地铁站B2口步行380米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水围文化广场",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于金田路1029号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水围雅石艺术博物馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于金田路1029号水围文化楼",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水田公寓住宿",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于石岩街道水田社区宝石东路132号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汶和记粥底火锅(南山总店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于南头街道桃园路1号西海明珠花园B座裙楼119商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙嘴牌坊",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于沙嘴路与福沙路交叉口东北100米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙头三路夜市",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于沙头三路丰裕公寓",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪大厨鸡煲(南山旗舰店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于粤海街道海珠社区后海大道2332号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪大厨鸡煲(宝安店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "洪大厨鸡煲(宝安店)位于深圳市宝安区宝民一路171号，是一家以鸡煲为特色的火锅店，提供美味的中式火锅体验。",
+    "tags": [
+      "中餐厅",
+      "火锅店",
+      "鸡煲"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "洪大厨鸡煲(宝安店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "洪大厨鸡煲(宝安店)，位于宝民一路171号宝安汽车站103-1，宝安区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪大厨鸡煲(宝安店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "洪大厨鸡煲(宝安店)，位于宝民一路171号宝安汽车站103-1，宝安区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪大厨鸡煲(宝安店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "洪大厨鸡煲(宝安店)，位于宝民一路171号宝安汽车站103-1，宝安区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪大厨鸡煲(宝安店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "洪大厨鸡煲(宝安店)位于深圳市宝安区宝民一路171号，是一家以鸡煲为特色的火锅店，提供美味的中式火锅体验。",
+    "tags": [
+      "中餐厅",
+      "火锅店",
+      "鸡煲"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "洪大厨鸡煲(福田店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "洪大厨鸡煲(福田店)位于福田区泰然八路安华工业区，主打特色鸡煲，结合火锅吃法，汤底浓郁，鸡肉鲜嫩，是深圳福田区热门的鸡煲火锅店。",
+    "tags": [
+      "鸡煲",
+      "火锅",
+      "福田"
+    ],
+    "avgCost": 100.0,
+    "duration": "2小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "洪大厨鸡煲(福田店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "洪大厨鸡煲(福田店)，位于泰然八路18号安华工业区10栋1层103，福田区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪大厨鸡煲(福田店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "洪大厨鸡煲(福田店)，位于泰然八路18号安华工业区10栋1层103，福田区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪大厨鸡煲(福田店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "洪大厨鸡煲(福田店)，位于泰然八路18号安华工业区10栋1层103，福田区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪大厨鸡煲(福田店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "洪大厨鸡煲(福田店)位于福田区泰然八路安华工业区，主打特色鸡煲，结合火锅吃法，汤底浓郁，鸡肉鲜嫩，是深圳福田区热门的鸡煲火锅店。",
+    "tags": [
+      "鸡煲",
+      "火锅",
+      "福田"
+    ],
+    "avgCost": 100.0,
+    "duration": "2小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "洪大厨鸡煲(龙华店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "洪大厨鸡煲(龙华店)位于龙华区同富裕工业园32栋，以特色鸡煲为主打，口味鲜美，深受食客喜爱，是聚餐的好去处。",
+    "tags": [
+      "鸡煲",
+      "火锅",
+      "深圳美食"
+    ],
+    "avgCost": 70.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "洪大厨鸡煲(龙华店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "洪大厨鸡煲(龙华店)，位于龙华区同富裕工业园32栋，龙华区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪大厨鸡煲(龙华店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "洪大厨鸡煲(龙华店)，位于龙华区同富裕工业园32栋，龙华区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪大厨鸡煲(龙华店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "洪大厨鸡煲(龙华店)，位于龙华区同富裕工业园32栋，龙华区，类型中餐厅 火锅店。",
+    "tags": [
+      "中餐厅",
+      "火锅店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "洪大厨鸡煲(龙华店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "洪大厨鸡煲(龙华店)位于龙华区同富裕工业园32栋，以特色鸡煲为主打，口味鲜美，深受食客喜爱，是聚餐的好去处。",
+    "tags": [
+      "鸡煲",
+      "火锅",
+      "深圳美食"
+    ],
+    "avgCost": 70.0,
+    "duration": "1.5小时",
+    "openTime": "11:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "洪湖公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于文锦北路2023号(洪湖地铁站A口步行330米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "派胤(PETIN)宠物度假山庄",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于西丽留仙洞同乐路",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海上世界",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于蛇口街道望海路1128号(海上世界地铁站A口旁)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(卓越店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于福华三路卓越世纪中心intown四楼L401L402号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(南山茂业店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于粤海街道海德二道258号茂业时代广场8层海底捞火锅FO8010X商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(大中华店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于福田街道福华一路1号深圳大中华国际交易广场L4-11",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(宝安财富港店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于海城路与宝源路交叉口时代城5楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海滨广场",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "海滨广场位于深圳市福田区金田路2018号，是一个商务住宅小区。",
+    "tags": [
+      "商务住宅",
+      "住宅区",
+      "住宅小区"
+    ],
+    "avgCost": 0.0,
+    "duration": "不详",
+    "openTime": "全天",
+    "rating": 0.0
+  },
+  {
+    "name": "海滨广场",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "海滨广场，位于金田路2018号，福田区，类型住宅区 住宅小区。",
+    "tags": [
+      "住宅区",
+      "住宅小区"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海滨广场",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "海滨广场，位于金田路2018号，福田区，类型住宅区 住宅小区。",
+    "tags": [
+      "住宅区",
+      "住宅小区"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海滨广场",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "海滨广场，位于金田路2018号，福田区，类型住宅区 住宅小区。",
+    "tags": [
+      "住宅区",
+      "住宅小区"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海滨广场",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "海滨广场位于深圳市福田区金田路2018号，是一个商务住宅小区。",
+    "tags": [
+      "商务住宅",
+      "住宅区",
+      "住宅小区"
+    ],
+    "avgCost": 0.0,
+    "duration": "不详",
+    "openTime": "全天",
+    "rating": 0.0
+  },
+  {
+    "name": "海滨广场",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于金田路2018号",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "润园四季椰子鸡火锅(卓越世纪中心店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于福华三路与金田路交汇处卓越世纪中心34号裙楼3楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "润园四季椰子鸡火锅(梅林卓悦汇店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于梅林路交汇处卓悦汇购物中心5楼L32",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳世界之窗",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于深南大道9037号(世界之窗地铁站旁)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳中心公园A区",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于深圳中心公园内(南侧)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳中心公园D1区",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于华富街道皇岗路深圳中心公园(西北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳云中天商务宾馆",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于恩达街与燕子岭三路交叉口西北100米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳人才公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于粤海街道科苑南路3329号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳仙湖植物园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于莲塘街道仙湖社区仙湖路160号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳众森精品酒店(深圳南联地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于植物园路338-1号商务中心",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳佳鑫旅馆(平湖双拥街地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于平湖街道守珍街205号(双拥街地铁站A口步行220米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳兰馨住宿(国际会展中心店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于沙井街道和一社区松福大道1031号二层",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳别树一格客栈",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于大鹏新区较场尾小区较场尾路39号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳半天云海岸度假村",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于大鹏新区南澳街道南隆社区洋稠路1-3号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳华侨城旅游度假区",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于杜鹃山(华侨城地铁站A口步行390米)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳华侨城旅游度假区",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于杜鹃山(华侨城地铁站A口步行390米)",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳华园商务宾馆",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于坪地街道坪东社区同富路6号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳博物馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于深南中路同心路6号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳博物馆同心路馆(古代艺术)",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于同心路6号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "深圳博物馆新馆",
@@ -24,10 +2324,2324 @@
       "深圳",
       "历史文化"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "2-3小时",
     "openTime": "10:00-18:00（周一闭馆）",
     "rating": 4.5
+  },
+  {
+    "name": "深圳博物馆新馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "深圳博物馆新馆，位于福中路市民中心A区(市民中心地铁站B口步行340米)，福田区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳博物馆新馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "深圳博物馆新馆，位于福中路市民中心A区(市民中心地铁站B口步行340米)，福田区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳博物馆新馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "深圳博物馆新馆，位于福中路市民中心A区(市民中心地铁站B口步行340米)，福田区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳博物馆新馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "深圳博物馆新馆位于福田区市民中心，是展示深圳历史与民俗的重要文化场所，馆藏丰富，常设展览包括古代深圳、近代深圳、深圳民俗等。",
+    "tags": [
+      "博物馆",
+      "深圳",
+      "历史文化"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "10:00-18:00（周一闭馆）",
+    "rating": 4.5
+  },
+  {
+    "name": "深圳博物馆新馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于福中路市民中心A区(市民中心地铁站B口步行340米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳博物馆金田路馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "深圳博物馆金田路馆位于福田区市民中心，是展示深圳历史文化的综合性博物馆，常设展览包括古代深圳、近代深圳、深圳民俗等。",
+    "tags": [
+      "博物馆",
+      "科教文化",
+      "历史"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "10:00-18:00（周一闭馆）",
+    "rating": 4.5
+  },
+  {
+    "name": "深圳博物馆金田路馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "深圳博物馆金田路馆，位于福中路市民中心A区(市民中心地铁站B口步行350米)，福田区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳博物馆金田路馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "深圳博物馆金田路馆，位于福中路市民中心A区(市民中心地铁站B口步行350米)，福田区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳博物馆金田路馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "深圳博物馆金田路馆，位于福中路市民中心A区(市民中心地铁站B口步行350米)，福田区，类型博物馆 博物馆。",
+    "tags": [
+      "博物馆",
+      "博物馆"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳博物馆金田路馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "深圳博物馆金田路馆位于福田区市民中心，是展示深圳历史文化的综合性博物馆，常设展览包括古代深圳、近代深圳、深圳民俗等。",
+    "tags": [
+      "博物馆",
+      "科教文化",
+      "历史"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "10:00-18:00（周一闭馆）",
+    "rating": 4.5
+  },
+  {
+    "name": "深圳博物馆金田路馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于福中路市民中心A区(市民中心地铁站B口步行350米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳听涛阁客栈",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于大鹏新区南澳街道西涌社区鹤薮二区189号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳四季如春酒店(沙头角海山地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于沙头角街道沙盐路3003-3号保险公司综合楼2栋2层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳国际园林花卉博览园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于深南大道8002号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳大梅沙心怡公寓(大梅沙地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于怀渡街2号奥特莱斯湖心岛F2层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳如嘉宾馆(观澜兴万达店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于观澜镇玫园新村兴万达后门",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳如家住宿",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于宝南路45号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳富天旅馆",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于福城街道章阁社区桂月路472号宏景公寓",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳富都宾馆(罗湖口岸火车站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于人民南路1007房地产大厦3层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳市妇儿大厦图画书博物馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于深圳市妇儿大厦2层(景田地铁站C口旁)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳市深大快捷酒店",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于西乡盐田新一村37号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳市莲花山公园管理处",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于红荔路(少年宫地铁站B口步行480米)",
+    "tags": [
+      "130400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳平价住宿",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于龙华区大浪街道的平价旅馆，提供住宿服务。",
+    "tags": [
+      "平价",
+      "旅馆",
+      "龙华区"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "深圳平价住宿",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "深圳平价住宿，位于大浪街道华昌路金盈新村11栋平价旅馆，龙华区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳平价住宿",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "深圳平价住宿，位于大浪街道华昌路金盈新村11栋平价旅馆，龙华区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳平价住宿",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "深圳平价住宿，位于大浪街道华昌路金盈新村11栋平价旅馆，龙华区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳平价住宿",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于龙华区大浪街道的平价旅馆，提供住宿服务。",
+    "tags": [
+      "平价",
+      "旅馆",
+      "龙华区"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "深圳平价住宿",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于大浪街道华昌路金盈新村11栋平价旅馆",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳应急管理博物馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于宝安北路2078号(笋岗地铁站E口步行430米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳微丽王室海景天际度假别墅(玫瑰海岸文化旅游度假区店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于深葵路552号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳时光小屋青年旅舍",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于桃园路147号南景苑大厦10楼",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳月亮公寓(大浪商业中心后浪新天地店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于同富裕二期A4栋",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳民丰公寓",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "深圳民丰公寓位于民治街道白石龙老村，是一家提供住宿服务的旅馆招待所。",
+    "tags": [
+      "旅馆",
+      "住宿"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "全天",
+    "rating": 0.0
+  },
+  {
+    "name": "深圳民丰公寓",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "深圳民丰公寓，位于民治街道白石龙老村36栋，龙华区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳民丰公寓",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "深圳民丰公寓，位于民治街道白石龙老村36栋，龙华区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳民丰公寓",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "深圳民丰公寓，位于民治街道白石龙老村36栋，龙华区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳民丰公寓",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "深圳民丰公寓位于民治街道白石龙老村，是一家提供住宿服务的旅馆招待所。",
+    "tags": [
+      "旅馆",
+      "住宿"
+    ],
+    "avgCost": 0.0,
+    "duration": "未知",
+    "openTime": "全天",
+    "rating": 0.0
+  },
+  {
+    "name": "深圳民丰公寓",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于民治街道白石龙老村36栋",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳海岸商务宾馆",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于福虹路60号农贸大厦3楼(中医院队面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳湾公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于滨海大道",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳溪涌·悦榕湾工人度假村",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于深圳溪涌度假村东北门旁",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳溪涌度假村",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于深葵路1085号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳火车站罗湖口岸有间好宿青年民宿",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于南湖街道罗湖桥社区人民南路1001号华民大厦19楼C",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳珠宝博物馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于金展国际珠宝广场3-4层(田贝地铁站F口步行370米)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳福临客栈",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于公明街道玉律社区玉泉西路36号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳红星海岸度假村",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于葵涌社区上洞村玫瑰海岸东门斜对面500米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳绿迈商务宾馆",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于石岩街道宝石东路418号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳自由度青年公寓",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于坂田街道鸿翰苑10C(坂田北地铁站A口步行450米)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳芙蓉客栈",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于金稻田路1068号布心边防小区A座101一102",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳蓝田商务宾馆(KKONE购物中心上沙地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于下沙村八坊116-2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳西涌西冲七里香民宿",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于大鹏新区南澳西冲鹤薮村1区240号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳西部明珠商务酒店",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于蛇口南水村68号二三楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳金发住宿",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于龙岗街道南联社区上龙塘路5-7号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳鑫梦幻宾馆(巴登美食街红岭南地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于东园路48号(巴登村6栋)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳鑫盛住宿(沙湾店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于南湾街道丹竹头社区沙西路7-9号(丹竹头路9号)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳青栈青年旅舍",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于宝安南路嘉宾花园(大剧院地铁站G口步行460米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳香蜜湖度假村有限公司",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于香梅路与新闻路交叉口西北140米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳鸿运宾馆(福田赤尾店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于华强南路赤尾村二坊39号村综合楼2层北面",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳鹏程住宿",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于龙昌街8号(双龙地铁站H口步行460米)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳龙兴宾馆",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于松岗街道居乐路11号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "深圳龙苑公寓",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于龙苑大道龙苑新村一区930-931号4楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖南老灶台·文记虾一跳(海岸城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "湖南老灶台·文记虾一跳(海岸城店)是一家位于深圳南山区的特色中餐厅，提供餐饮服务。",
+    "tags": [
+      "中餐厅",
+      "餐饮服务"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "湖南老灶台·文记虾一跳(海岸城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "湖南老灶台·文记虾一跳(海岸城店)，位于粤海街道文心三路9号中洲控股B座2楼，南山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖南老灶台·文记虾一跳(海岸城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "湖南老灶台·文记虾一跳(海岸城店)，位于粤海街道文心三路9号中洲控股B座2楼，南山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖南老灶台·文记虾一跳(海岸城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "湖南老灶台·文记虾一跳(海岸城店)，位于粤海街道文心三路9号中洲控股B座2楼，南山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖南老灶台·文记虾一跳(海岸城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "湖南老灶台·文记虾一跳(海岸城店)是一家位于深圳南山区的特色中餐厅，提供餐饮服务。",
+    "tags": [
+      "中餐厅",
+      "餐饮服务"
+    ],
+    "avgCost": 0.0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "湖湘畔 ·渔家小院",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于大浪街道华旺路163号ICC工业园",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘发客栈(沙尾地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "湘发客栈位于深圳市福田区沙尾西村263-1号，距离沙尾地铁站B口仅440米，交通便利。客栈提供舒适的住宿服务，适合商务和旅游出行。",
+    "tags": [
+      "客栈",
+      "福田区",
+      "沙尾地铁站"
+    ],
+    "avgCost": 0.0,
+    "duration": "1晚",
+    "openTime": "24小时前台",
+    "rating": 3.5
+  },
+  {
+    "name": "湘发客栈(沙尾地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "湘发客栈(沙尾地铁站店)，位于沙尾西村263-1号(沙尾地铁站B口步行440米)，福田区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘发客栈(沙尾地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "湘发客栈(沙尾地铁站店)，位于沙尾西村263-1号(沙尾地铁站B口步行440米)，福田区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘发客栈(沙尾地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "湘发客栈(沙尾地铁站店)，位于沙尾西村263-1号(沙尾地铁站B口步行440米)，福田区，类型旅馆招待所 旅馆招待所。",
+    "tags": [
+      "旅馆招待所",
+      "旅馆招待所"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘发客栈(沙尾地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "湘发客栈位于深圳市福田区沙尾西村263-1号，距离沙尾地铁站B口仅440米，交通便利。客栈提供舒适的住宿服务，适合商务和旅游出行。",
+    "tags": [
+      "客栈",
+      "福田区",
+      "沙尾地铁站"
+    ],
+    "avgCost": 0.0,
+    "duration": "1晚",
+    "openTime": "24小时前台",
+    "rating": 3.5
+  },
+  {
+    "name": "湘田田·湖南土菜(南山南园店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于南山大道1041-11号",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘田田·湖南土菜(固戍华丰店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于西乡街道宝安大道4832号(华丰机器人产业园二期)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘田田·湖南土菜(宝安翻身店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于海乐社区翻身路326号106-107",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湘田田·湖南土菜(龙华民治店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于民治街道民治社区民治大道302号御龙湾酒店102",
+    "tags": [
+      "050108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "源悦酒店(深圳龙华地铁站壹方天地店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于龙发路67号中环路锦绣花园缘份烟酒店南路口旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "漫格星寓酒店(燕川店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于燕罗街道燕川社区朗西路54号三楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潮香四海·家传潮汕菜(南山店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "潮香四海是一家主打正宗潮汕菜的中餐厅，位于深圳南山区，以家传风味吸引食客。",
+    "tags": [
+      "潮汕菜",
+      "中餐厅",
+      "南山"
+    ],
+    "avgCost": 100.0,
+    "duration": "1.5-2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "潮香四海·家传潮汕菜(南山店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "潮香四海·家传潮汕菜(南山店)，位于南山大道南海大厦首层105、106号商铺，南山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潮香四海·家传潮汕菜(南山店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "潮香四海·家传潮汕菜(南山店)，位于南山大道南海大厦首层105、106号商铺，南山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潮香四海·家传潮汕菜(南山店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "潮香四海·家传潮汕菜(南山店)，位于南山大道南海大厦首层105、106号商铺，南山区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "潮香四海·家传潮汕菜(南山店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "潮香四海是一家主打正宗潮汕菜的中餐厅，位于深圳南山区，以家传风味吸引食客。",
+    "tags": [
+      "潮汕菜",
+      "中餐厅",
+      "南山"
+    ],
+    "avgCost": 100.0,
+    "duration": "1.5-2小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.3
+  },
+  {
+    "name": "潮香四海·家传潮汕菜(泰然总店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于泰然八路海松大厦B座1层(下沙地铁站C口步行200米)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "澜云拾光云端公寓(深圳坪山高铁站锦龙地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于振环路8号世贸粤湾壹号2820室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "火璽·園(深圳湾店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于粤海街道蔚蓝海岸社区创业路1777号海信南方大厦一层106",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "火璽·堯(南山店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于粤海街道海德三道38号滨海之窗1栋102号中国农业银行旁",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灰色博物馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于南湖街道深南东路3085号兆鑫汇金广场B2层",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "炬城公寓(深圳国际会展中心商圈3号店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于新玉路湾景商务中心B座22楼22号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "点都德(岗厦北店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于深南大道和彩田路交汇处大中华IFC四楼L4-01号",
+    "tags": [
+      "050103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱上居青舍(深圳东站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于布吉路89号凯隆商场F2层",
+    "tags": [
+      "100201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玄武观",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于平湖街道爱建路6号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉帆快捷酒店(深圳国际会展中心店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于上北四巷1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "现代之窗博物馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于华强北路1080号华强北现代之窗",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玺宝楼中国青瓷博物馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于宝安南路2095号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "珮姐重庆火锅(福田旗舰店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于福田街道福安社区民田路138号城建购物公园北园115号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甘坑古镇",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于吉华街道甘坑社区甘李路18号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甘坑古镇-南香楼(打卡点)",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于吉华街道甘坑社区甘李路18号甘坑古镇(西北角)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甘坑古镇-古塔(打卡点)",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于吉华街道甘坑社区甘李路18号甘坑古镇(西北角)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甘坑古镇-古建石头夜景(打卡点)",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于吉华街道甘坑社区甘李路18号甘坑古镇",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甘坑古镇-古建筑屋檐与三角梅(打卡点)",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于吉华街道甘坑社区甘李路18号甘坑古镇内(北侧)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甘坑古镇-屋檐下灯笼与白色花丛(打卡点)",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于吉华街道甘坑社区甘李路18号甘坑古镇内(东侧)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甘坑古镇-店门(打卡点)",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于吉华街道甘坑社区甘李路18号甘坑古镇(西北角)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甘坑古镇-甘坑二六招牌和灯笼(打卡点)",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于吉华街道甘坑社区甘李路18号甘坑古镇(东南角)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甘坑古镇-甘坑博物馆入口牌匾夜景(打卡点)",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于吉华街道甘坑社区甘李路18号甘坑古镇",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甘坑古镇-甘坑石碑夜景(打卡点)",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于吉华街道甘坑社区甘李路18号甘坑古镇",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甘坑古镇-紫木轩牌匾和白色三角梅(打卡点)",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于吉华街道甘坑社区甘李路18号甘坑古镇(东南角)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甘坑古镇-花灯夜景(打卡点)",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于吉华街道甘坑社区甘李路18号甘坑古镇(西北角)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "甘坑古镇状元府",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于吉华街道甘坑社区甘坑古镇内(西北角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "登巴国际青年旅舍(深圳福田会展中心店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于福民地铁站J2口步行390米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百年果林椰子鸡(宝安总店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于建安一路23号(三区金融街)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇岗公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "皇岗公园位于深圳市福田区，是市民休闲娱乐的好去处。",
+    "tags": [
+      "公园",
+      "休闲",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.2
+  },
+  {
+    "name": "皇岗公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "皇岗公园，位于益田路2002号，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇岗公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "皇岗公园，位于益田路2002号，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇岗公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "皇岗公园，位于益田路2002号，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇岗公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "皇岗公园位于深圳市福田区，是市民休闲娱乐的好去处。",
+    "tags": [
+      "公园",
+      "休闲",
+      "风景名胜"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "全天开放",
+    "rating": 4.2
+  },
+  {
+    "name": "皇岗公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于益田路2002号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盐灶古村",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于葵涌街道坝核公路与243乡道交叉口西北50米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盐田社区夜市文化街",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于盐田街新三村上村旁",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛香亭转转热卤(深圳宝安福永益田店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于福永街道怀德社区广深路福永段77号益田假日广场L1-33A号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛香亭转转热卤(深圳福田中航城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于中航路1号中航城君尚B101-18号铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛香亭转转热卤(深圳罗湖天河城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于东晓街道太白路3008号天河城北区B151、B152铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛香亭转转热卤(深圳西丽宝能店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于桃源街道留仙大道3288号西丽宝能环球汇L3013-3号铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛香亭转转热卤(深圳龙华壹方天地店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于龙华街道龙华大道3639号壹方天地A区B1层B1-011/012号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福来登酒店(深圳国际会展中心桥头地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于福永街道新田社区大洋路美盛新村2号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福田区文化广场",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于景田路8号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "福田红树林生态公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于新洲路与福荣路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "秋色客家宴(沙井店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于万科星城商业中心2号楼南门旁",
+    "tags": [
+      "061100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "章华宾馆(深圳公明地铁站大仟里店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于公明镇长春中路富豪花园B区1栋",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "笔架山公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "笔架山公园位于深圳市福田区梅岗路，是一个以自然景观为主的综合性公园。公园内有多条登山步道，山顶可俯瞰城市景色，还有大片的草坪和休闲设施，适合散步、跑步和家庭出游。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "笔架山公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "笔架山公园，位于梅岗路，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "笔架山公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "笔架山公园，位于梅岗路，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "笔架山公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "笔架山公园，位于梅岗路，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "笔架山公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "笔架山公园位于深圳市福田区梅岗路，是一个以自然景观为主的综合性公园。公园内有多条登山步道，山顶可俯瞰城市景色，还有大片的草坪和休闲设施，适合散步、跑步和家庭出游。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "笔架山公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于梅岗路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "笔架山公园-深业上城连廊",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于BeaconHillSportsPark(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "精品夜市街(沙三)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于沙三路34-19附近",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红树林海滨生态公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于滨河大道(深圳湾公园地铁站D2口步行60米)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红树林湿地博物馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于滨海大道辅路与红树林路交叉口西480米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红荔夜市",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于园岭新村八角楼二街园东多层停车场正对面",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "终点塔",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于虹桥公园内(东侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "罗田森林公园瞭望塔",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于罗田森林公园(东南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "美食观光夜市",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于后海南商路南油文化广场旁",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翔丰宾馆(沙边一巷店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于沙边一巷1号附近",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "翻身夜市",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于新安街道安乐社区宝城44区创业一路1018号天虹商场",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老三样·南昌江西菜(深圳首店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于桃园路与常兴路交叉口东60米",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老碗会(福田地铁站店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于深南大道辅路与兴融四路交叉口北20米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老顾客煲仔饭(招北小区店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于招商街道招商路140-1",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(中心书城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于莲花街道红荔路深圳中心书城首层B140-B144",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖明粉馆",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于人民医院西南门西北80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖明螺蛳粉",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于石厦二街与石厦五街交叉口北100米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡桃里音乐酒馆(领展中心城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于福田街道福安社区福华一路3号领展购物广场RL1090",
+    "tags": [
+      "080304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茶马古镇",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于深南大道9003号中国民俗文化村内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荔枝公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "荔枝公园位于深圳市福田区，以荔枝树为主题，是一个集休闲、观光、健身于一体的城市公园。园内绿树成荫，湖光山色，是市民和游客放松身心的好去处。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "07:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "荔枝公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "荔枝公园，位于红岭中路1001号，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荔枝公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "荔枝公园，位于红岭中路1001号，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荔枝公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "荔枝公园，位于红岭中路1001号，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荔枝公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "荔枝公园位于深圳市福田区，以荔枝树为主题，是一个集休闲、观光、健身于一体的城市公园。园内绿树成荫，湖光山色，是市民和游客放松身心的好去处。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "07:00-22:00",
+    "rating": 4.3
+  },
+  {
+    "name": "荔枝公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于红岭中路1001号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荔湖酒店(深圳石岩店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于石岩街道松白路西2号(石岩汽车站往西100米)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣鑫发宾馆(草埔地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "荣鑫发宾馆位于深圳市罗湖区草埔东吓屋村15号3、4楼，邻近草埔地铁站，提供干净舒适的住宿环境，适合商务和旅游出行。",
+    "tags": [
+      "经济型",
+      "地铁附近",
+      "罗湖区"
+    ],
+    "avgCost": 120.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 3.8
+  },
+  {
+    "name": "荣鑫发宾馆(草埔地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "荣鑫发宾馆(草埔地铁站店)，位于草埔东吓屋村15号3、4楼，罗湖区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣鑫发宾馆(草埔地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "荣鑫发宾馆(草埔地铁站店)，位于草埔东吓屋村15号3、4楼，罗湖区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣鑫发宾馆(草埔地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "荣鑫发宾馆(草埔地铁站店)，位于草埔东吓屋村15号3、4楼，罗湖区，类型宾馆酒店 宾馆酒店。",
+    "tags": [
+      "宾馆酒店",
+      "宾馆酒店"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣鑫发宾馆(草埔地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "荣鑫发宾馆位于深圳市罗湖区草埔东吓屋村15号3、4楼，邻近草埔地铁站，提供干净舒适的住宿环境，适合商务和旅游出行。",
+    "tags": [
+      "经济型",
+      "地铁附近",
+      "罗湖区"
+    ],
+    "avgCost": 120.0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 3.8
+  },
+  {
+    "name": "莲花山公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "莲花山公园位于深圳市福田区，是市中心的一座大型市政公园，以山顶的邓小平铜像和开阔的观景平台闻名，是市民休闲娱乐和游客观光的好去处。",
+    "tags": [
+      "公园",
+      "风景名胜",
+      "福田区"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "06:00-22:00",
+    "rating": 4.7
+  },
+  {
+    "name": "莲花山公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "莲花山公园，位于红荔路6030号，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花山公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "莲花山公园，位于红荔路6030号，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花山公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "莲花山公园，位于红荔路6030号，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花山公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "莲花山公园位于深圳市福田区，是市中心的一座大型市政公园，以山顶的邓小平铜像和开阔的观景平台闻名，是市民休闲娱乐和游客观光的好去处。",
+    "tags": [
+      "公园",
+      "风景名胜",
+      "福田区"
+    ],
+    "avgCost": 0.0,
+    "duration": "2-3小时",
+    "openTime": "06:00-22:00",
+    "rating": 4.7
+  },
+  {
+    "name": "莲花山公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于红荔路6030号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花山公园-椰风林草坪",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于莲花街道莲花街道红荔路6026号莲花山公园南2门附近",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "莲花山公园-邓小平雕像",
@@ -41,115 +4655,134 @@
       "公园",
       "深圳地标"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "30分钟",
     "openTime": "全天开放",
     "rating": 4.7
   },
   {
-    "name": "笔架山公园",
+    "name": "莲花山公园-邓小平雕像",
     "city": "深圳",
     "category": "attraction",
-    "description": "笔架山公园位于深圳市福田区梅岗路，是一个以自然景观为主的综合性公园。公园内有多条登山步道，山顶可俯瞰城市景色，还有大片的草坪和休闲设施，适合散步、跑步和家庭出游。",
+    "description": "莲花山公园-邓小平雕像，位于红荔路6030号莲花山公园，福田区，类型风景名胜 风景名胜。",
     "tags": [
       "风景名胜",
-      "公园广场",
-      "公园"
-    ],
-    "avgCost": 0,
-    "duration": "1-2小时",
-    "openTime": "全天开放",
-    "rating": 4.5
-  },
-  {
-    "name": "BeaconHillSportsPark",
-    "city": "深圳",
-    "category": "attraction",
-    "description": "BeaconHillSportsPark位于深圳市福田区笔架山公园内福田河以西，是一个集体育和休闲于一体的公园广场，适合户外运动与散步。",
-    "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
-    ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
-  },
-  {
-    "name": "深圳博物馆金田路馆",
-    "city": "深圳",
-    "category": "attraction",
-    "description": "深圳博物馆金田路馆位于福田区市民中心，是展示深圳历史文化的综合性博物馆，常设展览包括古代深圳、近代深圳、深圳民俗等。",
-    "tags": [
-      "博物馆",
-      "科教文化",
-      "历史"
-    ],
-    "avgCost": 0,
-    "duration": "2-3小时",
-    "openTime": "10:00-18:00（周一闭馆）",
-    "rating": 4.5
-  },
-  {
-    "name": "香蜜公园",
-    "city": "深圳",
-    "category": "attraction",
-    "description": "香蜜公园是深圳市福田区的一个城市公园，以优美的自然景观和休闲设施著称，适合散步、赏花和亲子活动。",
-    "tags": [
-      "风景名胜",
-      "公园广场",
-      "公园"
-    ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "00:00-24:00",
-    "rating": 4.5
-  },
-  {
-    "name": "皇岗公园",
-    "city": "深圳",
-    "category": "attraction",
-    "description": "皇岗公园位于深圳市福田区，是市民休闲娱乐的好去处。",
-    "tags": [
-      "公园",
-      "休闲",
       "风景名胜"
     ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "全天开放",
-    "rating": 4.2
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "海滨广场",
+    "name": "莲花山公园-邓小平雕像",
     "city": "深圳",
     "category": "attraction",
-    "description": "海滨广场位于深圳市福田区金田路2018号，是一个商务住宅小区。",
-    "tags": [
-      "商务住宅",
-      "住宅区",
-      "住宅小区"
-    ],
-    "avgCost": 0,
-    "duration": "不详",
-    "openTime": "全天",
-    "rating": 0
-  },
-  {
-    "name": "荔枝公园",
-    "city": "深圳",
-    "category": "attraction",
-    "description": "荔枝公园位于深圳市福田区，以荔枝树为主题，是一个集休闲、观光、健身于一体的城市公园。园内绿树成荫，湖光山色，是市民和游客放松身心的好去处。",
+    "description": "莲花山公园-邓小平雕像，位于红荔路6030号莲花山公园，福田区，类型风景名胜 风景名胜。",
     "tags": [
       "风景名胜",
-      "公园广场",
-      "公园"
+      "风景名胜"
     ],
-    "avgCost": 0,
-    "duration": "2小时",
-    "openTime": "07:00-22:00",
-    "rating": 4.3
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花山公园-邓小平雕像",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "莲花山公园-邓小平雕像，位于红荔路6030号莲花山公园，福田区，类型风景名胜 风景名胜。",
+    "tags": [
+      "风景名胜",
+      "风景名胜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花山公园-邓小平雕像",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "莲花山公园内的邓小平雕像，是深圳的标志性景点之一，游客常在此缅怀伟人并俯瞰城市全景。",
+    "tags": [
+      "莲花山",
+      "邓小平",
+      "雕像",
+      "公园",
+      "深圳地标"
+    ],
+    "avgCost": 0.0,
+    "duration": "30分钟",
+    "openTime": "全天开放",
+    "rating": 4.7
+  },
+  {
+    "name": "莲花山公园-邓小平雕像",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于红荔路6030号莲花山公园",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花山公园A区",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于红荔路6030号莲花山公园内(儿童医院对面)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花山公园A区-观景台",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于莲花山公园A区",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲花山公园风筝广场",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于红荔路6030号莲花山公园内(南侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蔡澜点心(深圳福田中心书城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于莲花街道福中社区福中一路深圳书城中心城首层S145号铺",
+    "tags": [
+      "050305"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "蘩楼(南山南油店)",
@@ -161,40 +4794,258 @@
       "中餐厅",
       "广东菜"
     ],
-    "avgCost": 120,
+    "avgCost": 120.0,
     "duration": "1.5小时",
     "openTime": "09:00-21:00",
     "rating": 4.5
   },
   {
-    "name": "洪大厨鸡煲(福田店)",
+    "name": "蘩楼(南山南油店)",
     "city": "深圳",
     "category": "food",
-    "description": "洪大厨鸡煲(福田店)位于福田区泰然八路安华工业区，主打特色鸡煲，结合火锅吃法，汤底浓郁，鸡肉鲜嫩，是深圳福田区热门的鸡煲火锅店。",
-    "tags": [
-      "鸡煲",
-      "火锅",
-      "福田"
-    ],
-    "avgCost": 100,
-    "duration": "2小时",
-    "openTime": "11:00-22:00",
-    "rating": 4.3
-  },
-  {
-    "name": "洪大厨鸡煲(宝安店)",
-    "city": "深圳",
-    "category": "food",
-    "description": "洪大厨鸡煲(宝安店)位于深圳市宝安区宝民一路171号，是一家以鸡煲为特色的火锅店，提供美味的中式火锅体验。",
+    "description": "蘩楼(南山南油店)，位于南海大道2088号信和广场3楼(南观光梯)，南山区，类型中餐厅 广东菜(粤菜)。",
     "tags": [
       "中餐厅",
-      "火锅店",
-      "鸡煲"
+      "广东菜(粤菜)"
     ],
-    "avgCost": 0,
-    "duration": "",
-    "openTime": "",
-    "rating": 3.5
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蘩楼(南山南油店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "蘩楼(南山南油店)，位于南海大道2088号信和广场3楼(南观光梯)，南山区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蘩楼(南山南油店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "蘩楼(南山南油店)，位于南海大道2088号信和广场3楼(南观光梯)，南山区，类型中餐厅 广东菜(粤菜)。",
+    "tags": [
+      "中餐厅",
+      "广东菜(粤菜)"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蘩楼(南山南油店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "蘩楼是一家位于深圳南山区的粤菜餐厅，主打广东菜，提供正宗广式茶点和粤式菜肴，环境优雅，深受食客喜爱。",
+    "tags": [
+      "粤菜",
+      "中餐厅",
+      "广东菜"
+    ],
+    "avgCost": 120.0,
+    "duration": "1.5小时",
+    "openTime": "09:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "蘩楼(罗湖口岸佳宁娜广场店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "蘩楼是一家位于深圳罗湖口岸佳宁娜广场的粤式茶楼，主打传统广式点心，环境雅致，适合家庭聚餐和早茶体验。",
+    "tags": [
+      "粤菜",
+      "茶楼",
+      "点心",
+      "罗湖区"
+    ],
+    "avgCost": 100.0,
+    "duration": "1.5小时",
+    "openTime": "08:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "蘩楼(罗湖口岸佳宁娜广场店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "蘩楼(罗湖口岸佳宁娜广场店)，位于人民南路2002号佳宁娜广场4层4-02，罗湖区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蘩楼(罗湖口岸佳宁娜广场店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "蘩楼(罗湖口岸佳宁娜广场店)，位于人民南路2002号佳宁娜广场4层4-02，罗湖区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蘩楼(罗湖口岸佳宁娜广场店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "蘩楼(罗湖口岸佳宁娜广场店)，位于人民南路2002号佳宁娜广场4层4-02，罗湖区，类型中餐厅 中餐厅。",
+    "tags": [
+      "中餐厅",
+      "中餐厅"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蘩楼(罗湖口岸佳宁娜广场店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "蘩楼是一家位于深圳罗湖口岸佳宁娜广场的粤式茶楼，主打传统广式点心，环境雅致，适合家庭聚餐和早茶体验。",
+    "tags": [
+      "粤菜",
+      "茶楼",
+      "点心",
+      "罗湖区"
+    ],
+    "avgCost": 100.0,
+    "duration": "1.5小时",
+    "openTime": "08:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "蘩楼(罗湖宝安南路店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于宝安南路2078号(红岭地铁站C2口步行470米)深港豪苑名商阁2层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛇口步行街",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于南水路199-2附近(水湾地铁站C口步行250米)",
+    "tags": [
+      "061001"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西丽佛祖庙",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于沙河西路4108附近",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西丽旺棠夜市",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于新高路与留仙大道辅路交叉口北40米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西乡夜市",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于盐田街与盐田牛湾路交叉口东南40米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西涌小野客栈",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于南澳西涌芽山村61号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西部快捷宾馆(高速桥辅道)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于西辅路潭头西部工业区B区54栋",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "观海(福田基金店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于莲花街道福新社区益田路5999号基金大厦裙楼3层4层整层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "谭仙公庙",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于北山道与平盐路交叉口西150米",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "豪林居 潮汕菜 生腌海鲜",
@@ -208,56 +5059,251 @@
       "中餐厅",
       "福田区"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "蘩楼(罗湖口岸佳宁娜广场店)",
+    "name": "豪林居 潮汕菜 生腌海鲜",
     "city": "深圳",
     "category": "food",
-    "description": "蘩楼是一家位于深圳罗湖口岸佳宁娜广场的粤式茶楼，主打传统广式点心，环境雅致，适合家庭聚餐和早茶体验。",
-    "tags": [
-      "粤菜",
-      "茶楼",
-      "点心",
-      "罗湖区"
-    ],
-    "avgCost": 100,
-    "duration": "1.5小时",
-    "openTime": "08:00-22:00",
-    "rating": 4.5
-  },
-  {
-    "name": "湖南老灶台·文记虾一跳(海岸城店)",
-    "city": "深圳",
-    "category": "food",
-    "description": "湖南老灶台·文记虾一跳(海岸城店)是一家位于深圳南山区的特色中餐厅，提供餐饮服务。",
+    "description": "豪林居 潮汕菜 生腌海鲜，位于八卦一路鹏盛村8栋103-105号，福田区，类型中餐厅 潮州菜。",
     "tags": [
       "中餐厅",
-      "餐饮服务"
+      "潮州菜"
     ],
-    "avgCost": 0,
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "豪林居 潮汕菜 生腌海鲜",
+    "city": "深圳",
+    "category": "food",
+    "description": "豪林居 潮汕菜 生腌海鲜，位于八卦一路鹏盛村8栋103-105号，福田区，类型中餐厅 潮州菜。",
+    "tags": [
+      "中餐厅",
+      "潮州菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "豪林居 潮汕菜 生腌海鲜",
+    "city": "深圳",
+    "category": "food",
+    "description": "豪林居 潮汕菜 生腌海鲜，位于八卦一路鹏盛村8栋103-105号，福田区，类型中餐厅 潮州菜。",
+    "tags": [
+      "中餐厅",
+      "潮州菜"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "豪林居 潮汕菜 生腌海鲜",
+    "city": "深圳",
+    "category": "food",
+    "description": "豪林居是位于深圳福田区的一家潮汕菜餐厅，主打生腌海鲜。拥有丰富多样的潮汕传统美食，以新鲜海鲜和地道烹饪著称。",
+    "tags": [
+      "潮汕菜",
+      "生腌",
+      "海鲜",
+      "中餐厅",
+      "福田区"
+    ],
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "",
     "rating": 3.5
   },
   {
-    "name": "东江海鲜大排档.潮汕菜.砂锅粥",
+    "name": "财神殿",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于福永街道凤凰村凤凰山森林公园凤岩古庙内",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤尾村牌坊",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于赤尾一街与华强南路交叉口西20米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赤湾左炮台",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于蛇口赤湾左炮台路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金海滩度假村",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于深葵路1024号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金稻园砂锅粥(红山6979店)",
     "city": "深圳",
     "category": "food",
-    "description": "东江海鲜大排档主打潮汕菜和砂锅粥，提供新鲜海鲜和地道潮汕风味，适合夜宵聚餐。",
+    "description": "位于红山6979商业中心南区三区11栋1层148",
     "tags": [
-      "海鲜",
-      "潮汕菜",
-      "砂锅粥",
-      "大排档"
+      "050100"
     ],
-    "avgCost": 80,
-    "duration": "1-2小时",
-    "openTime": "17:00-03:00",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦绣中华民俗村",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于深南大道9003号(华侨城地铁站D口步行100米)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长安亭院火锅(深圳总店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于南新路2081号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳光客栈(横岗地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于茂盛路63号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雅宁宾馆(田寮文化广场店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于玉塘街道警民路1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雪乡情东北菜(壹方城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于新湖路99号壹方城购物中心西区1层",
+    "tags": [
+      "050113"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青朴旅居公寓(深圳世界之窗店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于沙河世纪广场C座14楼1402",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺兴旅馆(沙井地铁站店)",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于崇光路园林新村1巷9号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺德公猪肚鸡(中心书城店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于福中一路深圳书城中心城二层N207号铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香乐园中餐厅·淮扬菜(深圳福田香格里拉店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于益田路4088号福田香格里拉二层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
     "name": "香港新发烧腊茶餐厅(书城店)",
@@ -267,114 +5313,344 @@
     "tags": [
       "深圳"
     ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
     "openTime": "全天",
     "rating": 3.5
   },
   {
-    "name": "洪大厨鸡煲(龙华店)",
+    "name": "香港新发烧腊茶餐厅(书城店)",
     "city": "深圳",
     "category": "food",
-    "description": "洪大厨鸡煲(龙华店)位于龙华区同富裕工业园32栋，以特色鸡煲为主打，口味鲜美，深受食客喜爱，是聚餐的好去处。",
+    "description": "香港新发烧腊茶餐厅(书城店)，位于书城路一号都市名园综合楼首层101-A2，罗湖区，类型快餐厅 茶餐厅。",
     "tags": [
-      "鸡煲",
-      "火锅",
-      "深圳美食"
+      "快餐厅",
+      "茶餐厅"
     ],
-    "avgCost": 70,
-    "duration": "1.5小时",
-    "openTime": "11:00-22:00",
-    "rating": 4.3
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "潮香四海·家传潮汕菜(南山店)",
+    "name": "香港新发烧腊茶餐厅(书城店)",
     "city": "深圳",
     "category": "food",
-    "description": "潮香四海是一家主打正宗潮汕菜的中餐厅，位于深圳南山区，以家传风味吸引食客。",
+    "description": "香港新发烧腊茶餐厅(书城店)，位于书城路一号都市名园综合楼首层101-A2，罗湖区，类型快餐厅 茶餐厅。",
     "tags": [
-      "潮汕菜",
-      "中餐厅",
-      "南山"
+      "快餐厅",
+      "茶餐厅"
     ],
-    "avgCost": 100,
-    "duration": "1.5-2小时",
-    "openTime": "11:00-14:00,17:00-21:00",
-    "rating": 4.3
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "星屿青年旅舍(南油地铁站店)",
+    "name": "香港新发烧腊茶餐厅(书城店)",
     "city": "深圳",
-    "category": "hotel",
-    "description": "星屿青年旅舍(南油地铁站店)位于深圳市南山区登良路18号龙城花园6栋202室，是一家经济型连锁青年旅舍，提供干净舒适的住宿环境，适合背包客和预算有限的旅行者。",
+    "category": "food",
+    "description": "香港新发烧腊茶餐厅(书城店)，位于书城路一号都市名园综合楼首层101-A2，罗湖区，类型快餐厅 茶餐厅。",
     "tags": [
-      "青年旅舍",
-      "经济型",
-      "连锁",
-      "南山区"
+      "快餐厅",
+      "茶餐厅"
     ],
-    "avgCost": 100,
-    "duration": "1晚",
-    "openTime": "全天",
-    "rating": 4.0
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   },
   {
-    "name": "深圳民丰公寓",
+    "name": "香港新发烧腊茶餐厅(书城店)",
     "city": "深圳",
-    "category": "hotel",
-    "description": "深圳民丰公寓位于民治街道白石龙老村，是一家提供住宿服务的旅馆招待所。",
+    "category": "food",
+    "description": "香港新发烧腊茶餐厅(书城店) 是深圳的美食餐厅，位于罗湖区。地址：书城路一号都市名园综合楼首层101-A2。",
     "tags": [
-      "旅馆",
-      "住宿"
+      "深圳"
     ],
-    "avgCost": 0,
-    "duration": "未知",
-    "openTime": "全天",
-    "rating": 0.0
-  },
-  {
-    "name": "湘发客栈(沙尾地铁站店)",
-    "city": "深圳",
-    "category": "hotel",
-    "description": "湘发客栈位于深圳市福田区沙尾西村263-1号，距离沙尾地铁站B口仅440米，交通便利。客栈提供舒适的住宿服务，适合商务和旅游出行。",
-    "tags": [
-      "客栈",
-      "福田区",
-      "沙尾地铁站"
-    ],
-    "avgCost": 0,
-    "duration": "1晚",
-    "openTime": "24小时前台",
-    "rating": 3.5
-  },
-  {
-    "name": "荣鑫发宾馆(草埔地铁站店)",
-    "city": "深圳",
-    "category": "hotel",
-    "description": "荣鑫发宾馆位于深圳市罗湖区草埔东吓屋村15号3、4楼，邻近草埔地铁站，提供干净舒适的住宿环境，适合商务和旅游出行。",
-    "tags": [
-      "经济型",
-      "地铁附近",
-      "罗湖区"
-    ],
-    "avgCost": 120,
-    "duration": "全天",
-    "openTime": "24小时",
-    "rating": 3.8
-  },
-  {
-    "name": "深圳平价住宿",
-    "city": "深圳",
-    "category": "hotel",
-    "description": "位于龙华区大浪街道的平价旅馆，提供住宿服务。",
-    "tags": [
-      "平价",
-      "旅馆",
-      "龙华区"
-    ],
-    "avgCost": 0,
+    "avgCost": 0.0,
     "duration": "",
-    "openTime": "",
+    "openTime": "全天",
     "rating": 3.5
+  },
+  {
+    "name": "香蜜公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "香蜜公园是深圳市福田区的一个城市公园，以优美的自然景观和休闲设施著称，适合散步、赏花和亲子活动。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "00:00-24:00",
+    "rating": 4.5
+  },
+  {
+    "name": "香蜜公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "香蜜公园，位于香蜜湖街道农园路30号，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香蜜公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "香蜜公园，位于香蜜湖街道农园路30号，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香蜜公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "香蜜公园，位于香蜜湖街道农园路30号，福田区，类型公园广场 公园。",
+    "tags": [
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香蜜公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "香蜜公园是深圳市福田区的一个城市公园，以优美的自然景观和休闲设施著称，适合散步、赏花和亲子活动。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "公园"
+    ],
+    "avgCost": 0.0,
+    "duration": "2小时",
+    "openTime": "00:00-24:00",
+    "rating": 4.5
+  },
+  {
+    "name": "香蜜公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于香蜜湖街道农园路30号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香蜜湖·四季花谷",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于香蜜湖街道农园路30号香蜜公园(东南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香蜜湖度假村内部路",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于香蜜湖度假村内部路与深南大道辅路交叉口北40米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马峦山郊野公园",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于马峦街道坪马线公路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马鞍夜市",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于马鞍岭路6号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹤松(聚会·高空景观店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于莲花街道福中社区金田路4018号安联大厦28A01",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹤松·居酒屋(福田灯光秀店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于金田路4018号安联大厦B座18楼18B02-B",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(上步分店餐厅)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于深南中路79号华垦大厦一楼",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(光华分店餐厅)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于解放路西华宫光华楼二楼(老街地铁站出入口步行80米)",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(大运DT店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于深圳大运天地南区北门西北60米",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(深圳One Avenue·卓悦中心店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于福田街道岗厦社区福华路北面岗厦城L1层126号商铺",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(深圳中心书城餐厅)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于红荔西路中心书城南区L101和L102号铺位",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(深圳民田路分店)",
+    "city": "深圳",
+    "category": "food",
+    "description": "位于莲花街道福田中心区黄埔雅苑会所二期及商场1层05号",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦麦博物馆",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于梅丽路与梅林路交叉口南40米",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙王古庙",
+    "city": "深圳",
+    "category": "attraction",
+    "description": "位于福永街道白石厦",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙联尚品酒店",
+    "city": "深圳",
+    "category": "hotel",
+    "description": "位于如意路4-8",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
   }
 ]

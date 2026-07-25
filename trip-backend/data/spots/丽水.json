@@ -1,0 +1,2160 @@
+[
+  {
+    "name": "1314婺剧文化共富广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于江湾新辰对面新建车站附近",
+    "tags": [
+      "080603"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "Ameigo梅果•云贵川bistro(丽水首店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于岩泉街道花园路16号万地广场1层",
+    "tags": [
+      "050114"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一颗苹果·Ringo(家庭融合料理)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于岩泉街道天宁二村6幢2号一层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七里香东北饺子馆(宇雷路店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于宇雷路460号金苑新村",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万象山",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于解放街27附近",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万象山公园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于括苍路581号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三江口户外运动公园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于西站路与桃碧线交叉口西南400米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下季广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东源镇东源村章乃器广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于广场路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山公园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于城北街406号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中意大酒店(花园路)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于花园路1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽水体育公园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于寿元路与紫金路交口东南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽水博物馆新馆",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于大猷街30号(滨水公园西侧)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽水山涧畔客栈",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于大港头镇大港路202号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽水格林罗曼风情酒店(高铁站店)",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于宇雷路598-600号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽水江东宾馆(丽水高铁站)",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于东升北区14幢17号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽水法治文化公园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于寿元街1489号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽水瑾居印象客栈(古堰画乡景区店)",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于大港头镇江南路6号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽水白云国家森林公园-樱园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于(近白云山入口200米)白云森林公园内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽水白云国家森林公园-观景台",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于中山街北2号丽水白云国家森林公园内(南侧)",
+    "tags": [
+      "110209"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽水秋华宾馆",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于大洋路202号(大洋路与丽阳街交叉口,八仟客隔壁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽水美君宾馆",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于莲都区火车站A5地块北侧1-2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽水金芒果电竞酒店",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于中山路195号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽水雾山悠山野火锅(丽水万地广场店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于花园路16号万地广场4层020号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽阳门",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于城东路6号丽阳门公园内(西侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丽阳门公园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于城东路6号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "举高高自助小火锅(丽水万地店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于宇雷路104号丽水万地广场F3层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云和云都宾馆",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于云和镇吉祥路65号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云和梯田-日出云海景点",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于305县道东50米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云和梯田景区",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于崇头镇梅源村云和梯田景区游客中心1号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云和梯田景区-七星墩景区",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于云和梯田景区(西南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云和梯田景区九曲云环",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于崇头镇云和梯田景区内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云禾小吃(同心花园A区店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于后溪东路洪记羊肉馆旁",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "体彩主题广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于丽水体育中心南门",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "何家小憩民宿",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于罗川村",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佰仙面馆",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于南直街40号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "倪翁洞",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于轩辕文化街80号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "健身广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于南环路南明山景区(东南角)",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冒险岛·达乐园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于万象街道琵琶圩路1号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冒险岛水世界",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于琵琶圩路",
+    "tags": [
+      "080505"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘大厨",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于宇雷北路74-82号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘祠堂背历史文化街区",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于大众路与囿山路交叉口",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "十里清风园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于水东大桥北",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千峡湖生态旅游度假区",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于青景庆线附近",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华东药用植物园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于城北街11号",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "华莱士·全鸡汉堡(丽水天宁店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于宇雷北路18号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南南小院公寓(遂昌农商银行店)",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于妙高街道溪边路一弄弄口",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南山杨梅文化广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于328省道与南园五路交叉口东40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南明山景区",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于南环路",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "印象西城·七子楼",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于学院路24号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古堰画乡旅游度假区",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于古堰画乡旅游度假区服务中心",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴记百家·千峡湖鱼头·时尚餐厅(石门小区店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于瓯南街道江南大道151-154号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜欢李老火锅(中东路店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于中东路838号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜欢李老火锅(中山街店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于白云街道中山街98号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜欢李老火锅(天宁店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于天宁三村2幢2号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜欢李老火锅(青田临江店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于临江东路29号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(丽水市莲都万地店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于岩泉街道人民街690-692号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "处州公园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于花园路与人民街路口北侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "处州府城",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于大洋路与卢镗街交汇处西南侧",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "处州府城南广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于大猷街处州府城(南侧)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大均古街",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于大均乡景宁畲族自治县畲乡之窗旅游区(西北角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天宁老地方火锅小炒(天宁二村店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于天宁二村33幢5号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "姐妹烧烤·天宁店",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于宇雷北路135号天宁二村31幢1号",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "季纷新时代酒店(丽水宇雷路美食街店)",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于宇雷路618号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "学院新鑫宾馆(西城广场店)",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于丽阳街173号(三岩寺路口西城广场,距离丽水学)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小赤壁·大肚岩",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于仙都街道(仙都风景名胜区)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山林食事",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于碧湖镇堰头村",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山水商务酒店(龙泉市美丽乡村建设办公室北)",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于环城东路201号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山缓缓",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于银泰城2层L2022",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "幺妹重庆火锅",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于妙高街道西街三弄17号(巷子里小吃坊附近)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庆元月山成仙居",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于举水乡月山村大会堂附近",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "庆元胖嫂美食",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于人民街与宇雷北路交叉口东40米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "应星楼",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于万象街道大猷街(近江滨公园)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "弄堂里北京火锅·东北烤肉",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于县东街三弄一号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张养记百味鸡煲(原大洋路店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于天宁工业区111幢底层南起1-2间店面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张村街村文体健身广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于011乡道东侧",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "彪将军(城北街店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于岩泉街道城北街561、563号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐上洪私房面馆(丽水总店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于双坦自然村10号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "必胜客(丽水万地广场店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于花园路16号万地广场1层2号",
+    "tags": [
+      "050303"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "戴记小厨",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于城北街798号莱茵体育生活馆一楼808号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "明心民宿(教工路分店)",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于壶镇镇明心村下新屋上祥头68号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星角冰锅创造者",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于花园路温馨园13幢6号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春根民宿",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于竹口镇竹下村",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景宁云中大漈景区",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于大漈乡大漈村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景宁小灶·畲乡小吃·家常菜(美食街店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于红星街道环城北路30-32号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景宁畲族自治县畲乡之窗旅游区",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于大均乡",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景宁红太阳宾馆",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于鹤溪镇童弄街3弄2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景宁青田山居",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于大际乡西二村西岸底68号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "望城亭",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于白云森林公园步云岭(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松阳悦楼亭民宿客栈",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于象溪镇二期安置小区A1栋",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松阳望园民宿客栈",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于望松街道乌石下村8排14栋",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松阳现代宾馆",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于长虹中路153号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梅山公园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于水南村",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水南糯米饭(水南老店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于南贸小区1幢1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泰处民泰式料理",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于人民街704-706号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口镇东江村文化广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于东江村",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海口镇界阜村文化广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于界阜村",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(丽水银泰城店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于紫金街道卢镗街90号丽水银泰城店4层L4001号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "温粥人(万地水晶城店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于宇雷北路201号万地·水晶城",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "溪南民宿",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于查田镇溪南路12号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨水公园-丽水防洪堤",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于江滨路",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨水广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于莲都江滨公园",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灯塔公园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于后庆路107号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "焱火烤牛肉",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于天宁二村29栋7号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "猫小姐披萨",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于塔山路31号(一层二层)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白云森林公园步云岭",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于(近白云山入口200米)白云森林公园内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白塔广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于大港头镇渡南路香樟码头东南方100米左右",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "皇都广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于花园路377号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "知青广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于碧湖镇平一村",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红泥小炉(莲都店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于花园路2号广播电视总台1楼北面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "纳爱斯健身广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于城东路157号(东门)",
+    "tags": [
+      "080108"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缙云云山水民宿(仙都景区店)",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于仙都景区鼎湖峰景区仙都国家级风景区仙都民宿客栈朱潭山景区仙都酒店",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缙云交通宾馆",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于五云镇电力路62号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缙云仙都景区",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于仙都街道",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缙云伊恋东方民宿",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于上东方村159号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缙云升升宾馆",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于电力路59号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缙云县五云镇东门老字号烧饼",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于五云街道胜利街鹿园巷1号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缙云县新时代文明实践中心文化健身广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于五云街道溪滨南路1号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缙云品鑫宾馆",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于新区仙都路24号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缙云小白鹅宾馆",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于五云街道电力路69号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缙云峰之缘民宿(仙都风景区店)",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于仙都街道鼎湖村笋川170号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缙云烧饼.一均店",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于黄龙路301-303号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缙云烧饼总部",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于仙都街道轩辕街148号缙云烧饼总部",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缙云登楼看山酒店",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于壶镇镇贤母西路149号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老年公园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于大洋路268号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(丽水万地店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于花园路16号一层21号商铺",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "船寮镇龙舟文化广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于洪府前村",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "范香湘下饭菜(人民街店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于人民街724-728号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "荣小锅自助小火锅",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于丽水银泰城负一层B1045-2号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莲都江滨公园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于江滨公园(大猷街南)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "言昱·韩食·韩国料理(万地广场店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于温馨园(庆春街)万地广场2号门对面",
+    "tags": [
+      "050203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "诚磊24小时欧式体验·体育中心馆",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于体育馆中心主体育场东北边",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "豪丹宾馆(大洋路店)",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于丽东一村77号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "通济堰",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于碧湖镇堰头村边",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遂昌宇顺民宿",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于妙高街道源坪村塘里新村9号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遂昌梅姐客栈",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于大柘镇大田村小锅小灶农家菜西南方向30米处",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遂昌炭缘客栈",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于上江飞龙路58号中国竹炭博物馆内(近遂昌东高速出口)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遂昌金矿国家矿山公园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于濂竹乡治岭头村101号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "遂昌魅溪民宿",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于石练镇换乘中心斜对面",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郁金香广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于中东路与好溪路交叉口西北100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "酒贰丫黑鸭煲(丽水万地店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于宇雷北路134号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金桥宾馆(丽水学院中山街店)",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于中山街131号(金桥街和交叉口近万地广场)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锅锅大人(云和店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于解放东路210号云和江泰广场F1层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阳光商务宾馆",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于温溪镇安定东路320号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈掌柜(火车站店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于东升北区6幢3单元101",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈有囍火锅(万地店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于岩泉街道宇雷北路104号丽水万地广场4楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈有囍火锅(水阁店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于未来城负一楼B1",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陶元茗·泥炉茶火锅(缙云店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于问渔西路77号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "随便.面",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于中东路544-1号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雷家民宿",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于碧湖镇竹溪村安置新村美购精品生活超市北80米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青年公园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于怡园路与东港路交叉口西北220米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青田丽江宾馆",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于江南大道139号(青田火车站进站口旁)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "青田老叶饼店(晶都花苑店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于紫金街道大洋路492号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "风炉记忆·非遗风炉菜(龙泉店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于龙渊街道环城东路201号南边6植",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "飞天广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于仙都街道缙云仙都景区(东北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "食全食美",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于丽水万地广场3楼中心广场",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "食全食美涮涮锅(金汇总店)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于解放街198号金汇广场2楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香樟公园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于丽水市人民医院院区内",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香樟广场",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于大港头镇大港头村渡南路",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鲜花公园",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于老机场路55号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(丽水中山街丽水大厦餐厅)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于中山街丽水大厦一层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(丽水括苍路餐厅)",
+    "city": "丽水",
+    "category": "food",
+    "description": "位于MT新嬉里超市金桥店东门西南70米",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鼎湖峰",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于仙都鼎湖峰村口",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙板山民宿",
+    "city": "丽水",
+    "category": "hotel",
+    "description": "位于云峰街道东亭小区A-7",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙泉山景区",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于龙南乡凤阳山",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙泉山景区-黄茅尖景区",
+    "city": "丽水",
+    "category": "attraction",
+    "description": "位于龙泉山旅游度假区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

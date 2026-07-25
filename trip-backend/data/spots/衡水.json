@@ -1,0 +1,2108 @@
+[
+  {
+    "name": "七遇优选民宿(衡水恒大绿洲店)",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于中华南大街恒大绿洲22号楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三元快餐(枣强店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于科技局南行",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "不期而遇公寓(衡水学院店)",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于和平路与前进大街交叉口前进北大街88号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东升宾馆(人民西路)",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于人民东路5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东明文化广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于京衡南大街与英才路交叉口南50米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东都宾馆(宝云大街店)",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于宝云大街东团马综合楼33号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中兴广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于中兴西路路北",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "丰收渠带状绿地公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于爱琴海滨河绿地公园",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九州广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于中心大街与河阳西路交叉路口南侧(滏阳生态文化公园)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九月西餐(新大陆商业广场D区店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于人民西路易得电子城E座09号门店",
+    "tags": [
+      "050200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "书香广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于冀州镇和平东路与长乐街交叉口西南角",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "何庄村民健身广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于隆兴路与前进南大街交叉口西北80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "侯家林村文华广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "光明宾馆(衡水火车站店)",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于站前街",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "兴农宾馆(永兴东路)",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于永兴东路1573号兴农大厦4层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冀州码头广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于衡水湖旅游景区(西南角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冰玉民宿蓝波湾店",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于前进街恒丰蓝波湾B区11楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "刘琳川菜坊旗舰店",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于庆丰街260号",
+    "tags": [
+      "050102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "创业公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于宁安路与维明街交叉口西北200米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "北方宾馆(衡水火车站店)",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于新火车站广场八号1幢",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吉野家(衡水市百货大楼店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于人民东路106号衡水百货大层东座1层",
+    "tags": [
+      "050309"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴公渠生态公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于中心街",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "周窝音乐小镇",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于富民路与金音街交叉口南150米",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "呷哺呷哺(河北衡水桃城万达)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于胜利西路489号吉美超市一层",
+    "tags": [
+      "050311"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "呷哺呷哺(百货大楼店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于人民东路106号1幢1-5层衡水百货大楼项目的一层至二层",
+    "tags": [
+      "050311"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "呷哺呷哺(衡水安平世购广场)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于为民路123号世购广场一层",
+    "tags": [
+      "050311"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喜喜喜烧烤(政通街信誉楼店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于智诚大厦底商342号(信誉楼南侧100米)",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喵鲨豆花鱼火锅(武邑店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于长城国际临街26号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(衡水市桃城信誉楼店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于政通街279号1-2层商业(盛世桃城三区沿街商业B区1-2层108号商铺)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(衡水市桃城汇中广场店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于河西街道红旗大街421号汇中广场B座1层9号商铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "壹佰快捷酒店",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于中心街和平路18号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大门凤火锅鸡(衡水盛世桃城店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于盛世桃城二区底商405号门店1-2层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好吃再来大饼熏肉",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于枣强县胜利北路163号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好滋味(大陆裕丰A座店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于人民路大陆裕丰A区13号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安平和谐宾馆",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于中心路南段274号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝云公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于南环西路南",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝云寺",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于河沿镇旧城村",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宝云游园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于宝云大街丽景福苑-一期",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "家风广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于永安东路512号",
+    "tags": [
+      "110100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宾悦民宿(衡水中学店)",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于永兴东路华丽鑫庄2号楼沿街商铺",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "左邻右舍春饼(政通街店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于政通街269号康弘名邸沿街商业1-2层102室",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴滏重庆火锅(庆丰店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于盛世桃城1区西北1门南130米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "带状小游园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于富强街东侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅( 枣强胜利北路店 )",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于胜利北路312号一楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅( 衡水中华南大街店 )",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于胜利路与中华南大街交叉口西南角雷霆大厦1-3楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅(景县凯越名邸店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于凯悦名邸商业街c-111",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅(腾达新城店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于永兴西路1564号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐升记不改良老火锅(衡水广厦上城店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于育才南大街169号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德克士(人民路餐厅)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于人民西路大陆裕丰商业广场德克士818号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "忠义印象大酒店",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于人民西路1039号市政府广场西邻150米",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怀信斋四季涮肉(育才街店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于人民西路818号大陆裕丰商业A区",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "怡水公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于中华大街街道人民西路(市公安局桃城区分局对面)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦府公寓酒店(南环西路分店)",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于河东街道南环西路恒大绿洲21号楼1612室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦曼民宿(衡水汇中广场火车站店)",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于人民西路69号富恒广场3幢4层420室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦湖公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于南环西路5066号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "故城惠贤宾馆",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于故城县故城康宁路与体育街交叉口北行50米路东",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星河湾公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于中华北大街礼仁嘉苑西北侧约40米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景县白天鹅宾馆",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于景安大街159号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景县龙华东城宾馆",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于龙华镇火车站东行20米路北",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景州·舍利塔",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于景安大街245号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李大嫂羊肉大饼(恒丰店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于恒丰·理想城东区19号楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柠檬民宿(恒大绿洲店)",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于河东街道中华南大街恒大绿洲20号楼1楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳州肥姨妈大骨螺蛳粉(爱特购物中心店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于和平西路332号1-2层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柳蛳蛳螺蛳粉(报社街店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于报社街",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桃花广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于中心北大街(孔颖达公园)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "樱花岛",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于衡水湖旅游景区内(西侧)",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比安可自助比萨(衡水店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于人民路南育才街以西新大陆商业广场H区1-2层13号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "比格比萨自助(衡水桃城万达店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于育才南大街699号万达广场4层4025-4026",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水岸观鸟广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于三生岛(西北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水滴口袋公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于大庆路与前进大街交叉口东北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉王公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于安平镇鹤煌大道与汉王路交汇处西北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沙胆彪炭炉牛杂煲(衡水衡百国际店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于人民西路121号衡百国际6F层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "流常老豆腐(总店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于中心街639号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(怡然城夜宵主题店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于大庆东路369号怡然城7层007号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(衡百国际店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于桃城区高新区人民路衡百国际7层0009号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞露营火锅(爱琴海店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于爱琴海购物广场六楼南侧",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湿地之眼广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于中湖大道顺民路顺民庄樱花岛",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滏东公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滏阳公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于滏东街与英才路交叉口西280米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滏阳河体育公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于河阳东路与红旗大街交叉口西300米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灶座小锅烀饼(盛世桃城店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于政通街265号门店(信誉楼斜对面)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "炸鸡草FCM给料西餐自助(衡水怡然城店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于大庆路怡然城5层L5-060",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊喵来了火锅(衡水万达店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于育才南大街699号衡水万达广场F4层",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熊喵来了火锅(衡水怡然城店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于大庆东路369号怡然城5F层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "燕春宾馆(阜城阜百商厦店)",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于阜城镇阜兴北大街",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱琴海滨河绿地公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于河阳西路与育才南大街交叉口东南420米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "环湖公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于金鸡北大街1198号附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "竹风园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于人民路与顺兴街交叉口西北角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "笨大叔手作老火锅",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于中华南大街94号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(桃城万达店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于育才南大街699号万达广场4层4060号东北角",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "糊涂婶麻辣烫·炸串(衡水信誉楼店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于政通街299号盛世桃城三区",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绝对衡水生活广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于育才北大街地道桥北口路东",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿地广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于和平东路与长乐街交叉口西80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老北京严氏爆烤鸭(总店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于新华路与育才街交叉口四中对过",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老永和",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于绿岛尚街西门旁",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老衡西宾馆(衡水站店)",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于中心大街与站前西路交叉口西北150米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(衡百店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于人民东路与报社街交叉口百货大楼东一层",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胜元文化广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于永兴西路与顺兴街交叉口东120米",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "腾达新城东区民宿",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于腾达新城东区15号楼2单元",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舒克悦团游乐堡",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于奥体中心园内西行300米路西",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花吃里山野鲜货火锅",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于胜利北路366号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花吃里山野鲜货火锅(学院店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于和平西路531号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芳竹园火锅(衡水怡然城店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于大庆东路369号衡百怡然城F5",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "菩提苑",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于东门口乡王庄村",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "萧何文化广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于萧何文化广场附近",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蓝波湾自助民宿",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于中华街道前进南大街88号恒丰蓝波湾B区2404室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水一间暖居民宿",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于前进北大街与和平西路交叉口北200米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水丽景苑日租房",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于丽景名苑",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水之眼",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于滏东街",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水乐湾宾馆",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于京衡南大街178,180,182号门店",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水凯盛宾馆",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于兴华大街与冀新路交叉口西南角",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水北斗小筑公寓",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于中华大街街道庆丰街与和平路交汇处向北北斗星城八期2号楼335室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水博物馆",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于河阳西路",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水大雪民宿",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于和平路与庆丰街交口8号公寓4楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水安济桥",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于河西街道胜利东路742号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水尚美宾馆(火车站店)",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于中心大街5号(火车站广场西侧汇龙公寓3幢)",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水市人民广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于中华街道人民西路与育才南大街交叉口西北150米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水市奥体公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于南外环与东湖大道交叉口西南角",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水市桃城区天主堂",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于兴业路附近",
+    "tags": [
+      "110206"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水影像广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于育才街与大庆路交叉口东行200米路南",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水恒丰·蓝波湾阳光暖暖精品公寓",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于前进南大街蓝波湾B区6楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水拾光公寓",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于前进南大街88号蓝波湾公寓8层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水植物园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于李开河东西大街040省道路口",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水湖",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于东湖大道与学港路交叉口西240米",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水湖·闾里古镇",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于滨湖新区魏屯镇",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水湖侏罗纪恐龙奇幻谷",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于鸭鸭乐园内(西侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水湖旅游景区",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于滨湖新区滨河路6号衡水湖旅游景区游客中心",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水湖湿地公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于衡水湖自然保护区管理处东滨河路999号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水湖湿地公园-观景平台",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于衡水湖自然保护区管理处东滨河路999号衡水湖湿地公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水祥泰宾馆",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于站前东路与站前西路交口南行30米路西",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水站前宾馆",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于中心街汇龙公寓5-6号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水老白干景区",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于葵花街与兴业路交叉口东北400米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水野生动物园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于河钢路与905县道南行1000米路东",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水鑫阳光宾馆",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于和平西路727号德隆写字楼4层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水锦绣民宿",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于大庆东路锦绣前程小区3号楼",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水顺利宾馆",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于火车站广场西侧",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡水颐和短租公寓",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于大庆西路78号颐和家园小区19号楼3单元19楼",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衡湖湾码头",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于红旗南大街3369号衡水湖旅游景区(西南角)",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "觅小鲜砂锅麻辣烫(桃城区信誉楼店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于政通街257号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "谷养元八宝粥家常菜(和平路店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于和平西路和平公寓567号底商",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "谷养元八宝粥家常菜(新华店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于新华路红旗大街交叉口东北50米路北",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "谷养元八宝粥家常菜(永兴路店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于永兴西路1389号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "谷养元八宝粥家常菜(绿岛店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于人民路与育才街交叉口南30米路东绿岛假日广场一层西侧",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "辛玛奇幻乐园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于滏东嘉园北",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "郝春花土豆粉",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于绿岛尚街北门西侧门店",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铁北公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于大庆路与前进街交叉口辅路南行200米路西",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "闾里孙敬广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于衡水湖·闾里古镇",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阅风桦",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于大庆西路与育才北大街交叉口东南280米",
+    "tags": [
+      "090601"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阜城湖公园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于281省道东50米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陇八味兰州牛肉面(衡水店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于中华大街街道民西路743号绿岛写字楼一楼底商",
+    "tags": [
+      "050121"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陌上花开衡水自助公寓(火车站汽车站店)",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于河西街道榕花大街161号滏兴国际园1号楼1单元719室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "顺鑫牛肉汤馆",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于中华南大街888号岸芷汀兰509号店",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "饶阳传统豆腐脑",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于饶阳健康西路与喜奥北大街交叉口西40米",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "馨安公寓酒店(哈励逊国际和平医院店)",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于与问津街交叉口西南角天悦公馆22号公寓楼沿街楼1719室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "马拉松广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于衡水湖旅游景区(东北角)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "驿家365酒店(枣强汽车站店)",
+    "city": "衡水",
+    "category": "hotel",
+    "description": "位于人民东街136号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "魏家屯于家庄村东方红文化广场",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸭鸭乐园",
+    "city": "衡水",
+    "category": "attraction",
+    "description": "位于红旗南大街3369号衡水湖旅游景区内(南侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(爱特生活广场店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于大庆路755号爱特生活广场一层001、负一层001号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(衡水麦当劳人民东路百货大楼餐厅)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于人民东路106号衡水百货大楼LI-01号麦当劳餐厅",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(万达广场店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于万达广场四楼龙歌自助小火锅",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龍歌自助小火锅(衡百国际店)",
+    "city": "衡水",
+    "category": "food",
+    "description": "位于高新区人民路衡百国际6楼东北角6001号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

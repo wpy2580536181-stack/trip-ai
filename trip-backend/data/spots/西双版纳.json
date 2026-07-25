@@ -1,0 +1,3317 @@
+[
+  {
+    "name": "MaMaLao老挝烤肉糯米饭",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于允景洪街道办事白象湖社区居委会景洪市白象湖停车场棚架房2-3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "PARK2号湿地公园",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于万景大道与望天路交叉口北140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "一洲菊花过桥米线",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于嘎兰中路92号14栋101号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万达国际度假区",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于曼斗路与旅游巷交叉口南440米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "上来夜市",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于浩宇·观澜1号小区13幢",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东风农场博物馆",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于东风农场文化广场附近",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国热带蜜蜂博物馆",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于景洪工业园区",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中国科学院西双版纳热带植物园",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐仑镇213国道",
+    "tags": [
+      "110103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中老界碑",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于东盟大道西50米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中雪冰冰凉(莎湾国际店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于金鹿巷莎湾国际C-90号(近莎湾国际)",
+    "tags": [
+      "050700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "九十八号凉拌",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于允景洪街道办事嘎兰社区居委会嘎兰中路61号A栋3",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云中菌·野生菌蒸汽火锅",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于景勐寨3栋101",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云傣神话孔雀宴(孔雀城店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双景孔雀楼A1-108",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云南西双版纳景洪市告庄夜市",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于菩提大道与万象大道交叉口西北240米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云桥客·过桥米线(大金塔店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双景景勐寨6栋105号(近大金塔寺)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云雀金湾·傣家孔雀宴主题餐厅(告庄一店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于喜乐温泉酒店旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云雀金湾·傣家孔雀宴手抓饭(二分店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄景岱寨B5栋",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云驻·诺亚江景度假酒店(景洪告庄西双景星光夜市店)·餐厅",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双景景宰寨25栋",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五福龙梯",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于景匡巷与曼听路交叉口西南440米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亚洲象博物馆",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐养镇213国道旁西双版纳野象谷景区内(东北角)",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "今好米线(金地店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于嘎兰中路100号C1-9号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伍号勐混牛撒撇米线(泼水广场总店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于勐海路西双十二城酒店A区4-109号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "优客里里精品民宿(西双版纳告庄夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于宣慰大道告庄西双景景匡寨9栋2021室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "傣乡水城",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐腊路34号(广电路口)",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "傣十二·四季云南菜(孔雀城店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于江北街道告庄西双景孔雀楼景岱寨A1-127号商铺",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "傣十二·四季云南菜(星光夜市店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双景湄公河人家A栋105号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "傣庄园-正宗傣味餐厅",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双景景亮寨6栋C101-102",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "傣文化博物馆",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐罕路1号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "傣牛撒撇米线馆(景兰国际店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于景德东路6号景兰国际B栋106号门面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "傣王行宫",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于曼听路35号曼听御花园景区内(北侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "傣馋德宏私房菜",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于允景洪街道沙湾西环中心11栋3号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冠宇商务酒店(西双版纳景洪万达度假区店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于曼回索村95号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冰雪世界",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于万景大道西双版纳万达主题乐园内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "冷空气咖啡·星光夜市全景",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双景星光夜市4号入口闸机口处(东门)",
+    "tags": [
+      "050500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "勐巴拉六国皇家植物园度假区",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐海县象山1号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "勐巴拉娜西大剧院",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于告庄西双景内(东侧)",
+    "tags": [
+      "080603"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "勐泐大佛寺",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐泐大道顶端4路1号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "勐泐雨林健康主题公园",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "勐腊县瓦龙总佛寺",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐腊正街与景岗街交叉口西260米",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "勐腊家毅民宿",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐腊镇下龙茵村",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南腊河星光夜市",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于青年路与滨河路交叉口东北260米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "原始森林公园爱伲山寨休息亭",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于G8511昆磨高速附近",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "古纳卡傣族文化园",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于西双版纳州度假区曼贺纳村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "告庄西双景",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于曼泐路12号靠近达兰商业广场",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "告庄西双景赶摆街夜市",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于凤起湄澜西南侧100米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "和谐大酒店(版纳客运站孔雀湖店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐泐大道25号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "啊丹东风凉拌",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于勐遮路17号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喆家国际酒店(西双版纳景洪泼水广场江边夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于曼兰大道1号曼景兰古城17栋",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "团花树",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于距景洪市8公里处214国道旁西双版纳原始森林公园内(东侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "基诺民族博物馆",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于213国道",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(景洪市白象花园店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于玖沐公馆A栋106",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "壹米骑行公园",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于万达旅游度假区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大世界宾馆(橄榄坝大桥分店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于橄榄坝农场橄榄坝傣园路",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大井重庆老火锅",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于西双十贰城观澜区D81号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大理烧饵块(龙掌路店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于龙掌路与白象巷交叉口东南20米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大连酒店(景洪通购店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐龙路10号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大金塔夜市",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于万象大道与菩提大道交叉口南440米",
+    "tags": [
+      "060000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "婉泰·特色小吃·舂鸡脚(告庄二店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双景(西北角)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安之若素民宿(告庄西双景星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于江北街道曼泐路131号澜江悦1单元605号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安之酒店Anzh·hotel(告庄星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于江北街道曼阁社区居委会景亮路208号1栋02室",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安达宾馆(北路社区卫生服务站北)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐腊北路85号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宏菌园·百菌宴野生菌火锅私房菜",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于允景洪街道勐腊路34号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小两口新傣式·冰吧(总店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于允景洪街道白象路9号",
+    "tags": [
+      "050700"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小勐拉",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于打洛镇",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小象山公园",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于志恒·小象山西侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "居安精品民宿(民族风情园店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于民航路51号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "山荨·纯野生菌火锅",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双景景亮寨29号楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岩罕的傣傣博物馆",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐养镇曼龙岗村",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "布朗族生态博物馆",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于西定乡章朗村143号",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德克士(莎湾国际店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于勐泐大道39号沙湾国际广场A1-1号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "恋居民宿(西双版纳景洪告庄西双景星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于告庄西双景景栋寨3-2栋9层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "悦翔酒店(勐巴拉国际度假区店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐海镇嘎海路9号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "慕凡民宿(告庄星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于告庄西双景景真寨3栋5层513",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "政运宾馆(版纳客运站店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于民航路1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "文科酒店",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于菩提大道105号",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "易武茶文化博物馆",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于易武乡",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星光夜市",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于曼泐路与旅游巷交叉口南80米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星光夜市B区",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于青年路与滨河路交叉口东北340米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星光夜市泰国街",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双景星光夜市泰国街",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春武里小吃馆",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双景湄公河人家A栋1层109号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "昭通天麻火腿鸡火锅(景洪店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于傣江南B8栋105号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "普洱茶博物馆",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐混镇贺开村委会曼弄新寨村民小组13号贺开庄园内",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景宰寨-告庄东塔",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于万象大道与菩提大道交叉口西南440米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景洪一家客栈(告庄西双景店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于告庄西双景景宰寨36栋",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景洪九十七栈傣韵情主题客栈",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于告庄西双景景法寨28栋(近告庄大)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景洪华兴商务酒店(泼水广场店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐海路7号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景洪嘉禾商务酒店(西双版纳嘎洒国际机场店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐泐大道75号山水云天1栋1单元3层(山水云天门口进入左手边)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景洪市大金塔寺",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于告庄西双景",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景洪市泼水广场",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于景兰一巷与景兰五巷交叉口东100米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景洪庄景园客栈",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐养老路2号(望城楼旁)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景洪志远康宁客客栈(西双版纳嘎洒国际机场高铁站店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于嘎洒镇曼占宰村委会曼喃村民小组149号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景洪怡君酒店(高铁站店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于大曼么大青树2路公交车站旁",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景洪景兰客栈",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐龙路景兰国际茶城N栋",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景洪枫雨民宿(告庄星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于景法寨1栋2单元9楼929前台",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景洪气象宾馆",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于嘎兰路10号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景洪花腰傣农家客栈",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐养镇曼洒浩村委会曼么卧村小组",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景洪语霖小筑客栈",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于曼景勐73号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景洪金港湾商务酒店(告庄星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于曼斗村旅游巷317号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "景洪金莲花客栈(嘎洒国际机场高铁站店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于曼占宰新村13号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼亭客栈(西双版纳景洪曼听公园店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于曼听路107号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼听公园-佛教文化区",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于曼听路35号曼听公园",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼听公园-周总理纪念碑",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于景洪工业园区勐海路12号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼听商务酒店(曼听公园店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于曼听路107号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼听御花园景区",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于曼听路35号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼听御花园景区御象园",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于允景洪街道允景洪街道曼听路35号曼听御花园景区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼听御花园景区白塔",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于曼听路35号曼听御花园景区(西南角)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼弄枫度假村",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于达仁堂国药文化展览馆西侧100米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼弄枫旅游度假区",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于曼弄枫9号路",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼弄枫槟榔园餐厅",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于曼弄枫庄尖路10号",
+    "tags": [
+      "170400"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼掌村",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐养镇勐养农场",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼斗佛寺",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于曼斗路与旅游巷交叉口西40米",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼斗商务酒店(西双版纳景洪告庄星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于曼泐路与曼斗旅游巷交汇处",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼景兰古城",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐棒路10号",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼沙古寨",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于嘎洒镇主题公园路新苑小区西北150米",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼磊佛塔",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于惠勐公路附近",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼贺大佛寺",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐海镇勐海中心部",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼贺纳自然村寨",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于西双版纳州度假区锦绣时光南侧220米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "曼飞龙白塔",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于大勐龙坝曼飞龙山",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "望天树-空中走廊",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于望天树风景区内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "李笑笑重庆鲜货火锅店",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于普洱茶博览园C区1幢5单元2003号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "杨杨小吃",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于曼斗路5号曼斗村附91号(澜仓江小马清真傣味烧烤后面)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柒家客栈(曼听公园店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐捧路18号景蓝银钻A栋",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "格格府(曼景兰古城1期店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于允景洪街道勐海路辅路2号曼景兰古城一期3栋",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "桃园居神石山度假山庄",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于神石山一念云上酒店东南侧140米",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梦回马帮.云南菜(大金塔店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于大金塔寺旁边景兰寨6栋110号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梦回马帮.云南菜(星光夜市店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双景湄公河人家101号星光夜市9号门",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "楠塔纳傣味米线(告庄店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双景景勐寨9栋125楠塔纳傣味米线",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "橄榄坝",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于曼乍村庄19号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "橄榄坝宾馆",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐罕镇傣园路13号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "正同昌茶博物馆",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于曼尾村委会曼养罕村社房旁边",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民族歌舞表演场",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于8公里处214国道旁西双版纳原始森林公园内(东北角)",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "水巷子重庆火锅(景洪店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于浩宇大道与观澜大道交叉口东北100米",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汇锋大酒店",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于西双版纳傣族自治州景洪市旅游度假区曼弄枫曼贡(近曼贡村)",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江边夜市",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于滨江大道36号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江边夜市小吃街",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江边观礼台",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于观礼巷2号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "沐毫傣泐孔雀宴手抓饭傣味烧烤(曼听店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于曼听路40号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "治愈小院.一朵菌的告白野生菌火锅",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于滨江公馆三栋福来酒店往里走电梯口斜对面",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "泰森格大酒店",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐捧路18号(天元·景蓝银钻内)",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(爱琴海购物广场店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于西双版纳州渡假区管理委员曼弄枫村委会勐泐大道55号爱琴海购物广场四层F401、402、405号商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海皇阁海鲜牛肉自助烧烤火锅",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于嘎兰中路61号(原勐巴拉纳西)D01号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渌野美宿(西双版纳景洪告庄星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于曼泐路350号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湄公河·星光夜市",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于告庄西双十景区(大金塔寺南侧)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湄公河·星光夜市",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双十景区(大金塔寺南侧)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湄公河快艇",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于景洪港(西双版纳海事局门口)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "源森望江酒店(告庄星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于告庄西双景景真寨3栋",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滇绗草哈尼族传统文化体验式博物馆",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐混镇曼冈村",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨江夜市",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于滨江夜市36号摊位",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "澜沧江湄公河之夜歌舞篝火晚会",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于曼听路35号曼听公园",
+    "tags": [
+      "080500"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "澜湄观光夜市",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于景洪市勐罕中心卫生院西南侧",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灼宴.傣泰融合菜",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于江北街道西双景告庄景兰寨11栋101-2",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱之隅",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于嘎洒街道宰勐北路71-2号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱尚菌野生菌火锅(西双版纳店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于勐罕路8号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛寨山·炭火锅(泼水广场店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于勐海路4号1-37号门面",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉波早点店",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于嘎兰中路92号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉涵民宿(西双版纳勐海店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于八公里曼尾村130号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "玉香婻傣家糯米饭",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于龙掌路与庄洪路交叉口南20米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白象沙滩",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于允景洪街道观澜大道与滨江大道交叉口东320米",
+    "tags": [
+      "110208"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白象湖",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于白象路9号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "百旺烧烤(景洪店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于宣慰大道96号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "磨憨大酒店",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于磨憨经济开发区东盟大道451号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "简朴寨云南菜手抓饭餐厅(泼水广场旗舰店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于勐海路45号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "糊辣子景洪凉拌",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于新剧院门口",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "紫就商务酒店",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于金都时代广场A3栋(近青年路)",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红牙象·傣味美食园",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于民航路星湖湾小区正对面",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红莲凉粉店",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于景红宣慰大道116号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "绿石林景区",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐仑镇中国科学院西双版纳热带植物园内(东南角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缅甸殿",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐泐大道顶端4路1号西双版纳勐泐大佛寺",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "缅花小吃(白象湖店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于白象路9号白象湖",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "罗馒头香芋包",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于宣慰大道53号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老仓醋米线(告庄店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于江北告庄西双景岱寨C6栋101",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胖妈巴拉达小吃店",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于易武路21号瑞丰小区门店",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "舒欣客栈(宣慰大道分店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于宣慰大道曼斗137号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芭蕉叶客栈(西双版纳嘎洒国际机场店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于民航路111号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芭西哩湾",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于傣族园北门芭西哩湾",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "花伴里宾馆",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于宣慰大道156号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芳野独居客栈(星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于告庄西双景景法寨3栋",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "芸山菌.野生菌火锅(爱琴海店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于勐泐大道55号西双版纳爱琴海购物中心4楼F4003",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "苍耳有花开客栈(西双版纳景洪告庄星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于宣慰大道2号告庄西双景景亮寨6幢a112号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茄子恰恰·脆皮小麻鸭(西双版纳爱琴海店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于勐泐大道55号爱琴海购物中心四楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茶王夜市·地摊经济美食城",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于雨林大道与景竜路交叉口西南240米",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "茶马古道景区",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐海镇",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莎湾椰德纳",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于勐泐大道沙湾国际广场3层",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莱叻咔咔",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于庄洪路12号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莱泐小院(星光夜市店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于星光夜市大金塔东门进来左转1分钟即到",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "菌乡缘野生菌蒸汽火锅",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双景景栋寨8栋",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "菌公主·野生菌蒸汽火锅",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于宣慰大道告庄西双景景宰寨39栋西塔1层1-108号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "菌公主·野生菌蒸汽火锅(告庄大金塔店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双景景勐寨10栋102-3",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "菌喜四季·云南野生菌火锅(星光夜市店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双景湄公河人家A栋1楼102号店铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "菌巷·云南野生菌火锅",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于允景洪街道办事曼景兰社区委员会龙舟广场18栋804",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "菌彩云南野生菌火锅(告庄店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双景景宰寨39栋1层110商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "菌王府野生菌火锅",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄景岱寨A区孔雀城1号楼131",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蝴蝶苑",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于",
+    "tags": [
+      "120302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "融创国际度假区",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于万景大道与龙栋大道交叉口西南360米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "融创西双版纳旅游度假区",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于融创茂路与新城东路交叉口南140米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "融创西双版纳旅游度假区",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于融创茂路与新城东路交叉口南140米",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳万福宾馆",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐泐大道24号近西双版纳热带花卉园",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳云兮.里客栈(星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于告庄西双景景亮寨10栋",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳傣族园",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于橄榄坝",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳傣族园-勐罕曼听佛塔寺",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐罕镇南郊橄榄坝傣园路1号西双版纳傣族园内(东侧)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳傣族园-曼听傣族村寨",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐罕镇橄榄坝",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳傣族园-曼嘎傣族村寨",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐罕镇南郊橄榄坝傣园路1号西双版纳傣族园内",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳傣族园-曼春满佛寺",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于橄榄坝傣族园内",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳勐泐文化旅游区",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于菩提大道下段",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳勐泐文化旅游区-山顶公园",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于曼弄枫片区南联山西利盟路2号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳原始森林公园",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于城东8公里处",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳原始森林公园-扶桑",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于距景洪市8公里处214国道旁西双版纳原始森林公园内(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳原始森林公园-金湖",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于距景洪市8公里处214国道旁西双版纳原始森林公园内(东北角)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳原始森林公园-雨树",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于城东8公里处西双版纳原始森林公园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳夜市",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于告庄西双景",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳州古茶山茶叶博物馆",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于允景洪街道勐罕路告庄西双景景真寨1栋206室",
+    "tags": [
+      "061200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳州国际度假区",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于景洪工业园区",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳总佛寺",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于坝吉路18号",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳旅游度假区",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于嘎栋工业园区",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳星光夜市店",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于宣慰大道与曼泐路交叉口东100米",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳景洪市晨光酒店(泼水广场店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于允景洪街道办事曼景兰社区居委会曼听路曼景兰村50号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳景洪星逸民宿(告庄星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于告庄西双景景匡寨9栋",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳景洪沐溪源客栈(告庄西双景星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于告庄西双景内(西侧)",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳景洪澜畔小筑民宿(告庄西双景星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于宣慰大道景栋寨2-1栋酒店大厅",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳景洪福大酒店",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于嘎栋街道曼沙路18号雨林华庭7栋110号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳景洪繁花江景民宿(告庄星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于孔雀城A1栋2单元",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳景洪芷芳满庭酒店(告庄星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于允景洪街道办事曼阁社区居委会江北告庄西双景景宰寨37栋",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳景洪金瑞酒店(告庄夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于西双版纳傣族自治州曼斗村旅游巷居民小组140号14栋1楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳景洪隆鑫汇客栈(告庄西双景星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐罕路4号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳民族博物馆",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于西双版纳州度假区雨林大道与勐泐大道环路交叉处",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳江之韵酒店",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于西双版纳傣族自治州西双十贰城国际公馆1栋",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳沧澜艺宿(告庄星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于江北街道告庄西双景景岱寨孔雀城A1-5单元1202室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳热带植物园-热带雨林吊桥",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐仑镇中国科学院西双版纳热带植物园内(西侧)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳热带花卉园",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于宣慰大道99号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳热带花卉园西双版纳自然博物馆",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于宣慰大道99号",
+    "tags": [
+      "140000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳热带雨林国家公园望天树景区",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于曼它拉路往北13公里",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "西双版纳瑞吉大酒店",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于曼弄枫开发区丽水景苑西大门(近曼听公园)",
+    "tags": [
+      "100103"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "见桕踅妃滥傣王·遇式沉浸主题游园会",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于禧江苑东侧250米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赵老倌·云南特色过桥米线·凉粉(版纳店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于嘎兰中路101号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "路南山国际度假区",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于泽兴运输车队西南侧60米",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野象谷景区",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于勐养镇213国道旁",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "野象谷雨林牧象俱乐部",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐泐大道70号",
+    "tags": [
+      "080000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金地大酒店",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于嘎兰中路100号",
+    "tags": [
+      "100102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金大象商务酒店",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于景亮路2号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金棕园",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于民航路23号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金立阿伟山庄",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于磨憨口岸",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金链温泉度假村",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐巴拉国际旅游度假区素可泰养心园二期七栋",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鑫郡酒店(泼水广场店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于曼景兰69号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "铜矿小吃店",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于澜沧江路4号24栋",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "锦绣大酒店(南腊河星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐腊正街",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长龙夜市",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于勐海路辅路附近",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雨林秘境江景民宿(告庄星光夜市店)",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于曼泐路告庄西双景景匡寨9栋28楼2813号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雨林飞鹰",
+    "city": "西双版纳",
+    "category": "attraction",
+    "description": "位于万景大道西双版纳万达主题乐园内",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "香菜薄荷云南菜",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于允景洪街道办事景兰大酒店外围JD111号商铺",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鳄鱼谷·巅云之岭度假村",
+    "city": "西双版纳",
+    "category": "hotel",
+    "description": "位于勐海镇老214国道旁老道班1栋1号",
+    "tags": [
+      "080401"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(版纳告庄店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于江北告庄西双景景罕寨15栋127号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(西双版纳高铁站站前广场餐厅)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于西双版纳高铁站站前广场管理中心独栋(进站口方向)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(西双版纳麦当劳王府广场餐厅)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于勐海路王府广场1号楼",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麻六自助火锅(孔雀湖店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于宣慰大道104号电子商贸城二楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙咪玉舂现舂鲜货傣味火锅(泼水广场店)",
+    "city": "西双版纳",
+    "category": "food",
+    "description": "位于勐海路6号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

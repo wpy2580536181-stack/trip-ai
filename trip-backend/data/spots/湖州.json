@@ -1,0 +1,2342 @@
+[
+  {
+    "name": "七欣天(安吉云鸿西路店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于云鸿西路139号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七欣天(湖州新华路店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于新华路702-712号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "七欣天(长兴海兴路店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于雉城镇海兴路161号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三古月·老湖州面馆·地标美食(状元街店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于勤劳街103-111号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三合鲜虾面(百乐街店43号)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于武康镇百乐街43号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "三明治公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于富城商楼",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "云上草原国际山地旅游度假区",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于山川乡山川村",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仁皇山体育公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于仁皇山公园健身步道与林泉路交叉口南340米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仁皇山公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于仁皇山公园山水清音景区(仁皇山西大门)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仁皇山景区",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于青铜路与仁皇山路交汇处",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仁皇阁",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于仁皇山街道青铜路与仁皇山路交叉口仁皇山景区",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "仁达苑",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于青铜路1155号",
+    "tags": [
+      "050101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "伴虾伴蟹(天际店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于星火外滩广场二楼210-212",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "余家漾公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于环漾路与苕溪东路交叉口",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佬钱湾仔(仁皇店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于仁皇山路355号仁皇山生活广场商业AB座B号楼B1-14",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "佬钱湾仔(衣裳街店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于衣裳街69-71号(红旗路邮政储蓄对面)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "凤凰公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于龙溪北路附近",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南太湖体育公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于滨湖大道518号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南太湖湿地奥体公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于金田路518号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南浔古镇",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于南浔镇东塘路古镇东大门",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南浔古镇-小莲庄",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于南浔古镇南西街124号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南浔古镇东大门旅游驿站",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于便民路583-38号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南浔年华宾馆",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于适园西路608号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南浔星晨旅馆",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于南林路与适园路交叉口北80米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南浔格瑞斯酒店",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于万顺小区东南门西80米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南浔蓝天旅馆",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于南浔镇泰安路564号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "南浔附近花居民舍 住宿 旅馆",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于练市镇水口集镇水口路376号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "吴兴区小西街历史文化街区",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于小西街文创休闲街区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "喵掌柜酸菜活鱼",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于仁皇山街道仁皇山路355号湖盛仁皇山生活广场A座A1-06",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城图广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于湖州银泰城对面",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "城山沟景区",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于和平镇城山村平桥水库旁",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "埭溪老街传统美食(仁皇山庄店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于仁皇山庄49-1幢德清路636号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "外庄公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于外庄中路与得业路交叉口西南140米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "外滩壹号大酒店",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于外滩1幢",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大浪炭火烤肉",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于开元路星火天际外滩广场一层A163、A168号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天天宾馆(人民路店)",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于人民路201号四楼",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "天荒坪风景名胜区",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于S205省道",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太湖演艺城",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于太湖图影旅游度假区",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "太湖龙之梦度假区",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于图影大道888号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "好来屋宾馆(湖州练市镇店)",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于练市镇新街32号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "姥家地锅鸡(营盘店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于武康街道营盘小区101幢(顺昌巷32-38号)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "子妍面馆(天荒坪余村店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于天荒坪镇山河村(农商银行向上300米)",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "子妍面馆(总店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于昌硕街道递铺中路821、823号(百悦博园)16幢营08、09室",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "子妍面馆长兴总店旗舰店",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于雉城街道海兴路512号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安吉中南百草原景区",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于递铺街道三官村",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安吉云欣苑民宿",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于灵峰街道灵峰村水口新村二区20号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安吉云都宾馆",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于玉华路112号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安吉余村景区",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于天荒坪镇余村",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安吉天子湖话桑麻民宿(西北线分店)",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于天子湖镇西亩村田圩自然村78号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安吉天荒坪幽兰小筑民宿",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于港口村炭窑弯自然村36号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安吉天龙宾馆",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于昌硕街道天荒坪中路328号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安吉山知鱼民宿",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于天荒坪镇横路村横园里自然村059号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安吉康乐旅馆(万象世界购物广场店)",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于昌硕街道大康路125号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安吉春风里民宿",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于山川村36号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安吉滕云居民宿",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于递铺镇灵峰街道水口新村二区31号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安吉芬芳宾馆(天荒坪中路店)",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于昌硕街道天荒坪中路330号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安吉茶木贾民宿",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于孝丰镇城东社区徐家岭组51号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安吉蜂语民宿",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于递铺镇昌硕街道城北小区(东区)10幢5号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "安吉金日宾馆",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于昌硕街道天荒坪中路316号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "宜家商务宾馆(县前东街店)",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于海陆新都汇7幢",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "将军山公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于南太湖新区仁北片区,东侧为将军山路,南侧为金田路,西侧为青铜路,北侧为同心路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小圆凌宾馆",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于织里北路290号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "小梅港体育公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于太湖路1188号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "尚食·卢记烧饼总店",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于凤凰路689号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "岩内料理食堂(仁皇山路店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于仁皇生活广场A座1楼(佬钱湾仔旁)",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "巴奴毛肚火锅(湖州浙北生活广场店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于爱山街道南街669号浙北购物中心4层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "市民广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于龙王山路天盛花园",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开发区人口文化广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于滨河路与体育场路交叉口东200米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开发区人口文化广场-王伟纪念广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于太湖路与梧桐路交叉口西南200米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家砂锅(湖州南浔店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于人瑞路205号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家砂锅(湖州阳光城店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于嘉业阳光城太湖路99号阳光铭楼阳光一路9号,15号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "张家砂锅(长兴浙北店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于浙北商业广场11栋101",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "徐记面馆(天荒坪店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于天荒坪镇,山河村,镇中路",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "得月楼宾馆(湖州府庙店)",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于北街府庙商城7层",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德清五四景区",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于莫干山镇五四村",
+    "tags": [
+      "110203"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德清水月美宿酒店",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于武康镇曲园北路128号",
+    "tags": [
+      "100105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "德清红房子宾馆",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于兴康南路296号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "志新宾馆",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于人民南路附近275号(金欢小区对面)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "捞佰吉(天盛店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于龙王山路1076号",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新世纪宾馆(织里南路店)",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于织里南路140号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新市古镇",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于胡家文路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "旺火鸡煲",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于武康街道五里牌路234号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星吉景观民宿(德清西站店)",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于永安街92恒升大厦F10层",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "星河里广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于星河里商业中心北侧80米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "春梅姐鲜鸡煲火锅(仁皇天际店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于星火天际外滩广场",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "東大方(湖州白鹭迎店 )",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于龙开路179号北楼1层",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "松野之间among the pine trees",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于孝丰镇横溪坞村大岭脚自然村58号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梅溪·小伙子干挑面(勤劳街店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于爱山街道勤劳街62号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梅溪·小伙子干挑面·南浔地标面馆(南浔古镇店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于南东街",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梅溪·小伙子干挑面·莫干地标面馆(莫干山店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于莫干山镇庾信北街42号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "梅溪·小伙子干挑面·非遗安吉(安吉总店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于苕溪路636号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "歪胖子·山野鲜货火锅(湖州德清店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于武康街道千秋街138号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "民国广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于图影大道888号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "汉堡王(湖州爱山广场)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于爱山广场A2-D区11号楼",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江南桥园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于北街与苕溪西路交叉口东80米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "河滨公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于临河路7号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "法华寺",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于同心路",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "浙里牛潮汕鲜活牛肉火锅(中央世家店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于龙泉街道外环北路750-752号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(南浔吾悦广场店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于南浔镇南林路518号3层Z10号室商铺",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(安吉万象世界店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于金石路与人民路交叉路口九州昌硕广场安吉万象世界购物中心四层4004号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(浙北大厦店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于南街669号浙北大厦购物中心六层6001号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "海底捞火锅(银泰百货东吴店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于劳动路518号东吴银泰城6楼",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "清河广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于清河路东40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "渝海棠毛肚火锅",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于英溪南路47-53号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "温馨小寓民宿",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于武康镇兴康南路康乐小区37幢2单元503室",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖小馆(仁皇山店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于仁皇山路515号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州儿童公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于陆王路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州兴华旅馆",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于南浔江南皮货市场东3门西南80米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州历史文化名人园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于湖州历史文化名人园(湖州图书馆西)",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州双双旅馆",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于商城路20号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州君来宾馆",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于织里镇织里北路19-20号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州太湖旅游度假区",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于太湖路6188号",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州太湖旅游度假区-月亮广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于太湖路6188号湖州太湖旅游度假区内(南侧)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州太湖旅游度假区-爱之广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于太湖路5788号月亮广场内",
+    "tags": [
+      "120304"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州好来屋宾馆",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于杭长桥中路99-51号(近104国道)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州师范大学长兴广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于湖州师范学院长兴广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州慈善文化园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于将军山公园",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州晶鼎大酒店",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于外环东路106号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州杨家埠大酒店",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于杨家埠直街与104国道交叉口东南50米",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州温泉高尔夫俱乐部",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于杨白线1818号",
+    "tags": [
+      "080201"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州紫荆花宾馆",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于竹翠苑新华路三层187",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州菰城景区",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于龙王山路仁皇山风景区南大门游客中心1层",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州铁佛寺",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于劳动路192号(近公园路南)",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "湖州黄金湖岸景区",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于滨湖街道黄金湖岸(雷迪森酒店后面太湖大堤上)",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨河公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于龙溪北路159号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "滨河广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于滨河路866号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灵峰旅游度假区",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于白缸线与刘彭线交叉口西北40米",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "灵溪公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于浮玉南路东侧",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱山街道狮子巷社区远教广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于红旗路与常平巷交叉口东北40米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛市坎火锅店(长兴总店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于县前中街59号金江大厦F1层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "状元楼(东大街)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于南浔镇南东街18号(时间对面休闲茶吧)",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "狮子巷休闲广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于爱山街道狮子巷社区远教广场",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白鱼潭公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于白白鱼潭路与华丰一路交汇处",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "益气煲健康好骨汤(安吉店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于递铺镇祥和路42-52号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "盛世广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于小梅港路393号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "神仙居宾馆(云鸿西路)",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于云鸿西路126号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "竹乡国家森林公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于云上酒吧Serene Bar西北侧220米",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "米村拌饭(湖盛仁皇山店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于仁皇山路355号湖盛仁皇山生活广场1fA1-16(1楼肯德基旁)",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "红领巾广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于山前路与丁家桥路交叉口北320米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老乡鸡(星火天际外滩广场店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于星火天际外滩广场",
+    "tags": [
+      "050118"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老娘舅(湖州仁皇山路信业生活广场店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于仁皇山路355号湖盛仁皇山生活广场B1层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老娘舅(湖州龙王山路城市之心)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于城市之心·家园东南门旁",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "老树林餐吧",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于长兴路258号美年大健康楼下",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "肯德基(湖州仁皇山店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于仁皇山路355号仁皇山生活广场AB座A1-27号铺",
+    "tags": [
+      "050301"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胡瑗广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于星海商业广场(星海名城南)",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫干山吉安民宿",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于莫干山镇劳岭村岭坑里三组27号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫干山国际旅游度假区",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于黄郛东路428号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫干山开元森泊度假乐园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于武康镇科技新城往南3公里处玉萍路上宝塔山村",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫干山梧桐守望民宿(长虹街分店)",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于莫干山镇五四村外安村一号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫干山竹漫山居",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于莫干山镇东沈村(近钱百线)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫干山逐山民宿",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于莫干山镇高峰村李家塘6号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫干山风景名胜区",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于莫干山",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫干山风景名胜区-剑池",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于莫干山镇孩儿巷30号莫干山风景区内",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "莫干山鸭蛋坞山庄精品民宿",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于莫干山镇劳岭村鸭蛋坞31号,近劳岭隧道1公里,裸心谷3公里附近",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒲公英爱心广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于杭长桥南路东南30米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虎记现炒海鲜粥火锅",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于仁皇山生活广场A座A1-14-01号",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "虾忆·湖州精致本帮菜(星火天际外滩广场店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于南太湖新区仁皇山街道星火天际外滩30幢一楼A125A126A127A128",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "衣裳街历史文化街区",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于勤劳路259号状元街",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "袁二妞干挑面馆",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于孝丰镇云鸿塔路290-292号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "迎宾广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于洪桥镇碧岩村龙之梦动物世界步行区",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金悦宾馆(三里湾路店)",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于新市镇湾仔超市旁边",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长兴迎朋大酒店",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于槐坎商贸中心3幢",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长田漾湿地公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于太湖路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "阿娟面馆(营盘小区店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于武康镇营盘小区志成巷15号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "雉州客栈",
+    "city": "湖州",
+    "category": "hotel",
+    "description": "位于雉城街道古城西路53号",
+    "tags": [
+      "100000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "霅溪公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于东街与马军巷交叉口北100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "霅溪公园-骆驼桥广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于北街与人民路交叉口东南60米",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "靓靓的鲜牛肉火锅",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于九州昌硕广场三栋二楼219-220",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "面来了",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于中兴南路",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "项王公园",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于人民路513号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "项王公园-奉胜",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于爱山街道紫云路项王公园西南门",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "飞英塔",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于塔下街155号",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "馋阿麽·手工小吃(总店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于东庄路140号",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鸿姐老火锅(爱山广场店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于爱山广场23号楼(据湖州浙北大厦购物中心步行490米)",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(胜利餐厅)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于胜利路百汇大厦一层",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "黄金湖岸景区志愿广场",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于湖滨路1号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙之梦冰雪世界",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于湖长二通道928号圆梦大道与龙之梦大道交叉口",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙之梦动物世界",
+    "city": "湖州",
+    "category": "attraction",
+    "description": "位于太湖图影旅游度假区碧岩村",
+    "tags": [
+      "110102"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙凤面馆(南西路)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于南浔古镇南东街32号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "龙门烧烤·鲜串·龙虾·海鲜(天际外滩店)",
+    "city": "湖州",
+    "category": "food",
+    "description": "位于仁皇山街道天际外滩广场A155-A159号A170-A172号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]

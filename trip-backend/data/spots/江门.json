@@ -1,0 +1,782 @@
+[
+  {
+    "name": "0750公寓(新会城西店)",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于城西一路27号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "万兴商务酒店(祥龙中路店)",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于祥龙中路祥龙一区47号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "下沙公园",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于河南中沙路惠泽园西100米",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "东湖公园",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于港口路7号",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "中山公园",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于白沙街道范罗岗2号首层",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "五邑华侨广场",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于发展大道南侧",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "亮庆唐茶(世纪城店)",
+    "city": "江门",
+    "category": "food",
+    "description": "位于白沙大道东10号首层",
+    "tags": [
+      "061200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "千里马旅馆(江门建设二路店)",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于建设二路87号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "叱石风景区",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于杜阮镇",
+    "tags": [
+      "110205"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "启明里",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于白沙街道跃进路",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "启明里广场",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于跃进路启明里2号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "圭峰山风景名胜区",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于圭峰路",
+    "tags": [
+      "110202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "塔斯汀中国汉堡(江门市蓬江金蓝海店)",
+    "city": "江门",
+    "category": "food",
+    "description": "位于胜利路43号3号铺",
+    "tags": [
+      "050300"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "墟顶历史文化街区",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于兴宁路26号",
+    "tags": [
+      "110000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大快地家常便饭(华景花园店)",
+    "city": "江门",
+    "category": "food",
+    "description": "位于农林西路95号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "大惠客喜利记",
+    "city": "江门",
+    "category": "food",
+    "description": "位于东仓里208号",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "富豪酒店(文新路店)",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于文新路1-3号",
+    "tags": [
+      "100104"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "开平华庭旅店",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于幕沙路61号后座(即华润万家对面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "新港城鱼翅海鲜酒家(江门大厦分店)",
+    "city": "江门",
+    "category": "food",
+    "description": "位于建设路1号江门大厦F2层",
+    "tags": [
+      "050119"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "柒小螺·螺蛳粉(五邑城店)",
+    "city": "江门",
+    "category": "food",
+    "description": "位于胜利路21号101室五邑城首层自编",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "永叔小食店",
+    "city": "江门",
+    "category": "food",
+    "description": "位于白沙大道西岭梅新村朝晖士多旁",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江渔儿酸菜鱼(江门地王商场店)",
+    "city": "江门",
+    "category": "food",
+    "description": "位于白沙街道胜利路28号地王广场四楼",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江门东旺酒店(江门东站店)",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于东海路110号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江门儿童公园",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于白水带大道(体育公园对面)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江门儿童公园-梦主题游乐区",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于江海一路16-18号",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江门儿童公园-沙主题游乐区",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于白水带大道(体育公园对面)",
+    "tags": [
+      "080501"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江门嘉科宾馆",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于杜阮镇江杜中路11号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江门市博物馆(中国侨都华侨华人博物馆)",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于文化馆北门东200米",
+    "tags": [
+      "140100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江门建东宾馆",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于建设路东仓里71号(近江门地王广场)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江门思诚电梯公寓",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于棠下镇富强路21号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江门新会福达旅馆",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于冈州大道东75号126铺(新会牛雕岗旁)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江门新悦宾馆",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于跃进路91号(东湖影剧院斜对面)",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江门聚贤宾馆",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于紫坭路21号(三角塘附近聚贤苑小区大门旁边)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江门金丰旅馆",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于江边里153号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江门金源旅业",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于棠下镇富棠二路21号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "江门鳌城公寓",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于大鳌镇中心一路巴厘岛KTV东15米",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "熹胖胖首尔无限烤肉(金蓝海店)",
+    "city": "江门",
+    "category": "food",
+    "description": "位于胜利路33号金蓝海·年轻π广场F3层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "爱华旅店(大新路步行街店)",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于爱民路9-13号",
+    "tags": [
+      "100200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛家庄",
+    "city": "江门",
+    "category": "food",
+    "description": "位于东仓里1号首层",
+    "tags": [
+      "050117"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "牛山餐厅",
+    "city": "江门",
+    "category": "food",
+    "description": "位于白沙大道西11号101(市政府东100米)",
+    "tags": [
+      "050305"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白水带体育公园",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于江海路白水带风景区旁边",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白水带风景区",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于外海街道白水带大道",
+    "tags": [
+      "110200"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "白沙公园",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于江门市交通机修厂有限公司环市三路",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "粒上皇(江门蓬江地王广场店)",
+    "city": "江门",
+    "category": "food",
+    "description": "位于胜利路28号首层地王广场1015-2-2号铺位",
+    "tags": [
+      "060704"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "羊桥饭店(江门紫沙路店)",
+    "city": "江门",
+    "category": "food",
+    "description": "位于羊桥小苑西北门南侧",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "聚晶酒店",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于白沙大道西19号110室(近五邑中医院)",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "胜辉宾馆(江门新会象山店)",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于城西二路102号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蒙自源(江门金蓝海广场店)",
+    "city": "江门",
+    "category": "food",
+    "description": "位于金蓝海广场一楼",
+    "tags": [
+      "050114"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "蛙小侠(地王广场店)",
+    "city": "江门",
+    "category": "food",
+    "description": "位于胜利路28号地王广场4楼蛙小侠",
+    "tags": [
+      "050100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "许府牛火锅(广东江门蓬江地王广场店)",
+    "city": "江门",
+    "category": "food",
+    "description": "位于地王广场4楼许府牛火锅",
+    "tags": [
+      "070000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "赐记茶档·地王店",
+    "city": "江门",
+    "category": "food",
+    "description": "位于江门市蓬江区象溪路82号",
+    "tags": [
+      "050305"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "超级魔厨(地王店)",
+    "city": "江门",
+    "category": "food",
+    "description": "位于胜利路28号地王广场F4层",
+    "tags": [
+      "050000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "金逸优品酒店(金沙广场店)",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于恩城桥边路5号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "釜山公园",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于江南街道江海一路(近白水带公园)",
+    "tags": [
+      "110101"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长堤历史文化街区",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于堤中路与宝善路交叉口东北180米",
+    "tags": [
+      "061000"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "长堤广场",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于白沙街道白沙街道镇东路58号",
+    "tags": [
+      "110105"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "陈白沙纪念馆",
+    "city": "江门",
+    "category": "attraction",
+    "description": "位于白沙大道西37号",
+    "tags": [
+      "110204"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鱼民·现造寿司(一汇店)",
+    "city": "江门",
+    "category": "food",
+    "description": "位于建设路27号ISTOP PLAZA一汇广场F2层",
+    "tags": [
+      "050202"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "鹤山大众宾馆",
+    "city": "江门",
+    "category": "hotel",
+    "description": "位于沙坪镇街道新华路1号",
+    "tags": [
+      "100100"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  },
+  {
+    "name": "麦当劳(地王广场店)",
+    "city": "江门",
+    "category": "food",
+    "description": "位于胜利路28号地王广场1层1002",
+    "tags": [
+      "050302"
+    ],
+    "avgCost": null,
+    "duration": null,
+    "openTime": null,
+    "rating": null
+  }
+]
