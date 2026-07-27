@@ -11,6 +11,7 @@
 | 数据库 | PostgreSQL 16 + pgvector (向量) + SQLAlchemy (async) |
 | AI | LangChain + LangGraph + DeepSeek API |
 | Agent 架构 | 多 Agent 协作（ChatAgent / ResearchAgent / PlannerAgent + Orchestrator 编排） |
+| Skill 体系 | SKILL.md 声明式技能（对齐 Anthropic 规范，L1/L2/L3 三层渐进式披露） |
 
 ## 功能
 
@@ -21,6 +22,8 @@
 - **多维度检索** — pgvector 向量 (bge-small-zh) + PG 全文检索 + 热度 三路召回，Cross-Encoder (bge-reranker) 重排序
 - **行程度量** — 预算明细、出行 Tips
 - **三层 RAG 评估体系** — 检索层 (Hit@K/MRR) + 生成层 (Faithfulness/Relevancy) + 线上反馈
+- **Skill 技能体系** — SKILL.md 声明式驱动，主 LLM 通过 select_skill 工具自主选择技能，多轮 tool calling 编排执行
+- **美团酒旅 Skill** — 接入美团官方酒旅 API，支持机票/酒店/火车票/门票查询与预订
 
 ## 界面预览
 
@@ -110,12 +113,19 @@ trip/
 │       ├── components/  # 通用组件
 │       └── api/         # API 调用层
 ├── trip-backend/      # 后端 (FastAPI)
+│   ├── .claude/skills/  # Skill 技能定义（SKILL.md，Anthropic 标准目录）
+│   │   ├── trip-planner/        # 行程规划
+│   │   ├── route-optimize/      # 路线优化
+│   │   ├── local-life-discovery/ # 周边发现
+│   │   ├── meituan-travel/      # 美团酒旅（酒店/机票/火车票/门票）
+│   │   └── poi-etl/             # POI 数据管道
 │   └── src/
 │       ├── controllers/ # 路由/控制器
 │       ├── services/    # 业务逻辑（Agent/RAG/LLM）
 │       │   └── agent/   # 多 Agent 编排层
 │       │       ├── agents/      # 独立 Agent（ChatAgent/ResearchAgent/PlannerAgent）
 │       │       ├── orchestrator.py  # 编排层（调度 Agent + 重试循环）
+│       │       ├── skills/      # Skill 基座（registry/loader/runtime/selector_tool）
 │       │       ├── review.py    # 行程校验（代码层 + LLM 独立审阅）
 │       │       ├── intent.py    # 意图抽取（fast-path 规则）
 │       │       ├── schemas.py   # Agent 间通信契约
@@ -158,6 +168,30 @@ uv run python -m eval.run                       # Agent 评估（mock）
 uv run python -m eval.run --real --tag smoke     # Agent 评估（真实后端）
 uv run python -m eval.retrieval.run              # 检索层评估
 ```
+
+# Skill 技能体系
+
+对齐 [Anthropic Claude Code Skill 规范](https://docs.github.com/zh/copilot/concepts/agents/about-agent-skills)，采用 SKILL.md 声明式定义 + 三层渐进式披露：
+
+| 层级 | 内容 | 何时加载 |
+|------|------|----------|
+| L1 目录层 | name / description / tags（轻量元信息） | 常驻系统提示词 |
+| L2 规格层 | 整篇 SKILL.md 正文（指令/触发/输入/示例） | 技能被选中时 lazy-load |
+| L3 实现层 | references / scripts / assets 资源文件 | 执行时按需读取 |
+
+**路由机制**：主 LLM 绑定 `select_skill` 工具，单次调用同时完成路由 + 规划，无独立路由 LLM 调用。
+
+**执行机制**：多轮 tool calling agent loop（最大 10 轮），LLM 读 SKILL.md 指令自行编排底层工具。
+
+**已注册技能**：
+
+| 技能 | 说明 |
+|------|------|
+| `trip-planner` | 结构化逐日行程规划（景点+美食+酒店） |
+| `route-optimize` | 多出行方式最优通勤路线对比 |
+| `local-life-discovery` | 周边吃喝玩乐休闲场所发现 |
+| `meituan-travel` | 美团酒旅官方（机票/酒店/火车票/门票查询预订） |
+| `POI ETL` | POI 数据采集→LLM 标注→双写入库流水线 |
 
 ## 多 Agent 架构
 
