@@ -8,7 +8,7 @@
 |---|---|
 | 前端 | Vue 3 + TypeScript + Vite + Naive UI |
 | 后端 | FastAPI (Python 3.12+) |
-| 数据库 | MySQL + SQLAlchemy (async) + ChromaDB (向量) |
+| 数据库 | PostgreSQL 16 + pgvector (向量) + SQLAlchemy (async) |
 | AI | LangChain + DeepSeek API |
 
 ## 功能
@@ -16,7 +16,7 @@
 - **AI 行程生成** — 输入目的地/预算/天数，自动生成每日行程（含景点、餐饮、住宿）
 - **对话式交互** — 与 AI 助手多轮对话，调整行程细节
 - **高德地图 MCP 集成** — 通过 MCP 协议实时查询高德全库 POI
-- **多维度检索** — 向量 (bge-small-zh) + 关键词 + 热度 三路召回，Cross-Encoder (bge-reranker) 重排序
+- **多维度检索** — pgvector 向量 (bge-small-zh) + PG 全文检索 + 热度 三路召回，Cross-Encoder (bge-reranker) 重排序
 - **行程度量** — 预算明细、出行 Tips
 - **三层 RAG 评估体系** — 检索层 (Hit@K/MRR) + 生成层 (Faithfulness/Relevancy) + 线上反馈
 
@@ -43,8 +43,8 @@
 ### 前置条件
 
 - Python >= 3.12
-- MySQL >= 8.0
-- ChromaDB（向量数据库）
+- Docker Desktop（用于运行 PostgreSQL + pgvector）
+- Redis（本地安装或 Docker）
 - DeepSeek API Key
 
 ### 启动步骤
@@ -58,14 +58,17 @@ uv sync
 cp .env.example .env
 # 编辑 .env，填入数据库连接和 API Key
 
-# 3. 启动 Chroma（二选一）
-pip install chromadb && chroma run --path ./chroma_data --host 127.0.0.1 --port 8000
-# 或 docker run -d --name chroma -p 8001:8000 chromadb/chroma
+# 3. 启动 PostgreSQL（含 pgvector 扩展）和 Redis
+docker compose up -d postgres redis
 
-# 4. 初始化数据库表
+# 4. 初始化数据库表 + 索引
 uv run python create_tables.py
 
-# 5. 启动
+# 5. 导入种子数据（可选）
+uv run python seed_spots.py
+uv run python scripts/pgvector_reindex.py   # 批量计算 embedding
+
+# 6. 启动
 # 终端 1 - 后端 (端口 8000)
 cd trip-backend && uv run uvicorn src.main:app --reload
 # 终端 2 - 前端 (端口 5173)
@@ -123,11 +126,11 @@ trip/
 - **数据规模**：30,784 条 POI 数据，覆盖 343+ 个地级市（热门旅游城市各 ~450 条）
 - **数据来源**：手工整理（`data/spots/`）+ 高德地图 API 批量拉取（`scripts/seed-poi-*.ts`）
 - **实时补充**：Amap MCP `maps_text_search` 在 agent 规划时可实时查询高德全库 POI（千万级）
-- **检索链路**（~640ms P50）：本地关键词改写 → Chroma 向量 / MySQL 关键词 / 评分 三路召回 → RRF 融合 → Cross-Encoder 重排
+- **检索链路**（~640ms P50）：本地关键词改写 → pgvector 向量 / PG 全文检索 / 评分 三路召回 → RRF 融合 → Cross-Encoder 重排
 - **检索优化**：本地关键词提取替代 LLM 改写（省 ~800ms）+ 高分命中跳过重排
 - **Embedding**：bge-small-zh-v1.5（本地，512 维，~50ms/次）
 - **重排序**：bge-reranker-base Cross-Encoder（top-20）
-- **存储**：MySQL（关系索引）+ ChromaDB（向量索引，~23 MB）
+- **存储**：PostgreSQL 一体化（关系索引 + pgvector HNSW 向量索引 + tsvector 全文索引）
 
 ## RAG 评估体系
 
