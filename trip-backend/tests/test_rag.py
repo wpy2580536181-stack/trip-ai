@@ -5,7 +5,7 @@
 - rrf: RRF 融合算法
 - reranker: Cross-Encoder 重排（需要模型，使用 mock）
 - embeddings: Embedding 生成（需要模型，使用 mock）
-- chroma_client: ChromaDB 客户端（需要服务，使用 mock）
+- vector_search / fulltext_search: pgvector + PG 全文检索
 """
 
 import sys
@@ -15,35 +15,30 @@ from typing import List, Dict, Any
 
 
 def _ensure_real_modules():
-    """Ensure torch, chromadb, etc. are real modules in sys.modules.
+    """Ensure torch, etc. are real modules in sys.modules.
 
     test_agent_imports.py mocks these modules via sys.modules.
-    If reranker.py or chroma_client.py were first imported while those
+    If reranker.py were first imported while those
     mocks were active, their module-level imports hold mock references.
     Fix: ensure sys.modules has the real modules and remove stale cached modules.
     """
-    mock_names = ["torch", "chromadb", "sentence_transformers"]
+    mock_names = ["torch", "sentence_transformers"]
     from unittest.mock import MagicMock
 
     changed = False
     for name in mock_names:
         mod = sys.modules.get(name)
         if isinstance(mod, MagicMock):
-            # Module is still mocked - remove it so real import can happen
             sys.modules.pop(name, None)
-            # Also remove any mock sub-modules (e.g. torch.nn, chromadb.config)
             to_remove = [k for k in sys.modules if k.startswith(name + ".") and isinstance(sys.modules[k], MagicMock)]
             for k in to_remove:
                 sys.modules.pop(k, None)
             changed = True
 
     if changed:
-        # Remove cached RAG modules that may have picked up mocks
-        # so they get re-imported with real dependencies
         rag_modules = [
             "src.services.rag.reranker",
             "src.services.rag.embeddings",
-            "src.services.rag.chroma_client",
         ]
         for mod_name in rag_modules:
             sys.modules.pop(mod_name, None)
@@ -305,34 +300,6 @@ class TestEmbeddingsMock:
         reset_embedder()
 
 
-class TestChromaClientMock:
-    """测试 ChromaDB 客户端（使用 mock）."""
-
-    @pytest.mark.asyncio
-    async def test_get_chroma_client_mock(self, monkeypatch):
-        """测试获取 ChromaDB 客户端（mock）."""
-        import chromadb
-        from unittest.mock import MagicMock
-
-        # Mock HttpClient
-        mock_client = MagicMock()
-        mock_client.get_version.return_value = "0.4.0"
-
-        monkeypatch.setattr(
-            "chromadb.HttpClient",
-            lambda *args, **kwargs: mock_client,
-        )
-
-        from src.services.rag.chroma_client import get_chroma_client, reset_chroma_client
-        reset_chroma_client()  # 重置单例
-
-        # get_chroma_client 现为异步（构造函数的网络调用走线程池，避免阻塞事件循环）
-        client = await get_chroma_client()
-        assert client is not None
-
-        reset_chroma_client()
-
-
 class TestKnowledgeServiceSearch:
     """测试 KnowledgeService.search_spots（集成测试）."""
 
@@ -373,10 +340,6 @@ class TestKnowledgeServiceSearch:
         mock_db.execute.return_value = mock_result
 
         # Mock RAG 模块
-        monkeypatch.setattr(
-            "src.services.knowledge_service.check_chroma_health",
-            AsyncMock(return_value=False),  # ChromaDB 不可用
-        )
         monkeypatch.setattr(
             "src.services.knowledge_service.rewrite_query",
             lambda q, c=None: f"{c} {q}" if c else q,

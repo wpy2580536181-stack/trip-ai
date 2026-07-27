@@ -9,8 +9,8 @@ class Settings(BaseSettings):
     
     model_config = {"env_file": ".env", "extra": "ignore"}
     
-    # 数据库配置
-    database_url: str = "mysql+aiomysql://root:root@localhost:3306/trip_db"
+    # 数据库配置（PostgreSQL + pgvector）
+    database_url: str = "postgresql+asyncpg://trip:trip123@localhost:5432/trip_db"
     
     # JWT 配置
     jwt_secret: str = "change-this-to-a-random-secret-string"
@@ -44,9 +44,6 @@ class Settings(BaseSettings):
     
     # 环境配置
     node_env: str = "development"
-    
-    # Chroma 向量数据库
-    chroma_url: str = "http://localhost:8001"  # 注意：Chroma 容器映射 8001:8000
     
     # HuggingFace 模型下载镜像
     hf_endpoint: str = "https://hf-mirror.com/"

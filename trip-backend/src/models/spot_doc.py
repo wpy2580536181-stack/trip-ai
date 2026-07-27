@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 from sqlalchemy import (
     Column, Integer, String, Float, Text, DateTime, Index, ForeignKey,
 )
-from sqlalchemy.sql import func
+from pgvector.sqlalchemy import Vector
 
 from src.models.base import Base, BaseModel
 
@@ -62,12 +62,11 @@ class SpotDoc(Base, BaseModel):
         comment="同 spot 内的分块序号",
     )
 
-    # Chroma 向量 ID（spot_docs 集合），可空以便降级只写 MySQL
-    embedding_id = Column(
-        String(100),
-        unique=True,
+    # pgvector 向量列（bge-small-zh-v1.5, 512 维）
+    embedding = Column(
+        Vector(512),
         nullable=True,
-        comment="Chroma spot_docs 集合中的向量 ID",
+        comment="文本块向量（bge-small-zh-v1.5, 512维）",
     )
 
     # ---- 5 维可信度元信息（写入时算好，检索时直接读取）----
@@ -89,9 +88,11 @@ class SpotDoc(Base, BaseModel):
     __table_args__ = (
         Index("ix_spot_docs_source_type", "source_type"),
         Index(
-            "ft_spot_docs_content",
-            "content",
-            mysql_prefix="FULLTEXT",
+            "idx_spot_docs_embedding_hnsw",
+            "embedding",
+            postgresql_using="hnsw",
+            postgresql_with={"m": 16, "ef_construction": 64},
+            postgresql_ops={"embedding": "vector_cosine_ops"},
         ),
         {"comment": "RAG 文本层文档块表（多源异构 + 可信度）"},
     )

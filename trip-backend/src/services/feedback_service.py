@@ -374,29 +374,30 @@ class FeedbackService:
         Returns:
             list[dict]: 每日统计数据
         """
-        # 使用原生 SQL 做 GROUP BY DATE（SQLAlchemy 跨 dialect 兼容性有限）
+        # 使用原生 SQL 做 GROUP BY DATE（PostgreSQL 语法）
+        # 注意：不能用 :param::type 语法（与 SQLAlchemy 绑定参数冲突），需用 CAST
         sql = text("""
             SELECT
-                DATE(created_at) AS date,
+                created_at::date AS stat_date,
                 SUM(CASE WHEN rating = 1 THEN 1 ELSE 0 END) AS up,
                 SUM(CASE WHEN rating = -1 THEN 1 ELSE 0 END) AS down
             FROM feedbacks
-            WHERE created_at >= :start_date
-              AND created_at < :end_date_exclusive
-            GROUP BY DATE(created_at)
-            ORDER BY date ASC
+            WHERE created_at >= CAST(:start_date AS timestamp)
+              AND created_at < CAST(:end_date_exclusive AS timestamp)
+            GROUP BY created_at::date
+            ORDER BY stat_date ASC
         """)
         end_date_exclusive = end_date + timedelta(days=1)
         result = await db.execute(sql, {
-            "start_date": start_date.isoformat(),
-            "end_date_exclusive": end_date_exclusive.isoformat(),
+            "start_date": datetime.combine(start_date, datetime.min.time()),
+            "end_date_exclusive": datetime.combine(end_date_exclusive, datetime.min.time()),
         })
         rows = result.all()
 
         # 构建日期 -> 数据映射
         row_map = {}
         for r in rows:
-            d = r.date if isinstance(r.date, str) else r.date.isoformat()
+            d = r.stat_date if isinstance(r.stat_date, str) else r.stat_date.isoformat()
             row_map[d] = {"up": int(r.up or 0), "down": int(r.down or 0)}
 
         # 填充缺失日期

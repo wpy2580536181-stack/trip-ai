@@ -2,7 +2,7 @@
 
 覆盖 4 类：
 1. fetch_city_wiki worker 函数本身：mock fetch_city + Spot 查询，验证写文件 + return dict
-2. from_mysql 模式：mock Spot 查表返该城所有 spots
+2. from_db 模式：mock Spot 查表返该城所有 spots
 3. snapshot 模式：mock SPOTS_DIR 快照读
 4. 边界场景：spot 表为空、fetch_city 返空列表、ctx=None
 """
@@ -19,12 +19,12 @@ import pytest
 
 
 # ---------------------------------------------------------------------------
-# 测试 1：from_mysql=True 模式
+# 测试 1：from_db=True 模式
 # ---------------------------------------------------------------------------
 
 @pytest.mark.asyncio
-async def test_fetch_city_wiki_from_mysql_writes_file():
-    """worker 函数（from_mysql=True）：从 Spot 查 spots → 调 fetch_city → 写文件。
+async def test_fetch_city_wiki_from_db_writes_file():
+    """worker 函数（from_db=True）：从 Spot 查 spots → 调 fetch_city → 写文件。
 
     Mock 掉 fetch_city 直接返 mock results，验证：
     1. 写文件路径正确（wiki_raw/{city}.json）
@@ -80,7 +80,7 @@ async def test_fetch_city_wiki_from_mysql_writes_file():
 
             ctx = {"job_id": "test-job-1", "job_try": 1}
             result = await fetch_city_wiki(
-                ctx, city="北京", from_mysql=True, concurrency=4,
+                ctx, city="北京", from_db=True, concurrency=4,
             )
 
         # 1. fetch_city 被调，参数正确
@@ -103,18 +103,18 @@ async def test_fetch_city_wiki_from_mysql_writes_file():
         # 4. return dict 字段正确
         assert result["city"] == "北京"
         assert result["fetched"] == 2
-        assert result["source"] == "mysql"
+        assert result["source"] == "db"
         assert result["total_spots"] == 3
         assert result["attempt"] == 1
 
 
 # ---------------------------------------------------------------------------
-# 测试 2：from_mysql=False 模式（snapshot）
+# 测试 2：from_db=False 模式（snapshot）
 # ---------------------------------------------------------------------------
 
 @pytest.mark.asyncio
 async def test_fetch_city_wiki_from_snapshot_writes_file():
-    """worker 函数（from_mysql=False）：从 SPOTS_DIR 快照读 spots → 写文件。"""
+    """worker 函数（from_db=False）：从 SPOTS_DIR 快照读 spots → 写文件。"""
     mock_results = [
         {
             "spot_name": "西湖",
@@ -145,7 +145,7 @@ async def test_fetch_city_wiki_from_snapshot_writes_file():
 
             ctx = {"job_id": "test-job-2", "job_try": 1}
             result = await fetch_city_wiki(
-                ctx, city="杭州", from_mysql=False,
+                ctx, city="杭州", from_db=False,
             )
 
         mock_fetch_city.assert_awaited_once()
@@ -161,7 +161,7 @@ async def test_fetch_city_wiki_from_snapshot_writes_file():
 
 @pytest.mark.asyncio
 async def test_fetch_city_wiki_no_spots_returns_skipped():
-    """从 MySQL 查 0 个 spots → 返 skipped_reason="no_spots"，不调 fetch_city。"""
+    """从 PG 查 0 个 spots → 返 skipped_reason="no_spots"，不调 fetch_city。"""
     with patch("src.config.database.async_session") as mock_async_session:
         mock_session = MagicMock()
         mock_result = MagicMock()
@@ -175,7 +175,7 @@ async def test_fetch_city_wiki_no_spots_returns_skipped():
 
         ctx = {"job_id": "test-job-3", "job_try": 1}
         result = await fetch_city_wiki(
-            ctx, city="不存在的城市", from_mysql=True,
+            ctx, city="不存在的城市", from_db=True,
         )
 
     assert result["fetched"] == 0
@@ -206,7 +206,7 @@ async def test_fetch_city_wiki_empty_results_no_file():
 
         ctx = {"job_id": "test-job-4", "job_try": 1}
         result = await fetch_city_wiki(
-            ctx, city="北京", from_mysql=True,
+            ctx, city="北京", from_db=True,
         )
 
     assert result["fetched"] == 0
@@ -235,6 +235,6 @@ async def test_fetch_city_wiki_handles_none_ctx():
         from src.services.tasks.wiki_fetch import fetch_city_wiki
 
         result = await fetch_city_wiki(
-            None, city="x", from_mysql=True,
+            None, city="x", from_db=True,
         )
         assert result["attempt"] == 1

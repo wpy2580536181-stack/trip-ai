@@ -20,7 +20,7 @@ from arq.worker import func
 from src.config.settings import settings
 from src.utils.logger import setup_logging, trip_log
 from src.services.tasks.demo import demo_echo, demo_write_redis, demo_raise
-from src.services.tasks.chroma_sync import sync_spot_to_chroma
+from src.services.tasks.embedding_sync import sync_spot_embedding, sync_spot_doc_embedding
 from src.services.tasks.post_chat import post_chat_followup
 from src.services.tasks.wiki_fetch import fetch_city_wiki
 
@@ -64,8 +64,7 @@ class WorkerSettings:
       wrapper 显式配。WorkerSettings.keep_result 字段在 0.28 不生效。
     - on_startup / on_shutdown: 生命周期钩子
     - max_tries: 任务失败重试次数（arq 默认指数退避 1s/2s/4s/...）。
-      **本项目 max_tries=1**：chroma_client 冷却期 60s 远长于重试间隔，
-      多次重试全在冷却期内被短路，1 次失败入死信更可观测（决策文档 review P0-1）。
+      **本项目 max_tries=3**：embedding 计算是幂等操作，重试安全。
     - job_timeout: 单个任务超时（秒）
     - health_check_interval: worker 心跳上报间隔
     """
@@ -74,15 +73,16 @@ class WorkerSettings:
 
     # 注册任务：
     # - demo（M0 演示）
-    # - sync_spot_to_chroma（M1：API 写路径异步 embedding 同步）
+    # - sync_spot_embedding（API 写路径异步 embedding 计算写入 PG）
+    # - sync_spot_doc_embedding（文本层 embedding 计算）
     # - post_chat_followup（M2：对话结束后摘要压缩 + 关键决策记录）
     # - fetch_city_wiki（M3-A：维基抓取断点续跑 / 多机协同）
-    # 注意：每个函数用 arq.func() wrapper 配 keep_result（arq 0.28 Function 级别配置）
     functions = [
         func(demo_echo, keep_result=DEFAULT_KEEP_RESULT_S),
         func(demo_write_redis, keep_result=DEFAULT_KEEP_RESULT_S),
         func(demo_raise, keep_result=DEFAULT_KEEP_RESULT_S),
-        func(sync_spot_to_chroma, keep_result=DEFAULT_KEEP_RESULT_S),
+        func(sync_spot_embedding, keep_result=DEFAULT_KEEP_RESULT_S),
+        func(sync_spot_doc_embedding, keep_result=DEFAULT_KEEP_RESULT_S),
         func(post_chat_followup, keep_result=DEFAULT_KEEP_RESULT_S),
         func(fetch_city_wiki, keep_result=DEFAULT_KEEP_RESULT_S),
     ]
@@ -90,13 +90,10 @@ class WorkerSettings:
     on_startup = startup
     on_shutdown = shutdown
 
-    # 任务失败重试策略（决策文档 review 报告 P0-1 修复）：
-    #   max_tries=1（不重试）—— 因为 chroma_client._CHROMA_DOWN_TTL=60s 冷却期
-    #   跟 arq 默认重试间隔（1s+2s+4s=7s）不兼容：3 次重试全在冷却期内被短路，
-    #   "假重试"反而比"1 次失败入死信"更危险（看起来在重试，实际无效）。
-    #   改为 1 次失败 → 任务入 arq 死信（arq:dead_letter:*） → 由外部告警/对账
-    #   脚本（如 scripts/chroma_reindex.py --force）兜底，可观测性更强。
-    max_tries = 1
+    # 任务失败重试策略：
+    #   max_tries=3（指数退避 1s/2s/4s）—— embedding 计算是幂等操作，
+    #   重试安全。失败 3 次后入 arq 死信，由 pgvector_reindex.py 兖底。
+    max_tries = 3
 
     # 单任务超时 5 分钟（BGE embedding + Chroma RPC 实际约 15-20s）
     job_timeout = 300

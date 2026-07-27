@@ -35,42 +35,51 @@ import src.models.agent_step
 import src.models.token_usage_log
 
 
-# Test database URL (use SQLite for testing)
-TEST_DATABASE_URL = "sqlite+aiosqlite:///./test.db"
+# Test database URL (PostgreSQL)
+TEST_DATABASE_URL = "postgresql+asyncpg://trip:trip123@localhost:5432/trip_test_db"
 
-# Create test engine
-test_engine = create_async_engine(
-    TEST_DATABASE_URL,
-    connect_args={"check_same_thread": False}
-)
-
-# Create test session factory
-TestSessionLocal = sessionmaker(
-    test_engine,
-    class_=AsyncSession,
-    expire_on_commit=False,
-    autocommit=False,
-    autoflush=False,
-)
+# 每个测试函数独立创建 engine，避免跨事件循环问题
+_db_initialized = False
 
 
-@pytest_asyncio.fixture(scope="session")
+@pytest_asyncio.fixture
 async def setup_database():
-    """Create test database tables once per session"""
-    async with test_engine.begin() as conn:
-        await conn.run_sync(Base.metadata.drop_all)
-        await conn.run_sync(Base.metadata.create_all)
-    yield
-    async with test_engine.begin() as conn:
-        await conn.run_sync(Base.metadata.drop_all)
+    """Create test database tables (once per session via flag)"""
+    global _db_initialized
+    from sqlalchemy import text as sa_text
+    engine = create_async_engine(TEST_DATABASE_URL, pool_size=5, max_overflow=10)
+    if not _db_initialized:
+        async with engine.begin() as conn:
+            await conn.execute(sa_text("CREATE EXTENSION IF NOT EXISTS vector"))
+            await conn.run_sync(Base.metadata.drop_all)
+            await conn.run_sync(Base.metadata.create_all)
+        _db_initialized = True
+    # 每个测试前确保 roles 基础数据存在
+    SessionFactory = sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)
+    async with SessionFactory() as session:
+        from src.models.role import Role, RoleName
+        result = await session.execute(sa_text("SELECT COUNT(*) FROM roles"))
+        if result.scalar() == 0:
+            session.add(Role(id=1, name=RoleName.ADMIN))
+            session.add(Role(id=2, name=RoleName.USER))
+            await session.commit()
+    yield engine
+    await engine.dispose()
 
 
 @pytest_asyncio.fixture
 async def db_session(setup_database) -> AsyncGenerator[AsyncSession, None]:
     """Create a fresh database session for each test"""
-    async with TestSessionLocal() as session:
+    engine = setup_database
+    SessionFactory = sessionmaker(
+        engine,
+        class_=AsyncSession,
+        expire_on_commit=False,
+        autocommit=False,
+        autoflush=False,
+    )
+    async with SessionFactory() as session:
         yield session
-        # Rollback any uncommitted changes
         await session.rollback()
 
         # Clean up all data after each test
@@ -82,7 +91,7 @@ async def db_session(setup_database) -> AsyncGenerator[AsyncSession, None]:
 
 # Cache real module references before any test can mock them
 _real_module_cache = {}
-for _mod_name in ("torch", "chromadb", "sentence_transformers"):
+for _mod_name in ("torch", "sentence_transformers"):
     try:
         import importlib
         _real_module_cache[_mod_name] = importlib.import_module(_mod_name)
@@ -99,7 +108,7 @@ def ensure_real_modules_sync():
     """
     from unittest.mock import MagicMock
 
-    for name in ("torch", "chromadb", "sentence_transformers"):
+    for name in ("torch", "sentence_transformers"):
         mod = sys.modules.get(name)
         if isinstance(mod, MagicMock):
             # Restore the real module from our cache

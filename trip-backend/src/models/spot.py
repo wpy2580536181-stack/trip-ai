@@ -2,17 +2,24 @@
 
 from sqlalchemy import Column, Integer, String, Float, JSON, Text, DateTime, Index
 from sqlalchemy.orm import relationship
+from pgvector.sqlalchemy import Vector
 
 from src.models.base import Base, BaseModel
 
 
 class Spot(Base, BaseModel):
-    """Spot model matching Prisma schema"""
+    """Spot model"""
     
     __tablename__ = "spots"
     __table_args__ = (
         Index("idx_spots_city_category", "city", "category"),
-        Index("ft_name_desc", "name", "description", mysql_prefix="FULLTEXT"),
+        Index(
+            "idx_spots_embedding_hnsw",
+            "embedding",
+            postgresql_using="hnsw",
+            postgresql_with={"m": 16, "ef_construction": 64},
+            postgresql_ops={"embedding": "vector_cosine_ops"},
+        ),
         {"comment": "景点表"},
     )
     
@@ -64,12 +71,10 @@ class Spot(Base, BaseModel):
         nullable=True,
         comment="评分"
     )
-    vector_id = Column(
-        "vector_id",
-        String(100),
-        unique=True,
+    embedding = Column(
+        Vector(512),
         nullable=True,
-        comment="向量ID"
+        comment="景点描述向量（bge-small-zh-v1.5, 512维）"
     )
     
     def __repr__(self):

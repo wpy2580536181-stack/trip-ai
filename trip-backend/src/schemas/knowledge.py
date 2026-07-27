@@ -21,7 +21,7 @@ class SpotResponse(BaseModel):
     duration: Optional[str] = None
     open_time: Optional[str] = Field(default=None, alias="openTime")
     rating: Optional[float] = None
-    vector_id: Optional[str] = Field(default=None, alias="vectorId")
+    has_embedding: Optional[bool] = Field(default=None, alias="hasEmbedding")
     created_at: Optional[str] = Field(default=None, alias="createdAt")
     updated_at: Optional[str] = Field(default=None, alias="updatedAt")
 

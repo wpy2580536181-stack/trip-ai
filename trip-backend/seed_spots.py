@@ -1,6 +1,6 @@
 """种子数据导入脚本。
 
-从 data/spots/ 目录加载 JSON 数据并写入 MySQL + ChromaDB。
+从 data/spots/ 目录加载 JSON 数据并写入 PostgreSQL。
 用法: uv run python seed_spots.py
 """
 
@@ -28,8 +28,8 @@ def _build_embedding_document(spot: dict) -> str:
 async def seed_spots():
     """从 data/spots/*.json 导入景点数据"""
     db_url = settings.database_url
-    if db_url.startswith("mysql://"):
-        db_url = db_url.replace("mysql://", "mysql+asyncmy://", 1)
+    if db_url.startswith("postgresql://"):
+        db_url = db_url.replace("postgresql://", "postgresql+asyncpg://", 1)
 
     engine = create_async_engine(db_url)
     SessionLocal = sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)
@@ -75,8 +75,7 @@ async def seed_spots():
 
     await engine.dispose()
     print(f"\n✅ 导入完成，共 {total} 条新数据")
-    print("注意：ChromaDB 向量同步需通过 API 写入时自动完成。")
-    print("如需为已有数据同步向量，请通过管理端 API 触发。")
+    print("注意：embedding 向量需通过 scripts/pgvector_reindex.py 批量计算写入。")
 
     if not total:
         print("（所有数据已存在，无需导入）")

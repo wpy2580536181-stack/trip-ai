@@ -147,7 +147,6 @@ async def ingest_city(
     id_map = await _map_spot_ids(session, city, names)
 
     docs_to_write: List[SpotDoc] = []
-    chroma_payload: List[Dict[str, Any]] = []  # {id, text, metadata}
 
     for d in targets:
         spot_id = id_map.get(d["spot_name"])
@@ -162,7 +161,6 @@ async def ingest_city(
                 evidence_density=evidence_density,
                 published_at=None,
             )
-            emb_id = str(uuid.uuid4())
             doc = SpotDoc(
                 spot_id=spot_id,
                 source_type=source_type,
@@ -171,7 +169,6 @@ async def ingest_city(
                 title=ch["title"][:200],
                 content=ch["content"],
                 chunk_index=idx,
-                embedding_id=emb_id,
                 authority_score=cred["authority_score"],
                 freshness_score=cred["freshness_score"],
                 agreement_score=cred["agreement_score"],
@@ -180,17 +177,6 @@ async def ingest_city(
                 credibility_score=cred["credibility_score"],
             )
             docs_to_write.append(doc)
-            chroma_payload.append({
-                "id": emb_id,
-                "text": ch["content"],
-                "metadata": {
-                    "spot_id": str(spot_id),
-                    "source_type": source_type,
-                    "source_name": SOURCE_NAME.get(source_type, source_type),
-                    "source_url": d.get("source_url") or "",
-                    "credibility_score": cred["credibility_score"],
-                },
-            })
 
     if not docs_to_write:
         return 0
@@ -206,27 +192,24 @@ async def ingest_city(
     await session.commit()
     print(f"    MySQL 写入 {len(docs_to_write)} 块（{city}，{source_type}）")
 
-    # Chroma 双写（降级友好）
-    if chroma_payload:
+    # 异步计算 embedding 写入 PG（降级友好）
+    if docs_to_write:
         try:
-            from src.services.rag.chroma_client import get_spot_docs_collection, run_sync
             from src.services.rag.embeddings import embed_documents_async
+            from sqlalchemy import update as sa_update
 
-            collection = await get_spot_docs_collection()
-            texts = [p["text"] for p in chroma_payload]
+            texts = [d.content for d in docs_to_write]
             embeddings = await embed_documents_async(texts)
-            # 用 run_sync 包一层：Chroma 不可达时 5s 硬超时后优雅降级跳过，
-            # 绝不会像裸 asyncio.to_thread 那样无限挂起整批 ingest。
-            await run_sync(
-                collection.upsert,
-                ids=[p["id"] for p in chroma_payload],
-                embeddings=embeddings,
-                documents=texts,
-                metadatas=[p["metadata"] for p in chroma_payload],
-            )
-            print(f"    Chroma 写入 {len(chroma_payload)} 向量")
+            for doc, emb in zip(docs_to_write, embeddings):
+                await session.execute(
+                    sa_update(SpotDoc)
+                    .where(SpotDoc.id == doc.id)
+                    .values(embedding=emb)
+                )
+            await session.commit()
+            print(f"    pgvector 写入 {len(docs_to_write)} 向量")
         except Exception as e:
-            print(f"    [warn] Chroma 写入跳过（MySQL 已落库）: {e}")
+            print(f"    [warn] embedding 计算跳过（PG 文本已落库）: {e}")
     return len(docs_to_write)
 
 

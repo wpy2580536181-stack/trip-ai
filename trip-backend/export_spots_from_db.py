@@ -60,8 +60,8 @@ def _row_to_spot(row: dict) -> dict:
 
 async def export_spots():
     db_url = settings.database_url
-    if db_url.startswith("mysql://"):
-        db_url = db_url.replace("mysql://", "mysql+asyncmy://", 1)
+    if db_url.startswith("postgresql://"):
+        db_url = db_url.replace("postgresql://", "postgresql+asyncpg://", 1)
 
     engine = create_async_engine(db_url, pool_size=5, max_overflow=10)
     SessionLocal = sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)

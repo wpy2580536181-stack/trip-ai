@@ -9,8 +9,8 @@ dependencies = [
     "gunicorn>=22.0.0",
     "sqlalchemy>=2.0.30",
     "alembic>=1.13.0",
-    "asyncmy>=0.2.0",
-    "cryptography>=42.0.0",
+    "asyncpg>=0.29.0",
+    "pgvector>=0.3.0",
     "greenlet>=3.0.0",
     "pydantic>=2.7.0",
     "pydantic-settings>=2.2.0",
@@ -25,7 +25,7 @@ dependencies = [
     "langchain-core>=0.2.0",
     "langchain-openai>=0.1.0",
     "langgraph>=0.1.0",
-    "chromadb>=0.5.0",
+
     # sentence-transformers 和 torch 体积大，T01 不需要，T05 再取消注释
     # "sentence-transformers>=3.0.0",
     # "torch>=2.2.0",
@@ -67,5 +67,5 @@ pythonpath = ["."]
 
 [dependency-groups]
 dev = [
-    "aiosqlite>=0.22.1",
+    "asyncpg>=0.29.0",  # 测试也走 PG
 ]

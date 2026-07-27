@@ -48,12 +48,12 @@ async def fetch_city_wiki(
     concurrency: int = 8,
     use_wikidata: bool = True,
     max_candidates: int = 3,
-    from_mysql: bool = True,
+    from_db: bool = True,
 ) -> dict:
     """按城市抓取维基词条（arq worker 任务）。
 
-    复用 scripts/fetch_wiki.fetch_city 的核心抓取逻辑（信号量 + 3 段兜底查询），
-    自己从 MySQL 或快照文件读该城所有 spots，写 wiki_raw/{city}.json。
+    复用 scripts/fetch_wiki.fetch_city 的核心抓取逻辑（信号量 + 3 段兖底查询），
+    自己从 PG 或快照文件读该城所有 spots，写 wiki_raw/{city}.json。
 
     Args:
         ctx: arq 注入的上下文（含 job_id / job_try）；降级路径为 None 时构造 fake ctx
@@ -62,13 +62,13 @@ async def fetch_city_wiki(
         limit: 每城最多抓取 N 个景点（抽样验证用）
         sleep: 每任务完成后额外间隔（秒）
         concurrency: 并发请求数（**默认 8**——保留 49min→8min 的并发上限，避免代理连接堆积）
-        use_wikidata: 是否启用 Wikidata 实体检索兜底
+        use_wikidata: 是否启用 Wikidata 实体检索兖底
         max_candidates: 模糊检索时返回的候选数
-        from_mysql: True 从 MySQL 查 spots；False 从 data/spots/{city}.json 快照读
+        from_db: True 从 PG 查 spots；False 从 data/spots/{city}.json 快照读
 
     Returns:
         {"city": str, "fetched": int, "written_to": str | None,
-         "source": "mysql" | "snapshot", "total_spots": int,
+         "source": "db" | "snapshot", "total_spots": int,
          "attempt": int}
 
     Raises:
@@ -80,11 +80,11 @@ async def fetch_city_wiki(
 
     attempt = ctx.get("job_try", 1)
 
-    # 懒导入：避免 import-time 把整个 scripts 链路 + MySQL 拉起来
+    # 懒导入：避免 import-time 把整个 scripts 链路 + DB 拉起来
     from scripts.fetch_wiki import fetch_city, WIKI_RAW_DIR, SPOTS_DIR
 
     # 1. 加载该城的 spots
-    if from_mysql:
+    if from_db:
         from sqlalchemy import select
         from src.config.database import async_session
         from src.models.spot import Spot
@@ -97,7 +97,7 @@ async def fetch_city_wiki(
             )
             rows = (await db.execute(q)).all()
         spots = [{"name": r[0], "city": city} for r in rows]
-        source = "mysql"
+        source = "db"
     else:
         snapshot_path = os.path.join(SPOTS_DIR, city + ".json")
         with open(snapshot_path, "r", encoding="utf-8") as fh:

@@ -123,7 +123,7 @@ async def get_spot(
             "duration": spot.duration,
             "open_time": spot.open_time,
             "rating": spot.rating,
-            "vector_id": spot.vector_id,
+            "has_embedding": spot.embedding is not None,
             "created_at": spot.created_at.isoformat() if spot.created_at else None,
             "updated_at": spot.updated_at.isoformat() if spot.updated_at else None
         },
@@ -194,7 +194,7 @@ async def create_spot(
             "duration": spot.duration,
             "open_time": spot.open_time,
             "rating": spot.rating,
-            "vector_id": spot.vector_id,
+            "has_embedding": spot.embedding is not None,
             "created_at": spot.created_at.isoformat() if spot.created_at else None,
             "updated_at": spot.updated_at.isoformat() if spot.updated_at else None
         },
@@ -270,7 +270,7 @@ async def update_spot(
             "duration": spot.duration,
             "open_time": spot.open_time,
             "rating": spot.rating,
-            "vector_id": spot.vector_id,
+            "has_embedding": spot.embedding is not None,
             "created_at": spot.created_at.isoformat() if spot.created_at else None,
             "updated_at": spot.updated_at.isoformat() if spot.updated_at else None
         },
@@ -408,15 +408,17 @@ async def get_spot_docs(
     """
     rows, total = await KnowledgeService.list_spot_docs(db, city, source_type, page, page_size)
 
-    # 探测 Chroma 文本层集合的真实可用性（用于前端展示向量入库状态）
-    # ⚠️ chromadb 是同步客户端且无超时，必须走线程池 + 超时，否则 Chroma 不可达时
-    # 会永久阻塞事件循环，导致所有接口（含 /health）全部卡死转圈。
-    chroma_info = {"available": False, "spotDocsCount": None}
+    # 查询 spot_docs 中已有 embedding 的数量（用于前端展示向量入库状态）
+    vector_info = {"available": True, "spotDocsCount": None}
     try:
-        from src.services.rag.chroma_client import probe_collection
-        chroma_info = await probe_collection("spot_docs")
+        from sqlalchemy import select, func as sa_func
+        from src.models.spot_doc import SpotDoc
+        count_result = await db.scalar(
+            select(sa_func.count()).select_from(SpotDoc).where(SpotDoc.embedding.isnot(None))
+        )
+        vector_info["spotDocsCount"] = count_result
     except Exception:
-        chroma_info = {"available": False, "spotDocsCount": None}
+        vector_info = {"available": False, "spotDocsCount": None}
 
     items = []
     for doc, spot_name, spot_city in rows:
@@ -432,7 +434,7 @@ async def get_spot_docs(
             "content": doc.content,
             "chunkIndex": doc.chunk_index,
             "credibilityScore": doc.credibility_score,
-            "vectorId": doc.embedding_id,
+            "vectorId": None,
             "retrievedAt": doc.retrieved_at.isoformat() if doc.retrieved_at else None,
         })
 
@@ -443,7 +445,7 @@ async def get_spot_docs(
             "total": total,
             "page": page,
             "pageSize": page_size,
-            "chroma": chroma_info,
+            "chroma": vector_info,
         },
         "message": "获取文本层文档成功",
         "error": None,

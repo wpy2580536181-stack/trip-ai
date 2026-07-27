@@ -1,4 +1,4 @@
-"""数据库迁移脚本 - 创建缺失的表"""
+"""数据库迁移脚本 - 创建表结构（PostgreSQL + pgvector）"""
 
 import asyncio
 from sqlalchemy import text
@@ -19,32 +19,36 @@ from src.models.token_usage_log import TokenUsageLog
 
 
 async def create_tables():
-    """创建缺失的数据库表"""
-    print("开始创建缺失的表...")
+    """创建数据库表结构 + pgvector/zhparser 扩展"""
+    print("开始创建表结构...")
     
-    # 构建 async 数据库 URL（与 database.py 相同的逻辑）
+    # 构建 async 数据库 URL
     db_url = settings.database_url
-    if db_url.startswith("mysql://"):
-        db_url = db_url.replace("mysql://", "mysql+asyncmy://", 1)
+    if db_url.startswith("postgresql://"):
+        db_url = db_url.replace("postgresql://", "postgresql+asyncpg://", 1)
     
-    # 使用异步引擎
     engine = create_async_engine(db_url)
     
     async with engine.begin() as conn:
+        # 确保扩展已启用
+        await conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector"))
+        print("✓ pgvector 扩展已启用")
+        
+        # 创建表结构
         await conn.run_sync(Base.metadata.create_all)
         print("✓ 表结构创建完成")
         
-        # 尝试创建 FULLTEXT 索引（MySQL 8.0+ 支持，低版本/已存在则静默跳过）
-        for idx_sql in (
-            "CREATE FULLTEXT INDEX ft_name_desc ON spots (name, description)",
-            "CREATE FULLTEXT INDEX ft_spot_docs_content ON spot_docs (content)",
-        ):
+        # 创建 GIN 全文检索索引（函数索引无法通过 SQLAlchemy __table_args__ 定义）
+        fts_indexes = [
+            "CREATE INDEX IF NOT EXISTS idx_spots_name_desc_fts ON spots USING gin (to_tsvector('chinese', coalesce(name, '') || ' ' || coalesce(description, '')))",
+            "CREATE INDEX IF NOT EXISTS idx_spot_docs_content_fts ON spot_docs USING gin (to_tsvector('chinese', coalesce(content, '')))",
+        ]
+        for idx_sql in fts_indexes:
             try:
                 await conn.execute(text(idx_sql))
-                print(f"✓ 已创建 FULLTEXT 索引: {idx_sql}")
+                print(f"✓ 全文索引已创建")
             except Exception as e:
-                # 1061=索引已存在 / 1063=FULLTEXT 不支持 / 其他 -> 忽略
-                print(f"ℹ  FULLTEXT 索引跳过（已存在或不可用）: {idx_sql} -> {e}")
+                print(f"ℹ  全文索引跳过: {e}")
     
     print("\n已创建的表:")
     for table in Base.metadata.sorted_tables:
@@ -54,5 +58,4 @@ async def create_tables():
 
 
 if __name__ == "__main__":
-    import asyncio
     asyncio.run(create_tables())

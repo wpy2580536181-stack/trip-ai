@@ -544,7 +544,7 @@ async def main_async(args):
     except Exception as e:
         print(f"⚠️ Redis 不可用：{e}，降级为 asyncio 模式（主进程直接跑，仅本地调试用）")
 
-    # ── S1：MySQL 对齐模式 ──
+    # ── S1：数据库对齐模式 ──
     # 直接遍历产品库真实景点（30792 个），而非 data/spots 那个餐饮为主的快照，
     # 这才是覆盖率真正的杠杆。产出 wiki_raw/{city}.json 后，既有 ingest_spot_docs.py
     # 会按 (name, city) 自动关联到正确 spot_id，无需改动摄取端。
@@ -614,7 +614,7 @@ async def main_async(args):
                 fetch_city_wiki,
                 city=city, lang=args.lang, limit=args.limit, sleep=args.sleep,
                 concurrency=args.concurrency, use_wikidata=not args.no_wikidata,
-                max_candidates=args.max_candidates, from_mysql=True,
+                max_candidates=args.max_candidates, from_db=True,
                 job_id=job_id,
             )
             job_specs.append((city, job_id))
@@ -685,7 +685,7 @@ async def main_async(args):
             fetch_city_wiki,
             city=city, lang=args.lang, limit=args.limit, sleep=args.sleep,
             concurrency=args.concurrency, use_wikidata=not args.no_wikidata,
-            max_candidates=args.max_candidates, from_mysql=False,
+            max_candidates=args.max_candidates, from_db=False,
             job_id=job_id,
         )
         job_specs.append((city, job_id))

@@ -14,9 +14,10 @@ __all__ = [
 # RAG 模块（延迟导入，避免循环依赖）
 try:
     from src.services.rag import (
-        get_chroma_client,
-        get_spots_collection,
-        check_chroma_health,
+        vector_search_spots,
+        vector_search_spot_docs,
+        fulltext_search_spots,
+        fulltext_search_spot_docs,
         get_embedder,
         embed_query,
         embed_documents,
@@ -26,9 +27,10 @@ try:
         rrf_merge,
     )
     __all__.extend([
-        "get_chroma_client",
-        "get_spots_collection",
-        "check_chroma_health",
+        "vector_search_spots",
+        "vector_search_spot_docs",
+        "fulltext_search_spots",
+        "fulltext_search_spot_docs",
         "get_embedder",
         "embed_query",
         "embed_documents",

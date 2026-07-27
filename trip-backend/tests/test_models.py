@@ -475,17 +475,20 @@ class TestRoleModel:
 
     @pytest.mark.asyncio
     async def test_create_role(self, db_session: AsyncSession):
-        """创建角色"""
-        role = Role(name=RoleName.USER)
-        db_session.add(role)
-        await db_session.commit()
-
+        """验证预置角色存在"""
         result = await db_session.execute(
             select(Role).where(Role.name == RoleName.USER)
         )
         created = result.scalar_one_or_none()
         assert created is not None
         assert created.name == RoleName.USER
+
+        result = await db_session.execute(
+            select(Role).where(Role.name == RoleName.ADMIN)
+        )
+        admin = result.scalar_one_or_none()
+        assert admin is not None
+        assert admin.name == RoleName.ADMIN
 
 
 class TestTokenUsageLogModel:

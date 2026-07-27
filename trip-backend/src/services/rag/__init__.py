@@ -1,13 +1,15 @@
 """RAG 检索引擎模块.
 
-提供三路并行召回、RRF 融合、Cross-Encoder 重排等能力。
+提供四路并行召回（pgvector 向量 + PG 全文 + 评分）、RRF 融合、Cross-Encoder 重排等能力。
 """
 
-from src.services.rag.chroma_client import (
-    get_chroma_client,
-    get_spots_collection,
-    get_spot_docs_collection,
-    check_chroma_health,
+from src.services.rag.vector_search import (
+    vector_search_spots,
+    vector_search_spot_docs,
+)
+from src.services.rag.fulltext_search import (
+    fulltext_search_spots,
+    fulltext_search_spot_docs,
 )
 from src.services.rag.embeddings import (
     get_embedder,
@@ -35,11 +37,12 @@ from src.services.rag.credibility import (
 )
 
 __all__ = [
-    # ChromaDB 客户端
-    "get_chroma_client",
-    "get_spots_collection",
-    "get_spot_docs_collection",
-    "check_chroma_health",
+    # pgvector 向量检索
+    "vector_search_spots",
+    "vector_search_spot_docs",
+    # PG 全文检索
+    "fulltext_search_spots",
+    "fulltext_search_spot_docs",
     # Embedding
     "get_embedder",
     "embed_query",

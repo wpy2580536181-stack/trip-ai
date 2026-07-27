@@ -1,4 +1,4 @@
-"""SQLAlchemy async engine + sessionmaker"""
+"""SQLAlchemy async engine + sessionmaker (PostgreSQL + pgvector)"""
 
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from sqlalchemy.orm import sessionmaker
@@ -6,11 +6,11 @@ from sqlalchemy import text
 from src.config.settings import settings
 
 # 构建 async 数据库 URL
-# DATABASE_URL 格式：mysql://root:root@localhost:3306/trip_db
-# SQLAlchemy async 需要：mysql+asyncmy://root:root@localhost:3306/trip_db
+# DATABASE_URL 格式：postgresql://trip:trip123@localhost:5432/trip_db
+# SQLAlchemy async 需要：postgresql+asyncpg://trip:trip123@localhost:5432/trip_db
 db_url = settings.database_url
-if db_url.startswith("mysql://"):
-    db_url = db_url.replace("mysql://", "mysql+asyncmy://", 1)
+if db_url.startswith("postgresql://"):
+    db_url = db_url.replace("postgresql://", "postgresql+asyncpg://", 1)
 
 engine = create_async_engine(
     db_url,
@@ -23,14 +23,14 @@ async_session = sessionmaker(engine, class_=AsyncSession, expire_on_commit=False
 
 
 async def init_db():
-    """初始化数据库连接（创建连接池）+ 装慢查询日志 hook（M6 新增）"""
-    # SQLAlchemy 连接池是懒加载的，这里执行一个简单的查询来验证连接
+    """初始化数据库连接 + 确保扩展已启用 + 装慢查询日志 hook"""
     async with engine.begin() as conn:
+        # 确保 pgvector 扩展已启用（幂等操作）
+        await conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector"))
+        # 验证连接
         await conn.execute(text("SELECT 1"))
 
-    # M6: 装慢查询日志 hook（必须在首次 SQL 执行前 attach）
-    # threshold 可从 settings 配置（这里硬编码 100ms 保守值，后续可调）
-    # 接受 async engine → 取 .sync_engine 给 hook 用
+    # 慢查询日志 hook（threshold 100ms）
     from src.utils.sql_logger import attach_slow_query_log
     attach_slow_query_log(engine.sync_engine, threshold_ms=100)
 
