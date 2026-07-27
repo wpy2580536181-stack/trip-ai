@@ -15,7 +15,7 @@ from typing import Any, Optional
 
 from .types import SkillCatalog, SkillSpec, SkillContext, SkillResult, SkillLayer
 from .base import Skill
-from .loader import parse_skill_file, discover_skill_paths, get_skill_dirs
+from .loader import parse_skill_file, parse_skill_catalog, discover_skill_paths, get_skill_dirs
 
 
 class SkillRegistry:
@@ -75,12 +75,12 @@ class SkillRegistry:
                 best, best_score = s.name, score
         return best
 
-    # ---------------- L1→L2 路由（LLM 驱动，文章标准） ----------------
+    # ---------------- L1→L2 路由（已废弃，保留向后兼容） ----------------
     async def route_skill(self, query: str, llm: Any) -> Optional[str]:
-        """用 LLM 从 L1 目录中选取最匹配的技能（匹配是 LLM 的推理行为）。
+        """[DEPRECATED] 用 LLM 从 L1 目录中选取最匹配的技能。
 
-        文章标准：L1 目录常驻上下文，由 LLM 读 L1 描述自行判断何时加载 L2，
-        而非用硬编码路由。返回技能名或 None。
+        已废弃：新架构通过 select_skill 工具绑定到主 LLM 调用，由主 LLM
+        自行判断是否激活技能，无需独立路由调用。保留此方法仅为向后兼容。
 
         无 LLM 或解析失败时回退到 select() 关键字匹配。
         """
@@ -150,12 +150,12 @@ class SkillRegistry:
         # L3：执行（指令驱动 LLM 编排）
         return await skill.execute(ctx, **kwargs)
 
-    # ---------------- 批量加载 SKILL.md ----------------
+    # ---------------- 批量加载 SKILL.md（仅解析 L1 目录，L2 lazy-load） ----------------
     def load_from_directory(self, skills_dir: str) -> "SkillRegistry":
         for path in discover_skill_paths(skills_dir):
-            cat, spec = parse_skill_file(path)
+            cat = parse_skill_catalog(path)
             if cat is not None:
-                self.register(Skill(catalog=cat, spec=spec, path=path))
+                self.register(Skill(catalog=cat, path=path))
         return self
 
 
@@ -172,8 +172,7 @@ def load_builtin_skills(
 ) -> SkillRegistry:
     """加载内置技能。
 
-    优先从 .claude/skills/（Anthropic 标准目录）加载；
-    若不存在则回退到旧目录 src/.../skills/skills/ 保证向后兼容。
+    从 .claude/skills/（Anthropic 标准目录）加载。
     幂等：重复调用会用同名覆盖。
     """
     reg = registry or get_skill_registry()

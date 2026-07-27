@@ -21,8 +21,9 @@ from .registry import (
     get_skill_registry,
     load_builtin_skills,
 )
-from .loader import parse_skill_file, discover_skill_paths, get_skill_dirs
-from .runtime import build_skill_context, run_selected_skill
+from .loader import parse_skill_file, parse_skill_catalog, discover_skill_paths, get_skill_dirs
+from .runtime import build_skill_context, run_selected_skill, run_skill_if_selected
+from .selector_tool import select_skill, extract_select_skill_call
 
 __all__ = [
     "SkillLayer",
@@ -35,8 +36,12 @@ __all__ = [
     "get_skill_registry",
     "load_builtin_skills",
     "parse_skill_file",
+    "parse_skill_catalog",
     "discover_skill_paths",
     "get_skill_dirs",
     "build_skill_context",
     "run_selected_skill",
+    "run_skill_if_selected",
+    "select_skill",
+    "extract_select_skill_call",
 ]

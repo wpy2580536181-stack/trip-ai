@@ -205,6 +205,9 @@ def _extract_usage(event: dict, usage: TokenUsage) -> None:
 async def chat_planner_node(state: dict, config: RunnableConfig) -> dict:
     """ChatPlanner 节点实现：基于 research 结果生成流式回答。
     
+    新架构（对齐 Anthropic 规范）：主 LLM 绑定 select_skill 工具，单次调用
+    同时完成路由 + 规划。LLM 调用 select_skill = 选中技能；否则直接输出。
+    
     Args:
         state: 当前状态
         config: LangGraph 配置
@@ -218,16 +221,48 @@ async def chat_planner_node(state: dict, config: RunnableConfig) -> dict:
     llm = configurable.get("llm")
     fallback_llm_config = configurable.get("fallback_llm_config")
 
-    # ── Skills 基座：L1 粗选 → L2 规格注入 → L3 指令驱动执行 ──
+    # ── Skills 基座（新架构）：主 LLM 绑定 select_skill 工具，单次调用完成路由+规划 ──
     # 推荐场景（无具体目的地）走独立 prompt，不套用技能；其余规划请求先尝试技能。
-    from src.services.agent.skills import run_selected_skill
+    from src.services.agent.skills import run_skill_if_selected, select_skill
+    from src.services.agent.skills.selector_tool import extract_select_skill_call
 
     _user_message = state.get("message", "")
+    _reg = configurable.get("skill_registry")
+
     if not _is_recommendation_request(state.get("city", ""), _user_message):
-        _skill_result = await run_selected_skill(
-            registry=configurable.get("skill_registry"),
+        # 非推荐场景：构建含 L1 目录的 prompt，绑定 select_skill 工具
+        _skill_prompt = build_planner_prompt(
+            city=state.get("city", ""),
+            budget=state.get("budget"),
+            days=state.get("days"),
+            user_preferences=state.get("user_preferences"),
+            research_bundle=state.get("research_bundle", {}),
+        )
+        if _reg is not None:
+            _cat = _reg.catalog_prompt(header="# 可用技能（L1 目录，已常驻上下文）")
+            if _cat:
+                _skill_prompt += (
+                    "\n\n# 可用技能（L1 目录）\n"
+                    "下面是可用的技能清单。若用户请求明确匹配某技能，"
+                    "请调用 select_skill 工具并传入技能名称；否则直接输出规划结果。\n" + _cat + "\n"
+                )
+
+        # 单次非流式 LLM 调用（绑定 select_skill）
+        _query = _user_message or f"规划{state.get('city', '')}{state.get('days')}日游"
+        try:
+            _llm_with_tools = llm.bind_tools([select_skill])
+            _resp = await _llm_with_tools.ainvoke([
+                {"role": "system", "content": _skill_prompt},
+                {"role": "human", "content": _query},
+            ])
+        except Exception:
+            _resp = None
+
+        # 检测是否选中技能
+        _skill_result = await run_skill_if_selected(
+            registry=_reg,
             llm=llm,
-            query=_user_message or f"规划{state.get('city', '')}{state.get('days')}日游",
+            response=_resp,
             user_input=_user_message,
             city=state.get("city"),
             days=state.get("days"),
@@ -305,8 +340,7 @@ async def chat_planner_node(state: dict, config: RunnableConfig) -> dict:
 """
             planner_prompt += multi_turn_instructions
     
-    # L1 技能目录常驻上下文（供规划 LLM 知晓可用技能；真正选/执行在 run_selected_skill）
-    _reg = configurable.get("skill_registry")
+    # L1 技能目录常驻上下文（降级流式路径中仍保留目录信息供 LLM 参考）
     if _reg is not None:
         _cat = _reg.catalog_prompt(header="# 可用技能（L1 目录，已常驻上下文）")
         if _cat:

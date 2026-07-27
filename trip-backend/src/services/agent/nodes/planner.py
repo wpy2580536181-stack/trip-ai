@@ -82,6 +82,34 @@ async def _invoke_llm(
     Returns:
         (content, usage) 元组
     """
+    content, usage, _ = await _invoke_llm_with_skill(
+        llm, system_prompt, user_message, timeout
+    )
+    return content, usage
+
+
+async def _invoke_llm_with_skill(
+    llm: Any,
+    system_prompt: str,
+    user_message: str,
+    timeout: float,
+) -> tuple[str, TokenUsage, Any]:
+    """调用 LLM（绑定 select_skill 工具）并提取结果。
+    
+    对齐 Anthropic 规范：主 LLM 绑定 select_skill 工具，单次调用同时完成
+    路由 + 规划。返回原始响应对象供节点检测 tool_calls。
+    
+    Args:
+        llm: ChatOpenAI 实例
+        system_prompt: 系统提示词
+        user_message: 用户消息
+        timeout: 超时时间（秒）
+        
+    Returns:
+        (content, usage, raw_response) 元组
+    """
+    from src.services.agent.skills import select_skill
+
     # --- LLM Cache 检查 ---
     from src.services.llm_cache import get_llm_cache
     llm_cache = get_llm_cache()
@@ -90,8 +118,7 @@ async def _invoke_llm(
         cached_response = await llm_cache.get(cache_prompt)
         if cached_response is not None:
             logger.info("planner|llm_cache=hit prompt_len=%d", len(cache_prompt))
-            # cached_tokens 不可知（从自己缓存返回），设定 ratio=100%
-            return cached_response, {"prompt": 0, "completion": 0, "total": 0, "cached": 0}
+            return cached_response, {"prompt": 0, "completion": 0, "total": 0, "cached": 0}, None
 
     _t_llm = time.time()
 
@@ -103,14 +130,15 @@ async def _invoke_llm(
         ("human", "{input}"),
     ])
     
-    chain = prompt | llm
+    # 绑定 select_skill 工具，由主 LLM 自行判断是否激活技能
+    llm_with_tools = llm.bind_tools([select_skill])
+    chain = prompt | llm_with_tools
     
     try:
         _t_start = time.time()
-        # 使用 asyncio.wait_for 实现超时
         result = await asyncio.wait_for(
             chain.ainvoke({"input": user_message}),
-            timeout=timeout / 1000.0,  # 转换为秒
+            timeout=timeout / 1000.0,
         )
         _t_duration = int((time.time() - _t_start) * 1000)
         
@@ -141,7 +169,7 @@ async def _invoke_llm(
             prompt_t, usage.get("completion", 0), cached_t, hit_ratio,
         )
         
-        return content, usage
+        return content, usage, result
         
     except asyncio.TimeoutError:
         raise TimeoutError(f"planner 执行超时（{timeout / 1000}秒）")
@@ -149,6 +177,9 @@ async def _invoke_llm(
 
 async def planner_node(state: dict, config: RunnableConfig) -> dict:
     """Planner 节点实现：调用 LLM 生成行程规划。
+    
+    新架构（对齐 Anthropic 规范）：主 LLM 绑定 select_skill 工具，单次调用
+    同时完成路由 + 规划。LLM 调用 select_skill = 选中技能；否则直接输出规划。
     
     Args:
         state: 当前状态
@@ -158,14 +189,12 @@ async def planner_node(state: dict, config: RunnableConfig) -> dict:
         更新的状态字段
     """
     from src.config.llm import create_llm_from_config, load_fallback_llm_config
+    from src.services.agent.skills import run_skill_if_selected, select_skill
+    from src.services.agent.skills.selector_tool import extract_select_skill_call
     
     configurable = config.get("configurable", {})
     llm = configurable.get("llm")
     fallback_config = configurable.get("fallback_llm_config")
-
-    # ── Skills 基座：L1 粗选 → L2 规格注入 → L3 指令驱动执行 ──
-    # 命中技能时由技能自行编排底层工具产出行程；否则降级到下方原有 planner 逻辑。
-    from src.services.agent.skills import run_selected_skill
 
     message = state.get("message", "")
     if not message:
@@ -174,29 +203,6 @@ async def planner_node(state: dict, config: RunnableConfig) -> dict:
             f"请为我规划{_dep + '出发到' if _dep else ''}"
             f"{state.get('city', '')}{state.get('days')}日游行程"
         )
-    skill_result = await run_selected_skill(
-        registry=configurable.get("skill_registry"),
-        llm=llm,
-        query=message,
-        user_input=message,
-        city=state.get("city"),
-        days=state.get("days"),
-        budget=state.get("budget"),
-        departure_city=state.get("departure_city"),
-    )
-    if skill_result is not None and skill_result.ok:
-        logger.info("planner|skill=%s 命中并执行成功", skill_result.skill)
-        return {
-            "raw_output": skill_result.content,
-            "usage": {"prompt": 0, "completion": 0, "total": 0, "cached": 0},
-            "skill_used": skill_result.skill,
-        }
-    if skill_result is not None and not skill_result.ok:
-        logger.warning(
-            "planner|skill=%s 执行失败，降级原 planner: %s",
-            skill_result.skill, skill_result.error,
-        )
-    # 无人选或技能执行失败 → 降级到原有 build_planner_prompt 逻辑
 
     # 构建 planner 提示词
     system_prompt = build_planner_prompt(
@@ -208,15 +214,15 @@ async def planner_node(state: dict, config: RunnableConfig) -> dict:
         research_bundle=state.get("research_bundle", {}),
     )
 
-    # L1 技能目录常驻上下文（供规划 LLM 知晓可用技能；真正选/执行在 run_selected_skill）
+    # L1 技能目录常驻上下文（供主 LLM 自行判断是否激活技能）
     _reg = configurable.get("skill_registry")
     if _reg is not None:
         _cat = _reg.catalog_prompt(header="# 可用技能（L1 目录，已常驻上下文）")
         if _cat:
             system_prompt += (
                 "\n\n# 可用技能（L1 目录）\n"
-                "下面是可用的技能清单。若用户请求匹配某技能，系统会加载其完整说明"
-                "并执行，无需你手动调用。\n" + _cat + "\n"
+                "下面是可用的技能清单。若用户请求明确匹配某技能，"
+                "请调用 select_skill 工具并传入技能名称；否则直接输出规划结果。\n" + _cat + "\n"
             )
     
     # 构建用户消息
@@ -228,12 +234,12 @@ async def planner_node(state: dict, config: RunnableConfig) -> dict:
         departure = state.get("departure_city", "")
         user_message = f"请为我规划{departure + '出发到' if departure else ''}{city}{days}日游行程，预算{budget}元。"
     
-    # 调用 LLM（带主备切换）
+    # 主 LLM 调用（绑定 select_skill 工具，单次调用同时完成路由 + 规划）
     content = ""
     usage: TokenUsage = {"prompt": 0, "completion": 0, "total": 0, "cached": 0}
     
     try:
-        content, usage = await _invoke_llm(
+        content, usage, resp = await _invoke_llm_with_skill(
             llm, system_prompt, user_message,
             RECOMMEND_TIMEOUT_MS,
         )
@@ -241,13 +247,38 @@ async def planner_node(state: dict, config: RunnableConfig) -> dict:
         # 主 LLM 失败，尝试备用 LLM
         if fallback_config:
             fallback_llm = create_llm_from_config(fallback_config, streaming=False)
-            content, usage = await _invoke_llm(
+            content, usage, resp = await _invoke_llm_with_skill(
                 fallback_llm, system_prompt, user_message,
                 RECOMMEND_TIMEOUT_MS,
             )
         else:
             raise e
     
+    # 检测 LLM 是否调用了 select_skill → 执行技能
+    skill_result = await run_skill_if_selected(
+        registry=_reg,
+        llm=llm,
+        response=resp,
+        user_input=message,
+        city=state.get("city"),
+        days=state.get("days"),
+        budget=state.get("budget"),
+        departure_city=state.get("departure_city"),
+    )
+    if skill_result is not None and skill_result.ok:
+        logger.info("planner|skill=%s 命中并执行成功", skill_result.skill)
+        return {
+            "raw_output": skill_result.content,
+            "usage": usage,
+            "skill_used": skill_result.skill,
+        }
+    if skill_result is not None and not skill_result.ok:
+        logger.warning(
+            "planner|skill=%s 执行失败，降级使用 LLM 直接输出: %s",
+            skill_result.skill, skill_result.error,
+        )
+    
+    # LLM 未选中技能（或技能执行失败）→ 使用 LLM 的文本输出作为规划结果
     return {"raw_output": content, "usage": usage}
 
 

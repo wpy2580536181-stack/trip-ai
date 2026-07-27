@@ -2,7 +2,7 @@
 
 SKILL.md 结构（对齐 Anthropic Claude Code Skill 规范）：
     ---
-    name: 行程规划
+    name: trip-planner
     description: "当用户提到行程、攻略、几日游时触发..."  # L1：常驻上下文
     ---
 
@@ -12,9 +12,7 @@ SKILL.md 结构（对齐 Anthropic Claude Code Skill 规范）：
 
     references/scripts/assets     # L3：执行时按需加载的资源
 
-目录扫描支持双路径：
-- .claude/skills/<name>/SKILL.md  （Anthropic 标准，优先）
-- src/services/agent/skills/skills/<name>/SKILL.md  （旧目录，向后兼容兜底）
+技能目录：.claude/skills/<name>/SKILL.md（Anthropic 标准）。
 
 为保持测试与运行环境零外部依赖，frontmatter 与分段均为轻量自写解析，
 不引入 PyYAML。
@@ -71,6 +69,26 @@ def _parse_sections(body: str) -> dict:
     return sections
 
 
+def parse_skill_catalog(path: str) -> Optional[SkillCatalog]:
+    """仅解析 SKILL.md 的 frontmatter，返回 L1 目录元信息。
+
+    不解析正文 body，实现 L2 真正按需加载（lazy-load）。
+    解析失败或缺少 name 时返回 None。
+    """
+    with open(path, "r", encoding="utf-8") as f:
+        text = f.read()
+    fm, _ = _parse_frontmatter(text)
+    name = fm.get("name", "")
+    if not name:
+        return None
+    return SkillCatalog(
+        name=name,
+        description=fm.get("description", ""),
+        tags=fm.get("tags", []),
+        kind=fm.get("kind", "agent"),
+    )
+
+
 def parse_skill_file(path: str):
     """解析单个 SKILL.md，返回 (SkillCatalog | None, SkillSpec)。
 
@@ -124,8 +142,7 @@ def discover_skill_paths(skills_dirs: list[str] | str) -> list[str]:
 
     Args:
         skills_dirs: 单个路径字符串或路径列表。支持 Anthropic 规范目录
-            （.claude/skills/<name>/SKILL.md）和旧目录结构
-            （src/.../skills/skills/<name>/SKILL.md）。
+            （.claude/skills/<name>/SKILL.md）。
     """
     if isinstance(skills_dirs, str):
         skills_dirs = [skills_dirs]
@@ -141,22 +158,13 @@ def discover_skill_paths(skills_dirs: list[str] | str) -> list[str]:
 
 
 def get_skill_dirs() -> list[str]:
-    """返回所有技能目录路径列表。
+    """返回技能目录路径列表。
 
-    按优先级顺序：.claude/skills（Anthropic 标准） > src/.../skills/skills（旧目录）。
-    优先目录存在时优先加载，旧目录作为兜底保证向后兼容。
+    使用 .claude/skills（Anthropic 标准目录）作为唯一技能来源。
     """
     here = os.path.dirname(os.path.abspath(__file__))
     # here = .../src/services/agent/skills
     # project_root = .../trip-backend (4 levels up)
     project_root = os.path.normpath(os.path.join(here, "..", "..", "..", ".."))
-    dirs: list[str] = []
-    # Anthropic 标准目录
     claude_skills = os.path.join(project_root, ".claude", "skills")
-    if os.path.isdir(claude_skills):
-        dirs.append(claude_skills)
-    # 旧目录（向后兼容）
-    old_skills = os.path.join(here, "skills")
-    if os.path.isdir(old_skills):
-        dirs.append(old_skills)
-    return dirs
+    return [claude_skills] if os.path.isdir(claude_skills) else []

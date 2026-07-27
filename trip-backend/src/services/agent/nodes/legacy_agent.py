@@ -37,18 +37,35 @@ async def legacy_agent_node(state: dict, config: RunnableConfig) -> dict:
     trace_recorder = configurable.get("trace_recorder")
     step_counter = configurable.get("step_counter", {"value": 1})
 
-    # ── Skills 基座：L1 粗选 → L2 规格注入 → L3 指令驱动执行 ──
-    # 一般对话路由（route == 'general'）若匹配到技能（如路线优化/酒店搜索），
-    # 由技能自行编排底层工具回答；否则降级到下方原有 AgentExecutor 逻辑。
-    from src.services.agent.skills import run_selected_skill
+    # ── Skills 基座（新架构）：主 LLM 绑定 select_skill 工具，单次调用完成路由+执行 ──
+    # 一般对话路由（route == 'general'）若匹配到技能，由技能自行编排底层工具回答；
+    # 否则降级到下方原有 AgentExecutor 逻辑。
+    from src.services.agent.skills import run_skill_if_selected, select_skill
+    from src.services.agent.skills.selector_tool import extract_select_skill_call
 
     _message = state.get("message", "")
     _llm = configurable.get("llm")
-    if _message:
-        _skill_result = await run_selected_skill(
-            registry=configurable.get("skill_registry"),
+    _reg = configurable.get("skill_registry")
+    if _message and _llm and _reg:
+        # 构建含 L1 目录的提示词，绑定 select_skill 工具
+        _cat = _reg.catalog_prompt(header="# 可用技能")
+        _sys = (
+            "你是旅行助手。若用户请求明确匹配下方某个技能，请调用 select_skill 工具；"
+            "否则直接回答。\n" + (_cat or "")
+        )
+        try:
+            _llm_with_tools = _llm.bind_tools([select_skill])
+            _resp = await _llm_with_tools.ainvoke([
+                {"role": "system", "content": _sys},
+                {"role": "human", "content": _message},
+            ])
+        except Exception:
+            _resp = None
+
+        _skill_result = await run_skill_if_selected(
+            registry=_reg,
             llm=_llm,
-            query=_message,
+            response=_resp,
             user_input=_message,
             city=state.get("city"),
             days=state.get("days"),
