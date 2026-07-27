@@ -18,7 +18,6 @@ from src.models.conversation import Conversation
 from src.models.message import Message
 from src.utils.logger import summary_log as log
 from src.utils.tokens import (
-    DEFAULT_COMPACTION_TARGET_TOKENS,
     estimate_tokens,
     get_history_max_tokens,
 )
@@ -118,14 +117,19 @@ class SummaryService:
                 for m in messages
             )
 
+            # 全量压缩保护：截断过长输入，避免超出压缩 LLM 上下文窗口
+            MAX_DIALOG_CHARS = 30000
+            if len(dialog_text) > MAX_DIALOG_CHARS:
+                dialog_text = dialog_text[:MAX_DIALOG_CHARS] + "\n...(后续内容已截断)"
+
             system_msg = (
                 "你是一个对话摘要助手。请分析以下对话，按指定格式输出两层摘要。\n\n"
                 "## 输出格式（严格遵守）\n"
                 "必须输出两段，每段以 ### 开头的标题行作为锚点，标题与正文之间换行：\n\n"
                 "### 关键决策\n"
-                "<记录本次对话产生的关键决策：目的地、天数、预算、偏好、行程安排、住宿选择等已确定的事项，80-150 字>\n\n"
+                "<记录对话中产生的所有关键决策：目的地、天数、预算、偏好、行程安排、住宿选择、修改记录等已确定的事项，150-400 字>\n\n"
                 "### 对话脉络\n"
-                "<记录本次对话的脉络：讨论过的主题与方向、用户的兴趣演变、问过什么、还没问什么、关注点的变化，80-150 字>\n\n"
+                "<记录对话的完整脉络：讨论过的主题与方向、用户的兴趣演变、问过什么、还没问什么、关注点的变化，100-300 字>\n\n"
                 "## 追加规则\n"
                 "- 本次输出会追加到已有摘要/脉络的末尾，所以请只关注本次对话的新信息，不要重复已有内容\n"
                 "- 不要加 markdown 代码块、不要加任何前后缀解释文字，输出完直接结束"
@@ -247,9 +251,15 @@ class SummaryService:
         db: AsyncSession,
         conversation_id: int,
     ) -> None:
-        """对外暴露的完整压缩流程。
+        """对外暴露的完整压缩流程（全量压缩策略）。
 
-        检查是否需要压缩，如果需要则执行压缩。
+        当未压缩消息总量超过阈值时，将所有消息一次性压缩为
+        分层摘要（关键决策 + 对话脉络），不保留任何原文。
+
+        策略：
+        - 触发条件：未压缩消息总 tokens > HISTORY_MAX_TOKENS（默认 187K）
+        - 压缩范围：全部消息，无保留
+        - 压缩后上下文仅包含 summary + recap
 
         Args:
             db: 数据库会话
@@ -259,22 +269,25 @@ class SummaryService:
             max_tokens = get_history_max_tokens()
             ctx = await _get_context_messages(db, conversation_id, max_tokens)
 
-            # 大多数轮次：TAIL 总量未超预算，跳过整个 LLM 调用
+            # 未超阈值，跳过
             if not ctx["needs_compaction"]:
                 return
             if not ctx["messages"]:
                 return
 
-            # 目标：把 TAIL 压到 targetTokens（~12K），留 25% buffer 避免下一两轮又触发
-            target_tokens = DEFAULT_COMPACTION_TARGET_TOKENS
-            selection = select_compaction_range(ctx["messages"], ctx["total_tokens"], target_tokens)
-            if not selection["to_compact"]:
-                return
+            messages = ctx["messages"]
+
+            log.info(
+                conversationId=conversation_id,
+                totalMessages=len(messages),
+                totalTokens=ctx["total_tokens"],
+                msg="触发全量压缩（所有消息）",
+            )
 
             await self.compress_context(
                 db,
                 conversation_id,
-                selection["to_compact"],
+                messages,
             )
         except Exception as e:
             log.error(err=str(e), msg="压缩对话异常")

@@ -12,12 +12,8 @@
 import math
 import os
 
-# 历史消息最大 token 数（超出则触发压缩）
-DEFAULT_HISTORY_MAX_TOKENS = 16000
-
-# 压缩后目标 token 数。把 TAIL 从 maxTokens 压到该值，
-# 留出 ~25% buffer 避免下一两轮立刻又触发压缩。
-DEFAULT_COMPACTION_TARGET_TOKENS = 12000
+# 历史消息最大 token 数（超出则触发全量压缩）
+DEFAULT_HISTORY_MAX_TOKENS = 187_000
 
 
 def estimate_tokens(text: str) -> int:
