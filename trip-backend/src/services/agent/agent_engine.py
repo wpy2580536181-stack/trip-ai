@@ -21,6 +21,8 @@ from src.services.agent.state import PlannerState
 from src.services.agent.types import TokenUsage, StepInput
 from src.services.agent.chat_graph import build_chat_graph
 from src.services.agent.planner_graph import build_planner_graph
+from src.services.agent.orchestrator import Orchestrator
+from src.services.agent.schemas import PlanRequest
 from src.services.agent.trace_recorder import TraceRecorder
 from src.services.agent.token_monitor import token_monitor
 from src.services.agent.token_tracker import LLMContext
@@ -213,7 +215,7 @@ class AgentEngine:
         signal: Optional[asyncio.Event] = None,
         message_id: int = 0,
     ) -> dict:
-        """多轮对话（使用 ChatGraph）。
+        """多轮对话（使用 ChatAgent）。
         
         Args:
             user_id: 用户 ID
@@ -261,66 +263,44 @@ class AgentEngine:
         
         # 创建 TraceRecorder
         trace_recorder = TraceRecorder(message_id)
-        step_counter = {"value": 1}
         
-        # 构建 ChatGraph
-        graph = build_chat_graph()
-        
-        # 构建配置
-        config = {
-            "configurable": {
-                "trace_recorder": trace_recorder,
-                "on_event": on_event,
-                "signal": signal,
-                "step_counter": step_counter,
-                "llm": self.llm,
-                "fallback_llm_config": self.fallback_llm_config,
-                "system_prompt": system_prompt,
-                "conversation_history": conversation_history,
-                "skill_registry": self.skill_registry,
-            },
-        }
-        
-        # 构建初始状态
-        initial_state: PlannerState = {
-            "user_id": user_id,
-            "message": message,
-            "city": "北京",  # router 节点会按消息内容覆盖
-            "budget": None,
-            "days": None,
-            "departure_city": None,
-            "user_preferences": preferences,
-            "conversation_history": conversation_history,
-            "research_bundle": {},
-            "raw_output": None,
-            "parsed": None,
-            "usage": {"prompt": 0, "completion": 0, "total": 0, "cached": 0},
-            "route": None,
-            "errors": [],
-        }
+        # 构建 ChatAgent（多 Agent 架构）
+        from src.services.agent.agents.chat_agent import ChatAgent
+        chat_agent = ChatAgent(
+            llm=self.llm,
+            on_event=on_event,
+            system_prompt=system_prompt,
+        )
         
         try:
-            # 执行 ChatGraph（设置 LLM 上下文，供 token_tracker callback 使用）
+            # 执行 ChatAgent（设置 LLM 上下文，供 token_tracker callback 使用）
             with LLMContext(user_id=user_id, endpoint="chat"):
-                result = await graph.ainvoke(initial_state, config=config)
+                result = await chat_agent.run(
+                    message=message,
+                    conversation_history=conversation_history,
+                    system_prompt=system_prompt,
+                )
+            
+            if result.error:
+                raise ValueError(result.error)
             
             # 记录完成事件
             trace_recorder.add({
-                "step": step_counter["value"],
+                "step": 1,
                 "type": "complete",
-                "duration_ms": int((time.time() - start_time) * 1000),
+                "duration_ms": result.duration_ms,
             })
             await trace_recorder.flush()
             
             # 记录 Token 使用量（后台任务，不阻塞）
             asyncio.create_task(token_monitor.record({
                 "request_type": "chat",
-                "route": result.get("route"),
+                "route": "chat_agent",
                 "user_id": user_id,
                 "conversation_id": conversation_id,
                 "message_id": message_id,
-                "total_usage": result.get("usage"),
-                "latency_ms": int((time.time() - start_time) * 1000),
+                "total_usage": result.usage,
+                "latency_ms": result.duration_ms,
                 "timestamp": int(time.time() * 1000),
             }))
             
@@ -328,12 +308,12 @@ class AgentEngine:
             if on_event:
                 await on_event({
                     "type": "complete",
-                    "content": result.get("raw_output", ""),
-                    "usage": result.get("usage"),
+                    "content": result.result or "",
+                    "usage": result.usage,
                 })
             
             return {
-                "reply": result.get("raw_output", ""),
+                "reply": result.result or "",
                 "conversation_id": conversation_id,
             }
             
@@ -342,7 +322,7 @@ class AgentEngine:
             
             # 记录错误
             trace_recorder.add({
-                "step": step_counter["value"],
+                "step": 1,
                 "type": "error",
                 "error": error_msg,
             })
@@ -368,7 +348,7 @@ class AgentEngine:
         on_event: Optional[Callable[[dict], Awaitable[None]]] = None,
         message_id: int = 0,
     ) -> dict:
-        """行程推荐（使用 PlannerGraph）。
+        """行程推荐（使用多 Agent Orchestrator）。
         
         Args:
             user_id: 用户 ID
@@ -393,7 +373,6 @@ class AgentEngine:
         
         # 创建 TraceRecorder
         trace_recorder = TraceRecorder(message_id)
-        step_counter = {"value": 1}
         
         # 构建输入消息
         input_message = (
@@ -401,126 +380,98 @@ class AgentEngine:
             f"{city}{days}日游行程，预算{budget}元。"
         )
         
-        # 构建 PlannerGraph
-        graph = build_planner_graph()
+        # 构建 fallback LLM
+        fallback_llm = None
+        if self.fallback_llm_config:
+            from src.config.llm import create_llm_from_config
+            fallback_llm = create_llm_from_config(self.fallback_llm_config, streaming=False)
         
-        # 构建配置
-        config = {
-            "configurable": {
-                "trace_recorder": trace_recorder,
-                "on_event": on_event,
-                "signal": None,
-                "step_counter": step_counter,
-                "llm": self.llm,
-                "fallback_llm_config": self.fallback_llm_config,
-                "skill_registry": self.skill_registry,
-            },
-        }
+        # 构建 Orchestrator（多 Agent 编排）
+        orchestrator = Orchestrator(
+            llm=self.llm,
+            fallback_llm=fallback_llm,
+            on_event=on_event,
+        )
         
-        # 构建初始状态
-        initial_state: PlannerState = {
-            "user_id": user_id,
-            "message": input_message,
-            "city": city,
-            "budget": budget,
-            "days": days,
-            "departure_city": departure_city,
-            "user_preferences": preferences,
-            "conversation_history": [],
-            "research_bundle": {},
-            "raw_output": None,
-            "parsed": None,
-            "usage": {"prompt": 0, "completion": 0, "total": 0, "cached": 0},
-            "route": None,
-            "errors": [],
-        }
+        # 构建规划请求
+        request = PlanRequest(
+            user_id=user_id,
+            city=city,
+            days=days,
+            budget=budget,
+            departure_city=departure_city,
+            preferences=preferences,
+            message=input_message,
+        )
         
         try:
-            # 执行 PlannerGraph（设置 LLM 上下文，供 token_tracker callback 使用）
+            # 执行多 Agent 编排（设置 LLM 上下文，供 token_tracker callback 使用）
             with LLMContext(user_id=user_id, endpoint="recommend"):
-                result = await graph.ainvoke(initial_state, config=config)
+                result = await orchestrator.plan(request)
             
-            _t_graph = time.time()
             logger = logging.getLogger(__name__)
             logger.info(
-                "agent|graph=%dms city=%s days=%d budget=%d",
-                int((_t_graph - start_time) * 1000), city, days, budget,
+                "agent|orchestrator=%dms city=%s days=%d budget=%d passed=%s",
+                result.duration_ms, city, days, budget,
+                result.review.passed if result.review else False,
             )
             
-            # 检查解析结果
-            if result.get("parsed"):
-                # 记录完成事件
-                trace_recorder.add({
-                    "step": step_counter["value"],
+            if result.error:
+                raise ValueError(result.error)
+            
+            # 记录完成事件
+            trace_recorder.add({
+                "step": 1,
+                "type": "complete",
+                "duration_ms": result.duration_ms,
+            })
+            await trace_recorder.flush()
+            
+            # 记录 Token 使用量（后台任务，不阻塞）
+            asyncio.create_task(token_monitor.record({
+                "request_type": "recommend",
+                "user_id": user_id,
+                "message_id": message_id,
+                "total_usage": result.usage,
+                "latency_ms": result.duration_ms,
+                "timestamp": int(time.time() * 1000),
+            }))
+            
+            # 发送完成事件
+            if on_event:
+                await on_event({
                     "type": "complete",
-                    "duration_ms": int((time.time() - start_time) * 1000),
+                    "content": result.raw_output or "",
+                    "usage": result.usage,
                 })
-                await trace_recorder.flush()
-                
-                # 记录 Token 使用量（后台任务，不阻塞）
-                asyncio.create_task(token_monitor.record({
-                    "request_type": "recommend",
-                    "user_id": user_id,
-                    "message_id": message_id,
-                    "total_usage": result.get("usage"),
-                    "latency_ms": int((time.time() - start_time) * 1000),
-                    "timestamp": int(time.time() * 1000),
-                }))
-                
-                # 发送完成事件
-                if on_event:
-                    await on_event({
-                        "type": "complete",
-                        "content": result.get("raw_output", ""),
-                        "usage": result.get("usage"),
-                    })
-                
+            
+            # 如果 review 通过且有 parsed plan，直接返回
+            if result.plan:
                 return {
-                    "reply": result.get("raw_output", ""),
-                    "parsed": result.get("parsed"),
+                    "reply": result.raw_output or "",
+                    "parsed": result.plan,
                 }
             
-            # retry 后 raw_output 仍可能未过校验，二次校验一次
-            from .validate import validate_with_repair
-            try:
-                validate_result = validate_with_repair(result.get("raw_output", ""))
-                trace_recorder.add({
-                    "step": step_counter["value"],
-                    "type": "complete",
-                    "duration_ms": int((time.time() - start_time) * 1000),
-                })
-                await trace_recorder.flush()
-                
-                # 记录 Token 使用量（后台任务，不阻塞）
-                asyncio.create_task(token_monitor.record({
-                    "request_type": "recommend",
-                    "user_id": user_id,
-                    "message_id": message_id,
-                    "total_usage": result.get("usage"),
-                    "latency_ms": int((time.time() - start_time) * 1000),
-                    "timestamp": int(time.time() * 1000),
-                }))
-                
-                if on_event:
-                    await on_event({
-                        "type": "complete",
-                        "content": result.get("raw_output", ""),
-                        "usage": result.get("usage"),
-                    })
-                
-                return {
-                    "reply": result.get("raw_output", ""),
-                    "parsed": validate_result["parsed"],
-                }
-            except Exception:
-                raise ValueError("Agent 多次输出无效 JSON，请稍后重试")
+            # review 未完全通过但有 raw_output，尝试最后一次修复解析
+            if result.raw_output:
+                from .nodes.validate import validate_with_repair
+                try:
+                    validate_result = validate_with_repair(result.raw_output)
+                    return {
+                        "reply": result.raw_output,
+                        "parsed": validate_result["parsed"],
+                    }
+                except Exception:
+                    pass
+            
+            raise ValueError("Agent 多次输出无效 JSON，请稍后重试")
                 
         except Exception as e:
             error_msg = str(e)
             
             # 记录错误
             trace_recorder.add({
-                "step": step_counter["value"],
+                "step": 1,
                 "type": "error",
                 "error": error_msg,
             })

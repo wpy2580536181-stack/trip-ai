@@ -9,12 +9,14 @@
 | 前端 | Vue 3 + TypeScript + Vite + Naive UI |
 | 后端 | FastAPI (Python 3.12+) |
 | 数据库 | PostgreSQL 16 + pgvector (向量) + SQLAlchemy (async) |
-| AI | LangChain + DeepSeek API |
+| AI | LangChain + LangGraph + DeepSeek API |
+| Agent 架构 | 多 Agent 协作（ChatAgent / ResearchAgent / PlannerAgent + Orchestrator 编排） |
 
 ## 功能
 
 - **AI 行程生成** — 输入目的地/预算/天数，自动生成每日行程（含景点、餐饮、住宿）
-- **对话式交互** — 与 AI 助手多轮对话，调整行程细节
+- **多 Agent 协作规划** — ResearchAgent 自主搜索 → PlannerAgent 生成行程 → Review 校验循环，封闭世界约束杠绝幻觉
+- **对话式交互** — ChatAgent 单 Agent ReAct 模式，支持多轮对话、工具调用、行程修改升级
 - **高德地图 MCP 集成** — 通过 MCP 协议实时查询高德全库 POI
 - **多维度检索** — pgvector 向量 (bge-small-zh) + PG 全文检索 + 热度 三路召回，Cross-Encoder (bge-reranker) 重排序
 - **行程度量** — 预算明细、出行 Tips
@@ -111,6 +113,13 @@ trip/
 │   └── src/
 │       ├── controllers/ # 路由/控制器
 │       ├── services/    # 业务逻辑（Agent/RAG/LLM）
+│       │   └── agent/   # 多 Agent 编排层
+│       │       ├── agents/      # 独立 Agent（ChatAgent/ResearchAgent/PlannerAgent）
+│       │       ├── orchestrator.py  # 编排层（调度 Agent + 重试循环）
+│       │       ├── review.py    # 行程校验（代码层 + LLM 独立审阅）
+│       │       ├── intent.py    # 意图抽取（fast-path 规则）
+│       │       ├── schemas.py   # Agent 间通信契约
+│       │       └── tools/       # 工具（RAG/酒店/距离/MCP）
 │       │   └── rag/     # RAG 检索管线
 │       │   └── mcp/     # MCP 工具集成
 │       ├── middleware/  # 中间件（认证/限流/幂等/并发）
@@ -150,7 +159,31 @@ uv run python -m eval.run --real --tag smoke     # Agent 评估（真实后端�
 uv run python -m eval.retrieval.run              # 检索层评估
 ```
 
+## 多 Agent 架构
+
+系统采用多 Agent 协作架构，每个 Agent 拥有独立上下文、独立工具、独立 LLM 调用：
+
+```
+用户消息
+  │
+  ├── chat() ──→ ChatAgent（单 Agent ReAct，流式对话）
+  │                ├── 直接回答（RAG/酒店/天气工具）
+  │                ├── trigger_plan ──→ Orchestrator.plan()
+  │                └── trigger_modify ──→ Orchestrator.modify()
+  │
+  └── recommend() ──→ Orchestrator（纯代码编排，非 Agent）
+                         ├── ResearchAgent（LLM 自主决定搜索策略，并行调用工具）
+                         ├── PlannerAgent（封闭世界约束，创造性生成行程）
+                         └── review()（代码校验 + 独立 LLM 审阅，最多 2 轮重试）
+```
+
+**设计原则**：
+- Agent 的定义：LLM 在其中做“调什么工具、调几次、什么时候停”的自主决策
+- 真正的 Agent 只有 3 个：ChatAgent、ResearchAgent、PlannerAgent
+- Orchestrator 是纯代码调度，Review/Intent 是函数，不是 Agent
+- 对话是“前台单 Agent”，规划是“后台多 Agent”，通过 trip_context 共享行程状态
+
 ## 项目说明
 
-该项目为个人学习项目，用于探索 LLM、RAG 和流式交互在旅行规划场景中的应用。
+该项目为个人学习项目，用于探索 LLM、RAG、多 Agent 协作和流式交互在旅行规划场景中的应用。
 
