@@ -74,6 +74,14 @@ class ChatAgent(BaseAgent):
         sys_prompt = system_prompt or self.system_prompt
         if trip_context:
             sys_prompt += f"\n\n# 用户当前行程\n{trip_context}\n"
+            sys_prompt += (
+                "\n# 行中伴随能力\n"
+                "你当前具备以下行中服务能力：\n"
+                "- 周边搜索：用户问“附近/周边/XXX旁边”时，用 search_nearby_commute_pois_tool 搜索\n"
+                "- 通勤规划：用户问“怎么去/最快/最近”时，用 compute_optimal_commute_tool 规划\n"
+                "- 地点定位：用户只给地名没给坐标时，先用 search_commute_tips_tool 获取坐标\n"
+                "行程中各景点坐标已在上方列出，可直接使用。\n"
+            )
 
         # 构建消息列表
         messages = [{"role": "system", "content": sys_prompt}]
@@ -219,12 +227,28 @@ class ChatAgent(BaseAgent):
         - search_hotels（酒店搜索）
         - trigger_plan（升级：触发全量规划）
         - trigger_modify（升级：触发局部修改）
+        - search_nearby_commute_pois（周边 POI 搜索）
+        - search_commute_tips（地名→坐标）
+        - compute_optimal_commute（通勤择优）
         - amap_weather（MCP 天气，如果可用）
         """
         from src.services.agent.tools import retrieve_knowledge_tool, search_hotels_tool
+        from src.services.agent.tools.commute import (
+            compute_optimal_commute_tool,
+            search_commute_tips_tool,
+            search_nearby_commute_pois_tool,
+        )
         from src.services.agent.agents.trigger_tools import trigger_plan, trigger_modify
 
-        tools = [retrieve_knowledge_tool, search_hotels_tool, trigger_plan, trigger_modify]
+        tools = [
+            retrieve_knowledge_tool,
+            search_hotels_tool,
+            trigger_plan,
+            trigger_modify,
+            search_nearby_commute_pois_tool,
+            search_commute_tips_tool,
+            compute_optimal_commute_tool,
+        ]
 
         # 尝试加载高德 MCP 天气工具
         try:

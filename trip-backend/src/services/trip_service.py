@@ -508,7 +508,13 @@ class TripService:
                     for period in ("morning", "afternoon", "evening"):
                         slot = day.get(period)
                         if slot and slot.get("spot"):
-                            spots.append(slot["spot"])
+                            name = slot["spot"]
+                            lat = slot.get("latitude")
+                            lng = slot.get("longitude")
+                            if lat and lng:
+                                spots.append(f"{name}({lat},{lng})")
+                            else:
+                                spots.append(name)
                     meals = []
                     for meal in ("lunch", "dinner"):
                         slot = day.get(meal)
