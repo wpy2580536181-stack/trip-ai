@@ -90,7 +90,7 @@ const startGeneration = async () => {
 
   try {
     abortController = await fetchStream(
-      '/api/trip/recommend-stream',
+      'trip/recommend-stream',
       {
         city: params.value.city,
         days: params.value.days,

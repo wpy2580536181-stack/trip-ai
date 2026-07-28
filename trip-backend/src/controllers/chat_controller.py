@@ -142,6 +142,7 @@ async def chat(
                     user_id=current_user.id,
                     message=body.message,
                     conversation_id=body.conversation_id,
+                    trip_id=body.trip_id,
                 ),
             ),
             request,

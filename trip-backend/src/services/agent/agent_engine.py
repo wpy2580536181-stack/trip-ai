@@ -214,6 +214,7 @@ class AgentEngine:
         on_event: Optional[Callable[[dict], Awaitable[None]]] = None,
         signal: Optional[asyncio.Event] = None,
         message_id: int = 0,
+        trip_context: Optional[str] = None,
     ) -> dict:
         """多轮对话（使用 ChatAgent）。
         
@@ -224,6 +225,7 @@ class AgentEngine:
             on_event: 事件回调函数
             signal: 中止信号
             message_id: 消息 ID（用于 Trace 落表）
+            trip_context: 行程摘要上下文（可选，由 trip_service 构建）
             
         Returns:
             包含 reply 和 conversation_id 的字典
@@ -279,6 +281,7 @@ class AgentEngine:
                     message=message,
                     conversation_history=conversation_history,
                     system_prompt=system_prompt,
+                    trip_context=trip_context,
                 )
             
             if result.error:

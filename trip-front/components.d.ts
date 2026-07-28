@@ -11,18 +11,11 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    ActorNode: typeof import('./src/components/architecture/nodes/ActorNode.vue')['default']
-    AgentSequence: typeof import('./src/components/architecture/AgentSequence.vue')['default']
     AppLayout: typeof import('./src/components/layout/AppLayout.vue')['default']
     BudgetTable: typeof import('./src/components/BudgetTable.vue')['default']
     ChatBubble: typeof import('./src/components/ChatBubble.vue')['default']
-    CloudNode: typeof import('./src/components/architecture/nodes/CloudNode.vue')['default']
-    ContextDataFlow: typeof import('./src/components/architecture/ContextDataFlow.vue')['default']
-    DatabaseNode: typeof import('./src/components/architecture/nodes/DatabaseNode.vue')['default']
-    DecisionNode: typeof import('./src/components/architecture/nodes/DecisionNode.vue')['default']
-    EvaluationSystem: typeof import('./src/components/architecture/EvaluationSystem.vue')['default']
+    ChatPanel: typeof import('./src/components/ChatPanel.vue')['default']
     ExportMenu: typeof import('./src/components/ExportMenu.vue')['default']
-    GroupNode: typeof import('./src/components/architecture/nodes/GroupNode.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     ItineraryPrintView: typeof import('./src/components/ItineraryPrintView.vue')['default']
     MapView: typeof import('./src/components/MapView.vue')['default']
@@ -52,12 +45,9 @@ declare module 'vue' {
     NTabPane: typeof import('naive-ui')['NTabPane']
     NTabs: typeof import('naive-ui')['NTabs']
     NTag: typeof import('naive-ui')['NTag']
-    RagPipeline: typeof import('./src/components/architecture/RagPipeline.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    ServiceNode: typeof import('./src/components/architecture/nodes/ServiceNode.vue')['default']
     Sidebar: typeof import('./src/components/layout/Sidebar.vue')['default']
     SpotItem: typeof import('./src/components/SpotItem.vue')['default']
-    SystemArchitecture: typeof import('./src/components/architecture/SystemArchitecture.vue')['default']
   }
 }

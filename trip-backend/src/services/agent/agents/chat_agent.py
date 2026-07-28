@@ -93,10 +93,10 @@ class ChatAgent(BaseAgent):
         # 获取工具（延迟加载）
         tools = await self._get_tools()
 
-        # 调用 LLM（带工具绑定）
+        # 流式调用 LLM（带工具绑定）
         self.tools = tools
         try:
-            content, usage, raw_msg = await self._invoke_llm(
+            content, usage, raw_msg = await self._stream_llm(
                 messages=messages,
                 timeout_s=60.0,
             )
@@ -139,9 +139,7 @@ class ChatAgent(BaseAgent):
                             duration_ms=duration_ms,
                         )
 
-        # 流式发送 chunk 事件
-        if self.on_event and content:
-            await self.on_event({"type": "chunk", "content": content})
+        # 流式发送已在 _stream_llm 中完成，此处不再重复发送
 
         duration_ms = int((time.time() - _t0) * 1000)
         return AgentOutput(
@@ -150,6 +148,68 @@ class ChatAgent(BaseAgent):
             usage=usage,
             duration_ms=duration_ms,
         )
+
+    async def _stream_llm(
+        self,
+        messages: list[dict],
+        timeout_s: float = 60.0,
+    ) -> tuple[str, dict, any]:
+        """流式调用 LLM，通过 on_event 逐 token 推送。
+
+        Returns:
+            (full_content, usage, raw_message) 元组
+        """
+        import asyncio
+        from langchain_core.messages import AIMessage, AIMessageChunk
+
+        llm = self.llm
+        if self.tools:
+            llm = llm.bind_tools(self.tools)
+
+        full_content = ""
+        usage = {"prompt": 0, "completion": 0, "total": 0, "cached": 0}
+        raw_msg = None
+
+        _t0 = time.time()
+        try:
+            async def _do_stream():
+                nonlocal full_content, usage, raw_msg
+                async for chunk in llm.astream(messages):
+                    # 提取文本内容
+                    if isinstance(chunk, AIMessageChunk):
+                        token = chunk.content if isinstance(chunk.content, str) else ""
+                        if token:
+                            full_content += token
+                            # 流式推送给前端
+                            if self.on_event:
+                                await self.on_event({"type": "chunk", "content": token})
+                        # 累积 tool_calls
+                        if raw_msg is None:
+                            raw_msg = chunk
+                        else:
+                            raw_msg = raw_msg + chunk
+                    else:
+                        full_content += str(chunk)
+
+                # 提取 usage
+                if raw_msg and isinstance(raw_msg, AIMessage):
+                    um = getattr(raw_msg, "usage_metadata", None)
+                    if um:
+                        usage["prompt"] = um.get("input_tokens", 0)
+                        usage["completion"] = um.get("output_tokens", 0)
+                        usage["total"] = um.get("total_tokens", 0)
+
+            await asyncio.wait_for(_do_stream(), timeout=timeout_s)
+
+        except asyncio.TimeoutError:
+            raise TimeoutError(f"{self.name} LLM 流式调用超时（{timeout_s}秒）")
+
+        logger.info(
+            "%s|stream duration=%dms content_len=%d",
+            self.name, int((time.time() - _t0) * 1000), len(full_content),
+        )
+
+        return full_content, usage, raw_msg
 
     async def _get_tools(self) -> list:
         """获取 ChatAgent 的工具列表（延迟加载）。

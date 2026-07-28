@@ -103,6 +103,7 @@ class TripService:
         user_id: int,
         message: str,
         conversation_id: Optional[int] = None,
+        trip_id: Optional[int] = None,
     ) -> AsyncGenerator[Dict[str, Any], None]:
         """流式对话 + 增量持久化 + 事件生成。
 
@@ -221,6 +222,11 @@ class TripService:
                 await queue.put({"__error__": True, "error": event.get("error", "未知错误")})
 
         # ---- 5. 启动 Agent（后台，shield 保护断连后继续运行） ----
+        # 加载行程上下文（trip_id 贯穿）
+        trip_context = None
+        if trip_id:
+            trip_context = await self._build_trip_context(trip_id, user_id)
+
         async def run_agent():
             try:
                 agent_engine = get_agent_engine()
@@ -230,6 +236,7 @@ class TripService:
                     conversation_id=conv_id,
                     message_id=assistant_msg_id,
                     on_event=on_event,
+                    trip_context=trip_context,
                 )
             except asyncio.CancelledError:
                 # Shield 保护：客户端断连时 shield 向内部发送 CancelledError
@@ -465,6 +472,68 @@ class TripService:
             await session.commit()
             await session.refresh(trip)
             return trip.id
+
+    @staticmethod
+    async def _build_trip_context(trip_id: int, user_id: int) -> Optional[str]:
+        """加载行程摘要（精简文本，控制 token 消耗）。
+
+        Args:
+            trip_id: 行程 ID
+            user_id: 用户 ID（校验归属）
+
+        Returns:
+            行程摘要文本，加载失败时返回 None
+        """
+        try:
+            async with async_session() as session:
+                result = await session.execute(
+                    select(Trip).where(Trip.id == trip_id, Trip.user_id == user_id)
+                )
+                trip = result.scalar_one_or_none()
+                if not trip or not trip.content:
+                    return None
+
+                content = trip.content
+                lines = []
+                lines.append(
+                    f"[trip_id={trip.id}] {content.get('city', trip.city)} "
+                    f"{content.get('days', trip.days)}日游 "
+                    f"预算{content.get('totalBudget', trip.budget)}元"
+                )
+
+                # 每日景点摘要
+                for day in (content.get("dailyItinerary") or []):
+                    day_num = day.get("day", "?")
+                    spots = []
+                    for period in ("morning", "afternoon", "evening"):
+                        slot = day.get(period)
+                        if slot and slot.get("spot"):
+                            spots.append(slot["spot"])
+                    meals = []
+                    for meal in ("lunch", "dinner"):
+                        slot = day.get(meal)
+                        if slot and slot.get("spot"):
+                            meals.append(f"{meal}:{slot['spot']}")
+                    line = f"Day{day_num}: {' → '.join(spots)}"
+                    if meals:
+                        line += f" | {' '.join(meals)}"
+                    lines.append(line)
+
+                # 预算明细
+                bd = content.get("budgetBreakdown")
+                if bd:
+                    lines.append(
+                        f"预算: 住宿{bd.get('accommodation', 0)}/"
+                        f"餐饮{bd.get('food', 0)}/"
+                        f"交通{bd.get('transportation', 0)}/"
+                        f"门票{bd.get('tickets', 0)}/"
+                        f"其他{bd.get('other', 0)}"
+                    )
+
+                return "\n".join(lines)
+        except Exception as e:
+            trip_log.warning(err=str(e), msg="build_trip_context failed")
+            return None
 
 
 # 模块单例

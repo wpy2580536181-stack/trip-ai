@@ -8,6 +8,7 @@ import { post } from '@/api/request'
 import { getTrip } from '@/api/history'
 import { getApiErrorText, handleApiError } from '@/utils/apiError'
 import MapView from '@/components/MapView.vue'
+import ChatPanel from '@/components/ChatPanel.vue'
 import type { MapSpot } from '@/components/MapView.vue'
 
 const router = useRouter()
@@ -31,6 +32,41 @@ const tripData = ref<TripData | null>(null)
 const errorMsg = ref('')
 const optimizing = ref(false)
 const currentTripMeta = ref<{ id: number; parentTripId: number | null } | null>(null)
+
+// ---- 对话面板状态 ----
+const chatVisible = ref(true)
+const prefillText = ref('')
+
+const askAssistant = (day: number, period: string, spot: string) => {
+  prefillText.value = `第${day}天${period}的${spot}，我觉得不太合适，有什么替代推荐吗？`
+  chatVisible.value = true
+}
+
+const toggleChat = () => {
+  chatVisible.value = !chatVisible.value
+}
+
+// ---- 版本切换 ----
+const tripVersions = ref<{ id: number; label: string }[]>([])
+
+const buildVersionList = () => {
+  const versions: { id: number; label: string }[] = []
+  if (currentTripMeta.value) {
+    if (currentTripMeta.value.parentTripId) {
+      versions.push({ id: currentTripMeta.value.parentTripId, label: 'V1' })
+      versions.push({ id: currentTripMeta.value.id, label: 'V2 (当前)' })
+    } else {
+      versions.push({ id: currentTripMeta.value.id, label: 'V1 (当前)' })
+    }
+  }
+  tripVersions.value = versions
+}
+
+const switchVersion = (id: number) => {
+  if (currentTripMeta.value?.id !== id) {
+    router.push({ path: '/detail', query: { id } })
+  }
+}
 
 function getDaySpots(day: any): MapSpot[] {
   const spots: MapSpot[] = []
@@ -94,6 +130,7 @@ const loadTripById = async (tripId: number) => {
       currentTripMeta.value = { id: trip.id, parentTripId: trip.parentTripId }
       tripData.value = trip.content as TripData
       activeDays.value = [0]
+      buildVersionList()
     } else {
       errorMsg.value = '行程不存在'
     }
@@ -176,13 +213,31 @@ const onOptimize = async () => {
 
 <template>
   <div class="page-container detail-page">
-    <div class="detail-content">
-      <div class="page-header">
-        <n-button text @click="onBack">← 返回</n-button>
-        <h2 class="page-title">
-          {{ (formData.fromCity ? formData.fromCity + ' → ' : '') + formData.city + '旅行计划' }}
-        </h2>
-      </div>
+    <div class="detail-layout">
+      <!-- 左侧：行程内容 -->
+      <div class="detail-content">
+        <div class="page-header">
+          <n-button text @click="onBack">← 返回</n-button>
+          <h2 class="page-title">
+            {{ (formData.fromCity ? formData.fromCity + ' → ' : '') + formData.city + '旅行计划' }}
+          </h2>
+          <!-- 版本切换 Tab -->
+          <div v-if="tripVersions.length > 1" class="version-tabs">
+            <n-button
+              v-for="v in tripVersions"
+              :key="v.id"
+              size="tiny"
+              :type="v.label.includes('当前') ? 'primary' : 'default'"
+              @click="switchVersion(v.id)"
+            >
+              {{ v.label }}
+            </n-button>
+          </div>
+          <!-- 对话面板开关 -->
+          <n-button size="small" quaternary @click="toggleChat">
+            {{ chatVisible ? '收起助手 »' : '« AI 助手' }}
+          </n-button>
+        </div>
 
       <div v-if="isloading" class="loading-container">
         <!-- 骨架屏：行程标题 -->
@@ -238,14 +293,17 @@ const onOptimize = async () => {
                 <div class="period-row">
                   <n-tag :bordered="false" color="#fa8c16" size="small" class="period-tag">☀️ 上午</n-tag>
                   <spot-item :data="day.morning" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
+                  <n-button v-if="day.morning?.spot" text size="tiny" class="ask-btn" @click="askAssistant(day.day, '上午', day.morning.spot)">问问助手</n-button>
                 </div>
                 <div class="period-row">
                   <n-tag :bordered="false" color="#1890ff" size="small" class="period-tag">🌤 下午</n-tag>
                   <spot-item :data="day.afternoon" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
+                  <n-button v-if="day.afternoon?.spot" text size="tiny" class="ask-btn" @click="askAssistant(day.day, '下午', day.afternoon.spot)">问问助手</n-button>
                 </div>
                 <div class="period-row">
                   <n-tag :bordered="false" color="#52c41a" size="small" class="period-tag">🌙 晚上</n-tag>
                   <spot-item :data="day.evening" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
+                  <n-button v-if="day.evening?.spot" text size="tiny" class="ask-btn" @click="askAssistant(day.day, '晚上', day.evening.spot)">问问助手</n-button>
                 </div>
               </div>
 
@@ -303,11 +361,22 @@ const onOptimize = async () => {
         </div>
 
         <div class="detail-footer" v-if="tripData">
-          <n-button type="primary" size="large" @click="goToChat">与 AI 聊天</n-button>
           <n-button v-if="currentTripMeta?.id" type="warning" size="large" :loading="optimizing" @click="onOptimize">AI 优化此行程</n-button>
           <ExportMenu :trip-data="tripData" />
         </div>
       </template>
+      </div>
+
+      <!-- 右侧：AI 助手对话面板 -->
+      <transition name="slide">
+        <div v-show="chatVisible" class="chat-sidebar">
+          <ChatPanel
+            :trip-id="currentTripMeta?.id"
+            :prefill="prefillText"
+            compact
+          />
+        </div>
+      </transition>
     </div>
   </div>
 </template>
@@ -318,10 +387,52 @@ const onOptimize = async () => {
   border-radius: 12px;
 }
 
+.detail-layout {
+  display: flex;
+  min-height: 600px;
+  gap: 0;
+}
+
 .detail-content {
-  max-width: 800px;
-  margin: 0 auto;
+  flex: 1;
+  min-width: 0;
   padding: 0 16px;
+}
+
+.chat-sidebar {
+  width: 340px;
+  flex-shrink: 0;
+  height: calc(100vh - 120px);
+  position: sticky;
+  top: 16px;
+}
+
+/* 收起/展开动画 */
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.25s ease;
+}
+.slide-enter-from,
+.slide-leave-to {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.version-tabs {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.ask-btn {
+  color: #1890ff;
+  font-size: 11px;
+  margin-left: 8px;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+.period-row:hover .ask-btn {
+  opacity: 1;
 }
 
 .page-header {

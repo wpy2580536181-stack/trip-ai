@@ -76,7 +76,7 @@ async def _recommend_stream(
     - error: 生成失败
     """
     # 1. Start event
-    yield f"event: start\ndata: {json.dumps({'city': body.city, 'days': body.days, 'budget': body.budget}, ensure_ascii=False)}\n\n"
+    yield f"data: {json.dumps({'type': 'start', 'city': body.city, 'days': body.days, 'budget': body.budget}, ensure_ascii=False)}\n\n"
 
     # 2. Call recommend and send heartbeats concurrently
     async def call_recommend():
@@ -100,14 +100,14 @@ async def _recommend_stream(
         if task in done:
             result, error = task.result()
             if error:
-                yield f"event: error\ndata: {json.dumps({'error': error}, ensure_ascii=False)}\n\n"
+                yield f"data: {json.dumps({'type': 'error', 'error': error}, ensure_ascii=False)}\n\n"
             else:
-                yield f"event: complete\ndata: {json.dumps(result, ensure_ascii=False)}\n\n"
+                yield f"data: {json.dumps({'type': 'complete', 'data': result}, ensure_ascii=False)}\n\n"
             break
         # Send heartbeat every 3s
         now = time.time()
         if now - last_heartbeat >= 3.0:
-            yield "event: heartbeat\ndata: {}\n\n"
+            yield f"data: {json.dumps({'type': 'heartbeat'})}\n\n"
             last_heartbeat = now
 
 

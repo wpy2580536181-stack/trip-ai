@@ -43,6 +43,11 @@ class ChatRequest(BaseModel):
         alias="conversationId",
         description="对话 ID",
     )
+    trip_id: Optional[int] = Field(
+        default=None,
+        alias="tripId",
+        description="关联行程 ID（用于注入行程上下文）",
+    )
 
 
 # ==================== 响应 Schema ====================
