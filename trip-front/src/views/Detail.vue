@@ -46,6 +46,11 @@ const toggleChat = () => {
   chatVisible.value = !chatVisible.value
 }
 
+const onTripUpdated = (newTripId: number) => {
+  // 行程被修改，刷新为新版本
+  router.replace({ path: '/detail', query: { id: newTripId } })
+}
+
 // ---- 版本切换 ----
 const tripVersions = ref<{ id: number; label: string }[]>([])
 
@@ -374,6 +379,7 @@ const onOptimize = async () => {
             :trip-id="currentTripMeta?.id"
             :prefill="prefillText"
             compact
+            @trip-updated="onTripUpdated"
           />
         </div>
       </transition>

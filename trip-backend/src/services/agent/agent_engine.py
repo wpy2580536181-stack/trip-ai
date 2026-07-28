@@ -167,6 +167,43 @@ class AgentEngine:
             return result
         except Exception:
             return None
+
+    async def _build_trip_meta(self, trip_id: int, user_id: int) -> Optional[dict]:
+        """构建 trip_meta（供 ChatAgent trigger_modify 使用）。
+
+        从 DB 加载 Trip 完整数据，包含行程 JSON 和元信息。
+
+        Args:
+            trip_id: 行程 ID
+            user_id: 用户 ID（校验归属）
+
+        Returns:
+            trip_meta 字典，加载失败时返回 None
+        """
+        try:
+            from sqlalchemy import select
+            from src.models.trip import Trip
+
+            async with async_session() as session:
+                result = await session.execute(
+                    select(Trip).where(Trip.id == trip_id, Trip.user_id == user_id)
+                )
+                trip = result.scalar_one_or_none()
+                if not trip or not trip.content:
+                    return None
+
+                return {
+                    "trip_id": trip.id,
+                    "user_id": user_id,
+                    "city": trip.city,
+                    "days": trip.days,
+                    "budget": trip.budget,
+                    "departure_city": trip.from_city,
+                    "content": trip.content,
+                }
+        except Exception as e:
+            logging.getLogger(__name__).warning("build_trip_meta failed: %s", e)
+            return None
     
     def _sync_load_preferences(self, user_id: int) -> Optional[dict]:
         """同步加载用户偏好（用于线程池执行）。"""
@@ -215,6 +252,7 @@ class AgentEngine:
         signal: Optional[asyncio.Event] = None,
         message_id: int = 0,
         trip_context: Optional[str] = None,
+        trip_id: Optional[int] = None,
     ) -> dict:
         """多轮对话（使用 ChatAgent）。
         
@@ -226,6 +264,7 @@ class AgentEngine:
             signal: 中止信号
             message_id: 消息 ID（用于 Trace 落表）
             trip_context: 行程摘要上下文（可选，由 trip_service 构建）
+            trip_id: 关联行程 ID（可选，用于构建 trip_meta）
             
         Returns:
             包含 reply 和 conversation_id 的字典
@@ -274,6 +313,11 @@ class AgentEngine:
             system_prompt=system_prompt,
         )
         
+        # 构建 trip_meta（供 trigger_modify 使用）
+        trip_meta = None
+        if trip_id and trip_context:
+            trip_meta = await self._build_trip_meta(trip_id, user_id)
+        
         try:
             # 执行 ChatAgent（设置 LLM 上下文，供 token_tracker callback 使用）
             with LLMContext(user_id=user_id, endpoint="chat"):
@@ -282,6 +326,7 @@ class AgentEngine:
                     conversation_history=conversation_history,
                     system_prompt=system_prompt,
                     trip_context=trip_context,
+                    trip_meta=trip_meta,
                 )
             
             if result.error:

@@ -56,6 +56,7 @@ class ChatAgent(BaseAgent):
         conversation_history: Optional[list] = None,
         system_prompt: Optional[str] = None,
         trip_context: Optional[str] = None,
+        trip_meta: Optional[dict] = None,
     ) -> AgentOutput:
         """执行对话。
 
@@ -64,11 +65,13 @@ class ChatAgent(BaseAgent):
             conversation_history: 多轮对话历史（LangChain 消息列表）
             system_prompt: 系统提示词（覆盖初始化时的）
             trip_context: 用户已有行程摘要（注入 system prompt）
+            trip_meta: 行程元数据（trip_id/user_id/city/days/budget/content，供 modify 使用）
 
         Returns:
             AgentOutput，result 为回复文本
         """
         _t0 = time.time()
+        self._trip_meta = trip_meta
 
         # 构建 system prompt
         sys_prompt = system_prompt or self.system_prompt
@@ -286,12 +289,47 @@ class ChatAgent(BaseAgent):
             return None
 
     async def _escalate_modify(self, args: dict) -> Optional[str]:
-        """升级为 Orchestrator.modify()。"""
+        """升级为 Orchestrator.modify()，生成修改版行程并持久化为 v2 Trip。"""
+        import json as _json
+
+        meta = getattr(self, "_trip_meta", None)
+        if not meta:
+            return "当前没有关联行程，无法修改。请先在行程详情页打开对话。"
+
         try:
-            modify_request = args.get("modify_request", "")
-            # Phase 4: 需要 trip_context 才能修改
-            # 当前返回提示信息
-            return f"行程修改功能即将上线。您的修改要求已记录：{modify_request}"
+            from src.services.agent.orchestrator import Orchestrator
+            from src.services.agent.schemas import PlanRequest
+            from src.services.trip_service import TripService
+
+            orchestrator = Orchestrator(llm=self.llm, on_event=self.on_event)
+            request = PlanRequest(
+                user_id=meta["user_id"],
+                city=meta["city"],
+                days=meta["days"],
+                budget=meta["budget"],
+                departure_city=meta.get("departure_city"),
+            )
+            result = await orchestrator.modify(
+                existing_trip=meta["content"],
+                modify_request=args.get("modify_request", ""),
+                request=request,
+            )
+            if result.plan:
+                # 持久化为 v2 Trip
+                new_trip_id = await TripService._persist_trip(
+                    user_id=meta["user_id"],
+                    from_city=meta.get("departure_city"),
+                    parsed=result.plan,
+                    budget=meta["budget"],
+                    parent_trip_id=meta["trip_id"],
+                )
+                return _json.dumps({
+                    "type": "trip_modified",
+                    "new_trip_id": new_trip_id,
+                    "summary": f"已生成修改版行程（V2），城市：{result.plan.get('city')}，天数：{result.plan.get('days')}",
+                    "plan": result.plan,
+                }, ensure_ascii=False)
+            return f"修改失败：{result.error or '未知错误'}"
         except Exception as e:
             logger.error("chat_agent|escalate_modify failed: %s", e)
-            return None
+            return f"行程修改失败：{e}"

@@ -237,6 +237,7 @@ class TripService:
                     message_id=assistant_msg_id,
                     on_event=on_event,
                     trip_context=trip_context,
+                    trip_id=trip_id,
                 )
             except asyncio.CancelledError:
                 # Shield 保护：客户端断连时 shield 向内部发送 CancelledError

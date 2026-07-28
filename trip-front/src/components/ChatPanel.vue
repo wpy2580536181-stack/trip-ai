@@ -111,6 +111,23 @@ const fetchAiResponse = (userMsg: string) => {
       if (data?.conversationId) {
         currentConversationId.value = data.conversationId
       }
+      // 检测行程修改响应，通知父组件刷新
+      const lastMsg = messages.value[messages.value.length - 1]
+      if (lastMsg?.content?.includes('"type": "trip_modified"') || lastMsg?.content?.includes('"type":"trip_modified"')) {
+        try {
+          const jsonStr = lastMsg.content
+          const start = jsonStr.indexOf('{')
+          const end = jsonStr.lastIndexOf('}')
+          if (start !== -1 && end > start) {
+            const parsed = JSON.parse(jsonStr.slice(start, end + 1))
+            if (parsed.new_trip_id) {
+              emit('trip-updated', parsed.new_trip_id)
+              // 替换原始 JSON 为友好摘要
+              lastMsg.content = parsed.summary || '行程已修改'
+            }
+          }
+        } catch { /* 解析失败不影响主流程 */ }
+      }
     },
     (errMsg) => {
       messages.value[messages.value.length - 1].content = `发生错误: ${errMsg}`
