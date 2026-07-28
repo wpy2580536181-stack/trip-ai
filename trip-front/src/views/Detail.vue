@@ -73,6 +73,40 @@ const switchVersion = (id: number) => {
   }
 }
 
+// ---- 版本对比 ----
+const showDiff = ref(false)
+const diffResult = ref<{ day: number; period: string; old: string; new: string; status: string }[]>([])
+
+const compareVersions = async () => {
+  if (!currentTripMeta.value?.parentTripId || !tripData.value) return
+  try {
+    const res = await getTrip(currentTripMeta.value.parentTripId)
+    const v1 = res.data?.content as TripData
+    const v2 = tripData.value
+    if (!v1?.dailyItinerary || !v2?.dailyItinerary) return
+    diffResult.value = buildTripDiff(v1, v2)
+    showDiff.value = true
+  } catch { /* ignore */ }
+}
+
+function buildTripDiff(v1: TripData, v2: TripData) {
+  const diffs: { day: number; period: string; old: string; new: string; status: string }[] = []
+  const periods = ['morning', 'afternoon', 'evening'] as const
+  const maxDays = Math.max(v1.dailyItinerary?.length || 0, v2.dailyItinerary?.length || 0)
+  for (let i = 0; i < maxDays; i++) {
+    const d1 = v1.dailyItinerary?.[i]
+    const d2 = v2.dailyItinerary?.[i]
+    for (const p of periods) {
+      const s1 = d1?.[p]?.spot || ''
+      const s2 = d2?.[p]?.spot || ''
+      if (s1 !== s2) {
+        diffs.push({ day: i + 1, period: p, old: s1, new: s2, status: s1 ? 'changed' : 'added' })
+      }
+    }
+  }
+  return diffs
+}
+
 function getDaySpots(day: any): MapSpot[] {
   const spots: MapSpot[] = []
   for (const period of ['morning', 'afternoon', 'evening', 'breakfast', 'lunch', 'dinner', 'accommodation'] as const) {
@@ -237,6 +271,7 @@ const onOptimize = async () => {
             >
               {{ v.label }}
             </n-button>
+            <n-button size="tiny" quaternary @click="compareVersions">对比</n-button>
           </div>
           <!-- 对话面板开关 -->
           <n-button size="small" quaternary @click="toggleChat">
@@ -385,6 +420,21 @@ const onOptimize = async () => {
       </transition>
     </div>
   </div>
+
+  <!-- 版本对比 Modal -->
+  <n-modal v-model:show="showDiff" preset="card" title="版本对比（V1 → V2）" style="max-width: 500px">
+    <div v-if="diffResult.length === 0" style="text-align: center; color: #999; padding: 20px">
+      两个版本无差异
+    </div>
+    <div v-else class="diff-list">
+      <div v-for="(d, idx) in diffResult" :key="idx" class="diff-item">
+        <span class="diff-day">Day{{ d.day }} {{ d.period }}</span>
+        <span v-if="d.old" class="diff-old">{{ d.old }}</span>
+        <span v-if="d.old" class="diff-arrow">→</span>
+        <span class="diff-new">{{ d.new }}</span>
+      </div>
+    </div>
+  </n-modal>
 </template>
 
 <style scoped>
@@ -428,6 +478,37 @@ const onOptimize = async () => {
   display: flex;
   gap: 4px;
   margin-left: auto;
+  align-items: center;
+}
+
+.diff-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.diff-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border-color, #eee);
+}
+.diff-day {
+  font-weight: 600;
+  min-width: 90px;
+  color: var(--text-primary);
+}
+.diff-old {
+  color: #ee0a24;
+  text-decoration: line-through;
+}
+.diff-arrow {
+  color: #999;
+}
+.diff-new {
+  color: #52c41a;
+  font-weight: 500;
 }
 
 .ask-btn {

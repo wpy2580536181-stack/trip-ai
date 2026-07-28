@@ -108,10 +108,24 @@ async def post_chat_followup(
             )
         except Exception as e:
             # 决策失败不算致命（compress 已成功），warn 但不抛
-            # 决策丢失是"次要损失"（不影响对话主流程），可后续手动补
+            # 决策丢失是“次要损失”（不影响对话主流程），可后续手动补
             logger.warning(
                 "[post_chat_followup] decision FAILED conv_id=%s error=%s",
                 conversation_id, e, exc_info=True,
+            )
+    
+        # 3. 偏好提取（仅 planning 相关对话触发，异步不阻塞）
+        try:
+            await _extract_and_save_preferences(conversation_id)
+            logger.info(
+                "[post_chat_followup] preferences extracted conv_id=%s",
+                conversation_id,
+            )
+        except Exception as e:
+            # 偏好提取失败不影响主流程
+            logger.warning(
+                "[post_chat_followup] preference extraction FAILED conv_id=%s error=%s",
+                conversation_id, e,
             )
     else:
         logger.debug(
@@ -126,3 +140,103 @@ async def post_chat_followup(
         "decision_skipped": decision_skipped,
         "attempt": attempt,
     }
+
+
+# ---------------------------------------------------------------------------
+# 偏好提取
+# ---------------------------------------------------------------------------
+
+_PREFERENCE_PROMPT = """从以下对话中提取用户旅行偏好。只提取明确表达的偏好，不要推测。
+输出纯 JSON（只包含有值的字段）：
+{"interests": ["..."], "avoid": ["..."], "pace": "relaxed|normal|compact", "budget_level": "budget|moderate|luxury", "companions": "..."}
+如果无明确偏好，输出 {}。
+只输出 JSON，不要其他文字。"""
+
+
+async def _extract_and_save_preferences(conversation_id: int) -> None:
+    """从对话中提取用户偏好并增量合并到 User.preferences。"""
+    import json
+    from sqlalchemy import select
+    from src.config.database import async_session
+    from src.models.conversation import Conversation
+    from src.models.message import Message
+    from src.models.user import User
+    from src.config.llm import create_llm
+    from langchain_core.messages import HumanMessage
+
+    async with async_session() as session:
+        # 1. 加载对话的 user_id 和最近消息
+        conv_result = await session.execute(
+            select(Conversation).where(Conversation.id == conversation_id)
+        )
+        conv = conv_result.scalar_one_or_none()
+        if not conv or not conv.user_id:
+            return
+
+        msg_result = await session.execute(
+            select(Message.content, Message.role)
+            .where(Message.conversation_id == conversation_id)
+            .order_by(Message.created_at.desc())
+            .limit(10)
+        )
+        messages = msg_result.all()
+        if not messages:
+            return
+
+        # 拼接对话内容（取最近 10 条）
+        dialog_text = "\n".join(
+            f"{'user' if role == 'user' else 'assistant'}: {content[:200]}"
+            for content, role in reversed(messages)
+        )
+
+        # 2. LLM 提取偏好
+        llm = create_llm(streaming=False)
+        resp = await llm.ainvoke([
+            HumanMessage(content=f"{_PREFERENCE_PROMPT}\n\n对话内容：\n{dialog_text}")
+        ])
+        raw = resp.content if isinstance(resp.content, str) else ""
+
+        # 解析 JSON
+        try:
+            start = raw.find("{")
+            end = raw.rfind("}")
+            if start == -1 or end <= start:
+                return
+            new_prefs = json.loads(raw[start:end + 1])
+        except (json.JSONDecodeError, ValueError):
+            return
+
+        if not new_prefs:
+            return  # 无明确偏好
+
+        # 3. 增量合并到 User.preferences
+        user_result = await session.execute(
+            select(User).where(User.id == conv.user_id)
+        )
+        user = user_result.scalar_one_or_none()
+        if not user:
+            return
+
+        existing = user.preferences or {}
+
+        # 合并逻辑：interests/avoid 追加去重，其他字段覆盖
+        if "interests" in new_prefs:
+            old_interests = existing.get("interests", [])
+            if isinstance(old_interests, list):
+                merged = list(dict.fromkeys(old_interests + new_prefs["interests"]))
+                existing["interests"] = merged
+        if "avoid" in new_prefs:
+            old_avoid = existing.get("avoid", [])
+            if isinstance(old_avoid, list):
+                merged = list(dict.fromkeys(old_avoid + new_prefs["avoid"]))
+                existing["avoid"] = merged
+        for key in ("pace", "budget_level", "companions"):
+            if key in new_prefs:
+                existing[key] = new_prefs[key]
+
+        user.preferences = existing
+        await session.commit()
+        logger.info(
+            "[preference_extract] user_id=%s updated prefs=%s",
+            conv.user_id, list(new_prefs.keys()),
+        )
