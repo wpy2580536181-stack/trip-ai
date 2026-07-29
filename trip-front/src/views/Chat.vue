@@ -77,6 +77,21 @@ if (currentConversationId.value == null && typeof window !== 'undefined') {
   localStorage.removeItem(CONVERSATION_ID_KEY)
 }
 
+// ---- 关联行程（从详情页带 tripId 跳转时，对话持有行程上下文，可直接让 AI 修改行程） ----
+const queryTripId = Number(route.query.tripId)
+const activeTripId = ref<number | null>(Number.isInteger(queryTripId) && queryTripId > 0 ? queryTripId : null)
+
+const clearTripLink = () => {
+  activeTripId.value = null
+  message.info('已取消关联行程')
+}
+
+const goToTrip = () => {
+  if (activeTripId.value) {
+    router.push({ path: '/detail', query: { id: activeTripId.value } })
+  }
+}
+
 const quickQuestions = ref([
   '北京有哪些必去的景点',
   '上海有哪些热门的美食',
@@ -151,9 +166,12 @@ const fetchAiResponse = (userMsg: string) => {
   })
   startConnectionCheck()
 
+  // 本次请求内的行程状态变更事件（续传重放幂等 + complete 时回填）
+  let tripEventData: { newTripId: number; summary?: string } | null = null
+
   fetchStream(
     'trip/chat',
-    { message: userMsg, conversationId: currentConversationId.value },
+    { message: userMsg, conversationId: currentConversationId.value, tripId: activeTripId.value },
     (chunk) => {
       onEventReceived()
       connectionWarning.value = null
@@ -171,6 +189,17 @@ const fetchAiResponse = (userMsg: string) => {
       if (data?.conversationId) {
         currentConversationId.value = data.conversationId
         localStorage.setItem(CONVERSATION_ID_KEY, String(data.conversationId))
+      }
+      // 行程已修改/新规划：回填摘要 + 跳转链接，并把关联切到新版本
+      if (tripEventData) {
+        const lastMsg = messages.value[messages.value.length - 1]
+        const link = `[查看行程详情](/detail?id=${tripEventData.newTripId})`
+        if (lastMsg && lastMsg.role === 'ai') {
+          lastMsg.content = lastMsg.content
+            ? `${lastMsg.content}\n\n${link}`
+            : `${tripEventData.summary || '行程已更新'}\n\n${link}`
+        }
+        activeTripId.value = tripEventData.newTripId
       }
       loadConversations()
     },
@@ -193,6 +222,14 @@ const fetchAiResponse = (userMsg: string) => {
     },
     (attempt, maxRetries) => {
       connectionWarning.value = `网络中断，正在重连（第 ${attempt}/${maxRetries} 次）...`
+    },
+    {
+      onTripEvent: (type, data) => {
+        onEventReceived()
+        if ((type === 'trip_modified' || type === 'trip_planned') && data?.newTripId && data.newTripId !== tripEventData?.newTripId) {
+          tripEventData = { newTripId: data.newTripId, summary: data.summary }
+        }
+      },
     },
   ).then(controller => {
     currentAbortController.value = controller
@@ -218,6 +255,8 @@ const onSelectConversation = async (id: number) => {
     if (!conv) return
     currentConversationId.value = id
     localStorage.setItem(CONVERSATION_ID_KEY, String(id))
+    // 历史会话与当前行程无绑定关系，清除关联
+    activeTripId.value = null
     messages.value = (conv.messages || []).map(m => ({
       id: m.id,
       role: m.role === 'user' ? 'user' : 'ai',
@@ -300,6 +339,12 @@ onMounted(loadConversations)
     <div class="chat-main">
       <div class="chat-header">
         <h2 class="chat-title">AI 旅游助手</h2>
+        <template v-if="activeTripId">
+          <n-tag size="small" type="info" class="trip-badge" @click="goToTrip">
+            关联行程 #{{ activeTripId }}
+          </n-tag>
+          <n-button size="tiny" quaternary @click="clearTripLink">取消关联</n-button>
+        </template>
       </div>
 
       <div class="message-container" ref="messageListRef">
@@ -486,6 +531,13 @@ onMounted(loadConversations)
 .chat-header {
   padding: 20px 24px 12px;
   border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.trip-badge {
+  cursor: pointer;
 }
 
 .chat-title {

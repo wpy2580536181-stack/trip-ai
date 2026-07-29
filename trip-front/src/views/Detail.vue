@@ -216,6 +216,8 @@ const goToChat = () => {
     query: {
       scene: 'detail',
       city: formData.city,
+      // 携带行程 ID，独立对话页同样持有行程上下文（可直接修改行程）
+      ...(currentTripMeta.value?.id ? { tripId: currentTripMeta.value.id } : {}),
     }
   })
 }
