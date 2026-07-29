@@ -382,7 +382,8 @@ class ChatAgent(BaseAgent):
     async def _execute_tool_card(self, tool_name: str, args: dict, user_msg: str) -> Optional[str]:
         """执行普通工具并发送 card 事件。
 
-        支持：search_nearby_commute_pois_tool → poi_list 卡片
+        支持自动串联：search_commute_tips_tool → search_nearby_commute_pois_tool → poi_list 卡片
+        单步：search_nearby_commute_pois_tool → poi_list 卡片
              compute_optimal_commute_tool → commute_compare 卡片
         """
         tool_fn = None
@@ -395,8 +396,22 @@ class ChatAgent(BaseAgent):
             return None
 
         try:
-            result_str = await tool_fn.ainvoke(args)
             import json as _json
+
+            if tool_name == "search_commute_tips_tool":
+                # 用户先查坐标（地名→lat/lng），判断是否接着查周边
+                result_str = await tool_fn.ainvoke(args)
+                tips = _json.loads(result_str) if isinstance(result_str, str) else result_str
+                if not tips or isinstance(tips, dict) and tips.get("error"):
+                    return None
+                first = tips[0] if isinstance(tips, list) else tips
+                lat = first.get("lat") or first.get("latitude")
+                lng = first.get("lng") or first.get("longitude")
+                if lat is not None and lng is not None and self._is_nearby_query(user_msg):
+                    return await self._auto_poi_search(lat, lng, user_msg)
+                return None
+
+            result_str = await tool_fn.ainvoke(args)
             data = _json.loads(result_str) if isinstance(result_str, str) else result_str
 
             if tool_name == "search_nearby_commute_pois_tool":
@@ -407,6 +422,42 @@ class ChatAgent(BaseAgent):
             logger.warning("chat_agent|tool_card_failed name=%s err=%s", tool_name, e)
 
         return None
+
+    @staticmethod
+    def _is_nearby_query(user_msg: str) -> bool:
+        """判断用户消息是否在问周边/附近。"""
+        nearby_kw = {"附近", "周边", "周围", "旁边的", "有什么好吃的", "有什么好玩的",
+                     "推荐", "餐厅", "美食", "景点", "吃", "玩", "逛"}
+        return any(kw in user_msg for kw in nearby_kw)
+
+    async def _auto_poi_search(self, lat: float, lng: float, user_msg: str) -> Optional[str]:
+        """获取坐标后自动查周边 POI 并发送 card 事件。"""
+        keywords = None
+        if any(kw in user_msg for kw in ("好吃的", "餐厅", "美食", "吃", "饭")):
+            keywords = "餐饮"
+        elif any(kw in user_msg for kw in ("好玩的", "景点", "玩", "逛")):
+            keywords = "景点"
+
+        poi_fn = None
+        for t in getattr(self, "tools", []) or []:
+            if getattr(t, "name", "") == "search_nearby_commute_pois_tool":
+                poi_fn = t
+                break
+
+        if not poi_fn:
+            return None
+
+        try:
+            import json as _json
+            poi_args = {"lat": float(lat), "lng": float(lng), "radius": 1000, "limit": 10}
+            if keywords:
+                poi_args["keywords"] = keywords
+            result_str = await poi_fn.ainvoke(poi_args)
+            data = _json.loads(result_str) if isinstance(result_str, str) else result_str
+            return await self._emit_poi_card(data, poi_args, user_msg)
+        except Exception as e:
+            logger.warning("chat_agent|auto_poi_failed err=%s", e)
+            return None
 
     async def _emit_poi_card(self, data: dict, args: dict, user_msg: str) -> str:
         """POI 工具结果 → poi_list card 事件 + 文本摘要。"""
