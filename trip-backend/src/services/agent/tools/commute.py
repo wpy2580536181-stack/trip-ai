@@ -91,11 +91,11 @@ async def compute_optimal_commute_tool(
     city: Optional[str] = None,
     compare_modes: bool = False,
 ) -> str:
-    """计算最短通勤并择优推荐。
+    """计算两地之间各种出行方式的最优路线。当用户问「从A到B怎么走」「去XXX怎么坐车」「通勤方案」「打车还是公交」「最快路线」时必调此工具。
 
     给定起点与若干候选终点（可带坐标，也可只给名称 + 城市由服务自动地理编码），
     并行调用高德真实路网，按耗时升序排序并标记最短者为推荐。支持驾车 / 步行 / 公交 / 骑行。
-    当用户问「从家到公司怎么走最快」「哪条路线通勤最短」「推荐最优通勤路线」时使用。
+    用户未指定方式时设 compare_modes=true 自动对比四种方式。
 
     Returns:
         结构化 JSON：推荐路线（含逐步行程 steps_detail、换乘数）、所有候选耗时 / 距离、错误项。
@@ -182,7 +182,7 @@ async def search_nearby_commute_pois_tool(
     types: Optional[str] = None,
     limit: int = 15,
 ) -> str:
-    """查询某坐标周边的 POI（地铁站 / 餐饮 / 便利店等），用于通勤周边推荐。"""
+    """查询某坐标周边的 POI（餐厅 / 景点 / 便利店 / 地铁站等）。当用户问「附近有什么好吃的/玩的」「周边推荐」「附近」时必调此工具。"""
     from ...commute_service import search_nearby_pois
 
     try:
