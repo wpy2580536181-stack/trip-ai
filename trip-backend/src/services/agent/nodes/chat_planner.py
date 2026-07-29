@@ -1,3 +1,4 @@
+# DEPRECATED: 旧 LangGraph 节点，已退出主链路（现由 ChatAgent 取代），仅被遗留测试引用。
 """ChatPlanner 节点模块。
 
 基于 research 结果生成流式回答。

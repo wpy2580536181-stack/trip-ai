@@ -12,6 +12,7 @@ from .commute import (
     search_commute_tips_tool,
     search_nearby_commute_pois_tool,
 )
+from .meituan import meituan_query_tool
 
 # 应用 ToolCache 包装（套在 with_resilience 外层）
 try:
@@ -35,4 +36,5 @@ __all__ = [
     "compute_optimal_commute_tool",
     "search_commute_tips_tool",
     "search_nearby_commute_pois_tool",
+    "meituan_query_tool",
 ]

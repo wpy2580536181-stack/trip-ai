@@ -46,6 +46,7 @@ class ChatAgent(BaseAgent):
         llm: ChatOpenAI,
         on_event: Optional[Callable[[dict], Awaitable[None]]] = None,
         system_prompt: str = "",
+        user_id: int = 0,
     ):
         """初始化 ChatAgent。
 
@@ -53,10 +54,12 @@ class ChatAgent(BaseAgent):
             llm: LLM 实例（streaming=True）
             on_event: SSE 事件回调
             system_prompt: 系统提示词（由 agent_engine 构建）
+            user_id: 当前用户 ID（供 trigger_plan 落库使用，0 表示未知）
         """
         # 工具在 run() 时动态绑定（因为需要延迟加载）
         super().__init__(llm=llm, tools=[], system_prompt=system_prompt)
         self.on_event = on_event
+        self._user_id = user_id
 
     async def run(
         self,
@@ -165,6 +168,18 @@ class ChatAgent(BaseAgent):
                             duration_ms=duration_ms,
                         )
 
+                elif tc_name == "select_skill":
+                    # 技能激活：L1→L2→L3 渐进式执行（对齐 Anthropic 规范）
+                    skill_result = await self._run_selected_skill(raw_msg, message)
+                    if skill_result is not None:
+                        duration_ms = int((time.time() - _t0) * 1000)
+                        return AgentOutput(
+                            agent_name=self.name,
+                            result=skill_result.content,
+                            usage=usage,
+                            duration_ms=duration_ms,
+                        )
+
         # 流式发送已在 _stream_llm 中完成，此处不再重复发送
 
         duration_ms = int((time.time() - _t0) * 1000)
@@ -257,12 +272,14 @@ class ChatAgent(BaseAgent):
             search_nearby_commute_pois_tool,
         )
         from src.services.agent.agents.trigger_tools import trigger_plan, trigger_modify
+        from src.services.agent.skills import select_skill
 
         tools = [
             retrieve_knowledge_tool,
             search_hotels_tool,
             trigger_plan,
             trigger_modify,
+            select_skill,
             search_nearby_commute_pois_tool,
             search_commute_tips_tool,
             compute_optimal_commute_tool,
@@ -279,6 +296,64 @@ class ChatAgent(BaseAgent):
 
         return tools
 
+    async def _run_selected_skill(
+        self, response: Any, message: str
+    ) -> Optional[Any]:
+        """检测 select_skill 工具调用并执行对应的技能（L1→L2→L3 渐进式披露）。
+
+        复用语基的 SkillRegistry（与 AgentEngine 共享单例），把整篇 SKILL.md 交给
+        LLM 借助底层工具自行编排。meituan-travel 这类 CLI 型技能需要 shell 能力，
+        故在此注入沙箱化的 meituan_query_tool。
+
+        Returns:
+            SkillResult（命中并执行）或 None（未选中技能 / 未注册）
+        """
+        from src.services.agent.skills import get_skill_registry, load_builtin_skills
+        from src.services.agent.skills.selector_tool import extract_select_skill_call
+        from src.services.agent.skills.types import SkillContext
+        from src.services.agent.tools import (
+            retrieve_knowledge_tool,
+            search_hotels_tool,
+            calculate_distance_tool,
+            compute_optimal_commute_tool,
+            search_commute_tips_tool,
+            search_nearby_commute_pois_tool,
+        )
+
+        skill_name = extract_select_skill_call(response)
+        if not skill_name:
+            return None
+
+        registry = get_skill_registry()
+        load_builtin_skills(registry)  # 幂等，确保技能已加载（不依赖 AgentEngine 先构造）
+        if registry.get(skill_name) is None:
+            logger.warning("chat_agent|skill %s 未注册，跳过", skill_name)
+            return None
+
+        tools = [
+            retrieve_knowledge_tool,
+            search_hotels_tool,
+            calculate_distance_tool,
+            compute_optimal_commute_tool,
+            search_commute_tips_tool,
+            search_nearby_commute_pois_tool,
+        ]
+        # 美团 CLI 工具（环境具备则注入，供 meituan-travel 技能执行）
+        try:
+            from src.services.agent.tools.meituan import meituan_query_tool
+            tools.append(meituan_query_tool)
+        except Exception:  # noqa: BLE001
+            pass
+
+        ctx = SkillContext(
+            llm=self.llm,
+            tools=tools,
+            registry=registry,
+            user_input=message,
+        )
+        logger.info("chat_agent|run_skill name=%s", skill_name)
+        return await registry.execute(skill_name, ctx)
+
     async def _escalate_plan(self, args: dict) -> tuple[Optional[str], dict]:
         """升级为 Orchestrator.plan()，规划结果持久化为 Trip（与 modify 路径对称）。
 
@@ -291,6 +366,12 @@ class ChatAgent(BaseAgent):
             from src.services.trip_service import TripService
 
             user_id = getattr(self, "_user_id", 0)
+            # 兜底：对话级 user_id 缺失时，从关联行程取（与 _escalate_modify 一致），
+            # 避免偏好加载与落库按 user_id=0 走而丢失身份。
+            if user_id <= 0:
+                meta = getattr(self, "_trip_meta", None)
+                if meta and meta.get("user_id"):
+                    user_id = meta["user_id"]
             city = args.get("city", "")
             days = args.get("days", 3)
             budget = args.get("budget", 5000)

@@ -17,10 +17,7 @@ from src.config.settings import settings
 from src.config.llm import create_llm, load_fallback_llm_config
 from src.services.conversation_service import load_context
 from src.config.database import async_session
-from src.services.agent.state import PlannerState
 from src.services.agent.types import TokenUsage, StepInput
-from src.services.agent.chat_graph import build_chat_graph
-from src.services.agent.planner_graph import build_planner_graph
 from src.services.agent.orchestrator import Orchestrator
 from src.services.agent.schemas import PlanRequest
 from src.services.agent.trace_recorder import TraceRecorder
@@ -311,6 +308,7 @@ class AgentEngine:
             llm=self.llm,
             on_event=on_event,
             system_prompt=system_prompt,
+            user_id=user_id,
         )
         
         # 构建 trip_meta（供 trigger_modify 使用）

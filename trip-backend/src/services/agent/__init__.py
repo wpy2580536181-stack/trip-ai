@@ -8,17 +8,9 @@ from .agent_engine import AgentEngine, get_agent_engine
 from src.services.agent.state import PlannerState
 from src.services.agent.types import ResearchBundle, TokenUsage, StepInput, PlannerConfig
 
-# 导出图和节点
-from .chat_graph import build_chat_graph
-from .planner_graph import build_planner_graph
-from src.services.agent.nodes import (
-    router_node,
-    research_node,
-    planner_node,
-    validate_node,
-    chat_planner_node,
-    legacy_agent_node,
-)
+# 注：chat_graph.py / planner_graph.py 及 nodes/ 下旧 LangGraph 节点已退出主链路
+# （recommend 改由 Orchestrator 纯 asyncio 编排，chat 由 ChatAgent 处理），
+# 此处不再导出，避免误以为仍在运行。它们仅被遗留测试引用。
 
 # 导出工具
 from src.services.agent.tools import (
@@ -55,16 +47,6 @@ __all__ = [
     "TokenUsage",
     "StepInput",
     "PlannerConfig",
-    # 图
-    "build_chat_graph",
-    "build_planner_graph",
-    # 节点
-    "router_node",
-    "research_node",
-    "planner_node",
-    "validate_node",
-    "chat_planner_node",
-    "legacy_agent_node",
     # 工具
     "retrieve_knowledge_tool",
     "calculate_distance_tool",

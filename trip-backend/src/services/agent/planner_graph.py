@@ -1,3 +1,4 @@
+# DEPRECATED: 旧 LangGraph 状态图，已退出主链路（现由 Orchestrator 纯 asyncio 编排取代），仅被遗留测试引用。
 """PlannerGraph 状态图模块。
 
 定义行程规划的状态图（research → planner → validate → retry_planner）。

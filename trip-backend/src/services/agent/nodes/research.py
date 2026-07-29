@@ -1,3 +1,4 @@
+# DEPRECATED: 旧 LangGraph 节点，已退出主链路（现由 ResearchAgent 取代），仅被遗留测试引用。
 """Research 节点模块。
 
 并行调用工具获取情报（景点、美食、酒店、天气、距离）。

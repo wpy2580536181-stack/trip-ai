@@ -1,3 +1,4 @@
+# DEPRECATED: 旧 LangGraph 节点，已退出主链路（现由 PlannerAgent 取代），仅被遗留测试引用。
 """Planner 节点模块。
 
 调用 LLM 生成行程规划。

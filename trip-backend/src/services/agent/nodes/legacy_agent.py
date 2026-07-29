@@ -1,3 +1,4 @@
+# DEPRECATED: 旧 LangGraph 节点，已退出主链路（现由 ChatAgent 取代），仅被遗留测试引用。
 """Legacy Agent 节点模块。
 
 使用现有 AgentExecutor 处理一般对话（非规划请求）。
