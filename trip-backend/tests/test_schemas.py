@@ -417,6 +417,23 @@ class TestChatRequest:
         with pytest.raises(ValidationError):
             ChatRequest(message="")
 
+    def test_valid_with_trip_id(self):
+        obj = ChatRequest(message="改行程", tripId=7)
+        assert obj.trip_id == 7
+
+    def test_trip_id_zero_rejected(self):
+        """tripId=0 → 校验失败（gt=0），避免非法 id 静默降级为无上下文对话"""
+        with pytest.raises(ValidationError):
+            ChatRequest(message="改行程", tripId=0)
+
+    def test_trip_id_negative_rejected(self):
+        with pytest.raises(ValidationError):
+            ChatRequest(message="改行程", tripId=-1)
+
+    def test_trip_id_none_allowed(self):
+        obj = ChatRequest(message="你好", tripId=None)
+        assert obj.trip_id is None
+
 
 class TestSpotSchema:
     def test_valid_minimal(self):

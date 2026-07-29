@@ -340,3 +340,36 @@ class TestChatStreamTripModified:
         # 落库 assistant 消息为摘要文本（非 JSON）
         persisted_contents = [c.args[1] for c in mock_update.await_args_list]
         assert summary in persisted_contents
+
+    @pytest.mark.asyncio
+    async def test_full_event_sequence(self):
+        """链路回归：chunk → tool_start/tool_end → trip_modified → complete 顺序完整"""
+        from src.models.conversation import Conversation
+
+        svc = TripService()
+        mock_conv = Conversation(id=42, user_id=1, title="新对话")
+
+        with patch("src.services.trip_service._get_or_create_conversation", new_callable=AsyncMock, return_value=mock_conv), \
+             patch("src.services.trip_service._save_message", new_callable=AsyncMock, return_value=1), \
+             patch("src.services.trip_service._update_message", new_callable=AsyncMock), \
+             patch("src.services.trip_service.get_agent_engine") as mock_get_engine, \
+             patch.object(TripService, "_post_chat_tasks", new_callable=AsyncMock), \
+             patch("src.services.trip_service.trip_log"):
+
+            async def fake_chat(*args, on_event=None, **kwargs):
+                await on_event({"type": "chunk", "content": "好的，"})
+                await on_event({"type": "tool_start", "name": "search_spots"})
+                await on_event({"type": "tool_end", "name": "search_spots"})
+                await on_event({"type": "trip_modified", "data": {"newTripId": 99}})
+                await on_event({"type": "complete", "content": "已修改", "usage": {"total": 10}})
+
+            mock_engine = MagicMock()
+            mock_engine.chat = fake_chat
+            mock_get_engine.return_value = mock_engine
+
+            events = []
+            async for event in svc.chat_stream(user_id=1, message="帮我修改行程"):
+                events.append(event)
+
+        event_types = [e.get("type") for e in events if e.get("type") != "heartbeat"]
+        assert event_types == ["chunk", "tool_start", "tool_end", "trip_modified", "complete"]

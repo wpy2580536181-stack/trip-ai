@@ -34,6 +34,7 @@ class ChatRequest(BaseModel):
     trip_id: Optional[int] = Field(
         default=None,
         alias="tripId",
+        gt=0,
         description="关联行程 ID（用于注入行程上下文）",
     )
 

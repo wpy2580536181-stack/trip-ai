@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
-import { reactive, ref, watch } from 'vue'
+import { reactive, ref, watch, nextTick } from 'vue'
 import { onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useMessage } from 'naive-ui'
@@ -36,7 +36,10 @@ const currentTripMeta = ref<{ id: number; parentTripId: number | null } | null>(
 const chatVisible = ref(true)
 const prefillText = ref('')
 
-const askAssistant = (day: number, period: string, spot: string) => {
+const askAssistant = async (day: number, period: string, spot: string) => {
+  // 先清空再赋值：重复点击同一卡片时 watch 也能重新触发
+  prefillText.value = ''
+  await nextTick()
   prefillText.value = `第${day}天${period}的${spot}，我觉得不太合适，有什么替代推荐吗？`
   chatVisible.value = true
 }
