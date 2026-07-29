@@ -281,7 +281,7 @@ const hotelOrigin = (day: any) => {
 
 <template>
   <div class="page-container detail-page">
-    <div class="detail-layout" :class="{ 'with-chat': chatVisible }">
+    <div class="detail-layout">
       <!-- 左侧：行程内容 -->
       <div class="detail-content">
         <div class="page-header">
@@ -434,12 +434,11 @@ const hotelOrigin = (day: any) => {
         </div>
       </template>
       </div>
-    </div>
 
-    <!-- 右侧：AI 助手对话面板（fixed 悬浮，不占 flex 空间） -->
-    <transition name="slide">
-      <div v-show="chatVisible" class="chat-sidebar">
-        <ChatPanel
+      <!-- 右侧：AI 助手对话面板 -->
+      <transition name="slide">
+        <div v-show="chatVisible" class="chat-sidebar">
+          <ChatPanel
             :trip-id="currentTripMeta?.id"
             :prefill="prefillText"
             :disabled="isloading"
@@ -448,6 +447,7 @@ const hotelOrigin = (day: any) => {
           />
         </div>
       </transition>
+    </div>
   </div>
 
   <!-- 版本对比 Modal -->
@@ -474,25 +474,23 @@ const hotelOrigin = (day: any) => {
 }
 
 .detail-layout {
+  display: flex;
   min-height: 600px;
-  transition: padding-right 0.25s ease;
-}
-
-.detail-layout.with-chat {
-  padding-right: 340px;
+  gap: 0;
 }
 
 .detail-content {
+  flex: 1;
+  min-width: 0;
   padding: 0 16px;
 }
 
 .chat-sidebar {
-  position: fixed;
-  top: 96px;
-  right: 0;
   width: 340px;
-  height: calc(100vh - 96px);
-  z-index: 100;
+  flex-shrink: 0;
+  height: calc(100vh - 120px);
+  position: sticky;
+  top: 16px;
 }
 
 /* 收起/展开动画 */
