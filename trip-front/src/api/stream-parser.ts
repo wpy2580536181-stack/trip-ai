@@ -15,8 +15,10 @@
  */
 
 export interface StreamEvent {
-  type: 'chunk' | 'complete' | 'error' | 'tool_start' | 'tool_end' | 'heartbeat' | 'trip_modified' | 'trip_planned'
+  type: 'chunk' | 'complete' | 'error' | 'tool_start' | 'tool_end' | 'heartbeat' | 'trip_modified' | 'trip_planned' | 'progress' | 'start'
   name?: string
+  /** 工具事件的业务 key（如 attractions/food/hotels，区分同名工具） */
+  key?: string
   content?: string
   /** error 事件的错误消息（后端字段名是 error，不是 content） */
   error?: string
@@ -79,6 +81,7 @@ export function parseSSEEvent(raw: string): StreamEvent | null {
   return {
     type: json.type,
     name: json.name,
+    key: json.key,
     content: json.content,
     error: json.error,
     data: json.data,

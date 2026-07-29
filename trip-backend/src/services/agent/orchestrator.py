@@ -68,6 +68,18 @@ class Orchestrator:
         self.planner_agent = PlannerAgent(llm=llm, fallback_llm=fallback_llm)
         self.on_event = on_event
 
+    async def _emit_progress(self, stage: str, status: str, **extra) -> None:
+        """发送阶段进度事件（供前端展示实时步骤，best-effort）。"""
+        if not self.on_event:
+            return
+        try:
+            await self.on_event({
+                "type": "progress",
+                "data": {"stage": stage, "status": status, **extra},
+            })
+        except Exception:
+            pass
+
     async def plan(self, request: PlanRequest) -> PlanResult:
         """全量规划流程。
 
@@ -92,6 +104,7 @@ class Orchestrator:
             user_preferences=request.preferences,
         )
 
+        await self._emit_progress("research", "start")
         research_output = await self.research_agent.run(research_input)
         if research_output.error:
             return PlanResult(
@@ -100,6 +113,11 @@ class Orchestrator:
             )
         total_usage = _merge_usage(total_usage, research_output.usage)
         bundle: ResearchBundle = research_output.result
+        await self._emit_progress(
+            "research", "done",
+            duration_ms=research_output.duration_ms,
+            cached=research_output.duration_ms < 500,
+        )
 
         # ── Phase 2: Plan（Agent 创造性生成）──
         planner_input = PlannerInput(
@@ -112,6 +130,7 @@ class Orchestrator:
             message=request.message,
         )
 
+        await self._emit_progress("plan", "start", attempt=1)
         planner_output = await self.planner_agent.run(planner_input)
         if planner_output.error:
             return PlanResult(
@@ -121,12 +140,14 @@ class Orchestrator:
             )
         total_usage = _merge_usage(total_usage, planner_output.usage)
         raw_output: str = planner_output.result
+        await self._emit_progress("plan", "done", attempt=1, duration_ms=planner_output.duration_ms)
 
         # ── Phase 3: Review + 重试循环 ──
         review_result: Optional[ReviewResult] = None
         parsed_plan: Optional[dict] = None
 
         for attempt in range(MAX_REVIEW_RETRIES + 1):
+            await self._emit_progress("review", "start", attempt=attempt + 1)
             parsed_plan, review_result = await review(
                 raw_output=raw_output,
                 bundle=bundle,
@@ -135,6 +156,7 @@ class Orchestrator:
             )
 
             if review_result.passed:
+                await self._emit_progress("review", "done", attempt=attempt + 1, passed=True)
                 break
 
             # 最后一轮不再重试
@@ -143,6 +165,7 @@ class Orchestrator:
                     "orchestrator|review_failed_after_retries attempts=%d issues=%s",
                     attempt + 1, review_result.issues,
                 )
+                await self._emit_progress("review", "done", attempt=attempt + 1, passed=False)
                 break
 
             # 带修改意见重跑 Planner
@@ -151,11 +174,13 @@ class Orchestrator:
                 attempt + 1, review_result.feedback[:100],
             )
             planner_input.feedback = review_result.feedback
+            await self._emit_progress("plan", "start", attempt=attempt + 2, retry=True)
             planner_output = await self.planner_agent.run(planner_input)
             if planner_output.error:
                 break
             total_usage = _merge_usage(total_usage, planner_output.usage)
             raw_output = planner_output.result
+            await self._emit_progress("plan", "done", attempt=attempt + 2, retry=True)
 
         duration_ms = int((time.time() - _t0) * 1000)
         logger.info(

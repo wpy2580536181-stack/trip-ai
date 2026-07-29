@@ -346,6 +346,7 @@ class TripService:
         days: int,
         user_id: Optional[int] = None,
         departure_city: Optional[str] = None,
+        on_event: Optional[Any] = None,
     ) -> dict:
         """行程推荐。
 
@@ -355,6 +356,7 @@ class TripService:
             days: 天数
             user_id: 用户 ID
             departure_city: 出发城市
+            on_event: 事件回调（progress/tool_start/tool_end，供 SSE 透传，可选）
 
         Returns:
             完整行程推荐结果字典
@@ -362,6 +364,14 @@ class TripService:
         _t0 = time.time()
         if budget < 50 or budget > 1_000_000 or days < 1 or days > 30:
             raise ValueError("预算或天数不符合要求（预算范围 50-1,000,000，天数 1-30）")
+
+        async def _emit(stage: str, status: str) -> None:
+            if not on_event:
+                return
+            try:
+                await on_event({"type": "progress", "data": {"stage": stage, "status": status}})
+            except Exception:
+                pass
 
         try:
             agent_engine = get_agent_engine()
@@ -371,6 +381,7 @@ class TripService:
                 budget=budget,
                 days=days,
                 departure_city=departure_city,
+                on_event=on_event,
             )
             _t_agent = time.time()
             logger.info("recommend|agent_engine=%dms city=%s days=%d budget=%d",
@@ -381,6 +392,7 @@ class TripService:
                 raise ValueError("Agent 返回无效结果")
 
             # ---- geocoding + 图片增强（best-effort，并行执行） ----
+            await _emit("save", "start")
             await asyncio.gather(
                 self._enrich_geocoding(parsed),
                 self._enrich_images(parsed),
@@ -396,6 +408,7 @@ class TripService:
                 parsed=parsed,
                 budget=budget,
             )
+            await _emit("save", "done")
 
             _t_total = time.time()
             logger.info(

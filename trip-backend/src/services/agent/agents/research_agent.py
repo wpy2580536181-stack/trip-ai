@@ -252,14 +252,29 @@ class ResearchAgent(BaseAgent):
             task_keys.append("distance")
             task_names.append("calculate_distance")
 
-        # 发送 tool_start 事件
+        # 发送 tool_start 事件（带 key 区分同名工具，如两次 retrieve_knowledge）
         if self.on_event:
-            for name in task_names:
-                await self.on_event({"type": "tool_start", "name": name})
+            for name, key in zip(task_names, task_keys):
+                await self.on_event({"type": "tool_start", "name": name, "key": key})
 
-        # 并行执行
+        # 并行执行（包装为完成即发 tool_end，前端可逐个点亮）
+        async def _with_end_event(coro, name: str, key: str):
+            try:
+                return await coro
+            finally:
+                if self.on_event:
+                    try:
+                        await self.on_event({"type": "tool_end", "name": name, "key": key})
+                    except Exception:
+                        pass
+
+        wrapped = [
+            _with_end_event(t, task_names[i], task_keys[i])
+            for i, t in enumerate(tasks)
+        ]
+
         _t0 = time.time()
-        results = await asyncio.gather(*tasks, return_exceptions=True)
+        results = await asyncio.gather(*wrapped, return_exceptions=True)
         _t_total = int((time.time() - _t0) * 1000)
         logger.info("research_agent|parallel tools=%d duration=%dms city=%s",
                     len(tasks), _t_total, city)
@@ -281,11 +296,6 @@ class ResearchAgent(BaseAgent):
                 bundle_data[key] = fallbacks.get(key, "信息暂时不可用。")
             else:
                 bundle_data[key] = result
-
-        # 发送 tool_end 事件
-        if self.on_event:
-            for name in task_names:
-                await self.on_event({"type": "tool_end", "name": name})
 
         return ResearchBundle(
             attractions=bundle_data.get("attractions"),

@@ -155,6 +155,10 @@ export interface FetchStreamOptions {
   retryDelaysMs?: number[]
   /** 行程状态变更事件（trip_modified / trip_planned），续传重放时可能重复触发，回调需幂等 */
   onTripEvent?: (type: string, data: any) => void
+  /** 阶段进度事件（如行程生成的 research/plan/review/save 各阶段） */
+  onProgress?: (data: any) => void
+  /** 工具事件的业务 key（额外信息，配合 onToolEvent 使用） */
+  onToolEventDetail?: (type: string, name: string, key?: string) => void
 }
 
 export async function fetchStream(
@@ -201,7 +205,7 @@ export async function fetchStream(
     }
 
     if (ev.type === 'chunk') {
-      onChunk?.(ev.content)
+      onChunk?.(ev.content ?? '')
     } else if (ev.type === 'complete') {
       onComplete?.(ev.data)
       completed = true
@@ -212,8 +216,11 @@ export async function fetchStream(
       return true
     } else if (ev.type === 'tool_start' || ev.type === 'tool_end') {
       onToolEvent?.(ev.type, ev.name || '')
+      options?.onToolEventDetail?.(ev.type, ev.name || '', ev.key)
     } else if (ev.type === 'trip_modified' || ev.type === 'trip_planned') {
       options?.onTripEvent?.(ev.type, ev.data)
+    } else if (ev.type === 'progress') {
+      options?.onProgress?.(ev.data)
     } else if (ev.type === 'heartbeat') {
       onHeartbeat?.()
     }
