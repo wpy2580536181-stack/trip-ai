@@ -15,6 +15,13 @@ export interface TripListItem {
 
 export interface TripDetail extends TripListItem {}
 
+export interface TripVersionItem {
+  id: number
+  label: string
+  createdAt: string
+  isCurrent: boolean
+}
+
 export async function listTrips(page = 1, pageSize = 20) {
   return get<{ items: TripListItem[]; total: number; page: number; pageSize: number }>(
     'history/trips',
@@ -24,6 +31,10 @@ export async function listTrips(page = 1, pageSize = 20) {
 
 export async function getTrip(id: number) {
   return get<TripDetail>(`history/trips/${id}`)
+}
+
+export async function getTripVersions(id: number) {
+  return get<TripVersionItem[]>(`history/trips/${id}/versions`)
 }
 
 export async function deleteTrip(id: number) {

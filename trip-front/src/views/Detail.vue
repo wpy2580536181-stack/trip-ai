@@ -5,7 +5,7 @@ import { onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useMessage } from 'naive-ui'
 import { post } from '@/api/request'
-import { getTrip } from '@/api/history'
+import { getTrip, getTripVersions } from '@/api/history'
 import { getApiErrorText, handleApiError } from '@/utils/apiError'
 import MapView from '@/components/MapView.vue'
 import ChatPanel from '@/components/ChatPanel.vue'
@@ -53,15 +53,30 @@ const onTripUpdated = (newTripId: number) => {
 // ---- 版本切换 ----
 const tripVersions = ref<{ id: number; label: string }[]>([])
 
-const buildVersionList = () => {
-  const versions: { id: number; label: string }[] = []
-  if (currentTripMeta.value) {
-    if (currentTripMeta.value.parentTripId) {
-      versions.push({ id: currentTripMeta.value.parentTripId, label: 'V1' })
-      versions.push({ id: currentTripMeta.value.id, label: 'V2 (当前)' })
-    } else {
-      versions.push({ id: currentTripMeta.value.id, label: 'V1 (当前)' })
+const buildVersionList = async () => {
+  if (!currentTripMeta.value) {
+    tripVersions.value = []
+    return
+  }
+  const meta = currentTripMeta.value
+  try {
+    // 完整版本链（V1…Vn），支持两级以上
+    const res = await getTripVersions(meta.id)
+    const items = res.data ?? []
+    if (items.length > 0) {
+      tripVersions.value = items.map(v => ({
+        id: v.id,
+        label: v.isCurrent ? `${v.label} (当前)` : v.label,
+      }))
+      return
     }
+  } catch { /* 接口失败回退两级逻辑 */ }
+  const versions: { id: number; label: string }[] = []
+  if (meta.parentTripId) {
+    versions.push({ id: meta.parentTripId, label: 'V1' })
+    versions.push({ id: meta.id, label: 'V2 (当前)' })
+  } else {
+    versions.push({ id: meta.id, label: 'V1 (当前)' })
   }
   tripVersions.value = versions
 }
@@ -90,7 +105,14 @@ const compareVersions = async () => {
 
 function buildTripDiff(v1: TripData, v2: TripData) {
   const diffs: { day: number; period: string; old: string; new: string; status: string }[] = []
-  const periods = ['morning', 'afternoon', 'evening'] as const
+  const periodLabels: Record<string, string> = {
+    morning: '上午',
+    afternoon: '下午',
+    evening: '晚上',
+    lunch: '午餐',
+    dinner: '晚餐',
+  }
+  const periods = ['morning', 'afternoon', 'evening', 'lunch', 'dinner'] as const
   const maxDays = Math.max(v1.dailyItinerary?.length || 0, v2.dailyItinerary?.length || 0)
   for (let i = 0; i < maxDays; i++) {
     const d1 = v1.dailyItinerary?.[i]
@@ -99,8 +121,31 @@ function buildTripDiff(v1: TripData, v2: TripData) {
       const s1 = d1?.[p]?.spot || ''
       const s2 = d2?.[p]?.spot || ''
       if (s1 !== s2) {
-        diffs.push({ day: i + 1, period: p, old: s1, new: s2, status: s1 ? 'changed' : 'added' })
+        diffs.push({
+          day: i + 1,
+          period: periodLabels[p],
+          old: s1,
+          new: s2,
+          status: !s1 ? 'added' : !s2 ? 'removed' : 'changed',
+        })
       }
+    }
+  }
+  // 预算明细差异（day=0 表示非按天项，模板渲染为总览）
+  const budgetLabels: Record<string, string> = {
+    accommodation: '预算-住宿',
+    food: '预算-餐饮',
+    transportation: '预算-交通',
+    tickets: '预算-门票',
+    other: '预算-其他',
+  }
+  const b1 = v1.budgetBreakdown || {}
+  const b2 = v2.budgetBreakdown || {}
+  for (const key of Object.keys(budgetLabels)) {
+    const n1 = Number(b1[key] ?? 0)
+    const n2 = Number(b2[key] ?? 0)
+    if (n1 !== n2) {
+      diffs.push({ day: 0, period: budgetLabels[key], old: `¥${n1}`, new: `¥${n2}`, status: 'changed' })
     }
   }
   return diffs
@@ -403,16 +448,17 @@ const hotelOrigin = (day: any) => {
   </div>
 
   <!-- 版本对比 Modal -->
-  <n-modal v-model:show="showDiff" preset="card" title="版本对比（V1 → V2）" style="max-width: 500px">
+  <n-modal v-model:show="showDiff" preset="card" title="与上一版本对比" style="max-width: 500px">
     <div v-if="diffResult.length === 0" style="text-align: center; color: #999; padding: 20px">
       两个版本无差异
     </div>
     <div v-else class="diff-list">
       <div v-for="(d, idx) in diffResult" :key="idx" class="diff-item">
-        <span class="diff-day">Day{{ d.day }} {{ d.period }}</span>
+        <span class="diff-day">{{ d.day > 0 ? `Day${d.day} ` : '' }}{{ d.period }}</span>
         <span v-if="d.old" class="diff-old">{{ d.old }}</span>
-        <span v-if="d.old" class="diff-arrow">→</span>
-        <span class="diff-new">{{ d.new }}</span>
+        <span v-if="d.old && d.new" class="diff-arrow">→</span>
+        <span v-if="d.new" class="diff-new">{{ d.new }}</span>
+        <span v-else class="diff-removed-tag">已移除</span>
       </div>
     </div>
   </n-modal>
@@ -486,6 +532,10 @@ const hotelOrigin = (day: any) => {
 }
 .diff-arrow {
   color: #999;
+}
+.diff-removed-tag {
+  color: #999;
+  font-size: 12px;
 }
 .diff-new {
   color: #52c41a;

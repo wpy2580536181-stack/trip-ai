@@ -149,6 +149,59 @@ async def get_trip(
     }
 
 
+@router.get(
+    "/{trip_id}/versions",
+    response_model=dict,
+    summary="获取行程版本链",
+    description="""
+    获取指定行程所在的完整版本链（V1…Vn，根版本在前）。
+
+    需要在请求头中包含有效的JWT token：
+    - Authorization: Bearer <token>
+
+    路径参数：
+    - trip_id: 行程ID（版本链中任意节点）
+
+    错误响应：
+    - 401: 未授权或token已过期
+    - 404: 行程不存在或无权限访问
+    """
+)
+async def get_trip_versions(
+    trip_id: int,
+    current_user: User = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db)
+):
+    """获取行程版本链
+
+    Args:
+        trip_id: 行程ID（链中任意节点）
+        current_user: 当前认证用户
+        db: 数据库会话
+
+    Returns:
+        dict: 按版本顺序的 [{id, label, createdAt, isCurrent}] 列表
+    """
+    versions = await HistoryService.get_trip_versions(db, trip_id, current_user.id)
+
+    items = [
+        {
+            "id": t.id,
+            "label": f"V{i + 1}",
+            "createdAt": t.created_at,
+            "isCurrent": t.id == trip_id,
+        }
+        for i, t in enumerate(versions)
+    ]
+
+    return {
+        "code": 200,
+        "data": items,
+        "message": "获取行程版本链成功",
+        "error": None
+    }
+
+
 @router.delete(
     "/{trip_id}",
     response_model=dict,
