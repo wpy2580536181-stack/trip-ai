@@ -25,7 +25,6 @@ dependencies = [
     "langchain-core>=0.2.0",
     "langchain-openai>=0.1.0",
     "langgraph>=0.1.0",
-
     # sentence-transformers 和 torch 体积大，T01 不需要，T05 再取消注释
     # "sentence-transformers>=3.0.0",
     # "torch>=2.2.0",
@@ -35,6 +34,7 @@ dependencies = [
     "python-multipart>=0.0.9",
     "email-validator>=2.3.0",
     "pyyaml>=6.0.0",
+    "watchfiles>=1.2.0",
 ]
 
 [project.optional-dependencies]
