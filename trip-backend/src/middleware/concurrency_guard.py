@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 async def concurrency_guard_dependency(request: Request) -> None:
     """并发守卫依赖（FastAPI Depends）。
 
-    在 /api/trip/* 的 chat / recommend / optimize 路由上使用。
+    在 /api/trip/* 的 chat / recommend 路由上使用。
     超限时返回 429。
 
     对于非流式端点，release 自动通过 BackgroundTask 执行。

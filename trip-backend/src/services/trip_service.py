@@ -208,6 +208,10 @@ class TripService:
             elif event_type == "tool_end":
                 await queue.put({"type": "tool_end", "name": event.get("name", "")})
 
+            elif event_type == "trip_modified":
+                # 行程修改结构化事件：透传给前端（先于 complete 入队）
+                await queue.put({"type": "trip_modified", "data": event.get("data")})
+
             elif event_type == "complete":
                 full_reply = event.get("content", full_reply)
                 usage = event.get("usage")

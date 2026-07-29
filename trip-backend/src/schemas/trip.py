@@ -21,18 +21,6 @@ class RecommendRequest(BaseModel):
     )
 
 
-class OptimizeRequest(BaseModel):
-    """行程优化请求"""
-    model_config = ConfigDict(populate_by_name=True)
-
-    trip_id: int = Field(..., alias="tripId", gt=0, description="行程 ID")
-    instruction: Optional[str] = Field(
-        default=None,
-        max_length=1000,
-        description="优化指令",
-    )
-
-
 class ChatRequest(BaseModel):
     """对话请求"""
     model_config = ConfigDict(populate_by_name=True)

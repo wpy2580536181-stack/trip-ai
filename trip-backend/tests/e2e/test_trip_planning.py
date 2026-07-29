@@ -26,16 +26,6 @@ class TestTripPlanningFlow:
             assert "data" in data or "trip" in str(data)
 
     @pytest.mark.asyncio
-    async def test_trip_optimize(self, auth_client):
-        """行程优化接口"""
-        resp = await auth_client.post("/api/trip/optimize", json={
-            "trip_id": 0,
-            "instruction": "增加故宫景点",
-        })
-        # trip_id=0 可能返回 422（参数校验）或 404（不存在）
-        assert resp.status_code in (200, 404, 422, 429), f"Unexpected: {resp.status_code}"
-
-    @pytest.mark.asyncio
     async def test_chat_sse_stream(self, auth_client):
         """SSE 流式对话应返回流式事件（可能被限流时跳过）"""
         async with auth_client.stream(

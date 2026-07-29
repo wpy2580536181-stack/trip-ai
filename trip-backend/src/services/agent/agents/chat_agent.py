@@ -293,9 +293,11 @@ class ChatAgent(BaseAgent):
             return None
 
     async def _escalate_modify(self, args: dict) -> Optional[str]:
-        """升级为 Orchestrator.modify()，生成修改版行程并持久化为 v2 Trip。"""
-        import json as _json
+        """升级为 Orchestrator.modify()，生成修改版行程并持久化为 v2 Trip。
 
+        成功时通过 on_event 发出结构化 trip_modified 事件（前端据此刷新行程），
+        返回值为人类可读的摘要文本（作为 assistant 消息落库）。
+        """
         meta = getattr(self, "_trip_meta", None)
         if not meta:
             return "当前没有关联行程，无法修改。请先在行程详情页打开对话。"
@@ -327,12 +329,22 @@ class ChatAgent(BaseAgent):
                     budget=meta["budget"],
                     parent_trip_id=meta["trip_id"],
                 )
-                return _json.dumps({
-                    "type": "trip_modified",
-                    "new_trip_id": new_trip_id,
-                    "summary": f"已生成修改版行程（V2），城市：{result.plan.get('city')}，天数：{result.plan.get('days')}",
-                    "plan": result.plan,
-                }, ensure_ascii=False)
+                summary = (
+                    f"已按您的要求生成修改版行程："
+                    f"{result.plan.get('city')}{result.plan.get('days')}日游，"
+                    f"页面将自动切换到新版本。"
+                )
+                # 结构化事件：状态变更与对话正文在协议层分离
+                if self.on_event:
+                    await self.on_event({
+                        "type": "trip_modified",
+                        "data": {
+                            "newTripId": new_trip_id,
+                            "parentTripId": meta["trip_id"],
+                            "summary": summary,
+                        },
+                    })
+                return summary
             return f"修改失败：{result.error or '未知错误'}"
         except Exception as e:
             logger.error("chat_agent|escalate_modify failed: %s", e)

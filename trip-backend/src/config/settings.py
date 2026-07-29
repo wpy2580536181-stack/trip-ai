@@ -90,7 +90,6 @@ class Settings(BaseSettings):
     rate_limit_global_max: int = 2000       # 全局限流（次/分钟）
     rate_limit_chat_max: int = 200          # Chat 限流（次/分钟）
     rate_limit_recommend_max: int = 50      # Recommend 限流（次/分钟）
-    rate_limit_optimize_max: int = 50       # Optimize 限流（次/分钟）
     rate_limit_feedback_max: int = 30       # 反馈限流（次/小时）
     rate_limit_knowledge_max: int = 100     # 知识库限流（次/分钟）
 

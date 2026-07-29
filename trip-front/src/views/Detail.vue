@@ -30,7 +30,6 @@ interface TripData {
 
 const tripData = ref<TripData | null>(null)
 const errorMsg = ref('')
-const optimizing = ref(false)
 const currentTripMeta = ref<{ id: number; parentTripId: number | null } | null>(null)
 
 // ---- 对话面板状态 ----
@@ -228,26 +227,6 @@ const hotelOrigin = (day: any) => {
   }
   return null
 }
-
-const onOptimize = async () => {
-  if (!currentTripMeta.value?.id) return
-  optimizing.value = true
-  try {
-    const res = await post('/trip/optimize', { tripId: currentTripMeta.value.id, instruction: '' })
-    if (res.success && res.data) {
-      const newId = (res.data as { id?: number }).id
-      if (newId) {
-        router.push({ path: '/detail', query: { id: newId } })
-      }
-    } else {
-      message.error(res.error || '优化失败')
-    }
-  } catch {
-    message.error('网络错误')
-  } finally {
-    optimizing.value = false
-  }
-}
 </script>
 
 <template>
@@ -401,7 +380,6 @@ const onOptimize = async () => {
         </div>
 
         <div class="detail-footer" v-if="tripData">
-          <n-button v-if="currentTripMeta?.id" type="warning" size="large" :loading="optimizing" @click="onOptimize">AI 优化此行程</n-button>
           <ExportMenu :trip-data="tripData" />
         </div>
       </template>

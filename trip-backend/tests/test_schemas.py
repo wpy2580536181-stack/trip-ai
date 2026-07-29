@@ -324,7 +324,6 @@ class TestSpotListResponse:
 
 from src.schemas.trip import (
     RecommendRequest,
-    OptimizeRequest,
     ChatRequest,
     SpotSchema,
     DailyItinerarySchema,
@@ -399,33 +398,6 @@ class TestRecommendRequest:
     def test_budget_type_error(self):
         with pytest.raises(ValidationError):
             RecommendRequest(city="北京", budget="abc", days=3)  # type: ignore[arg-type]
-
-
-class TestOptimizeRequest:
-    def test_valid(self):
-        obj = OptimizeRequest(tripId=1)
-        assert obj.trip_id == 1
-        assert obj.instruction is None
-
-    def test_valid_with_instruction(self):
-        obj = OptimizeRequest(tripId=1, instruction="减少预算")
-        assert obj.instruction == "减少预算"
-
-    def test_missing_trip_id(self):
-        with pytest.raises(ValidationError):
-            OptimizeRequest()  # type: ignore[call-arg]
-
-    def test_trip_id_zero(self):
-        with pytest.raises(ValidationError):
-            OptimizeRequest(tripId=0)
-
-    def test_trip_id_negative(self):
-        with pytest.raises(ValidationError):
-            OptimizeRequest(tripId=-1)
-
-    def test_instruction_too_long(self):
-        with pytest.raises(ValidationError):
-            OptimizeRequest(tripId=1, instruction="x" * 1001)
 
 
 class TestChatRequest:

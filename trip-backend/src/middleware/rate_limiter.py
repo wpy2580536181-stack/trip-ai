@@ -243,9 +243,3 @@ recommend_rate_limiter = RateLimiter(
     message="行程推荐请求过于频繁，请稍后再试",
 )
 
-# Optimize（/api/trip/optimize）
-optimize_rate_limiter = RateLimiter(
-    max_requests=_s.rate_limit_optimize_max,
-    window_seconds=60,
-    message="行程优化请求过于频繁，请稍后再试",
-)

@@ -15,7 +15,7 @@
  */
 
 export interface StreamEvent {
-  type: 'chunk' | 'complete' | 'error' | 'tool_start' | 'tool_end' | 'heartbeat'
+  type: 'chunk' | 'complete' | 'error' | 'tool_start' | 'tool_end' | 'heartbeat' | 'trip_modified' | 'trip_planned'
   name?: string
   content?: string
   /** error 事件的错误消息（后端字段名是 error，不是 content） */

@@ -39,7 +39,7 @@ request.interceptors.response.use(
 /**
  * Python 后端使用的两种响应格式：
  *
- * Format A（仅 /api/trip/recommend, /api/trip/optimize）:
+ * Format A（仅 /api/trip/recommend）:
  *   { success: boolean, data?: T, error?: string }
  *
  * Format B（所有其他端点）:
@@ -153,6 +153,8 @@ export interface FetchStreamOptions {
   maxRetries?: number
   /** 自定义退避时间（覆盖默认 1s/2s/4s/8s/16s） */
   retryDelaysMs?: number[]
+  /** 行程状态变更事件（trip_modified / trip_planned），续传重放时可能重复触发，回调需幂等 */
+  onTripEvent?: (type: string, data: any) => void
 }
 
 export async function fetchStream(
@@ -210,6 +212,8 @@ export async function fetchStream(
       return true
     } else if (ev.type === 'tool_start' || ev.type === 'tool_end') {
       onToolEvent?.(ev.type, ev.name || '')
+    } else if (ev.type === 'trip_modified' || ev.type === 'trip_planned') {
+      options?.onTripEvent?.(ev.type, ev.data)
     } else if (ev.type === 'heartbeat') {
       onHeartbeat?.()
     }

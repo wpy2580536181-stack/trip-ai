@@ -94,6 +94,9 @@ const fetchAiResponse = (userMsg: string) => {
   toolStatus.value = null
   messages.value.push({ role: 'ai', content: '', timestamp: new Date().toISOString() })
 
+  // 本次请求内的行程修改事件（续传重放幂等 + complete 时回填摘要）
+  let tripModifiedData: { newTripId: number; summary?: string } | null = null
+
   fetchStream(
     'trip/chat',
     {
@@ -111,22 +114,13 @@ const fetchAiResponse = (userMsg: string) => {
       if (data?.conversationId) {
         currentConversationId.value = data.conversationId
       }
-      // 检测行程修改响应，通知父组件刷新
-      const lastMsg = messages.value[messages.value.length - 1]
-      if (lastMsg?.content?.includes('"type": "trip_modified"') || lastMsg?.content?.includes('"type":"trip_modified"')) {
-        try {
-          const jsonStr = lastMsg.content
-          const start = jsonStr.indexOf('{')
-          const end = jsonStr.lastIndexOf('}')
-          if (start !== -1 && end > start) {
-            const parsed = JSON.parse(jsonStr.slice(start, end + 1))
-            if (parsed.new_trip_id) {
-              emit('trip-updated', parsed.new_trip_id)
-              // 替换原始 JSON 为友好摘要
-              lastMsg.content = parsed.summary || '行程已修改'
-            }
-          }
-        } catch { /* 解析失败不影响主流程 */ }
+      // 行程已修改：正文不走 chunk 流，用事件里的摘要回填气泡，再通知父组件刷新
+      if (tripModifiedData) {
+        const lastMsg = messages.value[messages.value.length - 1]
+        if (lastMsg && lastMsg.role === 'ai' && !lastMsg.content) {
+          lastMsg.content = tripModifiedData.summary || '行程已修改'
+        }
+        emit('trip-updated', tripModifiedData.newTripId)
       }
     },
     (errMsg) => {
@@ -138,6 +132,15 @@ const fetchAiResponse = (userMsg: string) => {
     },
     (type, name) => {
       toolStatus.value = type === 'tool_start' ? (toolLabels[name] || name) : null
+    },
+    undefined, // onHeartbeat
+    undefined, // onResume
+    {
+      onTripEvent: (type, data) => {
+        if (type === 'trip_modified' && data?.newTripId && data.newTripId !== tripModifiedData?.newTripId) {
+          tripModifiedData = { newTripId: data.newTripId, summary: data.summary }
+        }
+      },
     },
   ).then(controller => {
     currentAbortController.value = controller

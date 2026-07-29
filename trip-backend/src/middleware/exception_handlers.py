@@ -152,12 +152,10 @@ def is_format_a(path: str) -> bool:
     
     Paths using format A:
     - /api/trip/recommend
-    - /api/trip/optimize
     """
     
     format_a_paths = [
         "/api/trip/recommend",
-        "/api/trip/optimize"
     ]
     
     return any(path.startswith(p) for p in format_a_paths)

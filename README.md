@@ -90,7 +90,6 @@ cd trip-front && npm install && npm run dev
 | POST | `/api/user/login` | 登录 |
 | GET/PUT | `/api/user/info` | 用户信息 |
 | POST | `/api/trip/recommend` | AI 生成行程 |
-| POST | `/api/trip/optimize` | AI 优化行程 |
 | POST | `/api/trip/chat` | AI 对话（SSE 流式） |
 | GET | `/api/conversations` | 对话列表 |
 | GET | `/api/history/trips` | 行程历史 |

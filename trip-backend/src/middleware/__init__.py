@@ -11,7 +11,6 @@ from src.middleware.rate_limiter import (
     knowledge_rate_limiter,
     chat_rate_limiter,
     recommend_rate_limiter,
-    optimize_rate_limiter,
 )
 from src.middleware.idempotency import IdempotencyMiddleware
 from src.middleware.concurrency_guard import (

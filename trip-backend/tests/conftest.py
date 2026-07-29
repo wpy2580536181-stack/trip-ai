@@ -140,7 +140,6 @@ async def reset_rate_limiters():
         knowledge_rate_limiter,
         chat_rate_limiter,
         recommend_rate_limiter,
-        optimize_rate_limiter,
     )
 
     limiters = [
@@ -149,7 +148,6 @@ async def reset_rate_limiters():
         knowledge_rate_limiter,
         chat_rate_limiter,
         recommend_rate_limiter,
-        optimize_rate_limiter,
     ]
 
     # Clear all known limiter stores and set very high limits

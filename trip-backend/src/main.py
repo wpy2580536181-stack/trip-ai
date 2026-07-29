@@ -149,11 +149,11 @@ def create_app() -> FastAPI:
         window_seconds=60,
     )
     
-    # 幂等性中间件：仅对 recommend / optimize 路径生效
+    # 幂等性中间件：仅对 recommend 路径生效
     # 不应用到 chat（SSE 流式响应不能被 BaseHTTPMiddleware 缓冲）
     app.add_middleware(
         IdempotencyMiddleware,
-        path_prefixes=["/api/trip/recommend", "/api/trip/optimize"],
+        path_prefixes=["/api/trip/recommend"],
     )
 
     # 请求 ID 中间件：生成/透传 x-request-id，绑定 structlog 上下文，全链路日志关联。
