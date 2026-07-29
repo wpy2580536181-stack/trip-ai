@@ -11,11 +11,14 @@ from typing import AsyncGenerator
 
 from fastapi import APIRouter, Depends, HTTPException, Request
 from fastapi.responses import StreamingResponse
+from sqlalchemy import select
 
+from src.config.database import async_session
 from src.middleware.auth import get_current_user
 from src.middleware.rate_limiter import recommend_rate_limiter
 from src.middleware.concurrency_guard import concurrency_guard_dependency
 from src.middleware.token_budget_guard import token_budget_guard_dependency
+from src.models.trip import Trip
 from src.models.user import User
 from src.schemas.trip import RecommendRequest
 from src.services.trip_service import trip_service
@@ -177,5 +180,51 @@ async def recommend_stream(
             "X-Accel-Buffering": "no",
         },
     )
+
+
+@router.post("/{trip_id}/confirm")
+async def confirm_trip(
+    trip_id: int,
+    current_user: User = Depends(get_current_user),
+):
+    """确认候选行程（candidate → completed）。
+
+    在 Diff 卡片预览中用户点「采纳」后调用。
+    """
+    async with async_session() as session:
+        result = await session.execute(
+            select(Trip).where(Trip.id == trip_id, Trip.user_id == current_user.id)
+        )
+        trip = result.scalar_one_or_none()
+        if not trip:
+            raise HTTPException(status_code=404, detail="行程不存在")
+        if trip.status != "candidate":
+            raise HTTPException(status_code=400, detail="行程状态不允许确认")
+        trip.status = "completed"
+        await session.commit()
+        return {"code": 200, "data": {"id": trip.id}}
+
+
+@router.post("/{trip_id}/discard")
+async def discard_trip(
+    trip_id: int,
+    current_user: User = Depends(get_current_user),
+):
+    """放弃候选行程（candidate → discarded）。
+
+    在 Diff 卡片预览中用户点「放弃」后调用。
+    """
+    async with async_session() as session:
+        result = await session.execute(
+            select(Trip).where(Trip.id == trip_id, Trip.user_id == current_user.id)
+        )
+        trip = result.scalar_one_or_none()
+        if not trip:
+            raise HTTPException(status_code=404, detail="行程不存在")
+        if trip.status != "candidate":
+            raise HTTPException(status_code=400, detail="行程状态不允许放弃")
+        trip.status = "discarded"
+        await session.commit()
+        return {"code": 200, "data": {"id": trip.id}}
 
 

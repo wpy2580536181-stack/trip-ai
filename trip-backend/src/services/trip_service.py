@@ -477,6 +477,7 @@ class TripService:
         parsed: dict,
         budget: int,
         parent_trip_id: Optional[int] = None,
+        status: str = "completed",
     ) -> Optional[int]:
         """持久化 Trip 记录到数据库。返回 trip ID。"""
         async with async_session() as session:
@@ -487,7 +488,7 @@ class TripService:
                 days=parsed.get("days", 1),
                 budget=budget,
                 content=parsed,
-                status="completed",
+                status=status,
                 parent_trip_id=parent_trip_id,
             )
             session.add(trip)

@@ -354,6 +354,28 @@ class ChatAgent(BaseAgent):
         logger.info("chat_agent|run_skill name=%s", skill_name)
         return await registry.execute(skill_name, ctx)
 
+    @staticmethod
+    def _build_trip_diff(old: dict, new: dict) -> list[dict]:
+        """比较新旧行程，生成 Slot 级变更列表。"""
+        changes = []
+        old_days = {d.get("day"): d for d in (old.get("dailyItinerary") or []) if d.get("day")}
+        new_days = {d.get("day"): d for d in (new.get("dailyItinerary") or []) if d.get("day")}
+        all_days = sorted(set(old_days) | set(new_days))
+        for day_num in all_days:
+            old_day = old_days.get(day_num, {})
+            new_day = new_days.get(day_num, {})
+            for period in ("morning", "afternoon", "evening"):
+                old_spot = (old_day.get(period) or {}).get("spot", "")
+                new_spot = (new_day.get(period) or {}).get("spot", "")
+                if old_spot != new_spot:
+                    changes.append({
+                        "day": day_num,
+                        "period": period,
+                        "oldSpot": old_spot or "(无)",
+                        "newSpot": new_spot or "(无)",
+                    })
+        return changes
+
     async def _escalate_plan(self, args: dict) -> tuple[Optional[str], dict]:
         """升级为 Orchestrator.plan()，规划结果持久化为 Trip（与 modify 路径对称）。
 
@@ -457,29 +479,25 @@ class ChatAgent(BaseAgent):
                 target_days=target_days,
             )
             if result.plan:
-                # 持久化为 v2 Trip
                 new_trip_id = await TripService._persist_trip(
                     user_id=meta["user_id"],
                     from_city=meta.get("departure_city"),
                     parsed=result.plan,
                     budget=meta["budget"],
                     parent_trip_id=meta["trip_id"],
+                    status="candidate",
                 )
-                summary = (
-                    f"已按您的要求生成修改版行程："
-                    f"{result.plan.get('city')}{result.plan.get('days')}日游，"
-                    f"页面将自动切换到新版本。"
-                )
-                # 结构化事件：状态变更与对话正文在协议层分离
                 if self.on_event:
+                    diff = self._build_trip_diff(meta["content"], result.plan)
                     await self.on_event({
-                        "type": "trip_modified",
+                        "type": "trip_diff",
                         "data": {
                             "newTripId": new_trip_id,
                             "parentTripId": meta["trip_id"],
-                            "summary": summary,
+                            "changes": diff,
                         },
                     })
+                summary = f"已为您生成修改方案，请确认后生效。"
                 return summary, result.usage
             return f"修改失败：{result.error or '未知错误'}", result.usage
         except Exception as e:

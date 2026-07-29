@@ -1,4 +1,4 @@
-import { get, del } from './request'
+import { get, del, post } from './request'
 
 export interface TripListItem {
   id: number
@@ -39,4 +39,12 @@ export async function getTripVersions(id: number) {
 
 export async function deleteTrip(id: number) {
   return del<null>(`history/trips/${id}`)
+}
+
+export async function confirmTrip(id: number) {
+  return post(`trip/${id}/confirm`)
+}
+
+export async function discardTrip(id: number) {
+  return post(`trip/${id}/discard`)
 }

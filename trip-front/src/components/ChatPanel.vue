@@ -10,6 +10,7 @@ import { useMessage } from 'naive-ui'
 import { fetchStream } from '@/api/request'
 import { getConversation } from '@/api/conversation'
 import ChatBubble from '@/components/ChatBubble.vue'
+import TripDiffCard from '@/components/TripDiffCard.vue'
 
 const props = withDefaults(defineProps<{
   tripId?: number | null
@@ -40,6 +41,7 @@ const isStreaming = ref(false)
 const inputMessage = ref('')
 const toolStatus = ref<string | null>(null)
 const progressData = ref<{ stage: string; status: string } | null>(null)
+const diffCards = ref<Map<number, { newTripId: number; parentTripId: number; changes: any[] }>>(new Map())
 const currentAbortController = ref<AbortController | null>(null)
 const messageListRef = ref<HTMLElement | null>(null)
 const currentConversationId = ref<number | null>(null)
@@ -177,8 +179,6 @@ const fetchAiResponse = (userMsg: string) => {
   progressData.value = null
   messages.value.push({ role: 'ai', content: '', timestamp: new Date().toISOString() })
 
-  // 本次请求内的行程修改事件（续传重放幂等 + complete 时回填摘要）
-  let tripModifiedData: { newTripId: number; summary?: string } | null = null
   // 对话内全量规划：只附详情链接，不切换当前行程
   let tripPlannedData: { newTripId: number; summary?: string } | null = null
 
@@ -203,16 +203,7 @@ const fetchAiResponse = (userMsg: string) => {
           persistConversationId(props.tripId, data.conversationId)
         }
       }
-      // 行程已修改：正文不走 chunk 流，用事件里的摘要回填气泡，再通知父组件刷新
-      if (tripModifiedData) {
-        const lastMsg = messages.value[messages.value.length - 1]
-        if (lastMsg && lastMsg.role === 'ai' && !lastMsg.content) {
-          lastMsg.content = tripModifiedData.summary || '行程已修改'
-        }
-        // 切换完成（props.tripId 变化）前禁发，防旧 tripId 分叉
-        awaitingTripSwitch.value = true
-        emit('trip-updated', tripModifiedData.newTripId)
-      } else if (tripPlannedData) {
+      if (tripPlannedData) {
         // 新规划行程：回填摘要 + 详情链接，不影响当前正在看的行程
         const lastMsg = messages.value[messages.value.length - 1]
         const link = `[查看行程详情](/detail?id=${tripPlannedData.newTripId})`
@@ -238,8 +229,13 @@ const fetchAiResponse = (userMsg: string) => {
     undefined, // onResume
     {
       onTripEvent: (type, data) => {
-        if (type === 'trip_modified' && data?.newTripId && data.newTripId !== tripModifiedData?.newTripId) {
-          tripModifiedData = { newTripId: data.newTripId, summary: data.summary }
+        if (type === 'trip_diff' && data?.changes && data?.newTripId) {
+          const idx = messages.value.length - 1
+          diffCards.value.set(idx, {
+            newTripId: data.newTripId,
+            parentTripId: data.parentTripId,
+            changes: data.changes,
+          })
         } else if (type === 'trip_planned' && data?.newTripId && data.newTripId !== tripPlannedData?.newTripId) {
           tripPlannedData = { newTripId: data.newTripId, summary: data.summary }
         }
@@ -268,6 +264,24 @@ const fetchAiResponse = (userMsg: string) => {
   })
 }
 
+const onDiffConfirm = (tripId: number) => {
+  const lastMsg = messages.value[messages.value.length - 1]
+  if (lastMsg && lastMsg.role === 'ai' && !lastMsg.content) {
+    lastMsg.content = '已采纳修改方案，正在切换…'
+  }
+  awaitingTripSwitch.value = true
+  emit('trip-updated', tripId)
+  diffCards.value = new Map()
+}
+
+const onDiffCancel = () => {
+  const lastMsg = messages.value[messages.value.length - 1]
+  if (lastMsg && lastMsg.role === 'ai' && !lastMsg.content) {
+    lastMsg.content = '已取消修改'
+  }
+  diffCards.value = new Map()
+}
+
 const handleKeydown = (e: KeyboardEvent) => {
   if (e.key === 'Enter' && !e.shiftKey) {
     e.preventDefault()
@@ -293,6 +307,14 @@ const handleKeydown = (e: KeyboardEvent) => {
         :key="idx"
         :message="msg"
         :streaming="isStreaming && idx === messages.length - 1 && msg.role === 'ai'"
+      />
+      <TripDiffCard
+        v-if="diffCards.has(messages.length - 1)"
+        :newTripId="diffCards.get(messages.length - 1)!.newTripId"
+        :parentTripId="diffCards.get(messages.length - 1)!.parentTripId"
+        :changes="diffCards.get(messages.length - 1)!.changes"
+        @confirm="onDiffConfirm"
+        @cancel="onDiffCancel"
       />
     </div>
 
