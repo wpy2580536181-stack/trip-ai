@@ -159,6 +159,8 @@ export interface FetchStreamOptions {
   onProgress?: (data: any) => void
   /** 工具事件的业务 key（额外信息，配合 onToolEvent 使用） */
   onToolEventDetail?: (type: string, name: string, key?: string) => void
+  /** 结构化卡片事件（如 poi_list / commute_compare） */
+  onCard?: (cardType: string, data: any) => void
 }
 
 export async function fetchStream(
@@ -221,6 +223,11 @@ export async function fetchStream(
       options?.onTripEvent?.(ev.type, ev.data)
     } else if (ev.type === 'progress') {
       options?.onProgress?.(ev.data)
+    } else if (ev.type === 'card') {
+      const cardType = (ev as any).card_type
+      if (cardType) {
+        options?.onCard?.(cardType, (ev as any).data)
+      }
     } else if (ev.type === 'heartbeat') {
       onHeartbeat?.()
     }

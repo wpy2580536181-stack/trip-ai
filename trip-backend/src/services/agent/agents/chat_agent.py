@@ -192,6 +192,18 @@ class ChatAgent(BaseAgent):
                             duration_ms=duration_ms,
                         )
 
+                else:
+                    # 非 trigger 工具：执行并发送 card 事件
+                    card_result = await self._execute_tool_card(tc_name, tc_args, message)
+                    if card_result is not None:
+                        duration_ms = int((time.time() - _t0) * 1000)
+                        return AgentOutput(
+                            agent_name=self.name,
+                            result=card_result,
+                            usage=usage,
+                            duration_ms=duration_ms,
+                        )
+
         # 流式发送已在 _stream_llm 中完成，此处不再重复发送
 
         duration_ms = int((time.time() - _t0) * 1000)
@@ -366,6 +378,97 @@ class ChatAgent(BaseAgent):
         )
         logger.info("chat_agent|run_skill name=%s", skill_name)
         return await registry.execute(skill_name, ctx)
+
+    async def _execute_tool_card(self, tool_name: str, args: dict, user_msg: str) -> Optional[str]:
+        """执行普通工具并发送 card 事件。
+
+        支持：search_nearby_commute_pois_tool → poi_list 卡片
+             compute_optimal_commute_tool → commute_compare 卡片
+        """
+        tool_fn = None
+        for t in getattr(self, "tools", []) or []:
+            if getattr(t, "name", "") == tool_name:
+                tool_fn = t
+                break
+
+        if not tool_fn:
+            return None
+
+        try:
+            result_str = await tool_fn.ainvoke(args)
+            import json as _json
+            data = _json.loads(result_str) if isinstance(result_str, str) else result_str
+
+            if tool_name == "search_nearby_commute_pois_tool":
+                return await self._emit_poi_card(data, args, user_msg)
+            elif tool_name == "compute_optimal_commute_tool":
+                return await self._emit_commute_card(data, args, user_msg)
+        except Exception as e:
+            logger.warning("chat_agent|tool_card_failed name=%s err=%s", tool_name, e)
+
+        return None
+
+    async def _emit_poi_card(self, data: dict, args: dict, user_msg: str) -> str:
+        """POI 工具结果 → poi_list card 事件 + 文本摘要。"""
+        items = data if isinstance(data, list) else data.get("data") or data.get("pois") or []
+        if not items and isinstance(data, dict):
+            items = [data]
+
+        card_items = []
+        for it in items[:10]:
+            card_items.append({
+                "name": it.get("name", ""),
+                "distance": it.get("distance", ""),
+                "rating": it.get("rating"),
+                "cost": it.get("cost", ""),
+            })
+
+        if self.on_event and card_items:
+            await self.on_event({
+                "type": "card",
+                "card_type": "poi_list",
+                "data": {
+                    "items": card_items,
+                },
+            })
+
+        count = len(card_items)
+        kw = args.get("keywords", "") or ""
+        return f"附近找到 {count} 个{'相关' if kw else ''}地点。" if count else "附近暂未找到相关地点。"
+
+    async def _emit_commute_card(self, data: dict, args: dict, user_msg: str) -> str:
+        """通勤工具结果 → commute_compare card 事件 + 文本摘要。"""
+        import json as _json
+
+        recommended = data.get("recommended")
+        candidates = data.get("candidates") or []
+
+        if self.on_event:
+            options = []
+            for c in (candidates or []):
+                mode_label = {"walking": "步行", "transit": "公交", "driving": "驾车", "cycling": "骑行"}.get(
+                    (c.get("per_mode") or [{}])[0].get("mode") if c.get("per_mode") else "", ""
+                ) or c.get("name", "")
+                options.append({
+                    "mode": mode_label,
+                    "duration": c.get("duration_text") or f"{c.get('duration_sec', 0)//60}分钟",
+                    "distance": c.get("distance_text") or f"{c.get('distance_m', 0)/1000:.1f}km",
+                })
+
+            await self.on_event({
+                "type": "card",
+                "card_type": "commute_compare",
+                "data": {
+                    "options": options[:5],
+                    "recommended": 0,
+                },
+            })
+
+        rec = recommended or (candidates[0] if candidates else None)
+        if rec:
+            sec = rec.get("duration_sec", 0)
+            return f"最优方案约 {sec//60} 分钟。"
+        return "通勤方案计算失败。"
 
     @staticmethod
     def _build_trip_diff(old: dict, new: dict) -> list[dict]:

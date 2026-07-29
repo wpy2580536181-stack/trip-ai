@@ -11,6 +11,8 @@ import { fetchStream } from '@/api/request'
 import { getConversation } from '@/api/conversation'
 import ChatBubble from '@/components/ChatBubble.vue'
 import TripDiffCard from '@/components/TripDiffCard.vue'
+import PoiListCard from '@/components/PoiListCard.vue'
+import CommuteCard from '@/components/CommuteCard.vue'
 
 const props = withDefaults(defineProps<{
   tripId?: number | null
@@ -42,6 +44,7 @@ const inputMessage = ref('')
 const toolStatus = ref<string | null>(null)
 const progressData = ref<{ stage: string; status: string } | null>(null)
 const diffCards = ref<Map<number, { newTripId: number; parentTripId: number; changes: any[] }>>(new Map())
+const cardData = ref<Map<number, { type: string; data: any }>>(new Map())
 const currentAbortController = ref<AbortController | null>(null)
 const messageListRef = ref<HTMLElement | null>(null)
 const currentConversationId = ref<number | null>(null)
@@ -245,6 +248,10 @@ const fetchAiResponse = (userMsg: string) => {
           progressData.value = { stage: data.stage, status: data.status }
         }
       },
+      onCard: (cardType, data) => {
+        const idx = messages.value.length - 1
+        cardData.value.set(idx, { type: cardType, data })
+      },
     },
   ).then(controller => {
     currentAbortController.value = controller
@@ -315,6 +322,15 @@ const handleKeydown = (e: KeyboardEvent) => {
         :changes="diffCards.get(messages.length - 1)!.changes"
         @confirm="onDiffConfirm"
         @cancel="onDiffCancel"
+      />
+      <PoiListCard
+        v-if="cardData.has(messages.length - 1) && cardData.get(messages.length - 1)!.type === 'poi_list'"
+        :items="cardData.get(messages.length - 1)!.data.items || []"
+      />
+      <CommuteCard
+        v-if="cardData.has(messages.length - 1) && cardData.get(messages.length - 1)!.type === 'commute_compare'"
+        :options="cardData.get(messages.length - 1)!.data.options || []"
+        :recommended="cardData.get(messages.length - 1)!.data.recommended"
       />
     </div>
 
