@@ -19,6 +19,8 @@ from typing import Any, Callable, Awaitable, Optional
 
 import httpx
 
+from langchain_core.runnables import RunnableConfig
+
 from src.utils.logger import trip_log
 
 
@@ -337,11 +339,17 @@ def with_resilience(tool: Any, **resilience_config: Any) -> Any:
     original_arun = tool._arun if hasattr(tool, "_arun") else None
 
     if original_arun:
-        # 创建新的 _arun 方法
-        # _arun 签名：(self, *args, config: RunnableConfig, run_manager=None)
-        # 包装后 `self` 由 Python 自动绑定，但 config 需要显式传递
-        async def resilient_arun(*args: Any, **kwargs: Any) -> Any:
-            return await wrapper(original_arun, *args, **kwargs)
+        # 创建新的 _arun 方法，保持与原始 _arun 一致的签名
+        # 原始 _arun 签名：(self, *args, config: RunnableConfig, run_manager=None, **kwargs)
+        # 必须显式声明 config: RunnableConfig 参数，否则 arun() 无法通过
+        # _get_runnable_config_param 检测到 config 参数，不会传递 config 到 kwargs
+        async def resilient_arun(
+            *args: Any,
+            config: RunnableConfig,
+            run_manager: Optional[Any] = None,
+            **kwargs: Any,
+        ) -> Any:
+            return await wrapper(original_arun, *args, config=config, run_manager=run_manager, **kwargs)
 
         tool._arun = resilient_arun
 

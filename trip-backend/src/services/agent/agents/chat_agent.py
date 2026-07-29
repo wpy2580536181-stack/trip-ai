@@ -60,6 +60,7 @@ class ChatAgent(BaseAgent):
         super().__init__(llm=llm, tools=[], system_prompt=system_prompt)
         self.on_event = on_event
         self._user_id = user_id
+        self._pre_tool_result: Optional[str] = None
 
     async def run(
         self,
@@ -125,6 +126,7 @@ class ChatAgent(BaseAgent):
 
         # 预检测意图：在调用 LLM 前直接执行附近/通勤工具（保证 card 事件触发）
         pre_tool_result = await self._try_pre_llm_tool(message)
+        self._pre_tool_result = pre_tool_result
         if pre_tool_result:
             # 工具已执行并发了 card，把结果注入 LLM 上下文
             sys_prompt += f"\n\n# 工具查询结果\n{pre_tool_result}\n"
@@ -461,6 +463,16 @@ class ChatAgent(BaseAgent):
                 pois = await search_nearby_pois(lat, lng, 1000, nearby_kw, 10)
                 logger.info("chat_agent|pre_llm_poi_result count=%d", len(pois) if pois else 0)
                 await self._emit_poi_card(pois, {}, user_msg)
+                # 预检测成功 → 重置附近/通勤工具的熔断器（熔断器可能因之前配置问题打开）
+                for name in ("search_commute_tips_tool", "search_nearby_commute_pois_tool", "compute_optimal_commute_tool"):
+                    try:
+                        from src.services.agent.resilience import CircuitBreaker
+                        cb = CircuitBreaker.get_or_create(name)
+                        if cb.state.value == "open":
+                            cb.reset()
+                            logger.info("chat_agent|circuit_breaker_reset name=%s", name)
+                    except Exception:
+                        pass
                 return "已查询附近结果如上。"
             except Exception as e:
                 logger.warning("chat_agent|pre_llm_nearby_failed err=%s", e)
@@ -473,7 +485,16 @@ class ChatAgent(BaseAgent):
         支持自动串联：search_commute_tips_tool → search_nearby_commute_pois_tool → poi_list 卡片
         单步：search_nearby_commute_pois_tool → poi_list 卡片
              compute_optimal_commute_tool → commute_compare 卡片
+
+        如果预检测（_try_pre_llm_tool）已成功执行同组工具，直接复用其结果，
+        避免重复调高德 API 走熔断器。
         """
+        # 预检测已成功：LLM 再调附近/通勤工具直接复用结果
+        commute_tools = {"search_commute_tips_tool", "search_nearby_commute_pois_tool", "compute_optimal_commute_tool"}
+        if self._pre_tool_result and tool_name in commute_tools:
+            logger.info("chat_agent|skip_tool_reuse_pre name=%s", tool_name)
+            return self._pre_tool_result
+
         tool_fn = None
         for t in getattr(self, "tools", []) or []:
             if getattr(t, "name", "") == tool_name:

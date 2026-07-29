@@ -1,13 +1,17 @@
 """pydantic-settings 统一配置（合并所有 env 读取）"""
 
+from pathlib import Path
 from pydantic_settings import BaseSettings
 from typing import Optional
+
+
+_ENV_PATH = Path(__file__).parent.parent.parent / ".env"
 
 
 class Settings(BaseSettings):
     """应用配置（从 .env 文件 + 环境变量读取）"""
     
-    model_config = {"env_file": ".env", "extra": "ignore"}
+    model_config = {"env_file": str(_ENV_PATH), "extra": "ignore"}
     
     # 数据库配置（PostgreSQL + pgvector）
     database_url: str = "postgresql+asyncpg://trip:trip123@localhost:5432/trip_db"

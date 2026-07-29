@@ -15,6 +15,7 @@ declare module 'vue' {
     BudgetTable: typeof import('./src/components/BudgetTable.vue')['default']
     ChatBubble: typeof import('./src/components/ChatBubble.vue')['default']
     ChatPanel: typeof import('./src/components/ChatPanel.vue')['default']
+    CommuteCard: typeof import('./src/components/CommuteCard.vue')['default']
     ExportMenu: typeof import('./src/components/ExportMenu.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     ItineraryPrintView: typeof import('./src/components/ItineraryPrintView.vue')['default']
@@ -45,9 +46,11 @@ declare module 'vue' {
     NTabPane: typeof import('naive-ui')['NTabPane']
     NTabs: typeof import('naive-ui')['NTabs']
     NTag: typeof import('naive-ui')['NTag']
+    PoiListCard: typeof import('./src/components/PoiListCard.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Sidebar: typeof import('./src/components/layout/Sidebar.vue')['default']
     SpotItem: typeof import('./src/components/SpotItem.vue')['default']
+    TripDiffCard: typeof import('./src/components/TripDiffCard.vue')['default']
   }
 }

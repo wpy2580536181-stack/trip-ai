@@ -4,6 +4,8 @@ import { useRoute, useRouter } from 'vue-router'
 import { useMessage, useDialog } from 'naive-ui'
 import { fetchStream } from '@/api/request'
 import ChatBubble from '@/components/ChatBubble.vue'
+import PoiListCard from '@/components/PoiListCard.vue'
+import CommuteCard from '@/components/CommuteCard.vue'
 import { getConversation, listConversations, deleteConversation, type ConversationListItem } from '@/api/conversation'
 import { handleApiError } from '@/utils/apiError'
 
@@ -32,6 +34,7 @@ const isStreaming = ref(false)
 const inputMessage = ref('')
 const toolStatus = ref<string | null>(null)
 const connectionWarning = ref<string | null>(null)
+const cardData = ref<Map<number, { type: string; data: any }>>(new Map())
 const currentAbortController = ref<AbortController | null>(null)
 let lastEventTime = 0
 let connectionCheckTimer: ReturnType<typeof setInterval> | null = null
@@ -230,6 +233,10 @@ const fetchAiResponse = (userMsg: string) => {
           tripEventData = { newTripId: data.newTripId, summary: data.summary }
         }
       },
+      onCard: (cardType, data) => {
+        const idx = messages.value.length - 1
+        cardData.value.set(idx, { type: cardType, data })
+      },
     },
   ).then(controller => {
     currentAbortController.value = controller
@@ -375,6 +382,15 @@ onMounted(loadConversations)
             :message="msg"
             :streaming="isStreaming && index === messages.length - 1 && msg.role === 'ai'"
             :conversation-id="currentConversationId"
+          />
+          <PoiListCard
+            v-if="cardData.has(messages.length - 1) && cardData.get(messages.length - 1)!.type === 'poi_list'"
+            :items="cardData.get(messages.length - 1)!.data.items || []"
+          />
+          <CommuteCard
+            v-if="cardData.has(messages.length - 1) && cardData.get(messages.length - 1)!.type === 'commute_compare'"
+            :options="cardData.get(messages.length - 1)!.data.options || []"
+            :recommended="cardData.get(messages.length - 1)!.data.recommended"
           />
           <div v-if="isStreaming" class="streaming-indicator">
             <n-spin size="small" />

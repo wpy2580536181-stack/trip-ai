@@ -18,6 +18,8 @@ import time
 from dataclasses import dataclass, field
 from typing import Any, Callable, Awaitable, Dict, List, Optional, Tuple
 
+from langchain_core.runnables import RunnableConfig
+
 from src.config.redis_client import get_redis, is_redis_available
 
 logger = logging.getLogger(__name__)
@@ -362,18 +364,23 @@ def with_tool_cache(
     if original_arun is None:
         return tool
 
-    async def cached_arun(*args: Any, **kwargs: Any) -> Any:
-        # 从 args/kwargs 提取工具参数用于缓存 key
-        # LangChain 工具第一个参数通常是 input dict 或关键字参数
+    async def cached_arun(
+        *args: Any,
+        config: RunnableConfig,
+        run_manager: Optional[Any] = None,
+        **kwargs: Any,
+    ) -> Any:
+        # 从 args/kwargs 提取工具参数用于缓存 key（排除 config/run_manager）
+        cache_kw = {k: v for k, v in kwargs.items() if k not in ("config", "run_manager")}
         if args and isinstance(args[0], dict):
             cache_args = args[0]
         else:
-            cache_args = kwargs
+            cache_args = cache_kw
 
         result, hit = await tool_cache.get_or_compute(
             tool_name,
             cache_args,
-            lambda: original_arun(*args, **kwargs),
+            lambda: original_arun(*args, config=config, run_manager=run_manager, **kwargs),
         )
         return result
 

@@ -27,6 +27,8 @@ export interface StreamEvent {
   id?: number
   /** event: end 识别 */
   isEnd?: boolean
+  /** 结构化卡片事件类型（如 poi_list / commute_compare） */
+  card_type?: string
 }
 
 /**
@@ -85,6 +87,7 @@ export function parseSSEEvent(raw: string): StreamEvent | null {
     content: json.content,
     error: json.error,
     data: json.data,
+    card_type: json.card_type,
     id,
     isEnd: eventName === 'end',
   }
