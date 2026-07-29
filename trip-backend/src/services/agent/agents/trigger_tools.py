@@ -32,6 +32,33 @@ def trigger_plan(
 
 
 @tool
+def trigger_patch(
+    op: str,
+    day: int,
+    period: str = "",
+    spot_name: str = "",
+    description: str = "",
+    period_b: str = "",
+) -> str:
+    """对行程执行精确 Slot 级修改。当用户要求修改单个时段的景点时调用此工具（比 trigger_modify 更快）。
+
+    适合的场景：
+    - replace_slot：替换某个时段的景点（如"把第二天下午的故宫换成国博"），需 op=replace_slot, day, period, spot_name
+    - remove_slot：清空某个时段（如"删掉第三天上午的安排"），需 op=remove_slot, day, period
+    - swap_slot：对调两个时段（如"把第二天上午和下午对调"），需 op=swap_slot, day, period, period_b
+
+    Args:
+        op: 操作类型（replace_slot / remove_slot / swap_slot）
+        day: 目标天数（从 1 开始）
+        period: 目标时段（morning / afternoon / evening）
+        spot_name: 新景点名称（replace_slot 必填）
+        description: 新景点描述（replace_slot 可选）
+        period_b: 第二个时段（swap_slot 必填）
+    """
+    return f"已触发 patch：{op} day={day} period={period}"
+
+
+@tool
 def trigger_modify(modify_request: str, target_days: str = "") -> str:
     """修改已有行程。当用户要求调整/替换/删除行程中的某部分时调用此工具。
 

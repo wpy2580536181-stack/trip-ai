@@ -168,6 +168,18 @@ class ChatAgent(BaseAgent):
                             duration_ms=duration_ms,
                         )
 
+                elif tc_name == "trigger_patch":
+                    # Slot 级精确修改（不走 Planner）
+                    patch_result, patch_usage = await self._escalate_patch(tc_args)
+                    if patch_result:
+                        duration_ms = int((time.time() - _t0) * 1000)
+                        return AgentOutput(
+                            agent_name=self.name,
+                            result=patch_result,
+                            usage=_merge_usage(usage, patch_usage),
+                            duration_ms=duration_ms,
+                        )
+
                 elif tc_name == "select_skill":
                     # 技能激活：L1→L2→L3 渐进式执行（对齐 Anthropic 规范）
                     skill_result = await self._run_selected_skill(raw_msg, message)
@@ -271,7 +283,7 @@ class ChatAgent(BaseAgent):
             search_commute_tips_tool,
             search_nearby_commute_pois_tool,
         )
-        from src.services.agent.agents.trigger_tools import trigger_plan, trigger_modify
+        from src.services.agent.agents.trigger_tools import trigger_plan, trigger_modify, trigger_patch
         from src.services.agent.skills import select_skill
 
         tools = [
@@ -279,6 +291,7 @@ class ChatAgent(BaseAgent):
             search_hotels_tool,
             trigger_plan,
             trigger_modify,
+            trigger_patch,
             select_skill,
             search_nearby_commute_pois_tool,
             search_commute_tips_tool,
@@ -503,3 +516,69 @@ class ChatAgent(BaseAgent):
         except Exception as e:
             logger.error("chat_agent|escalate_modify failed: %s", e)
             return f"行程修改失败：{e}", {}
+
+    async def _escalate_patch(self, args: dict) -> tuple[Optional[str], dict]:
+        """Slot 级精确修改（不走 LLM，直接 Patch 行程 JSON）。
+
+        Patch 失败时自动降级为 _escalate_modify（全量 modify）。
+        """
+        meta = getattr(self, "_trip_meta", None)
+        if not meta:
+            return "当前没有关联行程，无法修改。", {}
+
+        op = args.get("op", "")
+        day = args.get("day", 0)
+        period = args.get("period", "")
+        spot_name = args.get("spot_name", "")
+        description = args.get("description", "")
+        period_b = args.get("period_b", "")
+
+        try:
+            from src.services.agent.patch_engine import apply_patch, PatchError
+            from src.services.trip_service import TripService
+
+            patched = apply_patch(
+                trip=meta["content"],
+                op=op,
+                day=day,
+                period=period,
+                spot_name=spot_name,
+                description=description,
+                period_b=period_b,
+            )
+
+            new_trip_id = await TripService._persist_trip(
+                user_id=meta["user_id"],
+                from_city=meta.get("departure_city"),
+                parsed=patched,
+                budget=meta["budget"],
+                parent_trip_id=meta["trip_id"],
+                status="candidate",
+            )
+
+            if self.on_event:
+                diff = self._build_trip_diff(meta["content"], patched)
+                await self.on_event({
+                    "type": "trip_diff",
+                    "data": {
+                        "newTripId": new_trip_id,
+                        "parentTripId": meta["trip_id"],
+                        "changes": diff,
+                    },
+                })
+            return "已为您生成修改方案，请确认后生效。", {"prompt": 0, "completion": 0, "total": 0, "cached": 0}
+
+        except PatchError as e:
+            logger.info("chat_agent|patch_failed, falling back to modify: %s", e)
+            modify_args = {
+                "modify_request": args.get("modify_request", f"第{day}天{period}更换为{spot_name}"),
+                "target_days": str(day),
+            }
+            return await self._escalate_modify(modify_args)
+        except Exception as e:
+            logger.error("chat_agent|escalate_patch failed: %s", e)
+            modify_args = {
+                "modify_request": args.get("modify_request", f"第{day}天{period}更换为{spot_name}"),
+                "target_days": str(day),
+            }
+            return await self._escalate_modify(modify_args)
