@@ -3,6 +3,21 @@ import { mount, flushPromises } from '@vue/test-utils'
 import { nextTick } from 'vue'
 import ChatPanel from '../ChatPanel.vue'
 
+// Node 实验性 localStorage 全局遮蔽 happy-dom 实现，stub 一个内存版
+const storageMap = new Map<string, string>()
+vi.stubGlobal('localStorage', {
+  getItem: (k: string) => storageMap.get(k) ?? null,
+  setItem: (k: string, v: string) => storageMap.set(k, String(v)),
+  removeItem: (k: string) => storageMap.delete(k),
+  clear: () => storageMap.clear(),
+})
+
+// 会话恢复 API mock（Fix 6）
+const mockGetConversation = vi.fn().mockResolvedValue({ data: null })
+vi.mock('@/api/conversation', () => ({
+  getConversation: (...args: any[]) => mockGetConversation(...args),
+}))
+
 // naive-ui useMessage 需要 provider，只 mock 这一个导出，组件保留真实实现
 vi.mock('naive-ui', async (importOriginal) => {
   const actual = await importOriginal<typeof import('naive-ui')>()
@@ -55,6 +70,8 @@ describe('ChatPanel.vue — trip_modified 结构化事件', () => {
   beforeEach(() => {
     captured = null
     vi.clearAllMocks()
+    storageMap.clear()
+    mockGetConversation.mockResolvedValue({ data: null })
   })
 
   it('请求体携带 tripId', async () => {
@@ -114,6 +131,8 @@ describe('ChatPanel.vue — 修改窗口期竞态防护（Fix 4）', () => {
   beforeEach(() => {
     captured = null
     vi.clearAllMocks()
+    storageMap.clear()
+    mockGetConversation.mockResolvedValue({ data: null })
   })
 
   it('trip-updated 后立即再发消息 → 被拦截；tripId 变化后恢复', async () => {
@@ -146,5 +165,77 @@ describe('ChatPanel.vue — 修改窗口期竞态防护（Fix 4）', () => {
     wrapper.vm.sendMessage()
     await flushPromises()
     expect(captured).toBeNull()
+  })
+})
+
+describe('ChatPanel.vue — 会话持久化（Fix 6）', () => {
+  beforeEach(() => {
+    captured = null
+    vi.clearAllMocks()
+    storageMap.clear()
+    mockGetConversation.mockResolvedValue({ data: null })
+  })
+
+  it('挂载时有存量 key → 恢复会话与历史消息，后续请求带恢复的 conversationId', async () => {
+    storageMap.set('trip_panel_conv_7', '42')
+    mockGetConversation.mockResolvedValue({
+      data: {
+        id: 42,
+        messages: [
+          { id: 1, role: 'user', content: '之前的提问', createdAt: '2026-07-29T10:00:00Z' },
+          { id: 2, role: 'assistant', content: '之前的回答', createdAt: '2026-07-29T10:00:05Z' },
+        ],
+      },
+    })
+
+    const wrapper = mount(ChatPanel, { props: { tripId: 7, prefill: '' } })
+    await flushPromises()
+
+    expect(mockGetConversation).toHaveBeenCalledWith(42)
+    expect(wrapper.text()).toContain('之前的提问')
+    expect(wrapper.text()).toContain('之前的回答')
+
+    wrapper.vm.inputMessage = '继续问'
+    wrapper.vm.sendMessage()
+    await flushPromises()
+    expect(captured!.body.conversationId).toBe(42)
+  })
+
+  it('会话已删除（接口报错）→ 清 key，从空会话开始', async () => {
+    storageMap.set('trip_panel_conv_7', '42')
+    mockGetConversation.mockRejectedValue(new Error('404'))
+
+    const wrapper = mount(ChatPanel, { props: { tripId: 7, prefill: '' } })
+    await flushPromises()
+
+    expect(storageMap.has('trip_panel_conv_7')).toBe(false)
+    expect(wrapper.vm.messages.length).toBe(0)
+  })
+
+  it('complete 后持久化 conversationId 到 tripId 维度的 key', async () => {
+    const { cb } = await mountAndSend(7)
+    cb.onComplete({ conversationId: 55 })
+    await nextTick()
+
+    expect(storageMap.get('trip_panel_conv_7')).toBe('55')
+  })
+
+  it('tripId 切换（版本升级）→ 会话 ID 迁移到新 key', async () => {
+    const { wrapper, cb } = await mountAndSend(7)
+    cb.onComplete({ conversationId: 55 })
+    await nextTick()
+
+    await wrapper.setProps({ tripId: 99 })
+    expect(storageMap.get('trip_panel_conv_99')).toBe('55')
+  })
+
+  it('无 tripId → 不尝试恢复也不持久化', async () => {
+    storageMap.set('trip_panel_conv_7', '42')
+    const { cb } = await mountAndSend(null)
+    cb.onComplete({ conversationId: 55 })
+    await nextTick()
+
+    expect(mockGetConversation).not.toHaveBeenCalled()
+    expect([...storageMap.keys()]).toEqual(['trip_panel_conv_7'])
   })
 })

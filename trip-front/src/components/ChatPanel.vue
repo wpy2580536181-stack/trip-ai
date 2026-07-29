@@ -5,9 +5,10 @@
  * 从 Chat.vue 抽取核心 SSE 对话逻辑，用于 Detail.vue 侧栏。
  * 复用 ChatBubble.vue 渲染消息，复用 fetchStream 进行流式通信。
  */
-import { ref, computed, watch, nextTick, onBeforeUnmount } from 'vue'
+import { ref, computed, watch, nextTick, onBeforeUnmount, onMounted } from 'vue'
 import { useMessage } from 'naive-ui'
 import { fetchStream } from '@/api/request'
+import { getConversation } from '@/api/conversation'
 import ChatBubble from '@/components/ChatBubble.vue'
 
 const props = withDefaults(defineProps<{
@@ -46,12 +47,55 @@ const currentConversationId = ref<number | null>(null)
 const awaitingTripSwitch = ref(false)
 watch(
   () => props.tripId,
-  () => {
+  (newId, oldId) => {
     awaitingTripSwitch.value = false
+    // 版本切换：同一会话跨版本延续，把会话 ID 迁到新 tripId 的 key
+    if (newId && newId !== oldId && currentConversationId.value) {
+      persistConversationId(newId, currentConversationId.value)
+    }
   },
 )
 
 const inputDisabled = computed(() => props.disabled || awaitingTripSwitch.value)
+
+// ---- 会话持久化（按 tripId 维度，刷新详情页后可恢复） ----
+const convStorageKey = (tripId: number) => `trip_panel_conv_${tripId}`
+
+const persistConversationId = (tripId: number, convId: number) => {
+  try {
+    localStorage.setItem(convStorageKey(tripId), String(convId))
+  } catch { /* ignore */ }
+}
+
+const restoreConversation = async () => {
+  if (!props.tripId) return
+  let stored: string | null = null
+  try {
+    stored = localStorage.getItem(convStorageKey(props.tripId))
+  } catch { /* ignore */ }
+  const convId = stored ? Number(stored) : NaN
+  if (!Number.isInteger(convId) || convId <= 0) return
+  try {
+    const res = await getConversation(convId)
+    const conv = res.data
+    if (!conv) return
+    currentConversationId.value = convId
+    messages.value = (conv.messages || [])
+      .filter(m => m.role !== 'system' && m.content)
+      .map(m => ({
+        role: m.role === 'user' ? 'user' as const : 'ai' as const,
+        content: m.content,
+        timestamp: m.createdAt,
+      }))
+  } catch {
+    // 会话已删除/无权限：清 key，从空会话开始
+    try {
+      localStorage.removeItem(convStorageKey(props.tripId))
+    } catch { /* ignore */ }
+  }
+}
+
+onMounted(restoreConversation)
 
 const toolLabels: Record<string, string> = {
   retrieve_knowledge: '检索知识库',
@@ -126,6 +170,9 @@ const fetchAiResponse = (userMsg: string) => {
       currentAbortController.value = null
       if (data?.conversationId) {
         currentConversationId.value = data.conversationId
+        if (props.tripId) {
+          persistConversationId(props.tripId, data.conversationId)
+        }
       }
       // 行程已修改：正文不走 chunk 流，用事件里的摘要回填气泡，再通知父组件刷新
       if (tripModifiedData) {
