@@ -442,10 +442,19 @@ class ChatAgent(BaseAgent):
                 budget=meta["budget"],
                 departure_city=meta.get("departure_city"),
             )
+            target_days_str = args.get("target_days", "") or ""
+            target_days = None
+            if target_days_str.strip():
+                try:
+                    target_days = [int(d.strip()) for d in target_days_str.split(",") if d.strip().isdigit()]
+                except Exception:
+                    pass
+
             result = await orchestrator.modify(
                 existing_trip=meta["content"],
                 modify_request=args.get("modify_request", ""),
                 request=request,
+                target_days=target_days,
             )
             if result.plan:
                 # 持久化为 v2 Trip

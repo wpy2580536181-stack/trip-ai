@@ -212,6 +212,10 @@ class TripService:
                 # 行程状态变更结构化事件：透传给前端（先于 complete 入队）
                 await queue.put({"type": event_type, "data": event.get("data")})
 
+            elif event_type == "progress":
+                # 阶段进度事件：透传给前端（用于进度条展示）
+                await queue.put({"type": "progress", "data": event.get("data")})
+
             elif event_type == "complete":
                 full_reply = event.get("content", full_reply)
                 usage = event.get("usage")

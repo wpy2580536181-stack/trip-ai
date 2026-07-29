@@ -113,16 +113,30 @@ class PlannerAgent(BaseAgent):
         包含：角色定义 + 封闭世界约束 + 输出格式 + 候选池数据。
         复用现有 planner_prompt.build_planner_prompt 的核心逻辑。
         """
-        from src.services.agent.planner_prompt import build_planner_prompt
+        is_partial = input.target_days is not None and len(input.target_days) > 0
 
-        prompt = build_planner_prompt(
-            city=input.city,
-            budget=input.budget,
-            days=input.days,
-            departure_city=input.departure_city,
-            user_preferences=input.preferences,
-            research_bundle=input.bundle.to_dict() if input.bundle else {},
-        )
+        if is_partial:
+            from src.services.agent.planner_prompt import build_partial_planner_prompt
+            prompt = build_partial_planner_prompt(
+                city=input.city,
+                budget=input.budget,
+                days=input.days,
+                target_days=input.target_days,
+                departure_city=input.departure_city,
+                user_preferences=input.preferences,
+                research_bundle=input.bundle.to_dict() if input.bundle else {},
+                existing_trip=input.existing_trip,
+            )
+        else:
+            from src.services.agent.planner_prompt import build_planner_prompt
+            prompt = build_planner_prompt(
+                city=input.city,
+                budget=input.budget,
+                days=input.days,
+                departure_city=input.departure_city,
+                user_preferences=input.preferences,
+                research_bundle=input.bundle.to_dict() if input.bundle else {},
+            )
 
         # 封闭世界约束（候选池中的景点名列表）
         if input.bundle:
@@ -150,8 +164,17 @@ class PlannerAgent(BaseAgent):
         if input.message:
             return input.message
 
-        dep = f"{input.departure_city}出发到" if input.departure_city else ""
-        msg = f"请为我规划{dep}{input.city}{input.days}日游行程，预算{input.budget}元。"
+        is_partial = input.target_days is not None and len(input.target_days) > 0
+        if is_partial:
+            day_str = "、".join(str(d) for d in input.target_days)
+            msg = (
+                f"请修改已有行程的第 {day_str} 天。"
+                f"预算{input.budget}元。"
+                f"只输出第 {day_str} 天的行程，其余天不要输出。"
+            )
+        else:
+            dep = f"{input.departure_city}出发到" if input.departure_city else ""
+            msg = f"请为我规划{dep}{input.city}{input.days}日游行程，预算{input.budget}元。"
 
         if input.feedback:
             msg += f"\n\n注意：上次生成的行程存在以下问题，请修正：\n{input.feedback}"

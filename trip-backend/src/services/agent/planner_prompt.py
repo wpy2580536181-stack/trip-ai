@@ -307,6 +307,126 @@ def build_chat_planner_static_prompt() -> str:
 """
 
 
+def build_partial_planner_prompt(
+    city: str,
+    budget: Optional[int] = None,
+    days: Optional[int] = None,
+    target_days: Optional[list[int]] = None,
+    departure_city: Optional[str] = None,
+    user_preferences: Optional[dict] = None,
+    research_bundle: Optional[dict] = None,
+    existing_trip: Optional[dict] = None,
+) -> str:
+    """构建局部修改场景的提示词。
+
+    与 build_planner_prompt 不同：
+    - 传入已有行程的每日摘要，让 LLM 了解上下文
+    - 约束 LLM 只输出被修改的天（dailyItinerary 长度 = len(target_days)）
+    - LLM 输出后由 Orchestrator merge 回原行程
+    """
+    parts = []
+
+    parts.append("""你是一个专业的旅行规划师。用户已有完整行程，现在需要对部分天数进行修改。请基于已检索的真实数据，只生成被修改天的行程。
+
+# 目的地信息""")
+
+    parts.append(f"- 城市：{city}")
+    if days is not None:
+        parts.append(f"- 总天数：{days}")
+    if target_days:
+        parts.append(f"- 需要重新安排的天数：第{'、'.join(str(d) for d in target_days)}天")
+    if budget is not None:
+        parts.append(f"- 预算：{budget} 元")
+    parts.append(f"- 出发城市：{departure_city if departure_city else '未指定'}")
+    parts.append("\n")
+
+    parts.append("# 用户偏好\n")
+    fixed_prefs = _build_fixed_preferences(user_preferences)
+    parts.append(json.dumps(fixed_prefs, ensure_ascii=False, indent=2))
+    parts.append("\n\n")
+
+    if existing_trip:
+        parts.append("# 已有行程摘要\n")
+        summary_lines = []
+        for day in (existing_trip.get("dailyItinerary") or []):
+            day_num = day.get("day", "?")
+            spots = []
+            for period in ("morning", "afternoon", "evening"):
+                slot = day.get(period)
+                if slot and slot.get("spot"):
+                    spots.append(f"{period}:{slot['spot']}")
+                else:
+                    spots.append(f"{period}:(空)")
+            meals = []
+            for meal in ("lunch", "dinner", "breakfast"):
+                slot = day.get(meal)
+                if slot and slot.get("spot"):
+                    meals.append(f"{slot['spot']}")
+            line = f"Day{day_num}: {' → '.join(spots)}"
+            if meals:
+                line += f" | {' '.join(meals)}"
+            summary_lines.append(line)
+        parts.append("\n".join(summary_lines))
+        parts.append("\n\n")
+
+    parts.append("# 任务\n")
+    if target_days:
+        parts.append(
+            f"你**只需要输出第{'、'.join(str(d) for d in target_days)}天**的行程，"
+            f"其余天不要输出。\n"
+            f"dailyItinerary 数组长度必须等于 {len(target_days)}，"
+            f"每天对象与原有格式完全一致。\n"
+        )
+    parts.append("""**直接使用上述真实数据**，不要编造景点名称、价格、地址。
+
+# 输出格式
+以**纯 JSON 格式**输出（**不要**加 markdown 代码块、**不要**加任何前后缀、**不要**加解释文字）。
+
+## 严格 JSON 规范
+- 数字字段不加引号：city/days/totalBudget/dailyItinerary[].day/budgetBreakdown.* 一律是裸数字
+- 字符串字段加双引号
+- dailyItinerary 数组长度必须等于被修改天数，每天对象必须含 day/date/morning/afternoon/evening，可含 breakfast/lunch/dinner/accommodation
+- budgetBreakdown 5 个数字必须齐全且非负
+- tips 和 warnings 是字符串数组
+
+## 字段定义
+| 字段 | 类型 | 必填 | 说明 |
+|---|---|---|---|
+| city | string | 是 | 目的地城市名 |
+| days | number(int) | 是 | 总天数（与已有行程一致） |
+| totalBudget | number | 是 | 总预算（≥0，与已有行程一致） |
+| dailyItinerary[].day | number(int) | 是 | 被修改的天号 |
+| dailyItinerary[].date | string | 否 | 日期，可空 |
+| dailyItinerary[].morning.spot | string | 是 | 上午地点 |
+| dailyItinerary[].morning.duration | string | 否 | 停留时长 |
+| dailyItinerary[].morning.description | string | 否 | 描述 |
+| ...afternoon / evening | 同 morning | | |
+| dailyItinerary[].breakfast | TripSlot | 否 | 早餐推荐 |
+| dailyItinerary[].lunch | TripSlot | 否 | 午餐推荐 |
+| dailyItinerary[].dinner | TripSlot | 否 | 晚餐推荐 |
+| dailyItinerary[].accommodation | TripSlot | 否 | 住宿推荐 |
+| budgetBreakdown.accommodation | number | 是 | 住宿 |
+| budgetBreakdown.food | number | 是 | 餐饮 |
+| budgetBreakdown.transportation | number | 是 | 交通 |
+| budgetBreakdown.tickets | number | 是 | 门票 |
+| budgetBreakdown.other | number | 是 | 其他 |
+| tips | string[] | 是 | 旅行贴士 |
+| warnings | string[] | 否 | 注意事项 |
+
+## 输出模板
+{"city":"成都","days":3,"totalBudget":5000,"dailyItinerary":[{"day":2,"date":"","morning":{"spot":"宽窄巷子","duration":"2小时","ticket":"免费","transportation":"地铁","description":"感受老成都"},"afternoon":{"spot":"","duration":"","ticket":"","transportation":"","description":""},"evening":{"spot":"","duration":"","ticket":"","transportation":"","description":""}}],"budgetBreakdown":{"accommodation":1500,"food":1200,"transportation":1500,"tickets":500,"other":300},"tips":["带好身份证"],"warnings":[]}
+""")
+
+    parts.append("\n# 检索到的真实数据\n")
+    if research_bundle:
+        parts.append(_format_bundle(research_bundle))
+    else:
+        parts.append("（暂无）")
+    parts.append("\n")
+
+    return "".join(parts)
+
+
 def build_retry_message(zod_error: str, original_request: str) -> str:
     """构建重试消息（当 JSON 校验失败时）。
     

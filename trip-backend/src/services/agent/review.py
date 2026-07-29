@@ -26,6 +26,7 @@ async def review(
     bundle: Optional[ResearchBundle],
     budget: int,
     days: int,
+    target_days: Optional[list[int]] = None,
 ) -> tuple[Optional[dict], ReviewResult]:
     """审阅 Planner 输出。
 
@@ -34,12 +35,14 @@ async def review(
         bundle: 候选池（用于封闭世界校验）
         budget: 用户预算
         days: 期望天数
+        target_days: 局部模式时指定被修改的天（跳过全局天数检查）
 
     Returns:
         (parsed_plan, ReviewResult) 元组
         - parsed_plan: 解析成功时为 dict，否则为 None
         - ReviewResult: 审阅结果
     """
+    is_partial = target_days is not None and len(target_days) > 0
     code_checks = {}
 
     # ── Step 1: JSON 解析（含修复）──
@@ -53,10 +56,10 @@ async def review(
         )
     code_checks["json_parse"] = True
 
-    # ── Step 2: 天数一致性 ──
+    # ── Step 2: 天数一致性（局部模式跳过）──
     itinerary = parsed.get("dailyItinerary", [])
     actual_days = len(itinerary)
-    if actual_days != days:
+    if not is_partial and actual_days != days:
         code_checks["days_match"] = False
         issue = f"行程天数不匹配：期望 {days} 天，实际 {actual_days} 天"
         return parsed, ReviewResult(

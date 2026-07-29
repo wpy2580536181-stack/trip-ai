@@ -32,11 +32,12 @@ def trigger_plan(
 
 
 @tool
-def trigger_modify(modify_request: str) -> str:
+def trigger_modify(modify_request: str, target_days: str = "") -> str:
     """修改已有行程。当用户要求调整/替换/删除行程中的某部分时调用此工具。
 
     Args:
         modify_request: 修改要求的自然语言描述（如"把第二天的景点换成博物馆"）
+        target_days: 指定要修改的天数（逗号分隔，如"2"表示第2天，"2,3"表示第2、3天）。留空表示全量修改。
     """
     # 实际逻辑由 ChatAgent 在检测到 tool_call 后交给 Orchestrator.modify()
-    return f"已触发修改：{modify_request}"
+    return f"已触发修改：{modify_request} target_days={target_days}"

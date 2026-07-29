@@ -177,6 +177,9 @@ class PlannerInput:
     existing_trip: Optional[dict] = None
     """修改时的已有行程"""
 
+    target_days: Optional[list[int]] = None
+    """局部修改时指定只重新生成哪些天（如 [2] 表示只改第 2 天）"""
+
     message: Optional[str] = None
     """用户原始请求"""
 

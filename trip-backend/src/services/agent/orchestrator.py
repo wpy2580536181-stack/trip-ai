@@ -6,6 +6,8 @@
 取代当前 planner_graph.py（LangGraph 图）。
 """
 
+import copy
+import json
 import logging
 import time
 from typing import Optional, Callable, Awaitable
@@ -202,24 +204,30 @@ class Orchestrator:
         existing_trip: dict,
         modify_request: str,
         request: PlanRequest,
+        target_days: Optional[list[int]] = None,
     ) -> PlanResult:
         """局部修改行程。
 
-        策略：跳过全量 Research，只针对修改要求重新搜索 + 重规划。
-        Planner 接收 existing_trip 作为上下文，只输出修改后的完整行程。
+        支持两种模式：
+        - 局部模式（target_days 有值）：只重生成指定天，其余天原样保留。
+          通过 prompt 约束 Planner 只输出被修改的天，后端 merge 回原行程。
+        - 全量模式（target_days=None）：走完整 modify 流程。
 
         Args:
             existing_trip: 已有行程 JSON
             modify_request: 修改要求自然语言
             request: 原始规划参数（city/days/budget）
+            target_days: 要重新生成的天数列表（如 [2]），None 表示全量修改
 
         Returns:
             PlanResult 包含修改后的行程
         """
         _t0 = time.time()
+        is_partial = target_days is not None and len(target_days) > 0
         total_usage: TokenUsage = {"prompt": 0, "completion": 0, "total": 0, "cached": 0}
 
-        # 简化 Research：复用缓存或快速搜索
+        # ── Phase 1: Research ──
+        await self._emit_progress("research", "start", mode="modify")
         research_input = ResearchInput(
             city=request.city,
             days=request.days,
@@ -231,8 +239,10 @@ class Orchestrator:
         research_output = await self.research_agent.run(research_input)
         total_usage = _merge_usage(total_usage, research_output.usage)
         bundle: ResearchBundle = research_output.result
+        await self._emit_progress("research", "done", mode="modify", duration_ms=research_output.duration_ms)
 
-        # Planner 带 existing_trip 上下文 + 修改指令
+        # ── Phase 2: Plan ──
+        await self._emit_progress("plan", "start", mode="modify", attempt=1)
         planner_input = PlannerInput(
             bundle=bundle,
             city=request.city,
@@ -242,6 +252,7 @@ class Orchestrator:
             departure_city=request.departure_city,
             feedback=f"用户修改要求：{modify_request}",
             existing_trip=existing_trip,
+            target_days=target_days,
             message=modify_request,
         )
 
@@ -249,14 +260,25 @@ class Orchestrator:
         if planner_output.error:
             return PlanResult(error=planner_output.error, duration_ms=int((time.time() - _t0) * 1000))
         total_usage = _merge_usage(total_usage, planner_output.usage)
+        await self._emit_progress("plan", "done", mode="modify", attempt=1, duration_ms=planner_output.duration_ms)
 
-        # Review
+        # ── Phase 3: Review ──
+        await self._emit_progress("review", "start", mode="modify")
+        raw_to_review = planner_output.result
+        if is_partial:
+            # 局部模式：先解析 planner 输出，merge 回原行程，再送审
+            partial_parsed = self._parse_json_safe(planner_output.result)
+            if partial_parsed:
+                merged = self._merge_partial_plan(existing_trip, partial_parsed, target_days)
+                raw_to_review = json.dumps(merged, ensure_ascii=False)
         parsed_plan, review_result = await review(
-            raw_output=planner_output.result,
+            raw_output=raw_to_review,
             bundle=bundle,
             budget=request.budget,
             days=request.days,
+            target_days=target_days,
         )
+        await self._emit_progress("review", "done", mode="modify", passed=review_result.passed)
 
         duration_ms = int((time.time() - _t0) * 1000)
         return PlanResult(
@@ -266,6 +288,71 @@ class Orchestrator:
             usage=total_usage,
             duration_ms=duration_ms,
         )
+
+    async def _merge_partial_plan(
+        self,
+        existing_trip: dict,
+        partial_plan: dict,
+        target_days: list[int],
+    ) -> dict:
+        """将 Planner 局部输出的天 merge 回原行程。
+
+        Args:
+            existing_trip: 原行程 dict
+            partial_plan: Planner 输出的部分行程（只含被修改的天）
+            target_days: 被修改的天数列表
+
+        Returns:
+            merge 后的完整行程 dict
+        """
+        merged = copy.deepcopy(existing_trip)
+        new_itinerary = partial_plan.get("dailyItinerary", [])
+        old_itinerary = merged.get("dailyItinerary", [])
+        target_set = set(target_days)
+
+        # 只使用 target_days 中的天（过滤 planner 多余输出）
+        new_by_day = {d.get("day"): d for d in new_itinerary if d.get("day") in target_set}
+
+        # 替换被修改的天
+        for i, day_entry in enumerate(old_itinerary):
+            day_num = day_entry.get("day")
+            if day_num in new_by_day:
+                old_itinerary[i] = new_by_day[day_num]
+
+        # 如果原行程没有的天追加
+        existing_days = {d.get("day") for d in old_itinerary if d.get("day")}
+        for day_num in sorted(target_set):
+            if day_num in new_by_day and day_num not in existing_days:
+                old_itinerary.append(new_by_day[day_num])
+
+        merged["dailyItinerary"] = old_itinerary
+
+        # 增量重算预算：保留未被修改天的原值，加上新天的值
+        new_bd = partial_plan.get("budgetBreakdown")
+        if new_bd:
+            old_bd = merged.get("budgetBreakdown", {})
+            merged["budgetBreakdown"] = {
+                k: new_bd.get(k, old_bd.get(k, 0))
+                for k in ("accommodation", "food", "transportation", "tickets", "other")
+            }
+            merged["totalBudget"] = sum(merged["budgetBreakdown"].values())
+
+        return merged
+
+    @staticmethod
+    def _parse_json_safe(raw: str) -> Optional[dict]:
+        """安全解析 JSON（含修复）。"""
+        if not raw or not raw.strip():
+            return None
+        try:
+            return json.loads(raw)
+        except Exception:
+            pass
+        try:
+            from src.services.agent.nodes.validate import repair_json
+            return json.loads(repair_json(raw))
+        except Exception:
+            return None
 
     @staticmethod
     def _extract_interests(preferences: Optional[dict]) -> list[str]:

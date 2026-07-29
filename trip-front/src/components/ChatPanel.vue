@@ -39,6 +39,7 @@ const messages = ref<Message[]>([])
 const isStreaming = ref(false)
 const inputMessage = ref('')
 const toolStatus = ref<string | null>(null)
+const progressData = ref<{ stage: string; status: string } | null>(null)
 const currentAbortController = ref<AbortController | null>(null)
 const messageListRef = ref<HTMLElement | null>(null)
 const currentConversationId = ref<number | null>(null)
@@ -97,11 +98,34 @@ const restoreConversation = async () => {
 
 onMounted(restoreConversation)
 
+const stageOrder = ['research', 'plan', 'review']
+
+const currentStageLabel = computed(() => {
+  const ps = progressData.value
+  if (!ps) return ''
+  const labels = stageLabels[ps.stage]
+  return labels?.[ps.status] || ps.stage
+})
+
+const progressWidth = computed(() => {
+  const ps = progressData.value
+  if (!ps || ps.status !== 'start') return 0
+  const idx = stageOrder.indexOf(ps.stage)
+  if (idx < 0) return 0
+  return ((idx + 1) / stageOrder.length) * 100
+})
+
 const toolLabels: Record<string, string> = {
   retrieve_knowledge: '检索知识库',
   get_weather: '查询天气',
   calculate_distance: '计算距离',
   search_hotels: '查询酒店',
+}
+
+const stageLabels: Record<string, Record<string, string>> = {
+  research: { start: '正在搜索景点信息…', done: '搜索完成' },
+  plan: { start: '正在规划行程…', done: '规划完成' },
+  review: { start: '正在校验预算与路线…', done: '校验完成' },
 }
 
 const scrollToBottom = () => {
@@ -139,6 +163,7 @@ const stopStreaming = () => {
   currentAbortController.value = null
   isStreaming.value = false
   toolStatus.value = null
+  progressData.value = null
 }
 
 onBeforeUnmount(() => {
@@ -149,6 +174,7 @@ onBeforeUnmount(() => {
 const fetchAiResponse = (userMsg: string) => {
   isStreaming.value = true
   toolStatus.value = null
+  progressData.value = null
   messages.value.push({ role: 'ai', content: '', timestamp: new Date().toISOString() })
 
   // 本次请求内的行程修改事件（续传重放幂等 + complete 时回填摘要）
@@ -169,6 +195,7 @@ const fetchAiResponse = (userMsg: string) => {
     (data) => {
       isStreaming.value = false
       toolStatus.value = null
+      progressData.value = null
       currentAbortController.value = null
       if (data?.conversationId) {
         currentConversationId.value = data.conversationId
@@ -200,6 +227,7 @@ const fetchAiResponse = (userMsg: string) => {
       messages.value[messages.value.length - 1].content = `发生错误: ${errMsg}`
       isStreaming.value = false
       toolStatus.value = null
+      progressData.value = null
       currentAbortController.value = null
       naiveMessage.error(errMsg || 'AI 处理发生错误')
     },
@@ -216,6 +244,11 @@ const fetchAiResponse = (userMsg: string) => {
           tripPlannedData = { newTripId: data.newTripId, summary: data.summary }
         }
       },
+      onProgress: (data) => {
+        if (data?.stage && data?.status) {
+          progressData.value = { stage: data.stage, status: data.status }
+        }
+      },
     },
   ).then(controller => {
     currentAbortController.value = controller
@@ -227,6 +260,7 @@ const fetchAiResponse = (userMsg: string) => {
     }
     isStreaming.value = false
     toolStatus.value = null
+    progressData.value = null
     currentAbortController.value = null
     if (err?.name !== 'AbortError') {
       naiveMessage.error('网络连接失败')
@@ -264,6 +298,13 @@ const handleKeydown = (e: KeyboardEvent) => {
 
     <div v-if="toolStatus" class="chat-panel-tool-status">
       <span class="tool-dot"></span> {{ toolStatus }}...
+    </div>
+
+    <div v-if="progressData?.status === 'start'" class="chat-panel-progress">
+      <div class="progress-bar">
+        <div class="progress-fill" :style="{ width: progressWidth + '%' }"></div>
+      </div>
+      <span class="progress-label">{{ currentStageLabel }}</span>
     </div>
 
     <div class="chat-panel-input">
@@ -366,6 +407,36 @@ const handleKeydown = (e: KeyboardEvent) => {
 @keyframes pulse {
   0%, 100% { opacity: 1; }
   50% { opacity: 0.3; }
+}
+
+.chat-panel-progress {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  font-size: 12px;
+  color: #666;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 4px;
+  border-radius: 2px;
+  background: #f0f0f0;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 2px;
+  background: #1890ff;
+  transition: width 0.3s ease;
+}
+
+.progress-label {
+  white-space: nowrap;
+  min-width: 100px;
+  text-align: right;
 }
 
 .chat-panel-input {
