@@ -1,7 +1,8 @@
-"""Fix 1 链路测试：trigger_modify → 结构化 trip_modified SSE 事件
+"""Fix 1/2 链路测试：trigger_modify → 结构化 trip_modified SSE 事件 + usage 合并
 
 覆盖：
-- ChatAgent._escalate_modify：成功发出 trip_modified 事件、返回纯文本摘要
+- ChatAgent._escalate_modify：成功发出 trip_modified 事件、返回纯文本摘要 + usage
+- ChatAgent.run：升级路径 usage 与 chat LLM usage 合并（Fix 2）
 - TripService.chat_stream：trip_modified 事件透传且先于 complete；落库内容为摘要文本
 """
 
@@ -54,16 +55,20 @@ class TestEscalateModify:
         agent._trip_meta = dict(FAKE_META)
 
         mock_orch = MagicMock()
-        mock_orch.modify = AsyncMock(return_value=PlanResult(plan=FAKE_PLAN))
+        mock_orch.modify = AsyncMock(return_value=PlanResult(
+            plan=FAKE_PLAN,
+            usage={"prompt": 800, "completion": 200, "total": 1000, "cached": 0},
+        ))
 
         with patch("src.services.agent.orchestrator.Orchestrator", return_value=mock_orch), \
              patch.object(TripService, "_persist_trip", new_callable=AsyncMock, return_value=99):
-            result = await agent._escalate_modify({"modify_request": "换掉第2天下午的景点"})
+            result, usage = await agent._escalate_modify({"modify_request": "换掉第2天下午的景点"})
 
-        # 返回值为人类可读文本，不再是裸 JSON
+        # 返回值为人类可读文本，不再是裸 JSON；usage 透传 Orchestrator 汇总
         assert isinstance(result, str)
         assert '"type"' not in result
         assert "修改版行程" in result
+        assert usage["total"] == 1000
 
         # 恰好一次结构化事件
         modified = [e for e in events if e.get("type") == "trip_modified"]
@@ -84,9 +89,10 @@ class TestEscalateModify:
         agent = _make_agent(on_event=on_event)
         agent._trip_meta = None
 
-        result = await agent._escalate_modify({"modify_request": "改行程"})
+        result, usage = await agent._escalate_modify({"modify_request": "改行程"})
 
         assert "没有关联行程" in result
+        assert usage == {}
         assert events == []
 
     @pytest.mark.asyncio
@@ -104,7 +110,7 @@ class TestEscalateModify:
         mock_orch.modify = AsyncMock(return_value=PlanResult(plan=None, error="LLM 输出解析失败"))
 
         with patch("src.services.agent.orchestrator.Orchestrator", return_value=mock_orch):
-            result = await agent._escalate_modify({"modify_request": "改行程"})
+            result, _usage = await agent._escalate_modify({"modify_request": "改行程"})
 
         assert "修改失败" in result
         assert events == []
@@ -120,9 +126,78 @@ class TestEscalateModify:
 
         with patch("src.services.agent.orchestrator.Orchestrator", return_value=mock_orch), \
              patch.object(TripService, "_persist_trip", new_callable=AsyncMock, return_value=100):
-            result = await agent._escalate_modify({"modify_request": "改行程"})
+            result, _usage = await agent._escalate_modify({"modify_request": "改行程"})
 
         assert "修改版行程" in result
+
+
+# ===========================================================================
+# Fix 2：ChatAgent.run 的 usage 合并
+# ===========================================================================
+
+
+class TestRunUsageMerge:
+
+    @pytest.mark.asyncio
+    async def test_modify_usage_merged_into_output(self):
+        """chat LLM usage + Orchestrator.modify usage 合并进 AgentOutput.usage"""
+        agent = _make_agent()
+
+        raw_msg = MagicMock()
+        raw_msg.tool_calls = [{"name": "trigger_modify", "args": {"modify_request": "改"}}]
+
+        with patch.object(agent, "_get_tools", new_callable=AsyncMock, return_value=[]), \
+             patch.object(
+                 agent, "_stream_llm", new_callable=AsyncMock,
+                 return_value=("", {"prompt": 80, "completion": 20, "total": 100, "cached": 0}, raw_msg),
+             ), \
+             patch.object(
+                 agent, "_escalate_modify", new_callable=AsyncMock,
+                 return_value=("已修改", {"prompt": 800, "completion": 200, "total": 1000, "cached": 5}),
+             ):
+            output = await agent.run(message="改行程", trip_meta=dict(FAKE_META))
+
+        assert output.result == "已修改"
+        assert output.usage == {"prompt": 880, "completion": 220, "total": 1100, "cached": 5}
+
+    @pytest.mark.asyncio
+    async def test_plan_usage_merged_into_output(self):
+        """trigger_plan 路径同样合并 usage"""
+        agent = _make_agent()
+
+        raw_msg = MagicMock()
+        raw_msg.tool_calls = [{"name": "trigger_plan", "args": {"city": "北京", "days": 3, "budget": 5000}}]
+
+        with patch.object(agent, "_get_tools", new_callable=AsyncMock, return_value=[]), \
+             patch.object(
+                 agent, "_stream_llm", new_callable=AsyncMock,
+                 return_value=("", {"prompt": 10, "completion": 5, "total": 15, "cached": 0}, raw_msg),
+             ), \
+             patch.object(
+                 agent, "_escalate_plan", new_callable=AsyncMock,
+                 return_value=("{\"city\": \"北京\"}", {"prompt": 100, "completion": 50, "total": 150, "cached": 0}),
+             ):
+            output = await agent.run(message="规划北京3日游")
+
+        assert output.usage["total"] == 165
+
+    @pytest.mark.asyncio
+    async def test_no_tool_call_usage_unchanged(self):
+        """无 tool_call：usage 保持 chat LLM 原值"""
+        agent = _make_agent()
+
+        raw_msg = MagicMock()
+        raw_msg.tool_calls = []
+
+        with patch.object(agent, "_get_tools", new_callable=AsyncMock, return_value=[]), \
+             patch.object(
+                 agent, "_stream_llm", new_callable=AsyncMock,
+                 return_value=("你好", {"prompt": 10, "completion": 5, "total": 15, "cached": 0}, raw_msg),
+             ):
+            output = await agent.run(message="你好")
+
+        assert output.result == "你好"
+        assert output.usage["total"] == 15
 
 
 # ===========================================================================

@@ -21,6 +21,14 @@ from src.services.agent.types import TokenUsage
 logger = logging.getLogger(__name__)
 
 
+def _merge_usage(total: dict, delta: dict) -> dict:
+    """合并 Token 用量（四键相加）。"""
+    return {
+        k: (total or {}).get(k, 0) + (delta or {}).get(k, 0)
+        for k in ("prompt", "completion", "total", "cached")
+    }
+
+
 class ChatAgent(BaseAgent):
     """Chat Agent：对话前台，单 Agent + 工具，ReAct 模式。
 
@@ -132,25 +140,25 @@ class ChatAgent(BaseAgent):
 
                 if tc_name == "trigger_plan":
                     # 升级为 Orchestrator.plan()
-                    plan_result = await self._escalate_plan(tc_args)
+                    plan_result, plan_usage = await self._escalate_plan(tc_args)
                     if plan_result:
                         duration_ms = int((time.time() - _t0) * 1000)
                         return AgentOutput(
                             agent_name=self.name,
                             result=plan_result,
-                            usage=usage,
+                            usage=_merge_usage(usage, plan_usage),
                             duration_ms=duration_ms,
                         )
 
                 elif tc_name == "trigger_modify":
                     # 升级为 Orchestrator.modify()
-                    modify_result = await self._escalate_modify(tc_args)
+                    modify_result, modify_usage = await self._escalate_modify(tc_args)
                     if modify_result:
                         duration_ms = int((time.time() - _t0) * 1000)
                         return AgentOutput(
                             agent_name=self.name,
                             result=modify_result,
-                            usage=usage,
+                            usage=_merge_usage(usage, modify_usage),
                             duration_ms=duration_ms,
                         )
 
@@ -268,8 +276,8 @@ class ChatAgent(BaseAgent):
 
         return tools
 
-    async def _escalate_plan(self, args: dict) -> Optional[str]:
-        """升级为 Orchestrator.plan()。"""
+    async def _escalate_plan(self, args: dict) -> tuple[Optional[str], dict]:
+        """升级为 Orchestrator.plan()。返回 (回复文本, 升级路径 usage)。"""
         try:
             from src.services.agent.orchestrator import Orchestrator
             from src.services.agent.schemas import PlanRequest
@@ -286,21 +294,21 @@ class ChatAgent(BaseAgent):
             result = await orchestrator.plan(request)
             if result.plan:
                 import json
-                return json.dumps(result.plan, ensure_ascii=False)
-            return result.raw_output
+                return json.dumps(result.plan, ensure_ascii=False), result.usage
+            return result.raw_output, result.usage
         except Exception as e:
             logger.error("chat_agent|escalate_plan failed: %s", e)
-            return None
+            return None, {}
 
-    async def _escalate_modify(self, args: dict) -> Optional[str]:
+    async def _escalate_modify(self, args: dict) -> tuple[Optional[str], dict]:
         """升级为 Orchestrator.modify()，生成修改版行程并持久化为 v2 Trip。
 
-        成功时通过 on_event 发出结构化 trip_modified 事件（前端据此刷新行程），
-        返回值为人类可读的摘要文本（作为 assistant 消息落库）。
+        成功时通过 on_event 发出结构化 trip_modified 事件（前端据此刷新行程）。
+        返回 (人类可读的摘要文本, 升级路径 usage)，文本作为 assistant 消息落库。
         """
         meta = getattr(self, "_trip_meta", None)
         if not meta:
-            return "当前没有关联行程，无法修改。请先在行程详情页打开对话。"
+            return "当前没有关联行程，无法修改。请先在行程详情页打开对话。", {}
 
         try:
             from src.services.agent.orchestrator import Orchestrator
@@ -344,8 +352,8 @@ class ChatAgent(BaseAgent):
                             "summary": summary,
                         },
                     })
-                return summary
-            return f"修改失败：{result.error or '未知错误'}"
+                return summary, result.usage
+            return f"修改失败：{result.error or '未知错误'}", result.usage
         except Exception as e:
             logger.error("chat_agent|escalate_modify failed: %s", e)
-            return f"行程修改失败：{e}"
+            return f"行程修改失败：{e}", {}
