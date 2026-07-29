@@ -309,29 +309,29 @@ const handleKeydown = (e: KeyboardEvent) => {
         <p>有什么可以帮你的？</p>
         <p class="chat-panel-hint">可以问我行程调整、附近美食、通勤路线等问题</p>
       </div>
-      <ChatBubble
-        v-for="(msg, idx) in messages"
-        :key="idx"
-        :message="msg"
-        :streaming="isStreaming && idx === messages.length - 1 && msg.role === 'ai'"
-      />
-      <TripDiffCard
-        v-if="diffCards.has(messages.length - 1)"
-        :newTripId="diffCards.get(messages.length - 1)!.newTripId"
-        :parentTripId="diffCards.get(messages.length - 1)!.parentTripId"
-        :changes="diffCards.get(messages.length - 1)!.changes"
-        @confirm="onDiffConfirm"
-        @cancel="onDiffCancel"
-      />
-      <PoiListCard
-        v-if="cardData.has(messages.length - 1) && cardData.get(messages.length - 1)!.type === 'poi_list'"
-        :items="cardData.get(messages.length - 1)!.data.items || []"
-      />
-      <CommuteCard
-        v-if="cardData.has(messages.length - 1) && cardData.get(messages.length - 1)!.type === 'commute_compare'"
-        :options="cardData.get(messages.length - 1)!.data.options || []"
-        :recommended="cardData.get(messages.length - 1)!.data.recommended"
-      />
+      <template v-for="(msg, idx) in messages" :key="idx">
+        <ChatBubble
+          :message="msg"
+          :streaming="isStreaming && idx === messages.length - 1 && msg.role === 'ai'"
+        />
+        <TripDiffCard
+          v-if="diffCards.has(idx)"
+          :newTripId="diffCards.get(idx)!.newTripId"
+          :parentTripId="diffCards.get(idx)!.parentTripId"
+          :changes="diffCards.get(idx)!.changes"
+          @confirm="onDiffConfirm"
+          @cancel="onDiffCancel"
+        />
+        <PoiListCard
+          v-if="cardData.has(idx) && cardData.get(idx)!.type === 'poi_list'"
+          :items="cardData.get(idx)!.data.items || []"
+        />
+        <CommuteCard
+          v-if="cardData.has(idx) && cardData.get(idx)!.type === 'commute_compare'"
+          :options="cardData.get(idx)!.data.options || []"
+          :recommended="cardData.get(idx)!.data.recommended"
+        />
+      </template>
     </div>
 
     <div v-if="toolStatus" class="chat-panel-tool-status">

@@ -376,22 +376,22 @@ onMounted(loadConversations)
         </div>
 
         <div v-else class="message-list">
-          <ChatBubble
-            v-for="(msg, index) in messages"
-            :key="msg.timestamp + '-' + index"
-            :message="msg"
-            :streaming="isStreaming && index === messages.length - 1 && msg.role === 'ai'"
-            :conversation-id="currentConversationId"
-          />
-          <PoiListCard
-            v-if="cardData.has(messages.length - 1) && cardData.get(messages.length - 1)!.type === 'poi_list'"
-            :items="cardData.get(messages.length - 1)!.data.items || []"
-          />
-          <CommuteCard
-            v-if="cardData.has(messages.length - 1) && cardData.get(messages.length - 1)!.type === 'commute_compare'"
-            :options="cardData.get(messages.length - 1)!.data.options || []"
-            :recommended="cardData.get(messages.length - 1)!.data.recommended"
-          />
+          <template v-for="(msg, index) in messages" :key="msg.timestamp + '-' + index">
+            <ChatBubble
+              :message="msg"
+              :streaming="isStreaming && index === messages.length - 1 && msg.role === 'ai'"
+              :conversation-id="currentConversationId"
+            />
+            <PoiListCard
+              v-if="cardData.has(index) && cardData.get(index)!.type === 'poi_list'"
+              :items="cardData.get(index)!.data.items || []"
+            />
+            <CommuteCard
+              v-if="cardData.has(index) && cardData.get(index)!.type === 'commute_compare'"
+              :options="cardData.get(index)!.data.options || []"
+              :recommended="cardData.get(index)!.data.recommended"
+            />
+          </template>
           <div v-if="isStreaming" class="streaming-indicator">
             <n-spin size="small" />
             <span v-if="toolStatus">🔍 {{ toolStatus }}...</span>
