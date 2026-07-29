@@ -338,6 +338,8 @@ def with_resilience(tool: Any, **resilience_config: Any) -> Any:
 
     if original_arun:
         # 创建新的 _arun 方法
+        # _arun 签名：(self, *args, config: RunnableConfig, run_manager=None)
+        # 包装后 `self` 由 Python 自动绑定，但 config 需要显式传递
         async def resilient_arun(*args: Any, **kwargs: Any) -> Any:
             return await wrapper(original_arun, *args, **kwargs)
 

@@ -389,8 +389,10 @@ class ChatAgent(BaseAgent):
     async def _try_pre_llm_tool(self, user_msg: str) -> Optional[str]:
         """LLM 调用前预检测意图，直接执行工具并发送 card 事件。
 
-        不依赖 LLM 主动调工具，保证 card 事件稳定触发。
+        不依赖 LLM 主动调工具，直接调高德 API 获取数据并发 card。
+        保证 card 事件稳定触发。
         """
+        logger.info("chat_agent|pre_llm_check msg=%s", user_msg[:50])
         nearby_kw = {"附近", "周边", "周围", "旁边"}
         commute_kw = {"怎么走", "怎么去", "通勤", "路线", "过去", "坐车", "打车", "最快"}
         food_kw = {"好吃的", "餐厅", "美食", "吃", "饭"}
@@ -402,73 +404,66 @@ class ChatAgent(BaseAgent):
         is_spot = any(kw in user_msg for kw in spot_kw)
 
         if not is_nearby and not is_commute:
+            logger.info("chat_agent|pre_llm_no_match")
             return None
 
+        logger.info("chat_agent|pre_llm_match nearby=%s commute=%s food=%s spot=%s",
+                     is_nearby, is_commute, is_food, is_spot)
+
+        import json as _json
+
+        # 直调高德 API（绕过 resilience/tool_cache 包装，避免 fallback）
+        from src.services.commute_service import search_input_tips, search_nearby_pois
+
+        import re as _re
+        kw = _re.sub(r"(附近|周边|周围|有什么|好吃的|好玩的|景点|推荐|餐厅|美食|吃|玩|逛|的)", "", user_msg).strip()
+        if not kw:
+            kw = user_msg[:10]
+
+        logger.info("chat_agent|pre_llm_search kw=%s", kw)
         try:
-            import json as _json
-
-            if is_commute:
-                # 通勤方案
-                commute_fn = None
-                tips_fn = None
-                for t in getattr(self, "tools", []) or []:
-                    name = getattr(t, "name", "")
-                    if name == "compute_optimal_commute_tool":
-                        commute_fn = t
-                    elif name == "search_commute_tips_tool":
-                        tips_fn = t
-
-                if commute_fn and tips_fn:
-                    result = await tips_fn.ainvoke({"keywords": user_msg, "limit": 3})
-                    tips = _json.loads(result) if isinstance(result, str) else result
-                    if tips and isinstance(tips, list) and len(tips) > 0:
-                        first = tips[0]
-                        origin = {"name": first.get("name"), "lat": first.get("lat"), "lng": first.get("lng"), "city": first.get("city")}
-                        commute_result = await commute_fn.ainvoke({
-                            "origin": origin,
-                            "destinations": [{"name": "目的地", "city": first.get("city", "")}],
-                            "mode": "walking",
-                            "compare_modes": True,
-                            "city": first.get("city", ""),
-                        })
-                        data = _json.loads(commute_result) if isinstance(commute_result, str) else commute_result
-                        await self._emit_commute_card(data, {}, user_msg)
-                        return f"已查询通勤方案，路线信息如上。"
+            tips = await search_input_tips(kw, None, 3)
         except Exception as e:
-            logger.warning("chat_agent|pre_llm_tool_failed err=%s", e)
+            logger.warning("chat_agent|pre_llm_tips_failed kw=%s err=%s", kw, e)
+            return None
 
-        try:
-            import json as _json
+        if not tips or not isinstance(tips, list) or len(tips) == 0:
+            logger.info("chat_agent|pre_llm_tips_empty")
+            return None
 
-            if is_nearby:
-                # 周边搜索
-                tips_fn = None
-                poi_fn = None
-                for t in getattr(self, "tools", []) or []:
-                    name = getattr(t, "name", "")
-                    if name == "search_commute_tips_tool":
-                        tips_fn = t
-                    elif name == "search_nearby_commute_pois_tool":
-                        poi_fn = t
+        first = tips[0]
+        lat = first.get("lat") or first.get("latitude")
+        lng = first.get("lng") or first.get("longitude")
+        logger.info("chat_agent|pre_llm_got_coord name=%s lat=%s lng=%s", first.get("name"), lat, lng)
+        if lat is None or lng is None:
+            return None
 
-                if tips_fn and poi_fn:
-                    result = await tips_fn.ainvoke({"keywords": user_msg, "limit": 3})
-                    tips = _json.loads(result) if isinstance(result, str) else result
-                    if tips and isinstance(tips, list) and len(tips) > 0:
-                        first = tips[0]
-                        lat = first.get("lat") or first.get("latitude")
-                        lng = first.get("lng") or first.get("longitude")
-                        if lat is not None and lng is not None:
-                            kw = "餐饮" if is_food else ("景点" if is_spot else None)
-                            poi_args = {"lat": float(lat), "lng": float(lng), "radius": 1000, "limit": 10}
-                            if kw:
-                                poi_args["keywords"] = kw
-                            poi_result = await poi_fn.ainvoke(poi_args)
-                            data = _json.loads(poi_result) if isinstance(poi_result, str) else poi_result
-                            await self._emit_poi_card(data, poi_args, user_msg)
-                            return f"已查询附近结果如上。"
-        except Exception as e:
-            logger.warning("chat_agent|pre_llm_nearby_failed err=%s", e)
+        city = first.get("city", "")
+
+        if is_commute:
+            try:
+                from src.services.commute_service import compute_optimal_commute
+                commute_result = await compute_optimal_commute(
+                    origin={"name": first.get("name"), "lat": lat, "lng": lng, "city": city},
+                    destinations=[{"name": "目的地", "city": city}],
+                    mode="walking",
+                    city=city,
+                    compare_modes=True,
+                )
+                await self._emit_commute_card(commute_result, {}, user_msg)
+                return "已查询通勤方案，路线信息如上。"
+            except Exception as e:
+                logger.warning("chat_agent|pre_llm_commute_failed err=%s", e)
+
+        if is_nearby:
+            try:
+                nearby_kw = "餐饮" if is_food else ("景点" if is_spot else None)
+                pois = await search_nearby_pois(lat, lng, 1000, nearby_kw, 10)
+                logger.info("chat_agent|pre_llm_poi_result count=%d", len(pois) if pois else 0)
+                await self._emit_poi_card(pois, {}, user_msg)
+                return "已查询附近结果如上。"
+            except Exception as e:
+                logger.warning("chat_agent|pre_llm_nearby_failed err=%s", e)
 
         return None
 

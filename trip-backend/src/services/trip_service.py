@@ -216,6 +216,14 @@ class TripService:
                 # 阶段进度事件：透传给前端（用于进度条展示）
                 await queue.put({"type": "progress", "data": event.get("data")})
 
+            elif event_type == "card":
+                # 结构化卡片事件：透传给前端（POI/通勤/Diff 卡片）
+                await queue.put({
+                    "type": "card",
+                    "card_type": event.get("card_type"),
+                    "data": event.get("data"),
+                })
+
             elif event_type == "complete":
                 full_reply = event.get("content", full_reply)
                 usage = event.get("usage")
