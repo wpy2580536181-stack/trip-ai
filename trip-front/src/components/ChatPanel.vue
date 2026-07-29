@@ -153,6 +153,8 @@ const fetchAiResponse = (userMsg: string) => {
 
   // 本次请求内的行程修改事件（续传重放幂等 + complete 时回填摘要）
   let tripModifiedData: { newTripId: number; summary?: string } | null = null
+  // 对话内全量规划：只附详情链接，不切换当前行程
+  let tripPlannedData: { newTripId: number; summary?: string } | null = null
 
   fetchStream(
     'trip/chat',
@@ -183,6 +185,15 @@ const fetchAiResponse = (userMsg: string) => {
         // 切换完成（props.tripId 变化）前禁发，防旧 tripId 分叉
         awaitingTripSwitch.value = true
         emit('trip-updated', tripModifiedData.newTripId)
+      } else if (tripPlannedData) {
+        // 新规划行程：回填摘要 + 详情链接，不影响当前正在看的行程
+        const lastMsg = messages.value[messages.value.length - 1]
+        const link = `[查看行程详情](/detail?id=${tripPlannedData.newTripId})`
+        if (lastMsg && lastMsg.role === 'ai') {
+          lastMsg.content = lastMsg.content
+            ? `${lastMsg.content}\n\n${link}`
+            : `${tripPlannedData.summary || '行程已生成'}\n\n${link}`
+        }
       }
     },
     (errMsg) => {
@@ -201,6 +212,8 @@ const fetchAiResponse = (userMsg: string) => {
       onTripEvent: (type, data) => {
         if (type === 'trip_modified' && data?.newTripId && data.newTripId !== tripModifiedData?.newTripId) {
           tripModifiedData = { newTripId: data.newTripId, summary: data.summary }
+        } else if (type === 'trip_planned' && data?.newTripId && data.newTripId !== tripPlannedData?.newTripId) {
+          tripPlannedData = { newTripId: data.newTripId, summary: data.summary }
         }
       },
     },

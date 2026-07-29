@@ -65,6 +65,7 @@ class ChatAgent(BaseAgent):
         system_prompt: Optional[str] = None,
         trip_context: Optional[str] = None,
         trip_meta: Optional[dict] = None,
+        user_id: int = 0,
     ) -> AgentOutput:
         """执行对话。
 
@@ -74,12 +75,14 @@ class ChatAgent(BaseAgent):
             system_prompt: 系统提示词（覆盖初始化时的）
             trip_context: 用户已有行程摘要（注入 system prompt）
             trip_meta: 行程元数据（trip_id/user_id/city/days/budget/content，供 modify 使用）
+            user_id: 当前用户 ID（供 trigger_plan 落库使用，0 表示未知）
 
         Returns:
             AgentOutput，result 为回复文本
         """
         _t0 = time.time()
         self._trip_meta = trip_meta
+        self._user_id = user_id
 
         # 构建 system prompt
         sys_prompt = system_prompt or self.system_prompt
@@ -277,22 +280,57 @@ class ChatAgent(BaseAgent):
         return tools
 
     async def _escalate_plan(self, args: dict) -> tuple[Optional[str], dict]:
-        """升级为 Orchestrator.plan()。返回 (回复文本, 升级路径 usage)。"""
+        """升级为 Orchestrator.plan()，规划结果持久化为 Trip（与 modify 路径对称）。
+
+        成功落库时通过 on_event 发出 trip_planned 事件（前端展示详情入口）。
+        返回 (回复文本, 升级路径 usage)。
+        """
         try:
             from src.services.agent.orchestrator import Orchestrator
             from src.services.agent.schemas import PlanRequest
+            from src.services.trip_service import TripService
+
+            user_id = getattr(self, "_user_id", 0)
+            city = args.get("city", "")
+            days = args.get("days", 3)
+            budget = args.get("budget", 5000)
+            departure_city = args.get("departure_city") or None
 
             orchestrator = Orchestrator(llm=self.llm, on_event=self.on_event)
             request = PlanRequest(
-                user_id=0,  # ChatAgent 不持有 user_id，由上层传入
-                city=args.get("city", ""),
-                days=args.get("days", 3),
-                budget=args.get("budget", 5000),
-                departure_city=args.get("departure_city") or None,
-                message=f"规划{args.get('city', '')}{args.get('days', 3)}日游",
+                user_id=user_id,
+                city=city,
+                days=days,
+                budget=budget,
+                departure_city=departure_city,
+                message=f"规划{city}{days}日游",
             )
             result = await orchestrator.plan(request)
             if result.plan:
+                if user_id > 0:
+                    # 落库为新 Trip（无父版本），发结构化事件供前端展示入口
+                    new_trip_id = await TripService._persist_trip(
+                        user_id=user_id,
+                        from_city=departure_city,
+                        parsed=result.plan,
+                        budget=budget,
+                        parent_trip_id=None,
+                    )
+                    summary = (
+                        f"已为您规划 {result.plan.get('city', city)}"
+                        f"{result.plan.get('days', days)}日游（预算{budget}元），"
+                        f"行程已保存，可在行程详情页查看。"
+                    )
+                    if self.on_event:
+                        await self.on_event({
+                            "type": "trip_planned",
+                            "data": {
+                                "newTripId": new_trip_id,
+                                "summary": summary,
+                            },
+                        })
+                    return summary, result.usage
+                # 防御：无有效 user_id 时不落库，仅返回文本摘要
                 import json
                 return json.dumps(result.plan, ensure_ascii=False), result.usage
             return result.raw_output, result.usage

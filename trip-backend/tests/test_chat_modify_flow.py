@@ -201,6 +201,90 @@ class TestRunUsageMerge:
 
 
 # ===========================================================================
+# Fix 7：ChatAgent._escalate_plan（对话内全量规划落库）
+# ===========================================================================
+
+
+class TestEscalatePlan:
+
+    @pytest.mark.asyncio
+    async def test_plan_persists_and_emits_trip_planned(self):
+        """有效 user_id：落库 + 发 trip_planned 事件 + 返回文本摘要"""
+        events = []
+
+        async def on_event(e):
+            events.append(e)
+
+        agent = _make_agent(on_event=on_event)
+        agent._user_id = 7
+
+        mock_orch = MagicMock()
+        mock_orch.plan = AsyncMock(return_value=PlanResult(
+            plan=FAKE_PLAN,
+            usage={"prompt": 500, "completion": 100, "total": 600, "cached": 0},
+        ))
+
+        with patch("src.services.agent.orchestrator.Orchestrator", return_value=mock_orch), \
+             patch.object(TripService, "_persist_trip", new_callable=AsyncMock, return_value=88) as mock_persist:
+            result, usage = await agent._escalate_plan({"city": "北京", "days": 3, "budget": 5000})
+
+        # 落库参数：真实 user_id、无父版本
+        mock_persist.assert_awaited_once()
+        kwargs = mock_persist.await_args.kwargs
+        assert kwargs["user_id"] == 7
+        assert kwargs["parent_trip_id"] is None
+
+        # 返回文本摘要（非 JSON）+ usage 透传
+        assert '"type"' not in result
+        assert "已为您规划" in result
+        assert usage["total"] == 600
+
+        # trip_planned 事件
+        planned = [e for e in events if e.get("type") == "trip_planned"]
+        assert len(planned) == 1
+        assert planned[0]["data"]["newTripId"] == 88
+
+    @pytest.mark.asyncio
+    async def test_plan_without_user_id_no_persist(self):
+        """user_id=0（防御）：不落库、不发事件"""
+        events = []
+
+        async def on_event(e):
+            events.append(e)
+
+        agent = _make_agent(on_event=on_event)
+        agent._user_id = 0
+
+        mock_orch = MagicMock()
+        mock_orch.plan = AsyncMock(return_value=PlanResult(plan=FAKE_PLAN))
+
+        with patch("src.services.agent.orchestrator.Orchestrator", return_value=mock_orch), \
+             patch.object(TripService, "_persist_trip", new_callable=AsyncMock) as mock_persist:
+            result, _usage = await agent._escalate_plan({"city": "北京", "days": 3, "budget": 5000})
+
+        mock_persist.assert_not_awaited()
+        assert events == []
+        assert result  # 仍有回复内容
+
+    @pytest.mark.asyncio
+    async def test_run_passes_user_id(self):
+        """run(user_id=...) → 存入 self._user_id 供升级路径使用"""
+        agent = _make_agent()
+
+        raw_msg = MagicMock()
+        raw_msg.tool_calls = []
+
+        with patch.object(agent, "_get_tools", new_callable=AsyncMock, return_value=[]), \
+             patch.object(
+                 agent, "_stream_llm", new_callable=AsyncMock,
+                 return_value=("你好", {"prompt": 1, "completion": 1, "total": 2, "cached": 0}, raw_msg),
+             ):
+            await agent.run(message="你好", user_id=42)
+
+        assert agent._user_id == 42
+
+
+# ===========================================================================
 # TripService.chat_stream 透传
 # ===========================================================================
 

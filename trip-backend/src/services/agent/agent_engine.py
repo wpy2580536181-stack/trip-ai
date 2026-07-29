@@ -327,6 +327,7 @@ class AgentEngine:
                     system_prompt=system_prompt,
                     trip_context=trip_context,
                     trip_meta=trip_meta,
+                    user_id=user_id,
                 )
             
             if result.error:
