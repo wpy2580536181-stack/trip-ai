@@ -393,6 +393,7 @@ const hotelOrigin = (day: any) => {
           <ChatPanel
             :trip-id="currentTripMeta?.id"
             :prefill="prefillText"
+            :disabled="isloading"
             compact
             @trip-updated="onTripUpdated"
           />

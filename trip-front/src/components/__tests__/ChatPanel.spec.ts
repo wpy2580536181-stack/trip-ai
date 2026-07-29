@@ -109,3 +109,42 @@ describe('ChatPanel.vue — trip_modified 结构化事件', () => {
     expect(wrapper.emitted('trip-updated')).toBeUndefined()
   })
 })
+
+describe('ChatPanel.vue — 修改窗口期竞态防护（Fix 4）', () => {
+  beforeEach(() => {
+    captured = null
+    vi.clearAllMocks()
+  })
+
+  it('trip-updated 后立即再发消息 → 被拦截；tripId 变化后恢复', async () => {
+    const { wrapper, cb } = await mountAndSend(1)
+
+    cb.onTripEvent!('trip_modified', { newTripId: 99, summary: 'S' })
+    cb.onComplete({ conversationId: 5 })
+    await nextTick()
+    expect(wrapper.emitted('trip-updated')).toEqual([[99]])
+
+    // 窗口期内发消息：不应发起请求
+    captured = null
+    wrapper.vm.inputMessage = '再改一下'
+    wrapper.vm.sendMessage()
+    await flushPromises()
+    expect(captured).toBeNull()
+
+    // 父组件刷新完成（tripId 切到新版本）后恢复可发
+    await wrapper.setProps({ tripId: 99 })
+    wrapper.vm.inputMessage = '再改一下'
+    wrapper.vm.sendMessage()
+    await flushPromises()
+    expect(captured).not.toBeNull()
+    expect(captured!.body.tripId).toBe(99)
+  })
+
+  it('disabled prop 为 true → 拦截发送', async () => {
+    const wrapper = mount(ChatPanel, { props: { tripId: 1, prefill: '', disabled: true } })
+    wrapper.vm.inputMessage = '你好'
+    wrapper.vm.sendMessage()
+    await flushPromises()
+    expect(captured).toBeNull()
+  })
+})

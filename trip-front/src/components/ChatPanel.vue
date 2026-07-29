@@ -5,7 +5,7 @@
  * 从 Chat.vue 抽取核心 SSE 对话逻辑，用于 Detail.vue 侧栏。
  * 复用 ChatBubble.vue 渲染消息，复用 fetchStream 进行流式通信。
  */
-import { ref, watch, nextTick, onBeforeUnmount } from 'vue'
+import { ref, computed, watch, nextTick, onBeforeUnmount } from 'vue'
 import { useMessage } from 'naive-ui'
 import { fetchStream } from '@/api/request'
 import ChatBubble from '@/components/ChatBubble.vue'
@@ -14,10 +14,12 @@ const props = withDefaults(defineProps<{
   tripId?: number | null
   prefill?: string
   compact?: boolean
+  disabled?: boolean
 }>(), {
   tripId: null,
   prefill: '',
   compact: true,
+  disabled: false,
 })
 
 const emit = defineEmits<{
@@ -39,6 +41,17 @@ const toolStatus = ref<string | null>(null)
 const currentAbortController = ref<AbortController | null>(null)
 const messageListRef = ref<HTMLElement | null>(null)
 const currentConversationId = ref<number | null>(null)
+
+// 行程修改后→详情页切换完成前的窗口期，禁止再发消息（避免基于旧 tripId 分叉版本）
+const awaitingTripSwitch = ref(false)
+watch(
+  () => props.tripId,
+  () => {
+    awaitingTripSwitch.value = false
+  },
+)
+
+const inputDisabled = computed(() => props.disabled || awaitingTripSwitch.value)
 
 const toolLabels: Record<string, string> = {
   retrieve_knowledge: '检索知识库',
@@ -62,7 +75,7 @@ watch(() => messages.value.length, scrollToBottom)
 watch(
   () => props.prefill,
   (val) => {
-    if (val && !isStreaming.value) {
+    if (val && !isStreaming.value && !inputDisabled.value) {
       inputMessage.value = val
       nextTick(() => sendMessage())
     }
@@ -71,7 +84,7 @@ watch(
 
 const sendMessage = () => {
   const msg = inputMessage.value.trim()
-  if (!msg || isStreaming.value) return
+  if (!msg || isStreaming.value || inputDisabled.value) return
   messages.value.push({ role: 'user', content: msg, timestamp: new Date().toISOString() })
   inputMessage.value = ''
   fetchAiResponse(msg)
@@ -120,6 +133,8 @@ const fetchAiResponse = (userMsg: string) => {
         if (lastMsg && lastMsg.role === 'ai' && !lastMsg.content) {
           lastMsg.content = tripModifiedData.summary || '行程已修改'
         }
+        // 切换完成（props.tripId 变化）前禁发，防旧 tripId 分叉
+        awaitingTripSwitch.value = true
         emit('trip-updated', tripModifiedData.newTripId)
       }
     },
@@ -196,14 +211,14 @@ const handleKeydown = (e: KeyboardEvent) => {
         v-model:value="inputMessage"
         type="textarea"
         :autosize="{ minRows: 1, maxRows: 3 }"
-        placeholder="输入消息..."
-        :disabled="isStreaming"
+        :placeholder="inputDisabled ? '行程更新中…' : '输入消息...'"
+        :disabled="isStreaming || inputDisabled"
         @keydown="handleKeydown"
       />
       <n-button
         size="small"
         type="primary"
-        :disabled="!inputMessage.trim() || isStreaming"
+        :disabled="!inputMessage.trim() || isStreaming || inputDisabled"
         @click="sendMessage"
       >
         发送
