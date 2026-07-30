@@ -69,6 +69,15 @@ class AgentEngine:
         # 技能注册表（三层渐进式披露；从 skills/skills/<name>/SKILL.md 加载内置技能）
         self.skill_registry = get_skill_registry()
         load_builtin_skills(self.skill_registry)
+
+        # Embedding 模型 fail-closed：默认假设向量模型不可用，避免首个请求卡在
+        # 模型下载（HF 镜像不可达时尤其明显，会反复 502 导致「查询景点」阶段长时间
+        # 无响应）。后台预热任务成功加载后再自动恢复向量检索能力。
+        from src.services.rag.embeddings import mark_embedder_unavailable
+        mark_embedder_unavailable()
+
+        # 后台预热任务句柄（一次性）：进程启动后按需尝试加载向量模型并升级检索能力。
+        self._embedder_warmup_task: Optional[asyncio.Task] = None
     
     async def ensure_amap_tools(self) -> None:
         """确保高德 MCP 工具已加载。"""
@@ -77,6 +86,20 @@ class AgentEngine:
                 self._load_amap_tools()
             )
         await self.amap_tools_init_promise
+
+    async def start_embedder_warmup(self) -> None:
+        """后台预热 Embedding 模型（fail-open 升级）。
+
+        在应用启动时调用一次：创建一次性后台任务尝试加载向量模型。
+        成功则自动清除 fail-closed 标记、恢复向量检索能力；失败则保持降级
+        （字面/全文检索），全程不阻塞主流程。模型不可达时该任务会在后台静默失败。
+        """
+        if self._embedder_warmup_task is None or self._embedder_warmup_task.done():
+            from src.services.rag.embeddings import load_embedder_force
+
+            self._embedder_warmup_task = asyncio.create_task(load_embedder_force())
+            logger = logging.getLogger(__name__)
+            logger.info("Embedding 模型后台预热任务已启动（fail-closed 默认降级）")
     
     async def _load_amap_tools(self) -> None:
         """加载高德 MCP 工具。"""

@@ -52,6 +52,14 @@ async def lifespan(app: FastAPI):
     from src.services.alert import alert_scheduler
     alert_scheduler.start()
 
+    # 后台预热 Embedding 模型（fail-closed 默认降级，加载成功才恢复向量检索）。
+    # 不阻塞启动；HF 镜像不可达时后台静默失败，主流程走字面/全文检索。
+    try:
+        from src.services.agent.agent_engine import get_agent_engine
+        await get_agent_engine().start_embedder_warmup()
+    except Exception as e:
+        trip_log.warning(embedder_warmup_kickoff_failed=str(e))
+
     yield
 
     # 停止告警调度器

@@ -755,14 +755,23 @@ class ChatAgent(BaseAgent):
                 target_days=target_days,
             )
             if result.plan:
-                new_trip_id = await TripService._persist_trip(
-                    user_id=meta["user_id"],
-                    from_city=meta.get("departure_city"),
-                    parsed=result.plan,
-                    budget=meta["budget"],
-                    parent_trip_id=meta["trip_id"],
-                    status="candidate",
-                )
+                try:
+                    new_trip_id = await TripService._persist_trip(
+                        user_id=meta["user_id"],
+                        from_city=meta.get("departure_city"),
+                        parsed=result.plan,
+                        budget=meta["budget"],
+                        parent_trip_id=meta["trip_id"],
+                        status="candidate",
+                    )
+                except Exception as persist_err:
+                    # 落库失败（如父行程外键缺失）不应把原始 SQL 错误抛给用户，
+                    # 改为友好提示，并仍把修改方案文本返回，便于用户手动参考。
+                    logger.error("chat_agent|persist_modified_trip failed: %s", persist_err)
+                    return (
+                        "修改方案已生成，但保存失败（行程数据异常），请稍后重试或重新发起修改。",
+                        result.usage,
+                    )
                 if self.on_event:
                     diff = self._build_trip_diff(meta["content"], result.plan)
                     await self.on_event({
