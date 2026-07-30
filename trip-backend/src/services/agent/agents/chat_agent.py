@@ -461,6 +461,9 @@ class ChatAgent(BaseAgent):
             try:
                 nearby_kw = "餐饮" if is_food else ("景点" if is_spot else None)
                 pois = await search_nearby_pois(lat, lng, 1000, nearby_kw, 10)
+                # 高德 API keywords=餐饮 有时会混入住宿类结果，过滤掉
+                if is_food and pois:
+                    pois = [p for p in pois if "住宿" not in (p.get("category") or "")]
                 logger.info("chat_agent|pre_llm_poi_result count=%d", len(pois) if pois else 0)
                 await self._emit_poi_card(pois, {}, user_msg)
                 # 预检测成功 → 重置附近/通勤工具的熔断器（熔断器可能因之前配置问题打开）

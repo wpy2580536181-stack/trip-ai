@@ -52,7 +52,15 @@ async def retrieve_knowledge_tool(query: str, city: str, category: Optional[str]
     from ...knowledge_service import search_spots, KnowledgeService
     from ...poi_cache import get_poi_cache
     
-    # ---- 分类名归一化（LLM 传中文 → 数据库用英文） ----
+    # ---- 分类名归一化 ----
+    # 如果 LLM 未传分类，从 query 关键词推断
+    if not category:
+        _food_kw = {"美食", "好吃的", "餐厅", "吃", "饭", "早饭", "午饭", "晚饭", "早餐", "午餐", "晚餐"}
+        _spot_kw = {"景点", "好玩", "逛", "游览", "参观", "玩"}
+        if any(kw in query for kw in _food_kw):
+            category = "美食"
+        elif any(kw in query for kw in _spot_kw):
+            category = "景点"
     db_category = _CATEGORY_MAP.get(category, category) if category else None
     search_category = db_category or "attraction"
     poi_cache = get_poi_cache()
@@ -66,7 +74,7 @@ async def retrieve_knowledge_tool(query: str, city: str, category: Optional[str]
         results = await search_spots(
             query=query,
             city=city,
-            category=db_category,
+            category=search_category,  # 始终传有效分类，避免无分类过滤返回酒店等高评分干扰项
             limit=5,
         )
 
