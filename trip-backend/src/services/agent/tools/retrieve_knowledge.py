@@ -15,6 +15,14 @@ from src.services.agent.resilience import with_resilience
 
 logger = logging.getLogger(__name__)
 
+# LLM 可能传中文分类名，数据库用英文
+_CATEGORY_MAP = {
+    "景点": "attraction",
+    "美食": "food",
+    "住宿": "hotel",
+    "交通": "transportation",
+}
+
 
 class RetrieveKnowledgeInput(BaseModel):
     """Retrieve Knowledge 工具输入参数。"""
@@ -44,8 +52,9 @@ async def retrieve_knowledge_tool(query: str, city: str, category: Optional[str]
     from ...knowledge_service import search_spots, KnowledgeService
     from ...poi_cache import get_poi_cache
     
-    # ---- POI 缓存检查 ----
-    search_category = category or "attraction"
+    # ---- 分类名归一化（LLM 传中文 → 数据库用英文） ----
+    db_category = _CATEGORY_MAP.get(category, category) if category else None
+    search_category = db_category or "attraction"
     poi_cache = get_poi_cache()
     
     if search_category in ("attraction", "food"):
@@ -57,7 +66,7 @@ async def retrieve_knowledge_tool(query: str, city: str, category: Optional[str]
         results = await search_spots(
             query=query,
             city=city,
-            category=category,
+            category=db_category,
             limit=5,
         )
 
