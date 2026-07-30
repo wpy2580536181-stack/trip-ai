@@ -392,19 +392,21 @@ class KnowledgeService:
             )
 
             # 2. 四路顺序召回（SQLAlchemy async session 不支持同一 session 并发操作）
+            # 每条路径独立超时，避免单一路径挂死拖慢整体
             path_pgvector: list = []
             path_docs: list = []
             path_pg_ft: list = []
             path_rating: list = []
 
-            for name, call in (
-                ("pgvector", KnowledgeService._pgvector_search(db, rewritten_query, city, category, limit * 2)),
-                ("spot_docs", KnowledgeService._spot_docs_search(db, rewritten_query, keywords, city, category, limit * 2)),
-                ("pg_fulltext", KnowledgeService._pg_fulltext_search(db, keywords, city, category, limit * 2)),
-                ("rating", KnowledgeService._rating_search(db, city, category, limit * 2)),
+            for name, call, timeout in (
+                ("pgvector", KnowledgeService._pgvector_search(db, rewritten_query, city, category, limit * 2), 3.0),
+                ("spot_docs", KnowledgeService._spot_docs_search(db, rewritten_query, keywords, city, category, limit * 2), 3.0),
+                # pg_fulltext 传原始 query（不传 extract_keywords — 关键词含城市名，不在 text 字段中）
+                ("pg_fulltext", KnowledgeService._pg_fulltext_search(db, [query], city, category, limit * 2), 3.0),
+                ("rating", KnowledgeService._rating_search(db, city, category, limit * 2), 3.0),
             ):
                 try:
-                    result = await call
+                    result = await asyncio.wait_for(call, timeout=timeout)
                     if name == "pgvector":
                         path_pgvector = result
                     elif name == "spot_docs":
@@ -414,6 +416,8 @@ class KnowledgeService:
                     elif name == "rating":
                         path_rating = result
                     logger.debug(f"召回路径 {name} 完成", count=len(result))
+                except asyncio.TimeoutError:
+                    logger.warning(f"召回路径 {name} 超时（>{timeout}s），跳过")
                 except Exception as e:
                     logger.error(f"召回路径 {name} 失败", error=str(e))
 
@@ -644,28 +648,34 @@ class KnowledgeService:
     ) -> List[Dict[str, Any]]:
         """评分排序检索（基础召回）."""
         try:
-            query = select(Spot)
-
+            from sqlalchemy import text as _text
+            sql = "SELECT id, name, city, category, description, rating, tags FROM spots"
+            params: dict = {}
+            clauses: list[str] = []
             if city:
-                query = query.where(Spot.city == city)
+                clauses.append("city = :city")
+                params["city"] = city
             if category:
-                query = query.where(Spot.category == category)
+                clauses.append("category = :category")
+                params["category"] = category
+            if clauses:
+                sql += " WHERE " + " AND ".join(clauses)
+            sql += " ORDER BY rating DESC NULLS LAST LIMIT :limit"
+            params["limit"] = limit
 
-            query = query.order_by(Spot.rating.desc().nullslast()).limit(limit)
-
-            result = await db.execute(query)
-            spots = result.scalars().all()
+            result = await db.execute(_text(sql), params)
+            rows = result.fetchall()
 
             spot_dicts = []
-            for spot in spots:
+            for row in rows:
                 spot_dicts.append({
-                    "id": str(spot.id),
-                    "name": spot.name,
-                    "city": spot.city,
-                    "category": spot.category,
-                    "description": spot.description,
-                    "rating": spot.rating or 0,
-                    "tags": spot.tags,
+                    "id": str(row.id),
+                    "name": row.name,
+                    "city": row.city,
+                    "category": row.category,
+                    "description": row.description,
+                    "rating": row.rating or 0,
+                    "tags": row.tags,
                     "_source": "rating",
                 })
 
