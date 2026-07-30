@@ -398,120 +398,36 @@ class KnowledgeService:
             path_pg_ft: list = []
             path_rating: list = []
 
-            for name, call, timeout in (
-                ("pgvector", KnowledgeService._pgvector_search(db, rewritten_query, city, category, limit * 2), 3.0),
-                ("spot_docs", KnowledgeService._spot_docs_search(db, rewritten_query, keywords, city, category, limit * 2), 3.0),
-                # pg_fulltext 传原始 query（不传 extract_keywords — 关键词含城市名，不在 text 字段中）
-                ("pg_fulltext", KnowledgeService._pg_fulltext_search(db, [query], city, category, limit * 2), 3.0),
-                ("rating", KnowledgeService._rating_search(db, city, category, limit * 2), 3.0),
+            # pgvector / spot_docs 依赖 Embedding 模型（加载/推理不稳定），临时跳过
+            for name, call in (
+                ("rating", KnowledgeService._rating_search(db, city, category, limit * 2)),
+                ("pg_fulltext", KnowledgeService._pg_fulltext_search(db, [query], city, category, limit * 2)),
             ):
                 try:
-                    result = await asyncio.wait_for(call, timeout=timeout)
-                    if name == "pgvector":
-                        path_pgvector = result
-                    elif name == "spot_docs":
-                        path_docs = result
-                    elif name == "pg_fulltext":
+                    result = await call
+                    if name == "pg_fulltext":
                         path_pg_ft = result
                     elif name == "rating":
                         path_rating = result
                     logger.debug(f"召回路径 {name} 完成", count=len(result))
-                except asyncio.TimeoutError:
-                    logger.warning(f"召回路径 {name} 超时（>{timeout}s），跳过")
                 except Exception as e:
                     logger.error(f"召回路径 {name} 失败", error=str(e))
 
-            # 4. 加权 RRF 融合（可信度调节权重）
-            #    权重：事实向量 1.0 / 文本向量 0.9 / 全文 0.7 / 评分 0.5
-            paths = [path_pgvector, path_docs, path_pg_ft, path_rating]
-            weights = [1.0, 0.9, 0.7, 0.5]
+            # 4. 融合（当前仅 rating + pg_fulltext 两条路径）
+            paths = [path_pg_ft, path_rating]
+            weights = [0.7, 0.5]
             try:
-                fused = rrf_merge_with_weights(
-                    paths,
-                    weights,
-                    id_key="id",
-                    score_adjuster=weight_by_credibility,
-                )
+                fused = rrf_merge_with_weights(paths, weights, id_key="id", score_adjuster=weight_by_credibility)
             except Exception as e:
                 logger.error("加权 RRF 失败，降级为普通 RRF", error=str(e))
-                fused = rrf_merge([path_pgvector, path_docs, path_pg_ft, path_rating], id_key="id")
+                fused = rrf_merge(paths, id_key="id")
             logger.info("RRF 融合完成", fused_count=len(fused))
-
-            # 4.5 把文本层证据/可信度显式挂回融合结果（不受 RRF 合并顺序覆盖影响）
-            evidence_by_spot: Dict[str, Dict[str, Any]] = {}
-            for d in path_docs:
-                sid = str(d.get("id"))
-                if d.get("evidence") and sid not in evidence_by_spot:
-                    evidence_by_spot[sid] = d
-            for item in fused:
-                ev = evidence_by_spot.get(str(item.get("id")))
-                if ev:
-                    item["evidence"] = ev.get("evidence")
-                    item["credibility_score"] = max(
-                        float(item.get("credibility_score", 0.0) or 0.0),
-                        float(ev.get("credibility_score", 0.0) or 0.0),
-                    )
-                    item["source_type"] = ev.get("source_type")
-                    item["source_url"] = ev.get("source_url")
-                    item["source_name"] = ev.get("source_name")
 
             if not fused:
                 logger.warning("RRF 融合后无结果")
                 return []
 
-            # 5. Cross-Encoder 重排（叠加可信度特征）
-            rerank_candidates = fused[:20]  # 取前 20 个进行重排
-
-            # 优化：如果第一名分数远高于其他，跳过重排
-            skip_rerank = (
-                len(rerank_candidates) > 0
-                and rerank_candidates[0].get("_rrf_score", 0) > 0.04
-            )
-
-            if len(rerank_candidates) > 1 and not skip_rerank:
-                try:
-                    # 准备重排文档（含文本层真实证据片段）
-                    rerank_docs = [
-                        KnowledgeService._build_spot_document(c) for c in rerank_candidates
-                    ]
-                    # 可信度特征：带 spot_docs 真实来源的候选用其显式 credibility_score；
-                    # 无外部文本来源的景点取中下位 0.3，确保真实引用源（wiki/官方等）
-                    # 在重排中不被"无来源"的高评分景点压制（避免证据被 top_k 截断丢弃）。
-                    creds = []
-                    for c in rerank_candidates:
-                        cs = c.get("credibility_score")
-                        if isinstance(cs, (int, float)):
-                            creds.append(float(cs))
-                        else:
-                            creds.append(0.3)
-
-                    # 执行重排（可信度后置微调）
-                    reranked = rerank_with_credibility(
-                        rewritten_query,
-                        rerank_docs,
-                        creds,
-                        top_k=min(limit, len(rerank_candidates)),
-                    )
-
-                    # 按重排结果重新映射（使用 final_score）
-                    reranked_map = {
-                        r["text"]: r.get("final_score", r["score"]) for r in reranked
-                    }
-                    reranked_items = sorted(
-                        rerank_candidates,
-                        key=lambda x: reranked_map.get(
-                            KnowledgeService._build_spot_document(x), -1.0
-                        ),
-                        reverse=True,
-                    )[:limit]
-
-                    logger.info("重排完成", reranked_count=len(reranked_items))
-                    return reranked_items
-                except Exception as e:
-                    logger.error("重排失败，降级到 RRF 排序", error=str(e))
-                    # 降级：使用 RRF 排序结果
-
-            # 6. 返回最终结果
+            # 当前仅 rating + pg_fulltext 两条路径，跳过 Cross-Encoder 重排（模型加载慢）
             final_items = fused[:limit]
             logger.info("RAG 检索完成", final_count=len(final_items))
             return final_items
@@ -869,3 +785,7 @@ class KnowledgeService:
                         lines.append(f"   - 原文链接：{ev['source_url']}")
 
         return "\n".join(lines)
+
+
+# 模块级别名：retrieve_knowledge_tool 通过 from ... import search_spots 导入
+search_spots = KnowledgeService.search_spots
