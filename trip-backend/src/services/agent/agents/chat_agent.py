@@ -521,16 +521,66 @@ class ChatAgent(BaseAgent):
                 return None
 
             result_str = await tool_fn.ainvoke(args)
-            data = _json.loads(result_str) if isinstance(result_str, str) else result_str
+
+            # 工具可能返回 JSON（卡片结构）或纯文本（检索类工具的格式化摘要）。
+            # 之前默认按 JSON 解析，对 retrieve_knowledge_tool / search_hotels_tool 等
+            # 返回纯文本摘要的工具会失败 → 静默丢弃 → 用户只看到「让我先查查…」却无下文，
+            # 误以为系统卡死。这里优先按 JSON 解析；不成功则降级为 info_text 卡片，
+            # 让用户实时看到工具的输出。
+            data = None
+            if isinstance(result_str, str):
+                stripped = result_str.strip()
+                if stripped.startswith(("{", "[")):
+                    try:
+                        data = _json.loads(stripped)
+                    except Exception:
+                        data = None
+            else:
+                data = result_str
 
             if tool_name == "search_nearby_commute_pois_tool":
+                if data is None:
+                    return None
                 return await self._emit_poi_card(data, args, user_msg)
             elif tool_name == "compute_optimal_commute_tool":
+                if data is None:
+                    return None
                 return await self._emit_commute_card(data, args, user_msg)
+
+            # 其他工具（retrieve_knowledge_tool / search_hotels_tool / maps_weather 等）：
+            # 把结果文本推给前端作为 info_text 卡片，避免「查了但不显示」造成的卡死感。
+            if isinstance(result_str, str) and result_str.strip():
+                return await self._emit_text_card(tool_name, result_str)
+            return None
         except Exception as e:
             logger.warning("chat_agent|tool_card_failed name=%s err=%s", tool_name, e)
 
         return None
+
+    @staticmethod
+    def _tool_display_name(tool_name: str) -> str:
+        """工具名 → 中文标签，用于 info_text 卡片抬头。"""
+        mapping = {
+            "retrieve_knowledge_tool": "知识库检索",
+            "search_hotels_tool": "酒店检索",
+            "maps_weather": "天气查询",
+        }
+        return mapping.get(tool_name, tool_name)
+
+    async def _emit_text_card(self, tool_name: str, content: str) -> str:
+        """通用文本工具结果 → info_text 卡片（兜底，保证前端至少看到内容）。"""
+        if self.on_event:
+            await self.on_event({
+                "type": "card",
+                "card_type": "info_text",
+                "data": {
+                    "title": self._tool_display_name(tool_name),
+                    "content": content[:1500],  # 截断超长内容，避免挤爆前端
+                },
+            })
+        # 工具结果同时作为 agent 的 reply 内容返回（防御：前端未渲染 card 时仍可见）
+        label = self._tool_display_name(tool_name)
+        return f"{label}结果：\n{content[:800]}"
 
     @staticmethod
     def _is_nearby_query(user_msg: str) -> bool:
