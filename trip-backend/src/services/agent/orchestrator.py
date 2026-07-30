@@ -238,6 +238,11 @@ class Orchestrator:
         )
         research_output = await self.research_agent.run(research_input)
         total_usage = _merge_usage(total_usage, research_output.usage)
+        if research_output.error:
+            return PlanResult(
+                error=f"Research 失败: {research_output.error}",
+                duration_ms=int((time.time() - _t0) * 1000),
+            )
         bundle: ResearchBundle = research_output.result
         await self._emit_progress("research", "done", mode="modify", duration_ms=research_output.duration_ms)
 
@@ -269,7 +274,7 @@ class Orchestrator:
             # 局部模式：先解析 planner 输出，merge 回原行程，再送审
             partial_parsed = self._parse_json_safe(planner_output.result)
             if partial_parsed:
-                merged = self._merge_partial_plan(existing_trip, partial_parsed, target_days)
+                merged = await self._merge_partial_plan(existing_trip, partial_parsed, target_days)
                 raw_to_review = json.dumps(merged, ensure_ascii=False)
         parsed_plan, review_result = await review(
             raw_output=raw_to_review,
@@ -281,6 +286,16 @@ class Orchestrator:
         await self._emit_progress("review", "done", mode="modify", passed=review_result.passed)
 
         duration_ms = int((time.time() - _t0) * 1000)
+        if parsed_plan is None:
+            # review 解析失败但 Planner 未报错：补一个明确错误，避免上层显示"未知错误"
+            issues = review_result.issues if review_result else ["行程解析失败"]
+            return PlanResult(
+                error=f"修改方案无效：{'; '.join(issues)}",
+                raw_output=planner_output.result,
+                review=review_result,
+                usage=total_usage,
+                duration_ms=duration_ms,
+            )
         return PlanResult(
             plan=parsed_plan,
             raw_output=planner_output.result,
