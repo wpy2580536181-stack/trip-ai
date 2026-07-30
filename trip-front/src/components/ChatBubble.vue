@@ -3,7 +3,7 @@
     <div class="bubble-content">
       <div class="message-text" v-if="message.role === 'user'">{{ message.content }}</div>
       <div
-        class="message-text ai-message markdown-body"
+        class="message-text ai-content markdown-body"
         v-else
         :class="{ 'streaming-raw': streaming }"
         v-html="renderedContent"

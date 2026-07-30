@@ -410,6 +410,17 @@ const handleKeydown = (e: KeyboardEvent) => {
   overflow-y: auto;
   padding: 12px;
   min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* compact 模式（窄侧栏 ~340px）：让 AI 消息气泡占满整个 chat-panel 宽度，
+   避免 80% max-width 导致的右侧 ~50px 空白。
+   用户消息仍走 80% 上限（短文本靠右、宽文本留白都更自然）。 */
+.compact :deep(.chat-bubble.ai-message) {
+  max-width: 100%;
+  width: 100%;
 }
 
 .chat-panel-empty {
