@@ -226,25 +226,29 @@ class Orchestrator:
         is_partial = target_days is not None and len(target_days) > 0
         total_usage: TokenUsage = {"prompt": 0, "completion": 0, "total": 0, "cached": 0}
 
-        # ── Phase 1: Research ──
+        # ── Phase 1: Research（局部模式跳过 —— 已有行程数据足够）──
         await self._emit_progress("research", "start", mode="modify")
-        research_input = ResearchInput(
-            city=request.city,
-            days=request.days,
-            budget=request.budget,
-            departure_city=request.departure_city,
-            user_preferences=request.preferences,
-            constraints=modify_request,
-        )
-        research_output = await self.research_agent.run(research_input)
-        total_usage = _merge_usage(total_usage, research_output.usage)
-        if research_output.error:
-            return PlanResult(
-                error=f"Research 失败: {research_output.error}",
-                duration_ms=int((time.time() - _t0) * 1000),
+        if is_partial:
+            bundle = ResearchBundle()
+            await self._emit_progress("research", "done", mode="modify", duration_ms=0, skipped=True)
+        else:
+            research_input = ResearchInput(
+                city=request.city,
+                days=request.days,
+                budget=request.budget,
+                departure_city=request.departure_city,
+                user_preferences=request.preferences,
+                constraints=modify_request,
             )
-        bundle: ResearchBundle = research_output.result
-        await self._emit_progress("research", "done", mode="modify", duration_ms=research_output.duration_ms)
+            research_output = await self.research_agent.run(research_input)
+            total_usage = _merge_usage(total_usage, research_output.usage)
+            if research_output.error:
+                return PlanResult(
+                    error=f"Research 失败: {research_output.error}",
+                    duration_ms=int((time.time() - _t0) * 1000),
+                )
+            bundle: ResearchBundle = research_output.result
+            await self._emit_progress("research", "done", mode="modify", duration_ms=research_output.duration_ms)
 
         # ── Phase 2: Plan ──
         await self._emit_progress("plan", "start", mode="modify", attempt=1)
