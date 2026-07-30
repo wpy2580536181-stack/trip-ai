@@ -331,6 +331,13 @@ const handleKeydown = (e: KeyboardEvent) => {
           :options="cardData.get(idx)!.data.options || []"
           :recommended="cardData.get(idx)!.data.recommended"
         />
+        <div
+          v-if="cardData.has(idx) && cardData.get(idx)!.type === 'info_text'"
+          class="tool-text-card"
+        >
+          <div class="tool-text-card-title">{{ cardData.get(idx)!.data.title }}</div>
+          <div class="tool-text-card-content">{{ cardData.get(idx)!.data.content }}</div>
+        </div>
       </template>
     </div>
 
@@ -499,5 +506,27 @@ const handleKeydown = (e: KeyboardEvent) => {
 
 .chat-panel-input .n-input {
   flex: 1;
+}
+
+.tool-text-card {
+  border: 1px solid var(--n-border-color, #e8e8e8);
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin: 8px 0;
+  background: #fafafa;
+}
+
+.tool-text-card-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #999;
+  margin-bottom: 6px;
+}
+
+.tool-text-card-content {
+  font-size: 14px;
+  color: #1a1a1a;
+  line-height: 1.6;
+  white-space: pre-wrap;
 }
 </style>

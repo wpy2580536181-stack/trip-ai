@@ -81,8 +81,8 @@ async def retrieve_knowledge_tool(query: str, city: str, category: Optional[str]
 # 应用韧性包装（超时 + 重试 + 熔断 + 降级）
 retrieve_knowledge_tool = with_resilience(
     retrieve_knowledge_tool,
-    timeout=15.0,  # 15 秒超时
-    retries=1,
+    timeout=8.0,  # 8 秒超时
+    retries=0,  # 不重试，快速返回 fallback 让 LLM 基于通用知识回答
     fallback="知识库暂时不可用，请基于通用旅行知识回答。",
     circuit_breaker_failure_threshold=5,
     circuit_breaker_recovery_timeout=30.0,

@@ -391,6 +391,13 @@ onMounted(loadConversations)
               :options="cardData.get(index)!.data.options || []"
               :recommended="cardData.get(index)!.data.recommended"
             />
+            <div
+              v-if="cardData.has(index) && cardData.get(index)!.type === 'info_text'"
+              class="tool-text-card"
+            >
+              <div class="tool-text-card-title">{{ cardData.get(index)!.data.title }}</div>
+              <div class="tool-text-card-content">{{ cardData.get(index)!.data.content }}</div>
+            </div>
           </template>
           <div v-if="isStreaming" class="streaming-indicator">
             <n-spin size="small" />
@@ -649,5 +656,27 @@ onMounted(loadConversations)
 
 .input-wrapper :deep(.n-input) {
   flex: 1;
+}
+
+.tool-text-card {
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin: 8px 0;
+  background: var(--bg-secondary);
+}
+
+.tool-text-card-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.tool-text-card-content {
+  font-size: 14px;
+  color: var(--text-primary);
+  line-height: 1.6;
+  white-space: pre-wrap;
 }
 </style>

@@ -391,48 +391,31 @@ class KnowledgeService:
                 limit=limit,
             )
 
-            # 2. 四路并行召回
-            tasks = []
+            # 2. 四路顺序召回（SQLAlchemy async session 不支持同一 session 并发操作）
+            path_pgvector: list = []
+            path_docs: list = []
+            path_pg_ft: list = []
+            path_rating: list = []
 
-            # 路径 1: pgvector spots 事实向量检索
-            task1 = asyncio.create_task(
-                KnowledgeService._pgvector_search(db, rewritten_query, city, category, limit * 2)
-            )
-            tasks.append(("pgvector", task1))
-
-            # 路径 2: spot_docs 文本层召回（真实外部文本）
-            task_docs = asyncio.create_task(
-                KnowledgeService._spot_docs_search(db, rewritten_query, keywords, city, category, limit * 2)
-            )
-            tasks.append(("spot_docs", task_docs))
-
-            # 路径 3: PostgreSQL 全文检索(spots)
-            task2 = asyncio.create_task(
-                KnowledgeService._pg_fulltext_search(db, keywords, city, category, limit * 2)
-            )
-            tasks.append(("pg_fulltext", task2))
-
-            # 路径 4: 评分排序（基础召回）
-            task3 = asyncio.create_task(
-                KnowledgeService._rating_search(db, city, category, limit * 2)
-            )
-            tasks.append(("rating", task3))
-
-            # 等待所有任务完成（收集异常，不中断）
-            results = {}
-            for name, task in tasks:
+            for name, call in (
+                ("pgvector", KnowledgeService._pgvector_search(db, rewritten_query, city, category, limit * 2)),
+                ("spot_docs", KnowledgeService._spot_docs_search(db, rewritten_query, keywords, city, category, limit * 2)),
+                ("pg_fulltext", KnowledgeService._pg_fulltext_search(db, keywords, city, category, limit * 2)),
+                ("rating", KnowledgeService._rating_search(db, city, category, limit * 2)),
+            ):
                 try:
-                    result = await task
-                    results[name] = result
+                    result = await call
+                    if name == "pgvector":
+                        path_pgvector = result
+                    elif name == "spot_docs":
+                        path_docs = result
+                    elif name == "pg_fulltext":
+                        path_pg_ft = result
+                    elif name == "rating":
+                        path_rating = result
                     logger.debug(f"召回路径 {name} 完成", count=len(result))
                 except Exception as e:
                     logger.error(f"召回路径 {name} 失败", error=str(e))
-                    results[name] = []
-
-            path_pgvector = results.get("pgvector", [])
-            path_docs = results.get("spot_docs", [])
-            path_pg_ft = results.get("pg_fulltext", [])
-            path_rating = results.get("rating", [])
 
             # 4. 加权 RRF 融合（可信度调节权重）
             #    权重：事实向量 1.0 / 文本向量 0.9 / 全文 0.7 / 评分 0.5
