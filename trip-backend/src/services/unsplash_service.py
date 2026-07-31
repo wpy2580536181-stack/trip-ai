@@ -265,13 +265,24 @@ async def _try_fetch_amap_photo(call_tool, city: str, name: str) -> Optional[str
             return None
 
         poi = pois[0]
-        photos = poi.get("photos", {})
-        if isinstance(photos, dict):
+        photos = poi.get("photos", [])
+        url = None
+
+        if isinstance(photos, list) and photos:
+            url = photos[0].get("url")
+        elif isinstance(photos, dict):
             url = photos.get("url")
-            if url:
-                logging.debug("[Amap] Photo found", extra={"city": city, "spot_name": name, "url": url[:80]})
-                return url
-        logging.debug("[Amap] No photos in POI", extra={"city": city, "spot_name": name, "poi_name": poi.get("name", "?")})
+
+        if url:
+            logging.debug(
+                "[Amap] Photo found",
+                extra={"city": city, "spot_name": name, "url": url[:80]},
+            )
+            return url
+        logging.debug(
+            "[Amap] No photos in POI",
+            extra={"city": city, "spot_name": name, "poi_name": poi.get("name", "?")},
+        )
         return None
     except Exception as exc:
         logging.warning(
@@ -321,16 +332,19 @@ async def fetch_images(itinerary: Optional[dict]) -> Optional[dict]:
         itinerary: 行程数据字典（原地修改）
 
     Returns:
-        修改后的 itinerary（若未配置 API Key 则原样返回）
+        修改后的 itinerary（若无可用的图片源则原样返回）
     """
     if not itinerary:
         return itinerary
 
-    if not settings.unsplash_access_key:
-        return itinerary
-
     spots = _parse_spots(itinerary)
     if not spots:
+        return itinerary
+
+    # 判断是否有可用的图片源：Amap MCP 或 Unsplash 至少其一
+    has_amap = bool(getattr(settings, "amap_mcp_server_path", ""))
+    has_unsplash = bool(getattr(settings, "unsplash_access_key", ""))
+    if not has_amap and not has_unsplash:
         return itinerary
 
     # 去重
@@ -355,7 +369,7 @@ async def fetch_images(itinerary: Optional[dict]) -> Optional[dict]:
     # 逐景点查图（Amap 优先，Unsplash 降级）
     for key, spot in pending.items():
         photo_url = await _fetch_amap_photo(spot["city"], spot["name"])
-        if not photo_url:
+        if not photo_url and has_unsplash:
             query = _build_search_query(spot["city"], spot["name"])
             result = await _search_photo_by_name(query, spot["name"])
             photo_url = result.get("url") if result else None
