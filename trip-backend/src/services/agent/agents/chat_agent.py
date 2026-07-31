@@ -465,6 +465,9 @@ class ChatAgent(BaseAgent):
                 if is_food and pois:
                     pois = [p for p in pois if "住宿" not in (p.get("category") or "")]
                 logger.info("chat_agent|pre_llm_poi_result count=%d", len(pois) if pois else 0)
+                # 过滤后无结果：直接返回未找到话术，避免“已查询附近结果如上”误导用户
+                if not pois:
+                    return "附近暂未找到相关地点。"
                 await self._emit_poi_card(pois, {}, user_msg)
                 # 预检测成功 → 重置附近/通勤工具的熔断器（熔断器可能因之前配置问题打开）
                 for name in ("search_commute_tips_tool", "search_nearby_commute_pois_tool", "compute_optimal_commute_tool"):

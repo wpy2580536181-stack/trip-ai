@@ -75,19 +75,23 @@ class MCPCircuitBreaker:
     @property
     def opened(self) -> bool:
         """熔断器是否处于打开状态。"""
-        return self._breaker.opened if hasattr(self._breaker, 'opened') else False
+        # pybreaker >= 1.1 不再提供 opened 属性，通过 state 判断
+        return self._breaker.state.name == "open"
     
     async def call(self, func, *args, **kwargs):
         """通过熔断器调用函数。
 
         处理策略：
-        - async 函数：直接 await（在调用方事件循环执行），避免跨 loop 问题
-        - sync 函数：走 executor + pybreaker
+        - async 函数：用 pybreaker 的 calling() 上下文管理器包住 await，
+          既保持与调用方同一事件循环（subprocess 管道等 loop-bound 资源正常），
+          又保留熔断语义（open 状态直接短路、失败/成功计数正常记录）
+        - sync 函数：走 executor + pybreaker.call
         """
         if asyncio.iscoroutinefunction(func):
-            # async 函数（如 _send_request）：直接 await，保持与调用方同一事件循环
-            # 使 subprocess 管道等 loop-bound 资源正常工作
-            return await func(*args, **kwargs)
+            # 注意：不能直接 return await func(...)，否则完全绕过熔断器
+            # （所有 MCP 调用传入的都是 async 函数，熔断将永久失效）
+            with self._breaker.calling():
+                return await func(*args, **kwargs)
 
         loop = asyncio.get_event_loop()
         return await loop.run_in_executor(

@@ -4,7 +4,6 @@
 """
 
 import asyncio
-import logging
 import time
 from typing import Optional, Dict, List
 
@@ -13,8 +12,6 @@ import httpx
 from src.config.settings import settings
 from src.services.http.retry import http_with_retry_on_429, request_id_headers
 from src.utils.logger import trip_log
-
-logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
 # 常量
@@ -253,15 +250,18 @@ async def _try_fetch_amap_photo(call_tool, city: str, name: str) -> Optional[str
         try:
             data = json.loads(raw)
         except json.JSONDecodeError:
-            logging.warning(
+            trip_log.warning(
                 "[Amap] Invalid JSON response",
-                extra={"city": city, "spot_name": name, "raw_preview": raw[:100]},
+                err="invalid json",
+                city=city,
+                spot_name=name,
+                raw_preview=raw[:100],
             )
             return None
 
         pois = data.get("pois", [{}])
         if not pois:
-            logging.debug("[Amap] No POIs found", extra={"city": city, "spot_name": name})
+            trip_log.debug("[Amap] No POIs found", city=city, spot_name=name)
             return None
 
         poi = pois[0]
@@ -274,20 +274,26 @@ async def _try_fetch_amap_photo(call_tool, city: str, name: str) -> Optional[str
             url = photos.get("url")
 
         if url:
-            logging.debug(
+            trip_log.debug(
                 "[Amap] Photo found",
-                extra={"city": city, "spot_name": name, "url": url[:80]},
+                city=city,
+                spot_name=name,
+                url=url[:80],
             )
             return url
-        logging.debug(
+        trip_log.debug(
             "[Amap] No photos in POI",
-            extra={"city": city, "spot_name": name, "poi_name": poi.get("name", "?")},
+            city=city,
+            spot_name=name,
+            poi_name=poi.get("name", "?"),
         )
         return None
     except Exception as exc:
-        logging.warning(
+        trip_log.warning(
             "[Amap] Query failed",
-            extra={"err": str(exc), "city": city, "spot_name": name},
+            err=str(exc),
+            city=city,
+            spot_name=name,
         )
         return None
 
@@ -342,7 +348,8 @@ async def fetch_images(itinerary: Optional[dict]) -> Optional[dict]:
         return itinerary
 
     # 判断是否有可用的图片源：Amap MCP 或 Unsplash 至少其一
-    has_amap = bool(getattr(settings, "amap_mcp_server_path", ""))
+    # 注意：amap_mcp_server_path 默认值为 "npx" 恒非空，必须判断 API key
+    has_amap = bool(getattr(settings, "amap_maps_api_key", ""))
     has_unsplash = bool(getattr(settings, "unsplash_access_key", ""))
     if not has_amap and not has_unsplash:
         return itinerary
@@ -368,7 +375,9 @@ async def fetch_images(itinerary: Optional[dict]) -> Optional[dict]:
 
     # 逐景点查图（Amap 优先，Unsplash 降级）
     for key, spot in pending.items():
-        photo_url = await _fetch_amap_photo(spot["city"], spot["name"])
+        photo_url = None
+        if has_amap:
+            photo_url = await _fetch_amap_photo(spot["city"], spot["name"])
         if not photo_url and has_unsplash:
             query = _build_search_query(spot["city"], spot["name"])
             result = await _search_photo_by_name(query, spot["name"])

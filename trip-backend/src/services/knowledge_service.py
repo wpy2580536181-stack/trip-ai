@@ -399,17 +399,19 @@ class KnowledgeService:
             path_rating: list = []
 
             # pgvector / spot_docs 依赖 Embedding 模型（加载/推理不稳定），临时跳过
-            for name, call in (
-                ("rating", KnowledgeService._rating_search(db, city, category, limit * 2)),
-                ("pg_fulltext", KnowledgeService._pg_fulltext_search(db, [query], city, category, limit * 2)),
+            for name, call, timeout in (
+                ("rating", KnowledgeService._rating_search(db, city, category, limit * 2), 3.0),
+                ("pg_fulltext", KnowledgeService._pg_fulltext_search(db, [query], city, category, limit * 2), 3.0),
             ):
                 try:
-                    result = await call
+                    result = await asyncio.wait_for(call, timeout=timeout)
                     if name == "pg_fulltext":
                         path_pg_ft = result
                     elif name == "rating":
                         path_rating = result
                     logger.debug(f"召回路径 {name} 完成", count=len(result))
+                except asyncio.TimeoutError:
+                    logger.warning(f"召回路径 {name} 超时（{timeout}s），跳过该路径", timeout=timeout)
                 except Exception as e:
                     logger.error(f"召回路径 {name} 失败", error=str(e))
 

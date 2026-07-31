@@ -58,12 +58,36 @@ async def _ensure_mcp_process() -> asyncio.subprocess.Process:
             env=env,
         )
 
-        # 等待进程就绪
-        await asyncio.sleep(2)
+        # 轮询探测 server 就绪：发送 tools/list 握手请求并等待带超时的响应。
+        # 固定 sleep(2) 无法区分“已就绪”与“npx 仍在下载/启动”（此时 returncode 为 None），
+        # 首次调用可能因 server 未就绪而干等 30s 超时。
+        ready = False
+        for _ in range(10):
+            if _mcp_process.returncode is not None:
+                stderr = (await _mcp_process.stderr.read()).decode() if _mcp_process.stderr else ""
+                raise RuntimeError(f"高德 MCP server 启动失败 (exit {_mcp_process.returncode}): {stderr[:200]}")
 
-        if _mcp_process.returncode is not None:
-            stderr = (await _mcp_process.stderr.read()).decode() if _mcp_process.stderr else ""
-            raise RuntimeError(f"高德 MCP server 启动失败 (exit {_mcp_process.returncode}): {stderr[:200]}")
+            try:
+                # 直接向子进程 stdin/stdout 握手（不走 _send_request，避免递归调用 _ensure_mcp_process）
+                probe = json.dumps({"jsonrpc": "2.0", "id": 0, "method": "tools/list", "params": {}}).encode() + b"\n"
+                _mcp_process.stdin.write(probe)
+                await _mcp_process.stdin.drain()
+                line = await asyncio.wait_for(_mcp_process.stdout.readline(), timeout=1.0)
+                if line:
+                    try:
+                        resp = json.loads(line.decode())
+                    except json.JSONDecodeError:
+                        continue
+                    # 校验响应对应本次握手请求（id=0），避免误读其他输出
+                    if resp.get("id") == 0 and "result" in resp:
+                        ready = True
+                        break
+            except (asyncio.TimeoutError, OSError, ValueError):
+                pass
+            await asyncio.sleep(1)
+
+        if not ready:
+            raise RuntimeError("高德 MCP server 启动超时（10s），未能完成 tools/list 握手")
 
         logger.info("高德 MCP server 进程已启动")
         return _mcp_process
