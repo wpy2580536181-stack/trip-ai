@@ -86,7 +86,9 @@ async def search_photos(query: str, per_page: int = 3) -> List[dict]:
     """
     access_key = settings.unsplash_access_key
     if not access_key:
-        trip_log.warning(msg="UNSPLASH_ACCESS_KEY not configured, skipping Unsplash")
+        trip_log.warning(
+            "UNSPLASH_ACCESS_KEY not configured, skipping Unsplash",
+        )
         return []
 
     params = {
@@ -109,10 +111,10 @@ async def search_photos(query: str, per_page: int = 3) -> List[dict]:
                 headers=headers,
             )
             if resp.status_code == 429:
-                trip_log.warning(msg="[Unsplash] search rate limited (429)")
+                trip_log.warning("[Unsplash] search rate limited (429)")
                 return []
             if resp.status_code != 200:
-                trip_log.warning(status=resp.status_code, msg="[Unsplash] search failed")
+                trip_log.warning("[Unsplash] search failed", status=resp.status_code)
                 return []
 
             data = resp.json()
@@ -130,7 +132,7 @@ async def search_photos(query: str, per_page: int = 3) -> List[dict]:
             ]
 
     except Exception as exc:
-        trip_log.warning(err=str(exc), msg="[Unsplash] search error")
+        trip_log.warning("[Unsplash] search error", err=str(exc))
         return []
 
 
@@ -170,7 +172,7 @@ async def get_photo_url(photo_id: str, width: int = 800, height: int = 600) -> O
             data = resp.json()
             return data.get("urls", {}).get("regular")
     except Exception as exc:
-        trip_log.warning(err=str(exc), photo_id=photo_id, msg="[Unsplash] get_photo_url failed")
+        trip_log.warning("[Unsplash] get_photo_url failed", err=str(exc), photo_id=photo_id)
         return None
 
 
@@ -198,19 +200,84 @@ async def _search_photo_by_name(query: str, name: str) -> Optional[dict]:
 # Amap MCP 优先查图（对齐 imageFetcher.ts fetchAmapPhoto）
 # ---------------------------------------------------------------------------
 
+def _clean_amap_keyword(name: str) -> str:
+    """清理地点名称：去掉括号/引号及其内容，去除多余空格。
+
+    用于 Amap MCP 查询失败时的重试，提高宽泛/带后缀名称的命中率。
+    例如：
+      "全聚德(北京和平门店)" → "全聚德"
+      "故宫博物院（北京）"   → "故宫博物院"
+    """
+    import re
+    # 去掉中文括号()、英文括号[]、引号""''及其内容
+    n = re.sub(r'[\(\[\（「『][^\)\]\）』」]*[\)\]\）』」]', '', name)
+    # 去掉引号包围的内容
+    n = re.sub(r'[\'\"]', '', n)
+    # 合并多个空格为单个
+    n = re.sub(r'\s+', ' ', n).strip()
+    return n
+
+
 async def _fetch_amap_photo(city: str, name: str) -> Optional[str]:
-    """通过高德 MCP maps_text_search 查 POI 照片 URL。"""
-    try:
-        from src.services.mcp.amap_client import call_tool
-        raw = await call_tool("maps_text_search", {"keywords": name, "city": city})
-        import json
-        data = json.loads(raw)
-        poi = data.get("pois", [{}])[0] if data.get("pois") else {}
-        photos = poi.get("photos", {})
-        url = photos.get("url") if isinstance(photos, dict) else None
+    """通过高德 MCP maps_text_search 查 POI 照片 URL。
+
+    优化策略：
+    1. 先尝试原始名称
+    2. 若无结果/无图，尝试简化名称（去掉括号、引号及其中内容）
+    3. 两次都失败才返回 None，触发 Unsplash 降级
+    """
+    from src.services.mcp.amap_client import call_tool
+
+    # 尝试1：原始名称
+    url = await _try_fetch_amap_photo(call_tool, city, name)
+    if url:
         return url
+
+    # 尝试2：简化名称（去掉括号、引号）
+    cleaned = _clean_amap_keyword(name)
+    if cleaned and cleaned != name:
+        url = await _try_fetch_amap_photo(call_tool, city, cleaned)
+        if url:
+            return url
+
+    return None
+
+
+async def _try_fetch_amap_photo(call_tool, city: str, name: str) -> Optional[str]:
+    """尝试通过 Amap MCP 查询单次，返回照片 URL 或 None。"""
+    try:
+        raw = await call_tool("maps_text_search", {"keywords": name, "city": city})
+        if not raw or not raw.strip():
+            return None
+        import json
+        try:
+            data = json.loads(raw)
+        except json.JSONDecodeError:
+            logging.warning(
+                "[Amap] Invalid JSON response",
+                extra={"city": city, "spot_name": name, "raw_preview": raw[:100]},
+            )
+            return None
+
+        pois = data.get("pois", [{}])
+        if not pois:
+            logging.debug("[Amap] No POIs found", extra={"city": city, "spot_name": name})
+            return None
+
+        poi = pois[0]
+        photos = poi.get("photos", {})
+        if isinstance(photos, dict):
+            url = photos.get("url")
+            if url:
+                logging.debug("[Amap] Photo found", extra={"city": city, "spot_name": name, "url": url[:80]})
+                return url
+        logging.debug("[Amap] No photos in POI", extra={"city": city, "spot_name": name, "poi_name": poi.get("name", "?")})
+        return None
     except Exception as exc:
-        trip_log.warning(err=str(exc), city=city, name=name, msg="[imageFetcher] Amap photo search failed")
+        logging.warning(
+            "[Amap] Query failed",
+            extra={"err": str(exc), "city": city, "spot_name": name},
+        )
         return None
 
 
@@ -307,29 +374,38 @@ async def fetch_images(itinerary: Optional[dict]) -> Optional[dict]:
 async def enrich_trip_with_images(parsed: dict) -> None:
     """为行程数据中的景点附加图片 URL。
 
-    同时兼容 Node.js 的 dailyItinerary 格式和 days/spots 格式：
+    同���兼容 Node.js 的 dailyItinerary 格式和 days/spots 格式：
     - days[*].spots[*]（imageFetcher 格式）
-    - dailyItinerary[*].{morning,afternoon,evening}（geocodeService 格式）
+    - dailyItinerary[*].{morning,afternoon,evening,breakfast,lunch,dinner,accommodation}（geocodeService 格式）
     """
-    # 尝试适配 dailyItinerary → days/spots 格式供 fetch_images 使用
+    # 有 dailyItinerary → 适配转换，拼装 days[*].spots[*] 结构供 fetch_images 使用
+    # 修复：原条件 `daily_itinerary and not parsed.get("days")` 在 parsed 同时存在
+    # dailyItinerary 和 days（整数，表示总天数）时误入 else 分支，导致 _parse_spots
+    # 因 days 不是列表而 TypeError 失败。现在只要 dailyItinerary 存在就走适配路径。
     daily_itinerary = parsed.get("dailyItinerary", [])
-    if daily_itinerary and not parsed.get("days"):
-        # 转换格式：dailyItinerary[*].{morning,afternoon,evening} → days[*].spots
+    if daily_itinerary:
+        # 转换格式：dailyItinerary[*].{morning,...,accommodation} → days[*].spots
+        # 覆盖全部 7 个时段，包括餐饮和住宿
+        _PERIODS = ("morning", "afternoon", "evening", "breakfast", "lunch", "dinner", "accommodation")
         days = []
+        slot_period_map: list[list[str]] = []  # 记录每个 spot 对应的 period，用于回写
         for day in daily_itinerary:
             spots = []
-            for period in ("morning", "afternoon", "evening"):
+            day_periods = []
+            for period in _PERIODS:
                 slot = day.get(period)
                 if slot and slot.get("spot"):
-                    spots.append({"name": slot["spot"], "spot": slot["spot"], "_slot_ref": slot})
+                    spots.append({"name": slot["spot"], "spot": slot["spot"], "_period": period})
+                    day_periods.append(period)
             days.append({"spots": spots})
+            slot_period_map.append(day_periods)
 
         temp_itinerary = {"city": parsed.get("city", ""), "days": days}
         await fetch_images(temp_itinerary)
 
         # 将 imageUrl 回写到原始 dailyItinerary 的 slot
-        for day_data, temp_day in zip(daily_itinerary, days):
-            for period, temp_spot in zip(("morning", "afternoon", "evening"), temp_day["spots"]):
+        for day_data, temp_day, day_periods in zip(daily_itinerary, days, slot_period_map):
+            for period, temp_spot in zip(day_periods, temp_day["spots"]):
                 slot = day_data.get(period)
                 if slot and temp_spot.get("imageUrl"):
                     slot["imageUrl"] = temp_spot["imageUrl"]

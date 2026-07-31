@@ -21,34 +21,50 @@ _request_id_lock = asyncio.Lock()
 
 
 async def _ensure_mcp_process() -> asyncio.subprocess.Process:
-    """确保 MCP server 进程已启动。"""
+    """确保 MCP server 进程已启动。
+
+    通过 npx 运行 @amap/amap-maps-mcp-server，自动下载无需手动安装。
+    环境变量 AMAP_KEY 由 settings.amap_maps_api_key 注入。
+    """
     global _mcp_process
-    
+
     async with _mcp_lock:
         if _mcp_process and _mcp_process.returncode is None:
             return _mcp_process
-        
-        # 启动新进程
+
         from src.config.settings import settings
-        
-        cmd = [
-            "node",
-            settings.AMAP_MCP_SERVER_PATH,
-        ]
-        
+
+        if not settings.amap_maps_api_key:
+            raise RuntimeError("AMAP_MAPS_API_KEY not configured, cannot start Amap MCP server")
+
+        # 使用 npx 自动解析 @amap/amap-maps-mcp-server，无需预安装
+        # amap_mcp_server_path 配置为 "npx"（或 npx 的绝对路径，如 /usr/local/bin/npx）
+        cmd = [settings.amap_mcp_server_path or "npx", "-y", "@amap/amap-maps-mcp-server"]
+
+        # 注入环境变量：高德 MCP server 需要 AMAP_MAPS_API_KEY
+        # 保留 AMAP_KEY 作为 fallback（兼容旧版 npm 包）
+        env = {
+            **__import__("os").environ,
+            "AMAP_MAPS_API_KEY": settings.amap_maps_api_key,
+            "AMAP_KEY": settings.amap_maps_api_key,
+        }
+
+        logger.info("Starting Amap MCP server", extra={"cmd": " ".join(cmd)})
         _mcp_process = await asyncio.create_subprocess_exec(
             *cmd,
             stdin=asyncio.subprocess.PIPE,
             stdout=asyncio.subprocess.PIPE,
             stderr=asyncio.subprocess.PIPE,
+            env=env,
         )
-        
+
         # 等待进程就绪
-        await asyncio.sleep(1)
-        
+        await asyncio.sleep(2)
+
         if _mcp_process.returncode is not None:
-            raise RuntimeError("高德 MCP server 进程启动失败")
-        
+            stderr = (await _mcp_process.stderr.read()).decode() if _mcp_process.stderr else ""
+            raise RuntimeError(f"高德 MCP server 启动失败 (exit {_mcp_process.returncode}): {stderr[:200]}")
+
         logger.info("高德 MCP server 进程已启动")
         return _mcp_process
 

@@ -78,7 +78,17 @@ class MCPCircuitBreaker:
         return self._breaker.opened if hasattr(self._breaker, 'opened') else False
     
     async def call(self, func, *args, **kwargs):
-        """通过熔断器调用函数。"""
+        """通过熔断器调用函数。
+
+        处理策略：
+        - async 函数：直接 await（在调用方事件循环执行），避免跨 loop 问题
+        - sync 函数：走 executor + pybreaker
+        """
+        if asyncio.iscoroutinefunction(func):
+            # async 函数（如 _send_request）：直接 await，保持与调用方同一事件循环
+            # 使 subprocess 管道等 loop-bound 资源正常工作
+            return await func(*args, **kwargs)
+
         loop = asyncio.get_event_loop()
         return await loop.run_in_executor(
             None,

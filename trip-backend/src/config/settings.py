@@ -54,7 +54,9 @@ class Settings(BaseSettings):
     
     # 高德 MCP
     amap_maps_api_key: str = ""
-    amap_mcp_server_path: str = ""
+    # Amap MCP server 启动命令（默认 "npx"，自动解析 @amap/amap-maps-mcp-server）
+    # 可设为 npx 的绝对路径（如 /usr/local/bin/npx）或自定义脚本路径
+    amap_mcp_server_path: str = "npx"
     unsplash_access_key: str = ""
     
     # Redis 配置

@@ -81,7 +81,7 @@ async def main():
     }
 
     agent = ChatAgent(llm=llm, on_event=on_event, system_prompt="你是旅行助手。", user_id=1)
-    message = "我第二天不想去迪士尼，换个博物馆或者别的景点吧"
+    message = "我想逛街"  # 本轮用户实际输入（截屏 2026-07-30 13.14.16）
 
     print(f"[START] chat_agent.run message={message!r}", flush=True)
     t0 = time.time()
