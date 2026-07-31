@@ -208,7 +208,7 @@ class TripService:
             elif event_type == "tool_end":
                 await queue.put({"type": "tool_end", "name": event.get("name", "")})
 
-            elif event_type in ("trip_modified", "trip_planned"):
+            elif event_type in ("trip_modified", "trip_planned", "trip_diff"):
                 # 行程状态变更结构化事件：透传给前端（先于 complete 入队）
                 await queue.put({"type": event_type, "data": event.get("data")})
 

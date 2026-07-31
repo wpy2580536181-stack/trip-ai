@@ -153,7 +153,7 @@ export interface FetchStreamOptions {
   maxRetries?: number
   /** 自定义退避时间（覆盖默认 1s/2s/4s/8s/16s） */
   retryDelaysMs?: number[]
-  /** 行程状态变更事件（trip_modified / trip_planned），续传重放时可能重复触发，回调需幂等 */
+  /** 行程状态变更事件（trip_modified / trip_planned / trip_diff），续传重放时可能重复触发，回调需幂等 */
   onTripEvent?: (type: string, data: any) => void
   /** 阶段进度事件（如行程生成的 research/plan/review/save 各阶段） */
   onProgress?: (data: any) => void
@@ -219,7 +219,7 @@ export async function fetchStream(
     } else if (ev.type === 'tool_start' || ev.type === 'tool_end') {
       onToolEvent?.(ev.type, ev.name || '')
       options?.onToolEventDetail?.(ev.type, ev.name || '', ev.key)
-    } else if (ev.type === 'trip_modified' || ev.type === 'trip_planned') {
+    } else if (ev.type === 'trip_modified' || ev.type === 'trip_planned' || ev.type === 'trip_diff') {
       options?.onTripEvent?.(ev.type, ev.data)
     } else if (ev.type === 'progress') {
       options?.onProgress?.(ev.data)

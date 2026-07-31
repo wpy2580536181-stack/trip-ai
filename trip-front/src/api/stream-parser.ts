@@ -15,7 +15,7 @@
  */
 
 export interface StreamEvent {
-  type: 'chunk' | 'complete' | 'error' | 'tool_start' | 'tool_end' | 'heartbeat' | 'trip_modified' | 'trip_planned' | 'progress' | 'start'
+  type: 'chunk' | 'complete' | 'error' | 'tool_start' | 'tool_end' | 'heartbeat' | 'trip_modified' | 'trip_planned' | 'trip_diff' | 'progress' | 'start'
   name?: string
   /** 工具事件的业务 key（如 attractions/food/hotels，区分同名工具） */
   key?: string

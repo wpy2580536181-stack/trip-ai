@@ -79,27 +79,39 @@ describe('ChatPanel.vue — trip_modified 结构化事件', () => {
     expect(cb.body.tripId).toBe(7)
   })
 
-  it('收到 trip_modified 事件 → complete 后 emit trip-updated 并回填摘要', async () => {
+  it('收到 trip_diff 事件 → 渲染 Diff 卡片，采纳后 emit trip-updated', async () => {
     const { wrapper, cb } = await mountAndSend()
 
-    cb.onTripEvent!('trip_modified', { newTripId: 99, parentTripId: 1, summary: '已生成修改版行程' })
+    cb.onTripEvent!('trip_diff', {
+      newTripId: 99,
+      parentTripId: 1,
+      changes: [{ day: 2, period: 'afternoon', oldSpot: '旧景点', newSpot: '新景点' }],
+    })
     cb.onComplete({ conversationId: 5 })
     await nextTick()
 
+    // 事件到达后不自动切换，先展示 Diff 卡片供用户确认
+    expect(wrapper.emitted('trip-updated')).toBeUndefined()
+    expect(wrapper.text()).toContain('行程修改建议')
+    expect(wrapper.text()).toContain('新景点')
+
+    // 采纳修改方案 → emit trip-updated
+    wrapper.vm.onDiffConfirm(99)
+    await nextTick()
     expect(wrapper.emitted('trip-updated')).toEqual([[99]])
-    // AI 气泡回填事件摘要（正文不走 chunk 流）
-    const text = wrapper.text()
-    expect(text).toContain('已生成修改版行程')
   })
 
-  it('续传重放同一事件 → 只 emit 一次', async () => {
+  it('续传重放同一事件 → 只渲染一张卡片，确认后只 emit 一次', async () => {
     const { wrapper, cb } = await mountAndSend()
 
-    cb.onTripEvent!('trip_modified', { newTripId: 99, summary: 'S' })
-    cb.onTripEvent!('trip_modified', { newTripId: 99, summary: 'S' })
+    cb.onTripEvent!('trip_diff', { newTripId: 99, parentTripId: 1, changes: [{ day: 1, period: 'morning', oldSpot: 'A', newSpot: 'B' }] })
+    cb.onTripEvent!('trip_diff', { newTripId: 99, parentTripId: 1, changes: [{ day: 1, period: 'morning', oldSpot: 'A', newSpot: 'B' }] })
     cb.onComplete({ conversationId: 5 })
     await nextTick()
 
+    // 同一次会话中重放同一事件：只渲染一张卡片（同 idx 覆盖），确认也只 emit 一次
+    wrapper.vm.onDiffConfirm(99)
+    await nextTick()
     expect(wrapper.emitted('trip-updated')).toEqual([[99]])
   })
 
@@ -107,13 +119,17 @@ describe('ChatPanel.vue — trip_modified 结构化事件', () => {
     const { wrapper, cb } = await mountAndSend()
 
     cb.onChunk('好的，正在为您修改…')
-    cb.onTripEvent!('trip_modified', { newTripId: 99, summary: '已生成修改版行程' })
+    cb.onTripEvent!('trip_diff', { newTripId: 99, parentTripId: 1, changes: [{ day: 2, period: 'afternoon', oldSpot: '旧', newSpot: '新' }] })
     cb.onComplete({ conversationId: 5 })
     await nextTick()
 
-    expect(wrapper.emitted('trip-updated')).toEqual([[99]])
+    // Diff 卡片展示，不自动切换、不覆盖 chunk 正文
+    expect(wrapper.emitted('trip-updated')).toBeUndefined()
     expect(wrapper.text()).toContain('好的，正在为您修改…')
-    expect(wrapper.text()).not.toContain('已生成修改版行程')
+    expect(wrapper.text()).toContain('行程修改建议')
+    wrapper.vm.onDiffConfirm(99)
+    await nextTick()
+    expect(wrapper.emitted('trip-updated')).toEqual([[99]])
   })
 
   it('无 trip_modified 事件 → 不 emit', async () => {
@@ -138,8 +154,12 @@ describe('ChatPanel.vue — 修改窗口期竞态防护（Fix 4）', () => {
   it('trip-updated 后立即再发消息 → 被拦截；tripId 变化后恢复', async () => {
     const { wrapper, cb } = await mountAndSend(1)
 
-    cb.onTripEvent!('trip_modified', { newTripId: 99, summary: 'S' })
+    cb.onTripEvent!('trip_diff', { newTripId: 99, parentTripId: 1, changes: [{ day: 2, period: 'afternoon', oldSpot: '旧', newSpot: '新' }] })
     cb.onComplete({ conversationId: 5 })
+    await nextTick()
+
+    // 采纳修改方案 → emit trip-updated 并进入窗口期
+    wrapper.vm.onDiffConfirm(99)
     await nextTick()
     expect(wrapper.emitted('trip-updated')).toEqual([[99]])
 

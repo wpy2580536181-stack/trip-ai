@@ -1,9 +1,9 @@
-"""Fix 1/2 链路测试：trigger_modify → 结构化 trip_modified SSE 事件 + usage 合并
+"""Fix 1/2 链路测试：trigger_modify → 结构化 trip_diff SSE 事件 + usage 合并
 
 覆盖：
-- ChatAgent._escalate_modify：成功发出 trip_modified 事件、返回纯文本摘要 + usage
+- ChatAgent._escalate_modify：成功发出 trip_diff 事件（修改预览，前端展示 Diff 卡片供确认）、返回纯文本摘要 + usage
 - ChatAgent.run：升级路径 usage 与 chat LLM usage 合并（Fix 2）
-- TripService.chat_stream：trip_modified 事件透传且先于 complete；落库内容为摘要文本
+- TripService.chat_stream：trip_diff 事件透传且先于 complete；落库内容为摘要文本
 """
 
 import pytest
@@ -44,8 +44,8 @@ def _make_agent(on_event=None) -> ChatAgent:
 class TestEscalateModify:
 
     @pytest.mark.asyncio
-    async def test_success_emits_trip_modified_event(self):
-        """成功：发一次 trip_modified 事件（newTripId/parentTripId/summary），返回纯文本"""
+    async def test_success_emits_trip_diff_event(self):
+        """成功：发一次 trip_diff 事件（newTripId/parentTripId/changes），返回确认提示文本"""
         events = []
 
         async def on_event(e):
@@ -67,16 +67,16 @@ class TestEscalateModify:
         # 返回值为人类可读文本，不再是裸 JSON；usage 透传 Orchestrator 汇总
         assert isinstance(result, str)
         assert '"type"' not in result
-        assert "修改版行程" in result
+        assert "请确认后生效" in result
         assert usage["total"] == 1000
 
-        # 恰好一次结构化事件
-        modified = [e for e in events if e.get("type") == "trip_modified"]
-        assert len(modified) == 1
-        data = modified[0]["data"]
+        # 恰好一次结构化事件（修改预览，前端据此渲染 Diff 卡片）
+        diff_events = [e for e in events if e.get("type") == "trip_diff"]
+        assert len(diff_events) == 1
+        data = diff_events[0]["data"]
         assert data["newTripId"] == 99
         assert data["parentTripId"] == FAKE_META["trip_id"]
-        assert data["summary"] == result
+        assert isinstance(data["changes"], list)
 
     @pytest.mark.asyncio
     async def test_no_trip_meta_returns_hint_without_event(self):
@@ -128,8 +128,7 @@ class TestEscalateModify:
              patch.object(TripService, "_persist_trip", new_callable=AsyncMock, return_value=100):
             result, _usage = await agent._escalate_modify({"modify_request": "改行程"})
 
-        assert "修改版行程" in result
-
+        assert "请确认后生效" in result
 
 # ===========================================================================
 # Fix 2：ChatAgent.run 的 usage 合并
@@ -289,11 +288,11 @@ class TestEscalatePlan:
 # ===========================================================================
 
 
-class TestChatStreamTripModified:
+class TestChatStreamTripDiff:
 
     @pytest.mark.asyncio
-    async def test_trip_modified_passthrough_before_complete(self):
-        """Agent 发 trip_modified → SSE 输出含该事件且先于 complete；落库为摘要文本"""
+    async def test_trip_diff_passthrough_before_complete(self):
+        """Agent 发 trip_diff → SSE 输出含该事件且先于 complete；落库为摘要文本"""
         from src.models.conversation import Conversation
 
         svc = TripService()
@@ -309,8 +308,8 @@ class TestChatStreamTripModified:
 
             async def fake_chat(*args, on_event=None, **kwargs):
                 await on_event({
-                    "type": "trip_modified",
-                    "data": {"newTripId": 99, "parentTripId": 1, "summary": summary},
+                    "type": "trip_diff",
+                    "data": {"newTripId": 99, "parentTripId": 1, "changes": []},
                 })
                 await on_event({"type": "complete", "content": summary, "usage": {"total": 10}})
 
@@ -323,15 +322,15 @@ class TestChatStreamTripModified:
                 events.append(event)
 
         event_types = [e.get("type") for e in events]
-        assert "trip_modified" in event_types
+        assert "trip_diff" in event_types
         assert "complete" in event_types
-        # 事件顺序：trip_modified 先于 complete
-        assert event_types.index("trip_modified") < event_types.index("complete")
+        # 事件顺序：trip_diff 先于 complete
+        assert event_types.index("trip_diff") < event_types.index("complete")
 
         # 事件数据完整透传
-        tm = next(e for e in events if e.get("type") == "trip_modified")
-        assert tm["data"]["newTripId"] == 99
-        assert tm["data"]["parentTripId"] == 1
+        td = next(e for e in events if e.get("type") == "trip_diff")
+        assert td["data"]["newTripId"] == 99
+        assert td["data"]["parentTripId"] == 1
 
         # complete 事件不含 plan 内容（协议层分离）
         complete = next(e for e in events if e.get("type") == "complete")
@@ -343,7 +342,7 @@ class TestChatStreamTripModified:
 
     @pytest.mark.asyncio
     async def test_full_event_sequence(self):
-        """链路回归：chunk → tool_start/tool_end → trip_modified → complete 顺序完整"""
+        """链路回归：chunk → tool_start/tool_end → trip_diff → complete 顺序完整"""
         from src.models.conversation import Conversation
 
         svc = TripService()
@@ -360,7 +359,7 @@ class TestChatStreamTripModified:
                 await on_event({"type": "chunk", "content": "好的，"})
                 await on_event({"type": "tool_start", "name": "search_spots"})
                 await on_event({"type": "tool_end", "name": "search_spots"})
-                await on_event({"type": "trip_modified", "data": {"newTripId": 99}})
+                await on_event({"type": "trip_diff", "data": {"newTripId": 99}})
                 await on_event({"type": "complete", "content": "已修改", "usage": {"total": 10}})
 
             mock_engine = MagicMock()
@@ -372,4 +371,4 @@ class TestChatStreamTripModified:
                 events.append(event)
 
         event_types = [e.get("type") for e in events if e.get("type") != "heartbeat"]
-        assert event_types == ["chunk", "tool_start", "tool_end", "trip_modified", "complete"]
+        assert event_types == ["chunk", "tool_start", "tool_end", "trip_diff", "complete"]
