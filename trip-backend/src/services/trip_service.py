@@ -403,13 +403,14 @@ class TripService:
             if not parsed:
                 raise ValueError("Agent 返回无效结果")
 
-            # ---- geocoding + 图片增强（best-effort，并行执行） ----
+            # ---- geocoding + 图片增强 + 数据校验（best-effort，并行执行） ----
             await _emit("save", "start")
             await asyncio.gather(
                 self._enrich_geocoding(parsed),
                 self._enrich_images(parsed),
                 return_exceptions=True,
             )
+            self._validate_and_fix_trip_data(parsed)
             _t_enrich = time.time()
 
             # ---- 持久化 Trip 并回填 id ----
@@ -463,6 +464,38 @@ class TripService:
             pass  # geocode_service 尚未实现
         except Exception as e:
             trip_log.warning(err=str(e), msg="geocoding enrichment failed, continuing")
+
+    @staticmethod
+    def _validate_and_fix_trip_data(parsed: dict) -> None:
+        """校验并修复行程数据中的常见问题（best-effort）。
+
+        1. accommodation.spot 非住宿类时，尝试清空或置空，防止在地图上显示为餐饮
+        """
+        _HOTEL_KEYWORDS = ("酒店", "旅馆", "民宿", "宾馆", "公寓", "旅舍", "motel", "hotel", "inn", "resort")
+        _FOOD_KEYWORDS = ("烤鸭", "餐厅", "餐馆", "饭店", "火锅", "小吃", "面", "饭", "菜", "食", "茶", "咖啡", "bar", "cafe", "restaurant")
+
+        daily_itinerary = parsed.get("dailyItinerary", [])
+        for day in daily_itinerary:
+            slot = day.get("accommodation")
+            if not slot or not slot.get("spot"):
+                continue
+            spot_name = slot["spot"]
+            lower = spot_name.lower()
+            is_hotel = any(kw in lower for kw in _HOTEL_KEYWORDS)
+            is_food = any(kw in lower for kw in _FOOD_KEYWORDS)
+            if is_food and not is_hotel:
+                # 看起来是餐饮店被错误放到了 accommodation，清空 spot 并记录警告
+                trip_log.warning(
+                    "accommodation_spot_mismatch",
+                    day=day.get("day"),
+                    spot=spot_name,
+                    action="cleared",
+                )
+                slot["spot"] = ""
+                slot["duration"] = ""
+                slot["ticket"] = ""
+                slot["transportation"] = ""
+                slot["description"] = "住宿信息待确认"
 
     @staticmethod
     async def _enrich_images(parsed: dict) -> None:

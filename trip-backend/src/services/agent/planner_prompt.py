@@ -126,7 +126,7 @@ def build_planner_prompt(
 | dailyItinerary[].breakfast | TripSlot | 否 | 早餐推荐，可空 |
 | dailyItinerary[].lunch | TripSlot | 否 | 午餐推荐，可空 |
 | dailyItinerary[].dinner | TripSlot | 否 | 晚餐推荐，可空 |
-| dailyItinerary[].accommodation | TripSlot | 否 | 住宿推荐，可空 |
+| dailyItinerary[].accommodation | TripSlot | 否 | **住宿推荐（必须是酒店/旅馆/民宿，禁止填入餐饮、景点、车站等非住宿类地点）** |
 | budgetBreakdown.accommodation | number | 是 | 住宿（≥0） |
 | budgetBreakdown.food | number | 是 | 餐饮（≥0） |
 | budgetBreakdown.transportation | number | 是 | 交通（≥0） |
