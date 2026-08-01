@@ -22,6 +22,7 @@ class ConversationResponse(BaseModel):
     
     id: int
     user_id: int = Field(alias="userId")
+    trip_id: Optional[int] = Field(default=None, alias="tripId")
     title: str
     summary: Optional[str] = None
     summary_error: Optional[bool] = Field(default=None, alias="summaryError")

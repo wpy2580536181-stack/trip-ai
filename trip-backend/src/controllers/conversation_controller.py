@@ -59,6 +59,7 @@ async def get_conversations(
         ConversationResponse(
             id=conv["id"],
             userId=conv["user_id"],
+            tripId=conv.get("trip_id"),
             title=conv["title"],
             summary=conv.get("summary"),
             summaryError=conv.get("summary_error"),
@@ -129,6 +130,7 @@ async def get_conversation(
     conversation_dict = {
         "id": conversation.id,
         "user_id": conversation.user_id,
+        "trip_id": conversation.trip_id,
         "title": conversation.title,
         "summary": conversation.summary,
         "summary_error": conversation.summary_error,
@@ -150,6 +152,75 @@ async def get_conversation(
         "code": 200,
         "data": conversation_dict,
         "message": "获取对话详情成功",
+        "error": None
+    }
+
+
+@router.get(
+    "/by-trip/{trip_id}",
+    response_model=dict,
+    summary="按行程查找关联对话",
+    description="""
+    查找指定行程的最新关联对话（含消息）。
+    
+    需要在请求头中包含有效的JWT token：
+    - Authorization: Bearer <token>
+    
+    路径参数：
+    - trip_id: 行程 ID
+    
+    返回对话详情和消息列表。
+    
+    错误响应：
+    - 401: 未授权
+    - 404: 行程无关联对话
+    """
+)
+async def get_conversation_by_trip(
+    trip_id: int,
+    current_user: User = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db)
+):
+    """按行程查找最新关联对话
+    
+    Args:
+        trip_id: 行程 ID
+        current_user: 当前认证用户
+        db: 数据库会话
+        
+    Returns:
+        dict: 包含对话详情和消息列表的响应
+        
+    Raises:
+        HTTPException: 404 如果行程不存在或无关联对话
+    """
+    conversation = await ConversationService.get_by_trip_id(
+        db, trip_id, current_user.id
+    )
+    
+    return {
+        "code": 200,
+        "data": {
+            "id": conversation.id,
+            "userId": conversation.user_id,
+            "tripId": conversation.trip_id,
+            "title": conversation.title,
+            "summary": conversation.summary,
+            "summaryError": conversation.summary_error,
+            "summaryAt": conversation.summary_at,
+            "createdAt": conversation.created_at,
+            "updatedAt": conversation.updated_at,
+            "messages": [
+                {
+                    "id": msg.id,
+                    "role": msg.role,
+                    "content": msg.content,
+                    "createdAt": msg.created_at,
+                }
+                for msg in conversation.messages
+            ],
+        },
+        "message": "获取行程对话成功",
         "error": None
     }
 
@@ -199,6 +270,7 @@ async def create_conversation(
     conversation_response = ConversationResponse(
         id=conversation.id,
         userId=conversation.user_id,
+        tripId=conversation.trip_id,
         title=conversation.title,
         summary=conversation.summary,
         summaryError=conversation.summary_error,

@@ -30,6 +30,7 @@ ASSISTANT_PERSIST_FLUSH_INTERVAL_MS = 3000
 async def _get_or_create_conversation(
     user_id: int,
     conversation_id: Optional[int],
+    trip_id: Optional[int] = None,
 ) -> Conversation:
     """获取或创建对话。"""
     async with async_session() as session:
@@ -42,9 +43,14 @@ async def _get_or_create_conversation(
             )
             conv = result.scalar_one_or_none()
             if conv:
+                # 若对话无 trip_id 但本次请求携带 trip_id，回写关联
+                if conv.trip_id is None and trip_id is not None:
+                    conv.trip_id = trip_id
+                    await session.commit()
+                    await session.refresh(conv)
                 return conv
         # 创建新对话
-        conv = Conversation(user_id=user_id, title="新对话")
+        conv = Conversation(user_id=user_id, title="新对话", trip_id=trip_id)
         session.add(conv)
         await session.commit()
         await session.refresh(conv)
@@ -121,7 +127,7 @@ class TripService:
             继续运行并将 events 写入 StreamStore，支持断点续传。
         """
         # ---- 1. 准备对话 & 持久化用户消息 ----
-        conversation = await _get_or_create_conversation(user_id, conversation_id)
+        conversation = await _get_or_create_conversation(user_id, conversation_id, trip_id=trip_id)
         conv_id = conversation.id
 
         if not conversation.title or conversation.title == "新对话":

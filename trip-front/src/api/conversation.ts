@@ -28,6 +28,19 @@ export interface ConversationDetail {
   messages: ConversationDetailMessage[]
 }
 
+export interface ConversationByTripResponse {
+  id: number
+  userId: number
+  tripId: number | null
+  title: string | null
+  summary: string | null
+  summaryError: boolean | null
+  summaryAt: string | null
+  createdAt: string
+  updatedAt: string | null
+  messages: ConversationDetailMessage[]
+}
+
 export async function listConversations(page = 1, pageSize = 20) {
   return get<{ items: ConversationListItem[]; total: number; page: number; pageSize: number }>(
     'conversations',
@@ -37,6 +50,10 @@ export async function listConversations(page = 1, pageSize = 20) {
 
 export async function getConversation(id: number) {
   return get<ConversationDetail>(`conversations/${id}`)
+}
+
+export async function getConversationByTripId(tripId: number) {
+  return get<ConversationByTripResponse>(`conversations/by-trip/${tripId}`)
 }
 
 export async function deleteConversation(id: number) {

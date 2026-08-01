@@ -73,6 +73,10 @@ class Trip(Base, BaseModelWithoutUpdatedAt):
         back_populates="parent",
         foreign_keys=[parent_trip_id]
     )
+    conversations = relationship(
+        "Conversation",
+        back_populates="trip"
+    )
     
     def __repr__(self):
         return f"<Trip(id={self.id}, city={self.city}, days={self.days})>"

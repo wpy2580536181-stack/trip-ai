@@ -6,7 +6,7 @@ import { fetchStream } from '@/api/request'
 import ChatBubble from '@/components/ChatBubble.vue'
 import PoiListCard from '@/components/PoiListCard.vue'
 import CommuteCard from '@/components/CommuteCard.vue'
-import { getConversation, listConversations, deleteConversation, type ConversationListItem } from '@/api/conversation'
+import { getConversation, listConversations, deleteConversation, getConversationByTripId, type ConversationListItem } from '@/api/conversation'
 import { handleApiError } from '@/utils/apiError'
 
 const message = useMessage()
@@ -309,7 +309,37 @@ const formatTime = (iso: string) => {
   return `${d.getMonth() + 1}/${d.getDate()} ${d.getHours().toString().padStart(2, '0')}:${d.getMinutes().toString().padStart(2, '0')}`
 }
 
-onMounted(loadConversations)
+onMounted(async () => {
+  await loadConversations()
+
+  // 按 tripId 查找已有对话（localStorage 无记录时才查找）
+  const tripIdFromQuery = Number(route.query.tripId)
+  if (
+    Number.isInteger(tripIdFromQuery) &&
+    tripIdFromQuery > 0 &&
+    !currentConversationId.value
+  ) {
+    try {
+      const res = await getConversationByTripId(tripIdFromQuery)
+      const conv = res.data
+      if (conv?.id) {
+        currentConversationId.value = conv.id
+        localStorage.setItem(CONVERSATION_ID_KEY, String(conv.id))
+        messages.value = (conv.messages || []).map(m => ({
+          id: m.id,
+          role: m.role === 'user' ? 'user' : 'ai',
+          content: m.content,
+          timestamp: m.createdAt,
+        }))
+      }
+    } catch (e) {
+      // 404 静默降级（行程无对话）
+      if ((e as any)?.response?.status !== 404) {
+        handleApiError(e, message)
+      }
+    }
+  }
+})
 </script>
 
 <template>

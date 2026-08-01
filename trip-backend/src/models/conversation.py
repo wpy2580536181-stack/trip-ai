@@ -22,6 +22,13 @@ class Conversation(Base, BaseModel):
         index=True,
         comment="用户ID（外键）"
     )
+    trip_id = Column(
+        Integer,
+        ForeignKey("trips.id", ondelete="SET NULL"),
+        nullable=True,
+        index=True,
+        comment="关联行程ID（可空，存量对话为 NULL）"
+    )
     title = Column(
         String(100),
         nullable=True,
@@ -51,6 +58,7 @@ class Conversation(Base, BaseModel):
     
     # Relationships
     user = relationship("User", back_populates="conversations")
+    trip = relationship("Trip", back_populates="conversations")
     messages = relationship(
         "Message",
         back_populates="conversation",

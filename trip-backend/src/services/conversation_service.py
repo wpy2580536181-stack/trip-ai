@@ -329,3 +329,43 @@ class ConversationService:
         await db.commit()
         
         return True
+
+    @staticmethod
+    async def get_by_trip_id(
+        db: AsyncSession,
+        trip_id: int,
+        user_id: int,
+    ) -> Conversation:
+        """获取行程关联的最新对话
+
+        Args:
+            db: Database session
+            trip_id: Trip ID
+            user_id: User ID (for authorization)
+
+        Returns:
+            Conversation: Latest conversation for the trip
+
+        Raises:
+            NotFoundException: if trip not found or no conversation found
+        """
+        from src.services.history_service import HistoryService
+
+        await HistoryService.get_trip(db, trip_id, user_id)
+
+        result = await db.execute(
+            select(Conversation)
+            .where(
+                Conversation.trip_id == trip_id,
+                Conversation.user_id == user_id,
+            )
+            .options(selectinload(Conversation.messages))
+            .order_by(Conversation.updated_at.desc())
+            .limit(1)
+        )
+        conversation = result.scalar_one_or_none()
+
+        if not conversation:
+            raise NotFoundException("行程关联对话")
+
+        return conversation
