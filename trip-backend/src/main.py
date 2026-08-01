@@ -194,9 +194,6 @@ def create_app() -> FastAPI:
     from src.controllers.feedback_controller import router as feedback_router
     app.include_router(feedback_router, prefix="/api")
     
-    from src.controllers.stats_controller import router as stats_router
-    app.include_router(stats_router, prefix="/api")
-    
     from src.controllers.admin_controller import router as admin_router
     app.include_router(admin_router, prefix="/api")
     
