@@ -64,6 +64,10 @@ watch(
     if (newId && newId !== oldId && currentConversationId.value) {
       persistConversationId(newId, currentConversationId.value)
     }
+    // 若之前因 tripId 为 null 未加载对话，现在补加载
+    if (newId && !oldId && !currentConversationId.value && messages.value.length === 0) {
+      restoreConversation()
+    }
   }
 )
 
