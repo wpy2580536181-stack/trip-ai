@@ -99,6 +99,15 @@ concurrency:
   per-user:
     limit: 1
 
+# Token Budget
+token-budget:
+  user:
+    window-hours: 1
+    limit: 50000
+  global:
+    window-minutes: 1
+    limit: 200000
+
 # Rate Limiting
 rate-limit:
   auth:

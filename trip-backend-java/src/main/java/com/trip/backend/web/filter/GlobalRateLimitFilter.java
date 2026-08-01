@@ -39,6 +39,12 @@ public class GlobalRateLimitFilter extends OncePerRequestFilter {
             return;
         }
 
+        // 通勤端点公开，跳过限流
+        if (path.startsWith("/api/commute/")) {
+            filterChain.doFilter(request, response);
+            return;
+        }
+
         // 健康检查端点跳过限流
         if (path.startsWith("/health") || path.startsWith("/metrics")) {
             filterChain.doFilter(request, response);
