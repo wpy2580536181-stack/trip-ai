@@ -6,6 +6,7 @@ export interface ConversationListItem {
   createdAt: string
   updatedAt: string
   userId: number
+  tripId: number | null
   _count: { messages: number }
 }
 

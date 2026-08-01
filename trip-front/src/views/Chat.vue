@@ -255,15 +255,27 @@ const loadConversations = async () => {
   }
 }
 
-const onSelectConversation = async (id: number) => {
+const syncConversationToRoute = (conversationId: number | null) => {
+  const targetQuery: Record<string, any> = { ...route.query }
+  if (conversationId == null) {
+    delete targetQuery.conversationId
+  } else {
+    targetQuery.conversationId = String(conversationId)
+  }
+  if (route.query.conversationId !== String(conversationId ?? '')) {
+    router.replace({ path: route.path, query: targetQuery })
+  }
+}
+
+const loadConversationById = async (conversationId: number) => {
+  if (currentConversationId.value === conversationId) return
   try {
-    const res = await getConversation(id)
+    const res = await getConversation(conversationId)
     const conv = res.data
     if (!conv) return
-    currentConversationId.value = id
-    localStorage.setItem(CONVERSATION_ID_KEY, String(id))
-    // 历史会话与当前行程无绑定关系，清除关联
-    activeTripId.value = null
+    currentConversationId.value = conv.id
+    localStorage.setItem(CONVERSATION_ID_KEY, String(conv.id))
+    if (conv.tripId) activeTripId.value = conv.tripId
     messages.value = (conv.messages || []).map(m => ({
       id: m.id,
       role: m.role === 'user' ? 'user' : 'ai',
@@ -271,17 +283,71 @@ const onSelectConversation = async (id: number) => {
       timestamp: m.createdAt,
     }))
     loadConversations()
-  } catch (error) {
-    handleApiError(error, message)
+  } catch (e) {
+    handleApiError(e, message)
   }
 }
 
-const onNewConversation = () => {
-  currentConversationId.value = null
-  localStorage.removeItem(CONVERSATION_ID_KEY)
-  messages.value = []
-  loadConversations()
-}
+onMounted(async () => {
+  await loadConversations()
+
+  // 如果 URL 带有 conversationId，优先按 conversationId 加载
+  const routeConvId = Number(route.query.conversationId)
+  if (Number.isInteger(routeConvId) && routeConvId > 0 && routeConvId !== currentConversationId.value) {
+    await loadConversationById(routeConvId)
+  }
+
+  // 按 tripId 查找已有对话（localStorage 无记录时才查找）
+  const tripIdFromQuery = Number(route.query.tripId)
+  if (
+    Number.isInteger(tripIdFromQuery) &&
+    tripIdFromQuery > 0 &&
+    !currentConversationId.value
+  ) {
+    try {
+      const res = await getConversationByTripId(tripIdFromQuery)
+      const conv = res.data
+      if (conv?.id) {
+        currentConversationId.value = conv.id
+        localStorage.setItem(CONVERSATION_ID_KEY, String(conv.id))
+        if (conv.tripId) activeTripId.value = conv.tripId
+        messages.value = (conv.messages || []).map(m => ({
+          id: m.id,
+          role: m.role === 'user' ? 'user' : 'ai',
+          content: m.content,
+          timestamp: m.createdAt,
+        }))
+        syncConversationToRoute(conv.id)
+      }
+    } catch (e) {
+      // 404 静默降级（行程无对话）
+      if ((e as any)?.response?.status !== 404) {
+        handleApiError(e, message)
+      }
+    }
+  }
+})
+
+// 浏览器前进后退 / 用户手动修改 URL 时响应
+watch(
+  () => route.query.conversationId,
+  (val) => {
+    const convId = Number(val)
+    if (!Number.isInteger(convId) || convId <= 0) return
+    if (currentConversationId.value === convId) return
+    loadConversationById(convId)
+  },
+)
+
+watch(
+  () => route.query.tripId,
+  (val) => {
+    const tripId = Number(val)
+    if (!Number.isInteger(tripId) || tripId <= 0) return
+    if (activeTripId.value === tripId) return
+    activeTripId.value = tripId
+  },
+)
 
 const onDeleteConversation = (id: number) => {
   dialog.warning({
@@ -304,42 +370,44 @@ const onDeleteConversation = (id: number) => {
   })
 }
 
+const onSelectConversation = async (id: number) => {
+  try {
+    const res = await getConversation(id)
+    const conv = res.data
+    if (!conv) return
+    currentConversationId.value = id
+    localStorage.setItem(CONVERSATION_ID_KEY, String(id))
+    if (conv.tripId) {
+      activeTripId.value = conv.tripId
+    } else {
+      activeTripId.value = null
+    }
+    messages.value = (conv.messages || []).map(m => ({
+      id: m.id,
+      role: m.role === 'user' ? 'user' : 'ai',
+      content: m.content,
+      timestamp: m.createdAt,
+    }))
+    loadConversations()
+    syncConversationToRoute(id)
+  } catch (error) {
+    handleApiError(error, message)
+  }
+}
+
+const onNewConversation = () => {
+  currentConversationId.value = null
+  localStorage.removeItem(CONVERSATION_ID_KEY)
+  activeTripId.value = null
+  messages.value = []
+  loadConversations()
+  syncConversationToRoute(null)
+}
+
 const formatTime = (iso: string) => {
   const d = new Date(iso)
   return `${d.getMonth() + 1}/${d.getDate()} ${d.getHours().toString().padStart(2, '0')}:${d.getMinutes().toString().padStart(2, '0')}`
 }
-
-onMounted(async () => {
-  await loadConversations()
-
-  // 按 tripId 查找已有对话（localStorage 无记录时才查找）
-  const tripIdFromQuery = Number(route.query.tripId)
-  if (
-    Number.isInteger(tripIdFromQuery) &&
-    tripIdFromQuery > 0 &&
-    !currentConversationId.value
-  ) {
-    try {
-      const res = await getConversationByTripId(tripIdFromQuery)
-      const conv = res.data
-      if (conv?.id) {
-        currentConversationId.value = conv.id
-        localStorage.setItem(CONVERSATION_ID_KEY, String(conv.id))
-        messages.value = (conv.messages || []).map(m => ({
-          id: m.id,
-          role: m.role === 'user' ? 'user' : 'ai',
-          content: m.content,
-          timestamp: m.createdAt,
-        }))
-      }
-    } catch (e) {
-      // 404 静默降级（行程无对话）
-      if ((e as any)?.response?.status !== 404) {
-        handleApiError(e, message)
-      }
-    }
-  }
-})
 </script>
 
 <template>
@@ -365,7 +433,10 @@ onMounted(async () => {
           >
             <div class="conv-item-info">
               <div class="conv-item-title">{{ item.title || '新对话' }}</div>
-              <div class="conv-item-meta">{{ item._count.messages }} 条 · {{ formatTime(item.updatedAt) }}</div>
+              <div class="conv-item-meta">
+                {{ item._count.messages }} 条 · {{ formatTime(item.updatedAt) }}
+                <span v-if="item.tripId" class="conv-item-trip">行程 #{{ item.tripId }}</span>
+              </div>
             </div>
             <span class="conv-item-delete" @click.stop="onDeleteConversation(item.id)">🗑️</span>
           </div>
@@ -555,6 +626,18 @@ onMounted(async () => {
   font-size: 12px;
   color: var(--text-secondary);
   margin-top: 2px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.conv-item-trip {
+  font-size: 11px;
+  color: var(--accent);
+  background: var(--hover-bg-active);
+  border-radius: 4px;
+  padding: 1px 6px;
 }
 
 .conv-item-delete {
