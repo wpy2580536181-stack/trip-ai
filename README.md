@@ -98,7 +98,6 @@ cd trip-front && npm install && npm run dev
 | GET | `/api/feedback/admin/daily-stats` | 反馈统计趋势（admin） |
 | GET | `/api/feedback/admin/high-token-low-satisfaction` | 高分低满意度案例（admin） |
 | GET | `/api/knowledge/spots` | 景点列表 |
-| GET | `/api/stats/token-usage/summary` | Token 使用统计 |
 | GET | `/api/admin/agent-trace` | Agent 执行轨迹（admin） |
 | GET | `/api/admin/mcp-stats` | MCP 进程监控（admin） |
 | GET | `/health` | 健康检查 |

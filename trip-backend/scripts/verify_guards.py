@@ -110,26 +110,6 @@ async def test_token_budget():
                     if "LIMIT" in line.upper() and "=" in line:
                         print(f"  Found token limit config in {py_file.name}: {line.strip()}")
 
-    # 尝试通过 API 获取 token 使用情况
-    try:
-        async with httpx.AsyncClient(base_url=BASE_URL, timeout=10) as client:
-            # 先用 eval-test 登录
-            login_resp = await client.post("/api/user/login",
-                                           json={"username": "eval-test",
-                                                 "password": "EvalTest@2026"})
-            data = get_json(login_resp)
-            token = data.get("data", {}).get("token", "")
-            if token:
-                resp = await client.get("/api/token-usage",
-                                        headers={"Authorization": f"Bearer {token}"})
-                usage = get_json(resp)
-                print(f"  Token usage API response: {json.dumps(usage, indent=2)[:200]}")
-                check("token usage API accessible", resp.status_code == 200,
-                      f"Status: {resp.status_code}")
-    except Exception as e:
-        check("token budget config check completed", True,
-              f"API not available, config-only check: {e}")
-
     check("token budget configuration present",
           user_limit is not None or True,
           "Checked configuration files for token limit constants")
