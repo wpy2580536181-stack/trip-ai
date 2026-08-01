@@ -19,7 +19,7 @@ from src.services.conversation_service import load_context
 from src.config.database import async_session
 from src.services.agent.types import TokenUsage, StepInput
 from src.services.agent.orchestrator import Orchestrator
-from src.services.agent.schemas import PlanRequest
+from src.services.agent.schemas import PlanRequest, PlanVariantsResult
 from src.services.agent.trace_recorder import TraceRecorder
 from src.services.agent.token_monitor import token_monitor
 from src.services.agent.token_tracker import LLMContext
@@ -554,4 +554,99 @@ class AgentEngine:
                     "error": error_msg,
                 })
             
+            raise
+
+    async def recommend_variants(
+        self,
+        user_id: int,
+        city: str,
+        budget: int,
+        days: int,
+        departure_city: Optional[str] = None,
+        on_event: Optional[Callable[[dict], Awaitable[None]]] = None,
+        message_id: int = 0,
+    ) -> dict:
+        """行程推荐（多 variant 版本）。
+
+        Args:
+            user_id: 用户 ID
+            city: 目标城市
+            budget: 预算（元）
+            days: 天数
+            departure_city: 出发城市（可选）
+            on_event: 事件回调函数
+            message_id: 消息 ID（用于 Trace 落表)
+
+        Returns:
+            {"parsed_variants": list[dict], "research_usage": dict, "total_duration_ms": int}
+        """
+        _, preferences = await asyncio.gather(
+            self.ensure_amap_tools(),
+            self._load_user_preferences(user_id),
+        )
+
+        fallback_llm = None
+        if self.fallback_llm_config:
+            from src.config.llm import create_llm_from_config
+            fallback_llm = create_llm_from_config(self.fallback_llm_config, streaming=False)
+
+        orchestrator = Orchestrator(
+            llm=self.llm,
+            fallback_llm=fallback_llm,
+            on_event=on_event,
+        )
+
+        request = PlanRequest(
+            user_id=user_id,
+            city=city,
+            days=days,
+            budget=budget,
+            departure_city=departure_city,
+            preferences=preferences,
+            message=(
+                f"请为我规划{departure_city + '出发到' if departure_city else ''}"
+                f"{city}{days}日游行程，预算{budget}元。"
+            ),
+        )
+
+        try:
+            with LLMContext(user_id=user_id, endpoint="recommend_variants"):
+                result = await orchestrator.plan_variants(request)
+
+            for i, v in enumerate(result.variants):
+                if v.usage and v.usage.get("total", 0) > 0:
+                    asyncio.create_task(token_monitor.record({
+                        "request_type": "recommend_variant",
+                        "user_id": user_id,
+                        "message_id": message_id,
+                        "total_usage": v.usage,
+                        "latency_ms": v.duration_ms,
+                        "variant_type": v.variant_type,
+                        "timestamp": int(time.time() * 1000),
+                    }))
+
+            return {
+                "parsed_variants": [
+                    {
+                        "variant_type": v.variant_type,
+                        "label": v.label,
+                        "plan": v.plan,
+                        "raw_output": v.raw_output,
+                        "review": v.review.__dict__ if v.review else None,
+                        "usage": v.usage,
+                        "duration_ms": v.duration_ms,
+                        "error": v.error,
+                    }
+                    for v in result.variants
+                ],
+                "research_usage": result.research_usage,
+                "total_duration_ms": result.total_duration_ms,
+            }
+        except Exception as e:
+            error_msg = str(e)
+            if on_event:
+                await on_event({
+                    "type": "error",
+                    "error": error_msg,
+                })
             raise
