@@ -183,6 +183,9 @@ class PlannerInput:
     message: Optional[str] = None
     """用户原始请求"""
 
+    variant_type: Optional[str] = None
+    """多路线对比时的 variant 类型：economy / comfort / photo"""
+
 
 # ---------------------------------------------------------------------------
 # Review

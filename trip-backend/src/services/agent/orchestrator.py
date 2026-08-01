@@ -20,10 +20,12 @@ from src.services.agent.review import review
 from src.services.agent.schemas import (
     PlanRequest,
     PlanResult,
+    PlanVariantsResult,
     ResearchInput,
     ResearchBundle,
     PlannerInput,
     ReviewResult,
+    VariantResult,
 )
 from src.services.agent.types import TokenUsage
 
@@ -306,6 +308,142 @@ class Orchestrator:
             review=review_result,
             usage=total_usage,
             duration_ms=duration_ms,
+        )
+
+    async def plan_variants(self, request: PlanRequest) -> PlanVariantsResult:
+        """生成 2-3 个 variant 的行程方案。
+
+        Phase 1: Research（一次，共享候选池）
+        Phase 2: Plan × 3（每个 variant 独立 prompt）
+        Phase 3: Review × 3（每个 variant 独立校验 + 重试循环）
+
+        Args:
+            request: 规划请求
+
+        Returns:
+            PlanVariantsResult 包含 3 个 variant 的规划结果
+        """
+        _t0 = time.time()
+        total_usage: TokenUsage = {"prompt": 0, "completion": 0, "total": 0, "cached": 0}
+
+        # ── Phase 1: Research（共享候选池，只跑一次）──
+        research_input = ResearchInput(
+            city=request.city,
+            days=request.days,
+            budget=request.budget,
+            interests=self._extract_interests(request.preferences),
+            departure_city=request.departure_city,
+            user_preferences=request.preferences,
+        )
+
+        await self._emit_progress("research", "start")
+        research_output = await self.research_agent.run(research_input)
+        if research_output.error:
+            logger.error("plan_variants|research_failed: %s", research_output.error)
+            return PlanVariantsResult(variants=[])
+        total_usage = _merge_usage(total_usage, research_output.usage)
+        bundle: ResearchBundle = research_output.result
+        await self._emit_progress(
+            "research", "done",
+            duration_ms=research_output.duration_ms,
+            cached=research_output.duration_ms < 500,
+        )
+
+        # ── Phase 2 + 3: Plan × 3 + Review × 3 ──
+        variant_types = ["economy", "comfort", "photo"]
+        variant_labels = {
+            "economy": "💰 经济型",
+            "comfort": "⭐ 舒适型",
+            "photo": "📸 打卡型",
+        }
+        variants: list[VariantResult] = []
+
+        for vtype in variant_types:
+            await self._emit_progress("plan", "start", variant=vtype, attempt=1)
+            planner_input = PlannerInput(
+                bundle=bundle,
+                city=request.city,
+                days=request.days,
+                budget=request.budget,
+                preferences=request.preferences,
+                departure_city=request.departure_city,
+                message=request.message,
+                variant_type=vtype,
+            )
+            planner_output = await self.planner_agent.run(planner_input)
+
+            if planner_output.error:
+                logger.error("plan_variants|planner_failed variant=%s: %s", vtype, planner_output.error)
+                variants.append(VariantResult(
+                    variant_type=vtype,
+                    label=variant_labels[vtype],
+                    error=planner_output.error,
+                ))
+                await self._emit_progress("plan", "error", variant=vtype)
+                continue
+
+            raw_output: str = planner_output.result
+            await self._emit_progress("plan", "done", variant=vtype, attempt=1, duration_ms=planner_output.duration_ms)
+
+            # ── Review + 重试循环 ──
+            parsed_plan: Optional[dict] = None
+            review_result: Optional[ReviewResult] = None
+
+            for attempt in range(MAX_REVIEW_RETRIES + 1):
+                await self._emit_progress("review", "start", variant=vtype, attempt=attempt + 1)
+                parsed_plan, review_result = await review(
+                    raw_output=raw_output,
+                    bundle=bundle,
+                    budget=request.budget,
+                    days=request.days,
+                )
+
+                if review_result.passed:
+                    await self._emit_progress("review", "done", variant=vtype, attempt=attempt + 1, passed=True)
+                    break
+
+                if attempt >= MAX_REVIEW_RETRIES:
+                    logger.warning(
+                        "plan_variants|review_failed variant=%s attempts=%d issues=%s",
+                        vtype, attempt + 1, review_result.issues,
+                    )
+                    await self._emit_progress("review", "done", variant=vtype, attempt=attempt + 1, passed=False)
+                    break
+
+                # 带修改意见重跑 Planner
+                logger.info(
+                    "plan_variants|retry variant=%s attempt=%d feedback=%s",
+                    vtype, attempt + 1, review_result.feedback[:100],
+                )
+                planner_input.feedback = review_result.feedback
+                await self._emit_progress("plan", "start", variant=vtype, attempt=attempt + 2, retry=True)
+                retry_output = await self.planner_agent.run(planner_input)
+                if retry_output.error:
+                    logger.error("plan_variants|planner_retry_failed variant=%s: %s", vtype, retry_output.error)
+                    break
+                raw_output = retry_output.result
+                await self._emit_progress("plan", "done", variant=vtype, attempt=attempt + 2, retry=True)
+
+            variants.append(VariantResult(
+                variant_type=vtype,
+                label=variant_labels[vtype],
+                plan=parsed_plan,
+                raw_output=raw_output,
+                review=review_result,
+                usage=planner_output.usage,
+                duration_ms=planner_output.duration_ms,
+            ))
+
+        duration_ms = int((time.time() - _t0) * 1000)
+        logger.info(
+            "plan_variants|done city=%s days=%d duration=%dms variants=%d",
+            request.city, request.days, duration_ms, len(variants),
+        )
+
+        return PlanVariantsResult(
+            variants=variants,
+            research_usage=total_usage,
+            total_duration_ms=duration_ms,
         )
 
     async def _merge_partial_plan(
