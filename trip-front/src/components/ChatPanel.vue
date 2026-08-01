@@ -8,7 +8,7 @@
 import { ref, computed, watch, nextTick, onBeforeUnmount, onMounted } from 'vue'
 import { useMessage } from 'naive-ui'
 import { fetchStream } from '@/api/request'
-import { getConversation } from '@/api/conversation'
+import { getConversation, getConversationByTripId } from '@/api/conversation'
 import ChatBubble from '@/components/ChatBubble.vue'
 import TripDiffCard from '@/components/TripDiffCard.vue'
 import PoiListCard from '@/components/PoiListCard.vue'
@@ -89,7 +89,35 @@ const restoreConversation = async () => {
     /* ignore */
   }
   const convId = stored ? Number(stored) : NaN
-  if (!Number.isInteger(convId) || convId <= 0) return
+  if (Number.isInteger(convId) && convId > 0) {
+    await loadConversation(convId)
+    return
+  }
+
+  // localStorage 无记录，回退到后端按 tripId 查找
+  try {
+    const res = await getConversationByTripId(props.tripId)
+    const conv = res.data
+    if (!conv?.id) return
+    currentConversationId.value = conv.id
+    messages.value = (conv.messages || [])
+      .filter(m => m.role !== 'system' && m.content)
+      .map(m => ({
+        role: m.role === 'user' ? ('user' as const) : ('ai' as const),
+        content: m.content,
+        timestamp: m.createdAt,
+      }))
+    try {
+      localStorage.setItem(convStorageKey(props.tripId), String(conv.id))
+    } catch {
+      /* ignore */
+    }
+  } catch {
+    // 行程无关联对话，保持空状态
+  }
+}
+
+const loadConversation = async (convId: number) => {
   try {
     const res = await getConversation(convId)
     const conv = res.data
