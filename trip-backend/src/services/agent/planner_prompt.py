@@ -146,7 +146,19 @@ def build_planner_prompt(
     else:
         parts.append("（暂无）")
     parts.append("\n")
-    
+
+    # 景点去重和时段隔离约束（CRITICAL）
+    parts.append("""
+# 景点去重和时段隔离约束（CRITICAL — 违反将导致行程质量不合格）
+1. **跨天去重**：绝对禁止同一景点出现在多天行程中（如 Day 1 和 Day 3 都出现"天安门"）
+2. **当天去重**：绝对禁止同一天内多次使用同一景点（如上午和下午都是"故宫"）
+3. **时段隔离**：
+   - morning（上午）/ afternoon（下午）/ evening（晚上）只能填入**景点或文化活动**
+   - 餐饮（餐厅、烤鸭店、小吃店等）禁止填入 morning/afternoon/evening
+   - 餐饮必须填入 breakfast / lunch / dinner 时段
+4. **住宿隔离**：accommodation 必须填入酒店/旅馆/民宿，禁止填入餐饮、景点、车站
+""")
+
     return "".join(parts)
 
 
