@@ -157,6 +157,11 @@ class PlannerAgent(BaseAgent):
                 f"{input.feedback}\n"
             )
 
+        # variant 约束注入（多路线对比时）
+        if input.variant_type:
+            from src.services.agent.planner_prompt import _variant_constraint
+            prompt += f"\n\n{_variant_constraint(input.variant_type)}"
+
         return prompt
 
     def _build_user_message(self, input: PlannerInput) -> str:
