@@ -39,6 +39,12 @@ const routes = [
     meta: { requiresAuth: true },
   },
   {
+    path: '/variants',
+    name: 'VariantsSelection',
+    component: () => import('../views/VariantsSelection.vue'),
+    meta: { requiresAuth: true },
+  },
+  {
     path: '/history',
     name: 'History',
     component: () => import('../views/History.vue'),

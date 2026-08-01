@@ -339,19 +339,27 @@ const startGeneration = async () => {
         try {
           const result = typeof data === 'string' ? JSON.parse(data) : data
           if (result.success && result.data) {
-            const tripId = result.data.id
+            const variants = result.data.variants
             setTimeout(() => {
-              if (tripId) {
-                router.push({ path: '/detail', query: { id: tripId } })
-              } else {
+              if (variants && variants.length > 1) {
                 router.push({
-                  path: '/detail',
-                  query: {
-                    city: params.value.city,
-                    budget: params.value.budget,
-                    days: params.value.days,
-                  },
+                  path: '/variants',
+                  state: { variants: result.data },
                 })
+              } else {
+                const tripId = result.data.id
+                if (tripId) {
+                  router.push({ path: '/detail', query: { id: tripId } })
+                } else {
+                  router.push({
+                    path: '/detail',
+                    query: {
+                      city: params.value.city,
+                      budget: params.value.budget,
+                      days: params.value.days,
+                    },
+                  })
+                }
               }
             }, 1200)
           } else {
