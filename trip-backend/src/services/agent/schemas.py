@@ -5,12 +5,28 @@ Agent 之间不共享 State，通过这些 Schema 进行明确的契约通信。
 """
 
 from dataclasses import dataclass, field
+from enum import Enum
 from typing import Optional, Any
 
 
 # ---------------------------------------------------------------------------
 # 通用数据项
 # ---------------------------------------------------------------------------
+
+class CostSource(str, Enum):
+    """行程费用来源标记。
+
+    - RAG: spots.avg_cost 真实值（knowledge_service 检索返回）
+    - MEITUAN: 美团查得真实价（预留枚举，生成链路当前只读不主动查询）
+    - ESTIMATE: cost_estimator 按城市消费档位估算
+    - DISTANCE: calculate_distance 交通费用粗算（既有能力）
+    """
+
+    RAG = "rag"
+    MEITUAN = "meituan"
+    ESTIMATE = "estimate"
+    DISTANCE = "distance"
+
 
 @dataclass
 class SpotItem:
@@ -36,6 +52,12 @@ class SpotItem:
 
     raw: Optional[str] = None
     """原始文本（兼容当前 RAG 返回的纯文本格式）"""
+
+    avg_cost: Optional[float] = None
+    """人均消费（真实值，来自 spots.avg_cost；无值时为 None）"""
+
+    cost_source: Optional[CostSource] = None
+    """费用来源标记（见 CostSource 枚举）"""
 
 
 # ---------------------------------------------------------------------------
@@ -260,3 +282,92 @@ class PlanVariantsResult:
 
     error: Optional[str] = None
     """整体错误信息（如 Research 阶段失败时非空，此时 variants 为空）"""
+
+
+# ---------------------------------------------------------------------------
+# 预算控制引擎（Budget Allocator / Corrector）
+# ---------------------------------------------------------------------------
+
+@dataclass
+class BudgetAllocation:
+    """预算分解目标（allocator 输出，纯确定性）。
+
+    5 项上限金额为"生成时基准"，校验时按 elasticity 放行。
+    """
+
+    budget: int
+    """用户预算（元）"""
+
+    days: int
+    """行程天数"""
+
+    style: str
+    """旅行风格：budget / comfort / luxury"""
+
+    allocation: dict[str, int] = field(default_factory=dict)
+    """5 项上限：accommodation / food / transportation / tickets / other → 金额"""
+
+    daily_activity_limit: int = 0
+    """每日活动费用上限（元）"""
+
+    elasticity: float = 1.15
+    """单项弹性系数：单项 ≤ 上限×elasticity 放行"""
+
+
+@dataclass
+class CorrectorAction:
+    """预算修正动作（corrector 输出，纯确定性）。
+
+    只输出"目标分配 + 指令"，不回写任何金额（区别于竞品直接打折）。
+    PlannerAgent 在真实数据上按目标重新组合。
+    """
+
+    round: int
+    """修正轮次：1=砍门票/收紧餐饮，2=降住宿档，3=砍交通/清零其他"""
+
+    over_amount: int
+    """超支金额（元）"""
+
+    target_allocation: dict[str, int]
+    """本轮目标分解（5 项上限，已按轮次降级）"""
+
+    instructions: str
+    """结构化中文指令（给 PlannerAgent）"""
+
+    keep_scope: str = "full"
+    """重生成范围：full（本期恒为 full）；budget_only 为 P1 局部重生成预留"""
+
+
+@dataclass
+class BudgetViolation:
+    """单项预算违规明细。"""
+
+    key: str
+    """违规分项：tickets / accommodation / food / ..."""
+
+    actual: int
+    """实际金额（元）"""
+
+    limit: int
+    """分项上限（元）"""
+
+    over: int
+    """超出金额（元）"""
+
+
+@dataclass
+class BudgetViolationResult:
+    """预算分项校验结果（review 代码层输出）。"""
+
+    violations: list[BudgetViolation] = field(default_factory=list)
+    """违规明细列表（为空表示无违规）"""
+
+    over_amount: int = 0
+    """违规总超出金额（元）"""
+
+    feedback: str = ""
+    """结构化打回反馈（含分项明细 + 目标分配）"""
+
+    @property
+    def passed(self) -> bool:
+        return not self.violations
