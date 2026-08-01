@@ -5,7 +5,6 @@
 
 import asyncio
 import json
-import time
 import unittest
 from unittest.mock import AsyncMock, MagicMock, patch, Mock
 
@@ -192,107 +191,6 @@ class TestTokenBudgetManager:
         result = await mgr.check_user_budget(user_id=1)
         assert result["allowed"] is True
         assert result["current"] == 0
-
-
-# ---------------------------------------------------------------------------
-# token_monitor.py — TokenMonitor
-# ---------------------------------------------------------------------------
-from src.services.agent.token_monitor import TokenMonitor
-
-
-class TestTokenMonitor:
-    def test_monitor_record_and_recent(self):
-        monitor = TokenMonitor(max_records=100)
-        record = {
-            "request_type": "chat",
-            "user_id": 1,
-            "total_usage": {"prompt": 100, "completion": 50, "total": 150, "cached": 0},
-            "timestamp": int(time.time() * 1000),
-        }
-        # 使用同步方式直接操作 deque
-        monitor._records.append(record)
-        recent = monitor.get_recent(limit=10)
-        assert len(recent) == 1
-        assert recent[0]["user_id"] == 1
-
-    def test_monitor_get_stats_empty(self):
-        monitor = TokenMonitor()
-        stats = monitor.get_stats()
-        assert stats["count"] == 0
-        assert stats["avg_total"] == 0
-
-    def test_monitor_get_stats(self):
-        monitor = TokenMonitor()
-        for total in [100, 200, 300]:
-            monitor._records.append({
-                "total_usage": {"total": total},
-                "timestamp": int(time.time() * 1000),
-            })
-        stats = monitor.get_stats()
-        assert stats["count"] == 3
-        assert stats["avg_total"] == 200
-        assert stats["max_total"] == 300
-        assert stats["min_total"] == 100
-
-    def test_monitor_get_stats_time_window(self):
-        monitor = TokenMonitor()
-        now_ms = int(time.time() * 1000)
-        monitor._records.append({
-            "total_usage": {"total": 100},
-            "timestamp": now_ms - 5000,  # 5 秒前
-        })
-        monitor._records.append({
-            "total_usage": {"total": 200},
-            "timestamp": now_ms,  # 现在
-        })
-        # 只查最近 1 秒
-        stats = monitor.get_stats(time_window_ms=1000)
-        assert stats["count"] == 1
-        assert stats["avg_total"] == 200
-
-    def test_monitor_clear(self):
-        monitor = TokenMonitor()
-        monitor._records.append({"total_usage": {"total": 100}})
-        monitor.clear()
-        assert monitor.get_stats()["count"] == 0
-
-    def test_monitor_ring_buffer(self):
-        """环形缓冲区溢出时丢弃旧记录。"""
-        monitor = TokenMonitor(max_records=3)
-        for i in range(5):
-            monitor._records.append({"total_usage": {"total": i}})
-        stats = monitor.get_stats()
-        assert stats["count"] == 3
-        # 保留的是最后 3 条 (2, 3, 4)
-        assert stats["min_total"] == 2
-        assert stats["max_total"] == 4
-
-    @pytest.mark.asyncio
-    async def test_monitor_record_method(self):
-        """record() 方法写入内存并触发阈值检测。"""
-        monitor = TokenMonitor()
-        with patch.object(monitor, "_save_to_db", new_callable=AsyncMock):
-            await monitor.record({
-                "request_type": "chat",
-                "user_id": 1,
-                "total_usage": {"prompt": 100, "completion": 50, "total": 150, "cached": 0},
-                "timestamp": int(time.time() * 1000),
-            })
-        assert len(list(monitor._records)) == 1
-
-    @pytest.mark.asyncio
-    async def test_monitor_alert_threshold(self):
-        """超过阈值时触发 warning 日志。"""
-        monitor = TokenMonitor()
-        with patch.object(monitor, "_save_to_db", new_callable=AsyncMock), \
-             patch.object(monitor._logger, "warning") as mock_warn:
-            await monitor.record({
-                "request_type": "chat",
-                "user_id": 1,
-                "total_usage": {"prompt": 60000, "completion": 50000, "total": 110000, "cached": 0},
-                "timestamp": int(time.time() * 1000),
-            })
-            mock_warn.assert_called_once()
 
 
 # ---------------------------------------------------------------------------

@@ -56,13 +56,5 @@ class TestAgentImports(unittest.TestCase):
         self.assertIsNotNone(TraceRecorder)
         print("✓ trace_recorder.py - TraceRecorder 可导入")
 
-    def test_token_monitor_module(self):
-        """测试 token_monitor 模块。"""
-        from src.services.agent.token_monitor import TokenMonitor, token_monitor
-        self.assertIsNotNone(TokenMonitor)
-        self.assertIsNotNone(token_monitor)
-        print("✓ token_monitor.py - TokenMonitor, token_monitor 可导入")
-
-
 if __name__ == "__main__":
     unittest.main()

@@ -3,7 +3,7 @@
 对齐 Node.js 版 `llmGuard/tokenTracker.ts`：
 - 每次 LLM 调用结束后提取 token 用量
 - 通过 contextvars 维护 userId / endpoint 上下文
-- 写入 TokenUsageLog（经 token_monitor）并更新 token_budget_manager
+- 更新 token_budget_manager（内存预算计数）
 """
 
 from __future__ import annotations
@@ -11,7 +11,6 @@ from __future__ import annotations
 import asyncio
 import contextvars
 import logging
-import time
 from typing import Any, Optional
 
 from langchain_core.callbacks import AsyncCallbackHandler
@@ -54,33 +53,12 @@ class LLMContext:
 def _record_usage(prompt: int, completion: int, cached: int = 0) -> None:
     """记录一次 LLM 调用的 token 用量。
 
-    - 写入 token_monitor（持久化到 DB）
     - 更新 token_budget_manager（内存计数器）
     """
     user_id = llm_user_id.get()
-    endpoint = llm_endpoint.get()
     total = prompt + completion
 
-    # 1. 写入 token_monitor（异步，用 fire-and-forget task）
-    try:
-        from src.services.agent.token_monitor import token_monitor
-
-        record = {
-            "request_type": endpoint,
-            "user_id": user_id,
-            "total_usage": {"prompt": prompt, "completion": completion, "total": total, "cached": cached},
-            "timestamp": int(time.time() * 1000),
-        }
-        # fire-and-forget：在已有 event loop 中调度
-        loop = asyncio.get_event_loop()
-        if loop.is_running():
-            asyncio.ensure_future(token_monitor.record(record))
-        else:
-            loop.run_until_complete(token_monitor.record(record))
-    except Exception as e:
-        logger.warning("token_monitor 记录失败: %s", e)
-
-    # 2. 更新 token_budget_manager（异步 fire-and-forget）
+    # 1. 更新 token_budget_manager（异步 fire-and-forget）
     try:
         from src.services.agent.token_budget import token_budget_manager
 

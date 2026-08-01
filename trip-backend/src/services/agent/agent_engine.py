@@ -21,7 +21,6 @@ from src.services.agent.types import TokenUsage, StepInput
 from src.services.agent.orchestrator import Orchestrator
 from src.services.agent.schemas import PlanRequest, PlanVariantsResult
 from src.services.agent.trace_recorder import TraceRecorder
-from src.services.agent.token_monitor import token_monitor
 from src.services.agent.token_tracker import LLMContext
 from src.services.agent.skills import get_skill_registry, load_builtin_skills, SkillContext, SkillResult
 
@@ -362,18 +361,6 @@ class AgentEngine:
             })
             await trace_recorder.flush()
             
-            # 记录 Token 使用量（后台任务，不阻塞）
-            asyncio.create_task(token_monitor.record({
-                "request_type": "chat",
-                "route": "chat_agent",
-                "user_id": user_id,
-                "conversation_id": conversation_id,
-                "message_id": message_id,
-                "total_usage": result.usage,
-                "latency_ms": result.duration_ms,
-                "timestamp": int(time.time() * 1000),
-            }))
-            
             # 发送完成事件
             if on_event:
                 await on_event({
@@ -497,16 +484,6 @@ class AgentEngine:
             })
             await trace_recorder.flush()
             
-            # 记录 Token 使用量（后台任务，不阻塞）
-            asyncio.create_task(token_monitor.record({
-                "request_type": "recommend",
-                "user_id": user_id,
-                "message_id": message_id,
-                "total_usage": result.usage,
-                "latency_ms": result.duration_ms,
-                "timestamp": int(time.time() * 1000),
-            }))
-            
             # 发送完成事件
             if on_event:
                 await on_event({
@@ -617,18 +594,6 @@ class AgentEngine:
 
             if result.error:
                 raise ValueError(result.error)
-
-            for v in result.variants:
-                if v.usage and v.usage.get("total", 0) > 0:
-                    asyncio.create_task(token_monitor.record({
-                        "request_type": "recommend_variant",
-                        "user_id": user_id,
-                        "message_id": message_id,
-                        "total_usage": v.usage,
-                        "latency_ms": v.duration_ms,
-                        "variant_type": v.variant_type,
-                        "timestamp": int(time.time() * 1000),
-                    }))
 
             # 记录完成事件
             trace_recorder.add({

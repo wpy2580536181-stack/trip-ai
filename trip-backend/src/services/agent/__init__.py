@@ -22,7 +22,6 @@ from src.services.agent.tools import (
 # 导出守卫和监控
 from src.services.agent.token_budget import TokenBudgetManager, token_budget_manager
 from src.services.agent.semaphore import ConcurrencyGuard, concurrency_guard
-from .token_monitor import token_monitor
 from src.services.agent.trace_recorder import TraceRecorder
 
 # 导出 Skills 基座（三层渐进式披露，SKILL.md 驱动）
@@ -56,7 +55,6 @@ __all__ = [
     "token_budget_manager",
     "ConcurrencyGuard",
     "concurrency_guard",
-    "token_monitor",
     "TraceRecorder",
     # Skills 基座
     "Skill",
