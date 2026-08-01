@@ -1,0 +1,193 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: trip-backend
+
+  # DataSource (HikariCP)
+  datasource:
+    url: ${DATABASE_URL:postgresql://trip:trip123@localhost:5432/trip_db}
+    username: ${DATABASE_USER:trip}
+    password: ${DATABASE_PASSWORD:trip123}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+
+  # JPA/Hibernate
+  jpa:
+    hibernate:
+      ddl-auto: none  # 绝不自动改表
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc:
+          lob:
+            non_contextual_creation: true
+
+  # Redis
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:}
+      lettuce:
+        pool:
+          max-active: 16
+          max-idle: 8
+          min-idle: 2
+
+  # Jackson JSON
+  jackson:
+    default-property-inclusion: non_null
+    serialization:
+      write-dates-as-timestamps: false
+    time-zone: UTC
+
+# JWT
+jwt:
+  secret: ${JWT_SECRET:change-this-to-a-random-secret-string}
+  algorithm: HS256
+  expires-in-days: 7
+
+# LLM Providers
+llm:
+  primary-provider: deepseek
+  fallback-provider: agnese
+  providers:
+    deepseek:
+      api-key: ${DEEPSEEK_API_KEY:}
+      base-url: https://api.deepseek.com/v1
+      model: deepseek-chat
+    kimi:
+      api-key: ${KIMI_API_KEY:}
+      base-url: https://api.moonshot.cn/v1
+      model: moonshot-v1-8k
+    agnese:
+      api-key: ${AGNES_API_KEY:}
+      base-url: ${AGNES_BASE_URL:https://apihub.agnes-ai.com/v1}
+      model: agnes-2.0-flash
+
+# Provider Router
+provider:
+  health-check:
+    consecutive-failures-threshold: 3
+    degraded-threshold: 5
+    recovery-window-seconds: 60
+  failover:
+    timeout-seconds: 15
+
+# Token Budget
+token-budget:
+  user:
+    window-hours: 1
+    limit: 50000
+  global:
+    window-minutes: 1
+    limit: 200000
+
+# Concurrency Guard
+concurrency:
+  global:
+    limit: 10
+  per-user:
+    limit: 1
+
+# Rate Limiting
+rate-limit:
+  auth:
+    max: 10
+    window-seconds: 900
+  global:
+    max: 2000
+    window-seconds: 60
+  chat:
+    max: 200
+    window-seconds: 60
+  recommend:
+    max: 50
+    window-seconds: 60
+  feedback:
+    max: 30
+    window-seconds: 3600
+  knowledge:
+    max: 100
+    window-seconds: 60
+
+# LLM Cache
+llm-cache:
+  enabled: true
+  ttl-seconds: 600
+  max-size: 200
+
+# Tool Cache
+tool-cache:
+  enabled: true
+  backend: auto
+
+# Alert
+alert:
+  enabled: false
+  webhook-url: ${ALERT_WEBHOOK_URL:}
+  webhook-type: feishu
+  threshold: 0.5
+  min-feedbacks: 5
+  interval-seconds: 300
+  cooldown-seconds: 3600
+  window-minutes: 60
+  dashboard-url: http://localhost:5173
+
+# Amap MCP
+amap:
+  maps-api-key: ${AMAP_MAPS_API_KEY:}
+  mcp-server-path: npx
+  circuit-breaker:
+    fail-max: 5
+    reset-seconds: 60
+  rate-limiter:
+    capacity: 5
+    requests-per-second: 3
+  cache:
+    ttl-seconds: 1800
+    cacheable-tools: maps_weather,maps_geo
+
+# RAG
+rag:
+  embedding:
+    model-path: ${EMBEDDING_MODEL_PATH:models/bge-small-zh-v1.5}
+    timeout-seconds: 40
+    batch-size: 32
+    fail-closed: true
+  reranker:
+    model-path: ${RERANKER_MODEL_PATH:models/bge-reranker-base}
+  retrieval:
+    limit: 5
+    rrf:
+      k: 60
+      weights:
+        pg_fulltext: 0.7
+        rating: 0.5
+        spots_vector: 0.5
+        spot_docs_vector: 0.3
+    credibility:
+      weight: 0.3
+
+# Management Endpoints
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: always
+  metrics:
+    export:
+      prometheus:
+        enabled: true
