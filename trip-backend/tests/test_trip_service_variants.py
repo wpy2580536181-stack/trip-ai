@@ -114,6 +114,60 @@ class TestRecommendVariantsIntegration:
                     city="北京", budget=5000, days=3, user_id=1,
                 )
 
+    async def test_failed_variant_kept_as_placeholder(self, trip_service: TripService):
+        """生成失败的 variant 保留占位 summary（tripId=None + error），不持久化"""
+        ok_variant = _make_variant("economy", budget=3000)
+        fail_variant = _make_variant("comfort", budget=5000)
+        fail_variant["plan"] = None
+        fail_variant["error"] = "planner failed"
+        mock_result = {
+            "parsed_variants": [ok_variant, fail_variant],
+            "research_usage": {},
+            "total_duration_ms": 1000,
+        }
+
+        with patch("src.services.trip_service.get_agent_engine") as mock_engine, \
+             patch("src.services.trip_service.trip_log"), \
+             patch.object(TripService, "_persist_trip", new_callable=AsyncMock, return_value=101):
+            mock_engine.return_value.recommend_variants = AsyncMock(return_value=mock_result)
+            result = await trip_service.recommend(
+                city="北京", budget=5000, days=3, user_id=1,
+            )
+
+        assert len(result["data"]["variants"]) == 2
+        assert result["data"]["variants"][0]["tripId"] == 101
+        assert result["data"]["variants"][1]["tripId"] is None
+        assert result["data"]["variants"][1]["error"] == "planner failed"
+        # primary 取第一个有效的（economy），其 plan 与返回的 dailyItinerary 对齐
+        assert result["data"]["id"] == 101
+        assert result["data"]["city"] == "北京"
+        assert result["data"]["dailyItinerary"] == ok_variant["plan"]["dailyItinerary"]
+
+    async def test_primary_uses_first_valid_variant(self, trip_service: TripService):
+        """variants[0] 失败、variants[1] 成功 → primary/primary_plan 指向成功的那个"""
+        fail_variant = _make_variant("economy", budget=3000)
+        fail_variant["plan"] = None
+        fail_variant["error"] = "failed"
+        ok_variant = _make_variant("comfort", budget=5000)
+        mock_result = {
+            "parsed_variants": [fail_variant, ok_variant],
+            "research_usage": {},
+            "total_duration_ms": 1000,
+        }
+
+        with patch("src.services.trip_service.get_agent_engine") as mock_engine, \
+             patch("src.services.trip_service.trip_log"), \
+             patch.object(TripService, "_persist_trip", new_callable=AsyncMock, return_value=202):
+            mock_engine.return_value.recommend_variants = AsyncMock(return_value=mock_result)
+            result = await trip_service.recommend(
+                city="北京", budget=5000, days=3, user_id=1,
+            )
+
+        assert result["data"]["id"] == 202
+        assert result["data"]["city"] == "北京"
+        assert result["data"]["days"] == 3
+        assert result["data"]["dailyItinerary"] == ok_variant["plan"]["dailyItinerary"]
+
 
 class TestBuildVariantSummary:
     """_build_variant_summary() 摘要提取验证。"""
@@ -150,3 +204,19 @@ class TestBuildVariantSummary:
         assert summary["spotCount"] == 0
         assert summary["highlights"] == []
         assert summary["totalBudget"] == 0
+
+    async def test_failed_variant_marks_error(self, trip_service: TripService):
+        """trip_id=None → summary 携带 error，不生成 tripId"""
+        variant = _make_variant("economy")
+        variant["plan"] = None
+        variant["error"] = "planner boom"
+        summary = trip_service._build_variant_summary(variant, trip_id=None)
+        assert summary["tripId"] is None
+        assert summary["error"] == "planner boom"
+        assert summary["spotCount"] == 0
+
+    async def test_failed_variant_default_error_message(self, trip_service: TripService):
+        """trip_id=None 且无 error 字段 → 默认错误文案"""
+        variant = {"variant_type": "comfort", "label": "test", "plan": None}
+        summary = trip_service._build_variant_summary(variant, trip_id=None)
+        assert summary["error"] == "方案生成失败"

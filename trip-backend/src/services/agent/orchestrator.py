@@ -340,7 +340,11 @@ class Orchestrator:
         research_output = await self.research_agent.run(research_input)
         if research_output.error:
             logger.error("plan_variants|research_failed: %s", research_output.error)
-            return PlanVariantsResult(variants=[])
+            return PlanVariantsResult(
+                variants=[],
+                error=f"Research 失败: {research_output.error}",
+                total_duration_ms=int((time.time() - _t0) * 1000),
+            )
         total_usage = _merge_usage(total_usage, research_output.usage)
         bundle: ResearchBundle = research_output.result
         await self._emit_progress(
@@ -383,6 +387,8 @@ class Orchestrator:
                 continue
 
             raw_output: str = planner_output.result
+            variant_usage: TokenUsage = dict(planner_output.usage)  # 累计（含重试轮）
+            variant_duration_ms: int = planner_output.duration_ms
             await self._emit_progress("plan", "done", variant=vtype, attempt=1, duration_ms=planner_output.duration_ms)
 
             # ── Review + 重试循环 ──
@@ -422,6 +428,8 @@ class Orchestrator:
                     logger.error("plan_variants|planner_retry_failed variant=%s: %s", vtype, retry_output.error)
                     break
                 raw_output = retry_output.result
+                variant_usage = _merge_usage(variant_usage, retry_output.usage)
+                variant_duration_ms += retry_output.duration_ms
                 await self._emit_progress("plan", "done", variant=vtype, attempt=attempt + 2, retry=True)
 
             variants.append(VariantResult(
@@ -430,8 +438,8 @@ class Orchestrator:
                 plan=parsed_plan,
                 raw_output=raw_output,
                 review=review_result,
-                usage=planner_output.usage,
-                duration_ms=planner_output.duration_ms,
+                usage=variant_usage,
+                duration_ms=variant_duration_ms,
             ))
 
         duration_ms = int((time.time() - _t0) * 1000)

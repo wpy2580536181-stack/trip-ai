@@ -609,9 +609,14 @@ class AgentEngine:
             ),
         )
 
+        trace_recorder = TraceRecorder(message_id)
+
         try:
             with LLMContext(user_id=user_id, endpoint="recommend_variants"):
                 result = await orchestrator.plan_variants(request)
+
+            if result.error:
+                raise ValueError(result.error)
 
             for i, v in enumerate(result.variants):
                 if v.usage and v.usage.get("total", 0) > 0:
@@ -624,6 +629,15 @@ class AgentEngine:
                         "variant_type": v.variant_type,
                         "timestamp": int(time.time() * 1000),
                     }))
+
+            # 记录完成事件
+            trace_recorder.add({
+                "step": 1,
+                "type": "complete",
+                "duration_ms": result.total_duration_ms,
+                "variants": len(result.variants),
+            })
+            await trace_recorder.flush()
 
             return {
                 "parsed_variants": [
@@ -644,6 +658,15 @@ class AgentEngine:
             }
         except Exception as e:
             error_msg = str(e)
+
+            # 记录错误
+            trace_recorder.add({
+                "step": 1,
+                "type": "error",
+                "error": error_msg,
+            })
+            await trace_recorder.flush()
+
             if on_event:
                 await on_event({
                     "type": "error",

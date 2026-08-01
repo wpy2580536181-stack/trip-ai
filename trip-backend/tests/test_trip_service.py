@@ -49,6 +49,27 @@ FAKE_PARSED = {
 }
 
 
+def _fake_variant(variant_type: str = "economy", plan: dict | None = FAKE_PARSED, error: str | None = None) -> dict:
+    return {
+        "variant_type": variant_type,
+        "label": f"test_{variant_type}",
+        "plan": plan,
+        "raw_output": "raw",
+        "review": None,
+        "usage": {"prompt": 10, "completion": 10, "total": 20, "cached": 0},
+        "duration_ms": 100,
+        "error": error,
+    }
+
+
+def _mock_recommend_variants_result(*variants: dict) -> dict:
+    return {
+        "parsed_variants": list(variants) or [_fake_variant()],
+        "research_usage": {},
+        "total_duration_ms": 100,
+    }
+
+
 # ===========================================================================
 # TestTripRecommend
 # ===========================================================================
@@ -82,7 +103,7 @@ class TestTripRecommend:
 
         svc = TripService()
         mock_engine = MagicMock()
-        mock_engine.recommend = AsyncMock(return_value={"parsed": FAKE_PARSED})
+        mock_engine.recommend_variants = AsyncMock(return_value=_mock_recommend_variants_result())
 
         with patch("src.services.trip_service.get_agent_engine", return_value=mock_engine), \
              _mock_async_session(db_session), \
@@ -115,7 +136,7 @@ class TestTripRecommend:
         """LLM 调用失败时优雅降级（抛 ValueError）"""
         svc = TripService()
         mock_engine = MagicMock()
-        mock_engine.recommend = AsyncMock(side_effect=RuntimeError("LLM API timeout"))
+        mock_engine.recommend_variants = AsyncMock(side_effect=RuntimeError("LLM API timeout"))
 
         with patch("src.services.trip_service.get_agent_engine", return_value=mock_engine), \
              patch("src.services.trip_service.trip_log"):
@@ -130,7 +151,7 @@ class TestTripRecommend:
 
         svc = TripService()
         mock_engine = MagicMock()
-        mock_engine.recommend = AsyncMock(return_value={"parsed": FAKE_PARSED})
+        mock_engine.recommend_variants = AsyncMock(return_value=_mock_recommend_variants_result())
 
         with patch("src.services.trip_service.get_agent_engine", return_value=mock_engine), \
              _mock_async_session(db_session), \
@@ -153,7 +174,7 @@ class TestTripRecommend:
         assert trip.budget == 5000
         assert isinstance(trip.content, dict)
         assert trip.content["city"] == "成都"
-        assert trip.status == "completed"
+        assert trip.status == "candidate"
 
 
 # ===========================================================================

@@ -89,7 +89,7 @@ class TripDataResponse(BaseModel):
     )
     tips: Optional[List[str]] = None
     warnings: Optional[List[str]] = None
-    variants: Optional[List[dict]] = None  # 多路线对比摘要（variantType/label/tripId/totalBudget/spotCount/walkDistanceM/highlights/tips）
+    variants: Optional[List[dict]] = None  # 多路线对比摘要（variantType/label/tripId/totalBudget/spotCount/highlights/tips；失败项带 error）
 
 
 class TripResponse(BaseModel):

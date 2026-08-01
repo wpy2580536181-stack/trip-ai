@@ -406,9 +406,13 @@ class TripService:
             # ---- 持久化每个 variant ----
             await _emit("save", "start")
             variant_summaries: list[dict] = []
+            primary: Optional[dict] = None
+            primary_plan: dict = {}
             for v in parsed_variants:
                 plan = v.get("plan")
                 if not plan:
+                    # 生成失败的 variant：保留占位（前端展示失败态，不持久化）
+                    variant_summaries.append(self._build_variant_summary(v, None))
                     continue
                 trip_id = await self._persist_trip(
                     user_id=user_id,
@@ -417,12 +421,12 @@ class TripService:
                     budget=budget,
                     status="candidate",
                 )
-                variant_summaries.append(self._build_variant_summary(v, trip_id))
+                summary = self._build_variant_summary(v, trip_id)
+                variant_summaries.append(summary)
+                if primary is None:
+                    primary = summary
+                    primary_plan = plan
             await _emit("save", "done")
-
-            # 默认取第一个有效 variant 作为主展示
-            primary = variant_summaries[0] if variant_summaries else None
-            primary_plan = parsed_variants[0].get("plan") if parsed_variants else {}
 
             _t_total = time.time()
             logger.info(
@@ -620,16 +624,16 @@ class TripService:
             return trip.id
 
     @staticmethod
-    def _build_variant_summary(variant_result: dict, trip_id: int) -> dict:
+    def _build_variant_summary(variant_result: dict, trip_id: Optional[int]) -> dict:
         """从 VariantResult 提取前端对比卡片需要的摘要字段。
 
         Args:
             variant_result: AgentEngine.recommend_variants 返回的 variant dict
-            trip_id: 持久化后的 trip ID
+            trip_id: 持久化后的 trip ID；生成失败时为 None（前端展示失败态）
 
         Returns:
             摘要字典，包含 variantType / label / tripId / totalBudget / spotCount /
-            walkDistanceM / highlights / tips
+            highlights / tips；失败时额外带 error 字段
         """
         plan = variant_result.get("plan") or {}
         daily = plan.get("dailyItinerary", [])
@@ -649,16 +653,18 @@ class TripService:
                     highlights.append(slot["spot"])
                     break
 
-        return {
+        summary = {
             "variantType": variant_result.get("variant_type", ""),
             "label": variant_result.get("label", ""),
             "tripId": trip_id,
             "totalBudget": plan.get("totalBudget", 0),
             "spotCount": spot_count,
-            "walkDistanceM": 0,
             "highlights": highlights[:3],
             "tips": (plan.get("tips") or [])[:2],
         }
+        if trip_id is None:
+            summary["error"] = variant_result.get("error") or "方案生成失败"
+        return summary
 
     @staticmethod
     async def _build_trip_context(trip_id: int, user_id: int) -> Optional[str]:

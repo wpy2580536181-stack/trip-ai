@@ -16,16 +16,11 @@
 
       <!-- 步骤时间线 -->
       <ul class="steps">
-        <li
-          v-for="(step, i) in steps"
-          :key="step.key"
-          class="step"
-          :class="step.status"
-        >
+        <li v-for="(step, i) in steps" :key="step.key" class="step" :class="step.status">
           <div class="step-icon">
             <span v-if="step.status === 'done'" class="check">
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none">
-                <path d="M4 12.5L9.5 18L20 6.5" stroke="white" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 12.5L9.5 18L20 6.5" stroke="white" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" />
               </svg>
             </span>
             <span v-else-if="step.status === 'active'" class="spinner"></span>
@@ -40,12 +35,7 @@
             <div class="step-hint" :class="{ dots: step.status === 'active' }">{{ step.hint }}</div>
             <!-- 搜集情报的并行子项 -->
             <div v-if="step.key === 'research' && showChips" class="sub-chips">
-              <span
-                v-for="chip in chips"
-                :key="chip.key"
-                class="chip"
-                :class="chip.status"
-              >{{ chip.label }}<template v-if="chip.status === 'ok'"> ✓</template></span>
+              <span v-for="chip in chips" :key="chip.key" class="chip" :class="chip.status">{{ chip.label }}<template v-if="chip.status === 'ok'"> ✓</template></span>
             </div>
           </div>
         </li>
@@ -67,7 +57,9 @@
       <div v-if="!error" class="gen-footer">
         <div class="fun-tip" :class="{ fade: tipFading }">{{ currentTip }}</div>
         <div class="wait-row">
-          <span>已等待 <b class="elapsed">{{ elapsedText }}</b></span>
+          <span
+            >已等待 <b class="elapsed">{{ elapsedText }}</b></span
+          >
           <n-button v-if="!completed" text class="cancel-btn" @click="cancelGeneration">取消生成</n-button>
         </div>
       </div>
@@ -86,10 +78,10 @@ const router = useRouter()
 
 // 从 query 获取参数
 const params = computed(() => ({
-  city: route.query.city as string || '',
+  city: (route.query.city as string) || '',
   days: Number(route.query.days) || 3,
   budget: Number(route.query.budget) || 5000,
-  departureCity: route.query.departureCity as string || undefined,
+  departureCity: (route.query.departureCity as string) || undefined,
 }))
 
 // ---- 步骤状态 ----
@@ -157,16 +149,13 @@ const markDone = (step: Step, note?: string) => {
 const setDone = (key: string, note?: string) => {
   const idx = stepIndex(key)
   if (idx === -1) return
-  steps.value.forEach((s, i) => { if (i <= idx) markDone(s, i === idx ? note : undefined) })
+  steps.value.forEach((s, i) => {
+    if (i <= idx) markDone(s, i === idx ? note : undefined)
+  })
 }
 
 // ---- 规划阶段轮播提示 ----
-const planHints = [
-  '正在按天编排景点动线，减少折返…',
-  '正在为每天搭配午餐与晚餐…',
-  '正在按预算分配住宿与门票…',
-  '正在优化游玩节奏，避免行程过满…',
-]
+const planHints = ['正在按天编排景点动线，减少折返…', '正在为每天搭配午餐与晚餐…', '正在按预算分配住宿与门票…', '正在优化游玩节奏，避免行程过满…']
 let planHintTimer: ReturnType<typeof setInterval> | null = null
 
 const startPlanHintRotation = () => {
@@ -180,7 +169,10 @@ const startPlanHintRotation = () => {
   }, 3500)
 }
 const stopPlanHintRotation = () => {
-  if (planHintTimer) { clearInterval(planHintTimer); planHintTimer = null }
+  if (planHintTimer) {
+    clearInterval(planHintTimer)
+    planHintTimer = null
+  }
 }
 
 // ---- 小贴士轮播 ----
@@ -206,7 +198,10 @@ const startTipRotation = () => {
   }, 5000)
 }
 const stopTipRotation = () => {
-  if (tipTimer) { clearInterval(tipTimer); tipTimer = null }
+  if (tipTimer) {
+    clearInterval(tipTimer)
+    tipTimer = null
+  }
 }
 
 // ---- 通用状态 ----
@@ -245,10 +240,14 @@ const onProgress = (data: any) => {
     } else {
       // 缓存命中：chips 直接全部点亮
       if (data.cached) {
-        chips.value.forEach(c => { c.status = 'ok' })
+        chips.value.forEach(c => {
+          c.status = 'ok'
+        })
         setDone('research', '缓存命中')
       } else {
-        chips.value.forEach(c => { if (c.status === 'loading') c.status = 'ok' })
+        chips.value.forEach(c => {
+          if (c.status === 'loading') c.status = 'ok'
+        })
         setDone('research')
       }
     }
@@ -258,7 +257,7 @@ const onProgress = (data: any) => {
       if (data.retry) {
         const step = steps.value[stepIndex('plan')]
         step.hint = '根据审校意见调整行程中…'
-        reviewRound.value = Math.max(reviewRound.value, (data.attempt || 2))
+        reviewRound.value = Math.max(reviewRound.value, data.attempt || 2)
       } else {
         startPlanHintRotation()
       }
@@ -294,9 +293,17 @@ const onToolDetail = (type: string, _name: string, key?: string) => {
 const fallbackAdvance = () => {
   if (progressReceived) return
   const s = elapsed.value
-  if (s >= 2 && s < 8) { setDone('understand'); setActive('research'); showChips.value = true }
-  else if (s >= 8 && s < 40) { setDone('research'); setActive('plan') }
-  else if (s >= 40) { setDone('plan'); setActive('review') }
+  if (s >= 2 && s < 8) {
+    setDone('understand')
+    setActive('research')
+    showChips.value = true
+  } else if (s >= 8 && s < 40) {
+    setDone('research')
+    setActive('plan')
+  } else if (s >= 40) {
+    setDone('plan')
+    setActive('review')
+  }
 }
 
 // ---- 生成过程 ----
@@ -307,15 +314,20 @@ const startGeneration = async () => {
   progressReceived = false
   reviewRound.value = 1
   showChips.value = false
-  chips.value.forEach(c => { c.status = '' })
-  steps.value.forEach((s) => {
+  chips.value.forEach(c => {
+    c.status = ''
+  })
+  steps.value.forEach(s => {
     s.status = 'pending'
     s.doneNote = undefined
     s.startedAt = undefined
   })
   setActive('understand')
 
-  elapsedTimer = setInterval(() => { elapsed.value++; fallbackAdvance() }, 1000)
+  elapsedTimer = setInterval(() => {
+    elapsed.value++
+    fallbackAdvance()
+  }, 1000)
   startTipRotation()
 
   try {
@@ -340,26 +352,18 @@ const startGeneration = async () => {
           const result = typeof data === 'string' ? JSON.parse(data) : data
           if (result.success && result.data) {
             const variants = result.data.variants
+            const validVariants = (variants || []).filter((v: any) => v && v.tripId)
             setTimeout(() => {
-              if (variants && variants.length > 1) {
+              if (validVariants.length > 1) {
                 router.push({
                   path: '/variants',
                   state: { variants: result.data },
                 })
+              } else if (validVariants.length === 1) {
+                router.push({ path: '/detail', query: { id: validVariants[0].tripId } })
               } else {
-                const tripId = result.data.id
-                if (tripId) {
-                  router.push({ path: '/detail', query: { id: tripId } })
-                } else {
-                  router.push({
-                    path: '/detail',
-                    query: {
-                      city: params.value.city,
-                      budget: params.value.budget,
-                      days: params.value.days,
-                    },
-                  })
-                }
+                completed.value = false
+                error.value = '行程方案全部生成失败，请重试'
               }
             }, 1200)
           } else {
@@ -375,7 +379,7 @@ const startGeneration = async () => {
       (err: any) => {
         stopElapsed()
         stopPlanHintRotation()
-        error.value = (typeof err === 'string') ? err : (err?.detail || '生成失败')
+        error.value = typeof err === 'string' ? err : err?.detail || '生成失败'
       },
       // onToolEvent — 兼容旧签名（详情走 onToolEventDetail）
       undefined,
@@ -386,7 +390,7 @@ const startGeneration = async () => {
       {
         onProgress,
         onToolEventDetail: onToolDetail,
-      },
+      }
     )
   } catch (err: any) {
     if (err?.name === 'AbortError') return
@@ -476,24 +480,34 @@ onUnmounted(() => {
   height: 100%;
   background: linear-gradient(90deg, #36ad6a, #18a058);
   border-radius: 3px;
-  transition: width .6s cubic-bezier(.4, 0, .2, 1);
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
 }
 .total-bar-fill::after {
-  content: "";
+  content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .45), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.45), transparent);
   animation: shine 1.6s infinite;
 }
-.generating-card.finished .total-bar-fill::after { animation: none; }
+.generating-card.finished .total-bar-fill::after {
+  animation: none;
+}
 @keyframes shine {
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(100%); }
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
 
 /* 步骤时间线 */
-.steps { list-style: none; margin: 0; padding: 0; }
+.steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 .step {
   display: flex;
   gap: 14px;
@@ -501,18 +515,22 @@ onUnmounted(() => {
   padding-bottom: 24px;
   text-align: left;
 }
-.step:last-child { padding-bottom: 4px; }
+.step:last-child {
+  padding-bottom: 4px;
+}
 .step:not(:last-child)::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 13px;
   top: 30px;
   bottom: 2px;
   width: 2px;
   background: #ececee;
-  transition: background .4s;
+  transition: background 0.4s;
 }
-.step.done:not(:last-child)::before { background: #b9e4cd; }
+.step.done:not(:last-child)::before {
+  background: #b9e4cd;
+}
 
 .step-icon {
   width: 28px;
@@ -526,7 +544,7 @@ onUnmounted(() => {
   border: 2px solid #ececee;
   background: #fff;
   color: #a8adb3;
-  transition: all .35s;
+  transition: all 0.35s;
   position: relative;
   z-index: 1;
 }
@@ -535,69 +553,109 @@ onUnmounted(() => {
   color: #18a058;
 }
 .step.active .step-icon::after {
-  content: "";
+  content: '';
   position: absolute;
   inset: -6px;
   border-radius: 50%;
-  border: 2px solid rgba(24, 160, 88, .35);
+  border: 2px solid rgba(24, 160, 88, 0.35);
   animation: pulse-ring 1.5s ease-out infinite;
 }
 @keyframes pulse-ring {
-  0% { transform: scale(.7); opacity: 1; }
-  100% { transform: scale(1.25); opacity: 0; }
+  0% {
+    transform: scale(0.7);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.25);
+    opacity: 0;
+  }
 }
 .spinner {
   width: 13px;
   height: 13px;
-  border: 2px solid rgba(24, 160, 88, .25);
+  border: 2px solid rgba(24, 160, 88, 0.25);
   border-top-color: #18a058;
   border-radius: 50%;
-  animation: spin .8s linear infinite;
+  animation: spin 0.8s linear infinite;
 }
-@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
 .step.done .step-icon {
   background: #18a058;
   border-color: #18a058;
   color: #fff;
 }
-.check { display: flex; animation: pop .35s cubic-bezier(.5, 1.8, .6, 1); }
+.check {
+  display: flex;
+  animation: pop 0.35s cubic-bezier(0.5, 1.8, 0.6, 1);
+}
 @keyframes pop {
-  0% { transform: scale(0); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
-.step-body { flex: 1; padding-top: 3px; min-width: 0; }
+.step-body {
+  flex: 1;
+  padding-top: 3px;
+  min-width: 0;
+}
 .step-name {
   font-size: 15px;
   font-weight: 500;
   color: #a8adb3;
-  transition: color .3s;
+  transition: color 0.3s;
   display: flex;
   align-items: baseline;
   gap: 8px;
   flex-wrap: wrap;
 }
-.step.active .step-name { color: #1f2225; font-weight: 600; }
-.step.done .step-name { color: #1f2225; }
+.step.active .step-name {
+  color: #1f2225;
+  font-weight: 600;
+}
+.step.done .step-name {
+  color: #1f2225;
+}
 .step-hint {
   font-size: 12.5px;
   color: #a8adb3;
   margin-top: 4px;
   min-height: 17px;
-  transition: color .3s;
+  transition: color 0.3s;
 }
-.step.active .step-hint { color: #6b7075; }
-.step-time { font-size: 12px; font-weight: 400; color: #18a058; }
+.step.active .step-hint {
+  color: #6b7075;
+}
+.step-time {
+  font-size: 12px;
+  font-weight: 400;
+  color: #18a058;
+}
 
 .dots::after {
-  content: "";
+  content: '';
   animation: dots 1.5s steps(4) infinite;
 }
 @keyframes dots {
-  0% { content: ""; }
-  25% { content: "."; }
-  50% { content: ".."; }
-  75% { content: "..."; }
+  0% {
+    content: '';
+  }
+  25% {
+    content: '.';
+  }
+  50% {
+    content: '..';
+  }
+  75% {
+    content: '...';
+  }
 }
 
 /* Research 子项 chips */
@@ -613,7 +671,7 @@ onUnmounted(() => {
   padding: 3px 10px;
   background: #f5f6f8;
   color: #a8adb3;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 .chip.loading {
   color: #18a058;
@@ -621,8 +679,13 @@ onUnmounted(() => {
   animation: chip-breath 1.2s ease-in-out infinite;
 }
 @keyframes chip-breath {
-  0%, 100% { opacity: 1; }
-  50% { opacity: .55; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
 }
 .chip.ok {
   color: #18a058;
@@ -646,7 +709,7 @@ onUnmounted(() => {
   color: #18a058;
   font-size: 14px;
   font-weight: 500;
-  animation: pop .4s;
+  animation: pop 0.4s;
 }
 
 /* 失败区 */
@@ -678,9 +741,11 @@ onUnmounted(() => {
   font-size: 12.5px;
   color: #a8adb3;
   min-height: 18px;
-  transition: opacity .4s;
+  transition: opacity 0.4s;
 }
-.fun-tip.fade { opacity: 0; }
+.fun-tip.fade {
+  opacity: 0;
+}
 .wait-row {
   margin-top: 10px;
   font-size: 13px;
@@ -690,6 +755,11 @@ onUnmounted(() => {
   gap: 18px;
   align-items: center;
 }
-.elapsed { font-variant-numeric: tabular-nums; }
-.cancel-btn { color: #a8adb3; font-size: 13px; }
+.elapsed {
+  font-variant-numeric: tabular-nums;
+}
+.cancel-btn {
+  color: #a8adb3;
+  font-size: 13px;
+}
 </style>

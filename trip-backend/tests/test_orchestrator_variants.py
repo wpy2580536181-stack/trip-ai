@@ -168,6 +168,41 @@ class TestPlanVariantsReview:
         # economy 触发 2 次 review（初始 failed + retry passed），其他 variant 各 1 次
         assert review_calls["count"] == 4  # economy: 2, comfort: 1, photo: 1
 
+    async def test_retry_usage_accumulated(self, orchestrator: Orchestrator, plan_request: PlanRequest):
+        """重试轮的 token usage / duration 必须累计进 VariantResult"""
+        review_calls = {"count": 0}
+
+        async def _planner_side_effect(planner_input):
+            return _make_planner_ok(getattr(planner_input, "variant_type", ""))
+
+        async def _review_side_effect(*args, **kwargs):
+            review_calls["count"] += 1
+            if review_calls["count"] == 1:
+                return False, _make_review(passed=False, feedback="请调整预算")
+            return True, _make_review(passed=True)
+
+        with patch.object(ResearchAgent, "run", new_callable=AsyncMock, return_value=_make_research_bundle()), \
+             patch.object(PlannerAgent, "run", new_callable=AsyncMock, side_effect=_planner_side_effect), \
+             patch("src.services.agent.orchestrator.review", side_effect=_review_side_effect):
+            result: PlanVariantsResult = await orchestrator.plan_variants(plan_request)
+
+        economy = next(v for v in result.variants if v.variant_type == "economy")
+        comfort = next(v for v in result.variants if v.variant_type == "comfort")
+        # economy 重试过一次：usage = 2 × 单次、duration = 2 × 单次；comfort 未重试
+        assert economy.usage["total"] == comfort.usage["total"] * 2
+        assert economy.duration_ms == comfort.duration_ms * 2
+
+    async def test_research_failure_sets_error(self, orchestrator: Orchestrator, plan_request: PlanRequest):
+        """Research 失败 → 返回带 error 的 PlanVariantsResult，variants 为空"""
+        from src.services.agent.agents.research_agent import ResearchAgent
+        with patch.object(ResearchAgent, "run", new_callable=AsyncMock,
+                          return_value=MagicMock(error="embedding unavailable", result=None, usage={}, duration_ms=0)):
+            result: PlanVariantsResult = await orchestrator.plan_variants(plan_request)
+
+        assert result.variants == []
+        assert result.error is not None
+        assert "embedding unavailable" in result.error
+
     async def test_review_max_retries_failure(self, orchestrator: Orchestrator, plan_request: PlanRequest):
         """Review 连续 MAX_REVIEW_RETRIES 次失败 → 该 variant plan 为 None"""
         async def _planner_side_effect(planner_input):

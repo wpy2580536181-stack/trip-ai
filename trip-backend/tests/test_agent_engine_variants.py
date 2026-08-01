@@ -19,7 +19,10 @@ from src.services.agent.orchestrator import Orchestrator, PlanVariantsResult, Va
 
 @pytest.fixture
 def agent_engine():
-    return AgentEngine()
+    with patch.object(AgentEngine, "ensure_amap_tools", new_callable=AsyncMock), \
+         patch.object(AgentEngine, "_load_user_preferences", new_callable=AsyncMock, return_value=None):
+        engine = AgentEngine()
+        yield engine
 
 
 def _make_variant(variant_type: str, plan: dict | None = None) -> dict:

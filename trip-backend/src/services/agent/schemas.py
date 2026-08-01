@@ -257,3 +257,6 @@ class PlanVariantsResult:
 
     total_duration_ms: int = 0
     """总耗时（毫秒）"""
+
+    error: Optional[str] = None
+    """整体错误信息（如 Research 阶段失败时非空，此时 variants 为空）"""
