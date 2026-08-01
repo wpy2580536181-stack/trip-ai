@@ -4,8 +4,27 @@ import pytest
 from src.services.agent.intent import (
     check_completeness,
     _build_clarify_field,
+    _extract_city,
     ClarifyField,
 )
+
+
+class TestExtractCity:
+    """_extract_city() 城市提取测试。"""
+
+    def test_single_city(self):
+        assert _extract_city("我想去成都玩") == "成都"
+
+    def test_departure_to_destination_picks_last(self):
+        """'从北京到上海' → 取句末目的地'上海'"""
+        assert _extract_city("从北京到上海") == "上海"
+
+    def test_short_city_in_compound_name(self):
+        """短城市名不应误匹配更长地名中的片段，取最后出现的城市"""
+        assert _extract_city("去北海公园转转") == "北海"
+
+    def test_no_city(self):
+        assert _extract_city("你好") is None
 
 
 class TestCheckCompleteness:

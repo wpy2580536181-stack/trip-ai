@@ -688,7 +688,11 @@ class ChatAgent(BaseAgent):
 
     @staticmethod
     def _build_trip_diff(old: dict, new: dict) -> list[dict]:
-        """比较新旧行程，生成 Slot 级变更列表。"""
+        """比较新旧行程，生成 Slot 级 + 预算变更列表。
+
+        覆盖：morning/afternoon/evening 景点、breakfast/lunch/dinner 餐饮、
+        accommodation 住宿，以及 budgetBreakdown 明细。
+        """
         changes = []
         old_days = {d.get("day"): d for d in (old.get("dailyItinerary") or []) if d.get("day")}
         new_days = {d.get("day"): d for d in (new.get("dailyItinerary") or []) if d.get("day")}
@@ -696,7 +700,7 @@ class ChatAgent(BaseAgent):
         for day_num in all_days:
             old_day = old_days.get(day_num, {})
             new_day = new_days.get(day_num, {})
-            for period in ("morning", "afternoon", "evening"):
+            for period in ("morning", "afternoon", "evening", "lunch", "dinner", "breakfast", "accommodation"):
                 old_spot = (old_day.get(period) or {}).get("spot", "")
                 new_spot = (new_day.get(period) or {}).get("spot", "")
                 if old_spot != new_spot:
@@ -706,6 +710,21 @@ class ChatAgent(BaseAgent):
                         "oldSpot": old_spot or "(无)",
                         "newSpot": new_spot or "(无)",
                     })
+
+        # 预算明细差异（day=0 表示非按天项，前端渲染为总览）
+        budget_labels = ("accommodation", "food", "transportation", "tickets", "other")
+        old_bd = old.get("budgetBreakdown") or {}
+        new_bd = new.get("budgetBreakdown") or {}
+        for key in budget_labels:
+            n1 = old_bd.get(key, 0)
+            n2 = new_bd.get(key, 0)
+            if n1 != n2:
+                changes.append({
+                    "day": 0,
+                    "period": f"预算-{key}",
+                    "oldSpot": f"¥{n1}",
+                    "newSpot": f"¥{n2}",
+                })
         return changes
 
     async def _escalate_plan(self, args: dict) -> tuple[Optional[str], dict]:

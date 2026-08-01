@@ -231,11 +231,20 @@ def _build_clarify_field(key: str) -> ClarifyField:
 # ---------------------------------------------------------------------------
 
 def _extract_city(message: str) -> Optional[str]:
-    """从消息中提取城市名。"""
+    """从消息中提取城市名（取消息中最后一个出现的城市）。
+
+    按位置取最后出现的城市，避免：
+    - 短城市名误匹配（如"北海"匹配"北海公园"后提前返回）
+    - "从北京到上海"这类出发+目的地场景，取句末的目的地
+    """
+    found: Optional[str] = None
+    last_pos = -1
     for city in CITIES:
-        if city in message:
-            return city
-    return None
+        pos = message.find(city)
+        if pos != -1 and pos > last_pos:
+            found = city
+            last_pos = pos
+    return found
 
 
 def _extract_city_from_history(history: list) -> Optional[str]:

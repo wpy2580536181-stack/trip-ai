@@ -24,7 +24,15 @@ const periodLabels: Record<string, string> = {
   morning: '上午',
   afternoon: '下午',
   evening: '晚上',
+  breakfast: '早餐',
+  lunch: '午餐',
+  dinner: '晚餐',
+  accommodation: '住宿',
 }
+
+const isBudget = (period: string) => period.startsWith('预算-')
+
+const budgetLabel = (period: string) => period.replace('预算-', '')
 
 const handleConfirm = async () => {
   loading.value = true
@@ -58,11 +66,20 @@ const handleCancel = async () => {
     <div class="diff-card-header">行程修改建议</div>
     <div class="diff-card-body">
       <div v-for="(c, i) in changes" :key="i" class="diff-row">
-        <span class="diff-day">第{{ c.day }}天</span>
-        <span class="diff-period">{{ periodLabels[c.period] || c.period }}</span>
-        <span class="diff-old">{{ c.oldSpot }}</span>
-        <span class="diff-arrow">→</span>
-        <span class="diff-new">{{ c.newSpot }}</span>
+        <template v-if="isBudget(c.period)">
+          <span class="diff-day">预算</span>
+          <span class="diff-period">{{ budgetLabel(c.period) }}</span>
+          <span class="diff-old">{{ c.oldSpot }}</span>
+          <span class="diff-arrow">→</span>
+          <span class="diff-new">{{ c.newSpot }}</span>
+        </template>
+        <template v-else>
+          <span class="diff-day">第{{ c.day }}天</span>
+          <span class="diff-period">{{ periodLabels[c.period] || c.period }}</span>
+          <span class="diff-old">{{ c.oldSpot }}</span>
+          <span class="diff-arrow">→</span>
+          <span class="diff-new">{{ c.newSpot }}</span>
+        </template>
       </div>
     </div>
     <div class="diff-card-actions">

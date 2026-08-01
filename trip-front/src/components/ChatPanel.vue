@@ -15,17 +15,20 @@ import PoiListCard from '@/components/PoiListCard.vue'
 import CommuteCard from '@/components/CommuteCard.vue'
 import ClarifyCard from '@/components/ClarifyCard.vue'
 
-const props = withDefaults(defineProps<{
-  tripId?: number | null
-  prefill?: string
-  compact?: boolean
-  disabled?: boolean
-}>(), {
-  tripId: null,
-  prefill: '',
-  compact: true,
-  disabled: false,
-})
+const props = withDefaults(
+  defineProps<{
+    tripId?: number | null
+    prefill?: string
+    compact?: boolean
+    disabled?: boolean
+  }>(),
+  {
+    tripId: null,
+    prefill: '',
+    compact: true,
+    disabled: false,
+  }
+)
 
 const emit = defineEmits<{
   (e: 'trip-updated', data: any): void
@@ -61,7 +64,7 @@ watch(
     if (newId && newId !== oldId && currentConversationId.value) {
       persistConversationId(newId, currentConversationId.value)
     }
-  },
+  }
 )
 
 const inputDisabled = computed(() => props.disabled || awaitingTripSwitch.value)
@@ -72,7 +75,9 @@ const convStorageKey = (tripId: number) => `trip_panel_conv_${tripId}`
 const persistConversationId = (tripId: number, convId: number) => {
   try {
     localStorage.setItem(convStorageKey(tripId), String(convId))
-  } catch { /* ignore */ }
+  } catch {
+    /* ignore */
+  }
 }
 
 const restoreConversation = async () => {
@@ -80,7 +85,9 @@ const restoreConversation = async () => {
   let stored: string | null = null
   try {
     stored = localStorage.getItem(convStorageKey(props.tripId))
-  } catch { /* ignore */ }
+  } catch {
+    /* ignore */
+  }
   const convId = stored ? Number(stored) : NaN
   if (!Number.isInteger(convId) || convId <= 0) return
   try {
@@ -91,7 +98,7 @@ const restoreConversation = async () => {
     messages.value = (conv.messages || [])
       .filter(m => m.role !== 'system' && m.content)
       .map(m => ({
-        role: m.role === 'user' ? 'user' as const : 'ai' as const,
+        role: m.role === 'user' ? ('user' as const) : ('ai' as const),
         content: m.content,
         timestamp: m.createdAt,
       }))
@@ -99,7 +106,9 @@ const restoreConversation = async () => {
     // 会话已删除/无权限：清 key，从空会话开始
     try {
       localStorage.removeItem(convStorageKey(props.tripId))
-    } catch { /* ignore */ }
+    } catch {
+      /* ignore */
+    }
   }
 }
 
@@ -149,12 +158,12 @@ watch(() => messages.value.length, scrollToBottom)
 // prefill 变化时自动发送
 watch(
   () => props.prefill,
-  (val) => {
+  val => {
     if (val && !isStreaming.value && !inputDisabled.value) {
       inputMessage.value = val
       nextTick(() => sendMessage())
     }
-  },
+  }
 )
 
 const sendMessage = () => {
@@ -183,6 +192,9 @@ const fetchAiResponse = (userMsg: string) => {
   toolStatus.value = null
   progressData.value = null
   messages.value.push({ role: 'ai', content: '', timestamp: new Date().toISOString() })
+  // 捕获本条 AI 消息的固定索引：回调里不再依赖 messages.length - 1，
+  // 避免 trip_diff/card 等事件与消息追加的时序竞争导致索引错位
+  const aiMsgIdx = messages.value.length - 1
 
   // 对话内全量规划：只附详情链接，不切换当前行程
   let tripPlannedData: { newTripId: number; summary?: string } | null = null
@@ -194,10 +206,10 @@ const fetchAiResponse = (userMsg: string) => {
       conversationId: currentConversationId.value,
       tripId: props.tripId,
     },
-    (chunk) => {
-      messages.value[messages.value.length - 1].content += chunk
+    chunk => {
+      messages.value[aiMsgIdx].content += chunk
     },
-    (data) => {
+    data => {
       isStreaming.value = false
       toolStatus.value = null
       progressData.value = null
@@ -210,17 +222,15 @@ const fetchAiResponse = (userMsg: string) => {
       }
       if (tripPlannedData) {
         // 新规划行程：回填摘要 + 详情链接，不影响当前正在看的行程
-        const lastMsg = messages.value[messages.value.length - 1]
+        const lastMsg = messages.value[aiMsgIdx]
         const link = `[查看行程详情](/detail?id=${tripPlannedData.newTripId})`
         if (lastMsg && lastMsg.role === 'ai') {
-          lastMsg.content = lastMsg.content
-            ? `${lastMsg.content}\n\n${link}`
-            : `${tripPlannedData.summary || '行程已生成'}\n\n${link}`
+          lastMsg.content = lastMsg.content ? `${lastMsg.content}\n\n${link}` : `${tripPlannedData.summary || '行程已生成'}\n\n${link}`
         }
       }
     },
-    (errMsg) => {
-      messages.value[messages.value.length - 1].content = `发生错误: ${errMsg}`
+    errMsg => {
+      messages.value[aiMsgIdx].content = `发生错误: ${errMsg}`
       isStreaming.value = false
       toolStatus.value = null
       progressData.value = null
@@ -228,15 +238,14 @@ const fetchAiResponse = (userMsg: string) => {
       naiveMessage.error(errMsg || 'AI 处理发生错误')
     },
     (type, name) => {
-      toolStatus.value = type === 'tool_start' ? (toolLabels[name] || name) : null
+      toolStatus.value = type === 'tool_start' ? toolLabels[name] || name : null
     },
     undefined, // onHeartbeat
     undefined, // onResume
     {
       onTripEvent: (type, data) => {
         if (type === 'trip_diff' && data?.changes && data?.newTripId) {
-          const idx = messages.value.length - 1
-          diffCards.value.set(idx, {
+          diffCards.value.set(aiMsgIdx, {
             newTripId: data.newTripId,
             parentTripId: data.parentTripId,
             changes: data.changes,
@@ -245,36 +254,37 @@ const fetchAiResponse = (userMsg: string) => {
           tripPlannedData = { newTripId: data.newTripId, summary: data.summary }
         }
       },
-      onProgress: (data) => {
+      onProgress: data => {
         if (data?.stage && data?.status) {
           progressData.value = { stage: data.stage, status: data.status }
         }
       },
       onCard: (cardType, data) => {
-        const idx = messages.value.length - 1
         if (cardType === 'clarify') {
-          clarifyCards.value.set(idx, data)
+          clarifyCards.value.set(aiMsgIdx, data)
         } else {
-          cardData.value.set(idx, { type: cardType, data })
+          cardData.value.set(aiMsgIdx, { type: cardType, data })
         }
       },
-    },
-  ).then(controller => {
-    currentAbortController.value = controller
-  }).catch((err) => {
-    // 网络级错误（连接失败、超时等）
-    const lastMsg = messages.value[messages.value.length - 1]
-    if (lastMsg && lastMsg.role === 'ai' && !lastMsg.content) {
-      lastMsg.content = '网络连接失败，请重试'
     }
-    isStreaming.value = false
-    toolStatus.value = null
-    progressData.value = null
-    currentAbortController.value = null
-    if (err?.name !== 'AbortError') {
-      naiveMessage.error('网络连接失败')
-    }
-  })
+  )
+    .then(controller => {
+      currentAbortController.value = controller
+    })
+    .catch(err => {
+      // 网络级错误（连接失败、超时等）
+      const lastMsg = messages.value[aiMsgIdx]
+      if (lastMsg && lastMsg.role === 'ai' && !lastMsg.content) {
+        lastMsg.content = '网络连接失败，请重试'
+      }
+      isStreaming.value = false
+      toolStatus.value = null
+      progressData.value = null
+      currentAbortController.value = null
+      if (err?.name !== 'AbortError') {
+        naiveMessage.error('网络连接失败')
+      }
+    })
 }
 
 const onDiffConfirm = (tripId: number) => {
@@ -295,12 +305,35 @@ const onDiffCancel = () => {
   diffCards.value = new Map()
 }
 
+const parseClarifyValue = (key: string, value: string): string | undefined => {
+  if (!value) return undefined
+  if (key === 'days') {
+    const m = value.match(/\d+/)
+    return m ? m[0] : value
+  }
+  if (key === 'budget') {
+    const ranges: Record<string, string> = {
+      '1000以下': '800',
+      '1000-3000': '2000',
+      '3000-5000': '4000',
+      '5000-10000': '7500',
+      '10000以上': '12000',
+    }
+    if (ranges[value]) return ranges[value]
+    const m = value.match(/\d+/)
+    return m ? m[0] : value
+  }
+  return value
+}
+
 const handleClarifySubmit = (idx: number, values: Record<string, any>) => {
-  // 将表单值格式化为结构化消息
+  // 将表单值格式化为结构化消息（区间预算/天数统一转为具体数字，避免 LLM 二次猜测）
   const parts: string[] = []
   if (values.city) parts.push(`目的地:${values.city}`)
-  if (values.days) parts.push(`天数:${values.days}`)
-  if (values.budget) parts.push(`预算:${values.budget}`)
+  const days = parseClarifyValue('days', values.days)
+  if (days) parts.push(`天数:${days}`)
+  const budget = parseClarifyValue('budget', values.budget)
+  if (budget) parts.push(`预算:${budget}`)
   if (values.departure_city) parts.push(`出发城市:${values.departure_city}`)
 
   const msg = parts.join('\n')
@@ -323,6 +356,13 @@ const handleKeydown = (e: KeyboardEvent) => {
     sendMessage()
   }
 }
+
+// 暴露内部状态供单元测试访问（未随 <script setup> 默认暴露）
+defineExpose({
+  messages,
+  inputMessage,
+  sendMessage,
+})
 </script>
 
 <template>
@@ -338,10 +378,7 @@ const handleKeydown = (e: KeyboardEvent) => {
         <p class="chat-panel-hint">可以问我行程调整、附近美食、通勤路线等问题</p>
       </div>
       <template v-for="(msg, idx) in messages" :key="idx">
-        <ChatBubble
-          :message="msg"
-          :streaming="isStreaming && idx === messages.length - 1 && msg.role === 'ai'"
-        />
+        <ChatBubble :message="msg" :streaming="isStreaming && idx === messages.length - 1 && msg.role === 'ai'" />
         <TripDiffCard
           v-if="diffCards.has(idx)"
           :newTripId="diffCards.get(idx)!.newTripId"
@@ -350,19 +387,9 @@ const handleKeydown = (e: KeyboardEvent) => {
           @confirm="onDiffConfirm"
           @cancel="onDiffCancel"
         />
-        <PoiListCard
-          v-if="cardData.has(idx) && cardData.get(idx)!.type === 'poi_list'"
-          :items="cardData.get(idx)!.data.items || []"
-        />
-        <CommuteCard
-          v-if="cardData.has(idx) && cardData.get(idx)!.type === 'commute_compare'"
-          :options="cardData.get(idx)!.data.options || []"
-          :recommended="cardData.get(idx)!.data.recommended"
-        />
-        <div
-          v-if="cardData.has(idx) && cardData.get(idx)!.type === 'info_text'"
-          class="tool-text-card"
-        >
+        <PoiListCard v-if="cardData.has(idx) && cardData.get(idx)!.type === 'poi_list'" :items="cardData.get(idx)!.data.items || []" />
+        <CommuteCard v-if="cardData.has(idx) && cardData.get(idx)!.type === 'commute_compare'" :options="cardData.get(idx)!.data.options || []" :recommended="cardData.get(idx)!.data.recommended" />
+        <div v-if="cardData.has(idx) && cardData.get(idx)!.type === 'info_text'" class="tool-text-card">
           <div class="tool-text-card-title">{{ cardData.get(idx)!.data.title }}</div>
           <div class="tool-text-card-content">{{ cardData.get(idx)!.data.content }}</div>
         </div>
@@ -372,15 +399,13 @@ const handleKeydown = (e: KeyboardEvent) => {
           :title="clarifyCards.get(idx)!.title"
           :submit-label="clarifyCards.get(idx)!.submit_label"
           :cancel-label="clarifyCards.get(idx)!.cancel_label"
-          @submit="(values) => handleClarifySubmit(idx, values)"
+          @submit="values => handleClarifySubmit(idx, values)"
           @cancel="() => handleClarifyCancel(idx)"
         />
       </template>
     </div>
 
-    <div v-if="toolStatus" class="chat-panel-tool-status">
-      <span class="tool-dot"></span> {{ toolStatus }}...
-    </div>
+    <div v-if="toolStatus" class="chat-panel-tool-status"><span class="tool-dot"></span> {{ toolStatus }}...</div>
 
     <div v-if="progressData?.status === 'start'" class="chat-panel-progress">
       <div class="progress-bar">
@@ -398,22 +423,8 @@ const handleKeydown = (e: KeyboardEvent) => {
         :disabled="isStreaming || inputDisabled"
         @keydown="handleKeydown"
       />
-      <n-button
-        size="small"
-        type="primary"
-        :disabled="!inputMessage.trim() || isStreaming || inputDisabled"
-        @click="sendMessage"
-      >
-        发送
-      </n-button>
-      <n-button
-        v-if="isStreaming"
-        size="small"
-        quaternary
-        @click="stopStreaming"
-      >
-        停止
-      </n-button>
+      <n-button size="small" type="primary" :disabled="!inputMessage.trim() || isStreaming || inputDisabled" @click="sendMessage"> 发送 </n-button>
+      <n-button v-if="isStreaming" size="small" quaternary @click="stopStreaming"> 停止 </n-button>
     </div>
   </div>
 </template>
@@ -498,8 +509,13 @@ const handleKeydown = (e: KeyboardEvent) => {
 }
 
 @keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.3; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
 }
 
 .chat-panel-progress {

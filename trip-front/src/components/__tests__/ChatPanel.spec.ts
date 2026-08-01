@@ -19,7 +19,7 @@ vi.mock('@/api/conversation', () => ({
 }))
 
 // naive-ui useMessage 需要 provider，只 mock 这一个导出，组件保留真实实现
-vi.mock('naive-ui', async (importOriginal) => {
+vi.mock('naive-ui', async importOriginal => {
   const actual = await importOriginal<typeof import('naive-ui')>()
   return {
     ...actual,
@@ -38,22 +38,10 @@ type StreamCallbacks = {
 let captured: StreamCallbacks | null = null
 
 vi.mock('@/api/request', () => ({
-  fetchStream: vi.fn(
-    (
-      _url: string,
-      body: any,
-      onChunk: any,
-      onComplete: any,
-      onError: any,
-      _onToolEvent: any,
-      _onHeartbeat: any,
-      _onResume: any,
-      options: any,
-    ) => {
-      captured = { body, onChunk, onComplete, onError, onTripEvent: options?.onTripEvent }
-      return Promise.resolve(new AbortController())
-    },
-  ),
+  fetchStream: vi.fn((_url: string, body: any, onChunk: any, onComplete: any, onError: any, _onToolEvent: any, _onHeartbeat: any, _onResume: any, options: any) => {
+    captured = { body, onChunk, onComplete, onError, onTripEvent: options?.onTripEvent }
+    return Promise.resolve(new AbortController())
+  }),
 }))
 
 /** 通过 prefill 触发一次自动发送，返回捕获的回调 */

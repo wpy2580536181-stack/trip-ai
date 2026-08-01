@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 
-defineProps<{
+const props = defineProps<{
   fields: {
     key: string
     label: string
@@ -22,7 +22,12 @@ const emit = defineEmits<{
 
 const formValues = ref<Record<string, any>>({})
 
+const canSubmit = computed(() => {
+  return props.fields.every(f => !f.required || formValues.value[f.key])
+})
+
 const handleSubmit = () => {
+  if (!canSubmit.value) return
   emit('submit', { ...formValues.value })
 }
 
@@ -47,17 +52,12 @@ const handleCancel = () => {
           :placeholder="field.placeholder || `请选择${field.label}`"
           clearable
         />
-        <n-input
-          v-else
-          v-model:value="formValues[field.key]"
-          :type="field.field_type"
-          :placeholder="field.placeholder || `请输入${field.label}`"
-        />
+        <n-input v-else v-model:value="formValues[field.key]" :type="field.field_type" :placeholder="field.placeholder || `请输入${field.label}`" />
       </div>
     </div>
     <div class="clarify-actions">
       <n-button size="small" @click="handleCancel">{{ cancelLabel || '取消' }}</n-button>
-      <n-button size="small" type="primary" @click="handleSubmit">{{ submitLabel || '确定' }}</n-button>
+      <n-button size="small" type="primary" :disabled="!canSubmit" @click="handleSubmit">{{ submitLabel || '确定' }}</n-button>
     </div>
   </div>
 </template>

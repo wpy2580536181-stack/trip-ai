@@ -283,6 +283,62 @@ class TestEscalatePlan:
         assert agent._user_id == 42
 
 
+class TestTripDiffBuilder:
+    """ChatAgent._build_trip_diff 变更生成验证。"""
+
+    @staticmethod
+    def _old_trip() -> dict:
+        return {
+            "city": "北京", "days": 2,
+            "dailyItinerary": [
+                {"day": 1, "morning": {"spot": "故宫"}, "afternoon": {"spot": "天安门"},
+                 "evening": {"spot": ""}, "lunch": {"spot": "全聚德"}, "dinner": {"spot": "海底捞"},
+                 "breakfast": {"spot": ""}, "accommodation": {"spot": "北京饭店"}},
+                {"day": 2, "morning": {"spot": "颐和园"}, "afternoon": {"spot": ""},
+                 "evening": {"spot": ""}},
+            ],
+            "budgetBreakdown": {"accommodation": 1500, "food": 1000, "transportation": 800,
+                                "tickets": 700, "other": 500},
+        }
+
+    @staticmethod
+    def _new_trip() -> dict:
+        return {
+            "city": "北京", "days": 2,
+            "dailyItinerary": [
+                {"day": 1, "morning": {"spot": "国博"}, "afternoon": {"spot": "天安门"},
+                 "evening": {"spot": ""}, "lunch": {"spot": "全聚德"}, "dinner": {"spot": "四季民福"},
+                 "breakfast": {"spot": ""}, "accommodation": {"spot": "北京饭店"}},
+                {"day": 2, "morning": {"spot": "颐和园"}, "afternoon": {"spot": ""},
+                 "evening": {"spot": ""}},
+            ],
+            "budgetBreakdown": {"accommodation": 1500, "food": 1200, "transportation": 800,
+                                "tickets": 700, "other": 500},
+        }
+
+    def test_covers_spots_and_meals_and_budget(self):
+        """diff 覆盖景点(含新增的国博) + 餐饮(dinner) + 预算(food)"""
+        changes = ChatAgent._build_trip_diff(self._old_trip(), self._new_trip())
+        periods = {(c["day"], c["period"]) for c in changes}
+
+        # 景点变更：morning 故宫→国博
+        assert (1, "morning") in periods
+        # 餐饮变更：dinner 海底捞→四季民福
+        assert (1, "dinner") in periods
+        # 预算变更：food 1000→1200，day=0
+        assert (0, "预算-food") in periods
+        # 未变化项不出现
+        assert (1, "afternoon") not in periods
+        assert (1, "lunch") not in periods
+        assert (1, "accommodation") not in periods
+        assert (0, "预算-accommodation") not in periods
+
+    def test_unchanged_trips_empty(self):
+        """新旧一致 → 空变更列表"""
+        changes = ChatAgent._build_trip_diff(self._old_trip(), self._old_trip())
+        assert changes == []
+
+
 # ===========================================================================
 # TripService.chat_stream 透传
 # ===========================================================================
