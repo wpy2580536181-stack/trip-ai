@@ -203,3 +203,54 @@ class ReviewResult:
 
     code_checks: dict = field(default_factory=dict)
     """代码层校验明细"""
+
+
+# ---------------------------------------------------------------------------
+# Multi-Variant Planning（P0：2-3 条路线对比）
+# ---------------------------------------------------------------------------
+
+@dataclass
+class VariantResult:
+    """单个 variant 的规划结果。"""
+
+    variant_type: str = ""
+    """variant 类型：economy / comfort / photo"""
+
+    label: str = ""
+    """展示标签：💰 经济型 / ⭐ 舒适型 / 📸 打卡型"""
+
+    plan: Optional[dict] = None
+    """结构化行程 JSON（dailyItinerary + budgetBreakdown + tips）"""
+
+    raw_output: Optional[str] = None
+    """LLM 原始输出文本"""
+
+    review: Optional["ReviewResult"] = None
+    """审阅结果"""
+
+    usage: dict = field(default_factory=lambda: {
+        "prompt": 0, "completion": 0, "total": 0, "cached": 0,
+    })
+    """Token 消耗"""
+
+    duration_ms: int = 0
+    """耗时（毫秒）"""
+
+    error: Optional[str] = None
+    """错误信息（失败时非空）"""
+
+
+@dataclass
+class PlanVariantsResult:
+    """多 variant 规划结果（Orchestrator.plan_variants 的输出）。"""
+
+    variants: list[VariantResult] = field(default_factory=list)
+    """variant 列表（长度通常为 3）"""
+
+    research_usage: dict = field(default_factory=lambda: {
+        "prompt": 0, "completion": 0, "total": 0, "cached": 0,
+    })
+    """Research 阶段共享的 Token 消耗"""
+
+    total_duration_ms: int = 0
+    """总耗时（毫秒）"""

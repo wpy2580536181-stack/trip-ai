@@ -459,3 +459,32 @@ def build_retry_message(zod_error: str, original_request: str) -> str:
 - 禁止 markdown 代码块、禁止前后缀文字
 
 用户请求：{original_request}"""
+
+
+def _variant_constraint(variant_type: str) -> str:
+    """返回 variant 差异化 prompt 片段，追加到 planner prompt 末尾。
+
+    Args:
+        variant_type: variant 类型（economy / comfort / photo）
+
+    Returns:
+        prompt 片段字符串，未知类型返回空串
+    """
+    constraints = {
+        "economy": """# 经济型约束
+- 优先免费景点、公共交通工具、平价餐饮
+- 每日餐饮预算控制在 80-120 元/人
+- 景点数量优先于舒适度
+- 住宿选择经济型酒店或青年旅舍""",
+        "comfort": """# 舒适型约束
+- 中等预算，合理步行距离（每日 < 6000 步）
+- 精选 6-8 个核心景点，避免赶场
+- 餐饮兼顾口味与性价比
+- 住宿选择舒适型酒店（3-4 星）""",
+        "photo": """# 打卡型约束
+- 优先网红/出片景点（高空观景台、特色建筑、文艺街区）
+- 可适当打车节省时间
+- 景点少而精（4-6 个），每个留足拍照时间
+- 住宿选择设计感强的酒店或民宿""",
+    }
+    return constraints.get(variant_type, "")
