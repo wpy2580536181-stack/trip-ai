@@ -387,7 +387,7 @@ class TripService:
 
         try:
             agent_engine = get_agent_engine()
-            result = await agent_engine.recommend(
+            result = await agent_engine.recommend_variants(
                 user_id=user_id or 0,
                 city=city,
                 budget=budget,
@@ -399,50 +399,52 @@ class TripService:
             logger.info("recommend|agent_engine=%dms city=%s days=%d budget=%d",
                         int((_t_agent - _t0) * 1000), city, days, budget)
 
-            parsed = result.get("parsed")
-            if not parsed:
+            parsed_variants = result.get("parsed_variants", [])
+            if not parsed_variants:
                 raise ValueError("Agent 返回无效结果")
 
-            # ---- geocoding + 图片增强 + 数据校验（best-effort，并行执行） ----
+            # ---- 持久化每个 variant ----
             await _emit("save", "start")
-            await asyncio.gather(
-                self._enrich_geocoding(parsed),
-                self._enrich_images(parsed),
-                return_exceptions=True,
-            )
-            self._validate_and_fix_trip_data(parsed)
-            _t_enrich = time.time()
-
-            # ---- 持久化 Trip 并回填 id ----
-            # 持久化已在 enrich 阶段完成（parsed 已被修改），此处同步写入并取回自增主键
-            trip_id = await self._persist_trip(
-                user_id=user_id,
-                from_city=departure_city,
-                parsed=parsed,
-                budget=budget,
-            )
+            variant_summaries: list[dict] = []
+            for v in parsed_variants:
+                plan = v.get("plan")
+                if not plan:
+                    continue
+                trip_id = await self._persist_trip(
+                    user_id=user_id,
+                    from_city=departure_city,
+                    parsed=plan,
+                    budget=budget,
+                    status="candidate",
+                )
+                variant_summaries.append(self._build_variant_summary(v, trip_id))
             await _emit("save", "done")
+
+            # 默认取第一个有效 variant 作为主展示
+            primary = variant_summaries[0] if variant_summaries else None
+            primary_plan = parsed_variants[0].get("plan") if parsed_variants else {}
 
             _t_total = time.time()
             logger.info(
-                "recommend|total=%dms agent=%dms enrich=%dms city=%s days=%d budget=%d",
+                "recommend|total=%dms agent=%dms save=%dms city=%s days=%d budget=%d variants=%d",
                 int((_t_total - _t0) * 1000),
                 int((_t_agent - _t0) * 1000),
                 int((_t_total - _t_agent) * 1000),
-                city, days, budget,
+                city, days, budget, len(variant_summaries),
             )
 
             return {
                 "success": True,
                 "data": {
-                    "id": trip_id,
-                    "city": parsed.get("city", city),
-                    "days": parsed.get("days", days),
-                    "totalBudget": parsed.get("totalBudget"),
-                    "dailyItinerary": parsed.get("dailyItinerary"),
-                    "budgetBreakdown": parsed.get("budgetBreakdown"),
-                    "tips": parsed.get("tips"),
-                    "warnings": parsed.get("warnings"),
+                    "id": primary["tripId"] if primary else None,
+                    "city": primary_plan.get("city", city),
+                    "days": primary_plan.get("days", days),
+                    "totalBudget": primary_plan.get("totalBudget", budget),
+                    "dailyItinerary": primary_plan.get("dailyItinerary", []),
+                    "budgetBreakdown": primary_plan.get("budgetBreakdown", {}),
+                    "tips": primary_plan.get("tips", []),
+                    "warnings": primary_plan.get("warnings", []),
+                    "variants": variant_summaries,
                 },
             }
         except Exception as e:
@@ -616,6 +618,47 @@ class TripService:
             await session.commit()
             await session.refresh(trip)
             return trip.id
+
+    @staticmethod
+    def _build_variant_summary(variant_result: dict, trip_id: int) -> dict:
+        """从 VariantResult 提取前端对比卡片需要的摘要字段。
+
+        Args:
+            variant_result: AgentEngine.recommend_variants 返回的 variant dict
+            trip_id: 持久化后的 trip ID
+
+        Returns:
+            摘要字典，包含 variantType / label / tripId / totalBudget / spotCount /
+            walkDistanceM / highlights / tips
+        """
+        plan = variant_result.get("plan") or {}
+        daily = plan.get("dailyItinerary", [])
+
+        spot_count = 0
+        for day in daily:
+            for period in ("morning", "afternoon", "evening"):
+                slot = day.get(period)
+                if slot and slot.get("spot"):
+                    spot_count += 1
+
+        highlights = []
+        for day in daily[:2]:
+            for period in ("morning",):
+                slot = day.get(period)
+                if slot and slot.get("spot"):
+                    highlights.append(slot["spot"])
+                    break
+
+        return {
+            "variantType": variant_result.get("variant_type", ""),
+            "label": variant_result.get("label", ""),
+            "tripId": trip_id,
+            "totalBudget": plan.get("totalBudget", 0),
+            "spotCount": spot_count,
+            "walkDistanceM": 0,
+            "highlights": highlights[:3],
+            "tips": (plan.get("tips") or [])[:2],
+        }
 
     @staticmethod
     async def _build_trip_context(trip_id: int, user_id: int) -> Optional[str]:
