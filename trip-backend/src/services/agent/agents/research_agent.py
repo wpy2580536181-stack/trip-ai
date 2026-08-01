@@ -12,13 +12,14 @@ Phase 1 先移植当前 research_node 的固定并行逻辑，后续升级为 LL
 
 import asyncio
 import logging
+import re
 import time
 from typing import Optional, Callable, Awaitable, Any
 
 from langchain_openai import ChatOpenAI
 
 from src.services.agent.agents.base_agent import BaseAgent, AgentInput, AgentOutput
-from src.services.agent.schemas import ResearchInput, ResearchBundle
+from src.services.agent.schemas import ResearchInput, ResearchBundle, SpotItem
 from src.services.agent.types import TokenUsage
 
 logger = logging.getLogger(__name__)
@@ -53,6 +54,34 @@ class ResearchAgent(BaseAgent):
         """
         super().__init__(llm=llm, tools=[], system_prompt="")
         self.on_event = on_event
+
+    @staticmethod
+    def _extract_spot_items(text: str, category: str, max_items: int = 10) -> list[SpotItem]:
+        """从格式化文本中提取景点/美食名称。
+
+        format_search_results 格式：
+          1. 景点名称（城市）
+             - 评分：X 分
+             - 介绍：...
+
+        Args:
+            text: 格式化文本
+            category: 分类（"attraction" 或 "food"）
+            max_items: 最多提取数量
+
+        Returns:
+            SpotItem 列表
+        """
+        items = []
+        # 匹配 "数字. 名称（城市）" 格式
+        pattern = re.compile(r'^\s*\d+\.\s+(.+?)(?:（|\().+?(?:）|\))', re.MULTILINE)
+        for match in pattern.finditer(text):
+            name = match.group(1).strip()
+            if name and len(name) < 30:  # 过滤过长名称
+                items.append(SpotItem(name=name, category=category))
+                if len(items) >= max_items:
+                    break
+        return items
 
     async def run(self, input: ResearchInput) -> AgentOutput:
         """执行搜索：并行调用 RAG / 酒店 / 天气 / 距离工具。
@@ -297,10 +326,22 @@ class ResearchAgent(BaseAgent):
             else:
                 bundle_data[key] = result
 
+        # 从格式化文本中提取结构化 POI 数据（用于封闭世界约束）
+        attraction_text = bundle_data.get("attractions", "")
+        food_text = bundle_data.get("food", "")
+        attraction_items = self._extract_spot_items(attraction_text, "attraction")
+        food_items = self._extract_spot_items(food_text, "food")
+        logger.info(
+            "research_agent|extracted_items attractions=%d food=%d",
+            len(attraction_items), len(food_items),
+        )
+
         return ResearchBundle(
             attractions=bundle_data.get("attractions"),
             food=bundle_data.get("food"),
             hotels=bundle_data.get("hotels"),
             weather=bundle_data.get("weather"),
             distance=bundle_data.get("distance"),
+            attraction_items=attraction_items,  # 新增结构化字段
+            food_items=food_items,              # 新增结构化字段
         )
