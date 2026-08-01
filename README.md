@@ -18,6 +18,7 @@
 - **AI 行程生成** — 输入目的地/预算/天数，自动生成每日行程（含景点、餐饮、住宿）
 - **多 Agent 协作规划** — ResearchAgent 自主搜索 → PlannerAgent 生成行程 → Review 校验循环，封闭世界约束杠绝幻觉
 - **对话式交互** — ChatAgent 单 Agent ReAct 模式，支持多轮对话、工具调用、行程修改升级
+- **需求补全（Intent Completion）** — 输入不完整时（如"周末想出去逛逛"），自动追问缺失字段（目的地/天数/预算），收集齐再生成，避免默认值导致的低质量规划
 - **高德地图 MCP 集成** — 通过 MCP 协议实时查询高德全库 POI
 - **多维度检索** — pgvector 向量 (bge-small-zh) + PG 全文检索 + 热度 三路召回，Cross-Encoder (bge-reranker) 重排序
 - **行程度量** — 预算明细、出行 Tips
