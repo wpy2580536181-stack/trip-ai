@@ -63,12 +63,6 @@ const routes = [
     meta: { requiresAuth: true },
   },
   {
-    path: '/token-usage',
-    name: 'TokenUsage',
-    component: () => import('../views/TokenUsage.vue'),
-    meta: { requiresAuth: true },
-  },
-  {
     path: '/admin/feedback',
     name: 'AdminFeedback',
     component: () => import('../views/AdminFeedbackDashboard.vue'),

@@ -165,10 +165,6 @@ const handleSubmit = async () => {
           <div class="action-icon">👤</div>
           <div class="action-label">个人中心</div>
         </div>
-        <div class="action-card" @click="router.push('/token-usage')">
-          <div class="action-icon">📊</div>
-          <div class="action-label">Token 用量</div>
-        </div>
         <div v-if="isAdmin" class="action-card" @click="router.push('/admin/feedback')">
           <div class="action-icon">📝</div>
           <div class="action-label">反馈 Dashboard</div>

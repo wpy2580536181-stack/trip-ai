@@ -30,7 +30,6 @@ const navItems = computed(() => {
     { path: '/chat', label: '对话', icon: '💬' },
     { path: '/history', label: '行程', icon: '📋' },
     { path: '/commute', label: '通勤择优', icon: '🧭' },
-    { path: '/token-usage', label: 'Tokens', icon: '📊' },
     { path: '/profile', label: '个人', icon: '👤' },
   ]
   if (isAdmin.value) {
