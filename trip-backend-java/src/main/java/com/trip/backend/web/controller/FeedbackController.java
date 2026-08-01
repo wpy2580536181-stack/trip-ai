@@ -209,7 +209,7 @@ public class FeedbackController {
     // ========== DTOs ==========
 
     public record SubmitFeedbackRequest(
-        @Min(1) @Max(-1) Integer rating, // 注意：这里应该是 @Min(-1) @Max(1)，JSR-380 不支持负最小值，需自定义校验
+        Integer rating, // 手动校验：1 或 -1
         @Size(max = 500) String comment,
         @Size(max = 10) List<String> tags,
         Long messageId

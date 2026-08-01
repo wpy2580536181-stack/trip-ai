@@ -8,6 +8,7 @@ import com.trip.backend.utils.AppException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -51,6 +52,7 @@ public class ConversationService {
     /**
      * 创建会话
      */
+    @Transactional
     public Conversation createConversation(Long userId, String title) {
         Conversation conversation = new Conversation();
         conversation.setUserId(userId);
@@ -61,6 +63,7 @@ public class ConversationService {
     /**
      * 删除会话（级联删除消息）
      */
+    @Transactional
     public void deleteConversation(Long userId, Long conversationId) {
         Conversation conversation = conversationRepository.findByIdAndUserId(conversationId, userId)
             .orElseThrow(() -> AppException.notFound("会话不存在"));

@@ -9,6 +9,7 @@ import com.trip.backend.domain.repository.UserRepository;
 import com.trip.backend.infra.security.PasswordHasher;
 import com.trip.backend.utils.AppException;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.OffsetDateTime;
 import java.util.Optional;
@@ -38,6 +39,7 @@ public class UserService {
     /**
      * 注册
      */
+    @Transactional
     public User register(String username, String email, String password) {
         // 查重
         if (userRepository.existsByUsername(username)) {
@@ -64,6 +66,7 @@ public class UserService {
     /**
      * 登录（支持用户名或邮箱）
      */
+    @Transactional(readOnly = true)
     public User login(String identifier, String password) {
         Optional<User> userOpt = userRepository.findByUsername(identifier);
         if (userOpt.isEmpty()) {
@@ -74,7 +77,7 @@ public class UserService {
         }
 
         User user = userOpt.get();
-        if (!passwordHasher.verify(password, user.getPassword())) {
+        if (user.getPassword() == null || !passwordHasher.verify(password, user.getPassword())) {
             throw AppException.unauthorized("密码错误");
         }
 
@@ -88,11 +91,12 @@ public class UserService {
     /**
      * 修改密码
      */
+    @Transactional
     public void changePassword(Long userId, String oldPassword, String newPassword) {
         User user = userRepository.findById(userId)
             .orElseThrow(() -> AppException.notFound("用户不存在"));
 
-        if (!passwordHasher.verify(oldPassword, user.getPassword())) {
+        if (user.getPassword() == null || !passwordHasher.verify(oldPassword, user.getPassword())) {
             throw AppException.badRequest("旧密码错误");
         }
 
@@ -103,6 +107,7 @@ public class UserService {
     /**
      * 忘记密码（恒返回成功，防枚举）
      */
+    @Transactional
     public void forgotPassword(String email) {
         // 检查用户是否存在
         Optional<User> userOpt = userRepository.findByEmail(email);
@@ -124,6 +129,7 @@ public class UserService {
     /**
      * 重置密码
      */
+    @Transactional
     public void resetPassword(String token, String newPassword) {
         PasswordReset reset = passwordResetRepository.findByToken(token)
             .orElseThrow(() -> AppException.badRequest("重置令牌无效"));
@@ -147,6 +153,7 @@ public class UserService {
     /**
      * 获取用户信息
      */
+    @Transactional(readOnly = true)
     public User getUserInfo(Long userId) {
         return userRepository.findById(userId)
             .orElseThrow(() -> AppException.notFound("用户不存在"));
@@ -155,6 +162,7 @@ public class UserService {
     /**
      * 更新用户信息
      */
+    @Transactional
     public User updateUserInfo(Long userId, String nickname, String avatar, String bio) {
         User user = userRepository.findById(userId)
             .orElseThrow(() -> AppException.notFound("用户不存在"));

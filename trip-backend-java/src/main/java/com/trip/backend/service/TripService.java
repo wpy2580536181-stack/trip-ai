@@ -7,6 +7,7 @@ import com.trip.backend.utils.AppException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -63,6 +64,7 @@ public class TripService {
     /**
      * 创建新行程
      */
+    @Transactional
     public Trip createTrip(Long userId, String fromCity, String city, int days, int budget,
                           java.util.Map<String, Object> content) {
         Trip trip = new Trip();
@@ -79,6 +81,7 @@ public class TripService {
     /**
      * 创建候选行程（修改/升级时使用）
      */
+    @Transactional
     public Trip createCandidateTrip(Long userId, Long parentTripId, java.util.Map<String, Object> content) {
         Trip parent = tripRepository.findById(parentTripId)
             .orElseThrow(() -> AppException.notFound("父行程不存在"));
@@ -98,6 +101,7 @@ public class TripService {
     /**
      * 确认行程（candidate → completed）
      */
+    @Transactional
     public Trip confirmTrip(Long userId, Long tripId) {
         Trip trip = tripRepository.findById(tripId)
             .orElseThrow(() -> AppException.notFound("行程不存在"));
@@ -113,6 +117,7 @@ public class TripService {
     /**
      * 丢弃行程（candidate → discarded）
      */
+    @Transactional
     public Trip discardTrip(Long userId, Long tripId) {
         Trip trip = tripRepository.findById(tripId)
             .orElseThrow(() -> AppException.notFound("行程不存在"));
@@ -128,6 +133,7 @@ public class TripService {
     /**
      * 删除行程
      */
+    @Transactional
     public void deleteTrip(Long userId, Long tripId) {
         Trip trip = tripRepository.findByIdAndUserId(tripId, userId)
             .orElseThrow(() -> AppException.notFound("行程不存在"));

@@ -24,6 +24,7 @@ import java.util.List;
  * - 缺 Authorization 头 → 403 "Not authenticated"
  * - 坏或过期 token → 401
  * - 仅强校验 userId 与 exp，授权以 DB role_id 为准（不信任 JWT 内 roleId）
+ * - 设置 request attribute: userId, roleId（供 @RequestAttribute 使用）
  */
 @Component
 public class JwtAuthFilter extends OncePerRequestFilter {
@@ -68,8 +69,16 @@ public class JwtAuthFilter extends OncePerRequestFilter {
                 return;
             }
 
-            // 5. 构建 Authentication（仅包含 userId，role 从 DB 查询）
+            // 5. 提取 userId 和 roleId
             Long userId = ((Number) userIdObj).longValue();
+            Object roleIdObj = claims.get("roleId");
+            Integer roleId = roleIdObj != null ? ((Number) roleIdObj).intValue() : null;
+
+            // 6. 设置 request attribute（供 @RequestAttribute 使用）
+            request.setAttribute("userId", userId);
+            request.setAttribute("roleId", roleId);
+
+            // 7. 构建 Authentication（仅包含 userId，role 从 DB 查询）
             var auth = new UsernamePasswordAuthenticationToken(
                 userId,
                 null,

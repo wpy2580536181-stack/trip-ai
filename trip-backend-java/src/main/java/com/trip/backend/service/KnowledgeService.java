@@ -8,6 +8,7 @@ import com.trip.backend.utils.AppException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Map;
@@ -47,6 +48,7 @@ public class KnowledgeService {
     /**
      * 创建景点
      */
+    @Transactional
     public Spot createSpot(Map<String, Object> data) {
         Spot spot = new Spot();
         spot.setName((String) data.get("name"));
@@ -64,6 +66,7 @@ public class KnowledgeService {
     /**
      * 批量创建景点（bulk import）
      */
+    @Transactional
     public BulkResult bulkCreateSpots(List<Map<String, Object>> spotsData) {
         int success = 0;
         int failed = 0;
@@ -83,6 +86,7 @@ public class KnowledgeService {
     /**
      * 更新景点
      */
+    @Transactional
     public Spot updateSpot(Long id, Map<String, Object> data) {
         Spot spot = spotRepository.findById(id)
             .orElseThrow(() -> AppException.notFound("景点不存在"));
@@ -103,6 +107,7 @@ public class KnowledgeService {
     /**
      * 删除景点
      */
+    @Transactional
     public void deleteSpot(Long id) {
         if (!spotRepository.existsById(id)) {
             throw AppException.notFound("景点不存在");

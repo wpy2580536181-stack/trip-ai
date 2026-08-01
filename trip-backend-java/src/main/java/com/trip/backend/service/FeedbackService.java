@@ -9,6 +9,7 @@ import com.trip.backend.utils.AppException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Map;
@@ -30,29 +31,35 @@ public class FeedbackService {
     /**
      * 提交反馈（IDOR 校验 + 唯一 upsert）
      */
+    @Transactional
     public Feedback submitFeedback(Long userId, Long messageId, Integer rating, String comment, List<String> tags) {
-        // 1. 验证消息归属
+        // 1. 验证评分（1 或 -1）
+        if (rating == null || (rating != 1 && rating != -1)) {
+            throw AppException.badRequest("评分必须为 1 或 -1");
+        }
+
+        // 2. 验证消息归属
         Message message = messageRepository.findById(messageId)
             .orElseThrow(() -> AppException.notFound("消息不存在"));
 
         // 注意：这里简化实现，实际应关联 conversation 并验证 userId 权限
 
-        // 2. 验证消息为 assistant 消息（可评分）
+        // 3. 验证消息为 assistant 消息（可评分）
         if (!"assistant".equals(message.getRole())) {
             throw AppException.badRequest("仅 assistant 消息可评分");
         }
 
-        // 3. 截断评论（500 字）
+        // 4. 截断评论（500 字）
         if (comment != null && comment.length() > 500) {
             comment = comment.substring(0, 500);
         }
 
-        // 4. 标签限制（≤10）
+        // 5. 标签限制（≤10）
         if (tags != null && tags.size() > 10) {
             tags = tags.subList(0, 10);
         }
 
-        // 5. 唯一 upsert (user_id, message_id)
+        // 6. 唯一 upsert (user_id, message_id)
         return feedbackRepository.findByUserIdAndMessageId(userId, messageId)
             .map(existing -> {
                 existing.setRating(rating);

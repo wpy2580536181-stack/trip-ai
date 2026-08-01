@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
+import org.springframework.web.util.UriComponentsBuilder;
 
 /**
  * 高德 HTTP 客户端（对应 Python services/http/amap_client.py）
@@ -35,13 +36,18 @@ public class AmapClient {
      * 地理编码（地址 → 坐标）
      */
     public JsonNode geocode(String address) {
-        String url = baseUrl + "/geocode/geo";
+        String url = UriComponentsBuilder.fromHttpUrl(baseUrl + "/geocode/geo")
+            .queryParam("key", apiKey)
+            .queryParam("address", address)
+            .encode()
+            .toUriString();
+
         HttpHeaders headers = new HttpHeaders();
         headers.set("Accept", "application/json");
         HttpEntity<Void> entity = new HttpEntity<>(headers);
 
         ResponseEntity<JsonNode> response = restTemplate.exchange(
-            url + "?key=" + apiKey + "&address=" + address,
+            url,
             HttpMethod.GET,
             entity,
             JsonNode.class
@@ -54,20 +60,22 @@ public class AmapClient {
      * 输入联想
      */
     public JsonNode inputTips(String keywords, String city) {
-        String url = baseUrl + "/assistant/inputtips";
+        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(baseUrl + "/assistant/inputtips")
+            .queryParam("key", apiKey)
+            .queryParam("keywords", keywords);
+
+        if (city != null && !city.isBlank()) {
+            builder.queryParam("city", city);
+        }
+
+        String url = builder.encode().toUriString();
+
         HttpHeaders headers = new HttpHeaders();
         headers.set("Accept", "application/json");
         HttpEntity<Void> entity = new HttpEntity<>(headers);
 
-        StringBuilder params = new StringBuilder();
-        params.append("?key=").append(apiKey);
-        params.append("&keywords=").append(keywords);
-        if (city != null && !city.isBlank()) {
-            params.append("&city=").append(city);
-        }
-
         ResponseEntity<JsonNode> response = restTemplate.exchange(
-            url + params,
+            url,
             HttpMethod.GET,
             entity,
             JsonNode.class
@@ -80,24 +88,26 @@ public class AmapClient {
      * 周边 POI 搜索
      */
     public JsonNode nearbySearch(double lng, double lat, String keywords, String types, int radius, int limit) {
-        String url = baseUrl + "/place/text";
+        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(baseUrl + "/place/text")
+            .queryParam("key", apiKey)
+            .queryParam("keywords", keywords)
+            .queryParam("location", lng + "," + lat)
+            .queryParam("radius", radius)
+            .queryParam("offset", limit)
+            .queryParam("extensions", "all");
+
+        if (types != null && !types.isBlank()) {
+            builder.queryParam("types", types);
+        }
+
+        String url = builder.encode().toUriString();
+
         HttpHeaders headers = new HttpHeaders();
         headers.set("Accept", "application/json");
         HttpEntity<Void> entity = new HttpEntity<>(headers);
 
-        StringBuilder params = new StringBuilder();
-        params.append("?key=").append(apiKey);
-        params.append("&keywords=").append(keywords);
-        params.append("&location=").append(lng).append(",").append(lat);
-        params.append("&radius=").append(radius);
-        params.append("&offset=").append(limit);
-        params.append("&extensions=all");
-        if (types != null && !types.isBlank()) {
-            params.append("&types=").append(types);
-        }
-
         ResponseEntity<JsonNode> response = restTemplate.exchange(
-            url + params,
+            url,
             HttpMethod.GET,
             entity,
             JsonNode.class
@@ -110,7 +120,6 @@ public class AmapClient {
      * 路径规划（驾车/步行/公交/骑行）
      */
     public JsonNode direction(String origin, String destination, String mode) {
-        String url = baseUrl + "/direction/" + mode + "/integrated/drive";
         // TODO: 实现完整参数
         return null;
     }
