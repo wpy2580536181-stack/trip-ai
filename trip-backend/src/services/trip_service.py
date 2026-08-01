@@ -466,19 +466,50 @@ class TripService:
             trip_log.warning(err=str(e), msg="geocoding enrichment failed, continuing")
 
     @staticmethod
-    def _validate_and_fix_trip_data(parsed: dict) -> None:
+    def _validate_and_fix_trip_data(
+        parsed: dict,
+        food_spot_names: Optional[set[str]] = None,
+    ) -> None:
         """校验并修复行程数据中的常见问题（best-effort）。
 
         1. accommodation.spot 非住宿类时，尝试清空或置空，防止在地图上显示为餐饮
         2. morning/afternoon/evening 时段禁止填入餐饮，发现则清空
         3. 跨天去重：同一景点只能出现一次，后续重复出现的清空
+
+        Args:
+            parsed: 解析后的行程数据
+            food_spot_names: 候选池中的餐饮名称集合（用于精确检测）
         """
-        _HOTEL_KEYWORDS = ("酒店", "旅馆", "民宿", "宾馆", "公寓", "旅舍", "motel", "hotel", "inn", "resort")
-        _FOOD_KEYWORDS = ("烤鸭", "餐厅", "餐馆", "饭店", "火锅", "小吃", "面", "饭", "菜", "食", "茶", "咖啡", "bar", "cafe", "restaurant")
+        _HOTEL_KEYWORDS = ("酒店", "旅馆", "民宿", "宾馆", "公寓", "旅舍", "motel", "hotel", "inn", "resort", "饭店")
+        # 餐饮关键词：先检查品牌，再检查类型词（类型词需排除酒店场景）
+        _FOOD_BRANDS = (
+            "全聚德", "东来顺", "海底捞", "呷哺", "鼎泰丰", "大董", "便宜坊",
+            "肯德基", "麦当劳", "星巴克", "喜茶", "奈雪", "蜜雪冰城",
+        )
+        _FOOD_TYPE_KEYWORDS = ("烤鸭", "餐厅", "餐馆", "火锅", "小吃", "面", "菜", "食", "茶", "咖啡", "bar", "cafe", "restaurant")
+        # "饭店"是歧义词（可能是酒店也可能是餐厅），仅当同时包含明确餐饮词时才视为餐饮
 
         daily_itinerary = parsed.get("dailyItinerary", [])
         if not daily_itinerary:
             return
+
+        # 合并关键词检测和候选池检测
+        def _is_food_spot(spot_name: str) -> bool:
+            """判断是否为餐饮类地点。"""
+            lower = spot_name.lower()
+            # 1. 品牌名精确匹配（优先级最高）
+            if any(brand in lower for brand in _FOOD_BRANDS):
+                return True
+            # 2. 类型词匹配（需排除同时包含酒店关键词的歧义场景）
+            if any(kw in lower for kw in _FOOD_TYPE_KEYWORDS):
+                # "饭店"是歧义词：如果同时包含酒店关键词，则不是餐饮
+                if "饭店" in lower and any(hk in lower for hk in _HOTEL_KEYWORDS):
+                    return False
+                return True
+            # 3. 候选池精确匹配
+            if food_spot_names and spot_name in food_spot_names:
+                return True
+            return False
 
         # 第一轮：检查 accommodation 字段（现有逻辑）
         for day in daily_itinerary:
@@ -488,7 +519,7 @@ class TripService:
             spot_name = slot["spot"]
             lower = spot_name.lower()
             is_hotel = any(kw in lower for kw in _HOTEL_KEYWORDS)
-            is_food = any(kw in lower for kw in _FOOD_KEYWORDS)
+            is_food = _is_food_spot(spot_name)
             if is_food and not is_hotel:
                 trip_log.warning(
                     "accommodation_spot_mismatch",
@@ -515,7 +546,7 @@ class TripService:
                 lower = spot_name.lower()
 
                 # 检查是否为餐饮进入景点时段
-                is_food = any(kw in lower for kw in _FOOD_KEYWORDS)
+                is_food = _is_food_spot(spot_name)
                 if is_food:
                     trip_log.warning(
                         "food_in_attraction_slot",
