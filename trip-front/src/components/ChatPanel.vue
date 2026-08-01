@@ -13,6 +13,7 @@ import ChatBubble from '@/components/ChatBubble.vue'
 import TripDiffCard from '@/components/TripDiffCard.vue'
 import PoiListCard from '@/components/PoiListCard.vue'
 import CommuteCard from '@/components/CommuteCard.vue'
+import ClarifyCard from '@/components/ClarifyCard.vue'
 
 const props = withDefaults(defineProps<{
   tripId?: number | null
@@ -45,6 +46,7 @@ const toolStatus = ref<string | null>(null)
 const progressData = ref<{ stage: string; status: string } | null>(null)
 const diffCards = ref<Map<number, { newTripId: number; parentTripId: number; changes: any[] }>>(new Map())
 const cardData = ref<Map<number, { type: string; data: any }>>(new Map())
+const clarifyCards = ref<Map<number, { fields: any[]; title?: string; submit_label?: string; cancel_label?: string }>>(new Map())
 const currentAbortController = ref<AbortController | null>(null)
 const messageListRef = ref<HTMLElement | null>(null)
 const currentConversationId = ref<number | null>(null)
@@ -250,7 +252,11 @@ const fetchAiResponse = (userMsg: string) => {
       },
       onCard: (cardType, data) => {
         const idx = messages.value.length - 1
-        cardData.value.set(idx, { type: cardType, data })
+        if (cardType === 'clarify') {
+          clarifyCards.value.set(idx, data)
+        } else {
+          cardData.value.set(idx, { type: cardType, data })
+        }
       },
     },
   ).then(controller => {
@@ -287,6 +293,28 @@ const onDiffCancel = () => {
     lastMsg.content = '已取消修改'
   }
   diffCards.value = new Map()
+}
+
+const handleClarifySubmit = (idx: number, values: Record<string, any>) => {
+  // 将表单值格式化为结构化消息
+  const parts: string[] = []
+  if (values.city) parts.push(`目的地:${values.city}`)
+  if (values.days) parts.push(`天数:${values.days}`)
+  if (values.budget) parts.push(`预算:${values.budget}`)
+  if (values.departure_city) parts.push(`出发城市:${values.departure_city}`)
+
+  const msg = parts.join('\n')
+  if (msg) {
+    inputMessage.value = msg
+    nextTick(() => {
+      sendMessage()
+    })
+  }
+  clarifyCards.value.delete(idx)
+}
+
+const handleClarifyCancel = (idx: number) => {
+  clarifyCards.value.delete(idx)
 }
 
 const handleKeydown = (e: KeyboardEvent) => {
@@ -338,6 +366,15 @@ const handleKeydown = (e: KeyboardEvent) => {
           <div class="tool-text-card-title">{{ cardData.get(idx)!.data.title }}</div>
           <div class="tool-text-card-content">{{ cardData.get(idx)!.data.content }}</div>
         </div>
+        <ClarifyCard
+          v-if="clarifyCards.has(idx)"
+          :fields="clarifyCards.get(idx)!.fields"
+          :title="clarifyCards.get(idx)!.title"
+          :submit-label="clarifyCards.get(idx)!.submit_label"
+          :cancel-label="clarifyCards.get(idx)!.cancel_label"
+          @submit="(values) => handleClarifySubmit(idx, values)"
+          @cancel="() => handleClarifyCancel(idx)"
+        />
       </template>
     </div>
 

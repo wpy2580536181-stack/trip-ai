@@ -714,6 +714,22 @@ class ChatAgent(BaseAgent):
         成功落库时通过 on_event 发出 trip_planned 事件（前端展示详情入口）。
         返回 (回复文本, 升级路径 usage)。
         """
+        # ── T2: 完整性检查（前置拦截）──
+        from src.services.agent.intent import check_completeness, _build_clarify_field
+        history = getattr(self, "_conversation_history", [])
+        missing, _ = check_completeness(args, history)
+        if missing:
+            fields = [_build_clarify_field(key) for key in missing]
+            if self.on_event:
+                await self.on_event({
+                    "type": "card",
+                    "card_type": "clarify",
+                    "data": {
+                        "fields": [f.__dict__ for f in fields],
+                    },
+                })
+            return "请补充以下信息后再开始规划", {}
+
         try:
             from src.services.agent.orchestrator import Orchestrator
             from src.services.agent.schemas import PlanRequest
