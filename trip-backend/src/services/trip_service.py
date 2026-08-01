@@ -470,11 +470,17 @@ class TripService:
         """校验并修复行程数据中的常见问题（best-effort）。
 
         1. accommodation.spot 非住宿类时，尝试清空或置空，防止在地图上显示为餐饮
+        2. morning/afternoon/evening 时段禁止填入餐饮，发现则清空
+        3. 跨天去重：同一景点只能出现一次，后续重复出现的清空
         """
         _HOTEL_KEYWORDS = ("酒店", "旅馆", "民宿", "宾馆", "公寓", "旅舍", "motel", "hotel", "inn", "resort")
         _FOOD_KEYWORDS = ("烤鸭", "餐厅", "餐馆", "饭店", "火锅", "小吃", "面", "饭", "菜", "食", "茶", "咖啡", "bar", "cafe", "restaurant")
 
         daily_itinerary = parsed.get("dailyItinerary", [])
+        if not daily_itinerary:
+            return
+
+        # 第一轮：检查 accommodation 字段（现有逻辑）
         for day in daily_itinerary:
             slot = day.get("accommodation")
             if not slot or not slot.get("spot"):
@@ -484,7 +490,6 @@ class TripService:
             is_hotel = any(kw in lower for kw in _HOTEL_KEYWORDS)
             is_food = any(kw in lower for kw in _FOOD_KEYWORDS)
             if is_food and not is_hotel:
-                # 看起来是餐饮店被错误放到了 accommodation，清空 spot 并记录警告
                 trip_log.warning(
                     "accommodation_spot_mismatch",
                     day=day.get("day"),
@@ -496,6 +501,50 @@ class TripService:
                 slot["ticket"] = ""
                 slot["transportation"] = ""
                 slot["description"] = "住宿信息待确认"
+
+        # 第二轮：检查 morning/afternoon/evening 时段（新增）
+        # 2a. 时段餐饮检测 + 跨天去重
+        spot_usage: dict[str, list[int]] = {}  # spot_name -> [day1, day2, ...]
+        for day in daily_itinerary:
+            day_num = day.get("day", 0)
+            for period in ("morning", "afternoon", "evening"):
+                slot = day.get(period)
+                if not slot or not slot.get("spot"):
+                    continue
+                spot_name = slot["spot"]
+                lower = spot_name.lower()
+
+                # 检查是否为餐饮进入景点时段
+                is_food = any(kw in lower for kw in _FOOD_KEYWORDS)
+                if is_food:
+                    trip_log.warning(
+                        "food_in_attraction_slot",
+                        day=day_num, period=period, spot=spot_name,
+                        action="cleared"
+                    )
+                    slot["spot"] = ""
+                    slot["duration"] = ""
+                    slot["ticket"] = ""
+                    slot["transportation"] = ""
+                    slot["description"] = "景点信息待确认"
+                    continue
+
+                # 跨天去重检查
+                if spot_name in spot_usage:
+                    spot_usage[spot_name].append(day_num)
+                    trip_log.warning(
+                        "duplicate_spot_across_days",
+                        spot=spot_name, days=spot_usage[spot_name],
+                        action="cleared_later"
+                    )
+                    # 清空后续重复出现的该景点
+                    slot["spot"] = ""
+                    slot["duration"] = ""
+                    slot["ticket"] = ""
+                    slot["transportation"] = ""
+                    slot["description"] = "景点信息待确认"
+                else:
+                    spot_usage[spot_name] = [day_num]
 
     @staticmethod
     async def _enrich_images(parsed: dict) -> None:
