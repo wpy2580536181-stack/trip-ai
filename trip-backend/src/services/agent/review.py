@@ -12,9 +12,23 @@ import logging
 import re
 from typing import Optional
 
-from src.services.agent.schemas import ResearchBundle, ReviewResult
+from src.services.agent.schemas import (
+    BudgetAllocation,
+    BudgetViolation,
+    BudgetViolationResult,
+    ResearchBundle,
+    ReviewResult,
+)
 
 logger = logging.getLogger(__name__)
+
+_ITEM_CN = {
+    "accommodation": "住宿",
+    "food": "餐饮",
+    "transportation": "交通",
+    "tickets": "门票",
+    "other": "其他",
+}
 
 
 # ---------------------------------------------------------------------------
@@ -27,6 +41,7 @@ async def review(
     budget: int,
     days: int,
     target_days: Optional[list[int]] = None,
+    alloc: Optional[BudgetAllocation] = None,
 ) -> tuple[Optional[dict], ReviewResult]:
     """审阅 Planner 输出。
 
@@ -36,6 +51,7 @@ async def review(
         budget: 用户预算
         days: 期望天数
         target_days: 局部模式时指定被修改的天（跳过全局天数检查）
+        alloc: 预算分解目标（传入时启用分项校验；None 时仅总和兜底，兼容旧调用方）
 
     Returns:
         (parsed_plan, ReviewResult) 元组
@@ -103,6 +119,39 @@ async def review(
         )
     code_checks["breakdown_complete"] = True
 
+    # ── Step 4.5: 预算分项校验（传入 alloc 时启用）──
+    if alloc is not None:
+        violations = _check_budget_items(parsed.get("budgetBreakdown", {}), alloc)
+        if violations:
+            code_checks["budget_items"] = [
+                {
+                    "key": v.key,
+                    "actual": v.actual,
+                    "limit": v.limit,
+                    "over": v.over,
+                }
+                for v in violations
+            ]
+            over_total = sum(v.over for v in violations)
+            detail = "、".join(
+                f"{_ITEM_CN.get(v.key, v.key)}超 {v.over} 元" for v in violations
+            )
+            targets = "、".join(
+                f"{_ITEM_CN.get(k, k)} ≤ {limit} 元" for k, limit in alloc.allocation.items()
+            )
+            issue = f"预算分项超标（超 {over_total} 元）：{detail}"
+            return parsed, ReviewResult(
+                passed=False,
+                issues=[issue],
+                feedback=(
+                    f"预算分项超标：{detail}。"
+                    f"目标分配：{targets}。"
+                    f"请按目标重新分配预算，从违规分项压缩开支（如减少付费活动、降低酒店档次）。"
+                ),
+                code_checks=code_checks,
+            )
+        code_checks["budget_items"] = "ok"
+
     # ── Step 5: 候选池合规（封闭世界校验）──
     if bundle and bundle.all_spot_names():
         pool_names = bundle.all_spot_names()
@@ -148,6 +197,28 @@ async def review(
 # ---------------------------------------------------------------------------
 # 内部辅助
 # ---------------------------------------------------------------------------
+
+def _check_budget_items(breakdown: dict, alloc: BudgetAllocation) -> list[BudgetViolation]:
+    """分项校验：budgetBreakdown 各项是否超过 allocation 上限 × 弹性系数。
+
+    返回违规列表（空 = 全部合规）。
+    """
+    violations = []
+    for key, limit in alloc.allocation.items():
+        actual = breakdown.get(key, 0)
+        if not isinstance(actual, (int, float)):
+            continue
+        if actual > limit * alloc.elasticity:
+            violations.append(
+                BudgetViolation(
+                    key=key,
+                    actual=int(actual),
+                    limit=limit,
+                    over=int(actual) - limit,
+                )
+            )
+    return violations
+
 
 def _parse_json(raw: str) -> Optional[dict]:
     """解析 JSON（含修复逻辑）。
