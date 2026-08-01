@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { ref, onMounted } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useMessage } from 'naive-ui'
-import MapView from '@/components/MapView.vue'
 
 const router = useRouter()
 const route = useRoute()
@@ -21,14 +20,13 @@ interface VariantSummary {
 interface VariantsData {
   id?: number
   variants?: VariantSummary[]
+  city?: string
   [key: string]: any
 }
 
 const variants = ref<VariantSummary[]>([])
 const city = ref('')
 const selectedVariant = ref<number | null>(null)
-const showMap = ref(false)
-const mapTripData = ref<any>(null)
 
 const variantLabels: Record<string, { label: string; color: string; desc: string }> = {
   economy: {
@@ -48,14 +46,9 @@ const variantLabels: Record<string, { label: string; color: string; desc: string
   },
 }
 
-const totalBudget = computed(() => {
-  const data = route.state as VariantsData | undefined
-  return data?.totalBudget || data?.budget || 0
-})
-
 const loadVariants = () => {
   try {
-    const data = route.state as VariantsData | undefined
+    const data = (route as any).state as VariantsData | undefined
     if (data?.variants && Array.isArray(data.variants) && data.variants.length > 0) {
       variants.value = data.variants
       city.value = data.city || ''
