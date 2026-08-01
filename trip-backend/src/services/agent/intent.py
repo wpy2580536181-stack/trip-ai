@@ -66,6 +66,39 @@ class IntentResult:
     """route == 'clarify' 时的追问内容"""
 
 
+@dataclass
+class ClarifyField:
+    """追问字段定义（用于前端渲染表单）。"""
+
+    key: str
+    """字段名：city / days / budget / departure_city"""
+
+    label: str
+    """前端标签：目的地 / 天数 / 预算 / 出发城市"""
+
+    field_type: str
+    """输入类型：select | text | number"""
+
+    required: bool = True
+    """是否必填"""
+
+    placeholder: str = ""
+    """占位提示"""
+
+    options: list[str] = field(default_factory=list)
+    """select 类型时的选项列表"""
+
+
+@dataclass
+class ClarifyCardData:
+    """ClarifyCard 前端数据结构。"""
+
+    fields: list[ClarifyField]
+    title: str = "请补充以下信息"
+    submit_label: str = "开始规划"
+    cancel_label: str = "取消"
+
+
 # ---------------------------------------------------------------------------
 # 公开接口
 # ---------------------------------------------------------------------------
@@ -121,6 +154,76 @@ def extract_intent(message: str, history: Optional[list] = None) -> IntentResult
         days=days,
         budget=budget,
     )
+
+
+def check_completeness(args: dict, history: Optional[list] = None) -> tuple[list[str], dict]:
+    """检查 trigger_plan args 完整性。
+
+    Args:
+        args: trigger_plan 参数 {city, days, budget, departure_city, interests}
+        history: 对话历史（用于继承上下文）
+
+    Returns:
+        (missing_fields, clarified_args)
+        - missing_fields: 缺失字段列表（[] 表示完整）
+        - clarified_args: 可从历史继承的字段值（用于补全）
+    """
+    missing = []
+    clarified = {}
+
+    # 城市（可从历史继承）
+    city = (args.get("city") or "").strip()
+    if not city:
+        hist_city = _extract_city_from_history(history or [])
+        if hist_city:
+            clarified["city"] = hist_city
+        else:
+            missing.append("city")
+
+    # 天数（不可从历史继承，必须用户明确）
+    days = args.get("days")
+    if not days or days <= 0:
+        missing.append("days")
+
+    # 预算（不可从历史继承，必须用户明确）
+    budget = args.get("budget")
+    if not budget or budget <= 0:
+        missing.append("budget")
+
+    return missing, clarified
+
+
+def _build_clarify_field(key: str) -> ClarifyField:
+    """构建 ClarifyField 定义。"""
+    definitions = {
+        "city": ClarifyField(
+            key="city",
+            label="目的地",
+            field_type="select",
+            options=CITIES[:20],
+            placeholder="请输入或选择城市",
+        ),
+        "days": ClarifyField(
+            key="days",
+            label="天数",
+            field_type="select",
+            options=["1天", "2天", "3天", "4天", "5天", "6天", "7天"],
+        ),
+        "budget": ClarifyField(
+            key="budget",
+            label="预算（元）",
+            field_type="select",
+            options=["1000以下", "1000-3000", "3000-5000", "5000-10000", "10000以上"],
+        ),
+        "departure_city": ClarifyField(
+            key="departure_city",
+            label="出发城市",
+            field_type="text",
+            required=False,
+            placeholder="可选",
+        ),
+    }
+    return definitions.get(key, ClarifyField(key=key, label=key, field_type="text"))
 
 
 # ---------------------------------------------------------------------------
