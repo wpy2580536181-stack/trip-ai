@@ -105,7 +105,26 @@ async def review(
 
     # ── Step 5: 候选池合规（封闭世界校验）──
     if bundle and bundle.all_spot_names():
-        code_checks["pool_compliance"] = "skipped_phase1"
+        pool_names = bundle.all_spot_names()
+        # 提取行程中所有景点时段（morning/afternoon/evening）的 spot 名称
+        trip_spots = set()
+        for day in itinerary:
+            for period in ("morning", "afternoon", "evening"):
+                slot = day.get(period)
+                if slot and slot.get("spot"):
+                    trip_spots.add(slot["spot"])
+        # 检查是否有候选池外的景点
+        unknown = trip_spots - pool_names
+        if unknown:
+            code_checks["pool_compliance"] = False
+            issue = f"以下景点不在候选池中：{', '.join(sorted(unknown))}"
+            return parsed, ReviewResult(
+                passed=False,
+                issues=[issue],
+                feedback=f"请仅使用候选池中的景点。以下景点不在候选池中：{', '.join(sorted(unknown))}",
+                code_checks=code_checks,
+            )
+        code_checks["pool_compliance"] = True
     else:
         code_checks["pool_compliance"] = "no_pool"
 
