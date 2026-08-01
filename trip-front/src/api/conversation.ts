@@ -22,6 +22,7 @@ export interface ConversationDetailMessage {
 export interface ConversationDetail {
   id: number
   userId: number
+  tripId: number | null
   title: string | null
   summary: string | null
   createdAt: string

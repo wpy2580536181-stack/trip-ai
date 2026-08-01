@@ -79,6 +79,7 @@ const currentConversationId = ref<number | null>(Number.isInteger(parsedStored) 
 if (currentConversationId.value == null && typeof window !== 'undefined') {
   localStorage.removeItem(CONVERSATION_ID_KEY)
 }
+const lastLoadedConversationId = ref<number | null>(null)
 
 // ---- 关联行程（从详情页带 tripId 跳转时，对话持有行程上下文，可直接让 AI 修改行程） ----
 const queryTripId = Number(route.query.tripId)
@@ -268,11 +269,12 @@ const syncConversationToRoute = (conversationId: number | null) => {
 }
 
 const loadConversationById = async (conversationId: number) => {
-  if (currentConversationId.value === conversationId) return
+  if (lastLoadedConversationId.value === conversationId) return
   try {
     const res = await getConversation(conversationId)
     const conv = res.data
     if (!conv) return
+    lastLoadedConversationId.value = conv.id
     currentConversationId.value = conv.id
     localStorage.setItem(CONVERSATION_ID_KEY, String(conv.id))
     if (conv.tripId) activeTripId.value = conv.tripId
@@ -293,16 +295,22 @@ onMounted(async () => {
 
   // 如果 URL 带有 conversationId，优先按 conversationId 加载
   const routeConvId = Number(route.query.conversationId)
-  if (Number.isInteger(routeConvId) && routeConvId > 0 && routeConvId !== currentConversationId.value) {
+  if (Number.isInteger(routeConvId) && routeConvId > 0) {
     await loadConversationById(routeConvId)
+    return
   }
 
-  // 按 tripId 查找已有对话（localStorage 无记录时才查找）
+  // 如果 localStorage 有记录，加载对应的对话
+  if (currentConversationId.value) {
+    await loadConversationById(currentConversationId.value)
+    return
+  }
+
+  // 按 tripId 查找已有对话
   const tripIdFromQuery = Number(route.query.tripId)
   if (
     Number.isInteger(tripIdFromQuery) &&
-    tripIdFromQuery > 0 &&
-    !currentConversationId.value
+    tripIdFromQuery > 0
   ) {
     try {
       const res = await getConversationByTripId(tripIdFromQuery)
@@ -317,6 +325,7 @@ onMounted(async () => {
           content: m.content,
           timestamp: m.createdAt,
         }))
+        lastLoadedConversationId.value = conv.id
         syncConversationToRoute(conv.id)
       }
     } catch (e) {
@@ -333,8 +342,14 @@ watch(
   () => route.query.conversationId,
   (val) => {
     const convId = Number(val)
-    if (!Number.isInteger(convId) || convId <= 0) return
-    if (currentConversationId.value === convId) return
+    if (!Number.isInteger(convId) || convId <= 0) {
+      currentConversationId.value = null
+      localStorage.removeItem(CONVERSATION_ID_KEY)
+      messages.value = []
+      lastLoadedConversationId.value = null
+      return
+    }
+    if (currentConversationId.value === convId && lastLoadedConversationId.value === convId) return
     loadConversationById(convId)
   },
 )
@@ -400,6 +415,7 @@ const onNewConversation = () => {
   localStorage.removeItem(CONVERSATION_ID_KEY)
   activeTripId.value = null
   messages.value = []
+  lastLoadedConversationId.value = null
   loadConversations()
   syncConversationToRoute(null)
 }
