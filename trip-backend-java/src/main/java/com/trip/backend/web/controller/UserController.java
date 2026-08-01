@@ -1,6 +1,7 @@
 package com.trip.backend.web.controller;
 
 import com.trip.backend.domain.entity.User;
+import com.trip.backend.infra.security.JwtUtil;
 import com.trip.backend.service.UserService;
 import com.trip.backend.utils.AppException;
 import com.trip.backend.web.handler.FormatResolver;
@@ -32,9 +33,11 @@ import java.util.Map;
 public class UserController {
 
     private final UserService userService;
+    private final JwtUtil jwtUtil;
 
-    public UserController(UserService userService) {
+    public UserController(UserService userService, JwtUtil jwtUtil) {
         this.userService = userService;
+        this.jwtUtil = jwtUtil;
     }
 
     /**
@@ -70,9 +73,12 @@ public class UserController {
             HttpServletRequest httpRequest) {
         User user = userService.login(request.identifier, request.password);
 
-        // 生成 JWT（简化版，实际应调用 JwtService）
-        // TODO: 注入 JwtUtil 生成 token
-        String token = "mock-jwt-token-" + user.getId(); // 临时占位
+        // 生成 JWT（HS256，7 天）
+        String token = jwtUtil.generateToken(
+            user.getUsername(),
+            user.getId(),
+            user.getRoleId()
+        );
 
         Map<String, Object> data = Map.of(
             "token", token,
