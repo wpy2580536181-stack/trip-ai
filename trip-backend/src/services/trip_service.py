@@ -647,11 +647,9 @@ class TripService:
 
         highlights = []
         for day in daily[:2]:
-            for period in ("morning",):
-                slot = day.get(period)
-                if slot and slot.get("spot"):
-                    highlights.append(slot["spot"])
-                    break
+            slot = day.get("morning")
+            if slot and slot.get("spot"):
+                highlights.append(slot["spot"])
 
         summary = {
             "variantType": variant_result.get("variant_type", ""),

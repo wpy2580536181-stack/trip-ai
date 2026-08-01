@@ -618,7 +618,7 @@ class AgentEngine:
             if result.error:
                 raise ValueError(result.error)
 
-            for i, v in enumerate(result.variants):
+            for v in result.variants:
                 if v.usage and v.usage.get("total", 0) > 0:
                     asyncio.create_task(token_monitor.record({
                         "request_type": "recommend_variant",

@@ -248,7 +248,11 @@ def _extract_city(message: str) -> Optional[str]:
 
 
 def _extract_city_from_history(history: list) -> Optional[str]:
-    """从对话历史中提取城市名。"""
+    """从对话历史中提取城市名（取最早提及城市的消息）。
+
+    按时间顺序遍历，返回第一条命中消息中的城市（该消息内按 _extract_city
+    规则取最后一个出现的城市）。用于 clarify 时从历史继承上下文。
+    """
     for msg in history:
         content = ""
         if hasattr(msg, "content") and isinstance(msg.content, str):

@@ -10,16 +10,13 @@
       </div>
 
       <div v-else class="trip-list">
-        <n-card
-          v-for="t in items"
-          :key="t.id"
-          class="trip-card"
-          size="small"
-        >
+        <n-card v-for="t in items" :key="t.id" class="trip-card" size="small">
           <div class="trip-card-inner">
             <div class="trip-card-body" @click="router.push({ name: 'Detail', query: { id: t.id } })">
               <div class="trip-card-title">
                 {{ (t.fromCity ? t.fromCity + ' → ' : '') + t.city + ' · ' + t.days + '天' }}
+                <n-tag v-if="t.status === 'candidate'" size="small" type="warning" :bordered="false">待确认</n-tag>
+                <n-tag v-else-if="t.status === 'discarded'" size="small" type="default" :bordered="false">已放弃</n-tag>
               </div>
               <div class="trip-card-meta">
                 {{ formatTime(t.createdAt) + ' · 预算 ' + t.budget + '元' }}
@@ -140,6 +137,9 @@ onMounted(load)
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .trip-card-meta {

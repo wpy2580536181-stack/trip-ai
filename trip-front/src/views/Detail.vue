@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
-import { reactive, ref, watch, nextTick } from 'vue'
+import { reactive, ref, watch, nextTick, computed } from 'vue'
 import { onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useMessage } from 'naive-ui'
 import { post } from '@/api/request'
-import { getTrip, getTripVersions } from '@/api/history'
+import { getTrip, getTripVersions, confirmTrip } from '@/api/history'
 import { getApiErrorText, handleApiError } from '@/utils/apiError'
 import MapView from '@/components/MapView.vue'
 import ChatPanel from '@/components/ChatPanel.vue'
@@ -31,6 +31,9 @@ interface TripData {
 const tripData = ref<TripData | null>(null)
 const errorMsg = ref('')
 const currentTripMeta = ref<{ id: number; parentTripId: number | null } | null>(null)
+// 行程状态：candidate（待确认，来自 variants/修改预览）→ completed
+const tripStatus = ref<string>('')
+const isCandidate = computed(() => tripStatus.value === 'candidate')
 
 // ---- 对话面板状态 ----
 const chatVisible = ref(true)
@@ -73,7 +76,9 @@ const buildVersionList = async () => {
       }))
       return
     }
-  } catch { /* 接口失败回退两级逻辑 */ }
+  } catch {
+    /* 接口失败回退两级逻辑 */
+  }
   const versions: { id: number; label: string }[] = []
   if (meta.parentTripId) {
     versions.push({ id: meta.parentTripId, label: 'V1' })
@@ -103,7 +108,9 @@ const compareVersions = async () => {
     if (!v1?.dailyItinerary || !v2?.dailyItinerary) return
     diffResult.value = buildTripDiff(v1, v2)
     showDiff.value = true
-  } catch { /* ignore */ }
+  } catch {
+    /* ignore */
+  }
 }
 
 function buildTripDiff(v1: TripData, v2: TripData) {
@@ -188,11 +195,11 @@ const fetchTripData = async () => {
       departureCity: formData.fromCity || undefined,
     })
     isloading.value = false
-    if (res.success && res.data) {
+    if ((res as any).success && res.data) {
       tripData.value = res.data
       activeDays.value = [0]
     } else {
-      errorMsg.value = res.error || '获取行程规划数据失败'
+      errorMsg.value = (res as any).error || '获取行程规划数据失败'
     }
   } catch (error) {
     handleApiError(error, message)
@@ -215,6 +222,7 @@ const loadTripById = async (tripId: number) => {
       formData.fromCity = trip.fromCity ?? null
       currentTripMeta.value = { id: trip.id, parentTripId: trip.parentTripId }
       tripData.value = trip.content as TripData
+      tripStatus.value = trip.status || ''
       activeDays.value = [0]
       buildVersionList()
     } else {
@@ -228,6 +236,23 @@ const loadTripById = async (tripId: number) => {
   }
 }
 
+// candidate 行程（variants 对比/修改预览）→ 采纳为正式行程
+const confirmCandidate = async () => {
+  const tripId = currentTripMeta.value?.id
+  if (!tripId) return
+  try {
+    const res: any = await confirmTrip(tripId)
+    if (res?.code === 200) {
+      tripStatus.value = 'completed'
+      message.success('已采纳该行程')
+    } else {
+      message.warning(res?.detail || '确认失败，请重试')
+    }
+  } catch (error) {
+    handleApiError(error, message)
+  }
+}
+
 onMounted(async () => {
   const tripId = route.query.id ? Number(route.query.id) : null
   if (tripId) {
@@ -235,7 +260,7 @@ onMounted(async () => {
     return
   }
 
-  formData.city = route.query.city as string || ''
+  formData.city = (route.query.city as string) || ''
   formData.budget = Number(route.query.budget) || null
   formData.days = Number(route.query.days) || null
   formData.fromCity = (route.query.departureCity as string) || null
@@ -251,23 +276,11 @@ watch(
     if (newId && newId !== oldId) {
       loadTripById(Number(newId))
     }
-  },
+  }
 )
 
 const onBack = () => {
   router.back()
-}
-
-const goToChat = () => {
-  router.push({
-    path: '/chat',
-    query: {
-      scene: 'detail',
-      city: formData.city,
-      // 携带行程 ID，独立对话页同样持有行程上下文（可直接修改行程）
-      ...(currentTripMeta.value?.id ? { tripId: currentTripMeta.value.id } : {}),
-    }
-  })
 }
 
 const hotelOrigin = (day: any) => {
@@ -291,13 +304,7 @@ const hotelOrigin = (day: any) => {
           </h2>
           <!-- 版本切换 Tab -->
           <div v-if="tripVersions.length > 1" class="version-tabs">
-            <n-button
-              v-for="v in tripVersions"
-              :key="v.id"
-              size="tiny"
-              :type="v.label.includes('当前') ? 'primary' : 'default'"
-              @click="switchVersion(v.id)"
-            >
+            <n-button v-for="v in tripVersions" :key="v.id" size="tiny" :type="v.label.includes('当前') ? 'primary' : 'default'" @click="switchVersion(v.id)">
               {{ v.label }}
             </n-button>
             <n-button size="tiny" quaternary @click="compareVersions">对比</n-button>
@@ -308,143 +315,138 @@ const hotelOrigin = (day: any) => {
           </n-button>
         </div>
 
-      <div v-if="isloading" class="loading-container">
-        <!-- 骨架屏：行程标题 -->
-        <div class="skeleton-card">
-          <div class="skeleton-title skeleton-anim"></div>
-          <div class="skeleton-row skeleton-anim"></div>
-          <div class="skeleton-row skeleton-anim skeleton-short"></div>
-        </div>
+        <div v-if="isloading" class="loading-container">
+          <!-- 骨架屏：行程标题 -->
+          <div class="skeleton-card">
+            <div class="skeleton-title skeleton-anim"></div>
+            <div class="skeleton-row skeleton-anim"></div>
+            <div class="skeleton-row skeleton-anim skeleton-short"></div>
+          </div>
 
-        <!-- 骨架屏：每日行程卡片 -->
-        <div v-for="n in 3" :key="n" class="skeleton-card">
-          <div class="skeleton-day-header skeleton-anim"></div>
-          <div class="skeleton-block skeleton-anim"></div>
-          <div class="skeleton-block skeleton-anim skeleton-narrow"></div>
-          <div class="skeleton-block skeleton-anim"></div>
-          <div class="skeleton-block skeleton-anim skeleton-narrow"></div>
-        </div>
+          <!-- 骨架屏：每日行程卡片 -->
+          <div v-for="n in 3" :key="n" class="skeleton-card">
+            <div class="skeleton-day-header skeleton-anim"></div>
+            <div class="skeleton-block skeleton-anim"></div>
+            <div class="skeleton-block skeleton-anim skeleton-narrow"></div>
+            <div class="skeleton-block skeleton-anim"></div>
+            <div class="skeleton-block skeleton-anim skeleton-narrow"></div>
+          </div>
 
-        <!-- 骨架屏：预算 + 提示 -->
-        <div class="skeleton-card">
-          <div class="skeleton-title skeleton-anim"></div>
-          <div class="skeleton-row skeleton-anim"></div>
-          <div class="skeleton-row skeleton-anim skeleton-short"></div>
-        </div>
-      </div>
-      <div v-else-if="errorMsg" class="empty-state">
-        <p>{{ errorMsg }}</p>
-        <n-button type="primary" @click="fetchTripData">重试</n-button>
-      </div>
-      <template v-else-if="tripData">
-        <div class="card overview-card">
-          <div class="trip-header">
-            <h2>{{ formData.fromCity ? formData.fromCity + ' → ' : '' }}{{ tripData.city }} · {{ tripData.days }}天行程</h2>
-            <div class="trip-budget">预算：{{ tripData.totalBudget }}元</div>
+          <!-- 骨架屏：预算 + 提示 -->
+          <div class="skeleton-card">
+            <div class="skeleton-title skeleton-anim"></div>
+            <div class="skeleton-row skeleton-anim"></div>
+            <div class="skeleton-row skeleton-anim skeleton-short"></div>
           </div>
         </div>
-
-        <n-collapse v-model:expanded-names="activeDays" class="trip-collapse">
-          <n-collapse-item
-            v-for="day in tripData.dailyItinerary"
-            :key="day.day"
-            :title="'第' + day.day + '天'"
-            :name="day.day"
-          >
-            <MapView v-if="getDaySpots(day).length > 0" :spots="getDaySpots(day)" height="260px" class="day-map" />
-            <div class="day-modules">
-              <!-- 🏛 景点行程 -->
-              <div class="module module-attractions">
-                <div class="module-header">
-                  <span class="module-icon">🏛</span>
-                  <span class="module-title">景点行程</span>
-                </div>
-                <div class="period-row">
-                  <n-tag :bordered="false" color="#fa8c16" size="small" class="period-tag">☀️ 上午</n-tag>
-                  <spot-item :data="day.morning" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
-                  <n-button v-if="day.morning?.spot" text size="tiny" class="ask-btn" @click="askAssistant(day.day, '上午', day.morning.spot)">问问助手</n-button>
-                </div>
-                <div class="period-row">
-                  <n-tag :bordered="false" color="#1890ff" size="small" class="period-tag">🌤 下午</n-tag>
-                  <spot-item :data="day.afternoon" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
-                  <n-button v-if="day.afternoon?.spot" text size="tiny" class="ask-btn" @click="askAssistant(day.day, '下午', day.afternoon.spot)">问问助手</n-button>
-                </div>
-                <div class="period-row">
-                  <n-tag :bordered="false" color="#52c41a" size="small" class="period-tag">🌙 晚上</n-tag>
-                  <spot-item :data="day.evening" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
-                  <n-button v-if="day.evening?.spot" text size="tiny" class="ask-btn" @click="askAssistant(day.day, '晚上', day.evening.spot)">问问助手</n-button>
-                </div>
-              </div>
-
-              <!-- 🍽 餐饮推荐 -->
-              <div v-if="day.breakfast || day.lunch || day.dinner" class="module module-meals">
-                <div class="module-header">
-                  <span class="module-icon">🍽</span>
-                  <span class="module-title">餐饮推荐</span>
-                </div>
-                <div class="period-row" v-if="day.breakfast">
-                  <n-tag :bordered="false" color="#eb2f96" size="small" class="period-tag">🌅 早餐</n-tag>
-                  <spot-item :data="day.breakfast" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
-                </div>
-                <div class="period-row" v-if="day.lunch">
-                  <n-tag :bordered="false" color="#fa8c16" size="small" class="period-tag">☀️ 午餐</n-tag>
-                  <spot-item :data="day.lunch" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
-                </div>
-                <div class="period-row" v-if="day.dinner">
-                  <n-tag :bordered="false" color="#722ed1" size="small" class="period-tag">🌆 晚餐</n-tag>
-                  <spot-item :data="day.dinner" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
-                </div>
-              </div>
-
-              <!-- 🏨 住宿推荐 -->
-              <div v-if="day.accommodation" class="module module-hotel">
-                <div class="module-header">
-                  <span class="module-icon">🏨</span>
-                  <span class="module-title">住宿推荐</span>
-                </div>
-                <div class="period-row">
-                  <spot-item :data="day.accommodation" :commute-city="formData.city" />
-                </div>
-              </div>
+        <div v-else-if="errorMsg" class="empty-state">
+          <p>{{ errorMsg }}</p>
+          <n-button type="primary" @click="fetchTripData">重试</n-button>
+        </div>
+        <template v-else-if="tripData">
+          <div class="card overview-card">
+            <div class="trip-header">
+              <h2>{{ formData.fromCity ? formData.fromCity + ' → ' : '' }}{{ tripData.city }} · {{ tripData.days }}天行程</h2>
+              <div class="trip-budget">预算：{{ tripData.totalBudget }}元</div>
             </div>
-          </n-collapse-item>
-        </n-collapse>
+          </div>
 
-        <div class="card budget-card">
-          <div class="section-title">预算明细</div>
-          <budget-table :data="tripData.budgetBreakdown" :total="tripData.totalBudget" />
-        </div>
+          <!-- candidate 行程：来自 variants 对比/修改预览，等待用户采纳 -->
+          <div v-if="isCandidate" class="candidate-banner">
+            <span class="candidate-text">此行程为方案预览，采纳后才会保存到「我的行程」</span>
+            <n-button size="small" type="primary" @click="confirmCandidate">采纳并保存</n-button>
+          </div>
 
-        <div class="card tips-card" v-if="tripData">
-          <div class="section-title">温馨提示</div>
-          <ul class="tips-list">
-            <li v-for="(tip, index) in tripData.tips" :key="index">{{ tip }}</li>
-          </ul>
-        </div>
+          <n-collapse v-model:expanded-names="activeDays" class="trip-collapse">
+            <n-collapse-item v-for="day in tripData.dailyItinerary" :key="day.day" :title="'第' + day.day + '天'" :name="day.day">
+              <MapView v-if="getDaySpots(day).length > 0" :spots="getDaySpots(day)" height="260px" class="day-map" />
+              <div class="day-modules">
+                <!-- 🏛 景点行程 -->
+                <div class="module module-attractions">
+                  <div class="module-header">
+                    <span class="module-icon">🏛</span>
+                    <span class="module-title">景点行程</span>
+                  </div>
+                  <div class="period-row">
+                    <n-tag :bordered="false" color="#fa8c16" size="small" class="period-tag">☀️ 上午</n-tag>
+                    <spot-item :data="day.morning" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
+                    <n-button v-if="day.morning?.spot" text size="tiny" class="ask-btn" @click="askAssistant(day.day, '上午', day.morning.spot)">问问助手</n-button>
+                  </div>
+                  <div class="period-row">
+                    <n-tag :bordered="false" color="#1890ff" size="small" class="period-tag">🌤 下午</n-tag>
+                    <spot-item :data="day.afternoon" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
+                    <n-button v-if="day.afternoon?.spot" text size="tiny" class="ask-btn" @click="askAssistant(day.day, '下午', day.afternoon.spot)">问问助手</n-button>
+                  </div>
+                  <div class="period-row">
+                    <n-tag :bordered="false" color="#52c41a" size="small" class="period-tag">🌙 晚上</n-tag>
+                    <spot-item :data="day.evening" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
+                    <n-button v-if="day.evening?.spot" text size="tiny" class="ask-btn" @click="askAssistant(day.day, '晚上', day.evening.spot)">问问助手</n-button>
+                  </div>
+                </div>
 
-        <div class="card warnings-card" v-if="tripData">
-          <div class="section-title">注意事项</div>
-          <ul class="warnings-list">
-            <li v-for="(warning, index) in tripData.warnings" :key="index">{{ warning }}</li>
-          </ul>
-        </div>
+                <!-- 🍽 餐饮推荐 -->
+                <div v-if="day.breakfast || day.lunch || day.dinner" class="module module-meals">
+                  <div class="module-header">
+                    <span class="module-icon">🍽</span>
+                    <span class="module-title">餐饮推荐</span>
+                  </div>
+                  <div class="period-row" v-if="day.breakfast">
+                    <n-tag :bordered="false" color="#eb2f96" size="small" class="period-tag">🌅 早餐</n-tag>
+                    <spot-item :data="day.breakfast" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
+                  </div>
+                  <div class="period-row" v-if="day.lunch">
+                    <n-tag :bordered="false" color="#fa8c16" size="small" class="period-tag">☀️ 午餐</n-tag>
+                    <spot-item :data="day.lunch" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
+                  </div>
+                  <div class="period-row" v-if="day.dinner">
+                    <n-tag :bordered="false" color="#722ed1" size="small" class="period-tag">🌆 晚餐</n-tag>
+                    <spot-item :data="day.dinner" :commute-origin="hotelOrigin(day)" :commute-city="formData.city" />
+                  </div>
+                </div>
 
-        <div class="detail-footer" v-if="tripData">
-          <ExportMenu :trip-data="tripData" />
-        </div>
-      </template>
+                <!-- 🏨 住宿推荐 -->
+                <div v-if="day.accommodation" class="module module-hotel">
+                  <div class="module-header">
+                    <span class="module-icon">🏨</span>
+                    <span class="module-title">住宿推荐</span>
+                  </div>
+                  <div class="period-row">
+                    <spot-item :data="day.accommodation" :commute-city="formData.city" />
+                  </div>
+                </div>
+              </div>
+            </n-collapse-item>
+          </n-collapse>
+
+          <div class="card budget-card">
+            <div class="section-title">预算明细</div>
+            <budget-table :data="tripData.budgetBreakdown" :total="tripData.totalBudget" />
+          </div>
+
+          <div class="card tips-card" v-if="tripData">
+            <div class="section-title">温馨提示</div>
+            <ul class="tips-list">
+              <li v-for="(tip, index) in tripData.tips" :key="index">{{ tip }}</li>
+            </ul>
+          </div>
+
+          <div class="card warnings-card" v-if="tripData">
+            <div class="section-title">注意事项</div>
+            <ul class="warnings-list">
+              <li v-for="(warning, index) in tripData.warnings" :key="index">{{ warning }}</li>
+            </ul>
+          </div>
+
+          <div class="detail-footer" v-if="tripData">
+            <ExportMenu :trip-data="tripData" />
+          </div>
+        </template>
       </div>
 
       <!-- 右侧：AI 助手对话面板 -->
       <transition name="slide">
         <div v-show="chatVisible" class="chat-sidebar">
-          <ChatPanel
-            :trip-id="currentTripMeta?.id"
-            :prefill="prefillText"
-            :disabled="isloading"
-            compact
-            @trip-updated="onTripUpdated"
-          />
+          <ChatPanel :trip-id="currentTripMeta?.id" :prefill="prefillText" :disabled="isloading" compact @trip-updated="onTripUpdated" />
         </div>
       </transition>
     </div>
@@ -452,9 +454,7 @@ const hotelOrigin = (day: any) => {
 
   <!-- 版本对比 Modal -->
   <n-modal v-model:show="showDiff" preset="card" title="与上一版本对比" style="max-width: 500px">
-    <div v-if="diffResult.length === 0" style="text-align: center; color: #999; padding: 20px">
-      两个版本无差异
-    </div>
+    <div v-if="diffResult.length === 0" style="text-align: center; color: #999; padding: 20px">两个版本无差异</div>
     <div v-else class="diff-list">
       <div v-for="(d, idx) in diffResult" :key="idx" class="diff-item">
         <span class="diff-day">{{ d.day > 0 ? `Day${d.day} ` : '' }}{{ d.period }}</span>
@@ -592,6 +592,23 @@ const hotelOrigin = (day: any) => {
 
 .overview-card {
   margin-bottom: 16px;
+}
+
+.candidate-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  background: #fff8e6;
+  border: 1px solid #ffd591;
+}
+
+.candidate-text {
+  font-size: 14px;
+  color: #ad6800;
 }
 
 .trip-header {
@@ -741,7 +758,7 @@ const hotelOrigin = (day: any) => {
   border-radius: 12px;
   padding: 20px;
   margin-bottom: 16px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
 }
 
 .skeleton-anim {
@@ -785,8 +802,12 @@ const hotelOrigin = (day: any) => {
 }
 
 @keyframes skeleton-shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
 }
 
 .loading-container {
