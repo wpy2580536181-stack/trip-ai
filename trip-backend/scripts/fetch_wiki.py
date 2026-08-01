@@ -553,7 +553,6 @@ async def main_async(args):
         from sqlalchemy import select as _sa_select
         from src.config.database import async_session
         # 全量模型导入：确保 SQLAlchemy 配置 mapper 时能解析所有关系
-        # （例如 User -> TokenUsageLog），否则首次建 session 会抛 InvalidRequestError。
         import src.models.user  # noqa: F401
         import src.models.conversation  # noqa: F401
         import src.models.message  # noqa: F401
@@ -564,7 +563,6 @@ async def main_async(args):
         import src.models.role  # noqa: F401
         import src.models.feedback  # noqa: F401
         import src.models.agent_step  # noqa: F401
-        import src.models.token_usage_log  # noqa: F401
         from src.models.spot import Spot
 
         async with async_session() as db:

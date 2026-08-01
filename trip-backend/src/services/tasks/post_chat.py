@@ -24,7 +24,6 @@ from typing import Optional
 logger = logging.getLogger(__name__)
 
 # 在 worker 进程顶部 import 全部 model，确保 SQLAlchemy mapper 完整初始化
-# （避免 User→TokenUsageLog 关系链断裂导致 InvalidRequestError，参考 conftest.py）
 import src.models.user  # noqa: F401
 import src.models.conversation  # noqa: F401
 import src.models.message  # noqa: F401
@@ -35,7 +34,6 @@ import src.models.password_reset  # noqa: F401
 import src.models.role  # noqa: F401
 import src.models.feedback  # noqa: F401
 import src.models.agent_step  # noqa: F401
-import src.models.token_usage_log  # noqa: F401
 
 
 async def post_chat_followup(

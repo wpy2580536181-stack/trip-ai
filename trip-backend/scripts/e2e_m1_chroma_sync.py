@@ -93,7 +93,6 @@ async def init_db() -> None:
     import src.models.password_reset
     import src.models.feedback
     import src.models.agent_step
-    import src.models.token_usage_log
 
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.drop_all)  # 干净起步

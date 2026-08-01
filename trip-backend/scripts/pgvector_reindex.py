@@ -33,7 +33,6 @@ import src.models.password_reset  # noqa: F401
 import src.models.role  # noqa: F401
 import src.models.feedback  # noqa: F401
 import src.models.agent_step  # noqa: F401
-import src.models.token_usage_log  # noqa: F401
 from src.models.spot import Spot
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")

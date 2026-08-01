@@ -33,7 +33,6 @@ from sqlalchemy import select, delete
 
 from src.config.database import async_session
 # 全量模型导入：确保 SQLAlchemy 配置 mapper 时能解析所有关系
-# （例如 User -> TokenUsageLog），否则首次建 session 会抛 InvalidRequestError。
 import src.models.user  # noqa: F401
 import src.models.conversation  # noqa: F401
 import src.models.message  # noqa: F401
@@ -44,7 +43,6 @@ import src.models.password_reset  # noqa: F401
 import src.models.role  # noqa: F401
 import src.models.feedback  # noqa: F401
 import src.models.agent_step  # noqa: F401
-import src.models.token_usage_log  # noqa: F401
 from src.models.spot import Spot
 from src.models.spot_doc import SpotDoc
 from src.services.rag.credibility import compute_credibility

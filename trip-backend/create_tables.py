@@ -15,7 +15,6 @@ from src.models.spot import Spot
 from src.models.spot_doc import SpotDoc
 from src.models.agent_step import AgentStep
 from src.models.feedback import Feedback
-from src.models.token_usage_log import TokenUsageLog
 
 
 async def create_tables():

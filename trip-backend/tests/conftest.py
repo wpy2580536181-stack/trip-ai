@@ -20,7 +20,6 @@ from src.models.spot_doc import SpotDoc
 from src.models.password_reset import PasswordReset
 from src.models.feedback import Feedback
 from src.models.agent_step import AgentStep
-from src.models.token_usage_log import TokenUsageLog
 
 # Ensure all models are imported so Base.metadata knows about them
 import src.models.user
@@ -32,7 +31,6 @@ import src.models.password_reset
 import src.models.role
 import src.models.feedback
 import src.models.agent_step
-import src.models.token_usage_log
 
 
 # Test database URL (PostgreSQL)

@@ -13,7 +13,6 @@ from src.models.role import Role, RoleName
 from src.models.password_reset import PasswordReset
 from src.models.feedback import Feedback
 from src.models.agent_step import AgentStep
-from src.models.token_usage_log import TokenUsageLog
 from src.utils.security import hash_password
 
 
@@ -489,36 +488,3 @@ class TestRoleModel:
         admin = result.scalar_one_or_none()
         assert admin is not None
         assert admin.name == RoleName.ADMIN
-
-
-class TestTokenUsageLogModel:
-    """Test cases for TokenUsageLog model"""
-
-    @pytest.mark.asyncio
-    async def test_create_token_usage_log(self, db_session: AsyncSession):
-        """创建用量记录"""
-        user, conv, msg = await _seed_user_conv_msg(db_session)
-
-        log = TokenUsageLog(
-            user_id=user.id,
-            request_type="chat",
-            route="planning",
-            conversation_id=conv.id,
-            message_id=msg.id,
-            prompt_tokens=120,
-            completion_tokens=80,
-            total_tokens=200,
-            cached_tokens=0,
-            latency_ms=1500,
-        )
-        db_session.add(log)
-        await db_session.commit()
-
-        result = await db_session.execute(
-            select(TokenUsageLog).where(TokenUsageLog.user_id == user.id)
-        )
-        created = result.scalar_one_or_none()
-        assert created is not None
-        assert created.request_type == "chat"
-        assert created.total_tokens == 200
-        assert created.latency_ms == 1500

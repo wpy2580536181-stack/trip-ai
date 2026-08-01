@@ -41,7 +41,6 @@ TABLE_ORDER = [
     "spot_docs",
     "feedbacks",
     "agent_steps",
-    "token_usage_logs",
     "password_resets",
 ]
 
