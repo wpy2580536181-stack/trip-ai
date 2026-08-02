@@ -70,4 +70,20 @@ public class Spot {
     protected void onCreate() {
         this.createdAt = OffsetDateTime.now();
     }
+
+    // ==================== RerankWithCredibility 支持 ====================
+
+    /**
+     * 获取排序分数（用于 RerankWithCredibility）
+     */
+    public double getScore() {
+        return rating != null ? rating : 0.0;
+    }
+
+    /**
+     * 设置排序分数（Spot 实体暂不存储，使用 DTO 或 transient 字段）
+     */
+    public void setScore(double score) {
+        // Spot 实体无 score 字段，暂不存储
+    }
 }

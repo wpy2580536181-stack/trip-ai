@@ -84,4 +84,20 @@ public class SpotDoc {
     protected void onCreate() {
         this.retrievedAt = OffsetDateTime.now();
     }
+
+    // ==================== RerankWithCredibility 支持 ====================
+
+    /**
+     * 获取排序分数
+     */
+    public double getScore() {
+        return credibilityScore != null ? credibilityScore : 0.0;
+    }
+
+    /**
+     * 设置排序分数
+     */
+    public void setScore(double score) {
+        // SpotDoc 暂不存储动态 score，如需存储可添加 transient 字段
+    }
 }
