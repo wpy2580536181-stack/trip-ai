@@ -22,6 +22,8 @@
 - **高德地图 MCP 集成** — 通过 MCP 协议实时查询高德全库 POI
 - **多维度检索** — pgvector 向量 (bge-small-zh) + PG 全文检索 + 热度 三路召回，Cross-Encoder (bge-reranker) 重排序
 - **行程度量** — 预算明细、出行 Tips
+- **确定性预算控制** — 预算分解器（allocator）按风格/预算分档将预算分解为住宿/餐饮/交通/门票/其他 5 项上限，生成前注入 prompt；review 逐项校验（弹性 1.15），超支时预算修正器（corrector）按轮次（砍门票→降住宿→砍交通）生成结构化目标分解，替代盲目重写，≤3 轮收敛
+- **费用来源标记** — 行程费用标注来源（`rag` 真实人均消费 / `estimate` 城市档位估算 / `distance` 交通粗算），禁止裸编：RAG 检索输出 `spots.avg_cost` 真实价格，缺失时由估算器按城市消费档位兜底
 - **三层 RAG 评估体系** — 检索层 (Hit@K/MRR) + 生成层 (Faithfulness/Relevancy) + 线上反馈
 - **Skill 技能体系** — SKILL.md 声明式驱动，主 LLM 通过 select_skill 工具自主选择技能，多轮 tool calling 编排执行
 - **美团酒旅 Skill** — 接入美团官方酒旅 API，支持机票/酒店/火车票/门票查询与预订
