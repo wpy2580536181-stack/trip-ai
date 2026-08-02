@@ -87,6 +87,7 @@
 - [x] **A1-A4 工程基建** ✅
 - [x] **B1-B7 用户/CRUD（11 表 + 43 端点）** ✅
 - [x] **C0 TaskQueue + C1 Embedder/Reranker 接口** ✅
+- [x] **C2 检索流水线（QueryRewriter + 双路召回 + RRF）** ✅
 - [x] **D1 LLM Gateway + Provider 路由** ✅
 - [x] **D2 Token 记账三件套** ✅
 - [x] **D3 SSE 基建（SseWriter + StreamStore + 断点续传）** ✅
