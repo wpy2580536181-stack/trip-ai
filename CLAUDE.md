@@ -92,6 +92,7 @@
 - [x] **C4 embedding_sync 任务** ✅
 - [x] **D7 Orchestrator + Research/Planner/Review** ✅
 - [x] **D8 ChatAgent 双流 + AgentEngine + 四升级工具** ✅
+- [x] **D10 并发/预算守卫流式挂载 + TraceRecorder** ✅
 - [x] **D1 LLM Gateway + Provider 路由** ✅
 - [x] **D2 Token 记账三件套** ✅
 - [x] **D3 SSE 基建（SseWriter + StreamStore + 断点续传）** ✅
