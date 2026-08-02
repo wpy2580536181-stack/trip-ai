@@ -5,13 +5,14 @@ import org.springframework.stereotype.Component;
 
 /**
  * Token 追踪回调（对应 Python token_tracker.py）
+ *
+ * 注意：TokenUsageLogRepository 暂未注入，后续 D8 阶段实现落库
  */
 @Component
 public class TokenTrackingCallback {
 
     private final TokenMonitor tokenMonitor;
     private final TokenBudgetManager tokenBudgetManager;
-    private final TokenUsageLogRepository tokenUsageLogRepository;
 
     // ThreadLocal 上下文
     private static final ThreadLocal<Long> currentUserId = new ThreadLocal<>();
@@ -19,11 +20,9 @@ public class TokenTrackingCallback {
     private static final ThreadLocal<String> currentRoute = new ThreadLocal<>();
 
     public TokenTrackingCallback(TokenMonitor tokenMonitor,
-                                TokenBudgetManager tokenBudgetManager,
-                                TokenUsageLogRepository tokenUsageLogRepository) {
+                                TokenBudgetManager tokenBudgetManager) {
         this.tokenMonitor = tokenMonitor;
         this.tokenBudgetManager = tokenBudgetManager;
-        this.tokenUsageLogRepository = tokenUsageLogRepository;
     }
 
     /**

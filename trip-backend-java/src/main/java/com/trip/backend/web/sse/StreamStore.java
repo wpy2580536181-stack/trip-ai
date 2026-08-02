@@ -4,9 +4,10 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
 
 import java.time.Instant;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * Stream 存储（对应 Python stream_store.py）
@@ -117,8 +118,8 @@ public class StreamStore {
             throw new IllegalStateException("Stream not found: " + streamId);
         }
 
-        long seq = entry.nextSeq++;
-        entry.events.add(new StreamEvent(seq, eventType, eventData));
+        long seq = entry.nextSeq.getAndIncrement(); // ✅ 原子自增
+        entry.events.add(new StreamEvent(seq, eventType, eventData)); // ✅ CopyOnWriteArrayList 线程安全
         return seq;
     }
 
@@ -255,15 +256,13 @@ public class StreamStore {
         String userId;
         String conversationId;
         String status;
-        List<StreamEvent> events;
-        long nextSeq;
+        final List<StreamEvent> events = new CopyOnWriteArrayList<>(); // ✅ 线程安全
+        final AtomicLong nextSeq = new AtomicLong(0); // ✅ 原子自增
 
         StreamEntry(String userId, String conversationId, List<StreamEvent> events, long nextSeq) {
             this.userId = userId;
             this.conversationId = conversationId;
-            this.events = events;
-            this.nextSeq = nextSeq;
-            this.status = "active";
+            this.nextSeq = new AtomicLong(nextSeq);
         }
     }
 

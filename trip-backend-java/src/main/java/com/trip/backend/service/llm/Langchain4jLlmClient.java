@@ -26,6 +26,9 @@ public class Langchain4jLlmClient implements LlmClient {
     private final ProviderHealthRegistry healthRegistry;
     private final ObjectMapper objectMapper;
 
+    // ✅ 流式调用时累积 content
+    private final ThreadLocal<StringBuilder> contentBuffer = new ThreadLocal<>();
+
     public Langchain4jLlmClient(ProviderConfig config,
                                 ProviderHealthRegistry healthRegistry,
                                 ObjectMapper objectMapper) {
@@ -79,9 +82,11 @@ public class Langchain4jLlmClient implements LlmClient {
     @Override
     public void stream(List<ChatMessage> messages, List<ToolSpec> tools, StreamHandler handler) {
         ProviderId provider = resolveProvider();
-        var model = createStreamingChatModel(provider);
 
         try {
+            // ✅ 初始化 content buffer
+            contentBuffer.set(new StringBuilder());
+
             List<ToolSpecification> toolSpecs = tools.stream()
                 .map(t -> ToolSpecification.builder()
                     .name(t.name())
@@ -93,16 +98,22 @@ public class Langchain4jLlmClient implements LlmClient {
             model.chat(messages, toolSpecs, new dev.langchain4j.model.chat.StreamingChatResponseHandler() {
                 @Override
                 public void onPartialResponse(String partialResponse) {
+                    // ✅ 累积 content
+                    contentBuffer.get().append(partialResponse);
                     handler.onPartialResponse(partialResponse);
                 }
 
                 @Override
                 public void onComplete(dev.langchain4j.model.output.TokenUsage tokenUsage) {
-                    handler.onComplete(new ChatResponse("", List.of(), tokenUsage));
+                    // ✅ 传递完整累积的 content
+                    String fullContent = contentBuffer.get().toString();
+                    handler.onComplete(new ChatResponse(fullContent, List.of(), tokenUsage));
+                    contentBuffer.remove();
                 }
 
                 @Override
                 public void onError(Throwable error) {
+                    contentBuffer.remove();
                     handler.onError(error);
                 }
             });

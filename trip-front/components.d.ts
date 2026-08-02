@@ -15,6 +15,7 @@ declare module 'vue' {
     BudgetTable: typeof import('./src/components/BudgetTable.vue')['default']
     ChatBubble: typeof import('./src/components/ChatBubble.vue')['default']
     ChatPanel: typeof import('./src/components/ChatPanel.vue')['default']
+    ClarifyCard: typeof import('./src/components/ClarifyCard.vue')['default']
     CommuteCard: typeof import('./src/components/CommuteCard.vue')['default']
     ExportMenu: typeof import('./src/components/ExportMenu.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']

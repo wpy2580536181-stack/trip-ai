@@ -78,16 +78,10 @@ public class SseWriter {
      * 从队列消费事件（供后台线程调用）
      */
     public void drainEvents() {
-        while (!closed && !eventQueue.isEmpty()) {
-            try {
-                SseEvent event = eventQueue.poll(100, TimeUnit.MILLISECONDS);
-                if (event != null) {
-                    send(event);
-                }
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-                break;
-            }
+        SseEvent event;
+        // ✅ 使用 poll 返回值判断，避免条件竞态
+        while (!closed && (event = eventQueue.poll(100, TimeUnit.MILLISECONDS)) != null) {
+            send(event);
         }
     }
 

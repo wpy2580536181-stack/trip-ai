@@ -55,11 +55,11 @@ public class ProviderRouter {
     /**
      * 带 fallback 的执行
      */
-    public <T> T executeWithFallback(Scenario scenario, Function<ProviderId, T> fn, Function<ProviderId, T> fallbackFn) {
+    public <T> T executeWithFallback(Scenario scenario, Function<ProviderId, T> primaryFn, Function<ProviderId, T> fallbackFn) {
         ProviderId primary = select(scenario);
 
         try {
-            T result = fn.apply(primary);
+            T result = primaryFn.apply(primary);
             healthRegistry.recordSuccess(primary);
             return result;
         } catch (Exception e) {
@@ -67,7 +67,7 @@ public class ProviderRouter {
 
             // 尝试 fallback provider
             ProviderId fallback = selectFallback(scenario, primary);
-            if (fallback != null && fallback != primary) {
+            if (fallback != null && fallback != primary && fallbackFn != null) { // ✅ 添加 fallbackFn != null 检查
                 try {
                     T result = fallbackFn.apply(fallback);
                     healthRegistry.recordSuccess(fallback);
