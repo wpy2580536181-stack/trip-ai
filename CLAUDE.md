@@ -90,6 +90,9 @@
 - [x] **D1 LLM Gateway + Provider 路由** ✅
 - [x] **D2 Token 记账三件套** ✅
 - [x] **D3 SSE 基建（SseWriter + StreamStore + 断点续传）** ✅
+- [x] **D4 ChatController + EventSink + 消息落库 + 非旅行短路** ✅
+- [x] **D5 工具层（CircuitBreaker + 6 个业务工具）** ✅
+- [x] **D6 高德 MCP 客户端 + guards + mcp-stats** ✅
 - [x] **P0/P1 问题修复（16 项）** ✅
 
 ---
@@ -110,4 +113,4 @@
 ---
 
 **创建时间**：2026-08-01
-**最后更新**：2026-08-01
+**最后更新**：2026-08-02
