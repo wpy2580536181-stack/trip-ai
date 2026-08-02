@@ -196,6 +196,9 @@ class PlannerInput:
     feedback: Optional[str] = None
     """review 修改意见（重试时注入）"""
 
+    budget_correction: Optional["CorrectorAction"] = None
+    """预算修正指令（corrector 输出，重试时结构化注入；prompt 渲染为修正段落）"""
+
     existing_trip: Optional[dict] = None
     """修改时的已有行程"""
 

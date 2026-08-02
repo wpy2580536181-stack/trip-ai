@@ -16,8 +16,11 @@ from langchain_openai import ChatOpenAI
 
 from src.services.agent.agents.research_agent import ResearchAgent
 from src.services.agent.agents.planner_agent import PlannerAgent
+from src.services.agent.budget.allocator import allocate
+from src.services.agent.budget.corrector import build_correction
 from src.services.agent.review import review
 from src.services.agent.schemas import (
+    BudgetAllocation,
     PlanRequest,
     PlanResult,
     PlanVariantsResult,
@@ -124,6 +127,7 @@ class Orchestrator:
         )
 
         # ── Phase 2: Plan（Agent 创造性生成）──
+        alloc = self._build_allocation(request)
         planner_input = PlannerInput(
             bundle=bundle,
             city=request.city,
@@ -157,6 +161,7 @@ class Orchestrator:
                 bundle=bundle,
                 budget=request.budget,
                 days=request.days,
+                alloc=alloc,
             )
 
             if review_result.passed:
@@ -176,6 +181,9 @@ class Orchestrator:
             logger.info(
                 "orchestrator|retry attempt=%d feedback=%s",
                 attempt + 1, review_result.feedback[:100],
+            )
+            self._inject_budget_correction(
+                planner_input, parsed_plan, review_result, alloc, round=attempt + 1,
             )
             planner_input.feedback = review_result.feedback
             await self._emit_progress("plan", "start", attempt=attempt + 2, retry=True)
@@ -360,6 +368,7 @@ class Orchestrator:
             "comfort": "⭐ 舒适型",
             "photo": "📸 打卡型",
         }
+        alloc = self._build_allocation(request)
         variants: list[VariantResult] = []
 
         for vtype in variant_types:
@@ -402,6 +411,7 @@ class Orchestrator:
                     bundle=bundle,
                     budget=request.budget,
                     days=request.days,
+                    alloc=alloc,
                 )
 
                 if review_result.passed:
@@ -420,6 +430,9 @@ class Orchestrator:
                 logger.info(
                     "plan_variants|retry variant=%s attempt=%d feedback=%s",
                     vtype, attempt + 1, review_result.feedback[:100],
+                )
+                self._inject_budget_correction(
+                    planner_input, parsed_plan, review_result, alloc, round=attempt + 1,
                 )
                 planner_input.feedback = review_result.feedback
                 await self._emit_progress("plan", "start", variant=vtype, attempt=attempt + 2, retry=True)
@@ -528,3 +541,33 @@ class Orchestrator:
         if isinstance(interests, list):
             return interests
         return []
+
+    @staticmethod
+    def _extract_style(preferences: Optional[dict]) -> str:
+        """从用户偏好中提取旅行风格（未知时回退 comfort）。"""
+        if not preferences:
+            return "comfort"
+        return preferences.get("style") or preferences.get("travel_style") or "comfort"
+
+    def _build_allocation(self, request: PlanRequest) -> BudgetAllocation:
+        """构造预算分解目标（按用户风格，未知回退 comfort）。"""
+        return allocate(
+            budget=request.budget,
+            days=request.days,
+            style=self._extract_style(request.preferences),
+        )
+
+    @staticmethod
+    def _inject_budget_correction(
+        planner_input: PlannerInput,
+        parsed_plan: Optional[dict],
+        review_result: ReviewResult,
+        alloc: BudgetAllocation,
+        round: int,
+    ) -> None:
+        """预算类失败时注入结构化修正指令；非预算类失败保持原 feedback 逻辑。"""
+        if parsed_plan is None or review_result is None:
+            return
+        budget_items = review_result.code_checks.get("budget_items")
+        if budget_items and budget_items != "ok":
+            planner_input.budget_correction = build_correction(parsed_plan, alloc, round=round)

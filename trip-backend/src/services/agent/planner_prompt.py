@@ -7,8 +7,62 @@
 import json
 from typing import Optional, Any
 
+from src.services.agent.budget.allocator import allocate
+from src.services.agent.schemas import BudgetAllocation, CorrectorAction
+
 # 用户偏好的固定字段列表
 PREF_KEYS = ["travel_style", "budget_level", "pace", "avoid_crowds", "interests"]
+
+# 预算分项中文名与固定渲染顺序
+_BUDGET_ITEM_NAMES = {
+    "accommodation": "住宿",
+    "food": "餐饮",
+    "transportation": "交通",
+    "tickets": "门票",
+    "other": "其他",
+}
+_BUDGET_ITEM_ORDER = ("accommodation", "food", "transportation", "tickets", "other")
+
+
+def _budget_section(alloc: BudgetAllocation) -> str:
+    """渲染【预算分解目标】段落：5 项上限 + 每日活动费用上限。
+
+    Args:
+        alloc: allocator 输出的预算分解目标
+
+    Returns:
+        预算分解目标段落字符串
+    """
+    lines = ["【预算分解目标】"]
+    for key in _BUDGET_ITEM_ORDER:
+        lines.append(f"- {_BUDGET_ITEM_NAMES[key]} ≤ {alloc.allocation.get(key, 0)} 元")
+    lines.append(f"- 每日活动费用上限 ≤ {alloc.daily_activity_limit} 元")
+    lines.append(
+        "生成行程时按上述上限分配预算："
+        "budgetBreakdown 各项不得超过对应上限，每日花费不超过每日活动费用上限。"
+    )
+    return "\n".join(lines)
+
+
+def _budget_correction_section(action: CorrectorAction) -> str:
+    """渲染【预算修正指令】段落：轮次、超支金额、目标分解、结构化指令。
+
+    Args:
+        action: corrector 输出的预算修正动作
+
+    Returns:
+        预算修正指令段落字符串
+    """
+    lines = ["【预算修正指令】"]
+    lines.append(f"- 修正轮次：第 {action.round} 轮")
+    lines.append(f"- 超支金额：{action.over_amount} 元")
+    target_str = "、".join(
+        f"{_BUDGET_ITEM_NAMES.get(key, key)} ≤ {action.target_allocation.get(key, 0)} 元"
+        for key in _BUDGET_ITEM_ORDER
+    )
+    lines.append(f"- 本轮目标分解：{target_str}")
+    lines.append(f"- 执行指令：{action.instructions}")
+    return "\n".join(lines)
 
 
 def _build_fixed_preferences(prefs: Optional[dict]) -> dict:
@@ -56,6 +110,8 @@ def build_planner_prompt(
     departure_city: Optional[str] = None,
     user_preferences: Optional[dict] = None,
     research_bundle: Optional[dict] = None,
+    style: Optional[str] = None,
+    budget_correction: Optional[CorrectorAction] = None,
 ) -> str:
     """构建规划场景的提示词。
     
@@ -66,6 +122,10 @@ def build_planner_prompt(
         departure_city: 出发城市
         user_preferences: 用户偏好
         research_bundle: research 节点产出的情报包
+        style: 预算分解风格（budget / comfort / luxury），默认从
+            user_preferences.travel_style 取，未提供时回退 comfort
+        budget_correction: 预算修正动作（corrector 输出），非空时追加
+            【预算修正指令】段落，覆盖本轮生成目标
         
     Returns:
         完整的规划提示词字符串
@@ -91,6 +151,17 @@ def build_planner_prompt(
     fixed_prefs = _build_fixed_preferences(user_preferences)
     parts.append(json.dumps(fixed_prefs, ensure_ascii=False, indent=2))
     parts.append("\n\n")
+    
+    # 预算分解目标（allocator 确定性分解）+ 预算修正指令（corrector 输出）
+    budget_parts = []
+    if budget is not None and days is not None and days > 0:
+        resolved_style = style or (user_preferences or {}).get("travel_style") or "comfort"
+        alloc = allocate(budget=budget, days=days, style=resolved_style)
+        budget_parts.append(_budget_section(alloc))
+    if budget_correction is not None:
+        budget_parts.append(_budget_correction_section(budget_correction))
+    if budget_parts:
+        parts.append("\n" + "\n\n".join(budget_parts) + "\n\n")
     
     # 检索到的真实数据（放在「任务」之后，使前缀稳定可缓存）
     parts.append("# 任务\n")

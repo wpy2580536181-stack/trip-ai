@@ -136,6 +136,7 @@ class PlannerAgent(BaseAgent):
                 departure_city=input.departure_city,
                 user_preferences=input.preferences,
                 research_bundle=input.bundle.to_dict() if input.bundle else {},
+                budget_correction=input.budget_correction,
             )
 
         # 封闭世界约束（候选池中的景点名列表）

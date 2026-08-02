@@ -19,7 +19,7 @@ from typing import Optional, Callable, Awaitable, Any
 from langchain_openai import ChatOpenAI
 
 from src.services.agent.agents.base_agent import BaseAgent, AgentInput, AgentOutput
-from src.services.agent.schemas import ResearchInput, ResearchBundle, SpotItem
+from src.services.agent.schemas import ResearchInput, ResearchBundle, SpotItem, CostSource
 from src.services.agent.types import TokenUsage
 
 logger = logging.getLogger(__name__)
@@ -75,12 +75,27 @@ class ResearchAgent(BaseAgent):
         items = []
         # 匹配 "数字. 名称（城市）" 格式
         pattern = re.compile(r'^\s*\d+\.\s+(.+?)(?:（|\().+?(?:）|\))', re.MULTILINE)
-        for match in pattern.finditer(text):
+        # 条目块内的人均消费行（format_search_results 仅输出真实价，RAG 源）
+        price_pattern = re.compile(r'人均消费[：:]\s*¥\s*([\d.]+)')
+        matches = list(pattern.finditer(text))
+        for idx, match in enumerate(matches):
             name = match.group(1).strip()
-            if name and len(name) < 30:  # 过滤过长名称
-                items.append(SpotItem(name=name, category=category))
-                if len(items) >= max_items:
-                    break
+            if not name or len(name) >= 30:  # 过滤过长名称
+                continue
+            avg_cost = None
+            block_end = matches[idx + 1].start() if idx + 1 < len(matches) else len(text)
+            block = text[match.end():block_end]
+            price_match = price_pattern.search(block)
+            if price_match:
+                avg_cost = float(price_match.group(1))
+            items.append(SpotItem(
+                name=name,
+                category=category,
+                avg_cost=avg_cost,
+                cost_source=CostSource.RAG if avg_cost is not None else None,
+            ))
+            if len(items) >= max_items:
+                break
         return items
 
     async def run(self, input: ResearchInput) -> AgentOutput:

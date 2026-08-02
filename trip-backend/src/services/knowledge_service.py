@@ -567,7 +567,7 @@ class KnowledgeService:
         """评分排序检索（基础召回）."""
         try:
             from sqlalchemy import text as _text
-            sql = "SELECT id, name, city, category, description, rating, tags FROM spots"
+            sql = "SELECT id, name, city, category, description, rating, tags, avg_cost FROM spots"
             params: dict = {}
             clauses: list[str] = []
             if city:
@@ -594,6 +594,7 @@ class KnowledgeService:
                     "description": row.description,
                     "rating": row.rating or 0,
                     "tags": row.tags,
+                    "avg_cost": row.avg_cost,
                     "_source": "rating",
                 })
 
@@ -754,6 +755,13 @@ class KnowledgeService:
             if include_details:
                 if spot.get("rating"):
                     lines.append(f"   - 评分：{spot['rating']} 分")
+                # 真实价格（spots.avg_cost > 0）才展示；估算价（cost_source=estimate）不进候选池文本
+                cost = spot.get("avg_cost")
+                cost_source = spot.get("cost_source")
+                if cost is not None and float(cost) > 0 and (not cost_source or cost_source == "rag"):
+                    amount = float(cost)
+                    shown = str(int(amount)) if amount == int(amount) else f"{amount:g}"
+                    lines.append(f"   - 人均消费：¥{shown}")
                 if spot.get("description"):
                     desc = spot["description"][:100] + "..." if len(spot["description"]) > 100 else spot["description"]
                     lines.append(f"   - 介绍：{desc}")

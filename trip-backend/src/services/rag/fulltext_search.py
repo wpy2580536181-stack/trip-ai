@@ -41,7 +41,7 @@ async def fulltext_search_spots(
         search_text = " ".join(keywords)
 
         sql = """
-            SELECT id, name, city, category, description, rating, tags,
+            SELECT id, name, city, category, description, rating, tags, avg_cost,
                    ts_rank(
                        to_tsvector('chinese', coalesce(name, '') || ' ' || coalesce(description, '')),
                        websearch_to_tsquery('chinese', :q)
@@ -74,6 +74,7 @@ async def fulltext_search_spots(
                 "description": row.description,
                 "rating": row.rating or 0,
                 "tags": row.tags,
+                "avg_cost": row.avg_cost,
                 "_source": "pg_fulltext",
             })
 
@@ -182,6 +183,7 @@ async def _like_search_spots(
                 "description": s.description,
                 "rating": s.rating or 0,
                 "tags": s.tags,
+                "avg_cost": s.avg_cost,
                 "_source": "pg_like",
             }
             for s in spots_rows
