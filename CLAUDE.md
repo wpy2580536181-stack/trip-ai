@@ -84,8 +84,13 @@
 - [ ] **§6.2 bcrypt 互认测试**：确认 Java jBCrypt 12 rounds 与 Python 现有密码哈希互认
 - [ ] **§6.3 LLM Spike**：验证 langchain4j 1.x 流式 tool_calls + usage 提取能力
 - [ ] **§6.4 ONNX 导出验证**：bge-small-zh-v1.5 和 bge-reranker-base ONNX 导出 + tokenizer 移植
-- [x] **A1-A7 工程基建 + 用户/CRUD** ✅
-- [x] **P0/P1 问题修复** ✅（JWT/Security/@Transactional/SQL注入等）
+- [x] **A1-A4 工程基建** ✅
+- [x] **B1-B7 用户/CRUD（11 表 + 43 端点）** ✅
+- [x] **C0 TaskQueue + C1 Embedder/Reranker 接口** ✅
+- [x] **D1 LLM Gateway + Provider 路由** ✅
+- [x] **D2 Token 记账三件套** ✅
+- [x] **D3 SSE 基建（SseWriter + StreamStore + 断点续传）** ✅
+- [x] **P0/P1 问题修复（16 项）** ✅
 
 ---
 
