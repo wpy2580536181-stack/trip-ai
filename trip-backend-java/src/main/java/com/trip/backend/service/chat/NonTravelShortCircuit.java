@@ -1,0 +1,66 @@
+package com.trip.backend.service.chat;
+
+import org.springframework.stereotype.Component;
+
+import java.util.regex.Pattern;
+
+/**
+ * 非旅行问题短路检测（对应 Python services/agent/nodes/chat_planner.py）
+ *
+ * 职责：
+ * - 检测用户消息是否非旅行相关
+ * - 短路逻辑：chunk → complete(usage=0) → end，不调用 LLM 或工具
+ *
+ * TODO: D8 阶段替换为真实意图分类器
+ */
+@Component
+public class NonTravelShortCircuit {
+
+    // 非旅行关键词（简单正则匹配）
+    private static final Pattern NON_TRAVEL_PATTERN = Pattern.compile(
+        "^(你好|hello|hi|hey|谢谢|thank|天气|weather|新闻|news|股票|stock|基金|fund|"
+        + "笑话|joke|八卦|gossip|音乐|music|电影|movie|电视剧|tv|"
+        + "你好呀|嗨|hi呀|在吗|在不在)",
+        Pattern.CASE_INSENSITIVE
+    );
+
+    /**
+     * 检测是否是非旅行问题
+     *
+     * @param userMessage 用户消息
+     * @return true 表示非旅行问题，需要短路
+     */
+    public boolean isNonTravel(String userMessage) {
+        if (userMessage == null || userMessage.isBlank()) {
+            return true;
+        }
+
+        String trimmed = userMessage.trim();
+        return NON_TRAVEL_PATTERN.matcher(trimmed).find();
+    }
+
+    /**
+     * 生成短路响应（mock）
+     *
+     * @param userMessage 用户消息
+     * @return 短路事件序列（JSON 字符串数组）
+     */
+    public String[] generateShortCircuitEvents(String userMessage) {
+        String response = "这是一个非旅行相关的问题，我目前只能帮您规划旅行行程。请问有什么关于旅行的问题我可以帮您？";
+
+        return new String[] {
+            String.format("{\"type\":\"chunk\",\"data\":{\"content\":%s}}", escapeJson(response)),
+            String.format("{\"type\":\"complete\",\"data\":{\"usage\":{\"prompt\":0,\"completion\":0,\"total\":0,\"cached\":0}}}"),
+            String.format("{\"type\":\"end\"}")
+        };
+    }
+
+    private static String escapeJson(String value) {
+        return "\"" + value
+            .replace("\\", "\\\\")
+            .replace("\"", "\\\"")
+            .replace("\n", "\\n")
+            .replace("\r", "\\r")
+            + "\"";
+    }
+}

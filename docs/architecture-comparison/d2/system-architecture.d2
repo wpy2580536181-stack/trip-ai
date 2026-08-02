@@ -1,0 +1,81 @@
+# 系统架构图 (System Architecture) — 基于当前真实代码校准
+# D2 渲染: d2 system-architecture.d2 system-architecture.svg
+
+direction: down
+
+classes: {
+  fe: {
+    style: {fill: "#e3f2fd"; stroke: "#1976d2"; stroke-width: 2; font-color: "#0d47a1"; bold: true}
+  }
+  be: {
+    style: {fill: "#e8f5e9"; stroke: "#388e3c"; stroke-width: 2; font-color: "#1b5e20"; bold: true}
+  }
+  db: {
+    shape: cylinder
+    style: {fill: "#fff3e0"; stroke: "#f57c00"; stroke-width: 2; font-color: "#e65100"}
+  }
+  ai: {
+    shape: cloud
+    style: {fill: "#f3e5f5"; stroke: "#7b1fa2"; stroke-width: 2; font-color: "#4a148c"; bold: true}
+  }
+  ext: {
+    style: {fill: "#fce4ec"; stroke: "#c2185b"; stroke-width: 2; font-color: "#880e4f"}
+  }
+}
+
+# ── Frontend ────────────────────────────────────
+frontend: "Frontend\nVue 3 + Vite + Naive UI\n(localStorage + ref/reactive + src/api 层)" {
+  class: fe
+}
+
+# ── Backend (FastAPI ASGI :8000) ────────────────
+backend: "Backend · FastAPI (ASGI :8000) + asyncio" {
+  style: {fill: "#f1f8e9"; stroke: "#388e3c"; stroke-width: 2; font-color: "#1b5e20"; bold: true}
+
+  agent: "AgentEngine\nLangGraph · ChatGraph + PlannerGraph" {class: be}
+  rag: "KnowledgeService\n三路召回 + RRF(k=60) + rerank" {class: be}
+  rewriter: "QueryRewriter\n本地关键词 (~1ms, 无 LLM)" {class: be}
+  stream: "StreamManager\nSSE + 断点续传 (X-Stream-Id)" {class: be}
+}
+
+# ── Data 层 (cylinders) ─────────────────────────
+mysql: "MySQL 8\n(SQLAlchemy async · asyncmy)" {class: db}
+redis: "Redis\nStreamStore · rate limit · cache" {class: db}
+chroma: "ChromaDB\nVector Index · 30k POI" {class: db}
+
+# ── AI Models ───────────────────────────────────
+llm: "DeepSeek\ndeepseek-chat (主)" {class: ai}
+kimi: "Kimi / Moonshot\n(兜底 fallback)" {class: ai}
+embed: "bge-small-zh-v1.5\nEmbedding (本地 · 384d)" {class: ai}
+reranker: "bge-reranker-base\nCross-Encoder (本地 · top-5)" {class: ai}
+
+# ── External · Amap MCP ─────────────────────────
+mcp: "Amap MCP" {
+  style: {fill: "#fdf2f6"; stroke: "#c2185b"; stroke-width: 2; font-color: "#880e4f"; bold: true}
+
+  guard: "Amap Guards\n熔断器 + 限流器 + 缓存" {class: ext}
+  proc: "MCP Server\nstdio 子进程" {class: ext}
+  tools: "12 Tools\nmaps_weather · maps_text_search\nmaps_around · ..." {class: ext}
+}
+
+# ── Connections ─────────────────────────────────
+frontend -> backend: "HTTPS · REST + SSE\nX-Stream-Id + Last-Event-ID" {
+  style: {stroke: "#1976d2"; stroke-width: 3; font-size: 14; bold: true}
+}
+
+backend.agent -> backend.rag: "retrieve_knowledge" {style.stroke: "#388e3c"}
+backend.rag -> backend.rewriter: "rewrite (local)" {style.stroke: "#388e3c"}
+
+backend.agent -> mysql: "SQLAlchemy async" {style.stroke: "#f57c00"}
+backend.stream -> redis: "redis.asyncio" {style.stroke: "#f57c00"}
+backend.rag -> chroma: "vector search top-20" {style.stroke: "#f57c00"}
+backend.rag -> mysql: "fulltext + rating" {style.stroke: "#f57c00"}
+
+backend.rag -> reranker: "rerank top-5" {style.stroke: "#7b1fa2"}
+backend.rag -> embed: "embed query" {style.stroke: "#7b1fa2"}
+backend.agent -> llm: "chat completion" {style: {stroke: "#7b1fa2"; font-size: 14}}
+backend.agent -> kimi: "fallback" {style.stroke: "#7b1fa2"}
+
+backend.agent -> mcp.guard: "call tool" {style.stroke: "#c2185b"}
+mcp.guard -> mcp.proc: "spawn + stdio" {style.stroke: "#c2185b"}
+mcp.proc -> mcp.tools: "tools/list · tools/call" {style.stroke: "#c2185b"}

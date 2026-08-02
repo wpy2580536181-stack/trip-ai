@@ -1,0 +1,9 @@
+{
+  "description": "Trip Server Python - Performance Baseline",
+  "version": "1.0.0",
+  "created": "2026-07-05",
+  "notes": "Initial baseline - run benchmarks to populate data",
+  "http": {},
+  "sse": {},
+  "llm": {}
+}

@@ -1,0 +1,2 @@
+[permissions]
+allow = ["Bash=cd /Users/wang/Documents/trip && git log --oneline -20 && echo \"---STATUS---\" && git status && echo \"---BRANCH---\" && git branch -a | head -30", "Bash=cd /Users/wang/Documents/trip/trip-backend && which python3 && python3 --version && python3 -c \"import fastapi, sqlalchemy, httpx\" 2>&1 | head -5", "Bash=cd /Users/wang/Documents/trip/trip-backend && .venv/bin/python -c \"import fastapi, sqlalchemy, httpx, pytest; print('deps OK')\" 2>&1 | tail -3"]

@@ -1,0 +1,80 @@
+{
+  "scenario": "sse",
+  "env": {
+    "python": "3.13.12",
+    "platform": "darwin",
+    "arch": "arm64",
+    "timestamp": "2026-07-05T08:44:19.699273+00:00",
+    "cpus": 10,
+    "totalMemMB": 16384,
+    "freeMemMB": 4704
+  },
+  "results": [
+    {
+      "concurrency": 1,
+      "totalStreams": 5,
+      "successStreams": 5,
+      "streamDurationsMs": [
+        15346.211708998453,
+        20268.724582998402,
+        21160.140083000442,
+        21586.4326660012,
+        19392.33295899976
+      ],
+      "chunkCounts": [
+        626,
+        452,
+        942,
+        1025,
+        649
+      ],
+      "tokenCounts": [
+        {
+          "prompt": 1821,
+          "completion": 1752,
+          "total": 3573
+        },
+        {
+          "prompt": 1821,
+          "completion": 922,
+          "total": 2743
+        },
+        {
+          "prompt": 1823,
+          "completion": 1085,
+          "total": 2908
+        },
+        {
+          "prompt": 1821,
+          "completion": 1311,
+          "total": 3132
+        },
+        {
+          "prompt": 1821,
+          "completion": 899,
+          "total": 2720
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "concurrency": 5,
+      "totalStreams": 5,
+      "successStreams": 1,
+      "streamDurationsMs": [
+        17412.448041999596
+      ],
+      "chunkCounts": [
+        601
+      ],
+      "tokenCounts": [
+        {
+          "prompt": 1821,
+          "completion": 809,
+          "total": 2630
+        }
+      ],
+      "errors": 4
+    }
+  ]
+}

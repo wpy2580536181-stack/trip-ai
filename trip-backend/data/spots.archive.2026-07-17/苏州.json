@@ -1,0 +1,385 @@
+[
+  {
+    "name": "七里山塘景区",
+    "city": "苏州",
+    "category": "attraction",
+    "description": "七里山塘景区位于苏州姑苏区山塘街，是著名的风景名胜区，也是国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0,
+    "duration": "未知",
+    "openTime": "全天",
+    "rating": 0
+  },
+  {
+    "name": "西园戒幢律寺",
+    "city": "苏州",
+    "category": "attraction",
+    "description": "西园戒幢律寺位于苏州姑苏区，是江南著名古刹之一，以戒律严明、园林精美著称，寺内有五百罗汉堂等景点。",
+    "tags": [
+      "寺庙",
+      "佛教",
+      "姑苏区",
+      "古迹"
+    ],
+    "avgCost": 25,
+    "duration": "1-2小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "寒山寺",
+    "city": "苏州",
+    "category": "attraction",
+    "description": "寒山寺位于苏州姑苏区，始建于南朝萧梁代天监年间，初名妙利普明塔院。唐代诗人张继的《枫桥夜泊》使其闻名遐迩。寺内古迹众多，包括大雄宝殿、藏经楼、钟楼等，其中寒山寺钟声更是名扬四海。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 20,
+    "duration": "1-2小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "苏州市枫桥风景名胜区",
+    "city": "苏州",
+    "category": "attraction",
+    "description": "枫桥风景名胜区位于苏州姑苏区，以枫桥和寒山寺闻名，是江南水乡的典型代表。",
+    "tags": [
+      "风景名胜",
+      "省级景点"
+    ],
+    "avgCost": 0,
+    "duration": "2小时",
+    "openTime": "08:00-17:00",
+    "rating": 4.6
+  },
+  {
+    "name": "留园",
+    "city": "苏州",
+    "category": "attraction",
+    "description": "留园是苏州古典园林，世界文化遗产，以精巧的布局和丰富的景观著称。",
+    "tags": [
+      "园林",
+      "世界遗产",
+      "姑苏"
+    ],
+    "avgCost": 55,
+    "duration": "1-2小时",
+    "openTime": "07:30-17:30",
+    "rating": 4.7
+  },
+  {
+    "name": "石路步行街",
+    "city": "苏州",
+    "category": "attraction",
+    "description": "石路步行街是苏州著名的商业步行街，位于姑苏区，集购物、餐饮、娱乐于一体。街道两旁店铺林立，既有老字号也有现代品牌，是体验苏州繁华市井的好去处。",
+    "tags": [
+      "购物",
+      "步行街",
+      "特色商业街"
+    ],
+    "avgCost": 0,
+    "duration": "2-3小时",
+    "openTime": "全天",
+    "rating": 4.3
+  },
+  {
+    "name": "苏州园林",
+    "city": "苏州",
+    "category": "attraction",
+    "description": "苏州园林是中国古典园林的杰出代表，以拙政园、留园等为代表，被列为世界文化遗产。园内布局精巧，融合自然与人文景观，是游览苏州的必到之处。",
+    "tags": [
+      "风景名胜",
+      "世界遗产",
+      "古典园林"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "平江路",
+    "city": "苏州",
+    "category": "attraction",
+    "description": "平江路是苏州一条历史悠久的老街，位于姑苏区，全长约1606米，是苏州古城保存最完整的典型水乡风貌街区。街道两旁保留了众多明清时期的古建筑，现已成为集旅游、购物、美食于一体的特色商业街。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "特色商业街",
+      "古街",
+      "水乡"
+    ],
+    "avgCost": 0,
+    "duration": "2-3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "拙政园",
+    "city": "苏州",
+    "category": "attraction",
+    "description": "拙政园是苏州最大的古典园林，被誉为\"中国园林之母\"，世界文化遗产，国家5A级旅游景区，以精巧的布局和丰富的文化内涵闻名。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "园林",
+      "世界文化遗产"
+    ],
+    "avgCost": 80,
+    "duration": "2-3小时",
+    "openTime": "07:30-17:30",
+    "rating": 4.7
+  },
+  {
+    "name": "虎丘山风景区",
+    "city": "苏州",
+    "category": "attraction",
+    "description": "虎丘山是苏州的著名风景名胜区，拥有千年历史和世界文化遗产。",
+    "tags": [
+      "风景名胜",
+      "世界遗产"
+    ],
+    "address": "虎丘山门内8号",
+    "district": "姑苏区",
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5,
+    "avgCost": 0
+  },
+  {
+    "name": "虎丘山风景区",
+    "city": "苏州",
+    "category": "attraction",
+    "description": "虎丘山风景区位于苏州姑苏区，是著名的风景名胜和世界遗产。",
+    "tags": [
+      "风景名胜",
+      "世界遗产"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0
+  },
+  {
+    "name": "囍老板苏州菜·家常热炒·松鼠桂鱼(观前店)",
+    "city": "苏州",
+    "category": "food",
+    "description": "囍老板苏州菜位于苏州观前地区，主打地道苏州家常热炒和招牌松鼠桂鱼，口味正宗，深受本地食客喜爱。店内环境整洁，服务热情，是体验苏州家常菜的好去处。",
+    "tags": [
+      "苏州菜",
+      "家常热炒",
+      "松鼠桂鱼",
+      "观前街"
+    ],
+    "avgCost": 80,
+    "duration": "1.5小时",
+    "openTime": "11:00-14:00,17:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "二十八里太湖船菜(胥口吉祥路店)",
+    "city": "苏州",
+    "category": "food",
+    "description": "位于胥口胥江运河南侧(欢乐胥江)的太湖船菜餐厅，提供正宗太湖船菜。",
+    "tags": [
+      "太湖船菜",
+      "中餐厅"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "苏外婆·苏帮菜·私房菜·松鼠桂鱼(平江路总店)",
+    "city": "苏州",
+    "category": "restaurant",
+    "description": "苏外婆·苏帮菜·私房菜·松鼠桂鱼(平江路总店)位于苏州姑苏区白塔东路308号，是一家以苏帮菜为特色的中餐厅，招牌菜品包括松鼠桂鱼等经典私房菜。环境优雅，适合品尝地道苏州风味。",
+    "tags": [
+      "中餐厅",
+      "苏帮菜",
+      "私房菜"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "姑苏桥·文人苏式面馆(北寺塔店)",
+    "city": "苏州",
+    "category": "food",
+    "description": "姑苏桥·文人苏式面馆位于苏州北寺塔附近，是一家主打苏式汤面的中餐厅，提供正宗苏式面食。",
+    "tags": [
+      "苏式面馆",
+      "中餐厅"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "新苏里·苏州菜(观前店)",
+    "city": "苏州",
+    "category": "food",
+    "description": "新苏里·苏州菜(观前店) 是苏州的景点",
+    "tags": [],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0
+  },
+  {
+    "name": "稻山村·苏州菜(石路店)",
+    "city": "苏州",
+    "category": "food",
+    "description": "稻山村·苏州菜(石路店)是一家位于苏州姑苏区南新路5号的中餐厅，提供正宗苏州菜。",
+    "tags": [
+      "苏州菜",
+      "中餐厅",
+      "餐饮"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "吴越荣记(石湖景区店)",
+    "city": "苏州",
+    "category": "food",
+    "description": "吴越荣记(石湖景区店) 是苏州的美食餐厅，位于姑苏区。地址：石湖西路石湖风景区南商业街E2楼。",
+    "tags": [
+      "苏州"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "姑苏家宴正宗苏帮菜·松鼠桂鱼(苏州总店)",
+    "city": "苏州",
+    "category": "food",
+    "description": "姑苏家宴是苏州一家知名的苏帮菜餐厅，以正宗苏帮菜和招牌菜松鼠桂鱼闻名，位于姑苏区白塔东路。",
+    "tags": [
+      "苏帮菜",
+      "中餐厅",
+      "江苏菜"
+    ],
+    "avgCost": 150,
+    "duration": "1.5小时",
+    "openTime": "10:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "小欢喜苏帮菜",
+    "city": "苏州",
+    "category": "food",
+    "description": "小欢喜苏帮菜位于姑苏区南新路17号，是一家提供正宗苏帮菜的中餐厅。",
+    "tags": [
+      "苏帮菜",
+      "中餐",
+      "苏州美食"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "苏州太太精致苏帮菜(苏州总店)",
+    "city": "苏州",
+    "category": "food",
+    "description": "苏州太太精致苏帮菜(苏州总店)是位于苏州市姑苏区白塔东路325号的一家苏帮菜餐厅，提供正宗精致的苏州本地菜。",
+    "tags": [
+      "苏帮菜",
+      "苏州美食",
+      "中餐厅"
+    ],
+    "avgCost": 80,
+    "duration": "1-2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "昆山新客栈宾馆",
+    "city": "苏州",
+    "category": "hotel",
+    "description": "位于玉山镇新城域北门商业街的宾馆，提供住宿服务。",
+    "tags": [
+      "宾馆",
+      "住宿",
+      "昆山"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "常熟商旅668宾馆",
+    "city": "苏州",
+    "category": "hotel",
+    "description": "位于红旗北路1号的宾馆，提供住宿服务。",
+    "tags": [
+      "宾馆",
+      "常熟"
+    ],
+    "avgCost": 0,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 0
+  },
+  {
+    "name": "苏州站前宾馆(迎春路店)",
+    "city": "苏州",
+    "category": "hotel",
+    "description": "位于姑苏区迎春路460号，靠近苏州站，交通便利，提供舒适的住宿服务。",
+    "tags": [
+      "交通便利",
+      "舒适",
+      "宾馆"
+    ],
+    "avgCost": 200,
+    "duration": "全天",
+    "openTime": "24小时",
+    "rating": 4.3
+  },
+  {
+    "name": "布丁酒店连锁",
+    "city": "苏州",
+    "category": "hotel",
+    "description": "布丁酒店连锁位于昆山市人民南路36号，是一家经济型连锁酒店。",
+    "tags": [
+      "经济型连锁酒店"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0
+  },
+  {
+    "name": "都市118(苏州观前街拙政园店)",
+    "city": "苏州",
+    "category": "hotel",
+    "description": "都市118连锁酒店，位于苏州观前街拙政园附近，交通便利，靠近悬桥巷地铁站。",
+    "tags": [
+      "经济型酒店",
+      "苏州",
+      "连锁",
+      "观前街",
+      "拙政园"
+    ],
+    "avgCost": 200,
+    "duration": "1天",
+    "openTime": "24小时",
+    "rating": 4.0
+  }
+]

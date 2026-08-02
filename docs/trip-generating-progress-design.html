@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>行程生成页 · Agent 步骤进度设计稿</title>
+<style>
+  :root {
+    --primary: #18a058;
+    --primary-light: #e8f5ee;
+    --text-1: #1f2225;
+    --text-2: #6b7075;
+    --text-3: #a8adb3;
+    --border: #ececee;
+    --bg: #f5f6f8;
+    --card: #ffffff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    color: var(--text-1);
+  }
+  .design-note {
+    max-width: 520px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: var(--text-3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .design-note .controls button {
+    border: 1px solid var(--border);
+    background: #fff;
+    border-radius: 6px;
+    padding: 4px 12px;
+    font-size: 12px;
+    color: var(--text-2);
+    cursor: pointer;
+    margin-left: 6px;
+  }
+  .design-note .controls button:hover { border-color: var(--primary); color: var(--primary); }
+
+  /* ============ 主卡片 ============ */
+  .gen-card {
+    width: 100%;
+    max-width: 520px;
+    background: var(--card);
+    border-radius: 16px;
+    box-shadow: 0 6px 32px rgba(0,0,0,.06);
+    padding: 36px 40px 28px;
+  }
+
+  .gen-header { text-align: center; margin-bottom: 8px; }
+  .gen-title {
+    font-size: 19px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .gen-sub {
+    margin-top: 8px;
+    font-size: 14px;
+    color: var(--text-2);
+  }
+  .gen-sub .tag {
+    display: inline-block;
+    background: var(--bg);
+    border-radius: 4px;
+    padding: 1px 8px;
+    margin: 0 3px;
+    font-size: 13px;
+  }
+
+  /* 总进度条：按已完成步骤真实推进 */
+  .total-bar {
+    height: 6px;
+    background: #eef0f2;
+    border-radius: 3px;
+    margin: 22px 0 26px;
+    overflow: hidden;
+  }
+  .total-bar-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #36ad6a, var(--primary));
+    border-radius: 3px;
+    transition: width .6s cubic-bezier(.4,0,.2,1);
+    position: relative;
+  }
+  .total-bar-fill::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,.45), transparent);
+    animation: shine 1.6s infinite;
+  }
+  @keyframes shine {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+
+  /* ============ 步骤时间线 ============ */
+  .steps { list-style: none; }
+  .step {
+    display: flex;
+    gap: 14px;
+    position: relative;
+    padding-bottom: 26px;
+  }
+  .step:last-child { padding-bottom: 6px; }
+  /* 连接线 */
+  .step:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    left: 13px;
+    top: 30px;
+    bottom: 2px;
+    width: 2px;
+    background: var(--border);
+    transition: background .4s;
+  }
+  .step.done:not(:last-child)::before { background: #b9e4cd; }
+
+  /* 图标圈 */
+  .step-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    border: 2px solid var(--border);
+    background: #fff;
+    color: var(--text-3);
+    transition: all .35s;
+    position: relative;
+    z-index: 1;
+  }
+  /* 等待中 */
+  .step.pending .step-icon { color: var(--text-3); }
+  /* 进行中：呼吸光环 + 转圈 */
+  .step.active .step-icon {
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+  .step.active .step-icon::after {
+    content: "";
+    position: absolute;
+    inset: -6px;
+    border-radius: 50%;
+    border: 2px solid rgba(24,160,88,.35);
+    animation: pulse-ring 1.5s ease-out infinite;
+  }
+  @keyframes pulse-ring {
+    0% { transform: scale(.7); opacity: 1; }
+    100% { transform: scale(1.25); opacity: 0; }
+  }
+  .spinner {
+    width: 13px;
+    height: 13px;
+    border: 2px solid rgba(24,160,88,.25);
+    border-top-color: var(--primary);
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  /* 已完成：绿底白勾 + 弹入 */
+  .step.done .step-icon {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: #fff;
+  }
+  .step.done .step-icon svg { animation: pop .35s cubic-bezier(.5,1.8,.6,1); }
+  @keyframes pop {
+    0% { transform: scale(0); }
+    100% { transform: scale(1); }
+  }
+
+  /* 文本区 */
+  .step-body { flex: 1; padding-top: 3px; min-width: 0; }
+  .step-name {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text-3);
+    transition: color .3s;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+  }
+  .step.active .step-name { color: var(--text-1); font-weight: 600; }
+  .step.done .step-name { color: var(--text-1); }
+  .step-hint {
+    font-size: 12.5px;
+    color: var(--text-3);
+    margin-top: 4px;
+    min-height: 17px;
+    transition: color .3s;
+  }
+  .step.active .step-hint { color: var(--text-2); }
+  .step-time {
+    font-size: 12px;
+    color: var(--text-3);
+    font-weight: 400;
+  }
+  .step.done .step-time { color: var(--primary); }
+
+  /* 进行中步骤的动态省略号 */
+  .dots::after {
+    content: "";
+    animation: dots 1.5s steps(4) infinite;
+  }
+  @keyframes dots {
+    0% { content: ""; }
+    25% { content: "."; }
+    50% { content: ".."; }
+    75% { content: "..."; }
+  }
+
+  /* Research 子项 chips */
+  .sub-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+  }
+  .chip {
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 3px 10px;
+    background: var(--bg);
+    color: var(--text-3);
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: all .3s;
+  }
+  .chip.loading {
+    color: var(--primary);
+    background: var(--primary-light);
+    animation: chip-breath 1.2s ease-in-out infinite;
+  }
+  @keyframes chip-breath {
+    0%, 100% { opacity: 1; }
+    50% { opacity: .55; }
+  }
+  .chip.ok {
+    color: var(--primary);
+    background: var(--primary-light);
+  }
+  .chip.ok::after { content: " ✓"; font-weight: 600; }
+
+  /* Review 重试徽标 */
+  .retry-badge {
+    display: inline-block;
+    font-size: 11px;
+    color: #d09a45;
+    background: #fdf6ec;
+    border-radius: 4px;
+    padding: 1px 6px;
+    margin-left: 4px;
+  }
+
+  /* 底部：轮播小贴士 + 等待时间 + 取消 */
+  .gen-footer {
+    margin-top: 24px;
+    padding-top: 18px;
+    border-top: 1px dashed var(--border);
+    text-align: center;
+  }
+  .fun-tip {
+    font-size: 12.5px;
+    color: var(--text-3);
+    min-height: 18px;
+    transition: opacity .4s;
+  }
+  .fun-tip.fade { opacity: 0; }
+  .wait-row {
+    margin-top: 12px;
+    font-size: 13px;
+    color: var(--text-2);
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    align-items: center;
+  }
+  .wait-row .elapsed { font-variant-numeric: tabular-nums; }
+  .cancel-btn {
+    border: none;
+    background: none;
+    color: var(--text-3);
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .cancel-btn:hover { color: #d03050; }
+
+  /* 完成态 */
+  .gen-card.finished .total-bar-fill::after { animation: none; }
+  .done-banner {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .gen-card.finished .done-banner { display: block; animation: pop .4s; }
+</style>
+</head>
+<body>
+
+<div class="design-note">
+  <span>设计稿 · 自动播放模拟（含 Research 子项与 Review 重试场景）</span>
+  <span class="controls">
+    <button onclick="play('normal')">▶ 正常流程</button>
+    <button onclick="play('retry')">▶ 审校重试</button>
+    <button onclick="play('cached')">▶ 缓存快路径</button>
+  </span>
+</div>
+
+<div class="gen-card" id="card">
+  <div class="gen-header">
+    <div class="gen-title">🤖 AI 正在为您规划行程</div>
+    <div class="gen-sub">
+      <span class="tag">北京 → 上海</span><span class="tag">5 天</span><span class="tag">¥5000</span>
+    </div>
+  </div>
+
+  <div class="total-bar"><div class="total-bar-fill" id="totalFill"></div></div>
+
+  <ul class="steps" id="steps">
+    <li class="step pending" data-step="0">
+      <div class="step-icon"><span class="icon-slot">1</span></div>
+      <div class="step-body">
+        <div class="step-name">理解需求 <span class="step-time"></span></div>
+        <div class="step-hint">解析目的地、天数、预算与个人偏好</div>
+      </div>
+    </li>
+    <li class="step pending" data-step="1">
+      <div class="step-icon"><span class="icon-slot">2</span></div>
+      <div class="step-body">
+        <div class="step-name">搜集情报 <span class="step-time"></span></div>
+        <div class="step-hint">并行检索候选数据</div>
+        <div class="sub-chips" id="chips" style="display:none">
+          <span class="chip" data-chip="attractions">🏛️ 景点</span>
+          <span class="chip" data-chip="food">🍜 美食</span>
+          <span class="chip" data-chip="hotels">🏨 酒店</span>
+          <span class="chip" data-chip="weather">🌤️ 天气</span>
+          <span class="chip" data-chip="distance">🚇 交通</span>
+        </div>
+      </div>
+    </li>
+    <li class="step pending" data-step="2">
+      <div class="step-icon"><span class="icon-slot">3</span></div>
+      <div class="step-body">
+        <div class="step-name">规划行程 <span class="step-time"></span></div>
+        <div class="step-hint">按天编排景点、餐饮与住宿，平衡预算与动线</div>
+      </div>
+    </li>
+    <li class="step pending" data-step="3">
+      <div class="step-icon"><span class="icon-slot">4</span></div>
+      <div class="step-body">
+        <div class="step-name">质量审校 <span class="retry-badge" id="retryBadge" style="display:none">第 2 轮优化</span> <span class="step-time"></span></div>
+        <div class="step-hint">校验预算合理性、景点真实性与每日节奏</div>
+      </div>
+    </li>
+    <li class="step pending" data-step="4">
+      <div class="step-icon"><span class="icon-slot">5</span></div>
+      <div class="step-body">
+        <div class="step-name">保存行程 <span class="step-time"></span></div>
+        <div class="step-hint">生成行程详情页</div>
+      </div>
+    </li>
+  </ul>
+
+  <div class="done-banner">✓ 行程已生成，正在跳转详情页…</div>
+
+  <div class="gen-footer">
+    <div class="fun-tip" id="funTip">💡 上海地铁日票 18 元，一天内不限次乘坐</div>
+    <div class="wait-row">
+      <span>已等待 <b class="elapsed" id="elapsed">0s</b></span>
+      <button class="cancel-btn">取消生成</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ===================== 模拟播放器（设计稿演示用） ===================== */
+const CHECK_SVG = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12.5L9.5 18L20 6.5" stroke="white" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+const steps = [...document.querySelectorAll('.step')];
+const totalFill = document.getElementById('totalFill');
+const card = document.getElementById('card');
+const chipsBox = document.getElementById('chips');
+const retryBadge = document.getElementById('retryBadge');
+const elapsedEl = document.getElementById('elapsed');
+const funTipEl = document.getElementById('funTip');
+
+/* 进行中步骤的轮播提示语（对应真实节点的文案库） */
+const activeHints = {
+  0: ['解析目的地、天数、预算与个人偏好'],
+  1: ['并行检索景点、美食、酒店、天气与交通数据'],
+  2: [
+    '正在按天编排景点动线，减少折返…',
+    '正在为每天搭配午餐与晚餐…',
+    '正在按预算分配住宿与门票…',
+    '正在优化游玩节奏，避免行程过满…',
+  ],
+  3: ['校验预算合理性、景点真实性与每日节奏'],
+  4: ['写入行程库，准备跳转'],
+};
+
+const funTips = [
+  '💡 上海地铁日票 18 元，一天内不限次乘坐',
+  '💡 外滩夜景最佳观赏时间是 19:00-21:00',
+  '💡 生成后可在详情页对话框里随时调整行程',
+  '💡 豫园周边小吃街建议工作日前往，人少一半',
+];
+
+let timers = [];
+function clearAll() {
+  timers.forEach(clearTimeout); timers = [];
+  if (window._elapsedTimer) clearInterval(window._elapsedTimer);
+  if (window._hintTimer) clearInterval(window._hintTimer);
+  if (window._tipTimer) clearInterval(window._tipTimer);
+}
+function later(fn, ms) { timers.push(setTimeout(fn, ms)); }
+
+function resetUI() {
+  clearAll();
+  card.classList.remove('finished');
+  totalFill.style.width = '0%';
+  retryBadge.style.display = 'none';
+  chipsBox.style.display = 'none';
+  document.querySelectorAll('.chip').forEach(c => c.className = 'chip');
+  steps.forEach((s, i) => {
+    s.className = 'step pending';
+    s.querySelector('.icon-slot').innerHTML = i + 1;
+    s.querySelector('.step-time').textContent = '';
+    s.querySelector('.step-hint').textContent = activeHints[i][0];
+  });
+  elapsedEl.textContent = '0s';
+}
+
+function setActive(i) {
+  const s = steps[i];
+  s.className = 'step active';
+  s.querySelector('.icon-slot').innerHTML = '<span class="spinner"></span>';
+  const hint = s.querySelector('.step-hint');
+  hint.classList.add('dots');
+  /* 长步骤轮播文案 */
+  if (activeHints[i].length > 1) {
+    let idx = 0;
+    window._hintTimer = setInterval(() => {
+      idx = (idx + 1) % activeHints[i].length;
+      hint.textContent = activeHints[i][idx];
+    }, 3500);
+  }
+}
+
+function setDone(i, seconds) {
+  if (window._hintTimer) clearInterval(window._hintTimer);
+  const s = steps[i];
+  s.className = 'step done';
+  s.querySelector('.icon-slot').innerHTML = CHECK_SVG;
+  s.querySelector('.step-hint').classList.remove('dots');
+  s.querySelector('.step-time').textContent = seconds;
+  totalFill.style.width = ((i + 1) / steps.length * 100) + '%';
+}
+
+function startClock() {
+  let sec = 0;
+  window._elapsedTimer = setInterval(() => { elapsedEl.textContent = ++sec + 's'; }, 1000);
+  let tipIdx = 0;
+  window._tipTimer = setInterval(() => {
+    funTipEl.classList.add('fade');
+    setTimeout(() => {
+      tipIdx = (tipIdx + 1) % funTips.length;
+      funTipEl.textContent = funTips[tipIdx];
+      funTipEl.classList.remove('fade');
+    }, 400);
+  }, 5000);
+}
+
+function finish() {
+  card.classList.add('finished');
+  clearInterval(window._elapsedTimer);
+  clearInterval(window._tipTimer);
+}
+
+/* 三种场景的时间轴（毫秒，演示压缩为约 1/3 真实时长） */
+function play(mode) {
+  resetUI();
+  startClock();
+  let t = 300;
+  const chipDelay = { attractions: 1400, food: 1800, hotels: 2400, weather: 900, distance: 1100 };
+
+  /* Step 1 理解需求 */
+  later(() => setActive(0), t);
+  later(() => setDone(0, '0.4s'), t += 700);
+
+  /* Step 2 搜集情报 */
+  later(() => {
+    setActive(1);
+    chipsBox.style.display = 'flex';
+    if (mode === 'cached') {
+      document.querySelectorAll('.chip').forEach(c => c.classList.add('ok'));
+    } else {
+      document.querySelectorAll('.chip').forEach(c => c.classList.add('loading'));
+      Object.entries(chipDelay).forEach(([k, d]) => {
+        later(() => {
+          const chip = document.querySelector(`[data-chip="${k}"]`);
+          chip.classList.remove('loading');
+          chip.classList.add('ok');
+        }, t + d);
+      });
+    }
+  }, t += 300);
+  const researchDur = mode === 'cached' ? 600 : 2800;
+  later(() => setDone(1, mode === 'cached' ? '0.2s（缓存命中）' : '4.6s'), t += researchDur);
+
+  /* Step 3 规划行程（最长） */
+  later(() => setActive(2), t += 200);
+  const planDur = mode === 'cached' ? 5000 : 7000;
+  later(() => setDone(2, '23.5s'), t += planDur);
+
+  /* Step 4 质量审校（retry 场景走两轮） */
+  later(() => setActive(3), t += 200);
+  if (mode === 'retry') {
+    later(() => {
+      retryBadge.style.display = 'inline-block';
+      /* 回到规划步骤重跑的视觉：step3 短暂回到 active */
+      setDone(3, '');
+      setActive(2);
+      steps[2].querySelector('.step-hint').textContent = '根据审校意见调整第 3 天节奏…';
+    }, t += 1500);
+    later(() => { setDone(2, '31.2s'); setActive(3); }, t += 3000);
+    later(() => setDone(3, '2.1s ×2轮'), t += 1500);
+  } else {
+    later(() => setDone(3, '1.8s'), t += 1500);
+  }
+
+  /* Step 5 保存 */
+  later(() => setActive(4), t += 200);
+  later(() => { setDone(4, '0.3s'); finish(); }, t += 700);
+}
+
+play('normal');
+</script>
+</body>
+</html>

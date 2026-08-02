@@ -28,35 +28,23 @@ public class ResumeHandler {
     }
 
     /**
-     * 处理断点续传
+     * 处理断点续传（带权限校验）
      *
-     * @return ResumeResult（null 表示非续传请求）
+     * @return ResumeResult
+     * @throws ResumeException 400/403/404
      */
-    public ResumeResult handleResume(HttpServletRequest request) throws ResumeException {
-        String streamId = request.getHeader("X-Stream-Id");
-        String lastEventId = request.getHeader("Last-Event-ID");
-
-        if (streamId == null || lastEventId == null) {
-            return null; // 非续传请求
-        }
-
-        // 解析 lastSeq
-        long lastSeq;
-        try {
-            lastSeq = Long.parseLong(lastEventId);
-            if (lastSeq < 0) {
-                throw new IllegalArgumentException("Last-Event-ID must be non-negative");
-            }
-        } catch (NumberFormatException e) {
-            throw new ResumeException(400, "Invalid Last-Event-ID: " + lastEventId);
-        }
-
-        // 获取 stream 状态
+    public ResumeResult handleResumeWithAuth(String streamId, long lastSeq, String userId) throws ResumeException {
+        // 获取 stream 状态（校验存在性）
         StreamStore.StreamState streamState;
         try {
             streamState = streamStore.getStreamState(streamId);
         } catch (StreamStore.StreamNotFoundException e) {
             throw new ResumeException(404, "Stream not found: " + streamId);
+        }
+
+        // 权限校验：owner 不匹配 → 403
+        if (!streamState.userId().equals(userId)) {
+            throw new ResumeException(403, "无权访问此 stream");
         }
 
         // 获取事件

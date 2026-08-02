@@ -1,0 +1,44 @@
+# Agent 执行时序 (Agent Execution Sequence)
+# D2 渲染: d2 agent-sequence.d2 agent-sequence.svg
+
+shape: sequence_diagram
+
+# ── Participants ────────────────────────────────
+user: User
+frontend: Frontend
+backend: tripService
+agent: AgentEngine
+llm: LLM (DeepSeek)
+tool: Tool
+db: MySQL
+
+# ── Flow (17 steps) ─────────────────────────────
+user -> frontend: "1. send message"
+frontend -> backend: "2. POST /api/trip/chat (SSE)"
+
+backend -> db: "3. pre-create empty assistant msg"
+db -> backend: "ok"
+
+backend -> agent: "4. chat({userId, messageId, signal, onEvent})"
+
+agent -> llm: "5. invoke(messages + tools)"
+llm -> agent: "6. tool_call {name, args}"
+
+agent -> tool: "7. execute(args)"
+tool -> agent: "8. result"
+
+agent -> backend: "9. on_tool_start event"
+agent -> tool: "10. execute again (if needed)"
+tool -> agent: "result"
+agent -> backend: "11. on_tool_end event"
+
+agent -> llm: "12. invoke(messages + tool result)"
+llm -> agent: "13. content chunks"
+
+agent -> backend: "14. on_chunk events (SSE)"
+
+backend -> frontend: "15. SSE data: {type:'chunk'}"
+backend -> db: "16. persist assistant message"
+
+agent -> backend: "17. on_complete (with usage)"
+backend -> frontend: "18. SSE data: {type:'complete', reply, usage}"

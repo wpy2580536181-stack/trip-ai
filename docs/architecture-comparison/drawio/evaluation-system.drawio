@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-06-26T12:00:00.000Z" agent="opencode" version="22.0.0" type="device">
+  <diagram name="Evaluation System" id="evaluation-system">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="title" value="Evaluation System · 评估体系" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="20" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fx" value="Fixtures&#10;fixtures/*.yaml + fixtures/generated/*.yaml" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="60" width="310" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="en" value="CLI / API entry&#10;eval · evalApi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="270" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="run" value="Runner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="290" width="270" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="md-mock" value="mock" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="30" y="400" width="170" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="md-real" value="real" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="215" y="400" width="170" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="md-multi" value="multi-sample" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="400" width="170" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="md-report" value="report" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="585" y="400" width="170" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ev" value="13 Evaluators&#10;must_contain_keywords · must_not · regex · json_schema&#10;tool_called · tool_args_match · latency · cost&#10;safety · toxicity · pii · ref_id · judge_llm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;spacingLeft=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="510" width="650" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="llm" value="LLM&#10;mock or real" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="680" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="out" value="Output&#10;JSON report · HTML report · score" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="680" width="260" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fb" value="Feedback Loop&#10;negative feedback → fixtureConverter → new YAML" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;fontStyle=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="830" width="290" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e1" style="endArrow=classic;html=1;strokeColor=#388e3c;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fx" target="en">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e2" style="endArrow=classic;html=1;strokeColor=#388e3c;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="en" target="run">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e3" style="endArrow=classic;html=1;strokeColor=#388e3c;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="run" target="ev">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e3a" value="uses" style="endArrow=open;html=1;strokeColor=#7b1fa2;strokeWidth=1.5;fontSize=10;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="ev" target="llm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e3b" value="writes" style="endArrow=classic;html=1;strokeColor=#388e3c;strokeWidth=2;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="ev" target="out">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e-mode1" style="endArrow=none;html=1;strokeColor=#aaaaaa;strokeWidth=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="md-mock" target="ev">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-mode2" style="endArrow=none;html=1;strokeColor=#aaaaaa;strokeWidth=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="md-real" target="ev">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-mode3" style="endArrow=none;html=1;strokeColor=#aaaaaa;strokeWidth=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="md-multi" target="ev">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-mode4" style="endArrow=none;html=1;strokeColor=#aaaaaa;strokeWidth=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="md-report" target="ev">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e-fb1" value="negative" style="endArrow=classic;html=1;strokeColor=#c62828;strokeWidth=2;fontSize=10;edgeStyle=orthogonalEdgeStyle;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;curved=1;" edge="1" parent="1" source="out" target="fx">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="605" y="640" />
+              <mxPoint x="555" y="640" />
+              <mxPoint x="555" y="600" />
+              <mxPoint x="150" y="600" />
+              <mxPoint x="150" y="120" />
+              <mxPoint x="290" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="e-fb2" value="append" style="endArrow=classic;html=1;strokeColor=#388e3c;strokeWidth=2;fontSize=10;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="fb" target="fx">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="950" />
+              <mxPoint x="100" y="950" />
+              <mxPoint x="100" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="e-fb-flow" value="fixtures grow over time" style="endArrow=none;html=1;strokeColor=#aaaaaa;strokeWidth=1;dashed=1;fontSize=10;fontStyle=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fb" target="out">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="970" width="790" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-title" value="Legend · 图例" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="975" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="leg-c1" value="Fixtures / Output" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1000" width="140" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="leg-c2" value="Process" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1000" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="leg-c3" value="Mode" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1000" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="leg-c4" value="LLM" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1000" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="leg-c5" value="Feedback path" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1000" width="120" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="leg-note" value="Source: docs/architecture-diagrams.md § 4 — 13 evaluators run in each mode; feedback loop grows fixture set." style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=2;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1040" width="770" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

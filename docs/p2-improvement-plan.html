@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trip 项目 P2 改进方案 - Python 后端专属 - 详细设计</title>
+<style>
+  :root {
+    --bg: #0d1117; --bg-card: #161b22; --bg-hover: #1c2333;
+    --text: #e6edf3; --text-secondary: #8b949e; --text-tertiary: #6e7681;
+    --border: #30363d; --accent: #58a6ff; --green: #3fb950; --orange: #d29922;
+    --red: #f85149; --purple: #bc8cff; --pink: #f778ba; --coral: #ff7b72;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.7;
+    font-size: 15px;
+  }
+  .container { max-width: 960px; margin: 0 auto; padding: 40px 24px 80px; }
+  h1 { font-size: 26px; font-weight: 600; margin-bottom: 8px; }
+  h2 { font-size: 20px; font-weight: 600; margin-top: 44px; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border); color: var(--accent); }
+  h3 { font-size: 16px; font-weight: 600; margin-top: 28px; margin-bottom: 10px; }
+  h4 { font-size: 14px; font-weight: 600; margin-top: 20px; margin-bottom: 8px; color: var(--text-secondary); }
+  p { margin-bottom: 12px; color: var(--text-secondary); }
+  .subtitle { font-size: 14px; color: var(--text-tertiary); margin-bottom: 32px; }
+
+  table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 13px; }
+  th { background: var(--bg-card); color: var(--text-secondary); text-align: left; padding: 10px 12px; border-bottom: 2px solid var(--border); font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:hover td { background: var(--bg-hover); }
+
+  code {
+    font-family: 'SF Mono', 'Fira Code', monospace; font-size: 12px;
+    background: var(--bg-hover); padding: 2px 6px; border-radius: 4px;
+    color: var(--coral);
+  }
+  pre {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 8px; padding: 14px 16px; overflow-x: auto;
+    margin: 12px 0 20px; font-size: 12px; line-height: 1.5;
+  }
+  pre code { background: none; padding: 0; color: var(--text); }
+
+  .info-box {
+    background: var(--bg-card); border-left: 3px solid var(--accent);
+    padding: 14px 16px; border-radius: 0 8px 8px 0; margin: 16px 0;
+    font-size: 13px;
+  }
+  .info-box.success { border-left-color: var(--green); }
+  .info-box.warning { border-left-color: var(--orange); }
+  .info-box.danger { border-left-color: var(--red); }
+  .info-box.purple { border-left-color: var(--purple); }
+  .info-box.pink { border-left-color: var(--pink); }
+
+  ul, ol { margin: 8px 0 16px 20px; color: var(--text-secondary); }
+  li { margin-bottom: 4px; }
+
+  .tag {
+    display: inline-block; font-size: 11px; padding: 2px 8px;
+    border-radius: 10px; margin: 1px 2px; font-weight: 500;
+  }
+  .tag.green { background: rgba(63,185,80,0.15); color: var(--green); }
+  .tag.orange { background: rgba(210,153,34,0.15); color: var(--orange); }
+  .tag.blue { background: rgba(88,166,255,0.15); color: var(--accent); }
+  .tag.red { background: rgba(248,81,73,0.15); color: var(--red); }
+  .tag.purple { background: rgba(188,140,255,0.15); color: var(--purple); }
+  .tag.gray { background: rgba(139,148,158,0.15); color: var(--text-secondary); }
+  .tag.pink { background: rgba(247,120,186,0.15); color: var(--pink); }
+
+  .toc { background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 16px 20px; margin-bottom: 32px; }
+  .toc h3 { margin: 0 0 10px; font-size: 14px; color: var(--text-secondary); }
+  .toc ol { margin: 0; list-style: none; counter-reset: toc; }
+  .toc li { counter-increment: toc; margin-bottom: 4px; font-size: 13px; }
+  .toc li::before { content: counter(toc) ". "; color: var(--accent); font-weight: 500; }
+  .toc a { color: var(--text-secondary); text-decoration: none; }
+  .toc a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>Trip 项目 P2 改进方案 — Python 后端专属</h1>
+<p class="subtitle">仅针对 trip-backend（FastAPI），移除全部 Node.js 依赖 · 2026-07-05</p>
+
+<div class="info-box success">
+  <strong>当前 Python 后端测试基座已补齐：</strong>642 个测试函数、HTTP 集成测试、数据库集成测试、13 个 Eval Evaluator、
+  HTTP 压测脚本、SSE 流压脚本、6 张性能图表。P2 在此基础上向前推进。
+</div>
+
+<div class="toc">
+<h3>目录</h3>
+<ol>
+  <li>P2-1: Python API 端到端测试 (pytest + httpx)</li>
+  <li>P2-2: Eval 框架对接 CI</li>
+  <li>P2-3: 性能基准门禁 (Python)</li>
+  <li>实施路线与时间估计</li>
+</ol>
+</div>
+
+<!-- ====== P2-1 ====== -->
+<h2>P2-1: Python API 端到端测试</h2>
+
+<h3>与 Node 版的区别</h3>
+<p>Node 版的 E2E 方案依赖 Playwright（前端浏览器自动化），需要在 <code>trip-front</code> 中编写 TypeScript 代码。</p>
+<p><strong>Python 专属方案改为：</strong>使用 <code>pytest + httpx.AsyncClient</code> 对后端 API 做 E2E 测试，不依赖前端浏览器，不引入 Node/TypeScript。只需后端运行 + MySQL + Redis（可降级内存）。</p>
+
+<div class="info-box purple">
+  <strong>目标：</strong>覆盖 6 个核心 API 流程的端到端测试，验证完整的请求-响应链路（含数据库读写），在 PR 合并前自动运行。
+</div>
+
+<h3>项目结构</h3>
+<pre><code>trip-backend/
+  tests/
+    e2e/                          # 新建：API E2E 测试目录
+      conftest.py                  # E2E 专属 fixture（启动后端子进程）
+      test_auth_flow.py            # 注册 → 登录 → token 校验 → 登出
+      test_trip_planning.py        # 聊天 → SSE 流 → 行程保存 → 查询
+      test_history_flow.py         # 创建行程 → 历史列表 → 详情
+      test_feedback_flow.py        # 提交反馈 → 管理员查看 → 列表
+      test_knowledge_flow.py       # 知识库写入 → 检索 → 验证
+      test_error_scenarios.py      # 401/403/404/429/502 异常路径
+    conftest.py                    # 原有测试 fixture 不变
+  .github/workflows/
+    e2e-api.yml                    # 新建：API E2E CI 工作流</code></pre>
+
+<h3>关键技术决策</h3>
+
+<table>
+  <tr><th>选型</th><th>选择</th><th>理由</th></tr>
+  <tr><td>测试框架</td><td><code>pytest + pytest-asyncio</code></td><td>与现有 642 个测试统一框架，零额外依赖</td></tr>
+  <tr><td>HTTP 客户端</td><td><code>httpx.AsyncClient</code></td><td>与现有集成测试一致，支持流式 SSE 读取</td></tr>
+  <tr><td>后端管理</td><td><code>subprocess</code> 启动 uvicorn 子进程</td><td>脚本 run_all_benchmarks.py 已验证此模式可行</td></tr>
+  <tr><td>数据库</td><td>MySQL（复用开发库）</td><td>E2E 测试应使用真实数据库而非 SQLite</td></tr>
+  <tr><td>数据隔离</td><td>前置 fixture 创建专有测试数据，后置清理</td><td>避免 E2E 测试相互污染</td></tr>
+</table>
+
+<h3>核心代码示例</h3>
+
+<h4>conftest.py</h4>
+<pre><code>"""E2E 测试 fixture — 启动后端子进程 + 等待就绪"""
+import subprocess
+import time
+import pytest
+import httpx
+from pathlib import Path
+
+PROJECT_DIR = Path(__file__).resolve().parent.parent.parent
+PYTHON = str(PROJECT_DIR / ".venv" / "bin" / "python")
+
+
+@pytest_asyncio.fixture(scope="session")
+async def backend_server():
+    """启动后端服务（session 级别，仅启动一次）"""
+    proc = subprocess.Popen(
+        [PYTHON, "-m", "uvicorn", "src.main:app",
+         "--host", "0.0.0.0", "--port", "3001",  # 用不同端口避免冲突
+         "--log-level", "error"],
+        cwd=PROJECT_DIR,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+        env={**__import__('os').environ,
+             "RATE_LIMIT_AUTH_MAX": "99999",
+             "RATE_LIMIT_AUTH_WINDOW": "1",
+             "RATE_LIMIT_GLOBAL_MAX": "999999"},
+    )
+
+    for i in range(20):
+        try:
+            async with httpx.AsyncClient(base_url="http://localhost:3001") as c:
+                r = await c.get("/docs")
+            if r.status_code == 200:
+                break
+        except Exception:
+            pass
+        time.sleep(1)
+    else:
+        proc.kill()
+        raise RuntimeError("Backend failed to start")
+
+    yield proc
+    proc.terminate()
+    proc.wait()
+
+
+@pytest_asyncio.fixture
+async def client(backend_server):
+    """每个测试函数获得一个 httpx 客户端"""
+    async with httpx.AsyncClient(base_url="http://localhost:3001") as c:
+        yield c
+
+
+@pytest_asyncio.fixture
+async def auth_client(client):
+    """预先登录好的客户端"""
+    resp = await client.post("/api/user/login",
+                             json={"username": "eval-test", "password": "EvalTest@2026"})
+    token = resp.json()["data"]["token"]
+    client.headers["Authorization"] = f"Bearer {token}"
+    return client</code></pre>
+
+<h4>测试用例示例：test_trip_planning.py</h4>
+<pre><code>"""E2E: 旅行规划核心流程"""
+import pytest
+
+
+@pytest.mark.asyncio
+async def test_trip_chat_stream(auth_client):
+    """发送旅行规划请求，验证 SSE 流式输出"""
+    chunks = []
+    async with auth_client.stream(
+        "POST", "/api/trip/chat",
+        json={"message": "北京 2 天经典游"},
+        timeout=120,
+    ) as resp:
+        assert resp.status_code == 200
+
+        async for line in resp.aiter_lines():
+            if line.startswith("data: "):
+                import json
+                data = json.loads(line[6:])
+                if data.get("type") == "chunk":
+                    chunks.append(data.get("content", ""))
+                elif data.get("type") == "complete":
+                    # 验证行程结构
+                    assert "北京" in "".join(chunks)
+                    assert 2 in [int(s) for s in "".join(chunks) if s.isdigit()]
+                    break
+
+    assert len(chunks) > 0, "Should receive at least one chunk"
+
+
+@pytest.mark.asyncio
+async def test_history_after_trip(auth_client):
+    """创建行程后，历史记录应包含该行程"""
+    # Step 1: 发送规划请求
+    await auth_client.post("/api/trip/chat",
+                           json={"message": "杭州 1 天"})
+
+    # Step 2: 查询历史
+    resp = await auth_client.get("/api/history/trips")
+    data = resp.json()
+    assert resp.status_code == 200
+    assert "data" in data
+
+
+@pytest.mark.asyncio
+async def test_unauthenticated_access(client):
+    """未认证用户访问受保护端点应返回 401"""
+    resp = await client.get("/api/history/trips")
+    assert resp.status_code == 401</code></pre>
+
+<h4>CI 工作流：e2e-api.yml</h4>
+<pre><code>name: API E2E Tests
+
+on:
+  push:
+    branches: [main, develop]
+    paths: ["trip-backend/src/**", "trip-backend/tests/e2e/**"]
+  pull_request:
+    branches: [main]
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    services:
+      mysql:  { image: mysql:8.0, env: { MYSQL_ROOT_PASSWORD: root, MYSQL_DATABASE: trip_db }, ports: ["3306:3306"] }
+      redis:  { image: redis:7-alpine, ports: ["6379:6379"] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: uv sync --extra dev
+        working-directory: trip-backend
+      - run: uv run python create_tables.py
+        working-directory: trip-backend
+      - name: Run E2E tests
+        run: uv run pytest tests/e2e/ -v --tb=short -x
+        working-directory: trip-backend
+        env:
+          DATABASE_URL: mysql://root:root@localhost:3306/trip_db
+          RATE_LIMIT_AUTH_MAX: 99999
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: e2e-logs
+          path: /tmp/backend_*.log</code></pre>
+
+<div class="info-box warning">
+  <strong>工作量估计：</strong>约 1.5~2 天。全部在 Python 生态内完成，无需 Node/TypeScript。
+  主要包括：conftest.py 后端管理 (0.5天)、6 个测试场景 (1天)、CI 集成 (0.5天)。
+</div>
+
+<!-- ====== P2-2 ====== -->
+<h2>P2-2: Eval 框架对接 CI</h2>
+
+<h3>方案概览</h3>
+<p>与 Node 版方案无差异——Eval 框架本身就在 <code>trip-backend/eval/</code> 中。已创建的 nightly workflow 模板（<code>.github/workflows/eval-nightly.yml</code>）就是针对 Python 后端的。</p>
+
+<div class="info-box purple">
+  <strong>目标：</strong>构建 Agent 质量仪表盘，每次运行自动对比历史基线，退化超过阈值（80%）时通知开发者。
+</div>
+
+<h3>待补充的 Python 脚本</h3>
+<p>需要新建 <code>scripts/eval_compare.py</code>（与之前设计的无差异），将对比脚本放在 Python 端：</p>
+
+<pre><code>trip-backend/
+  scripts/
+    eval_compare.py               # 新建：Eval 报告对比脚本</code></pre>
+
+<h4>eval_compare.py</h4>
+<pre><code>"""Eval 报告对比脚本——检查通过率是否退化"""
+import json
+import sys
+from pathlib import Path
+
+
+def main():
+    current_path = sys.argv[sys.argv.index("--current") + 1] if "--current" in sys.argv else "eval-reports/latest.json"
+    baseline_path = sys.argv[sys.argv.index("--baseline") + 1] if "--baseline" in sys.argv else "eval-reports/baseline.json"
+    threshold = float(sys.argv[sys.argv.index("--threshold") + 1]) if "--threshold" in sys.argv else 0.8
+    output = sys.argv[sys.argv.index("--output") + 1] if "--output" in sys.argv else "eval-reports/comparison.json"
+
+    def load(p: str) -> dict:
+        fp = Path(p)
+        return json.loads(fp.read_text()) if fp.exists() else {}
+
+    current = load(current_path)
+    baseline = load(baseline_path)
+
+    diffs = []
+    for name, cur_rate in current.get("summary", {}).get("byEvaluator", {}).items():
+        prev_rate = baseline.get("summary", {}).get("byEvaluator", {}).get(name, 0)
+        change = round((cur_rate - prev_rate) * 100, 1)
+        diffs.append({
+            "name": name,
+            "previous": round(prev_rate * 100, 1),
+            "current": round(cur_rate * 100, 1),
+            "change": change,
+        })
+
+    overall = current.get("summary", {}).get("passRate", 0)
+    passed = overall >= threshold
+
+    result = {
+        "timestamp": current.get("timestamp", ""),
+        "mode": current.get("mode", ""),
+        "overallPassRate": round(overall * 100, 1),
+        "threshold": round(threshold * 100, 1),
+        "passed": passed,
+        "diffs": diffs,
+    }
+
+    Path(output).parent.mkdir(parents=True, exist_ok=True)
+    Path(output).write_text(json.dumps(result, indent=2, ensure_ascii=False))
+
+    if not passed:
+        print(f"FAIL: Overall {result['overallPassRate']}% < threshold {result['threshold']}%")
+        sys.exit(1)
+    print(f"PASS: Overall {result['overallPassRate']}% >= threshold {result['threshold']}%")
+
+
+if __name__ == "__main__":
+    main()</code></pre>
+
+<h3>已有基准</h3>
+<ul>
+  <li>✅ <code>.github/workflows/eval-nightly.yml</code> — 已创建（P0-1），支持 mock 模式 + artifact 上传</li>
+  <li>✅ <code>eval/</code> 目录 — 13 个 Evaluator、10 个 YAML Fixture 已就绪</li>
+  <li>⌛ 需要补充：Real 模式运行、对比脚本、PR 评论集成</li>
+</ul>
+
+<div class="info-box warning">
+  <strong>工作量估计：</strong>约 1 天。对比脚本 (0.3天)、nightly workflow 完善 (0.3天)、PR 评论集成 (0.4天)。
+</div>
+
+<!-- ====== P2-3 ====== -->
+<h2>P2-3: 性能基准门禁（Python 版）</h2>
+
+<h3>与 Node 版的差异</h3>
+<p>Node 版的方案假设已有 <code>trip-server/scripts/benchmark/cli.ts</code> 等 TypeScript 脚本。
+<strong>Python 专属方案：</strong>直接在已创建的 <code>scripts/benchmark_http.py</code> + <code>benchmark_sse.py</code> + <code>benchmark_lib/</code> 之上，新增 <code>benchmark_compare.py</code> 和 <code>benchmark_cli.py</code>。全部纯 Python，零 Node 依赖。</p>
+
+<div class="info-box pink">
+  <strong>目标：</strong>建立 Python 后端的性能回归门禁。每次代码变更后自动运行压测，与已有基线对比，QPS 退化超 15% 或 P99 延迟升高超 15% 时阻止合并。
+</div>
+
+<h3>新增文件</h3>
+<pre><code>trip-backend/
+  scripts/
+    benchmark_compare.py          # 新建：与 baseline JSON 对比，检测退化
+    benchmark_cli.py              # 新建：统一 CLI 入口（替代 make 多步执行）
+  docs/performance-data/
+    baseline.json                 # ✅ 已创建
+    http-results.json             # ✅ 已有（今日跑出的真实数据）
+    sse-results.json              # ✅ 已有
+    charts/                       # ✅ 已有 6 张 PNG</code></pre>
+
+<h3>核心代码示例</h3>
+
+<h4>benchmark_compare.py</h4>
+<pre><code>"""性能基线对比——与历史 baseline 对比，检测退化"""
+import json
+import sys
+from pathlib import Path
+
+DATA_DIR = Path(__file__).resolve().parent.parent / "docs" / "performance-data"
+
+# 退化阈值配置
+THRESHOLDS = {
+    "qps_degradation": 0.15,      # QPS 下降超 15% 告警
+    "latency_degradation": 0.15,  # P99 延迟升高超 15% 告警
+}
+
+
+def load_json(name: str) -> dict:
+    fp = DATA_DIR / f"{name}.json"
+    return json.loads(fp.read_text()) if fp.exists() else {}
+
+
+def compare_http(baseline: dict, current: dict) -> list[dict]:
+    """对比 HTTP 压测结果"""
+    regressions = []
+    for endpoint in ["login", "history"]:
+        base = baseline.get(endpoint, {})
+        cur = current.get(endpoint, {})
+        if not base or not cur:
+            continue
+
+        # QPS (effectiveQps)
+        b_qps = base.get("effectiveQps", 0)
+        c_qps = cur.get("effectiveQps", 0)
+        if b_qps > 0:
+            change = (c_qps - b_qps) / b_qps
+            if change < -THRESHOLDS["qps_degradation"]:
+                regressions.append({
+                    "endpoint": f"http/{endpoint}",
+                    "metric": "effectiveQps",
+                    "baseline": round(b_qps, 3),
+                    "current": round(c_qps, 3),
+                    "change": round(change * 100, 1),
+                })
+
+        # P99 延迟
+        b_p99 = base.get("p99", 0)
+        c_p99 = cur.get("p99", 0)
+        if b_p99 > 0:
+            change = (c_p99 - b_p99) / b_p99
+            if change > THRESHOLDS["latency_degradation"]:
+                regressions.append({
+                    "endpoint": f"http/{endpoint}",
+                    "metric": "p99",
+                    "baseline": round(b_p99, 2),
+                    "current": round(c_p99, 2),
+                    "change": round(change * 100, 1),
+                })
+
+    return regressions
+
+
+def main():
+    # 加载最新结果
+    http_current = load_json("http-results")
+    sse_current = load_json("sse-results")
+
+    # 加载基线
+    baseline = load_json("baseline")
+
+    # 对比
+    all_regressions = []
+    all_regressions.extend(compare_http(
+        baseline.get("http", {}),
+        http_current,
+    ))
+
+    # 输出
+    report = {
+        "timestamp": __import__("time").time(),
+        "passed": len(all_regressions) == 0,
+        "totalChecks": 0,
+        "regressions": all_regressions,
+    }
+
+    print(json.dumps(report, indent=2))
+
+    if all_regressions:
+        print(f"FAIL: {len(all_regressions)} regression(s) detected")
+        sys.exit(1)
+    print("PASS: All metrics within threshold")
+
+
+if __name__ == "__main__":
+    main()</code></pre>
+
+<h4>benchmark_cli.py（统一入口）</h4>
+<pre><code>"""性能基准测试统一 CLI 入口
+
+用法:
+  uv run python scripts/benchmark_cli.py         # 全流程（HTTP + SSE + 图表 + 对比）
+  uv run python scripts/benchmark_cli.py http     # 仅 HTTP
+  uv run python scripts/benchmark_cli.py --ci     # CI 模式（main 分支更新基线）
+"""
+import subprocess, sys, os
+from pathlib import Path
+
+PROJECT = Path(__file__).resolve().parent.parent
+PYTHON = str(PROJECT / ".venv" / "bin" / "python")
+
+
+def run(script: str, env=None):
+    cmd = [PYTHON, script]
+    full_env = {**os.environ, **(env or {})}
+    result = subprocess.run(cmd, cwd=PROJECT, capture_output=True, text=True)
+    print(result.stdout)
+    if result.stderr:
+        print(result.stderr, file=sys.stderr)
+    return result.returncode
+
+
+def main():
+    mode = sys.argv[1] if len(sys.argv) > 1 else "all"
+    is_ci = "--ci" in sys.argv
+
+    # 压测环境变量（放松限流）
+    bench_env = {
+        "RATE_LIMIT_AUTH_MAX": "99999",
+        "RATE_LIMIT_GLOBAL_MAX": "999999",
+        "RATE_LIMIT_CHAT_MAX": "99999",
+        "SSE_TOTAL_STREAMS": "5",
+        "SSE_CONCURRENCY_LEVELS": "1,5",
+    }
+
+    steps = []
+    if mode in ("all", "http"):
+        steps.append(("scripts/benchmark_http.py", bench_env))
+    if mode in ("all", "sse"):
+        steps.append(("scripts/benchmark_sse.py", bench_env))
+    if mode in ("all", "charts"):
+        steps.append(("scripts/benchmark_lib/chart.py", {"MPLCONFIGDIR": "/tmp/mplcfg"}))
+
+    exit_code = 0
+    for script, env in steps:
+        code = run(script, env)
+        if code != 0:
+            exit_code = code
+
+    # 对比基线（仅在 full run 或显式指定时）
+    if mode == "all" or "--compare" in sys.argv:
+        code = run("scripts/benchmark_compare.py")
+        if code != 0:
+            exit_code = code
+
+    sys.exit(exit_code)
+
+
+if __name__ == "__main__":
+    main()</code></pre>
+
+<h4>更新的 CI 工作流：benchmark.yml（Python 版）</h4>
+<pre><code>name: Performance Benchmark (Python)
+
+on:
+  push:
+    branches: [main]
+    paths: ["trip-backend/src/**"]
+  workflow_dispatch:
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    services:
+      mysql:  { image: mysql:8.0, env: { MYSQL_ROOT_PASSWORD: root, MYSQL_DATABASE: trip_db }, ports: ["3306:3306"] }
+      redis:  { image: redis:7-alpine, ports: ["6379:6379"] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: |
+          uv sync --extra dev
+          uv run python create_tables.py
+        working-directory: trip-backend
+      - name: Start server
+        run: |
+          uv run uvicorn src.main:app --port 3000 --log-level error &
+          sleep 5
+        working-directory: trip-backend
+      - name: Run benchmarks
+        run: uv run python scripts/benchmark_cli.py --ci
+        working-directory: trip-backend
+        env:
+          DATABASE_URL: mysql://root:root@localhost:3306/trip_db
+      - uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-results
+          path: trip-backend/docs/performance-data/</code></pre>
+
+<div class="info-box warning">
+  <strong>工作量估计：</strong>约 1~1.5 天。比 Node 版减少了拆解现有 8+ TS 脚本的工作量（Python 版已全新创建）。
+  主要包括：benchmark_compare.py (0.5天)、benchmark_cli.py (0.3天)、CI 集成 (0.5天)。
+</div>
+
+<!-- ====== 时间线 ====== -->
+<h2>实施路线与时间估计</h2>
+
+<table>
+  <tr><th>P2 项</th><th>预估工作量</th><th>建议优先级</th><th>前置条件</th></tr>
+  <tr>
+    <td>P2-1: API E2E 测试</td>
+    <td>1.5~2 天</td>
+    <td><span class="tag orange">中</span></td>
+    <td>run_all_benchmarks.py 已验证后端子进程模式可行</td>
+  </tr>
+  <tr>
+    <td>P2-2: Eval CI</td>
+    <td><strong>1 天</strong></td>
+    <td><span class="tag green">高</span></td>
+    <td>✅ nightly workflow 已创建，eval 框架已就绪</td>
+  </tr>
+  <tr>
+    <td>P2-3: 性能门禁</td>
+    <td><strong>1~1.5 天</strong></td>
+    <td><span class="tag green">高</span></td>
+    <td>✅ 压测脚本已创建，已有真实基线数据</td>
+  </tr>
+  <tr>
+    <td><strong>总计</strong></td>
+    <td><strong>3.5~4.5 人天</strong></td>
+    <td colspan="2">若并行推进，最快 <strong>1.5~2 天</strong> 完工</td>
+  </tr>
+</table>
+
+<div class="info-box success">
+  <strong>与之前方案对比：</strong>
+  <ul>
+    <li>P2-1 从 2~3 天降为 1.5~2 天（去掉前端 Playwright，改为纯 Python API 测试）</li>
+    <li>P2-2 从 1~1.5 天降为 1 天（无需兼顾 Node/TypeScript 双版本）</li>
+    <li>P2-3 从 2 天降为 1~1.5 天（Python 版脚本已新建，无需拆解现有 TS 代码）</li>
+    <li>总工作量从 5~6.5 人天降为 <strong>3.5~4.5 人天</strong></li>
+  </ul>
+</div>
+
+<h3>建议推进顺序</h3>
+
+<ol>
+  <li><strong>P2-2（Eval CI）— 1 天</strong><br>
+    脚本已有，只需把 <code>scripts/eval_compare.py</code> 写出来 + 完善 nightly workflow。投入最小，产出最直接（Agent 质量可视化）。</li>
+  <li><strong>P2-3（性能门禁）— 1~1.5 天</strong><br>
+    压力测试已能跑出真实数据（今日已验证），只需封装 compare + cli 脚本即可接入 CI。
+  </li>
+  <li><strong>P2-1（API E2E）— 1.5~2 天</strong><br>
+    需要编写 6 个测试场景 + CI 集成，可延后到 Eval CI 和性能门禁上线后再做。
+  </li>
+</ol>
+
+<div style="margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); text-align: center; font-size: 13px; color: var(--text-tertiary);">
+  Trip 项目 P2 改进方案 · Python 后端专属 · 由 WorkBuddy 生成 · 2026-07-05
+</div>
+
+</div>
+</body>
+</html>

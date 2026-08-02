@@ -1,0 +1,366 @@
+[
+  {
+    "name": "天津五大道文化旅游区",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津五大道文化旅游区拥有众多历史风貌建筑，是天津著名的文化旅游区。",
+    "tags": [
+      "历史建筑",
+      "风景区",
+      "文化旅游"
+    ],
+    "avgCost": 0,
+    "duration": "3小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "天津博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津博物馆位于天津市河西区平江道62号，是展示天津历史和文化的重要场馆，馆藏丰富，包括古代青铜器、陶瓷、书画等。",
+    "tags": [
+      "博物馆",
+      "天津",
+      "文化",
+      "历史"
+    ],
+    "avgCost": 0,
+    "duration": "2-3小时",
+    "openTime": "09:00-16:30",
+    "rating": 4.5
+  },
+  {
+    "name": "天津自然博物馆",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津自然博物馆是一座集收藏、研究、展示于一体的综合性自然博物馆。",
+    "tags": [
+      "自然",
+      "博物馆"
+    ],
+    "avgCost": 0,
+    "duration": "2-3小时",
+    "openTime": "09:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "name": "民园广场",
+    "city": "天津",
+    "category": "attraction",
+    "description": "民园广场位于天津市和平区重庆道83号，是一座具有历史风貌的城市广场，以其独特的欧式建筑和休闲氛围吸引游客。",
+    "tags": [
+      "城市广场",
+      "风景名胜",
+      "公园广场"
+    ],
+    "avgCost": 0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.5
+  },
+  {
+    "name": "天津水上公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津水上公园是位于天津市南开区的著名风景名胜，被列为国家级景点。",
+    "tags": [
+      "风景名胜",
+      "国家级景点"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "天津动物园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "位于天津市南开区水上公园东路1号，类型包括风景名胜、公园广场、动物园。",
+    "tags": [
+      "风景名胜",
+      "公园广场",
+      "动物园"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0
+  },
+  {
+    "name": "天塔湖风景区",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天塔湖风景区位于天津市河西区卫津南路1号，以天津广播电视塔（天塔）和环塔湖泊为主要景观，是集观光、休闲、娱乐于一体的城市公园。天塔高415.2米，为亚洲第四高塔，塔上有旋转餐厅和观景台，可俯瞰天津全景。",
+    "tags": [
+      "风景名胜",
+      "国家级景点",
+      "电视塔",
+      "观景"
+    ],
+    "avgCost": 50,
+    "duration": "2-3小时",
+    "openTime": "08:30-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "人民公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "天津市河西区的一座公园，内有亭台楼阁和游乐设施，是市民休闲的好去处。",
+    "tags": [
+      "公园",
+      "风景名胜"
+    ],
+    "avgCost": 0,
+    "duration": "2小时",
+    "openTime": "06:00-22:00",
+    "rating": 4.5
+  },
+  {
+    "name": "睦南公园",
+    "city": "天津",
+    "category": "attraction",
+    "description": "睦南公园位于天津市和平区大理道68号附近，地处五大道文化旅游区，是一座以月季花为主题的欧式园林公园。园内绿树成荫，花团锦簇，是市民休闲散步的好去处。",
+    "tags": [
+      "公园",
+      "五大道",
+      "天津",
+      "休闲"
+    ],
+    "avgCost": 0,
+    "duration": "1小时",
+    "openTime": "全天开放",
+    "rating": 4.3
+  },
+  {
+    "name": "小白楼",
+    "city": "天津",
+    "category": "attraction",
+    "description": "小白楼是天津著名的地标性建筑和商业区，位于和平区南京路，靠近小白楼地铁站。周边有众多购物、餐饮和娱乐场所，是游客和市民喜爱的休闲区域。",
+    "tags": [
+      "风景名胜",
+      "旅游景点",
+      "商业区"
+    ],
+    "avgCost": 0,
+    "duration": "1-2小时",
+    "openTime": "全天开放",
+    "rating": 4.3
+  },
+  {
+    "name": "大铁勺新津菜(迎水道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "大铁勺新津菜(迎水道店)是一家位于天津西青区的中餐厅，提供新津菜系。",
+    "tags": [
+      "中餐",
+      "新津菜",
+      "餐饮"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0
+  },
+  {
+    "name": "珍宝天津菜馆津门饺子一绝(天津总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "珍宝天津菜馆津门饺子一绝(天津总店)位于天津市河北区平安街19号，紧邻德云社，是一家以天津菜和手工饺子为特色的中餐厅。店内环境雅致，菜品丰富，主打津门饺子系列，馅料多样，皮薄馅大，深受食客喜爱。",
+    "tags": [
+      "天津菜",
+      "饺子",
+      "中餐厅"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "宽记老门口(塘沽店)",
+    "city": "天津",
+    "category": "food",
+    "description": "宽记老门口(塘沽店) 是天津的景点",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0
+  },
+  {
+    "name": "恩宏德餐馆(意式风情街店)",
+    "city": "天津",
+    "category": "food",
+    "description": "恩宏德餐馆位于天津意式风情街，是一家主打清真菜的中餐厅。店内环境整洁，菜品口味地道，推荐菜有牛肉拉面、羊肉串等，适合家庭聚餐和朋友小聚。",
+    "tags": [
+      "清真",
+      "中餐",
+      "天津"
+    ],
+    "avgCost": 60,
+    "duration": "2小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.5
+  },
+  {
+    "name": "桂园餐厅(五大道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "桂园餐厅位于天津和平区成都道62号，是一家以中餐为主的综合性酒楼，提供多种经典菜品和舒适的用餐环境，深受当地食客喜爱。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼",
+      "天津美食"
+    ],
+    "avgCost": 80,
+    "duration": "1.5小时",
+    "openTime": "11:00-21:00",
+    "rating": 4.2
+  },
+  {
+    "name": "大柴·宴宾楼(芥园西道店)",
+    "city": "天津",
+    "category": "food",
+    "description": "大柴·宴宾楼(芥园西道店)是一家位于天津南开区的综合酒楼，提供中餐服务。",
+    "tags": [
+      "中餐厅",
+      "综合酒楼"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0
+  },
+  {
+    "name": "湖苑(水上公园总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "湖苑(水上公园总店)是一家位于天津南开区水上东路1号的中餐厅。",
+    "tags": [
+      "中餐厅"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "老渔民(新港远洋店)",
+    "city": "天津",
+    "category": "food",
+    "description": "老渔民(新港远洋店)位于天津市滨海新区新港二号路36号远洋宾馆一楼，是一家以中餐为主的餐厅。",
+    "tags": [
+      "中餐厅"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "耳朵眼会馆(鼓楼商业街店)",
+    "city": "天津",
+    "category": "food",
+    "description": "耳朵眼会馆位于天津市南开区鼓楼东街12号，提供中餐服务。",
+    "tags": [
+      "中餐",
+      "天津"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 0
+  },
+  {
+    "name": "紫光园·烤鸭·北京菜(天津总店)",
+    "city": "天津",
+    "category": "food",
+    "description": "紫光园·烤鸭·北京菜(天津总店) 是天津的美食餐厅，位于河西区。地址：南北大街海景商业楼1号楼。",
+    "tags": [
+      "天津"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "全天",
+    "rating": 3.5
+  },
+  {
+    "name": "天津盛鑫快捷宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "天津盛鑫快捷宾馆，位于上海道和平路十字路口西30米路北，提供住宿服务。",
+    "tags": [
+      "宾馆",
+      "酒店",
+      "滨海新区"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "久福住宿(天津站店)",
+    "city": "天津",
+    "category": "hotel",
+    "description": "久福住宿位于天津市河东区华昌道久福园八号楼五门四楼，靠近天津站，提供住宿服务。",
+    "tags": [
+      "住宿",
+      "旅馆",
+      "天津站"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "怡家瑞轩快捷宾馆",
+    "city": "天津",
+    "category": "hotel",
+    "description": "怡家瑞轩快捷宾馆位于静海区北外环北华路恒兴钢业1层，提供住宿服务。",
+    "tags": [
+      "住宿服务",
+      "宾馆酒店"
+    ],
+    "avgCost": 0,
+    "duration": "全天",
+    "openTime": "00:00-24:00",
+    "rating": 0
+  },
+  {
+    "name": "天津凤来小筑民宿",
+    "city": "天津",
+    "category": "hotel",
+    "description": "天津凤来小筑民宿位于天津市东丽区朗钜·天域广场，提供舒适的住宿服务。民宿靠近百优便利店楼上，房间布置温馨，适合商务和旅游客人。",
+    "tags": [
+      "住宿",
+      "宾馆",
+      "旅馆"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  },
+  {
+    "name": "天津心舒旅店",
+    "city": "天津",
+    "category": "hotel",
+    "description": "位于河西区台儿庄南路天津胸科医院西侧的旅馆招待所",
+    "tags": [
+      "旅馆",
+      "招待所"
+    ],
+    "avgCost": 0,
+    "duration": "",
+    "openTime": "",
+    "rating": 3.5
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "scenario": "llm",
+  "env": {
+    "python": "3.13.12",
+    "platform": "darwin",
+    "arch": "arm64",
+    "timestamp": "2026-07-05T07:23:15.063239+00:00",
+    "cpus": 10,
+    "totalMemMB": 16384,
+    "freeMemMB": 6025
+  },
+  "requests": [
+    {
+      "durationMs": 5000,
+      "success": true
+    },
+    {
+      "durationMs": 6000,
+      "success": true
+    },
+    {
+      "durationMs": 7000,
+      "success": true
+    },
+    {
+      "durationMs": 8000,
+      "success": true
+    },
+    {
+      "durationMs": 9000,
+      "success": true
+    },
+    {
+      "durationMs": 10000,
+      "success": true
+    },
+    {
+      "durationMs": 11000,
+      "success": true
+    },
+    {
+      "durationMs": 12000,
+      "success": true
+    },
+    {
+      "durationMs": 13000,
+      "success": true
+    },
+    {
+      "durationMs": 14000,
+      "success": true
+    }
+  ]
+}

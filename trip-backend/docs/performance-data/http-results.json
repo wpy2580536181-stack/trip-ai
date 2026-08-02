@@ -1,0 +1,46 @@
+{
+  "scenario": "http",
+  "env": {
+    "python": "3.13.12",
+    "platform": "darwin",
+    "arch": "arm64",
+    "timestamp": "2026-07-05T08:41:34.059901+00:00",
+    "cpus": 10,
+    "totalMemMB": 16384,
+    "freeMemMB": 4684
+  },
+  "config": {
+    "connections": 10,
+    "durationSec": 30,
+    "rateLimit": "20 req/min per (IP for login / userId for authed)"
+  },
+  "login": {
+    "url": "http://localhost:3000/login",
+    "qps": 6.0,
+    "effectiveQps": 6.0,
+    "p50": 1687.68,
+    "p95": 1708.33,
+    "p99": 1723.96,
+    "max": 1724.25,
+    "totalRequests": 180,
+    "success2xx": 180,
+    "errors": 0,
+    "non2xx": 0,
+    "successRate": 1.0
+  },
+  "history": {
+    "url": "http://localhost:3000/history",
+    "qps": 1216.67,
+    "effectiveQps": 127.2,
+    "p50": 23.24,
+    "p95": 25.23,
+    "p99": 34.53,
+    "max": 94.46,
+    "totalRequests": 36500,
+    "success2xx": 3816,
+    "errors": 0,
+    "non2xx": 32684,
+    "successRate": 0.104548
+  },
+  "notes": "10 connections × 30s. Login triggers rate limit (max=20/min/user). qps = totalRequests/duration; effectiveQps = 2xx/duration."
+}

@@ -1,0 +1,15 @@
+{
+  "scenario": "cache",
+  "env": {
+    "python": "3.13.12",
+    "platform": "darwin",
+    "arch": "arm64",
+    "timestamp": "2026-07-05T07:23:15.063373+00:00",
+    "cpus": 10,
+    "totalMemMB": 16384,
+    "freeMemMB": 6025
+  },
+  "hitRate": 0.402,
+  "totalRequests": 50,
+  "cachedRequests": 20
+}

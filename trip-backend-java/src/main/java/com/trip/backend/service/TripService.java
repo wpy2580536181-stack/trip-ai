@@ -6,10 +6,13 @@ import com.trip.backend.domain.repository.TripRepository;
 import com.trip.backend.utils.AppException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.http.codec.ServerSentEvent;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import reactor.core.publisher.Flux;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * 行程服务（对应 Python services/trip_service.py）
@@ -138,5 +141,28 @@ public class TripService {
         Trip trip = tripRepository.findByIdAndUserId(tripId, userId)
             .orElseThrow(() -> AppException.notFound("行程不存在"));
         tripRepository.delete(trip);
+    }
+
+    // ==================== Chat（D4 mock 实现）====================
+
+    /**
+     * Chat 流式响应（mock 实现）
+     *
+     * TODO: D8 阶段替换为真实 ChatAgent 双流输出
+     *
+     * @return Flux 事件流
+     */
+    public Flux<String> chatStream(Long userId, String message, Long conversationId, Long tripId) {
+        // Mock 响应：模拟 LLM 流式输出
+        return Flux.just(
+                "{\"type\":\"chunk\",\"data\":{\"content\":\"正在\"}}",
+                "{\"type\":\"chunk\",\"data\":{\"content\":\"为您\"}}",
+                "{\"type\":\"chunk\",\"data\":{\"content\":\"规划\"}}",
+                "{\"type\":\"chunk\",\"data\":{\"content\":\"旅行\"}}",
+                "{\"type\":\"chunk\",\"data\":{\"content\":\"行程\"}}",
+                "{\"type\":\"complete\",\"data\":{\"usage\":{\"prompt\":15,\"completion\":25,\"total\":40,\"cached\":5}}}"
+            )
+            .delayElements(java.time.Duration.ofMillis(300))
+            .doOnNext(event -> System.out.println("[ChatMock] " + event));
     }
 }
