@@ -101,6 +101,9 @@ public class Orchestrator {
      */
     private Map<String, Object> parsePlan(String content, PlanRequest request) {
         try {
+            log.debug("[Orchestrator] LLM 原始响应 (前 200 字符): {}",
+                content.substring(0, Math.min(200, content.length())));
+
             // 尝试提取 JSON
             int start = content.indexOf('{');
             int end = content.lastIndexOf('}');
@@ -109,10 +112,23 @@ public class Orchestrator {
                 Map<String, Object> plan = new com.fasterxml.jackson.databind.ObjectMapper()
                     .readValue(json, Map.class);
 
-                // 确保必填字段存在
+                log.info("[Orchestrator] LLM 返回 plan: city={}, days={}, keys={}",
+                    plan.get("city"), plan.get("days"), plan.keySet());
+
+                // 确保必填字段存在（对齐 Python 版本）
                 plan.putIfAbsent("city", request.city());
                 plan.putIfAbsent("days", request.days());
                 plan.putIfAbsent("totalBudget", request.budget());
+                plan.putIfAbsent("dailyItinerary", List.of());
+                plan.putIfAbsent("budgetBreakdown", Map.of(
+                    "accommodation", 0,
+                    "food", 0,
+                    "transportation", 0,
+                    "tickets", 0,
+                    "other", 0
+                ));
+                plan.putIfAbsent("tips", List.of());
+                plan.putIfAbsent("warnings", List.of());
 
                 return plan;
             }
@@ -120,7 +136,7 @@ public class Orchestrator {
             log.warn("[Orchestrator] JSON 解析失败，使用默认结构", e);
         }
 
-        // 返回默认结构
+        // 返回默认结构（对齐 Python 版本）
         return Map.of(
             "city", request.city(),
             "days", request.days(),
@@ -133,7 +149,8 @@ public class Orchestrator {
                 "tickets", 0,
                 "other", 0
             ),
-            "tips", List.of("提前订票", "注意天气")
+            "tips", List.of("提前订票", "注意天气"),
+            "warnings", List.of()
         );
     }
 }

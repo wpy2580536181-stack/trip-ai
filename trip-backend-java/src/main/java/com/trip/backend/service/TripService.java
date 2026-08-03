@@ -178,12 +178,26 @@ public class TripService {
                 throw AppException.badRequest("行程推荐失败：" + error);
             }
 
-            // 转换为 Format A 响应
-            Map<String, Object> response = new LinkedHashMap<>();
-            response.put("success", true);
-            response.put("data", result.plan());
+            // 转换为 Format A 响应（对齐 Python 版本）
+            Map<String, Object> data = new LinkedHashMap<>();
+            // TODO: 保存行程到数据库后，返回真实的 trip.id
+            data.put("id", null);
+            data.put("city", result.plan().get("city"));
+            data.put("days", result.plan().get("days"));
+            data.put("totalBudget", result.plan().get("totalBudget"));
+            data.put("dailyItinerary", result.plan().get("dailyItinerary"));
+            data.put("budgetBreakdown", result.plan().get("budgetBreakdown"));
+            data.put("tips", result.plan().get("tips"));
+            data.put("warnings", result.plan().get("warnings"));
+            data.put("variants", List.of());  // TODO: 实现多 variant 后填充
 
-            log.info("[TripService] 推荐完成: plan_size={}", result.plan().size());
+            Map<String, Object> response = Map.of(
+                "success", true,
+                "data", data
+            );
+
+            log.info("[TripService] 推荐完成: city={}, days={}, keys={}",
+                data.get("city"), data.get("days"), data.keySet());
             return response;
 
         } catch (AppException e) {
