@@ -22,17 +22,30 @@ import java.util.Map;
 public class RealAgent {
 
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
+    private static final String DEFAULT_BASE_URL = "http://localhost:8000";
     private final String baseUrl;
     private final RestTemplate restTemplate;
+    private final String authToken;
 
     /**
-     * 构造函数
+     * 构造函数（无认证）
      *
-     * @param baseUrl 后端基础 URL（如 http://localhost:8080）
+     * @param baseUrl 后端基础 URL（如 http://localhost:8000）
      */
     public RealAgent(String baseUrl) {
-        this.baseUrl = baseUrl;
+        this(baseUrl, null);
+    }
+
+    /**
+     * 构造函数（带认证）
+     *
+     * @param baseUrl   后端基础 URL
+     * @param authToken JWT token（可选）
+     */
+    public RealAgent(String baseUrl, String authToken) {
+        this.baseUrl = baseUrl != null ? baseUrl : DEFAULT_BASE_URL;
         this.restTemplate = new RestTemplate();
+        this.authToken = authToken;
     }
 
     /**
@@ -80,10 +93,7 @@ public class RealAgent {
         long startTime = System.currentTimeMillis();
 
         try {
-            HttpHeaders headers = new HttpHeaders();
-            headers.setContentType(MediaType.APPLICATION_JSON);
-            // TODO: 添加认证头（需要测试 JWT token）
-            // headers.setBearerAuth(testToken);
+            HttpHeaders headers = createHeaders();
 
             HttpEntity<Map<String, Object>> entity = new HttpEntity<>(requestBody, headers);
             ResponseEntity<Map> response = restTemplate.exchange(
@@ -97,11 +107,24 @@ public class RealAgent {
 
             AgentOutput output = new AgentOutput();
             output.setJson(response.getBody());
-            try {
-                output.setText(OBJECT_MAPPER.writeValueAsString(response.getBody()));
-            } catch (Exception e) {
-                output.setText(response.getBody() != null ? response.getBody().toString() : "");
+
+            // 提取文本描述
+            Map<String, Object> body = response.getBody();
+            if (body != null && body.containsKey("data")) {
+                Object data = body.get("data");
+                try {
+                    output.setText(OBJECT_MAPPER.writeValueAsString(data));
+                } catch (Exception e) {
+                    output.setText(data != null ? data.toString() : "");
+                }
+            } else {
+                try {
+                    output.setText(OBJECT_MAPPER.writeValueAsString(body));
+                } catch (Exception e) {
+                    output.setText(body != null ? body.toString() : "");
+                }
             }
+
             output.setToolCalls(List.of());  // TODO: 从响应中提取 tool_calls
             output.setTokens(new TokenUsage(0, 0, 0, 0));  // TODO: 从响应头或响应体中提取
             output.setDurationMs((int) durationMs);
@@ -116,6 +139,18 @@ public class RealAgent {
             output.setDurationMs((int) durationMs);
             return output;
         }
+    }
+
+    /**
+     * 创建请求头
+     */
+    private HttpHeaders createHeaders() {
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        if (authToken != null && !authToken.isEmpty()) {
+            headers.setBearerAuth(authToken);
+        }
+        return headers;
     }
 
     /**

@@ -2,6 +2,9 @@
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/Evaluator.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/EvaluatorTest.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/Main.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/RealAgentEvalTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/RealAgentFullEvalTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/RealAgentTest.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/agents/MockAgent.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/agents/RealAgent.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/evaluators/DomainEvaluators.java
@@ -25,6 +28,7 @@
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/types/ToolCall.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/types/ToolCallRule.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/util/SseParser.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/util/TestAuthHelper.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/bcrypt/BcryptCompatibilityTest.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/llm/Langchain4jSpikeTest.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/onnx/OnnxExportValidationTest.java
