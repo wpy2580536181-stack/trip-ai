@@ -34,7 +34,10 @@ def _with_reasoning_off(llm: ChatOpenAI) -> ChatOpenAI:
     不需要深度推理，关闭后单次调用降到秒级。
 
     保留原实例的 model/api_key/base_url/streaming/temperature/callbacks。
+    非 ChatOpenAI 实例（如测试 mock）原样返回，不做重建。
     """
+    if not isinstance(llm, ChatOpenAI):
+        return llm
     return ChatOpenAI(
         model=llm.model_name,
         api_key=llm.openai_api_key,

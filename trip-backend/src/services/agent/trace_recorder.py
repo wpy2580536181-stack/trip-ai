@@ -51,10 +51,21 @@ class TraceRecorder:
     
     async def flush(self) -> None:
         """写入 DB。
-        
+
         失败只 warn，不抛错。
         """
         if not self.steps:
+            return
+
+        # recommend 等无关联 message 的场景 message_id=0（FK 指向 messages 表）
+        # 跳过落库，避免外键失败噪音；steps 仍保留在内存供调试。
+        if self.message_id <= 0:
+            import logging
+            logger = logging.getLogger(__name__)
+            logger.warning(
+                "agent trace 跳过落库: message_id<=0（无关联消息）",
+                extra={"message_id": self.message_id, "count": len(self.steps)},
+            )
             return
         
         try:
