@@ -18,7 +18,7 @@ public class Conversation {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false)
+    @Column(name = "user_id", nullable = false)
     private Long userId;
 
     @Column(length = 200)
@@ -27,19 +27,19 @@ public class Conversation {
     @Column(columnDefinition = "text")
     private String summary;
 
-    @Column(columnDefinition = "text")
+    @Column(name = "recap", columnDefinition = "text")
     private String recap;
 
-    @Column(columnDefinition = "text")
-    private String summaryError;
+    @Column(name = "summary_error")
+    private Boolean summaryError;
 
-    @Column
+    @Column(name = "summary_at")
     private OffsetDateTime summaryAt;
 
-    @Column(nullable = false)
+    @Column(name = "created_at", nullable = false)
     private OffsetDateTime createdAt;
 
-    @Column(nullable = false)
+    @Column(name = "updated_at", nullable = false)
     private OffsetDateTime updatedAt;
 
     public Conversation() {}
@@ -77,7 +77,7 @@ public class Conversation {
         return recap;
     }
 
-    public String getSummaryError() {
+    public Boolean getSummaryError() {
         return summaryError;
     }
 
@@ -115,7 +115,7 @@ public class Conversation {
         this.recap = recap;
     }
 
-    public void setSummaryError(String summaryError) {
+    public void setSummaryError(Boolean summaryError) {
         this.summaryError = summaryError;
     }
 

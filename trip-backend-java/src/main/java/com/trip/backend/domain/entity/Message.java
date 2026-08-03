@@ -24,7 +24,7 @@ public class Message {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false)
+    @Column(name = "conversation_id", nullable = false)
     private Long conversationId;
 
     @Column(nullable = false, length = 50)
@@ -39,10 +39,10 @@ public class Message {
     @Column(columnDefinition = "json")
     private Map<String, Object> metadata;
 
-    @Column(nullable = false)
+    @Column(name = "excluded_from_context", nullable = false)
     private Boolean excludedFromContext = false;
 
-    @Column(nullable = false)
+    @Column(name = "created_at", nullable = false)
     private OffsetDateTime createdAt;
 
     // 无 updated_at

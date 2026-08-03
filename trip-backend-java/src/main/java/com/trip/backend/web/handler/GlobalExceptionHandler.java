@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import java.sql.SQLException;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -46,20 +47,20 @@ public class GlobalExceptionHandler {
 
         if (formatA) {
             // Format A: {success, data}
+            Map<String, Object> body = new HashMap<>();
+            body.put("success", false);
+            body.put("data", null);
             return ResponseEntity.status(ex.getStatusCode())
-                .body(Map.of(
-                    "success", false,
-                    "data", null
-                ));
+                .body(body);
         } else {
             // Format B: {code, data, message, error}
+            Map<String, Object> body = new HashMap<>();
+            body.put("code", ex.getStatusCode());
+            body.put("data", null);
+            body.put("message", ex.getMessage());
+            body.put("error", ex.getMessage());
             return ResponseEntity.status(ex.getStatusCode())
-                .body(Map.of(
-                    "code", ex.getStatusCode(),
-                    "data", null,
-                    "message", ex.getMessage(),
-                    "error", ex.getMessage()
-                ));
+                .body(body);
         }
     }
 
@@ -87,11 +88,19 @@ public class GlobalExceptionHandler {
         }
 
         if (formatA) {
+            Map<String, Object> body = new HashMap<>();
+            body.put("success", false);
+            body.put("data", null);
             return ResponseEntity.status(statusCode)
-                .body(Map.of("success", false, "data", null));
+                .body(body);
         } else {
+            Map<String, Object> body = new HashMap<>();
+            body.put("code", statusCode);
+            body.put("data", null);
+            body.put("message", message);
+            body.put("error", message);
             return ResponseEntity.status(statusCode)
-                .body(Map.of("code", statusCode, "data", null, "message", message, "error", message));
+                .body(body);
         }
     }
 
@@ -105,18 +114,34 @@ public class GlobalExceptionHandler {
         if (isProduction) {
             // production: 隐藏错误详情
             if (formatA) {
-                return ResponseEntity.status(500).body(Map.of("success", false, "data", null));
+                Map<String, Object> body = new HashMap<>();
+                body.put("success", false);
+                body.put("data", null);
+                return ResponseEntity.status(500).body(body);
             } else {
+                Map<String, Object> body = new HashMap<>();
+                body.put("code", 500);
+                body.put("data", null);
+                body.put("message", "Internal Server Error");
+                body.put("error", "Internal Server Error");
                 return ResponseEntity.status(500)
-                    .body(Map.of("code", 500, "data", null, "message", "Internal Server Error", "error", "Internal Server Error"));
+                    .body(body);
             }
         } else {
             // development: 泄漏错误详情
             if (formatA) {
-                return ResponseEntity.status(500).body(Map.of("success", false, "data", null));
+                Map<String, Object> body = new HashMap<>();
+                body.put("success", false);
+                body.put("data", null);
+                return ResponseEntity.status(500).body(body);
             } else {
+                Map<String, Object> body = new HashMap<>();
+                body.put("code", 500);
+                body.put("data", null);
+                body.put("message", ex.getMessage());
+                body.put("error", ex.getMessage());
                 return ResponseEntity.status(500)
-                    .body(Map.of("code", 500, "data", null, "message", ex.getMessage(), "error", ex.getMessage()));
+                    .body(body);
             }
         }
     }
@@ -130,17 +155,33 @@ public class GlobalExceptionHandler {
 
         if (isProduction) {
             if (formatA) {
-                return ResponseEntity.status(500).body(Map.of("success", false, "data", null));
+                Map<String, Object> body = new HashMap<>();
+                body.put("success", false);
+                body.put("data", null);
+                return ResponseEntity.status(500).body(body);
             } else {
+                Map<String, Object> body = new HashMap<>();
+                body.put("code", 500);
+                body.put("data", null);
+                body.put("message", "Internal Server Error");
+                body.put("error", "Internal Server Error");
                 return ResponseEntity.status(500)
-                    .body(Map.of("code", 500, "data", null, "message", "Internal Server Error", "error", "Internal Server Error"));
+                    .body(body);
             }
         } else {
             if (formatA) {
-                return ResponseEntity.status(500).body(Map.of("success", false, "data", null));
+                Map<String, Object> body = new HashMap<>();
+                body.put("success", false);
+                body.put("data", null);
+                return ResponseEntity.status(500).body(body);
             } else {
+                Map<String, Object> body = new HashMap<>();
+                body.put("code", 500);
+                body.put("data", null);
+                body.put("message", ex.getMessage());
+                body.put("error", ex.getMessage());
                 return ResponseEntity.status(500)
-                    .body(Map.of("code", 500, "data", null, "message", ex.getMessage(), "error", ex.getMessage()));
+                    .body(body);
             }
         }
     }

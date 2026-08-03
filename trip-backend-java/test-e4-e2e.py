@@ -97,7 +97,7 @@ class E2ETestRunner:
         """使用正确凭据登录"""
         # 已提前登录，仅验证响应格式
         resp = await self.client.post("/api/user/login", json={
-            "username": E2E_USERNAME,
+            "identifier": E2E_USERNAME,
             "password": E2E_PASSWORD
         })
         assert resp.status_code == 200, f"Expected 200, got {resp.status_code}"
@@ -108,7 +108,7 @@ class E2ETestRunner:
     async def test_login_with_wrong_password(self):
         """错误密码应返回 401"""
         resp = await self.client.post("/api/user/login", json={
-            "username": E2E_USERNAME,
+            "identifier": E2E_USERNAME,
             "password": "wrong-password"
         })
         assert resp.status_code == 401, f"Expected 401, got {resp.status_code}"
@@ -116,7 +116,7 @@ class E2ETestRunner:
     async def test_login_with_nonexistent_user(self):
         """不存在的用户应返回 401"""
         resp = await self.client.post("/api/user/login", json={
-            "username": "nonexistent-user-12345",
+            "identifier": "nonexistent-user-12345",
             "password": "test"
         })
         assert resp.status_code == 401, f"Expected 401, got {resp.status_code}"

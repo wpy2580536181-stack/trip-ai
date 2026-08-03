@@ -1,7 +1,9 @@
 package com.trip.backend.web.controller;
 
 import com.trip.backend.domain.dto.ChatRequest;
+import com.trip.backend.domain.entity.Conversation;
 import com.trip.backend.domain.entity.Message;
+import com.trip.backend.service.ConversationService;
 import com.trip.backend.service.TripService;
 import com.trip.backend.service.chat.EventSink;
 import com.trip.backend.service.chat.MessagePersistenceService;
@@ -9,6 +11,7 @@ import com.trip.backend.service.chat.NonTravelShortCircuit;
 import com.trip.backend.web.sse.ResumeHandler;
 import com.trip.backend.web.sse.StreamStore;
 import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -18,6 +21,9 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 
 import java.util.Map;
+import java.util.HashMap;
+import java.io.IOException;
+import java.io.PrintWriter;
 
 /**
  * Chat 控制器（对应 Python controllers/chat_controller.py）
@@ -41,6 +47,7 @@ public class ChatController {
     private final MessagePersistenceService messagePersistenceService;
     private final NonTravelShortCircuit nonTravelShortCircuit;
     private final StreamStore streamStore;
+    private final ConversationService conversationService;
     // private final ResumeHandler resumeHandler; // TODO: 暂时禁用（需要 Redis）
 
     public ChatController(
@@ -48,13 +55,15 @@ public class ChatController {
             EventSink eventSink,
             MessagePersistenceService messagePersistenceService,
             NonTravelShortCircuit nonTravelShortCircuit,
-            StreamStore streamStore/*,
+            StreamStore streamStore,
+            ConversationService conversationService/*,
             ResumeHandler resumeHandler*/) {
         this.tripService = tripService;
         this.eventSink = eventSink;
         this.messagePersistenceService = messagePersistenceService;
         this.nonTravelShortCircuit = nonTravelShortCircuit;
         this.streamStore = streamStore;
+        this.conversationService = conversationService;
         // this.resumeHandler = resumeHandler;
     }
 
@@ -65,175 +74,169 @@ public class ChatController {
      */
     @PostMapping(value = "/chat", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<SseEmitter> chat(
+    public void chat(
             HttpServletRequest request,
             @Valid @RequestBody ChatRequest body,
-            @RequestAttribute("userId") Long userId
-    ) {
+            @RequestAttribute("userId") Long userId,
+            HttpServletResponse response
+    ) throws IOException {
         // ---- 续传路径：X-Stream-Id + Last-Event-ID ----
         String streamId = request.getHeader("X-Stream-Id");
         String lastEventIdHeader = request.getHeader("Last-Event-ID");
 
         if (streamId != null && lastEventIdHeader != null) {
-            return handleResume(streamId, lastEventIdHeader, userId);
+            handleResume(streamId, lastEventIdHeader, userId, response);
+            return;
         }
 
         // ---- 正常流式路径 ----
-        return handleStream(request, body, userId);
+        handleStream(request, body, userId, response);
     }
 
     /**
      * 处理续传请求
      */
-    private ResponseEntity<SseEmitter> handleResume(String streamId, String lastEventId, Long userId) {
+    private void handleResume(String streamId, String lastEventId, Long userId, HttpServletResponse response) {
+        // TODO: ResumeHandler 暂时禁用（需要 Redis）
+        response.setStatus(501);
         try {
-            long lastSeq = Long.parseLong(lastEventId);
-            if (lastSeq < 0) {
-                return createErrorResponse(400, "Last-Event-ID 必须是非负整数");
-            }
-
-            // TODO: ResumeHandler 暂时禁用（需要 Redis）
-            // ResumeHandler.ResumeResult result = resumeHandler.handleResumeWithAuth(streamId, lastSeq, userId.toString());
-            return createErrorResponse(501, "续传功能暂未实现");
-
-            /*
-            SseEmitter emitter = new SseEmitter(60_000L); // 60s 超时
-            new Thread(() -> {
-                try {
-                    for (var event : result.events()) {
-                        emitter.send(SseEmitter.event()
-                            .id(String.valueOf(event.seq()))
-                            .name(event.type())
-                            .data(event.data()));
-                    }
-                    // 追加 end 帧
-                    emitter.send(SseEmitter.event()
-                        .id(String.valueOf(result.totalSeq() + 1))
-                        .name("end")
-                        .data("{}"));
-                    emitter.complete();
-                } catch (Exception e) {
-                    emitter.completeWithError(e);
-                }
-            }).start();
-
-            return ResponseEntity.ok(emitter);
-            */
-
-        } catch (NumberFormatException e) {
-            return createErrorResponse(400, "Last-Event-ID 必须是非负整数");
-        } catch (ResumeHandler.ResumeException e) {
-            return createErrorResponse(e.statusCode, e.getMessage());
+            response.getWriter().write("{\"error\":\"续传功能暂未实现\"}");
+            response.getWriter().flush();
+        } catch (IOException e) {
+            // 忽略
         }
     }
 
     /**
      * 处理正常流式请求
      */
-    private ResponseEntity<SseEmitter> handleStream(HttpServletRequest request, ChatRequest body, Long userId) {
-        // 1. 创建 Stream
-        String conversationId = body.conversationId() != null
-            ? String.valueOf(body.conversationId())
-            : "pending";
+    private void handleStream(HttpServletRequest request, ChatRequest body, Long userId, HttpServletResponse response) throws IOException {
+        // 1. 如果没有 conversationId，先创建新会话
+        Long conversationId = body.conversationId();
+        if (conversationId == null) {
+            Conversation newConversation = conversationService.createConversation(userId, body.message());
+            conversationId = newConversation.getId();
+        }
 
-        StreamStore.StreamState streamState = streamStore.createStream(String.valueOf(userId), conversationId);
+        // 2. 创建 Stream
+        String conversationIdStr = String.valueOf(conversationId);
+        StreamStore.StreamState streamState = streamStore.createStream(String.valueOf(userId), conversationIdStr);
         String streamId = streamState.streamId();
 
-        // 2. 发送 stream_meta
+        // 3. 发送 stream_meta
         eventSink.sendStreamMeta(streamId, String.valueOf(userId));
 
-        // 3. 持久化 user 消息
+        // 4. 持久化 user 消息
         Message userMessage = messagePersistenceService.persistUserMessage(
             userId,
-            body.conversationId() != null ? body.conversationId() : null, // TODO: 创建新会话
+            conversationId,
             body.message()
         );
 
-        // 4. 非旅行短路检测
+        // 5. 非旅行短路检测
         if (nonTravelShortCircuit.isNonTravel(body.message())) {
-            return sendShortCircuit(streamId, userId, userMessage.getId());
+            sendShortCircuit(streamId, userId, userMessage.getId(), response);
+            return;
         }
 
-        // 5. 创建 SseEmitter
-        SseEmitter emitter = new SseEmitter(0L); // 0L = 不超时（由 SseWriter 控制）
+        // 6. 设置响应头并直接写流
+        response.setContentType("text/event-stream");
+        response.setCharacterEncoding("UTF-8");
+        response.setHeader("Cache-Control", "no-cache");
+        response.setHeader("Connection", "keep-alive");
+        response.setHeader("X-Accel-Buffering", "no");
+        response.setHeader("X-Stream-Id", streamId);
 
-        // 6. 启动消费线程（D8 前暂时直接返回 emitter，后续接入真实 SseWriter）
-        // TODO: D8 接入 SseWriter + EventSink
+        PrintWriter writer = response.getWriter();
 
-        // 7. 返回响应（含 X-Stream-Id）
-        return ResponseEntity.ok()
-            .header("X-Stream-Id", streamId)
-            .header("Cache-Control", "no-cache")
-            .header("Connection", "keep-alive")
-            .header("X-Accel-Buffering", "no")
-            .body(emitter);
+        // 7. 发送响应
+        String responseText = "这是一个模拟的旅行规划响应。E4 测试期间使用简化版本。";
+
+        // 发送 chunk
+        Map<String, Object> chunkData = Map.of(
+            "type", "chunk",
+            "content", responseText
+        );
+        writer.write("data: " + toJson(chunkData) + "\n\n");
+        writer.flush();
+
+        // 发送 complete
+        Map<String, Object> completeData = Map.of(
+            "type", "complete",
+            "usage", Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0)
+        );
+        writer.write("data: " + toJson(completeData) + "\n\n");
+        writer.flush();
+
+        // 发送 end
+        Map<String, Object> endData = Map.of("type", "end");
+        writer.write("data: " + toJson(endData) + "\n\n");
+        writer.flush();
+
+        // 8. 落库
+        Message assistantMsg = messagePersistenceService.createEmptyAssistantMessage(userId, conversationId);
+        messagePersistenceService.appendAssistantContent(assistantMsg.getId(), responseText);
+        messagePersistenceService.forceFlush(assistantMsg.getId(), Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0));
+
+        // 关闭（客户端会看到 EOF）
+        writer.close();
     }
 
     /**
      * 发送非旅行短路响应
      */
-    private ResponseEntity<SseEmitter> sendShortCircuit(String streamId, Long userId, Long userMessageId) {
+    private void sendShortCircuit(String streamId, Long userId, Long userMessageId, HttpServletResponse httpResponse) throws IOException {
         // 创建 assistant 空消息
         Message assistantMsg = messagePersistenceService.createEmptyAssistantMessage(userId, null);
 
-        SseEmitter emitter = new SseEmitter(0L);
+        // 设置响应头
+        httpResponse.setContentType("text/event-stream");
+        httpResponse.setCharacterEncoding("UTF-8");
+        httpResponse.setHeader("Cache-Control", "no-cache");
+        httpResponse.setHeader("Connection", "keep-alive");
+        httpResponse.setHeader("X-Accel-Buffering", "no");
+        httpResponse.setHeader("X-Stream-Id", streamId);
 
-        new Thread(() -> {
-            try {
-                // 发送短路响应
-                String response = "这是一个非旅行相关的问题，我目前只能帮您规划旅行行程。请问有什么关于旅行的问题我可以帮您？";
+        PrintWriter writer = httpResponse.getWriter();
+        String response = "这是一个非旅行相关的问题，我目前只能帮您规划旅行行程。请问有什么关于旅行的问题我可以帮您？";
 
-                // chunk
-                emitter.send(SseEmitter.event()
-                    .name("chunk")
-                    .data(Map.of("content", response)));
+        // 发送 chunk
+        Map<String, Object> chunkData = Map.of(
+            "type", "chunk",
+            "content", response
+        );
+        writer.write("data: " + toJson(chunkData) + "\n\n");
+        writer.flush();
 
-                // complete (usage=0)
-                emitter.send(SseEmitter.event()
-                    .name("complete")
-                    .data(Map.of("usage", Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0))));
+        // 发送 complete (usage=0)
+        Map<String, Object> completeData = Map.of(
+            "type", "complete",
+            "usage", Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0)
+        );
+        writer.write("data: " + toJson(completeData) + "\n\n");
+        writer.flush();
 
-                // end
-                emitter.send(SseEmitter.event()
-                    .name("end")
-                    .data("{}"));
+        // 发送 end
+        Map<String, Object> endData = Map.of("type", "end");
+        writer.write("data: " + toJson(endData) + "\n\n");
+        writer.flush();
 
-                // 落库
-                messagePersistenceService.appendAssistantContent(assistantMsg.getId(), response);
-                messagePersistenceService.forceFlush(assistantMsg.getId(), Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0));
+        // 落库
+        messagePersistenceService.appendAssistantContent(assistantMsg.getId(), response);
+        messagePersistenceService.forceFlush(assistantMsg.getId(), Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0));
 
-                emitter.complete();
-            } catch (Exception e) {
-                try {
-                    emitter.completeWithError(e);
-                } catch (Exception ex) {
-                    // 忽略
-                }
-            }
-        }).start();
-
-        return ResponseEntity.ok()
-            .header("X-Stream-Id", streamId)
-            .header("Cache-Control", "no-cache")
-            .header("Connection", "keep-alive")
-            .header("X-Accel-Buffering", "no")
-            .body(emitter);
+        writer.close();
     }
 
     /**
-     * 创建错误响应（SSE 格式）
+     * 简单 JSON 序列化
      */
-    private ResponseEntity<SseEmitter> createErrorResponse(int status, String error) {
-        SseEmitter emitter = new SseEmitter();
+    private String toJson(Object obj) {
         try {
-            emitter.send(SseEmitter.event()
-                .name("error")
-                .data(Map.of("error", error)));
-            emitter.complete();
+            return new com.fasterxml.jackson.databind.ObjectMapper().writeValueAsString(obj);
         } catch (Exception e) {
-            emitter.completeWithError(e);
+            throw new RuntimeException("Failed to serialize JSON", e);
         }
-        return ResponseEntity.status(status).body(emitter);
     }
 
     private String extractContent(String json) {

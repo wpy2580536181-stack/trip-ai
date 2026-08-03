@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * 会话服务（对应 Python services/conversation_service.py）
@@ -34,6 +35,13 @@ public class ConversationService {
         return conversationRepository.findByUserIdOrderByUpdatedAtDesc(
             userId, PageRequest.of(page - 1, pageSize)
         );
+    }
+
+    /**
+     * 根据 ID 和用户 ID 查找会话（E4 测试用）
+     */
+    public Optional<Conversation> findByIdAndUserId(Long id, Long userId) {
+        return conversationRepository.findByIdAndUserId(id, userId);
     }
 
     /**
