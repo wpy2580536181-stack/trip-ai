@@ -20,9 +20,32 @@ from src.services.agent.types import TokenUsage
 
 logger = logging.getLogger(__name__)
 
-# 超时配置
-PLAN_TIMEOUT_S = 60.0
-RETRY_TIMEOUT_S = 30.0
+# 超时配置（DeepSeek v4 推理模型默认开启 reasoning，长输出耗时长；
+# 关闭 reasoning 后单次 planner 调用约 8-15s，此处放宽作为兜底）
+PLAN_TIMEOUT_S = 120.0
+RETRY_TIMEOUT_S = 90.0
+
+
+def _with_reasoning_off(llm: ChatOpenAI) -> ChatOpenAI:
+    """从传入实例重建一个关闭 reasoning 的 ChatOpenAI。
+
+    DeepSeek v4 系列默认带 reasoning（reasoning_tokens 可占输出 80%+），
+    导致完整行程 JSON 生成超过 60s 超时。Planner 输出为严格格式的 JSON，
+    不需要深度推理，关闭后单次调用降到秒级。
+
+    保留原实例的 model/api_key/base_url/streaming/temperature/callbacks。
+    """
+    return ChatOpenAI(
+        model=llm.model_name,
+        api_key=llm.openai_api_key,
+        base_url=llm.openai_api_base,
+        streaming=llm.streaming,
+        temperature=llm.temperature,
+        max_tokens=llm.max_tokens,
+        callbacks=llm.callbacks,
+        # OpenAI 兼容 API：reasoning_effort=none 关闭推理链
+        model_kwargs={"reasoning_effort": "none"},
+    )
 
 
 class PlannerAgent(BaseAgent):
@@ -41,8 +64,10 @@ class PlannerAgent(BaseAgent):
             llm: 主 LLM 实例
             fallback_llm: 备用 LLM（主 LLM 失败时切换）
         """
-        super().__init__(llm=llm, tools=[], system_prompt="")
-        self.fallback_llm = fallback_llm
+        super().__init__(llm=_with_reasoning_off(llm), tools=[], system_prompt="")
+        self.fallback_llm = (
+            _with_reasoning_off(fallback_llm) if fallback_llm else None
+        )
 
     async def run(self, input: PlannerInput) -> AgentOutput:
         """生成行程规划。

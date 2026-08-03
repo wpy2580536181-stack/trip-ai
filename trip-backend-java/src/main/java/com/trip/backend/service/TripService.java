@@ -3,6 +3,9 @@ package com.trip.backend.service;
 import com.trip.backend.domain.entity.Trip;
 import com.trip.backend.domain.entity.User;
 import com.trip.backend.domain.repository.TripRepository;
+import com.trip.backend.service.agent.Orchestrator;
+import com.trip.backend.service.agent.dto.PlanRequest;
+import com.trip.backend.service.agent.dto.PlanResult;
 import com.trip.backend.utils.AppException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,9 +29,11 @@ public class TripService {
     private static final Logger log = LoggerFactory.getLogger(TripService.class);
 
     private final TripRepository tripRepository;
+    private final Orchestrator orchestrator;
 
-    public TripService(TripRepository tripRepository) {
+    public TripService(TripRepository tripRepository, Orchestrator orchestrator) {
         this.tripRepository = tripRepository;
+        this.orchestrator = orchestrator;
     }
 
     /**
@@ -144,10 +149,10 @@ public class TripService {
         tripRepository.delete(trip);
     }
 
-    // ==================== Recommend（G4 简化实现）====================
+    // ==================== Recommend（G4 Agent 编排）====================
 
     /**
-     * 行程推荐（G4 简化实现）
+     * 行程推荐（调用 Orchestrator）
      *
      * @param userId 用户 ID
      * @param city 目的地城市
@@ -160,33 +165,55 @@ public class TripService {
             userId, city, days, budget);
 
         try {
-            Map<String, Object> plan = Map.of(
-                "title", city + days + "日游",
-                "city", city,
-                "days", days,
-                "budget", budget,
-                "dailyItinerary", List.of(),
-                "budgetBreakdown", Map.of(
-                    "accommodation", budget * 25 / 100,
-                    "food", budget * 20 / 100,
-                    "transportation", budget * 15 / 100,
-                    "tickets", budget * 30 / 100,
-                    "other", budget * 10 / 100
-                ),
-                "totalBudget", budget,
-                "tips", List.of("提前订票", "注意天气"),
-                "warnings", List.of()
-            );
+            // 构造 PlanRequest
+            PlanRequest request = new PlanRequest(city, days, budget);
 
+            // 调用 Orchestrator
+            PlanResult result = orchestrator.plan(request);
+
+            // 检查是否有错误
+            if (result.plan().containsKey("error")) {
+                String error = (String) result.plan().get("error");
+                log.error("[TripService] Orchestrator 返回错误: {}", error);
+                throw AppException.badRequest("行程推荐失败：" + error);
+            }
+
+            // 转换为 Format A 响应
             Map<String, Object> response = new LinkedHashMap<>();
             response.put("success", true);
-            response.put("data", plan);
+            response.put("data", result.plan());
 
+            log.info("[TripService] 推荐完成: plan_size={}", result.plan().size());
             return response;
 
+        } catch (AppException e) {
+            throw e;
         } catch (Exception e) {
             log.error("[TripService] 推荐失败", e);
             throw AppException.badRequest("行程推荐失败：" + e.getMessage());
         }
+    }
+
+    // ==================== Chat（D4 mock 实现）====================
+
+    /**
+     * Chat 流式响应（mock 实现）
+     *
+     * TODO: D8 阶段替换为真实 ChatAgent 双流输出
+     *
+     * @return Flux 事件流
+     */
+    public Flux<String> chatStream(Long userId, String message, Long conversationId, Long tripId) {
+        // Mock 响应：模拟 LLM 流式输出
+        return Flux.just(
+                "{\"type\":\"chunk\",\"data\":{\"content\":\"正在\"}}",
+                "{\"type\":\"chunk\",\"data\":{\"content\":\"为您\"}}",
+                "{\"type\":\"chunk\",\"data\":{\"content\":\"规划\"}}",
+                "{\"type\":\"chunk\",\"data\":{\"content\":\"旅行\"}}",
+                "{\"type\":\"chunk\",\"data\":{\"content\":\"行程\"}}",
+                "{\"type\":\"complete\",\"data\":{\"usage\":{\"prompt\":15,\"completion\":25,\"total\":40,\"cached\":5}}}"
+            )
+            .delayElements(java.time.Duration.ofMillis(300))
+            .doOnNext(event -> System.out.println("[ChatMock] " + event));
     }
 }

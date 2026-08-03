@@ -1,5 +1,6 @@
 com/trip/backend/domain/entity/Role.class
 com/trip/backend/middleware/ConcurrencyGuardStreaming.class
+com/trip/backend/service/agent/Orchestrator.class
 com/trip/backend/config/DataInitializer.class
 com/trip/backend/infra/ratelimit/RateLimiter$MemoryBucket.class
 com/trip/backend/service/llm/ProviderConfig.class

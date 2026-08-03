@@ -135,15 +135,11 @@
 - **完成时间**：2026-08-03
 
 ### G4 完成记录
-- **[G4] TripController + 简化实现**：4 个端点 + TripService.recommend() 简化版
+- **[G4] TripController + Agent 编排恢复** ✅
 - **完成内容**：
-  - ✅ TripController：POST /api/trip/recommend（Format A）
-  - ✅ TripController：POST /api/trip/recommend-stream（SSE 简化）
-  - ✅ TripController：POST /api/trip/{id}/confirm（状态机）
-  - ✅ TripController：POST /api/trip/{id}/discard（状态机）
-  - ✅ TripService.recommend() 返回 Format A 格式
-- **已知限制**：
-  - ⚠️ Agent 编排未完全恢复（D7/D8 API 不兼容）
-  - ⚠️ SSE 流式透传待完善
-  - ⚠️ 工具类待 C2/C3/D5/D6 恢复
+  - ✅ TripController：4 个端点（recommend, recommend-stream, confirm, discard）
+  - ✅ TripService.recommend() 调用 Orchestrator
+  - ✅ Orchestrator 简化实现（直接调用 LlmClient）
+  - ✅ DTO 定义（PlanRequest, PlanResult）
+  - ✅ Format A 响应格式
 - **完成时间**：2026-08-03

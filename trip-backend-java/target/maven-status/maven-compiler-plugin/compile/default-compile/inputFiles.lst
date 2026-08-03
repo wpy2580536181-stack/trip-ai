@@ -61,6 +61,9 @@
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/SummaryService.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/TripService.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/UserService.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/agent/AgentOutput.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/agent/EventForwarder.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/agent/Orchestrator.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/agent/dto/PlanRequest.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/agent/dto/PlanResult.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/chat/EventSink.java
