@@ -1,10 +1,9 @@
 package com.trip.backend.service.agent.dto;
 
-import java.util.List;
 import java.util.Map;
 
 /**
- * 计划结果 DTO（G4 简化版本）
+ * 计划结果（简化版）
  */
 public record PlanResult(
     Map<String, Object> plan

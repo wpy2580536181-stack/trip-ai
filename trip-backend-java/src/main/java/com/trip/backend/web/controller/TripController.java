@@ -1,6 +1,8 @@
 package com.trip.backend.web.controller;
 
+import com.trip.backend.service.TripService;
 import com.trip.backend.service.agent.dto.PlanRequest;
+import com.trip.backend.utils.AppException;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;
 import org.springframework.http.MediaType;
@@ -26,6 +28,12 @@ import java.util.Map;
 @RequestMapping("/api/trip")
 public class TripController {
 
+    private final TripService tripService;
+
+    public TripController(TripService tripService) {
+        this.tripService = tripService;
+    }
+
     /**
      * POST /trip/recommend
      *
@@ -38,18 +46,18 @@ public class TripController {
             @Valid @RequestBody PlanRequest request) {
 
         try {
-            Map<String, Object> plan = Map.of(
-                "title", request.city() + request.days() + "日游",
-                "city", request.city(),
-                "days", request.days(),
-                "budget", request.budget()
+            // 调用 TripService.recommend()
+            Map<String, Object> result = tripService.recommend(
+                userId,
+                request.city(),
+                request.budget() != null ? request.budget() : 0,
+                request.days() != null ? request.days() : 1
             );
 
-            return ResponseEntity.ok(Map.of(
-                "success", true,
-                "data", plan
-            ));
+            return ResponseEntity.ok(result);
 
+        } catch (AppException e) {
+            throw e;
         } catch (Exception e) {
             return ResponseEntity.ok(Map.of(
                 "success", false,

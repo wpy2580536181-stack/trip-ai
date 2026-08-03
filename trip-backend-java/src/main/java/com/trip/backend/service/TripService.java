@@ -4,6 +4,8 @@ import com.trip.backend.domain.entity.Trip;
 import com.trip.backend.domain.entity.User;
 import com.trip.backend.domain.repository.TripRepository;
 import com.trip.backend.utils.AppException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.codec.ServerSentEvent;
@@ -11,6 +13,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import reactor.core.publisher.Flux;
 
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -19,6 +22,8 @@ import java.util.Map;
  */
 @Service
 public class TripService {
+
+    private static final Logger log = LoggerFactory.getLogger(TripService.class);
 
     private final TripRepository tripRepository;
 
@@ -139,26 +144,49 @@ public class TripService {
         tripRepository.delete(trip);
     }
 
-    // ==================== Chat（D4 mock 实现）====================
+    // ==================== Recommend（G4 简化实现）====================
 
     /**
-     * Chat 流式响应（mock 实现）
+     * 行程推荐（G4 简化实现）
      *
-     * TODO: D8 阶段替换为真实 ChatAgent 双流输出
-     *
-     * @return Flux 事件流
+     * @param userId 用户 ID
+     * @param city 目的地城市
+     * @param budget 预算
+     * @param days 天数
+     * @return 推荐结果（Format A）
      */
-    public Flux<String> chatStream(Long userId, String message, Long conversationId, Long tripId) {
-        // Mock 响应：模拟 LLM 流式输出
-        return Flux.just(
-                "{\"type\":\"chunk\",\"data\":{\"content\":\"正在\"}}",
-                "{\"type\":\"chunk\",\"data\":{\"content\":\"为您\"}}",
-                "{\"type\":\"chunk\",\"data\":{\"content\":\"规划\"}}",
-                "{\"type\":\"chunk\",\"data\":{\"content\":\"旅行\"}}",
-                "{\"type\":\"chunk\",\"data\":{\"content\":\"行程\"}}",
-                "{\"type\":\"complete\",\"data\":{\"usage\":{\"prompt\":15,\"completion\":25,\"total\":40,\"cached\":5}}}"
-            )
-            .delayElements(java.time.Duration.ofMillis(300))
-            .doOnNext(event -> System.out.println("[ChatMock] " + event));
+    public Map<String, Object> recommend(Long userId, String city, int budget, int days) {
+        log.info("[TripService] 行程推荐: userId={}, city={}, days={}, budget={}",
+            userId, city, days, budget);
+
+        try {
+            Map<String, Object> plan = Map.of(
+                "title", city + days + "日游",
+                "city", city,
+                "days", days,
+                "budget", budget,
+                "dailyItinerary", List.of(),
+                "budgetBreakdown", Map.of(
+                    "accommodation", budget * 25 / 100,
+                    "food", budget * 20 / 100,
+                    "transportation", budget * 15 / 100,
+                    "tickets", budget * 30 / 100,
+                    "other", budget * 10 / 100
+                ),
+                "totalBudget", budget,
+                "tips", List.of("提前订票", "注意天气"),
+                "warnings", List.of()
+            );
+
+            Map<String, Object> response = new LinkedHashMap<>();
+            response.put("success", true);
+            response.put("data", plan);
+
+            return response;
+
+        } catch (Exception e) {
+            log.error("[TripService] 推荐失败", e);
+            throw AppException.badRequest("行程推荐失败：" + e.getMessage());
+        }
     }
 }

@@ -61,6 +61,8 @@
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/SummaryService.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/TripService.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/UserService.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/agent/dto/PlanRequest.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/agent/dto/PlanResult.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/chat/EventSink.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/chat/MessagePersistenceService.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/chat/NonTravelShortCircuit.java
@@ -81,6 +83,7 @@
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/ChatController.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/ConversationController.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/HealthController.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/TripController.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/UserController.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/filter/GlobalRateLimitFilter.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/filter/GzipFilter.java

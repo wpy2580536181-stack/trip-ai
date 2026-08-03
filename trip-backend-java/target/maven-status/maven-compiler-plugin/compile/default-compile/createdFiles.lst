@@ -13,6 +13,7 @@ com/trip/backend/domain/entity/Feedback.class
 com/trip/backend/service/UserService.class
 com/trip/backend/utils/AppException.class
 com/trip/backend/domain/entity/Spot.class
+com/trip/backend/service/llm/Langchain4jLlmClient$1.class
 com/trip/backend/service/llm/LlmClient.class
 com/trip/backend/web/handler/GlobalExceptionHandler.class
 com/trip/backend/infra/cache/RedisCacheBackend.class
@@ -35,6 +36,7 @@ com/trip/backend/service/ConversationService.class
 com/trip/backend/domain/repository/AgentStepRepository.class
 com/trip/backend/service/llm/LlmClient$ToolSpec.class
 com/trip/backend/infra/resilience/ToolResilienceWrapper.class
+com/trip/backend/service/agent/dto/PlanResult.class
 com/trip/backend/middleware/ConcurrencyGuard.class
 com/trip/backend/infra/cache/LlmCache.class
 com/trip/backend/config/AmapProperties.class
@@ -77,6 +79,7 @@ com/trip/backend/service/KnowledgeService$BulkResult.class
 com/trip/backend/service/ConversationService$ConversationWithMessages.class
 com/trip/backend/infra/security/JwtAuthFilter.class
 com/trip/backend/service/llm/LlmClient$ChatResponse.class
+com/trip/backend/web/controller/TripController.class
 com/trip/backend/infra/cache/CacheBackend.class
 com/trip/backend/web/filter/GzipFilter.class
 com/trip/backend/domain/repository/SpotDocRepository.class
@@ -106,6 +109,7 @@ com/trip/backend/web/controller/HealthController.class
 com/trip/backend/domain/repository/TokenUsageLogRepository.class
 com/trip/backend/domain/repository/SpotRepository.class
 com/trip/backend/web/filter/GlobalRateLimitFilter.class
+com/trip/backend/service/agent/dto/PlanRequest.class
 com/trip/backend/web/filter/RequestIdFilter.class
 com/trip/backend/web/controller/ConversationController.class
 com/trip/backend/domain/repository/UserRepository.class
