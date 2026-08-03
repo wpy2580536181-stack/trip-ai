@@ -50,9 +50,11 @@ public class KnowledgeService {
      */
     @Transactional
     public Spot createSpot(Map<String, Object> data) {
-        Spot spot = new Spot();
-        spot.setName((String) data.get("name"));
-        spot.setCity((String) data.get("city"));
+        Spot spot = Spot.create(
+            (String) data.get("name"),
+            (String) data.get("city"),
+            (String) data.get("category")
+        );
         spot.setCategory((String) data.get("category"));
         spot.setDescription((String) data.get("description"));
         spot.setTags((Map<String, Object>) data.get("tags"));

@@ -55,21 +55,28 @@ public class SchemaValidator implements CommandLineRunner {
     }
 
     /**
-     * 创建 password_resets 表（幂等）
+     * 创建 password_resets 表（幂等，兼容 H2 和 PostgreSQL）
      */
     private void createPasswordResetsTable() {
-        String sql = """
+        // 检测数据库类型
+        String dbProduct = jdbcTemplate.execute((java.sql.Connection conn) -> conn.getMetaData().getDatabaseProductName());
+        boolean isH2 = dbProduct != null && dbProduct.toLowerCase().contains("h2");
+
+        String timestampType = isH2 ? "TIMESTAMP" : "TIMESTAMPTZ";
+        String serialType = isH2 ? "IDENTITY" : "SERIAL";
+
+        String sql = String.format("""
             CREATE TABLE IF NOT EXISTS password_resets (
-                id SERIAL PRIMARY KEY,
+                id %s PRIMARY KEY,
                 email VARCHAR(100) NOT NULL,
                 token VARCHAR(255) NOT NULL UNIQUE,
-                expires_at TIMESTAMPTZ NOT NULL,
+                expires_at %s NOT NULL,
                 used BOOLEAN NOT NULL DEFAULT FALSE,
-                created_at TIMESTAMPTZ NOT NULL
+                created_at %s NOT NULL
             );
             CREATE INDEX IF NOT EXISTS idx_password_resets_token ON password_resets(token);
             CREATE INDEX IF NOT EXISTS idx_password_resets_email ON password_resets(email);
-            """;
+            """, serialType, timestampType, timestampType);
 
         jdbcTemplate.execute(sql);
     }

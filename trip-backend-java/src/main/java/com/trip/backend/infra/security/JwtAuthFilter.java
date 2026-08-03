@@ -40,9 +40,9 @@ public class JwtAuthFilter extends OncePerRequestFilter {
                                     FilterChain filterChain) throws ServletException, IOException {
         String header = request.getHeader("Authorization");
 
-        // 1. 缺 Authorization 头 → 403
+        // 1. 缺 Authorization 头 → 直接放行，由 Spring Security 判断是否需要认证
         if (header == null || header.isBlank()) {
-            response.sendError(HttpServletResponse.SC_FORBIDDEN, "Not authenticated");
+            filterChain.doFilter(request, response);
             return;
         }
 

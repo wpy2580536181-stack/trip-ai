@@ -1,8 +1,6 @@
 package com.trip.backend.domain.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
 import org.hibernate.annotations.JdbcTypeCode;
 import org.hibernate.type.SqlTypes;
 
@@ -19,8 +17,6 @@ import java.util.Map;
 @Table(name = "agent_steps", indexes = {
     @Index(name = "idx_agent_steps_message_id", columnList = "message_id, step")
 })
-@Getter
-@Setter
 public class AgentStep {
 
     @Id
@@ -41,7 +37,7 @@ public class AgentStep {
 
     // JSONB 列
     @JdbcTypeCode(SqlTypes.JSON)
-    @Column(columnDefinition = "jsonb")
+    @Column(columnDefinition = "json")
     private Map<String, Object> args;
 
     @Lob
@@ -58,10 +54,128 @@ public class AgentStep {
 
     // 无 updated_at
 
-    protected AgentStep() {}
+    public AgentStep() {}
 
     @PrePersist
     protected void onCreate() {
         this.createdAt = OffsetDateTime.now();
+    }
+
+    // ==================== Getters ====================
+
+    public Long getId() {
+        return id;
+    }
+
+    public Long getMessageId() {
+        return messageId;
+    }
+
+    public Long getConversationId() {
+        // TODO: 添加 conversation_id 字段
+        return null;
+    }
+
+    public Integer getStep() {
+        return step;
+    }
+
+    public String getStepName() {
+        return name; // 兼容：使用 name 字段
+    }
+
+    public String getStepType() {
+        return type;
+    }
+
+    public String getStatus() {
+        // TODO: 添加 status 字段
+        return "completed";
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Map<String, Object> getArgs() {
+        return args;
+    }
+
+    public String getOutput() {
+        return output;
+    }
+
+    public Long getDurationMs() {
+        return durationMs;
+    }
+
+    public String getError() {
+        return error;
+    }
+
+    public OffsetDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    // ==================== Setters ====================
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setMessageId(Long messageId) {
+        this.messageId = messageId;
+    }
+
+    public void setConversationId(Long conversationId) {
+        // TODO: 添加 conversation_id 字段
+    }
+
+    public void setStep(Integer step) {
+        this.step = step;
+    }
+
+    public void setStepName(String stepName) {
+        this.name = stepName; // 兼容：映射到 name 字段
+    }
+
+    public void setStepType(String stepType) {
+        this.type = stepType;
+    }
+
+    public void setStatus(String status) {
+        // TODO: 添加 status 字段
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setArgs(Map<String, Object> args) {
+        this.args = args;
+    }
+
+    public void setOutput(String output) {
+        this.output = output;
+    }
+
+    public void setDurationMs(Long durationMs) {
+        this.durationMs = durationMs;
+    }
+
+    public void setError(String error) {
+        this.error = error;
+    }
+
+    public void setCreatedAt(OffsetDateTime createdAt) {
+        this.createdAt = createdAt;
     }
 }

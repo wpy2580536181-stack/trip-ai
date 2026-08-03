@@ -39,8 +39,9 @@ public class FeedbackService {
         }
 
         // 2. 验证消息归属
-        Message message = messageRepository.findById(messageId)
+        final Message finalMessage = messageRepository.findById(messageId)
             .orElseThrow(() -> AppException.notFound("消息不存在"));
+        Message message = finalMessage;
 
         // 注意：这里简化实现，实际应关联 conversation 并验证 userId 权限
 
@@ -50,33 +51,32 @@ public class FeedbackService {
         }
 
         // 4. 截断评论（500 字）
+        String finalComment = comment;
         if (comment != null && comment.length() > 500) {
-            comment = comment.substring(0, 500);
+            finalComment = comment.substring(0, 500);
         }
 
         // 5. 标签限制（≤10）
+        List<String> finalTags = tags;
         if (tags != null && tags.size() > 10) {
-            tags = tags.subList(0, 10);
+            finalTags = tags.subList(0, 10);
         }
 
         // 6. 唯一 upsert (user_id, message_id)
-        return feedbackRepository.findByUserIdAndMessageId(userId, messageId)
-            .map(existing -> {
-                existing.setRating(rating);
-                existing.setComment(comment);
-                existing.setTags(tags);
-                return feedbackRepository.save(existing);
-            })
-            .orElseGet(() -> {
-                Feedback feedback = new Feedback();
-                feedback.setUserId(userId);
-                feedback.setMessageId(messageId);
-                feedback.setConversationId(message.getConversationId());
-                feedback.setRating(rating);
-                feedback.setComment(comment);
-                feedback.setTags(tags);
-                return feedbackRepository.save(feedback);
-            });
+        final Integer finalRating = rating;
+        Feedback existingFeedback = feedbackRepository.findByUserIdAndMessageId(userId, messageId).orElse(null);
+        if (existingFeedback != null) {
+            existingFeedback.setRating(finalRating);
+            existingFeedback.setComment(finalComment);
+            existingFeedback.setTags(finalTags);
+            return feedbackRepository.save(existingFeedback);
+        } else {
+            Feedback feedback = new Feedback(userId, messageId, finalRating);
+            feedback.setConversationId(finalMessage.getConversationId());
+            feedback.setComment(finalComment);
+            feedback.setTags(finalTags);
+            return feedbackRepository.save(feedback);
+        }
     }
 
     /**

@@ -1,9 +1,6 @@
 package com.trip.backend.domain.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
-
 import java.time.OffsetDateTime;
 
 /**
@@ -15,8 +12,6 @@ import java.time.OffsetDateTime;
     @Index(name = "idx_conversations_user_id", columnList = "user_id"),
     @Index(name = "idx_conversations_updated_at", columnList = "updated_at")
 })
-@Getter
-@Setter
 public class Conversation {
 
     @Id
@@ -47,7 +42,7 @@ public class Conversation {
     @Column(nullable = false)
     private OffsetDateTime updatedAt;
 
-    protected Conversation() {}
+    public Conversation() {}
 
     @PrePersist
     protected void onCreate() {
@@ -58,5 +53,81 @@ public class Conversation {
     @PreUpdate
     protected void onUpdate() {
         this.updatedAt = OffsetDateTime.now();
+    }
+
+    // ==================== Getters ====================
+
+    public Long getId() {
+        return id;
+    }
+
+    public Long getUserId() {
+        return userId;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public String getRecap() {
+        return recap;
+    }
+
+    public String getSummaryError() {
+        return summaryError;
+    }
+
+    public OffsetDateTime getSummaryAt() {
+        return summaryAt;
+    }
+
+    public OffsetDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    public OffsetDateTime getUpdatedAt() {
+        return updatedAt;
+    }
+
+    // ==================== Setters ====================
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
+    }
+
+    public void setRecap(String recap) {
+        this.recap = recap;
+    }
+
+    public void setSummaryError(String summaryError) {
+        this.summaryError = summaryError;
+    }
+
+    public void setSummaryAt(OffsetDateTime summaryAt) {
+        this.summaryAt = summaryAt;
+    }
+
+    public void setCreatedAt(OffsetDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public void setUpdatedAt(OffsetDateTime updatedAt) {
+        this.updatedAt = updatedAt;
     }
 }

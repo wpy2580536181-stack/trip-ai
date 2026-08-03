@@ -3,6 +3,7 @@ package com.trip.backend.service.chat;
 import com.trip.backend.web.sse.SseEvent;
 import com.trip.backend.web.sse.SseWriter;
 import com.trip.backend.web.sse.StreamStore;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 import java.util.Map;
@@ -28,7 +29,7 @@ public class EventSink {
     // 心跳间隔（毫秒）
     private static final long HEARTBEAT_INTERVAL_MS = 15_000;
 
-    public EventSink(SseWriter sseWriter, StreamStore streamStore) {
+    public EventSink(@Lazy SseWriter sseWriter, StreamStore streamStore) {
         this.sseWriter = sseWriter;
         this.streamStore = streamStore;
     }
@@ -105,7 +106,7 @@ public class EventSink {
      */
     private void sendEnd(String streamId) {
         try {
-            sseWriter.send(SseEvent.end(streamId));
+            sseWriter.send(SseEvent.end());
             streamStore.appendEvent(streamId, "end", "{}");
             lastEventTimes.remove(streamId);
         } catch (Exception e) {

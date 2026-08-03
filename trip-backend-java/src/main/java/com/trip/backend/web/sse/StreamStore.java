@@ -4,6 +4,7 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
 
 import java.time.Instant;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -56,7 +57,7 @@ public class StreamStore {
             createStreamMemory(streamId, userId, conversationId);
         }
 
-        return new StreamState(streamId, 0);
+        return new StreamState(streamId, userId, 0);
     }
 
     private void createStreamRedis(String streamId, String userId, String conversationId) {
@@ -207,7 +208,7 @@ public class StreamStore {
 
         String userId = (String) hash.get("userId");
         Long totalSeq = getTotalSeqRedis(streamId);
-        return new StreamState(streamId, totalSeq != null ? totalSeq : 0);
+        return new StreamState(streamId, userId, totalSeq != null ? totalSeq : 0);
     }
 
     private StreamState getStreamStateMemory(String streamId) throws StreamNotFoundException {
@@ -215,7 +216,7 @@ public class StreamStore {
         if (entry == null) {
             throw new StreamNotFoundException(streamId);
         }
-        return new StreamState(streamId, entry.nextSeq - 1);
+        return new StreamState(streamId, entry.userId, entry.nextSeq.get() - 1);
     }
 
     /**
@@ -257,7 +258,7 @@ public class StreamStore {
         String conversationId;
         String status;
         final List<StreamEvent> events = new CopyOnWriteArrayList<>(); // ✅ 线程安全
-        final AtomicLong nextSeq = new AtomicLong(0); // ✅ 原子自增
+        final AtomicLong nextSeq; // ✅ 原子自增
 
         StreamEntry(String userId, String conversationId, List<StreamEvent> events, long nextSeq) {
             this.userId = userId;
@@ -267,7 +268,7 @@ public class StreamStore {
     }
 
     public record StreamEvent(long seq, String type, String data) {}
-    public record StreamState(String streamId, long totalSeq) {}
+    public record StreamState(String streamId, String userId, long totalSeq) {}
 
     public static class StreamNotFoundException extends RuntimeException {
         public StreamNotFoundException(String streamId) {

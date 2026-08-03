@@ -65,8 +65,8 @@ public class TokenTrackingCallback {
             // 忽略
         }
 
-        // 1. 监控器
-        TokenUsage usage = new TokenUsage(
+        // 1. 监控器（使用本地 TokenUsage）
+        com.trip.backend.middleware.TokenUsage usage = new com.trip.backend.middleware.TokenUsage(
             userId,
             currentRequestType.get() != null ? currentRequestType.get() : "unknown",
             currentRoute.get() != null ? currentRoute.get() : "unknown",

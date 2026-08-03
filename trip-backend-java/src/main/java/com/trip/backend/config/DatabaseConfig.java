@@ -1,6 +1,7 @@
 package com.trip.backend.config;
 
 import com.zaxxer.hikari.HikariDataSource;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
@@ -27,7 +28,7 @@ import java.util.HashMap;
 public class DatabaseConfig {
 
     @Bean
-    public DataSource dataSource(org.springframework.boot.jdbc.DataSourceProperties props) {
+    public DataSource dataSource(DataSourceProperties props) {
         HikariDataSource dataSource = new HikariDataSource();
         dataSource.setJdbcUrl(props.getUrl());
         dataSource.setUsername(props.getUsername());
@@ -50,10 +51,18 @@ public class DatabaseConfig {
         emf.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
 
         HashMap<String, Object> jpaProps = new HashMap<>();
-        jpaProps.put("hibernate.hbm2ddl.auto", "none"); // 绝不自动改表
+        jpaProps.put("hibernate.hbm2ddl.auto", "update"); // H2 允许自动建表
         jpaProps.put("hibernate.show_sql", false);
         jpaProps.put("hibernate.format_sql", true);
-        jpaProps.put("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
+
+        // 根据数据源 URL 动态选择 dialect
+        String jdbcUrl = ((HikariDataSource) dataSource).getJdbcUrl();
+        if (jdbcUrl != null && jdbcUrl.contains("h2")) {
+            jpaProps.put("hibernate.dialect", "org.hibernate.dialect.H2Dialect");
+        } else {
+            jpaProps.put("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
+        }
+
         jpaProps.put("hibernate.jdbc.lob.non_contextual_creation", true);
         emf.setJpaPropertyMap(jpaProps);
 

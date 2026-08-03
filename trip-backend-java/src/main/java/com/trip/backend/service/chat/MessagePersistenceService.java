@@ -49,7 +49,6 @@ public class MessagePersistenceService {
     @Transactional
     public Message persistUserMessage(Long userId, Long conversationId, String content) {
         Message message = new Message();
-        message.setUserId(userId);
         message.setConversationId(conversationId);
         message.setRole("user");
         message.setContent(content);
@@ -73,7 +72,6 @@ public class MessagePersistenceService {
     @Transactional
     public Message createEmptyAssistantMessage(Long userId, Long conversationId) {
         Message message = new Message();
-        message.setUserId(userId);
         message.setConversationId(conversationId);
         message.setRole("assistant");
         message.setContent("");

@@ -2,6 +2,7 @@ package com.trip.backend.service.llm;
 
 import org.springframework.stereotype.Component;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 /**

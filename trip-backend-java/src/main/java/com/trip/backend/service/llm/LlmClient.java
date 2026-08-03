@@ -65,6 +65,14 @@ public interface LlmClient {
     ) {}
 
     /**
+     * 聊天消息
+     */
+    record ChatMessage(
+        String role,
+        String content
+    ) {}
+
+    /**
      * 流式处理器
      */
     interface StreamHandler {

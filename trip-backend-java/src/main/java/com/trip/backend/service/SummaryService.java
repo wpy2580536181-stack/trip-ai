@@ -39,9 +39,10 @@ public class SummaryService {
     public String compressConversation(Long conversationId) {
         try {
             // 获取最近消息（最多 20 条）
-            List<Message> messages = messageRepository
+            var page = messageRepository
                 .findByConversationIdOrderByCreatedAtDesc(conversationId,
                     org.springframework.data.domain.PageRequest.of(0, 20));
+            List<Message> messages = page.getContent();
 
             if (messages.isEmpty()) {
                 return "";

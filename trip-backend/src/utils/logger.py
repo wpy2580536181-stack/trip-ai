@@ -9,7 +9,9 @@
 from __future__ import annotations
 
 import logging
+import os
 import re
+from logging.handlers import RotatingFileHandler
 from typing import Any
 
 import structlog
@@ -93,6 +95,17 @@ def setup_logging(level: str = "INFO") -> None:
         cache_logger_on_first_use=True,
     )
     logging.basicConfig(level=getattr(logging, level.upper(), logging.INFO))
+
+    # 如果设置了 LOG_FILE 环境变量，同时写入文件（RotatingFileHandler，10MB × 5 个备份）
+    log_file = os.getenv("LOG_FILE")
+    if log_file:
+        os.makedirs(os.path.dirname(log_file) or ".", exist_ok=True)
+        file_handler = RotatingFileHandler(
+            log_file, maxBytes=10 * 1024 * 1024, backupCount=5, encoding="utf-8"
+        )
+        file_handler.setFormatter(logging.Formatter("%(message)s"))
+        root_logger = logging.getLogger()
+        root_logger.addHandler(file_handler)
 
 
 # ---------------------------------------------------------------------------

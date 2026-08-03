@@ -15,6 +15,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.security.access.prepost.PreAuthorize;
 
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -58,9 +59,12 @@ public class UserController {
         if (FormatResolver.isFormatA(httpRequest)) {
             return ResponseEntity.status(HttpStatus.CREATED).body(Map.of("success", true, "data", data));
         } else {
-            return ResponseEntity.status(HttpStatus.CREATED).body(Map.of(
-                "code", 201, "data", data, "message", "注册成功", "error", null
-            ));
+            Map<String, Object> response = new HashMap<>();
+            response.put("code", 201);
+            response.put("data", data);
+            response.put("message", "注册成功");
+            response.put("error", null);
+            return ResponseEntity.status(HttpStatus.CREATED).body(response);
         }
     }
 
@@ -80,23 +84,26 @@ public class UserController {
             user.getRoleId()
         );
 
-        Map<String, Object> data = Map.of(
-            "token", token,
-            "user", Map.of(
-                "id", user.getId(),
-                "username", user.getUsername(),
-                "email", user.getEmail(),
-                "nickname", user.getNickname(),
-                "avatar", user.getAvatar()
-            )
-        );
+        Map<String, Object> data = new HashMap<>();
+        data.put("token", token);
+
+        Map<String, Object> userData = new HashMap<>();
+        userData.put("id", user.getId());
+        userData.put("username", user.getUsername());
+        userData.put("email", user.getEmail());
+        userData.put("nickname", user.getNickname());
+        userData.put("avatar", user.getAvatar());
+        data.put("user", userData);
 
         if (FormatResolver.isFormatA(httpRequest)) {
             return ResponseEntity.ok(Map.of("success", true, "data", data));
         } else {
-            return ResponseEntity.ok(Map.of(
-                "code", 200, "data", data, "message", "登录成功", "error", null
-            ));
+            Map<String, Object> response = new HashMap<>();
+            response.put("code", 200);
+            response.put("data", data);
+            response.put("message", "登录成功");
+            response.put("error", null);
+            return ResponseEntity.ok(response);
         }
     }
 
@@ -110,21 +117,23 @@ public class UserController {
             HttpServletRequest httpRequest) {
         User user = userService.getUserInfo(userId);
 
-        Map<String, Object> data = Map.of(
-            "id", user.getId(),
-            "username", user.getUsername(),
-            "email", user.getEmail(),
-            "nickname", user.getNickname(),
-            "avatar", user.getAvatar(),
-            "bio", user.getBio()
-        );
+        Map<String, Object> data = new HashMap<>();
+        data.put("id", user.getId());
+        data.put("username", user.getUsername());
+        data.put("email", user.getEmail());
+        data.put("nickname", user.getNickname());
+        data.put("avatar", user.getAvatar());
+        data.put("bio", user.getBio());
 
         if (FormatResolver.isFormatA(httpRequest)) {
             return ResponseEntity.ok(Map.of("success", true, "data", data));
         } else {
-            return ResponseEntity.ok(Map.of(
-                "code", 200, "data", data, "message", null, "error", null
-            ));
+            Map<String, Object> response = new HashMap<>();
+            response.put("code", 200);
+            response.put("data", data);
+            response.put("message", null);
+            response.put("error", null);
+            return ResponseEntity.ok(response);
         }
     }
 
@@ -139,21 +148,23 @@ public class UserController {
             HttpServletRequest httpRequest) {
         User user = userService.updateUserInfo(userId, request.nickname, request.avatar, request.bio);
 
-        Map<String, Object> data = Map.of(
-            "id", user.getId(),
-            "username", user.getUsername(),
-            "email", user.getEmail(),
-            "nickname", user.getNickname(),
-            "avatar", user.getAvatar(),
-            "bio", user.getBio()
-        );
+        Map<String, Object> data = new HashMap<>();
+        data.put("id", user.getId());
+        data.put("username", user.getUsername());
+        data.put("email", user.getEmail());
+        data.put("nickname", user.getNickname());
+        data.put("avatar", user.getAvatar());
+        data.put("bio", user.getBio());
 
         if (FormatResolver.isFormatA(httpRequest)) {
             return ResponseEntity.ok(Map.of("success", true, "data", data));
         } else {
-            return ResponseEntity.ok(Map.of(
-                "code", 200, "data", data, "message", null, "error", null
-            ));
+            Map<String, Object> response = new HashMap<>();
+            response.put("code", 200);
+            response.put("data", data);
+            response.put("message", null);
+            response.put("error", null);
+            return ResponseEntity.ok(response);
         }
     }
 

@@ -97,7 +97,7 @@ public class StatsService {
     /**
      * 获取 MCP 指标快照
      */
-    public Map<String, Object>> getMcpStats() {
+    public Map<String, Object> getMcpStats() {
         // TODO: 从 MCP 指标收集器获取
         return Map.of(
             "calls", 0,

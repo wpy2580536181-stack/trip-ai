@@ -1,5 +1,6 @@
 package com.trip.backend.config;
 
+import com.trip.backend.infra.security.JwtAuthFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
@@ -57,7 +58,7 @@ public class SecurityConfig {
                 .anyRequest().permitAll()
             );
 
-        // 添加 JWT Filter（在 UsernamePasswordAuthenticationFilter 之前）
+        // JWT Filter（在 UsernamePasswordAuthenticationFilter 之前执行）
         http.addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
 
         return http.build();

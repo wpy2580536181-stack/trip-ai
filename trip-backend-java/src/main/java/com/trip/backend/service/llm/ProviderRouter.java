@@ -4,15 +4,6 @@ import java.util.List;
 import java.util.function.Function;
 
 /**
- * 场景优先级（对应 Python provider_router/scenario.py）
- */
-public enum Scenario {
-    PLANNING,    // 行程规划：deepseek → kimi → agnese
-    CHAT,        // 对话：agnese → kimi → deepseek
-    RESEARCH     // 研究：agnese → deepseek → kimi
-}
-
-/**
  * Provider 路由（对应 Python provider_router/router.py）
  */
 public class ProviderRouter {

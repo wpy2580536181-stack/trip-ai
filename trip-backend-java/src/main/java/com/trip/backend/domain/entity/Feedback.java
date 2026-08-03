@@ -1,8 +1,6 @@
 package com.trip.backend.domain.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
 import org.hibernate.annotations.JdbcTypeCode;
 import org.hibernate.type.SqlTypes;
 
@@ -21,8 +19,6 @@ import java.util.List;
     @Index(name = "idx_feedbacks_rating_created", columnList = "rating, created_at"),
     @Index(name = "idx_feedbacks_user_created", columnList = "user_id, created_at")
 })
-@Getter
-@Setter
 public class Feedback {
 
     @Id
@@ -46,7 +42,7 @@ public class Feedback {
 
     // JSONB 列
     @JdbcTypeCode(SqlTypes.JSON)
-    @Column(columnDefinition = "jsonb")
+    @Column(columnDefinition = "json")
     private List<String> tags;
 
     @Column(nullable = false)
@@ -54,8 +50,84 @@ public class Feedback {
 
     protected Feedback() {}
 
+    // ==================== Public Constructor (供 Service 层使用) ====================
+
+    public Feedback(Long userId, Long messageId, Integer rating) {
+        this.userId = userId;
+        this.messageId = messageId;
+        this.rating = rating;
+    }
+
     @PrePersist
     protected void onCreate() {
         this.createdAt = OffsetDateTime.now();
+    }
+
+    // ==================== Getters ====================
+
+    public Long getId() {
+        return id;
+    }
+
+    public Long getUserId() {
+        return userId;
+    }
+
+    public Long getMessageId() {
+        return messageId;
+    }
+
+    public Long getConversationId() {
+        return conversationId;
+    }
+
+    public Integer getRating() {
+        return rating;
+    }
+
+    public String getComment() {
+        return comment;
+    }
+
+    public List<String> getTags() {
+        return tags;
+    }
+
+    public OffsetDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    // ==================== Setters ====================
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
+    }
+
+    public void setMessageId(Long messageId) {
+        this.messageId = messageId;
+    }
+
+    public void setConversationId(Long conversationId) {
+        this.conversationId = conversationId;
+    }
+
+    public void setRating(Integer rating) {
+        this.rating = rating;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
+    }
+
+    public void setTags(List<String> tags) {
+        this.tags = tags;
+    }
+
+    public void setCreatedAt(OffsetDateTime createdAt) {
+        this.createdAt = createdAt;
     }
 }

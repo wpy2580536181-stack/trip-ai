@@ -70,12 +70,8 @@ public class TripService {
     @Transactional
     public Trip createTrip(Long userId, String fromCity, String city, int days, int budget,
                           java.util.Map<String, Object> content) {
-        Trip trip = new Trip();
-        trip.setUserId(userId);
+        Trip trip = Trip.create(userId, city, days, budget);
         trip.setFromCity(fromCity);
-        trip.setCity(city);
-        trip.setDays(days);
-        trip.setBudget(budget);
         trip.setContent(content);
         trip.setStatus("completed");
         return tripRepository.save(trip);

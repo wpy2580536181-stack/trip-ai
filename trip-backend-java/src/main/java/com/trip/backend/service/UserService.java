@@ -57,7 +57,7 @@ public class UserService {
 
         // 默认角色（USER）
         Role userRole = roleRepository.findByName("USER")
-            .orElseThrow(() -> AppException.internalServerError("默认角色不存在"));
+            .orElseThrow(() -> AppException.notFound("默认角色不存在"));
         user.setRoleId(userRole.getId());
 
         return userRepository.save(user);

@@ -1,6 +1,7 @@
 package com.trip.backend.web.sse;
 
 import jakarta.servlet.http.HttpServletRequest;
+import java.util.List;
 
 /**
  * 断点续传处理器（对应 Python streamable-agent-resumable.md）

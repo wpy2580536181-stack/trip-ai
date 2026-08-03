@@ -27,12 +27,7 @@ public class FilterOrderConfig {
         return registration;
     }
 
-    @Bean
-    public FilterRegistrationBean<PrometheusFilter> prometheusFilterRegistration(PrometheusFilter filter) {
-        FilterRegistrationBean<PrometheusFilter> registration = new FilterRegistrationBean<>(filter);
-        registration.setOrder(2);
-        return registration;
-    }
+    // TODO: PrometheusFilter 暂时移除（需要 MeterRegistry 配置）
 
     @Bean
     public FilterRegistrationBean<GzipFilter> gzipFilterRegistration(GzipFilter filter) {

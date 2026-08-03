@@ -1,9 +1,6 @@
 package com.trip.backend.domain.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
-
 import java.time.OffsetDateTime;
 
 /**
@@ -16,8 +13,6 @@ import java.time.OffsetDateTime;
     @Index(name = "idx_token_usage_user_created", columnList = "user_id, created_at"),
     @Index(name = "idx_token_usage_request_type", columnList = "request_type")
 })
-@Getter
-@Setter
 public class TokenUsageLog {
 
     @Id
@@ -66,5 +61,105 @@ public class TokenUsageLog {
     @PrePersist
     protected void onCreate() {
         this.createdAt = OffsetDateTime.now();
+    }
+
+    // ==================== Getters ====================
+
+    public Long getId() {
+        return id;
+    }
+
+    public Long getUserId() {
+        return userId;
+    }
+
+    public String getRequestType() {
+        return requestType;
+    }
+
+    public String getRoute() {
+        return route;
+    }
+
+    public Long getConversationId() {
+        return conversationId;
+    }
+
+    public Long getMessageId() {
+        return messageId;
+    }
+
+    public Integer getPromptTokens() {
+        return promptTokens;
+    }
+
+    public Integer getCompletionTokens() {
+        return completionTokens;
+    }
+
+    public Integer getTotalTokens() {
+        return totalTokens;
+    }
+
+    public Integer getCachedTokens() {
+        return cachedTokens;
+    }
+
+    public Integer getLatencyMs() {
+        return latencyMs;
+    }
+
+    public OffsetDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    // ==================== Setters ====================
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
+    }
+
+    public void setRequestType(String requestType) {
+        this.requestType = requestType;
+    }
+
+    public void setRoute(String route) {
+        this.route = route;
+    }
+
+    public void setConversationId(Long conversationId) {
+        this.conversationId = conversationId;
+    }
+
+    public void setMessageId(Long messageId) {
+        this.messageId = messageId;
+    }
+
+    public void setPromptTokens(Integer promptTokens) {
+        this.promptTokens = promptTokens;
+    }
+
+    public void setCompletionTokens(Integer completionTokens) {
+        this.completionTokens = completionTokens;
+    }
+
+    public void setTotalTokens(Integer totalTokens) {
+        this.totalTokens = totalTokens;
+    }
+
+    public void setCachedTokens(Integer cachedTokens) {
+        this.cachedTokens = cachedTokens;
+    }
+
+    public void setLatencyMs(Integer latencyMs) {
+        this.latencyMs = latencyMs;
+    }
+
+    public void setCreatedAt(OffsetDateTime createdAt) {
+        this.createdAt = createdAt;
     }
 }

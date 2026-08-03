@@ -41,21 +41,21 @@ public class ChatController {
     private final MessagePersistenceService messagePersistenceService;
     private final NonTravelShortCircuit nonTravelShortCircuit;
     private final StreamStore streamStore;
-    private final ResumeHandler resumeHandler;
+    // private final ResumeHandler resumeHandler; // TODO: 暂时禁用（需要 Redis）
 
     public ChatController(
             TripService tripService,
             EventSink eventSink,
             MessagePersistenceService messagePersistenceService,
             NonTravelShortCircuit nonTravelShortCircuit,
-            StreamStore streamStore,
-            ResumeHandler resumeHandler) {
+            StreamStore streamStore/*,
+            ResumeHandler resumeHandler*/) {
         this.tripService = tripService;
         this.eventSink = eventSink;
         this.messagePersistenceService = messagePersistenceService;
         this.nonTravelShortCircuit = nonTravelShortCircuit;
         this.streamStore = streamStore;
-        this.resumeHandler = resumeHandler;
+        // this.resumeHandler = resumeHandler;
     }
 
     /**
@@ -92,8 +92,11 @@ public class ChatController {
                 return createErrorResponse(400, "Last-Event-ID 必须是非负整数");
             }
 
-            ResumeHandler.ResumeResult result = resumeHandler.handleResumeWithAuth(streamId, lastSeq, userId);
+            // TODO: ResumeHandler 暂时禁用（需要 Redis）
+            // ResumeHandler.ResumeResult result = resumeHandler.handleResumeWithAuth(streamId, lastSeq, userId.toString());
+            return createErrorResponse(501, "续传功能暂未实现");
 
+            /*
             SseEmitter emitter = new SseEmitter(60_000L); // 60s 超时
             new Thread(() -> {
                 try {
@@ -115,11 +118,12 @@ public class ChatController {
             }).start();
 
             return ResponseEntity.ok(emitter);
+            */
 
         } catch (NumberFormatException e) {
             return createErrorResponse(400, "Last-Event-ID 必须是非负整数");
         } catch (ResumeHandler.ResumeException e) {
-            return createErrorResponse(e.getStatusCode(), e.getMessage());
+            return createErrorResponse(e.statusCode, e.getMessage());
         }
     }
 
@@ -176,8 +180,6 @@ public class ChatController {
 
         new Thread(() -> {
             try {
-                sseWriter.attach(emitter);
-
                 // 发送短路响应
                 String response = "这是一个非旅行相关的问题，我目前只能帮您规划旅行行程。请问有什么关于旅行的问题我可以帮您？";
 

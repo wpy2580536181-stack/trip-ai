@@ -37,12 +37,12 @@ public class Spot {
     @Column(nullable = false, length = 100)
     private String category;
 
-    @Lob
+    @Column(columnDefinition = "TEXT")
     private String description;
 
     // JSONB 列
     @JdbcTypeCode(SqlTypes.JSON)
-    @Column(columnDefinition = "jsonb")
+    @Column(columnDefinition = "json")
     private Map<String, Object> tags;
 
     @Column
@@ -85,5 +85,119 @@ public class Spot {
      */
     public void setScore(double score) {
         // Spot 实体无 score 字段，暂不存储
+    }
+
+    // ==================== Getters ====================
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public Map<String, Object> getTags() {
+        return tags;
+    }
+
+    public Integer getAvgCost() {
+        return avgCost;
+    }
+
+    public Integer getDuration() {
+        return duration;
+    }
+
+    public String getOpenTime() {
+        return openTime;
+    }
+
+    public Double getRating() {
+        return rating;
+    }
+
+    public OffsetDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    public String getAddress() {
+        // TODO: 添加 address 字段到实体
+        return null;
+    }
+
+    // ==================== Setters ====================
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setTags(Map<String, Object> tags) {
+        this.tags = tags;
+    }
+
+    public void setAvgCost(Integer avgCost) {
+        this.avgCost = avgCost;
+    }
+
+    public void setDuration(Integer duration) {
+        this.duration = duration;
+    }
+
+    public void setOpenTime(String openTime) {
+        this.openTime = openTime;
+    }
+
+    public void setRating(Double rating) {
+        this.rating = rating;
+    }
+
+    public void setCreatedAt(OffsetDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public void setAddress(String address) {
+        // TODO: 添加 address 字段到实体
+    }
+
+    // ==================== Builder Factory (供 Service 层使用) ====================
+
+    /**
+     * 创建新 Spot 实例（外部包无法访问 protected 构造器）
+     */
+    public static Spot create(String name, String city, String category) {
+        Spot spot = new Spot();
+        spot.setName(name);
+        spot.setCity(city);
+        spot.setCategory(category);
+        return spot;
     }
 }

@@ -1,16 +1,12 @@
 package com.trip.backend.domain.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
 
 /**
  * 角色实体（对应 Python models/role.py）
  */
 @Entity
 @Table(name = "roles")
-@Getter
-@Setter
 public class Role {
 
     @Id
@@ -24,6 +20,26 @@ public class Role {
     protected Role() {}
 
     public Role(String name) {
+        this.name = name;
+    }
+
+    // ==================== Getters ====================
+
+    public Integer getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    // ==================== Setters ====================
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
         this.name = name;
     }
 }

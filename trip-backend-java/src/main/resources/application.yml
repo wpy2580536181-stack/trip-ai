@@ -7,9 +7,9 @@ spring:
 
   # DataSource (HikariCP)
   datasource:
-    url: ${DATABASE_URL:postgresql://trip:trip123@localhost:5432/trip_db}
-    username: ${DATABASE_USER:trip}
-    password: ${DATABASE_PASSWORD:trip123}
+    url: jdbc:postgresql://localhost:5432/trip_db
+    username: trip
+    password: trip123
     driver-class-name: org.postgresql.Driver
     hikari:
       maximum-pool-size: 10
@@ -21,7 +21,7 @@ spring:
   # JPA/Hibernate
   jpa:
     hibernate:
-      ddl-auto: none  # 绝不自动改表
+      ddl-auto: none  # PostgreSQL 表已存在，不改表
     show-sql: false
     properties:
       hibernate:
@@ -34,14 +34,16 @@ spring:
   # Redis
   data:
     redis:
-      host: ${REDIS_HOST:localhost}
-      port: ${REDIS_PORT:6379}
-      password: ${REDIS_PASSWORD:}
+      host: localhost
+      port: 6379
+      password:
+      timeout: 2000ms
       lettuce:
         pool:
-          max-active: 16
+          max-active: 8
           max-idle: 8
-          min-idle: 2
+          min-idle: 0
+          max-wait: -1ms
 
   # Jackson JSON
   jackson:
@@ -98,15 +100,6 @@ concurrency:
     limit: 10
   per-user:
     limit: 1
-
-# Token Budget
-token-budget:
-  user:
-    window-hours: 1
-    limit: 50000
-  global:
-    window-minutes: 1
-    limit: 200000
 
 # Rate Limiting
 rate-limit:

@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.nio.charset.StandardCharsets;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -80,8 +81,17 @@ public class SseWriter {
     public void drainEvents() {
         SseEvent event;
         // ✅ 使用 poll 返回值判断，避免条件竞态
-        while (!closed && (event = eventQueue.poll(100, TimeUnit.MILLISECONDS)) != null) {
-            send(event);
+        while (!closed) {
+            try {
+                event = eventQueue.poll(100, TimeUnit.MILLISECONDS);
+                if (event == null) {
+                    continue;
+                }
+                send(event);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                break;
+            }
         }
     }
 

@@ -20,18 +20,19 @@ public class DataInitializer implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
+        // 等待 3 秒让 Hibernate 完成表创建
+        Thread.sleep(3000);
+
         // USER 角色
         if (roleRepository.findByName("USER").isEmpty()) {
-            Role userRole = new Role();
-            userRole.setName("USER");
+            Role userRole = new Role("USER");
             roleRepository.save(userRole);
             System.out.println("[DataInitializer] 创建默认角色: USER");
         }
 
         // ADMIN 角色
         if (roleRepository.findByName("ADMIN").isEmpty()) {
-            Role adminRole = new Role();
-            adminRole.setName("ADMIN");
+            Role adminRole = new Role("ADMIN");
             roleRepository.save(adminRole);
             System.out.println("[DataInitializer] 创建默认角色: ADMIN");
         }

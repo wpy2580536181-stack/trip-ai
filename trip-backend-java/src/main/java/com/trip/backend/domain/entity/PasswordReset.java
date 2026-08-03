@@ -1,9 +1,6 @@
 package com.trip.backend.domain.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
-
 import java.time.OffsetDateTime;
 
 /**
@@ -15,8 +12,6 @@ import java.time.OffsetDateTime;
     @Index(name = "idx_password_resets_token", columnList = "token", unique = true),
     @Index(name = "idx_password_resets_email", columnList = "email")
 })
-@Getter
-@Setter
 public class PasswordReset {
 
     @Id
@@ -53,5 +48,57 @@ public class PasswordReset {
      */
     public boolean isValid() {
         return !used && expiresAt.isAfter(OffsetDateTime.now());
+    }
+
+    // ==================== Getters ====================
+
+    public Integer getId() {
+        return id;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public OffsetDateTime getExpiresAt() {
+        return expiresAt;
+    }
+
+    public Boolean getUsed() {
+        return used;
+    }
+
+    public OffsetDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    // ==================== Setters ====================
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
+    public void setExpiresAt(OffsetDateTime expiresAt) {
+        this.expiresAt = expiresAt;
+    }
+
+    public void setUsed(Boolean used) {
+        this.used = used;
+    }
+
+    public void setCreatedAt(OffsetDateTime createdAt) {
+        this.createdAt = createdAt;
     }
 }
