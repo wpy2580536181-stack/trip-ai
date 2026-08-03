@@ -90,11 +90,20 @@ public class TripController {
         PrintWriter writer = response.getWriter();
 
         try {
+            // 1. Send start event
             writer.write("data: " + toJson(Map.of(
                 "type", "start",
                 "city", request.city(),
                 "days", request.days(),
                 "budget", request.budget()
+            )) + "\n\n");
+            writer.flush();
+
+            // 2. 模拟 progress 事件（实际应该从 Orchestrator 透传）
+            writer.write("data: " + toJson(Map.of(
+                "type", "progress",
+                "stage", "research",
+                "status", "start"
             )) + "\n\n");
             writer.flush();
 
@@ -105,9 +114,65 @@ public class TripController {
             )) + "\n\n");
             writer.flush();
 
-            writer.write("data: " + toJson(Map.of("type", "complete")) + "\n\n");
+            writer.write("data: " + toJson(Map.of(
+                "type", "progress",
+                "stage", "plan",
+                "status", "start"
+            )) + "\n\n");
             writer.flush();
 
+            // 3. 调用 TripService（这里应该调用带事件回调的版本）
+            // TODO: TripService.recommendWithEvents() 实现后调用
+            Map<String, Object> result = tripService.recommend(
+                userId,
+                request.city(),
+                request.budget() != null ? request.budget() : 0,
+                request.days() != null ? request.days() : 1
+            );
+
+            writer.write("data: " + toJson(Map.of(
+                "type", "progress",
+                "stage", "plan",
+                "status", "done"
+            )) + "\n\n");
+            writer.flush();
+
+            writer.write("data: " + toJson(Map.of(
+                "type", "progress",
+                "stage", "review",
+                "status", "start"
+            )) + "\n\n");
+            writer.flush();
+
+            writer.write("data: " + toJson(Map.of(
+                "type", "progress",
+                "stage", "review",
+                "status", "done"
+            )) + "\n\n");
+            writer.flush();
+
+            writer.write("data: " + toJson(Map.of(
+                "type", "progress",
+                "stage", "save",
+                "status", "start"
+            )) + "\n\n");
+            writer.flush();
+
+            // 4. Send complete event with result
+            writer.write("data: " + toJson(Map.of(
+                "type", "complete",
+                "data", result
+            )) + "\n\n");
+            writer.flush();
+
+            writer.write("data: " + toJson(Map.of(
+                "type", "progress",
+                "stage", "save",
+                "status", "done"
+            )) + "\n\n");
+            writer.flush();
+
+            // 5. Send end event
             writer.write("data: " + toJson(Map.of("type", "end")) + "\n\n");
             writer.flush();
 
