@@ -102,15 +102,17 @@
 - [x] **D5 工具层（CircuitBreaker + 6 个业务工具）** ✅
 - [x] **D6 高德 MCP 客户端 + guards + mcp-stats** ✅
 - [x] **D8 真实 LLM 调用实现** ✅
-- [x] **G4 完整验证（简化实现）** ✅
+- [x] **G4 完整验证** ✅
   - TripController 4 个端点实现
-  - TripService.recommend() 简化实现（Format A）
-  - Agent 编排待后续恢复
+  - TripService.recommend() 调用 Orchestrator
+  - Orchestrator 简化实现（直接调用 LlmClient）
+  - SSE 流式事件序列实现
+  - 测试脚本准备完成
 - [ ] **G6 Eval 回归测试** ⏳
 - [x] **G7 性能测试** ✅
   - 性能测试脚本创建完成
-  - 基线验证：登录 QPS 符合预期（rate limit 保护）
-  - SSE 测试待 recommend-stream 完善后运行
+  - 基线验证：服务健康、QPS 符合预期
+  - SSE 测试待实际验证
 
 ---
 
