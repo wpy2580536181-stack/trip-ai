@@ -152,7 +152,8 @@ public class GeneralEvaluators {
         if (mode == null) mode = "all";
 
         String text = output.getText() != null ? output.getText() : "";
-        String jsonStr = output.getJson() != null ? EvalUtils.parseJson(text).toString() : "";
+        Object jsonObj = output.getJson() != null ? output.getJson() : null;
+        String jsonStr = jsonObj != null ? jsonObj.toString() : "";
         String combinedText = text + jsonStr;
 
         List<String> missing = new ArrayList<>();

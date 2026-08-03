@@ -5,6 +5,7 @@ import com.trip.backend.eval.loader.FixtureLoader;
 import com.trip.backend.eval.runner.EvalRunner;
 import com.trip.backend.eval.runner.ConsolePrinter;
 import com.trip.backend.eval.registry.EvaluatorRegistry;
+import com.trip.backend.eval.agents.MockAgent;
 import com.trip.backend.eval.types.AgentOutput;
 import com.trip.backend.eval.types.EvalResult;
 import com.trip.backend.eval.types.Fixture;
@@ -111,6 +112,11 @@ class EvaluatorTest {
 
     @Test
     void testEvalRunner() throws Exception {
+        // 确保 evaluator 已注册
+        Class.forName("com.trip.backend.eval.evaluators.GeneralEvaluators");
+        Class.forName("com.trip.backend.eval.evaluators.DomainEvaluators");
+        Class.forName("com.trip.backend.eval.evaluators.MultiTurnEvaluators");
+
         Path fixturesDir = Path.of("src/test/resources/eval/fixtures/trip-planning");
         EvalRunner runner = new EvalRunner(fixturesDir);
 
@@ -118,7 +124,34 @@ class EvaluatorTest {
 
         assertNotNull(summary);
         assertEquals(10, summary.getTotalFixtures());
-        // Mock agent 应该能通过一部分测试
-        assertTrue(summary.getPassRate() >= 0.0);
+        // Mock agent 应该能通过 >= 50% 的测试
+        assertTrue(summary.getPassRate() >= 0.5, "Mock agent 通过率应该 >= 50%, 实际: " + String.format("%.0f%%", summary.getPassRate() * 100));
+    }
+
+    @Test
+    void testMockAgentEvaluation() throws Exception {
+        // 确保 evaluator 已注册
+        Class.forName("com.trip.backend.eval.evaluators.GeneralEvaluators");
+        Class.forName("com.trip.backend.eval.evaluators.DomainEvaluators");
+        Class.forName("com.trip.backend.eval.evaluators.MultiTurnEvaluators");
+
+        Path fixturesDir = Path.of("src/test/resources/eval/fixtures/trip-planning");
+        List<Fixture> fixtures = FixtureLoader.loadFromDirectory(fixturesDir);
+
+        assertEquals(13, EvaluatorRegistry.listAll().size());
+
+        Fixture first = fixtures.get(0);
+        AgentOutput output = MockAgent.run(first);
+
+        // 验证至少部分 evaluator 通过
+        int passCount = 0;
+        for (String evaluatorName : first.getEvaluators()) {
+            Optional<Evaluator> evaluatorOpt = EvaluatorRegistry.get(evaluatorName);
+            assertTrue(evaluatorOpt.isPresent(), "Evaluator should be registered: " + evaluatorName);
+            EvalResult result = evaluatorOpt.get().evaluate(output, first);
+            if (result.isPassed()) passCount++;
+        }
+
+        assertTrue(passCount > 0, "至少应该有一些 evaluator 通过");
     }
 }

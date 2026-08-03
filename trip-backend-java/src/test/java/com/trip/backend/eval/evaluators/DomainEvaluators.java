@@ -60,7 +60,7 @@ public class DomainEvaluators {
     );
 
     private static final Set<String> NEGATION_WORDS = Set.of(
-            "无", "不", "没", "避免", "拒绝", "排除", "慎", "禁",
+            "无", "不", "没", "避免", "避开", "拒绝", "排除", "慎", "禁",
             "已帮你排除", "已排除", "未标注", "未推荐", "不含", "不提供", "不涉及", "不会有", "全程无"
     );
 
@@ -327,7 +327,9 @@ public class DomainEvaluators {
         while (true) {
             idx = text.indexOf(keyword, idx);
             if (idx == -1) return false;
-            String context = text.substring(Math.max(0, idx - 12), idx + keyword.length() + 30);
+            int start = Math.max(0, idx - 12);
+            int end = Math.min(text.length(), idx + keyword.length() + 30);
+            String context = text.substring(start, end);
             boolean inContext = NEGATION_WORDS.stream().anyMatch(context::contains);
             if (inContext) return true;
             idx += keyword.length();
