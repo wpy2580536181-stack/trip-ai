@@ -79,6 +79,7 @@
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/config/CorsConfig.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/config/FilterOrderConfig.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/ChatController.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/ConversationController.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/HealthController.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/UserController.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/filter/GlobalRateLimitFilter.java

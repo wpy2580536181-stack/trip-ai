@@ -107,6 +107,7 @@ com/trip/backend/domain/repository/TokenUsageLogRepository.class
 com/trip/backend/domain/repository/SpotRepository.class
 com/trip/backend/web/filter/GlobalRateLimitFilter.class
 com/trip/backend/web/filter/RequestIdFilter.class
+com/trip/backend/web/controller/ConversationController.class
 com/trip/backend/domain/repository/UserRepository.class
 com/trip/backend/infra/resilience/ToolResilienceWrapper$Builder.class
 com/trip/backend/service/chat/EventSink.class
