@@ -1,0 +1,27 @@
+id: beijing-3days-halal-vegetarian
+description: 北京 3 天穆斯林旅客，验证 Agent 推荐清真餐厅 + 排除猪肉食材
+tags: [beijing, dietary, halal, edge-case]
+
+input:
+  message: "我是穆斯林，3 天去北京旅游，麻烦只推荐清真餐厅，别出现猪肉"
+
+expected:
+  city: "北京"
+  days: 3
+  spot_names:
+    - "故宫博物院"
+  must_contain_keywords: [清真]
+  keyword_match_mode: all
+  must_not_contain_keywords:
+    - 猪肉
+  json_valid: true
+  tool_calls:
+    - { name: "retrieve_knowledge", min_calls: 1 }
+
+evaluators:
+  - schema_check
+  - poi_city_match
+  - keyword_coverage
+  - dietary_constraint_check
+  - tool_call_audit
+  - no_forced_itinerary

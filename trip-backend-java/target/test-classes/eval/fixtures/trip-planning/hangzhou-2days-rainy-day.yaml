@@ -1,0 +1,26 @@
+id: hangzhou-2days-rainy-day
+description: 杭州 2 天突遇持续降雨，验证 Agent 主动调整方案为室内活动
+tags: [hangzhou, weather-adaptation, edge-case]
+
+input:
+  message: "我下周去杭州 2 天，看了天气预报一直下雨，帮我调整成室内为主的方案"
+
+expected:
+  city: "杭州"
+  days: 2
+  spot_names:
+    - "杭州西湖风景名胜区-断桥残雪"
+  must_contain_keywords: [雨, 室内]
+  must_not_contain_keywords:
+    - 骑行环湖
+    - 露天
+    - 草坪野餐
+  json_valid: true
+  tool_calls:
+    - { name: "retrieve_knowledge", min_calls: 1 }
+
+evaluators:
+  - poi_city_match
+  - keyword_coverage
+  - tool_call_audit
+  - no_forced_itinerary

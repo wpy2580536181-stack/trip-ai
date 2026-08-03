@@ -1,0 +1,28 @@
+id: chengdu-3days-foodie-relaxed
+description: 成都 3 天慢节奏美食之旅，验证基础行程生成 + 用户偏好生效
+tags: [smoke, chengdu, food, relaxed, basic]
+
+input:
+  message: "带父母去成都玩 3 天，他们喜欢慢节奏和美食"
+
+expected:
+  city: "成都"
+  days: 3
+  spot_names:
+    - "宽窄巷子"
+  must_contain_keywords: [茶]
+  must_not_contain_keywords: [酒吧, 夜店, 蹦极]
+  json_valid: true
+  max_activities_per_day: 4
+  tool_calls:
+    - { name: "retrieve_knowledge", min_calls: 1 }
+  keyword_match_mode: any
+
+evaluators:
+  - schema_check
+  - poi_city_match
+  - keyword_coverage
+  - tool_call_audit
+  - pace_consistency
+  - no_forced_itinerary
+  - ragas

@@ -1,0 +1,30 @@
+id: multi-turn-destination-change
+description: 多轮对话：第一轮问成都 → 用户改主意去重庆，验证 Agent 跟随最新指令
+tags: [multi-turn, context, override]
+
+input:
+  message: "那改成重庆吧，2 天"
+  history:
+    - role: user
+      content: "成都 3 天行程"
+    - role: assistant
+      content: "好的，我帮你规划成都 3 天的行程，以下是推荐方案：\n\nDay 1: 宽窄巷子 → 锦里 → 武侯祠\nDay 2: 大熊猫基地 → 春熙路\nDay 3: 都江堰一日游"
+
+expected:
+  city: "重庆"
+  days: 2
+  spot_names:
+    - "解放碑步行街"
+    - "洪崖洞民俗风貌区"
+  must_not_contain_keywords: [宽窄巷子, 锦里, 春熙路]
+  json_valid: true
+  tool_calls:
+    - { name: "retrieve_knowledge", min_calls: 1 }
+
+evaluators:
+  - schema_check
+  - poi_city_match
+  - destination_override
+  - context_memory
+  - tool_call_audit
+  - no_forced_itinerary

@@ -1,0 +1,25 @@
+id: tokyo-5days-budget-tight
+description: 东京 5 天学生党穷游，验证多天行程 + 预算约束 + 跨语言 POI
+tags: [tokyo, budget, multi-day, international]
+
+input:
+  message: "学生党东京 5 天，总预算 5000 块，怎么安排省钱又玩得到位？"
+
+expected:
+  city: "东京"
+  days: 5
+  spot_names:
+    - "浅草寺"
+    - "秋叶原"
+  must_contain_keywords: [地铁, 便利店, 拉面, 电铁, 省钱]
+  keyword_match_mode: all
+  must_not_contain_keywords: [米其林, 五星, 高级酒店]
+  json_valid: true
+  tool_calls:
+    - { name: "retrieve_knowledge", min_calls: 1, max_calls: 5 }
+
+evaluators:
+  - poi_city_match
+  - keyword_coverage
+  - tool_call_audit
+  - no_forced_itinerary

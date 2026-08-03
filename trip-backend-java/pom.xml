@@ -154,6 +154,13 @@
             <optional>true</optional>
         </dependency>
 
+        <!-- SnakeYAML (for eval fixtures) -->
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>2.2</version>
+        </dependency>
+
         <!-- Test -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
