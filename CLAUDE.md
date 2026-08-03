@@ -78,12 +78,12 @@
 
 ---
 
-## 6. 前置任务清单（未完成）
+## 6. 前置任务清单
 
 - [x] **§6.1 现有库实测**：验证 12 表现状、HNSW 索引参数、password_resets 表状态 ✅
-- [ ] **§6.2 bcrypt 互认测试**：确认 Java jBCrypt 12 rounds 与 Python 现有密码哈希互认
-- [ ] **§6.3 LLM Spike**：验证 langchain4j 1.x 流式 tool_calls + usage 提取能力
-- [ ] **§6.4 ONNX 导出验证**：bge-small-zh-v1.5 和 bge-reranker-base ONNX 导出 + tokenizer 移植
+- [x] **§6.2 bcrypt 互认测试**：确认 Java jBCrypt 12 rounds 与 Python 现有密码哈希互认 ✅
+- [x] **§6.3 LLM Spike**：验证 langchain4j 1.x 流式 tool_calls + usage 提取能力 ✅
+- [x] **§6.4 ONNX 导出验证**：bge-small-zh-v1.5 和 bge-reranker-base ONNX 导出 + tokenizer 移植 ✅
 - [x] **A1-A4 工程基建** ✅
 - [x] **B1-B7 用户/CRUD（11 表 + 43 端点）** ✅
 - [x] **C0 TaskQueue + C1 Embedder/Reranker 接口** ✅
