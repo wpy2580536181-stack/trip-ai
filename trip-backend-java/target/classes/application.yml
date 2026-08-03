@@ -104,7 +104,7 @@ concurrency:
 # Rate Limiting
 rate-limit:
   auth:
-    max: 1000
+    max: 10
     window-seconds: 900
   global:
     max: 2000

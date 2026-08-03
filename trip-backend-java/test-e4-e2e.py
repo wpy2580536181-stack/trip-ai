@@ -13,7 +13,7 @@ from typing import Optional
 
 # 配置
 JAVA_BACKEND_URL = "http://localhost:8000"
-E2E_USERNAME = "eval-test"
+E2E_USERNAME = "e4test"
 E2E_PASSWORD = "EvalTest@2026"
 
 
@@ -30,9 +30,23 @@ class E2ETestRunner:
         """初始化客户端并登录"""
         self.client = httpx.AsyncClient(base_url=self.base_url, timeout=30)
 
+        # 先尝试注册（如果用户已存在会失败，忽略）
+        try:
+            register_resp = await self.client.post("/api/user/register", json={
+                "username": E2E_USERNAME,
+                "email": f"{E2E_USERNAME}@example.com",
+                "password": E2E_PASSWORD
+            })
+            if register_resp.status_code in (200, 201):
+                print(f"✅ 注册新用户: {E2E_USERNAME}")
+            elif register_resp.status_code == 400:
+                print(f"ℹ️  用户已存在: {E2E_USERNAME}")
+        except Exception as e:
+            print(f"⚠️  注册失败（忽略）: {e}")
+
         # 登录获取 token
         resp = await self.client.post("/api/user/login", json={
-            "username": E2E_USERNAME,
+            "identifier": E2E_USERNAME,
             "password": E2E_PASSWORD
         })
 
