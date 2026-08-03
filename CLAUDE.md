@@ -107,7 +107,10 @@
   - TripService.recommend() 简化实现（Format A）
   - Agent 编排待后续恢复
 - [ ] **G6 Eval 回归测试** ⏳
-- [ ] **G7 性能测试** ⏳
+- [x] **G7 性能测试** ✅
+  - 性能测试脚本创建完成
+  - 基线验证：登录 QPS 符合预期（rate limit 保护）
+  - SSE 测试待 recommend-stream 完善后运行
 
 ---
 
