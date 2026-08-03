@@ -2,6 +2,7 @@ package com.trip.backend.web.sse;
 
 import jakarta.servlet.ServletOutputStream;
 import jakarta.servlet.http.HttpServletResponse;
+import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 
 import java.io.IOException;
 import java.io.OutputStreamWriter;
@@ -122,5 +123,13 @@ public class SseWriter {
      */
     public void sendHeartbeat() {
         send(SseEvent.of(null, "heartbeat", "{\"type\":\"heartbeat\"}"));
+    }
+
+    /**
+     * 附加到已有的 SseEmitter（用于外部创建的场景）
+     */
+    public void attach(SseEmitter emitter) {
+        // G4 简化实现：暂无操作
+        // TODO: D8 后补充真正的 attach 逻辑
     }
 }
