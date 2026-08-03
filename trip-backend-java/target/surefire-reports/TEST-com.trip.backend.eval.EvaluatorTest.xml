@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.trip.backend.eval.EvaluatorTest" time="0.132" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.trip.backend.eval.EvaluatorTest" time="0.159" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="26"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CN"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/wang/Documents/trip/trip-backend-java/target/surefire/surefirebooter-20260803234303901_3.jar /Users/wang/Documents/trip/trip-backend-java/target/surefire 2026-08-03T23-43-03_871-jvmRun1 surefire-20260803234303901_1tmp surefire_0-20260803234303901_2tmp"/>
+    <property name="sun.java.command" value="/Users/wang/Documents/trip/trip-backend-java/target/surefire/surefirebooter-20260803234519296_3.jar /Users/wang/Documents/trip/trip-backend-java/target/surefire 2026-08-03T23-45-19_265-jvmRun1 surefire-20260803234519296_1tmp surefire_0-20260803234519296_2tmp"/>
     <property name="http.nonProxyHosts" value="127.0.0.1|192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|localhost|*.localhost|local|*.local|crashlytics.com|*.crashlytics.com|&lt;local&gt;|*.&lt;local&gt;"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="EvaluatorTest"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/wang/Documents/trip/trip-backend-java/target/surefire/surefirebooter-20260803234303901_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/wang/Documents/trip/trip-backend-java/target/surefire/surefirebooter-20260803234519296_3.jar"/>
     <property name="user.script" value="Hans"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="127.0.0.1|192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|localhost|*.localhost|local|*.local|crashlytics.com|*.crashlytics.com|&lt;local&gt;|*.&lt;local&gt;"/>
@@ -62,23 +62,24 @@
     <property name="socksNonProxyHosts" value="127.0.0.1|192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|localhost|*.localhost|local|*.local|crashlytics.com|*.crashlytics.com|&lt;local&gt;|*.&lt;local&gt;"/>
     <property name="java.class.version" value="70.0"/>
   </properties>
-  <testcase name="testFixtureLoader" classname="com.trip.backend.eval.EvaluatorTest" time="0.082"/>
-  <testcase name="testSchemaCheck" classname="com.trip.backend.eval.EvaluatorTest" time="0.002"/>
-  <testcase name="testEvaluatorRegistry" classname="com.trip.backend.eval.EvaluatorTest" time="0.002"/>
-  <testcase name="testEvalRunner" classname="com.trip.backend.eval.EvaluatorTest" time="0.032">
-    <system-out><![CDATA[  ✓ PASS  beijing-3days-halal-vegetarian                 16ms
+  <testcase name="testFixtureLoader" classname="com.trip.backend.eval.EvaluatorTest" time="0.077"/>
+  <testcase name="testSchemaCheck" classname="com.trip.backend.eval.EvaluatorTest" time="0.001"/>
+  <testcase name="testEvaluatorRegistry" classname="com.trip.backend.eval.EvaluatorTest" time="0.001"/>
+  <testcase name="testEvalRunner" classname="com.trip.backend.eval.EvaluatorTest" time="0.031">
+    <system-out><![CDATA[  ✓ PASS  beijing-3days-halal-vegetarian                 15ms
   ✗ FAIL  chengdu-3days-foodie-relaxed                   0ms
-  ✓ PASS  hangzhou-2days-rainy-day                       0ms
+  ✓ PASS  hangzhou-2days-rainy-day                       1ms
   ✓ PASS  multi-turn-destination-change                  0ms
   ✗ FAIL  multi-turn-detail-question                     1ms
   ✗ FAIL  non-travel-question-refused                    1ms
-  ✗ FAIL  rejection-no-trip-output                       1ms
+  ✗ FAIL  rejection-no-trip-output                       0ms
   ✗ FAIL  shanghai-2days-with-pet                        0ms
   ✓ PASS  tokyo-5days-budget-tight                       1ms
   ✓ PASS  xian-2days-family-kid                          0ms
 ]]></system-out>
   </testcase>
+  <testcase name="testRealAgentCompilation" classname="com.trip.backend.eval.EvaluatorTest" time="0.035"/>
   <testcase name="testMockAgentEvaluation" classname="com.trip.backend.eval.EvaluatorTest" time="0.005"/>
-  <testcase name="testKeywordCoverage" classname="com.trip.backend.eval.EvaluatorTest" time="0.0"/>
+  <testcase name="testKeywordCoverage" classname="com.trip.backend.eval.EvaluatorTest" time="0.001"/>
   <testcase name="testKeywordCoverageFail" classname="com.trip.backend.eval.EvaluatorTest" time="0.0"/>
 </testsuite>

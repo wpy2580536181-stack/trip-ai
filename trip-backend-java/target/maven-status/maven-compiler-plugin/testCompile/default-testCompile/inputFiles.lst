@@ -3,6 +3,7 @@
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/EvaluatorTest.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/Main.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/agents/MockAgent.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/agents/RealAgent.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/evaluators/DomainEvaluators.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/evaluators/GeneralEvaluators.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/evaluators/MultiTurnEvaluators.java
@@ -10,6 +11,7 @@
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/registry/EvaluatorRegistry.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/runner/ConsolePrinter.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/runner/EvalRunner.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/runner/MultiSampleRunner.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/types/AgentOutput.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/types/EvalResult.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/types/Fixture.java
@@ -22,6 +24,7 @@
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/types/TokenUsage.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/types/ToolCall.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/types/ToolCallRule.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/util/SseParser.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/bcrypt/BcryptCompatibilityTest.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/llm/Langchain4jSpikeTest.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/onnx/OnnxExportValidationTest.java

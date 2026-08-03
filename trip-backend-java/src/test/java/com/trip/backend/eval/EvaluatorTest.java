@@ -6,6 +6,7 @@ import com.trip.backend.eval.runner.EvalRunner;
 import com.trip.backend.eval.runner.ConsolePrinter;
 import com.trip.backend.eval.registry.EvaluatorRegistry;
 import com.trip.backend.eval.agents.MockAgent;
+import com.trip.backend.eval.agents.RealAgent;
 import com.trip.backend.eval.types.AgentOutput;
 import com.trip.backend.eval.types.EvalResult;
 import com.trip.backend.eval.types.Fixture;
@@ -153,5 +154,12 @@ class EvaluatorTest {
         }
 
         assertTrue(passCount > 0, "至少应该有一些 evaluator 通过");
+    }
+
+    @Test
+    void testRealAgentCompilation() {
+        // 测试 RealAgent 可以实例化（不实际调用后端）
+        RealAgent agent = new RealAgent("http://localhost:8080");
+        assertNotNull(agent);
     }
 }

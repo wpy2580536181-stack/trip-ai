@@ -2,10 +2,12 @@ com/trip/backend/test/llm/Langchain4jSpikeTest$2.class
 com/trip/backend/eval/evaluators/GeneralEvaluators.class
 com/trip/backend/eval/types/ToolCall.class
 com/trip/backend/eval/types/Fixture.class
+com/trip/backend/eval/util/SseParser.class
 com/trip/backend/eval/agents/MockAgent.class
 com/trip/backend/eval/loader/FixtureLoader.class
 com/trip/backend/eval/types/AgentOutput.class
 com/trip/backend/eval/Evaluator.class
+com/trip/backend/eval/util/SseParser$SseEvent.class
 com/trip/backend/eval/evaluators/MultiTurnEvaluators.class
 com/trip/backend/eval/types/TokenUsage.class
 com/trip/backend/eval/evaluators/DomainEvaluators.class
@@ -18,6 +20,7 @@ com/trip/backend/eval/evaluators/DomainEvaluators$DietaryRule.class
 com/trip/backend/eval/types/FixtureExpected.class
 com/trip/backend/eval/evaluators/DomainEvaluators$DietaryPattern.class
 com/trip/backend/eval/types/ToolCallRule.class
+com/trip/backend/eval/runner/MultiSampleRunner.class
 com/trip/backend/test/llm/Langchain4jSpikeTest$1.class
 com/trip/backend/eval/Main.class
 com/trip/backend/eval/types/FixtureResult.class
@@ -29,3 +32,4 @@ com/trip/backend/eval/types/PoiMatch.class
 com/trip/backend/eval/runner/ConsolePrinter.class
 com/trip/backend/eval/types/ReportSummary.class
 com/trip/backend/eval/types/EvalResult.class
+com/trip/backend/eval/agents/RealAgent.class
