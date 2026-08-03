@@ -101,7 +101,13 @@
 - [x] **D4 ChatController + EventSink + 消息落库 + 非旅行短路** ✅
 - [x] **D5 工具层（CircuitBreaker + 6 个业务工具）** ✅
 - [x] **D6 高德 MCP 客户端 + guards + mcp-stats** ✅
-- [x] **P0/P1 问题修复（16 项）** ✅
+- [x] **D8 真实 LLM 调用实现** ✅
+- [x] **G4 完整验证（简化实现）** ✅
+  - TripController 4 个端点实现
+  - TripService.recommend() 简化实现（Format A）
+  - Agent 编排待后续恢复
+- [ ] **G6 Eval 回归测试** ⏳
+- [ ] **G7 性能测试** ⏳
 
 ---
 
@@ -121,9 +127,23 @@
 ---
 
 **创建时间**：2026-08-01
-**最后更新**：2026-08-02
+**最后更新**：2026-08-03
 
 ### D8 完成记录
 - **[D8] 真实 LLM 调用实现**：Langchain4jLlmClient 支持基础/流式/工具调用
 - **验证结果**：7/7 测试通过（包括真实 DeepSeek API 调用）
+- **完成时间**：2026-08-03
+
+### G4 完成记录
+- **[G4] TripController + 简化实现**：4 个端点 + TripService.recommend() 简化版
+- **完成内容**：
+  - ✅ TripController：POST /api/trip/recommend（Format A）
+  - ✅ TripController：POST /api/trip/recommend-stream（SSE 简化）
+  - ✅ TripController：POST /api/trip/{id}/confirm（状态机）
+  - ✅ TripController：POST /api/trip/{id}/discard（状态机）
+  - ✅ TripService.recommend() 返回 Format A 格式
+- **已知限制**：
+  - ⚠️ Agent 编排未完全恢复（D7/D8 API 不兼容）
+  - ⚠️ SSE 流式透传待完善
+  - ⚠️ 工具类待 C2/C3/D5/D6 恢复
 - **完成时间**：2026-08-03
