@@ -36,7 +36,6 @@ com/trip/backend/eval/evaluators/DomainEvaluators$DietaryRule.class
 com/trip/backend/eval/types/FixtureExpected.class
 com/trip/backend/eval/runner/MultiSampleRunner.class
 com/trip/backend/test/llm/Langchain4jSpikeTest$1.class
-com/trip/backend/web/controller/HistoryControllerIntegrationTest.class
 com/trip/backend/eval/types/FixtureInput.class
 com/trip/backend/eval/EvaluatorTest.class
 com/trip/backend/eval/runner/EvalRunner.class

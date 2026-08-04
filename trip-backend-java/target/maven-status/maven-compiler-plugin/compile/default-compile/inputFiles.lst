@@ -53,6 +53,7 @@
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/middleware/TokenMonitor.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/middleware/TokenTrackingCallback.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/middleware/TokenUsage.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/AdminService.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/CommuteService.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/ConversationService.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/FeedbackService.java
@@ -85,7 +86,9 @@
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/utils/AppException.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/config/CorsConfig.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/config/FilterOrderConfig.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/AdminController.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/ChatController.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/CommuteController.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/ConversationController.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/FeedbackController.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/HealthController.java
