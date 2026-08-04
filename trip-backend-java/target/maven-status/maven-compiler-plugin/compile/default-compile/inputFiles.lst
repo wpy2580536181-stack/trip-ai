@@ -56,6 +56,8 @@
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/CommuteService.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/ConversationService.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/FeedbackService.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/HistoryService.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/KnowledgeRagService.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/KnowledgeService.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/StatsService.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/SummaryService.java
@@ -86,6 +88,8 @@
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/ChatController.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/ConversationController.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/HealthController.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/HistoryController.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/KnowledgeController.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/TripController.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/controller/UserController.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/web/filter/GlobalRateLimitFilter.java
