@@ -65,9 +65,9 @@ public class KnowledgeService {
         PageRequest pageable = PageRequest.of(page - 1, pageSize);
 
         if (city != null && !city.isEmpty() && sourceType != null && !sourceType.isEmpty()) {
-            return spotDocRepository.findBySpot_CityAndSourceType(city, sourceType, pageable);
+            return spotDocRepository.findByCityAndSourceTypeUsingJoin(city, sourceType, pageable);
         } else if (city != null && !city.isEmpty()) {
-            return spotDocRepository.findBySpot_City(city, pageable);
+            return spotDocRepository.findByCityUsingJoin(city, pageable);
         } else if (sourceType != null && !sourceType.isEmpty()) {
             return spotDocRepository.findBySourceType(sourceType, pageable);
         } else {

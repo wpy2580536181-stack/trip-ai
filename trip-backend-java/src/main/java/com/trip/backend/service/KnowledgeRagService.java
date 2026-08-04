@@ -122,7 +122,7 @@ public class KnowledgeRagService {
      */
     public Page<SpotDoc> getSpotDocs(String city, String sourceType, int page, int pageSize) {
         if (sourceType != null && !sourceType.isBlank()) {
-            return spotDocRepository.findBySpot_CityAndSourceType(city, sourceType, PageRequest.of(page - 1, pageSize));
+            return spotDocRepository.findByCityAndSourceTypeUsingJoin(city, sourceType, PageRequest.of(page - 1, pageSize));
         }
         // TODO: 实现 city 过滤的 custom query
         return spotDocRepository.findAll(PageRequest.of(page - 1, pageSize));

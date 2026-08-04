@@ -7,8 +7,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import java.util.List;
-
 /**
  * SpotDoc Repository
  */
@@ -16,9 +14,13 @@ public interface SpotDocRepository extends JpaRepository<SpotDoc, Long> {
 
     Page<SpotDoc> findBySpotId(Long spotId, Pageable pageable);
 
-    Page<SpotDoc> findBySpot_City(String city, Pageable pageable);
+    @Query("SELECT sd FROM SpotDoc sd JOIN Spot s ON sd.spotId = s.id WHERE s.city = :city")
+    Page<SpotDoc> findByCityUsingJoin(@Param("city") String city, Pageable pageable);
+
+    @Query("SELECT sd FROM SpotDoc sd JOIN Spot s ON sd.spotId = s.id WHERE s.city = :city AND sd.sourceType = :sourceType")
+    Page<SpotDoc> findByCityAndSourceTypeUsingJoin(@Param("city") String city,
+                                                   @Param("sourceType") String sourceType,
+                                                   Pageable pageable);
 
     Page<SpotDoc> findBySourceType(String sourceType, Pageable pageable);
-
-    Page<SpotDoc> findBySpot_CityAndSourceType(String city, String sourceType, Pageable pageable);
 }
