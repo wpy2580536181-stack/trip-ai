@@ -10,11 +10,14 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 /**
- * 知识库服务（对应 Python services/knowledge_service.py）
+ * Knowledge service（对应 Python services/knowledge_service.py）
+ * - 景点 CRUD
+ * - 文本层文档查询
  */
 @Service
 public class KnowledgeService {
@@ -28,105 +31,149 @@ public class KnowledgeService {
     }
 
     /**
-     * 获取景点列表（分页/城市/分类筛选）
+     * 获取景点列表（分页）
      */
+    @Transactional(readOnly = true)
     public Page<Spot> getSpots(String city, String category, int page, int pageSize) {
-        if (category != null && !category.isBlank()) {
-            return spotRepository.findByCityAndCategory(city, category, PageRequest.of(page - 1, pageSize));
+        PageRequest pageable = PageRequest.of(page - 1, pageSize);
+
+        if (city != null && !city.isEmpty() && category != null && !category.isEmpty()) {
+            return spotRepository.findByCityAndCategory(city, category, pageable);
+        } else if (city != null && !city.isEmpty()) {
+            return spotRepository.findByCity(city, pageable);
+        } else if (category != null && !category.isEmpty()) {
+            return spotRepository.findByCategory(category, pageable);
+        } else {
+            return spotRepository.findAll(pageable);
         }
-        return spotRepository.findByCity(city, PageRequest.of(page - 1, pageSize));
     }
 
     /**
      * 获取景点详情
      */
-    public Spot getSpot(Long id) {
-        return spotRepository.findById(id)
-            .orElseThrow(() -> AppException.notFound("景点不存在"));
+    @Transactional(readOnly = true)
+    public Spot getSpot(Long spotId) {
+        return spotRepository.findById(spotId)
+            .orElseThrow(() -> new AppException("景点不存在", 404));
+    }
+
+    /**
+     * 获取文本层文档块列表（分页）
+     */
+    @Transactional(readOnly = true)
+    public Page<SpotDoc> listSpotDocs(String city, String sourceType, int page, int pageSize) {
+        PageRequest pageable = PageRequest.of(page - 1, pageSize);
+
+        if (city != null && !city.isEmpty() && sourceType != null && !sourceType.isEmpty()) {
+            return spotDocRepository.findBySpot_CityAndSourceType(city, sourceType, pageable);
+        } else if (city != null && !city.isEmpty()) {
+            return spotDocRepository.findBySpot_City(city, pageable);
+        } else if (sourceType != null && !sourceType.isEmpty()) {
+            return spotDocRepository.findBySourceType(sourceType, pageable);
+        } else {
+            return spotDocRepository.findAll(pageable);
+        }
     }
 
     /**
      * 创建景点
      */
     @Transactional
-    public Spot createSpot(Map<String, Object> data) {
+    public Spot createSpot(Map<String, Object> spotData) {
         Spot spot = Spot.create(
-            (String) data.get("name"),
-            (String) data.get("city"),
-            (String) data.get("category")
+            (String) spotData.get("name"),
+            (String) spotData.get("city"),
+            (String) spotData.get("category")
         );
-        spot.setCategory((String) data.get("category"));
-        spot.setDescription((String) data.get("description"));
-        spot.setTags((Map<String, Object>) data.get("tags"));
-        spot.setAvgCost(data.get("avg_cost") != null ? ((Number) data.get("avg_cost")).intValue() : null);
-        spot.setDuration(data.get("duration") != null ? ((Number) data.get("duration")).intValue() : null);
-        spot.setOpenTime((String) data.get("open_time"));
-        spot.setRating(data.get("rating") != null ? ((Number) data.get("rating")).doubleValue() : null);
-        return spotRepository.save(spot);
-    }
+        spot.setDescription((String) spotData.get("description"));
+        spot.setTags((Map<String, Object>) spotData.get("tags"));
+        spot.setAvgCost((Integer) spotData.get("avgCost"));
+        spot.setDuration((Integer) spotData.get("duration"));
+        spot.setOpenTime((String) spotData.get("openTime"));
+        spot.setRating((Double) spotData.get("rating"));
 
-    /**
-     * 批量创建景点（bulk import）
-     */
-    @Transactional
-    public BulkResult bulkCreateSpots(List<Map<String, Object>> spotsData) {
-        int success = 0;
-        int failed = 0;
-
-        for (Map<String, Object> data : spotsData) {
-            try {
-                createSpot(data);
-                success++;
-            } catch (Exception e) {
-                failed++;
-            }
-        }
-
-        return new BulkResult(success, failed);
+        spotRepository.save(spot);
+        // TODO: 异步计算 embedding
+        return spot;
     }
 
     /**
      * 更新景点
      */
     @Transactional
-    public Spot updateSpot(Long id, Map<String, Object> data) {
-        Spot spot = spotRepository.findById(id)
-            .orElseThrow(() -> AppException.notFound("景点不存在"));
+    public Spot updateSpot(Long spotId, Map<String, Object> updates) {
+        Spot spot = getSpot(spotId);
 
-        if (data.containsKey("name")) spot.setName((String) data.get("name"));
-        if (data.containsKey("city")) spot.setCity((String) data.get("city"));
-        if (data.containsKey("category")) spot.setCategory((String) data.get("category"));
-        if (data.containsKey("description")) spot.setDescription((String) data.get("description"));
-        if (data.containsKey("tags")) spot.setTags((Map<String, Object>) data.get("tags"));
-        if (data.containsKey("avg_cost")) spot.setAvgCost(((Number) data.get("avg_cost")).intValue());
-        if (data.containsKey("duration")) spot.setDuration(((Number) data.get("duration")).intValue());
-        if (data.containsKey("open_time")) spot.setOpenTime((String) data.get("open_time"));
-        if (data.containsKey("rating")) spot.setRating(((Number) data.get("rating")).doubleValue());
+        // 更新字段
+        updates.forEach((key, value) -> {
+            switch (key) {
+                case "name" -> spot.setName((String) value);
+                case "city" -> spot.setCity((String) value);
+                case "category" -> spot.setCategory((String) value);
+                case "description" -> spot.setDescription((String) value);
+                case "tags" -> spot.setTags((Map<String, Object>) value);
+                case "avgCost" -> spot.setAvgCost((Integer) value);
+                case "duration" -> spot.setDuration((Integer) value);
+                case "openTime" -> spot.setOpenTime((String) value);
+                case "rating" -> spot.setRating((Double) value);
+            }
+        });
 
-        return spotRepository.save(spot);
+        // TODO: 异步重新计算 embedding
+        return spot;
     }
 
     /**
      * 删除景点
      */
     @Transactional
-    public void deleteSpot(Long id) {
-        if (!spotRepository.existsById(id)) {
-            throw AppException.notFound("景点不存在");
-        }
-        spotRepository.deleteById(id);
+    public void deleteSpot(Long spotId) {
+        Spot spot = getSpot(spotId);
+        spotRepository.delete(spot);
     }
 
     /**
-     * 获取 spot-docs（分页/城市/来源类型筛选 + chroma 状态）
+     * 批量导入景点
      */
-    public Page<SpotDoc> getSpotDocs(String city, String sourceType, int page, int pageSize) {
-        if (sourceType != null && !sourceType.isBlank()) {
-            return spotDocRepository.findByCityAndSourceType(city, sourceType, PageRequest.of(page - 1, pageSize));
-        }
-        // TODO: 实现 city 过滤的 custom query
-        return spotDocRepository.findAll(PageRequest.of(page - 1, pageSize));
-    }
+    @Transactional
+    public Map<String, Object> bulkImportSpots(List<Map<String, Object>> spotsData) {
+        int total = spotsData.size();
+        int success = 0;
+        int failed = 0;
+        StringBuilder errors = new StringBuilder();
 
-    public record BulkResult(int success, int failed) {}
+        for (int i = 0; i < spotsData.size(); i++) {
+            Map<String, Object> data = spotsData.get(i);
+            String spotName = (String) data.getOrDefault("name", "unknown-" + i);
+
+            try {
+                Spot spot = Spot.create(
+                    (String) data.get("name"),
+                    (String) data.get("city"),
+                    (String) data.get("category")
+                );
+                spot.setDescription((String) data.get("description"));
+                spot.setTags((Map<String, Object>) data.get("tags"));
+                spot.setAvgCost((Integer) data.get("avgCost"));
+                spot.setDuration((Integer) data.get("duration"));
+                spot.setOpenTime((String) data.get("openTime"));
+                spot.setRating((Double) data.get("rating"));
+
+                spotRepository.save(spot);
+                success++;
+
+            } catch (Exception e) {
+                failed++;
+                errors.append(String.format("%s: %s; ", spotName, e.getMessage()));
+            }
+        }
+
+        Map<String, Object> result = new HashMap<>();
+        result.put("success", success);
+        result.put("failed", failed);
+        result.put("total", total);
+        result.put("errors", errors.toString());
+
+        return result;
+    }
 }

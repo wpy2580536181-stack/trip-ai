@@ -19,6 +19,8 @@ public interface SpotRepository extends JpaRepository<Spot, Long> {
 
     Page<Spot> findByCity(String city, Pageable pageable);
 
+    Page<Spot> findByCategory(String category, Pageable pageable);
+
     Optional<Spot> findByIdAndCity(Long id, String city);
 
     @Query("SELECT COUNT(s) FROM Spot s WHERE s.city = :city")

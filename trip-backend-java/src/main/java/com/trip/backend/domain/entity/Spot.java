@@ -200,4 +200,8 @@ public class Spot {
         spot.setCategory(category);
         return spot;
     }
+
+    public boolean hasEmbedding() {
+        return false;
+    }
 }
