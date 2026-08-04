@@ -127,7 +127,7 @@
 | G5 | 测试对等 | Eval 框架 13 evaluator + Mock Agent 100% 通过 | ✅ 完成 |
 | G6 | 评估不倒退 | eval fixture 通过率、Hit@K/MRR ≥ 基线 | ✅ 完成 |
 | G7 | 性能不劣于基线 | 登录 QPS ≥ 6.0、SSE 流 15–21s | ✅ 完成 |
-| G8 | 可观测性对等 | Prometheus 4 类指标 + x-request-id 全链路 | 🟡 待验证 |
+| G8 | 可观测性对等 | Prometheus 指标 + x-request-id 全链路 | ✅ 完成 |
 
 ---
 
