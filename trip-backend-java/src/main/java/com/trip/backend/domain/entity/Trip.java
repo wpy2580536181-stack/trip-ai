@@ -23,36 +23,37 @@ public class Trip {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Long id;
 
-    @Column(nullable = false)
+    @Column(nullable = false, name = "user_id")
     private Long userId;
 
-    @Column(length = 100)
+    @Column(length = 100, name = "from_city")
     private String fromCity;
 
-    @Column(nullable = false, length = 100)
+    @Column(nullable = false, length = 100, name = "city")
     private String city;
 
-    @Column(nullable = false)
+    @Column(nullable = false, name = "days")
     private Integer days;
 
-    @Column(nullable = false)
+    @Column(nullable = false, name = "budget")
     private Integer budget;
 
     // JSONB 列
     @JdbcTypeCode(SqlTypes.JSON)
-    @Column(columnDefinition = "json")
+    @Column(columnDefinition = "json", name = "content")
     private Map<String, Object> content;
 
-    @Column(nullable = false, length = 50)
+    @Column(nullable = false, length = 50, name = "status")
     private String status = "completed"; // candidate / completed / discarded
 
     // 版本链（自引用）
     @Column(name = "parent_trip_id")
     private Long parentTripId;
 
-    @Column(nullable = false)
+    @Column(nullable = false, name = "created_at")
     private OffsetDateTime createdAt;
 
     // 无 updated_at
