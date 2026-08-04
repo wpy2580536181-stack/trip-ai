@@ -144,7 +144,7 @@ public class KnowledgeController {
             @RequestBody Map<String, Object> spotData,
             HttpServletRequest request) {
 
-        Spot spot = new Spot();
+        Spot spot = Spot.create(null, null, null);
         spot.setName((String) spotData.get("name"));
         spot.setCity((String) spotData.get("city"));
         spot.setCategory((String) spotData.get("category"));

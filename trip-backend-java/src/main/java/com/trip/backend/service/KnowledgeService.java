@@ -15,9 +15,9 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Knowledge service（对应 Python services/knowledge_service.py）
+ * Knowledge service（简化版）
  * - 景点 CRUD
- * - 文本层文档查询
+ * - 文档查询
  */
 @Service
 public class KnowledgeService {
@@ -31,7 +31,7 @@ public class KnowledgeService {
     }
 
     /**
-     * 获取景点列表（分页）
+     * 获取景点列表
      */
     @Transactional(readOnly = true)
     public Page<Spot> getSpots(String city, String category, int page, int pageSize) {
@@ -58,7 +58,7 @@ public class KnowledgeService {
     }
 
     /**
-     * 获取文本层文档块列表（分页）
+     * 获取文档列表
      */
     @Transactional(readOnly = true)
     public Page<SpotDoc> listSpotDocs(String city, String sourceType, int page, int pageSize) {
@@ -79,21 +79,20 @@ public class KnowledgeService {
      * 创建景点
      */
     @Transactional
-    public Spot createSpot(Map<String, Object> spotData) {
+    public Spot createSpot(Map<String, Object> data) {
         Spot spot = Spot.create(
-            (String) spotData.get("name"),
-            (String) spotData.get("city"),
-            (String) spotData.get("category")
+            (String) data.get("name"),
+            (String) data.get("city"),
+            (String) data.get("category")
         );
-        spot.setDescription((String) spotData.get("description"));
-        spot.setTags((Map<String, Object>) spotData.get("tags"));
-        spot.setAvgCost((Integer) spotData.get("avgCost"));
-        spot.setDuration((Integer) spotData.get("duration"));
-        spot.setOpenTime((String) spotData.get("openTime"));
-        spot.setRating((Double) spotData.get("rating"));
+        spot.setDescription((String) data.get("description"));
+        spot.setTags((Map<String, Object>) data.get("tags"));
+        spot.setAvgCost((Integer) data.get("avgCost"));
+        spot.setDuration((Integer) data.get("duration"));
+        spot.setOpenTime((String) data.get("openTime"));
+        spot.setRating((Double) data.get("rating"));
 
         spotRepository.save(spot);
-        // TODO: 异步计算 embedding
         return spot;
     }
 
@@ -104,7 +103,6 @@ public class KnowledgeService {
     public Spot updateSpot(Long spotId, Map<String, Object> updates) {
         Spot spot = getSpot(spotId);
 
-        // 更新字段
         updates.forEach((key, value) -> {
             switch (key) {
                 case "name" -> spot.setName((String) value);
@@ -119,7 +117,6 @@ public class KnowledgeService {
             }
         });
 
-        // TODO: 异步重新计算 embedding
         return spot;
     }
 
@@ -144,7 +141,7 @@ public class KnowledgeService {
 
         for (int i = 0; i < spotsData.size(); i++) {
             Map<String, Object> data = spotsData.get(i);
-            String spotName = (String) data.getOrDefault("name", "unknown-" + i);
+            String name = (String) data.getOrDefault("name", "unknown-" + i);
 
             try {
                 Spot spot = Spot.create(
@@ -161,10 +158,9 @@ public class KnowledgeService {
 
                 spotRepository.save(spot);
                 success++;
-
             } catch (Exception e) {
                 failed++;
-                errors.append(String.format("%s: %s; ", spotName, e.getMessage()));
+                errors.append(name).append(": ").append(e.getMessage()).append("; ");
             }
         }
 
