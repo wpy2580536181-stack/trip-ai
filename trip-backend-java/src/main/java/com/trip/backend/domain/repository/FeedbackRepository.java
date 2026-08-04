@@ -18,6 +18,8 @@ public interface FeedbackRepository extends JpaRepository<Feedback, Long> {
 
     Optional<Feedback> findByUserIdAndMessageId(Long userId, Long messageId);
 
+    Page<Feedback> findByMessageId(Long messageId, Pageable pageable);
+
     @Query("SELECT COUNT(f) FROM Feedback f WHERE f.messageId = :messageId")
     long countByMessageId(@Param("messageId") Long messageId);
 

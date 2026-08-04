@@ -144,20 +144,7 @@ public class KnowledgeController {
             @RequestBody Map<String, Object> spotData,
             HttpServletRequest request) {
 
-        Spot spot = Spot.create(null, null, null);
-        spot.setName((String) spotData.get("name"));
-        spot.setCity((String) spotData.get("city"));
-        spot.setCategory((String) spotData.get("category"));
-        spot.setDescription((String) spotData.get("description"));
-        spot.setTags((Map<String, Object>) spotData.get("tags"));
-        spot.setAvgCost((Integer) spotData.get("avgCost"));
-        spot.setDuration((Integer) spotData.get("duration"));
-        spot.setOpenTime((String) spotData.get("openTime"));
-        spot.setRating((Double) spotData.get("rating"));
-
-        Spot created = knowledgeService.createSpot(spot);
-
-        Map<String, Object> data = toSpotMap(created);
+        Map<String, Object> data = knowledgeService.createSpot(spotData);
 
         if (FormatResolver.isFormatA(request)) {
             return ResponseEntity.status(HttpStatus.CREATED).body(Map.of("success", true, "data", data));
@@ -263,20 +250,12 @@ public class KnowledgeController {
             @RequestParam(name = "pageSize", defaultValue = "20") @Min(1) @Max(100) int pageSize,
             HttpServletRequest request) {
 
-        Page<Object[]> docPage = knowledgeService.listSpotDocs(city, sourceType, page, pageSize);
-
-        // 转换为响应格式
+        Page<SpotDoc> docPage = knowledgeService.listSpotDocs(city, sourceType, page, pageSize);
         List<Map<String, Object>> items = docPage.getContent().stream()
-            .map(row -> {
-                SpotDoc doc = (SpotDoc) row[0];
-                String spotName = (String) row[1];
-                String spotCity = (String) row[2];
-
+            .map(doc -> {
                 Map<String, Object> item = new HashMap<>();
                 item.put("id", doc.getId());
                 item.put("spotId", doc.getSpotId());
-                item.put("spotName", spotName);
-                item.put("city", spotCity);
                 item.put("sourceType", doc.getSourceType());
                 item.put("sourceName", doc.getSourceName());
                 item.put("sourceUrl", doc.getSourceUrl());
@@ -284,7 +263,6 @@ public class KnowledgeController {
                 item.put("content", doc.getContent());
                 item.put("chunkIndex", doc.getChunkIndex());
                 item.put("credibilityScore", doc.getCredibilityScore());
-                item.put("vectorId", null);
                 item.put("retrievedAt", doc.getRetrievedAt());
                 return item;
             })
@@ -295,23 +273,12 @@ public class KnowledgeController {
         data.put("total", docPage.getTotalElements());
         data.put("page", page);
         data.put("pageSize", pageSize);
-        data.put("chroma", Map.of("available", true, "spotDocsCount", null));
 
-        if (FormatResolver.isFormatA(request)) {
-            return ResponseEntity.ok(Map.of("success", true, "data", data));
-        } else {
-            return ResponseEntity.ok(Map.of(
-                "code", 200,
-                "data", data,
-                "message", "获取文本层文档成功",
-                "error", null
-            ));
-        }
+        return ResponseEntity.ok(FormatResolver.isFormatA(request) ?
+            Map.of("success", true, "data", data) :
+            Map.of("code", 200, "data", data, "message", "获取文本层文档成功", "error", null)
+        );
     }
-
-    /**
-     * 转换为响应 Map
-     */
     private Map<String, Object> toSpotMap(Spot spot) {
         Map<String, Object> map = new HashMap<>();
         map.put("id", spot.getId());

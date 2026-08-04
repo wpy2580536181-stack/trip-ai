@@ -79,7 +79,7 @@ public class KnowledgeService {
      * 创建景点
      */
     @Transactional
-    public Spot createSpot(Map<String, Object> data) {
+    public Map<String, Object> createSpot(Map<String, Object> data) {
         Spot spot = Spot.create(
             (String) data.get("name"),
             (String) data.get("city"),
@@ -93,7 +93,22 @@ public class KnowledgeService {
         spot.setRating((Double) data.get("rating"));
 
         spotRepository.save(spot);
-        return spot;
+
+        // 返回 Map
+        Map<String, Object> result = new HashMap<>();
+        result.put("id", spot.getId());
+        result.put("name", spot.getName());
+        result.put("city", spot.getCity());
+        result.put("category", spot.getCategory());
+        result.put("description", spot.getDescription());
+        result.put("tags", spot.getTags());
+        result.put("avgCost", spot.getAvgCost());
+        result.put("duration", spot.getDuration());
+        result.put("openTime", spot.getOpenTime());
+        result.put("rating", spot.getRating());
+        result.put("createdAt", spot.getCreatedAt());
+        result.put("updatedAt", null);
+        return result;
     }
 
     /**
