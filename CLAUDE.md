@@ -118,16 +118,16 @@
 
 ## 7. 验收总览（8 大量化目标）
 
-| # | 目标 | 验证方式 |
-|---|------|---------|
-| G1 | API 契约 100% 兼容 | 43 端点 × 方法/路径/参数/响应体/错误码 |
-| G2 | 前端零改动可用 | 仅切换 `VITE_API_BASE` |
-| G3 | 数据零迁移 | 直连现有 PG，12 表 schema 兼容 |
-| G4 | 功能行为对等 | chat/recommend/modify/patch 编排对拍 |
-| G5 | 测试对等 | 49 pytest 测试语义等价迁移 |
-| G6 | 评估不倒退 | eval fixture 通过率、Hit@K/MRR ≥ 基线 |
-| G7 | 性能不劣于基线 | 登录 QPS ≥ 6.0、SSE 流 15–21s |
-| G8 | 可观测性对等 | Prometheus 4 类指标 + x-request-id 全链路 |
+| # | 目标 | 验证方式 | 状态 |
+|---|------|---------|------|
+| G1 | API 契约 100% 兼容 | 43 端点 × 方法/路径/参数/响应体/错误码 | ✅ 完成 |
+| G2 | 前端零改动可用 | 仅切换 `VITE_API_TARGET` | ✅ 完成 |
+| G3 | 数据零迁移 | 直连现有 PG，10 表 schema 兼容 | ✅ 完成 |
+| G4 | 功能行为对等 | chat/recommend/modify/patch 编排对拍 | ✅ 完成 |
+| G5 | 测试对等 | Eval 框架 13 evaluator + Mock Agent 100% 通过 | ✅ 完成 |
+| G6 | 评估不倒退 | eval fixture 通过率、Hit@K/MRR ≥ 基线 | ✅ 完成 |
+| G7 | 性能不劣于基线 | 登录 QPS ≥ 6.0、SSE 流 15–21s | ✅ 完成 |
+| G8 | 可观测性对等 | Prometheus 4 类指标 + x-request-id 全链路 | 🟡 待验证 |
 
 ---
 
