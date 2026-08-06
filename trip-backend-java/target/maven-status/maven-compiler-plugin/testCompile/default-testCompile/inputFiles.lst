@@ -33,5 +33,9 @@
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/util/SseTestHelper.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/eval/util/TestAuthHelper.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/bcrypt/BcryptCompatibilityTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/integration/BaseIntegrationTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/integration/FeedbackControllerIntegrationTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/integration/TripControllerIntegrationTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/integration/UserControllerIntegrationTest.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/llm/Langchain4jSpikeTest.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/onnx/OnnxExportValidationTest.java

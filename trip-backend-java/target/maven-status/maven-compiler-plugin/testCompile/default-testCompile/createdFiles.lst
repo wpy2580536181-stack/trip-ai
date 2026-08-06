@@ -3,8 +3,10 @@ com/trip/backend/eval/types/ToolCall.class
 com/trip/backend/eval/types/Fixture.class
 com/trip/backend/eval/agents/MockAgent.class
 com/trip/backend/eval/loader/FixtureLoader.class
+com/trip/backend/test/integration/UserControllerIntegrationTest.class
 com/trip/backend/eval/types/AgentOutput.class
 com/trip/backend/eval/util/TestAuthHelper.class
+com/trip/backend/test/integration/FeedbackControllerIntegrationTest.class
 com/trip/backend/eval/util/SseParser$SseEvent.class
 com/trip/backend/eval/evaluators/MultiTurnEvaluators.class
 com/trip/backend/eval/types/TokenUsage.class
@@ -12,9 +14,11 @@ com/trip/backend/eval/registry/EvaluatorRegistry.class
 com/trip/backend/eval/RealAgentTest.class
 com/trip/backend/eval/EvalUtils.class
 com/trip/backend/test/bcrypt/BcryptCompatibilityTest.class
+com/trip/backend/test/integration/TripControllerIntegrationTest.class
 com/trip/backend/eval/evaluators/DomainEvaluators$DietaryPattern.class
 com/trip/backend/eval/types/ToolCallRule.class
 com/trip/backend/eval/Main.class
+com/trip/backend/test/integration/BaseIntegrationTest.class
 com/trip/backend/eval/util/SseTestHelper.class
 com/trip/backend/eval/RealAgentFullEvalTest.class
 com/trip/backend/eval/types/FixtureResult.class
