@@ -2,6 +2,7 @@ package com.trip.backend.config;
 
 import com.zaxxer.hikari.HikariDataSource;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
@@ -44,14 +45,16 @@ public class DatabaseConfig {
     }
 
     @Bean
-    public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource) {
+    public LocalContainerEntityManagerFactoryBean entityManagerFactory(
+            DataSource dataSource,
+            @Value("${spring.jpa.hibernate.ddl-auto:none}") String ddlAuto) {
         LocalContainerEntityManagerFactoryBean emf = new LocalContainerEntityManagerFactoryBean();
         emf.setDataSource(dataSource);
         emf.setPackagesToScan("com.trip.backend.domain.entity");
         emf.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
 
         HashMap<String, Object> jpaProps = new HashMap<>();
-        jpaProps.put("hibernate.hbm2ddl.auto", "update"); // H2 允许自动建表
+        jpaProps.put("hibernate.hbm2ddl.auto", ddlAuto);
         jpaProps.put("hibernate.show_sql", false);
         jpaProps.put("hibernate.format_sql", true);
 

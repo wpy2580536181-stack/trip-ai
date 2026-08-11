@@ -40,6 +40,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
     public JwtAuthFilter(@Value("${jwt.secret}") String secret,
                          UserRepository userRepository,
                          RoleRepository roleRepository) {
+        JwtUtil.validateSecret(secret);
         this.key = Keys.hmacShaKeyFor(secret.getBytes(StandardCharsets.UTF_8));
         this.userRepository = userRepository;
         this.roleRepository = roleRepository;
