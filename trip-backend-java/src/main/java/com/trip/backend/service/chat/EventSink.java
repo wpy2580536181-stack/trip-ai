@@ -1,9 +1,9 @@
 package com.trip.backend.service.chat;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.trip.backend.web.sse.SseEvent;
 import com.trip.backend.web.sse.SseWriter;
 import com.trip.backend.web.sse.StreamStore;
-import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 import java.util.Map;
@@ -16,11 +16,14 @@ import java.util.concurrent.ConcurrentHashMap;
  * - 双写：SSE + StreamStore
  * - 发送 stream_meta 元数据
  * - 心跳检测（空闲 15s）
+ *
+ * SseWriter 由当前 HTTP 请求创建并传入，EventSink 不持有请求级 Bean。
  */
 @Component
 public class EventSink {
 
-    private final SseWriter sseWriter;
+    private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
+
     private final StreamStore streamStore;
 
     // 追踪每条流的最后事件时间
@@ -29,8 +32,7 @@ public class EventSink {
     // 心跳间隔（毫秒）
     private static final long HEARTBEAT_INTERVAL_MS = 15_000;
 
-    public EventSink(@Lazy SseWriter sseWriter, StreamStore streamStore) {
-        this.sseWriter = sseWriter;
+    public EventSink(StreamStore streamStore) {
         this.streamStore = streamStore;
     }
 
@@ -41,7 +43,7 @@ public class EventSink {
      * @param eventType 事件类型
      * @param eventData 事件数据（JSON 字符串）
      */
-    public void sendEvent(String streamId, String eventType, String eventData) {
+    public void sendEvent(SseWriter sseWriter, String streamId, String eventType, String eventData) {
         try {
             // 1. 写入 SSE
             sseWriter.send(SseEvent.of(streamId, eventType, eventData));
@@ -60,51 +62,51 @@ public class EventSink {
     /**
      * 发送 stream_meta 元数据（首事件）
      */
-    public void sendStreamMeta(String streamId, String userId) {
+    public void sendStreamMeta(SseWriter sseWriter, String streamId, String userId) {
         String meta = String.format(
             "{\"streamId\":\"%s\",\"userId\":\"%s\",\"type\":\"meta\"}",
             streamId, userId
         );
-        sendEvent(streamId, "stream_meta", meta);
+        sendEvent(sseWriter, streamId, "stream_meta", meta);
     }
 
     /**
      * 发送 chunk（LLM 增量内容）
      */
-    public void sendChunk(String streamId, String content) {
+    public void sendChunk(SseWriter sseWriter, String streamId, String content) {
         String data = String.format("{\"content\":%s}", escapeJson(content));
-        sendEvent(streamId, "chunk", data);
+        sendEvent(sseWriter, streamId, "chunk", data);
     }
 
     /**
      * 发送 complete 事件（正常结束）
      */
-    public void sendComplete(String streamId, Object usage) {
+    public void sendComplete(SseWriter sseWriter, String streamId, Object usage) {
         String data = String.format("{\"usage\":%s}", toJson(usage));
-        sendEvent(streamId, "complete", data);
-        sendEnd(streamId);
+        sendEvent(sseWriter, streamId, "complete", data);
+        sendEnd(sseWriter, streamId);
     }
 
     /**
      * 发送 error 事件（异常结束）
      */
-    public void sendError(String streamId, String error) {
+    public void sendError(SseWriter sseWriter, String streamId, String error) {
         String data = String.format("{\"error\":%s}", escapeJson(error));
-        sendEvent(streamId, "error", data);
-        sendEnd(streamId);
+        sendEvent(sseWriter, streamId, "error", data);
+        sendEnd(sseWriter, streamId);
     }
 
     /**
      * 发送 heartbeat 心跳
      */
-    public void sendHeartbeat(String streamId) {
-        sendEvent(streamId, "heartbeat", "{\"type\":\"heartbeat\"}");
+    public void sendHeartbeat(SseWriter sseWriter, String streamId) {
+        sendEvent(sseWriter, streamId, "heartbeat", "{\"type\":\"heartbeat\"}");
     }
 
     /**
      * 发送 end 终止帧
      */
-    private void sendEnd(String streamId) {
+    private void sendEnd(SseWriter sseWriter, String streamId) {
         try {
             sseWriter.send(SseEvent.end());
             streamStore.appendEvent(streamId, "end", "{}");
@@ -151,7 +153,10 @@ public class EventSink {
         if (obj == null) {
             return "null";
         }
-        // TODO: D8 阶段替换为 Jackson ObjectMapper
-        return obj.toString();
+        try {
+            return OBJECT_MAPPER.writeValueAsString(obj);
+        } catch (Exception e) {
+            return "{}";
+        }
     }
 }

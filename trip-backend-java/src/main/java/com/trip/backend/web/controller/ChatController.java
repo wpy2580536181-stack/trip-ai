@@ -11,6 +11,7 @@ import com.trip.backend.service.chat.NonTravelShortCircuit;
 import com.trip.backend.utils.AppException;
 import com.trip.backend.web.sse.ResumeHandler;
 import com.trip.backend.web.sse.StreamStore;
+import com.trip.backend.web.sse.SseWriter;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;
@@ -22,9 +23,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 
 import java.util.Map;
-import java.util.HashMap;
 import java.io.IOException;
-import java.io.PrintWriter;
 
 /**
  * Chat 控制器（对应 Python controllers/chat_controller.py）
@@ -126,8 +125,10 @@ public class ChatController {
         StreamStore.StreamState streamState = streamStore.createStream(String.valueOf(userId), conversationIdStr);
         String streamId = streamState.streamId();
 
-        // 3. 发送 stream_meta
-        eventSink.sendStreamMeta(streamId, String.valueOf(userId));
+        // 3. 创建请求级 SseWriter 并发送 stream_meta
+        SseWriter sseWriter = new SseWriter(response);
+        response.setHeader("X-Stream-Id", streamId);
+        eventSink.sendStreamMeta(sseWriter, streamId, String.valueOf(userId));
 
         // 4. 持久化 user 消息
         Message userMessage = messagePersistenceService.persistUserMessage(
@@ -138,108 +139,39 @@ public class ChatController {
 
         // 5. 非旅行短路检测
         if (nonTravelShortCircuit.isNonTravel(body.message())) {
-            sendShortCircuit(streamId, userId, userMessage.getId(), conversationId, response);
+            sendShortCircuit(sseWriter, streamId, userId, userMessage.getId(), conversationId);
             return;
         }
 
-        // 6. 设置响应头并直接写流
-        response.setContentType("text/event-stream");
-        response.setCharacterEncoding("UTF-8");
-        response.setHeader("Cache-Control", "no-cache");
-        response.setHeader("Connection", "keep-alive");
-        response.setHeader("X-Accel-Buffering", "no");
-        response.setHeader("X-Stream-Id", streamId);
-
-        PrintWriter writer = response.getWriter();
-
-        // 7. 发送响应
+        // 6. 发送响应
         String responseText = "这是一个模拟的旅行规划响应。E4 测试期间使用简化版本。";
-
-        // 发送 chunk
-        Map<String, Object> chunkData = Map.of(
-            "type", "chunk",
-            "content", responseText
-        );
-        writer.write("data: " + toJson(chunkData) + "\n\n");
-        writer.flush();
-
-        // 发送 complete
         Map<String, Object> completeData = Map.of(
             "type", "complete",
             "usage", Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0)
         );
-        writer.write("data: " + toJson(completeData) + "\n\n");
-        writer.flush();
-
-        // 发送 end
-        Map<String, Object> endData = Map.of("type", "end");
-        writer.write("data: " + toJson(endData) + "\n\n");
-        writer.flush();
+        eventSink.sendChunk(sseWriter, streamId, responseText);
+        eventSink.sendComplete(sseWriter, streamId, completeData.get("usage"));
 
         // 8. 落库
         Message assistantMsg = messagePersistenceService.createEmptyAssistantMessage(userId, conversationId);
         messagePersistenceService.appendAssistantContent(assistantMsg.getId(), responseText);
         messagePersistenceService.forceFlush(assistantMsg.getId(), Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0));
-
-        // 关闭（客户端会看到 EOF）
-        writer.close();
     }
 
     /**
      * 发送非旅行短路响应
      */
-    private void sendShortCircuit(String streamId, Long userId, Long userMessageId, Long conversationId, HttpServletResponse httpResponse) throws IOException {
+    private void sendShortCircuit(SseWriter sseWriter, String streamId, Long userId, Long userMessageId, Long conversationId) throws IOException {
         // 创建 assistant 空消息
         Message assistantMsg = messagePersistenceService.createEmptyAssistantMessage(userId, conversationId);
-
-        // 设置响应头
-        httpResponse.setContentType("text/event-stream");
-        httpResponse.setCharacterEncoding("UTF-8");
-        httpResponse.setHeader("Cache-Control", "no-cache");
-        httpResponse.setHeader("Connection", "keep-alive");
-        httpResponse.setHeader("X-Accel-Buffering", "no");
-        httpResponse.setHeader("X-Stream-Id", streamId);
-
-        PrintWriter writer = httpResponse.getWriter();
         String response = "这是一个非旅行相关的问题，我目前只能帮您规划旅行行程。请问有什么关于旅行的问题我可以帮您？";
-
-        // 发送 chunk
-        Map<String, Object> chunkData = Map.of(
-            "type", "chunk",
-            "content", response
-        );
-        writer.write("data: " + toJson(chunkData) + "\n\n");
-        writer.flush();
-
-        // 发送 complete (usage=0)
-        Map<String, Object> completeData = Map.of(
-            "type", "complete",
-            "usage", Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0)
-        );
-        writer.write("data: " + toJson(completeData) + "\n\n");
-        writer.flush();
-
-        // 发送 end
-        Map<String, Object> endData = Map.of("type", "end");
-        writer.write("data: " + toJson(endData) + "\n\n");
-        writer.flush();
+        Map<String, Object> usage = Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0);
+        eventSink.sendChunk(sseWriter, streamId, response);
+        eventSink.sendComplete(sseWriter, streamId, usage);
 
         // 落库
         messagePersistenceService.appendAssistantContent(assistantMsg.getId(), response);
-        messagePersistenceService.forceFlush(assistantMsg.getId(), Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0));
-
-        writer.close();
-    }
-
-    /**
-     * 简单 JSON 序列化
-     */
-    private String toJson(Object obj) {
-        try {
-            return new com.fasterxml.jackson.databind.ObjectMapper().writeValueAsString(obj);
-        } catch (Exception e) {
-            throw new RuntimeException("Failed to serialize JSON", e);
-        }
+        messagePersistenceService.forceFlush(assistantMsg.getId(), usage);
     }
 
     private String extractContent(String json) {

@@ -11,18 +11,17 @@ import com.trip.backend.service.chat.NonTravelShortCircuit;
 import com.trip.backend.utils.AppException;
 import com.trip.backend.web.controller.ChatController;
 import com.trip.backend.web.sse.StreamStore;
+import com.trip.backend.web.sse.SseWriter;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.ServletOutputStream;
 import org.junit.jupiter.api.Test;
 
-import java.io.PrintWriter;
-import java.io.StringWriter;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.verify;
@@ -59,7 +58,7 @@ class ChatControllerTest {
         );
 
         assertEquals(404, exception.getStatusCode());
-        verify(eventSink, never()).sendStreamMeta(any(), any());
+        verify(eventSink, never()).sendStreamMeta(any(SseWriter.class), any(), any());
     }
 
     @Test
@@ -86,7 +85,7 @@ class ChatControllerTest {
             .thenReturn(assistantMessage);
 
         HttpServletResponse response = mock(HttpServletResponse.class);
-        when(response.getWriter()).thenReturn(new PrintWriter(new StringWriter()));
+        when(response.getOutputStream()).thenReturn(mock(ServletOutputStream.class));
 
         ChatRequest request = new ChatRequest("这不是旅行问题", conversationId, null);
         controller.chat(mock(HttpServletRequest.class), request, userId, response);
