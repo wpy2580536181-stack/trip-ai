@@ -1,18 +1,30 @@
 package com.trip.backend.middleware;
 
+import com.trip.backend.domain.entity.TokenUsageLog;
+import com.trip.backend.domain.repository.TokenUsageLogRepository;
 import dev.langchain4j.model.output.TokenUsage;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
+
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  * Token 追踪回调（对应 Python token_tracker.py）
- *
- * 注意：TokenUsageLogRepository 暂未注入，后续 D8 阶段实现落库
+ * - 内存监控 + 预算检查
+ * - token_usage_logs 异步落库（fire-and-forget）
  */
 @Component
 public class TokenTrackingCallback {
 
+    private static final Logger log = LoggerFactory.getLogger(TokenTrackingCallback.class);
+
     private final TokenMonitor tokenMonitor;
     private final TokenBudgetManager tokenBudgetManager;
+    private final TokenUsageLogRepository tokenUsageLogRepository;
+    private final ExecutorService tokenLogExecutor;
 
     // ThreadLocal 上下文
     private static final ThreadLocal<Long> currentUserId = new ThreadLocal<>();
@@ -20,9 +32,16 @@ public class TokenTrackingCallback {
     private static final ThreadLocal<String> currentRoute = new ThreadLocal<>();
 
     public TokenTrackingCallback(TokenMonitor tokenMonitor,
-                                TokenBudgetManager tokenBudgetManager) {
+                                TokenBudgetManager tokenBudgetManager,
+                                TokenUsageLogRepository tokenUsageLogRepository) {
         this.tokenMonitor = tokenMonitor;
         this.tokenBudgetManager = tokenBudgetManager;
+        this.tokenUsageLogRepository = tokenUsageLogRepository;
+        this.tokenLogExecutor = Executors.newSingleThreadExecutor(runnable -> {
+            Thread thread = new Thread(runnable, "token-usage-log");
+            thread.setDaemon(true);
+            return thread;
+        });
     }
 
     /**
@@ -52,9 +71,9 @@ public class TokenTrackingCallback {
             return;
         }
 
-        int totalTokens = tokenUsage.totalTokenCount();
-        int promptTokens = tokenUsage.inputTokenCount();
-        int completionTokens = tokenUsage.outputTokenCount();
+        int totalTokens = tokenUsage.totalTokenCount() != null ? tokenUsage.totalTokenCount() : 0;
+        int promptTokens = tokenUsage.inputTokenCount() != null ? tokenUsage.inputTokenCount() : 0;
+        int completionTokens = tokenUsage.outputTokenCount() != null ? tokenUsage.outputTokenCount() : 0;
 
         // 提取 cachedTokens（兼容不同字段名）
         Integer cachedTokens = null;
@@ -90,7 +109,27 @@ public class TokenTrackingCallback {
         }
 
         // 3. 异步落库（fire-and-forget）
-        // TODO: 实现异步写入 token_usage_logs
+        persistUsageAsync(usage);
+    }
+
+    private void persistUsageAsync(com.trip.backend.middleware.TokenUsage usage) {
+        CompletableFuture.runAsync(() -> {
+            try {
+                TokenUsageLog entity = new TokenUsageLog(
+                    usage.getUserId(),
+                    usage.getRequestType(),
+                    usage.getRoute(),
+                    usage.getPromptTokens(),
+                    usage.getCompletionTokens(),
+                    usage.getTotalTokens(),
+                    usage.getCachedTokens(),
+                    usage.getLatencyMs()
+                );
+                tokenUsageLogRepository.save(entity);
+            } catch (Exception e) {
+                log.warn("Failed to persist token usage log for userId={}", usage.getUserId(), e);
+            }
+        }, tokenLogExecutor);
     }
 
     public static class TokenBudgetExceededException extends RuntimeException {

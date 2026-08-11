@@ -58,6 +58,20 @@ public class TokenUsageLog {
 
     protected TokenUsageLog() {}
 
+    public TokenUsageLog(Long userId, String requestType, String route,
+                         Integer promptTokens, Integer completionTokens,
+                         Integer totalTokens, Integer cachedTokens,
+                         Integer latencyMs) {
+        this.userId = userId;
+        this.requestType = requestType;
+        this.route = route;
+        this.promptTokens = promptTokens;
+        this.completionTokens = completionTokens;
+        this.totalTokens = totalTokens;
+        this.cachedTokens = cachedTokens;
+        this.latencyMs = latencyMs;
+    }
+
     @PrePersist
     protected void onCreate() {
         this.createdAt = OffsetDateTime.now();
