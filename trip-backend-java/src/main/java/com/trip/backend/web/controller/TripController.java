@@ -1,5 +1,6 @@
 package com.trip.backend.web.controller;
 
+import com.trip.backend.domain.entity.Trip;
 import com.trip.backend.service.TripService;
 import com.trip.backend.service.agent.dto.PlanRequest;
 import com.trip.backend.utils.AppException;
@@ -199,10 +200,8 @@ public class TripController {
     public ResponseEntity<Map<String, Object>> confirmTrip(
             @RequestAttribute("userId") Long userId,
             @PathVariable Long id) {
-        return ResponseEntity.ok(Map.of(
-            "success", true,
-            "message", "Trip confirmed"
-        ));
+        Trip trip = tripService.confirmTrip(userId, id);
+        return ResponseEntity.ok(Map.of("code", 200, "data", Map.of("id", trip.getId())));
     }
 
     /**
@@ -213,10 +212,8 @@ public class TripController {
     public ResponseEntity<Map<String, Object>> discardTrip(
             @RequestAttribute("userId") Long userId,
             @PathVariable Long id) {
-        return ResponseEntity.ok(Map.of(
-            "success", true,
-            "message", "Trip discarded"
-        ));
+        Trip trip = tripService.discardTrip(userId, id);
+        return ResponseEntity.ok(Map.of("code", 200, "data", Map.of("id", trip.getId())));
     }
 
     private String toJson(Object obj) {

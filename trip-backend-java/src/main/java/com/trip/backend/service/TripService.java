@@ -112,7 +112,7 @@ public class TripService {
      */
     @Transactional
     public Trip confirmTrip(Long userId, Long tripId) {
-        Trip trip = tripRepository.findById(tripId)
+        Trip trip = tripRepository.findByIdAndUserId(tripId, userId)
             .orElseThrow(() -> AppException.notFound("行程不存在"));
 
         if (!"candidate".equals(trip.getStatus())) {
@@ -128,7 +128,7 @@ public class TripService {
      */
     @Transactional
     public Trip discardTrip(Long userId, Long tripId) {
-        Trip trip = tripRepository.findById(tripId)
+        Trip trip = tripRepository.findByIdAndUserId(tripId, userId)
             .orElseThrow(() -> AppException.notFound("行程不存在"));
 
         if (!"candidate".equals(trip.getStatus())) {
