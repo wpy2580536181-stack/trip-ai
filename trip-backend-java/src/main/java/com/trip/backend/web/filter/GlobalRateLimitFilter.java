@@ -105,8 +105,10 @@ public class GlobalRateLimitFilter extends OncePerRequestFilter {
      * 提取限流键
      */
     private String extractRateLimitKey(HttpServletRequest request) {
-        // TODO: 从 JWT 或 session 提取 userId
-        // 暂时返回 IP
-        return request.getRemoteAddr();
+        Object userId = request.getAttribute("userId");
+        if (userId instanceof Number) {
+            return "user:" + ((Number) userId).longValue();
+        }
+        return "ip:" + request.getRemoteAddr();
     }
 }
