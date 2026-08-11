@@ -8,6 +8,7 @@ import com.trip.backend.service.TripService;
 import com.trip.backend.service.chat.EventSink;
 import com.trip.backend.service.chat.MessagePersistenceService;
 import com.trip.backend.service.chat.NonTravelShortCircuit;
+import com.trip.backend.utils.AppException;
 import com.trip.backend.web.sse.ResumeHandler;
 import com.trip.backend.web.sse.StreamStore;
 import jakarta.servlet.http.HttpServletRequest;
@@ -116,6 +117,8 @@ public class ChatController {
         if (conversationId == null) {
             Conversation newConversation = conversationService.createConversation(userId, body.message());
             conversationId = newConversation.getId();
+        } else if (conversationService.findByIdAndUserId(conversationId, userId).isEmpty()) {
+            throw AppException.notFound("会话不存在");
         }
 
         // 2. 创建 Stream
@@ -135,7 +138,7 @@ public class ChatController {
 
         // 5. 非旅行短路检测
         if (nonTravelShortCircuit.isNonTravel(body.message())) {
-            sendShortCircuit(streamId, userId, userMessage.getId(), response);
+            sendShortCircuit(streamId, userId, userMessage.getId(), conversationId, response);
             return;
         }
 
@@ -185,9 +188,9 @@ public class ChatController {
     /**
      * 发送非旅行短路响应
      */
-    private void sendShortCircuit(String streamId, Long userId, Long userMessageId, HttpServletResponse httpResponse) throws IOException {
+    private void sendShortCircuit(String streamId, Long userId, Long userMessageId, Long conversationId, HttpServletResponse httpResponse) throws IOException {
         // 创建 assistant 空消息
-        Message assistantMsg = messagePersistenceService.createEmptyAssistantMessage(userId, null);
+        Message assistantMsg = messagePersistenceService.createEmptyAssistantMessage(userId, conversationId);
 
         // 设置响应头
         httpResponse.setContentType("text/event-stream");
