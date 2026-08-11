@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 import java.time.Instant;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -30,6 +31,7 @@ public class StreamStore {
 
     // 内存降级存储
     private final ConcurrentHashMap<String, StreamEntry> memoryStore = new ConcurrentHashMap<>();
+    private static final int MAX_MEMORY_ENTRIES = 128;
 
     public StreamStore(StringRedisTemplate redisTemplate) {
         this.redisTemplate = redisTemplate;
@@ -75,7 +77,16 @@ public class StreamStore {
     }
 
     private void createStreamMemory(String streamId, String userId, String conversationId) {
+        if (memoryStore.size() >= MAX_MEMORY_ENTRIES) {
+            evictOldestMemoryEntry();
+        }
         memoryStore.put(streamId, new StreamEntry(userId, conversationId, new ArrayList<>(), 0));
+    }
+
+    private void evictOldestMemoryEntry() {
+        memoryStore.entrySet().stream()
+            .min(Comparator.comparingLong(entry -> entry.getValue().createdAtNanos))
+            .ifPresent(entry -> memoryStore.remove(entry.getKey(), entry.getValue()));
     }
 
     /**
@@ -259,11 +270,13 @@ public class StreamStore {
         String status;
         final List<StreamEvent> events = new CopyOnWriteArrayList<>(); // ✅ 线程安全
         final AtomicLong nextSeq; // ✅ 原子自增
+        final long createdAtNanos;
 
         StreamEntry(String userId, String conversationId, List<StreamEvent> events, long nextSeq) {
             this.userId = userId;
             this.conversationId = conversationId;
             this.nextSeq = new AtomicLong(nextSeq);
+            this.createdAtNanos = System.nanoTime();
         }
     }
 
