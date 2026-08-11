@@ -78,7 +78,7 @@ public class FeedbackControllerIntegrationTest {
         Map<String, Object> request = Map.of(
             "messageId", 1,
             "conversationId", 1,
-            "rating", 5,
+            "rating", 1,
             "comment", "非常棒的推荐！",
             "tags", new String[]{"推荐", "实用"}
         );

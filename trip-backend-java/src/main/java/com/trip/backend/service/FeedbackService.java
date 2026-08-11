@@ -1,7 +1,10 @@
 package com.trip.backend.service;
 
 import com.trip.backend.domain.entity.Feedback;
+import com.trip.backend.domain.entity.Message;
+import com.trip.backend.domain.repository.ConversationRepository;
 import com.trip.backend.domain.repository.FeedbackRepository;
+import com.trip.backend.domain.repository.MessageRepository;
 import com.trip.backend.utils.AppException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -9,7 +12,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * Feedback service（简化版）
@@ -18,9 +23,15 @@ import java.util.Map;
 public class FeedbackService {
 
     private final FeedbackRepository feedbackRepository;
+    private final MessageRepository messageRepository;
+    private final ConversationRepository conversationRepository;
 
-    public FeedbackService(FeedbackRepository feedbackRepository) {
+    public FeedbackService(FeedbackRepository feedbackRepository,
+                           MessageRepository messageRepository,
+                           ConversationRepository conversationRepository) {
         this.feedbackRepository = feedbackRepository;
+        this.messageRepository = messageRepository;
+        this.conversationRepository = conversationRepository;
     }
 
     /**
@@ -38,17 +49,36 @@ public class FeedbackService {
      * 提交反馈
      */
     @Transactional
-    public Feedback submitFeedback(Long userId, Long messageId, Integer rating, 
-                                    String comment, java.util.List<String> tags) {
+    public Feedback submitFeedback(Long userId, Long messageId, Long conversationId, Integer rating,
+                                   String comment, List<String> tags) {
+        if (rating == null || !Set.of(1, -1).contains(rating)) {
+            throw AppException.badRequest("rating 仅支持 1 或 -1");
+        }
+        if (messageId == null) {
+            throw AppException.badRequest("messageId 不能为空");
+        }
+        if (conversationId == null) {
+            throw AppException.badRequest("conversationId 不能为空");
+        }
+
+        Message message = messageRepository.findById(messageId)
+            .orElseThrow(() -> AppException.notFound("消息不存在"));
+        if (!conversationId.equals(message.getConversationId())
+            || conversationRepository.findByIdAndUserId(conversationId, userId).isEmpty()) {
+            throw AppException.notFound("消息不存在");
+        }
+
         return feedbackRepository.findByUserIdAndMessageId(userId, messageId)
             .map(existing -> {
                 existing.setRating(rating);
+                existing.setConversationId(conversationId);
                 existing.setComment(comment);
                 existing.setTags(tags);
                 return existing;
             })
             .orElseGet(() -> {
                 Feedback feedback = new Feedback(userId, messageId, rating);
+                feedback.setConversationId(conversationId);
                 feedback.setComment(comment);
                 feedback.setTags(tags);
                 return feedbackRepository.save(feedback);

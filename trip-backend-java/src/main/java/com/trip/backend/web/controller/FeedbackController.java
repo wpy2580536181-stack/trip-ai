@@ -92,14 +92,18 @@ public class FeedbackController {
             @RequestAttribute("userId") Long userId,
             HttpServletRequest request) {
 
-        Long messageId = Long.valueOf((Integer) feedbackData.get("messageId"));
-        Long conversationId = Long.valueOf((Integer) feedbackData.get("conversationId"));
+        Long messageId = feedbackData.get("messageId") == null
+            ? null
+            : ((Number) feedbackData.get("messageId")).longValue();
+        Long conversationId = feedbackData.get("conversationId") == null
+            ? null
+            : ((Number) feedbackData.get("conversationId")).longValue();
         Integer rating = (Integer) feedbackData.get("rating");
         String comment = (String) feedbackData.get("comment");
         java.util.List<String> tags = (java.util.List<String>) feedbackData.get("tags");
 
         Feedback feedback = feedbackService.submitFeedback(
-            userId, messageId, rating, comment, tags
+            userId, messageId, conversationId, rating, comment, tags
         );
 
         Map<String, Object> data = new HashMap<>();
