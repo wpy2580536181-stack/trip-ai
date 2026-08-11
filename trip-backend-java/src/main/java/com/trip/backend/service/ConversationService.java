@@ -31,6 +31,7 @@ public class ConversationService {
     /**
      * 获取会话列表
      */
+    @Transactional(readOnly = true)
     public Page<Conversation> getConversations(Long userId, int page, int pageSize) {
         return conversationRepository.findByUserIdOrderByUpdatedAtDesc(
             userId, PageRequest.of(page - 1, pageSize)
@@ -40,6 +41,7 @@ public class ConversationService {
     /**
      * 根据 ID 和用户 ID 查找会话（E4 测试用）
      */
+    @Transactional(readOnly = true)
     public Optional<Conversation> findByIdAndUserId(Long id, Long userId) {
         return conversationRepository.findByIdAndUserId(id, userId);
     }
@@ -47,6 +49,7 @@ public class ConversationService {
     /**
      * 获取会话详情（含消息）
      */
+    @Transactional(readOnly = true)
     public ConversationWithMessages getConversation(Long userId, Long conversationId) {
         Conversation conversation = conversationRepository.findByIdAndUserId(conversationId, userId)
             .orElseThrow(() -> AppException.notFound("会话不存在"));
@@ -81,6 +84,7 @@ public class ConversationService {
     /**
      * 更新会话标题
      */
+    @Transactional
     public Conversation updateTitle(Long userId, Long conversationId, String title) {
         Conversation conversation = conversationRepository.findByIdAndUserId(conversationId, userId)
             .orElseThrow(() -> AppException.notFound("会话不存在"));

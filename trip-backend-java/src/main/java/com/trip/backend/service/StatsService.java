@@ -6,6 +6,7 @@ import com.trip.backend.utils.AppException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.OffsetDateTime;
 import java.util.List;
@@ -26,6 +27,7 @@ public class StatsService {
     /**
      * 获取 Token 使用汇总
      */
+    @Transactional(readOnly = true)
     public Map<String, Object> getTokenUsageSummary(Long userId) {
         // 查询最近 1 小时的 token 使用
         OffsetDateTime oneHourAgo = OffsetDateTime.now().minusHours(1);
@@ -50,6 +52,7 @@ public class StatsService {
     /**
      * 获取 Token 使用统计
      */
+    @Transactional(readOnly = true)
     public Map<String, Object> getTokenUsageStats(Long userId) {
         OffsetDateTime oneHourAgo = OffsetDateTime.now().minusHours(1);
         var logs = tokenUsageLogRepository.findByUserIdAndRequestTypeAndCreatedAtBetween(
@@ -72,6 +75,7 @@ public class StatsService {
     /**
      * 获取 Token 使用日志
      */
+    @Transactional(readOnly = true)
     public Page<TokenUsageLog> getTokenUsageLogs(Long userId, int page, int pageSize) {
         return tokenUsageLogRepository.findByUserIdOrderByCreatedAtDesc(
             userId, PageRequest.of(page - 1, pageSize)
@@ -81,6 +85,7 @@ public class StatsService {
     /**
      * 获取 Agent 执行轨迹
      */
+    @Transactional(readOnly = true)
     public List<Map<String, Object>> getAgentTrace(Long messageId) {
         // TODO: 从 agent_steps 查询
         return List.of();
@@ -89,6 +94,7 @@ public class StatsService {
     /**
      * 按会话 ID 获取 Agent 执行轨迹
      */
+    @Transactional(readOnly = true)
     public List<Map<String, Object>> getAgentTraceByConversationId(Long conversationId, int limit) {
         // TODO: 实现
         return List.of();
@@ -97,6 +103,7 @@ public class StatsService {
     /**
      * 获取 MCP 指标快照
      */
+    @Transactional(readOnly = true)
     public Map<String, Object> getMcpStats() {
         // TODO: 从 MCP 指标收集器获取
         return Map.of(

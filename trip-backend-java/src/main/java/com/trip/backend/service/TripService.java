@@ -39,6 +39,7 @@ public class TripService {
     /**
      * 获取行程历史
      */
+    @Transactional(readOnly = true)
     public Page<Trip> getTrips(Long userId, int page, int pageSize) {
         return tripRepository.findByUserIdOrderByCreatedAtDesc(
             userId, PageRequest.of(page - 1, pageSize)
@@ -48,6 +49,7 @@ public class TripService {
     /**
      * 获取行程详情
      */
+    @Transactional(readOnly = true)
     public Trip getTrip(Long userId, Long tripId) {
         Trip trip = tripRepository.findByIdAndUserId(tripId, userId)
             .orElseThrow(() -> AppException.notFound("行程不存在"));
@@ -57,6 +59,7 @@ public class TripService {
     /**
      * 获取行程版本链
      */
+    @Transactional(readOnly = true)
     public List<Trip> getTripVersions(Long userId, Long tripId) {
         Trip trip = tripRepository.findByIdAndUserId(tripId, userId)
             .orElseThrow(() -> AppException.notFound("行程不存在"));

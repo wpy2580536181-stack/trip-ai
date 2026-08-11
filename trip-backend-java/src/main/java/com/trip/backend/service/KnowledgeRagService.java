@@ -30,6 +30,7 @@ public class KnowledgeRagService {
     /**
      * 获取景点列表（分页/城市/分类筛选）
      */
+    @Transactional(readOnly = true)
     public Page<Spot> getSpots(String city, String category, int page, int pageSize) {
         if (category != null && !category.isBlank()) {
             return spotRepository.findByCityAndCategory(city, category, PageRequest.of(page - 1, pageSize));
@@ -40,6 +41,7 @@ public class KnowledgeRagService {
     /**
      * 获取景点详情
      */
+    @Transactional(readOnly = true)
     public Spot getSpot(Long id) {
         return spotRepository.findById(id)
             .orElseThrow(() -> AppException.notFound("景点不存在"));
@@ -120,6 +122,7 @@ public class KnowledgeRagService {
     /**
      * 获取 spot-docs（分页/城市/来源类型筛选 + chroma 状态）
      */
+    @Transactional(readOnly = true)
     public Page<SpotDoc> getSpotDocs(String city, String sourceType, int page, int pageSize) {
         if (sourceType != null && !sourceType.isBlank()) {
             return spotDocRepository.findByCityAndSourceTypeUsingJoin(city, sourceType, PageRequest.of(page - 1, pageSize));

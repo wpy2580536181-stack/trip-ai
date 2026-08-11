@@ -6,6 +6,7 @@ import com.trip.backend.service.chat.PreferenceExtractor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Map;
@@ -36,6 +37,7 @@ public class SummaryService {
      * @param conversationId 会话 ID
      * @return 摘要文本
      */
+    @Transactional(readOnly = true)
     public String compressConversation(Long conversationId) {
         try {
             // 获取最近消息（最多 20 条）
@@ -75,6 +77,7 @@ public class SummaryService {
      * @param conversationId 会话 ID
      * @param decision 决策内容
      */
+    @Transactional
     public void appendKeyDecision(Long conversationId, String decision) {
         // TODO: D12 实现后补充（追加到 conversation metadata 或独立表）
         log.debug("[SummaryService] Appending key decision: conversationId={}, decision={}",
