@@ -12,8 +12,10 @@ import org.springframework.mock.web.MockFilterChain;
 import org.springframework.mock.web.MockHttpServletRequest;
 import org.springframework.mock.web.MockHttpServletResponse;
 import org.springframework.security.core.Authentication;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
 
+import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -59,6 +61,36 @@ class JwtAuthFilterTest {
     }
 
     @Test
+    void clearsSecurityContextWhenHeaderMissing() throws Exception {
+        SecurityContextHolder.getContext().setAuthentication(
+            new UsernamePasswordAuthenticationToken("stale-user", null, List.of())
+        );
+
+        MockHttpServletRequest request = new MockHttpServletRequest();
+        MockHttpServletResponse response = new MockHttpServletResponse();
+
+        filter.doFilter(request, response, new MockFilterChain());
+
+        assertNull(SecurityContextHolder.getContext().getAuthentication());
+    }
+
+    @Test
+    void clearsSecurityContextOnInvalidAuthorizationHeader() throws Exception {
+        SecurityContextHolder.getContext().setAuthentication(
+            new UsernamePasswordAuthenticationToken("stale-user", null, List.of())
+        );
+
+        MockHttpServletRequest request = new MockHttpServletRequest();
+        request.addHeader("Authorization", "Basic abc");
+        MockHttpServletResponse response = new MockHttpServletResponse();
+
+        filter.doFilter(request, response, new MockFilterChain());
+
+        assertEquals(401, response.getStatus());
+        assertNull(SecurityContextHolder.getContext().getAuthentication());
+    }
+
+    @Test
     void assignsUserRoleFromDatabase() throws Exception {
         Long userId = 2L;
         User user = new User();
@@ -85,6 +117,9 @@ class JwtAuthFilterTest {
     void rejectsTokenForMissingUser() throws Exception {
         Long userId = 99L;
         when(userRepository.findById(userId)).thenReturn(Optional.empty());
+        SecurityContextHolder.getContext().setAuthentication(
+            new UsernamePasswordAuthenticationToken("stale-user", null, List.of())
+        );
 
         MockHttpServletRequest request = authorizedRequest(userId, 2);
         MockHttpServletResponse response = new MockHttpServletResponse();

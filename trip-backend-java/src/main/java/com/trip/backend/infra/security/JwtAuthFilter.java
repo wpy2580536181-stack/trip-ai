@@ -53,13 +53,14 @@ public class JwtAuthFilter extends OncePerRequestFilter {
 
         // 1. 缺 Authorization 头 → 直接放行，由 Spring Security 判断是否需要认证
         if (header == null || header.isBlank()) {
+            SecurityContextHolder.clearContext();
             filterChain.doFilter(request, response);
             return;
         }
 
         // 2. 提取 token（Bearer {token}）
         if (!header.startsWith("Bearer ")) {
-            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Invalid authorization header");
+            clearContextAndSendError(response, HttpServletResponse.SC_UNAUTHORIZED, "Invalid authorization header");
             return;
         }
 
@@ -76,7 +77,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
             // 4. 验证 userId 存在
             Object userIdObj = claims.get("userId");
             if (userIdObj == null) {
-                response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Invalid token: missing userId");
+                clearContextAndSendError(response, HttpServletResponse.SC_UNAUTHORIZED, "Invalid token: missing userId");
                 return;
             }
 
@@ -84,14 +85,14 @@ public class JwtAuthFilter extends OncePerRequestFilter {
             Long userId = ((Number) userIdObj).longValue();
             User user = userRepository.findById(userId).orElse(null);
             if (user == null) {
-                response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Invalid token: user not found");
+                clearContextAndSendError(response, HttpServletResponse.SC_UNAUTHORIZED, "Invalid token: user not found");
                 return;
             }
 
             Integer roleId = user.getRoleId();
             Role role = roleId != null ? roleRepository.findById(roleId).orElse(null) : null;
             if (role == null || role.getName() == null || role.getName().isBlank()) {
-                response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Invalid token: role not found");
+                clearContextAndSendError(response, HttpServletResponse.SC_UNAUTHORIZED, "Invalid token: role not found");
                 return;
             }
 
@@ -111,10 +112,16 @@ public class JwtAuthFilter extends OncePerRequestFilter {
             filterChain.doFilter(request, response);
 
         } catch (io.jsonwebtoken.ExpiredJwtException e) {
-            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Token expired");
+            clearContextAndSendError(response, HttpServletResponse.SC_UNAUTHORIZED, "Token expired");
         } catch (io.jsonwebtoken.JwtException e) {
-            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Invalid token");
+            clearContextAndSendError(response, HttpServletResponse.SC_UNAUTHORIZED, "Invalid token");
         }
+    }
+
+    private void clearContextAndSendError(HttpServletResponse response, int status, String message)
+            throws IOException {
+        SecurityContextHolder.clearContext();
+        response.sendError(status, message);
     }
 
     private String toSpringRole(String dbRoleName) {
