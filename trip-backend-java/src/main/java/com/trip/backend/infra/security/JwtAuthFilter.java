@@ -3,6 +3,10 @@ package com.trip.backend.infra.security;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
+import com.trip.backend.domain.entity.Role;
+import com.trip.backend.domain.entity.User;
+import com.trip.backend.domain.repository.RoleRepository;
+import com.trip.backend.domain.repository.UserRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -30,9 +34,15 @@ import java.util.List;
 public class JwtAuthFilter extends OncePerRequestFilter {
 
     private final SecretKey key;
+    private final UserRepository userRepository;
+    private final RoleRepository roleRepository;
 
-    public JwtAuthFilter(@Value("${jwt.secret}") String secret) {
+    public JwtAuthFilter(@Value("${jwt.secret}") String secret,
+                         UserRepository userRepository,
+                         RoleRepository roleRepository) {
         this.key = Keys.hmacShaKeyFor(secret.getBytes(StandardCharsets.UTF_8));
+        this.userRepository = userRepository;
+        this.roleRepository = roleRepository;
     }
 
     @Override
@@ -69,20 +79,31 @@ public class JwtAuthFilter extends OncePerRequestFilter {
                 return;
             }
 
-            // 5. 提取 userId 和 roleId
+            // 5. 提取 userId；授权角色以 DB 为准，不信任 JWT 内 roleId
             Long userId = ((Number) userIdObj).longValue();
-            Object roleIdObj = claims.get("roleId");
-            Integer roleId = roleIdObj != null ? ((Number) roleIdObj).intValue() : null;
+            User user = userRepository.findById(userId).orElse(null);
+            if (user == null) {
+                response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Invalid token: user not found");
+                return;
+            }
+
+            Integer roleId = user.getRoleId();
+            Role role = roleId != null ? roleRepository.findById(roleId).orElse(null) : null;
+            if (role == null || role.getName() == null || role.getName().isBlank()) {
+                response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Invalid token: role not found");
+                return;
+            }
 
             // 6. 设置 request attribute（供 @RequestAttribute 使用）
             request.setAttribute("userId", userId);
             request.setAttribute("roleId", roleId);
+            request.setAttribute("roleName", role.getName());
 
-            // 7. 构建 Authentication（仅包含 userId，role 从 DB 查询）
+            // 7. 构建 Authentication（role 从 DB 查询）
             var auth = new UsernamePasswordAuthenticationToken(
                 userId,
                 null,
-                List.of(new SimpleGrantedAuthority("ROLE_USER"))
+                List.of(new SimpleGrantedAuthority(toSpringRole(role.getName())))
             );
             SecurityContextHolder.getContext().setAuthentication(auth);
 
@@ -93,5 +114,11 @@ public class JwtAuthFilter extends OncePerRequestFilter {
         } catch (io.jsonwebtoken.JwtException e) {
             response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Invalid token");
         }
+    }
+
+    private String toSpringRole(String dbRoleName) {
+        return "ADMIN".equalsIgnoreCase(dbRoleName)
+            ? "ROLE_ADMIN"
+            : "ROLE_USER";
     }
 }
