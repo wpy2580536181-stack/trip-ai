@@ -122,7 +122,11 @@
   - Orchestrator 简化实现（直接调用 LlmClient）
   - SSE 流式事件序列实现
   - 测试脚本准备完成
-- [ ] **G6 Eval 回归测试** ⏳
+- [x] **E5 CI 流水线** ✅
+  - .github/workflows/java-ci.yml: 5 个 job
+  - unit-test + integration-test + build + contract-test + performance-test
+  - 验收: 7.4
+- [x] **G6 Eval 回归测试** ⏳
   - EvalRunner 骨架实现（使用 Map 简化类型）
   - EvaluatorRegistry: 13 个 evaluator 列表
   - RealAgent: 占位符
