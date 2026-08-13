@@ -32,6 +32,8 @@
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/domain/skill/SkillLayer.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/domain/skill/SkillResult.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/domain/skill/SkillSpec.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/eval/loader/FixtureLoader.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/eval/types/EvalTypes.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/infra/cache/CacheBackend.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/infra/cache/DualBackendCache.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/infra/cache/LlmCache.java

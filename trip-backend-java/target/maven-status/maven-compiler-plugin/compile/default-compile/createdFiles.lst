@@ -5,6 +5,7 @@ com/trip/backend/config/DataInitializer.class
 com/trip/backend/infra/ratelimit/RateLimiter$MemoryBucket.class
 com/trip/backend/service/llm/ProviderConfig.class
 com/trip/backend/domain/repository/TripRepository.class
+com/trip/backend/eval/loader/FixtureLoader.class
 com/trip/backend/domain/repository/MessageRepository.class
 com/trip/backend/infra/resilience/CircuitBreaker.class
 com/trip/backend/middleware/TokenBudgetGuardStreaming.class
@@ -130,6 +131,7 @@ com/trip/backend/web/config/CorsConfig.class
 com/trip/backend/service/tasks/SummaryService.class
 com/trip/backend/service/StatsService.class
 com/trip/backend/infra/ratelimit/RateLimitConfig.class
+com/trip/backend/eval/types/EvalTypes.class
 com/trip/backend/web/sse/StreamStore.class
 com/trip/backend/infra/skill/patch/PatchError.class
 com/trip/backend/web/controller/HealthController.class
