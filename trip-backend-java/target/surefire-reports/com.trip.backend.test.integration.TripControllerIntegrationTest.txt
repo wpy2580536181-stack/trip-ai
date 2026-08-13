@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.trip.backend.test.integration.TripControllerIntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 0.954 s <<< FAILURE! -- in com.trip.backend.test.integration.TripControllerIntegrationTest
-com.trip.backend.test.integration.TripControllerIntegrationTest.testRecommendTrip -- Time elapsed: 0.470 s <<< ERROR!
+Tests run: 3, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 0.750 s <<< FAILURE! -- in com.trip.backend.test.integration.TripControllerIntegrationTest
+com.trip.backend.test.integration.TripControllerIntegrationTest.testRecommendTrip -- Time elapsed: 0.246 s <<< ERROR!
 com.fasterxml.jackson.databind.exc.MismatchedInputException: 
 No content to map due to end-of-input
  at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1]
@@ -17,7 +17,7 @@ No content to map due to end-of-input
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 
-com.trip.backend.test.integration.TripControllerIntegrationTest.testGetUserTrips -- Time elapsed: 0.243 s <<< FAILURE!
+com.trip.backend.test.integration.TripControllerIntegrationTest.testGetUserTrips -- Time elapsed: 0.251 s <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<500>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)
@@ -28,7 +28,7 @@ java.lang.AssertionError: Status expected:<200> but was:<500>
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 
-com.trip.backend.test.integration.TripControllerIntegrationTest.testGetTripDetail -- Time elapsed: 0.237 s <<< ERROR!
+com.trip.backend.test.integration.TripControllerIntegrationTest.testGetTripDetail -- Time elapsed: 0.250 s <<< ERROR!
 com.fasterxml.jackson.databind.exc.MismatchedInputException: 
 No content to map due to end-of-input
  at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1]

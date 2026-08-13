@@ -39,3 +39,14 @@
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/integration/UserControllerIntegrationTest.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/llm/Langchain4jSpikeTest.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/onnx/OnnxExportValidationTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/unit/ChatControllerTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/unit/EventSinkTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/unit/EventSinkWiringTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/unit/FeedbackServiceTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/unit/GlobalRateLimitFilterTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/unit/JwtAuthFilterTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/unit/JwtUtilTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/unit/StreamStoreTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/unit/TokenTrackingCallbackTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/unit/TripControllerTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/unit/TripServiceTest.java

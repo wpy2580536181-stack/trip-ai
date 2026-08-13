@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.trip.backend.test.integration.FeedbackControllerIntegrationTest" time="7.297" tests="3" errors="1" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.trip.backend.test.integration.FeedbackControllerIntegrationTest" time="4.508" tests="3" errors="1" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="26"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -14,10 +14,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CN"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/wang/Documents/trip/trip-backend-java/target/surefire/surefirebooter-20260806165105556_3.jar /Users/wang/Documents/trip/trip-backend-java/target/surefire 2026-08-06T16-51-05_521-jvmRun1 surefire-20260806165105556_1tmp surefire_0-20260806165105556_2tmp"/>
+    <property name="sun.java.command" value="/Users/wang/Documents/trip/trip-backend-java/target/surefire/surefirebooter-20260808194836315_3.jar /Users/wang/Documents/trip/trip-backend-java/target/surefire 2026-08-08T19-48-36_274-jvmRun1 surefire-20260808194836315_1tmp surefire_0-20260808194836315_2tmp"/>
     <property name="http.nonProxyHosts" value="127.0.0.1|192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|localhost|*.localhost|local|*.local|crashlytics.com|*.crashlytics.com|&lt;local&gt;|*.&lt;local&gt;"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="UserControllerIntegrationTest,TripControllerIntegrationTest,FeedbackControllerIntegrationTest"/>
     <property name="surefire.test.class.path" value="/Users/wang/Documents/trip/trip-backend-java/target/test-classes:/Users/wang/Documents/trip/trip-backend-java/target/classes:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.3.4/spring-boot-starter-web-3.3.4.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-starter/3.3.4/spring-boot-starter-3.3.4.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot/3.3.4/spring-boot-3.3.4.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.3.4/spring-boot-autoconfigure-3.3.4.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.3.4/spring-boot-starter-logging-3.3.4.jar:/Users/wang/.m2/repository/ch/qos/logback/logback-classic/1.5.8/logback-classic-1.5.8.jar:/Users/wang/.m2/repository/ch/qos/logback/logback-core/1.5.8/logback-core-1.5.8.jar:/Users/wang/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.23.1/log4j-to-slf4j-2.23.1.jar:/Users/wang/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar:/Users/wang/.m2/repository/org/slf4j/jul-to-slf4j/2.0.16/jul-to-slf4j-2.0.16.jar:/Users/wang/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.3.4/spring-boot-starter-json-3.3.4.jar:/Users/wang/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.17.2/jackson-datatype-jdk8-2.17.2.jar:/Users/wang/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.2/jackson-datatype-jsr310-2.17.2.jar:/Users/wang/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.17.2/jackson-module-parameter-names-2.17.2.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.3.4/spring-boot-starter-tomcat-3.3.4.jar:/Users/wang/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.30/tomcat-embed-core-10.1.30.jar:/Users/wang/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.30/tomcat-embed-websocket-10.1.30.jar:/Users/wang/.m2/repository/org/springframework/spring-web/6.1.13/spring-web-6.1.13.jar:/Users/wang/.m2/repository/org/springframework/spring-beans/6.1.13/spring-beans-6.1.13.jar:/Users/wang/.m2/repository/org/springframework/spring-webmvc/6.1.13/spring-webmvc-6.1.13.jar:/Users/wang/.m2/repository/org/springframework/spring-context/6.1.13/spring-context-6.1.13.jar:/Users/wang/.m2/repository/org/springframework/spring-expression/6.1.13/spring-expression-6.1.13.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-starter-security/3.3.4/spring-boot-starter-security-3.3.4.jar:/Users/wang/.m2/repository/org/springframework/spring-aop/6.1.13/spring-aop-6.1.13.jar:/Users/wang/.m2/repository/org/springframework/security/spring-security-config/6.3.3/spring-security-config-6.3.3.jar:/Users/wang/.m2/repository/org/springframework/security/spring-security-web/6.3.3/spring-security-web-6.3.3.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.3.4/spring-boot-starter-data-jpa-3.3.4.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.3.4/spring-boot-starter-aop-3.3.4.jar:/Users/wang/.m2/repository/org/aspectj/aspectjweaver/1.9.22.1/aspectjweaver-1.9.22.1.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.3.4/spring-boot-starter-jdbc-3.3.4.jar:/Users/wang/.m2/repository/org/springframework/spring-jdbc/6.1.13/spring-jdbc-6.1.13.jar:/Users/wang/.m2/repository/org/hibernate/orm/hibernate-core/6.5.3.Final/hibernate-core-6.5.3.Final.jar:/Users/wang/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/Users/wang/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/Users/wang/.m2/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar:/Users/wang/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/Users/wang/.m2/repository/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar:/Users/wang/.m2/repository/com/fasterxml/classmate/1.7.0/classmate-1.7.0.jar:/Users/wang/.m2/repository/net/bytebuddy/byte-buddy/1.14.19/byte-buddy-1.14.19.jar:/Users/wang/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.jar:/Users/wang/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.jar:/Users/wang/.m2/repository/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar:/Users/wang/.m2/repository/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5.jar:/Users/wang/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/Users/wang/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/Users/wang/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/Users/wang/.m2/repository/org/springframework/data/spring-data-jpa/3.3.4/spring-data-jpa-3.3.4.jar:/Users/wang/.m2/repository/org/springframework/data/spring-data-commons/3.3.4/spring-data-commons-3.3.4.jar:/Users/wang/.m2/repository/org/springframework/spring-orm/6.1.13/spring-orm-6.1.13.jar:/Users/wang/.m2/repository/org/springframework/spring-tx/6.1.13/spring-tx-6.1.13.jar:/Users/wang/.m2/repository/org/springframework/spring-aspects/6.1.13/spring-aspects-6.1.13.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-starter-data-redis/3.3.4/spring-boot-starter-data-redis-3.3.4.jar:/Users/wang/.m2/repository/io/lettuce/lettuce-core/6.3.2.RELEASE/lettuce-core-6.3.2.RELEASE.jar:/Users/wang/.m2/repository/io/netty/netty-common/4.1.113.Final/netty-common-4.1.113.Final.jar:/Users/wang/.m2/repository/io/netty/netty-handler/4.1.113.Final/netty-handler-4.1.113.Final.jar:/Users/wang/.m2/repository/io/netty/netty-resolver/4.1.113.Final/netty-resolver-4.1.113.Final.jar:/Users/wang/.m2/repository/io/netty/netty-buffer/4.1.113.Final/netty-buffer-4.1.113.Final.jar:/Users/wang/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.113.Final/netty-transport-native-unix-common-4.1.113.Final.jar:/Users/wang/.m2/repository/io/netty/netty-codec/4.1.113.Final/netty-codec-4.1.113.Final.jar:/Users/wang/.m2/repository/io/netty/netty-transport/4.1.113.Final/netty-transport-4.1.113.Final.jar:/Users/wang/.m2/repository/io/projectreactor/reactor-core/3.6.10/reactor-core-3.6.10.jar:/Users/wang/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/wang/.m2/repository/org/springframework/data/spring-data-redis/3.3.4/spring-data-redis-3.3.4.jar:/Users/wang/.m2/repository/org/springframework/data/spring-data-keyvalue/3.3.4/spring-data-keyvalue-3.3.4.jar:/Users/wang/.m2/repository/org/springframework/spring-oxm/6.1.13/spring-oxm-6.1.13.jar:/Users/wang/.m2/repository/org/springframework/spring-context-support/6.1.13/spring-context-support-6.1.13.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/3.3.4/spring-boot-starter-actuator-3.3.4.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/3.3.4/spring-boot-actuator-autoconfigure-3.3.4.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-actuator/3.3.4/spring-boot-actuator-3.3.4.jar:/Users/wang/.m2/repository/io/micrometer/micrometer-observation/1.13.4/micrometer-observation-1.13.4.jar:/Users/wang/.m2/repository/io/micrometer/micrometer-jakarta9/1.13.4/micrometer-jakarta9-1.13.4.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-starter-validation/3.3.4/spring-boot-starter-validation-3.3.4.jar:/Users/wang/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.30/tomcat-embed-el-10.1.30.jar:/Users/wang/.m2/repository/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.jar:/Users/wang/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar:/Users/wang/.m2/repository/org/postgresql/postgresql/42.7.4/postgresql-42.7.4.jar:/Users/wang/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/wang/.m2/repository/com/h2database/h2/2.2.224/h2-2.2.224.jar:/Users/wang/.m2/repository/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar:/Users/wang/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/wang/.m2/repository/io/micrometer/micrometer-core/1.13.4/micrometer-core-1.13.4.jar:/Users/wang/.m2/repository/io/micrometer/micrometer-commons/1.13.4/micrometer-commons-1.13.4.jar:/Users/wang/.m2/repository/org/hdrhistogram/HdrHistogram/2.2.2/HdrHistogram-2.2.2.jar:/Users/wang/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/wang/.m2/repository/io/micrometer/micrometer-registry-prometheus/1.13.4/micrometer-registry-prometheus-1.13.4.jar:/Users/wang/.m2/repository/io/prometheus/prometheus-metrics-core/1.2.1/prometheus-metrics-core-1.2.1.jar:/Users/wang/.m2/repository/io/prometheus/prometheus-metrics-model/1.2.1/prometheus-metrics-model-1.2.1.jar:/Users/wang/.m2/repository/io/prometheus/prometheus-metrics-config/1.2.1/prometheus-metrics-config-1.2.1.jar:/Users/wang/.m2/repository/io/prometheus/prometheus-metrics-tracer-common/1.2.1/prometheus-metrics-tracer-common-1.2.1.jar:/Users/wang/.m2/repository/io/prometheus/prometheus-metrics-exposition-formats/1.2.1/prometheus-metrics-exposition-formats-1.2.1.jar:/Users/wang/.m2/repository/io/prometheus/prometheus-metrics-shaded-protobuf/1.2.1/prometheus-metrics-shaded-protobuf-1.2.1.jar:/Users/wang/.m2/repository/io/jsonwebtoken/jjwt-api/0.12.5/jjwt-api-0.12.5.jar:/Users/wang/.m2/repository/io/jsonwebtoken/jjwt-impl/0.12.5/jjwt-impl-0.12.5.jar:/Users/wang/.m2/repository/io/jsonwebtoken/jjwt-jackson/0.12.5/jjwt-jackson-0.12.5.jar:/Users/wang/.m2/repository/org/mindrot/jbcrypt/0.4/jbcrypt-0.4.jar:/Users/wang/.m2/repository/dev/langchain4j/langchain4j/1.0.0-beta2/langchain4j-1.0.0-beta2.jar:/Users/wang/.m2/repository/dev/langchain4j/langchain4j-core/1.0.0-beta2/langchain4j-core-1.0.0-beta2.jar:/Users/wang/.m2/repository/org/jspecify/jspecify/0.3.0/jspecify-0.3.0.jar:/Users/wang/.m2/repository/org/apache/opennlp/opennlp-tools/1.9.4/opennlp-tools-1.9.4.jar:/Users/wang/.m2/repository/dev/langchain4j/langchain4j-open-ai/1.0.0-beta2/langchain4j-open-ai-1.0.0-beta2.jar:/Users/wang/.m2/repository/dev/langchain4j/langchain4j-http-client-jdk/1.0.0-beta2/langchain4j-http-client-jdk-1.0.0-beta2.jar:/Users/wang/.m2/repository/dev/langchain4j/langchain4j-http-client/1.0.0-beta2/langchain4j-http-client-1.0.0-beta2.jar:/Users/wang/.m2/repository/com/knuddels/jtokkit/1.1.0/jtokkit-1.1.0.jar:/Users/wang/.m2/repository/com/microsoft/onnxruntime/onnxruntime/1.16.3/onnxruntime-1.16.3.jar:/Users/wang/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar:/Users/wang/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar:/Users/wang/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar:/Users/wang/.m2/repository/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar:/Users/wang/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.3.4/spring-boot-starter-test-3.3.4.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-test/3.3.4/spring-boot-test-3.3.4.jar:/Users/wang/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.3.4/spring-boot-test-autoconfigure-3.3.4.jar:/Users/wang/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/Users/wang/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar:/Users/wang/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/Users/wang/.m2/repository/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar:/Users/wang/.m2/repository/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar:/Users/wang/.m2/repository/org/ow2/asm/asm/9.6/asm-9.6.jar:/Users/wang/.m2/repository/org/assertj/assertj-core/3.25.3/assertj-core-3.25.3.jar:/Users/wang/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2.jar:/Users/wang/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/wang/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.3/junit-jupiter-5.10.3.jar:/Users/wang/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.3/junit-jupiter-api-5.10.3.jar:/Users/wang/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/wang/.m2/repository/org/junit/platform/junit-platform-commons/1.10.3/junit-platform-commons-1.10.3.jar:/Users/wang/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/wang/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.3/junit-jupiter-params-5.10.3.jar:/Users/wang/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.3/junit-jupiter-engine-5.10.3.jar:/Users/wang/.m2/repository/org/junit/platform/junit-platform-engine/1.10.3/junit-platform-engine-1.10.3.jar:/Users/wang/.m2/repository/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar:/Users/wang/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.19/byte-buddy-agent-1.14.19.jar:/Users/wang/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/wang/.m2/repository/org/mockito/mockito-junit-jupiter/5.11.0/mockito-junit-jupiter-5.11.0.jar:/Users/wang/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar:/Users/wang/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/wang/.m2/repository/org/springframework/spring-core/6.1.13/spring-core-6.1.13.jar:/Users/wang/.m2/repository/org/springframework/spring-jcl/6.1.13/spring-jcl-6.1.13.jar:/Users/wang/.m2/repository/org/springframework/spring-test/6.1.13/spring-test-6.1.13.jar:/Users/wang/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/Users/wang/.m2/repository/org/springframework/security/spring-security-test/6.3.3/spring-security-test-6.3.3.jar:/Users/wang/.m2/repository/org/springframework/security/spring-security-core/6.3.3/spring-security-core-6.3.3.jar:/Users/wang/.m2/repository/org/springframework/security/spring-security-crypto/6.3.3/spring-security-crypto-6.3.3.jar:/Users/wang/.m2/repository/org/testcontainers/postgresql/1.19.8/postgresql-1.19.8.jar:/Users/wang/.m2/repository/org/testcontainers/jdbc/1.19.8/jdbc-1.19.8.jar:/Users/wang/.m2/repository/org/testcontainers/database-commons/1.19.8/database-commons-1.19.8.jar:/Users/wang/.m2/repository/org/testcontainers/testcontainers/1.19.8/testcontainers-1.19.8.jar:/Users/wang/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/wang/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/wang/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/Users/wang/.m2/repository/org/rnorth/duct-tape/duct-tape/1.0.8/duct-tape-1.0.8.jar:/Users/wang/.m2/repository/org/jetbrains/annotations/17.0.0/annotations-17.0.0.jar:/Users/wang/.m2/repository/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar:/Users/wang/.m2/repository/com/github/docker-java/docker-java-transport-zerodep/3.3.6/docker-java-transport-zerodep-3.3.6.jar:/Users/wang/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar:/Users/wang/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/wang"/>
@@ -34,7 +33,7 @@
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/wang/Documents/trip/trip-backend-java/target/surefire/surefirebooter-20260806165105556_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/wang/Documents/trip/trip-backend-java/target/surefire/surefirebooter-20260808194836315_3.jar"/>
     <property name="user.script" value="Hans"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="127.0.0.1|192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|localhost|*.localhost|local|*.local|crashlytics.com|*.crashlytics.com|&lt;local&gt;|*.&lt;local&gt;"/>
@@ -45,19 +44,21 @@
     <property name="os.version" value="26.5.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
+    <property name="surefire.failIfNoSpecifiedTests" value="false"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="java.vendor.version" value="Homebrew"/>
     <property name="localRepository" value="/Users/wang/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/tt/r7tx3fvs1pl25hr5qd9vsvwr0000gn/T/"/>
-    <property name="com.zaxxer.hikari.pool_number" value="1"/>
+    <property name="com.zaxxer.hikari.pool_number" value="2"/>
     <property name="java.version" value="26.0.1"/>
     <property name="user.dir" value="/Users/wang/Documents/trip/trip-backend-java"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="15828"/>
+    <property name="PID" value="20842"/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="UTF-8"/>
+    <property name="trimStackTrace" value="false"/>
     <property name="java.library.path" value="/Users/wang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="UTF-8"/>
@@ -69,7 +70,7 @@
     <property name="java.class.version" value="70.0"/>
     <property name="LOGGED_APPLICATION_NAME" value="[trip-backend] "/>
   </properties>
-  <testcase name="testSubmitFeedback" classname="com.trip.backend.test.integration.FeedbackControllerIntegrationTest" time="0.804">
+  <testcase name="testSubmitFeedback" classname="com.trip.backend.test.integration.FeedbackControllerIntegrationTest" time="0.417">
     <error message="No content to map due to end-of-input&#10; at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1]" type="com.fasterxml.jackson.databind.exc.MismatchedInputException"><![CDATA[com.fasterxml.jackson.databind.exc.MismatchedInputException: 
 No content to map due to end-of-input
  at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1]
@@ -84,8 +85,8 @@ No content to map due to end-of-input
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 ]]></error>
-    <system-out><![CDATA[16:51:05.881 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.trip.backend.test.integration.FeedbackControllerIntegrationTest]: FeedbackControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-16:51:05.925 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.trip.backend.Application for test class com.trip.backend.test.integration.FeedbackControllerIntegrationTest
+    <system-out><![CDATA[2026-08-08T19:48:46.295+08:00  INFO 20842 --- [trip-backend] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.trip.backend.test.integration.FeedbackControllerIntegrationTest]: FeedbackControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-08-08T19:48:46.300+08:00  INFO 20842 --- [trip-backend] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.trip.backend.Application for test class com.trip.backend.test.integration.FeedbackControllerIntegrationTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -96,35 +97,34 @@ No content to map due to end-of-input
 
  :: Spring Boot ::                (v3.3.4)
 
-2026-08-06T16:51:06.078+08:00  INFO 15828 --- [trip-backend] [           main] .b.t.i.FeedbackControllerIntegrationTest : Starting FeedbackControllerIntegrationTest using Java 26.0.1 with PID 15828 (started by wang in /Users/wang/Documents/trip/trip-backend-java)
-2026-08-06T16:51:06.079+08:00  INFO 15828 --- [trip-backend] [           main] .b.t.i.FeedbackControllerIntegrationTest : No active profile set, falling back to 1 default profile: "default"
-2026-08-06T16:51:06.365+08:00  INFO 15828 --- [trip-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2026-08-06T16:51:06.365+08:00  INFO 15828 --- [trip-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-08-06T16:51:06.413+08:00  INFO 15828 --- [trip-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 11 JPA repository interfaces.
-2026-08-06T16:51:06.530+08:00  INFO 15828 --- [trip-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2026-08-06T16:51:06.531+08:00  INFO 15828 --- [trip-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2026-08-06T16:51:06.544+08:00  INFO 15828 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.AgentStepRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-08-06T16:51:06.544+08:00  INFO 15828 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.ConversationRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-08-06T16:51:06.544+08:00  INFO 15828 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.FeedbackRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-08-06T16:51:06.544+08:00  INFO 15828 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.MessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-08-06T16:51:06.544+08:00  INFO 15828 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.PasswordResetRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-08-06T16:51:06.545+08:00  INFO 15828 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.RoleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-08-06T16:51:06.545+08:00  INFO 15828 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.SpotDocRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-08-06T16:51:06.545+08:00  INFO 15828 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.SpotRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-08-06T16:51:06.545+08:00  INFO 15828 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.TokenUsageLogRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-08-06T16:51:06.545+08:00  INFO 15828 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.TripRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-08-06T16:51:06.545+08:00  INFO 15828 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-08-06T16:51:06.545+08:00  INFO 15828 --- [trip-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
-2026-08-06T16:51:06.785+08:00  INFO 15828 --- [trip-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-08-06T16:51:06.863+08:00  INFO 15828 --- [trip-backend] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@50b4364
-2026-08-06T16:51:06.863+08:00  INFO 15828 --- [trip-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-08-06T16:51:06.886+08:00  INFO 15828 --- [trip-backend] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-08-06T16:51:06.911+08:00  INFO 15828 --- [trip-backend] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2026-08-06T16:51:06.924+08:00  INFO 15828 --- [trip-backend] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-08-06T16:51:07.046+08:00  INFO 15828 --- [trip-backend] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-08-06T16:51:07.067+08:00  WARN 15828 --- [trip-backend] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-08-06T16:51:07.415+08:00  INFO 15828 --- [trip-backend] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-08-06T16:51:07.448+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.316+08:00  INFO 20842 --- [trip-backend] [           main] .b.t.i.FeedbackControllerIntegrationTest : Starting FeedbackControllerIntegrationTest using Java 26.0.1 with PID 20842 (started by wang in /Users/wang/Documents/trip/trip-backend-java)
+2026-08-08T19:48:46.316+08:00  INFO 20842 --- [trip-backend] [           main] .b.t.i.FeedbackControllerIntegrationTest : No active profile set, falling back to 1 default profile: "default"
+2026-08-08T19:48:46.386+08:00  INFO 20842 --- [trip-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-08-08T19:48:46.387+08:00  INFO 20842 --- [trip-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-08T19:48:46.391+08:00  INFO 20842 --- [trip-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 11 JPA repository interfaces.
+2026-08-08T19:48:46.410+08:00  INFO 20842 --- [trip-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-08-08T19:48:46.410+08:00  INFO 20842 --- [trip-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-08-08T19:48:46.414+08:00  INFO 20842 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.AgentStepRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-08T19:48:46.414+08:00  INFO 20842 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.ConversationRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-08T19:48:46.414+08:00  INFO 20842 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.FeedbackRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-08T19:48:46.414+08:00  INFO 20842 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.MessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-08T19:48:46.414+08:00  INFO 20842 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.PasswordResetRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-08T19:48:46.414+08:00  INFO 20842 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.RoleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-08T19:48:46.414+08:00  INFO 20842 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.SpotDocRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-08T19:48:46.414+08:00  INFO 20842 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.SpotRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-08T19:48:46.414+08:00  INFO 20842 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.TokenUsageLogRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-08T19:48:46.414+08:00  INFO 20842 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.TripRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-08T19:48:46.414+08:00  INFO 20842 --- [trip-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.trip.backend.domain.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-08T19:48:46.414+08:00  INFO 20842 --- [trip-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2026-08-08T19:48:46.445+08:00  INFO 20842 --- [trip-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-08-08T19:48:46.452+08:00  INFO 20842 --- [trip-backend] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@1944391c
+2026-08-08T19:48:46.452+08:00  INFO 20842 --- [trip-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-08-08T19:48:46.454+08:00  INFO 20842 --- [trip-backend] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-08-08T19:48:46.455+08:00  INFO 20842 --- [trip-backend] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-08-08T19:48:46.466+08:00  INFO 20842 --- [trip-backend] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-08T19:48:46.469+08:00  WARN 20842 --- [trip-backend] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-08-08T19:48:46.534+08:00  INFO 20842 --- [trip-backend] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-08T19:48:46.552+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists agent_steps 
        add column createdAt timestamp(6) with time zone not null" via JDBC [ERROR: column "createdat" of relation "agent_steps" contains null values]
 
@@ -262,7 +262,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "createdat" of relat
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.451+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.553+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists agent_steps 
        add column messageId bigint not null" via JDBC [ERROR: column "messageid" of relation "agent_steps" contains null values]
 
@@ -400,7 +400,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "messageid" of relat
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.455+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.554+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists agent_steps 
        alter column output set data type oid" via JDBC [ERROR: column "output" cannot be cast automatically to type oid
   建议：You might need to specify "USING output::oid".]
@@ -541,7 +541,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "output" cannot be c
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.461+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.558+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists feedbacks 
        add column conversationId bigint not null" via JDBC [ERROR: column "conversationid" of relation "feedbacks" contains null values]
 
@@ -679,7 +679,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "conversationid" of 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.463+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.560+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists feedbacks 
        add column createdAt timestamp(6) with time zone not null" via JDBC [ERROR: column "createdat" of relation "feedbacks" contains null values]
 
@@ -817,7 +817,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "createdat" of relat
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.464+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.560+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists feedbacks 
        add column messageId bigint not null" via JDBC [ERROR: column "messageid" of relation "feedbacks" contains null values]
 
@@ -955,7 +955,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "messageid" of relat
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.465+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.561+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists feedbacks 
        add column userId bigint not null" via JDBC [ERROR: column "userid" of relation "feedbacks" contains null values]
 
@@ -1093,7 +1093,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "userid" of relation
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.467+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.562+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists messages 
        alter column content set data type oid" via JDBC [ERROR: column "content" cannot be cast automatically to type oid
   建议：You might need to specify "USING content::oid".]
@@ -1234,7 +1234,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "content" cannot be 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.469+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.564+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists password_resets 
        add column createdAt timestamp(6) with time zone not null" via JDBC [ERROR: column "createdat" of relation "password_resets" contains null values]
 
@@ -1372,7 +1372,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "createdat" of relat
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.470+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.565+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists password_resets 
        add column expiresAt timestamp(6) with time zone not null" via JDBC [ERROR: column "expiresat" of relation "password_resets" contains null values]
 
@@ -1510,7 +1510,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "expiresat" of relat
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.472+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.566+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists spot_docs 
        add column chunkIndex integer not null" via JDBC [ERROR: column "chunkindex" of relation "spot_docs" contains null values]
 
@@ -1648,7 +1648,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "chunkindex" of rela
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.473+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.567+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists spot_docs 
        alter column content set data type oid" via JDBC [ERROR: column "content" cannot be cast automatically to type oid
   建议：You might need to specify "USING content::oid".]
@@ -1789,7 +1789,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "content" cannot be 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.474+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.568+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists spot_docs 
        add column retrievedAt timestamp(6) with time zone not null" via JDBC [ERROR: column "retrievedat" of relation "spot_docs" contains null values]
 
@@ -1927,7 +1927,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "retrievedat" of rel
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.476+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.570+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists spot_docs 
        add column sourceType varchar(50) not null" via JDBC [ERROR: column "sourcetype" of relation "spot_docs" contains null values]
 
@@ -2065,7 +2065,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "sourcetype" of rela
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.477+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.570+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists spot_docs 
        add column spotId bigint not null" via JDBC [ERROR: column "spotid" of relation "spot_docs" contains null values]
 
@@ -2203,7 +2203,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "spotid" of relation
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.630+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.728+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists spots 
        alter column duration set data type integer" via JDBC [ERROR: column "duration" cannot be cast automatically to type integer
   建议：You might need to specify "USING duration::integer".]
@@ -2344,7 +2344,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "duration" cannot be
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.632+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.730+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists token_usage_logs 
        add column completionTokens integer not null" via JDBC [ERROR: column "completiontokens" of relation "token_usage_logs" contains null values]
 
@@ -2482,7 +2482,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "completiontokens" o
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.633+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.730+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists token_usage_logs 
        add column createdAt timestamp(6) with time zone not null" via JDBC [ERROR: column "createdat" of relation "token_usage_logs" contains null values]
 
@@ -2620,7 +2620,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "createdat" of relat
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.634+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.731+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists token_usage_logs 
        add column promptTokens integer not null" via JDBC [ERROR: column "prompttokens" of relation "token_usage_logs" contains null values]
 
@@ -2758,7 +2758,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "prompttokens" of re
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.635+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.732+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists token_usage_logs 
        add column requestType varchar(50) not null" via JDBC [ERROR: column "requesttype" of relation "token_usage_logs" contains null values]
 
@@ -2896,7 +2896,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "requesttype" of rel
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.636+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.733+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists token_usage_logs 
        add column totalTokens integer not null" via JDBC [ERROR: column "totaltokens" of relation "token_usage_logs" contains null values]
 
@@ -3034,7 +3034,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "totaltokens" of rel
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.637+08:00  WARN 15828 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-08-08T19:48:46.733+08:00  WARN 20842 --- [trip-backend] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists token_usage_logs 
        add column userId bigint not null" via JDBC [ERROR: column "userid" of relation "token_usage_logs" contains null values]
 
@@ -3172,23 +3172,22 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "userid" of relation
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 115 common frames omitted
 
-2026-08-06T16:51:07.644+08:00  INFO 15828 --- [trip-backend] [           main] t.s.e.i.AbstractInformationExtractorImpl : HHH000475: Cannot locate column information using identifier [to_tsvector('chinese'::regconfig, COALESCE(content, ''::text))]; ignoring index [idx_spot_docs_content_fts]
-2026-08-06T16:51:07.645+08:00  INFO 15828 --- [trip-backend] [           main] t.s.e.i.AbstractInformationExtractorImpl : HHH000475: Cannot locate column information using identifier [to_tsvector('chinese'::regconfig, (((COALESCE(name, ''::character varying))::text || ' '::text) || COALESCE(description, ''::text)))]; ignoring index [idx_spots_name_desc_fts]
-2026-08-06T16:51:07.647+08:00  INFO 15828 --- [trip-backend] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-08-06T16:51:08.053+08:00  INFO 15828 --- [trip-backend] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-08-06T16:51:08.490+08:00  WARN 15828 --- [trip-backend] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-08-06T16:51:08.502+08:00  WARN 15828 --- [trip-backend] [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+2026-08-08T19:48:46.739+08:00  INFO 20842 --- [trip-backend] [           main] t.s.e.i.AbstractInformationExtractorImpl : HHH000475: Cannot locate column information using identifier [to_tsvector('chinese'::regconfig, COALESCE(content, ''::text))]; ignoring index [idx_spot_docs_content_fts]
+2026-08-08T19:48:46.740+08:00  INFO 20842 --- [trip-backend] [           main] t.s.e.i.AbstractInformationExtractorImpl : HHH000475: Cannot locate column information using identifier [to_tsvector('chinese'::regconfig, (((COALESCE(name, ''::character varying))::text || ' '::text) || COALESCE(description, ''::text)))]; ignoring index [idx_spots_name_desc_fts]
+2026-08-08T19:48:46.742+08:00  INFO 20842 --- [trip-backend] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-08T19:48:46.895+08:00  WARN 20842 --- [trip-backend] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-08T19:48:46.902+08:00  WARN 20842 --- [trip-backend] [           main] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: a2c15b2e-a9c5-4d41-a5cd-fa16c7a65a4c
+Using generated security password: c2b27fd2-f9dd-4cde-8a81-d69fd39fe917
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2026-08-06T16:51:08.504+08:00  INFO 15828 --- [trip-backend] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-08-06T16:51:08.663+08:00  INFO 15828 --- [trip-backend] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
-2026-08-06T16:51:08.864+08:00  INFO 15828 --- [trip-backend] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2026-08-06T16:51:08.865+08:00  INFO 15828 --- [trip-backend] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2026-08-06T16:51:08.865+08:00  INFO 15828 --- [trip-backend] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2026-08-06T16:51:08.893+08:00  INFO 15828 --- [trip-backend] [           main] .b.t.i.FeedbackControllerIntegrationTest : Started FeedbackControllerIntegrationTest in 2.92 seconds (process running for 3.254)
+2026-08-08T19:48:46.902+08:00  INFO 20842 --- [trip-backend] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-08-08T19:48:46.960+08:00  INFO 20842 --- [trip-backend] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-08-08T19:48:47.050+08:00  INFO 20842 --- [trip-backend] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-08-08T19:48:47.050+08:00  INFO 20842 --- [trip-backend] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-08-08T19:48:47.051+08:00  INFO 20842 --- [trip-backend] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-08-08T19:48:47.058+08:00  INFO 20842 --- [trip-backend] [           main] .b.t.i.FeedbackControllerIntegrationTest : Started FeedbackControllerIntegrationTest in 0.756 seconds (process running for 10.702)
 [SchemaValidator] 正在校验数据库表结构...
 [SchemaValidator] 找到 11 张表: [agent_steps, conversations, feedbacks, messages, password_resets, roles, spot_docs, spots, token_usage_logs, trips, users]
 [SchemaValidator] password_resets 表已存在，跳过创建
@@ -3200,139 +3199,7 @@ MockHttpServletRequest:
       Request URI = /api/user/register
        Parameters = {}
           Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"80"]
-             Body = {"username":"feedbackuser","email":"feedback@example.com","password":"Test@123"}
-    Session Attrs = {}
-
-Handler:
-             Type = com.trip.backend.web.controller.UserController
-           Method = com.trip.backend.web.controller.UserController#register(RegisterRequest, HttpServletRequest)
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 201
-    Error message = null
-          Headers = [x-request-id:"9ecbc613-71ec-43e1-87f2-46b4c7cbf288", X-RateLimit-Limit:"1000", X-RateLimit-Remaining:"999", X-RateLimit-Reset:"1786007172", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
-     Content type = application/json
-             Body = {"code":201,"data":{"username":"feedbackuser","email":"feedback@example.com","id":64},"message":"注册成功"}
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
-
-MockHttpServletRequest:
-      HTTP Method = POST
-      Request URI = /api/user/login
-       Parameters = {}
-          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"51"]
-             Body = {"password":"Test@123","identifier":"feedbackuser"}
-    Session Attrs = {}
-
-Handler:
-             Type = com.trip.backend.web.controller.UserController
-           Method = com.trip.backend.web.controller.UserController#login(LoginRequest, HttpServletRequest)
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 200
-    Error message = null
-          Headers = [x-request-id:"d3df7bfa-da0b-497f-8392-835a4b15da0c", X-RateLimit-Limit:"1000", X-RateLimit-Remaining:"998", X-RateLimit-Reset:"1786007172", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
-     Content type = application/json
-             Body = {"code":200,"data":{"user":{"id":64,"email":"feedback@example.com","username":"feedbackuser"},"token":"eyJhbGciOiJIUzI1NiJ9.eyJyb2xlSWQiOjIsInVzZXJJZCI6NjQsInN1YiI6ImZlZWRiYWNrdXNlciIsImlhdCI6MTc4NjAwNjI3MiwiZXhwIjoxNzg2NjExMDcyfQ.7C7MpHZyh68hNA2Tn9bop51BtZtrutvtHVfxIXXDZXE"},"message":"登录成功"}
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
-
-MockHttpServletRequest:
-      HTTP Method = POST
-      Request URI = /api/feedback
-       Parameters = {}
-          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"106"]
-             Body = {"messageId":1,"tags":["推荐","实用"],"comment":"非常棒的推荐！","rating":5,"conversationId":1}
-    Session Attrs = {}
-
-Handler:
-             Type = null
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 401
-    Error message = null
-          Headers = [X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
-     Content type = null
-             Body = 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
-]]></system-out>
-    <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/wang/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.19/byte-buddy-agent-1.14.19.jar)
-WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
-WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
-WARNING: Dynamic loading of agents will be disallowed by default in a future release
-]]></system-err>
-  </testcase>
-  <testcase name="testGetFeedbackList" classname="com.trip.backend.test.integration.FeedbackControllerIntegrationTest" time="0.287">
-    <failure message="Status expected:&lt;200&gt; but was:&lt;500&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<500>
-	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)
-	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)
-	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:637)
-	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
-	at com.trip.backend.test.integration.FeedbackControllerIntegrationTest.testGetFeedbackList(FeedbackControllerIntegrationTest.java:114)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
-]]></failure>
-    <system-out><![CDATA[2026-08-06T16:51:13.108+08:00  WARN 15828 --- [trip-backend] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 42703
-2026-08-06T16:51:13.108+08:00 ERROR 15828 --- [trip-backend] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: column f1_0.conversationid does not exist
-  建议：Perhaps you meant to reference the column "f1_0.conversation_id".
-  位置：29
-
-MockHttpServletRequest:
-      HTTP Method = POST
-      Request URI = /api/user/register
-       Parameters = {}
-          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"80"]
-             Body = {"username":"feedbackuser","email":"feedback@example.com","password":"Test@123"}
+             Body = {"username":"feedbackuser","password":"Test@123","email":"feedback@example.com"}
     Session Attrs = {}
 
 Handler:
@@ -3357,7 +3224,7 @@ FlashMap:
 MockHttpServletResponse:
            Status = 400
     Error message = null
-          Headers = [x-request-id:"51c41055-9fc9-40cf-aa66-ce15d0a8743e", X-RateLimit-Limit:"1000", X-RateLimit-Remaining:"997", X-RateLimit-Reset:"1786007172", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+          Headers = [x-request-id:"88884504-6430-401b-976c-cf1f4f973889", X-RateLimit-Limit:"1000", X-RateLimit-Remaining:"999", X-RateLimit-Reset:"1786190630", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
      Content type = application/json
              Body = {"code":400,"message":"用户名已存在","error":"用户名已存在"}
     Forwarded URL = null
@@ -3394,9 +3261,136 @@ FlashMap:
 MockHttpServletResponse:
            Status = 200
     Error message = null
-          Headers = [x-request-id:"df8c8788-2580-4570-8b38-f2428a530443", X-RateLimit-Limit:"1000", X-RateLimit-Remaining:"996", X-RateLimit-Reset:"1786007172", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+          Headers = [x-request-id:"7be3ab0b-5337-4ec6-95ff-22b2d9a8bef9", X-RateLimit-Limit:"1000", X-RateLimit-Remaining:"998", X-RateLimit-Reset:"1786190630", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
      Content type = application/json
-             Body = {"code":200,"data":{"user":{"id":64,"email":"feedback@example.com","username":"feedbackuser"},"token":"eyJhbGciOiJIUzI1NiJ9.eyJyb2xlSWQiOjIsInVzZXJJZCI6NjQsInN1YiI6ImZlZWRiYWNrdXNlciIsImlhdCI6MTc4NjAwNjI3MywiZXhwIjoxNzg2NjExMDczfQ.oe0p9lTYUkQeE6fBL_XsfT6yj7w8En1t44Kv5l9Jqh4"},"message":"登录成功"}
+             Body = {"code":200,"data":{"user":{"id":64,"email":"feedback@example.com","username":"feedbackuser"},"token":"eyJhbGciOiJIUzI1NiJ9.eyJyb2xlSWQiOjIsInVzZXJJZCI6NjQsInN1YiI6ImZlZWRiYWNrdXNlciIsImlhdCI6MTc4NjE4OTczMCwiZXhwIjoxNzg2Nzk0NTMwfQ.rBdvbwWBo-MSrHVo930260REaq7ujWXAbU5PRXBhuBU"},"message":"登录成功"}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/feedback
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"106"]
+             Body = {"rating":5,"comment":"非常棒的推荐！","tags":["推荐","实用"],"messageId":1,"conversationId":1}
+    Session Attrs = {}
+
+Handler:
+             Type = null
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 401
+    Error message = null
+          Headers = [X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  </testcase>
+  <testcase name="testGetFeedbackList" classname="com.trip.backend.test.integration.FeedbackControllerIntegrationTest" time="0.285">
+    <failure message="Status expected:&lt;200&gt; but was:&lt;500&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<500>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:637)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at com.trip.backend.test.integration.FeedbackControllerIntegrationTest.testGetFeedbackList(FeedbackControllerIntegrationTest.java:114)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></failure>
+    <system-out><![CDATA[2026-08-08T19:48:50.785+08:00  WARN 20842 --- [trip-backend] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 42703
+2026-08-08T19:48:50.785+08:00 ERROR 20842 --- [trip-backend] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: column f1_0.conversationid does not exist
+  建议：Perhaps you meant to reference the column "f1_0.conversation_id".
+  位置：29
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/user/register
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"80"]
+             Body = {"username":"feedbackuser","password":"Test@123","email":"feedback@example.com"}
+    Session Attrs = {}
+
+Handler:
+             Type = com.trip.backend.web.controller.UserController
+           Method = com.trip.backend.web.controller.UserController#register(RegisterRequest, HttpServletRequest)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = com.trip.backend.utils.AppException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 400
+    Error message = null
+          Headers = [x-request-id:"996a1cf5-3657-42c9-9e2d-ea6c77b3a49b", X-RateLimit-Limit:"1000", X-RateLimit-Remaining:"997", X-RateLimit-Reset:"1786190630", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+     Content type = application/json
+             Body = {"code":400,"message":"用户名已存在","error":"用户名已存在"}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/user/login
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"51"]
+             Body = {"password":"Test@123","identifier":"feedbackuser"}
+    Session Attrs = {}
+
+Handler:
+             Type = com.trip.backend.web.controller.UserController
+           Method = com.trip.backend.web.controller.UserController#login(LoginRequest, HttpServletRequest)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [x-request-id:"d4ac4461-de02-4516-a729-2f677ea75f98", X-RateLimit-Limit:"1000", X-RateLimit-Remaining:"996", X-RateLimit-Reset:"1786190630", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+     Content type = application/json
+             Body = {"code":200,"data":{"user":{"id":64,"email":"feedback@example.com","username":"feedbackuser"},"token":"eyJhbGciOiJIUzI1NiJ9.eyJyb2xlSWQiOjIsInVzZXJJZCI6NjQsInN1YiI6ImZlZWRiYWNrdXNlciIsImlhdCI6MTc4NjE4OTczMCwiZXhwIjoxNzg2Nzk0NTMwfQ.rBdvbwWBo-MSrHVo930260REaq7ujWXAbU5PRXBhuBU"},"message":"登录成功"}
     Forwarded URL = null
    Redirected URL = null
           Cookies = []
@@ -3405,7 +3399,7 @@ MockHttpServletRequest:
       HTTP Method = GET
       Request URI = /api/feedback
        Parameters = {page=[1], pageSize=[10]}
-          Headers = [Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlSWQiOjIsInVzZXJJZCI6NjQsInN1YiI6ImZlZWRiYWNrdXNlciIsImlhdCI6MTc4NjAwNjI3MywiZXhwIjoxNzg2NjExMDczfQ.oe0p9lTYUkQeE6fBL_XsfT6yj7w8En1t44Kv5l9Jqh4"]
+          Headers = [Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlSWQiOjIsInVzZXJJZCI6NjQsInN1YiI6ImZlZWRiYWNrdXNlciIsImlhdCI6MTc4NjE4OTczMCwiZXhwIjoxNzg2Nzk0NTMwfQ.rBdvbwWBo-MSrHVo930260REaq7ujWXAbU5PRXBhuBU"]
              Body = null
     Session Attrs = {}
 
@@ -3431,7 +3425,7 @@ FlashMap:
 MockHttpServletResponse:
            Status = 500
     Error message = null
-          Headers = [x-request-id:"4ca0c4de-40c2-4bb0-9a0d-4122b51990fb", X-RateLimit-Limit:"30", X-RateLimit-Remaining:"29", X-RateLimit-Reset:"1786009873", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+          Headers = [x-request-id:"30da8a45-a0fc-47d8-98e2-abf711eca1f4", X-RateLimit-Limit:"30", X-RateLimit-Remaining:"29", X-RateLimit-Reset:"1786193330", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
      Content type = application/json
              Body = {"code":500,"message":"Internal Server Error","error":"Internal Server Error"}
     Forwarded URL = null
@@ -3439,7 +3433,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="testGetMessageStats" classname="com.trip.backend.test.integration.FeedbackControllerIntegrationTest" time="0.013">
+  <testcase name="testGetMessageStats" classname="com.trip.backend.test.integration.FeedbackControllerIntegrationTest" time="0.012">
     <failure message="Status expected:&lt;200&gt; but was:&lt;500&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<500>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)
@@ -3450,8 +3444,8 @@ MockHttpServletResponse:
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 ]]></failure>
-    <system-out><![CDATA[2026-08-06T16:51:13.126+08:00  WARN 15828 --- [trip-backend] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 42703
-2026-08-06T16:51:13.126+08:00 ERROR 15828 --- [trip-backend] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: column f1_0.messageid does not exist
+    <system-out><![CDATA[2026-08-08T19:48:50.801+08:00  WARN 20842 --- [trip-backend] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 42703
+2026-08-08T19:48:50.801+08:00 ERROR 20842 --- [trip-backend] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: column f1_0.messageid does not exist
   建议：Perhaps you meant to reference the column "f1_0.message_id".
   位置：144
 
@@ -3485,7 +3479,7 @@ FlashMap:
 MockHttpServletResponse:
            Status = 500
     Error message = null
-          Headers = [x-request-id:"d5a48759-41d2-4844-9870-0c9986567626", X-RateLimit-Limit:"30", X-RateLimit-Remaining:"28", X-RateLimit-Reset:"1786009873", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+          Headers = [x-request-id:"bbfa717b-0ab7-4193-ab82-e63d92e7ca03", X-RateLimit-Limit:"30", X-RateLimit-Remaining:"28", X-RateLimit-Reset:"1786193330", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
      Content type = application/json
              Body = {"code":500,"message":"Internal Server Error","error":"Internal Server Error"}
     Forwarded URL = null

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.trip.backend.test.integration.UserControllerIntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.198 s <<< FAILURE! -- in com.trip.backend.test.integration.UserControllerIntegrationTest
-com.trip.backend.test.integration.UserControllerIntegrationTest.testRegisterSuccess -- Time elapsed: 0.007 s <<< FAILURE!
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.512 s <<< FAILURE! -- in com.trip.backend.test.integration.UserControllerIntegrationTest
+com.trip.backend.test.integration.UserControllerIntegrationTest.testRegisterSuccess -- Time elapsed: 0.009 s <<< FAILURE!
 java.lang.AssertionError: Expected code=201
 	at com.trip.backend.test.integration.UserControllerIntegrationTest.testRegisterSuccess(UserControllerIntegrationTest.java:82)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)

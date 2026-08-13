@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.trip.backend.test.integration.FeedbackControllerIntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 7.297 s <<< FAILURE! -- in com.trip.backend.test.integration.FeedbackControllerIntegrationTest
-com.trip.backend.test.integration.FeedbackControllerIntegrationTest.testSubmitFeedback -- Time elapsed: 0.804 s <<< ERROR!
+Tests run: 3, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 4.508 s <<< FAILURE! -- in com.trip.backend.test.integration.FeedbackControllerIntegrationTest
+com.trip.backend.test.integration.FeedbackControllerIntegrationTest.testSubmitFeedback -- Time elapsed: 0.417 s <<< ERROR!
 com.fasterxml.jackson.databind.exc.MismatchedInputException: 
 No content to map due to end-of-input
  at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1]
@@ -17,7 +17,7 @@ No content to map due to end-of-input
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 
-com.trip.backend.test.integration.FeedbackControllerIntegrationTest.testGetFeedbackList -- Time elapsed: 0.287 s <<< FAILURE!
+com.trip.backend.test.integration.FeedbackControllerIntegrationTest.testGetFeedbackList -- Time elapsed: 0.285 s <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<500>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)
@@ -28,7 +28,7 @@ java.lang.AssertionError: Status expected:<200> but was:<500>
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 
-com.trip.backend.test.integration.FeedbackControllerIntegrationTest.testGetMessageStats -- Time elapsed: 0.013 s <<< FAILURE!
+com.trip.backend.test.integration.FeedbackControllerIntegrationTest.testGetMessageStats -- Time elapsed: 0.012 s <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<500>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)

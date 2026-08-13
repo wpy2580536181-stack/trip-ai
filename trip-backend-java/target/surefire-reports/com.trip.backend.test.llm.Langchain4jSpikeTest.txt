@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.trip.backend.test.llm.Langchain4jSpikeTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 6.493 s <<< FAILURE! -- in com.trip.backend.test.llm.Langchain4jSpikeTest
-com.trip.backend.test.llm.Langchain4jSpikeTest.systemMessageStructureWorks -- Time elapsed: 0.210 s <<< ERROR!
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 6.756 s <<< FAILURE! -- in com.trip.backend.test.llm.Langchain4jSpikeTest
+com.trip.backend.test.llm.Langchain4jSpikeTest.systemMessageStructureWorks -- Time elapsed: 0.246 s <<< ERROR!
 java.lang.IllegalStateException: Provider not configured or missing API key: DEEPSEEK
 	at com.trip.backend.service.llm.Langchain4jLlmClient.createChatModel(Langchain4jLlmClient.java:146)
 	at com.trip.backend.service.llm.Langchain4jLlmClient.invoke(Langchain4jLlmClient.java:47)
@@ -22,7 +22,7 @@ java.lang.IllegalStateException: Provider not configured or missing API key: DEE
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 
-com.trip.backend.test.llm.Langchain4jSpikeTest.tokenUsageStructureExists -- Time elapsed: 0.002 s <<< ERROR!
+com.trip.backend.test.llm.Langchain4jSpikeTest.tokenUsageStructureExists -- Time elapsed: 0.001 s <<< ERROR!
 java.lang.IllegalStateException: Provider not configured or missing API key: DEEPSEEK
 	at com.trip.backend.service.llm.Langchain4jLlmClient.createChatModel(Langchain4jLlmClient.java:146)
 	at com.trip.backend.service.llm.Langchain4jLlmClient.invoke(Langchain4jLlmClient.java:47)
@@ -32,7 +32,7 @@ java.lang.IllegalStateException: Provider not configured or missing API key: DEE
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 
-com.trip.backend.test.llm.Langchain4jSpikeTest.toolCallingWorks -- Time elapsed: 0.001 s <<< ERROR!
+com.trip.backend.test.llm.Langchain4jSpikeTest.toolCallingWorks -- Time elapsed: 0.002 s <<< ERROR!
 java.lang.IllegalStateException: Provider not configured or missing API key: DEEPSEEK
 	at com.trip.backend.service.llm.Langchain4jLlmClient.createChatModel(Langchain4jLlmClient.java:146)
 	at com.trip.backend.service.llm.Langchain4jLlmClient.invoke(Langchain4jLlmClient.java:47)
@@ -41,7 +41,7 @@ java.lang.IllegalStateException: Provider not configured or missing API key: DEE
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 
-com.trip.backend.test.llm.Langchain4jSpikeTest.streamingToolCallingWorks -- Time elapsed: 0.001 s <<< ERROR!
+com.trip.backend.test.llm.Langchain4jSpikeTest.streamingToolCallingWorks -- Time elapsed: 0.002 s <<< ERROR!
 java.lang.IllegalStateException: Provider not configured or missing API key: DEEPSEEK
 	at com.trip.backend.service.llm.Langchain4jLlmClient.createStreamingChatModel(Langchain4jLlmClient.java:160)
 	at com.trip.backend.service.llm.Langchain4jLlmClient.stream(Langchain4jLlmClient.java:85)
@@ -50,7 +50,7 @@ java.lang.IllegalStateException: Provider not configured or missing API key: DEE
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 
-com.trip.backend.test.llm.Langchain4jSpikeTest.streamingInvokeWorks -- Time elapsed: 0.001 s <<< ERROR!
+com.trip.backend.test.llm.Langchain4jSpikeTest.streamingInvokeWorks -- Time elapsed: 0.002 s <<< ERROR!
 java.lang.IllegalStateException: Provider not configured or missing API key: DEEPSEEK
 	at com.trip.backend.service.llm.Langchain4jLlmClient.createStreamingChatModel(Langchain4jLlmClient.java:160)
 	at com.trip.backend.service.llm.Langchain4jLlmClient.stream(Langchain4jLlmClient.java:85)
@@ -60,7 +60,7 @@ java.lang.IllegalStateException: Provider not configured or missing API key: DEE
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
 
-com.trip.backend.test.llm.Langchain4jSpikeTest.basicInvokeWorks -- Time elapsed: 0 s <<< ERROR!
+com.trip.backend.test.llm.Langchain4jSpikeTest.basicInvokeWorks -- Time elapsed: 0.001 s <<< ERROR!
 java.lang.IllegalStateException: Provider not configured or missing API key: DEEPSEEK
 	at com.trip.backend.service.llm.Langchain4jLlmClient.createChatModel(Langchain4jLlmClient.java:146)
 	at com.trip.backend.service.llm.Langchain4jLlmClient.invoke(Langchain4jLlmClient.java:47)
