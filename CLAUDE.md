@@ -95,6 +95,14 @@
 - [x] **D10 并发/预算守卫流式挂载 + TraceRecorder** ✅
 - [x] **D11 recommend 链路 + 状态机 + Format A** ✅
 - [x] **D12 post_chat_followup（压缩 + 决策 + 偏好提取）** ✅
+- [x] **D9 技能系统 L1/L2/L3 + patch_engine** ✅
+  - SkillRegistry + Skill（L1 目录/L2 规格/L3 执行）
+  - SkillLoader + SkillParser（SKILL.md 解析）
+  - SkillRuntime（执行入口 + 上下文组装）
+  - SelectorTool（技能选择工具）
+  - PatchEngine（replace_slot/remove_slot/swap_slot）
+  - ChatAgent 骨架（注入 8 个工具）
+  - 15 个单元测试全部通过
 - [x] **D1 LLM Gateway + Provider 路由** ✅
 - [x] **D2 Token 记账三件套** ✅
 - [x] **D3 SSE 基建（SseWriter + StreamStore + 断点续传）** ✅
@@ -132,7 +140,19 @@
 ---
 
 **创建时间**：2026-08-01
-**最后更新**：2026-08-04
+**最后更新**：2026-08-06
+
+### D9 完成记录
+- **[D9] 技能系统 L1/L2/L3 + patch_engine** ✅
+- **完成内容**：
+  - ✅ SkillRegistry + Skill（三层渐进式披露）
+  - ✅ SkillLoader + SkillParser（SKILL.md 解析）
+  - ✅ SkillRuntime（执行入口 + 上下文组装）
+  - ✅ SelectorTool（技能选择工具占位符）
+  - ✅ PatchEngine（槽位级修改：replace/remove/swap）
+  - ✅ ChatAgent 骨架（注入 8 个工具占位符）
+  - ✅ 单元测试：15 个测试全部通过（SkillRegistry 6 + PatchEngine 9）
+- **完成时间**：2026-08-06
 
 ### D8 完成记录
 - **[D8] 真实 LLM 调用实现**：Langchain4jLlmClient 支持基础/流式/工具调用
