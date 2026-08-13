@@ -23,6 +23,7 @@ com/trip/backend/infra/cache/RedisCacheBackend.class
 com/trip/backend/service/KnowledgeRagService.class
 com/trip/backend/service/CommuteService$CommuteRequest.class
 com/trip/backend/domain/entity/SpotDoc.class
+com/trip/backend/infra/skill/SkillRuntime.class
 com/trip/backend/web/controller/UserController$ForgotPasswordRequest.class
 com/trip/backend/service/llm/ProviderConfig$ProviderProperties.class
 com/trip/backend/domain/entity/TokenUsageLog.class
