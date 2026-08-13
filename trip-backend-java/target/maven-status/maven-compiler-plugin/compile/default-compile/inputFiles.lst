@@ -51,6 +51,7 @@
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/infra/security/JwtAuthFilter.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/infra/security/JwtUtil.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/infra/security/PasswordHasher.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/infra/skill/SelectorTool.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/infra/skill/Skill.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/infra/skill/SkillLoader.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/infra/skill/SkillParser.java

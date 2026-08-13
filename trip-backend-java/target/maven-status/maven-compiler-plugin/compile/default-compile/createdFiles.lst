@@ -119,6 +119,7 @@ com/trip/backend/config/SecurityConfig.class
 com/trip/backend/infra/cache/MemoryCacheBackend$Entry.class
 com/trip/backend/service/TripService.class
 com/trip/backend/domain/entity/PasswordReset.class
+com/trip/backend/infra/skill/SelectorTool.class
 com/trip/backend/service/llm/LlmClient$StreamHandler.class
 com/trip/backend/service/HistoryService.class
 com/trip/backend/web/config/CorsConfig.class
