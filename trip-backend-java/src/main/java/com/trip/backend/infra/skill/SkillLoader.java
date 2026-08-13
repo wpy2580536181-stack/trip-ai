@@ -22,18 +22,14 @@ public class SkillLoader {
      * 解析单个 SKILL.md 文件（完整版）
      *
      * @param path SKILL.md 文件路径
-     * @return (SkillCatalog, SkillSpec) 元组
+     * @return SkillSpec（失败返回空 spec）
      */
-    public static SkillParser.ParsedSkill parseSkillFile(String path) {
+    public static SkillSpec parseSkillFile(String path) {
         try {
             String content = readFileContent(path);
-            return SkillParser.parse(content);
+            return SkillParser.parse(content).spec();
         } catch (Exception e) {
-            // 解析失败返回空对象
-            return new SkillParser.ParsedSkill(
-                SkillParser.createEmptyCatalog(),
-                SkillParser.createEmptySpec()
-            );
+            return SkillParser.createEmptySpec();
         }
     }
 

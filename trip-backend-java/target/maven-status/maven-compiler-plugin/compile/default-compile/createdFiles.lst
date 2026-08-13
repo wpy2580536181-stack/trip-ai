@@ -15,6 +15,7 @@ com/trip/backend/domain/entity/Feedback.class
 com/trip/backend/service/UserService.class
 com/trip/backend/utils/AppException.class
 com/trip/backend/domain/entity/Spot.class
+com/trip/backend/infra/skill/Skill$ResourceLoadResult.class
 com/trip/backend/service/llm/Langchain4jLlmClient$1.class
 com/trip/backend/service/llm/LlmClient.class
 com/trip/backend/web/handler/GlobalExceptionHandler.class
@@ -49,6 +50,7 @@ com/trip/backend/service/llm/ProviderId.class
 com/trip/backend/domain/skill/SkillResult.class
 com/trip/backend/web/sse/SseEvent.class
 com/trip/backend/middleware/TokenUsage.class
+com/trip/backend/infra/skill/Skill.class
 com/trip/backend/web/sse/ResumeHandler$ResumeException.class
 com/trip/backend/web/controller/UserController$RegisterRequest.class
 com/trip/backend/service/llm/Scenario.class
@@ -58,10 +60,12 @@ com/trip/backend/Application.class
 com/trip/backend/infra/skill/SkillParser.class
 com/trip/backend/middleware/TokenMonitor$Stats.class
 com/trip/backend/middleware/ConcurrencyGuard$ConcurrencyLimitException.class
+com/trip/backend/infra/skill/SkillRegistry.class
 com/trip/backend/domain/repository/RoleRepository.class
 com/trip/backend/web/filter/GzipFilter$GzipResponseWrapper.class
 com/trip/backend/web/controller/CommuteController.class
 com/trip/backend/infra/cache/ResearchBundleCache.class
+com/trip/backend/infra/skill/Skill$SystemPrompt.class
 com/trip/backend/infra/cache/DualBackendCache.class
 com/trip/backend/infra/skill/SkillParser$Frontmatter.class
 com/trip/backend/domain/entity/AgentStep.class

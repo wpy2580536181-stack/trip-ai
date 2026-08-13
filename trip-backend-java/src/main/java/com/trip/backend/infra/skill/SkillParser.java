@@ -264,6 +264,14 @@ public class SkillParser {
     /**
      * 解析结果
      */
-    public static record ParsedSkill(SkillCatalog catalog, SkillSpec spec) {
+    public record ParsedSkill(SkillCatalog catalog, SkillSpec spec) {
+        // record 组件在 Java 21 中访问器可能是私有，显式提供 getter
+        public SkillCatalog getCatalog() {
+            return catalog;
+        }
+
+        public SkillSpec getSpec() {
+            return spec;
+        }
     }
 }
