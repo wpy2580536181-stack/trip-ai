@@ -123,6 +123,11 @@
   - SSE 流式事件序列实现
   - 测试脚本准备完成
 - [ ] **G6 Eval 回归测试** ⏳
+  - EvalRunner 骨架实现（使用 Map 简化类型）
+  - EvaluatorRegistry: 13 个 evaluator 列表
+  - RealAgent: 占位符
+  - FixtureLoader: 骨架
+  - 待完善：YAML 解析 + 真实 API 调用 + evaluator 实现
 - [x] **G7 性能测试** ✅
   - 性能测试脚本创建完成
   - 基线验证：服务健康、QPS 符合预期
