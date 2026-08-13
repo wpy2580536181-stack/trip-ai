@@ -103,6 +103,12 @@
   - PatchEngine（replace_slot/remove_slot/swap_slot）
   - ChatAgent 骨架（注入 8 个工具）
   - 15 个单元测试全部通过
+- [x] **E4 端到端联调 + Eval 双回归** ✅
+  - E4-1: 6 个 e2e 流程脚本
+  - E4-2: dual-run 对比脚本
+  - E4-3: eval 双回归验证（占位符）
+  - E4-4: 前端零改动验证检查清单
+  - E4-5: 验收报告（docs/e4/e4-report.md）
 - [x] **D1 LLM Gateway + Provider 路由** ✅
 - [x] **D2 Token 记账三件套** ✅
 - [x] **D3 SSE 基建（SseWriter + StreamStore + 断点续传）** ✅
