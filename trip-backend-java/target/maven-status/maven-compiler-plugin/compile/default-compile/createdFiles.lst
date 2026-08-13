@@ -43,6 +43,7 @@ com/trip/backend/domain/repository/AgentStepRepository.class
 com/trip/backend/service/llm/LlmClient$ToolSpec.class
 com/trip/backend/infra/resilience/ToolResilienceWrapper.class
 com/trip/backend/service/agent/dto/PlanResult.class
+com/trip/backend/infra/skill/patch/PatchEngine$PatchParams.class
 com/trip/backend/middleware/ConcurrencyGuard.class
 com/trip/backend/infra/cache/LlmCache.class
 com/trip/backend/domain/skill/SkillCatalog.class
@@ -64,6 +65,7 @@ com/trip/backend/middleware/ConcurrencyGuard$ConcurrencyLimitException.class
 com/trip/backend/infra/skill/SkillRegistry.class
 com/trip/backend/domain/repository/RoleRepository.class
 com/trip/backend/web/filter/GzipFilter$GzipResponseWrapper.class
+com/trip/backend/service/agent/ChatAgent$AgentOutput.class
 com/trip/backend/web/controller/CommuteController.class
 com/trip/backend/infra/cache/ResearchBundleCache.class
 com/trip/backend/infra/skill/Skill$SystemPrompt.class
@@ -79,6 +81,7 @@ com/trip/backend/infra/skill/SkillParser$ParsedSkill.class
 com/trip/backend/service/chat/PreferenceExtractor.class
 com/trip/backend/domain/skill/SkillLayer.class
 com/trip/backend/infra/redis/RedisConfig.class
+com/trip/backend/infra/skill/patch/PatchEngine.class
 com/trip/backend/service/llm/LlmClient$ToolCall.class
 com/trip/backend/service/llm/Langchain4jLlmClient.class
 com/trip/backend/domain/repository/FeedbackRepository.class
@@ -101,6 +104,7 @@ com/trip/backend/infra/cache/CacheBackend.class
 com/trip/backend/web/filter/GzipFilter.class
 com/trip/backend/service/KnowledgeRagService$BulkResult.class
 com/trip/backend/domain/repository/SpotDocRepository.class
+com/trip/backend/service/agent/ChatAgent.class
 com/trip/backend/domain/repository/ConversationRepository.class
 com/trip/backend/domain/entity/Message.class
 com/trip/backend/infra/security/PasswordHasher.class
@@ -127,6 +131,7 @@ com/trip/backend/service/tasks/SummaryService.class
 com/trip/backend/service/StatsService.class
 com/trip/backend/infra/ratelimit/RateLimitConfig.class
 com/trip/backend/web/sse/StreamStore.class
+com/trip/backend/infra/skill/patch/PatchError.class
 com/trip/backend/web/controller/HealthController.class
 com/trip/backend/domain/repository/TokenUsageLogRepository.class
 com/trip/backend/domain/repository/SpotRepository.class

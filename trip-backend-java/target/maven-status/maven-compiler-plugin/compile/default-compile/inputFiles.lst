@@ -57,6 +57,8 @@
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/infra/skill/SkillParser.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/infra/skill/SkillRegistry.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/infra/skill/SkillRuntime.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/infra/skill/patch/PatchEngine.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/infra/skill/patch/PatchError.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/middleware/ConcurrencyGuard.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/middleware/ConcurrencyGuardStreaming.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/middleware/TokenBudgetGuardStreaming.java
@@ -76,6 +78,7 @@
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/TripService.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/UserService.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/agent/AgentOutput.java
+/Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/agent/ChatAgent.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/agent/EventForwarder.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/agent/Orchestrator.java
 /Users/wang/Documents/trip/trip-backend-java/src/main/java/com/trip/backend/service/agent/dto/PlanRequest.java
