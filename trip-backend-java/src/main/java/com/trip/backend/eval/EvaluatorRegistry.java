@@ -1,10 +1,11 @@
 package com.trip.backend.eval;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
 /**
- * Evaluator 注册表
+ * EvaluatorRegistry: 管理所有 Evaluator
  */
 public class EvaluatorRegistry {
 
@@ -30,7 +31,7 @@ public class EvaluatorRegistry {
     }
 
     /**
-     * 执行单个 evaluator
+     * 执行单个 evaluator（占位符）
      */
     public static Map<String, Object> evaluate(String name, Map<String, Object> fixture, Map<String, Object> agentOutput) {
         return Map.of(
