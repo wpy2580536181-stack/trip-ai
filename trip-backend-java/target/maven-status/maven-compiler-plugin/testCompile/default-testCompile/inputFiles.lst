@@ -50,3 +50,5 @@
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/unit/TokenTrackingCallbackTest.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/unit/TripControllerTest.java
 /Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/unit/TripServiceTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/unit/skill/PatchEngineTest.java
+/Users/wang/Documents/trip/trip-backend-java/src/test/java/com/trip/backend/test/unit/skill/SkillRegistryTest.java

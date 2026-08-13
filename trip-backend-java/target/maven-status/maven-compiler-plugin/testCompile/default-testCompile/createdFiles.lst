@@ -49,7 +49,9 @@ com/trip/backend/test/unit/FeedbackServiceTest.class
 com/trip/backend/eval/types/FixtureExpected.class
 com/trip/backend/eval/runner/MultiSampleRunner.class
 com/trip/backend/test/llm/Langchain4jSpikeTest$1.class
+com/trip/backend/test/unit/skill/SkillRegistryTest.class
 com/trip/backend/test/unit/EventSinkWiringTest$TestConfig.class
+com/trip/backend/test/unit/skill/PatchEngineTest.class
 com/trip/backend/test/unit/EventSinkTest.class
 com/trip/backend/eval/types/FixtureInput.class
 com/trip/backend/eval/EvaluatorTest.class
