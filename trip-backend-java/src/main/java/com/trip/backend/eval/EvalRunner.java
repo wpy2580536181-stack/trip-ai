@@ -1,12 +1,14 @@
 package com.trip.backend.eval;
 
+import com.trip.backend.eval.evaluator.BaseEvaluator;
+import com.trip.backend.eval.types.AgentOutput;
+
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 /**
- * EvalRunner: Eval 框架主入口（简化版）
- *
- * 对应 Python: eval/runner.py
+ * EvalRunner: Eval 框架主入口
  */
 public class EvalRunner {
 
@@ -29,7 +31,12 @@ public class EvalRunner {
 
         // 调用 Agent
         System.out.println("  调用 Agent: " + message.substring(0, Math.min(50, message.length())) + "...");
-        Map<String, Object> agentOutput = realAgent.call(message);
+        Map<String, Object> agentOutputMap = realAgent.call(message);
+
+        // 转换为 AgentOutput
+        AgentOutput agentOutput = new AgentOutput();
+        agentOutput.text = (String) agentOutputMap.get("text");
+        agentOutput.error = (String) agentOutputMap.get("error");
 
         // 运行 evaluators
         List<String> evaluators = (List<String>) fixture.get("evaluators");
@@ -41,20 +48,25 @@ public class EvalRunner {
             );
         }
 
-        // 运行所有 evaluator（简化版：全部返回 false）
+        // 运行所有 evaluator
         int passed = 0;
         int failed = 0;
 
         for (String evaluatorName : evaluators) {
-            Map<String, Object> result = EvaluatorRegistry.evaluate(evaluatorName, fixture, agentOutput);
-            boolean evalPassed = (Boolean) result.getOrDefault("passed", false);
+            BaseEvaluator evaluator = EvaluatorRegistry.getEvaluator(evaluatorName);
+            if (evaluator == null) {
+                failed++;
+                System.out.println("  ❌ " + evaluatorName + ": 未找到");
+                continue;
+            }
 
-            if (evalPassed) {
+            boolean result = evaluator.evaluate(agentOutput);
+            if (result) {
                 passed++;
                 System.out.println("  ✅ " + evaluatorName);
             } else {
                 failed++;
-                System.out.println("  ❌ " + evaluatorName + ": " + result.get("reason"));
+                System.out.println("  ❌ " + evaluatorName + ": " + evaluator.getReason());
             }
         }
 
@@ -66,7 +78,7 @@ public class EvalRunner {
             "passed", allPassed,
             "passedCount", passed,
             "totalCount", evaluators.size(),
-            "agentOutput", agentOutput
+            "agentOutput", agentOutputMap
         );
     }
 
@@ -74,7 +86,7 @@ public class EvalRunner {
      * 运行所有 fixture
      */
     public List<Map<String, Object>> runAll(List<Map<String, Object>> fixtures) {
-        List<Map<String, Object>> results = new java.util.ArrayList<>();
+        List<Map<String, Object>> results = new ArrayList<>();
 
         for (Map<String, Object> fixture : fixtures) {
             Map<String, Object> result = runFixture(fixture);
