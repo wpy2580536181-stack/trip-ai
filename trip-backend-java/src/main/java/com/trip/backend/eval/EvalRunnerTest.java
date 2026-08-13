@@ -15,7 +15,7 @@ public class EvalRunnerTest {
 
         // 测试 RealAgent
         System.out.println("[1/3] 测试 RealAgent...");
-        RealAgent agent = new RealAgent("http://localhost:8080");
+        RealAgent agent = new RealAgent("http://localhost:8000");
         Map<String, Object> output = agent.call("你好，请帮我规划一个北京 3 日游");
         System.out.println("响应: " + output.get("text"));
         System.out.println("错误: " + output.get("error"));
@@ -26,7 +26,7 @@ public class EvalRunnerTest {
 
         // 测试 EvalRunner
         System.out.println("\n[3/3] 测试 EvalRunner...");
-        EvalRunner runner = new EvalRunner("http://localhost:8080");
+        EvalRunner runner = new EvalRunner("http://localhost:8000");
 
         // 构造测试 fixture
         Map<String, Object> fixture = Map.of(

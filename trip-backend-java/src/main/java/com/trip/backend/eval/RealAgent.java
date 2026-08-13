@@ -29,19 +29,21 @@ public class RealAgent {
     public Map<String, Object> call(String message) {
         try {
             // 简化实现：直接返回占位符
-            return Map.of(
-                "text", "RealAgent 占位符: " + message,
-                "error", null,
-                "tokens", Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0),
-                "durationMs", 0
-            );
+            Map<String, Object> tokens = Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0);
+            Map<String, Object> result = new java.util.LinkedHashMap<>();
+            result.put("text", "RealAgent 占位符: " + message);
+            result.put("error", "");
+            result.put("tokens", tokens);
+            result.put("durationMs", 0);
+            return result;
         } catch (Exception e) {
-            return Map.of(
-                "text", "",
-                "error", e.getMessage(),
-                "tokens", Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0),
-                "durationMs", 0
-            );
+            Map<String, Object> tokens = Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0);
+            Map<String, Object> result = new java.util.LinkedHashMap<>();
+            result.put("text", "");
+            result.put("error", e.getMessage() != null ? e.getMessage() : "");
+            result.put("tokens", tokens);
+            result.put("durationMs", 0);
+            return result;
         }
     }
 }
