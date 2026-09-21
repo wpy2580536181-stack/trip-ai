@@ -1,7 +1,9 @@
 package com.trip.backend.service;
 
 import com.trip.backend.domain.entity.TokenUsageLog;
+import com.trip.backend.domain.repository.AgentStepRepository;
 import com.trip.backend.domain.repository.TokenUsageLogRepository;
+import com.trip.backend.service.mcp.Guards;
 import com.trip.backend.utils.AppException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -19,9 +21,15 @@ import java.util.Map;
 public class StatsService {
 
     private final TokenUsageLogRepository tokenUsageLogRepository;
+    private final AgentStepRepository agentStepRepository;
+    private final Guards guards;
 
-    public StatsService(TokenUsageLogRepository tokenUsageLogRepository) {
+    public StatsService(TokenUsageLogRepository tokenUsageLogRepository,
+                        AgentStepRepository agentStepRepository,
+                        Guards guards) {
         this.tokenUsageLogRepository = tokenUsageLogRepository;
+        this.agentStepRepository = agentStepRepository;
+        this.guards = guards;
     }
 
     /**
@@ -87,8 +95,15 @@ public class StatsService {
      */
     @Transactional(readOnly = true)
     public List<Map<String, Object>> getAgentTrace(Long messageId) {
-        // TODO: 从 agent_steps 查询
-        return List.of();
+        var rows = agentStepRepository.findByMessageIdOrderByStepAsc(messageId);
+        List<Map<String, Object>> out = new java.util.ArrayList<>();
+        for (var r : rows) {
+            out.add(Map.of(
+                "step", r.getStep(), "type", r.getType(), "name", r.getName(),
+                "output", r.getOutput() == null ? "" : r.getOutput(),
+                "duration_ms", r.getDurationMs() == null ? 0 : r.getDurationMs()));
+        }
+        return out;
     }
 
     /**
@@ -105,14 +120,14 @@ public class StatsService {
      */
     @Transactional(readOnly = true)
     public Map<String, Object> getMcpStats() {
-        // TODO: 从 MCP 指标收集器获取
-        return Map.of(
-            "calls", 0,
-            "successes", 0,
-            "failures", 0,
-            "cacheHits", 0,
-            "circuitOpenCount", 0,
-            "avgDurationMs", 0.0
-        );
+        Guards.Metrics m = guards.snapshot();
+        Map<String, Object> out = new java.util.LinkedHashMap<>();
+        out.put("calls", m.calls);
+        out.put("successes", m.successes);
+        out.put("failures", m.failures);
+        out.put("cacheHits", m.cacheHits);
+        out.put("circuitOpenCount", m.circuitOpenCount);
+        out.put("avgDurationMs", m.avgDurationMs);
+        return out;
     }
 }

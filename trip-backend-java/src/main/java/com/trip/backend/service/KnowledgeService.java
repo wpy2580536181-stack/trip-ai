@@ -4,6 +4,7 @@ import com.trip.backend.domain.entity.Spot;
 import com.trip.backend.domain.entity.SpotDoc;
 import com.trip.backend.domain.repository.SpotDocRepository;
 import com.trip.backend.domain.repository.SpotRepository;
+import com.trip.backend.task.EmbeddingSyncTask;
 import com.trip.backend.utils.AppException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -24,10 +25,25 @@ public class KnowledgeService {
 
     private final SpotRepository spotRepository;
     private final SpotDocRepository spotDocRepository;
+    private final EmbeddingSyncTask embeddingSync;
 
-    public KnowledgeService(SpotRepository spotRepository, SpotDocRepository spotDocRepository) {
+    public KnowledgeService(SpotRepository spotRepository, SpotDocRepository spotDocRepository,
+                            EmbeddingSyncTask embeddingSync) {
         this.spotRepository = spotRepository;
         this.spotDocRepository = spotDocRepository;
+        this.embeddingSync = embeddingSync;
+    }
+
+    /** best-effort 入队 embedding 同步（失败不阻塞 CRUD）。 */
+    private void triggerEmbeddingSync(Spot spot) {
+        if (embeddingSync == null || spot.getId() == null) return;
+        try {
+            embeddingSync.enqueue(spot.getId(), spot.getCity(), spot.getName(),
+                spot.getDescription(), null, spot.getCategory());
+        } catch (Exception e) {
+            org.slf4j.LoggerFactory.getLogger(KnowledgeService.class)
+                .warn("embedding_sync 入队失败 spot={}: {}", spot.getId(), e.getMessage());
+        }
     }
 
     /**
@@ -93,6 +109,7 @@ public class KnowledgeService {
         spot.setRating((Double) data.get("rating"));
 
         spotRepository.save(spot);
+        triggerEmbeddingSync(spot);
 
         // 返回 Map
         Map<String, Object> result = new HashMap<>();
@@ -132,6 +149,8 @@ public class KnowledgeService {
             }
         });
 
+        spotRepository.save(spot);
+        triggerEmbeddingSync(spot);
         return spot;
     }
 
@@ -172,6 +191,7 @@ public class KnowledgeService {
                 spot.setRating((Double) data.get("rating"));
 
                 spotRepository.save(spot);
+                triggerEmbeddingSync(spot);
                 success++;
             } catch (Exception e) {
                 failed++;

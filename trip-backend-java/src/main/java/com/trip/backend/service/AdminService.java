@@ -4,6 +4,7 @@ import com.trip.backend.domain.entity.AgentStep;
 import com.trip.backend.domain.repository.AgentStepRepository;
 import com.trip.backend.domain.repository.ConversationRepository;
 import com.trip.backend.domain.repository.MessageRepository;
+import com.trip.backend.service.mcp.Guards;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
@@ -24,13 +25,16 @@ public class AdminService {
     private final AgentStepRepository agentStepRepository;
     private final MessageRepository messageRepository;
     private final ConversationRepository conversationRepository;
+    private final Guards guards;
 
     public AdminService(AgentStepRepository agentStepRepository,
                        MessageRepository messageRepository,
-                       ConversationRepository conversationRepository) {
+                       ConversationRepository conversationRepository,
+                       Guards guards) {
         this.agentStepRepository = agentStepRepository;
         this.messageRepository = messageRepository;
         this.conversationRepository = conversationRepository;
+        this.guards = guards;
     }
 
     /**
@@ -54,17 +58,17 @@ public class AdminService {
      * 获取 MCP 进程状态和调用指标
      */
     public Map<String, Object> getMcpStats() {
-        // TODO: 集成 MCP 指标
+        Guards.Metrics m = guards.snapshot();
+        Map<String, Object> metrics = new HashMap<>();
+        metrics.put("calls", m.calls);
+        metrics.put("successes", m.successes);
+        metrics.put("failures", m.failures);
+        metrics.put("cacheHits", m.cacheHits);
+        metrics.put("circuitOpenCount", m.circuitOpenCount);
+        metrics.put("avgDurationMs", m.avgDurationMs);
         return Map.of(
-            "alive", false,
-            "metrics", Map.of(
-                "calls", 0L,
-                "successes", 0L,
-                "failures", 0L,
-                "cacheHits", 0L,
-                "circuitOpenCount", 0,
-                "avgDurationMs", 0.0
-            )
+            "alive", true,
+            "metrics", metrics
         );
     }
 }

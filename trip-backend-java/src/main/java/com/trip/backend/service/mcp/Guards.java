@@ -1,5 +1,7 @@
 package com.trip.backend.service.mcp;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -12,6 +14,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * - 缓存：TTL 1800s，仅 maps_weather / maps_geo
  * - 指标：calls/successes/failures/cacheHits/circuitOpenCount/avgDurationMs
  */
+@Component
 public class Guards {
 
     /** 可缓存的 MCP 工具（对齐 Python CACHEABLE_TOOLS）。 */
