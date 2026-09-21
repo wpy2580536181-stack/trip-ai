@@ -122,8 +122,18 @@ class TaskQueueTest {
         assertTrue(d2 >= 180_000_000L && d2 <= 450_000_000L,
             "第 2 次退避应约 200ms（2 倍），实际 " + d2 / 1_000_000 + "ms");
 
-        // 最终成功结果可读
-        Object result = runner.getResult("j-flaky").orElseThrow();
+        // 最终成功结果可读（轮询等待结果写入，避免 countDown 与 results.put 之间的竞态）
+        Object result = null;
+        long deadline = System.currentTimeMillis() + 2000;
+        while (result == null && System.currentTimeMillis() < deadline) {
+            java.util.Optional<Object> r = runner.getResult("j-flaky");
+            if (r.isPresent()) {
+                result = r.get();
+                break;
+            }
+            Thread.sleep(20);
+        }
+        assertNotNull(result, "重试成功后结果应可读");
         assertEquals(Map.of("ok", true), result);
     }
 
