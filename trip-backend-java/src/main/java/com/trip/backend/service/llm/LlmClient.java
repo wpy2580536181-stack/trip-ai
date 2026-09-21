@@ -66,11 +66,26 @@ public interface LlmClient {
 
     /**
      * 聊天消息
+     *
+     * role=tool 时需通过 {@link #toolResult} 构造，携带 toolCallId/toolName，
+     * 以便 Langchain4j 侧转成 ToolExecutionResultMessage。
      */
     record ChatMessage(
         String role,
-        String content
-    ) {}
+        String content,
+        String toolCallId,
+        String toolName
+    ) {
+        /** 普通消息（system/user/assistant） */
+        public static ChatMessage of(String role, String content) {
+            return new ChatMessage(role, content, null, null);
+        }
+
+        /** tool 执行结果消息（对应 assistant 的一次 tool_call） */
+        public static ChatMessage toolResult(String toolCallId, String toolName, String content) {
+            return new ChatMessage("tool", content, toolCallId, toolName);
+        }
+    }
 
     /**
      * 流式处理器

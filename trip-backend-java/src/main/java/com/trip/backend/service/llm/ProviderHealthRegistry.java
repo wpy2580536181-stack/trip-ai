@@ -18,7 +18,18 @@ public class ProviderHealthRegistry {
 
     private static final int DEGRADED_THRESHOLD = 3;
     private static final int DOWN_THRESHOLD = 5;
-    private static final long RECOVERY_WINDOW_MS = 60 * 1000; // 60s
+    private static final long DEFAULT_RECOVERY_WINDOW_MS = 60 * 1000; // 60s
+
+    private final long recoveryWindowMs;
+
+    public ProviderHealthRegistry() {
+        this(DEFAULT_RECOVERY_WINDOW_MS);
+    }
+
+    /** 测试可注入更短的恢复窗口，无需真等 60s。 */
+    ProviderHealthRegistry(long recoveryWindowMs) {
+        this.recoveryWindowMs = recoveryWindowMs;
+    }
 
     /**
      * 记录失败
@@ -52,7 +63,7 @@ public class ProviderHealthRegistry {
         Long lastFailure = lastFailureTimes.get(provider);
         if (lastFailure != null) {
             long elapsed = System.currentTimeMillis() - lastFailure;
-            if (elapsed >= RECOVERY_WINDOW_MS) {
+            if (elapsed >= recoveryWindowMs) {
                 // 60s 无新失败，恢复为 HEALTHY
                 failureCounts.remove(provider);
                 lastFailureTimes.remove(provider);

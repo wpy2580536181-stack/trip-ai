@@ -33,7 +33,7 @@ public class Langchain4jSpikeTest {
     @Test
     void basicInvokeWorks() {
         List<ChatMessage> messages = List.of(
-            new ChatMessage("user", "你好，请用一句话介绍你自己")
+            ChatMessage.of("user", "你好，请用一句话介绍你自己")
         );
 
         ChatResponse response = llmClient.invoke(messages);
@@ -54,7 +54,7 @@ public class Langchain4jSpikeTest {
     @Test
     void streamingInvokeWorks() throws Exception {
         List<ChatMessage> messages = List.of(
-            new ChatMessage("user", "你好，请用一句话介绍你自己")
+            ChatMessage.of("user", "你好，请用一句话介绍你自己")
         );
 
         CountDownLatch latch = new CountDownLatch(1);
@@ -120,7 +120,7 @@ public class Langchain4jSpikeTest {
         );
 
         List<ChatMessage> messages = List.of(
-            new ChatMessage("user", "北京今天天气怎么样？")
+            ChatMessage.of("user", "北京今天天气怎么样？")
         );
 
         ChatResponse response = llmClient.invoke(messages, tools);
@@ -155,7 +155,7 @@ public class Langchain4jSpikeTest {
         );
 
         List<ChatMessage> messages = List.of(
-            new ChatMessage("user", "上海今天天气怎么样？")
+            ChatMessage.of("user", "上海今天天气怎么样？")
         );
 
         CountDownLatch latch = new CountDownLatch(1);
@@ -207,7 +207,7 @@ public class Langchain4jSpikeTest {
     // @Test
     // void tokenUsageIsExtracted() {
     //     List<ChatMessage> messages = List.of(
-    //         new ChatMessage("user", "你好")
+    //         ChatMessage.of("user", "你好")
     //     );
     //
     //     ChatResponse response = llmClient.invoke(messages);
@@ -228,7 +228,7 @@ public class Langchain4jSpikeTest {
     @Test
     void tokenUsageStructureExists() {
         List<ChatMessage> messages = List.of(
-            new ChatMessage("user", "你好")
+            ChatMessage.of("user", "你好")
         );
 
         ChatResponse response = llmClient.invoke(messages);
@@ -249,9 +249,9 @@ public class Langchain4jSpikeTest {
     // @Test
     // void multiTurnConversationWorks() {
     //     List<ChatMessage> messages = List.of(
-    //         new ChatMessage("user", "我叫小明"),
-    //         new ChatMessage("assistant", "你好小明！很高兴认识你。"),
-    //         new ChatMessage("user", "我叫什么名字？")
+    //         ChatMessage.of("user", "我叫小明"),
+    //         ChatMessage.of("assistant", "你好小明！很高兴认识你。"),
+    //         ChatMessage.of("user", "我叫什么名字？")
     //     );
     //
     //     ChatResponse response = llmClient.invoke(messages);
@@ -270,9 +270,9 @@ public class Langchain4jSpikeTest {
     @Test
     void multiTurnMessageStructureWorks() {
         List<ChatMessage> messages = List.of(
-            new ChatMessage("user", "我叫小明"),
-            new ChatMessage("assistant", "你好小明！很高兴认识你。"),
-            new ChatMessage("user", "我叫什么名字？")
+            ChatMessage.of("user", "我叫小明"),
+            ChatMessage.of("assistant", "你好小明！很高兴认识你。"),
+            ChatMessage.of("user", "我叫什么名字？")
         );
 
         // 占位实现不验证内容，只验证调用不报错
@@ -293,8 +293,8 @@ public class Langchain4jSpikeTest {
     // @Test
     // void systemMessageWorks() {
     //     List<ChatMessage> messages = List.of(
-    //         new ChatMessage("system", "你是一个专业的旅行规划助手。"),
-    //         new ChatMessage("user", "请用一句话介绍你自己")
+    //         ChatMessage.of("system", "你是一个专业的旅行规划助手。"),
+    //         ChatMessage.of("user", "请用一句话介绍你自己")
     //     );
     //
     //     ChatResponse response = llmClient.invoke(messages);
@@ -313,8 +313,8 @@ public class Langchain4jSpikeTest {
     @Test
     void systemMessageStructureWorks() {
         List<ChatMessage> messages = List.of(
-            new ChatMessage("system", "你是一个专业的旅行规划助手。"),
-            new ChatMessage("user", "请用一句话介绍你自己")
+            ChatMessage.of("system", "你是一个专业的旅行规划助手。"),
+            ChatMessage.of("user", "请用一句话介绍你自己")
         );
 
         // 占位实现不验证内容，只验证调用不报错

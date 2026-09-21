@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import dev.langchain4j.model.chat.ChatLanguageModel;
 import dev.langchain4j.model.chat.StreamingChatLanguageModel;
 import dev.langchain4j.model.chat.request.ChatRequest;
+import dev.langchain4j.model.chat.request.json.JsonObjectSchema;
 import dev.langchain4j.model.chat.response.StreamingChatResponseHandler;
 import dev.langchain4j.model.output.TokenUsage;
 import dev.langchain4j.data.message.*;
@@ -43,25 +44,31 @@ public class Langchain4jLlmClient implements LlmClient {
 
     @Override
     public ChatResponse invoke(List<ChatMessage> messages, List<ToolSpec> tools) {
-        ProviderId provider = resolveProvider();
+        return invokeAs(resolveProvider(), messages, tools);
+    }
+
+    /**
+     * 按指定 ProviderId 调用（供 LlmGateway 在 fallback 时路由到备用 provider）。
+     */
+    public ChatResponse invokeAs(ProviderId provider, List<ChatMessage> messages, List<ToolSpec> tools) {
         ChatLanguageModel model = createChatModel(provider);
 
         try {
             List<dev.langchain4j.data.message.ChatMessage> langchainMessages = toLangchainMessages(messages);
-            
+
             ChatRequest.Builder requestBuilder = ChatRequest.builder()
                 .messages(langchainMessages);
-            
+
             if (!tools.isEmpty()) {
                 List<ToolSpecification> toolSpecs = tools.stream()
                     .map(this::toToolSpecification)
                     .toList();
                 requestBuilder.toolSpecifications(toolSpecs);
             }
-            
+
             ChatRequest request = requestBuilder.build();
             dev.langchain4j.model.chat.response.ChatResponse response = model.chat(request);
-            
+
             AiMessage aiMessage = response.aiMessage();
             TokenUsage tokenUsage = response.tokenUsage();
             List<ToolCall> toolCalls = extractToolCalls(aiMessage);
@@ -168,15 +175,24 @@ public class Langchain4jLlmClient implements LlmClient {
             .build();
     }
 
-    private List<dev.langchain4j.data.message.ChatMessage> toLangchainMessages(List<ChatMessage> messages) {
+    List<dev.langchain4j.data.message.ChatMessage> toLangchainMessages(List<ChatMessage> messages) {
         List<dev.langchain4j.data.message.ChatMessage> result = new ArrayList<>();
         for (ChatMessage msg : messages) {
             switch (msg.role()) {
                 case "system" -> result.add(SystemMessage.from(msg.content()));
                 case "user" -> result.add(UserMessage.from(msg.content()));
                 case "assistant" -> result.add(AiMessage.from(msg.content()));
-                case "tool" -> { // TODO: D8 支持 tool 角色消息
-                    // result.add(ToolExecutionResultMessage.from(msg.content()));
+                case "tool" -> {
+                    // tool 角色消息：必须带 toolCallId，对应 assistant 发起的某一次 tool_call
+                    if (msg.toolCallId() != null) {
+                        result.add(new ToolExecutionResultMessage(
+                            msg.toolCallId(),
+                            msg.toolName() != null ? msg.toolName() : "unknown",
+                            msg.content()));
+                    } else {
+                        // 兼容历史数据：缺 callId 的 tool 文本降级为 user 消息，避免整条消息丢失
+                        result.add(UserMessage.from("[tool result] " + msg.content()));
+                    }
                 }
                 default -> throw new IllegalArgumentException("Unknown message role: " + msg.role());
             }
@@ -184,15 +200,61 @@ public class Langchain4jLlmClient implements LlmClient {
         return result;
     }
 
-    private ToolSpecification toToolSpecification(ToolSpec tool) {
-        // TODO: D8 完善工具参数解析
-        return ToolSpecification.builder()
+    ToolSpecification toToolSpecification(ToolSpec tool) {
+        ToolSpecification.Builder builder = ToolSpecification.builder()
             .name(tool.name())
-            .description(tool.description())
-            .build();
+            .description(tool.description());
+
+        // 把标准 JSON Schema 字符串转成 langchain4j 的 JsonObjectSchema；
+        // 解析失败则降级为无参数 schema（不阻断请求）。
+        JsonObjectSchema parameters = parseParametersSchema(tool.parametersSchema());
+        if (parameters != null) {
+            builder.parameters(parameters);
+        }
+        return builder.build();
     }
 
-    private List<ToolCall> extractToolCalls(AiMessage aiMessage) {
+    /**
+     * 解析 JSON Schema（{"type":"object","properties":{...},"required":[...]}）为 JsonObjectSchema。
+     * 支持 string/integer/number/boolean 类型；未知类型按 string 兜底。
+     */
+    private JsonObjectSchema parseParametersSchema(String schemaJson) {
+        if (schemaJson == null || schemaJson.isBlank()) {
+            return null;
+        }
+        try {
+            com.fasterxml.jackson.databind.JsonNode root = objectMapper.readTree(schemaJson);
+            com.fasterxml.jackson.databind.JsonNode properties = root.get("properties");
+            if (properties == null || !properties.isObject()) {
+                return null;
+            }
+            JsonObjectSchema.Builder builder = JsonObjectSchema.builder();
+            properties.fields().forEachRemaining(entry -> {
+                String name = entry.getKey();
+                com.fasterxml.jackson.databind.JsonNode prop = entry.getValue();
+                String type = prop.path("type").asText("string");
+                String desc = prop.has("description") ? prop.get("description").asText(null) : null;
+                switch (type) {
+                    case "integer" -> builder.addIntegerProperty(name, desc);
+                    case "number" -> builder.addNumberProperty(name, desc);
+                    case "boolean" -> builder.addBooleanProperty(name, desc);
+                    default -> builder.addStringProperty(name, desc);
+                }
+            });
+            com.fasterxml.jackson.databind.JsonNode required = root.get("required");
+            if (required != null && required.isArray()) {
+                List<String> requiredList = new ArrayList<>();
+                required.forEach(n -> requiredList.add(n.asText()));
+                builder.required(requiredList);
+            }
+            return builder.build();
+        } catch (Exception e) {
+            // 解析失败降级：不带 parameters，LLM 仍可收到 name+description
+            return null;
+        }
+    }
+
+    List<ToolCall> extractToolCalls(AiMessage aiMessage) {
         List<ToolCall> result = new ArrayList<>();
 
         if (aiMessage.hasToolExecutionRequests() && aiMessage.toolExecutionRequests() != null) {

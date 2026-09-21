@@ -39,8 +39,8 @@ public class Orchestrator {
 
             // 调用 LLM
             List<LlmClient.ChatMessage> messages = List.of(
-                new LlmClient.ChatMessage("system", "你是一个专业的旅行规划师，请输出 JSON 格式的行程计划。"),
-                new LlmClient.ChatMessage("user", prompt)
+                LlmClient.ChatMessage.of("system", "你是一个专业的旅行规划师，请输出 JSON 格式的行程计划。"),
+                LlmClient.ChatMessage.of("user", prompt)
             );
 
             LlmClient.ChatResponse response = llmClient.invoke(messages);

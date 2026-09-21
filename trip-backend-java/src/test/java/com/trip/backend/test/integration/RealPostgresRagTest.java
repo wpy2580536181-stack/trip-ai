@@ -62,8 +62,11 @@ class RealPostgresRagTest {
 
     @AfterAll
     static void cleanup() {
-        // 清理对拍临时数据（按 name 匹配，避免误删真实数据）
-        jdbc.update("DELETE FROM spots WHERE name = '__rag_test_tmp__'");
+        // 清理对拍临时数据（按 name 匹配，避免误删真实数据）；服务不可达时静默跳过
+        try {
+            jdbc.update("DELETE FROM spots WHERE name = '__rag_test_tmp__'");
+        } catch (Exception ignored) {
+        }
     }
 
     // ------------------------------------------------------------------
