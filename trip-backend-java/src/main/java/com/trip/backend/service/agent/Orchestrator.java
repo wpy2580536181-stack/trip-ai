@@ -1,156 +1,172 @@
 package com.trip.backend.service.agent;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.trip.backend.service.agent.dto.PlanRequest;
 import com.trip.backend.service.agent.dto.PlanResult;
-import com.trip.backend.service.llm.LlmClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 /**
- * Orchestrator 简化版（G4 完整实现）
+ * Orchestrator 编排内核（对应 Python orchestrator.py）。
  *
- * 直接调用 LlmClient 生成行程计划
+ * research → plan → review 三阶段 + 最多 2 轮重试循环，
+ * 取代"单次 LLM 调用"。
  */
 @Service
 public class Orchestrator {
 
     private static final Logger log = LoggerFactory.getLogger(Orchestrator.class);
-    private final LlmClient llmClient;
+    private static final int MAX_REVIEW_RETRIES = 2;
+    private static final ObjectMapper MAPPER = new ObjectMapper();
 
-    public Orchestrator(LlmClient llmClient) {
-        this.llmClient = llmClient;
+    private final ResearchAgent researchAgent;
+    private final PlannerAgent plannerAgent;
+    private final ReviewService reviewService;
+
+    public Orchestrator(ResearchAgent researchAgent,
+                        PlannerAgent plannerAgent,
+                        ReviewService reviewService) {
+        this.researchAgent = researchAgent;
+        this.plannerAgent = plannerAgent;
+        this.reviewService = reviewService;
     }
 
-    /**
-     * 生成行程计划
-     */
+    /** 规划全量行程（三阶段 + 重试）。 */
     public PlanResult plan(PlanRequest request) {
-        long startTime = System.currentTimeMillis();
-        log.info("[Orchestrator] 开始规划: city={}, days={}, budget={}",
+        long t0 = System.currentTimeMillis();
+        log.info("[Orchestrator] 开始: city={}, days={}, budget={}",
             request.city(), request.days(), request.budget());
 
-        try {
-            // 构建 prompt
-            String prompt = buildPrompt(request);
-
-            // 调用 LLM
-            List<LlmClient.ChatMessage> messages = List.of(
-                LlmClient.ChatMessage.of("system", "你是一个专业的旅行规划师，请输出 JSON 格式的行程计划。"),
-                LlmClient.ChatMessage.of("user", prompt)
-            );
-
-            LlmClient.ChatResponse response = llmClient.invoke(messages);
-            String content = response.content();
-
-            log.info("[Orchestrator] LLM 响应: {}...", content.substring(0, Math.min(50, content.length())));
-
-            // 解析 plan（简化版：提取 JSON）
-            Map<String, Object> plan = parsePlan(content, request);
-
-            long durationMs = System.currentTimeMillis() - startTime;
-            log.info("[Orchestrator] 规划完成: duration={}ms", durationMs);
-
-            return PlanResult.of(plan);
-
-        } catch (Exception e) {
-            log.error("[Orchestrator] 规划失败", e);
-            long durationMs = System.currentTimeMillis() - startTime;
-            return PlanResult.error("规划失败: " + e.getMessage());
+        // Phase 1: Research
+        ResearchAgent.Output research = researchAgent.run(
+            new ResearchAgent.Input(request.city(), request.days(), request.budget()));
+        if (research.error() != null) {
+            return PlanResult.error("Research 失败: " + research.error());
         }
-    }
+        ResearchBundle bundle = research.bundle();
 
-    /**
-     * 构建 prompt
-     */
-    private String buildPrompt(PlanRequest request) {
-        return String.format(
-            "请为 %s 规划 %d 日游行程，预算 %d 元。\n" +
-            "请输出 JSON 格式，包含以下字段：\n" +
-            "{\n" +
-            "  \"city\": \"%s\",\n" +
-            "  \"days\": %d,\n" +
-            "  \"totalBudget\": %d,\n" +
-            "  \"dailyItinerary\": [\n" +
-            "    {\n" +
-            "      \"day\": 1,\n" +
-            "      \"morning\": {\"spot\": \"景点名\", \"duration\": \"2小时\", \"ticket\": \"免费\"},\n" +
-            "      \"afternoon\": {\"spot\": \"景点名\", \"duration\": \"3小时\", \"ticket\": \"50元\"},\n" +
-            "      \"evening\": {\"spot\": \"景点名\", \"duration\": \"2小时\", \"ticket\": \"免费\"}\n" +
-            "    }\n" +
-            "  ],\n" +
-            "  \"budgetBreakdown\": {\n" +
-            "    \"accommodation\": 0,\n" +
-            "    \"food\": 0,\n" +
-            "    \"transportation\": 0,\n" +
-            "    \"tickets\": 0,\n" +
-            "    \"other\": 0\n" +
-            "  },\n" +
-            "  \"tips\": []\n" +
-            "}",
-            request.city(), request.days(), request.budget(),
-            request.city(), request.days(), request.budget()
-        );
-    }
+        // Phase 2+3: Plan → Review → 最多重试 2 次
+        PlannerAgent.Input plannerInput =
+            PlannerAgent.Input.first(bundle, request.city(), request.days(), request.budget());
+        PlannerAgent.Output plannerOut = plannerAgent.run(plannerInput);
+        if (plannerOut.error() != null) {
+            return PlanResult.error("Planner 失败: " + plannerOut.error());
+        }
+        String raw = plannerOut.rawJson();
 
-    /**
-     * 解析 LLM 响应为 plan（简化版）
-     */
-    private Map<String, Object> parsePlan(String content, PlanRequest request) {
-        try {
-            log.debug("[Orchestrator] LLM 原始响应 (前 200 字符): {}",
-                content.substring(0, Math.min(200, content.length())));
-
-            // 尝试提取 JSON
-            int start = content.indexOf('{');
-            int end = content.lastIndexOf('}');
-            if (start >= 0 && end > start) {
-                String json = content.substring(start, end + 1);
-                Map<String, Object> plan = new com.fasterxml.jackson.databind.ObjectMapper()
-                    .readValue(json, Map.class);
-
-                log.info("[Orchestrator] LLM 返回 plan: city={}, days={}, keys={}",
-                    plan.get("city"), plan.get("days"), plan.keySet());
-
-                // 确保必填字段存在（对齐 Python 版本）
-                plan.putIfAbsent("city", request.city());
-                plan.putIfAbsent("days", request.days());
-                plan.putIfAbsent("totalBudget", request.budget());
-                plan.putIfAbsent("dailyItinerary", List.of());
-                plan.putIfAbsent("budgetBreakdown", Map.of(
-                    "accommodation", 0,
-                    "food", 0,
-                    "transportation", 0,
-                    "tickets", 0,
-                    "other", 0
-                ));
-                plan.putIfAbsent("tips", List.of());
-                plan.putIfAbsent("warnings", List.of());
-
-                return plan;
+        ReviewResult reviewResult = null;
+        Map<String, Object> parsed = null;
+        for (int attempt = 0; attempt <= MAX_REVIEW_RETRIES; attempt++) {
+            ReviewService.Outcome out = reviewService.review(
+                raw, bundle, request.budget(), request.days(), null);
+            reviewResult = out.review();
+            parsed = out.parsed();
+            if (reviewResult.passed()) {
+                break;
             }
-        } catch (Exception e) {
-            log.warn("[Orchestrator] JSON 解析失败，使用默认结构", e);
+            // 最后一轮不再重试
+            if (attempt >= MAX_REVIEW_RETRIES) {
+                log.warn("[Orchestrator] review 最终未过: attempt={}, issues={}",
+                    attempt + 1, reviewResult.issues());
+                break;
+            }
+            // feedback 注入 planner 重跑
+            log.info("[Orchestrator] review 打回 attempt={}, feedback={}",
+                attempt + 1, reviewResult.feedback());
+            plannerInput = plannerInput.withFeedback(reviewResult.feedback(), attempt + 1);
+            plannerOut = plannerAgent.run(plannerInput);
+            if (plannerOut.error() != null) {
+                break;
+            }
+            raw = plannerOut.rawJson();
         }
 
-        // 返回默认结构（对齐 Python 版本）
-        return Map.of(
-            "city", request.city(),
-            "days", request.days(),
-            "totalBudget", request.budget(),
-            "dailyItinerary", List.of(),
-            "budgetBreakdown", Map.of(
-                "accommodation", 0,
-                "food", 0,
-                "transportation", 0,
-                "tickets", 0,
-                "other", 0
-            ),
-            "tips", List.of("提前订票", "注意天气"),
-            "warnings", List.of()
-        );
+        long duration = System.currentTimeMillis() - t0;
+        log.info("[Orchestrator] 完成: duration={}ms, passed={}",
+            duration, reviewResult != null && reviewResult.passed());
+
+        if (parsed == null) {
+            return PlanResult.error("行程解析失败");
+        }
+        return PlanResult.of(parsed);
+    }
+
+    /**
+     * 局部修改：只重出指定天，merge 回原行程，未改天保留。
+     */
+    @SuppressWarnings("unchecked")
+    public PlanResult modify(Map<String, Object> existingTrip,
+                             String modifyRequest,
+                             PlanRequest request,
+                             List<Integer> targetDays) {
+        List<Object> existingItinerary = existingTrip.get("dailyItinerary") instanceof List
+            ? (List<Object>) existingTrip.get("dailyItinerary") : new ArrayList<>();
+
+        // 局部模式：research 跳过
+        ResearchBundle bundle = ResearchBundle.empty();
+
+        PlannerAgent.Input plannerInput = new PlannerAgent.Input(
+            bundle, request.city(), request.days(), request.budget(),
+            "用户修改要求：" + modifyRequest, 0);
+        PlannerAgent.Output plannerOut = plannerAgent.run(plannerInput);
+        if (plannerOut.error() != null) {
+            return PlanResult.error(plannerOut.error());
+        }
+
+        // 解析 planner 只重出的天，merge 回原行程
+        Map<String, Object> partial = RepairJson.parse(plannerOut.rawJson());
+        if (partial == null) {
+            return PlanResult.error("修改方案无法解析");
+        }
+        Object merged = mergePartial(existingItinerary, partial, targetDays);
+
+        Map<String, Object> finalPlan = new HashMap<>(existingTrip);
+        finalPlan.put("dailyItinerary", merged);
+
+        ReviewService.Outcome out = reviewService.review(
+            toJson(finalPlan), bundle, request.budget(), request.days(), targetDays);
+        if (!out.review().passed() || out.parsed() == null) {
+            return PlanResult.error("修改方案未通过校验: " + out.review().issues());
+        }
+        return PlanResult.of(out.parsed());
+    }
+
+    /** 把 partial 中 targetDays 对应的天 merge 进 existing，其余天原样保留。 */
+    @SuppressWarnings("unchecked")
+    static List<Object> mergePartial(List<Object> existingItinerary,
+                                     Map<String, Object> partial,
+                                     List<Integer> targetDays) {
+        List<Object> result = new ArrayList<>(existingItinerary);
+        List<Object> partialItinerary = partial.get("dailyItinerary") instanceof List
+            ? (List<Object>) partial.get("dailyItinerary") : List.of();
+
+        for (Object pDayObj : partialItinerary) {
+            if (!(pDayObj instanceof Map)) continue;
+            Map<String, Object> pDay = (Map<String, Object>) pDayObj;
+            int dayNum = pDay.get("day") instanceof Number ? ((Number) pDay.get("day")).intValue() : -1;
+            if (dayNum < 1 || !targetDays.contains(dayNum)) continue;
+            // 替换 result 中第 dayNum-1 位
+            int idx = dayNum - 1;
+            if (idx < result.size()) {
+                result.set(idx, pDay);
+            } else {
+                result.add(pDay);
+            }
+        }
+        return result;
+    }
+
+    private String toJson(Map<String, Object> m) {
+        try {
+            return MAPPER.writeValueAsString(m);
+        } catch (Exception e) {
+            return "{}";
+        }
     }
 }
