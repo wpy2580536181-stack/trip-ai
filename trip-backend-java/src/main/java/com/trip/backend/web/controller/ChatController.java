@@ -3,6 +3,7 @@ package com.trip.backend.web.controller;
 import com.trip.backend.domain.dto.ChatRequest;
 import com.trip.backend.domain.entity.Conversation;
 import com.trip.backend.domain.entity.Message;
+import com.trip.backend.infra.metrics.PrometheusMetrics;
 import com.trip.backend.service.ConversationService;
 import com.trip.backend.service.TripService;
 import com.trip.backend.service.chat.EventSink;
@@ -48,6 +49,7 @@ public class ChatController {
     private final NonTravelShortCircuit nonTravelShortCircuit;
     private final StreamStore streamStore;
     private final ConversationService conversationService;
+    private final PrometheusMetrics prometheusMetrics;
     // private final ResumeHandler resumeHandler; // TODO: 暂时禁用（需要 Redis）
 
     public ChatController(
@@ -56,7 +58,8 @@ public class ChatController {
             MessagePersistenceService messagePersistenceService,
             NonTravelShortCircuit nonTravelShortCircuit,
             StreamStore streamStore,
-            ConversationService conversationService/*,
+            ConversationService conversationService,
+            PrometheusMetrics prometheusMetrics/*,
             ResumeHandler resumeHandler*/) {
         this.tripService = tripService;
         this.eventSink = eventSink;
@@ -64,6 +67,7 @@ public class ChatController {
         this.nonTravelShortCircuit = nonTravelShortCircuit;
         this.streamStore = streamStore;
         this.conversationService = conversationService;
+        this.prometheusMetrics = prometheusMetrics;
         // this.resumeHandler = resumeHandler;
     }
 
@@ -80,17 +84,28 @@ public class ChatController {
             @RequestAttribute("userId") Long userId,
             HttpServletResponse response
     ) throws IOException {
-        // ---- 续传路径：X-Stream-Id + Last-Event-ID ----
-        String streamId = request.getHeader("X-Stream-Id");
-        String lastEventIdHeader = request.getHeader("Last-Event-ID");
+        long startNanos = System.nanoTime();
+        try {
+            // ---- 续传路径：X-Stream-Id + Last-Event-ID ----
+            String streamId = request.getHeader("X-Stream-Id");
+            String lastEventIdHeader = request.getHeader("Last-Event-ID");
 
-        if (streamId != null && lastEventIdHeader != null) {
-            handleResume(streamId, lastEventIdHeader, userId, response);
-            return;
+            if (streamId != null && lastEventIdHeader != null) {
+                handleResume(streamId, lastEventIdHeader, userId, response);
+                return;
+            }
+
+            // ---- 正常流式路径 ----
+            handleStream(request, body, userId, response);
+        } finally {
+            // chat 流式响应总耗时打点（对应 Python record_chat_duration）
+            try {
+                double durationSeconds = (System.nanoTime() - startNanos) / 1_000_000_000.0;
+                prometheusMetrics.recordChatDuration(durationSeconds);
+            } catch (Exception e) {
+                // 打点失败不影响主流程
+            }
         }
-
-        // ---- 正常流式路径 ----
-        handleStream(request, body, userId, response);
     }
 
     /**

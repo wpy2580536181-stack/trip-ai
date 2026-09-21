@@ -13,9 +13,10 @@ import org.springframework.context.annotation.Configuration;
  * 2. PrometheusFilter（指标收集）
  * 3. GzipFilter（GZip 压缩，SSE 跳过）
  * 4. GlobalRateLimitFilter（限流）
- * 5. CorsFilter（CORS，由 CorsConfig 提供）
+ * 5. IdempotencyFilter（幂等，仅 POST /api/trip/recommend）
+ * 6. CorsFilter（CORS，由 CorsConfig 提供）
  *
- * 注：IdempotencyFilter 和 ConcurrencyGuardFilter 后续在 B7 任务中添加
+ * 注：ConcurrencyGuardFilter 后续任务中添加
  */
 @Configuration
 public class FilterOrderConfig {
@@ -27,7 +28,13 @@ public class FilterOrderConfig {
         return registration;
     }
 
-    // TODO: PrometheusFilter 暂时移除（需要 MeterRegistry 配置）
+    // PrometheusFilter（指标收集）：RequestIdFilter 之后、GzipFilter 之前
+    @Bean
+    public FilterRegistrationBean<PrometheusFilter> prometheusFilterRegistration(PrometheusFilter filter) {
+        FilterRegistrationBean<PrometheusFilter> registration = new FilterRegistrationBean<>(filter);
+        registration.setOrder(2);
+        return registration;
+    }
 
     @Bean
     public FilterRegistrationBean<GzipFilter> gzipFilterRegistration(GzipFilter filter) {
@@ -40,6 +47,14 @@ public class FilterOrderConfig {
     public FilterRegistrationBean<GlobalRateLimitFilter> globalRateLimitFilterRegistration(GlobalRateLimitFilter filter) {
         FilterRegistrationBean<GlobalRateLimitFilter> registration = new FilterRegistrationBean<>(filter);
         registration.setOrder(4);
+        return registration;
+    }
+
+    // IdempotencyFilter（幂等）：限流之后（仅 POST /api/trip/recommend）
+    @Bean
+    public FilterRegistrationBean<IdempotencyFilter> idempotencyFilterRegistration(IdempotencyFilter filter) {
+        FilterRegistrationBean<IdempotencyFilter> registration = new FilterRegistrationBean<>(filter);
+        registration.setOrder(5);
         return registration;
     }
 

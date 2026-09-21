@@ -3,6 +3,7 @@ package com.trip.backend.test.unit;
 import com.trip.backend.domain.dto.ChatRequest;
 import com.trip.backend.domain.entity.Conversation;
 import com.trip.backend.domain.entity.Message;
+import com.trip.backend.infra.metrics.PrometheusMetrics;
 import com.trip.backend.service.ConversationService;
 import com.trip.backend.service.TripService;
 import com.trip.backend.service.chat.EventSink;
@@ -35,6 +36,7 @@ class ChatControllerTest {
     private final NonTravelShortCircuit nonTravelShortCircuit = mock(NonTravelShortCircuit.class);
     private final StreamStore streamStore = mock(StreamStore.class);
     private final ConversationService conversationService = mock(ConversationService.class);
+    private final PrometheusMetrics prometheusMetrics = mock(PrometheusMetrics.class);
 
     private final ChatController controller = new ChatController(
         tripService,
@@ -42,7 +44,8 @@ class ChatControllerTest {
         messagePersistenceService,
         nonTravelShortCircuit,
         streamStore,
-        conversationService
+        conversationService,
+        prometheusMetrics
     );
 
     @Test
