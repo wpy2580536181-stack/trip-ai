@@ -42,7 +42,7 @@ class TripControllerTest {
         private Long lastUserId;
 
         StubTripService(String action) {
-            super(null, null);
+            super(null, null, null);
             this.action = action;
         }
 

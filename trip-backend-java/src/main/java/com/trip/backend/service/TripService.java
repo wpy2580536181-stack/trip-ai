@@ -4,6 +4,7 @@ import com.trip.backend.domain.entity.Trip;
 import com.trip.backend.domain.entity.User;
 import com.trip.backend.domain.repository.TripRepository;
 import com.trip.backend.service.agent.Orchestrator;
+import com.trip.backend.service.agent.TripPersistenceService;
 import com.trip.backend.service.agent.dto.PlanRequest;
 import com.trip.backend.service.agent.dto.PlanResult;
 import com.trip.backend.utils.AppException;
@@ -30,10 +31,13 @@ public class TripService {
 
     private final TripRepository tripRepository;
     private final Orchestrator orchestrator;
+    private final TripPersistenceService persistence;
 
-    public TripService(TripRepository tripRepository, Orchestrator orchestrator) {
+    public TripService(TripRepository tripRepository, Orchestrator orchestrator,
+                       TripPersistenceService persistence) {
         this.tripRepository = tripRepository;
         this.orchestrator = orchestrator;
+        this.persistence = persistence;
     }
 
     /**
@@ -192,7 +196,7 @@ public class TripService {
             data.put("budgetBreakdown", result.plan().get("budgetBreakdown"));
             data.put("tips", result.plan().get("tips"));
             data.put("warnings", result.plan().get("warnings"));
-            data.put("variants", List.of());  // TODO: 实现多 variant 后填充
+            data.put("variants", List.of());  // plan_variants 待阶段 4
 
             Map<String, Object> response = Map.of(
                 "success", true,

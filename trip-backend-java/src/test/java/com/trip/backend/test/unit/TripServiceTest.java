@@ -19,7 +19,7 @@ import static org.mockito.Mockito.when;
 class TripServiceTest {
 
     private final TripRepository tripRepository = mock(TripRepository.class);
-    private final TripService tripService = new TripService(tripRepository, null);
+    private final TripService tripService = new TripService(tripRepository, null, null);
 
     @Test
     void confirmTransitionsOwnedCandidateToCompleted() {
