@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.function.BiFunction;
 
 /**
  * RRF（Reciprocal Rank Fusion）融合算法（对应 Python src/services/rag/rrf.py）。
@@ -28,7 +29,7 @@ public final class Rrf {
      */
     public static List<Map<String, Object>> rrfMerge(
         List<List<Map<String, Object>>> resultsList, int k, String idKey) {
-        return merge(resultsList, null, k, idKey);
+        return merge(resultsList, null, k, idKey, null);
     }
 
     /**
@@ -42,15 +43,31 @@ public final class Rrf {
      */
     public static List<Map<String, Object>> rrfMergeWithWeights(
         List<List<Map<String, Object>>> resultsList, List<Double> weights, int k, String idKey) {
+        return rrfMergeWithWeights(resultsList, weights, k, idKey, null);
+    }
+
+    /**
+     * 带权重 + 贡献调节器的 RRF 融合（对应 Python score_adjuster，如 weight_by_credibility）。
+     *
+     * @param resultsList 多个召回路径的结果列表
+     * @param weights     每个路径的权重（长度必须与 resultsList 一致）
+     * @param k           RRF 常数
+     * @param idKey       文档唯一标识字段名
+     * @param adjuster    单路贡献调节器（入参：原始贡献 weight/(k+rank)、文档；出参：调节后贡献；null 表示不调节）
+     */
+    public static List<Map<String, Object>> rrfMergeWithWeights(
+        List<List<Map<String, Object>>> resultsList, List<Double> weights, int k, String idKey,
+        BiFunction<Double, Map<String, Object>, Double> adjuster) {
         if (weights != null && resultsList.size() != weights.size()) {
             throw new IllegalArgumentException(
                 "resultsList 和 weights 长度不一致: " + resultsList.size() + " vs " + weights.size());
         }
-        return merge(resultsList, weights, k, idKey);
+        return merge(resultsList, weights, k, idKey, adjuster);
     }
 
     private static List<Map<String, Object>> merge(
-        List<List<Map<String, Object>>> resultsList, List<Double> weights, int k, String idKey) {
+        List<List<Map<String, Object>>> resultsList, List<Double> weights, int k, String idKey,
+        BiFunction<Double, Map<String, Object>, Double> adjuster) {
         if (resultsList == null || resultsList.isEmpty()) {
             return List.of();
         }
@@ -81,6 +98,13 @@ public final class Rrf {
                 }
                 String docId = String.valueOf(idObj);
                 double contribution = weight / (k + rank);
+                if (adjuster != null) {
+                    try {
+                        contribution = adjuster.apply(contribution, doc);
+                    } catch (Exception e) {
+                        // score_adjuster 失败 → 使用原始贡献
+                    }
+                }
                 Map<String, Object> entry = scoreMap.get(docId);
                 if (entry == null) {
                     Map<String, Object> docCopy = new LinkedHashMap<>(doc);
