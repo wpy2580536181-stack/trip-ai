@@ -115,9 +115,10 @@ class OnnxAiTest {
     void embedderWarmupFailureKeepsDegradedAndAppStillStarts() {
         EmbedderHealth health = new EmbedderHealth();
         OnnxModelLoader loader = new OnnxModelLoader();
-        BgeEmbedder embedder = new BgeEmbedder(health, loader, "models/bge-small-zh-v1.5", 512);
+        // 用不存在目录测降级（不依赖真实 model.onnx 是否就位）
+        BgeEmbedder embedder = new BgeEmbedder(health, loader, "target/test-models/does-not-exist-xyz", 512);
 
-        // 模型目录只有 vocab.txt，无 model.onnx → warmup 失败
+        // 目录不存在 → warmup 失败
         boolean warmed = embedder.warmup();
         assertFalse(warmed, "无 model.onnx 时预热应失败");
         assertFalse(health.isAvailable(), "预热失败应保持不可用");

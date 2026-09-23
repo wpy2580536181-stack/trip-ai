@@ -155,29 +155,17 @@ public class BgeEmbedder {
         return tensors;
     }
 
-    /** 处理模型输出：3D last_hidden_state → attention-mask mean pooling；2D 直接使用。 */
+    /** 处理模型输出：3D last_hidden_state → CLS pooling（BGE-small-zh-v1.5 配置 pooling_mode_cls_token=true）；2D 直接使用。 */
     private float[] poolOutput(OnnxValue output, long[] attentionMask) throws Exception {
         ai.onnxruntime.OnnxTensor tensor = (ai.onnxruntime.OnnxTensor) output;
         long[] shape = tensor.getInfo().getShape();
         if (shape.length == 3) {
-            // [batch=1, seq, hidden] → mean pooling
+            // [batch=1, seq, hidden] → CLS pooling：取第 0 个 token（[CLS]）的隐藏向量
             float[][][] data = (float[][][]) tensor.getValue();
-            int seq = (int) shape[1];
             int hidden = (int) shape[2];
             float[] pooled = new float[hidden];
-            int count = 0;
-            for (int j = 0; j < seq; j++) {
-                if (j < attentionMask.length && attentionMask[j] == 1) {
-                    for (int h = 0; h < hidden; h++) {
-                        pooled[h] += data[0][j][h];
-                    }
-                    count++;
-                }
-            }
-            if (count > 0) {
-                for (int h = 0; h < hidden; h++) {
-                    pooled[h] /= count;
-                }
+            for (int h = 0; h < hidden; h++) {
+                pooled[h] = data[0][0][h];
             }
             return pooled;
         } else if (shape.length == 2) {

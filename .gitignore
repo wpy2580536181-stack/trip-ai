@@ -42,3 +42,6 @@ trip-server-py/data/poi_raw/
 .superpowers/
 .qoder/
 .workbuddy/
+
+# ONNX 模型文件（外部导出，不入版本库）
+trip-backend-java/models/**/model.onnx
