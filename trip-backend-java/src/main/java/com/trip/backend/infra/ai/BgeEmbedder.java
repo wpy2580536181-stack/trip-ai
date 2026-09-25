@@ -7,6 +7,7 @@ import jakarta.annotation.PostConstruct;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.nio.file.Path;
@@ -41,6 +42,7 @@ public class BgeEmbedder {
     private volatile OrtSession session;
     private volatile WordPieceTokenizer tokenizer;
 
+    @Autowired
     public BgeEmbedder(EmbedderHealth health,
                        OnnxModelLoader loader,
                        @Value("${rag.embedding.model-path:models/bge-small-zh-v1.5}") String modelPath) {

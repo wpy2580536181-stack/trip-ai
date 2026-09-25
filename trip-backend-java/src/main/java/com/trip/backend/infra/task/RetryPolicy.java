@@ -1,5 +1,7 @@
 package com.trip.backend.infra.task;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import java.time.Duration;
 import java.util.List;
 
@@ -10,6 +12,9 @@ import java.util.List;
  * - 退避 1s → 2s → 4s（指数退避）
  * - job_timeout = 300s：单次执行超时视为失败
  */
+import org.springframework.stereotype.Component;
+
+@Component
 public class RetryPolicy {
 
     public static final int DEFAULT_MAX_TRIES = 3;

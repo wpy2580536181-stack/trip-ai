@@ -1,0 +1,47 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: trip
+      POSTGRES_PASSWORD: trip123
+      POSTGRES_DB: trip_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U trip -d trip_db"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+
+  app:
+    build: .
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      DB_URL: jdbc:postgresql://postgres:5432/trip_db
+      DB_USERNAME: trip
+      DB_PASSWORD: trip123
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+      JWT_SECRET: dev-secret-change-me
+      AMAP_MAPS_API_KEY: ${AMAP_MAPS_API_KEY:-}
+    ports:
+      - "8000:8000"
+
+volumes:
+  pgdata:

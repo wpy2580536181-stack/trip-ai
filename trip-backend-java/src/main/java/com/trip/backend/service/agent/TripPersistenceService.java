@@ -1,5 +1,7 @@
 package com.trip.backend.service.agent;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import com.trip.backend.domain.entity.Trip;
 import com.trip.backend.domain.repository.TripRepository;
 import org.slf4j.Logger;
@@ -32,6 +34,7 @@ public class TripPersistenceService {
     private final Function<Trip, Trip> saver;
 
     /** 生产构造：用 TripRepository.save。 */
+    @Autowired
     public TripPersistenceService(TripRepository tripRepository) {
         this(tripRepository::save);
     }

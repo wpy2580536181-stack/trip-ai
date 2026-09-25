@@ -1,7 +1,10 @@
 package com.trip.backend.service.agent;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import jakarta.annotation.Nullable;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -38,7 +41,8 @@ public class ReviewService {
         this(null);
     }
 
-    public ReviewService(LlmReviewHook llmHook) {
+    @Autowired
+    public ReviewService(@Nullable LlmReviewHook llmHook) {
         this.llmHook = llmHook;
     }
 

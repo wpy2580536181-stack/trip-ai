@@ -2,6 +2,7 @@ package com.trip.backend.infra.task;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.Map;
@@ -38,6 +39,7 @@ public class DegradedTaskRunner {
         this(registry, new RetryPolicy());
     }
 
+    @Autowired
     public DegradedTaskRunner(TaskRegistry registry, RetryPolicy retryPolicy) {
         this.registry = registry;
         this.retryPolicy = retryPolicy;

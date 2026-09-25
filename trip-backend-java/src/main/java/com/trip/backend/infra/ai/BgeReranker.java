@@ -7,6 +7,7 @@ import jakarta.annotation.PostConstruct;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.nio.file.Files;
@@ -39,6 +40,7 @@ public class BgeReranker {
     private volatile boolean available = false;
     private volatile String reason = "not warmed up";
 
+    @Autowired
     public BgeReranker(OnnxModelLoader loader,
                        @Value("${rag.reranker.model-path:models/bge-reranker-base}") String modelPath) {
         this(loader, modelPath, 512);

@@ -1,5 +1,7 @@
 package com.trip.backend.service.agent;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import com.trip.backend.domain.entity.AgentStep;
 import com.trip.backend.domain.repository.AgentStepRepository;
 import org.slf4j.Logger;
@@ -19,7 +21,6 @@ import java.util.function.Consumer;
  *  - 失败只 warn，不影响业务
  *  - message_id<=0 跳过落库（无关联消息）
  */
-@Service
 public class TraceRecorder {
 
     private static final Logger log = LoggerFactory.getLogger(TraceRecorder.class);
