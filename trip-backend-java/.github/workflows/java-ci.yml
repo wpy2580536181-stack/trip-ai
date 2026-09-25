@@ -174,28 +174,72 @@ jobs:
           path: docs/e4/dual-run-report.md
           retention-days: 7
 
-  # Job 5: 性能测试（可选）
+  # Job 5: 性能测试（手动触发，真实压测 /health 吞吐）
   performance-test:
     name: Performance Test
     runs-on: ubuntu-latest
     needs: [build]
-    # 仅手动触发
     if: github.event_name == 'workflow_dispatch'
+
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: trip
+          POSTGRES_PASSWORD: trip_pass
+          POSTGRES_DB: trip_db
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+      redis:
+        image: redis:7-alpine
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 6379:6379
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
       - name: Set up JDK 21
         uses: actions/setup-java@v4
         with:
           java-version: '21'
           distribution: 'temurin'
           cache: maven
-
-      - name: Run benchmark
+      - name: Download JAR artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: trip-backend-jar
+          path: target/
+      - name: Start app
         run: |
-          # TODO: 启动服务并运行压测脚本
-          echo "Performance test placeholder"
-        env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DB_URL=jdbc:postgresql://localhost:5432/trip_db DB_USERNAME=trip DB_PASSWORD=trip_pass \
+          REDIS_HOST=localhost JWT_SECRET=ci-secret-key-at-least-32-bytes-long-xxxxxx \
+          nohup java -jar target/trip-backend-0.0.1-SNAPSHOT.jar > app.log 2>&1 &
+          for i in $(seq 1 60); do
+            curl -sf http://localhost:8000/health >/dev/null && { echo "app up after ${i}s"; break; }
+            sleep 1
+          done
+      - name: Benchmark /health QPS
+        run: |
+          N=200
+          T0=$(python3 -c "import time;print(time.time())")
+          for i in $(seq 1 $N); do curl -s -o /dev/null http://localhost:8000/health & done
+          wait
+          T1=$(python3 -c "import time;print(time.time())")
+          QPS=$(python3 -c "print(f'{$N/($T1-$T0):.1f}')")
+          echo "Health QPS = $QPS (n=$N)" | tee perf-result.txt
+          python3 -c "q=$QPS; assert q>=50, f'QPS {q} < 50'"
+      - name: Upload perf result
+        uses: actions/upload-artifact@v4
+        with:
+          name: perf-result
+          path: perf-result.txt
