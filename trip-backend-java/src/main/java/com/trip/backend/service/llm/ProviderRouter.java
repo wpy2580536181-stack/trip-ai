@@ -13,9 +13,9 @@ public class ProviderRouter {
 
     // 场景优先级映射
     private static final java.util.Map<Scenario, List<ProviderId>> PRIORITY_MAP = java.util.Map.of(
-        Scenario.PLANNING, List.of(ProviderId.DEEPSEEK, ProviderId.KIMI, ProviderId.AGNESE),
-        Scenario.CHAT, List.of(ProviderId.AGNESE, ProviderId.KIMI, ProviderId.DEEPSEEK),
-        Scenario.RESEARCH, List.of(ProviderId.AGNESE, ProviderId.DEEPSEEK, ProviderId.KIMI)
+        Scenario.PLANNING, List.of(ProviderId.DEEPSEEK),
+        Scenario.CHAT, List.of(ProviderId.DEEPSEEK),
+        Scenario.RESEARCH, List.of(ProviderId.DEEPSEEK)
     );
 
     public ProviderRouter(ProviderConfig config, ProviderHealthRegistry healthRegistry) {
