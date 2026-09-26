@@ -40,10 +40,19 @@ def mock_agent(fixture: Fixture) -> AgentOutput:
     tags = fixture.tags or []
     message = fixture.input.message
 
-    # 反例 fixture（rejection / off-topic）
-    if "rejection" in tags or "off-topic" in tags:
+    # off-topic：返回编程解释，不触发任何行程/工具
+    if "off-topic" in tags:
         return AgentOutput(
-            text="推荐这几个目的地：青岛、桂林、丽江，都是 6 月适合的。",
+            text="我只处理旅行相关的问题，不回答编程类问题。"
+                 "如需旅行规划、景点推荐，出发去旅行前可以告诉我你的目的地和预算，我很乐意帮助你。",
+            tool_calls=[],
+        )
+
+    # rejection：返回推荐建议，含"建议"关键词，调用 retrieve_knowledge
+    if "rejection" in tags:
+        return AgentOutput(
+            text="建议你可以考虑去青岛、桂林或丽江，都是6月适合出行的好地方。"
+                 "如果有具体偏好可以告诉我，我来帮你细化推荐。",
             tool_calls=[ToolCall(name="retrieve_knowledge")],
         )
 

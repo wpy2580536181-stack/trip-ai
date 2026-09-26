@@ -80,6 +80,8 @@
 
 ## 6. 前置任务清单
 
+> **状态口径**：下列 ✅ 记录的是**该阶段验收报告自评通过**，不等同于当前代码全链路可用。§7 有逐项复核结果。
+
 - [x] **§6.1 现有库实测**：验证 12 表现状、HNSW 索引参数、password_resets 表状态 ✅
 - [x] **§6.2 bcrypt 互认测试**：确认 Java jBCrypt 12 rounds 与 Python 现有密码哈希互认 ✅
 - [x] **§6.3 LLM Spike**：验证 langchain4j 1.x 流式 tool_calls + usage 提取能力 ✅
@@ -152,10 +154,28 @@
 | G7 | 性能不劣于基线 | 登录 QPS ≥ 6.0、SSE 流 15–21s | ✅ 完成 |
 | G8 | 可观测性对等 | Prometheus 指标 + x-request-id 全链路 | ✅ 完成 |
 
+### 7.1 状态复核（2026-09-21，以代码为准）
+
+上表 ✅ 记录的是各阶段验收报告当时的自评结论。按当前源码复核，Java 侧仍有以下**尚未与 Python 版对齐**的链路，后续补充实现后请回到本表更新：
+
+| 项 | 代码位置 | 现状 |
+|---|---|---|
+| chat 流式回复 | `web/controller/ChatController.handleStream()` | 返回固定 mock 文本，未接 LLM（G4 自评的"编排对拍"因此不完整） |
+| 断点续传 | `ChatController.handleResume()` | 返回 501；`ResumeHandler` 注入被注释（前端续传协议已完备） |
+| recommend-stream 进度事件 | `TripController` | progress 事件为模拟，未从 Orchestrator 透传 |
+| Agent 层 | `service/agent/` | 无 ResearchAgent / PlannerAgent / Review，`ChatAgent.chat()` 为占位，8 个底层工具未实现（`EventForwarder.java` 为空文件） |
+| 检索接线 | `service/rag/RetrievalPipeline` | 四路召回代码 + 测试就绪，但 `rag.four-way.enabled=false` 且未被任何 controller 调用；`models/` 缺 ONNX 权重（仅 vocab.txt），本地运行走降级路径 |
+| MCP | `service/http/AmapClient` | 为 RestTemplate REST 客户端，非 JSON-RPC MCP；`AdminService.getMcpStats()` 为 TODO |
+| Eval | `eval/` | 14 个 evaluator 中 4 个恒返回 true；`RealAgent` 为占位，nightly 仅跑 mock |
+| 契约对拍 | `scripts/e2e/dual-run.sh` | 实际覆盖 6 个端点且仅比较响应 `code` 字段（脚本注释声称 20 个） |
+| 性能基线 | `G7-PERFORMANCE-REPORT.md` | 登录受限于限流，有效 QPS 为 0；"登录 QPS ≥ 6.0" 未被证明达标 |
+
+**约定**：不要在文档/简历/对外说明中把上述项写成"已完成"；对拍与验收报告需同时给出覆盖率与实测条件。
+
 ---
 
 **创建时间**：2026-08-01
-**最后更新**：2026-08-06
+**最后更新**：2026-09-21（新增 §7.1 状态复核）
 
 ### D9 完成记录
 - **[D9] 技能系统 L1/L2/L3 + patch_engine** ✅

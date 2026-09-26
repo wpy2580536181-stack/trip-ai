@@ -8,6 +8,7 @@ input:
 expected:
   city: ""
   days: 0
+  # 3 个核心词：推荐（推荐行为）/ 6月（时间）/ 建议（建议行为），mock 回复全命中
   must_contain_keywords: [推荐, 6月, 建议]
   must_not_contain_keywords: [第1天, 第2天, 第3天, 行程安排, Day 1, Day 2]
   json_valid: false

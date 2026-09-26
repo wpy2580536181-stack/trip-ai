@@ -44,4 +44,9 @@ public interface TripRepository extends JpaRepository<Trip, Long> {
      * 根据父行程ID列表和用户ID查询行程（按创建时间升序）
      */
     List<Trip> findByParentTripIdInAndUserIdOrderByCreatedAtAsc(List<Long> parentTripIds, Long userId);
+
+    /**
+     * 取用户最近一条指定状态的行程（用于 chat 改行程）。
+     */
+    Optional<Trip> findTopByUserIdAndStatusOrderByCreatedAtDesc(Long userId, String status);
 }

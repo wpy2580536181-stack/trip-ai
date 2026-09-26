@@ -8,7 +8,8 @@ input:
 expected:
   city: ""
   days: 0
-  must_contain_keywords: [旅行, 出行, 旅游, 行程, 规划, 出发, 目的]
+  # 4 个核心词：旅行/帮助 必出；出发/规划 在旅行话题引导语中自然出现
+  must_contain_keywords: [旅行, 规划, 帮助, 出发]
   must_not_contain_keywords: [第1天, 第2天, Day 1, 行程安排, 宽窄巷子, 兵马俑]
   json_valid: false
   is_recommendation: false

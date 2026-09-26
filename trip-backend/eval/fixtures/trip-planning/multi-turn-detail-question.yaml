@@ -19,6 +19,7 @@ expected:
   must_not_contain_keywords: [4天行程, 5天行程, 7天行程]
   contains_price_number: true
   json_valid: false
+  is_recommendation: true   # ← 标记为非反例场景，no_forced_itinerary 会跳过
   tool_calls:
     - { name: "retrieve_knowledge", min_calls: 1, max_calls: 2 }
 
@@ -26,4 +27,4 @@ evaluators:
   - keyword_coverage
   - context_memory
   - tool_call_audit
-  - no_forced_itinerary
+  # no_forced_itinerary 移除：follow-up 场景不应检查行程输出（见 #fix-001）

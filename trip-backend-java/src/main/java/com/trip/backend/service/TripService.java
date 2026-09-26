@@ -185,10 +185,12 @@ public class TripService {
                 throw AppException.badRequest("行程推荐失败：" + error);
             }
 
+            // 落库完整行程，返回真实 trip.id
+            Long tripId = persistence.savePlan(userId, city, days, budget, result.plan(), "completed", null);
+
             // 转换为 Format A 响应（对齐 Python 版本）
             Map<String, Object> data = new LinkedHashMap<>();
-            // TODO: 保存行程到数据库后，返回真实的 trip.id
-            data.put("id", null);
+            data.put("id", tripId);
             data.put("city", result.plan().get("city"));
             data.put("days", result.plan().get("days"));
             data.put("totalBudget", result.plan().get("totalBudget"));
@@ -214,6 +216,49 @@ public class TripService {
             log.error("[TripService] 推荐失败", e);
             throw AppException.badRequest("行程推荐失败：" + e.getMessage());
         }
+    }
+
+    /**
+     * Chat 改行程：取用户最近一条 completed 行程，按自然语言要求局部重出指定天，
+     * merge 回原行程后落库为 candidate 新版本（parentTripId 指向原行程）。
+     *
+     * @param userId       用户
+     * @param modifyRequest 用户的修改要求（自然语言）
+     * @param targetDays   需要重出的天（1-based）；空则全部重出
+     * @return {success, data:{...plan..., id, parentTripId}} 或 {success:false,error}
+     */
+    @Transactional
+    public Map<String, Object> modifyLatestTrip(Long userId, String modifyRequest, List<Integer> targetDays) {
+        Trip latest = tripRepository.findTopByUserIdAndStatusOrderByCreatedAtDesc(userId, "completed")
+            .orElse(null);
+        if (latest == null) {
+            return Map.of("success", false, "error", "没有可修改的行程，请先生成一份行程");
+        }
+
+        Map<String, Object> existing = latest.getContent();
+        if (existing == null) {
+            return Map.of("success", false, "error", "原行程内容为空，无法修改");
+        }
+
+        PlanRequest req = new PlanRequest(latest.getCity(), latest.getDays(), latest.getBudget(), modifyRequest);
+        List<Integer> days = (targetDays != null && !targetDays.isEmpty()) ? targetDays
+            : java.util.stream.IntStream.rangeClosed(1, latest.getDays()).boxed().toList();
+
+        PlanResult result = orchestrator.modify(existing, modifyRequest, req, days);
+        if (result.plan().containsKey("error")) {
+            return Map.of("success", false, "error", String.valueOf(result.plan().get("error")));
+        }
+
+        Long newId = persistence.saveModification(
+            userId, latest.getCity(), latest.getDays(), latest.getBudget(),
+            result.plan(), latest.getId(), Map.of("modifiedDays", days));
+
+        Map<String, Object> data = new LinkedHashMap<>(result.plan());
+        data.put("id", newId);
+        data.put("parentTripId", latest.getId());
+        log.info("[TripService] 改行程完成: parentId={} newId={} city={} days={}",
+            latest.getId(), newId, latest.getCity(), days);
+        return Map.of("success", true, "data", data);
     }
 
     // ==================== Chat（D4 mock 实现）====================

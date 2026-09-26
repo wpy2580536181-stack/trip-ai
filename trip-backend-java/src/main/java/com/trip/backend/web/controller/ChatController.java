@@ -179,9 +179,37 @@ public class ChatController {
             return;
         }
 
+        final Map<String, Object> usage = Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0);
+
+        // 5.5 修改行程意图检测：含"第N天" + 修改动词 → 走 Orchestrator.modify 局部重出
+        java.util.regex.Matcher dayMatcher = java.util.regex.Pattern.compile("第([一二三四五六七八九十\\d]+)天").matcher(body.message());
+        List<Integer> targetDays = new ArrayList<>();
+        while (dayMatcher.find()) {
+            String tok = dayMatcher.group(1);
+            int d = parseChineseDay(tok);
+            if (d > 0) targetDays.add(d);
+        }
+        boolean isModifyIntent = !targetDays.isEmpty()
+            && body.message().matches("(?s).*(换成|改成|换一下|调整一下|修改|帮我改|不要|去掉|换成了|改成了|帮我把).*");
+        if (isModifyIntent) {
+            Map<String, Object> modResult = tripService.modifyLatestTrip(userId, body.message(), targetDays);
+            if (Boolean.TRUE.equals(modResult.get("success"))) {
+                @SuppressWarnings("unchecked")
+                Map<String, Object> data = (Map<String, Object>) modResult.get("data");
+                String summary = "已为您修改行程：第" + targetDays + "天已按要求更新，新版本已保存（tripId="
+                    + data.get("id") + "）。";
+                eventSink.sendChunk(sseWriter, streamId, summary);
+                eventSink.sendComplete(sseWriter, streamId, usage, List.of("modify_trip"));
+                Message assistantMsg = messagePersistenceService.createEmptyAssistantMessage(userId, conversationId);
+                messagePersistenceService.appendAssistantContent(assistantMsg.getId(), summary);
+                messagePersistenceService.forceFlush(assistantMsg.getId(), usage);
+                return;
+            }
+            // 修改失败（如无可用行程）：降级到普通 agent loop
+        }
+
         // 6. Agent 循环：LLM 流式 + 多轮工具调用
         StringBuilder fullText = new StringBuilder();
-        final Map<String, Object> usage = Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0);
         List<LlmClient.ChatMessage> convo = new ArrayList<>();
         convo.add(LlmClient.ChatMessage.of("system",
             "你是一个专业的旅行规划助手。需要景点、酒店、距离等实时信息时，请调用提供的工具检索，"
@@ -304,5 +332,17 @@ public class ChatController {
     private String extractContent(String json) {
         // TODO: D8 替换为 JSON 解析
         return json;
+    }
+
+    /** 把"一".."十"或阿拉伯数字转为天数；无法解析返回 0。 */
+    private static int parseChineseDay(String tok) {
+        if (tok == null || tok.isEmpty()) return 0;
+        try { return Integer.parseInt(tok); } catch (NumberFormatException ignore) {}
+        return switch (tok) {
+            case "一" -> 1; case "二" -> 2; case "三" -> 3; case "四" -> 4;
+            case "五" -> 5; case "六" -> 6; case "七" -> 7; case "八" -> 8;
+            case "九" -> 9; case "十" -> 10;
+            default -> 0;
+        };
     }
 }
