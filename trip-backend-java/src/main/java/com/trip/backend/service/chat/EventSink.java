@@ -87,6 +87,18 @@ public class EventSink {
         sendEnd(sseWriter, streamId);
     }
 
+    /** 发送 complete（带工具调用审计）。 */
+    public void sendComplete(SseWriter sseWriter, String streamId, Object usage, java.util.List<String> toolNames) {
+        StringBuilder names = new StringBuilder();
+        for (int i = 0; i < toolNames.size(); i++) {
+            if (i > 0) names.append(",");
+            names.append("{\"name\":").append(escapeJson(toolNames.get(i))).append("}");
+        }
+        String data = String.format("{\"usage\":%s,\"toolCalls\":[%s]}", toJson(usage), names);
+        sendEvent(sseWriter, streamId, "complete", data);
+        sendEnd(sseWriter, streamId);
+    }
+
     /**
      * 发送 error 事件（异常结束）
      */

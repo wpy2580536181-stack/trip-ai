@@ -1,5 +1,6 @@
 package com.trip.backend.service.agent;
 
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -14,10 +15,16 @@ public record ResearchBundle(
     String food,
     String hotels,
     String weather,
-    String distance
+    String distance,
+    List<String> toolCallNames
 ) {
     public static ResearchBundle empty() {
-        return new ResearchBundle(Set.of(), "", "", "", "", "");
+        return new ResearchBundle(Set.of(), "", "", "", "", "", List.of());
+    }
+
+    /** 本阶段实际调用的工具名序列（审计/eval 用）。 */
+    public List<String> toolCallNames() {
+        return toolCallNames == null ? List.of() : toolCallNames;
     }
 
     /** 候选池全部景点名（review 封闭世界校验用）。 */

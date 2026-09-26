@@ -167,13 +167,13 @@ public class TripService {
      * @param days 天数
      * @return 推荐结果（Format A）
      */
-    public Map<String, Object> recommend(Long userId, String city, int budget, int days) {
+    public Map<String, Object> recommend(Long userId, String city, int budget, int days, String message) {
         log.info("[TripService] 行程推荐: userId={}, city={}, days={}, budget={}",
             userId, city, days, budget);
 
         try {
             // 构造 PlanRequest
-            PlanRequest request = new PlanRequest(city, days, budget);
+            PlanRequest request = new PlanRequest(city, days, budget, message);
 
             // 调用 Orchestrator
             PlanResult result = orchestrator.plan(request);
@@ -197,6 +197,7 @@ public class TripService {
             data.put("tips", result.plan().get("tips"));
             data.put("warnings", result.plan().get("warnings"));
             data.put("variants", List.of());  // plan_variants 待阶段 4
+            data.put("toolCalls", result.plan().get("toolCalls"));
 
             Map<String, Object> response = Map.of(
                 "success", true,

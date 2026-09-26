@@ -45,7 +45,7 @@ public class Orchestrator {
 
         // Phase 1: Research
         ResearchAgent.Output research = researchAgent.run(
-            new ResearchAgent.Input(request.city(), request.days(), request.budget()));
+            new ResearchAgent.Input(request.city(), request.days(), request.budget(), request.message()));
         if (research.error() != null) {
             return PlanResult.error("Research 失败: " + research.error());
         }
@@ -53,7 +53,7 @@ public class Orchestrator {
 
         // Phase 2+3: Plan → Review → 最多重试 2 次
         PlannerAgent.Input plannerInput =
-            PlannerAgent.Input.first(bundle, request.city(), request.days(), request.budget());
+            PlannerAgent.Input.first(bundle, request.city(), request.days(), request.budget(), request.message());
         PlannerAgent.Output plannerOut = plannerAgent.run(plannerInput);
         if (plannerOut.error() != null) {
             return PlanResult.error("Planner 失败: " + plannerOut.error());
@@ -94,6 +94,11 @@ public class Orchestrator {
         if (parsed == null) {
             return PlanResult.error("行程解析失败");
         }
+        // 透传 research 阶段工具调用审计（供 eval tool_call_audit）
+        List<Map<String, Object>> audit = bundle.toolCallNames().stream()
+            .map(n -> { Map<String, Object> m = new java.util.HashMap<>(); m.put("name", n); return m; })
+            .toList();
+        parsed.put("toolCalls", audit);
         return PlanResult.of(parsed);
     }
 
@@ -113,7 +118,7 @@ public class Orchestrator {
 
         PlannerAgent.Input plannerInput = new PlannerAgent.Input(
             bundle, request.city(), request.days(), request.budget(),
-            "用户修改要求：" + modifyRequest, 0);
+            "用户修改要求：" + modifyRequest, 0, null);
         PlannerAgent.Output plannerOut = plannerAgent.run(plannerInput);
         if (plannerOut.error() != null) {
             return PlanResult.error(plannerOut.error());

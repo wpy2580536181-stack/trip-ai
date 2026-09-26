@@ -6,5 +6,11 @@ package com.trip.backend.service.agent.dto;
 public record PlanRequest(
     String city,
     Integer days,
-    Integer budget
-) {}
+    Integer budget,
+    String message
+) {
+    /** 兼容：无用户原始 message。 */
+    public PlanRequest(String city, Integer days, Integer budget) {
+        this(city, days, budget, null);
+    }
+}

@@ -30,7 +30,8 @@ public class DomainEvaluators {
     // 饮食规则
     private static final Map<String, DietaryRule> DIETARY_RULES = Map.of(
             "halal", new DietaryRule("清真", List.of("清真"), List.of(
-                    "猪肉", "培根", "火腿", "香肠", "烤肠", "猪骨", "猪蹄", "烤鸭", "羊肉", "牛肉"
+                    // 清真禁忌：猪及其制品、血、酒、未诵宰之肉；牛羊鸡鱼在清真屠宰下允许
+                    "猪肉", "培根", "火腿", "香肠", "烤肠", "猪骨", "猪蹄", "猪油", "猪血"
             )),
             "vegetarian", new DietaryRule("素食", List.of("素食", "素菜", "斋饭"), List.of(
                     "牛肉", "羊肉", "鸡肉", "猪肉", "鱼", "虾", "蟹"

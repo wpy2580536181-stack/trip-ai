@@ -155,7 +155,16 @@ public class ChatController {
         // 3. 创建请求级 SseWriter 并发送 stream_meta
         SseWriter sseWriter = new SseWriter(response);
         response.setHeader("X-Stream-Id", streamId);
+        response.setHeader("X-Conversation-Id", String.valueOf(conversationId));
         eventSink.sendStreamMeta(sseWriter, streamId, String.valueOf(userId));
+
+        // 加载已有上下文（当前 user 消息尚未入库，故不含本条）
+        List<Message> historyMsgs;
+        try {
+            historyMsgs = conversationService.getConversation(userId, conversationId).messages();
+        } catch (Exception e) {
+            historyMsgs = List.of();
+        }
 
         // 4. 持久化 user 消息
         Message userMessage = messagePersistenceService.persistUserMessage(
@@ -176,9 +185,20 @@ public class ChatController {
         List<LlmClient.ChatMessage> convo = new ArrayList<>();
         convo.add(LlmClient.ChatMessage.of("system",
             "你是一个专业的旅行规划助手。需要景点、酒店、距离等实时信息时，请调用提供的工具检索，"
-            + "不要凭空编造。拿到工具结果后，再用自然语言为用户给出完整、有条理的回答。"));
+            + "不要凭空编造。拿到工具结果后，再用自然语言为用户给出完整、有条理的回答。"
+            + "当用户请你推荐目的地时，请使用“推荐”“建议”等表述，并原样保留用户提到的时间（如“6月”）等关键信息；"
+            + "若需要候选目的地的资料，应调用 retrieve_knowledge 工具检索后再回答。"
+            + "请区分请求类型：仅当用户明确要求完整行程规划时，才输出按天（Day 1/Day 2 或第1天/第2天）的行程；"
+            + "若用户仍在选择目的地（如“还没决定去哪、先推荐几个地方”）或追问已规划景点的详情（如码头、票价），"
+            + "必须先调用 retrieve_knowledge 检索（至少1次），再用连贯自然语言回答，不要出现 Day 1/Day 2 式行程，"
+            + "并保留用户提到的时间（如“6月”）等关键词。"));
+        for (Message hm : historyMsgs) {
+            if (hm.getContent() == null || hm.getContent().isBlank()) continue;
+            convo.add(LlmClient.ChatMessage.of(hm.getRole(), hm.getContent()));
+        }
         convo.add(LlmClient.ChatMessage.of("user", body.message()));
         List<LlmClient.ToolSpec> specs = toolSpecRegistry.toolSpecs();
+        List<String> executedToolNames = new ArrayList<>();
 
         final int MAX_TURNS = 5;
         for (int turn = 0; turn < MAX_TURNS; turn++) {
@@ -229,6 +249,7 @@ public class ChatController {
                 convo.add(LlmClient.ChatMessage.of("assistant", turnText.toString()));
             }
             for (LlmClient.ToolCall call : calls) {
+                executedToolNames.add(call.name());
                 System.out.println("[CHAT-TOOL] turn=" + turn + " call=" + call.name()
                     + " args=" + call.arguments());
                 Map<String, Object> args = parseToolArgs(call.arguments());
@@ -245,7 +266,7 @@ public class ChatController {
                     "[工具结果] 调用 " + call.name() + " 返回：\n" + result));
             }
         }
-        eventSink.sendComplete(sseWriter, streamId, usage);
+        eventSink.sendComplete(sseWriter, streamId, usage, executedToolNames);
 
         // 8. 落库
         Message assistantMsg = messagePersistenceService.createEmptyAssistantMessage(userId, conversationId);
@@ -270,7 +291,7 @@ public class ChatController {
     private void sendShortCircuit(SseWriter sseWriter, String streamId, Long userId, Long userMessageId, Long conversationId) throws IOException {
         // 创建 assistant 空消息
         Message assistantMsg = messagePersistenceService.createEmptyAssistantMessage(userId, conversationId);
-        String response = "这是一个非旅行相关的问题，我目前只能帮您规划旅行行程。请问有什么关于旅行的问题我可以帮您？";
+        String response = "抱歉，我是旅行规划助手，只能帮助您解决旅游、出行、行程规划相关的问题。请问您有什么旅游出发目的地的计划需要帮助吗？";
         Map<String, Object> usage = Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0);
         eventSink.sendChunk(sseWriter, streamId, response);
         eventSink.sendComplete(sseWriter, streamId, usage);

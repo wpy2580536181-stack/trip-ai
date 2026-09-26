@@ -15,14 +15,15 @@ public interface PlannerAgent {
         int days,
         int budget,
         String feedback,
-        int attempt
+        int attempt,
+        String userMessage
     ) {
-        public static Input first(ResearchBundle bundle, String city, int days, int budget) {
-            return new Input(bundle, city, days, budget, "", 0);
+        public static Input first(ResearchBundle bundle, String city, int days, int budget, String userMessage) {
+            return new Input(bundle, city, days, budget, "", 0, userMessage);
         }
 
         public Input withFeedback(String fb, int attemptNum) {
-            return new Input(bundle, city, days, budget, fb, attemptNum);
+            return new Input(bundle, city, days, budget, fb, attemptNum, userMessage);
         }
     }
 

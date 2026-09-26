@@ -20,7 +20,8 @@ public class NonTravelShortCircuit {
     private static final Pattern NON_TRAVEL_PATTERN = Pattern.compile(
         "^(你好|hello|hi|hey|谢谢|thank|天气|weather|新闻|news|股票|stock|基金|fund|"
         + "笑话|joke|八卦|gossip|音乐|music|电影|movie|电视剧|tv|"
-        + "你好呀|嗨|hi呀|在吗|在不在)",
+        + "你好呀|嗨|hi呀|在吗|在不在|"
+        + "python|java|javascript|list|tuple|dict|函数|代码|编程|算法|报错|bug|sql|regex|怎么写|栈|线程|编译|变量|数组|loop|tuple)",
         Pattern.CASE_INSENSITIVE
     );
 
@@ -46,7 +47,7 @@ public class NonTravelShortCircuit {
      * @return 短路事件序列（JSON 字符串数组）
      */
     public String[] generateShortCircuitEvents(String userMessage) {
-        String response = "这是一个非旅行相关的问题，我目前只能帮您规划旅行行程。请问有什么关于旅行的问题我可以帮您？";
+        String response = "抱歉，我是旅行规划助手，只能帮助您解决旅游、出行、行程规划相关的问题。请问您有什么旅游出发目的地的计划需要帮助吗？";
 
         return new String[] {
             String.format("{\"type\":\"chunk\",\"data\":{\"content\":%s}}", escapeJson(response)),

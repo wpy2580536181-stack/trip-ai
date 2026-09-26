@@ -152,7 +152,7 @@ class OrchestratorTest {
     // ---- 判定 4：候选池外 spot → 打回 ----
     @Test
     void spotOutsidePoolRejected() {
-        ResearchBundle bundle = new ResearchBundle(Set.of("故宫", "天安门"), "", "", "", "", "");
+        ResearchBundle bundle = new ResearchBundle(Set.of("故宫", "天安门"), "", "", "", "", "", java.util.List.of());
         ReviewService review = new ReviewService();
         // 用了池外"迪士尼"
         ReviewService.Outcome out = review.review(goodJson(2, 800, "故宫", "迪士尼"),

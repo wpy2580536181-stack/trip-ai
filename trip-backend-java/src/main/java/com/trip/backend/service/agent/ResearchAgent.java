@@ -9,7 +9,9 @@ package com.trip.backend.service.agent;
 public interface ResearchAgent {
 
     /** 输入。 */
-    record Input(String city, int days, int budget) {}
+    record Input(String city, int days, int budget, String userMessage) {
+        Input(String city, int days, int budget) { this(city, days, budget, null); }
+    }
 
     /** 输出。 */
     record Output(ResearchBundle bundle, String error) {

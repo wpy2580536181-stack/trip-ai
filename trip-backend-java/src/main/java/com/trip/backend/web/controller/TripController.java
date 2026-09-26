@@ -52,7 +52,8 @@ public class TripController {
                 userId,
                 request.city(),
                 request.budget() != null ? request.budget() : 0,
-                request.days() != null ? request.days() : 1
+                request.days() != null ? request.days() : 1,
+                request.message()
             );
 
             return ResponseEntity.ok(result);
@@ -128,7 +129,8 @@ public class TripController {
                 userId,
                 request.city(),
                 request.budget() != null ? request.budget() : 0,
-                request.days() != null ? request.days() : 1
+                request.days() != null ? request.days() : 1,
+                request.message()
             );
 
             writer.write("data: " + toJson(Map.of(
