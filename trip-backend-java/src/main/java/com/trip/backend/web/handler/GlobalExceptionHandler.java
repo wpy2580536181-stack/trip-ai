@@ -9,6 +9,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.jdbc.BadSqlGrammarException;
 import org.springframework.jdbc.CannotGetJdbcConnectionException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.MethodArgumentNotValidException;
+import org.springframework.web.servlet.resource.NoResourceFoundException;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import java.sql.SQLException;
@@ -144,6 +146,37 @@ public class GlobalExceptionHandler {
                     .body(body);
             }
         }
+    }
+
+    /**
+     * 参数校验失败 400
+     */
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    public ResponseEntity<Map<String, Object>> handleValidation(MethodArgumentNotValidException ex, HttpServletRequest request) {
+        String msg = ex.getBindingResult().getFieldErrors().stream()
+            .map(fe -> fe.getField() + ": " + fe.getDefaultMessage())
+            .findFirst().orElse("参数校验失败");
+        Map<String, Object> body = new HashMap<>();
+        if (FormatResolver.isFormatA(request)) {
+            body.put("success", false); body.put("data", null); body.put("message", msg);
+        } else {
+            body.put("code", 400); body.put("data", null); body.put("message", msg); body.put("error", msg);
+        }
+        return ResponseEntity.status(400).body(body);
+    }
+
+    /**
+     * 路径不存在 404
+     */
+    @ExceptionHandler(NoResourceFoundException.class)
+    public ResponseEntity<Map<String, Object>> handleNotFound(NoResourceFoundException ex, HttpServletRequest request) {
+        Map<String, Object> body = new HashMap<>();
+        if (FormatResolver.isFormatA(request)) {
+            body.put("success", false); body.put("data", null); body.put("message", "接口不存在");
+        } else {
+            body.put("code", 404); body.put("data", null); body.put("message", "Not Found"); body.put("error", "Not Found");
+        }
+        return ResponseEntity.status(404).body(body);
     }
 
     /**
