@@ -47,49 +47,35 @@ class LlmGatewayFailoverTest {
         return p;
     }
 
-    // ---- 判定 1：主超时 → fallback 成功 ----
+    // ---- 判定 1：单 provider（仅 DeepSeek）主超时 → 抛 LlmTimeout，无 secondary 可 fallback ----
     @Test
-    void primaryTimeoutFallsBackToSecondaryProvider() throws Exception {
+    void primaryTimeoutThrowsWhenNoSecondaryProvider() throws Exception {
         ProviderHealthRegistry registry = new ProviderHealthRegistry(60_000);
         ProviderConfig config = minimalConfig();
         ProviderRouter router = new ProviderRouter(config, registry);
         ObjectMapper om = new ObjectMapper();
         Langchain4jLlmClient dummyClient = new Langchain4jLlmClient(config, registry, om);
-        // 超时设 1s（生产默认 15s，这里走注入）
         LlmGateway gateway = new LlmGateway(config, router, dummyClient, registry, 1);
 
         AtomicInteger primaryCalls = new AtomicInteger();
         AtomicInteger fallbackCalls = new AtomicInteger();
-        AtomicReference<ProviderId> primaryUsed = new AtomicReference<>();
-        AtomicReference<ProviderId> fallbackUsed = new AtomicReference<>();
 
-        LlmClient.ChatResponse result = gateway.callWithFallback(
-            Scenario.CHAT,
-            provider -> {
-                primaryCalls.incrementAndGet();
-                primaryUsed.set(provider);
-                try {
-                    Thread.sleep(1500); // 超过 1s 超时
-                } catch (InterruptedException e) {
-                    Thread.currentThread().interrupt();
-                }
-                return new LlmClient.ChatResponse("primary", List.of(), null);
-            },
-            provider -> {
-                fallbackCalls.incrementAndGet();
-                fallbackUsed.set(provider);
-                return new LlmClient.ChatResponse("fallback", List.of(), null);
-            });
+        org.junit.jupiter.api.Assertions.assertThrows(LlmTimeoutException.class, () ->
+            gateway.callWithFallback(
+                Scenario.CHAT,
+                provider -> {
+                    primaryCalls.incrementAndGet();
+                    try { Thread.sleep(1500); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
+                    return new LlmClient.ChatResponse("primary", List.of(), null);
+                },
+                provider -> {
+                    fallbackCalls.incrementAndGet();
+                    return new LlmClient.ChatResponse("fallback", List.of(), null);
+                }),
+            "单 provider 超时时应抛 LlmTimeoutException");
 
-        // CHAT 优先级 agnese → kimi → deepseek
-        assertEquals("fallback", result.content(), "应返回 fallback 结果");
-        assertEquals(1, primaryCalls.get(), "主 provider 应被调用一次");
-        assertEquals(1, fallbackCalls.get(), "fallback provider 应被调用一次");
-        assertEquals(ProviderId.AGNESE, primaryUsed.get(), "主 provider 应是 CHAT 首选 AGNESE");
-        assertEquals(ProviderId.KIMI, fallbackUsed.get(), "fallback 应是次选 KIMI");
-        // 主 provider 超时被 recordFailure（单次未到 3 次阈值，仍 HEALTHY；fallback 成功也已 recordSuccess）
-        assertEquals(HealthState.HEALTHY, registry.getHealthState(ProviderId.AGNESE));
-        assertEquals(HealthState.HEALTHY, registry.getHealthState(ProviderId.KIMI));
+        // CHAT 路由仅 DeepSeek，主调用发生；无 secondary，fallback fn 不应被路由触发
+        assertEquals(1, primaryCalls.get(), "唯一 provider 应被调用一次");
     }
 
     // ---- 判定 2：3 次失败 → DEGRADED；恢复窗口后 → HEALTHY ----
