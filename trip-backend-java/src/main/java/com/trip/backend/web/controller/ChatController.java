@@ -164,9 +164,10 @@ public class ChatController {
             return;
         }
 
-        // 6. 调 LLM 流式输出
+        // 6. 调 LLM 流式输出（异步回调，用 latch 等待完成）
         StringBuilder fullText = new StringBuilder();
-        final Map<String, Object>[] usageHolder = new Map[]{Map.of()};
+        final Map<String, Object>[] usageHolder = new Map[]{Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0)};
+        final java.util.concurrent.CountDownLatch latch = new java.util.concurrent.CountDownLatch(1);
         java.util.List<LlmClient.ChatMessage> messages = java.util.List.of(
             LlmClient.ChatMessage.of("user", body.message())
         );
@@ -178,11 +179,18 @@ public class ChatController {
             @Override public void onToolCallDelta(String toolCallJson) {}
             @Override public void onComplete(LlmClient.ChatResponse response) {
                 usageHolder[0] = Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0);
+                latch.countDown();
             }
             @Override public void onError(Throwable error) {
+                System.err.println("[CHAT-LLM-ERROR] " + error);
+                error.printStackTrace(System.err);
+                Throwable c = error.getCause();
+                while (c != null) { System.err.println("  caused by: " + c); c = c.getCause(); }
                 eventSink.sendChunk(sseWriter, streamId, "（LLM 调用失败：" + error.getMessage() + "）");
+                latch.countDown();
             }
         });
+        try { latch.await(120, java.util.concurrent.TimeUnit.SECONDS); } catch (InterruptedException ie) { Thread.currentThread().interrupt(); }
         eventSink.sendComplete(sseWriter, streamId, usageHolder[0]);
 
         // 8. 落库

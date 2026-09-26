@@ -193,3 +193,8 @@ management:
     export:
       prometheus:
         enabled: true
+
+logging:
+  level:
+    dev.langchain4j: DEBUG
+    com.trip.backend.service.llm: DEBUG
