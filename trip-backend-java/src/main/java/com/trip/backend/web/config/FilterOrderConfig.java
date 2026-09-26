@@ -1,6 +1,8 @@
 package com.trip.backend.web.config;
 
 import com.trip.backend.web.filter.*;
+import com.trip.backend.middleware.ConcurrencyGuard;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.filter.CorsFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
@@ -64,6 +66,20 @@ public class FilterOrderConfig {
     public FilterRegistrationBean<CorsFilter> corsFilterRegistration(CorsFilter filter) {
         FilterRegistrationBean<CorsFilter> registration = new FilterRegistrationBean<>(filter);
         registration.setOrder(0); // 最外层，最先执行
+        return registration;
+    }
+
+    @Bean
+    public ConcurrencyGuard concurrencyGuard(
+            @Value("${concurrency.global.limit:10}") int globalLimit,
+            @Value("${concurrency.per-user.limit:1}") int perUserLimit) {
+        return new ConcurrencyGuard(globalLimit, perUserLimit);
+    }
+
+    @Bean
+    public FilterRegistrationBean<ConcurrencyGuardFilter> concurrencyGuardFilterRegistration(ConcurrencyGuardFilter filter) {
+        FilterRegistrationBean<ConcurrencyGuardFilter> registration = new FilterRegistrationBean<>(filter);
+        registration.setOrder(6); // JWT/限流之后、controller 之前
         return registration;
     }
 }
