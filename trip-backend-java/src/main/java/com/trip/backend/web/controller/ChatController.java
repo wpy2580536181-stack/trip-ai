@@ -8,6 +8,7 @@ import com.trip.backend.service.ConversationService;
 import com.trip.backend.service.llm.LlmGateway;
 import com.trip.backend.service.llm.Scenario;
 import com.trip.backend.service.llm.LlmClient;
+import com.trip.backend.service.agent.tools.ToolSpecRegistry;
 import com.trip.backend.service.TripService;
 import com.trip.backend.service.chat.EventSink;
 import com.trip.backend.service.chat.MessagePersistenceService;
@@ -26,6 +27,8 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 import java.io.IOException;
 
@@ -54,6 +57,7 @@ public class ChatController {
     private final ConversationService conversationService;
     private final PrometheusMetrics prometheusMetrics;
     private final LlmGateway llmGateway;
+    private final ToolSpecRegistry toolSpecRegistry;
     // private final ResumeHandler resumeHandler; // TODO: 暂时禁用（需要 Redis）
 
     public ChatController(
@@ -64,7 +68,8 @@ public class ChatController {
             StreamStore streamStore,
             ConversationService conversationService,
             PrometheusMetrics prometheusMetrics,
-            LlmGateway llmGateway/*,
+            LlmGateway llmGateway,
+            ToolSpecRegistry toolSpecRegistry/*,
             ResumeHandler resumeHandler*/) {
         this.tripService = tripService;
         this.eventSink = eventSink;
@@ -74,6 +79,7 @@ public class ChatController {
         this.conversationService = conversationService;
         this.prometheusMetrics = prometheusMetrics;
         this.llmGateway = llmGateway;
+        this.toolSpecRegistry = toolSpecRegistry;
         // this.resumeHandler = resumeHandler;
     }
 
@@ -164,39 +170,98 @@ public class ChatController {
             return;
         }
 
-        // 6. 调 LLM 流式输出（异步回调，用 latch 等待完成）
+        // 6. Agent 循环：LLM 流式 + 多轮工具调用
         StringBuilder fullText = new StringBuilder();
-        final Map<String, Object>[] usageHolder = new Map[]{Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0)};
-        final java.util.concurrent.CountDownLatch latch = new java.util.concurrent.CountDownLatch(1);
-        java.util.List<LlmClient.ChatMessage> messages = java.util.List.of(
-            LlmClient.ChatMessage.of("user", body.message())
-        );
-        llmGateway.stream(Scenario.CHAT, messages, new LlmClient.StreamHandler() {
-            @Override public void onPartialResponse(String text) {
-                fullText.append(text);
-                eventSink.sendChunk(sseWriter, streamId, text);
+        final Map<String, Object> usage = Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0);
+        List<LlmClient.ChatMessage> convo = new ArrayList<>();
+        convo.add(LlmClient.ChatMessage.of("system",
+            "你是一个专业的旅行规划助手。需要景点、酒店、距离等实时信息时，请调用提供的工具检索，"
+            + "不要凭空编造。拿到工具结果后，再用自然语言为用户给出完整、有条理的回答。"));
+        convo.add(LlmClient.ChatMessage.of("user", body.message()));
+        List<LlmClient.ToolSpec> specs = toolSpecRegistry.toolSpecs();
+
+        final int MAX_TURNS = 5;
+        for (int turn = 0; turn < MAX_TURNS; turn++) {
+            final java.util.concurrent.CountDownLatch latch = new java.util.concurrent.CountDownLatch(1);
+            final List<LlmClient.ToolCall>[] toolCallsHolder = new List[]{List.of()};
+            final Throwable[] errHolder = new Throwable[]{null};
+            final StringBuilder turnText = new StringBuilder();
+
+            llmGateway.stream(Scenario.CHAT, convo, specs, new LlmClient.StreamHandler() {
+                @Override public void onPartialResponse(String text) {
+                    turnText.append(text);
+                    fullText.append(text);
+                    eventSink.sendChunk(sseWriter, streamId, text);
+                }
+                @Override public void onToolCallDelta(String json) {}
+                @Override public void onComplete(LlmClient.ChatResponse response) {
+                    if (response != null && response.toolCalls() != null) {
+                        toolCallsHolder[0] = response.toolCalls();
+                    }
+                    latch.countDown();
+                }
+                @Override public void onError(Throwable error) {
+                    errHolder[0] = error;
+                    latch.countDown();
+                }
+            });
+            try { latch.await(120, java.util.concurrent.TimeUnit.SECONDS); }
+            catch (InterruptedException ie) { Thread.currentThread().interrupt(); }
+
+            if (errHolder[0] != null) {
+                Throwable e = errHolder[0];
+                System.err.println("[CHAT-LLM-ERROR] turn=" + turn + " : " + e);
+                e.printStackTrace(System.err);
+                String note = "（LLM 调用失败：" + e.getMessage() + "）";
+                fullText.append(note);
+                eventSink.sendChunk(sseWriter, streamId, note);
+                break;
             }
-            @Override public void onToolCallDelta(String toolCallJson) {}
-            @Override public void onComplete(LlmClient.ChatResponse response) {
-                usageHolder[0] = Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0);
-                latch.countDown();
+
+            List<LlmClient.ToolCall> calls = toolCallsHolder[0];
+            if (calls.isEmpty()) {
+                // 无工具调用：最终自然语言回复已通过 onPartialResponse 逐字推送
+                break;
             }
-            @Override public void onError(Throwable error) {
-                System.err.println("[CHAT-LLM-ERROR] " + error);
-                error.printStackTrace(System.err);
-                Throwable c = error.getCause();
-                while (c != null) { System.err.println("  caused by: " + c); c = c.getCause(); }
-                eventSink.sendChunk(sseWriter, streamId, "（LLM 调用失败：" + error.getMessage() + "）");
-                latch.countDown();
+
+            // 有工具调用：记录 assistant 这一轮，逐个执行工具并把结果回灌
+            if (!turnText.isEmpty()) {
+                convo.add(LlmClient.ChatMessage.of("assistant", turnText.toString()));
             }
-        });
-        try { latch.await(120, java.util.concurrent.TimeUnit.SECONDS); } catch (InterruptedException ie) { Thread.currentThread().interrupt(); }
-        eventSink.sendComplete(sseWriter, streamId, usageHolder[0]);
+            for (LlmClient.ToolCall call : calls) {
+                System.out.println("[CHAT-TOOL] turn=" + turn + " call=" + call.name()
+                    + " args=" + call.arguments());
+                Map<String, Object> args = parseToolArgs(call.arguments());
+                String result;
+                try {
+                    result = toolSpecRegistry.call(call.name(), args);
+                } catch (Exception ex) {
+                    result = "工具执行失败: " + ex.getMessage();
+                }
+                System.out.println("[CHAT-TOOL] result(head)="
+                    + (result != null ? result.substring(0, Math.min(120, result.length())) : "null"));
+                // 用 user 消息回灌工具结果（避免 tool_call/tool result 严格配对问题）
+                convo.add(LlmClient.ChatMessage.of("user",
+                    "[工具结果] 调用 " + call.name() + " 返回：\n" + result));
+            }
+        }
+        eventSink.sendComplete(sseWriter, streamId, usage);
 
         // 8. 落库
         Message assistantMsg = messagePersistenceService.createEmptyAssistantMessage(userId, conversationId);
         messagePersistenceService.appendAssistantContent(assistantMsg.getId(), fullText.toString());
-        messagePersistenceService.forceFlush(assistantMsg.getId(), usageHolder[0]);
+        messagePersistenceService.forceFlush(assistantMsg.getId(), usage);
+    }
+
+    /** 解析工具 arguments JSON 字符串为 Map；失败返回空 Map。 */
+    private Map<String, Object> parseToolArgs(String json) {
+        if (json == null || json.isBlank()) return Map.of();
+        try {
+            com.fasterxml.jackson.databind.ObjectMapper om = new com.fasterxml.jackson.databind.ObjectMapper();
+            return om.readValue(json, new com.fasterxml.jackson.core.type.TypeReference<Map<String, Object>>() {});
+        } catch (Exception e) {
+            return Map.of();
+        }
     }
 
     /**

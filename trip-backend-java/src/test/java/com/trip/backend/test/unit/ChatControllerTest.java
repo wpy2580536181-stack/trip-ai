@@ -38,6 +38,7 @@ class ChatControllerTest {
     private final ConversationService conversationService = mock(ConversationService.class);
     private final PrometheusMetrics prometheusMetrics = mock(PrometheusMetrics.class);
     private final com.trip.backend.service.llm.LlmGateway llmGateway = mock(com.trip.backend.service.llm.LlmGateway.class);
+    private final com.trip.backend.service.agent.tools.ToolSpecRegistry toolSpecRegistry = mock(com.trip.backend.service.agent.tools.ToolSpecRegistry.class);
 
     private final ChatController controller = new ChatController(
         tripService,
@@ -47,7 +48,8 @@ class ChatControllerTest {
         streamStore,
         conversationService,
         prometheusMetrics,
-        llmGateway
+        llmGateway,
+        toolSpecRegistry
     );
 
     @Test
