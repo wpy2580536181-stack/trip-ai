@@ -5,6 +5,9 @@ import com.trip.backend.domain.entity.Conversation;
 import com.trip.backend.domain.entity.Message;
 import com.trip.backend.infra.metrics.PrometheusMetrics;
 import com.trip.backend.service.ConversationService;
+import com.trip.backend.service.llm.LlmGateway;
+import com.trip.backend.service.llm.Scenario;
+import com.trip.backend.service.llm.LlmClient;
 import com.trip.backend.service.TripService;
 import com.trip.backend.service.chat.EventSink;
 import com.trip.backend.service.chat.MessagePersistenceService;
@@ -50,6 +53,7 @@ public class ChatController {
     private final StreamStore streamStore;
     private final ConversationService conversationService;
     private final PrometheusMetrics prometheusMetrics;
+    private final LlmGateway llmGateway;
     // private final ResumeHandler resumeHandler; // TODO: 暂时禁用（需要 Redis）
 
     public ChatController(
@@ -59,7 +63,8 @@ public class ChatController {
             NonTravelShortCircuit nonTravelShortCircuit,
             StreamStore streamStore,
             ConversationService conversationService,
-            PrometheusMetrics prometheusMetrics/*,
+            PrometheusMetrics prometheusMetrics,
+            LlmGateway llmGateway/*,
             ResumeHandler resumeHandler*/) {
         this.tripService = tripService;
         this.eventSink = eventSink;
@@ -68,6 +73,7 @@ public class ChatController {
         this.streamStore = streamStore;
         this.conversationService = conversationService;
         this.prometheusMetrics = prometheusMetrics;
+        this.llmGateway = llmGateway;
         // this.resumeHandler = resumeHandler;
     }
 
@@ -158,19 +164,31 @@ public class ChatController {
             return;
         }
 
-        // 6. 发送响应
-        String responseText = "这是一个模拟的旅行规划响应。E4 测试期间使用简化版本。";
-        Map<String, Object> completeData = Map.of(
-            "type", "complete",
-            "usage", Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0)
+        // 6. 调 LLM 流式输出
+        StringBuilder fullText = new StringBuilder();
+        final Map<String, Object>[] usageHolder = new Map[]{Map.of()};
+        java.util.List<LlmClient.ChatMessage> messages = java.util.List.of(
+            LlmClient.ChatMessage.of("user", body.message())
         );
-        eventSink.sendChunk(sseWriter, streamId, responseText);
-        eventSink.sendComplete(sseWriter, streamId, completeData.get("usage"));
+        llmGateway.stream(Scenario.CHAT, messages, new LlmClient.StreamHandler() {
+            @Override public void onPartialResponse(String text) {
+                fullText.append(text);
+                eventSink.sendChunk(sseWriter, streamId, text);
+            }
+            @Override public void onToolCallDelta(String toolCallJson) {}
+            @Override public void onComplete(LlmClient.ChatResponse response) {
+                usageHolder[0] = Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0);
+            }
+            @Override public void onError(Throwable error) {
+                eventSink.sendChunk(sseWriter, streamId, "（LLM 调用失败：" + error.getMessage() + "）");
+            }
+        });
+        eventSink.sendComplete(sseWriter, streamId, usageHolder[0]);
 
         // 8. 落库
         Message assistantMsg = messagePersistenceService.createEmptyAssistantMessage(userId, conversationId);
-        messagePersistenceService.appendAssistantContent(assistantMsg.getId(), responseText);
-        messagePersistenceService.forceFlush(assistantMsg.getId(), Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0));
+        messagePersistenceService.appendAssistantContent(assistantMsg.getId(), fullText.toString());
+        messagePersistenceService.forceFlush(assistantMsg.getId(), usageHolder[0]);
     }
 
     /**
