@@ -7,6 +7,7 @@ import org.hibernate.annotations.JdbcTypeCode;
 import org.hibernate.type.SqlTypes;
 
 import java.time.OffsetDateTime;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -43,7 +44,7 @@ public class Spot {
     // JSONB 列
     @JdbcTypeCode(SqlTypes.JSON)
     @Column(columnDefinition = "json")
-    private Map<String, Object> tags;
+    private List<String> tags;
 
     @Column
     private Integer avgCost;
@@ -109,7 +110,7 @@ public class Spot {
         return description;
     }
 
-    public Map<String, Object> getTags() {
+    public List<String> getTags() {
         return tags;
     }
 
@@ -160,7 +161,7 @@ public class Spot {
         this.description = description;
     }
 
-    public void setTags(Map<String, Object> tags) {
+    public void setTags(List<String> tags) {
         this.tags = tags;
     }
 

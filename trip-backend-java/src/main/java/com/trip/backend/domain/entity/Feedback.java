@@ -25,13 +25,13 @@ public class Feedback {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false)
+    @Column(name="user_id", nullable = false)
     private Long userId;
 
-    @Column(nullable = false)
+    @Column(name="message_id", nullable = false)
     private Long messageId;
 
-    @Column(nullable = false)
+    @Column(name="conversation_id", nullable = false)
     private Long conversationId;
 
     @Column(nullable = false)
@@ -45,7 +45,7 @@ public class Feedback {
     @Column(columnDefinition = "json")
     private List<String> tags;
 
-    @Column(nullable = false)
+    @Column(name="created_at", nullable = false)
     private OffsetDateTime createdAt;
 
     protected Feedback() {}

@@ -59,7 +59,7 @@ public class KnowledgeRagService {
         );
         spot.setCategory((String) data.get("category"));
         spot.setDescription((String) data.get("description"));
-        spot.setTags((Map<String, Object>) data.get("tags"));
+        spot.setTags((java.util.List<String>) data.get("tags"));
         spot.setAvgCost(data.get("avg_cost") != null ? ((Number) data.get("avg_cost")).intValue() : null);
         spot.setDuration(data.get("duration") != null ? ((Number) data.get("duration")).intValue() : null);
         spot.setOpenTime((String) data.get("open_time"));
@@ -99,7 +99,7 @@ public class KnowledgeRagService {
         if (data.containsKey("city")) spot.setCity((String) data.get("city"));
         if (data.containsKey("category")) spot.setCategory((String) data.get("category"));
         if (data.containsKey("description")) spot.setDescription((String) data.get("description"));
-        if (data.containsKey("tags")) spot.setTags((Map<String, Object>) data.get("tags"));
+        if (data.containsKey("tags")) spot.setTags((java.util.List<String>) data.get("tags"));
         if (data.containsKey("avg_cost")) spot.setAvgCost(((Number) data.get("avg_cost")).intValue());
         if (data.containsKey("duration")) spot.setDuration(((Number) data.get("duration")).intValue());
         if (data.containsKey("open_time")) spot.setOpenTime((String) data.get("open_time"));

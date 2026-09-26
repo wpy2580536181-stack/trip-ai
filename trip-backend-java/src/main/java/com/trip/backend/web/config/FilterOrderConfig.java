@@ -1,6 +1,7 @@
 package com.trip.backend.web.config;
 
 import com.trip.backend.web.filter.*;
+import org.springframework.web.filter.CorsFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -58,5 +59,11 @@ public class FilterOrderConfig {
         return registration;
     }
 
-    // CorsFilter 由 CorsConfig 自动注册，order=0（Spring Security 默认）
+    // CorsFilter：必须在所有业务 filter（JWT/限流）之前，否则 OPTIONS preflight 被拦成 401
+    @Bean
+    public FilterRegistrationBean<CorsFilter> corsFilterRegistration(CorsFilter filter) {
+        FilterRegistrationBean<CorsFilter> registration = new FilterRegistrationBean<>(filter);
+        registration.setOrder(0); // 最外层，最先执行
+        return registration;
+    }
 }

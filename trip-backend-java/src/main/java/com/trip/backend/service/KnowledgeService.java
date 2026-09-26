@@ -102,7 +102,7 @@ public class KnowledgeService {
             (String) data.get("category")
         );
         spot.setDescription((String) data.get("description"));
-        spot.setTags((Map<String, Object>) data.get("tags"));
+        spot.setTags((java.util.List<String>) data.get("tags"));
         spot.setAvgCost((Integer) data.get("avgCost"));
         spot.setDuration((Integer) data.get("duration"));
         spot.setOpenTime((String) data.get("openTime"));
@@ -141,7 +141,7 @@ public class KnowledgeService {
                 case "city" -> spot.setCity((String) value);
                 case "category" -> spot.setCategory((String) value);
                 case "description" -> spot.setDescription((String) value);
-                case "tags" -> spot.setTags((Map<String, Object>) value);
+                case "tags" -> spot.setTags((java.util.List<String>) value);
                 case "avgCost" -> spot.setAvgCost((Integer) value);
                 case "duration" -> spot.setDuration((Integer) value);
                 case "openTime" -> spot.setOpenTime((String) value);
@@ -184,7 +184,7 @@ public class KnowledgeService {
                     (String) data.get("category")
                 );
                 spot.setDescription((String) data.get("description"));
-                spot.setTags((Map<String, Object>) data.get("tags"));
+                spot.setTags((java.util.List<String>) data.get("tags"));
                 spot.setAvgCost((Integer) data.get("avgCost"));
                 spot.setDuration((Integer) data.get("duration"));
                 spot.setOpenTime((String) data.get("openTime"));

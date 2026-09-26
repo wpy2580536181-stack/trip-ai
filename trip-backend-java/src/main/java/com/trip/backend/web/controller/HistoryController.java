@@ -28,7 +28,7 @@ import java.util.Map;
  * - DELETE /api/history/trips/{trip_id}（删除行程）
  */
 @RestController
-@RequestMapping("/api/history/trips")
+@RequestMapping({"/api/history/trips", "/api/trip/history"})
 @Validated
 public class HistoryController {
 
