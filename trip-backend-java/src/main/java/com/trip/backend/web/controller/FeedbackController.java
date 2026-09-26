@@ -74,10 +74,15 @@ public class FeedbackController {
         data.put("page", page);
         data.put("pageSize", pageSize);
 
-        return ResponseEntity.ok(FormatResolver.isFormatA(request) ?
-            Map.of("success", true, "data", data) :
-            Map.of("code", 200, "data", data, "message", "获取成功", "error", null)
-        );
+        if (FormatResolver.isFormatA(request)) {
+            Map<String,Object> env = new HashMap<>();
+            env.put("success", true); env.put("data", data);
+            return ResponseEntity.ok(env);
+        }
+        Map<String,Object> env = new HashMap<>();
+        env.put("code", 200); env.put("data", data);
+        env.put("message", "获取成功"); env.put("error", null);
+        return ResponseEntity.ok(env);
     }
 
     /**

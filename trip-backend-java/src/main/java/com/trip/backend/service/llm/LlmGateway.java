@@ -1,5 +1,6 @@
 package com.trip.backend.service.llm;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -35,6 +36,7 @@ public class LlmGateway {
     private static final ExecutorService LLM_EXECUTOR = Executors.newThreadPerTaskExecutor(
         Thread.ofVirtual().name("llm-call-", 0).factory());
 
+    @Autowired
     public LlmGateway(ProviderConfig config,
                      ProviderRouter providerRouter,
                      Langchain4jLlmClient llmClient,

@@ -151,6 +151,8 @@ public class GlobalExceptionHandler {
      */
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleException(Exception ex, HttpServletRequest request) {
+        System.err.println("[UNHANDLED-500] " + request.getRequestURI());
+        ex.printStackTrace(System.err);
         boolean formatA = FormatResolver.isFormatA(request);
 
         if (isProduction) {

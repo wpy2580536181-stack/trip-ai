@@ -85,12 +85,10 @@ public class KnowledgeController {
         if (FormatResolver.isFormatA(request)) {
             return ResponseEntity.ok(Map.of("success", true, "data", data));
         } else {
-            return ResponseEntity.ok(Map.of(
-                "code", 200,
-                "data", data,
-                "message", "获取景点列表成功",
-                "error", null
-            ));
+            Map<String,Object> env = new HashMap<>();
+            env.put("code", 200); env.put("data", data);
+            env.put("message", "获取景点列表成功"); env.put("error", null);
+            return ResponseEntity.ok(env);
         }
     }
 
