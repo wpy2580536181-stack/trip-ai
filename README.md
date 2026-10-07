@@ -162,7 +162,7 @@ trip/
 - **任务与缓存**：自研 TaskQueue 双后端（Redis List + SETNX 幂等，Redis 不可用降级到虚拟线程内存执行）、DualBackendCache（Redis + 进程内）
 - **技能系统**：SKILL.md 声明式加载，L1 目录常驻 prompt / L2 规格 lazy-load / L3 执行时按需读取；PatchEngine 支持 `replace_slot` / `remove_slot` / `swap_slot` 槽位级修改
 - **CI**：`trip-backend-java/.github/workflows/java-ci.yml` 五个 job（unit / integration / build / contract 对拍 / performance）
-- **当前状态**：重构进行中，Agent 层与部分链路尚未与 Python 版对齐，以代码为准（详见 `CLAUDE.md` §7 说明）
+- **当前状态**：D 阶段收尾完成——ReAct 多轮工具循环已从 Controller 下沉到 `ChatAgent`、SSE 断点续传（`ResumeHandler`）与 Token 记账（`TokenTrackingCallback`）已接入主链路；并建立可重复运行的性能测试脚本 `perf_test.py`，报告归档于 `performance-reports/`（实测 chat 内部路径 P95 ≈ 11ms，端到端瓶颈为外部 LLM 调用）。以代码为准（详见 `CLAUDE.md` §7 说明）
 
 ## 知识库 RAG
 
@@ -254,6 +254,8 @@ uv run python -m eval.retrieval.run              # 检索层评估
 | Agent 评估 | 10 个 YAML fixture × 16 个 evaluator | mock / `--real` 双模式 + 多采样投票，25+ 份历史报告 |
 
 CI：根 `.github/workflows/` 有 Python 后端、前端、e2e 接口、eval nightly（cron + 与基线对比）四条流水线；Java 侧 `trip-backend-java/.github/workflows/java-ci.yml` 五个 job（unit / integration / build / contract 对拍 / performance）。
+
+**Java 性能测试**：`trip-backend-java/perf_test.py` 对 6 个端点跑单请求基线（P50/P95/P99，默认每端点 30 次）+ 10 并发压测 + Token 成本估算，一键生成 Markdown 报告；报告归档于 `trip-backend-java/performance-reports/`（最新见 `performance-report-latest.md`）。实测内部链路 P95 在个位数~十毫秒级，登录 P95 ≈ 271ms（BCrypt 开销），单次对话约 2430 Token / 万次约 ¥34。
 
 ## 项目说明
 

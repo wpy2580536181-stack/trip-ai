@@ -1,6 +1,8 @@
 package com.trip.backend.web.sse;
 
 import jakarta.servlet.http.HttpServletRequest;
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 
 /**
@@ -9,6 +11,7 @@ import java.util.List;
  * - 重发 seq > lastSeq 全部事件（保留原 id）
  * - 只读重放不改状态
  */
+@Component
 public class ResumeHandler {
 
     private final StreamStore streamStore;

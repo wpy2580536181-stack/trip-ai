@@ -5,16 +5,14 @@ import com.trip.backend.domain.entity.Conversation;
 import com.trip.backend.domain.entity.Message;
 import com.trip.backend.infra.metrics.PrometheusMetrics;
 import com.trip.backend.service.ConversationService;
-import com.trip.backend.service.llm.LlmGateway;
-import com.trip.backend.service.llm.Scenario;
-import com.trip.backend.service.llm.LlmClient;
-import com.trip.backend.service.agent.tools.ToolSpecRegistry;
 import com.trip.backend.service.TripService;
+import com.trip.backend.service.agent.ChatAgent;
 import com.trip.backend.service.chat.EventSink;
 import com.trip.backend.service.chat.MessagePersistenceService;
 import com.trip.backend.service.chat.NonTravelShortCircuit;
 import com.trip.backend.utils.AppException;
 import com.trip.backend.web.sse.ResumeHandler;
+import com.trip.backend.web.sse.SseEvent;
 import com.trip.backend.web.sse.StreamStore;
 import com.trip.backend.web.sse.SseWriter;
 import jakarta.servlet.http.HttpServletRequest;
@@ -56,9 +54,8 @@ public class ChatController {
     private final StreamStore streamStore;
     private final ConversationService conversationService;
     private final PrometheusMetrics prometheusMetrics;
-    private final LlmGateway llmGateway;
-    private final ToolSpecRegistry toolSpecRegistry;
-    // private final ResumeHandler resumeHandler; // TODO: 暂时禁用（需要 Redis）
+    private final ResumeHandler resumeHandler;
+    private final ChatAgent chatAgent;
 
     public ChatController(
             TripService tripService,
@@ -68,9 +65,8 @@ public class ChatController {
             StreamStore streamStore,
             ConversationService conversationService,
             PrometheusMetrics prometheusMetrics,
-            LlmGateway llmGateway,
-            ToolSpecRegistry toolSpecRegistry/*,
-            ResumeHandler resumeHandler*/) {
+            ResumeHandler resumeHandler,
+            ChatAgent chatAgent) {
         this.tripService = tripService;
         this.eventSink = eventSink;
         this.messagePersistenceService = messagePersistenceService;
@@ -78,9 +74,8 @@ public class ChatController {
         this.streamStore = streamStore;
         this.conversationService = conversationService;
         this.prometheusMetrics = prometheusMetrics;
-        this.llmGateway = llmGateway;
-        this.toolSpecRegistry = toolSpecRegistry;
-        // this.resumeHandler = resumeHandler;
+        this.resumeHandler = resumeHandler;
+        this.chatAgent = chatAgent;
     }
 
     /**
@@ -121,17 +116,60 @@ public class ChatController {
     }
 
     /**
-     * 处理续传请求
+     * 处理续传请求（断点续传）
+     * 只读重放 seq > lastSeq 的全部事件，保留原 id，不写入 StreamStore
      */
     private void handleResume(String streamId, String lastEventId, Long userId, HttpServletResponse response) {
-        // TODO: ResumeHandler 暂时禁用（需要 Redis）
-        response.setStatus(501);
+        long lastSeq;
         try {
-            response.getWriter().write("{\"error\":\"续传功能暂未实现\"}");
+            lastSeq = Long.parseLong(lastEventId.trim());
+        } catch (NumberFormatException e) {
+            writeErrorResponse(response, 400, "Invalid Last-Event-ID: " + lastEventId);
+            return;
+        }
+
+        ResumeHandler.ResumeResult result;
+        try {
+            result = resumeHandler.handleResumeWithAuth(streamId, lastSeq, String.valueOf(userId));
+        } catch (ResumeHandler.ResumeException e) {
+            writeErrorResponse(response, e.statusCode, e.getMessage());
+            return;
+        }
+
+        try {
+            SseWriter sseWriter = new SseWriter(response);
+            response.setHeader("X-Stream-Id", streamId);
+
+            // 只读重放：保留原 seq 作为事件 id，不写入 StreamStore
+            for (StreamStore.StreamEvent event : result.events()) {
+                sseWriter.send(SseEvent.of(String.valueOf(event.seq()), event.type(), event.data()));
+            }
+
+            // 续传以 end 帧收尾
+            sseWriter.send(SseEvent.end());
+        } catch (IOException e) {
+            // 客户端断开或写入失败，静默忽略
+        }
+    }
+
+    /**
+     * 写入 JSON 错误响应
+     */
+    private void writeErrorResponse(HttpServletResponse response, int status, String message) {
+        response.setStatus(status);
+        response.setContentType("application/json");
+        response.setCharacterEncoding("UTF-8");
+        try {
+            response.getWriter().write("{\"error\":\"" + escapeJson(message) + "\"}");
             response.getWriter().flush();
         } catch (IOException e) {
             // 忽略
         }
+    }
+
+    private static String escapeJson(String value) {
+        if (value == null) return "";
+        return value.replace("\\", "\\\\").replace("\"", "\\\"").replace("\n", "\\n").replace("\r", "\\r");
     }
 
     /**
@@ -179,8 +217,6 @@ public class ChatController {
             return;
         }
 
-        final Map<String, Object> usage = Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0);
-
         // 5.5 修改行程意图检测：含"第N天" + 修改动词 → 走 Orchestrator.modify 局部重出
         java.util.regex.Matcher dayMatcher = java.util.regex.Pattern.compile("第([一二三四五六七八九十\\d]+)天").matcher(body.message());
         List<Integer> targetDays = new ArrayList<>();
@@ -198,6 +234,7 @@ public class ChatController {
                 Map<String, Object> data = (Map<String, Object>) modResult.get("data");
                 String summary = "已为您修改行程：第" + targetDays + "天已按要求更新，新版本已保存（tripId="
                     + data.get("id") + "）。";
+                Map<String, Object> usage = Map.of("prompt", 0, "completion", 0, "total", 0, "cached", 0);
                 eventSink.sendChunk(sseWriter, streamId, summary);
                 eventSink.sendComplete(sseWriter, streamId, usage, List.of("modify_trip"));
                 Message assistantMsg = messagePersistenceService.createEmptyAssistantMessage(userId, conversationId);
@@ -208,109 +245,25 @@ public class ChatController {
             // 修改失败（如无可用行程）：降级到普通 agent loop
         }
 
-        // 6. Agent 循环：LLM 流式 + 多轮工具调用
-        StringBuilder fullText = new StringBuilder();
-        List<LlmClient.ChatMessage> convo = new ArrayList<>();
-        convo.add(LlmClient.ChatMessage.of("system",
-            "你是一个专业的旅行规划助手。需要景点、酒店、距离等实时信息时，请调用提供的工具检索，"
-            + "不要凭空编造。拿到工具结果后，再用自然语言为用户给出完整、有条理的回答。"
-            + "当用户请你推荐目的地时，请使用“推荐”“建议”等表述，并原样保留用户提到的时间（如“6月”）等关键信息；"
-            + "若需要候选目的地的资料，应调用 retrieve_knowledge 工具检索后再回答。"
-            + "请区分请求类型：仅当用户明确要求完整行程规划时，才输出按天（Day 1/Day 2 或第1天/第2天）的行程；"
-            + "若用户仍在选择目的地（如“还没决定去哪、先推荐几个地方”）或追问已规划景点的详情（如码头、票价），"
-            + "必须先调用 retrieve_knowledge 检索（至少1次），再用连贯自然语言回答，不要出现 Day 1/Day 2 式行程，"
-            + "并保留用户提到的时间（如“6月”）等关键词。"));
-        for (Message hm : historyMsgs) {
-            if (hm.getContent() == null || hm.getContent().isBlank()) continue;
-            convo.add(LlmClient.ChatMessage.of(hm.getRole(), hm.getContent()));
+        // 6. Agent 循环：委托 ChatAgent 执行 ReAct 多轮工具循环（LLM 流式 + 工具调用 + Token 记账）
+        ChatAgent.ChatResult agentResult = chatAgent.chatStream(
+            sseWriter, streamId, userId, body.message(), historyMsgs);
+        if (agentResult.budgetExceeded()) {
+            return;
         }
-        convo.add(LlmClient.ChatMessage.of("user", body.message()));
-        List<LlmClient.ToolSpec> specs = toolSpecRegistry.toolSpecs();
-        List<String> executedToolNames = new ArrayList<>();
 
-        final int MAX_TURNS = 5;
-        for (int turn = 0; turn < MAX_TURNS; turn++) {
-            final java.util.concurrent.CountDownLatch latch = new java.util.concurrent.CountDownLatch(1);
-            final List<LlmClient.ToolCall>[] toolCallsHolder = new List[]{List.of()};
-            final Throwable[] errHolder = new Throwable[]{null};
-            final StringBuilder turnText = new StringBuilder();
+        // 7. 发送 complete + 落库
+        Map<String, Object> usage = Map.of(
+            "prompt", agentResult.promptTokens(),
+            "completion", agentResult.completionTokens(),
+            "total", agentResult.totalTokens(),
+            "cached", 0
+        );
+        eventSink.sendComplete(sseWriter, streamId, usage, agentResult.executedToolNames());
 
-            llmGateway.stream(Scenario.CHAT, convo, specs, new LlmClient.StreamHandler() {
-                @Override public void onPartialResponse(String text) {
-                    turnText.append(text);
-                    fullText.append(text);
-                    eventSink.sendChunk(sseWriter, streamId, text);
-                }
-                @Override public void onToolCallDelta(String json) {}
-                @Override public void onComplete(LlmClient.ChatResponse response) {
-                    if (response != null && response.toolCalls() != null) {
-                        toolCallsHolder[0] = response.toolCalls();
-                    }
-                    latch.countDown();
-                }
-                @Override public void onError(Throwable error) {
-                    errHolder[0] = error;
-                    latch.countDown();
-                }
-            });
-            try { latch.await(120, java.util.concurrent.TimeUnit.SECONDS); }
-            catch (InterruptedException ie) { Thread.currentThread().interrupt(); }
-
-            if (errHolder[0] != null) {
-                Throwable e = errHolder[0];
-                System.err.println("[CHAT-LLM-ERROR] turn=" + turn + " : " + e);
-                e.printStackTrace(System.err);
-                String note = "（LLM 调用失败：" + e.getMessage() + "）";
-                fullText.append(note);
-                eventSink.sendChunk(sseWriter, streamId, note);
-                break;
-            }
-
-            List<LlmClient.ToolCall> calls = toolCallsHolder[0];
-            if (calls.isEmpty()) {
-                // 无工具调用：最终自然语言回复已通过 onPartialResponse 逐字推送
-                break;
-            }
-
-            // 有工具调用：记录 assistant 这一轮，逐个执行工具并把结果回灌
-            if (!turnText.isEmpty()) {
-                convo.add(LlmClient.ChatMessage.of("assistant", turnText.toString()));
-            }
-            for (LlmClient.ToolCall call : calls) {
-                executedToolNames.add(call.name());
-                System.out.println("[CHAT-TOOL] turn=" + turn + " call=" + call.name()
-                    + " args=" + call.arguments());
-                Map<String, Object> args = parseToolArgs(call.arguments());
-                String result;
-                try {
-                    result = toolSpecRegistry.call(call.name(), args);
-                } catch (Exception ex) {
-                    result = "工具执行失败: " + ex.getMessage();
-                }
-                System.out.println("[CHAT-TOOL] result(head)="
-                    + (result != null ? result.substring(0, Math.min(120, result.length())) : "null"));
-                // 用 user 消息回灌工具结果（避免 tool_call/tool result 严格配对问题）
-                convo.add(LlmClient.ChatMessage.of("user",
-                    "[工具结果] 调用 " + call.name() + " 返回：\n" + result));
-            }
-        }
-        eventSink.sendComplete(sseWriter, streamId, usage, executedToolNames);
-
-        // 8. 落库
         Message assistantMsg = messagePersistenceService.createEmptyAssistantMessage(userId, conversationId);
-        messagePersistenceService.appendAssistantContent(assistantMsg.getId(), fullText.toString());
+        messagePersistenceService.appendAssistantContent(assistantMsg.getId(), agentResult.fullText());
         messagePersistenceService.forceFlush(assistantMsg.getId(), usage);
-    }
-
-    /** 解析工具 arguments JSON 字符串为 Map；失败返回空 Map。 */
-    private Map<String, Object> parseToolArgs(String json) {
-        if (json == null || json.isBlank()) return Map.of();
-        try {
-            com.fasterxml.jackson.databind.ObjectMapper om = new com.fasterxml.jackson.databind.ObjectMapper();
-            return om.readValue(json, new com.fasterxml.jackson.core.type.TypeReference<Map<String, Object>>() {});
-        } catch (Exception e) {
-            return Map.of();
-        }
     }
 
     /**
@@ -327,11 +280,6 @@ public class ChatController {
         // 落库
         messagePersistenceService.appendAssistantContent(assistantMsg.getId(), response);
         messagePersistenceService.forceFlush(assistantMsg.getId(), usage);
-    }
-
-    private String extractContent(String json) {
-        // TODO: D8 替换为 JSON 解析
-        return json;
     }
 
     /** 把"一".."十"或阿拉伯数字转为天数；无法解析返回 0。 */

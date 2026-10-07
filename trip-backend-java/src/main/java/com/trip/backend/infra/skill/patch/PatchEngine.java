@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 import java.util.Iterator;
+import org.springframework.stereotype.Component;
 
 /**
  * Patch 引擎：直接对行程 JSON 应用结构化修改
@@ -25,6 +26,7 @@ import java.util.Iterator;
  * - swap_slot 不能同时段
  * - 去重校验（同天其他时段不能有相同景点）
  */
+@Component
 public class PatchEngine {
 
     private static final String[] VALID_PERIODS = {"morning", "afternoon", "evening"};

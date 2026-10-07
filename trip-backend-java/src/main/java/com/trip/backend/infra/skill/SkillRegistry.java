@@ -9,6 +9,7 @@ import com.trip.backend.domain.skill.SkillSpec;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import org.springframework.stereotype.Component;
 
 /**
  * SkillRegistry：三层渐进式披露的技能中枢
@@ -22,6 +23,7 @@ import java.util.regex.Pattern;
  * - 粗选兜底：select(query) 关键词匹配（无 LLM 时）
  * - 批量加载：loadBuiltinSkills()
  */
+@Component
 public class SkillRegistry {
 
     /** 技能存储 */
